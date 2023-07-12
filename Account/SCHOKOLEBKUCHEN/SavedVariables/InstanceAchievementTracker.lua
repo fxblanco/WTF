@@ -9,16 +9,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["InfoFramescale"] = 1,
 	["hideCompletedAchievements"] = false,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -10455,6 +10455,20 @@ AchievementTrackerDebug = {
 	"12/7/2023 0:55 [DEBUG] Resetting PlayerRank", -- [10432]
 	"12/7/2023 0:55 [DEBUG] InfoFrame was not active", -- [10433]
 	"12/7/2023 1:6 [DEBUG] Hiding Tracking UI", -- [10434]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [10435]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.22.0", -- [10436]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [10437]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [10438]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [10439]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [10440]
+	"12/7/2023 16:56 [DEBUG] Showing Minimap Icon", -- [10441]
+	"12/7/2023 17:3 [DEBUG] ---IAT Runtime---", -- [10442]
+	"12/7/2023 17:3 [DEBUG] Version: 4.22.0", -- [10443]
+	"12/7/2023 17:3 [DEBUG] Attempting to load from local NPC Cache classic", -- [10444]
+	"12/7/2023 17:3 [DEBUG] Generating NPC Cache Classic...", -- [10445]
+	"12/7/2023 17:3 [DEBUG] Enabling Addon", -- [10446]
+	"12/7/2023 17:3 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [10447]
+	"12/7/2023 17:3 [DEBUG] Showing Minimap Icon", -- [10448]
 }
 AchievementTrackerNPCCache = {
 }
@@ -10487,9 +10501,9 @@ AchievementTrackerNPCCacheClassic = {
 	[26731] = "Großmagistrix Telestra",
 	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
-	[33136] = "Wächter des Yogg-Saron",
-	[27975] = "Maid der Trauer",
 	[33388] = "Dunkler Runenwächter",
+	[28731] = "Aufseher Silthik",
+	[33136] = "Wächter des Yogg-Saron",
 	[27658] = "Belgaristrasz",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
@@ -10497,7 +10511,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unaufhaltsame Monstrosität",
 	[28729] = "Aufseher Narjil",
 	[28730] = "Aufseher Gashra",
-	[28731] = "Aufseher Silthik",
+	[27975] = "Maid der Trauer",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",

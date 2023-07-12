@@ -51406,12 +51406,12 @@ WeakAurasOptionsSaved = {
 	["savedSnippets"] = {
 	},
 	["spellCacheStrings"] = true,
-	["spellCacheAchivements"] = true,
 	["frame"] = {
-		["xOffset"] = 2108.700805664063,
+		["xOffset"] = 1892.026245117188,
 		["width"] = 829.999755859375,
 		["height"] = 665.0000610351562,
-		["yOffset"] = 1022.899719238281,
+		["yOffset"] = 1002.649597167969,
 	},
+	["spellCacheAchivements"] = true,
 	["build"] = "50375",
 }

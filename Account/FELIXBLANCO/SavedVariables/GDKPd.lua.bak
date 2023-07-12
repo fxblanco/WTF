@@ -1,16 +1,16 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Andrés - Transcendence"] = "Andrés - Transcendence",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Andrés - Transcendence"] = "Andrés - Transcendence",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -41,18 +41,6 @@ GDKPd_DB = {
 			},
 			["increment"] = 200,
 		},
-		["Andrés - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 5.45014762878418,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -132.6243743896484,
-			},
-			["point"] = {
-				["y"] = 131.6248779296875,
-				["x"] = -436.0499267578125,
-			},
-		},
 		["Lucho - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -56.65000915527344,
@@ -67,40 +55,19 @@ GDKPd_DB = {
 				["x"] = -227.9994049072266,
 			},
 		},
-		["Alsia - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 87.02503967285156,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -133.2993774414063,
-			},
+		["Andrés - Venoxis"] = {
 			["playerbalancepoint"] = {
-				["y"] = 195.1252136230469,
+				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -435.0260314941406,
-			},
-			["itemLevelPricing"] = {
-				{
-					["min"] = 235,
-					["minbid"] = 2000,
-					["max"] = 0,
-					["mininc"] = 500,
-				}, -- [1]
+				["x"] = -132.6243743896484,
 			},
 			["point"] = {
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 298.3500366210938,
+				["y"] = 131.6248779296875,
+				["x"] = -436.0499267578125,
 			},
-			["startBid"] = 500,
-			["increment"] = 200,
-			["statuspoint"] = {
-				["y"] = 10.79995727539063,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -100.2239074707031,
-			},
+		},
+		["Andrés - Transcendence"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -116,24 +83,43 @@ GDKPd_DB = {
 				["x"] = 79.50005340576172,
 			},
 		},
-		["Andrés - Transcendence"] = {
-		},
-		["Kwasimojo - Venoxis"] = {
-			["itemLevelPricing"] = {
-				{
-					["min"] = 235,
-					["mininc"] = 200,
-					["max"] = 250,
-					["minbid"] = 3000,
-				}, -- [1]
+		["Alsia - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 195.1252136230469,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -435.0260314941406,
 			},
 			["point"] = {
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 413.0502624511719,
+				["x"] = 298.3500366210938,
 			},
+			["startBid"] = 500,
+			["statuspoint"] = {
+				["y"] = 10.79995727539063,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -100.2239074707031,
+			},
+			["balancepoint"] = {
+				["y"] = 87.02503967285156,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -133.2993774414063,
+			},
+			["increment"] = 200,
+			["itemLevelPricing"] = {
+				{
+					["min"] = 235,
+					["mininc"] = 500,
+					["max"] = 0,
+					["minbid"] = 2000,
+				}, -- [1]
+			},
+		},
+		["Kwasimojo - Venoxis"] = {
 			["announceBidRaidWarning"] = true,
-			["auctionTimerRefresh"] = 15,
 			["balancepoint"] = {
 				["y"] = -163.275146484375,
 				["relative"] = "TOPRIGHT",
@@ -144,14 +130,28 @@ GDKPd_DB = {
 				["y"] = 54.72499847412109,
 				["x"] = 348.300048828125,
 			},
+			["itemLevelPricing"] = {
+				{
+					["min"] = 235,
+					["minbid"] = 3000,
+					["max"] = 250,
+					["mininc"] = 200,
+				}, -- [1]
+			},
+			["point"] = {
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 413.0502624511719,
+			},
+			["auctionTimerRefresh"] = 15,
+			["startBid"] = 1000,
+			["increment"] = 200,
 			["statuspoint"] = {
 				["y"] = 122.1751403808594,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -126.5496826171875,
 			},
-			["startBid"] = 1000,
-			["increment"] = 200,
 		},
 	},
 }
@@ -172,15 +172,15 @@ GDKPd_PotData = {
 		["Ehomera"] = 0,
 		["Kwasimojo"] = 7424,
 		["Koltorok"] = 0,
-		["Jerkules"] = 0,
+		["Noctens"] = 0,
 		["Drógo"] = 0,
 		["Ðadus"] = 0,
 		["Drakatesh"] = 0,
 		["Cratør"] = 0,
-		["Prallyo"] = 0,
 		["Raycin"] = 0,
+		["Prallyo"] = 0,
 		["Graveofjenna"] = 0,
-		["Noctens"] = 0,
+		["Jerkules"] = 0,
 		["Kzy"] = 0,
 	},
 	["curPotHistory"] = {

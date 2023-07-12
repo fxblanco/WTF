@@ -178,8 +178,8 @@ Bagnon_Sets = {
 	["version"] = "10.0.16",
 	["display"] = {
 	},
-	["fridgeColor"] = {
-	},
 	["enchantColor"] = {
+	},
+	["fridgeColor"] = {
 	},
 }

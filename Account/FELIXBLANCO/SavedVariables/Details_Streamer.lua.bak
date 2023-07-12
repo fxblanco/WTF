@@ -2,11 +2,11 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Alsia - Venoxis",
 		["Lucho - Venoxis"] = "Alsia - Venoxis",
-		["Xolem - Venoxis"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Transcendence"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
+		["Xolem - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {
