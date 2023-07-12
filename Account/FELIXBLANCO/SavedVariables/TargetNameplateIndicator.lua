@@ -1,0 +1,55 @@
+
+TargetNameplateIndicatorDB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Andrés - Transcendence"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["target"] = {
+				["self"] = {
+					["enable"] = false,
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\RedChevronArrow",
+				},
+				["friendly"] = {
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Q_GreenTarget",
+				},
+				["hostile"] = {
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\RedChevronArrow",
+				},
+			},
+			["mouseover"] = {
+				["self"] = {
+					["enable"] = false,
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Arrows_SelfTowards",
+				},
+				["friendly"] = {
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Q_WhiteTarget",
+				},
+				["hostile"] = {
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonReticule",
+				},
+			},
+			["targettarget"] = {
+				["enable"] = false,
+			},
+			["focus"] = {
+				["self"] = {
+					["enable"] = false,
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\circles_target",
+				},
+				["friendly"] = {
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\bluearrow1",
+				},
+				["hostile"] = {
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\gearsofwar",
+				},
+			},
+		},
+	},
+}

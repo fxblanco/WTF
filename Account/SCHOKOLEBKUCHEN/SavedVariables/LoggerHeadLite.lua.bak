@@ -1,0 +1,16 @@
+
+LoggerHeadNDB = {
+	["profileKeys"] = {
+		["Exonuklease - Venoxis"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["zones"] = {
+				[649] = {
+					[5] = true,
+					[6] = true,
+				},
+			},
+		},
+	},
+}

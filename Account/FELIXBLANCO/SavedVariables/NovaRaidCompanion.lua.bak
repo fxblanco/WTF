@@ -1,0 +1,117 @@
+
+NRCdatabase = {
+	["global"] = {
+		["NRCScrollingRaidEvents_x"] = 70.42498779296875,
+		["NRCRaidCooldowns1_y"] = -52.42500305175781,
+		["NRCRaidCooldowns1_x"] = 361.7251586914063,
+		["NRCScrollingRaidEvents_relativePoint"] = "BOTTOMLEFT",
+		["copyGlobalToProfile"] = false,
+		["npcData"] = {
+		},
+		["NRCRaidManaFrame_point"] = "TOPLEFT",
+		["NRCRaidManaFrame_relativePoint"] = "TOPLEFT",
+		["NRCRaidCooldowns1_point"] = "TOPLEFT",
+		["NRCScrollingRaidEvents_y"] = 191.9248046875,
+		["versions"] = {
+			[1.29] = 1677753846,
+		},
+		["trades"] = {
+		},
+		["instances"] = {
+		},
+		["NRCRaidCooldowns1_relativePoint"] = "TOPLEFT",
+		["NRCRaidManaFrame_x"] = 525.625,
+		["Venoxis"] = {
+			["Horde"] = {
+				["hasSoulstone"] = {
+				},
+				["myChars"] = {
+					["Alsia"] = {
+						["race"] = "Blutelf",
+						["localizedClass"] = "Paladin",
+						["level"] = 80,
+						["englishClass"] = "PALADIN",
+						["faction"] = "Horde",
+						["savedInstances"] = {
+							[164427307] = {
+								["locked"] = true,
+								["resetTime"] = 1676433599,
+								["name"] = "Archavons Kammer",
+								["difficultyName"] = "10 Spieler",
+							},
+							[164433518] = {
+								["locked"] = true,
+								["resetTime"] = 1676433599,
+								["name"] = "Ulduar",
+								["difficultyName"] = "25 Spieler",
+							},
+							[164353488] = {
+								["locked"] = true,
+								["resetTime"] = 1676433599,
+								["name"] = "Archavons Kammer",
+								["difficultyName"] = "25 Spieler",
+							},
+						},
+					},
+					["Kwasimojo"] = {
+						["race"] = "Troll",
+						["localizedClass"] = "Priester",
+						["level"] = 80,
+						["englishClass"] = "PRIEST",
+						["faction"] = "Horde",
+						["savedInstances"] = {
+							[171500351] = {
+								["locked"] = true,
+								["resetTime"] = 1680062403,
+								["name"] = "Archavons Kammer",
+								["difficultyName"] = "25 Spieler",
+							},
+							[171520904] = {
+								["locked"] = true,
+								["resetTime"] = 1680062403,
+								["name"] = "Das Obsidiansanktum",
+								["difficultyName"] = "10 Spieler",
+							},
+							[171503254] = {
+								["locked"] = true,
+								["resetTime"] = 1680062403,
+								["name"] = "Naxxramas",
+								["difficultyName"] = "10 Spieler",
+							},
+							[171517711] = {
+								["locked"] = true,
+								["resetTime"] = 1680062403,
+								["name"] = "Das Auge der Ewigkeit",
+								["difficultyName"] = "10 Spieler",
+							},
+							[171499835] = {
+								["locked"] = true,
+								["resetTime"] = 1680062403,
+								["name"] = "Archavons Kammer",
+								["difficultyName"] = "10 Spieler",
+							},
+							[171406340] = {
+								["locked"] = true,
+								["resetTime"] = 1680062403,
+								["name"] = "Naxxramas",
+								["difficultyName"] = "25 Spieler",
+							},
+						},
+					},
+				},
+				["raidCooldowns"] = {
+				},
+			},
+		},
+		["NRCScrollingRaidEvents_point"] = "BOTTOMLEFT",
+		["NRCRaidManaFrame_y"] = -74.90000915527344,
+	},
+	["profileKeys"] = {
+		["Alsia - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,229 @@
+
+GDKPd_DB = {
+	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profiles"] = {
+		["Endonuclease - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = -253.7497711181641,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -61.74993515014648,
+			},
+			["point"] = {
+				["y"] = -50.07497024536133,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -455.7244873046875,
+			},
+		},
+		["Exonuklease - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -116.0248718261719,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -242.650634765625,
+			},
+			["playerbalancepoint"] = {
+				["y"] = -53.2750358581543,
+				["x"] = 521.0999145507812,
+			},
+			["point"] = {
+				["y"] = -39.89996719360352,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -467.7999877929688,
+			},
+			["startBid"] = 1000,
+			["increment"] = 500,
+			["statuspoint"] = {
+				["y"] = -2.025049686431885,
+				["x"] = -71.19929504394531,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+		},
+	},
+}
+GDKPd_PotData = {
+	["playerBalance"] = {
+		["Naschil"] = 0,
+		["Shadowchange"] = 0,
+		["Ajid"] = 0,
+		["Gdkpaladin"] = 0,
+		["Starkersim"] = 0,
+		["Naripriest"] = 0,
+		["Syê"] = 0,
+		["Keldrahunter"] = 0,
+		["Mexolx"] = 0,
+		["Shamir"] = 0,
+		["Räucherkäse"] = 0,
+		["Yamakaji"] = 0,
+		["Butterhontas"] = 0,
+		["Eisrasterin"] = 0,
+		["Rxjk"] = 0,
+		["Exonuklease"] = -12852,
+		["Deád"] = 0,
+		["Chessmaster"] = 0,
+		["Trilltroller"] = 0,
+		["Xaktus"] = 0,
+		["Saccident"] = 0,
+		["Graveofmaria"] = 0,
+		["Sayanâ"] = 0,
+		["Bânu"] = 0,
+		["Lazerfake"] = 0,
+	},
+	["curPotHistory"] = {
+		{
+			["bid"] = 16200,
+			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
+			["name"] = "Keldrahunter",
+		}, -- [1]
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47452::::::::80:::::::::|h[Tuch der Verschiebung]|h|r",
+			["name"] = "Exonuklease",
+		}, -- [2]
+		{
+			["bid"] = 8000,
+			["item"] = "|cffa335ee|Hitem:47449::::::::80:::::::::|h[Heldenbrustplatte der Frostwölfe]|h|r",
+			["name"] = "Naschil",
+		}, -- [3]
+		{
+			["bid"] = 17000,
+			["item"] = "|cffa335ee|Hitem:47421::::::::80:::::::::|h[Einsame Barriere]|h|r",
+			["name"] = "Xaktus",
+		}, -- [4]
+		{
+			["bid"] = 10500,
+			["item"] = "|cffa335ee|Hitem:47414::::::::80:::::::::|h[Knochenschmetternde Unterarmschienen]|h|r",
+			["name"] = "Naschil",
+		}, -- [5]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47426::::::::80:::::::::|h[Bindungen des Eisgräbers]|h|r",
+			["name"] = "Bânu",
+		}, -- [6]
+		{
+			["bid"] = 8000,
+			["item"] = "|cffa335ee|Hitem:47428::::::::80:::::::::|h[Totenkopfarmbrust]|h|r",
+			["name"] = "Keldrahunter",
+		}, -- [7]
+		{
+			["bid"] = 14000,
+			["item"] = "|cffa335ee|Hitem:47437::::::::80:::::::::|h[Talisman der achtlosen Sünden]|h|r",
+			["name"] = "Eisrasterin",
+		}, -- [8]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47435::::::::80:::::::::|h[Hose der besänftigenden Berührung]|h|r",
+			["name"] = "Starkersim",
+		}, -- [9]
+		{
+			["bid"] = 20000,
+			["item"] = "|cffa335ee|Hitem:47458::::::::80:::::::::|h[Das Laster des Henkers]|h|r",
+			["name"] = "Syê",
+		}, -- [10]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47463::::::::80:::::::::|h[Zwillingspakt]|h|r",
+			["name"] = "Keldrahunter",
+		}, -- [11]
+		{
+			["bid"] = 13000,
+			["item"] = "|cffa335ee|Hitem:47470::::::::80:::::::::|h[Rätselhafter Glücksbringer]|h|r",
+			["name"] = "Shadowchange",
+		}, -- [12]
+		{
+			["bid"] = 8000,
+			["item"] = "|cffa335ee|Hitem:47463::::::::80:::::::::|h[Zwillingspakt]|h|r",
+			["name"] = "Shamir",
+		}, -- [13]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Shamir",
+		}, -- [14]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Shamir",
+		}, -- [15]
+		-5000, -- [16]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Starkersim",
+		}, -- [17]
+		{
+			["bid"] = 6500,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Butterhontas",
+		}, -- [18]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Sayanâ",
+		}, -- [19]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Shamir",
+		}, -- [20]
+		{
+			["bid"] = 5500,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Deád",
+		}, -- [21]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Syê",
+		}, -- [22]
+		{
+			["bid"] = 5500,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Exonuklease",
+		}, -- [23]
+		{
+			["bid"] = 8500,
+			["item"] = "|cffa335ee|Hitem:47315::::::::80:::::::::|h[Band des Verräterkönigs]|h|r",
+			["name"] = "Gdkpaladin",
+		}, -- [24]
+		{
+			["bid"] = 26000,
+			["item"] = "|cffa335ee|Hitem:47316::::::::80:::::::::|h[Herrschaft der Toten]|h|r",
+			["name"] = "Eisrasterin",
+		}, -- [25]
+		{
+			["bid"] = 3000,
+			["item"] = "|cffa335ee|Hitem:47327::::::::80:::::::::|h[Blutrünstige Offenbarung]|h|r",
+			["name"] = "Shadowchange",
+		}, -- [26]
+		{
+			["bid"] = 3000,
+			["item"] = "|cffa335ee|Hitem:47324::::::::80:::::::::|h[Bindungen des leichenblassen Heiligen]|h|r",
+			["name"] = "Butterhontas",
+		}, -- [27]
+		{
+			["bid"] = 1500,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Keldrahunter",
+		}, -- [28]
+		-24000, -- [29]
+	},
+	["history"] = {
+	},
+	["potAmount"] = 216200,
+	["prevDist"] = 216200,
+}
+GDKPd_BalanceData = {
+	["Dynamitdelux"] = 0,
+	["Exonuklease"] = -26862,
+	["Specializt"] = 0,
+}

@@ -1,0 +1,119 @@
+VER 3 0000000000000038 "cancel" "134400"
+Cancelmacro für Anub auf Deutsch:
+/cancelaura Gebet der Seelenstärke
+/cancelaura Befehlsruf
+/cancelaura Sonnenwendfestverstärkung
+END
+VER 3 0000000000000024 "g_boots" "132546"
+#showtooltip
+/use [mod:shift] 15; [mod:ctrl] 6; 8
+END
+VER 3 0000000000000022 "g_buy" "134400"
+/script BuyMerchantItem(1,500)
+END
+VER 3 0000000000000036 "g_focus_kick" "136018"
+#showtooltip Windstoß
+/stopcasting
+/cast [@focus] Windstoß
+END
+VER 3 000000000000002E "g_hände" "132959"
+/use 10
+END
+VER 3 0000000000000023 "g_Trinket" "135839"
+#showtooltip
+/use [mod:shift] 14; 13
+END
+VER 3 0000000000000034 "pal_bitte" "134400"
+#showtooltip
+/cast Göttliche Bitte
+/cancelaura Göttliche Bitte
+END
+VER 3 0000000000000032 "pal_bub_cancel" "134400"
+#showtooltip
+/cast Gottesschild
+/cancelaura Gottesschild
+END
+VER 3 0000000000000039 "pal_cd" "134400"
+#showtooltip
+/cast Zornige Vergeltung
+/use 14
+END
+VER 3 000000000000001A "pal_cd_h" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Zornige Vergeltung; Göttliche Eingebung
+END
+VER 3 0000000000000025 "pal_ds_cancel" "134400"
+#showtooltip
+/cast Heilige Opferung
+/cancelaura Heilige Opferung
+END
+VER 3 0000000000000018 "pal_h_amin4" "134400"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Lichtblitz;[@mouseover, help, nodead][] Heiliger Schock
+END
+VER 3 0000000000000028 "pal_prot_1button" "134400"
+/castsequence reset=6 Judgement of Wisdom,Shield of Righteousness,Holy Shield,Hammer of the Righteous,Consecration,Shield of Righteousness,Judgement of Wisdom,Hammer of the Righteous,Holy Shield,Shield of Righteousness,Consecration,Hammer of the Righteous
+END
+VER 3 000000000000001C "pal_prot_f" "134400"
+#showtooltip
+/cast [mod:shift] Exorzismus; [mod:ctrl] Siegel der Verderbnis; Heiliger Schild;
+END
+VER 3 0000000000000033 "pal_prot_g" "134400"
+#showtooltip
+/cast [mod:shift] Arkaner Strom; Göttliche Eingebung
+END
+VER 3 000000000000002C "pat_ret_f" "134400"
+#showtooltip
+/cast Exorzismus
+/cast Hand der Abrechnung
+END
+VER 3 000000000000003A "PI" "134400"
+#showtooltip
+/target Meyara
+/cast Seele der Macht
+END
+VER 3 000000000000002F "priest_sp_fient" "134400"
+#showtooltip
+/cast Schattengeist
+/petaggressive
+/petattack
+/use Gewürzte Mammutleckereien
+/cast Kriechende Schatten
+END
+VER 3 0000000000000029 "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Kaltunk
+/targetlasttarget [dead]
+END
+VER 3 0000000000000030 "shadow_swd+" "134400"
+#showtooltip
+/cast Schattenwort: Tod
+/use [@Cursor] Saronitbombe
+END
+VER 3 0000000000000009 "sham_e_cd" "134400"
+#showtooltip
+/cast [mod:shift] Totem des Ingrimms; [mod:ctrl] Kampfrausch; Elementarbeherrschung
+END
+VER 3 0000000000000037 "sham_enh_r" "134400"
+#showtooltip
+/cast [mod:shift] Totem des glühenden Magmas; Feuernova
+END
+VER 3 0000000000000012 "sham_h_cd" "134400"
+#showtooltip
+/cast [mod:shift] Kraft der Gezeiten; [mod:ctrl] Kampfrausch; Schnelligkeit der Natur
+END
+VER 3 0000000000000002 "sham_h_chain" "136042"
+#showtooltip
+/cast [mod:shift] Kettenblitzschlag; [@mouseover, help, nodead][] Kettenheilung
+END
+VER 3 000000000000000D "sham_h_main2" "136052"
+#showtooltip
+/cast [mod:shift] Frostschock; [@mouseover, help, nodead][] Welle der Heilung
+END
+VER 3 000000000000000F "sham_h_main3" "136043"
+#showtooltip
+/cast [mod:shift] Flammenschock; [@mouseover, help, nodead][] Geringe Welle der Heilung
+END
+VER 3 0000000000000010 "sham_h_main4" "134400"
+#showtooltip
+/cast [mod:shift] Blitzschlag; [@mouseover, help, nodead][] Springflut
+END
