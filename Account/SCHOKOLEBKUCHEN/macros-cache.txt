@@ -26,8 +26,13 @@ END
 VER 3 0000000000000003 "hi" "132092"
 /hi
 END
+VER 3 0000000000000010 "lock" "134400"
+#showtooltip Zaubersperre
+/cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
+END
 VER 3 000000000000000E "PI" "134400"
-/w Jinnxyo PI me!
+/w DIZI PI me!
+/use 10
 END
 VER 3 0000000000000005 "Roll" "135900"
 /roll
@@ -36,8 +41,7 @@ VER 3 000000000000000A "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000009 "SB Snipe R1" "135614"
-#showtooltip Schattenblitz
-/cast [@mouseover,harm,nodead] [] Schattenblitz [Rang 1]
+/cast [nomod,@mouseover,harm,nodead] [] Schattenblitz(Rang 1)
 END
 VER 3 0000000000000001 "start imp" "132097"
 /dismount
