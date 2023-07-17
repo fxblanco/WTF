@@ -10,7 +10,7 @@ AtlasLootClassicDB = {
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
-		["__addonrevision"] = 3010002,
+		["__addonrevision"] = 3010003,
 		["VendorPrice"] = {
 			[48623] = "EmblemOfTriumph:75",
 			[43018] = "epicurean:3",
@@ -330,8 +330,8 @@ AtlasLootClassicDB = {
 			[40907] = "EmblemOfTriumph:75",
 			[46081] = "cpvpWintergrasp:25",
 			[43031] = "epicurean:3",
-			[41019] = "EmblemOfTriumph:75",
 			[47662] = "EmblemOfTriumph:25",
+			[36931] = "EmblemOfHeroism:10",
 			[47678] = "EmblemOfTriumph:75",
 			[48716] = "EmblemOfHeroism:40",
 			[47710] = "EmblemOfTriumph:45",
@@ -347,7 +347,7 @@ AtlasLootClassicDB = {
 			[45826] = "EmblemOfConquest:28",
 			[45842] = "EmblemOfConquest:39",
 			[40748] = "EmblemOfValor:40",
-			[36931] = "EmblemOfHeroism:10",
+			[41019] = "EmblemOfTriumph:75",
 			[40780] = "EmblemOfHeroism:45",
 			[45209] = "championsSeal:10",
 			[45585] = "championsSeal:50",
@@ -429,17 +429,17 @@ AtlasLootClassicDB = {
 		["Alsia - Venoxis"] = {
 			["GUI"] = {
 				["point"] = {
-					"TOPRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [1]
 					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-4.575389385223389, -- [4]
-					-3.100024223327637, -- [5]
+					"BOTTOMRIGHT", -- [3]
+					0, -- [4]
+					0, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"TrialoftheCrusader", -- [2]
-					nil, -- [3]
-					10, -- [4]
+					"AtlasLootClassic_Collections", -- [1]
+					"TierSets", -- [2]
+					8, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

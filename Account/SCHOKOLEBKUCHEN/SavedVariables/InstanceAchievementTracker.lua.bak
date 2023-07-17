@@ -9,16 +9,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
+	["InfoFramescale"] = 1,
 	["announceTrackedAchievements"] = false,
-	["trackAchievementsAutomatically"] = false,
+	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["trackAchievementsAutomatically"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -10469,6 +10469,13 @@ AchievementTrackerDebug = {
 	"12/7/2023 17:3 [DEBUG] Enabling Addon", -- [10446]
 	"12/7/2023 17:3 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [10447]
 	"12/7/2023 17:3 [DEBUG] Showing Minimap Icon", -- [10448]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [10449]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.22.0", -- [10450]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [10451]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [10452]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [10453]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [10454]
+	"12/7/2023 17:8 [DEBUG] Showing Minimap Icon", -- [10455]
 }
 AchievementTrackerNPCCache = {
 }
@@ -10483,7 +10490,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebart",
 	[26746] = "Wahnsinniges Managespenst",
 	[27756] = "Rubindrache",
-	[26668] = "Svala Grabesleid",
+	[26555] = "Hüne der Geißel",
 	[33572] = "Stahlgeschmiedeter Verteidiger",
 	[29713] = "Slad'ranwürger",
 	[26627] = "Kristallwirker",
@@ -10494,33 +10501,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotischer Riss",
 	[28586] = "General Bjarngrim",
 	[16028] = "Flickwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Missgestalteter Schlamm",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgrind",
 	[26731] = "Großmagistrix Telestra",
-	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
-	[33388] = "Dunkler Runenwächter",
+	[26893] = "Grauf",
 	[28731] = "Aufseher Silthik",
 	[33136] = "Wächter des Yogg-Saron",
-	[27658] = "Belgaristrasz",
+	[27975] = "Maid der Trauer",
+	[28729] = "Aufseher Narjil",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
 	[30176] = "Wächter der Ahn'kahar",
 	[23562] = "Unaufhaltsame Monstrosität",
-	[28729] = "Aufseher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Aufseher Gashra",
-	[27975] = "Maid der Trauer",
+	[33388] = "Dunkler Runenwächter",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",
 	[29932] = "Der wilde Eck",
 	[29240] = "Sturmgeschmiedeter Leutnant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Missgestalteter Schlamm",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Schrottbot",
 	[23953] = "Prinz Keleseth",
-	[26555] = "Hüne der Geißel",
+	[26668] = "Svala Grabesleid",
 }

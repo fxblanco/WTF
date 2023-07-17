@@ -1,11 +1,11 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Endonuclease - Venoxis"] = {
@@ -57,25 +57,25 @@ GDKPd_PotData = {
 		["Ajid"] = 0,
 		["Gdkpaladin"] = 0,
 		["Starkersim"] = 0,
-		["Syê"] = 0,
 		["Shamir"] = 0,
+		["Syê"] = 0,
 		["Keldrahunter"] = 0,
-		["Sayanâ"] = 0,
-		["Yamakaji"] = 0,
-		["Rxjk"] = 0,
-		["Chessmaster"] = 0,
+		["Bânu"] = 0,
+		["Räucherkäse"] = 0,
+		["Saccident"] = 0,
+		["Deád"] = 0,
 		["Butterhontas"] = 0,
-		["Eisrasterin"] = 0,
-		["Naripriest"] = 0,
+		["Rxjk"] = 0,
+		["Xaktus"] = 0,
 		["Exonuklease"] = -12852,
 		["Graveofmaria"] = 0,
-		["Mexolx"] = 0,
+		["Chessmaster"] = 0,
 		["Trilltroller"] = 0,
-		["Xaktus"] = 0,
-		["Deád"] = 0,
-		["Saccident"] = 0,
-		["Räucherkäse"] = 0,
-		["Bânu"] = 0,
+		["Naripriest"] = 0,
+		["Mexolx"] = 0,
+		["Eisrasterin"] = 0,
+		["Yamakaji"] = 0,
+		["Sayanâ"] = 0,
 		["Lazerfake"] = 0,
 	},
 	["curPotHistory"] = {
@@ -223,7 +223,7 @@ GDKPd_PotData = {
 	["prevDist"] = 216200,
 }
 GDKPd_BalanceData = {
-	["Dynamitdelux"] = 0,
-	["Exonuklease"] = -26862,
 	["Specializt"] = 0,
+	["Exonuklease"] = -26862,
+	["Dynamitdelux"] = 0,
 }

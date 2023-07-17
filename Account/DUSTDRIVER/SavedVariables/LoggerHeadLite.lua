@@ -1,8 +1,8 @@
 
 LoggerHeadNDB = {
 	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

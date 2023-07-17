@@ -1,18 +1,27 @@
 
 CliqueDB = nil
 CliqueDB3 = {
+	["char"] = {
+		["Bloodwall - Venoxis"] = {
+			["spec1_profileKey"] = "Bloodwall - Venoxis",
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["downclick"] = false,
+			["specswap"] = false,
+			["fastooc"] = false,
+		},
+	},
 	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["profiles"] = {
-		["Bloodwall - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -25,13 +34,13 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Maturitass - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

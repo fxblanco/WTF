@@ -1,6 +1,15 @@
 
 CliqueDB = nil
 CliqueDB3 = {
+	["char"] = {
+		["Exonuklease - Venoxis"] = {
+			["spec1_profileKey"] = "Exonuklease - Venoxis",
+			["downclick"] = false,
+			["spec2_profileKey"] = "Exonuklease - Venoxis",
+			["fastooc"] = false,
+			["specswap"] = false,
+		},
+	},
 	["profileKeys"] = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
@@ -8,10 +17,10 @@ CliqueDB3 = {
 		["Exonuklease - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

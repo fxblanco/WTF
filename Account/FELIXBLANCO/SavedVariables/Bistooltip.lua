@@ -11,11 +11,10 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Alsia - Venoxis"] = {
-			["class_index"] = 5,
-			["version"] = 6.1,
-			["spec_index"] = 2,
-			["data_source"] = "wowtbc",
+			["class_index"] = 10,
 			["phase_index"] = 3,
+			["data_source"] = "wowtbc",
+			["version"] = 6.1,
 		},
 		["Andrés - Venoxis"] = {
 			["version"] = 6.1,
@@ -27,9 +26,9 @@ BisTooltipDB = {
 		},
 		["Xolem - Venoxis"] = {
 			["class_index"] = 10,
-			["phase_index"] = 3,
 			["data_source"] = "wowtbc",
 			["version"] = 6.1,
+			["phase_index"] = 3,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["version"] = 6.1,

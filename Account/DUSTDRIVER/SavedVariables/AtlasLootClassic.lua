@@ -1,12 +1,12 @@
 
 AtlasLootClassicDB = {
-	["global"] = {
-		["__addonrevision"] = 3010002,
-	},
 	["profileKeys"] = {
 		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
+	["global"] = {
+		["__addonrevision"] = 3010002,
 	},
 	["profiles"] = {
 		["Maturitas - Venoxis"] = {

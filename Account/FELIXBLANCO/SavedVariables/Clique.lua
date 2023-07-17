@@ -6,15 +6,15 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
 			["spec2_profileKey"] = "Alsia - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
 			["spec2_profileKey"] = "Xolem - Venoxis",
 			["downclick"] = false,
-			["specswap"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",

@@ -321,8 +321,8 @@ AtlasLootClassicDB = {
 			[40907] = "EmblemOfTriumph:75",
 			[46081] = "cpvpWintergrasp:25",
 			[43031] = "epicurean:3",
-			[47662] = "EmblemOfTriumph:25",
 			[36931] = "EmblemOfHeroism:10",
+			[41019] = "EmblemOfTriumph:75",
 			[47678] = "EmblemOfTriumph:75",
 			[48716] = "EmblemOfHeroism:40",
 			[47710] = "EmblemOfTriumph:45",
@@ -338,7 +338,7 @@ AtlasLootClassicDB = {
 			[40716] = "EmblemOfHeroism:15",
 			[45842] = "EmblemOfConquest:39",
 			[40748] = "EmblemOfValor:40",
-			[41019] = "EmblemOfTriumph:75",
+			[47662] = "EmblemOfTriumph:25",
 			[40780] = "EmblemOfHeroism:45",
 			[43035] = "epicurean:3",
 			[40905] = "EmblemOfConquest:58",
@@ -429,17 +429,17 @@ AtlasLootClassicDB = {
 		["Alsia - Venoxis"] = {
 			["GUI"] = {
 				["point"] = {
-					"TOPRIGHT", -- [1]
+					"BOTTOMRIGHT", -- [1]
 					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-4.575389385223389, -- [4]
-					-3.100024223327637, -- [5]
+					"BOTTOMRIGHT", -- [3]
+					0, -- [4]
+					-0, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"TrialoftheCrusader", -- [2]
-					nil, -- [3]
-					10, -- [4]
+					"Ulduar", -- [2]
+					13, -- [3]
+					9, -- [4]
 					0, -- [5]
 				},
 			},
