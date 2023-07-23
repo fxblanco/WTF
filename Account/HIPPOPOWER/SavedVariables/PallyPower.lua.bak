@@ -1,0 +1,42 @@
+
+PallyPowerDB = {
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Other",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["enable"] = true,
+			["WrathTransition"] = true,
+		},
+		["Other"] = {
+			["enable"] = true,
+			["WrathTransition"] = true,
+		},
+	},
+}
+PallyPower_Assignments = {
+}
+PallyPower_NormalAssignments = {
+}
+PallyPower_AuraAssignments = {
+}
+PallyPower_SavedPresets = {
+	["PallyPower_Assignments"] = {
+		[0] = {
+		},
+	},
+	["PallyPower_NormalAssignments"] = {
+		[0] = {
+		},
+	},
+}
+PallyPower_ChanNames = {
+	"Allgemein", -- [1]
+	"Handel", -- [2]
+	"LokaleVerteidigung", -- [3]
+	"SucheNachGruppe", -- [4]
+	[0] = "None",
+}
+LCD_Data = nil
+LCD_GUIDAccess = nil

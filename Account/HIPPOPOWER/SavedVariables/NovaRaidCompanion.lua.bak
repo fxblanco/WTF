@@ -1,0 +1,65 @@
+
+NRCdatabase = {
+	["global"] = {
+		["copyGlobalToProfile"] = false,
+		["npcData"] = {
+		},
+		["versions"] = {
+			[1.31] = 1689943096,
+		},
+		["trades"] = {
+		},
+		["instances"] = {
+		},
+		["Venoxis"] = {
+			["Horde"] = {
+				["hasSoulstone"] = {
+				},
+				["myChars"] = {
+					["Lesbenlisa"] = {
+						["race"] = "Blutelfe",
+						["localizedClass"] = "Paladin",
+						["faction"] = "Horde",
+						["level"] = 80,
+						["englishClass"] = "PALADIN",
+						["savedInstances"] = {
+							[183286354] = {
+								["locked"] = true,
+								["resetTime"] = 1689998403,
+								["name"] = "Burg Utgarde",
+								["difficultyName"] = "Heroisch",
+							},
+							[183088684] = {
+								["locked"] = true,
+								["resetTime"] = 1690344003,
+								["name"] = "Archavons Kammer",
+								["difficultyName"] = "25 Spieler",
+							},
+							[183089601] = {
+								["locked"] = true,
+								["resetTime"] = 1690344003,
+								["name"] = "Archavons Kammer",
+								["difficultyName"] = "10 Spieler",
+							},
+							[183088950] = {
+								["locked"] = true,
+								["resetTime"] = 1690344003,
+								["name"] = "Onyxias Hort",
+								["difficultyName"] = "25 Spieler",
+							},
+						},
+					},
+				},
+				["raidCooldowns"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

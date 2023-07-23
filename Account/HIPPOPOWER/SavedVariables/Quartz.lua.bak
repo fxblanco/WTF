@@ -1,0 +1,338 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["Flight"] = {
+			["profiles"] = {
+				["Luckyone Healing 2.36"] = {
+					["deplete"] = true,
+				},
+				["Luckyone Main 2.36"] = {
+					["deplete"] = true,
+				},
+			},
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 966.666748046875,
+				},
+			},
+		},
+		["Range"] = {
+			["profiles"] = {
+				["Luckyone Healing 2.36"] = {
+					["rangecolor"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+				},
+				["Luckyone Main 2.36"] = {
+					["rangecolor"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+				},
+			},
+		},
+		["Mirror"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 941.666748046875,
+				},
+				["Luckyone Healing 2.36"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["font"] = "Expressway",
+					["strata"] = "HIGH",
+					["w"] = 321,
+					["timefontsize"] = 11,
+					["y"] = 90.9999771118164,
+					["x"] = 0.000244140625,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["nametextx"] = 2,
+					["h"] = 18,
+					["texture"] = "Minimalist",
+				},
+				["Luckyone Main 2.36"] = {
+					["timetextx"] = 2,
+					["h"] = 18,
+					["timefontsize"] = 11,
+					["w"] = 276,
+					["y"] = 227,
+					["font"] = "Expressway",
+					["iconalpha"] = 1,
+					["strata"] = "HIGH",
+					["point"] = "BOTTOM",
+					["border"] = "Square Full White",
+					["fontsize"] = 11,
+					["texture"] = "Minimalist",
+					["nametextx"] = 2,
+					["x"] = 0,
+				},
+			},
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 966.666748046875,
+				},
+				["Luckyone Healing 2.36"] = {
+					["noInterruptShield"] = false,
+					["timetextx"] = 2,
+					["point"] = "CENTER",
+					["border"] = "Square Full White",
+					["nametextx"] = 2,
+					["noInterruptColor"] = {
+						nil, -- [1]
+						0, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+					["w"] = 238,
+					["noInterruptChangeColor"] = true,
+					["y"] = -140.9997100830078,
+					["x"] = 358.0001220703125,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["font"] = "Expressway",
+					["timefontsize"] = 11,
+					["strata"] = "HIGH",
+					["texture"] = "Minimalist",
+				},
+				["Luckyone Main 2.36"] = {
+					["noInterruptShield"] = false,
+					["nametextx"] = 2,
+					["w"] = 238,
+					["y"] = -140.9997406005859,
+					["font"] = "Expressway",
+					["iconalpha"] = 1,
+					["strata"] = "HIGH",
+					["point"] = "CENTER",
+					["border"] = "Square Full White",
+					["noInterruptColor"] = {
+						nil, -- [1]
+						0, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+					["fontsize"] = 11,
+					["texture"] = "Minimalist",
+					["timefontsize"] = 11,
+					["noInterruptChangeColor"] = true,
+					["timetextx"] = 2,
+					["x"] = 278.0001831054688,
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 966.666748046875,
+				},
+				["Luckyone Healing 2.36"] = {
+					["timetextx"] = 2,
+					["point"] = "CENTER",
+					["border"] = "Square Full White",
+					["noInterruptChangeColor"] = true,
+					["noInterruptColor"] = {
+						nil, -- [1]
+						0, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+					["fontsize"] = 11,
+					["nametextx"] = 2,
+					["texture"] = "Minimalist",
+					["w"] = 238,
+					["y"] = -250.9997100830078,
+					["font"] = "Expressway",
+					["timefontsize"] = 11,
+					["iconalpha"] = 1,
+					["strata"] = "HIGH",
+					["x"] = 358.000244140625,
+					["noInterruptShield"] = false,
+					["iconposition"] = "left",
+				},
+				["Luckyone Main 2.36"] = {
+					["noInterruptShield"] = false,
+					["timefontsize"] = 11,
+					["w"] = 238,
+					["y"] = -250.9998168945313,
+					["font"] = "Expressway",
+					["iconalpha"] = 1,
+					["iconposition"] = "left",
+					["strata"] = "HIGH",
+					["point"] = "CENTER",
+					["border"] = "Square Full White",
+					["noInterruptColor"] = {
+						nil, -- [1]
+						0, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+					["fontsize"] = 11,
+					["texture"] = "Minimalist",
+					["x"] = 278.0004272460938,
+					["timetextx"] = 2,
+					["noInterruptChangeColor"] = true,
+					["nametextx"] = 2,
+				},
+			},
+		},
+		["Interrupt"] = {
+		},
+		["EnemyCasts"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Luckyone Main 2.36",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["Luckyone Healing 2.36"] = {
+			["completecolor"] = {
+				0.01960784383118153, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["bordercolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["backgroundcolor"] = {
+				0.05098039656877518, -- [1]
+				0.05098039656877518, -- [2]
+				0.05098039656877518, -- [3]
+				1, -- [4]
+			},
+			["failcolor"] = {
+				nil, -- [1]
+				0, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["modules"] = {
+				["Mirror"] = false,
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Timer"] = false,
+				["Pet"] = false,
+				["Range"] = false,
+				["Latency"] = false,
+			},
+			["borderalpha"] = 0,
+			["backgroundalpha"] = 0.9,
+			["sparkcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0, -- [4]
+			},
+			["castingcolor"] = {
+				0.01960784383118153, -- [1]
+				1, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["hidesamwise"] = false,
+			["spelltextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["timetextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+		},
+		["Luckyone Main 2.36"] = {
+			["completecolor"] = {
+				0.01960784383118153, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["hidesamwise"] = false,
+			["bordercolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["backgroundcolor"] = {
+				0.05098039656877518, -- [1]
+				0.05098039656877518, -- [2]
+				0.05098039656877518, -- [3]
+				1, -- [4]
+			},
+			["failcolor"] = {
+				nil, -- [1]
+				0, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["modules"] = {
+				["Swing"] = false,
+				["Buff"] = false,
+				["Range"] = false,
+				["GCD"] = false,
+				["Timer"] = false,
+				["Mirror"] = false,
+				["Pet"] = false,
+				["Latency"] = false,
+			},
+			["borderalpha"] = 0,
+			["backgroundalpha"] = 0.9,
+			["sparkcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0, -- [4]
+			},
+			["castingcolor"] = {
+				0.01960784383118153, -- [1]
+				1, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["spelltextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["timetextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+		},
+	},
+}

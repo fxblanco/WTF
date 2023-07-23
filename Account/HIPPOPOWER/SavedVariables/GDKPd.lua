@@ -1,0 +1,39 @@
+
+GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+	},
+	["profiles"] = {
+		["Lesbenlisa - Venoxis"] = {
+			["point"] = {
+				["y"] = -73.49995422363281,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -368.2499694824219,
+			},
+		},
+		["Hakkî - Venoxis"] = {
+			["point"] = {
+				["y"] = 85.49995422363281,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -389.2500305175781,
+			},
+		},
+	},
+}
+GDKPd_PotData = {
+	["playerBalance"] = {
+	},
+	["history"] = {
+	},
+	["potAmount"] = 0,
+	["curPotHistory"] = {
+	},
+}
+GDKPd_BalanceData = {
+}
