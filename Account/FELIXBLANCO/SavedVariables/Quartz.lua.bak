@@ -7,22 +7,19 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
-				["Andrés - Venoxis"] = {
-					["enabled"] = false,
-				},
-				["Khalimmortus - Venoxis"] = {
-					["enabled"] = false,
-				},
-				["Lucho - Venoxis"] = {
-					["enabled"] = false,
-				},
-				["Andrés - Venoxis"] = {
-					["enabled"] = false,
-				},
 				["Kwasimojo - Venoxis"] = {
 					"Shadow", -- [1]
 					"Diszi", -- [2]
 					["enabled"] = true,
+				},
+				["Khalimmortus - Venoxis"] = {
+					["enabled"] = false,
+				},
+				["Andrés - Venoxis"] = {
+					["enabled"] = false,
+				},
+				["Lucho - Venoxis"] = {
+					["enabled"] = false,
 				},
 			},
 		},
@@ -284,14 +281,14 @@ Quartz3DB = {
 	["profiles"] = {
 		["Diszi"] = {
 			["modules"] = {
-				["Buff"] = false,
 				["Swing"] = false,
+				["Buff"] = false,
+				["Mirror"] = false,
 				["GCD"] = false,
 				["Focus"] = false,
 				["Target"] = false,
-				["Pet"] = false,
-				["Mirror"] = false,
 				["Timer"] = false,
+				["Pet"] = false,
 			},
 		},
 		["Shadow"] = {
@@ -299,23 +296,22 @@ Quartz3DB = {
 				["Target"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Focus"] = false,
+				["Buff"] = false,
 				["Timer"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
-				["Buff"] = false,
+				["Focus"] = false,
 			},
 		},
 		["Default"] = {
 			["modules"] = {
-				["Timer"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Mirror"] = false,
-				["Pet"] = false,
 				["Target"] = false,
+				["Pet"] = false,
+				["Focus"] = false,
 			},
 		},
 		["Pally Tank"] = {

@@ -8,6 +8,9 @@ LoggerHeadNDB = {
 	["profiles"] = {
 		["Default"] = {
 			["zones"] = {
+				[249] = {
+					[4] = true,
+				},
 				[649] = {
 					[5] = true,
 					[6] = true,

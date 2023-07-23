@@ -52,8 +52,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 150.0835266113281,
-			["x"] = -380.7491455078125,
+			["y"] = 0,
+			["x"] = -292.9442138671875,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -115,15 +115,15 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPLEFT",
+			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -323.775146484375,
-			["x"] = 690.650390625,
+			["y"] = 328.463134765625,
+			["x"] = -141.39599609375,
 			["borderColor"] = {
 			},
 			["brokerObject"] = "Questie",
@@ -153,15 +153,15 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPRIGHT",
+			["point"] = "TOPLEFT",
 			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -76.57525634765625,
-			["x"] = -871.85009765625,
+			["y"] = -76.57501220703125,
+			["x"] = 548.4878540039062,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -175,7 +175,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.0.16",
+	["version"] = "10.1.3",
 	["display"] = {
 	},
 	["fridgeColor"] = {

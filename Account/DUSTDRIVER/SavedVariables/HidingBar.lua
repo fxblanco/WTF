@@ -1,6 +1,6 @@
 
 HidingBarDB = {
-	["tstmp"] = 1689418800,
+	["tstmp"] = 1689933416,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
@@ -8,75 +8,75 @@ HidingBarDB = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
 					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_ItemRack"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_Grid2"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_RXPGuides"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_BisTooltipIcon"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_AtlasLoot"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_VuhDo"] = {
 						["tstmp"] = 1689418648,
 					},
 					["LibDBIcon10_DBM"] = {
-						["tstmp"] = 1689418800,
-					},
-					["LibDBIcon10_LoggerHeadLite"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
+					},
+					["LibDBIcon10_LoggerHeadLite"] = {
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_WeakAuras"] = {
-						["tstmp"] = 1689418800,
-					},
-					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1689418800,
-					},
-					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["LibDBIcon10_Questie"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933417,
+					},
+					["LibDBIcon10_Leatrix_Maps"] = {
+						["tstmp"] = 1689933416,
+					},
+					["LibDBIcon10_Plater"] = {
+						["tstmp"] = 1689933416,
 					},
 				},
 				["btnSettings"] = {
 					["HidingBar"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["Grid2"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["DBM"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["ItemRack"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["AtlasLoot"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
+					},
+					["WeakAuras"] = {
+						["tstmp"] = 1689933416,
+					},
+					["BisTooltipIcon"] = {
+						["tstmp"] = 1689933416,
 					},
 					["BagnonLauncher"] = {
-						["tstmp"] = 1689418800,
+						["tstmp"] = 1689933416,
 					},
 					["VuhDo"] = {
 						["tstmp"] = 1689418648,
-					},
-					["WeakAuras"] = {
-						["tstmp"] = 1689418800,
-					},
-					["BisTooltipIcon"] = {
-						["tstmp"] = 1689418800,
 					},
 				},
 				["grabMinimap"] = true,

@@ -51,44 +51,7 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["x"] = 1315.000122070313,
-				},
-				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["font"] = "Expressway",
-					["w"] = 321,
-					["timefontsize"] = 11,
-					["y"] = 90.9999771118164,
-					["x"] = 0.000244140625,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["nametextx"] = 2,
-					["h"] = 18,
-					["texture"] = "Minimalist",
-				},
-				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["x"] = 0,
-					["w"] = 276,
-					["timefontsize"] = 11,
-					["y"] = 227,
-					["h"] = 18,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["nametextx"] = 2,
-					["font"] = "Expressway",
-					["texture"] = "Minimalist",
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -101,21 +64,21 @@ Quartz3DB = {
 					["noInterruptShield"] = false,
 					["timetextx"] = 2,
 					["point"] = "CENTER",
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["nametextx"] = 2,
+					["x"] = 358.0001220703125,
+					["border"] = "Square Full White",
+					["noInterruptChangeColor"] = true,
+					["y"] = -140.9997100830078,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
-					["w"] = 238,
-					["noInterruptChangeColor"] = true,
-					["y"] = -140.9997100830078,
-					["x"] = 358.0001220703125,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["font"] = "Expressway",
 					["timefontsize"] = 11,
 					["strata"] = "HIGH",
 					["texture"] = "Minimalist",
@@ -124,21 +87,21 @@ Quartz3DB = {
 					["timetextx"] = 2,
 					["noInterruptShield"] = false,
 					["point"] = "CENTER",
-					["w"] = 238,
-					["nametextx"] = 2,
-					["x"] = 278.0001831054688,
 					["border"] = "Square Full White",
+					["nametextx"] = 2,
+					["font"] = "Expressway",
+					["w"] = 238,
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997406005859,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["x"] = 278.0001831054688,
 					["timefontsize"] = 11,
 					["strata"] = "HIGH",
 					["texture"] = "Minimalist",
@@ -202,7 +165,44 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 1315.000122070313,
+				},
+				["Luckyone Healing 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["x"] = 0.000244140625,
+					["w"] = 321,
+					["timefontsize"] = 11,
+					["y"] = 90.9999771118164,
+					["h"] = 18,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["nametextx"] = 2,
+					["font"] = "Expressway",
+					["texture"] = "Minimalist",
+				},
+				["Luckyone Main 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["h"] = 18,
+					["w"] = 276,
+					["timefontsize"] = 11,
+					["y"] = 227,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["nametextx"] = 2,
+					["x"] = 0,
+					["texture"] = "Minimalist",
+				},
+			},
 		},
 		["Latency"] = {
 		},
@@ -241,13 +241,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Mirror"] = false,
 				["Pet"] = false,
-				["Range"] = false,
 				["Latency"] = false,
 			},
 			["borderalpha"] = 0,
@@ -304,13 +304,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Mirror"] = false,
 				["Pet"] = false,
-				["Range"] = false,
 				["Latency"] = false,
 			},
 			["spelltextcolor"] = {

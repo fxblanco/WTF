@@ -1,11 +1,11 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Endonuclease - Venoxis"] = {
@@ -29,18 +29,20 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -242.650634765625,
 			},
+			["auctionTimer"] = 15,
 			["playerbalancepoint"] = {
 				["y"] = -53.2750358581543,
 				["x"] = 521.0999145507812,
 			},
 			["point"] = {
-				["y"] = -39.89996719360352,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -467.7999877929688,
+				["y"] = -46.75418090820313,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 413.8761596679688,
 			},
+			["auctionTimerRefresh"] = 15,
 			["startBid"] = 500,
-			["increment"] = 100,
+			["increment"] = 200,
 			["statuspoint"] = {
 				["y"] = -2.025049686431885,
 				["x"] = -71.19929504394531,
@@ -52,27 +54,172 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Xsage"] = 0,
-		["Steyoroth"] = 0,
-		["Perfu"] = 0,
-		["Exonuklease"] = 3492,
-		["Graveofmaria"] = 0,
-		["Hennerr"] = 0,
-		["Widi"] = 0,
+		["Brishja"] = 0,
+		["Hanaltar"] = 0,
+		["Poisonality"] = 0,
+		["Saxz"] = 0,
+		["Tolazytolvl"] = 0,
+		["Gnag"] = 0,
+		["Xebuboss"] = 0,
+		["Wîdi"] = 0,
+		["Qlikadin"] = 0,
+		["Hopéless"] = 0,
+		["Fieseronkel"] = 0,
+		["Hagatha"] = 0,
+		["Siella"] = 0,
 		["Longling"] = 0,
-		["Serferine"] = 0,
-		["Menotaure"] = 0,
+		["Jellypie"] = 0,
+		["Exonuklease"] = -46068,
+		["Ðadus"] = 0,
+		["Simpkin"] = 0,
+		["Aokii"] = 0,
+		["Bullneck"] = 0,
+		["Gigaoof"] = 0,
+		["Hochdruckuwe"] = 0,
+		["Graveofjenna"] = 0,
+		["Shikimora"] = 0,
+		["Domedonmaya"] = 0,
 	},
 	["curPotHistory"] = {
-		34920, -- [1]
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47415::::::::80:::::::::|h[Halsberge der gewaltigen Monstrosität]|h|r",
+			["name"] = "Brishja",
+		}, -- [1]
+		{
+			["bid"] = 6200,
+			["item"] = "|cffa335ee|Hitem:47426::::::::80:::::::::|h[Bindungen des Eisgräbers]|h|r",
+			["name"] = "Hagatha",
+		}, -- [2]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:47418::::::::80:::::::::|h[Umhang des ungezähmten Raubtiers]|h|r",
+			["name"] = "Gnag",
+		}, -- [3]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Tolazytolvl",
+		}, -- [4]
+		{
+			["bid"] = 2500,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Bullneck",
+		}, -- [5]
+		{
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:47440::::::::80:::::::::|h[Gamaschen des erlöschenden Lichts]|h|r",
+			["name"] = "Qlikadin",
+		}, -- [6]
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47427::::::::80:::::::::|h[Blutfuror]|h|r",
+			["name"] = "Poisonality",
+		}, -- [7]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
+			["name"] = "Brishja",
+		}, -- [8]
+		{
+			["bid"] = 2200,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Hagatha",
+		}, -- [9]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Hochdruckuwe",
+		}, -- [10]
+		{
+			["bid"] = 2200,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Jellypie",
+		}, -- [11]
+		{
+			["bid"] = 2200,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Fieseronkel",
+		}, -- [12]
+		{
+			["bid"] = 2200,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Jellypie",
+		}, -- [13]
+		{
+			["bid"] = 2200,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Hochdruckuwe",
+		}, -- [14]
+		{
+			["bid"] = 2200,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Fieseronkel",
+		}, -- [15]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:47459::::::::80:::::::::|h[Armschützer der Schildmaid]|h|r",
+			["name"] = "Brishja",
+		}, -- [16]
+		{
+			["bid"] = 9000,
+			["item"] = "|cffa335ee|Hitem:47447::::::::80:::::::::|h[Gürtel der beißenden Kälte]|h|r",
+			["name"] = "Xebuboss",
+		}, -- [17]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47455::::::::80:::::::::|h[Armschienen des zerbrochenen Bundes]|h|r",
+			["name"] = "Qlikadin",
+		}, -- [18]
+		{
+			["bid"] = 46000,
+			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
+			["name"] = "Wîdi",
+		}, -- [19]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:47469::::::::80:::::::::|h[Gürtel aus bleichen Dornen]|h|r",
+			["name"] = "Qlikadin",
+		}, -- [20]
+		{
+			["bid"] = 55000,
+			["item"] = "|cffa335ee|Hitem:47462::::::::80:::::::::|h[Himmelswirkerweste]|h|r",
+			["name"] = "Exonuklease",
+		}, -- [21]
+		{
+			["bid"] = 1000,
+			["item"] = "|cffa335ee|Hitem:47324::::::::80:::::::::|h[Bindungen des leichenblassen Heiligen]|h|r",
+			["name"] = "Graveofjenna",
+		}, -- [22]
+		{
+			["bid"] = 2400,
+			["item"] = "|cffa335ee|Hitem:47318::::::::80:::::::::|h[Gamaschen des Erwachens]|h|r",
+			["name"] = "Saxz",
+		}, -- [23]
+		{
+			["bid"] = 2500,
+			["item"] = "|cffa335ee|Hitem:47313::::::::80:::::::::|h[Armbänder des dunklen Beschlusses]|h|r",
+			["name"] = "Shikimora",
+		}, -- [24]
+		{
+			["bid"] = 1200,
+			["item"] = "|cffa335ee|Hitem:47326::::::::80:::::::::|h[Handwickel der leblosen Berührung]|h|r",
+			["name"] = "Graveofjenna",
+		}, -- [25]
+		-24700, -- [26]
+		{
+			["bid"] = 1000,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Qlikadin",
+		}, -- [27]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 34920,
-	["prevDist"] = 34920,
+	["potAmount"] = 223300,
+	["prevDist"] = 223300,
 }
 GDKPd_BalanceData = {
-	["Dynamitdelux"] = 0,
-	["Exonuklease"] = -34234,
 	["Specializt"] = 0,
+	["Exonuklease"] = -51656,
+	["Dynamitdelux"] = 0,
 }

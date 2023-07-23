@@ -436,9 +436,9 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Collections", -- [1]
-					"TierSets", -- [2]
-					8, -- [3]
+					nil, -- [1]
+					"Ulduar", -- [2]
+					nil, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
@@ -460,8 +460,8 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
 					"LeatherworkingWrath", -- [2]
-					9, -- [3]
-					3, -- [4]
+					nil, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},
@@ -476,13 +476,13 @@ AtlasLootClassicDB = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
-					-45.22483825683594, -- [4]
-					-25.92491912841797, -- [5]
+					0, -- [4]
+					-32.75431060791016, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
 					"TrialoftheCrusader", -- [2]
-					5, -- [3]
+					7, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},

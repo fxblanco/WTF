@@ -84,17 +84,29 @@ GDKPd_DB = {
 			},
 		},
 		["Alsia - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 87.02503967285156,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -133.2993774414063,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 195.1252136230469,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -435.0260314941406,
+			},
+			["point"] = {
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 298.3500366210938,
+			},
+			["startBid"] = 500,
+			["statuspoint"] = {
+				["y"] = 10.79995727539063,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -100.2239074707031,
+			},
+			["balancepoint"] = {
+				["y"] = 87.02503967285156,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -133.2993774414063,
 			},
 			["itemLevelPricing"] = {
 				{
@@ -104,21 +116,20 @@ GDKPd_DB = {
 					["minbid"] = 2000,
 				}, -- [1]
 			},
-			["point"] = {
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 298.3500366210938,
-			},
-			["startBid"] = 500,
 			["increment"] = 200,
-			["statuspoint"] = {
-				["y"] = 10.79995727539063,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -100.2239074707031,
-			},
 		},
 		["Kwasimojo - Venoxis"] = {
+			["announceBidRaidWarning"] = true,
+			["balancepoint"] = {
+				["y"] = -163.275146484375,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -193.3739318847656,
+			},
+			["playerbalancepoint"] = {
+				["y"] = 54.72499847412109,
+				["x"] = 348.300048828125,
+			},
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
@@ -132,26 +143,15 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 413.0502624511719,
 			},
-			["announceBidRaidWarning"] = true,
 			["auctionTimerRefresh"] = 15,
-			["balancepoint"] = {
-				["y"] = -163.275146484375,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -193.3739318847656,
-			},
-			["playerbalancepoint"] = {
-				["y"] = 54.72499847412109,
-				["x"] = 348.300048828125,
-			},
+			["startBid"] = 1000,
+			["increment"] = 200,
 			["statuspoint"] = {
 				["y"] = 122.1751403808594,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -126.5496826171875,
 			},
-			["startBid"] = 1000,
-			["increment"] = 200,
 		},
 	},
 }

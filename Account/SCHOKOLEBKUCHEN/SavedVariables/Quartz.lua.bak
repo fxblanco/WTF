@@ -55,7 +55,67 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Diszi"] = {
+					["y"] = 322,
+					["h"] = 30,
+					["x"] = 1171,
+					["border"] = "None",
+					["texture"] = "Clean",
+				},
+				["Shadow"] = {
+					["y"] = 295,
+					["h"] = 40,
+					["x"] = 1171,
+					["border"] = "None",
+					["texture"] = "Clean",
+				},
+				["Default"] = {
+					["h"] = 20,
+					["w"] = 285,
+					["y"] = 236.9380645751953,
+					["x"] = 5.4171142578125,
+					["point"] = "BOTTOM",
+					["border"] = "None",
+					["texture"] = "Clean",
+					["font"] = "Expressway",
+					["alpha"] = 0.85,
+					["hideicon"] = true,
+				},
+				["Luckyone Healing 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["h"] = 18,
+					["w"] = 321,
+					["nametextx"] = 2,
+					["y"] = 90.9999771118164,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["x"] = 0.000244140625,
+					["texture"] = "Minimalist",
+				},
+				["Luckyone Main 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["h"] = 18,
+					["w"] = 276,
+					["nametextx"] = 2,
+					["y"] = 227,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["x"] = 0,
+					["texture"] = "Minimalist",
+				},
+			},
 		},
 		["EnemyCasts"] = {
 		},
@@ -73,34 +133,34 @@ Quartz3DB = {
 					["x"] = 1196,
 				},
 				["Luckyone Healing 2.21"] = {
-					["noInterruptShield"] = false,
 					["timetextx"] = 2,
+					["noInterruptShield"] = false,
 					["point"] = "CENTER",
+					["strata"] = "HIGH",
+					["timefontsize"] = 11,
+					["font"] = "Expressway",
 					["w"] = 238,
-					["nametextx"] = 2,
-					["x"] = 358.0001220703125,
-					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997100830078,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
-					["timefontsize"] = 11,
-					["strata"] = "HIGH",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["x"] = 358.0001220703125,
+					["nametextx"] = 2,
+					["border"] = "Square Full White",
 					["texture"] = "Minimalist",
 				},
 				["Luckyone Main 2.21"] = {
 					["noInterruptShield"] = false,
 					["timetextx"] = 2,
 					["point"] = "CENTER",
-					["w"] = 238,
-					["nametextx"] = 2,
+					["strata"] = "HIGH",
+					["timefontsize"] = 11,
 					["font"] = "Expressway",
 					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
@@ -114,8 +174,8 @@ Quartz3DB = {
 					["fontsize"] = 11,
 					["iconalpha"] = 1,
 					["x"] = 278.0001831054688,
-					["timefontsize"] = 11,
-					["strata"] = "HIGH",
+					["nametextx"] = 2,
+					["w"] = 238,
 					["texture"] = "Minimalist",
 				},
 			},
@@ -129,8 +189,8 @@ Quartz3DB = {
 					["x"] = 1196,
 				},
 				["Default"] = {
-					["x"] = 1196,
 					["font"] = "Expressway",
+					["x"] = 1196,
 				},
 				["Luckyone Healing 2.21"] = {
 					["timetextx"] = 2,
@@ -151,13 +211,13 @@ Quartz3DB = {
 					["font"] = "Expressway",
 					["timefontsize"] = 11,
 					["iconalpha"] = 1,
-					["strata"] = "HIGH",
-					["x"] = 358.000244140625,
 					["noInterruptShield"] = false,
+					["x"] = 358.000244140625,
+					["strata"] = "HIGH",
 					["iconposition"] = "left",
 				},
 				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
+					["noInterruptShield"] = false,
 					["point"] = "CENTER",
 					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
@@ -168,82 +228,23 @@ Quartz3DB = {
 						1, -- [4]
 					},
 					["fontsize"] = 11,
-					["nametextx"] = 2,
+					["timefontsize"] = 11,
 					["texture"] = "Minimalist",
 					["w"] = 238,
 					["y"] = -250.9998168945313,
 					["font"] = "Expressway",
-					["timefontsize"] = 11,
+					["nametextx"] = 2,
 					["iconalpha"] = 1,
-					["strata"] = "HIGH",
+					["timetextx"] = 2,
 					["x"] = 278.0004272460938,
-					["noInterruptShield"] = false,
+					["strata"] = "HIGH",
 					["iconposition"] = "left",
 				},
 			},
 		},
 		["Interrupt"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Diszi"] = {
-					["y"] = 322,
-					["h"] = 30,
-					["x"] = 1171,
-					["border"] = "None",
-					["texture"] = "Clean",
-				},
-				["Shadow"] = {
-					["y"] = 295,
-					["h"] = 40,
-					["x"] = 1171,
-					["border"] = "None",
-					["texture"] = "Clean",
-				},
-				["Default"] = {
-					["h"] = 20,
-					["w"] = 285,
-					["y"] = 238,
-					["font"] = "Expressway",
-					["border"] = "None",
-					["texture"] = "Clean",
-					["x"] = 1150,
-					["alpha"] = 0.85,
-					["hideicon"] = true,
-				},
-				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["x"] = 0.000244140625,
-					["w"] = 321,
-					["timefontsize"] = 11,
-					["y"] = 90.9999771118164,
-					["h"] = 18,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["nametextx"] = 2,
-					["font"] = "Expressway",
-					["texture"] = "Minimalist",
-				},
-				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["h"] = 18,
-					["w"] = 276,
-					["timefontsize"] = 11,
-					["y"] = 227,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["nametextx"] = 2,
-					["x"] = 0,
-					["texture"] = "Minimalist",
-				},
-			},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 			["profiles"] = {
@@ -264,38 +265,38 @@ Quartz3DB = {
 	["profiles"] = {
 		["Diszi"] = {
 			["modules"] = {
-				["Buff"] = false,
+				["Timer"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Focus"] = false,
+				["Buff"] = false,
 				["Target"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
-				["Timer"] = false,
+				["Mirror"] = false,
+				["Focus"] = false,
 			},
 		},
 		["Shadow"] = {
 			["modules"] = {
-				["Buff"] = false,
+				["Timer"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Focus"] = false,
+				["Buff"] = false,
 				["Target"] = false,
-				["Pet"] = false,
 				["Mirror"] = false,
-				["Timer"] = false,
+				["Pet"] = false,
+				["Focus"] = false,
 			},
 		},
 		["Default"] = {
 			["modules"] = {
 				["Swing"] = false,
 				["Buff"] = false,
-				["Mirror"] = false,
+				["Pet"] = false,
 				["GCD"] = false,
 				["Focus"] = false,
 				["Target"] = false,
 				["Timer"] = false,
-				["Pet"] = false,
+				["Mirror"] = false,
 			},
 		},
 		["Luckyone Healing 2.21"] = {
@@ -324,13 +325,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Range"] = false,
+				["Pet"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Range"] = false,
 				["Mirror"] = false,
-				["Pet"] = false,
 				["Latency"] = false,
 			},
 			["borderalpha"] = 0,
@@ -341,16 +342,16 @@ Quartz3DB = {
 				nil, -- [3]
 				0, -- [4]
 			},
-			["castingcolor"] = {
-				0.01960784383118153, -- [1]
-				1, -- [2]
+			["spelltextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
 			["hidesamwise"] = false,
-			["spelltextcolor"] = {
-				nil, -- [1]
-				nil, -- [2]
+			["castingcolor"] = {
+				0.01960784383118153, -- [1]
+				1, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
@@ -386,13 +387,22 @@ Quartz3DB = {
 				nil, -- [3]
 				1, -- [4]
 			},
+			["modules"] = {
+				["Range"] = false,
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Timer"] = false,
+				["Mirror"] = false,
+				["Pet"] = false,
+				["Latency"] = false,
+			},
 			["spelltextcolor"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
-			["borderalpha"] = 0,
 			["castingcolor"] = {
 				0.01960784383118153, -- [1]
 				1, -- [2]
@@ -405,18 +415,9 @@ Quartz3DB = {
 				nil, -- [3]
 				0, -- [4]
 			},
-			["hidesamwise"] = false,
-			["modules"] = {
-				["Pet"] = false,
-				["Swing"] = false,
-				["GCD"] = false,
-				["Buff"] = false,
-				["Timer"] = false,
-				["Range"] = false,
-				["Mirror"] = false,
-				["Latency"] = false,
-			},
 			["backgroundalpha"] = 0.9,
+			["hidesamwise"] = false,
+			["borderalpha"] = 0,
 			["timetextcolor"] = {
 				nil, -- [1]
 				nil, -- [2]

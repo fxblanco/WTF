@@ -44,12 +44,13 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
+					["key"] = "CTRL-BUTTON1",
+					["spell"] = "Hand des Schutzes",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
+					["icon"] = 135964,
+					["spellSubName"] = "Rang 3",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -62,22 +63,21 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135968,
 					["spell"] = "Hand der Freiheit",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand des Schutzes",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135964,
-					["spellSubName"] = "Rang 3",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -99,13 +99,23 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["spell"] = "Handauflegung",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["spellSubName"] = "Rang 5",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136106,
 					["spell"] = "Göttliches Eingreifen",
-				}, -- [8]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -115,16 +125,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135920,
 					["spellSubName"] = "Rang 13",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Handauflegung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spellSubName"] = "Rang 5",
 				}, -- [10]
 				{
 					["type"] = "target",

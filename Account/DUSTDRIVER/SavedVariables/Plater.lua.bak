@@ -1,261 +1,17 @@
 
 PlaterDB = {
 	["captured_spells"] = {
-		[61684] = {
+		[38879] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Krabbler",
-			["npcID"] = 930,
+			["source"] = "Berserker der Zerschmetterten Hand",
+			["npcID"] = 16878,
 		},
-		[47468] = {
-			["isChanneled"] = false,
-			["source"] = "Madenpirscher",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 26125,
-		},
-		[34645] = {
-			["encounterName"] = "Wachhabender Gargolmar",
-			["source"] = "Wachhabender Gargolmar",
-			["npcID"] = 17306,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 1893,
-		},
-		[64494] = {
-			["isChanneled"] = false,
-			["source"] = "Wolfgang",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 20330,
-		},
-		[14920] = {
-			["isChanneled"] = false,
-			["source"] = "Schnurrli",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 5865,
-		},
-		[14921] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Krabbler",
-			["npcID"] = 930,
-		},
-		[33907] = {
-			["isChanneled"] = false,
-			["source"] = "Dornrankenkriecher",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 23874,
-		},
-		[33911] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Steinsichelalpha",
-			["npcID"] = 16929,
-		},
-		[75446] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 5865,
-		},
-		[1604] = {
-			["source"] = "Krustenbohrer",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 16844,
-		},
-		[38495] = {
-			["source"] = "Auge von Grillok",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 19440,
-		},
-		[3256] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Verfluchter Skarabäus",
-			["npcID"] = 21306,
-		},
-		[52473] = {
-			["isChanneled"] = false,
-			["source"] = "Wolfgang",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 20330,
-		},
-		[13787] = {
-			["isChanneled"] = false,
-			["source"] = "Hexenmeister der Zerschmetterten Hand",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19411,
-		},
-		[47782] = {
-			["isChanneled"] = false,
-			["source"] = "Verseuchter Runenmagier der Drachenschinder",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 24198,
-		},
-		[57565] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Khaamyn",
-			["npcID"] = 417,
-		},
-		[33701] = {
-			["isChanneled"] = false,
-			["source"] = "Grak'nak",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 1860,
-		},
-		[57458] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 4512,
-		},
-		[51493] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkler Runenriese",
-			["npcID"] = 27969,
-		},
-		[30639] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Kriegshund der Zerschmetterten Hand",
-			["npcID"] = 17280,
-		},
-		[30641] = {
-			["encounterName"] = "Wachhabender Gargolmar",
-			["source"] = "Wachhabender Gargolmar",
-			["npcID"] = 17306,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 1893,
-		},
-		[75447] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 4512,
-		},
-		[34368] = {
-			["isChanneled"] = false,
-			["source"] = "Peiniger des Blutenden Auges",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19424,
-		},
-		[6742] = {
-			["isChanneled"] = false,
-			["source"] = "Dunkelschamane des Blutenden Auges",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 16873,
-		},
-		[8599] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Verstörter Hölleneber",
-			["npcID"] = 16863,
-		},
-		[35361] = {
-			["type"] = "BUFF",
-			["source"] = "Hainläufer",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 31228,
-		},
-		[47982] = {
-			["isChanneled"] = false,
-			["source"] = "Taryal",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 416,
-		},
-		[32062] = {
-			["isChanneled"] = false,
-			["source"] = "Grillok \"Finsterauge\"",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19457,
-		},
-		[52442] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Arthas",
-			["npcID"] = 26499,
-		},
-		[18100] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Martik Tor'seldori",
-			["npcID"] = 16577,
-		},
-		[15801] = {
+		[53167] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Dunkler Runentheurg",
 			["npcID"] = 27963,
-		},
-		[3009] = {
-			["isChanneled"] = false,
-			["source"] = "Schnurrli",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 5865,
-		},
-		[12544] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Magister Surdiel",
-			["npcID"] = 32170,
-		},
-		[16856] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zerstörer der Knochenmalmer",
-			["npcID"] = 17271,
-		},
-		[24452] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Cat",
-			["npcID"] = 731,
-		},
-		[35706] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 17252,
-		},
-		[35570] = {
-			["isChanneled"] = false,
-			["source"] = "Berserker der Zerschmetterten Hand",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 16878,
-		},
-		[52719] = {
-			["isChanneled"] = false,
-			["source"] = "Marinesoldat der Westfallbrigade",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 27501,
-		},
-		[12550] = {
-			["isChanneled"] = false,
-			["source"] = "Dunkelschamane des Blutenden Auges",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 16873,
-		},
-		[25228] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 417,
-		},
-		[9885] = {
-			["source"] = "Behüterin Leesa'oh",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 17831,
-		},
-		[34079] = {
-			["isChanneled"] = false,
-			["source"] = "Grillok \"Finsterauge\"",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19457,
 		},
 		[50370] = {
 			["isChanneled"] = false,
@@ -263,191 +19,17 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 27501,
 		},
-		[70893] = {
-			["source"] = "Schnurrli",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 5865,
-		},
-		[27270] = {
-			["isChanneled"] = false,
-			["source"] = "Grak'nak",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 1860,
-		},
-		[49843] = {
-			["isChanneled"] = false,
-			["source"] = "Blutschemen",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 24872,
-		},
-		[31747] = {
-			["isChanneled"] = false,
-			["source"] = "Krustenbohrer",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 16844,
-		},
-		[59884] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Cat",
-			["npcID"] = 731,
-		},
-		[57475] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 4512,
-		},
-		[16244] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zehrer der Knochenmalmer",
-			["npcID"] = 17259,
-		},
-		[50752] = {
-			["encounterName"] = "Maid der Trauer",
-			["source"] = "Maid der Trauer",
-			["npcID"] = 27975,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 565,
-		},
-		[51494] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkler Runenriese",
-			["npcID"] = 27969,
-		},
-		[50760] = {
-			["encounterName"] = "Maid der Trauer",
-			["source"] = "Maid der Trauer",
-			["npcID"] = 27975,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 565,
-		},
-		[51819] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tobendes Konstrukt",
-			["npcID"] = 27970,
-		},
-		[15241] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkelzauberer des Blutenden Auges",
-			["npcID"] = 17269,
-		},
-		[53395] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkler Runenkrieger",
-			["npcID"] = 27960,
-		},
-		[17261] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Krabbler",
-			["npcID"] = 930,
-		},
-		[55860] = {
-			["isChanneled"] = false,
-			["source"] = "Schaufelhauerhirsch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 23691,
-		},
-		[15618] = {
+		[19643] = {
 			["isChanneled"] = false,
 			["source"] = "Grunzer von Thrallmar",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 16580,
 		},
-		[30635] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Bestienmeister der Knochenmalmer",
-			["npcID"] = 17455,
-		},
-		[22857] = {
-			["encounterName"] = "Wachhabender Gargolmar",
-			["source"] = "Wachhabender Gargolmar",
-			["npcID"] = 17306,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 1893,
-		},
-		[51491] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Unerbittliches Konstrukt",
-			["npcID"] = 27971,
-		},
-		[33909] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Bulliger Hölleneber",
-			["npcID"] = 16880,
-		},
-		[15496] = {
-			["isChanneled"] = false,
-			["source"] = "Verseuchter Stammesangehöriger der Drachenschinder",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 23564,
-		},
-		[18501] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Schlächter der Knochenmalmer",
-			["npcID"] = 17281,
-		},
-		[34302] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Instabiler Leerwandler",
-			["npcID"] = 20145,
-		},
-		[51832] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Unerbittliches Konstrukt",
-			["npcID"] = 27971,
-		},
-		[48280] = {
-			["isChanneled"] = false,
-			["source"] = "Wächter der Drachenschinder",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 27927,
-		},
-		[48281] = {
-			["isChanneled"] = false,
-			["source"] = "Wächter der Drachenschinder",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 27927,
-		},
-		[32019] = {
-			["isChanneled"] = false,
-			["source"] = "Schaufelhauerhirsch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 23691,
-		},
-		[31403] = {
-			["isChanneled"] = false,
-			["source"] = "Berserker von Burg Siegeswall",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 27500,
-		},
-		[57567] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 417,
-		},
-		[19579] = {
+		[52442] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
-			["source"] = "Cat",
-			["npcID"] = 731,
+			["source"] = "Arthas",
+			["npcID"] = 26499,
 		},
 		[32154] = {
 			["encounterName"] = "Wachhabender Gargolmar",
@@ -463,47 +45,65 @@ PlaterDB = {
 			["source"] = "Kriegshund der Zerschmetterten Hand",
 			["npcID"] = 17280,
 		},
-		[42724] = {
+		[3600] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkler Runenkrieger",
-			["npcID"] = 27960,
+			["source"] = "Totem der Erdbindung",
+			["npcID"] = 2630,
 		},
-		[4167] = {
+		[51494] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Krabbler",
-			["npcID"] = 930,
+			["source"] = "Dunkler Runenriese",
+			["npcID"] = 27969,
 		},
-		[14516] = {
+		[33907] = {
 			["isChanneled"] = false,
+			["source"] = "Dornrankenkriecher",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zehrer der Knochenmalmer",
-			["npcID"] = 17259,
+			["npcID"] = 23874,
 		},
-		[11972] = {
+		[50761] = {
+			["encounterName"] = "Maid der Trauer",
+			["source"] = "Maid der Trauer",
 			["isChanneled"] = false,
-			["source"] = "Unerschütterlicher Hauptmann der Rachsucht",
+			["encounterID"] = 565,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19864,
+			["npcID"] = 27975,
 		},
-		[30659] = {
+		[51805] = {
 			["isChanneled"] = false,
+			["source"] = "Dunkler Runenaufseher",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wahrsager des Blutenden Auges",
-			["npcID"] = 17478,
+			["npcID"] = 27966,
 		},
-		[43506] = {
+		[17687] = {
+			["source"] = "Berserker von Burg Siegeswall",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 27500,
+		},
+		[32736] = {
 			["isChanneled"] = false,
 			["source"] = "Verseuchter Stammesangehöriger der Drachenschinder",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 23564,
 		},
-		[6713] = {
+		[50833] = {
+			["encounterName"] = "Krystallus",
+			["type"] = "DEBUFF",
+			["source"] = "Wasserelementar",
+			["encounterID"] = 563,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 37994,
+		},
+		[72898] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Wasserelementar",
 			["isChanneled"] = false,
+			["encounterID"] = 563,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zehrer der Knochenmalmer",
-			["npcID"] = 17259,
+			["npcID"] = 37994,
 		},
 		[13864] = {
 			["event"] = "SPELL_AURA_APPLIED",
@@ -511,19 +111,29 @@ PlaterDB = {
 			["source"] = "Akolyth der Zerschmetterten Hand",
 			["npcID"] = 19415,
 		},
-		[41534] = {
+		[23600] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Teufelshäscher",
-			["npcID"] = 18733,
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
 		},
-		[50761] = {
-			["encounterName"] = "Maid der Trauer",
-			["type"] = "DEBUFF",
-			["source"] = "Maid der Trauer",
-			["npcID"] = 27975,
+		[32019] = {
+			["isChanneled"] = false,
+			["source"] = "Schaufelhauerhirsch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 23691,
+		},
+		[57567] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 565,
+			["npcID"] = 417,
+		},
+		[12611] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Magier",
+			["npcID"] = 32324,
 		},
 		[34386] = {
 			["isChanneled"] = false,
@@ -531,71 +141,17 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 20815,
 		},
-		[12471] = {
+		[17261] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wahrsager des Blutenden Auges",
-			["npcID"] = 17478,
+			["source"] = "Krabbler",
+			["npcID"] = 930,
 		},
-		[24529] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 4512,
-		},
-		[20754] = {
+		[51503] = {
 			["isChanneled"] = false,
+			["source"] = "Dunkler Runenaufseher",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkelzauberer des Blutenden Auges",
-			["npcID"] = 17269,
-		},
-		[414266] = {
-			["source"] = "Peon des Blutenden Auges",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 16907,
-		},
-		[19615] = {
-			["source"] = "Schnurrli",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 5865,
-		},
-		[33898] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Steinsichelwelpe",
-			["npcID"] = 16927,
-		},
-		[30621] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tobsüchtiger der Knochenmalmer",
-			["npcID"] = 17264,
-		},
-		[27047] = {
-			["isChanneled"] = false,
-			["source"] = "Wolfgang",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 20330,
-		},
-		[11971] = {
-			["isChanneled"] = false,
-			["source"] = "Thorvald",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 27926,
-		},
-		[33914] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Unkontrollierter Leerwandler",
-			["npcID"] = 16975,
-		},
-		[35696] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 17252,
+			["npcID"] = 27966,
 		},
 		[9053] = {
 			["isChanneled"] = false,
@@ -603,17 +159,143 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 19422,
 		},
-		[38879] = {
+		[14920] = {
 			["isChanneled"] = false,
+			["source"] = "Schnurrli",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Berserker der Zerschmetterten Hand",
-			["npcID"] = 16878,
+			["npcID"] = 5865,
 		},
-		[11976] = {
+		[6713] = {
 			["isChanneled"] = false,
-			["source"] = "Grunzer des Blutenden Auges",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 16871,
+			["source"] = "Zehrer der Knochenmalmer",
+			["npcID"] = 17259,
+		},
+		[33701] = {
+			["isChanneled"] = false,
+			["source"] = "Grak'nak",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 1860,
+		},
+		[4167] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Krabbler",
+			["npcID"] = 930,
+		},
+		[50810] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Krystallus",
+			["isChanneled"] = false,
+			["encounterID"] = 563,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27977,
+		},
+		[27270] = {
+			["isChanneled"] = false,
+			["source"] = "Grak'nak",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 1860,
+		},
+		[19134] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
+		},
+		[27047] = {
+			["isChanneled"] = false,
+			["source"] = "Wolfgang",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 20330,
+		},
+		[30621] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Tobsüchtiger der Knochenmalmer",
+			["npcID"] = 17264,
+		},
+		[54261] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[30641] = {
+			["encounterName"] = "Wachhabender Gargolmar",
+			["source"] = "Wachhabender Gargolmar",
+			["npcID"] = 17306,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 1893,
+		},
+		[24529] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 4512,
+		},
+		[32693] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runenelementarist",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27962,
+		},
+		[51496] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runenformer",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27965,
+		},
+		[33909] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Bulliger Hölleneber",
+			["npcID"] = 16880,
+		},
+		[70893] = {
+			["source"] = "Schnurrli",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 5865,
+		},
+		[15496] = {
+			["isChanneled"] = false,
+			["source"] = "Verseuchter Stammesangehöriger der Drachenschinder",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 23564,
+		},
+		[51799] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runengelehrter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27964,
+		},
+		[47982] = {
+			["isChanneled"] = false,
+			["source"] = "Taryal",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 416,
+		},
+		[3256] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Verfluchter Skarabäus",
+			["npcID"] = 21306,
+		},
+		[50843] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Krystallus",
+			["isChanneled"] = false,
+			["encounterID"] = 563,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27977,
+		},
+		[18501] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Schlächter der Knochenmalmer",
+			["npcID"] = 17281,
 		},
 		[34842] = {
 			["isChanneled"] = false,
@@ -621,10 +303,28 @@ PlaterDB = {
 			["source"] = "Wilder Leerwandler",
 			["npcID"] = 16974,
 		},
-		[54131] = {
+		[14514] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Magier",
+			["npcID"] = 32324,
+		},
+		[14516] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zehrer der Knochenmalmer",
+			["npcID"] = 17259,
+		},
+		[46604] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[3009] = {
+			["isChanneled"] = false,
 			["source"] = "Schnurrli",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
+			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 5865,
 		},
 		[24394] = {
@@ -633,17 +333,17 @@ PlaterDB = {
 			["source"] = "Cat",
 			["npcID"] = 731,
 		},
-		[17687] = {
-			["source"] = "Berserker von Burg Siegeswall",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 27500,
-		},
-		[19643] = {
+		[15801] = {
 			["isChanneled"] = false,
-			["source"] = "Grunzer von Thrallmar",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 16580,
+			["source"] = "Dunkler Runentheurg",
+			["npcID"] = 27963,
+		},
+		[64494] = {
+			["isChanneled"] = false,
+			["source"] = "Wolfgang",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 20330,
 		},
 		[10966] = {
 			["isChanneled"] = false,
@@ -651,23 +351,99 @@ PlaterDB = {
 			["source"] = "Bestienmeister der Knochenmalmer",
 			["npcID"] = 17455,
 		},
-		[30615] = {
+		[51776] = {
 			["isChanneled"] = false,
+			["source"] = "Dunkler Runenelementarist",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wahrsager des Blutenden Auges",
-			["npcID"] = 17478,
+			["npcID"] = 27962,
 		},
-		[50831] = {
+		[53314] = {
 			["isChanneled"] = false,
+			["source"] = "Dunkler Runenelementarist",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Sjonnir der Eisenformer",
-			["npcID"] = 27978,
+			["npcID"] = 27962,
 		},
-		[49841] = {
+		[47983] = {
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[51832] = {
 			["isChanneled"] = false,
-			["source"] = "Auferstandener Vrykulahn",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 24871,
+			["source"] = "Unerbittliches Konstrukt",
+			["npcID"] = 27971,
+		},
+		[57458] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 4512,
+		},
+		[50836] = {
+			["encounterName"] = "Krystallus",
+			["type"] = "DEBUFF",
+			["source"] = "Wasserelementar",
+			["encounterID"] = 563,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 37994,
+		},
+		[50868] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Krystallus",
+			["isChanneled"] = false,
+			["encounterID"] = 563,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27977,
+		},
+		[42724] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dunkler Runenkrieger",
+			["npcID"] = 27960,
+		},
+		[35361] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Hainläufer",
+			["npcID"] = 31228,
+		},
+		[16856] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zerstörer der Knochenmalmer",
+			["npcID"] = 17271,
+		},
+		[12544] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Magister Surdiel",
+			["npcID"] = 32170,
+		},
+		[31403] = {
+			["isChanneled"] = false,
+			["source"] = "Berserker von Burg Siegeswall",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27500,
+		},
+		[414266] = {
+			["source"] = "Peon des Blutenden Auges",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 16907,
+		},
+		[12550] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkelschamane des Blutenden Auges",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 16873,
+		},
+		[35696] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 17252,
 		},
 		[67837] = {
 			["isChanneled"] = false,
@@ -675,11 +451,11 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 35646,
 		},
-		[32736] = {
+		[47482] = {
 			["isChanneled"] = false,
-			["source"] = "Verseuchter Stammesangehöriger der Drachenschinder",
+			["source"] = "Auferstandener Ghul",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 23564,
+			["npcID"] = 26125,
 		},
 		[32738] = {
 			["isChanneled"] = false,
@@ -687,11 +463,353 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 16844,
 		},
+		[53395] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dunkler Runenkrieger",
+			["npcID"] = 27960,
+		},
 		[28168] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Tobendes Konstrukt",
 			["npcID"] = 27970,
+		},
+		[49841] = {
+			["isChanneled"] = false,
+			["source"] = "Auferstandener Vrykulahn",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 24871,
+		},
+		[36589] = {
+			["isChanneled"] = false,
+			["source"] = "Kräftiger Wolf",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 31233,
+		},
+		[34302] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Instabiler Leerwandler",
+			["npcID"] = 20145,
+		},
+		[43506] = {
+			["isChanneled"] = false,
+			["source"] = "Verseuchter Stammesangehöriger der Drachenschinder",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 23564,
+		},
+		[34079] = {
+			["isChanneled"] = false,
+			["source"] = "Grillok \"Finsterauge\"",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19457,
+		},
+		[22857] = {
+			["encounterName"] = "Wachhabender Gargolmar",
+			["source"] = "Wachhabender Gargolmar",
+			["npcID"] = 17306,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 1893,
+		},
+		[34645] = {
+			["encounterName"] = "Wachhabender Gargolmar",
+			["source"] = "Wachhabender Gargolmar",
+			["npcID"] = 17306,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 1893,
+		},
+		[51491] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Unerbittliches Konstrukt",
+			["npcID"] = 27971,
+		},
+		[51499] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runenarbeiter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27961,
+		},
+		[51507] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runenaufseher",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27966,
+		},
+		[14921] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Krabbler",
+			["npcID"] = 930,
+		},
+		[51484] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runentheurg",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27963,
+		},
+		[50812] = {
+			["encounterName"] = "Krystallus",
+			["type"] = "DEBUFF",
+			["source"] = "Wasserelementar",
+			["encounterID"] = 563,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 37994,
+		},
+		[27577] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
+		},
+		[46202] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runenarbeiter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27961,
+		},
+		[51842] = {
+			["isChanneled"] = false,
+			["source"] = "Unerbittliches Konstrukt",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27971,
+		},
+		[48280] = {
+			["isChanneled"] = false,
+			["source"] = "Wächter der Drachenschinder",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27927,
+		},
+		[25228] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 417,
+		},
+		[52383] = {
+			["isChanneled"] = false,
+			["source"] = "Blitzkonstrukt",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27972,
+		},
+		[9080] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[18100] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Martik Tor'seldori",
+			["npcID"] = 16577,
+		},
+		[35570] = {
+			["isChanneled"] = false,
+			["source"] = "Berserker der Zerschmetterten Hand",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 16878,
+		},
+		[51475] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runenelementarist",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27962,
+		},
+		[52909] = {
+			["type"] = "BUFF",
+			["source"] = "Bibliothekar Garren",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 25291,
+		},
+		[68081] = {
+			["isChanneled"] = false,
+			["source"] = "Wurmloch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 35646,
+		},
+		[30615] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wahrsager des Blutenden Auges",
+			["npcID"] = 17478,
+		},
+		[19579] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Cat",
+			["npcID"] = 731,
+		},
+		[4511] = {
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[11972] = {
+			["isChanneled"] = false,
+			["source"] = "Unerschütterlicher Hauptmann der Rachsucht",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19864,
+		},
+		[52719] = {
+			["isChanneled"] = false,
+			["source"] = "Marinesoldat der Westfallbrigade",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27501,
+		},
+		[30635] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Bestienmeister der Knochenmalmer",
+			["npcID"] = 17455,
+		},
+		[16244] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zehrer der Knochenmalmer",
+			["npcID"] = 17259,
+		},
+		[13323] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[15241] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dunkelzauberer des Blutenden Auges",
+			["npcID"] = 17269,
+		},
+		[61684] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Krabbler",
+			["npcID"] = 930,
+		},
+		[11976] = {
+			["isChanneled"] = false,
+			["source"] = "Grunzer des Blutenden Auges",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 16871,
+		},
+		[30659] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wahrsager des Blutenden Auges",
+			["npcID"] = 17478,
+		},
+		[41534] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Teufelshäscher",
+			["npcID"] = 18733,
+		},
+		[35706] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 17252,
+		},
+		[9885] = {
+			["source"] = "Behüterin Leesa'oh",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17831,
+		},
+		[15618] = {
+			["isChanneled"] = false,
+			["source"] = "Grunzer von Thrallmar",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 16580,
+		},
+		[54131] = {
+			["source"] = "Schnurrli",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 5865,
+		},
+		[47468] = {
+			["isChanneled"] = false,
+			["source"] = "Madenpirscher",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 26125,
+		},
+		[9128] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[51819] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Tobendes Konstrukt",
+			["npcID"] = 27970,
+		},
+		[55860] = {
+			["isChanneled"] = false,
+			["source"] = "Schaufelhauerhirsch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 23691,
+		},
+		[20754] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dunkelzauberer des Blutenden Auges",
+			["npcID"] = 17269,
+		},
+		[47782] = {
+			["isChanneled"] = false,
+			["source"] = "Verseuchter Runenmagier der Drachenschinder",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 24198,
+		},
+		[48281] = {
+			["isChanneled"] = false,
+			["source"] = "Wächter der Drachenschinder",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27927,
+		},
+		[57724] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 417,
+		},
+		[51612] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkler Runengelehrter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27964,
+		},
+		[50831] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Sjonnir der Eisenformer",
+			["npcID"] = 27978,
+		},
+		[49843] = {
+			["isChanneled"] = false,
+			["source"] = "Blutschemen",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 24872,
+		},
+		[31747] = {
+			["isChanneled"] = false,
+			["source"] = "Krustenbohrer",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 16844,
+		},
+		[52473] = {
+			["isChanneled"] = false,
+			["source"] = "Wolfgang",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 20330,
 		},
 		[33896] = {
 			["isChanneled"] = false,
@@ -699,17 +817,183 @@ PlaterDB = {
 			["source"] = "Steinsichelalpha",
 			["npcID"] = 16929,
 		},
-		[53167] = {
+		[48090] = {
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17252,
+		},
+		[12471] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dunkler Runentheurg",
-			["npcID"] = 27963,
+			["source"] = "Wahrsager des Blutenden Auges",
+			["npcID"] = 17478,
 		},
-		[57724] = {
+		[11971] = {
+			["isChanneled"] = false,
+			["source"] = "Thorvald",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 27926,
+		},
+		[34368] = {
+			["isChanneled"] = false,
+			["source"] = "Peiniger des Blutenden Auges",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19424,
+		},
+		[32062] = {
+			["isChanneled"] = false,
+			["source"] = "Grillok \"Finsterauge\"",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19457,
+		},
+		[57565] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Khaamyn",
+			["npcID"] = 417,
+		},
+		[1604] = {
+			["source"] = "Krustenbohrer",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 16844,
+		},
+		[33898] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "DEBUFF",
+			["source"] = "Steinsichelwelpe",
+			["npcID"] = 16927,
+		},
+		[59884] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Cat",
+			["npcID"] = 731,
+		},
+		[8599] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Verstörter Hölleneber",
+			["npcID"] = 16863,
+		},
+		[6742] = {
+			["isChanneled"] = false,
+			["source"] = "Dunkelschamane des Blutenden Auges",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 16873,
+		},
+		[51493] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dunkler Runenriese",
+			["npcID"] = 27969,
+		},
+		[15043] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Magier",
+			["npcID"] = 32324,
+		},
+		[33914] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Unkontrollierter Leerwandler",
+			["npcID"] = 16975,
+		},
+		[50752] = {
+			["encounterName"] = "Maid der Trauer",
+			["source"] = "Maid der Trauer",
+			["npcID"] = 27975,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 565,
+		},
+		[50760] = {
+			["encounterName"] = "Maid der Trauer",
+			["source"] = "Maid der Trauer",
+			["npcID"] = 27975,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 565,
+		},
+		[75447] = {
 			["source"] = "Unbekannt",
-			["npcID"] = 417,
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 4512,
+		},
+		[30639] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Kriegshund der Zerschmetterten Hand",
+			["npcID"] = 17280,
+		},
+		[57475] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 4512,
+		},
+		[20615] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
+		},
+		[29544] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
+		},
+		[13787] = {
+			["isChanneled"] = false,
+			["source"] = "Hexenmeister der Zerschmetterten Hand",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19411,
+		},
+		[24452] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Cat",
+			["npcID"] = 731,
+		},
+		[38495] = {
+			["source"] = "Auge von Grillok",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 19440,
+		},
+		[19615] = {
+			["source"] = "Schnurrli",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 5865,
+		},
+		[33911] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Steinsichelalpha",
+			["npcID"] = 16929,
+		},
+		[15532] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[75446] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 5865,
+		},
+		[53434] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Fisterpfote",
+			["npcID"] = 20330,
 		},
 	},
 	["profiles"] = {
@@ -4680,8 +4964,33 @@ PlaterDB = {
 				[2] = true,
 			},
 			["npc_cache"] = {
-				[17306] = {
-					"Wachhabender Gargolmar", -- [1]
+				[27971] = {
+					"Unerbittliches Konstrukt", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[17478] = {
+					"Wahrsager des Blutenden Auges", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[27972] = {
+					"Blitzkonstrukt", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[17309] = {
+					"Höllenfeuerwächter", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[27974] = {
+					"Erodierter Steinling", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[17264] = {
+					"Tobsüchtiger der Knochenmalmer", -- [1]
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
@@ -4690,9 +4999,9 @@ PlaterDB = {
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
-				[17269] = {
-					"Dunkelzauberer des Blutenden Auges", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[27960] = {
+					"Dunkler Runenkrieger", -- [1]
+					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
 				[17281] = {
@@ -4700,23 +5009,38 @@ PlaterDB = {
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
+				[27961] = {
+					"Dunkler Runenarbeiter", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[27962] = {
+					"Dunkler Runenelementarist", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[27963] = {
+					"Dunkler Runentheurg", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[17455] = {
+					"Bestienmeister der Knochenmalmer", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[32258] = {
+					"Goldkäfer", -- [1]
+					"Nordend", -- [2]
+					"deDE", -- [3]
+				},
 				[17270] = {
 					"Bogenschütze des Blutenden Auges", -- [1]
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
-				[17259] = {
-					"Zehrer der Knochenmalmer", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
-					"deDE", -- [3]
-				},
-				[17309] = {
-					"Höllenfeuerwächter", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
-					"deDE", -- [3]
-				},
-				[27963] = {
-					"Dunkler Runentheurg", -- [1]
+				[28384] = {
+					"Niederer Luftelementar", -- [1]
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
@@ -4725,29 +5049,54 @@ PlaterDB = {
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
-				[17455] = {
-					"Bestienmeister der Knochenmalmer", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[27970] = {
+					"Tobendes Konstrukt", -- [1]
+					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
-				[17264] = {
-					"Tobsüchtiger der Knochenmalmer", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[27966] = {
+					"Dunkler Runenaufseher", -- [1]
+					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
-				[17478] = {
-					"Wahrsager des Blutenden Auges", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[27964] = {
+					"Dunkler Runengelehrter", -- [1]
+					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
-				[27960] = {
-					"Dunkler Runenkrieger", -- [1]
+				[27973] = {
+					"Kristalliner Steinling", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[27965] = {
+					"Dunkler Runenformer", -- [1]
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
 				[27969] = {
 					"Dunkler Runenriese", -- [1]
 					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[17259] = {
+					"Zehrer der Knochenmalmer", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[17306] = {
+					"Wachhabender Gargolmar", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[27975] = {
+					"Maid der Trauer", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[17269] = {
+					"Dunkelzauberer des Blutenden Auges", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
 			},
@@ -4770,7 +5119,11 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["__TrashAt"] = 1685814778,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-					["Name"] = "Cast - Alert + Timer [P]",
+					["SpellIds"] = {
+						350421, -- [1]
+						355787, -- [2]
+						348513, -- [3]
+					},
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -4908,11 +5261,7 @@ PlaterDB = {
 						}, -- [12]
 					},
 					["version"] = -1,
-					["SpellIds"] = {
-						350421, -- [1]
-						355787, -- [2]
-						348513, -- [3]
-					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["NpcNames"] = {
 					},
 				}, -- [1]
@@ -4971,13 +5320,13 @@ PlaterDB = {
 				["Auto Set Skull"] = 11,
 				["Spiteful Affix"] = 3,
 				["Add - Non Elite Trash [P]"] = 4,
-				["Cast - Stop Casting"] = 4,
-				["Fixate"] = 11,
 				["Cast - On Going Cast [P]"] = 2,
+				["Fixate"] = 11,
+				["Countdown"] = 11,
 				["Fixate by Unit Buff [P]"] = 2,
 				["Cast - Frontal Cone"] = 15,
 				["Add - Explode on Die [P]"] = 1,
-				["Countdown"] = 11,
+				["Cast - Stop Casting"] = 4,
 				["Cast - Quick Flash"] = 2,
 				["Explosion Affix M+"] = 14,
 				["Unit - Show Energy"] = 11,
@@ -4987,14 +5336,14 @@ PlaterDB = {
 				["Dont Have Aura"] = 1,
 				["Players Targetting Amount"] = 4,
 				["Color Automation"] = 1,
-				["Extra Border"] = 2,
+				["Hide Neutral Units"] = 1,
 				["Cast Bar Icon Config"] = 2,
 				["Aura Reorder"] = 3,
-				["Hide Neutral Units"] = 1,
+				["Combo Points"] = 6,
 				["Attacking Specific Unit"] = 2,
 				["Target Color"] = 3,
 				["Execute Range"] = 1,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 			},
 			["aura2_x_offset"] = 0,
 			["saved_cvars"] = {
@@ -5015,7 +5364,7 @@ PlaterDB = {
 				["nameplateOverlapV"] = "1.4",
 				["NamePlateVerticalScale"] = "1",
 			},
-			["login_counter"] = 35,
+			["login_counter"] = 48,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["global_health_width"] = 112,
@@ -5784,28 +6133,89 @@ PlaterDB = {
 		["Maturitass - Venoxis"] = "Default",
 	},
 	["captured_casts"] = {
+		[51805] = {
+			["source"] = "Dunkler Runenaufseher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27966,
+		},
 		[116] = {
 			["npcID"] = 188027,
+		},
+		[50810] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Krystallus",
+			["encounterID"] = 563,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27977,
+		},
+		[50843] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Krystallus",
+			["encounterID"] = 563,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27977,
+		},
+		[72898] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Wasserelementar",
+			["encounterID"] = 563,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37994,
+		},
+		[48280] = {
+			["source"] = "Wächter der Drachenschinder",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27927,
+		},
+		[51507] = {
+			["source"] = "Dunkler Runenaufseher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27966,
 		},
 		[15801] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Dunkler Runentheurg",
 			["npcID"] = 27963,
 		},
+		[53314] = {
+			["source"] = "Dunkler Runenelementarist",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27962,
+		},
 		[49843] = {
 			["source"] = "Blutschemen",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 24872,
+		},
+		[51496] = {
+			["source"] = "Dunkler Runenformer",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27965,
+		},
+		[51612] = {
+			["source"] = "Dunkler Runengelehrter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27964,
 		},
 		[34842] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Wilder Leerwandler",
 			["npcID"] = 16974,
 		},
+		[15043] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
 		[51832] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Unerbittliches Konstrukt",
 			["npcID"] = 27971,
+		},
+		[13323] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
 		},
 		[53167] = {
 			["event"] = "SPELL_CAST_START",
@@ -5827,35 +6237,6 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 16844,
 		},
-		[47782] = {
-			["source"] = "Verseuchter Runenmagier der Drachenschinder",
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 24198,
-		},
-		[34302] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Instabiler Leerwandler",
-			["npcID"] = 20145,
-		},
-		[12039] = {
-			["encounterName"] = "Wachhabender Gargolmar",
-			["source"] = "Höllenfeuerwächter",
-			["npcID"] = 17309,
-			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 1893,
-		},
-		[50760] = {
-			["encounterName"] = "Maid der Trauer",
-			["source"] = "Maid der Trauer",
-			["npcID"] = 27975,
-			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 565,
-		},
-		[48280] = {
-			["source"] = "Wächter der Drachenschinder",
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 27927,
-		},
 		[51494] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Dunkler Runenriese",
@@ -5865,6 +6246,52 @@ PlaterDB = {
 			["source"] = "Nekrolyth des Blutenden Auges",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 19422,
+		},
+		[61353] = {
+			["source"] = "Dagna Flintriegel",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 29476,
+		},
+		[12039] = {
+			["encounterName"] = "Wachhabender Gargolmar",
+			["source"] = "Höllenfeuerwächter",
+			["npcID"] = 17309,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 1893,
+		},
+		[34302] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Instabiler Leerwandler",
+			["npcID"] = 20145,
+		},
+		[47782] = {
+			["source"] = "Verseuchter Runenmagier der Drachenschinder",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 24198,
+		},
+		[51503] = {
+			["source"] = "Dunkler Runenaufseher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27966,
+		},
+		[50760] = {
+			["encounterName"] = "Maid der Trauer",
+			["source"] = "Maid der Trauer",
+			["npcID"] = 27975,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 565,
+		},
+		[50761] = {
+			["encounterName"] = "Maid der Trauer",
+			["source"] = "Maid der Trauer",
+			["encounterID"] = 565,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27975,
+		},
+		[51475] = {
+			["source"] = "Dunkler Runenelementarist",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27962,
 		},
 		[15241] = {
 			["event"] = "SPELL_CAST_START",
@@ -5884,22 +6311,24 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 	["_general_logs"] = {
-		"2023-07-15 12:57:08 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [1]
-		"2023-07-15 12:50:22 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [2]
-		"2023-07-10 15:41:15 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [3]
-		"2023-07-10 15:03:04 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [4]
-		"2023-07-10 00:48:04 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [5]
-		"2023-07-09 23:56:57 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [6]
-		"2023-07-09 00:27:42 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [7]
-		"2023-07-09 00:14:26 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [8]
-		"2023-07-08 19:35:21 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [9]
-		"2023-07-08 19:34:52 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [10]
-		"2023-07-08 19:29:42 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [11]
-		"2023-07-08 19:29:23 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [12]
-		"2023-07-08 18:06:01 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [13]
-		"2023-07-08 17:44:12 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [14]
-		"2023-07-06 12:36:35 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [15]
-		"2023-07-06 12:36:17 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [16]
+		"2023-07-17 23:56:15 | INIT | Plater-v561.3-Wrath | Framework v448 | 3.4.2 | deDE | Bloodwall", -- [1]
+		"2023-07-15 12:59:54 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [2]
+		"2023-07-15 12:57:08 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [3]
+		"2023-07-15 12:50:22 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [4]
+		"2023-07-10 15:41:15 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [5]
+		"2023-07-10 15:03:04 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [6]
+		"2023-07-10 00:48:04 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [7]
+		"2023-07-09 23:56:57 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [8]
+		"2023-07-09 00:27:42 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [9]
+		"2023-07-09 00:14:26 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [10]
+		"2023-07-08 19:35:21 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [11]
+		"2023-07-08 19:34:52 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [12]
+		"2023-07-08 19:29:42 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [13]
+		"2023-07-08 19:29:23 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [14]
+		"2023-07-08 18:06:01 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [15]
+		"2023-07-08 17:44:12 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Maturitass", -- [16]
+		"2023-07-06 12:36:35 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [17]
+		"2023-07-06 12:36:17 | INIT | Plater-v561.1-Wrath | Framework v446 | 3.4.2 | deDE | Bloodwall", -- [18]
 	},
 	["_error_logs"] = {
 	},

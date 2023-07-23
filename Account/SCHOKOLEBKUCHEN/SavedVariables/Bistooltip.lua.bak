@@ -6,8 +6,8 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Endonuclease - Venoxis"] = {
-			["version"] = 6.1,
 			["data_source"] = "wowtbc",
+			["version"] = 6.1,
 		},
 		["Exonuklease - Venoxis"] = {
 			["class_index"] = 10,

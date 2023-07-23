@@ -6,9 +6,9 @@ Prio3DB = {
 	},
 	["profiles"] = {
 		["Endonuclease - Venoxis"] = {
-			["lootlastopened"] = {
-			},
 			["priorities"] = {
+			},
+			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
 		},

@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 3010002,
+		["__addonrevision"] = 3010003,
 	},
 	["profileKeys"] = {
 		["Maturitas - Venoxis"] = "Maturitas - Venoxis",

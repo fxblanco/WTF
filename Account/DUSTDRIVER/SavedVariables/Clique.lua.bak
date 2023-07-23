@@ -4,10 +4,10 @@ CliqueDB3 = {
 	["char"] = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["downclick"] = false,
 			["spec2_profileKey"] = "Bloodwall - Venoxis",
-			["fastooc"] = false,
+			["downclick"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 	},
 	["profileKeys"] = {

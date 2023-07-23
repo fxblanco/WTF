@@ -11,8 +11,9 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Alsia - Venoxis"] = {
-			["class_index"] = 10,
-			["phase_index"] = 3,
+			["class_index"] = 9,
+			["spec_index"] = 3,
+			["phase_index"] = 2,
 			["data_source"] = "wowtbc",
 			["version"] = 6.1,
 		},

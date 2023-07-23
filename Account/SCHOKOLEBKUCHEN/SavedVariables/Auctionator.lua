@@ -1,41 +1,27 @@
 
 AUCTIONATOR_CONFIG = {
-	["gear_vendor_price_multiplier"] = 0,
 	["selling_always_load_more"] = false,
+	["no_price_database"] = false,
 	["columns_buying_historical_prices"] = {
-		["Oberer Stückpreis"] = true,
-		["Preis/Einheit"] = false,
 		["Datum"] = false,
+		["Preis/Einheit"] = false,
+		["Oberer Stückpreis"] = true,
 		["Verfügbar"] = false,
 	},
 	["selling_post_shortcut"] = "SPACE",
 	["shift_stack_tooltips"] = true,
-	["auction_tooltips"] = true,
+	["enchant_tooltips"] = false,
 	["selling_favourite_keys_2"] = {
 	},
-	["crafting_info_show"] = true,
-	["debug"] = false,
+	["selling_missing_favourites"] = true,
+	["default_list_2"] = "",
 	["show_selling_bag"] = true,
-	["auction_mean_days_limit"] = 21,
+	["selling_auto_select_next"] = false,
 	["search_no_filters_matched_entry"] = true,
 	["hide_splash_screen"] = false,
 	["selling_bag_select_shortcut"] = "alt left click",
 	["shopping_always_load_more"] = false,
-	["starting_price_percentage_2"] = 95,
-	["prospect_tooltips"] = false,
-	["columns_buying_auctions_2"] = {
-		["Verkäufer"] = true,
-		["Stapelpreis"] = false,
-		["Preis/Einheit"] = false,
-		["Deine?"] = false,
-		["Verfügbar"] = false,
-	},
-	["default_list_2"] = "",
-	["vendor_tooltips"] = true,
-	["auction_age_tooltips"] = false,
-	["replicate_scan_3"] = false,
-	["auctions_history_length"] = 10,
-	["chain_buy_stacks"] = true,
+	["auction_tooltips"] = true,
 	["columns_cancelling"] = {
 		["Verbleibende Zeit"] = false,
 		["Unterboten?"] = false,
@@ -46,53 +32,69 @@ AUCTIONATOR_CONFIG = {
 		["Name"] = false,
 		["Gebotspreis"] = true,
 		["Stapelpreis"] = true,
+		["Items Ahead"] = false,
 	},
+	["columns_buying_auctions_2"] = {
+		["Verkäufer"] = true,
+		["Verbleibende Zeit"] = true,
+		["Preis/Einheit"] = false,
+		["Stapelpreis"] = false,
+		["Deine?"] = false,
+		["Verfügbar"] = false,
+	},
+	["debug"] = false,
+	["vendor_tooltips"] = true,
+	["auction_age_tooltips"] = false,
+	["replicate_scan_3"] = false,
 	["stack_size_memory"] = {
 	},
-	["selling_bag_collapsed"] = false,
-	["undercut_static_value"] = 1,
+	["auction_mean_days_limit"] = 21,
+	["auction_duration"] = 24,
+	["auctions_history_length"] = 10,
+	["selling_post_stack_remainder"] = false,
+	["prospect_tooltips"] = false,
 	["price_history_days"] = 21,
+	["selling_icon_size"] = 35,
+	["selling_prev_shortcut"] = "BACKSPACE",
 	["selling_confirm_low_price"] = true,
 	["default_selling_stacks"] = {
 		["numStacks"] = 0,
 		["stackSize"] = 0,
 	},
-	["selling_icon_size"] = 35,
-	["selling_prev_shortcut"] = "BACKSPACE",
 	["selling_skip_shortcut"] = "SHIFT-SPACE",
 	["shopping_list_missing_terms"] = false,
-	["crafting_info_show_profit"] = true,
-	["historical_prices"] = {
-	},
+	["auction_chat_log"] = true,
+	["cancel_undercut_shortcut"] = "SPACE",
 	["shopping_last_container_view"] = 1,
-	["undercut_percentage"] = 0,
+	["auto_list_search"] = false,
 	["selling_ignored_keys"] = {
 	},
-	["columns_selling_search_3"] = {
-	},
+	["default_tab"] = 0,
 	["save_last_duration_as_default"] = false,
-	["columns_shopping"] = {
-		["Name"] = false,
-		["Spitze?"] = true,
-		["Eigene?"] = true,
-		["Preis"] = false,
-		["Verfügbar"] = false,
-	},
+	["auction_mean_tooltips"] = false,
 	["crafting_info_show_cost"] = true,
 	["selling_grey_post_button"] = true,
 	["show_selling_bid_price"] = false,
 	["undercut_items_ahead"] = 0,
 	["columns_shopping_historical_prices"] = {
-		["Oberer Stückpreis"] = true,
-		["Preis/Einheit"] = false,
 		["Datum"] = false,
+		["Preis/Einheit"] = false,
+		["Oberer Stückpreis"] = true,
 		["Verfügbar"] = false,
 	},
-	["auction_mean_tooltips"] = false,
-	["default_tab"] = 0,
-	["auto_list_search"] = false,
-	["cancel_undercut_shortcut"] = "SPACE",
-	["auction_chat_log"] = true,
+	["columns_shopping"] = {
+		["Name"] = false,
+		["Spitze?"] = true,
+		["Preis"] = false,
+		["Eigene?"] = true,
+		["Verfügbar"] = false,
+	},
+	["columns_selling_search_3"] = {
+	},
+	["undercut_percentage"] = 0,
+	["historical_prices"] = {
+	},
+	["crafting_info_show_profit"] = true,
 	["mailbox_tooltips"] = true,
 	["columns_posting_history"] = {
 		["Gebotspreis"] = true,
@@ -100,15 +102,15 @@ AUCTIONATOR_CONFIG = {
 		["Menge"] = false,
 		["Datum"] = false,
 	},
-	["selling_post_stack_remainder"] = false,
-	["auction_duration"] = 24,
+	["selling_bag_collapsed"] = false,
+	["undercut_static_value"] = 1,
 	["mill_tooltips"] = false,
 	["auction_sales_preference"] = "static",
-	["selling_auto_select_next"] = false,
+	["chain_buy_stacks"] = true,
 	["splash_screen_version"] = "10.1.6",
-	["selling_missing_favourites"] = true,
-	["enchant_tooltips"] = false,
-	["no_price_database"] = false,
+	["crafting_info_show"] = true,
+	["starting_price_percentage_2"] = 95,
+	["gear_vendor_price_multiplier"] = 0,
 }
 AUCTIONATOR_SAVEDVARS = {
 }
@@ -122,187 +124,196 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["l"] = {
 			},
-			["m"] = 8882,
 			["h"] = {
 			},
+			["m"] = 8882,
 		},
 		["10559"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 673,
 			["h"] = {
 			},
+			["m"] = 673,
 		},
 		["2838"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 6990,
 			["h"] = {
 			},
+			["m"] = 6990,
 		},
 		["12365"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 351,
 			["h"] = {
 			},
+			["m"] = 351,
 		},
 		["4404"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 1231,
 			["h"] = {
 			},
+			["m"] = 1231,
 		},
 		["35623"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
+			["m"] = 28626,
 			["h"] = {
 			},
-			["m"] = 28626,
 		},
 		["41599"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 549996,
 			["h"] = {
 			},
+			["m"] = 549996,
 		},
 		["7912"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 2033,
 			["h"] = {
 			},
+			["m"] = 2033,
 		},
 		["35625"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 37999,
 			["h"] = {
 			},
+			["m"] = 37999,
 		},
 		["4364"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 301,
 			["h"] = {
 			},
+			["m"] = 301,
 		},
 		["23445"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 49993,
 			["h"] = {
 			},
+			["m"] = 49993,
 		},
 		["2319"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 1743,
 			["h"] = {
 			},
+			["m"] = 1743,
 		},
 		["43005"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
+			["m"] = 48744,
 			["h"] = {
 			},
-			["m"] = 48744,
 		},
 		["14047"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 2997,
 			["h"] = {
 			},
+			["m"] = 2997,
 		},
 		["22574"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 24994,
 			["h"] = {
 			},
+			["m"] = 24994,
 		},
 		["36860"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 109997,
 			["h"] = {
 			},
+			["m"] = 109997,
 		},
 		["21877"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 1722,
 			["h"] = {
 			},
+			["m"] = 1722,
 		},
 		["15992"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 1676,
 			["h"] = {
 			},
+			["m"] = 1676,
 		},
 		["4382"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 21589,
 			["h"] = {
 			},
+			["m"] = 21589,
 		},
 		["2836"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 2040,
 			["h"] = {
 			},
+			["m"] = 2040,
 		},
 		["41594"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
+			["h"] = {
+			},
 			["m"] = 1049895,
+		},
+		["36784"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 1439991,
 			["h"] = {
 			},
 		},
@@ -311,34 +322,43 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["l"] = {
 			},
+			["m"] = 8995,
 			["h"] = {
 			},
-			["m"] = 8995,
 		},
 		["4338"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
+			["h"] = {
+			},
 			["m"] = 8990,
-			["h"] = {
-			},
 		},
-		["41285"] = {
+		["33470"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 304797,
 			["h"] = {
 			},
+			["m"] = 4430,
 		},
-		["39998"] = {
+		["40051"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 950093,
+			["m"] = 79985,
+			["h"] = {
+			},
+		},
+		["37700"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 4497,
 			["h"] = {
 			},
 		},
@@ -347,70 +367,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["l"] = {
 			},
+			["h"] = {
+			},
 			["m"] = 11918,
-			["h"] = {
-			},
 		},
-		["41119"] = {
+		["40212"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["h"] = {
-			},
-			["m"] = 7649,
-		},
-		["4377"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 9949,
-			["h"] = {
-			},
-		},
-		["36913"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["h"] = {
-			},
-			["m"] = 23681,
-		},
-		["40026"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 49999,
-			["h"] = {
-			},
-		},
-		["2841"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 14082,
-			["h"] = {
-			},
-		},
-		["22573"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 4999,
-			["h"] = {
-			},
-		},
-		["34054"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 12502,
+			["m"] = 123984,
 			["h"] = {
 			},
 		},
@@ -419,54 +385,112 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["l"] = {
 			},
+			["h"] = {
+			},
 			["m"] = 9898,
+		},
+		["36913"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 23681,
 			["h"] = {
 			},
 		},
-		["40212"] = {
+		["22573"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
 			["h"] = {
 			},
-			["m"] = 123984,
+			["m"] = 4999,
 		},
-		["37700"] = {
+		["2841"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
 			["h"] = {
 			},
-			["m"] = 4497,
+			["m"] = 14082,
 		},
-		["40051"] = {
+		["4377"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
 			["h"] = {
 			},
-			["m"] = 79985,
+			["m"] = 9949,
 		},
-		["33470"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 4430,
-			["h"] = {
-			},
-		},
-		["36784"] = {
+		["34054"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
 			["h"] = {
 			},
-			["m"] = 1439991,
+			["m"] = 12502,
+		},
+		["40026"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 49999,
+		},
+		["41119"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 7649,
+			["h"] = {
+			},
+		},
+		["7071"] = {
+			["a"] = {
+				[1295] = 85,
+			},
+			["l"] = {
+			},
+			["h"] = {
+				[1295] = 21695,
+			},
+			["m"] = 21695,
+		},
+		["41285"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 304797,
+		},
+		["39998"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 950093,
+		},
+		["41611"] = {
+			["a"] = {
+				[1295] = 50,
+			},
+			["l"] = {
+			},
+			["h"] = {
+				[1295] = 259972,
+			},
+			["m"] = 259972,
 		},
 	},
 }
@@ -549,46 +573,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1682203033,
 		}, -- [1]
 	},
-	["10559"] = {
+	["36784"] = {
 		{
-			["price"] = 673,
-			["quantity"] = 7,
-			["time"] = 1682203059,
-		}, -- [1]
-	},
-	["2836"] = {
-		{
-			["price"] = 2040,
-			["quantity"] = 5,
-			["time"] = 1682203039,
-		}, -- [1]
-	},
-	["2592"] = {
-		{
-			["price"] = 9898,
-			["quantity"] = 18,
-			["time"] = 1682203037,
-		}, -- [1]
-	},
-	["2841"] = {
-		{
-			["price"] = 14082,
-			["quantity"] = 29,
-			["time"] = 1682203044,
-		}, -- [1]
-	},
-	["22574"] = {
-		{
-			["price"] = 24994,
-			["quantity"] = 5,
-			["time"] = 1682203028,
-		}, -- [1]
-	},
-	["4377"] = {
-		{
-			["price"] = 9949,
-			["quantity"] = 3,
-			["time"] = 1682203052,
+			["price"] = 1439991,
+			["quantity"] = 1,
+			["time"] = 1687430740,
 		}, -- [1]
 	},
 	["14047"] = {
@@ -598,24 +587,59 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1682203011,
 		}, -- [1]
 	},
-	["36784"] = {
+	["2592"] = {
 		{
-			["price"] = 1439991,
-			["quantity"] = 1,
-			["time"] = 1687430740,
+			["price"] = 9898,
+			["quantity"] = 18,
+			["time"] = 1682203037,
+		}, -- [1]
+	},
+	["4377"] = {
+		{
+			["price"] = 9949,
+			["quantity"] = 3,
+			["time"] = 1682203052,
+		}, -- [1]
+	},
+	["22574"] = {
+		{
+			["price"] = 24994,
+			["quantity"] = 5,
+			["time"] = 1682203028,
+		}, -- [1]
+	},
+	["2841"] = {
+		{
+			["price"] = 14082,
+			["quantity"] = 29,
+			["time"] = 1682203044,
+		}, -- [1]
+	},
+	["2836"] = {
+		{
+			["price"] = 2040,
+			["quantity"] = 5,
+			["time"] = 1682203039,
+		}, -- [1]
+	},
+	["10559"] = {
+		{
+			["price"] = 673,
+			["quantity"] = 7,
+			["time"] = 1682203059,
 		}, -- [1]
 	},
 }
 AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["29152"] = 1439986,
-	["2880"] = 100,
+	["2880"] = 90,
 	["24006"] = 360,
 	["15906"] = 1924,
 	["25824"] = 103302,
 	["38426"] = 25500,
 	["851"] = 1821,
 	["21918"] = 54000,
-	["2901"] = 81,
+	["2901"] = 73,
 	["15907"] = 7413,
 	["5565"] = 5000,
 	["28056"] = 15,
@@ -627,16 +651,17 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["25739"] = 144000,
 	["44615"] = 2000,
 	["44176"] = 224189,
+	["20815"] = 680,
 	["17028"] = 700,
 	["2534"] = 40888,
 	["35948"] = 2720,
-	["3466"] = 2000,
+	["3466"] = 1800,
 	["43232"] = 4500,
 	["922"] = 10835,
 	["21927"] = 1500,
 	["2516"] = 0.045,
 	["40411"] = 10000,
-	["21895"] = 36000,
+	["30817"] = 4.4,
 	["25823"] = 312586,
 	["42431"] = 2720,
 	["44159"] = 1275000,
@@ -646,7 +671,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["44167"] = 168841,
 	["33449"] = 1445,
 	["44171"] = 265310,
-	["10648"] = 125,
+	["10648"] = 112,
 	["44616"] = 1275,
 	["31358"] = 108000,
 	["3025"] = 16631,
@@ -660,27 +685,34 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["29190"] = 900000,
 	["39502"] = 5000,
 	["2533"] = 61108,
-	["3023"] = 3395,
+	["2525"] = 26490,
 	["28060"] = 7.2,
+	["35950"] = 2720,
 	["18256"] = 4000,
 	["17029"] = 1000,
+	["8928"] = 800,
 	["923"] = 7870,
 	["4340"] = 298,
 	["2532"] = 52608,
 	["17038"] = 2000,
+	["42430"] = 1445,
 	["2208"] = 3286,
 	["17021"] = 700,
 	["17031"] = 1000,
+	["44141"] = 1275000,
+	["2678"] = 1.8,
+	["40036"] = 128,
 	["29167"] = 501349,
 	["8927"] = 700,
+	["20824"] = 21250,
 	["4341"] = 425,
 	["25738"] = 108000,
 	["17030"] = 2000,
 	["21917"] = 54000,
 	["42436"] = 76500,
-	["40042"] = 1275,
+	["42428"] = 1445,
 	["2511"] = 1192,
-	["40533"] = 50000,
+	["40533"] = 45000,
 	["21835"] = 1500,
 	["42439"] = 14450,
 	["24003"] = 54000,
@@ -688,130 +720,128 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["2519"] = 0.225,
 	["21916"] = 54000,
 	["11284"] = 4.5,
+	["17026"] = 1000,
 	["39354"] = 15,
 	["44166"] = 560691,
 	["29165"] = 1871962,
 	["29155"] = 1940453,
 	["34201"] = 144000,
 	["24004"] = 9000,
-	["2324"] = 21,
+	["2207"] = 2152,
 	["25740"] = 144000,
 	["17033"] = 2000,
 	["44170"] = 219300,
+	["37201"] = 500,
 	["2325"] = 850,
-	["35950"] = 2720,
+	["35952"] = 2720,
+	["32882"] = 22.5,
 	["22147"] = 5000,
 	["24000"] = 54000,
 	["34841"] = 16000,
 	["33443"] = 1445,
-	["32882"] = 22.5,
-	["42430"] = 1445,
-	["10922"] = 800,
+	["2209"] = 6404,
+	["2535"] = 61557,
+	["17037"] = 1400,
 	["22148"] = 1500,
 	["17036"] = 680,
 	["29197"] = 900000,
-	["15904"] = 19537,
-	["41586"] = 15,
-	["4342"] = 2125,
-	["42428"] = 1445,
-	["2509"] = 373,
+	["2024"] = 5471,
 	["2320"] = 8,
-	["2604"] = 42,
+	["4342"] = 2125,
+	["2509"] = 373,
+	["40042"] = 1275,
 	["43230"] = 4000,
-	["37201"] = 500,
+	["31359"] = 54000,
 	["8985"] = 250,
+	["10922"] = 800,
+	["2604"] = 42,
+	["5441"] = 900,
+	["10647"] = 1800,
 	["2520"] = 22166,
-	["2209"] = 6404,
-	["35949"] = 1445,
-	["17035"] = 340,
-	["10647"] = 2000,
-	["44183"] = 306458,
 	["44605"] = 5000,
-	["35954"] = 1020,
-	["20844"] = 300,
-	["35332"] = 158847,
+	["17035"] = 340,
+	["41586"] = 15,
+	["15904"] = 19537,
 	["24009"] = 810,
-	["8928"] = 800,
+	["5956"] = 16,
+	["20844"] = 300,
 	["44182"] = 392127,
-	["5956"] = 18,
+	["17020"] = 1000,
 	["2027"] = 3434,
-	["39684"] = 9000,
-	["2525"] = 26490,
-	["2207"] = 2152,
-	["2535"] = 61557,
-	["6532"] = 250,
+	["39684"] = 8100,
+	["35949"] = 1445,
+	["17034"] = 170,
+	["__dbversion"] = 1,
 	["2528"] = 46652,
-	["10290"] = 2125,
+	["42438"] = 153000,
 	["2605"] = 85,
 	["39501"] = 1250,
 	["21919"] = 54000,
-	["2526"] = 17402,
 	["49177"] = 10000000,
 	["43157"] = 8500,
 	["3033"] = 1.35,
-	["4399"] = 200,
+	["4399"] = 180,
 	["21177"] = 150,
 	["40035"] = 42,
-	["31362"] = 108000,
+	["44181"] = 216134,
 	["44180"] = 344582,
 	["15905"] = 1917,
 	["15903"] = 7306,
-	["42438"] = 153000,
-	["35952"] = 2720,
-	["44141"] = 1275000,
-	["4400"] = 2000,
+	["31362"] = 108000,
+	["6532"] = 250,
+	["43234"] = 3500,
+	["44173"] = 630028,
 	["29168"] = 158357,
-	["24001"] = 45000,
+	["4400"] = 1800,
 	["44614"] = 7000,
 	["44618"] = 8500,
 	["1198"] = 2409,
 	["24002"] = 54000,
-	["17026"] = 1000,
-	["43234"] = 3500,
-	["40036"] = 128,
-	["44174"] = 790347,
-	["31361"] = 54000,
+	["2526"] = 17402,
+	["10290"] = 2125,
+	["35332"] = 158847,
+	["2324"] = 21,
+	["44183"] = 306458,
 	["42188"] = 42500,
-	["5441"] = 900,
+	["21895"] = 36000,
 	["185686"] = 90000,
-	["3024"] = 6388,
-	["17020"] = 1000,
-	["31359"] = 54000,
+	["35954"] = 1020,
+	["31361"] = 54000,
 	["29232"] = 72000,
 	["16583"] = 10000,
-	["17034"] = 170,
+	["3023"] = 3395,
 	["42429"] = 2720,
-	["2024"] = 5471,
-	["17037"] = 1400,
-	["__dbversion"] = 1,
+	["44174"] = 790347,
+	["3024"] = 6388,
+	["24001"] = 45000,
 	["41584"] = 15,
-	["44173"] = 630028,
-	["44181"] = 216134,
+	["159"] = 4.4,
 	["2527"] = 29356,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
-	"\"Sirenenträne\"", -- [1]
-	"\"Tollkühner Monarchentopas\"", -- [2]
-	"Mondgesp", -- [3]
-	"\"Sonnenglimmertuch\"", -- [4]
-	"\"Runenbeschriebener Scharlachrubin\"", -- [5]
-	"\"Äonenschatten\"", -- [6]
-	"\"Kristallisierte Luft\"", -- [7]
-	"\"Saronitbarren\"", -- [8]
-	"\"Geläuterter Zwielichtopal\"", -- [9]
-	"\"Chaotischer Polarlichtdiamant\"", -- [10]
-	"\"Gewürzte Mammutleckereien\"", -- [11]
-	"Trank der Wilden magie", -- [12]
-	"runenbeschriebener s", -- [13]
-	"\"Mondgespinst\"", -- [14]
-	"\"Äonenfeuer\"", -- [15]
-	"\"Äonenleben\"", -- [16]
-	"Schleierst", -- [17]
-	"\"Froststoff\"", -- [18]
-	"äonenluft", -- [19]
-	"saronitbarr", -- [20]
-	"saronitb", -- [21]
-	"\"Eisenbarren\"", -- [22]
-	"\"Schwerer Stein\"", -- [23]
-	"\"Robuster Stein\"", -- [24]
+	"Gürtelsch", -- [1]
+	"\"Sirenenträne\"", -- [2]
+	"\"Tollkühner Monarchentopas\"", -- [3]
+	"Mondgesp", -- [4]
+	"\"Sonnenglimmertuch\"", -- [5]
+	"\"Runenbeschriebener Scharlachrubin\"", -- [6]
+	"\"Äonenschatten\"", -- [7]
+	"\"Kristallisierte Luft\"", -- [8]
+	"\"Saronitbarren\"", -- [9]
+	"\"Geläuterter Zwielichtopal\"", -- [10]
+	"\"Chaotischer Polarlichtdiamant\"", -- [11]
+	"\"Gewürzte Mammutleckereien\"", -- [12]
+	"Trank der Wilden magie", -- [13]
+	"runenbeschriebener s", -- [14]
+	"\"Mondgespinst\"", -- [15]
+	"\"Äonenfeuer\"", -- [16]
+	"\"Äonenleben\"", -- [17]
+	"Schleierst", -- [18]
+	"\"Froststoff\"", -- [19]
+	"äonenluft", -- [20]
+	"saronitbarr", -- [21]
+	"saronitb", -- [22]
+	"\"Eisenbarren\"", -- [23]
+	"\"Schwerer Stein\"", -- [24]
+	"\"Robuster Stein\"", -- [25]
 }

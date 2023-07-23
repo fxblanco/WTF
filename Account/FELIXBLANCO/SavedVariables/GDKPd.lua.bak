@@ -92,6 +92,7 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -133.2993774414063,
 			},
+			["increment"] = 200,
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
@@ -100,7 +101,6 @@ GDKPd_DB = {
 					["mininc"] = 500,
 				}, -- [1]
 			},
-			["increment"] = 200,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -157,160 +157,8 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Afse"] = 0,
-		["Meyara"] = 0,
-		["Specializt"] = 0,
-		["Kosengo"] = 0,
-		["Spacecash"] = 0,
-		["Catchmelol"] = 0,
-		["Maisolkekw"] = 0,
-		["Chillerie"] = 0,
-		["Baasha"] = 0,
-		["Athafear"] = 0,
-		["Comicz"] = 0,
-		["Mojosadness"] = 0,
-		["Ehomera"] = 0,
-		["Kwasimojo"] = 7424,
-		["Koltorok"] = 0,
-		["Jerkules"] = 0,
-		["Drógo"] = 0,
-		["Ðadus"] = 0,
-		["Drakatesh"] = 0,
-		["Cratør"] = 0,
-		["Prallyo"] = 0,
-		["Raycin"] = 0,
-		["Graveofjenna"] = 0,
-		["Noctens"] = 0,
-		["Kzy"] = 0,
 	},
 	["curPotHistory"] = {
-		{
-			["bid"] = 5800,
-			["item"] = "|cffa335ee|Hitem:47415::::::::80:::::::::|h[Halsberge der gewaltigen Monstrosität]|h|r",
-			["name"] = "Jerkules",
-		}, -- [1]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47426::::::::80:::::::::|h[Bindungen des Eisgräbers]|h|r",
-			["name"] = "Specializt",
-		}, -- [2]
-		{
-			["bid"] = 20000,
-			["item"] = "|cffa335ee|Hitem:47429::::::::80:::::::::|h[Blutbadgurt]|h|r",
-			["name"] = "Prallyo",
-		}, -- [3]
-		{
-			["bid"] = 7000,
-			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
-			["name"] = "Chillerie",
-		}, -- [4]
-		{
-			["bid"] = 30000,
-			["item"] = "|cffa335ee|Hitem:47456::::::::80:::::::::|h[Sabatons der bebenden Erde]|h|r",
-			["name"] = "Comicz",
-		}, -- [5]
-		{
-			["bid"] = 9700,
-			["item"] = "|cffa335ee|Hitem:47444::::::::80:::::::::|h[Gürtel der blutigen Narben]|h|r",
-			["name"] = "Koltorok",
-		}, -- [6]
-		{
-			["bid"] = 40000,
-			["item"] = "|cffa335ee|Hitem:47464::::::::80:::::::::|h[Des Todes Wahl]|h|r",
-			["name"] = "Chillerie",
-		}, -- [7]
-		{
-			["bid"] = 50000,
-			["item"] = "|cffa335ee|Hitem:47459::::::::80:::::::::|h[Armschützer der Schildmaid]|h|r",
-			["name"] = "Jerkules",
-		}, -- [8]
-		-50000, -- [9]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47471::::::::80:::::::::|h[Brustplatte des gefrorenen Sees]|h|r",
-			["name"] = "Ehomera",
-		}, -- [10]
-		{
-			["bid"] = 6200,
-			["item"] = "|cffa335ee|Hitem:47421::::::::80:::::::::|h[Einsame Barriere]|h|r",
-			["name"] = "Jerkules",
-		}, -- [11]
-		{
-			["bid"] = 10500,
-			["item"] = "|cffa335ee|Hitem:47459::::::::80:::::::::|h[Armschützer der Schildmaid]|h|r",
-			["name"] = "Koltorok",
-		}, -- [12]
-		{
-			["bid"] = 5200,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Ðadus",
-		}, -- [13]
-		{
-			["bid"] = 5200,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Noctens",
-		}, -- [14]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Ehomera",
-		}, -- [15]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Baasha",
-		}, -- [16]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Mojosadness",
-		}, -- [17]
-		{
-			["bid"] = 5200,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Athafear",
-		}, -- [18]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Graveofjenna",
-		}, -- [19]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Spacecash",
-		}, -- [20]
-		{
-			["bid"] = 5200,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Mojosadness",
-		}, -- [21]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47327::::::::80:::::::::|h[Blutrünstige Offenbarung]|h|r",
-			["name"] = "Catchmelol",
-		}, -- [22]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47321::::::::80:::::::::|h[Stiefel der Eisscholle]|h|r",
-			["name"] = "Cratør",
-		}, -- [23]
-		{
-			["bid"] = 3000,
-			["item"] = "|cffa335ee|Hitem:47318::::::::80:::::::::|h[Gamaschen des Erwachens]|h|r",
-			["name"] = "Comicz",
-		}, -- [24]
-		{
-			["bid"] = 3400,
-			["item"] = "|cffa335ee|Hitem:47313::::::::80:::::::::|h[Armbänder des dunklen Beschlusses]|h|r",
-			["name"] = "Noctens",
-		}, -- [25]
-		{
-			["bid"] = 1200,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Baasha",
-		}, -- [26]
-		-20000, -- [27]
 	},
 	["history"] = {
 		{
@@ -753,8 +601,8 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 185600,
-	["prevDist"] = 185600,
+	["potAmount"] = 0,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
 }

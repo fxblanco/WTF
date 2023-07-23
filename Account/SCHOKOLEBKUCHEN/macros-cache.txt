@@ -31,7 +31,7 @@ VER 3 0000000000000010 "lock" "134400"
 /cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
 END
 VER 3 000000000000000E "PI" "134400"
-/w DIZI PI me!
+/w Hanaltar PI me!
 /use 10
 END
 VER 3 0000000000000005 "Roll" "135900"
@@ -42,6 +42,10 @@ VER 3 000000000000000A "RXPTargeting" "Ability_eyeoftheowl"
 END
 VER 3 0000000000000009 "SB Snipe R1" "135614"
 /cast [nomod,@mouseover,harm,nodead] [] Schattenblitz(Rang 1)
+END
+VER 3 0000000000000011 "Schurke" "134400"
+/w Longling Tricks me!
+/use 10
 END
 VER 3 0000000000000001 "start imp" "132097"
 /dismount
