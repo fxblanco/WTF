@@ -1,0 +1,13 @@
+
+AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 3010003,
+	},
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+	},
+	["profiles"] = {
+		["Lesbenlisa - Venoxis"] = {
+		},
+	},
+}

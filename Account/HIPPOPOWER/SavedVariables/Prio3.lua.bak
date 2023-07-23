@@ -1,0 +1,15 @@
+
+Prio3DB = {
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+	},
+	["profiles"] = {
+		["Lesbenlisa - Venoxis"] = {
+			["priorities"] = {
+			},
+			["lootlastopened"] = {
+			},
+			["receivedPriorities"] = 0,
+		},
+	},
+}

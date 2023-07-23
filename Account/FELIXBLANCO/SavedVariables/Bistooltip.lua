@@ -2,11 +2,11 @@
 BisTooltipDB = {
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
-		["Xolem - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Xolem - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["char"] = {
@@ -17,27 +17,27 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 			["version"] = 6.1,
 		},
-		["Andrés - Venoxis"] = {
-			["version"] = 6.1,
-			["data_source"] = "wowtbc",
-		},
 		["Lucho - Venoxis"] = {
 			["version"] = 6.1,
 			["data_source"] = "wowtbc",
 		},
-		["Xolem - Venoxis"] = {
-			["class_index"] = 10,
-			["data_source"] = "wowtbc",
-			["version"] = 6.1,
-			["phase_index"] = 3,
-		},
-		["Khalimmortus - Venoxis"] = {
+		["Andrés - Venoxis"] = {
 			["version"] = 6.1,
 			["data_source"] = "wowtbc",
 		},
 		["Andrés - Transcendence"] = {
 			["version"] = 6.1,
 			["data_source"] = "wowtbc",
+		},
+		["Khalimmortus - Venoxis"] = {
+			["version"] = 6.1,
+			["data_source"] = "wowtbc",
+		},
+		["Xolem - Venoxis"] = {
+			["class_index"] = 10,
+			["version"] = 6.1,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 3,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["class_index"] = 6,

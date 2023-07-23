@@ -2,11 +2,11 @@
 WSEDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Default",
-		["Lucho - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
-		["Andrés - Transcendence"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Andrés - Transcendence"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 }
