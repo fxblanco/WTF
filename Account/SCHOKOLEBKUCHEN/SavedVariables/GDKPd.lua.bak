@@ -24,10 +24,10 @@ GDKPd_DB = {
 		},
 		["Exonuklease - Venoxis"] = {
 			["balancepoint"] = {
-				["y"] = -116.0248718261719,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -242.650634765625,
+				["y"] = -149.7960815429688,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 209.2649993896484,
 			},
 			["auctionTimer"] = 15,
 			["playerbalancepoint"] = {
@@ -35,191 +35,187 @@ GDKPd_DB = {
 				["x"] = 521.0999145507812,
 			},
 			["point"] = {
-				["y"] = -46.75418090820313,
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 413.8761596679688,
+				["y"] = -45.42036819458008,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -365.3936462402344,
 			},
 			["auctionTimerRefresh"] = 15,
 			["startBid"] = 500,
-			["increment"] = 200,
+			["increment"] = 100,
 			["statuspoint"] = {
-				["y"] = -2.025049686431885,
-				["x"] = -71.19929504394531,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
+				["y"] = 254.8585052490234,
+				["x"] = 257.78955078125,
+				["point"] = "BOTTOMLEFT",
+				["relative"] = "BOTTOMLEFT",
 			},
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Brishja"] = 0,
-		["Hanaltar"] = 0,
-		["Poisonality"] = 0,
-		["Saxz"] = 0,
-		["Tolazytolvl"] = 0,
-		["Gnag"] = 0,
-		["Xebuboss"] = 0,
-		["Wîdi"] = 0,
-		["Qlikadin"] = 0,
+		["Eldunarî"] = 0,
+		["Dschäv"] = 0,
+		["Terrortotem"] = 0,
 		["Hopéless"] = 0,
-		["Fieseronkel"] = 0,
-		["Hagatha"] = 0,
-		["Shikimora"] = 0,
-		["Longling"] = 0,
-		["Jellypie"] = 0,
-		["Exonuklease"] = -46068,
-		["Simpkin"] = 0,
-		["Ðadus"] = 0,
-		["Aokii"] = 0,
-		["Bullneck"] = 0,
-		["Gigaoof"] = 0,
-		["Hochdruckuwe"] = 0,
-		["Graveofjenna"] = 0,
-		["Siella"] = 0,
-		["Domedonmaya"] = 0,
+		["Vheraun"] = 0,
+		["Héras"] = 0,
+		["Crusadress"] = 0,
+		["Diggah"] = 0,
+		["Reyfox"] = 0,
+		["Combwarlock"] = 0,
+		["Harmoonie"] = 0,
+		["Pêêwz"] = 0,
+		["Tartax"] = 0,
+		["Twaennim"] = 0,
+		["Tolazytolvl"] = 0,
+		["Deusdominik"] = 0,
+		["Graveofmaria"] = 0,
+		["Frighten"] = 0,
+		["Velyxa"] = 0,
+		["Exonuklease"] = 5688,
+		["Flpstr"] = 0,
+		["Alyrah"] = 0,
+		["Bønbøn"] = 0,
+		["Pippop"] = 0,
+		["Xiphos"] = 0,
 	},
 	["curPotHistory"] = {
 		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47415::::::::80:::::::::|h[Halsberge der gewaltigen Monstrosität]|h|r",
-			["name"] = "Brishja",
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47424::::::::80:::::::::|h[Sabatons des Mutigen]|h|r",
+			["name"] = "Bønbøn",
 		}, -- [1]
 		{
-			["bid"] = 6200,
-			["item"] = "|cffa335ee|Hitem:47426::::::::80:::::::::|h[Bindungen des Eisgräbers]|h|r",
-			["name"] = "Hagatha",
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:47418::::::::80:::::::::|h[Umhang des ungezähmten Raubtiers]|h|r",
+			["name"] = "Alyrah",
 		}, -- [2]
 		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47418::::::::80:::::::::|h[Umhang des ungezähmten Raubtiers]|h|r",
-			["name"] = "Gnag",
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47412::::::::80:::::::::|h[Kürass der Böswilligkeit]|h|r",
+			["name"] = "Deusdominik",
 		}, -- [3]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Tolazytolvl",
+			["bid"] = 20000,
+			["item"] = "|cffa335ee|Hitem:47427::::::::80:::::::::|h[Blutfuror]|h|r",
+			["name"] = "Reyfox",
 		}, -- [4]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47441::::::::80:::::::::|h[Gelenkbänder der nebulösen Omen]|h|r",
+			["name"] = "Pêêwz",
+		}, -- [5]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47435::::::::80:::::::::|h[Hose der besänftigenden Berührung]|h|r",
+			["name"] = "Frighten",
+		}, -- [6]
 		{
 			["bid"] = 2500,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Bullneck",
-		}, -- [5]
-		{
-			["bid"] = 30000,
-			["item"] = "|cffa335ee|Hitem:47440::::::::80:::::::::|h[Gamaschen des erlöschenden Lichts]|h|r",
-			["name"] = "Qlikadin",
-		}, -- [6]
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47427::::::::80:::::::::|h[Blutfuror]|h|r",
-			["name"] = "Poisonality",
+			["name"] = "Vheraun",
 		}, -- [7]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
-			["name"] = "Brishja",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Graveofmaria",
 		}, -- [8]
 		{
-			["bid"] = 2200,
+			["bid"] = 2000,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Hagatha",
+			["name"] = "Terrortotem",
 		}, -- [9]
 		{
 			["bid"] = 2000,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Hochdruckuwe",
+			["name"] = "Héras",
 		}, -- [10]
 		{
-			["bid"] = 2200,
+			["bid"] = 2000,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Jellypie",
+			["name"] = "Eldunarî",
 		}, -- [11]
 		{
-			["bid"] = 2200,
+			["bid"] = 2500,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Fieseronkel",
+			["name"] = "Pêêwz",
 		}, -- [12]
 		{
-			["bid"] = 2200,
+			["bid"] = 2000,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Jellypie",
+			["name"] = "Tolazytolvl",
 		}, -- [13]
 		{
-			["bid"] = 2200,
+			["bid"] = 2000,
 			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Hochdruckuwe",
+			["name"] = "Eldunarî",
 		}, -- [14]
 		{
-			["bid"] = 2200,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Fieseronkel",
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
+			["name"] = "Terrortotem",
 		}, -- [15]
 		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47459::::::::80:::::::::|h[Armschützer der Schildmaid]|h|r",
-			["name"] = "Brishja",
+			["bid"] = 18000,
+			["item"] = "|cffa335ee|Hitem:47448::::::::80:::::::::|h[Bastion der Entschlossenheit]|h|r",
+			["name"] = "Dschäv",
 		}, -- [16]
 		{
-			["bid"] = 9000,
-			["item"] = "|cffa335ee|Hitem:47447::::::::80:::::::::|h[Gürtel der beißenden Kälte]|h|r",
-			["name"] = "Xebuboss",
+			["bid"] = 9500,
+			["item"] = "|cffa335ee|Hitem:47466::::::::80:::::::::|h[Kehlstück des Legionärs]|h|r",
+			["name"] = "Harmoonie",
 		}, -- [17]
 		{
-			["bid"] = 6000,
+			["bid"] = 2500,
 			["item"] = "|cffa335ee|Hitem:47455::::::::80:::::::::|h[Armschienen des zerbrochenen Bundes]|h|r",
-			["name"] = "Qlikadin",
+			["name"] = "Bønbøn",
 		}, -- [18]
 		{
-			["bid"] = 46000,
-			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
-			["name"] = "Wîdi",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47461::::::::80:::::::::|h[Stich des kalten Herzens]|h|r",
+			["name"] = "Reyfox",
 		}, -- [19]
 		{
-			["bid"] = 10000,
+			["bid"] = 9500,
 			["item"] = "|cffa335ee|Hitem:47469::::::::80:::::::::|h[Gürtel aus bleichen Dornen]|h|r",
-			["name"] = "Qlikadin",
+			["name"] = "Dschäv",
 		}, -- [20]
 		{
-			["bid"] = 55000,
-			["item"] = "|cffa335ee|Hitem:47462::::::::80:::::::::|h[Himmelswirkerweste]|h|r",
-			["name"] = "Exonuklease",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Héras",
 		}, -- [21]
 		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:47324::::::::80:::::::::|h[Bindungen des leichenblassen Heiligen]|h|r",
-			["name"] = "Graveofjenna",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47311::::::::80:::::::::|h[Taillenschutz der tödlichen Vorherrschaft]|h|r",
+			["name"] = "Tartax",
 		}, -- [22]
 		{
-			["bid"] = 2400,
-			["item"] = "|cffa335ee|Hitem:47318::::::::80:::::::::|h[Gamaschen des Erwachens]|h|r",
-			["name"] = "Saxz",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47323::::::::80:::::::::|h[Gurt des vergessenen Märtyrers]|h|r",
+			["name"] = "Pêêwz",
 		}, -- [23]
+		-2000, -- [24]
 		{
-			["bid"] = 2500,
-			["item"] = "|cffa335ee|Hitem:47313::::::::80:::::::::|h[Armbänder des dunklen Beschlusses]|h|r",
-			["name"] = "Shikimora",
-		}, -- [24]
-		{
-			["bid"] = 1200,
-			["item"] = "|cffa335ee|Hitem:47326::::::::80:::::::::|h[Handwickel der leblosen Berührung]|h|r",
-			["name"] = "Graveofjenna",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47328::::::::80:::::::::|h[Verehrung der Maid]|h|r",
+			["name"] = "Pêêwz",
 		}, -- [25]
-		-24700, -- [26]
 		{
-			["bid"] = 1000,
+			["bid"] = 500,
 			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Qlikadin",
-		}, -- [27]
+			["name"] = "Frighten",
+		}, -- [26]
+		-15800, -- [27]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 223300,
-	["prevDist"] = 223300,
+	["potAmount"] = 142200,
+	["prevDist"] = 142200,
 }
 GDKPd_BalanceData = {
 	["Dynamitdelux"] = 0,
-	["Exonuklease"] = -51656,
+	["Exonuklease"] = -65190,
 	["Specializt"] = 0,
 }

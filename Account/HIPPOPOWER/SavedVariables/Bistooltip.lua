@@ -2,9 +2,15 @@
 BisTooltipDB = {
 	["profileKeys"] = {
 		["Lesbenlisa - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Default",
 	},
 	["char"] = {
 		["Lesbenlisa - Venoxis"] = {
+			["class_index"] = 5,
+			["data_source"] = "wh",
+			["version"] = 6.1,
+		},
+		["Hakkî - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 6.1,
 		},

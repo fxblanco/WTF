@@ -7,19 +7,19 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
-				["Kwasimojo - Venoxis"] = {
-					"Shadow", -- [1]
-					"Diszi", -- [2]
-					["enabled"] = true,
+				["Andrés - Venoxis"] = {
+					["enabled"] = false,
 				},
 				["Khalimmortus - Venoxis"] = {
 					["enabled"] = false,
 				},
-				["Andrés - Venoxis"] = {
-					["enabled"] = false,
-				},
 				["Lucho - Venoxis"] = {
 					["enabled"] = false,
+				},
+				["Kwasimojo - Venoxis"] = {
+					"Shadow", -- [1]
+					"Diszi", -- [2]
+					["enabled"] = true,
 				},
 			},
 		},
@@ -74,20 +74,20 @@ Quartz3DB = {
 		["Player"] = {
 			["profiles"] = {
 				["Diszi"] = {
-					["w"] = 200,
 					["y"] = 242.9505157470703,
+					["x"] = 1.70147705078125,
 					["point"] = "BOTTOM",
+					["w"] = 200,
 					["border"] = "None",
 					["texture"] = "Clean",
-					["x"] = 1.70147705078125,
 				},
 				["Shadow"] = {
-					["y"] = 192.3999633789063,
+					["y"] = 227.7035827636719,
 					["h"] = 35,
 					["point"] = "BOTTOM",
-					["x"] = 15.7999267578125,
-					["border"] = "None",
+					["x"] = 3.527130126953125,
 					["w"] = 350,
+					["border"] = "None",
 					["texture"] = "Clean",
 				},
 				["Default"] = {
@@ -276,31 +276,31 @@ Quartz3DB = {
 		["Andrés - Transcendence"] = "Default",
 		["Khalimmortus - Venoxis"] = "Luckyone Main 2.21",
 		["Xolem - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Diszi",
+		["Kwasimojo - Venoxis"] = "Shadow",
 	},
 	["profiles"] = {
 		["Diszi"] = {
 			["modules"] = {
-				["Swing"] = false,
-				["Buff"] = false,
-				["Mirror"] = false,
-				["GCD"] = false,
 				["Focus"] = false,
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
 				["Target"] = false,
-				["Timer"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
+				["Timer"] = false,
 			},
 		},
 		["Shadow"] = {
 			["modules"] = {
-				["Target"] = false,
+				["Buff"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Buff"] = false,
-				["Timer"] = false,
+				["Focus"] = false,
+				["Target"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
-				["Focus"] = false,
+				["Timer"] = false,
 			},
 		},
 		["Default"] = {

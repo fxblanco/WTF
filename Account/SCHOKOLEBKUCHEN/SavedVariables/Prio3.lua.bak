@@ -6,19 +6,19 @@ Prio3DB = {
 	},
 	["profiles"] = {
 		["Endonuclease - Venoxis"] = {
-			["priorities"] = {
-			},
 			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
-		},
-		["Exonuklease - Venoxis"] = {
-			["lootlastopened"] = {
-			},
-			["enabled"] = false,
-			["receivedPriorities"] = 1684878374,
 			["priorities"] = {
 			},
+		},
+		["Exonuklease - Venoxis"] = {
+			["enabled"] = false,
+			["priorities"] = {
+			},
+			["lootlastopened"] = {
+			},
+			["receivedPriorities"] = 1684878374,
 		},
 	},
 }

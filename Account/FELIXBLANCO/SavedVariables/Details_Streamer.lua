@@ -2,11 +2,11 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Lucho - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Transcendence"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
+		["Lucho - Venoxis"] = "Alsia - Venoxis",
 		["Xolem - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Transcendence"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {
@@ -41,7 +41,7 @@ Details_StreamerDB = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["y"] = -9.1552734375e-05,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -56,7 +56,6 @@ Details_StreamerDB = {
 				0.4, -- [4]
 			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -68,10 +67,11 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
+			["use_spark"] = true,
 			["x"] = 0.00018310546875,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["font_size"] = 10,
+			["y"] = -9.1552734375e-05,
 			["author"] = "Terciob",
 			["main_frame_locked"] = false,
 			["main_frame_size"] = {

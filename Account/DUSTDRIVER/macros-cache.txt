@@ -1,18 +1,22 @@
-VER 3 0000000000000003 "lfg" "132091"
-/2 LFM Heal für Ragefire
+VER 3 000000000000000B "bomb" "134400"
+#showtooltip
+/use [mod:shift]Global Thermal Sapper Charge;[mod:alt]6;[@player]Saronite Bomb
 END
-VER 3 0000000000000001 "makro" "INV_MISC_QUESTIONMARK"
-/makro
+VER 3 0000000000000008 "druid_b" "134400"
+#showtooltip Terrorbärengestalt(Gestaltwandel)
+/cast Terrorbärengestalt(Gestaltwandel)
+END
+VER 3 000000000000000A "druid_cancelform" "135736"
+/cancelform
+END
+VER 3 0000000000000009 "druid_cat" "134400"
+#showtooltip Katzengestalt(Gestaltwandel)
+/cast !Katzengestalt(Gestaltwandel)
+END
+VER 3 000000000000000C "druid_travel" "134400"
+#showtooltip
+/cast [swimming]Wassergestalt(Gestaltwandel);[flyable,nocombat]Schnelle Fluggestalt(Gestaltwandel);[outdoors]Reisegestalt(Gestaltwandel)
 END
 VER 3 0000000000000007 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
-END
-VER 3 0000000000000002 "target" "132089"
-/target Schimärenmatriarchin
-END
-VER 3 0000000000000004 "ZygorAction1" "134400"
-END
-VER 3 0000000000000005 "ZygorAction2" "134400"
-END
-VER 3 0000000000000006 "ZygorAction3" "134400"
 END

@@ -35,22 +35,21 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spell"] = "Lichtblitz",
+					["spellSubName"] = "Rang 9",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["spellSubName"] = "Rang 9",
+					["spell"] = "Lichtblitz",
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand des Schutzes",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
-					["spellSubName"] = "Rang 3",
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -63,21 +62,22 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
-				}, -- [4]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135968,
 					["spell"] = "Hand der Freiheit",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["spellSubName"] = "Rang 3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135964,
+					["spell"] = "Hand des Schutzes",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -99,32 +99,32 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Handauflegung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spellSubName"] = "Rang 5",
-				}, -- [8]
-				{
-					["type"] = "spell",
 					["key"] = "CTRL-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136106,
 					["spell"] = "Göttliches Eingreifen",
-				}, -- [9]
+				}, -- [8]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spell"] = "Heiliges Licht",
+					["spellSubName"] = "Rang 13",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135920,
-					["spellSubName"] = "Rang 13",
+					["spell"] = "Heiliges Licht",
+				}, -- [9]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["spellSubName"] = "Rang 5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["spell"] = "Handauflegung",
 				}, -- [10]
 				{
 					["type"] = "target",
@@ -136,22 +136,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
-					["spellSubName"] = "Rang 7",
+					["spell"] = "Heiliger Schock",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135972,
-					["spell"] = "Heiliger Schock",
+					["spellSubName"] = "Rang 7",
 				}, -- [12]
 			},
 		},
 		["Xolem - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -167,32 +167,32 @@ CliqueDB3 = {
 		["Kwasimojo - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "ALT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Blitzheilung",
+					["spellSubName"] = "Rang 11",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["spellSubName"] = "Rang 11",
+					["spell"] = "Blitzheilung",
 				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spell"] = "Machtwort: Schild",
+					["spellSubName"] = "Rang 14",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135940,
-					["spellSubName"] = "Rang 14",
+					["spell"] = "Machtwort: Schild",
 				}, -- [3]
 				{
 					["type"] = "spell",
@@ -206,22 +206,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
-					["spell"] = "Erneuerung",
+					["spellSubName"] = "Rang 14",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135953,
-					["spellSubName"] = "Rang 14",
+					["spell"] = "Erneuerung",
 				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Große Heilung",
+					["spellSubName"] = "Rang 9",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135913,
-					["spellSubName"] = "Rang 9",
+					["spell"] = "Große Heilung",
 				}, -- [6]
 				{
 					["type"] = "menu",
@@ -242,32 +242,32 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
-					["spell"] = "Gebet der Besserung",
+					["spellSubName"] = "Rang 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135944,
-					["spellSubName"] = "Rang 3",
+					["spell"] = "Gebet der Besserung",
 				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
-					["spell"] = "Gebet der Heilung",
+					["spellSubName"] = "Rang 7",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135943,
-					["spellSubName"] = "Rang 7",
+					["spell"] = "Gebet der Heilung",
 				}, -- [10]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON5",
-					["spell"] = "Magiebannung",
+					["spellSubName"] = "Rang 2",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135894,
-					["spellSubName"] = "Rang 2",
+					["spell"] = "Magiebannung",
 				}, -- [11]
 				{
 					["type"] = "spell",
@@ -281,22 +281,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Verbindende Heilung",
+					["spellSubName"] = "Rang 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135883,
-					["spellSubName"] = "Rang 3",
+					["spell"] = "Verbindende Heilung",
 				}, -- [13]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spell"] = "Sühne",
+					["spellSubName"] = "Rang 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 237545,
-					["spellSubName"] = "Rang 3",
+					["spell"] = "Sühne",
 				}, -- [14]
 				{
 					["type"] = "spell",

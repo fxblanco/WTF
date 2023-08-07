@@ -2,19 +2,40 @@
 PallyPowerDB = {
 	["profileKeys"] = {
 		["Lesbenlisa - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["enable"] = true,
+			["seal"] = 9,
+			["WrathTransition"] = true,
+		},
+		["Other"] = {
 			["enable"] = true,
 			["WrathTransition"] = true,
 		},
 	},
 }
 PallyPower_Assignments = {
+	["Alsia"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		1, -- [4]
+		4, -- [5]
+		2, -- [6]
+		0, -- [7]
+		4, -- [8]
+		1, -- [9]
+		2, -- [10]
+	},
 }
 PallyPower_NormalAssignments = {
+	["Alsia"] = {
+	},
 }
 PallyPower_AuraAssignments = {
+	["Alsia"] = 6,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {

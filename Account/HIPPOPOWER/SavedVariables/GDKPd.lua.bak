@@ -5,14 +5,27 @@ GDKPd_DB = {
 	},
 	["profileKeys"] = {
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 	},
 	["profiles"] = {
 		["Lesbenlisa - Venoxis"] = {
 			["point"] = {
-				["y"] = 114.8219833374023,
+				["y"] = -179.5403747558594,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -161.8349609375,
+			},
+			["statuspoint"] = {
+				["y"] = -89.83109283447266,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -226.2101135253906,
+				["x"] = -223.256103515625,
+			},
+		},
+		["Hakkî - Venoxis"] = {
+			["point"] = {
+				["y"] = -60.11262130737305,
+				["x"] = -349.1932373046875,
 			},
 		},
 	},

@@ -66,19 +66,19 @@ Quartz3DB = {
 					["point"] = "CENTER",
 					["w"] = 238,
 					["nametextx"] = 2,
-					["x"] = 358.0001220703125,
+					["font"] = "Expressway",
 					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997100830078,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["x"] = 358.0001220703125,
 					["timefontsize"] = 11,
 					["strata"] = "HIGH",
 					["texture"] = "Minimalist",
@@ -87,10 +87,10 @@ Quartz3DB = {
 					["timetextx"] = 2,
 					["noInterruptShield"] = false,
 					["point"] = "CENTER",
-					["border"] = "Square Full White",
+					["strata"] = "HIGH",
 					["nametextx"] = 2,
-					["font"] = "Expressway",
-					["w"] = 238,
+					["x"] = 278.0001831054688,
+					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997406005859,
 					["noInterruptColor"] = {
@@ -101,9 +101,9 @@ Quartz3DB = {
 					},
 					["fontsize"] = 11,
 					["iconalpha"] = 1,
-					["x"] = 278.0001831054688,
+					["font"] = "Expressway",
 					["timefontsize"] = 11,
-					["strata"] = "HIGH",
+					["w"] = 238,
 					["texture"] = "Minimalist",
 				},
 			},
@@ -156,9 +156,9 @@ Quartz3DB = {
 					["font"] = "Expressway",
 					["timefontsize"] = 11,
 					["iconalpha"] = 1,
-					["strata"] = "HIGH",
-					["x"] = 278.0004272460938,
 					["noInterruptShield"] = false,
+					["x"] = 278.0004272460938,
+					["strata"] = "HIGH",
 					["iconposition"] = "left",
 				},
 			},
@@ -174,16 +174,16 @@ Quartz3DB = {
 					["timetextx"] = 2,
 					["point"] = "BOTTOM",
 					["strata"] = "HIGH",
-					["x"] = 0.000244140625,
+					["h"] = 18,
 					["w"] = 321,
 					["timefontsize"] = 11,
 					["y"] = 90.9999771118164,
-					["h"] = 18,
+					["font"] = "Expressway",
 					["fontsize"] = 11,
 					["iconalpha"] = 1,
 					["border"] = "Square Full White",
 					["nametextx"] = 2,
-					["font"] = "Expressway",
+					["x"] = 0.000244140625,
 					["texture"] = "Minimalist",
 				},
 				["Luckyone Main 2.21"] = {
@@ -241,13 +241,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Range"] = false,
+				["Pet"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Range"] = false,
 				["Mirror"] = false,
-				["Pet"] = false,
 				["Latency"] = false,
 			},
 			["borderalpha"] = 0,
@@ -303,22 +303,8 @@ Quartz3DB = {
 				nil, -- [3]
 				1, -- [4]
 			},
-			["modules"] = {
-				["Range"] = false,
-				["Swing"] = false,
-				["GCD"] = false,
-				["Buff"] = false,
-				["Timer"] = false,
-				["Mirror"] = false,
-				["Pet"] = false,
-				["Latency"] = false,
-			},
-			["spelltextcolor"] = {
-				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				1, -- [4]
-			},
+			["hidesamwise"] = false,
+			["borderalpha"] = 0,
 			["backgroundalpha"] = 0.9,
 			["sparkcolor"] = {
 				nil, -- [1]
@@ -326,14 +312,28 @@ Quartz3DB = {
 				nil, -- [3]
 				0, -- [4]
 			},
-			["hidesamwise"] = false,
 			["castingcolor"] = {
 				0.01960784383118153, -- [1]
 				1, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
-			["borderalpha"] = 0,
+			["spelltextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1, -- [4]
+			},
+			["modules"] = {
+				["Mirror"] = false,
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Timer"] = false,
+				["Pet"] = false,
+				["Range"] = false,
+				["Latency"] = false,
+			},
 			["timetextcolor"] = {
 				nil, -- [1]
 				nil, -- [2]

@@ -14,6 +14,12 @@ GDKPd_DB = {
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -21,25 +27,19 @@ GDKPd_DB = {
 				["x"] = -64.45061492919922,
 			},
 			["point"] = {
-				["y"] = -46.57500839233398,
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 485.6997985839844,
+				["y"] = -6.725102424621582,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -407.1521301269531,
 			},
-			["startBid"] = 1000,
+			["startBid"] = 500,
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
-			["increment"] = 200,
 		},
 		["Lucho - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -95,12 +95,12 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 298.3500366210938,
 			},
-			["startBid"] = 500,
+			["startBid"] = 3000,
 			["statuspoint"] = {
-				["y"] = 10.79995727539063,
+				["y"] = 8.773844718933105,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -100.2239074707031,
+				["x"] = -133.9951629638672,
 			},
 			["balancepoint"] = {
 				["y"] = 87.02503967285156,
@@ -108,6 +108,7 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -133.2993774414063,
 			},
+			["increment"] = 200,
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
@@ -116,20 +117,8 @@ GDKPd_DB = {
 					["minbid"] = 2000,
 				}, -- [1]
 			},
-			["increment"] = 200,
 		},
 		["Kwasimojo - Venoxis"] = {
-			["announceBidRaidWarning"] = true,
-			["balancepoint"] = {
-				["y"] = -163.275146484375,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -193.3739318847656,
-			},
-			["playerbalancepoint"] = {
-				["y"] = 54.72499847412109,
-				["x"] = 348.300048828125,
-			},
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
@@ -143,15 +132,26 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 413.0502624511719,
 			},
+			["announceBidRaidWarning"] = true,
 			["auctionTimerRefresh"] = 15,
-			["startBid"] = 1000,
-			["increment"] = 200,
+			["balancepoint"] = {
+				["y"] = -163.275146484375,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -193.3739318847656,
+			},
+			["playerbalancepoint"] = {
+				["y"] = 54.72499847412109,
+				["x"] = 348.300048828125,
+			},
 			["statuspoint"] = {
 				["y"] = 122.1751403808594,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -126.5496826171875,
 			},
+			["increment"] = 200,
+			["startBid"] = 1000,
 		},
 	},
 }

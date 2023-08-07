@@ -47,6 +47,7 @@ VMRT = {
 		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
+		["Hakkî-Venoxis"] = "default",
 		["Lesbenlisa-Venoxis"] = "default",
 	},
 	["Encounter"] = {
@@ -54,6 +55,8 @@ VMRT = {
 		},
 		["list"] = {
 			["Lesbenlisa"] = {
+			},
+			["Hakkî"] = {
 			},
 		},
 	},
@@ -64,8 +67,25 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
-			["Lesbenlisa"] = 0,
+			["Specializt"] = 0,
+			["Vacaria"] = 0,
+			["Tolazytolvl"] = 0,
+			["Gnag"] = 0,
+			["Bubblexx"] = 0,
+			["Hakkî"] = 0,
+			["Kentharo"] = 0,
+			["Alsia"] = 0,
+			["Tréalis"] = 0,
+			["Deusdominik"] = 0,
+			["Graveofmaria"] = 0,
+			["Ðadus"] = 0,
+			["Malborn"] = 0,
 			["Cratør"] = 0,
+			["Lesbenlisa"] = 0,
+			["Bloodwall"] = 0,
+			["Kruschaq"] = 0,
+			["Ugol"] = 0,
+			["Jodifrosta"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {

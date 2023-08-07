@@ -21,6 +21,22 @@ _detalhes_global = {
 	["always_use_profile"] = true,
 	["deathlog_healingdone_min_arena"] = 400,
 	["spell_school_cache"] = {
+		["Nachtvortex"] = 32,
+		["Säuregetränkte Mandibeln"] = 8,
+		["Netherportal"] = 32,
+		["Egelschwarm"] = 8,
+		["Windender Schmerzstachel"] = 1,
+		["Lichtwelle"] = 4,
+		["Durchbohren"] = 1,
+		["Nahkampf"] = 1,
+		["Teufelshitze"] = 4,
+		["Nachtwelle"] = 32,
+		["Legionsflamme"] = 4,
+		["Teufelsinferno"] = 4,
+		["Corpo-a-Corpo"] = 1,
+		["Fleisch einäschern"] = 4,
+		["Kuss der Herrin"] = 32,
+		["Höllische Eruption"] = 4,
 	},
 	["spell_category_latest_sent"] = 0,
 	["damage_scroll_auto_open"] = true,
@@ -232,7 +248,7 @@ _detalhes_global = {
 	["always_use_profile_name"] = "Luckyone 2.21",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 0,
+	["combat_id_global"] = 7,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
@@ -241,7 +257,7 @@ _detalhes_global = {
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
-	["last_changelog_size"] = 15891,
+	["last_changelog_size"] = 13626,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 0,
 	["npcid_pool"] = {
@@ -253,22 +269,15 @@ _detalhes_global = {
 		["relevance_time"] = 10,
 	},
 	["spell_pool"] = {
-		[57940] = 2,
-		[57819] = 2,
-		[32223] = 2,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1690152496,
+	["latest_encounter_spell_pool_access"] = 1691231115,
 	["auto_open_news_window"] = false,
 	["got_first_run"] = true,
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["damage_taken_anchor"] = {
-			["y"] = 0,
-			["x"] = 0,
-			["side"] = 7,
-		},
+		["realtime_dps_size"] = 12,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -284,8 +293,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["realtime_dps_size"] = 12,
 		["damage_taken_shadow"] = true,
+		["damage_taken_anchor"] = {
+			["y"] = 0,
+			["x"] = 0,
+			["side"] = 7,
+		},
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -910,7 +923,7 @@ _detalhes_global = {
 						["texture_custom"] = "",
 						["textR_bracket"] = "(",
 						["textR_enable_custom_text"] = false,
-						["textL_class_colors"] = false,
+						["textR_class_colors"] = false,
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -918,7 +931,7 @@ _detalhes_global = {
 						},
 						["textL_show_number"] = true,
 						["alpha"] = 1,
-						["texture_background"] = "Details D'ictum (reverse)",
+						["textL_class_colors"] = false,
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["texture"] = "Details Hyanda",
 						["space"] = {
@@ -935,7 +948,7 @@ _detalhes_global = {
 						["overlay_texture"] = "Details D'ictum",
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
-						["textR_class_colors"] = false,
+						["texture_background"] = "Details D'ictum (reverse)",
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -1105,6 +1118,9 @@ _detalhes_global = {
 					["bars_sort_direction"] = 1,
 					["rowareaborder_shown"] = false,
 					["StatusBarSaved"] = {
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
+						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textColor"] = {
@@ -1151,9 +1167,6 @@ _detalhes_global = {
 								["textYMod"] = 1,
 							},
 						},
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
 					},
 					["switch_healer_in_combat"] = false,
 					["bg_alpha"] = 0.6,
@@ -1218,18 +1231,18 @@ _detalhes_global = {
 							0.333333333333333, -- [3]
 						},
 					},
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-3, -- [2]
-					},
 					["row_show_animation"] = {
 						["anim"] = "Fade",
 						["options"] = {
 						},
 					},
+					["bars_grow_direction"] = 1,
 					["switch_all_roles_after_wipe"] = false,
 					["hide_in_combat_type"] = 1,
-					["bars_grow_direction"] = 1,
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-3, -- [2]
+					},
 					["switch_damager_in_combat"] = false,
 					["desaturated_menu"] = false,
 					["micro_displays_locked"] = true,
@@ -1308,21 +1321,22 @@ _detalhes_global = {
 			["skin"] = "Minimalistic",
 			["override_spellids"] = true,
 			["show_arena_role_icon"] = false,
-			["overall_clear_logout"] = false,
 			["overall_flag"] = 16,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["minimum_combat_time"] = 5,
 			["deny_score_messages"] = false,
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
+			["overall_clear_logout"] = false,
+			["minimum_combat_time"] = 5,
 			["window_clamp"] = {
 				-8, -- [1]
 				0, -- [2]
 				21, -- [3]
 				-14, -- [4]
+			},
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
 			["chat_tab_embed"] = {
 				["enabled"] = false,
@@ -1594,9 +1608,8 @@ _detalhes_global = {
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
 			["memory_threshold"] = 3,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["windows_fade_out"] = {
 				"out", -- [1]
@@ -2106,8 +2119,8 @@ _detalhes_global = {
 				["menus"] = "Expressway",
 			},
 			["pvp_as_group"] = true,
-			["report_lines"] = 8,
 			["numerical_system"] = 1,
+			["report_lines"] = 8,
 			["segments_amount"] = 40,
 			["overall_clear_pvp"] = true,
 			["auto_swap_to_dynamic_overall"] = false,
@@ -2118,14 +2131,17 @@ _detalhes_global = {
 			},
 			["skin"] = "Dark Theme",
 			["override_spellids"] = true,
-			["minimum_combat_time"] = 5,
 			["overall_clear_newboss"] = false,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["overall_flag"] = 16,
+			["windows_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
 			},
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
+			},
+			["minimum_combat_time"] = 5,
 			["chat_tab_embed"] = {
 				["enabled"] = false,
 				["tab_name"] = "",
@@ -2133,17 +2149,11 @@ _detalhes_global = {
 				["y_offset"] = 0,
 				["single_window"] = false,
 			},
-			["overall_clear_logout"] = false,
-			["windows_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
-			},
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
@@ -2408,11 +2418,14 @@ _detalhes_global = {
 			["trash_auto_remove"] = true,
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = true,
-			["deny_score_messages"] = false,
-			["font_sizes"] = {
-				["menus"] = 10,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
-			["overall_flag"] = 16,
+			["overall_clear_logout"] = false,
+			["deny_score_messages"] = false,
 			["segments_panic_mode"] = false,
 			["show_arena_role_icon"] = false,
 			["time_type_original"] = 2,
@@ -2465,7 +2478,7 @@ _detalhes_global = {
 						["textL_outline"] = true,
 						["textR_outline_small"] = false,
 						["textL_outline_small"] = false,
-						["textL_enable_custom_text"] = false,
+						["percent_type"] = 1,
 						["fixed_text_color"] = {
 							1, -- [1]
 							1, -- [2]
@@ -2507,13 +2520,13 @@ _detalhes_global = {
 							["upper_enabled"] = false,
 						},
 						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["percent_type"] = 1,
+						["show_faction_icon"] = true,
 						["textL_translit_text"] = false,
 						["texture_custom_file"] = "Interface\\",
 						["texture_file"] = "Interface\\Addons\\SharedMedia\\statusbar\\Minimalist",
 						["icon_size_offset"] = 0,
 						["start_after_icon"] = false,
-						["show_faction_icon"] = true,
+						["textL_enable_custom_text"] = false,
 						["overlay_color"] = {
 							0.7, -- [1]
 							0.7, -- [2]
@@ -2956,7 +2969,7 @@ _detalhes_global = {
 						["textL_outline"] = true,
 						["textR_outline_small"] = false,
 						["textL_outline_small"] = false,
-						["textL_enable_custom_text"] = false,
+						["percent_type"] = 1,
 						["fixed_text_color"] = {
 							1, -- [1]
 							1, -- [2]
@@ -2998,13 +3011,13 @@ _detalhes_global = {
 							["upper_enabled"] = false,
 						},
 						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["percent_type"] = 1,
+						["show_faction_icon"] = true,
 						["textL_translit_text"] = false,
 						["texture_custom_file"] = "Interface\\",
 						["texture_file"] = "Interface\\Addons\\SharedMedia\\statusbar\\Minimalist",
 						["icon_size_offset"] = 0,
 						["start_after_icon"] = false,
-						["show_faction_icon"] = true,
+						["textL_enable_custom_text"] = false,
 						["overlay_color"] = {
 							0.7, -- [1]
 							0.7, -- [2]
@@ -3432,7 +3445,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1690152496,
+		["latest_boss_mods_access"] = 1691231115,
 		["encounter_timers_dbm"] = {
 		},
 	},
@@ -3450,7 +3463,8 @@ _detalhes_global = {
 	},
 	["class_time_played"] = {
 		[2] = {
-			["PALADIN"] = 399.6780000000017,
+			["DRUID"] = 958.2199999999721,
+			["PALADIN"] = 3285.91100000008,
 		},
 	},
 	["spell_category_savedtable"] = {
@@ -3478,7 +3492,7 @@ _detalhes_global = {
 		},
 	},
 	["merge_player_abilities"] = false,
-	["latest_npcid_pool_access"] = 1690152496,
+	["latest_npcid_pool_access"] = 1691231115,
 	["realm_sync"] = true,
 	["spellid_ignored"] = {
 	},
@@ -3494,8 +3508,18 @@ _detalhes_global = {
 	},
 	["spell_category_latest_save"] = 0,
 	["item_level_pool"] = {
+		["Player-4477-04DB0F34"] = {
+			["time"] = 1691231157,
+			["name"] = "Hakkî",
+			["ilvl"] = 246,
+		},
+		["Player-4477-04D937F8"] = {
+			["time"] = 1691231157,
+			["name"] = "Alsia",
+			["ilvl"] = 248,
+		},
 	},
-	["latest_spell_pool_access"] = 1690152496,
+	["latest_spell_pool_access"] = 1691231115,
 	["aura_tracker_frame"] = {
 		["scaletable"] = {
 			["scale"] = 1,
@@ -3526,7 +3550,7 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 4,
-		["main_help_button"] = 3494,
+		["main_help_button"] = 3502,
 		["WINDOW_GROUP_MAKING1"] = true,
 		["FORGE_TUTORIAL"] = true,
 		["DETAILS_INFO_TUTORIAL1"] = true,
@@ -3538,7 +3562,7 @@ _detalhes_global = {
 			false, -- [5]
 			false, -- [6]
 		},
-		["logons"] = 3494,
+		["logons"] = 3502,
 		["ctrl_click_close_tutorial"] = false,
 		["OVERALLDATA_WARNING1"] = 60,
 		["MIN_COMBAT_TIME"] = true,
@@ -4435,39 +4459,39 @@ _detalhes_global = {
 	},
 }
 __details_backup = {
-	["_exit_error"] = {
-	},
 	["_instance_backup"] = {
 	},
 	["_general_logs"] = {
-		"2023-07-24 00:55:06 | actor removed Sealflip (ungrouped)", -- [1]
-		"2023-07-24 00:55:06 | actor removed Kräutereûter (ungrouped)", -- [2]
-		"2023-07-24 00:55:06 | actor removed Raylstorm (ungrouped)", -- [3]
-		"2023-07-24 00:55:06 | actor removed Kräutereûter (ungrouped)", -- [4]
-		"2023-07-24 00:55:06 | actor removed Nâchtvogel (ungrouped)", -- [5]
-		"2023-07-24 00:55:06 | actor removed Crazybone (ungrouped)", -- [6]
-		"2023-07-24 00:55:06 | actor removed Kruschaq (ungrouped)", -- [7]
-		"2023-07-24 00:55:06 | actor removed Dendarg (ungrouped)", -- [8]
-		"2023-07-24 00:55:06 | actor removed Yamidog (ungrouped)", -- [9]
-		"2023-07-24 00:52:57 | actor removed Wingschick (ungrouped)", -- [10]
-		"2023-07-24 00:52:57 | actor removed Sealflip (ungrouped)", -- [11]
-		"2023-07-24 00:52:57 | actor removed Yamidog (ungrouped)", -- [12]
-		"2023-07-24 00:52:57 | actor removed Crazybone (ungrouped)", -- [13]
-		"2023-07-24 00:52:57 | actor removed Dendarg (ungrouped)", -- [14]
-		"2023-07-24 00:52:40 | actor removed Metabodk (ungrouped)", -- [15]
-		"2023-07-24 00:52:40 | actor removed Zordie (ungrouped)", -- [16]
-		"2023-07-24 00:52:40 | actor removed Romé (ungrouped)", -- [17]
-		"2023-07-24 00:52:40 | actor removed Shinzirog (ungrouped)", -- [18]
-		"2023-07-24 00:52:40 | actor removed Wingschick (ungrouped)", -- [19]
-		"2023-07-24 00:52:40 | actor removed Yamidog (ungrouped)", -- [20]
-		"2023-07-24 00:52:40 | actor removed Andrejka (ungrouped)", -- [21]
-		"2023-07-24 00:52:40 | actor removed Døømløck (ungrouped)", -- [22]
-		"2023-07-24 00:52:40 | actor removed Dendarg (ungrouped)", -- [23]
-		"2023-07-24 00:52:40 | actor removed Crazybone (ungrouped)", -- [24]
-		"2023-07-24 00:52:40 | actor removed Deldrini (ungrouped)", -- [25]
-		"2023-07-24 00:52:40 | actor removed Romé (ungrouped)", -- [26]
-		"2023-07-24 00:52:40 | actor removed Shinzirog (ungrouped)", -- [27]
-		"2023-07-24 00:52:40 | actor removed Umgebung: (Fallen) (ungrouped)", -- [28]
-		"2023-07-24 00:52:40 | actor removed Anree (ungrouped)", -- [29]
+		"2023-07-27 23:49:18 | actor removed Maisoldk (ungrouped)", -- [1]
+		"2023-07-27 23:49:18 | actor removed Mbeezyqt (ungrouped)", -- [2]
+		"2023-07-27 23:49:18 | actor removed Ráknarok (ungrouped)", -- [3]
+		"2023-07-27 23:49:18 | actor removed Mnwl (ungrouped)", -- [4]
+		"2023-07-27 23:49:18 | actor removed Skillrexy (ungrouped)", -- [5]
+		"2023-07-27 23:49:18 | actor removed Drcrustii (ungrouped)", -- [6]
+		"2023-07-27 23:49:18 | actor removed Moschkante (ungrouped)", -- [7]
+		"2023-07-27 23:49:18 | actor removed Fearlôck (ungrouped)", -- [8]
+		"2023-07-27 23:49:18 | actor removed Lorekx (ungrouped)", -- [9]
+		"2023-07-27 23:49:18 | actor removed Doke (ungrouped)", -- [10]
+		"2023-07-27 23:49:18 | actor removed Mattsn (ungrouped)", -- [11]
+		"2023-07-27 23:49:18 | actor removed Ginlock (ungrouped)", -- [12]
+		"2023-07-27 23:49:18 | actor removed Totenfluch (ungrouped)", -- [13]
+		"2023-07-24 01:10:43 | actor removed Andvaris (ungrouped)", -- [14]
+		"2023-07-24 01:10:43 | actor removed Daredevil (ungrouped)", -- [15]
+		"2023-07-24 01:10:43 | actor removed Bìbi (ungrouped)", -- [16]
+		"2023-07-24 01:10:43 | actor removed Andvaris (ungrouped)", -- [17]
+		"2023-07-24 01:10:43 | actor removed Notthateasy (ungrouped)", -- [18]
+		"2023-07-24 01:10:43 | actor removed Daredevil (ungrouped)", -- [19]
+		"2023-07-24 01:10:43 | actor removed Metabodk (ungrouped)", -- [20]
+		"2023-07-24 01:10:43 | actor removed Alltoowell (ungrouped)", -- [21]
+		"2023-07-24 01:10:43 | actor removed Hakeda (ungrouped)", -- [22]
+		"2023-07-24 01:10:43 | actor removed Andvaris (ungrouped)", -- [23]
+		"2023-07-24 01:10:43 | actor removed Daredevil (ungrouped)", -- [24]
+		"2023-07-24 01:10:43 | actor removed Grüner Priester (ungrouped)", -- [25]
+		"2023-07-24 01:10:43 | actor removed Døømløck (ungrouped)", -- [26]
+		"2023-07-24 01:10:43 | actor removed Klaahtu (ungrouped)", -- [27]
+		"2023-07-24 01:10:43 | actor removed Bìbi (ungrouped)", -- [28]
+		"2023-07-24 01:10:43 | actor removed Börps (ungrouped)", -- [29]
+	},
+	["_exit_error"] = {
 	},
 }

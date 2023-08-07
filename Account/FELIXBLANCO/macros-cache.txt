@@ -1,8 +1,11 @@
 VER 3 0000000000000038 "cancel" "134400"
-Cancelmacro für Anub auf Deutsch:
 /cancelaura Gebet der Seelenstärke
 /cancelaura Befehlsruf
 /cancelaura Sonnenwendfestverstärkung
+END
+VER 3 000000000000003B "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
 END
 VER 3 0000000000000024 "g_boots" "132546"
 #showtooltip
@@ -71,6 +74,10 @@ VER 3 000000000000003A "PI" "134400"
 #showtooltip
 /target Meyara
 /cast Seele der Macht
+END
+VER 3 000000000000003C "priest_sp_e" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Gedankenschinden
 END
 VER 3 000000000000002F "priest_sp_fient" "134400"
 #showtooltip

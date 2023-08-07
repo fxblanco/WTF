@@ -5,9 +5,34 @@ AtlasLootClassicDB = {
 	},
 	["profileKeys"] = {
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 	},
 	["profiles"] = {
 		["Lesbenlisa - Venoxis"] = {
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"TrialoftheCrusader", -- [2]
+					[5] = 0,
+				},
+			},
+		},
+		["Hakkî - Venoxis"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-146.5293731689453, -- [4]
+					-10.80682468414307, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"Ulduar", -- [2]
+					16, -- [3]
+					[5] = 0,
+				},
+			},
 		},
 	},
 }

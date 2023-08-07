@@ -154,7 +154,7 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 355.5,
+			["y"] = 355.4999694824219,
 			["x"] = 94.99999237060547,
 			["borderColor"] = {
 			},
@@ -169,11 +169,11 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.0.16",
+	["version"] = "10.1.4",
 	["display"] = {
 	},
-	["enchantColor"] = {
-	},
 	["fridgeColor"] = {
+	},
+	["enchantColor"] = {
 	},
 }

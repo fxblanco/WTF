@@ -48,10 +48,13 @@ VMRT = {
 	},
 	["ProfileKeys"] = {
 		["Lesbenlisa-Venoxis"] = "default",
+		["Hakkî-Venoxis"] = "default",
 	},
 	["Encounter"] = {
 		["list"] = {
 			["Lesbenlisa"] = {
+			},
+			["Hakkî"] = {
 			},
 		},
 		["names"] = {
@@ -64,9 +67,34 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
-			["Lesbenlisa"] = 0,
+			["Schpen"] = 0,
+			["Specializt"] = 0,
+			["Vacaria"] = 0,
+			["Tolazytolvl"] = 0,
+			["Gnag"] = 0,
+			["Widi"] = 0,
+			["Bubblexx"] = 0,
+			["Hakkî"] = 0,
+			["Ugol"] = 0,
+			["Shamir"] = 0,
+			["Kentharo"] = 0,
+			["Skyrow"] = 0,
+			["Alsia"] = 0,
+			["Ichigawa"] = 0,
+			["Tréalis"] = 0,
+			["Keender"] = 0,
+			["Bentica"] = 0,
+			["Maturitass"] = 0,
+			["Deusdominik"] = 0,
+			["Graveofmaria"] = 0,
+			["Ðadus"] = 0,
+			["Malborn"] = 0,
 			["Cratør"] = 0,
+			["Lesbenlisa"] = 0,
+			["Bloodwall"] = 0,
+			["Graveofjenna"] = 0,
 			["Kruschaq"] = 0,
+			["Jodifrosta"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
