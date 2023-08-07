@@ -1,8 +1,6 @@
 
 WeakAurasOptionsSaved = {
 	["magnetAlign"] = true,
-	["savedSnippets"] = {
-	},
 	["spellCache"] = {
 		["Murloc B8 beschwören"] = {
 			["spells"] = "39820=135819",
@@ -51404,18 +51402,20 @@ WeakAurasOptionsSaved = {
 			["spells"] = "70634=135735",
 		},
 	},
-	["spellCacheAchievements"] = true,
+	["savedSnippets"] = {
+	},
+	["spellCacheStrings"] = true,
 	["locale"] = "deDE",
 	["needsRebuild"] = false,
 	["version"] = "5.6.0",
 	["lockPositions"] = false,
-	["spellCacheAchivements"] = true,
 	["frame"] = {
 		["xOffset"] = 1624.099517822266,
-		["yOffset"] = 1055.009399414063,
-		["height"] = 664.9999389648438,
 		["width"] = 830.0004272460938,
+		["height"] = 664.9999389648438,
+		["yOffset"] = 1055.009399414063,
 	},
-	["spellCacheStrings"] = true,
+	["spellCacheAchivements"] = true,
+	["spellCacheAchievements"] = true,
 	["build"] = "50664",
 }

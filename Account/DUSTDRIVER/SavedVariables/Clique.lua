@@ -92,22 +92,12 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["spell"] = "Wiedergeburt",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136080,
-					["spellSubName"] = "Rang 7",
-				}, -- [2]
-				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -116,16 +106,17 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Anregen",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
+					["key"] = "SHIFT-BUTTON2",
+					["spell"] = "Wiedergeburt",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135952,
-					["spell"] = "Fluch aufheben",
-				}, -- [5]
+					["icon"] = 136080,
+					["spellSubName"] = "Rang 7",
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -135,7 +126,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spellSubName"] = "Rang 15",
-				}, -- [6]
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -145,6 +136,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 136085,
 					["spellSubName"] = "Rang 12",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135952,
+					["spell"] = "Fluch aufheben",
 				}, -- [7]
 				{
 					["type"] = "spell",
