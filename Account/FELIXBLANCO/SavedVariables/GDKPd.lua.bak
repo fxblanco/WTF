@@ -1,16 +1,16 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Andrés - Transcendence"] = "Andrés - Transcendence",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Andrés - Transcendence"] = "Andrés - Transcendence",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -41,18 +41,6 @@ GDKPd_DB = {
 			},
 			["increment"] = 500,
 		},
-		["Andrés - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 5.45014762878418,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -132.6243743896484,
-			},
-			["point"] = {
-				["y"] = 131.6248779296875,
-				["x"] = -436.0499267578125,
-			},
-		},
 		["Lucho - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -56.65000915527344,
@@ -65,6 +53,36 @@ GDKPd_DB = {
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -227.9994049072266,
+			},
+		},
+		["Andrés - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 5.45014762878418,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -132.6243743896484,
+			},
+			["point"] = {
+				["y"] = -171.9962921142578,
+				["x"] = -312.3415222167969,
+				["point"] = "TOPRIGHT",
+				["relative"] = "TOPRIGHT",
+			},
+		},
+		["Andrés - Transcendence"] = {
+		},
+		["Khalimmortus - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 198.3747711181641,
+				["relative"] = "BOTTOMRIGHT",
+				["point"] = "BOTTOMRIGHT",
+				["x"] = -39.47518157958984,
+			},
+			["point"] = {
+				["y"] = -97.20004272460938,
+				["relative"] = "LEFT",
+				["point"] = "LEFT",
+				["x"] = 79.50005340576172,
 			},
 		},
 		["Alsia - Venoxis"] = {
@@ -83,9 +101,9 @@ GDKPd_DB = {
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["minbid"] = 2000,
-					["max"] = 0,
 					["mininc"] = 500,
+					["max"] = 0,
+					["minbid"] = 2000,
 				}, -- [1]
 			},
 			["point"] = {
@@ -93,39 +111,25 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 298.3500366210938,
 			},
-			["startBid"] = 3000,
+			["startBid"] = 4000,
 			["increment"] = 200,
 			["statuspoint"] = {
-				["y"] = 8.773844718933105,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -133.9951629638672,
-			},
-		},
-		["Khalimmortus - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 198.3747711181641,
+				["y"] = 203.5184478759766,
 				["relative"] = "BOTTOMRIGHT",
 				["point"] = "BOTTOMRIGHT",
-				["x"] = -39.47518157958984,
+				["x"] = -249.4923553466797,
 			},
-			["point"] = {
-				["y"] = -97.20004272460938,
-				["relative"] = "LEFT",
-				["point"] = "LEFT",
-				["x"] = 79.50005340576172,
-			},
-		},
-		["Andrés - Transcendence"] = {
 		},
 		["Kwasimojo - Venoxis"] = {
-			["itemLevelPricing"] = {
-				{
-					["min"] = 235,
-					["mininc"] = 200,
-					["max"] = 250,
-					["minbid"] = 3000,
-				}, -- [1]
+			["playerbalancepoint"] = {
+				["y"] = 54.72499847412109,
+				["x"] = 348.300048828125,
+			},
+			["statuspoint"] = {
+				["y"] = 122.1751403808594,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -126.5496826171875,
 			},
 			["point"] = {
 				["relative"] = "TOPLEFT",
@@ -140,18 +144,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -193.3739318847656,
 			},
-			["playerbalancepoint"] = {
-				["y"] = 54.72499847412109,
-				["x"] = 348.300048828125,
-			},
-			["statuspoint"] = {
-				["y"] = 122.1751403808594,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -126.5496826171875,
-			},
-			["startBid"] = 1000,
-			["increment"] = 200,
+			["increment"] = 100,
+			["startBid"] = 500,
 		},
 	},
 }

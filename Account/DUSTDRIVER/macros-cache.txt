@@ -2,6 +2,10 @@ VER 3 000000000000000B "bomb" "134400"
 #showtooltip
 /use [mod:shift]Global Thermal Sapper Charge;[mod:alt]6;[@player]Saronite Bomb
 END
+VER 3 000000000000000D "boots" "134400"
+#showtooltip
+/use [mod:shift] 15; [mod:ctrl] 6; 8
+END
 VER 3 0000000000000008 "druid_b" "134400"
 #showtooltip Terrorbärengestalt(Gestaltwandel)
 /cast Terrorbärengestalt(Gestaltwandel)

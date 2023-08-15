@@ -31,7 +31,7 @@ VER 3 0000000000000010 "lock" "134400"
 /cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
 END
 VER 3 000000000000000E "PI" "134400"
-/w Hanaltar PI me!
+/w Wurstfachqt PI me!
 /use 10
 END
 VER 3 0000000000000005 "Roll" "135900"

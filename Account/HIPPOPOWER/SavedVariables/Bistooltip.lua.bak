@@ -1,17 +1,25 @@
 
 BisTooltipDB = {
 	["profileKeys"] = {
-		["Lesbenlisa - Venoxis"] = "Default",
 		["Hakkî - Venoxis"] = "Default",
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
 	},
 	["char"] = {
-		["Lesbenlisa - Venoxis"] = {
+		["Hakkî - Venoxis"] = {
+			["class_index"] = 10,
 			["data_source"] = "wh",
 			["version"] = 6.1,
 		},
-		["Hakkî - Venoxis"] = {
-			["data_source"] = "wh",
+		["Lesbenlisa - Venoxis"] = {
+			["class_index"] = 5,
 			["version"] = 6.1,
+			["data_source"] = "wh",
+			["spec_index"] = 2,
+		},
+		["Pippop - Venoxis"] = {
+			["version"] = 6.1,
+			["data_source"] = "wh",
 		},
 	},
 }

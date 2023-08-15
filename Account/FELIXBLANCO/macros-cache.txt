@@ -18,6 +18,7 @@ VER 3 0000000000000036 "g_focus_kick" "136018"
 #showtooltip Windstoß
 /stopcasting
 /cast [@focus] Windstoß
+/cast Windstoß
 END
 VER 3 000000000000002E "g_hände" "132959"
 /use 10
@@ -25,6 +26,13 @@ END
 VER 3 0000000000000023 "g_Trinket" "135839"
 #showtooltip
 /use [mod:shift] 14; 13
+END
+VER 3 000000000000003E "g_trinket_2" "134400"
+#showtooltip
+/use [mod:shift] 14; 13
+END
+VER 3 000000000000003D "max" "134400"
+/console cameraDistanceMaxZoomFactor 3.5
 END
 VER 3 0000000000000034 "pal_bitte" "134400"
 #showtooltip
@@ -72,7 +80,7 @@ VER 3 000000000000002C "pat_ret_f" "134400"
 END
 VER 3 000000000000003A "PI" "134400"
 #showtooltip
-/target Meyara
+/target Kyleriemen
 /cast Seele der Macht
 END
 VER 3 000000000000003C "priest_sp_e" "134400"
@@ -96,31 +104,11 @@ VER 3 0000000000000030 "shadow_swd+" "134400"
 /cast Schattenwort: Tod
 /use [@Cursor] Saronitbombe
 END
-VER 3 0000000000000009 "sham_e_cd" "134400"
+VER 3 0000000000000012 "sham_e_cd" "136115"
 #showtooltip
-/cast [mod:shift] Totem des Ingrimms; [mod:ctrl] Kampfrausch; Elementarbeherrschung
+/cast [mod:ctrl] Totem des Ingrimms; [mod:shift ] Kochendes Blut(Volk); Elementarbeherrschung
 END
 VER 3 0000000000000037 "sham_enh_r" "134400"
 #showtooltip
 /cast [mod:shift] Totem des glühenden Magmas; Feuernova
-END
-VER 3 0000000000000012 "sham_h_cd" "134400"
-#showtooltip
-/cast [mod:shift] Kraft der Gezeiten; [mod:ctrl] Kampfrausch; Schnelligkeit der Natur
-END
-VER 3 0000000000000002 "sham_h_chain" "136042"
-#showtooltip
-/cast [mod:shift] Kettenblitzschlag; [@mouseover, help, nodead][] Kettenheilung
-END
-VER 3 000000000000000D "sham_h_main2" "136052"
-#showtooltip
-/cast [mod:shift] Frostschock; [@mouseover, help, nodead][] Welle der Heilung
-END
-VER 3 000000000000000F "sham_h_main3" "136043"
-#showtooltip
-/cast [mod:shift] Flammenschock; [@mouseover, help, nodead][] Geringe Welle der Heilung
-END
-VER 3 0000000000000010 "sham_h_main4" "134400"
-#showtooltip
-/cast [mod:shift] Blitzschlag; [@mouseover, help, nodead][] Springflut
 END

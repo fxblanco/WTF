@@ -49,8 +49,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -75,8 +73,8 @@ Quartz3DB = {
 				["Luckyone Main 2.21"] = {
 					["timetextx"] = 2,
 					["point"] = "BOTTOM",
-					["font"] = "Expressway",
 					["strata"] = "HIGH",
+					["font"] = "Expressway",
 					["w"] = 276,
 					["timefontsize"] = 11,
 					["y"] = 227,
@@ -90,6 +88,8 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["GCD"] = {
 		},
 		["Focus"] = {
@@ -101,10 +101,10 @@ Quartz3DB = {
 					["noInterruptShield"] = false,
 					["timetextx"] = 2,
 					["point"] = "CENTER",
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["nametextx"] = 2,
 					["x"] = 358.0001220703125,
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997100830078,
 					["font"] = "Expressway",
@@ -124,7 +124,7 @@ Quartz3DB = {
 					["timetextx"] = 2,
 					["noInterruptShield"] = false,
 					["point"] = "CENTER",
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["nametextx"] = 2,
 					["noInterruptColor"] = {
 						nil, -- [1]
@@ -132,7 +132,7 @@ Quartz3DB = {
 						nil, -- [3]
 						1, -- [4]
 					},
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997406005859,
 					["x"] = 278.0001831054688,
@@ -210,6 +210,7 @@ Quartz3DB = {
 	["profileKeys"] = {
 		["Lesbenlisa - Venoxis"] = "Luckyone Main 2.21",
 		["Hakkî - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

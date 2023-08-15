@@ -9,7 +9,7 @@ VER 3 0000000000000006 "Cancelaura" "134400"
 END
 VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Vergiftung aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
+/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
 END
 VER 3 0000000000000002 "InstantHeal" "136041"
 /cast Schnelligkeit der Natur

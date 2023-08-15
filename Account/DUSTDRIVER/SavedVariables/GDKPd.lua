@@ -1,10 +1,11 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["profiles"] = {
 		["Maturitass - Venoxis"] = {
@@ -14,11 +15,17 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -319.165771484375,
 			},
-			["point"] = {
-				["y"] = 247.2044372558594,
+			["playerbalancepoint"] = {
+				["y"] = 177.6548461914063,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -224.1838226318359,
+				["x"] = -258.3778686523438,
+			},
+			["point"] = {
+				["y"] = -124.7654724121094,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -323.5516357421875,
 			},
 			["startBid"] = 500,
 			["increment"] = 200,
@@ -29,169 +36,99 @@ GDKPd_DB = {
 				["x"] = -34.81410980224609,
 			},
 		},
+		["Bloodwall - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 230.3377990722656,
+				["x"] = 460.6379089355469,
+			},
+			["point"] = {
+				["y"] = -172.9643249511719,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -230.9379119873047,
+			},
+			["startBid"] = 500,
+			["statuspoint"] = {
+				["y"] = 84.42755889892578,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -232.0364990234375,
+			},
+			["balancepoint"] = {
+				["y"] = 167.4859466552734,
+				["x"] = -385.6659545898438,
+			},
+			["increment"] = 100,
+		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Schpen"] = 0,
-		["Puqq"] = 0,
-		["Onixus"] = 0,
-		["Harterhexer"] = 0,
-		["Tolazytolvl"] = 0,
-		["Rokja"] = 0,
-		["Vanec"] = 0,
-		["Dabs"] = 0,
-		["Hakkî"] = 5630,
-		["Belladina"] = 0,
-		["Kentharo"] = 0,
-		["Megahass"] = 0,
-		["Envvy"] = 0,
-		["Serferine"] = 0,
-		["Tehja"] = 0,
-		["Jocindyr"] = 0,
-		["Valarita"] = 0,
-		["Jìnxed"] = 0,
-		["Bremskyle"] = 0,
-		["Dmna"] = 0,
-		["Darkdisii"] = 0,
-		["Maturitass"] = 1130,
-		["Shamir"] = 0,
-		["Discordegirl"] = 0,
-		["Pewpewkunge"] = 0,
+		["Shesamaniac"] = 0,
+		["Strongraki"] = 0,
+		["Terrortotem"] = 0,
+		["Xoroth"] = 0,
+		["Andrés"] = 2025,
+		["Keìner"] = 0,
+		["Smoq"] = 0,
+		["Trilltrollt"] = 0,
+		["Widi"] = 0,
+		["Maturitass"] = -2975,
 	},
 	["curPotHistory"] = {
-		9200, -- [1]
-		9200, -- [2]
-		9200, -- [3]
 		{
-			["bid"] = 3000,
-			["item"] = "|cffa335ee|Hitem:45570::::::::80:::::::::|h[Armbrust der Himmelsschmiede]|h|r",
-			["name"] = "Onixus",
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47988::::::::80:::::::::|h[Halsband der endlosen Qual]|h|r",
+			["name"] = "Strongraki",
+		}, -- [1]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48012::::::::80:::::::::|h[Sandalen des Sonnenhäschermagus']|h|r",
+			["name"] = "Andrés",
+		}, -- [2]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48054::::::::80:::::::::|h[Gürtel des Ewigen]|h|r",
+			["name"] = "Smoq",
+		}, -- [3]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48701::::::::80:::::::::|h[Zauberernte]|h|r",
+			["name"] = "Andrés",
 		}, -- [4]
 		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:45611::::::::80:::::::::|h[Solarbindungen]|h|r",
-			["name"] = "Rokja",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Andrés",
 		}, -- [5]
 		{
-			["bid"] = 21000,
-			["item"] = "|cffa335ee|Hitem:45665::::::::80:::::::::|h[Pharos Handschuhe]|h|r",
-			["name"] = "Jocindyr",
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:48669::::::::80:::::::::|h[Umhang des triumphalen Kombattanten]|h|r",
+			["name"] = "Maturitass",
 		}, -- [6]
 		{
-			["bid"] = 22000,
-			["item"] = "|cffa335ee|Hitem:46053::::::::80:::::::::|h[Antwortcode Alpha]|h|r",
-			["name"] = "Shamir",
+			["bid"] = 1000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Widi",
 		}, -- [7]
 		{
-			["bid"] = 8000,
-			["item"] = "|cffa335ee|Hitem:45474::::::::80:::::::::|h[Schulterstücke des Kombattanten]|h|r",
-			["name"] = "Schpen",
+			["bid"] = 1000,
+			["item"] = "|cffa335ee|Hitem:49046::::::::80:::::::::|h[Schneller Wolf der Horde]|h|r",
+			["name"] = "Widi",
 		}, -- [8]
+		1000, -- [9]
 		{
-			["bid"] = 17000,
-			["item"] = "|cffa335ee|Hitem:45537::::::::80:::::::::|h[Treter des falschen Orakels]|h|r",
-			["name"] = "Schpen",
-		}, -- [9]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45265::::::::80:::::::::|h[Schulterpolster des Monoliths]|h|r",
-			["name"] = "Maturitass",
+			["bid"] = 500,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Andrés",
 		}, -- [10]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45267::::::::80:::::::::|h[Saronitbeschlagene Beinschützer]|h|r",
-			["name"] = "Tolazytolvl",
-		}, -- [11]
-		{
-			["bid"] = 11000,
-			["item"] = "|cffa335ee|Hitem:45271::::::::80:::::::::|h[Eisenheiler]|h|r",
-			["name"] = "Serferine",
-		}, -- [12]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45319::::::::80:::::::::|h[Umhang der Schöpfer]|h|r",
-			["name"] = "Tolazytolvl",
-		}, -- [13]
-		{
-			["bid"] = 3000,
-			["item"] = "|cffa335ee|Hitem:45438::::::::80:::::::::|h[Ring des treuen Dieners]|h|r",
-			["name"] = "Schpen",
-		}, -- [14]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45469::::::::80:::::::::|h[Sifs Versprechen]|h|r",
-			["name"] = "Belladina",
-		}, -- [15]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45638::::::::80:::::::::|h[Krone des abtrünnigen Eroberers]|h|r",
-			["name"] = "Schpen",
-		}, -- [16]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45145::::::::80:::::::::|h[Buchband des geheiligten Schildes]|h|r",
-			["name"] = "Belladina",
-		}, -- [17]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45523::::::::80:::::::::|h[Garonas Haube]|h|r",
-			["name"] = "Maturitass",
-		}, -- [18]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45530::::::::80:::::::::|h[Band der geistigen Gesundheit]|h|r",
-			["name"] = "Schpen",
-		}, -- [19]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45656::::::::80:::::::::|h[Mantelung des abtrünnigen Eroberers]|h|r",
-			["name"] = "Bremskyle",
-		}, -- [20]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45236::::::::80:::::::::|h[Unverwandter Blick]|h|r",
-			["name"] = "Bremskyle",
-		}, -- [21]
-		{
-			["bid"] = 500,
-			["item"] = "|cffa335ee|Hitem:45225::::::::80:::::::::|h[Stahlbrechers Umarmung]|h|r",
-			["name"] = "Bremskyle",
-		}, -- [22]
-		9200, -- [23]
-		9200, -- [24]
-		{
-			["bid"] = 500,
-			["item"] = "|cffa335ee|Hitem:45244::::::::80:::::::::|h[Schienbeinschützer der schnellen Vergeltung]|h|r",
-			["name"] = "Belladina",
-		}, -- [25]
-		{
-			["bid"] = 500,
-			["item"] = "|cffa335ee|Hitem:45515::::::::80:::::::::|h[Ring des leeren Auges]|h|r",
-			["name"] = "Maturitass",
-		}, -- [26]
-		{
-			["bid"] = 1500,
-			["item"] = "|cffa335ee|Hitem:45520::::::::80:::::::::|h[Handlappen des Wachsamen]|h|r",
-			["name"] = "Maturitass",
-		}, -- [27]
-		{
-			["bid"] = 500,
-			["item"] = "|cffa335ee|Hitem:45234::::::::80:::::::::|h[Euphorie]|h|r",
-			["name"] = "Maturitass",
-		}, -- [28]
-		{
-			["bid"] = 1900,
-			["item"] = "|cff0070dd|Hitem:45087::::::::80:::::::::|h[Runenbeschriebene Kugel]|h|r",
-			["name"] = "Vanec",
-		}, -- [29]
-		-15640, -- [30]
+		-2250, -- [11]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 140760,
-	["prevDist"] = 140760,
+	["potAmount"] = 20250,
+	["prevDist"] = 20250,
 }
 GDKPd_BalanceData = {
-	["Maturitass"] = -5630,
+	["Maturitass"] = -2025,
 }

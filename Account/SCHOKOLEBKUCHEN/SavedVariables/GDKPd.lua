@@ -35,10 +35,10 @@ GDKPd_DB = {
 				["x"] = 521.0999145507812,
 			},
 			["point"] = {
-				["y"] = -45.42036819458008,
+				["y"] = -45.00001525878906,
 				["relative"] = "TOP",
 				["point"] = "TOP",
-				["x"] = -365.3936462402344,
+				["x"] = -365,
 			},
 			["auctionTimerRefresh"] = 15,
 			["startBid"] = 500,
@@ -215,7 +215,4 @@ GDKPd_PotData = {
 	["prevDist"] = 142200,
 }
 GDKPd_BalanceData = {
-	["Specializt"] = 0,
-	["Exonuklease"] = -65190,
-	["Dynamitdelux"] = 0,
 }

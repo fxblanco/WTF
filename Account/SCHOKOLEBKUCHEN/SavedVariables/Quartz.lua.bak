@@ -55,6 +55,8 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Diszi"] = {
@@ -117,8 +119,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["GCD"] = {
 		},
 		["Focus"] = {
@@ -139,7 +139,7 @@ Quartz3DB = {
 					["strata"] = "HIGH",
 					["timefontsize"] = 11,
 					["x"] = 358.0001220703125,
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997100830078,
 					["font"] = "Expressway",
@@ -152,17 +152,17 @@ Quartz3DB = {
 						1, -- [4]
 					},
 					["nametextx"] = 2,
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["texture"] = "Minimalist",
 				},
 				["Luckyone Main 2.21"] = {
 					["timetextx"] = 2,
 					["noInterruptShield"] = false,
 					["point"] = "CENTER",
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["timefontsize"] = 11,
 					["font"] = "Expressway",
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997406005859,
 					["x"] = 278.0001831054688,
@@ -265,26 +265,26 @@ Quartz3DB = {
 	["profiles"] = {
 		["Diszi"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Target"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Buff"] = false,
-				["Target"] = false,
+				["Focus"] = false,
+				["Timer"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
-				["Focus"] = false,
+				["Buff"] = false,
 			},
 		},
 		["Shadow"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Target"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Buff"] = false,
-				["Target"] = false,
+				["Focus"] = false,
+				["Timer"] = false,
 				["Mirror"] = false,
 				["Pet"] = false,
-				["Focus"] = false,
+				["Buff"] = false,
 			},
 		},
 		["Default"] = {
@@ -294,9 +294,9 @@ Quartz3DB = {
 				["Mirror"] = false,
 				["GCD"] = false,
 				["Focus"] = false,
-				["Target"] = false,
-				["Pet"] = false,
 				["Timer"] = false,
+				["Pet"] = false,
+				["Target"] = false,
 			},
 		},
 		["Luckyone Healing 2.21"] = {

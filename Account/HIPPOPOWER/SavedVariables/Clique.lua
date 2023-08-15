@@ -7,13 +7,14 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
-			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
 			["alerthidden"] = true,
+			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
 		},
 	},
 	["profileKeys"] = {
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["profiles"] = {
 		["Lesbenlisa - Venoxis"] = {
@@ -21,12 +22,12 @@ CliqueDB3 = {
 				{
 					["spellSubName"] = "Rang 9",
 					["key"] = "BUTTON1",
-					["type"] = "spell",
+					["spell"] = "Lichtblitz",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["spell"] = "Lichtblitz",
+					["type"] = "spell",
 				}, -- [1]
 				{
 					["type"] = "spell",
@@ -39,22 +40,22 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON4",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135953,
-					["spell"] = "Reinigung des Glaubens",
+					["icon"] = 135967,
+					["spell"] = "Hand der Erlösung",
 				}, -- [3]
 				{
 					["spellSubName"] = "Rang 3",
 					["key"] = "CTRL-BUTTON1",
-					["type"] = "spell",
+					["spell"] = "Hand des Schutzes",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135964,
-					["spell"] = "Hand des Schutzes",
+					["type"] = "spell",
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -67,39 +68,41 @@ CliqueDB3 = {
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
+					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135967,
-					["spell"] = "Hand der Erlösung",
+					["icon"] = 135953,
+					["spell"] = "Reinigung des Glaubens",
 				}, -- [6]
 				{
-					["type"] = "target",
-					["key"] = "ALT-BUTTON1",
+					["type"] = "spell",
+					["key"] = "BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 135068,
+					["spell"] = "Rechtschaffene Verteidigung",
 				}, -- [7]
 				{
 					["spellSubName"] = "Rang 13",
 					["key"] = "BUTTON2",
-					["type"] = "spell",
+					["spell"] = "Heiliges Licht",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135920,
-					["spell"] = "Heiliges Licht",
+					["type"] = "spell",
 				}, -- [8]
 				{
 					["spellSubName"] = "Rang 5",
 					["key"] = "CTRL-BUTTON2",
-					["type"] = "spell",
+					["spell"] = "Handauflegung",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135928,
-					["spell"] = "Handauflegung",
+					["type"] = "spell",
 				}, -- [9]
 				{
 					["type"] = "spell",
@@ -111,33 +114,50 @@ CliqueDB3 = {
 					["spell"] = "Göttliches Eingreifen",
 				}, -- [10]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON3",
+					["type"] = "target",
+					["key"] = "ALT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135068,
-					["spell"] = "Rechtschaffene Verteidigung",
 				}, -- [11]
 				{
 					["spell"] = "Heiliger Schock",
 					["key"] = "BUTTON3",
-					["type"] = "spell",
+					["spellSubName"] = "Rang 7",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135972,
-					["spellSubName"] = "Rang 7",
+					["type"] = "spell",
 				}, -- [12]
 			},
 		},
 		["Hakkî - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Pippop - Venoxis"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

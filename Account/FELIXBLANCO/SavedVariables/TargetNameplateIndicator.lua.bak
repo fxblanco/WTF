@@ -2,11 +2,11 @@
 TargetNameplateIndicatorDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Default",
-		["Lucho - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
-		["Andrés - Transcendence"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Andrés - Transcendence"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -23,6 +23,9 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\RedChevronArrow",
 				},
 			},
+			["targettarget"] = {
+				["enable"] = false,
+			},
 			["mouseover"] = {
 				["self"] = {
 					["enable"] = false,
@@ -34,9 +37,6 @@ TargetNameplateIndicatorDB = {
 				["hostile"] = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonReticule",
 				},
-			},
-			["targettarget"] = {
-				["enable"] = false,
 			},
 			["focus"] = {
 				["self"] = {

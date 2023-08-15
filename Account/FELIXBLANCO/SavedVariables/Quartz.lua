@@ -7,8 +7,10 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
-				["Andrés - Venoxis"] = {
-					["enabled"] = false,
+				["Kwasimojo - Venoxis"] = {
+					"Shadow", -- [1]
+					"Diszi", -- [2]
+					["enabled"] = true,
 				},
 				["Khalimmortus - Venoxis"] = {
 					["enabled"] = false,
@@ -16,10 +18,8 @@ Quartz3DB = {
 				["Lucho - Venoxis"] = {
 					["enabled"] = false,
 				},
-				["Kwasimojo - Venoxis"] = {
-					"Shadow", -- [1]
-					"Diszi", -- [2]
-					["enabled"] = true,
+				["Andrés - Venoxis"] = {
+					["enabled"] = false,
 				},
 			},
 		},
@@ -69,9 +69,70 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Diszi"] = {
+					["y"] = 242.9505157470703,
+					["x"] = 1.70147705078125,
+					["point"] = "BOTTOM",
+					["w"] = 200,
+					["border"] = "None",
+					["texture"] = "Clean",
+				},
+				["Shadow"] = {
+					["y"] = 227.7035827636719,
+					["h"] = 35,
+					["point"] = "BOTTOM",
+					["x"] = 3.527130126953125,
+					["w"] = 350,
+					["border"] = "None",
+					["texture"] = "Clean",
+				},
+				["Default"] = {
+					["y"] = 295,
+					["h"] = 40,
+					["x"] = 1171,
+					["border"] = "None",
+					["texture"] = "Clean",
+				},
+				["Pally Tank"] = {
+					["x"] = 1171,
+				},
+				["Luckyone Healing 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["font"] = "Expressway",
+					["w"] = 321,
+					["timefontsize"] = 11,
+					["y"] = 90.9999771118164,
+					["x"] = 0.000244140625,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["nametextx"] = 2,
+					["h"] = 18,
+					["texture"] = "Minimalist",
+				},
+				["Luckyone Main 2.21"] = {
+					["timetextx"] = 2,
+					["h"] = 18,
+					["timefontsize"] = 11,
+					["w"] = 276,
+					["y"] = 227,
+					["x"] = 0,
+					["iconalpha"] = 1,
+					["strata"] = "HIGH",
+					["point"] = "BOTTOM",
+					["border"] = "Square Full White",
+					["fontsize"] = 11,
+					["texture"] = "Minimalist",
+					["nametextx"] = 2,
+					["font"] = "Expressway",
+				},
+			},
 		},
 		["GCD"] = {
 		},
@@ -90,50 +151,50 @@ Quartz3DB = {
 					["x"] = 1196,
 				},
 				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
 					["noInterruptShield"] = false,
+					["timetextx"] = 2,
 					["point"] = "CENTER",
-					["strata"] = "HIGH",
-					["timefontsize"] = 11,
-					["font"] = "Expressway",
 					["w"] = 238,
-					["noInterruptChangeColor"] = true,
-					["y"] = -140.9997100830078,
+					["nametextx"] = 2,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
+					["border"] = "Square Full White",
+					["noInterruptChangeColor"] = true,
+					["y"] = -140.9997100830078,
+					["x"] = 358.0001220703125,
 					["fontsize"] = 11,
 					["iconalpha"] = 1,
-					["x"] = 358.0001220703125,
-					["nametextx"] = 2,
-					["border"] = "Square Full White",
+					["font"] = "Expressway",
+					["timefontsize"] = 11,
+					["strata"] = "HIGH",
 					["texture"] = "Minimalist",
 				},
 				["Luckyone Main 2.21"] = {
 					["noInterruptShield"] = false,
-					["timetextx"] = 2,
-					["point"] = "CENTER",
-					["strata"] = "HIGH",
-					["timefontsize"] = 11,
-					["x"] = 278.0001831054688,
-					["border"] = "Square Full White",
-					["noInterruptChangeColor"] = true,
+					["nametextx"] = 2,
+					["w"] = 238,
 					["y"] = -140.9997406005859,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
+					["x"] = 278.0001831054688,
 					["iconalpha"] = 1,
+					["strata"] = "HIGH",
+					["point"] = "CENTER",
+					["border"] = "Square Full White",
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
-					["nametextx"] = 2,
-					["w"] = 238,
+					["fontsize"] = 11,
 					["texture"] = "Minimalist",
+					["timefontsize"] = 11,
+					["noInterruptChangeColor"] = true,
+					["timetextx"] = 2,
+					["font"] = "Expressway",
 				},
 			},
 		},
@@ -170,16 +231,22 @@ Quartz3DB = {
 					["font"] = "Expressway",
 					["timefontsize"] = 11,
 					["iconalpha"] = 1,
-					["noInterruptShield"] = false,
-					["x"] = 358.000244140625,
 					["strata"] = "HIGH",
+					["x"] = 358.000244140625,
+					["noInterruptShield"] = false,
 					["iconposition"] = "left",
 				},
 				["Luckyone Main 2.21"] = {
 					["noInterruptShield"] = false,
+					["timefontsize"] = 11,
+					["w"] = 238,
+					["y"] = -250.9998168945313,
+					["font"] = "Expressway",
+					["iconalpha"] = 1,
+					["iconposition"] = "left",
+					["strata"] = "HIGH",
 					["point"] = "CENTER",
 					["border"] = "Square Full White",
-					["noInterruptChangeColor"] = true,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
@@ -187,120 +254,53 @@ Quartz3DB = {
 						1, -- [4]
 					},
 					["fontsize"] = 11,
-					["timefontsize"] = 11,
 					["texture"] = "Minimalist",
-					["w"] = 238,
-					["y"] = -250.9998168945313,
-					["font"] = "Expressway",
-					["nametextx"] = 2,
-					["iconalpha"] = 1,
-					["timetextx"] = 2,
 					["x"] = 278.0004272460938,
-					["strata"] = "HIGH",
-					["iconposition"] = "left",
+					["timetextx"] = 2,
+					["noInterruptChangeColor"] = true,
+					["nametextx"] = 2,
 				},
 			},
 		},
 		["Interrupt"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Diszi"] = {
-					["y"] = 242.9505157470703,
-					["x"] = 1.70147705078125,
-					["point"] = "BOTTOM",
-					["border"] = "None",
-					["w"] = 200,
-					["texture"] = "Clean",
-				},
-				["Shadow"] = {
-					["y"] = 227.7035827636719,
-					["h"] = 35,
-					["point"] = "BOTTOM",
-					["x"] = 3.527130126953125,
-					["border"] = "None",
-					["w"] = 350,
-					["texture"] = "Clean",
-				},
-				["Default"] = {
-					["h"] = 40,
-					["y"] = 295,
-					["x"] = 1171,
-					["border"] = "None",
-					["texture"] = "Clean",
-				},
-				["Pally Tank"] = {
-					["x"] = 1171,
-				},
-				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["h"] = 18,
-					["w"] = 321,
-					["nametextx"] = 2,
-					["y"] = 90.9999771118164,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["x"] = 0.000244140625,
-					["texture"] = "Minimalist",
-				},
-				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["x"] = 0,
-					["w"] = 276,
-					["nametextx"] = 2,
-					["y"] = 227,
-					["h"] = 18,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["font"] = "Expressway",
-					["texture"] = "Minimalist",
-				},
-			},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Pally Tank",
-		["Andrés - Venoxis"] = "Luckyone Main 2.21",
 		["Lucho - Venoxis"] = "Luckyone Main 2.21",
-		["Xolem - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Luckyone Main 2.21",
+		["Andrés - Venoxis"] = "Luckyone Main 2.21",
 		["Andrés - Transcendence"] = "Default",
+		["Khalimmortus - Venoxis"] = "Luckyone Main 2.21",
+		["Xolem - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Shadow",
 	},
 	["profiles"] = {
 		["Diszi"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Buff"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Focus"] = false,
 				["Target"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
-				["Buff"] = false,
+				["Mirror"] = false,
+				["Timer"] = false,
 			},
 		},
 		["Shadow"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Focus"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Target"] = false,
+				["Timer"] = false,
 				["Mirror"] = false,
 				["Pet"] = false,
-				["Focus"] = false,
+				["Target"] = false,
 			},
 		},
 		["Default"] = {
@@ -309,9 +309,9 @@ Quartz3DB = {
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
-				["Focus"] = false,
-				["Pet"] = false,
 				["Target"] = false,
+				["Pet"] = false,
+				["Focus"] = false,
 			},
 		},
 		["Pally Tank"] = {
@@ -322,13 +322,13 @@ Quartz3DB = {
 				["Flight"] = false,
 				["Range"] = false,
 				["Pet"] = false,
-				["Mirror"] = false,
+				["Swing"] = false,
 				["Player"] = false,
 				["GCD"] = false,
 				["Focus"] = false,
 				["Timer"] = false,
 				["Target"] = false,
-				["Swing"] = false,
+				["Mirror"] = false,
 				["Latency"] = false,
 			},
 		},
@@ -358,13 +358,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Pet"] = false,
+				["Mirror"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Pet"] = false,
 				["Range"] = false,
-				["Mirror"] = false,
 				["Latency"] = false,
 			},
 			["borderalpha"] = 0,
@@ -375,16 +375,16 @@ Quartz3DB = {
 				nil, -- [3]
 				0, -- [4]
 			},
-			["spelltextcolor"] = {
-				nil, -- [1]
-				nil, -- [2]
+			["castingcolor"] = {
+				0.01960784383118153, -- [1]
+				1, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
 			["hidesamwise"] = false,
-			["castingcolor"] = {
-				0.01960784383118153, -- [1]
-				1, -- [2]
+			["spelltextcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
@@ -402,6 +402,7 @@ Quartz3DB = {
 				0, -- [3]
 				1, -- [4]
 			},
+			["backgroundalpha"] = 0.9,
 			["bordercolor"] = {
 				nil, -- [1]
 				nil, -- [2]
@@ -420,37 +421,36 @@ Quartz3DB = {
 				nil, -- [3]
 				1, -- [4]
 			},
-			["hidesamwise"] = false,
-			["modules"] = {
-				["Mirror"] = false,
-				["Swing"] = false,
-				["GCD"] = false,
-				["Buff"] = false,
-				["Timer"] = false,
-				["Pet"] = false,
-				["Range"] = false,
-				["Latency"] = false,
-			},
-			["backgroundalpha"] = 0.9,
-			["sparkcolor"] = {
-				nil, -- [1]
-				nil, -- [2]
-				nil, -- [3]
-				0, -- [4]
-			},
 			["spelltextcolor"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
+			["borderalpha"] = 0,
 			["castingcolor"] = {
 				0.01960784383118153, -- [1]
 				1, -- [2]
 				nil, -- [3]
 				1, -- [4]
 			},
-			["borderalpha"] = 0,
+			["sparkcolor"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				0, -- [4]
+			},
+			["modules"] = {
+				["Swing"] = false,
+				["Buff"] = false,
+				["Pet"] = false,
+				["GCD"] = false,
+				["Timer"] = false,
+				["Range"] = false,
+				["Mirror"] = false,
+				["Latency"] = false,
+			},
+			["hidesamwise"] = false,
 			["timetextcolor"] = {
 				nil, -- [1]
 				nil, -- [2]

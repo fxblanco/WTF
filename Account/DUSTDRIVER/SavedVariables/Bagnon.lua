@@ -91,6 +91,7 @@ Bagnon_Sets = {
 			},
 		},
 		["guild"] = {
+			["y"] = 355.4999694824219,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -112,15 +113,19 @@ Bagnon_Sets = {
 				"trade/recipe", -- [18]
 				"quest", -- [19]
 				"misc", -- [20]
+				"all/souls", -- [21]
+				"equip/ammo", -- [22]
 			},
+			["point"] = "BOTTOMLEFT",
 			["borderColor"] = {
 			},
 			["color"] = {
 			},
-			["hiddenRules"] = {
-			},
 			["hiddenBags"] = {
 			},
+			["hiddenRules"] = {
+			},
+			["x"] = 710.1688232421875,
 		},
 		["bank"] = {
 			["rules"] = {
@@ -172,8 +177,8 @@ Bagnon_Sets = {
 	["version"] = "10.1.4",
 	["display"] = {
 	},
-	["fridgeColor"] = {
-	},
 	["enchantColor"] = {
+	},
+	["fridgeColor"] = {
 	},
 }

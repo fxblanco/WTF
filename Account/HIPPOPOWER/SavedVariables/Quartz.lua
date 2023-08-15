@@ -51,7 +51,44 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Luckyone Healing 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["font"] = "Expressway",
+					["w"] = 321,
+					["nametextx"] = 2,
+					["y"] = 90.9999771118164,
+					["x"] = 0.000244140625,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["h"] = 18,
+					["texture"] = "Minimalist",
+				},
+				["Default"] = {
+					["x"] = 975.187744140625,
+				},
+				["Luckyone Main 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["h"] = 18,
+					["w"] = 276,
+					["nametextx"] = 2,
+					["y"] = 227,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["x"] = 0,
+					["texture"] = "Minimalist",
+				},
+			},
 		},
 		["GCD"] = {
 		},
@@ -69,7 +106,7 @@ Quartz3DB = {
 						nil, -- [3]
 						1, -- [4]
 					},
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997100830078,
 					["x"] = 358.0001220703125,
@@ -77,7 +114,7 @@ Quartz3DB = {
 					["iconalpha"] = 1,
 					["font"] = "Expressway",
 					["nametextx"] = 2,
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["texture"] = "Minimalist",
 				},
 				["Default"] = {
@@ -90,7 +127,7 @@ Quartz3DB = {
 					["strata"] = "HIGH",
 					["timefontsize"] = 11,
 					["font"] = "Expressway",
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997406005859,
 					["noInterruptColor"] = {
@@ -103,7 +140,7 @@ Quartz3DB = {
 					["iconalpha"] = 1,
 					["x"] = 278.0001831054688,
 					["nametextx"] = 2,
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["texture"] = "Minimalist",
 				},
 			},
@@ -165,51 +202,15 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["font"] = "Expressway",
-					["w"] = 321,
-					["nametextx"] = 2,
-					["y"] = 90.9999771118164,
-					["x"] = 0.000244140625,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["h"] = 18,
-					["texture"] = "Minimalist",
-				},
-				["Default"] = {
-					["x"] = 975.187744140625,
-				},
-				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["h"] = 18,
-					["w"] = 276,
-					["nametextx"] = 2,
-					["y"] = 227,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["x"] = 0,
-					["texture"] = "Minimalist",
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Lesbenlisa - Venoxis"] = "Luckyone Main 2.21",
 		["Hakkî - Venoxis"] = "Default",
+		["Lesbenlisa - Venoxis"] = "Luckyone Main 2.21",
+		["Pippop - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Luckyone Healing 2.21"] = {

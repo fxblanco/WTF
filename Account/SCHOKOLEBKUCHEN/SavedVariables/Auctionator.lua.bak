@@ -1,5 +1,6 @@
 
 AUCTIONATOR_CONFIG = {
+	["show_selling_bag_2"] = true,
 	["no_price_database"] = false,
 	["search_no_filters_matched_entry"] = true,
 	["hide_splash_screen"] = false,
@@ -18,6 +19,7 @@ AUCTIONATOR_CONFIG = {
 	["selling_favourites_sort_owned"] = false,
 	["chain_buy_stacks"] = true,
 	["auctions_history_length"] = 10,
+	["selling_icon_size_2"] = 35,
 	["prospect_tooltips"] = false,
 	["price_history_days"] = 21,
 	["selling_icon_size"] = 35,
@@ -25,6 +27,11 @@ AUCTIONATOR_CONFIG = {
 	["selling_skip_shortcut"] = "SHIFT-SPACE",
 	["shopping_list_missing_terms"] = false,
 	["shopping_last_container_view"] = 1,
+	["selling_bag_selection_color"] = {
+		["b"] = 0.086,
+		["g"] = 0.592,
+		["r"] = 0.977,
+	},
 	["selling_ignored_keys"] = {
 	},
 	["default_tab"] = 0,
@@ -87,11 +94,11 @@ AUCTIONATOR_CONFIG = {
 	["selling_auto_select_next"] = false,
 	["auto_list_search"] = false,
 	["undercut_static_value"] = 1,
-	["crafting_info_show_profit"] = true,
+	["auction_chat_log"] = true,
 	["mailbox_tooltips"] = true,
 	["selling_bag_collapsed"] = false,
 	["selling_post_stack_remainder"] = false,
-	["auction_chat_log"] = true,
+	["crafting_info_show_profit"] = true,
 	["columns_cancelling"] = {
 		["Verbleibende Zeit"] = false,
 		["Unterboten?"] = false,
@@ -305,12 +312,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["40211"] = {
 			["a"] = {
 				[1304] = 966,
+				[1319] = 700,
 			},
 			["l"] = {
 			},
-			["m"] = 47463,
+			["m"] = 66999,
 			["h"] = {
 				[1304] = 47463,
+				[1319] = 66999,
 			},
 		},
 		["41594"] = {
@@ -351,13 +360,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["41611"] = {
 			["a"] = {
-				[1295] = 50,
 			},
 			["l"] = {
 			},
 			["m"] = 259972,
 			["h"] = {
-				[1295] = 259972,
 			},
 		},
 		["41285"] = {
@@ -371,13 +378,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["7071"] = {
 			["a"] = {
-				[1295] = 85,
 			},
 			["l"] = {
 			},
 			["m"] = 21695,
 			["h"] = {
-				[1295] = 21695,
 			},
 		},
 		["35627"] = {
@@ -463,14 +468,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["40212"] = {
 			["a"] = {
+				[1315] = 960,
 				[1304] = 980,
+				[1319] = 601,
 			},
 			["l"] = {
 			},
 			["h"] = {
+				[1315] = 54597,
 				[1304] = 62475,
+				[1319] = 57579,
 			},
-			["m"] = 62475,
+			["m"] = 57579,
 		},
 		["37700"] = {
 			["a"] = {
@@ -603,11 +612,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1682203039,
 		}, -- [1]
 	},
-	["2592"] = {
+	["14047"] = {
 		{
-			["price"] = 9898,
-			["quantity"] = 18,
-			["time"] = 1682203037,
+			["price"] = 2997,
+			["quantity"] = 30,
+			["time"] = 1682203011,
 		}, -- [1]
 	},
 	["2841"] = {
@@ -631,11 +640,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1682203052,
 		}, -- [1]
 	},
-	["14047"] = {
+	["2592"] = {
 		{
-			["price"] = 2997,
-			["quantity"] = 30,
-			["time"] = 1682203011,
+			["price"] = 9898,
+			["quantity"] = 18,
+			["time"] = 1682203037,
 		}, -- [1]
 	},
 	["36784"] = {
@@ -648,21 +657,21 @@ AUCTIONATOR_POSTING_HISTORY = {
 }
 AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["29152"] = 1439986,
-	["2880"] = 90,
+	["2880"] = 100,
 	["24006"] = 360,
 	["15906"] = 1924,
 	["25824"] = 103302,
-	["38426"] = 25500,
+	["38426"] = 30000,
 	["851"] = 1821,
 	["21918"] = 54000,
-	["2901"] = 73,
+	["2901"] = 81,
 	["15907"] = 7413,
 	["5565"] = 5000,
 	["28056"] = 15,
 	["17032"] = 2000,
 	["6261"] = 850,
 	["44690"] = 17000000,
-	["14341"] = 4250,
+	["14341"] = 5000,
 	["35691"] = 950,
 	["22053"] = 1000,
 	["25739"] = 144000,
@@ -672,7 +681,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["2534"] = 40888,
 	["25475"] = 425000,
 	["35948"] = 2720,
-	["3466"] = 1800,
+	["3466"] = 2000,
 	["43232"] = 4500,
 	["922"] = 10835,
 	["21927"] = 1500,
@@ -688,7 +697,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["44167"] = 168841,
 	["33449"] = 1445,
 	["44171"] = 265310,
-	["10648"] = 112,
+	["10648"] = 125,
 	["44616"] = 1275,
 	["31358"] = 108000,
 	["3025"] = 16631,
@@ -718,13 +727,13 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["4341"] = 425,
 	["40036"] = 128,
 	["17030"] = 2000,
+	["21895"] = 36000,
 	["35950"] = 2720,
-	["42439"] = 14450,
 	["21917"] = 54000,
 	["42436"] = 76500,
 	["42428"] = 1445,
 	["2511"] = 1192,
-	["40533"] = 45000,
+	["40533"] = 50000,
 	["20844"] = 300,
 	["41584"] = 15,
 	["21835"] = 1500,
@@ -732,7 +741,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["24003"] = 54000,
 	["44179"] = 321889,
 	["2519"] = 0.225,
-	["159"] = 4.4,
+	["25476"] = 425000,
 	["21916"] = 54000,
 	["11284"] = 4.5,
 	["3024"] = 6388,
@@ -742,18 +751,18 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["29165"] = 1871962,
 	["29155"] = 1940453,
 	["34201"] = 144000,
-	["44166"] = 560691,
+	["159"] = 4.4,
 	["24004"] = 9000,
 	["2207"] = 2152,
 	["25740"] = 144000,
 	["17033"] = 2000,
+	["44166"] = 560691,
 	["24001"] = 45000,
-	["35949"] = 1445,
 	["44170"] = 219300,
-	["8928"] = 800,
+	["35949"] = 1445,
 	["20824"] = 21250,
 	["31361"] = 54000,
-	["22148"] = 1500,
+	["8928"] = 800,
 	["22147"] = 5000,
 	["24000"] = 54000,
 	["34841"] = 16000,
@@ -764,39 +773,39 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["43234"] = 3500,
 	["17036"] = 680,
 	["29197"] = 900000,
+	["22148"] = 1500,
 	["2678"] = 1.8,
-	["2320"] = 8,
 	["4342"] = 2125,
-	["44183"] = 306458,
+	["2320"] = 8,
 	["2509"] = 373,
+	["44183"] = 306458,
 	["2324"] = 21,
-	["5441"] = 900,
 	["43230"] = 4000,
 	["10290"] = 2125,
 	["8985"] = 250,
-	["21895"] = 36000,
 	["40042"] = 1275,
 	["32882"] = 22.5,
+	["5441"] = 900,
 	["17035"] = 340,
-	["10647"] = 1800,
+	["10647"] = 2000,
 	["44614"] = 7000,
 	["44605"] = 5000,
 	["6532"] = 250,
-	["10922"] = 800,
+	["2604"] = 42,
 	["35332"] = 158847,
 	["24009"] = 810,
 	["42438"] = 153000,
-	["2520"] = 22166,
-	["44182"] = 392127,
 	["17020"] = 1000,
+	["44182"] = 392127,
+	["5956"] = 18,
 	["2027"] = 3434,
 	["17034"] = 170,
-	["44181"] = 216134,
-	["__dbversion"] = 1,
 	["41586"] = 15,
-	["39684"] = 8100,
-	["2528"] = 46652,
+	["39684"] = 9000,
+	["__dbversion"] = 1,
 	["44173"] = 630028,
+	["2528"] = 46652,
+	["44181"] = 216134,
 	["2605"] = 85,
 	["39501"] = 1250,
 	["21919"] = 54000,
@@ -804,7 +813,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["49177"] = 10000000,
 	["43157"] = 8500,
 	["3033"] = 1.35,
-	["4399"] = 180,
+	["4399"] = 200,
 	["21177"] = 150,
 	["25531"] = 850000,
 	["31362"] = 108000,
@@ -814,9 +823,9 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["15904"] = 19537,
 	["2526"] = 17402,
 	["25477"] = 850000,
-	["2604"] = 42,
+	["2520"] = 22166,
 	["29168"] = 158357,
-	["5956"] = 16,
+	["10922"] = 800,
 	["25474"] = 425000,
 	["44618"] = 8500,
 	["1198"] = 2409,
@@ -827,7 +836,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["2209"] = 6404,
 	["3023"] = 3395,
 	["42188"] = 42500,
-	["4400"] = 1800,
+	["4400"] = 2000,
 	["185686"] = 90000,
 	["25738"] = 108000,
 	["20815"] = 680,
@@ -840,36 +849,37 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["17037"] = 1400,
 	["44226"] = 6375000,
 	["25532"] = 850000,
-	["25476"] = 425000,
+	["42439"] = 14450,
 	["25533"] = 850000,
 	["2527"] = 29356,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
-	"\"Gewürzte Mammutleckereien\"", -- [1]
-	"\"Geschwindigkeitstrank\"", -- [2]
+	"Trank der Wilden magie", -- [1]
+	"Geschwindigkeitst", -- [2]
 	"\"Trank der wilden Magie\"", -- [3]
-	"Gürtelsch", -- [4]
-	"\"Sirenenträne\"", -- [5]
-	"\"Tollkühner Monarchentopas\"", -- [6]
-	"Mondgesp", -- [7]
-	"\"Sonnenglimmertuch\"", -- [8]
-	"\"Runenbeschriebener Scharlachrubin\"", -- [9]
-	"\"Äonenschatten\"", -- [10]
-	"\"Kristallisierte Luft\"", -- [11]
-	"\"Saronitbarren\"", -- [12]
-	"\"Geläuterter Zwielichtopal\"", -- [13]
-	"\"Chaotischer Polarlichtdiamant\"", -- [14]
-	"Trank der Wilden magie", -- [15]
-	"runenbeschriebener s", -- [16]
-	"\"Mondgespinst\"", -- [17]
-	"\"Äonenfeuer\"", -- [18]
-	"\"Äonenleben\"", -- [19]
-	"Schleierst", -- [20]
-	"\"Froststoff\"", -- [21]
-	"äonenluft", -- [22]
-	"saronitbarr", -- [23]
-	"saronitb", -- [24]
-	"\"Eisenbarren\"", -- [25]
-	"\"Schwerer Stein\"", -- [26]
-	"\"Robuster Stein\"", -- [27]
+	"\"Gewürzte Mammutleckereien\"", -- [4]
+	"\"Geschwindigkeitstrank\"", -- [5]
+	"Gürtelsch", -- [6]
+	"\"Sirenenträne\"", -- [7]
+	"\"Tollkühner Monarchentopas\"", -- [8]
+	"Mondgesp", -- [9]
+	"\"Sonnenglimmertuch\"", -- [10]
+	"\"Runenbeschriebener Scharlachrubin\"", -- [11]
+	"\"Äonenschatten\"", -- [12]
+	"\"Kristallisierte Luft\"", -- [13]
+	"\"Saronitbarren\"", -- [14]
+	"\"Geläuterter Zwielichtopal\"", -- [15]
+	"\"Chaotischer Polarlichtdiamant\"", -- [16]
+	"runenbeschriebener s", -- [17]
+	"\"Mondgespinst\"", -- [18]
+	"\"Äonenfeuer\"", -- [19]
+	"\"Äonenleben\"", -- [20]
+	"Schleierst", -- [21]
+	"\"Froststoff\"", -- [22]
+	"äonenluft", -- [23]
+	"saronitbarr", -- [24]
+	"saronitb", -- [25]
+	"\"Eisenbarren\"", -- [26]
+	"\"Schwerer Stein\"", -- [27]
+	"\"Robuster Stein\"", -- [28]
 }
