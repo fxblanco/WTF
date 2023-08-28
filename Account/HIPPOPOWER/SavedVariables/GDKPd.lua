@@ -4,16 +4,15 @@ GDKPd_DB = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 	},
 	["profiles"] = {
+		["Pippop - Venoxis"] = {
+		},
 		["Lesbenlisa - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -131.0505828857422,
-				["x"] = 361.3509216308594,
-			},
 			["playerbalancepoint"] = {
 				["y"] = -138.4429626464844,
 				["relative"] = "RIGHT",
@@ -21,19 +20,25 @@ GDKPd_DB = {
 				["x"] = -240.8168640136719,
 			},
 			["point"] = {
-				["y"] = -30.51219749450684,
+				["y"] = -117.0243988037109,
 				["relative"] = "TOP",
 				["point"] = "TOP",
-				["x"] = 378.4145812988281,
+				["x"] = 13.92111396789551,
 			},
-			["startBid"] = 300,
-			["increment"] = 50,
+			["startBid"] = 100,
 			["statuspoint"] = {
-				["y"] = 172.2327575683594,
+				["y"] = -141.1630706787109,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -144.9073791503906,
+				["x"] = -69.26077270507812,
 			},
+			["balancepoint"] = {
+				["y"] = -144.7824554443359,
+				["x"] = 457.2606811523438,
+				["point"] = "TOP",
+				["relative"] = "TOP",
+			},
+			["increment"] = 50,
 		},
 		["Hakkî - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -49,135 +54,24 @@ GDKPd_DB = {
 				["relative"] = "TOPRIGHT",
 			},
 		},
-		["Pippop - Venoxis"] = {
+		["Uwusoulstone - Venoxis"] = {
+			["point"] = {
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -318.0674133300781,
+			},
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Shlexi"] = 0,
-		["Minoton"] = 0,
-		["Bullshífter"] = 0,
-		["Stylezhood"] = 0,
-		["Vanec"] = 0,
-		["Lesbenlisa"] = 2888,
-		["Cowdawelsh"] = 0,
-		["Kentharo"] = 0,
-		["Megahass"] = 0,
-		["Liptea"] = 0,
-		["Onixus"] = 0,
-		["Bremskyle"] = 0,
-		["Serferine"] = 0,
-		["Morai"] = 0,
-		["Sibiricus"] = 0,
-		["Blinkyli"] = 0,
-		["Zorbov"] = 0,
-		["Darkmodé"] = 0,
-		["Palladriel"] = 0,
-		["Andrés"] = 0,
-		["Wîdi"] = 0,
-		["Uwugamergirl"] = 0,
-		["Shikimora"] = 0,
-		["Jocindyr"] = 0,
-		["Jodifrosta"] = 0,
 	},
 	["curPotHistory"] = {
-		8000, -- [1]
-		4000, -- [2]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45269::::::::80:::::::::|h[Unbeirrbare Armschützer]|h|r",
-			["name"] = "Bremskyle",
-		}, -- [3]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45275::::::::80:::::::::|h[Armschienen der entfesselten Magie]|h|r",
-			["name"] = "Cowdawelsh",
-		}, -- [4]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45490::::::::80:::::::::|h[Pandoras Bitte]|h|r",
-			["name"] = "Andrés",
-		}, -- [5]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45463::::::::80:::::::::|h[Vulmir, der nördliche Sturm]|h|r",
-			["name"] = "Lesbenlisa",
-		}, -- [6]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45639::::::::80:::::::::|h[Krone des abtrünnigen Beschützers]|h|r",
-			["name"] = "Cowdawelsh",
-		}, -- [7]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45641::::::::80:::::::::|h[Stulpen des abtrünnigen Eroberers]|h|r",
-			["name"] = "Serferine",
-		}, -- [8]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45642::::::::80:::::::::|h[Stulpen des abtrünnigen Beschützers]|h|r",
-			["name"] = "Cowdawelsh",
-		}, -- [9]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45514::::::::80:::::::::|h[Mantelung des Unwissens]|h|r",
-			["name"] = "Andrés",
-		}, -- [10]
-		8000, -- [11]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45532::::::::80:::::::::|h[Gugel der dunklen Einflüsterungen]|h|r",
-			["name"] = "Andrés",
-		}, -- [12]
-		500, -- [13]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:45658::::::::80:::::::::|h[Mantelung des abtrünnigen Bezwingers]|h|r",
-			["name"] = "Andrés",
-		}, -- [14]
-		{
-			["bid"] = 8000,
-			["item"] = "|cffa335ee|Hitem:45535::::::::80:::::::::|h[Demonstration des Glaubens]|h|r",
-			["name"] = "Bullshífter",
-		}, -- [15]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:45517::::::::80:::::::::|h[Pendel der Unendlichkeit]|h|r",
-			["name"] = "Vanec",
-		}, -- [16]
-		{
-			["bid"] = 31000,
-			["item"] = "|cffa335ee|Hitem:45663::::::::80:::::::::|h[Armbänder des Tumults]|h|r",
-			["name"] = "Morai",
-		}, -- [17]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:45617::::::::80:::::::::|h[Kosmos]|h|r",
-			["name"] = "Andrés",
-		}, -- [18]
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:46053::::::::80:::::::::|h[Antwortcode Alpha]|h|r",
-			["name"] = "Morai",
-		}, -- [19]
-		{
-			["bid"] = 8000,
-			["item"] = "|cffa335ee|Hitem:45617::::::::80:::::::::|h[Kosmos]|h|r",
-			["name"] = "Jocindyr",
-		}, -- [20]
-		{
-			["bid"] = 500,
-			["item"] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[Tiefenkristall]|h|r",
-			["name"] = "Vanec",
-		}, -- [21]
-		-10800, -- [22]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 97200,
-	["prevDist"] = 97200,
+	["potAmount"] = 0,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Deusdominik"] = 0,
 }

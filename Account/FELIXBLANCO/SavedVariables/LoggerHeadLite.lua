@@ -1,10 +1,12 @@
 
 LoggerHeadNDB = {
 	["profileKeys"] = {
-		["Kwasimojo - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
+		["Fiesercousin - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
+		["Pjanic - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -17,11 +19,11 @@ LoggerHeadNDB = {
 				[249] = {
 					[4] = true,
 				},
-				[624] = {
-					[4] = true,
-				},
 				[650] = {
 					[2] = true,
+				},
+				[608] = {
+					[2] = false,
 				},
 				[603] = {
 					[176] = true,
@@ -30,8 +32,8 @@ LoggerHeadNDB = {
 				[615] = {
 					[3] = true,
 				},
-				[608] = {
-					[2] = false,
+				[624] = {
+					[4] = true,
 				},
 			},
 		},

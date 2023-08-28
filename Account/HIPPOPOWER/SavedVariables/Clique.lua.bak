@@ -4,19 +4,39 @@ CliqueDB3 = {
 	["char"] = {
 		["Lesbenlisa - Venoxis"] = {
 			["spec1_profileKey"] = "Lesbenlisa - Venoxis",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["profiles"] = {
+		["Uwusoulstone - Venoxis"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Hakkî - Venoxis"] = {
 			["bindings"] = {
 				{

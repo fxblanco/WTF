@@ -1,12 +1,14 @@
 
 Details_StreamerDB = {
 	["characters"] = {
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Lucho - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Transcendence"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
+		["Fiesercousin - Venoxis"] = "Alsia - Venoxis",
 		["Xolem - Venoxis"] = "Alsia - Venoxis",
+		["Pjanic - Venoxis"] = "Alsia - Venoxis",
+		["Lucho - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Transcendence"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {
@@ -21,7 +23,7 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_y"] = 0,
 			["main_frame_size"] = {
-				300, -- [1]
+				299.9999389648438, -- [1]
 				500, -- [2]
 			},
 			["minimap"] = {
@@ -39,22 +41,12 @@ Details_StreamerDB = {
 			},
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = -9.1552734375e-05,
-				["x"] = 0,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
+			["use_spark"] = true,
 			["author"] = "Terciob",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["font_size"] = 10,
+			["y"] = 6.103515625e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -64,9 +56,19 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = -9.1552734375e-05,
-			["use_spark"] = true,
-			["x"] = 0.00018310546875,
+			["font_size"] = 10,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0,
+				["x"] = -0.000213623046875,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["x"] = 3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
 			["point"] = "CENTER",

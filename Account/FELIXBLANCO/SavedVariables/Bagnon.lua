@@ -52,8 +52,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 0,
-			["x"] = -292.9442138671875,
+			["y"] = 274.8968200683594,
+			["x"] = -206.4910888671875,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -122,8 +122,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -113.04345703125,
-			["x"] = -95.4678955078125,
+			["y"] = 0,
+			["x"] = -158.28173828125,
 			["borderColor"] = {
 			},
 			["brokerObject"] = "Questie",
@@ -178,8 +178,8 @@ Bagnon_Sets = {
 	["version"] = "10.1.4",
 	["display"] = {
 	},
-	["fridgeColor"] = {
-	},
 	["enchantColor"] = {
+	},
+	["fridgeColor"] = {
 	},
 }

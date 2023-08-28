@@ -51406,15 +51406,15 @@ WeakAurasOptionsSaved = {
 	["locale"] = "deDE",
 	["needsRebuild"] = false,
 	["version"] = "5.7.0",
-	["savedSnippets"] = {
-	},
-	["spellCacheStrings"] = true,
-	["spellCacheAchivements"] = true,
 	["frame"] = {
-		["xOffset"] = 1634.905731201172,
-		["width"] = 830.0000610351562,
+		["xOffset"] = 1622.072570800781,
+		["yOffset"] = 1052.983154296875,
 		["height"] = 664.9999389648438,
-		["yOffset"] = 1048.255126953125,
+		["width"] = 830.0001220703125,
+	},
+	["spellCacheAchivements"] = true,
+	["spellCacheStrings"] = true,
+	["savedSnippets"] = {
 	},
 	["build"] = "50664",
 }

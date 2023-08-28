@@ -1,11 +1,19 @@
 
 Prio3DB = {
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 	},
 	["profiles"] = {
+		["Pippop - Venoxis"] = {
+			["priorities"] = {
+			},
+			["lootlastopened"] = {
+			},
+			["receivedPriorities"] = 0,
+		},
 		["Hakkî - Venoxis"] = {
 			["lootlastopened"] = {
 			},
@@ -20,7 +28,7 @@ Prio3DB = {
 			},
 			["receivedPriorities"] = 0,
 		},
-		["Pippop - Venoxis"] = {
+		["Uwusoulstone - Venoxis"] = {
 			["priorities"] = {
 			},
 			["lootlastopened"] = {

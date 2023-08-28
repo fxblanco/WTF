@@ -153,11 +153,14 @@ AtlasLootClassicDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 	},
 	["profiles"] = {
+		["Pippop - Venoxis"] = {
+		},
 		["Lesbenlisa - Venoxis"] = {
 			["GUI"] = {
 				["point"] = {
@@ -194,7 +197,7 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Pippop - Venoxis"] = {
+		["Uwusoulstone - Venoxis"] = {
 		},
 	},
 }

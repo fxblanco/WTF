@@ -51,44 +51,7 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["font"] = "Expressway",
-					["w"] = 321,
-					["nametextx"] = 2,
-					["y"] = 90.9999771118164,
-					["x"] = 0.000244140625,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["h"] = 18,
-					["texture"] = "Minimalist",
-				},
-				["Default"] = {
-					["x"] = 975.187744140625,
-				},
-				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["h"] = 18,
-					["w"] = 276,
-					["nametextx"] = 2,
-					["y"] = 227,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["x"] = 0,
-					["texture"] = "Minimalist",
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -100,21 +63,21 @@ Quartz3DB = {
 					["point"] = "CENTER",
 					["strata"] = "HIGH",
 					["timefontsize"] = 11,
+					["x"] = 358.0001220703125,
+					["w"] = 238,
+					["noInterruptChangeColor"] = true,
+					["y"] = -140.9997100830078,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
-					["border"] = "Square Full White",
-					["noInterruptChangeColor"] = true,
-					["y"] = -140.9997100830078,
-					["x"] = 358.0001220703125,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["font"] = "Expressway",
 					["nametextx"] = 2,
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["texture"] = "Minimalist",
 				},
 				["Default"] = {
@@ -126,21 +89,21 @@ Quartz3DB = {
 					["point"] = "CENTER",
 					["strata"] = "HIGH",
 					["timefontsize"] = 11,
-					["font"] = "Expressway",
-					["w"] = 238,
-					["noInterruptChangeColor"] = true,
-					["y"] = -140.9997406005859,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
+					["border"] = "Square Full White",
+					["noInterruptChangeColor"] = true,
+					["y"] = -140.9997406005859,
+					["x"] = 278.0001831054688,
 					["fontsize"] = 11,
 					["iconalpha"] = 1,
-					["x"] = 278.0001831054688,
+					["font"] = "Expressway",
 					["nametextx"] = 2,
-					["border"] = "Square Full White",
+					["w"] = 238,
 					["texture"] = "Minimalist",
 				},
 			},
@@ -202,15 +165,53 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Luckyone Healing 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["x"] = 0.000244140625,
+					["w"] = 321,
+					["nametextx"] = 2,
+					["y"] = 90.9999771118164,
+					["h"] = 18,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["font"] = "Expressway",
+					["texture"] = "Minimalist",
+				},
+				["Default"] = {
+					["x"] = 975.187744140625,
+				},
+				["Luckyone Main 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["font"] = "Expressway",
+					["w"] = 276,
+					["nametextx"] = 2,
+					["y"] = 227,
+					["x"] = 0,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["h"] = 18,
+					["texture"] = "Minimalist",
+				},
+			},
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Default",
 		["Hakkî - Venoxis"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Luckyone Main 2.21",
-		["Pippop - Venoxis"] = "Default",
+		["Uwusoulstone - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Luckyone Healing 2.21"] = {
@@ -239,13 +240,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Mirror"] = false,
 				["Pet"] = false,
-				["Range"] = false,
 				["Latency"] = false,
 			},
 			["borderalpha"] = 0,
@@ -305,13 +306,13 @@ Quartz3DB = {
 			},
 			["hidesamwise"] = false,
 			["modules"] = {
-				["Range"] = false,
+				["Pet"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Range"] = false,
 				["Mirror"] = false,
-				["Pet"] = false,
 				["Latency"] = false,
 			},
 			["backgroundalpha"] = 0.9,

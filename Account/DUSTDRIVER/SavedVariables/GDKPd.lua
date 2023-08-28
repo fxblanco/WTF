@@ -10,10 +10,10 @@ GDKPd_DB = {
 	["profiles"] = {
 		["Maturitass - Venoxis"] = {
 			["balancepoint"] = {
-				["y"] = -123.8442916870117,
+				["y"] = -171.1238861083984,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -319.165771484375,
+				["x"] = -285.3945617675781,
 			},
 			["playerbalancepoint"] = {
 				["y"] = 177.6548461914063,
@@ -22,13 +22,13 @@ GDKPd_DB = {
 				["x"] = -258.3778686523438,
 			},
 			["point"] = {
-				["y"] = -124.7654724121094,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -323.5516357421875,
+				["y"] = -50.70357131958008,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 339.2085876464844,
 			},
 			["startBid"] = 500,
-			["increment"] = 200,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = 152.6455535888672,
 				["relative"] = "RIGHT",
@@ -64,71 +64,49 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Shesamaniac"] = 0,
-		["Strongraki"] = 0,
-		["Terrortotem"] = 0,
-		["Xoroth"] = 0,
-		["Andrés"] = 2025,
-		["Keìner"] = 0,
-		["Smoq"] = 0,
-		["Trilltrollt"] = 0,
-		["Widi"] = 0,
-		["Maturitass"] = -2975,
+		["Keroshad"] = 0,
+		["Graveofmaria"] = 0,
+		["Kkdy"] = 0,
+		["Saatisfyer"] = 0,
+		["Ongbakk"] = 0,
+		["Maturitass"] = 1450,
+		["Blosch"] = 0,
+		["Oonars"] = 0,
+		["Domedonmaya"] = -1000,
 	},
 	["curPotHistory"] = {
 		{
-			["bid"] = 6000,
-			["item"] = "|cffa335ee|Hitem:47988::::::::80:::::::::|h[Halsband der endlosen Qual]|h|r",
-			["name"] = "Strongraki",
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47995::::::::80:::::::::|h[Szepter der gefangenen Seelen]|h|r",
+			["name"] = "Oonars",
 		}, -- [1]
 		{
 			["bid"] = 2000,
 			["item"] = "|cffa335ee|Hitem:48012::::::::80:::::::::|h[Sandalen des Sonnenhäschermagus']|h|r",
-			["name"] = "Andrés",
+			["name"] = "Oonars",
 		}, -- [2]
 		{
 			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48054::::::::80:::::::::|h[Gürtel des Ewigen]|h|r",
-			["name"] = "Smoq",
+			["item"] = "|cffa335ee|Hitem:48030::::::::80:::::::::|h[Nachtbanns Amulett]|h|r",
+			["name"] = "Oonars",
 		}, -- [3]
 		{
 			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48701::::::::80:::::::::|h[Zauberernte]|h|r",
-			["name"] = "Andrés",
+			["item"] = "|cffa335ee|Hitem:48051::::::::80:::::::::|h[Roben des Schlaflosen]|h|r",
+			["name"] = "Saatisfyer",
 		}, -- [4]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Andrés",
-		}, -- [5]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:48669::::::::80:::::::::|h[Umhang des triumphalen Kombattanten]|h|r",
-			["name"] = "Maturitass",
-		}, -- [6]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Widi",
-		}, -- [7]
-		{
-			["bid"] = 1000,
-			["item"] = "|cffa335ee|Hitem:49046::::::::80:::::::::|h[Schneller Wolf der Horde]|h|r",
-			["name"] = "Widi",
-		}, -- [8]
-		1000, -- [9]
+		3000, -- [5]
 		{
 			["bid"] = 500,
 			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Andrés",
-		}, -- [10]
-		-2250, -- [11]
+			["name"] = "Graveofmaria",
+		}, -- [6]
+		-1450, -- [7]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 20250,
-	["prevDist"] = 20250,
+	["potAmount"] = 13050,
+	["prevDist"] = 13050,
 }
 GDKPd_BalanceData = {
-	["Maturitass"] = -2025,
 }

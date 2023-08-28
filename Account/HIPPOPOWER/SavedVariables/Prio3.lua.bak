@@ -1,11 +1,19 @@
 
 Prio3DB = {
 	["profileKeys"] = {
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["profiles"] = {
+		["Uwusoulstone - Venoxis"] = {
+			["lootlastopened"] = {
+			},
+			["receivedPriorities"] = 0,
+			["priorities"] = {
+			},
+		},
 		["Lesbenlisa - Venoxis"] = {
 			["lootlastopened"] = {
 			},

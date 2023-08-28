@@ -18,7 +18,7 @@ BisTooltipDB = {
 			["version"] = 6.1,
 		},
 		["Maturitass - Venoxis"] = {
-			["class_index"] = 2,
+			["class_index"] = 4,
 			["version"] = 6.1,
 			["spec_index"] = 2,
 			["data_source"] = "wowtbc",

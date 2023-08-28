@@ -115,15 +115,15 @@ AtlasLootClassicDB = {
 			[40700] = "EmblemOfHeroism:35",
 			[47800] = "EmblemOfTriumph:50",
 			[40679] = "EmblemOfHeroism:25",
-			[45840] = "EmblemOfConquest:28",
+			[40740] = "EmblemOfValor:60",
 			[40684] = "EmblemOfHeroism:40",
 			[40692] = "EmblemOfHeroism:40",
 			[43505] = "epicurean:3",
-			[43035] = "epicurean:3",
+			[45840] = "EmblemOfConquest:28",
 			[40716] = "EmblemOfHeroism:15",
 			[45824] = "EmblemOfConquest:28",
 			[43027] = "epicurean:3",
-			[40740] = "EmblemOfValor:60",
+			[43035] = "epicurean:3",
 			[45848] = "EmblemOfConquest:39",
 			[36931] = "EmblemOfHeroism:10",
 			[40691] = "EmblemOfHeroism:40",
@@ -254,16 +254,16 @@ AtlasLootClassicDB = {
 		["Exonuklease - Venoxis"] = {
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					"LEFT", -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					0, -- [4]
-					-117.0730972290039, -- [5]
+					"LEFT", -- [3]
+					126.9043884277344, -- [4]
+					-16.36208152770996, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"TrialoftheCrusader", -- [2]
-					5, -- [3]
+					"Ulduar", -- [2]
+					10, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},

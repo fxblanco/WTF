@@ -1,6 +1,7 @@
 
 AtlasLootClassicDB = {
 	["profileKeys"] = {
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
@@ -158,6 +159,8 @@ AtlasLootClassicDB = {
 		},
 	},
 	["profiles"] = {
+		["Uwusoulstone - Venoxis"] = {
+		},
 		["Hakkî - Venoxis"] = {
 			["GUI"] = {
 				["point"] = {
