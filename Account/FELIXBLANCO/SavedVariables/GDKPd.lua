@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -14,6 +11,9 @@ GDKPd_DB = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
 			["point"] = {
@@ -22,6 +22,12 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -35,19 +41,13 @@ GDKPd_DB = {
 				["x"] = -407.1521301269531,
 			},
 			["startBid"] = 500,
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
-			["increment"] = 500,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -79,11 +79,25 @@ GDKPd_DB = {
 				["x"] = -132.6243743896484,
 			},
 			["point"] = {
-				["y"] = -122.6941986083984,
-				["x"] = 53.34718704223633,
-				["point"] = "TOP",
-				["relative"] = "TOP",
+				["y"] = -154.5459289550781,
+				["x"] = -366.5798034667969,
+				["point"] = "TOPRIGHT",
+				["relative"] = "TOPRIGHT",
 			},
+			["startBid"] = 200,
+			["statuspoint"] = {
+				["y"] = -173.5837097167969,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -57.77770614624023,
+			},
+			["balancepoint"] = {
+				["y"] = -51.35081100463867,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -277.965576171875,
+			},
+			["increment"] = 50,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -124,27 +138,26 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -133.2993774414063,
 			},
+			["increment"] = 50,
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["mininc"] = 500,
-					["max"] = 0,
 					["minbid"] = 2000,
+					["max"] = 0,
+					["mininc"] = 500,
 				}, -- [1]
 			},
-			["increment"] = 50,
 		},
 		["Kwasimojo - Venoxis"] = {
-			["announceBidRaidWarning"] = true,
-			["balancepoint"] = {
-				["y"] = -131.5301666259766,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 426.3553161621094,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 54.72499847412109,
 				["x"] = 348.300048828125,
+			},
+			["statuspoint"] = {
+				["y"] = -152.2695617675781,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -37.39339065551758,
 			},
 			["point"] = {
 				["y"] = -20.26263236999512,
@@ -152,74 +165,23 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 377.8782043457031,
 			},
+			["announceBidRaidWarning"] = true,
 			["auctionTimerRefresh"] = 15,
-			["startBid"] = 500,
-			["increment"] = 100,
-			["statuspoint"] = {
-				["y"] = -152.2695617675781,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -37.39339065551758,
+			["balancepoint"] = {
+				["y"] = -131.5301666259766,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 426.3553161621094,
 			},
+			["increment"] = 100,
+			["startBid"] = 500,
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Alsia"] = 2023,
-		["Specializt"] = 0,
-		["Arkiro"] = 0,
-		["Schildkueen"] = 0,
-		["Ispoved"] = 0,
-		["Hennerr"] = 0,
-		["Widi"] = 0,
-		["Bluebambam"] = 0,
-		["Rouladz"] = 0,
-		["Giaru"] = 0,
 	},
 	["curPotHistory"] = {
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:47993::::::::80:::::::::|h[Gormoks Band]|h|r",
-			["name"] = "Schildkueen",
-		}, -- [1]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:47998::::::::80:::::::::|h[Gürtel des Pfählers]|h|r",
-			["name"] = "Schildkueen",
-		}, -- [2]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48009::::::::80:::::::::|h[Gürtel des Netherchampions]|h|r",
-			["name"] = "Arkiro",
-		}, -- [3]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48017::::::::80:::::::::|h[Assassinenhandschuhe der Sonnenhäscher]|h|r",
-			["name"] = "Giaru",
-		}, -- [4]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:48032::::::::80:::::::::|h[Lichtbanns Fokus]|h|r",
-			["name"] = "Rouladz",
-		}, -- [5]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:48667::::::::80:::::::::|h[Schal des ergebenen Kreuzfahrers]|h|r",
-			["name"] = "Bluebambam",
-		}, -- [6]
-		2000, -- [7]
-		{
-			["bid"] = 513,
-			["item"] = "|cffa335ee|Hitem:49046::::::::80:::::::::|h[Schneller Wolf der Horde]|h|r",
-			["name"] = "Schildkueen",
-		}, -- [8]
-		{
-			["bid"] = 300,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Alsia",
-		}, -- [9]
-		-2580, -- [10]
 	},
 	["history"] = {
 		{
@@ -662,8 +624,9 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 23233,
-	["prevDist"] = 23233,
+	["potAmount"] = 0,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
+	["Specializt"] = 0,
 }

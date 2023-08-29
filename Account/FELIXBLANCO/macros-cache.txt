@@ -1,5 +1,5 @@
 VER 3 000000000000003F "111_" "134400"
-/4 LFM TOGC 25 45-50TL || GDKP 90/10 5k/500, Tokens 15k || Jetzt wips me! Frost oder UH DK (24/25)
+/4 LFM TOGC 25 45-50TL || GDKP 90/10 5k/500, Tokens 15k ---- JETZT wisp me ---- Hunter & Ret/Arcane (23/25)
 END
 VER 3 0000000000000038 "cancel" "134400"
 /cancelaura Gebet der Seelenstärke
@@ -99,7 +99,11 @@ VER 3 000000000000002F "priest_sp_fient" "134400"
 /cast Kriechende Schatten
 END
 VER 3 0000000000000029 "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
+/targetexact Junger Aasfresser
+/targetexact Struppiger Aasfresser
+/targetexact Nachtsauger
+/targetexact Räudiger Nachtsauger
+/targetlasttarget [dead]
 END
 VER 3 0000000000000030 "shadow_swd+" "134400"
 #showtooltip

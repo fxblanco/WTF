@@ -1,6 +1,7 @@
 VER 3 000000000000000B "bomb" "134400"
 #showtooltip
-/use [mod:shift]Global Thermal Sapper Charge;[mod:alt]6;[@player]Saronite Bomb
+/use [mod:shift] Globalthermische Pioniersprengladung;[mod:alt]6;
+/use [@player] Saronitbombe
 END
 VER 3 000000000000000D "boots" "134400"
 #showtooltip

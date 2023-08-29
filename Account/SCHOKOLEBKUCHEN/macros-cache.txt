@@ -40,7 +40,10 @@ VER 3 0000000000000005 "Roll" "135900"
 /roll
 END
 VER 3 000000000000000A "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
+/targetexact Joshua Kien
+/targetexact Junger Aasfresser
+/targetexact Nachtsauger
+/targetlasttarget [dead]
 END
 VER 3 0000000000000009 "SB Snipe R1" "135614"
 /cast [nomod,@mouseover,harm,nodead] [] Schattenblitz(Rang 1)

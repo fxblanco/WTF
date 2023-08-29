@@ -4,19 +4,19 @@ CliqueDB3 = {
 	["char"] = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
-			["downclick"] = false,
 			["fastooc"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
 		},
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
+			["specswap"] = false,
+			["downclick"] = false,
 			["fastooc"] = false,
 			["alerthidden"] = true,
-			["downclick"] = false,
 			["spec2_profileKey"] = "Maturitass - Venoxis",
-			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
