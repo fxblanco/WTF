@@ -10,6 +10,7 @@ LoggerHeadNDB = {
 			["zones"] = {
 				[649] = {
 					[5] = true,
+					[6] = true,
 				},
 				[650] = {
 					[2] = true,

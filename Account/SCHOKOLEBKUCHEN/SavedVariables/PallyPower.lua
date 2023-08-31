@@ -1,6 +1,7 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Other",
 		["Exonuklease - Venoxis"] = "Other",
 	},
 	["profiles"] = {
@@ -23,18 +24,6 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Brishja"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
 	["Shikimora"] = {
 		3, -- [1]
 		3, -- [2]
@@ -46,6 +35,18 @@ PallyPower_Assignments = {
 		3, -- [8]
 		3, -- [9]
 		3, -- [10]
+	},
+	["Liptea"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		0, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
 	},
 	["Habíb"] = {
 		3, -- [1]
@@ -95,17 +96,17 @@ PallyPower_Assignments = {
 		0, -- [9]
 		3, -- [10]
 	},
-	["Liptea"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		0, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
+	["Brishja"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		2, -- [9]
+		2, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -155,46 +156,46 @@ PallyPower_AuraAssignments = {
 	["Floryn"] = 1,
 	["Aqinu"] = 6,
 	["Graveofmaria"] = 3,
-	["Mutenp"] = 6,
+	["Dábzy"] = 5,
 	["Kálí"] = 2,
-	["Výrgin"] = 6,
+	["Deoka"] = 1,
 	["Adyr"] = 3,
 	["Naratie"] = 3,
-	["Eldunarî"] = 5,
+	["Logyna"] = 6,
 	["Bânu"] = 1,
 	["Whoiswho"] = 3,
 	["Entenzwerg"] = 2,
 	["Luzilord"] = 0,
 	["Hópéful"] = 5,
-	["Falkeron"] = 1,
-	["Bubbledîne"] = 3,
-	["Celløphane"] = 5,
-	["Onlyfarm"] = 3,
-	["Fuccsen"] = 0,
-	["Beautypally"] = 0,
-	["Crusadress"] = 2,
-	["Shikimora"] = 2,
-	["Sleepychi"] = 2,
-	["Palîne"] = 0,
-	["Enely"] = 0,
-	["Lettn"] = 6,
-	["Bananaflow"] = 1,
-	["Nôirun"] = 6,
-	["Blazèé"] = 1,
-	["Saxz"] = 3,
-	["Towey"] = 3,
-	["Alyrah"] = 5,
-	["Zjd"] = 6,
-	["Avêss"] = 0,
-	["Liptea"] = 3,
-	["Klxi"] = 0,
 	["Twintts"] = 2,
+	["Bubbledîne"] = 3,
+	["Fuccsen"] = 0,
+	["Onlyfarm"] = 3,
+	["Celløphane"] = 5,
+	["Beautypally"] = 0,
+	["Palîne"] = 0,
+	["Crusadress"] = 2,
+	["Avêss"] = 0,
+	["Sleepychi"] = 2,
+	["Alyrah"] = 5,
+	["Lettn"] = 6,
+	["Towey"] = 3,
+	["Nôirun"] = 6,
+	["Saxz"] = 3,
+	["Blazèé"] = 1,
+	["Bananaflow"] = 1,
+	["Enely"] = 0,
+	["Zjd"] = 6,
+	["Liptea"] = 3,
+	["Shikimora"] = 2,
+	["Klxi"] = 0,
+	["Falkeron"] = 1,
 	["Sasette"] = 6,
-	["Logyna"] = 6,
+	["Eldunarî"] = 5,
 	["Wintex"] = 0,
-	["Deoka"] = 1,
+	["Výrgin"] = 6,
 	["Wertoxdin"] = 4,
-	["Dábzy"] = 5,
+	["Mutenp"] = 6,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {
@@ -210,8 +211,7 @@ PallyPower_ChanNames = {
 	"Allgemein", -- [1]
 	"Handel", -- [2]
 	"LokaleVerteidigung", -- [3]
-	"lfg", -- [4]
-	"SucheNachGruppe", -- [5]
+	"SucheNachGruppe", -- [4]
 	[0] = "None",
 }
 LCD_Data = nil

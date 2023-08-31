@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
 	["InfoFramescale"] = 1,
+	["announceTrackedAchievements"] = false,
 	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -19050,6 +19050,27 @@ AchievementTrackerDebug = {
 	"28/8/2023 22:27 [DEBUG] Enabling Addon", -- [19025]
 	"28/8/2023 22:27 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19026]
 	"28/8/2023 22:27 [DEBUG] Showing Minimap Icon", -- [19027]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [19028]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.24.0", -- [19029]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [19030]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [19031]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [19032]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19033]
+	"30/8/2023 21:39 [DEBUG] Showing Minimap Icon", -- [19034]
+	"30/8/2023 22:26 [DEBUG] ---IAT Runtime---", -- [19035]
+	"30/8/2023 22:26 [DEBUG] Version: 4.24.0", -- [19036]
+	"30/8/2023 22:26 [DEBUG] Attempting to load from local NPC Cache classic", -- [19037]
+	"30/8/2023 22:26 [DEBUG] Generating NPC Cache Classic...", -- [19038]
+	"30/8/2023 22:26 [DEBUG] Enabling Addon", -- [19039]
+	"30/8/2023 22:26 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19040]
+	"30/8/2023 22:29 [DEBUG] Showing Minimap Icon", -- [19041]
+	"30/8/2023 22:32 [DEBUG] ---IAT Runtime---", -- [19042]
+	"30/8/2023 22:32 [DEBUG] Version: 4.24.0", -- [19043]
+	"30/8/2023 22:32 [DEBUG] Attempting to load from local NPC Cache classic", -- [19044]
+	"30/8/2023 22:32 [DEBUG] Generating NPC Cache Classic...", -- [19045]
+	"30/8/2023 22:32 [DEBUG] Enabling Addon", -- [19046]
+	"30/8/2023 22:32 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [19047]
+	"30/8/2023 22:32 [DEBUG] Showing Minimap Icon", -- [19048]
 }
 AchievementTrackerNPCCache = {
 }
@@ -19064,7 +19085,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebart",
 	[26746] = "Wahnsinniges Managespenst",
 	[27756] = "Rubindrache",
-	[26668] = "Svala Grabesleid",
+	[26555] = "Hüne der Geißel",
 	[33572] = "Stahlgeschmiedeter Verteidiger",
 	[29713] = "Slad'ranwürger",
 	[26627] = "Kristallwirker",
@@ -19075,33 +19096,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotischer Riss",
 	[28586] = "General Bjarngrim",
 	[16028] = "Flickwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Missgestalteter Schlamm",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgrind",
 	[26731] = "Großmagistrix Telestra",
-	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
+	[26893] = "Grauf",
+	[28731] = "Aufseher Silthik",
 	[33136] = "Wächter des Yogg-Saron",
 	[27975] = "Maid der Trauer",
-	[33388] = "Dunkler Runenwächter",
-	[27658] = "Belgaristrasz",
+	[28729] = "Aufseher Narjil",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
 	[30176] = "Wächter der Ahn'kahar",
 	[23562] = "Unaufhaltsame Monstrosität",
-	[28729] = "Aufseher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Aufseher Gashra",
-	[28731] = "Aufseher Silthik",
+	[33388] = "Dunkler Runenwächter",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",
 	[29932] = "Der wilde Eck",
 	[29240] = "Sturmgeschmiedeter Leutnant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Missgestalteter Schlamm",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Schrottbot",
 	[23953] = "Prinz Keleseth",
-	[26555] = "Hüne der Geißel",
+	[26668] = "Svala Grabesleid",
 }

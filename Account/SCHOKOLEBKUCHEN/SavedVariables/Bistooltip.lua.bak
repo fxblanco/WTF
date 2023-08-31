@@ -1,19 +1,24 @@
 
 BisTooltipDB = {
 	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Default",
 		["Endonuclease - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
 	},
 	["char"] = {
+		["Fieserdot - Venoxis"] = {
+			["version"] = 6.1,
+			["data_source"] = "wh",
+		},
 		["Endonuclease - Venoxis"] = {
 			["data_source"] = "wowtbc",
 			["version"] = 6.1,
 		},
 		["Exonuklease - Venoxis"] = {
 			["class_index"] = 10,
-			["phase_index"] = 3,
-			["data_source"] = "wowtbc",
 			["version"] = 6.1,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 3,
 		},
 	},
 }

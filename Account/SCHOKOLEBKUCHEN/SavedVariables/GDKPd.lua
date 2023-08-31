@@ -1,11 +1,12 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
+	},
+	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["profiles"] = {
 		["Endonuclease - Venoxis"] = {
@@ -22,26 +23,40 @@ GDKPd_DB = {
 				["x"] = -455.7244873046875,
 			},
 		},
-		["Exonuklease - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -172.0850830078125,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -341.5708618164063,
+		["Fieserdot - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 62.83293914794922,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -379.9540405273438,
 			},
-			["auctionTimer"] = 15,
+			["point"] = {
+				["y"] = -126.3039855957031,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -336.3038940429688,
+			},
+		},
+		["Exonuklease - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -53.2750358581543,
 				["x"] = 521.0999145507812,
 			},
+			["auctionTimer"] = 15,
 			["point"] = {
 				["y"] = -45.00001525878906,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = -365,
 			},
-			["auctionTimerRefresh"] = 15,
 			["startBid"] = 4000,
+			["auctionTimerRefresh"] = 15,
+			["balancepoint"] = {
+				["y"] = -172.0850830078125,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -341.5708618164063,
+			},
 			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = -185.0646362304688,
@@ -62,14 +77,14 @@ GDKPd_PotData = {
 		["Flpstr"] = 0,
 		["Bopya"] = 0,
 		["Azeyoo"] = 0,
-		["Exonuklease"] = 5757,
+		["Deusdominik"] = 0,
 		["Somemilk"] = 0,
 		["Deoka"] = 0,
 		["Akorina"] = 0,
 		["Deathwin"] = 0,
 		["Sarhild"] = 0,
 		["Mindsét"] = 0,
-		["Deusdominik"] = 0,
+		["Exonuklease"] = 5757,
 		["Tharakaua"] = 0,
 		["Schildkueen"] = 0,
 		["Snowbállzz"] = 0,

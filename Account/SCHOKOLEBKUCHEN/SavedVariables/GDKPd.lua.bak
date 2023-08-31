@@ -1,13 +1,16 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
 		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profiles"] = {
+		["Fieserdot - Venoxis"] = {
+		},
 		["Endonuclease - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -253.7497711181641,
@@ -23,32 +26,32 @@ GDKPd_DB = {
 			},
 		},
 		["Exonuklease - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -172.0850830078125,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -341.5708618164063,
-			},
-			["auctionTimer"] = 15,
 			["playerbalancepoint"] = {
 				["y"] = -53.2750358581543,
 				["x"] = 521.0999145507812,
 			},
+			["auctionTimer"] = 15,
 			["point"] = {
 				["y"] = -45.00001525878906,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = -365,
 			},
-			["auctionTimerRefresh"] = 15,
 			["startBid"] = 4000,
-			["increment"] = 500,
+			["auctionTimerRefresh"] = 15,
+			["balancepoint"] = {
+				["y"] = -172.0850830078125,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -341.5708618164063,
+			},
 			["statuspoint"] = {
 				["y"] = -185.0646362304688,
 				["x"] = -69.1729736328125,
 				["point"] = "RIGHT",
 				["relative"] = "RIGHT",
 			},
+			["increment"] = 500,
 		},
 	},
 }
@@ -62,14 +65,14 @@ GDKPd_PotData = {
 		["Kyleriemen"] = 0,
 		["Bopya"] = 0,
 		["Finalschamie"] = 0,
-		["Deusdominik"] = 0,
+		["Exonuklease"] = 5757,
 		["Somemilk"] = 0,
 		["Flpstr"] = 0,
 		["Akorina"] = 0,
 		["Azeyoo"] = 0,
 		["Snowbállzz"] = 0,
 		["Mindsét"] = 0,
-		["Exonuklease"] = 5757,
+		["Deusdominik"] = 0,
 		["Sarhild"] = 0,
 		["Schildkueen"] = 0,
 		["Tharakaua"] = 0,

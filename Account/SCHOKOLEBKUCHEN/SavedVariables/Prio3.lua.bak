@@ -1,16 +1,24 @@
 
 Prio3DB = {
 	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
 		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["profiles"] = {
-		["Endonuclease - Venoxis"] = {
+		["Fieserdot - Venoxis"] = {
 			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
 			["priorities"] = {
 			},
+		},
+		["Endonuclease - Venoxis"] = {
+			["lootlastopened"] = {
+			},
+			["priorities"] = {
+			},
+			["receivedPriorities"] = 0,
 		},
 		["Exonuklease - Venoxis"] = {
 			["enabled"] = false,

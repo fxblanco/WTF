@@ -22,12 +22,6 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -41,13 +35,19 @@ GDKPd_DB = {
 				["x"] = -407.1521301269531,
 			},
 			["startBid"] = 500,
-			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
+			["increment"] = 500,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -72,6 +72,12 @@ GDKPd_DB = {
 		["Andrés - Transcendence"] = {
 		},
 		["Andrés - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -51.35081100463867,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -277.965576171875,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
@@ -79,25 +85,19 @@ GDKPd_DB = {
 				["x"] = -132.6243743896484,
 			},
 			["point"] = {
-				["y"] = -154.5459289550781,
-				["x"] = -366.5798034667969,
+				["y"] = -195.5253601074219,
+				["x"] = -374.4296569824219,
 				["point"] = "TOPRIGHT",
 				["relative"] = "TOPRIGHT",
 			},
 			["startBid"] = 200,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -57.77770614624023,
 			},
-			["balancepoint"] = {
-				["y"] = -51.35081100463867,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -277.965576171875,
-			},
-			["increment"] = 50,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
