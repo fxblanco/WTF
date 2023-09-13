@@ -1,16 +1,14 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
+	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
 	["profiles"] = {
-		["Fieserdot - Venoxis"] = {
-		},
 		["Endonuclease - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -253.7497711181641,
@@ -25,170 +23,191 @@ GDKPd_DB = {
 				["x"] = -455.7244873046875,
 			},
 		},
-		["Exonuklease - Venoxis"] = {
+		["Fieserdot - Venoxis"] = {
 			["playerbalancepoint"] = {
-				["y"] = -53.2750358581543,
-				["x"] = 521.0999145507812,
+				["y"] = 62.83293914794922,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -379.9540405273438,
 			},
-			["auctionTimer"] = 15,
 			["point"] = {
-				["y"] = -45.00001525878906,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -365,
+				["y"] = -126.3039855957031,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -336.3038940429688,
 			},
-			["startBid"] = 4000,
-			["auctionTimerRefresh"] = 15,
+		},
+		["Exonuklease - Venoxis"] = {
 			["balancepoint"] = {
 				["y"] = -172.0850830078125,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = -341.5708618164063,
 			},
+			["auctionTimer"] = 15,
+			["playerbalancepoint"] = {
+				["y"] = -53.2750358581543,
+				["x"] = 521.0999145507812,
+			},
+			["point"] = {
+				["y"] = -37.57046127319336,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -72.54228210449219,
+			},
+			["auctionTimerRefresh"] = 15,
+			["startBid"] = 500,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -185.0646362304688,
 				["x"] = -69.1729736328125,
 				["point"] = "RIGHT",
 				["relative"] = "RIGHT",
 			},
-			["increment"] = 500,
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Pippop"] = 0,
-		["Cripheal"] = 0,
-		["Nimz"] = 0,
-		["Longling"] = 0,
-		["Deathwin"] = 0,
+		["Brishja"] = 0,
+		["Bbo"] = 0,
+		["Shrednado"] = 0,
+		["Zadush"] = 0,
+		["Minoton"] = 0,
+		["Tolazytolvl"] = 0,
+		["Troéller"] = 0,
+		["Ekstasia"] = 0,
+		["Cillililill"] = 0,
+		["Hakkî"] = 0,
+		["Eiskafe"] = 0,
+		["Lokivoltroll"] = 0,
+		["Reikyy"] = 0,
+		["Týrx"] = 0,
+		["Myjuice"] = 0,
+		["Exonuklease"] = -18730,
+		["Schmankerle"] = 0,
+		["Atomix"] = 0,
+		["Clyslol"] = 0,
+		["Palladriel"] = 0,
 		["Kyleriemen"] = 0,
-		["Bopya"] = 0,
-		["Finalschamie"] = 0,
-		["Exonuklease"] = 5757,
-		["Somemilk"] = 0,
-		["Flpstr"] = 0,
-		["Akorina"] = 0,
-		["Azeyoo"] = 0,
-		["Snowbállzz"] = 0,
-		["Mindsét"] = 0,
-		["Deusdominik"] = 0,
-		["Sarhild"] = 0,
-		["Schildkueen"] = 0,
-		["Tharakaua"] = 0,
-		["Dábzy"] = 0,
-		["Deoka"] = 0,
-		["Sartî"] = 0,
+		["Deusdominik"] = 21770,
 		["Graveofjenna"] = 0,
-		["Kálí"] = 0,
-		["Juumi"] = 0,
+		["Longling"] = 0,
+		["Krodalina"] = 0,
 	},
 	["curPotHistory"] = {
 		{
-			["bid"] = 14500,
-			["item"] = "|cffa335ee|Hitem:47422::::::::80:::::::::|h[Haken von Tarasque]|h|r",
-			["name"] = "Akorina",
+			["bid"] = 22500,
+			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
+			["name"] = "Bbo",
 		}, -- [1]
 		{
-			["bid"] = 18000,
-			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
-			["name"] = "Mindsét",
+			["bid"] = 20000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Cillililill",
 		}, -- [2]
 		{
-			["bid"] = 17000,
-			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
-			["name"] = "Sarhild",
+			["bid"] = 19000,
+			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
+			["name"] = "Exonuklease",
 		}, -- [3]
 		{
-			["bid"] = 6000,
-			["item"] = "|cffa335ee|Hitem:47520::::::::80:::::::::|h[Kümmernis]|h|r",
-			["name"] = "Kálí",
+			["bid"] = 17500,
+			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
+			["name"] = "Krodalina",
 		}, -- [4]
 		{
-			["bid"] = 11000,
-			["item"] = "|cffa335ee|Hitem:47446::::::::80:::::::::|h[Doppelklingenschlächter]|h|r",
-			["name"] = "Schildkueen",
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47548::::::::80:::::::::|h[Garroshs Wut]|h|r",
+			["name"] = "Bbo",
 		}, -- [5]
 		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r",
-			["name"] = "Mindsét",
+			["bid"] = 18000,
+			["item"] = "|cffa335ee|Hitem:47518::::::::80:::::::::|h[Mortalis]|h|r",
+			["name"] = "Ekstasia",
 		}, -- [6]
 		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47419::::::::80:::::::::|h[Gürtel des finsteren Nebels]|h|r",
-			["name"] = "Pippop",
+			["bid"] = 9000,
+			["item"] = "|cffa335ee|Hitem:47485::::::::80:::::::::|h[Bindungen des leichenblassen Heiligen]|h|r",
+			["name"] = "Exonuklease",
 		}, -- [7]
 		{
-			["bid"] = 15000,
-			["item"] = "|cffa335ee|Hitem:47466::::::::80:::::::::|h[Kehlstück des Legionärs]|h|r",
-			["name"] = "Mindsét",
+			["bid"] = 8000,
+			["item"] = "|cffa335ee|Hitem:47473::::::::80:::::::::|h[Schienbeinschützer der Saronitzitadelle]|h|r",
+			["name"] = "Palladriel",
 		}, -- [8]
+		2500, -- [9]
 		{
-			["bid"] = 14000,
-			["item"] = "|cffa335ee|Hitem:47439::::::::80:::::::::|h[Kreis des Dunkelheilers]|h|r",
-			["name"] = "Deoka",
-		}, -- [9]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
-			["name"] = "Mindsét",
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47490::::::::80:::::::::|h[Verehrung der Maid]|h|r",
+			["name"] = "Myjuice",
 		}, -- [10]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47416::::::::80:::::::::|h[Stygischer Klingenbrecher]|h|r",
-			["name"] = "Longling",
+			["bid"] = 19000,
+			["item"] = "|cffa335ee|Hitem:47447::::::::80:::::::::|h[Gürtel der beißenden Kälte]|h|r",
+			["name"] = "Clyslol",
 		}, -- [11]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47431::::::::80:::::::::|h[Weste des verhängnisvollen Schicksals]|h|r",
-			["name"] = "Azeyoo",
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:47445::::::::80:::::::::|h[Eiswandlertreter]|h|r",
+			["name"] = "Shrednado",
 		}, -- [12]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47453::::::::80:::::::::|h[Robe der zerschlagenen Gefolgschaft]|h|r",
-			["name"] = "Somemilk",
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47418::::::::80:::::::::|h[Umhang des ungezähmten Raubtiers]|h|r",
+			["name"] = "Shrednado",
 		}, -- [13]
+		2500, -- [14]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47469::::::::80:::::::::|h[Gürtel aus bleichen Dornen]|h|r",
-			["name"] = "Kyleriemen",
-		}, -- [14]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47492::::::::80:::::::::|h[Stulpen der bitteren Erwiderung]|h|r",
-			["name"] = "Schildkueen",
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:47439::::::::80:::::::::|h[Kreis des Dunkelheilers]|h|r",
+			["name"] = "Myjuice",
 		}, -- [15]
+		2500, -- [16]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47486::::::::80:::::::::|h[Kürass der fließenden Elemente]|h|r",
-			["name"] = "Snowbállzz",
-		}, -- [16]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47472::::::::80:::::::::|h[Taillenschutz der tödlichen Vorherrschaft]|h|r",
-			["name"] = "Deusdominik",
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47424::::::::80:::::::::|h[Sabatons des Mutigen]|h|r",
+			["name"] = "Eiskafe",
 		}, -- [17]
-		2000, -- [18]
-		1000, -- [19]
-		150, -- [20]
 		{
-			["bid"] = 550,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Exonuklease",
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:47460::::::::80:::::::::|h[Gürtel des mitleidlosen Mörders]|h|r",
+			["name"] = "Longling",
+		}, -- [18]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47456::::::::80:::::::::|h[Sabatons der bebenden Erde]|h|r",
+			["name"] = "Troéller",
+		}, -- [19]
+		{
+			["bid"] = 28000,
+			["item"] = "|cffa335ee|Hitem:47468::::::::80:::::::::|h[Schrei der Val'kyr]|h|r",
+			["name"] = "Clyslol",
+		}, -- [20]
+		{
+			["bid"] = 11000,
+			["item"] = "|cffa335ee|Hitem:47466::::::::80:::::::::|h[Kehlstück des Legionärs]|h|r",
+			["name"] = "Brishja",
 		}, -- [21]
 		{
-			["bid"] = 6000,
-			["item"] = "|cffa335ee|Hitem:47459::::::::80:::::::::|h[Armschützer der Schildmaid]|h|r",
-			["name"] = "Mindsét",
+			["bid"] = 500,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Eiskafe",
 		}, -- [22]
-		-17520, -- [23]
+		450, -- [23]
+		2500, -- [24]
+		{
+			["bid"] = 500,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Graveofjenna",
+		}, -- [25]
+		-25700, -- [26]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 157680,
-	["prevDist"] = 157680,
+	["potAmount"] = 231750,
+	["prevDist"] = 231750,
 }
 GDKPd_BalanceData = {
-	["Exonuklease"] = -15831,
+	["Exonuklease"] = -9270,
 }

@@ -25,9 +25,6 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\RedChevronArrow",
 				},
 			},
-			["targettarget"] = {
-				["enable"] = false,
-			},
 			["mouseover"] = {
 				["self"] = {
 					["enable"] = false,
@@ -39,6 +36,9 @@ TargetNameplateIndicatorDB = {
 				["hostile"] = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonReticule",
 				},
+			},
+			["targettarget"] = {
+				["enable"] = false,
 			},
 			["focus"] = {
 				["self"] = {

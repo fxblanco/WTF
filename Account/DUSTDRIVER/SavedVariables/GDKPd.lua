@@ -22,12 +22,12 @@ GDKPd_DB = {
 				["x"] = -258.3778686523438,
 			},
 			["point"] = {
-				["y"] = -207.6980133056641,
+				["y"] = -81.69601440429688,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -22.29402923583984,
+				["x"] = -260.4240417480469,
 			},
-			["startBid"] = 500,
+			["startBid"] = 150,
 			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = 152.6455535888672,
@@ -64,14 +64,73 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Perakon"] = 0,
+		["Hópéful"] = 0,
+		["Graveofmaria"] = 0,
+		["Somemilk"] = 0,
+		["Gdkphunter"] = 0,
+		["Widi"] = 0,
+		["Maturitass"] = 2322,
+		["Viphazz"] = 0,
+		["Kentharo"] = 0,
+		["Domedonmaya"] = 0,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47993::::::::80:::::::::|h[Gormoks Band]|h|r",
+			["name"] = "Viphazz",
+		}, -- [1]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:48001::::::::80:::::::::|h[Feuersturmband]|h|r",
+			["name"] = "Kentharo",
+		}, -- [2]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48017::::::::80:::::::::|h[Assassinenhandschuhe der Sonnenhäscher]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [3]
+		1000, -- [4]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48025::::::::80:::::::::|h[Klinge der Nemesis]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [5]
+		{
+			["bid"] = 2500,
+			["item"] = "|cffa335ee|Hitem:48049::::::::80:::::::::|h[Schulterpolster des Schneebanditen]|h|r",
+			["name"] = "Viphazz",
+		}, -- [6]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48040::::::::80:::::::::|h[Stolz der Kor'kron]|h|r",
+			["name"] = "Hópéful",
+		}, -- [7]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48697::::::::80:::::::::|h[Langbogen der rasenden Pfeile]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [8]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Viphazz",
+		}, -- [9]
+		2000, -- [10]
+		4000, -- [11]
+		{
+			["bid"] = 300,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Perakon",
+		}, -- [12]
+		-2580, -- [13]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 0,
-	["prevDist"] = 0,
+	["potAmount"] = 23220,
+	["prevDist"] = 23220,
 }
 GDKPd_BalanceData = {
-	["Domedonmaya"] = -135840,
+	["Maturitass"] = -2322,
 }

@@ -23,6 +23,8 @@ END
 VER 3 000000000000000C "gloves" "134400"
 #showtooltip 10
 /use 10
+/use 13
+/use 14
 /cast Kochendes Blut(Volk)
 END
 VER 3 0000000000000003 "hi" "132092"
@@ -33,7 +35,7 @@ VER 3 0000000000000010 "lock" "134400"
 /cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
 END
 VER 3 000000000000000E "PI" "134400"
-/w Räucherlâchs PI me!
+/w Zadush PI me!
 /use 10
 END
 VER 3 0000000000000005 "Roll" "135900"

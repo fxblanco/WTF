@@ -1,3 +1,6 @@
+VER 3 000000000000000E "111_" "134400"
+/4 LFM TOGC 25 45-50TL || GDKP 90/10 5k/500, Tokens 15k || Heute  22:30 - Anmeldung : https://discord.gg/qsV6fa9k (Logs & GS)
+END
 VER 3 000000000000000B "bomb" "134400"
 #showtooltip
 /use [mod:shift] Globalthermische Pioniersprengladung;[mod:alt]6;

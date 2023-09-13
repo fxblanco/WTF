@@ -1,28 +1,14 @@
 
 GDKPd_DB = {
+	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
-	["profileKeys"] = {
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
 	["profiles"] = {
-		["Endonuclease - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = -253.7497711181641,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -61.74993515014648,
-			},
-			["point"] = {
-				["y"] = -50.07497024536133,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -455.7244873046875,
-			},
-		},
 		["Fieserdot - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 62.83293914794922,
@@ -37,27 +23,41 @@ GDKPd_DB = {
 				["x"] = -336.3038940429688,
 			},
 		},
-		["Exonuklease - Venoxis"] = {
+		["Endonuclease - Venoxis"] = {
 			["playerbalancepoint"] = {
-				["y"] = -53.2750358581543,
-				["x"] = 521.0999145507812,
+				["y"] = -253.7497711181641,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -61.74993515014648,
 			},
-			["auctionTimer"] = 15,
 			["point"] = {
-				["y"] = -45.00001525878906,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -365,
+				["y"] = -50.07497024536133,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -455.7244873046875,
 			},
-			["startBid"] = 4000,
-			["auctionTimerRefresh"] = 15,
+		},
+		["Exonuklease - Venoxis"] = {
 			["balancepoint"] = {
 				["y"] = -172.0850830078125,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = -341.5708618164063,
 			},
-			["increment"] = 500,
+			["auctionTimer"] = 15,
+			["playerbalancepoint"] = {
+				["y"] = -53.2750358581543,
+				["x"] = 521.0999145507812,
+			},
+			["point"] = {
+				["y"] = -38.00003051757813,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -72.32453918457031,
+			},
+			["auctionTimerRefresh"] = 15,
+			["startBid"] = 100,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -185.0646362304688,
 				["x"] = -69.1729736328125,
@@ -69,138 +69,14 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Pippop"] = 0,
-		["Cripheal"] = 0,
-		["Nimz"] = 0,
-		["Longling"] = 0,
-		["Finalschamie"] = 0,
-		["Flpstr"] = 0,
-		["Bopya"] = 0,
-		["Azeyoo"] = 0,
-		["Deusdominik"] = 0,
-		["Somemilk"] = 0,
-		["Deoka"] = 0,
-		["Akorina"] = 0,
-		["Deathwin"] = 0,
-		["Sarhild"] = 0,
-		["Mindsét"] = 0,
-		["Exonuklease"] = 5757,
-		["Tharakaua"] = 0,
-		["Schildkueen"] = 0,
-		["Snowbállzz"] = 0,
-		["Dábzy"] = 0,
-		["Kyleriemen"] = 0,
-		["Sartî"] = 0,
-		["Graveofjenna"] = 0,
-		["Kálí"] = 0,
-		["Juumi"] = 0,
 	},
 	["curPotHistory"] = {
-		{
-			["bid"] = 14500,
-			["item"] = "|cffa335ee|Hitem:47422::::::::80:::::::::|h[Haken von Tarasque]|h|r",
-			["name"] = "Akorina",
-		}, -- [1]
-		{
-			["bid"] = 18000,
-			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
-			["name"] = "Mindsét",
-		}, -- [2]
-		{
-			["bid"] = 17000,
-			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
-			["name"] = "Sarhild",
-		}, -- [3]
-		{
-			["bid"] = 6000,
-			["item"] = "|cffa335ee|Hitem:47520::::::::80:::::::::|h[Kümmernis]|h|r",
-			["name"] = "Kálí",
-		}, -- [4]
-		{
-			["bid"] = 11000,
-			["item"] = "|cffa335ee|Hitem:47446::::::::80:::::::::|h[Doppelklingenschlächter]|h|r",
-			["name"] = "Schildkueen",
-		}, -- [5]
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r",
-			["name"] = "Mindsét",
-		}, -- [6]
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47419::::::::80:::::::::|h[Gürtel des finsteren Nebels]|h|r",
-			["name"] = "Pippop",
-		}, -- [7]
-		{
-			["bid"] = 15000,
-			["item"] = "|cffa335ee|Hitem:47466::::::::80:::::::::|h[Kehlstück des Legionärs]|h|r",
-			["name"] = "Mindsét",
-		}, -- [8]
-		{
-			["bid"] = 14000,
-			["item"] = "|cffa335ee|Hitem:47439::::::::80:::::::::|h[Kreis des Dunkelheilers]|h|r",
-			["name"] = "Deoka",
-		}, -- [9]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
-			["name"] = "Mindsét",
-		}, -- [10]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47416::::::::80:::::::::|h[Stygischer Klingenbrecher]|h|r",
-			["name"] = "Longling",
-		}, -- [11]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47431::::::::80:::::::::|h[Weste des verhängnisvollen Schicksals]|h|r",
-			["name"] = "Azeyoo",
-		}, -- [12]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47453::::::::80:::::::::|h[Robe der zerschlagenen Gefolgschaft]|h|r",
-			["name"] = "Somemilk",
-		}, -- [13]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47469::::::::80:::::::::|h[Gürtel aus bleichen Dornen]|h|r",
-			["name"] = "Kyleriemen",
-		}, -- [14]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47492::::::::80:::::::::|h[Stulpen der bitteren Erwiderung]|h|r",
-			["name"] = "Schildkueen",
-		}, -- [15]
-		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:47486::::::::80:::::::::|h[Kürass der fließenden Elemente]|h|r",
-			["name"] = "Snowbállzz",
-		}, -- [16]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47472::::::::80:::::::::|h[Taillenschutz der tödlichen Vorherrschaft]|h|r",
-			["name"] = "Deusdominik",
-		}, -- [17]
-		2000, -- [18]
-		1000, -- [19]
-		150, -- [20]
-		{
-			["bid"] = 550,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Exonuklease",
-		}, -- [21]
-		{
-			["bid"] = 6000,
-			["item"] = "|cffa335ee|Hitem:47459::::::::80:::::::::|h[Armschützer der Schildmaid]|h|r",
-			["name"] = "Mindsét",
-		}, -- [22]
-		-17520, -- [23]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 157680,
-	["prevDist"] = 157680,
+	["potAmount"] = 0,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Exonuklease"] = -15831,
+	["Exonuklease"] = -11110,
 }

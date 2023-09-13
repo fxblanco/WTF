@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["Lesbenlisa - Venoxis"] = {
 			["spec1_profileKey"] = "Lesbenlisa - Venoxis",
-			["specswap"] = false,
-			["downclick"] = false,
 			["fastooc"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
 			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -60,12 +60,12 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
+					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135967,
-					["spell"] = "Hand der Erlösung",
+					["icon"] = 135953,
+					["spell"] = "Reinigung des Glaubens",
 				}, -- [3]
 				{
 					["spellSubName"] = "Rang 3",
@@ -88,21 +88,19 @@ CliqueDB3 = {
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON4",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135953,
-					["spell"] = "Reinigung des Glaubens",
+					["icon"] = 135967,
+					["spell"] = "Hand der Erlösung",
 				}, -- [6]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON3",
+					["type"] = "target",
+					["key"] = "ALT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135068,
-					["spell"] = "Rechtschaffene Verteidigung",
 				}, -- [7]
 				{
 					["spellSubName"] = "Rang 13",
@@ -134,11 +132,13 @@ CliqueDB3 = {
 					["spell"] = "Göttliches Eingreifen",
 				}, -- [10]
 				{
-					["type"] = "target",
-					["key"] = "ALT-BUTTON1",
+					["type"] = "spell",
+					["key"] = "BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 135068,
+					["spell"] = "Rechtschaffene Verteidigung",
 				}, -- [11]
 				{
 					["spell"] = "Heiliger Schock",

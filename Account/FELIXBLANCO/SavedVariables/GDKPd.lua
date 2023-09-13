@@ -1,5 +1,8 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -11,14 +14,13 @@ GDKPd_DB = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
 			["point"] = {
-				["y"] = 35.75581359863281,
-				["x"] = 288.7139892578125,
+				["y"] = 126.5065841674805,
+				["x"] = -185.09033203125,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
 			},
 		},
 		["Xolem - Venoxis"] = {
@@ -72,12 +74,6 @@ GDKPd_DB = {
 		["Andrés - Transcendence"] = {
 		},
 		["Andrés - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -51.35081100463867,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -277.965576171875,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
@@ -85,19 +81,25 @@ GDKPd_DB = {
 				["x"] = -132.6243743896484,
 			},
 			["point"] = {
-				["y"] = -195.5253601074219,
-				["x"] = -374.4296569824219,
+				["y"] = -106.3152160644531,
+				["x"] = -149.9660339355469,
 				["point"] = "TOPRIGHT",
 				["relative"] = "TOPRIGHT",
 			},
 			["startBid"] = 200,
-			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -57.77770614624023,
 			},
+			["balancepoint"] = {
+				["y"] = 223.5460662841797,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -308.3594970703125,
+			},
+			["increment"] = 50,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -114,11 +116,25 @@ GDKPd_DB = {
 			},
 		},
 		["Alsia - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = 87.02503967285156,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -133.2993774414063,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 195.1252136230469,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -435.0260314941406,
+			},
+			["itemLevelPricing"] = {
+				{
+					["min"] = 235,
+					["mininc"] = 500,
+					["max"] = 0,
+					["minbid"] = 2000,
+				}, -- [1]
 			},
 			["point"] = {
 				["relative"] = "TOPLEFT",
@@ -126,26 +142,12 @@ GDKPd_DB = {
 				["x"] = 298.3500366210938,
 			},
 			["startBid"] = 100,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = 203.5184478759766,
 				["relative"] = "BOTTOMRIGHT",
 				["point"] = "BOTTOMRIGHT",
 				["x"] = -249.4923553466797,
-			},
-			["balancepoint"] = {
-				["y"] = 87.02503967285156,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -133.2993774414063,
-			},
-			["increment"] = 50,
-			["itemLevelPricing"] = {
-				{
-					["min"] = 235,
-					["minbid"] = 2000,
-					["max"] = 0,
-					["mininc"] = 500,
-				}, -- [1]
 			},
 		},
 		["Kwasimojo - Venoxis"] = {
@@ -180,8 +182,137 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Yopes"] = 0,
+		["Nemesizz"] = 0,
+		["Specializt"] = 0,
+		["Letsburn"] = 0,
+		["Pypsi"] = 0,
+		["Bloodgrin"] = 0,
+		["Mauro"] = 0,
+		["Kwakes"] = 0,
+		["Naxxz"] = 0,
+		["Aúrelia"] = 0,
+		["Pitcho"] = 0,
+		["Chinobal"] = 0,
+		["Vônhinten"] = 0,
+		["Liolider"] = 0,
+		["Blinkyli"] = 0,
+		["Holyquelle"] = 0,
+		["Graveofmaria"] = 0,
+		["Dyena"] = 0,
+		["Punchy"] = 0,
+		["Bwnzywnzy"] = 0,
+		["Zugwux"] = 0,
+		["Andrés"] = 9635,
+		["Aitz"] = 0,
+		["Muuhrrïçane"] = 0,
+		["Giaru"] = 0,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 15000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Specializt",
+		}, -- [1]
+		{
+			["bid"] = 15000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Bloodgrin",
+		}, -- [2]
+		{
+			["bid"] = 15000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Mauro",
+		}, -- [3]
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
+			["name"] = "Blinkyli",
+		}, -- [4]
+		{
+			["bid"] = 50000,
+			["item"] = "|cffa335ee|Hitem:47477::::::::80:::::::::|h[Herrschaft der Toten]|h|r",
+			["name"] = "Pitcho",
+		}, -- [5]
+		{
+			["bid"] = 25000,
+			["item"] = "|cffa335ee|Hitem:47483::::::::80:::::::::|h[Ende des Leides]|h|r",
+			["name"] = "Holyquelle",
+		}, -- [6]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r",
+			["name"] = "Naxxz",
+		}, -- [7]
+		{
+			["bid"] = 9000,
+			["item"] = "|cffa335ee|Hitem:47523::::::::80:::::::::|h[Fezziks Autokanone]|h|r",
+			["name"] = "Vônhinten",
+		}, -- [8]
+		{
+			["bid"] = 11000,
+			["item"] = "|cffa335ee|Hitem:47429::::::::80:::::::::|h[Blutbadgurt]|h|r",
+			["name"] = "Naxxz",
+		}, -- [9]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47474::::::::80:::::::::|h[Armbänder des dunklen Beschlusses]|h|r",
+			["name"] = "Yopes",
+		}, -- [10]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47465::::::::80:::::::::|h[Beinplatten des Aufstiegs]|h|r",
+			["name"] = "Naxxz",
+		}, -- [11]
+		{
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:47414::::::::80:::::::::|h[Knochenschmetternde Unterarmschienen]|h|r",
+			["name"] = "Zugwux",
+		}, -- [12]
+		{
+			["bid"] = 24000,
+			["item"] = "|cffa335ee|Hitem:47445::::::::80:::::::::|h[Eiswandlertreter]|h|r",
+			["name"] = "Giaru",
+		}, -- [13]
+		{
+			["bid"] = 6500,
+			["item"] = "|cffa335ee|Hitem:47417::::::::80:::::::::|h[Tuch der erfrischenden Winde]|h|r",
+			["name"] = "Dyena",
+		}, -- [14]
+		{
+			["bid"] = 17000,
+			["item"] = "|cffa335ee|Hitem:47454::::::::80:::::::::|h[Sandalen der trauernden Witwe]|h|r",
+			["name"] = "Holyquelle",
+		}, -- [15]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47470::::::::80:::::::::|h[Rätselhafter Glücksbringer]|h|r",
+			["name"] = "Nemesizz",
+		}, -- [16]
+		{
+			["bid"] = 7500,
+			["item"] = "|cffa335ee|Hitem:47437::::::::80:::::::::|h[Talisman der achtlosen Sünden]|h|r",
+			["name"] = "Holyquelle",
+		}, -- [17]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47426::::::::80:::::::::|h[Bindungen des Eisgräbers]|h|r",
+			["name"] = "Liolider",
+		}, -- [18]
+		{
+			["bid"] = 10500,
+			["item"] = "|cffa335ee|Hitem:47492::::::::80:::::::::|h[Stulpen der bitteren Erwiderung]|h|r",
+			["name"] = "Aúrelia",
+		}, -- [19]
+		2500, -- [20]
+		1000, -- [21]
+		350, -- [22]
+		{
+			["bid"] = 300,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Pypsi",
+		}, -- [23]
+		-26760, -- [24]
 	},
 	["history"] = {
 		{
@@ -624,9 +755,8 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 0,
-	["prevDist"] = 0,
+	["potAmount"] = 240890,
+	["prevDist"] = 240890,
 }
 GDKPd_BalanceData = {
-	["Specializt"] = 0,
 }

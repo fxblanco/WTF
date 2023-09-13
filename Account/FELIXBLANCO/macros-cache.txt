@@ -1,5 +1,5 @@
 VER 3 000000000000003F "111_" "134400"
-/4 LFM TOGC 25 45-50TL || GDKP 90/10 5k/500, Tokens 15k ---- JETZT wisp me ---- Hunter & Ret/Arcane (23/25)
+/4 LFM TOGC 25 50TL || GDKP 90/10 5k/500, Tokens 15k || Jetzt- wisp me - (Logs & GS) - Affli, Eule, Hunter
 END
 VER 3 0000000000000038 "cancel" "134400"
 /cancelaura Gebet der Seelenstärke
@@ -9,6 +9,9 @@ END
 VER 3 000000000000003B "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
+END
+VER 3 0000000000000040 "focus" "132097"
+/focus
 END
 VER 3 0000000000000024 "g_boots" "132546"
 #showtooltip
@@ -83,7 +86,7 @@ VER 3 000000000000002C "pat_ret_f" "134400"
 END
 VER 3 000000000000003A "PI" "134400"
 #showtooltip
-/target Twaennim
+/target Radladerhans
 /cast Seele der Macht
 END
 VER 3 000000000000003C "priest_sp_e" "134400"
@@ -99,10 +102,8 @@ VER 3 000000000000002F "priest_sp_fient" "134400"
 /cast Kriechende Schatten
 END
 VER 3 0000000000000029 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Junger Aasfresser
-/targetexact Struppiger Aasfresser
-/targetexact Nachtsauger
-/targetexact Räudiger Nachtsauger
+/targetexact Instrukteur Antheol
+/targetexact Seuchenknochenplünderer
 /targetlasttarget [dead]
 END
 VER 3 0000000000000030 "shadow_swd+" "134400"

@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["Lesbenlisa - Venoxis"] = {
 			["spec1_profileKey"] = "Lesbenlisa - Venoxis",
-			["specswap"] = false,
-			["downclick"] = false,
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
+			["downclick"] = false,
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -69,13 +69,14 @@ CliqueDB3 = {
 					["spell"] = "Lichtblitz",
 				}, -- [1]
 				{
+					["spellSubName"] = "Rang 3",
+					["key"] = "CTRL-BUTTON1",
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
-					["spell"] = "Hand der Freiheit",
+					["icon"] = 135964,
+					["spell"] = "Hand des Schutzes",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -87,16 +88,6 @@ CliqueDB3 = {
 					["spell"] = "Hand der Erlösung",
 				}, -- [3]
 				{
-					["spellSubName"] = "Rang 3",
-					["key"] = "CTRL-BUTTON1",
-					["type"] = "spell",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135964,
-					["spell"] = "Hand des Schutzes",
-				}, -- [4]
-				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
@@ -104,6 +95,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 135966,
 					["spell"] = "Hand der Aufopferung",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135968,
+					["spell"] = "Hand der Freiheit",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -124,16 +124,6 @@ CliqueDB3 = {
 					["spell"] = "Rechtschaffene Verteidigung",
 				}, -- [7]
 				{
-					["spellSubName"] = "Rang 13",
-					["key"] = "BUTTON2",
-					["type"] = "spell",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135920,
-					["spell"] = "Heiliges Licht",
-				}, -- [8]
-				{
 					["spellSubName"] = "Rang 5",
 					["key"] = "CTRL-BUTTON2",
 					["type"] = "spell",
@@ -142,7 +132,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135928,
 					["spell"] = "Handauflegung",
-				}, -- [9]
+				}, -- [8]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON3",
@@ -151,6 +141,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136106,
 					["spell"] = "Göttliches Eingreifen",
+				}, -- [9]
+				{
+					["spellSubName"] = "Rang 13",
+					["key"] = "BUTTON2",
+					["type"] = "spell",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135920,
+					["spell"] = "Heiliges Licht",
 				}, -- [10]
 				{
 					["type"] = "target",

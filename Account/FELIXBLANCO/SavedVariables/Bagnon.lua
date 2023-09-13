@@ -52,8 +52,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 0,
-			["x"] = -123.41552734375,
+			["y"] = 22.28892135620117,
+			["x"] = -550.958251953125,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -126,7 +126,7 @@ Bagnon_Sets = {
 			["x"] = -158.28173828125,
 			["borderColor"] = {
 			},
-			["brokerObject"] = "Questie",
+			["brokerObject"] = "AtlasLoot",
 		},
 		["bank"] = {
 			["rules"] = {
@@ -175,11 +175,11 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.4",
+	["version"] = "10.1.7",
 	["display"] = {
 	},
-	["fridgeColor"] = {
-	},
 	["enchantColor"] = {
+	},
+	["fridgeColor"] = {
 	},
 }

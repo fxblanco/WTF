@@ -8,8 +8,8 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["enable"] = true,
 			["seal"] = 9,
+			["enable"] = true,
 			["WrathTransition"] = true,
 		},
 		["Other"] = {
@@ -79,16 +79,28 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
+	["Lesbenlisa"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+	},
 	["Liptea"] = {
 		3, -- [1]
 		3, -- [2]
-		3, -- [3]
+		1, -- [3]
 		3, -- [4]
 		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
 		3, -- [10]
 	},
 	["Graveofmaria"] = {
@@ -102,18 +114,6 @@ PallyPower_Assignments = {
 		0, -- [8]
 		2, -- [9]
 		2, -- [10]
-	},
-	["Lesbenlisa"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
 	},
 	["Shikimora"] = {
 		0, -- [1]
@@ -132,25 +132,32 @@ PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
 	["Schpen"] = 1,
+	["Mizune"] = 2,
+	["Clynelol"] = 6,
 	["Beaconjus"] = 2,
 	["Faîlz"] = 4,
 	["Logyna"] = 6,
 	["Díaz"] = 5,
-	["Liptea"] = 6,
+	["Liptea"] = 1,
 	["Adyr"] = 3,
 	["Twintts"] = 2,
 	["Xhaara"] = 6,
 	["Alsia"] = 3,
+	["Lesbenlisa"] = 1,
+	["Graveofmaria"] = 1,
 	["Bremskyle"] = 1,
 	["Hópéful"] = 6,
 	["Myjuice"] = 6,
-	["Graveofmaria"] = 1,
+	["Annidina"] = 7,
+	["Yuisis"] = 5,
+	["Suliwe"] = 1,
+	["Xeeli"] = 6,
 	["Palladriel"] = 2,
 	["Shikimora"] = 4,
-	["Xeeli"] = 6,
-	["Lesbenlisa"] = 3,
-	["Futelf"] = 2,
 	["Nobuffg"] = 5,
+	["Markodu"] = 3,
+	["Futelf"] = 2,
+	["Xellzs"] = 3,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {

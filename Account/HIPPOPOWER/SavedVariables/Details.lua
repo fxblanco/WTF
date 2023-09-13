@@ -5,7 +5,7 @@ _detalhes_global = {
 	["encounter_spell_pool"] = {
 		{
 			629, -- [1]
-			"Gormok der Pfähler", -- [2]
+			"Ätzschlund", -- [2]
 		}, -- [1]
 		{
 			637, -- [1]
@@ -51,10 +51,6 @@ _detalhes_global = {
 			629, -- [1]
 			"Gormok der Pfähler", -- [2]
 		},
-		[66092] = {
-			645, -- [1]
-			"Schwarmskarabäus", -- [2]
-		},
 		[65869] = {
 			637, -- [1]
 			"Alyssia Mondpirscher", -- [2]
@@ -69,7 +65,11 @@ _detalhes_global = {
 		},
 		[66794] = {
 			629, -- [1]
-			"Schreckensmaul", -- [2]
+			"Ätzschlund", -- [2]
+		},
+		[65790] = {
+			637, -- [1]
+			"Noozle Zischelstock", -- [2]
 		},
 		[66316] = {
 			633, -- [1]
@@ -78,10 +78,6 @@ _detalhes_global = {
 		[66093] = {
 			637, -- [1]
 			"Melador Talwanderer", -- [2]
-		},
-		[65854] = {
-			637, -- [1]
-			"Kavina Haineslied", -- [2]
 		},
 		[66683] = {
 			629, -- [1]
@@ -95,9 +91,13 @@ _detalhes_global = {
 			641, -- [1]
 			"Fjola Lichtbann", -- [2]
 		},
-		[67767] = {
+		[66237] = {
+			633, -- [1]
+			"Lord Jaraxxus", -- [2]
+		},
+		[65998] = {
 			637, -- [1]
-			"Tyrius Dämmerklinge", -- [2]
+			"Totem der Verbrennung <Saamul>", -- [2]
 		},
 		[66269] = {
 			633, -- [1]
@@ -107,13 +107,13 @@ _detalhes_global = {
 			645, -- [1]
 			"Schwarmskarabäus", -- [2]
 		},
-		[66317] = {
-			629, -- [1]
-			"Schneeboldvasall", -- [2]
-		},
-		[65855] = {
+		[65791] = {
 			637, -- [1]
-			"Kavina Haineslied", -- [2]
+			"Noozle Zischelstock", -- [2]
+		},
+		[65807] = {
+			637, -- [1]
+			"Noozle Zischelstock", -- [2]
 		},
 		[65871] = {
 			637, -- [1]
@@ -129,23 +129,19 @@ _detalhes_global = {
 		},
 		[65983] = {
 			637, -- [1]
-			"Saamul", -- [2]
+			"Shaabad", -- [2]
 		},
 		[66796] = {
 			629, -- [1]
 			"Schreckensmaul", -- [2]
 		},
-		[66047] = {
+		[65792] = {
 			637, -- [1]
-			"Tyrius Dämmerklinge", -- [2]
+			"Noozle Zischelstock", -- [2]
 		},
-		[66063] = {
-			637, -- [1]
-			"Saamul", -- [2]
-		},
-		[65856] = {
-			637, -- [1]
-			"Kavina Haineslied", -- [2]
+		[65808] = {
+			641, -- [1]
+			"Konzentrierte Nacht", -- [2]
 		},
 		[65936] = {
 			637, -- [1]
@@ -163,13 +159,17 @@ _detalhes_global = {
 			633, -- [1]
 			"Höllischer Vulkan <Lord Jaraxxus>", -- [2]
 		},
+		[65793] = {
+			637, -- [1]
+			"Noozle Zischelstock", -- [2]
+		},
 		[65809] = {
 			637, -- [1]
 			"Serissa Düsterhauch", -- [2]
 		},
-		[66877] = {
-			633, -- [1]
-			"Legionsflamme <Delmonte>", -- [2]
+		[66112] = {
+			637, -- [1]
+			"Velanaa", -- [2]
 		},
 		[66734] = {
 			629, -- [1]
@@ -195,9 +195,9 @@ _detalhes_global = {
 			633, -- [1]
 			"Herrin der Schmerzen <Lord Jaraxxus>", -- [2]
 		},
-		[66113] = {
-			637, -- [1]
-			"Velanaa", -- [2]
+		[65858] = {
+			641, -- [1]
+			"Fjola Lichtbann", -- [2]
 		},
 		[65874] = {
 			641, -- [1]
@@ -223,9 +223,9 @@ _detalhes_global = {
 			633, -- [1]
 			"Teuflische Höllenbestie <Lord Jaraxxus>", -- [2]
 		},
-		[66018] = {
-			637, -- [1]
-			"Tyrius Dämmerklinge", -- [2]
+		[66528] = {
+			633, -- [1]
+			"Lord Jaraxxus", -- [2]
 		},
 		[65795] = {
 			641, -- [1]
@@ -242,6 +242,10 @@ _detalhes_global = {
 		[66879] = {
 			629, -- [1]
 			"Schreckensmaul", -- [2]
+		},
+		[68186] = {
+			645, -- [1]
+			"Schwarmskarabäus", -- [2]
 		},
 		[66178] = {
 			637, -- [1]
@@ -267,9 +271,9 @@ _detalhes_global = {
 			637, -- [1]
 			"Brienna Tiefnacht", -- [2]
 		},
-		[66067] = {
+		[65812] = {
 			637, -- [1]
-			"Melador Talwanderer", -- [2]
+			"Serissa Düsterhauch", -- [2]
 		},
 		[66099] = {
 			637, -- [1]
@@ -313,11 +317,15 @@ _detalhes_global = {
 		},
 		[66068] = {
 			637, -- [1]
-			"Irieth Schattenschritt", -- [2]
+			"Serissa Düsterhauch", -- [2]
 		},
-		[65861] = {
+		[66100] = {
 			637, -- [1]
-			"Kavina Haineslied", -- [2]
+			"Anthar Schmiedenformer", -- [2]
+		},
+		[66881] = {
+			629, -- [1]
+			"[*] Schleimpfütze", -- [2]
 		},
 		[65877] = {
 			637, -- [1]
@@ -343,37 +351,41 @@ _detalhes_global = {
 			637, -- [1]
 			"Tyrius Dämmerklinge", -- [2]
 		},
+		[66048] = {
+			641, -- [1]
+			"Fjola Lichtbann", -- [2]
+		},
 		[65543] = {
 			637, -- [1]
-			"Brienna Tiefnacht", -- [2]
+			"Anthar Schmiedenformer", -- [2]
 		},
 		[66069] = {
 			641, -- [1]
 			"Eydis Nachtbann", -- [2]
 		},
-		[65766] = {
-			641, -- [1]
-			"Fjola Lichtbann", -- [2]
-		},
-		[67322] = {
-			645, -- [1]
-			"Nerubischer Gräber", -- [2]
-		},
-		[24259] = {
+		[65544] = {
 			637, -- [1]
-			"Zhaagrym <Serissa Düsterhauch>", -- [2]
+			"Brienna Tiefnacht", -- [2]
+		},
+		[65488] = {
+			637, -- [1]
+			"Brienna Tiefnacht", -- [2]
+		},
+		[65490] = {
+			637, -- [1]
+			"Brienna Tiefnacht", -- [2]
 		},
 		[65878] = {
 			637, -- [1]
 			"Alyssia Mondpirscher", -- [2]
 		},
-		[66053] = {
+		[65814] = {
 			637, -- [1]
-			"Saamul", -- [2]
+			"Serissa Düsterhauch", -- [2]
 		},
-		[65868] = {
+		[66003] = {
 			637, -- [1]
-			"Alyssia Mondpirscher", -- [2]
+			"Baelnor Lichtträger", -- [2]
 		},
 		[65926] = {
 			637, -- [1]
@@ -383,17 +395,17 @@ _detalhes_global = {
 			633, -- [1]
 			"Lord Jaraxxus", -- [2]
 		},
-		[66003] = {
+		[66070] = {
 			637, -- [1]
-			"Baelnor Lichtträger", -- [2]
+			"Melador Talwanderer", -- [2]
 		},
 		[65974] = {
 			637, -- [1]
 			"Shaabad", -- [2]
 		},
-		[66532] = {
-			633, -- [1]
-			"Lord Jaraxxus", -- [2]
+		[65766] = {
+			641, -- [1]
+			"Fjola Lichtbann", -- [2]
 		},
 		[66006] = {
 			637, -- [1]
@@ -403,109 +415,109 @@ _detalhes_global = {
 			641, -- [1]
 			"Fjola Lichtbann", -- [2]
 		},
-		[66115] = {
+		[66005] = {
 			637, -- [1]
-			"Velanaa", -- [2]
+			"Baelnor Lichtträger", -- [2]
 		},
-		[66054] = {
+		[65799] = {
 			637, -- [1]
-			"Saamul", -- [2]
+			"Noozle Zischelstock", -- [2]
 		},
-		[65815] = {
-			637, -- [1]
-			"Serissa Düsterhauch", -- [2]
+		[67345] = {
+			629, -- [1]
+			"Eisheuler", -- [2]
 		},
 		[66086] = {
 			637, -- [1]
 			"Melador Talwanderer", -- [2]
 		},
-		[66005] = {
+		[66877] = {
+			633, -- [1]
+			"Legionsflamme <Mizune>", -- [2]
+		},
+		[66118] = {
+			645, -- [1]
+			"Anub'arak", -- [2]
+		},
+		[65879] = {
+			641, -- [1]
+			"Eydis Nachtbann", -- [2]
+		},
+		[66063] = {
 			637, -- [1]
-			"Baelnor Lichtträger", -- [2]
+			"Saamul", -- [2]
 		},
-		[66883] = {
-			629, -- [1]
-			"Schreckensmaul", -- [2]
-		},
-		[66134] = {
+		[67322] = {
 			645, -- [1]
 			"Nerubischer Gräber", -- [2]
-		},
-		[65859] = {
-			637, -- [1]
-			"Kavina Haineslied", -- [2]
-		},
-		[66320] = {
-			629, -- [1]
-			"Feuerbombe", -- [2]
 		},
 		[65927] = {
 			637, -- [1]
 			"Shocuul", -- [2]
 		},
-		[67009] = {
-			633, -- [1]
-			"Lord Jaraxxus", -- [2]
-		},
-		[65860] = {
+		[66114] = {
 			637, -- [1]
-			"Kavina Haineslied", -- [2]
+			"Velanaa", -- [2]
 		},
-		[48210] = {
-			629, -- [1]
-			"Gormok der Pfähler", -- [2]
+		[66067] = {
+			637, -- [1]
+			"Melador Talwanderer", -- [2]
 		},
-		[66313] = {
-			629, -- [1]
-			"Schneeboldvasall", -- [2]
+		[66058] = {
+			641, -- [1]
+			"Eydis Nachtbann", -- [2]
+		},
+		[66113] = {
+			637, -- [1]
+			"Velanaa", -- [2]
 		},
 		[66007] = {
 			637, -- [1]
 			"Baelnor Lichtträger", -- [2]
 		},
-		[66023] = {
-			637, -- [1]
-			"Tyrius Dämmerklinge", -- [2]
+		[65768] = {
+			641, -- [1]
+			"Eydis Nachtbann", -- [2]
 		},
-		[65812] = {
+		[66115] = {
 			637, -- [1]
-			"Serissa Düsterhauch", -- [2]
+			"Velanaa", -- [2]
 		},
-		[65545] = {
+		[66055] = {
 			637, -- [1]
-			"Brienna Tiefnacht", -- [2]
+			"Saamul", -- [2]
 		},
 		[66071] = {
 			637, -- [1]
 			"Melador Talwanderer", -- [2]
 		},
-		[66116] = {
+		[65800] = {
 			637, -- [1]
-			"Velanaa", -- [2]
+			"Noozle Zischelstock", -- [2]
 		},
 		[66613] = {
 			637, -- [1]
 			"Velanaa", -- [2]
 		},
-		[66881] = {
-			629, -- [1]
-			"[*] Schleimpfütze", -- [2]
+		[66053] = {
+			637, -- [1]
+			"Saamul", -- [2]
 		},
 		[65880] = {
 			637, -- [1]
 			"Alyssia Mondpirscher", -- [2]
 		},
-		[65816] = {
+		[65810] = {
 			637, -- [1]
 			"Serissa Düsterhauch", -- [2]
 		},
-		[65924] = {
+		[66008] = {
 			637, -- [1]
-			"Shocuul", -- [2]
+			"Baelnor Lichtträger", -- [2]
 		},
-		[66118] = {
-			645, -- [1]
-			"Anub'arak", -- [2]
+		[65546] = {
+			637, -- [1]
+			"Brienna Tiefnacht", -- [2]
 		},
 		[66199] = {
 			633, -- [1]
@@ -515,13 +527,13 @@ _detalhes_global = {
 			637, -- [1]
 			"Irieth Schattenschritt", -- [2]
 		},
-		[66008] = {
+		[66056] = {
 			637, -- [1]
-			"Baelnor Lichtträger", -- [2]
+			"Saamul", -- [2]
 		},
-		[65546] = {
+		[65801] = {
 			637, -- [1]
-			"Brienna Tiefnacht", -- [2]
+			"Noozle Zischelstock", -- [2]
 		},
 		[67793] = {
 			637, -- [1]
@@ -535,25 +547,25 @@ _detalhes_global = {
 			629, -- [1]
 			"Schreckensmaul", -- [2]
 		},
-		[66056] = {
-			637, -- [1]
-			"Saamul", -- [2]
+		[66821] = {
+			629, -- [1]
+			"Schreckensmaul", -- [2]
 		},
 		[65817] = {
 			637, -- [1]
 			"Serissa Düsterhauch", -- [2]
 		},
-		[66104] = {
+		[49560] = {
 			637, -- [1]
-			"Anthar Schmiedenformer", -- [2]
+			"Tyrius Dämmerklinge", -- [2]
 		},
 		[66359] = {
 			633, -- [1]
 			"Herrin der Schmerzen <Lord Jaraxxus>", -- [2]
 		},
-		[65808] = {
-			641, -- [1]
-			"Konzentrierte Nacht", -- [2]
+		[65924] = {
+			637, -- [1]
+			"Shocuul", -- [2]
 		},
 		[66901] = {
 			629, -- [1]
@@ -563,57 +575,57 @@ _detalhes_global = {
 			629, -- [1]
 			"Schneeboldvasall", -- [2]
 		},
-		[65857] = {
-			637, -- [1]
-			"Kavina Haineslied", -- [2]
+		[66532] = {
+			633, -- [1]
+			"Lord Jaraxxus", -- [2]
 		},
-		[65490] = {
+		[65868] = {
 			637, -- [1]
-			"Brienna Tiefnacht", -- [2]
+			"Alyssia Mondpirscher", -- [2]
 		},
-		[66820] = {
-			629, -- [1]
-			"Schreckensmaul", -- [2]
+		[65816] = {
+			637, -- [1]
+			"Serissa Düsterhauch", -- [2]
 		},
 		[65961] = {
 			637, -- [1]
 			"Irieth Schattenschritt", -- [2]
 		},
-		[66070] = {
+		[66883] = {
+			629, -- [1]
+			"Schreckensmaul", -- [2]
+		},
+		[65547] = {
 			637, -- [1]
-			"Melador Talwanderer", -- [2]
+			"Serissa Düsterhauch", -- [2]
 		},
 		[66009] = {
 			637, -- [1]
 			"Velanaa", -- [2]
 		},
+		[65815] = {
+			637, -- [1]
+			"Serissa Düsterhauch", -- [2]
+		},
 		[66264] = {
 			633, -- [1]
 			"Netherportal <Lord Jaraxxus>", -- [2]
 		},
-		[65814] = {
+		[65802] = {
 			637, -- [1]
-			"Serissa Düsterhauch", -- [2]
-		},
-		[65858] = {
-			641, -- [1]
-			"Fjola Lichtbann", -- [2]
-		},
-		[65547] = {
-			637, -- [1]
-			"Irieth Schattenschritt", -- [2]
+			"Noozle Zischelstock", -- [2]
 		},
 		[66519] = {
 			633, -- [1]
 			"Teuflische Höllenbestie <Lord Jaraxxus>", -- [2]
 		},
-		[67345] = {
-			629, -- [1]
-			"Eisheuler", -- [2]
+		[66047] = {
+			637, -- [1]
+			"Tyrius Dämmerklinge", -- [2]
 		},
-		[66528] = {
-			633, -- [1]
-			"Lord Jaraxxus", -- [2]
+		[66023] = {
+			637, -- [1]
+			"Tyrius Dämmerklinge", -- [2]
 		},
 		[65866] = {
 			637, -- [1]
@@ -627,9 +639,9 @@ _detalhes_global = {
 			629, -- [1]
 			"Schneeboldvasall", -- [2]
 		},
-		[66823] = {
-			629, -- [1]
-			"Ätzschlund", -- [2]
+		[66104] = {
+			637, -- [1]
+			"Anthar Schmiedenformer", -- [2]
 		},
 		[65930] = {
 			637, -- [1]
@@ -647,37 +659,37 @@ _detalhes_global = {
 			637, -- [1]
 			"Shaabad", -- [2]
 		},
-		[66821] = {
+		[66320] = {
 			629, -- [1]
-			"Schreckensmaul", -- [2]
+			"Feuerbombe", -- [2]
 		},
 		[66010] = {
 			637, -- [1]
-			"Velanaa", -- [2]
+			"Baelnor Lichtträger", -- [2]
 		},
-		[65863] = {
+		[66317] = {
+			629, -- [1]
+			"Schneeboldvasall", -- [2]
+		},
+		[65545] = {
 			637, -- [1]
-			"Kavina Haineslied", -- [2]
+			"Brienna Tiefnacht", -- [2]
 		},
-		[65810] = {
-			637, -- [1]
-			"Serissa Düsterhauch", -- [2]
+		[66823] = {
+			629, -- [1]
+			"Ätzschlund", -- [2]
 		},
-		[66058] = {
-			641, -- [1]
-			"Eydis Nachtbann", -- [2]
+		[48210] = {
+			629, -- [1]
+			"Gormok der Pfähler", -- [2]
 		},
-		[65819] = {
-			637, -- [1]
-			"Serissa Düsterhauch", -- [2]
+		[66313] = {
+			629, -- [1]
+			"Schneeboldvasall", -- [2]
 		},
-		[49560] = {
-			637, -- [1]
-			"Tyrius Dämmerklinge", -- [2]
-		},
-		[66112] = {
-			637, -- [1]
-			"Velanaa", -- [2]
+		[67009] = {
+			633, -- [1]
+			"Lord Jaraxxus", -- [2]
 		},
 		[65867] = {
 			637, -- [1]
@@ -687,25 +699,25 @@ _detalhes_global = {
 			637, -- [1]
 			"Alyssia Mondpirscher", -- [2]
 		},
-		[65488] = {
+		[66018] = {
 			637, -- [1]
-			"Brienna Tiefnacht", -- [2]
+			"Tyrius Dämmerklinge", -- [2]
 		},
-		[65544] = {
-			637, -- [1]
-			"Brienna Tiefnacht", -- [2]
+		[66820] = {
+			629, -- [1]
+			"Schreckensmaul", -- [2]
 		},
-		[66114] = {
+		[65860] = {
 			637, -- [1]
-			"Velanaa", -- [2]
+			"Melador Talwanderer", -- [2]
 		},
 		[65947] = {
 			637, -- [1]
 			"Shocuul", -- [2]
 		},
-		[66237] = {
-			633, -- [1]
-			"Lord Jaraxxus", -- [2]
+		[66046] = {
+			641, -- [1]
+			"Fjola Lichtbann", -- [2]
 		},
 		[66075] = {
 			641, -- [1]
@@ -719,9 +731,9 @@ _detalhes_global = {
 			637, -- [1]
 			"Baelnor Lichtträger", -- [2]
 		},
-		[65879] = {
-			641, -- [1]
-			"Eydis Nachtbann", -- [2]
+		[67767] = {
+			637, -- [1]
+			"Tyrius Dämmerklinge", -- [2]
 		},
 	},
 	["immersion_pets_on_solo_play"] = false,
@@ -746,8 +758,8 @@ _detalhes_global = {
 		["Windender Schmerzstachel"] = 1,
 		["Lichtwelle"] = 4,
 		["Durchbohren"] = 1,
-		["Nachtwelle"] = 32,
-		["Fokussierter Augenstrahl"] = 64,
+		["Blitzschock"] = 8,
+		["Runenschmettern"] = 4,
 		["Fleisch einäschern"] = 4,
 		["Sternenregen"] = 64,
 		["Heiliger Schock"] = 2,
@@ -758,28 +770,34 @@ _detalhes_global = {
 		["Überkopfkracherbeben"] = 1,
 		["Steinerner Griff"] = 1,
 		["Zorn"] = 8,
+		["Tödlicher Stoß"] = 1,
 		["Nachtvortex"] = 32,
-		["Nahkampf"] = 1,
+		["Richturteil des Befehls"] = 2,
+		["Benommen"] = 1,
+		["Eisige Berührung"] = 16,
 		["Netherportal"] = 32,
+		["Explosivschuss"] = 4,
+		["Nahkampf"] = 1,
+		["Lichtvortex"] = 4,
 		["Weihe"] = 2,
 		["Insektenschwarm"] = 8,
-		["Explosivschuss"] = 4,
-		["Corpo-a-Corpo"] = 1,
-		["Eisige Berührung"] = 16,
 		["Mal der Gesichtslosen"] = 1,
-		["Wahre Dunkelheit"] = 32,
-		["Blitzschock"] = 8,
+		["Corpo-a-Corpo"] = 1,
+		["Fokussierter Augenstrahl"] = 64,
+		["Nachtwelle"] = 32,
+		["Froststoß"] = 16,
+		["Legionsflamme"] = 4,
 		["Schockwelle"] = 8,
-		["Runenschmettern"] = 4,
+		["Schattengeschoss"] = 32,
 		["Betäubender Donner"] = 8,
 		["Blitzschlagmal"] = 8,
 		["Schattenwort: Tod"] = 32,
-		["Schattengeschoss"] = 32,
+		["Anstürmen"] = 1,
 		["Feuerball"] = 4,
 		["Teufelsinferno"] = 4,
 		["Teufelshitze"] = 4,
 		["Heimsuchung"] = 32,
-		["Legionsflamme"] = 4,
+		["Wahre Dunkelheit"] = 32,
 		["Kläffen"] = 1,
 		["Höllische Eruption"] = 4,
 		["Kuss der Herrin"] = 32,
@@ -995,7 +1013,7 @@ _detalhes_global = {
 	["always_use_profile_name"] = "Luckyone 2.21",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 68,
+	["combat_id_global"] = 85,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
@@ -1004,56 +1022,55 @@ _detalhes_global = {
 		["point"] = "CENTER",
 		["scale"] = 1,
 	},
-	["last_changelog_size"] = 20521,
+	["last_changelog_size"] = 24041,
 	["immersion_unit_special_icons"] = true,
 	["lastUpdateWarning"] = 1691866840,
 	["npcid_pool"] = {
 		[34796] = "Gormok der Pfähler",
 		[5975] = "Ogermagier der Schreckensfelsoger",
 		[34800] = "Schneeboldvasall",
-		[5913] = "Totem des Erdstoßes <Saamul>",
-		[36070] = "Treant <Kavina Haineslied>",
+		[5976] = "Schläger der Schreckensfelsoger",
 		[34497] = "Fjola Lichtbann",
 		[34564] = "Anub'arak",
 		[34826] = "Herrin der Schmerzen <Lord Jaraxxus>",
-		[5979] = "Elender Verirrter",
 		[7665] = "Grol der Zerstörer",
-		[34460] = "Kavina Haineslied",
 		[34466] = "Anthar Schmiedenformer",
+		[34468] = "Noozle Zischelstock",
 		[34470] = "Saamul",
 		[34472] = "Irieth Schattenschritt",
 		[34474] = "Serissa Düsterhauch",
 		[34854] = "Feuerbombe",
+		[10981] = "DimitrijSuka <Spinatoo>",
 		[34606] = "Frostsphäre",
 		[34797] = "Eisheuler",
 		[34799] = "Schreckensmaul",
 		[31233] = "Kräftiger Wolf",
 		[34686] = "Totem des heilenden Flusses <Shaabad>",
-		[5976] = "Schläger der Schreckensfelsoger",
-		[5984] = "Verhungernder Kicherfang",
+		[34687] = "Totem der Verbrennung <Saamul>",
+		[34475] = "Shocuul",
 		[0] = "[*] Schattenwort: Tod",
 		[34496] = "Eydis Nachtbann",
 		[34813] = "Höllischer Vulkan <Lord Jaraxxus>",
 		[34815] = "Teuflische Höllenbestie <Lord Jaraxxus>",
 		[34628] = "Konzentrierte Nacht",
 		[34630] = "Konzentriertes Licht",
-		[5974] = "Schreckensfelsoger",
+		[34471] = "Baelnor Lichtträger",
 		[6112] = "Totem des Windzorns <Saamul>",
 		[34825] = "Netherportal <Lord Jaraxxus>",
-		[5925] = "Totem der Erdung <Saamul>",
+		[34784] = "Legionsflamme <Clynelol>",
 		[35144] = "Ätzschlund",
-		[34471] = "Baelnor Lichtträger",
-		[34469] = "Melador Talwanderer",
-		[35465] = "Zhaagrym <Serissa Düsterhauch>",
-		[34780] = "Lord Jaraxxus",
+		[33382] = "Recke von Silbermond",
 		[34461] = "Tyrius Dämmerklinge",
-		[34463] = "Shaabad",
+		[35465] = "Zhaagrym <Serissa Düsterhauch>",
 		[34465] = "Velanaa",
+		[5925] = "Totem der Erdung <Saamul>",
+		[34463] = "Shaabad",
+		[34780] = "Lord Jaraxxus",
 		[34467] = "Alyssia Mondpirscher",
-		[34784] = "Legionsflamme <Delmonte>",
+		[34469] = "Melador Talwanderer",
 		[34660] = "Von Anub'arak verfolgt",
 		[34473] = "Brienna Tiefnacht",
-		[34475] = "Shocuul",
+		[5974] = "Schreckensfelsoger",
 		[35610] = "Katze <Alyssia Mondpirscher>",
 		[34605] = "Schwarmskarabäus",
 		[34607] = "Nerubischer Gräber",
@@ -1065,69 +1082,73 @@ _detalhes_global = {
 		["relevance_time"] = 10,
 	},
 	["spell_pool"] = {
-		"Gormok der Pfähler", -- [1]
+		2, -- [1]
 		3, -- [2]
-		[65024] = 2,
-		[20268] = 2,
+		[65024] = 3,
+		[16280] = 7,
 		[67773] = 2,
 		[63106] = 9,
-		[65855] = "Kavina Haineslied",
-		[47825] = 9,
-		[65983] = "Saamul",
-		[47889] = 9,
+		[39609] = "Totem der Manaflut <Thrallsmom>",
+		[65919] = "Anub'arak",
+		[65983] = "Shaabad",
+		[66047] = "Tyrius Dämmerklinge",
 		[60229] = 2,
 		[68285] = 11,
+		[61316] = 8,
 		[39897] = 5,
 		[67518] = "Zhaagrym <Serissa Düsterhauch>",
-		[20572] = 1,
+		[10278] = 2,
+		[20572] = 6,
 		[66879] = "Schreckensmaul",
 		[58567] = 1,
-		[51470] = 7,
+		[46355] = 5,
 		[66112] = "Velanaa",
 		[48465] = 11,
 		[66240] = "Anub'arak",
 		[15473] = 5,
 		[45524] = 6,
-		[67519] = "Zhaagrym <Serissa Düsterhauch>",
-		[22842] = 11,
+		[66496] = "Teuflische Höllenbestie <Lord Jaraxxus>",
 		[57960] = 7,
-		[48785] = 2,
-		[66880] = "Ätzschlund",
-		[57097] = 11,
-		[66113] = "Velanaa",
-		[34655] = "Viper",
+		[65793] = "Noozle Zischelstock",
+		[48817] = 2,
+		[66] = 8,
+		[48945] = 2,
+		[34655] = "Giftige Schlange",
 		[44949] = 1,
-		[66689] = "Eisheuler",
+		[60486] = 5,
 		[66881] = "[*] Schleimpfütze",
 		[67009] = "Lord Jaraxxus",
 		[71165] = 9,
 		[66114] = "Velanaa",
 		[66178] = "Irieth Schattenschritt",
+		[47475] = 1,
 		[48562] = 11,
 		[6346] = 5,
 		[20253] = 1,
+		[67713] = 5,
 		[57961] = 7,
-		[57993] = 4,
-		[65859] = "Kavina Haineslied",
+		[65795] = "Konzentriertes Licht",
 		[60103] = 7,
 		[66115] = "Velanaa",
 		[33697] = 7,
-		[398475] = 7,
+		["DEBUFF"] = 2,
+		[67714] = 5,
+		[398475] = 9,
 		[53390] = 7,
-		[63652] = 6,
+		[66883] = "Schreckensmaul",
 		[65924] = "Shocuul",
-		[64739] = 7,
+		[64739] = 5,
 		[45334] = 11,
-		[66116] = "Velanaa",
+		[552] = 5,
 		[53582] = "Wixi <Deusdominik>",
-		[47476] = 6,
+		[16593] = 5,
 		[53742] = 2,
 		[65541] = "Brienna Tiefnacht",
-		[54861] = 2,
-		[57994] = 7,
+		[54861] = 6,
+		[66820] = "Schreckensmaul",
 		[48819] = 2,
 		[47860] = 9,
-		[49938] = 6,
+		[29077] = 8,
 		[48947] = 2,
 		[42873] = 8,
 		[54158] = 2,
@@ -1136,8 +1157,6 @@ _detalhes_global = {
 		[66821] = "Schreckensmaul",
 		[36032] = 8,
 		[65926] = "Shocuul",
-		[61671] = 11,
-		[64772] = 4,
 		[66118] = "Anub'arak",
 		[48468] = 11,
 		[64868] = 8,
@@ -1146,820 +1165,737 @@ _detalhes_global = {
 		[52752] = 7,
 		[15258] = 5,
 		[19263] = 3,
-		[28486] = 1,
 		[42650] = 6,
 		[15290] = 5,
 		[65927] = "Shocuul",
-		[398488] = 7,
+		[398488] = 3,
 		[47893] = 9,
-		[60233] = 11,
+		[60233] = 3,
 		[42938] = 8,
-		[43002] = 8,
+		[50163] = 6,
 		[65544] = "Brienna Tiefnacht",
 		[55342] = 8,
-		[50259] = 11,
 		[66823] = "Ätzschlund",
-		[57516] = 1,
+		[63654] = 2,
 		[64741] = 8,
 		[66056] = "Saamul",
-		[48469] = 11,
+		[19647] = "Unbekannt <Skillzkillz>",
 		[64901] = 5,
-		[65545] = "Brienna Tiefnacht",
-		[16593] = 11,
-		[53739] = 2,
-		[18498] = 1,
-		[48445] = 11,
+		[586] = 5,
+		[22812] = 11,
+		[65801] = "Noozle Zischelstock",
 		[48821] = 2,
-		[75] = 3,
 		[413841] = 8,
-		[71] = 1,
-		[66378] = "Herrin der Schmerzen <Lord Jaraxxus>",
 		[6774] = 4,
-		[61290] = 9,
 		[66313] = "Schneeboldvasall",
-		[48827] = 2,
 		[53201] = 11,
-		[57325] = 4,
+		[413843] = 8,
 		[65546] = "Brienna Tiefnacht",
-		[66316] = "[*] Windender Schmerzstachel",
-		[9512] = 4,
 		[49269] = 7,
-		[3409] = 4,
+		[65802] = "Noozle Zischelstock",
 		[65866] = "Alyssia Mondpirscher",
-		[55503] = 3,
-		[66317] = "Schneeboldvasall",
+		[75] = 3,
 		[66058] = "Eydis Nachtbann",
-		[66877] = "Legionsflamme <Delmonte>",
-		[26297] = 6,
-		[48018] = 9,
-		[66496] = "Teuflische Höllenbestie <Lord Jaraxxus>",
-		[48566] = 11,
+		[48470] = 11,
+		[66378] = "Herrin der Schmerzen <Lord Jaraxxus>",
 		[45529] = 6,
-		[16959] = 11,
-		[65547] = "Irieth Schattenschritt",
-		[20271] = 2,
-		[57356] = 7,
+		[65547] = "Serissa Düsterhauch",
+		[35395] = 2,
 		[413848] = 3,
 		[60043] = 7,
 		[65867] = "Alyssia Mondpirscher",
-		[58374] = 1,
 		[49909] = 6,
-		[57102] = 2,
-		[53227] = 11,
-		[67210] = 4,
-		[46968] = 1,
-		[62606] = 11,
-		[42940] = 8,
-		[66255] = "Höllischer Vulkan <Lord Jaraxxus>",
-		[28682] = 8,
+		[49941] = 6,
+		[60203] = 5,
+		[48982] = 6,
+		[61290] = 9,
+		[53138] = 6,
+		[51124] = 6,
+		[57294] = 1,
 		[58381] = 5,
 		[49206] = 6,
 		[49238] = 7,
-		[4987] = 2,
-		[59891] = 5,
-		[45242] = 5,
+		[39104] = 7,
 		[65932] = "Shocuul",
-		[59628] = 4,
-		[2458] = 1,
-		[355] = 1,
-		[25771] = 2,
-		[16595] = 9,
-		[424340] = "Großer Feuerelementar <Sikkxt>",
-		[34720] = 3,
+		[50421] = 6,
+		[16595] = 5,
+		[66316] = "[*] Windender Schmerzstachel",
 		[63944] = 5,
-		[58861] = "Geisterwolf <Sikkxt>",
-		[48541] = 1,
+		[64999] = 2,
 		[25898] = 2,
 		[57934] = 4,
 		[24907] = 11,
-		[66001] = "Eydis Nachtbann",
-		[48823] = 2,
-		[51886] = 7,
+		[34501] = 3,
 		[47864] = 9,
-		[49941] = 6,
-		[20911] = 2,
 		[42845] = 8,
 		[61291] = 9,
-		[33702] = 9,
-		[2782] = 11,
-		[35079] = 3,
-		[57327] = 8,
-		[8012] = 7,
+		[66317] = "Schneeboldvasall",
+		[52212] = 6,
 		[63529] = 2,
-		[48120] = 5,
+		[60492] = 8,
 		[49271] = 7,
-		[29801] = 1,
-		[53653] = 2,
 		[65934] = "Shocuul",
-		[413861] = 3,
-		[43010] = 8,
-		[65543] = "Brienna Tiefnacht",
-		[58702] = "Totem der Verbrennung X <Kahmoony>",
-		[47481] = "Unbekannt <Delmonte>",
+		[50422] = 6,
+		[47481] = "Unbekannt <Flitzelitis>",
 		[64904] = 5,
-		[51637] = 4,
-		[49623] = 5,
+		[48568] = 11,
 		[65000] = 2,
 		[48664] = 4,
 		[20272] = 2,
-		[48463] = 11,
-		[47867] = 9,
-		[48792] = 6,
-		[65871] = "Alyssia Mondpirscher",
+		[65807] = "Noozle Zischelstock",
+		[32612] = 8,
 		[65935] = "Shocuul",
-		[54153] = 2,
 		[66063] = "Saamul",
 		[48952] = 2,
-		[59620] = 1,
-		[54131] = "Wolf <Saathunt>",
+		[54131] = "Sicklikeme <Erthao>",
 		[49048] = 3,
 		[642] = 2,
-		[54968] = 2,
-		[1330] = 4,
-		[65860] = "Kavina Haineslied",
-		[75447] = 3,
 		[49240] = 7,
-		[50227] = 1,
 		[65808] = "Konzentrierte Nacht",
-		[24858] = 11,
-		[18562] = 11,
-		[64495] = 3,
-		[5215] = 11,
-		[48441] = 11,
+		[64713] = 11,
+		[25771] = 2,
 		[47450] = 1,
-		[58735] = "Totem des glühenden Magmas VII <Sikkxt>",
-		[49560] = 6,
-		[48020] = 9,
+		[58735] = "Totem des glühenden Magmas VII <Câmeltôêtem>",
+		[66320] = "Feuerbombe",
 		[6215] = 9,
 		[47610] = 8,
 		[48665] = 4,
 		[25899] = 2,
-		[34471] = 3,
 		[23885] = 1,
-		[53908] = 1,
+		[53908] = 3,
 		[62124] = 2,
 		[47834] = 9,
-		[57073] = 8,
+		[66001] = "Eydis Nachtbann",
 		[66065] = "Melador Talwanderer",
 		[47930] = 5,
 		[66193] = "Frostsphäre",
-		[47994] = "Unbekannt <Graveofjenna>",
-		[67322] = "Nerubischer Gräber",
-		[41635] = 5,
+		[47994] = "KlekGozin <Blinkyli>",
 		[48090] = 9,
-		[65878] = "Alyssia Mondpirscher",
-		[49236] = 7,
-		[64844] = 5,
-		[60494] = 7,
-		[53365] = 6,
+		[60494] = 8,
+		[49273] = 7,
 		[65810] = "Serissa Düsterhauch",
 		[65874] = "Eydis Nachtbann",
-		[47855] = 9,
-		[25228] = 9,
+		[35079] = 3,
 		[66066] = "Melador Talwanderer",
-		[48470] = 11,
-		[53595] = 2,
+		[49497] = 6,
 		[66258] = "Lord Jaraxxus",
-		[67345] = "Eisheuler",
-		[48570] = 11,
-		[52874] = 4,
+		[53653] = 2,
 		[57841] = 4,
-		[48666] = 4,
-		[66054] = "Saamul",
+		[51735] = 6,
 		[61006] = 3,
-		[7386] = 1,
-		[53909] = 11,
-		[398478] = 2,
-		[11719] = 9,
-		[66003] = "Baelnor Lichtträger",
+		[66770] = "Eisheuler",
+		[53909] = 5,
+		[47867] = 9,
 		[66067] = "Melador Talwanderer",
-		[63655] = 4,
-		[66820] = "Schreckensmaul",
-		[17364] = 7,
+		[47995] = "KlekGozin <Blinkyli>",
 		[49050] = 3,
-		[48788] = 2,
-		[69208] = 2,
-		[13750] = 4,
-		[65795] = "Konzentriertes Licht",
-		[676] = 1,
-		[65684] = 9,
-		[65748] = 11,
+		[5384] = 3,
+		[19506] = 3,
+		[65684] = 5,
+		[65748] = 3,
 		[65812] = "Serissa Düsterhauch",
 		[30823] = 7,
 		[65940] = "Shocuul",
 		[66004] = "Baelnor Lichtträger",
-		[66068] = "Irieth Schattenschritt",
+		[66068] = "Serissa Düsterhauch",
 		[22703] = 9,
 		[64843] = 5,
 		[45438] = 8,
-		[53654] = 2,
-		[48817] = 2,
-		[54741] = 8,
-		[65003] = 7,
+		[45470] = 6,
+		[65003] = 5,
 		[19746] = 2,
-		[66883] = "Schreckensmaul",
-		[60210] = "Eiskältepfeil I",
+		[64044] = 5,
 		[57970] = 4,
-		[65813] = 5,
-		[686] = 9,
+		[65813] = 2,
+		[48827] = 2,
 		[47836] = 9,
 		[66005] = "Baelnor Lichtträger",
 		[66069] = "Eydis Nachtbann",
 		[22959] = 8,
 		[66197] = "Lord Jaraxxus",
-		[29077] = 8,
-		[53652] = 2,
 		[42945] = 8,
-		[17941] = 9,
-		[51514] = 7,
 		[48156] = 5,
-		[55382] = 5,
-		[71824] = 7,
-		[53353] = 3,
+		[65686] = 6,
 		[65814] = "Serissa Düsterhauch",
 		[66901] = "Ätzschlund",
 		[34026] = 3,
-		[66006] = "Baelnor Lichtträger",
+		[52472] = "Wixi <Deusdominik>",
 		[66070] = "Melador Talwanderer",
-		[66134] = "Nerubischer Gräber",
-		[55637] = 8,
+		[64844] = 5,
 		[20178] = 2,
-		[48540] = 4,
-		[48572] = 11,
-		[67360] = 11,
-		[50589] = 9,
+		[65004] = 7,
 		[48668] = 4,
-		[67669] = 5,
-		[49088] = 6,
-		[55271] = 6,
+		[67669] = 9,
+		[53749] = 2,
+		[66494] = "Teuflische Höllenbestie <Lord Jaraxxus>",
 		[65815] = "Serissa Düsterhauch",
 		[66902] = "Schreckensmaul",
 		[64205] = 2,
 		[66007] = "Baelnor Lichtträger",
 		[66071] = "Melador Talwanderer",
-		[51963] = "Schwarzer Gargoyle <Delmonte>",
+		[52025] = "Totem der Reinigung <Thrallsmom>",
 		[66199] = "[*] Legionsflamme",
-		[32223] = 2,
+		[67345] = "Eisheuler",
 		[49052] = 3,
-		[1953] = 8,
-		[66233] = 2,
+		[10326] = 2,
+		[48125] = 5,
 		[66519] = "Teuflische Höllenbestie <Lord Jaraxxus>",
 		[60433] = 11,
 		[28714] = 8,
-		[28730] = 5,
+		[55382] = 7,
 		[49276] = 7,
 		[65816] = "Serissa Düsterhauch",
-		[65880] = "Alyssia Mondpirscher",
+		[29801] = 1,
 		[34027] = 3,
 		[66008] = "Baelnor Lichtträger",
-		[32175] = 7,
-		[34123] = 11,
+		[66048] = "Fjola Lichtbann",
+		[51514] = 7,
 		[48477] = 11,
 		[66264] = "Netherportal <Lord Jaraxxus>",
 		[61840] = 2,
-		[18499] = 1,
-		[67354] = 11,
+		[66059] = "Eydis Nachtbann",
+		[66003] = "Baelnor Lichtträger",
 		[18708] = 9,
-		[30809] = 7,
-		[65857] = "Kavina Haineslied",
-		[48543] = 6,
-		[48659] = 4,
+		[43012] = 8,
+		[65809] = "Serissa Düsterhauch",
+		[58861] = "Geisterwolf <Krolvar>",
+		[66877] = "Legionsflamme <Mizune>",
 		[65817] = "Serissa Düsterhauch",
-		[1044] = 2,
+		[65799] = "Noozle Zischelstock",
 		[47838] = 9,
-		[66009] = "Velanaa",
-		[34477] = 3,
+		[52985] = 5,
+		[20268] = 2,
 		[55095] = 6,
-		[60242] = 5,
-		[32592] = 5,
-		[63375] = 7,
+		[49231] = 7,
+		[66010] = "Baelnor Lichtträger",
+		[16870] = 11,
 		[16886] = 11,
-		[31224] = 4,
+		[53209] = 3,
 		[6795] = 11,
 		[48158] = 5,
-		[53768] = 7,
-		[51690] = 4,
-		[57842] = 4,
-		[7744] = 4,
-		[8515] = 7,
+		[67354] = 11,
+		[57319] = 2,
+		[65869] = "Alyssia Mondpirscher",
+		[32375] = 5,
+		[66255] = "Höllischer Vulkan <Lord Jaraxxus>",
 		[65946] = "Shocuul",
-		[66010] = "Velanaa",
-		[47502] = 1,
-		[48446] = 11,
-		[44401] = 8,
-		[54648] = 8,
-		[48542] = 2,
-		[48574] = 11,
-		[55767] = 2,
-		[67545] = 8,
-		[1038] = 2,
-		[1463] = 8,
-		[66104] = "Anthar Schmiedenformer",
-		[48210] = "Gormok der Pfähler",
-		[65819] = "Serissa Düsterhauch",
+		[32391] = 9,
+		[4987] = 2,
+		[63375] = 7,
+		[19884] = 3,
+		[42940] = 8,
+		[66330] = "Gormok der Pfähler",
+		[65545] = "Brienna Tiefnacht",
+		[14181] = 4,
+		[65006] = 8,
+		[48480] = 11,
+		[9634] = 11,
+		[49045] = 3,
+		[63560] = 6,
+		[53913] = 11,
 		[65883] = "Alyssia Mondpirscher",
 		[65947] = "Shocuul",
-		[66011] = "Baelnor Lichtträger",
+		[51963] = "Schwarzer Gargoyle <Flitzelitis>",
 		[66075] = "Fjola Lichtbann",
-		[7922] = 1,
-		[48990] = 3,
-		[65809] = "Serissa Düsterhauch",
+		[69208] = 2,
+		[67519] = "Zhaagrym <Serissa Düsterhauch>",
+		[43046] = 8,
 		[66331] = "Gormok der Pfähler",
 		[20467] = 2,
-		[19579] = "Wixi <Deusdominik>",
-		[43012] = 8,
+		[8012] = 7,
+		[64495] = 3,
 		[43044] = 8,
 		[26669] = 4,
 		[53338] = 3,
-		[43186] = 2,
-		[54425] = "Ghaafun <Nîtrô>",
+		[11305] = 4,
+		[54425] = "Unbekannt <Skillzkillz>",
 		[53434] = 3,
-		[8220] = 7,
+		[65800] = "Noozle Zischelstock",
 		[66012] = "Anub'arak",
-		[53352] = 3,
-		[48447] = 11,
-		[2974] = 3,
-		[47488] = 1,
-		[64911] = 5,
-		[349981] = 7,
-		[58646] = 7,
-		[6150] = 3,
+		[33702] = 9,
+		[68186] = "Schwarmskarabäus",
+		[48020] = 9,
+		[50334] = 11,
+		[47520] = 1,
+		[349981] = 5,
+		[47440] = 1,
+		[50783] = 1,
 		[1494] = 3,
-		[32796] = 8,
-		[67739] = 11,
-		[12975] = 1,
-		[60052] = 3,
-		[63653] = 1,
-		[55001] = 1,
+		[29178] = 7,
+		[67739] = 7,
+		[58597] = 2,
+		[348704] = 2,
+		[65543] = "Anthar Schmiedenformer",
+		[30809] = 7,
 		[66013] = "Anub'arak",
-		[65490] = "Brienna Tiefnacht",
-		[64413] = 7,
-		[67358] = 11,
+		[54968] = 2,
+		[17364] = 7,
+		[53307] = 11,
 		[29131] = 1,
 		[42917] = 8,
-		[770] = 11,
-		[69366] = 11,
-		[66269] = "Lord Jaraxxus",
+		[31834] = 2,
+		[59628] = 4,
+		[23881] = 1,
 		[57367] = 3,
-		[57399] = 2,
-		[67740] = 11,
+		[57399] = 8,
+		[53339] = 3,
 		[49279] = 7,
 		[379] = 7,
 		[16188] = 7,
 		[65950] = "Fjola Lichtbann",
-		[59637] = "Spiegelbild <Andrés>",
-		[57623] = 6,
-		[53563] = 2,
-		[48480] = 11,
+		[59637] = "Spiegelbild <Midichlorian>",
+		[58646] = 7,
+		[67210] = 4,
+		[20164] = 2,
+		[63848] = 4,
+		[50590] = 9,
+		[67322] = "Nerubischer Gräber",
 		[47585] = 5,
-		[69403] = 2,
-		[64707] = 11,
-		[67485] = 2,
-		[53755] = 7,
+		[53755] = 8,
 		[48672] = 4,
-		[13877] = 4,
-		[50782] = 1,
+		[66689] = "Eisheuler",
+		[67741] = 2,
 		[57975] = 4,
 		[60053] = 3,
 		[47809] = 9,
-		[60065] = 11,
-		[65264] = 7,
-		[54043] = 11,
-		[768] = 11,
+		[54498] = 2,
+		[48300] = 5,
+		[54043] = 2,
+		[67490] = 2,
 		[66207] = "Alyssia Mondpirscher",
-		[22482] = 4,
-		[54171] = 2,
+		[22482] = "Irieth Schattenschritt",
+		[53148] = "Wixi <Deusdominik>",
 		[42950] = 8,
 		[65488] = "Brienna Tiefnacht",
+		[31616] = 7,
+		[8220] = 3,
 		[49233] = 7,
-		[43046] = 8,
-		[53308] = 11,
-		[11305] = 4,
-		[12964] = 1,
-		[53148] = "Wixi <Deusdominik>",
+		[67742] = 2,
+		[1044] = 2,
+		[52874] = 4,
 		[32409] = "[*] Schattenwort: Tod",
-		[20132] = 2,
-		[59638] = "Spiegelbild <Andrés>",
+		[67485] = 2,
+		[59638] = "Spiegelbild <Midichlorian>",
 		[50463] = 6,
-		[46356] = 8,
-		[413763] = 1,
-		[61411] = 2,
+		[55610] = 6,
+		[48785] = 2,
+		[67740] = 7,
 		[66336] = "Herrin der Schmerzen <Lord Jaraxxus>",
-		[48577] = 11,
-		[20186] = 2,
+		[49088] = 6,
+		[65791] = "Noozle Zischelstock",
 		[66528] = "Lord Jaraxxus",
-		[33357] = 11,
-		[47437] = 1,
-		[67743] = 8,
-		[47995] = "Unbekannt <Graveofjenna>",
-		[12472] = 8,
-		[56815] = 6,
-		[5225] = 11,
-		[5229] = 11,
+		[12292] = 1,
+		[48210] = "Gormok der Pfähler",
+		[67743] = 9,
+		[52000] = 7,
+		[48801] = 2,
+		[59052] = 6,
+		[53365] = 6,
+		[71132] = 5,
 		[59159] = 7,
 		[63283] = 7,
-		[28093] = 2,
+		[47875] = 1,
 		[61301] = 7,
-		[12536] = 8,
+		[54172] = 2,
 		[48066] = 5,
-		[68055] = 2,
-		[47843] = 9,
+		[47813] = 9,
+		[424340] = "Großer Feuerelementar <Kuhtentach>",
 		[48162] = 5,
-		[47875] = 11,
-		[67744] = 8,
+		[52286] = 6,
+		[67744] = 9,
 		[20053] = 2,
 		[54428] = 2,
-		[66019] = "Tyrius Dämmerklinge",
+		[17800] = 9,
 		[65954] = "Irieth Schattenschritt",
 		[66018] = "Tyrius Dämmerklinge",
 		[2139] = 8,
-		[67490] = 5,
-		[29178] = 7,
-		[65919] = "Anub'arak",
-		[31786] = 2,
-		[48108] = 8,
-		[14181] = 4,
-		[64999] = 2,
-		[48945] = 2,
+		[47877] = 4,
+		[53353] = 3,
+		[57842] = 4,
+		[51585] = 4,
+		[47825] = 9,
+		[50526] = 6,
+		[55198] = 7,
+		[49281] = 7,
 		[32553] = 9,
-		[30824] = 7,
+		[64382] = 1,
 		[59000] = 5,
-		[67683] = 6,
+		[35706] = 9,
 		[47811] = 9,
 		[65955] = "Irieth Schattenschritt",
 		[49921] = 6,
 		[53022] = 5,
 		[46916] = 1,
-		[66047] = "Tyrius Dämmerklinge",
+		[32175] = 7,
 		[64371] = 9,
-		[52759] = 7,
-		[65957] = "Irieth Schattenschritt",
-		[48099] = 5,
-		[52000] = 7,
-		[64372] = 11,
-		[23602] = 1,
-		[20549] = 11,
+		[48160] = 5,
+		[48421] = 11,
+		[65490] = "Brienna Tiefnacht",
+		[50401] = 6,
+		[43002] = 8,
+		[31786] = 2,
+		[67746] = 1,
 		[31818] = 9,
-		[31834] = 2,
-		[62078] = 11,
-		[61654] = 7,
+		[65828] = 8,
+		[51411] = 6,
+		[65956] = "Irieth Schattenschritt",
 		[66020] = "Tyrius Dämmerklinge",
-		[348704] = 2,
-		[48451] = 11,
+		[51714] = 6,
+		[1038] = 2,
 		[31930] = 2,
 		[18647] = 9,
-		[67378] = 2,
-		[48579] = 11,
+		[47843] = 9,
+		[686] = 9,
 		[10890] = 5,
 		[53758] = 2,
-		[65686] = 7,
+		[51722] = 4,
 		[48707] = 6,
-		[57755] = 1,
-		[12976] = 1,
-		[57819] = 2,
-		[50783] = 1,
-		[17800] = 9,
+		[67747] = 1,
+		[51690] = 4,
+		[66011] = "Baelnor Lichtträger",
+		[57993] = 4,
+		[65957] = "Irieth Schattenschritt",
 		[66021] = "Tyrius Dämmerklinge",
-		[19878] = 3,
-		[65863] = "Kavina Haineslied",
+		[53023] = 5,
+		[75999] = 5,
 		[35696] = 9,
 		[16857] = 11,
-		[42921] = 8,
+		[61792] = 5,
 		[48068] = 5,
 		[68515] = "Schwarmskarabäus",
 		[58362] = 1,
-		[57371] = 1,
-		[67684] = 2,
+		[57371] = 6,
+		[67684] = 7,
 		[6552] = 1,
 		[65766] = "Fjola Lichtbann",
-		[61336] = 11,
+		[398478] = 2,
 		[57531] = 8,
-		[47813] = 9,
-		[58427] = 4,
-		[48420] = 11,
-		[59674] = 5,
+		[51425] = 6,
+		[50475] = 6,
+		[66086] = "Melador Talwanderer",
+		[66870] = 2,
 		[20166] = 2,
-		[51585] = 4,
+		[16237] = 7,
 		[61847] = 3,
-		[25329] = 5,
-		[20230] = 1,
-		[65012] = 2,
-		[48676] = 4,
-		[54846] = 11,
-		[64085] = 5,
+		[6150] = 3,
+		[64701] = 7,
+		[65012] = 11,
+		[48301] = 5,
+		[25228] = 9,
+		[60513] = 2,
 		[65767] = "Fjola Lichtbann",
 		[15286] = 5,
 		[60089] = 11,
-		[48517] = 11,
-		[47877] = 11,
-		[48932] = 2,
-		[49281] = 7,
-		[23881] = 1,
-		[55166] = 7,
-		[55198] = 7,
-		[66407] = "Schneeboldvasall",
-		[18658] = 11,
-		[64411] = 7,
-		[8221] = 8,
-		[53312] = 11,
+		[62606] = 11,
+		[66023] = "Tyrius Dämmerklinge",
+		[66532] = "Lord Jaraxxus",
 		[67574] = "Anub'arak",
-		[49284] = 7,
+		[48120] = 5,
+		[55166] = 7,
+		[61336] = 11,
+		[66407] = "Schneeboldvasall",
+		[48934] = 2,
+		[66359] = "Herrin der Schmerzen <Lord Jaraxxus>",
+		[8221] = 2,
+		[58427] = 4,
+		[67750] = 5,
+		[65768] = "Eydis Nachtbann",
 		[53408] = 2,
-		[13376] = "Großer Feuerelementar <Sikkxt>",
+		[13376] = "Großer Feuerelementar <Kuhtentach>",
 		[65960] = "Irieth Schattenschritt",
-		[31790] = 2,
-		[48421] = 11,
+		[66006] = "Baelnor Lichtträger",
+		[59674] = 5,
 		[58683] = 4,
 		[1680] = 1,
-		[57724] = 2,
-		[9634] = 11,
+		[57724] = 8,
+		[57073] = 1,
 		[66408] = "Schneeboldvasall",
-		[54053] = "Ghaafun <Nîtrô>",
-		[58875] = 7,
-		[60346] = 2,
-		[67355] = 11,
-		[54181] = 9,
-		[75999] = 5,
-		[51735] = 6,
-		[64790] = 2,
+		[57820] = 2,
+		[53760] = 2,
+		[24259] = "Unbekannt <Skillzkillz>",
+		[32592] = 5,
+		[50842] = 6,
+		[65769] = "Eydis Nachtbann",
+		[55360] = 8,
+		[413861] = 3,
 		[65961] = "Irieth Schattenschritt",
-		[59675] = 5,
+		[49924] = 6,
 		[26017] = 2,
-		[66099] = "Anthar Schmiedenformer",
+		[60218] = 11,
 		[42859] = 8,
 		[42891] = 8,
-		[53601] = 2,
+		[56222] = 6,
 		[6788] = 5,
 		[42987] = 8,
-		[48518] = 11,
-		[56350] = 7,
-		[53313] = 11,
-		[33778] = 11,
-		[14751] = 5,
-		[48934] = 2,
-		[33206] = 5,
+		[31583] = 8,
+		[56350] = 2,
+		[48263] = 6,
+		[53227] = 11,
+		[31884] = 2,
+		[57994] = 7,
+		[67371] = 2,
 		[65962] = "Irieth Schattenschritt",
-		[33891] = 11,
-		[48422] = 11,
-		[49273] = 7,
-		[24259] = "Zhaagrym <Serissa Düsterhauch>",
-		[52610] = 11,
-		[32747] = 2,
+		[63672] = 3,
+		[59675] = 5,
+		[34720] = 3,
+		[53601] = 2,
+		[48518] = 11,
+		[19878] = 3,
 		[1715] = 1,
-		[57821] = 6,
-		[65014] = 3,
-		[20647] = 1,
-		[1719] = 1,
-		[67753] = 2,
-		[66794] = "Schreckensmaul",
+		[57821] = 7,
+		[20186] = 2,
+		[48108] = 8,
+		[14751] = 5,
+		[67753] = 6,
+		[66794] = "Ätzschlund",
 		[48806] = 2,
 		[66922] = 2,
-		[63672] = 3,
+		[47528] = 6,
 		[20375] = 2,
 		[59164] = 9,
-		[22845] = 11,
-		[20185] = 2,
+		[66113] = "Velanaa",
+		[54203] = 2,
 		[66283] = "Herrin der Schmerzen <Lord Jaraxxus>",
-		[51460] = 6,
+		[48823] = 2,
 		[48071] = 5,
-		[12809] = 1,
-		[48135] = 5,
-		[50213] = 11,
-		[55360] = 8,
-		[66092] = "Schwarmskarabäus",
-		[6940] = 2,
-		[67371] = 2,
-		[31852] = 2,
-		[34490] = 3,
-		[53506] = 11,
-		[59676] = 5,
-		[33110] = 5,
-		[66093] = "Melador Talwanderer",
-		[25810] = "Viper",
-		[47528] = 6,
-		[63675] = 5,
-		[57822] = 11,
-		[53762] = 2,
-		[55459] = 7,
-		[70893] = 3,
-		[31583] = 8,
-		[66796] = "Schreckensmaul",
-		[63321] = 9,
-		[65858] = "Fjola Lichtbann",
-		[48125] = 5,
-		[31117] = 9,
+		[51886] = 7,
+		[43185] = 5,
+		[66055] = "Saamul",
+		[49222] = 6,
 		[19880] = 3,
-		[53307] = 2,
+		[6940] = 2,
+		[60480] = 9,
+		[31852] = 2,
+		[63652] = 6,
+		[53506] = 11,
+		[20647] = 1,
+		[33110] = 5,
 		[56160] = 5,
-		[64442] = 2,
-		[42925] = 8,
+		[413763] = 1,
+		[33206] = 5,
+		[65871] = "Alyssia Mondpirscher",
+		[57822] = 8,
+		[53762] = 2,
+		[29166] = 11,
 		[64440] = 2,
+		[65930] = "Shocuul",
+		[66796] = "Schreckensmaul",
+		[60052] = 3,
+		[13877] = 4,
+		[57567] = 9,
+		[33786] = 11,
+		[66093] = "Melador Talwanderer",
+		[47753] = 5,
+		[63321] = 9,
+		[65877] = "Alyssia Mondpirscher",
+		[53817] = 7,
+		[48072] = 5,
 		[12042] = 8,
-		[53251] = 11,
+		[34837] = 3,
 		[48168] = 5,
-		[1784] = 4,
+		[59578] = 2,
 		[16166] = 7,
 		[47241] = 9,
-		[47465] = 1,
-		[58750] = 7,
-		[54498] = 2,
-		[20216] = 2,
+		[65880] = "Alyssia Mondpirscher",
+		[28272] = 8,
+		[10060] = 5,
+		[65878] = "Alyssia Mondpirscher",
 		[67117] = 6,
 		[57663] = 7,
 		[20168] = 2,
-		[20184] = 2,
+		[58750] = 7,
 		[16246] = 7,
-		[25331] = 5,
-		[57823] = 1,
-		[31884] = 2,
-		[48072] = 5,
-		[44781] = 8,
-		[15271] = 5,
-		[47753] = 5,
-		[39609] = "Totem der Manaflut <Kahmoony>",
-		[57984] = "Großer Feuerelementar <Sikkxt>",
+		[20216] = 2,
+		[47468] = "Ghul aus der Armee der Toten|T237511:0|t <Scätix>",
+		[65858] = "Fjola Lichtbann",
+		[12472] = 8,
+		[8222] = 3,
+		[66734] = "Eisheuler",
+		[65775] = "Schwarmskarabäus",
+		[20424] = 2,
+		[19658] = "Unbekannt <Skillzkillz>",
 		[49895] = 6,
-		[49800] = 11,
-		[48073] = 5,
-		[15359] = 5,
+		[28730] = 2,
+		[66177] = "Anthar Schmiedenformer",
+		[31224] = 4,
 		[56161] = 5,
-		[5118] = 3,
-		[42926] = 8,
-		[2565] = 1,
-		[53220] = 3,
-		[3137] = 2,
-		[8222] = 8,
-		[55362] = 8,
 		[48265] = 6,
+		[770] = 11,
+		[15359] = 5,
+		[53220] = 3,
+		[12536] = 8,
+		[48169] = 5,
+		[55362] = 8,
+		[54181] = 9,
 		[31821] = 2,
-		[53412] = "Wolf <Saathunt>",
+		[18499] = 1,
 		[10308] = 2,
 		[54499] = 2,
-		[45548] = 8,
+		[58433] = 3,
 		[58655] = 7,
-		[8219] = 8,
-		[36213] = "Großer Erdelementar <Scynera>",
-		[47498] = 1,
+		[45242] = 5,
+		[34471] = 3,
+		[66099] = "Anthar Schmiedenformer",
 		[49576] = 6,
-		[66023] = "Tyrius Dämmerklinge",
-		[54755] = 11,
-		[58879] = "Geisterwolf <Sikkxt>",
-		[33786] = 11,
-		[67695] = 4,
-		[52474] = "Wolf <Saathunt>",
-		[19801] = 3,
-		[24932] = 11,
-		[52985] = 5,
-		[10444] = 7,
-		[65775] = "Schwarmskarabäus",
-		[66734] = "Eisheuler",
-		[50842] = 6,
-		[49001] = 3,
 		[68335] = "Schreckensmaul",
+		[45548] = 1,
+		[58879] = "Geisterwolf <Krolvar>",
+		[67378] = 2,
+		[64058] = 5,
+		[67759] = 11,
+		[57984] = "Großer Feuerelementar <Kuhtentach>",
+		[24932] = 11,
+		[48011] = "Unbekannt <Skillzkillz>",
+		[10444] = 7,
+		[64442] = 2,
+		[48517] = 11,
+		[48938] = 2,
+		[49001] = 3,
+		[5246] = 1,
 		[49065] = 3,
 		[48074] = 5,
-		[10060] = 5,
-		[1776] = 4,
-		[48170] = 5,
-		[1766] = 4,
-		[34837] = 3,
-		[48266] = 6,
-		[43183] = 11,
 		[51399] = 6,
+		[46356] = 8,
+		[48170] = 5,
+		[51271] = 6,
+		[67760] = 11,
+		[48266] = 6,
+		[55459] = 7,
+		[63675] = 5,
 		[65970] = "Shaabad",
-		[34501] = 3,
+		[59072] = 11,
 		[66098] = "Anthar Schmiedenformer",
-		[20153] = "Höllenbestie <Nîtrô>",
+		[20153] = "Höllenbestie <Runlikêhell>",
 		[50536] = 6,
-		[17116] = 11,
-		[65769] = "Eydis Nachtbann",
+		[20185] = 2,
+		[60437] = 1,
 		[41425] = 8,
 		[53733] = 2,
-		[49222] = 6,
-		[60347] = 2,
-		[2457] = 1,
-		[32375] = 5,
+		[55637] = 8,
+		[17941] = 9,
+		[59676] = 5,
+		[69403] = 2,
 		[47755] = 5,
-		[47815] = 9,
-		[48063] = 5,
+		[31842] = 2,
+		[51911] = 6,
 		[65971] = "Shaabad",
 		[47883] = 9,
-		[48938] = 2,
-		[871] = 1,
+		[54053] = "Nheelum <Runlikêhell>",
+		[70893] = 3,
 		[2687] = 1,
 		[54149] = 2,
-		[60319] = 6,
+		[64411] = 2,
 		[53190] = 11,
-		[29166] = 11,
+		[55268] = 6,
 		[53254] = 3,
-		[12826] = 8,
-		[58433] = 3,
-		[70940] = 2,
+		[66880] = "Ätzschlund",
+		[31790] = 2,
+		[44781] = 8,
 		[66803] = 6,
-		[65006] = 7,
-		[53760] = 1,
+		[67890] = 5,
+		[48638] = 4,
 		[65972] = "Shaabad",
-		[59578] = 2,
-		[65861] = "Kavina Haineslied",
+		[28682] = 8,
+		[66100] = "Anthar Schmiedenformer",
 		[25780] = 2,
-		[47468] = "Unbekannt <Delmonte>",
+		[64859] = 6,
 		[64891] = 2,
-		[47520] = 1,
-		[66770] = "Eisheuler",
-		[63560] = 6,
-		[65019] = 1,
-		[16237] = 7,
-		[66086] = "Melador Talwanderer",
+		[56815] = 6,
+		[48018] = 9,
+		[50589] = 9,
+		[65019] = 3,
+		[1784] = 4,
+		[69366] = 11,
 		[12970] = 1,
-		[49802] = 11,
+		[47476] = 6,
 		[60064] = 11,
-		[53023] = 5,
+		[20184] = 2,
 		[65973] = "Shaabad",
 		[49930] = 6,
-		[66017] = "Tyrius Dämmerklinge",
+		[67545] = 8,
 		[42833] = 8,
-		[66532] = "Lord Jaraxxus",
+		[1766] = 4,
 		[42897] = 8,
-		[65956] = "Irieth Schattenschritt",
-		[65828] = 2,
+		[67380] = 6,
+		[48076] = 5,
 		[12043] = 8,
 		[12051] = 8,
 		[66613] = "Velanaa",
 		[58434] = 3,
 		[413764] = 1,
-		[57475] = 3,
-		[48300] = 5,
-		[16870] = 11,
+		[15271] = 5,
+		[475] = 8,
+		[65868] = "Alyssia Mondpirscher",
 		[65974] = "Shaabad",
 		[34074] = 3,
-		[48160] = 5,
+		[67793] = "Katze <Alyssia Mondpirscher>",
 		[14177] = 4,
-		[57965] = 4,
+		[20170] = 2,
 		[58754] = 7,
-		[47857] = 9,
-		[52472] = "Wixi <Deusdominik>",
+		[51460] = 6,
+		[55233] = 6,
 		[54758] = 2,
-		[48418] = 11,
-		[33198] = 5,
-		[20240] = 1,
-		[50464] = 11,
-		[16280] = 7,
-		[66870] = 2,
-		[48801] = 2,
-		[39104] = 7,
-		[8643] = 4,
+		[65998] = "Totem der Verbrennung <Saamul>",
+		[63653] = 1,
+		[71824] = 7,
+		[60347] = 2,
+		[66009] = "Velanaa",
+		[60065] = 2,
+		[47815] = 9,
+		[1719] = 1,
+		[53000] = 5,
 		[55078] = 6,
-		[34650] = "Schattengeist <Illúsion>",
-		[65869] = "Alyssia Mondpirscher",
-		[65854] = "Kavina Haineslied",
-		[66359] = "Herrin der Schmerzen <Lord Jaraxxus>",
-		[48127] = 5,
-		[51178] = 11,
+		[34650] = "Schattengeist <Trollpatshig>",
+		[66269] = "Lord Jaraxxus",
+		[64790] = 6,
+		[64413] = 2,
+		[58505] = 1,
+		[34490] = 3,
 		[2825] = 7,
 		[48173] = 5,
-		[12292] = 1,
-		[60513] = 2,
+		[53652] = 2,
+		[53352] = 3,
 		[56453] = 3,
-		[48301] = 5,
-		[64701] = 7,
-		[50411] = "Treant <Widi>",
+		[43186] = 7,
+		[19579] = "Wixi <Deusdominik>",
+		[50411] = "Treant <Zumbleistift>",
 		[34075] = 3,
-		[50475] = 6,
+		[66104] = "Anthar Schmiedenformer",
 		[48461] = 11,
-		[61792] = 5,
+		[44401] = 8,
 		[19675] = 11,
-		[67383] = 6,
-		[31842] = 2,
+		[70940] = 2,
+		[12964] = 1,
 		[34299] = 2,
-		[51722] = 4,
-		[65856] = "Kavina Haineslied",
-		[53817] = 7,
+		[53768] = 7,
+		[32747] = 2,
+		[58875] = 7,
 		[67767] = "Tyrius Dämmerklinge",
-		[48466] = 11,
-		[50590] = 9,
+		[5229] = 11,
+		[49284] = 7,
 		[63167] = 9,
-		[53209] = 3,
-		[66177] = "Anthar Schmiedenformer",
+		[65879] = "Eydis Nachtbann",
+		[68055] = 2,
 		[19883] = 3,
 		[52042] = 7,
-		[35706] = 9,
-		[64382] = 1,
+		[66233] = 2,
+		[1953] = 8,
 		[42931] = 8,
-		[60437] = 11,
-		[42995] = 8,
+		[48078] = 5,
+		[57965] = 4,
 		[53257] = 3,
-		[48467] = 11,
-		[2893] = 11,
+		[61654] = 7,
+		[30824] = 7,
 		[2895] = 7,
 		[53385] = 2,
-		[53913] = 5,
-		[63654] = 2,
+		[33198] = 5,
+		[53654] = 2,
 		[65978] = "Shaabad",
-		[50526] = 6,
-		[58578] = 6,
+		[8643] = 4,
+		[48784] = 2,
 		[57669] = 2,
-		[30486] = 4,
-		[66053] = "Saamul",
+		[13750] = 4,
+		[5116] = 3,
 		[67385] = 7,
 		[30449] = 8,
 		[29442] = 8,
@@ -1970,73 +1906,73 @@ _detalhes_global = {
 		[48782] = 2,
 		[65182] = 2,
 		[8647] = 4,
-		[31616] = 7,
-		[57332] = 2,
+		[47855] = 9,
+		[65860] = "Melador Talwanderer",
 		[48942] = 2,
-		[22812] = 11,
+		[64707] = 5,
 		[66235] = 2,
-		[13810] = 3,
-		[17057] = 11,
-		[63848] = 4,
-		[49045] = 3,
-		[57350] = 5,
+		[54153] = 2,
+		[67360] = 11,
+		[66019] = "Tyrius Dämmerklinge",
+		[34477] = 3,
+		[65792] = "Noozle Zischelstock",
 		[498] = 2,
 		[66683] = "Eisheuler",
-		[65724] = 8,
-		[44450] = 8,
-		[65930] = "Shocuul",
+		[48788] = 2,
+		[58501] = 1,
+		[49938] = 6,
 		[65916] = "Fjola Lichtbann",
-		[58597] = 2,
-		[48638] = 4,
-		[54172] = 2,
-		[47440] = 1,
-		[16591] = 4,
-		[69369] = 11,
-		[66059] = "Eydis Nachtbann",
+		[59620] = 2,
+		[13810] = 3,
+		[53595] = 2,
+		[48463] = 11,
+		[16591] = 1,
+		[52474] = "Sicklikeme <Erthao>",
+		[41635] = 5,
 		[47568] = 6,
-		[20748] = 11,
+		[58578] = 6,
 		[47632] = 6,
-		[65868] = "Alyssia Mondpirscher",
-		[60995] = 9,
+		[66017] = "Tyrius Dämmerklinge",
+		[56903] = 6,
 		[23880] = 1,
-		[65936] = "Shocuul",
-		[66320] = "Feuerbombe",
+		[24858] = 11,
+		[20271] = 2,
 		[35548] = 4,
-		[413843] = 8,
-		[50334] = 11,
+		[51637] = 4,
+		[63655] = 4,
 		[48943] = 2,
 		[32176] = 7,
 		[66237] = "Lord Jaraxxus",
-		[35395] = 2,
+		[65936] = "Shocuul",
 		[67388] = 7,
 		[53195] = 11,
-		[57319] = 2,
-		[8983] = 11,
-		[48378] = 11,
-		[49231] = 7,
-		[67772] = 4,
-		[65879] = "Eydis Nachtbann",
-		[56488] = 7,
-		[48443] = 11,
-		[52212] = 6,
-		[59653] = 1,
-		[48444] = 11,
-		[67793] = "Katze <Alyssia Mondpirscher>",
-		[65877] = "Alyssia Mondpirscher",
-		[66330] = "Gormok der Pfähler",
-		[48560] = 11,
+		[61411] = 2,
+		[20132] = 2,
+		[59891] = 5,
+		[16959] = 11,
+		[5019] = 5,
+		[65790] = "Noozle Zischelstock",
+		[56488] = 2,
+		[48792] = 6,
+		[57623] = 6,
+		[66046] = "Fjola Lichtbann",
+		[64911] = 5,
+		[66053] = "Saamul",
+		[26297] = 8,
+		[49560] = 6,
+		[20511] = 1,
 		[3045] = 3,
-		[66494] = "Teuflische Höllenbestie <Lord Jaraxxus>",
-		[32391] = 9,
+		[53739] = 2,
+		[48127] = 5,
 	},
 	["shield_spellid_cache"] = {
 	},
-	["latest_encounter_spell_pool_access"] = 1692742192,
+	["latest_encounter_spell_pool_access"] = 1693949963,
 	["auto_open_news_window"] = false,
 	["got_first_run"] = true,
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["realtime_dps_size"] = 12,
+		["damage_taken_shadow"] = true,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -2052,12 +1988,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["damage_taken_shadow"] = true,
 		["damage_taken_anchor"] = {
 			["y"] = 0,
 			["x"] = 0,
 			["side"] = 7,
 		},
+		["realtime_dps_size"] = 12,
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -2649,7 +2585,7 @@ _detalhes_global = {
 						["texture_custom"] = "",
 						["use_spec_icons"] = true,
 						["textR_enable_custom_text"] = false,
-						["textR_class_colors"] = false,
+						["texture_background"] = "Details D'ictum (reverse)",
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -2657,7 +2593,7 @@ _detalhes_global = {
 						},
 						["textL_show_number"] = true,
 						["alpha"] = 1,
-						["textL_class_colors"] = false,
+						["textR_class_colors"] = false,
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["texture"] = "Details Hyanda",
 						["space"] = {
@@ -2674,7 +2610,7 @@ _detalhes_global = {
 						["overlay_texture"] = "Details D'ictum",
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
-						["texture_background"] = "Details D'ictum (reverse)",
+						["textL_class_colors"] = false,
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -2844,9 +2780,8 @@ _detalhes_global = {
 					["bars_sort_direction"] = 1,
 					["rowareaborder_shown"] = false,
 					["StatusBarSaved"] = {
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["textColor"] = {
@@ -2893,6 +2828,7 @@ _detalhes_global = {
 								["textYMod"] = 1,
 							},
 						},
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 					},
 					["switch_healer_in_combat"] = false,
 					["version"] = 3,
@@ -2960,17 +2896,17 @@ _detalhes_global = {
 							0.333333333333333, -- [3]
 						},
 					},
+					["bars_grow_direction"] = 1,
+					["menu_anchor_down"] = {
+						16, -- [1]
+						-3, -- [2]
+					},
+					["switch_all_roles_after_wipe"] = false,
+					["hide_in_combat_type"] = 1,
 					["row_show_animation"] = {
 						["anim"] = "Fade",
 						["options"] = {
 						},
-					},
-					["bars_grow_direction"] = 1,
-					["switch_all_roles_after_wipe"] = false,
-					["hide_in_combat_type"] = 1,
-					["menu_anchor_down"] = {
-						16, -- [1]
-						-3, -- [2]
 					},
 					["switch_damager_in_combat"] = false,
 					["desaturated_menu"] = false,
@@ -3050,18 +2986,15 @@ _detalhes_global = {
 			["deny_score_messages"] = false,
 			["minimum_combat_time"] = 5,
 			["overall_clear_logout"] = false,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
 			["cloud_capture"] = true,
 			["damage_taken_everything"] = false,
 			["scroll_speed"] = 2,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
@@ -3333,8 +3266,11 @@ _detalhes_global = {
 				["tab_name"] = "",
 				["single_window"] = false,
 			},
-			["font_sizes"] = {
-				["menus"] = 10,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
 			},
 			["windows_fade_out"] = {
 				"out", -- [1]
@@ -3933,7 +3869,7 @@ _detalhes_global = {
 						["textL_outline"] = true,
 						["textR_outline_small"] = false,
 						["textL_outline_small"] = false,
-						["percent_type"] = 1,
+						["show_faction_icon"] = true,
 						["fixed_text_color"] = {
 							1, -- [1]
 							1, -- [2]
@@ -3975,13 +3911,13 @@ _detalhes_global = {
 							["upper_enabled"] = false,
 						},
 						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["show_faction_icon"] = true,
+						["textL_enable_custom_text"] = false,
 						["textL_translit_text"] = false,
 						["texture_custom_file"] = "Interface\\",
 						["texture_file"] = "Interface\\Addons\\SharedMedia\\statusbar\\Minimalist",
 						["icon_size_offset"] = 0,
 						["start_after_icon"] = false,
-						["textL_enable_custom_text"] = false,
+						["percent_type"] = 1,
 						["overlay_color"] = {
 							0.7, -- [1]
 							0.7, -- [2]
@@ -4396,7 +4332,7 @@ _detalhes_global = {
 						},
 					},
 					["hide_in_combat_type"] = 1,
-					["menu_icons_size"] = 0.850000023841858,
+					["fontstrings_text3_anchor"] = 35,
 					["titlebar_shown"] = false,
 					["menu_anchor"] = {
 						16, -- [1]
@@ -4416,7 +4352,7 @@ _detalhes_global = {
 					["bars_sort_direction"] = 1,
 					["use_auto_align_multi_fontstrings"] = true,
 					["rowareaborder_shown"] = false,
-					["switch_all_roles_in_combat"] = false,
+					["fullborder_shown"] = false,
 					["clickthrough_toolbaricons"] = false,
 					["row_info"] = {
 						["show_arena_role_icon"] = false,
@@ -4424,7 +4360,7 @@ _detalhes_global = {
 						["textL_outline"] = true,
 						["textR_outline_small"] = false,
 						["textL_outline_small"] = false,
-						["percent_type"] = 1,
+						["show_faction_icon"] = true,
 						["fixed_text_color"] = {
 							1, -- [1]
 							1, -- [2]
@@ -4466,13 +4402,13 @@ _detalhes_global = {
 							["upper_enabled"] = false,
 						},
 						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["show_faction_icon"] = true,
+						["textL_enable_custom_text"] = false,
 						["textL_translit_text"] = false,
 						["texture_custom_file"] = "Interface\\",
 						["texture_file"] = "Interface\\Addons\\SharedMedia\\statusbar\\Minimalist",
 						["icon_size_offset"] = 0,
 						["start_after_icon"] = false,
-						["textL_enable_custom_text"] = false,
+						["percent_type"] = 1,
 						["overlay_color"] = {
 							0.7, -- [1]
 							0.7, -- [2]
@@ -4635,7 +4571,7 @@ _detalhes_global = {
 					},
 					["__snapV"] = false,
 					["__snapH"] = true,
-					["fontstrings_text3_anchor"] = 35,
+					["menu_icons_size"] = 0.850000023841858,
 					["clickthrough_window"] = false,
 					["skin"] = "Minimalistic",
 					["__was_opened"] = true,
@@ -4655,7 +4591,7 @@ _detalhes_global = {
 					["fontstrings_text_limit_offset"] = -10,
 					["switch_healer"] = false,
 					["fontstrings_text2_anchor"] = 70,
-					["fullborder_shown"] = false,
+					["switch_all_roles_in_combat"] = false,
 					["use_multi_fontstrings"] = false,
 					["switch_damager_in_combat"] = false,
 					["menu_icons"] = {
@@ -5208,7 +5144,7 @@ _detalhes_global = {
 	["boss_mods_timers"] = {
 		["encounter_timers_bw"] = {
 		},
-		["latest_boss_mods_access"] = 1692742192,
+		["latest_boss_mods_access"] = 1693949963,
 		["encounter_timers_dbm"] = {
 			["66683"] = {
 				"66683", -- [1]
@@ -5222,27 +5158,27 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["66824"] = {
-				"66824", -- [1]
-				"Timer66824cd", -- [2]
-				"Paralysierender Biss CD", -- [3]
-				5, -- [4]
-				132107, -- [5]
+			["66269"] = {
+				"66269", -- [1]
+				"Timer66269cd", -- [2]
+				"Netherportal CD", -- [3]
+				20, -- [4]
+				132291, -- [5]
 				"cd", -- [6]
-				66824, -- [7]
-				3, -- [8]
-				"NorthrendBeasts", -- [9]
-				["id"] = 629,
+				66269, -- [7]
+				1, -- [8]
+				"Jaraxxus", -- [9]
+				["id"] = 633,
 			},
-			["66331"] = {
-				"66331", -- [1]
-				"Timer66331next", -- [2]
-				"Nächster Pfählen", -- [3]
-				10, -- [4]
-				132324, -- [5]
-				"next", -- [6]
-				66331, -- [7]
-				5, -- [8]
+			["66794"] = {
+				"66794", -- [1]
+				"Timer66794cd", -- [2]
+				"Feger CD", -- [3]
+				16, -- [4]
+				136104, -- [5]
+				"cd", -- [6]
+				66794, -- [7]
+				3, -- [8]
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
@@ -5258,17 +5194,17 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["66012"] = {
-				"66012", -- [1]
-				"Timer66012cd", -- [2]
-				"Gefrierender Streich CD", -- [3]
-				20, -- [4]
-				135844, -- [5]
+			["66824"] = {
+				"66824", -- [1]
+				"Timer66824cd", -- [2]
+				"Paralysierender Biss CD", -- [3]
+				5, -- [4]
+				132107, -- [5]
 				"cd", -- [6]
-				66012, -- [7]
-				5, -- [8]
-				"Anub'arak_Coliseum", -- [9]
-				["id"] = 645,
+				66824, -- [7]
+				3, -- [8]
+				"NorthrendBeasts", -- [9]
+				["id"] = 629,
 			},
 			["nil"] = {
 				"nil", -- [1]
@@ -5282,17 +5218,17 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["66901"] = {
-				"66901", -- [1]
-				"Timer66901cd", -- [2]
-				"Paralysierendes Sprühen CD", -- [3]
-				9, -- [4]
-				132104, -- [5]
+			["66333"] = {
+				"66333", -- [1]
+				"timerAdds", -- [2]
+				"Neue Adds", -- [3]
+				10, -- [4]
+				134321, -- [5]
 				"cd", -- [6]
-				66901, -- [7]
-				3, -- [8]
-				"NorthrendBeasts", -- [9]
-				["id"] = 629,
+				66333, -- [7]
+				1, -- [8]
+				"Anub'arak_Coliseum", -- [9]
+				["id"] = 645,
 			},
 			["66758"] = {
 				"66758", -- [1]
@@ -5320,9 +5256,9 @@ _detalhes_global = {
 			},
 			["66178"] = {
 				"66178", -- [1]
-				"Timer66178cd	Creature-0-4459-649-18842-34472-00006536AC", -- [2]
+				"Timer66178cd	Creature-0-4460-649-13990-34472-000077A843", -- [2]
 				"Schattenschritt CD", -- [3]
-				20, -- [4]
+				30, -- [4]
 				136243, -- [5]
 				"cd", -- [6]
 				66178, -- [7]
@@ -5332,7 +5268,7 @@ _detalhes_global = {
 			},
 			["65947"] = {
 				"65947", -- [1]
-				"Timer65947active	Creature-0-4459-649-18842-34475-00006536AC", -- [2]
+				"Timer65947active	Creature-0-4468-649-29384-34475-00007F93F2", -- [2]
 				"Klingensturm endet", -- [3]
 				8, -- [4]
 				236303, -- [5]
@@ -5354,29 +5290,29 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["39089"] = {
-				"39089", -- [1]
-				"TimerSpecialSpell", -- [2]
-				"Nächste Spezialfähigkeit", -- [3]
-				45, -- [4]
-				"132866", -- [5]
-				"cd", -- [6]
-				39089, -- [7]
-				6, -- [8]
-				"ValkTwins", -- [9]
-				["id"] = 641,
-			},
-			["66333"] = {
-				"66333", -- [1]
-				"timerAdds", -- [2]
-				"Neue Adds", -- [3]
+			["66331"] = {
+				"66331", -- [1]
+				"Timer66331next", -- [2]
+				"Nächster Pfählen", -- [3]
 				10, -- [4]
-				134321, -- [5]
+				132324, -- [5]
+				"next", -- [6]
+				66331, -- [7]
+				5, -- [8]
+				"NorthrendBeasts", -- [9]
+				["id"] = 629,
+			},
+			["66901"] = {
+				"66901", -- [1]
+				"Timer66901cd", -- [2]
+				"Paralysierendes Sprühen CD", -- [3]
+				9, -- [4]
+				132104, -- [5]
 				"cd", -- [6]
-				66333, -- [7]
-				1, -- [8]
-				"Anub'arak_Coliseum", -- [9]
-				["id"] = 645,
+				66901, -- [7]
+				3, -- [8]
+				"NorthrendBeasts", -- [9]
+				["id"] = 629,
 			},
 			["66819"] = {
 				"66819", -- [1]
@@ -5390,29 +5326,29 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["66636"] = {
-				"66636", -- [1]
-				"Timer66636next", -- [2]
-				"Nächster Aufkochende Wut", -- [3]
-				24.5, -- [4]
-				136088, -- [5]
-				"next", -- [6]
-				66636, -- [7]
-				1, -- [8]
-				"NorthrendBeasts", -- [9]
-				["id"] = 629,
+			["66013"] = {
+				"66013", -- [1]
+				"Timer66013active", -- [2]
+				"Durchdringende Kälte endet", -- [3]
+				15, -- [4]
+				135838, -- [5]
+				"cast", -- [6]
+				66013, -- [7]
+				5, -- [8]
+				"Anub'arak_Coliseum", -- [9]
+				["id"] = 645,
 			},
-			["66269"] = {
-				"66269", -- [1]
-				"Timer66269cd", -- [2]
-				"Netherportal CD", -- [3]
+			["66012"] = {
+				"66012", -- [1]
+				"Timer66012cd", -- [2]
+				"Gefrierender Streich CD", -- [3]
 				20, -- [4]
-				132291, -- [5]
+				135844, -- [5]
 				"cd", -- [6]
-				66269, -- [7]
-				1, -- [8]
-				"Jaraxxus", -- [9]
-				["id"] = 633,
+				66012, -- [7]
+				5, -- [8]
+				"Anub'arak_Coliseum", -- [9]
+				["id"] = 645,
 			},
 			["66879"] = {
 				"66879", -- [1]
@@ -5426,17 +5362,17 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["66794"] = {
-				"66794", -- [1]
-				"Timer66794cd", -- [2]
-				"Feger CD", -- [3]
-				16, -- [4]
-				136104, -- [5]
+			["39089"] = {
+				"39089", -- [1]
+				"TimerSpecialSpell", -- [2]
+				"Nächste Spezialfähigkeit", -- [3]
+				45, -- [4]
+				"132866", -- [5]
 				"cd", -- [6]
-				66794, -- [7]
-				3, -- [8]
-				"NorthrendBeasts", -- [9]
-				["id"] = 629,
+				39089, -- [7]
+				6, -- [8]
+				"ValkTwins", -- [9]
+				["id"] = 641,
 			},
 			["66197"] = {
 				"66197", -- [1]
@@ -5498,17 +5434,17 @@ _detalhes_global = {
 				"NorthrendBeasts", -- [9]
 				["id"] = 629,
 			},
-			["66013"] = {
-				"66013", -- [1]
-				"Timer66013active", -- [2]
-				"Durchdringende Kälte endet", -- [3]
-				15, -- [4]
-				135838, -- [5]
-				"cast", -- [6]
-				66013, -- [7]
-				5, -- [8]
-				"Anub'arak_Coliseum", -- [9]
-				["id"] = 645,
+			["66636"] = {
+				"66636", -- [1]
+				"Timer66636next", -- [2]
+				"Nächster Aufkochende Wut", -- [3]
+				24.5, -- [4]
+				136088, -- [5]
+				"next", -- [6]
+				66636, -- [7]
+				1, -- [8]
+				"NorthrendBeasts", -- [9]
+				["id"] = 629,
 			},
 			["65919"] = {
 				"65919", -- [1]
@@ -5524,9 +5460,9 @@ _detalhes_global = {
 			},
 			["66017"] = {
 				"66017", -- [1]
-				"Timer66017cd	Creature-0-4459-649-18842-34461-00006536AC", -- [2]
+				"Timer66017cd	Creature-0-4468-649-29384-34461-00007F93F2", -- [2]
 				"Todesgriff CD", -- [3]
-				20, -- [4]
+				35, -- [4]
 				237532, -- [5]
 				"cd", -- [6]
 				66017, -- [7]
@@ -5561,9 +5497,9 @@ _detalhes_global = {
 	["class_time_played"] = {
 		[2] = {
 			["MAGE"] = 140.304999999993,
-			["DRUID"] = 17820.13599999997,
+			["DRUID"] = 17847.84399999993,
 			["WARLOCK"] = 516.9319999999971,
-			["PALADIN"] = 40823.01500000013,
+			["PALADIN"] = 54953.85800000007,
 		},
 	},
 	["parser_options"] = {
@@ -5598,134 +5534,194 @@ _detalhes_global = {
 		["on_leavecombat"] = "\n-- this code runs when the player leave combat",
 		["on_entercombat"] = "\n-- this code runs when the player enters in combat",
 	},
-	["latest_npcid_pool_access"] = 1692742192,
+	["latest_npcid_pool_access"] = 1693949963,
 	["exit_errors"] = {
 	},
 	["item_level_pool"] = {
-		["Player-4477-01E72A3E"] = {
-			["time"] = 1693091344,
-			["name"] = "Límít",
-			["ilvl"] = 250,
-		},
-		["Player-4477-03B3C02F"] = {
-			["time"] = 1693091433,
-			["name"] = "Gnag",
-			["ilvl"] = 245,
-		},
-		["Player-4477-04EA1F09"] = {
-			["time"] = 1693091426,
-			["name"] = "Beaconjus",
-			["ilvl"] = 238,
-		},
-		["Player-4477-0469403B"] = {
-			["time"] = 1693091442,
-			["name"] = "Nîtrô",
-			["ilvl"] = 249,
-		},
-		["Player-4477-04F2C75F"] = {
-			["time"] = 1693091594,
-			["name"] = "Giaru",
-			["ilvl"] = 222.4666666666667,
-		},
-		["Player-4477-04644F00"] = {
-			["time"] = 1693091455,
-			["name"] = "Letsburn",
-			["ilvl"] = 242,
-		},
-		["Player-4477-04DA2934"] = {
-			["time"] = 1693091059,
-			["name"] = "Shamir",
-			["ilvl"] = 247.2666666666667,
-		},
-		["Player-4477-0124B6B3"] = {
-			["time"] = 1693091450,
-			["name"] = "Happydots",
-			["ilvl"] = 228,
-		},
-		["Player-4477-04D8599C"] = {
-			["time"] = 1693091442,
-			["name"] = "Naphthaa",
-			["ilvl"] = 244,
-		},
-		["Player-4477-03B1BACB"] = {
-			["time"] = 1693091403,
-			["name"] = "Scynera",
-			["ilvl"] = 244,
-		},
-		["Player-4477-04F66D50"] = {
-			["time"] = 1693091449,
-			["name"] = "Andrés",
-			["ilvl"] = 242,
-		},
-		["Player-4477-04F36FC8"] = {
-			["time"] = 1693091411,
-			["name"] = "Backout",
-			["ilvl"] = 249,
-		},
-		["Player-4477-04F29676"] = {
-			["time"] = 1693091023,
-			["name"] = "Hopéless",
-			["ilvl"] = 237.6,
-		},
-		["Player-4477-04760259"] = {
-			["time"] = 1693091426,
-			["name"] = "Myjuice",
-			["ilvl"] = 247,
-		},
-		["Player-4477-042DFE09"] = {
-			["time"] = 1693091656,
-			["name"] = "Graveofmaria",
-			["ilvl"] = 239.8666666666667,
-		},
-		["Player-4477-04F13224"] = {
-			["time"] = 1693091481,
-			["name"] = "Jerkxx",
-			["ilvl"] = 242,
-		},
-		["Player-4477-044721D6"] = {
-			["time"] = 1693091468,
-			["name"] = "Cillililill",
-			["ilvl"] = 246,
-		},
-		["Player-4477-043FC6F4"] = {
-			["time"] = 1693091391,
-			["name"] = "Zadush",
-			["ilvl"] = 235,
-		},
-		["Player-4477-04DB0CDE"] = {
-			["time"] = 1693092024,
-			["name"] = "Lesbenlisa",
-			["ilvl"] = 245,
-		},
-		["Player-4477-03C05F7B"] = {
-			["time"] = 1693091469,
-			["name"] = "Tugah",
+		["Player-4477-03BE5325"] = {
+			["name"] = "Kuhtentach",
+			["time"] = 1694555101,
 			["ilvl"] = 243,
 		},
-		["Player-4477-03B1B9A1"] = {
-			["time"] = 1693091417,
-			["name"] = "Juniâ",
-			["ilvl"] = 249,
+		["Player-4477-04C1E7FA"] = {
+			["time"] = 1694555198,
+			["name"] = "Riesnrüssel",
+			["ilvl"] = 241,
 		},
-		["Player-4477-044D3905"] = {
-			["time"] = 1693091432,
-			["name"] = "Bâckie",
-			["ilvl"] = 240,
+		["Player-4477-051667CE"] = {
+			["time"] = 1694472401,
+			["name"] = "Swifty",
+			["ilvl"] = 219,
 		},
-		["Player-4477-04CCB9CD"] = {
-			["time"] = 1693091506,
-			["name"] = "Kílluâ",
-			["ilvl"] = 256,
+		["Player-4477-03B2648E"] = {
+			["time"] = 1694555198,
+			["name"] = "Skillzkillz",
+			["ilvl"] = 243,
 		},
-		["Player-4477-04314BEE"] = {
-			["time"] = 1693091396,
-			["name"] = "Pyrolele",
+		["Player-4477-04EC2550"] = {
+			["time"] = 1694472456,
+			["name"] = "Blinkyli",
+			["ilvl"] = 245,
+		},
+		["Player-4477-046BE5B9"] = {
+			["time"] = 1694555224,
+			["name"] = "Corilis",
+			["ilvl"] = 244,
+		},
+		["Player-4477-050CEDBF"] = {
+			["time"] = 1694555208,
+			["name"] = "Flitzelitis",
+			["ilvl"] = 247,
+		},
+		["Player-4477-04503820"] = {
+			["time"] = 1694555151,
+			["name"] = "Runlikêhell",
+			["ilvl"] = 242,
+		},
+		["Player-4477-034C62D7"] = {
+			["time"] = 1694555151,
+			["name"] = "Verzoth",
+			["ilvl"] = 241,
+		},
+		["Player-4477-04EA3A53"] = {
+			["time"] = 1694472456,
+			["name"] = "Deusdominik",
+			["ilvl"] = 243,
+		},
+		["Player-4477-04EC30DB"] = {
+			["time"] = 1694555185,
+			["name"] = "Bembiyellow",
+			["ilvl"] = 245,
+		},
+		["Player-4477-04B34C5A"] = {
+			["time"] = 1694469856,
+			["name"] = "Graveofjenna",
+			["ilvl"] = 241,
+		},
+		["Player-4477-04ECE238"] = {
+			["time"] = 1694555200,
+			["name"] = "Pôwermage",
+			["ilvl"] = 246,
+		},
+		["Player-4477-0195B71E"] = {
+			["time"] = 1694555167,
+			["name"] = "Smaer",
 			["ilvl"] = 248,
 		},
-		["Player-4477-04D9447F"] = {
-			["time"] = 1693091601,
-			["name"] = "Domedonmaya",
+		["Player-4477-037258F2"] = {
+			["time"] = 1694469390,
+			["name"] = "Nicerö",
+			["ilvl"] = 236,
+		},
+		["Player-4477-03B05294"] = {
+			["time"] = 1694555167,
+			["name"] = "Yuisis",
+			["ilvl"] = 238,
+		},
+		["Player-4477-04C23E1D"] = {
+			["time"] = 1694555134,
+			["name"] = "Zukram",
+			["ilvl"] = 248,
+		},
+		["Player-4477-0499BD58"] = {
+			["time"] = 1694555300,
+			["name"] = "Xellzs",
+			["ilvl"] = 244.25,
+		},
+		["Player-4477-0485E555"] = {
+			["time"] = 1694555134,
+			["name"] = "Choaco",
+			["ilvl"] = 239,
+		},
+		["Player-4477-03B26AF0"] = {
+			["time"] = 1694555234,
+			["name"] = "Kahmoon",
+			["ilvl"] = 247,
+		},
+		["Player-4477-04DB0CDE"] = {
+			["time"] = 1694555234,
+			["name"] = "Lesbenlisa",
+			["ilvl"] = 249,
+		},
+		["Player-4477-04394B7C"] = {
+			["time"] = 1694555137,
+			["name"] = "Luvz",
 			["ilvl"] = 244,
+		},
+		["Player-4477-037299C5"] = {
+			["time"] = 1694472457,
+			["name"] = "Liptea",
+			["ilvl"] = 250,
+		},
+		["Player-4477-03B56484"] = {
+			["time"] = 1694555159,
+			["name"] = "Krolvar",
+			["ilvl"] = 232,
+		},
+		["Player-4477-03B19FFD"] = {
+			["time"] = 1694472406,
+			["name"] = "Wattmann",
+			["ilvl"] = 233,
+		},
+		["Player-4477-04DDD262"] = {
+			["name"] = "Meowcadow",
+			["time"] = 1694551167,
+			["ilvl"] = 245,
+		},
+		["Player-4477-045275A8"] = {
+			["time"] = 1694472422,
+			["name"] = "Imadudeirl",
+			["ilvl"] = 240,
+		},
+		["Player-4477-03B22FA5"] = {
+			["time"] = 1694555257,
+			["name"] = "Mizune",
+			["ilvl"] = 248,
+		},
+		["Player-4477-04BE871B"] = {
+			["time"] = 1694555213,
+			["name"] = "Suliwe",
+			["ilvl"] = 241,
+		},
+		["Player-4477-03B14913"] = {
+			["time"] = 1694472428,
+			["name"] = "Zumbleistift",
+			["ilvl"] = 252,
+		},
+		["Player-4477-0446C0E0"] = {
+			["time"] = 1694555138,
+			["name"] = "Lissmacc",
+			["ilvl"] = 243,
+		},
+		["Player-4477-0458BCCA"] = {
+			["time"] = 1694472422,
+			["name"] = "Câmeltôêtem",
+			["ilvl"] = 245,
+		},
+		["Player-4477-02DC9932"] = {
+			["time"] = 1694555143,
+			["name"] = "Diggah",
+			["ilvl"] = 253,
+		},
+		["Player-4477-0450EABE"] = {
+			["time"] = 1694555168,
+			["name"] = "Annidina",
+			["ilvl"] = 242,
+		},
+		["Player-4477-0104F453"] = {
+			["name"] = "Chekaz",
+			["time"] = 1694555095,
+			["ilvl"] = 250,
+		},
+		["Player-4477-04537ACD"] = {
+			["time"] = 1694472434,
+			["name"] = "Vayona",
+			["ilvl"] = 246,
+		},
+		["Player-4477-0509E117"] = {
+			["name"] = "Puppen",
+			["time"] = 1694555069,
+			["ilvl"] = 240.125,
 		},
 	},
 	["spellid_ignored"] = {
@@ -5740,7 +5736,7 @@ _detalhes_global = {
 		["11"] = false,
 		["10"] = false,
 	},
-	["latest_spell_pool_access"] = 1692742192,
+	["latest_spell_pool_access"] = 1693949963,
 	["aura_tracker_frame"] = {
 		["scaletable"] = {
 			["scale"] = 1,
@@ -5771,7 +5767,7 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 4,
-		["main_help_button"] = 3520,
+		["main_help_button"] = 3528,
 		["WINDOW_GROUP_MAKING1"] = true,
 		["FORGE_TUTORIAL"] = true,
 		["DETAILS_INFO_TUTORIAL1"] = true,
@@ -5783,7 +5779,7 @@ _detalhes_global = {
 			false, -- [5]
 			false, -- [6]
 		},
-		["logons"] = 3520,
+		["logons"] = 3528,
 		["ctrl_click_close_tutorial"] = false,
 		["OVERALLDATA_WARNING1"] = 60,
 		["MIN_COMBAT_TIME"] = true,
@@ -6675,8 +6671,6 @@ _detalhes_global = {
 	["show_aug_predicted_spell_damage"] = false,
 }
 __details_backup = {
-	["_instance_backup"] = {
-	},
 	["_general_logs"] = {
 		"2023-08-26 21:27:20 | actor removed Bodenzerkracher (ungrouped)", -- [1]
 		"2023-08-26 21:27:20 | actor removed Bodenzerkracher (disposable)", -- [2]
@@ -6709,5 +6703,7 @@ __details_backup = {
 		"2023-08-14 00:23:20 | actor removed Erathedark (ungrouped)", -- [29]
 	},
 	["_exit_error"] = {
+	},
+	["_instance_backup"] = {
 	},
 }

@@ -52,7 +52,7 @@ DBM_AllSavedOptions = {
 		["DontShowTargetAnnouncements"] = true,
 		["ChosenVoicePack2"] = "VEM",
 		["DontShowPT2"] = false,
-		["NoAnnounceOverride"] = true,
+		["SpecialWarningFlashCount5"] = 3,
 		["LogCurrentMythicZero"] = false,
 		["GroupOptionsBySpell"] = true,
 		["WorldBuffAlert"] = false,
@@ -78,7 +78,7 @@ DBM_AllSavedOptions = {
 			0, -- [3]
 		},
 		["InfoFrameFontStyle"] = "OUTLINE",
-		["FilterDispel"] = false,
+		["LatencyThreshold"] = 250,
 		["WarningFontStyle"] = "OUTLINE",
 		["VPReplacesSA1"] = true,
 		["InfoFrameY"] = 0.9998186826705933,
@@ -89,7 +89,7 @@ DBM_AllSavedOptions = {
 		["InfoFrameCols"] = 0,
 		["RangeFrameRadarX"] = 415.9995727539063,
 		["ShowRespawn"] = true,
-		["LatencyThreshold"] = 250,
+		["FilterDispel"] = false,
 		["DontShowBossAnnounces"] = false,
 		["EventSoundWipe"] = "None",
 		["DontSendBossGUIDs"] = false,
@@ -102,7 +102,7 @@ DBM_AllSavedOptions = {
 		["HideObjectivesFrame"] = true,
 		["DontShowEventTimers"] = false,
 		["AlwaysShowSpeedKillTimer2"] = false,
-		["SpecialWarningFlashCount5"] = 3,
+		["NoAnnounceOverride"] = true,
 		["SpecialWarningFlashCol5"] = {
 			0.2, -- [1]
 			1, -- [2]
@@ -314,7 +314,7 @@ DBM_AllSavedOptions = {
 		["SpamSpecRolestack"] = false,
 		["DontRestoreIcons"] = false,
 		["DontShowNameplateIcons"] = false,
-		["CoreSavedRevision"] = 20230822075825,
+		["CoreSavedRevision"] = 20230829124247,
 		["RangeFrameX"] = 392.4390258789063,
 		["SpecialWarningFlash5"] = true,
 		["DontPlayTrivialSpecialWarningSound"] = true,

@@ -93,6 +93,15 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136048,
+					["spell"] = "Anregen",
+				}, -- [2]
+				{
+					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
 					["spellSubName"] = "Rang 7",
 					["sets"] = {
@@ -100,42 +109,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spell"] = "Wiedergeburt",
-				}, -- [2]
+				}, -- [3]
 				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136048,
-					["spell"] = "Anregen",
 				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135952,
-					["spell"] = "Fluch aufheben",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rang 15",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136081,
-					["spell"] = "Verjüngung",
-				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -145,6 +126,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 136085,
 					["spell"] = "Nachwachsen",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135952,
+					["spell"] = "Fluch aufheben",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spellSubName"] = "Rang 15",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136081,
+					["spell"] = "Verjüngung",
 				}, -- [7]
 				{
 					["type"] = "spell",

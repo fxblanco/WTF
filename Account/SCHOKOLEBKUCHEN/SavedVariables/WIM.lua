@@ -27,15 +27,7 @@ WIM3_Data = {
 				["autofocus"] = true,
 				["onReceive"] = true,
 			},
-			["alwaysOther"] = false,
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
-			["raid"] = {
+			["pvp"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
@@ -49,13 +41,21 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
-			["pvp"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["alwaysOther"] = false,
 		},
 		["chat"] = {
 			["other"] = {
@@ -88,15 +88,7 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["alwaysOther"] = true,
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
-			["raid"] = {
+			["pvp"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -110,13 +102,21 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["pvp"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
+			},
+			["alwaysOther"] = true,
 		},
 	},
 	["timeStampFormat"] = "%H:%M",
@@ -171,78 +171,83 @@ WIM3_Data = {
 	["lastState"] = "other",
 	["displayColors"] = {
 		["wispOut"] = {
-			["b"] = 0.9882352941176471,
-			["g"] = 0.0784313725490196,
 			["r"] = 1,
+			["g"] = 0.0784313725490196,
+			["b"] = 0.9882352941176471,
 		},
 		["wispIn"] = {
-			["b"] = 0.7607843137254902,
-			["g"] = 0.03137254901960784,
 			["r"] = 0.5607843137254902,
+			["g"] = 0.03137254901960784,
+			["b"] = 0.7607843137254902,
 		},
 		["sysMsg"] = {
-			["b"] = 0,
-			["g"] = 0.6627450980392157,
 			["r"] = 1,
+			["g"] = 0.6627450980392157,
+			["b"] = 0,
 		},
 		["BNwispOut"] = {
-			["b"] = 1,
-			["g"] = 0.6352941176470588,
 			["r"] = 0.1725490196078431,
+			["g"] = 0.6352941176470588,
+			["b"] = 1,
 		},
 		["historyIn"] = {
-			["b"] = 0.4705882352941176,
-			["g"] = 0.4705882352941176,
 			["r"] = 0.4705882352941176,
+			["g"] = 0.4705882352941176,
+			["b"] = 0.4705882352941176,
 		},
 		["errorMsg"] = {
-			["b"] = 0,
+			["r"] = 1,
 			["g"] = 0,
-			["r"] = 1,
-		},
-		["webAddress"] = {
-			["b"] = 1,
-			["g"] = 1,
-			["r"] = 1,
+			["b"] = 0,
 		},
 		["useSkin"] = true,
-		["historyOut"] = {
-			["b"] = 0.7058823529411764,
-			["g"] = 0.7058823529411764,
-			["r"] = 0.7058823529411764,
-		},
 		["BNwispIn"] = {
-			["b"] = 0.6549019607843137,
-			["g"] = 0.4862745098039216,
 			["r"] = 0,
+			["g"] = 0.4862745098039216,
+			["b"] = 0.6549019607843137,
+		},
+		["historyOut"] = {
+			["r"] = 0.7058823529411764,
+			["g"] = 0.7058823529411764,
+			["b"] = 0.7058823529411764,
+		},
+		["webAddress"] = {
+			["r"] = 1,
+			["g"] = 1,
+			["b"] = 1,
 		},
 	},
 	["fontSize"] = 12,
 	["showToolTips"] = true,
 	["minimap"] = {
 		["free_position"] = {
-			["y"] = -83.6632514019393,
-			["x"] = -111.983580185572,
+			["y"] = -90.96155887033001,
+			["x"] = -119.6960803723255,
 			["point"] = "TOPRIGHT",
 		},
-		["free"] = false,
-		["rightClickNew"] = false,
 		["position"] = 200,
+		["rightClickNew"] = false,
+		["free"] = false,
 	},
 	["winAnimation"] = true,
 	["expose"] = {
 		["protect"] = 1,
 		["borderSize"] = 20,
 		["combat"] = true,
-		["groupOnly"] = false,
-		["border"] = false,
 		["direction"] = 1,
+		["border"] = false,
+		["groupOnly"] = false,
 	},
 	["alias"] = {
 		["title_string"] = "{n} - {a}",
 	},
-	["menuSortActivity"] = true,
-	["whoLookups"] = true,
+	["winSize"] = {
+		["height"] = 220,
+		["strata"] = "DIALOG",
+		["scale"] = 100,
+		["width"] = 333,
+	},
+	["windowOnTop"] = true,
 	["modules"] = {
 		["ChatSounds"] = {
 			["enabled"] = true,
@@ -283,17 +288,73 @@ WIM3_Data = {
 		["URLHandler"] = {
 			["enabled"] = true,
 		},
-		["Tabs"] = {
-			["enabled"] = true,
-		},
-		["ClickControl"] = {
+		["Filters"] = {
 			["enabled"] = true,
 		},
 		["Menu"] = {
 			["enabled"] = true,
 		},
-		["Filters"] = {
+		["ClickControl"] = {
 			["enabled"] = true,
+		},
+		["Tabs"] = {
+			["enabled"] = true,
+		},
+	},
+	["ignoreArrowKeys"] = true,
+	["coloredNames"] = true,
+	["winLoc"] = {
+		["left"] = 217,
+		["top"] = 664,
+	},
+	["clampToScreen"] = true,
+	["stats"] = {
+		["startDate"] = "",
+		["versions"] = 1,
+		["whispers"] = 0,
+		["mostConvos"] = 0,
+	},
+	["winFade"] = true,
+	["skin"] = {
+		["font_outline"] = "",
+		["selected"] = "WIM Classic",
+		["font"] = "ChatFontNormal",
+		["suggest"] = true,
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
+	},
+	["history"] = {
+		["ageLimit"] = true,
+		["maxPer"] = true,
+		["previewCount"] = 25,
+		["whispers"] = {
+			["friends"] = true,
+			["all"] = false,
+			["guild"] = true,
+		},
+		["maxAge"] = 1209600,
+		["preview"] = true,
+		["maxCount"] = 500,
+		["chat"] = {
+			["ageLimit"] = true,
+			["maxAge"] = 1209600,
+			["maxPer"] = true,
+			["preview"] = true,
+			["maxCount"] = 500,
+			["previewCount"] = 25,
 		},
 	},
 	["chat"] = {
@@ -313,7 +374,10 @@ WIM3_Data = {
 		},
 		["say"] = {
 		},
-		["battleground"] = {
+		["world"] = {
+			["enabled"] = false,
+			["channelSettings"] = {
+			},
 		},
 		["raid"] = {
 			["showAlerts"] = true,
@@ -321,76 +385,12 @@ WIM3_Data = {
 		["officer"] = {
 			["showAlerts"] = true,
 		},
-		["world"] = {
-			["enabled"] = false,
-			["channelSettings"] = {
-			},
+		["battleground"] = {
 		},
 	},
-	["history"] = {
-		["ageLimit"] = true,
-		["previewCount"] = 25,
-		["maxPer"] = true,
-		["whispers"] = {
-			["friends"] = true,
-			["all"] = false,
-			["guild"] = true,
-		},
-		["maxAge"] = 1209600,
-		["preview"] = true,
-		["maxCount"] = 500,
-		["chat"] = {
-			["ageLimit"] = true,
-			["maxAge"] = 1209600,
-			["previewCount"] = 25,
-			["preview"] = true,
-			["maxCount"] = 500,
-			["maxPer"] = true,
-		},
-	},
-	["tabs"] = {
-		["sortBy"] = 2,
-		["whispers"] = {
-			["enabled"] = false,
-			["guild"] = false,
-			["friends"] = false,
-		},
-		["chat"] = {
-			["enabled"] = false,
-			["aswhisper"] = false,
-		},
-	},
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
-	},
-	["skin"] = {
-		["font_outline"] = "",
-		["selected"] = "WIM Classic",
-		["font"] = "ChatFontNormal",
-		["suggest"] = true,
-	},
-	["winFade"] = true,
-	["stats"] = {
-		["startDate"] = "",
-		["versions"] = 1,
-		["whispers"] = 0,
-		["mostConvos"] = 0,
-	},
-	["clampToScreen"] = true,
-	["coloredNames"] = true,
-	["winLoc"] = {
-		["left"] = 217,
-		["top"] = 664,
-	},
-	["ignoreArrowKeys"] = true,
 	["tabAdvance"] = false,
-	["windowOnTop"] = true,
-	["winSize"] = {
-		["height"] = 220,
-		["strata"] = "DIALOG",
-		["scale"] = 100,
-		["width"] = 333,
-	},
+	["whoLookups"] = true,
+	["menuSortActivity"] = true,
 }
 WIM3_Cache = {
 	["Venoxis"] = {
@@ -406,24 +406,218 @@ WIM3_Cache = {
 				["|Kq23|k"] = 2,
 				["|Kq1|k"] = 2,
 				["|Kq11|k"] = 2,
+				["|Kq12|k"] = 2,
+				["|Kq17|k"] = 2,
+				["|Kq18|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq8|k"] = 2,
+				["|Kq20|k"] = 2,
+				["|Kq15|k"] = 2,
+				["|Kq21|k"] = 2,
+				["|Kq29|k"] = 2,
+				["|Kq27|k"] = 2,
+				["|Kq13|k"] = 2,
+				["|Kq24|k"] = 2,
+				["|Kq10|k"] = 2,
+				["|Kq7|k"] = 2,
+				["|Kq6|k"] = 2,
+				["|Kq26|k"] = 2,
+				["|Kq22|k"] = 2,
+			},
+		},
+		["Exonuklease"] = {
+			["friendList"] = {
+				["|Kq19|k"] = 2,
+				["|Kq28|k"] = 2,
+				["|Kq16|k"] = 2,
+				["|Kq14|k"] = 2,
+				["|Kq2|k"] = 2,
+				["|Kq12|k"] = 2,
+				["|Kq26|k"] = 2,
+				["|Kq5|k"] = 2,
+				["|Kq23|k"] = 2,
+				["|Kq1|k"] = 2,
+				["|Kq11|k"] = 2,
 				["|Kq22|k"] = 2,
 				["|Kq17|k"] = 2,
-				["|Kq27|k"] = 2,
+				["Alsia"] = 1,
 				["|Kq18|k"] = 2,
-				["|Kq26|k"] = 2,
-				["|Kq8|k"] = 2,
-				["|Kq5|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq25|k"] = 2,
+				["|Kq20|k"] = 2,
 				["|Kq24|k"] = 2,
 				["|Kq21|k"] = 2,
 				["|Kq29|k"] = 2,
-				["|Kq20|k"] = 2,
+				["|Kq27|k"] = 2,
 				["|Kq13|k"] = 2,
 				["|Kq15|k"] = 2,
 				["|Kq10|k"] = 2,
 				["|Kq7|k"] = 2,
 				["|Kq6|k"] = 2,
-				["|Kq4|k"] = 2,
-				["|Kq12|k"] = 2,
+				["|Kq3|k"] = 2,
+				["|Kq9|k"] = 2,
+			},
+			["guildList"] = {
+				["Hanaltar"] = 120,
+				["Letsburn"] = 88,
+				["Nicerö"] = 92,
+				["Camoora"] = 46,
+				["Azvaren"] = 13,
+				["Taste"] = 11,
+				["Butzebank"] = 144,
+				["Hêckler"] = 78,
+				["Hitohitonomi"] = 3,
+				["Sîrdotalôt"] = 30,
+				["Supâgôdzillâ"] = 40,
+				["Brishja"] = 16,
+				["Marydiana"] = 24,
+				["Minoton"] = 128,
+				["Hanzai"] = 48,
+				["Wîdi"] = 141,
+				["Gdkphunter"] = 50,
+				["Shamir"] = 132,
+				["Gengarmora"] = 70,
+				["Morezza"] = 42,
+				["Uwusoulstone"] = 108,
+				["Fieseronkel"] = 65,
+				["Justicé"] = 32,
+				["Bremskyle"] = 116,
+				["Snipär"] = 41,
+				["Deusdominik"] = 154,
+				["Naio"] = 14,
+				["Rhodokar"] = 27,
+				["Maturitass"] = 90,
+				["Klassíc"] = 22,
+				["Pippop"] = 97,
+				["Crysês"] = 44,
+				["Slimpy"] = 135,
+				["Fukban"] = 68,
+				["Hâkkî"] = 77,
+				["Bladewachtel"] = 56,
+				["Alsia"] = 159,
+				["Khemval"] = 82,
+				["Wallahnyr"] = 139,
+				["Perfu"] = 96,
+				["Vaccs"] = 28,
+				["Graveofmaria"] = 74,
+				["Blyastik"] = 7,
+				["Schetner"] = 9,
+				["Taladia"] = 10,
+				["Specializt"] = 157,
+				["Bubbledîne"] = 145,
+				["Hennerin"] = 38,
+				["Keyjin"] = 21,
+				["Azhmo"] = 153,
+				["Exonuklease"] = 64,
+				["Ukban"] = 150,
+				["Kyriakî"] = 85,
+				["Lät"] = 127,
+				["Furbios"] = 69,
+				["Widi"] = 110,
+				["Kheval"] = 124,
+				["Giaru"] = 71,
+				["Kholostrus"] = 83,
+				["Wrathbringer"] = 111,
+				["Nawal"] = 26,
+				["Darnella"] = 17,
+				["Shavanaya"] = 100,
+				["Darwinsgame"] = 2,
+				["Bigmæc"] = 5,
+				["Wønka"] = 142,
+				["Harva"] = 20,
+				["Gartenclown"] = 45,
+				["Coolhwip"] = 61,
+				["Ongbakk"] = 94,
+				["Bloodwall"] = 58,
+				["Bossî"] = 37,
+				["Bashnàk"] = 115,
+				["Iamacow"] = 80,
+				["Kéksdöschen"] = 54,
+				["Delmonte"] = 117,
+				["Firecat"] = 118,
+				["Hakkî"] = 147,
+				["Dolchwerfer"] = 62,
+				["Perakon"] = 149,
+				["Lekwa"] = 23,
+				["Tréalis"] = 107,
+				["Serferine"] = 131,
+				["Habíb"] = 146,
+				["Moly"] = 43,
+				["Lesbenlisa"] = 87,
+				["Beesportz"] = 4,
+				["Jambalala"] = 81,
+				["Ohrfeigen"] = 93,
+				["Andrés"] = 151,
+				["Mostaghim"] = 25,
+				["Shikimora"] = 133,
+				["Graveofjenna"] = 73,
+				["Orthøs"] = 95,
+				["Pandorian"] = 8,
+				["Kyleriemen"] = 84,
+				["Ashmo"] = 152,
+				["Brandow"] = 59,
+				["Uwugamergirl"] = 137,
+				["Vacaria"] = 109,
+				["Asdâlan"] = 114,
+				["Tolazytolvl"] = 105,
+				["Frighten"] = 67,
+				["Kahira"] = 52,
+				["Vanec"] = 138,
+				["Kolotripida"] = 39,
+				["Tesfaye"] = 104,
+				["Donbash"] = 63,
+				["Schiggymora"] = 33,
+				["Hampdidampdi"] = 19,
+				["Fitis"] = 119,
+				["Khalimmortus"] = 47,
+				["Vulvanaa"] = 29,
+				["Supâgodzillâ"] = 136,
+				["Vilro"] = 12,
+				["Trolpriester"] = 35,
+				["Dánáá"] = 18,
+				["Firebull"] = 66,
+				["Warsuhl"] = 1,
+				["Allyfigger"] = 31,
+				["Naymira"] = 15,
+				["Binjäger"] = 6,
+				["Larasombardi"] = 86,
+				["Sheepdenwal"] = 101,
+				["Fluffydead"] = 34,
+				["Türkyle"] = 36,
+				["Jodifrosta"] = 123,
+				["Xeeth"] = 49,
+				["Schpen"] = 99,
+				["Caamo"] = 53,
+				["Rqzlp"] = 98,
+				["Onixus"] = 130,
+				["Lockybalbosa"] = 126,
+				["Kwasimojo"] = 156,
+				["Longling"] = 89,
+				["Gnag"] = 72,
+				["Xolem"] = 158,
+				["Liptea"] = 125,
+				["Healrunner"] = 75,
+				["Hopéless"] = 76,
+				["Hópéful"] = 79,
+				["Yukisara"] = 113,
+				["Jedsia"] = 121,
+				["Camoraa"] = 60,
+				["Mîmonbaraka"] = 91,
+				["Spreewell"] = 102,
+				["Supágodzillá"] = 103,
+				["Morai"] = 129,
+				["Trollmitaffe"] = 106,
+				["Uséléss"] = 51,
+				["Wutzelchick"] = 112,
+				["Jocindyr"] = 122,
+				["Sikkzh"] = 134,
+				["Blinkyli"] = 57,
+				["Warlockilock"] = 140,
+				["Zelatras"] = 55,
+				["Xeeli"] = 143,
+				["Hennerr"] = 148,
+				["Domedonmaya"] = 155,
 			},
 		},
 	},
@@ -437,9 +631,9 @@ WIM3_Filters = {
 		["sent"] = true,
 		["name"] = "Flüsternachrichten gesendet durch AddOns",
 		["received"] = true,
-		["action"] = 2,
-		["stats"] = 0,
 		["protected"] = true,
+		["stats"] = 0,
+		["action"] = 2,
 		["tag"] = "addons",
 	}, -- [1]
 	{
@@ -449,22 +643,1894 @@ WIM3_Filters = {
 		["friend"] = true,
 		["party"] = true,
 		["name"] = "FlüsterAuswahl Teil 1",
-		["guild"] = true,
+		["stats"] = 0,
 		["raid"] = true,
 		["received"] = true,
-		["stats"] = 0,
+		["guild"] = true,
 	}, -- [2]
 	{
 		["enabled"] = false,
 		["type"] = 2,
 		["name"] = "FlüsterAuswahl Teil 2",
-		["action"] = 2,
+		["stats"] = 0,
 		["all"] = true,
 		["received"] = true,
-		["stats"] = 0,
+		["action"] = 2,
 	}, -- [3]
 }
 WIM3_History = {
+	["Venoxis"] = {
+		["Exonuklease"] = {
+			["Brishja"] = {
+				{
+					["type"] = 1,
+					["time"] = 1693860223,
+					["from"] = "Exonuklease",
+					["msg"] = "Basti als Ret ich fass es nict",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1693860231,
+					["from"] = "Brishja",
+					["msg"] = "oh baby |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1693860233,
+					["from"] = "Brishja",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1693860254,
+					["from"] = "Brishja",
+					["msg"] = "hat mir ein guter Tank/Kumpel nahegelegt |Helvmoji:%6af|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\StuckOutTongue:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1693866039,
+					["from"] = "Brishja",
+					["msg"] = "first target ist?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1693866487,
+					["from"] = "Brishja",
+					["msg"] = "aggro oder def? aggro denk ich",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1693866500,
+					["from"] = "Exonuklease",
+					["msg"] = "Aggro mit einem Stam trinket",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1693866602,
+					["from"] = "Brishja",
+					["msg"] = "also so? ein Stam trinket hab ich da immer dabei",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1693866609,
+					["from"] = "Exonuklease",
+					["msg"] = "kk",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1693866634,
+					["from"] = "Brishja",
+					["msg"] = "ich dreh ihn um oder nicht?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1693866640,
+					["from"] = "Exonuklease",
+					["msg"] = "so wie er jetzt steht",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1693866643,
+					["from"] = "Exonuklease",
+					["msg"] = "einfach tanken",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1693867088,
+					["from"] = "Brishja",
+					["msg"] = "ich bekomm trotz nur 1 stam trinket so wenig dmg, das mir ständig das mana ausgeht",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1693867096,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t normal",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1693867109,
+					["from"] = "Brishja",
+					["msg"] = "meinst ich kanns ohne stam trinket probieren?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1694034109,
+					["from"] = "Exonuklease",
+					["msg"] = "Bekomm ich deine Bop beim stomp?",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1694034126,
+					["from"] = "Brishja",
+					["msg"] = "eisheuler meinste?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1694034129,
+					["from"] = "Exonuklease",
+					["msg"] = "Genau",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1694034136,
+					["from"] = "Exonuklease",
+					["msg"] = "Wenn er gegen die wand rennt",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1694034136,
+					["from"] = "Brishja",
+					["msg"] = "wenn du in range bist",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1694034177,
+					["from"] = "Brishja",
+					["msg"] = "sag mal, Refugigium buffen macht doch 0 sinn wenn kings gebufft is, oder?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1694034185,
+					["from"] = "Exonuklease",
+					["msg"] = "doch 3% weniger dmg",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1694035129,
+					["from"] = "Brishja",
+					["msg"] = "soll ich retri für den fight?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1694035135,
+					["from"] = "Exonuklease",
+					["msg"] = "ne",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1694035689,
+					["from"] = "Brishja",
+					["msg"] = "kurz afklo",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1694036257,
+					["from"] = "Brishja",
+					["msg"] = "max def, auch als add tank, oder?",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1694036264,
+					["from"] = "Exonuklease",
+					["msg"] = "ja denk schon",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1694036272,
+					["from"] = "Exonuklease",
+					["msg"] = "Ich spiels mit etwas dps gear aber halt im gildenraid",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1694036286,
+					["from"] = "Exonuklease",
+					["msg"] = "Kannst 1 DPS tirnket nehmen oder so oder wenn du trinkets def hast aber ohne stamina",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1694036309,
+					["from"] = "Brishja",
+					["msg"] = "ne, ich mach full def",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1694036315,
+					["from"] = "Exonuklease",
+					["msg"] = "kk",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1694036321,
+					["from"] = "Brishja",
+					["msg"] = "safety first",
+					["inbound"] = true,
+					["convo"] = "Brishja",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1694036325,
+					["from"] = "Exonuklease",
+					["msg"] = "jo",
+					["inbound"] = false,
+					["convo"] = "Brishja",
+				}, -- [33]
+				["info"] = {
+				},
+			},
+			["Specializt"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694039426,
+					["from"] = "Exonuklease",
+					["msg"] = "Das ist basti hier schon paar mal passiert |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Specializt",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1694039596,
+					["from"] = "Specializt",
+					["msg"] = "katastrophe ey",
+					["inbound"] = true,
+					["convo"] = "Specializt",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["Minoton"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694033656,
+					["from"] = "Exonuklease",
+					["msg"] = "Kannst anub",
+					["inbound"] = false,
+					["convo"] = "Minoton",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1694033662,
+					["from"] = "Minoton",
+					["msg"] = "=O",
+					["inbound"] = true,
+					["convo"] = "Minoton",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["Deusdominik"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694036148,
+					["from"] = "Exonuklease",
+					["msg"] = "18,2k big",
+					["inbound"] = false,
+					["convo"] = "Deusdominik",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1694037222,
+					["from"] = "Exonuklease",
+					["msg"] = "So dumm das token |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ",
+					["inbound"] = false,
+					["convo"] = "Deusdominik",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1694037227,
+					["from"] = "Exonuklease",
+					["msg"] = "Brauch die armschienen eigentlich",
+					["inbound"] = false,
+					["convo"] = "Deusdominik",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1694037232,
+					["from"] = "Deusdominik",
+					["msg"] = "oh noez",
+					["inbound"] = true,
+					["convo"] = "Deusdominik",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1694037241,
+					["from"] = "Deusdominik",
+					["msg"] = "haste noch genug dafür? kann dir sonst gern was geben",
+					["inbound"] = true,
+					["convo"] = "Deusdominik",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1694037249,
+					["from"] = "Exonuklease",
+					["msg"] = "hab noch 120k oder so |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Deusdominik",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1694037255,
+					["from"] = "Exonuklease",
+					["msg"] = "Aber geb zu viel aus |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Deusdominik",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1694038406,
+					["from"] = "Deusdominik",
+					["msg"] = ".",
+					["inbound"] = true,
+					["convo"] = "Deusdominik",
+				}, -- [8]
+				["info"] = {
+				},
+			},
+			["Longling"] = {
+				{
+					["type"] = 1,
+					["time"] = 1693860220,
+					["from"] = "Longling",
+					["msg"] = "felix sag mal deiner besseren hälfte du musst morgen raiden |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1693860244,
+					["from"] = "Exonuklease",
+					["msg"] = ":d puh ganz schwer, weil ich so viel kram für die hochzeit machen muss für 30 min machbar vielleicht was fehlt denn?",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1693860260,
+					["from"] = "Longling",
+					["msg"] = "pumper dd",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1693860301,
+					["from"] = "Exonuklease",
+					["msg"] = "Ele, WL, Feral, Lesbenlisa hab ich offen",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1693860401,
+					["from"] = "Longling",
+					["msg"] = "hmm wenn lesbenlisa noch frei is sogar die, dann könnte chris dmg machen",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1694033606,
+					["from"] = "Longling",
+					["msg"] = "basti mt ?",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1694033610,
+					["from"] = "Exonuklease",
+					["msg"] = "jo",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1694033738,
+					["from"] = "Longling",
+					["msg"] = "bitte näher bei den meeles stehen |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1694033742,
+					["from"] = "Exonuklease",
+					["msg"] = "|cfff48cbaPalladriel|r",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1694033745,
+					["from"] = "Exonuklease",
+					["msg"] = "fc",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1694033754,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1694033757,
+					["from"] = "Exonuklease",
+					["msg"] = "mach ich",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1694033838,
+					["from"] = "Longling",
+					["msg"] = "twins brauchst du 10 sek tricks richtig ?",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1694033843,
+					["from"] = "Exonuklease",
+					["msg"] = "jop",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1694033846,
+					["from"] = "Longling",
+					["msg"] = "k",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1694034678,
+					["from"] = "Longling",
+					["msg"] = "wo standest du honey ?",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1694034704,
+					["from"] = "Exonuklease",
+					["msg"] = "frag nich",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1694034751,
+					["from"] = "Longling",
+					["msg"] = "brauch eine wa für die kack gifte ...",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1694034757,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1694035003,
+					["from"] = "Exonuklease",
+					["msg"] = "Tricks me!",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1694036123,
+					["from"] = "Longling",
+					["msg"] = "hab das 2te tricks vergessen sry",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1694036136,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6Gc|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\SlightFrown:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1694036230,
+					["from"] = "Exonuklease",
+					["msg"] = "90er affli parse fühlt sich aber schon godlike an fast |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1694036304,
+					["from"] = "Exonuklease",
+					["msg"] = "Das macht so bock |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1694036312,
+					["from"] = "Exonuklease",
+					["msg"] = "Würd so gern WL mehr spielen",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1694036390,
+					["from"] = "Longling",
+					["msg"] = "^^",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1694036400,
+					["from"] = "Exonuklease",
+					["msg"] = "Ich würd einfach gern mehr spielen könnt man sagen |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1694036401,
+					["from"] = "Longling",
+					["msg"] = "breche mir heute wieder mal die finger ...",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1694036419,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t so schlimm ? Find aber man braucht halt immer so 5-10 raids in nem spec bis  es istzt",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1694036448,
+					["from"] = "Longling",
+					["msg"] = "naja erste boss schon , einfach gifte vergessen |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1694036454,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t stark",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1694036470,
+					["from"] = "Exonuklease",
+					["msg"] = "Ich mein 4. bei valks ist doch ganz nice",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1694036476,
+					["from"] = "Longling",
+					["msg"] = "2te boss hab ich nicht aufen schirm und twins war so lala",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1694036516,
+					["from"] = "Longling",
+					["msg"] = "stand nicht ganz zwischen den beiden twins beim 2ten klingenwirbel",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1694036527,
+					["from"] = "Exonuklease",
+					["msg"] = "i see",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1694036573,
+					["from"] = "Longling",
+					["msg"] = "und 2te mordlust hatte ich ohne trinket rein gehauen ohne sinn |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1694036579,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t big",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1694036801,
+					["from"] = "Exonuklease",
+					["msg"] = "Tricks me!",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1694036801,
+					["from"] = "Exonuklease",
+					["msg"] = "Tricks me!",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1694036925,
+					["from"] = "Longling",
+					["msg"] = "schick mal logs, will weinen",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1694038892,
+					["from"] = "Longling",
+					["msg"] = "soll ich dich tricksen oder lieber basti ?",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1694038901,
+					["from"] = "Exonuklease",
+					["msg"] = "meeeeee",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1694038903,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1694038906,
+					["from"] = "Exonuklease",
+					["msg"] = "Baste macht das",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1694039904,
+					["from"] = "Exonuklease",
+					["msg"] = "Tricks me!",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1694040209,
+					["from"] = "Longling",
+					["msg"] = "tricks hier basti sonst gibt es tote",
+					["inbound"] = true,
+					["convo"] = "Longling",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1694040219,
+					["from"] = "Exonuklease",
+					["msg"] = "ja leider vielleicht einmal bei 35% |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1694040407,
+					["from"] = "Exonuklease",
+					["msg"] = "Tricks me!",
+					["inbound"] = false,
+					["convo"] = "Longling",
+				}, -- [48]
+				["info"] = {
+				},
+			},
+			["Graveofmaria"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694038555,
+					["from"] = "Graveofmaria",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Graveofmaria",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Hakkî"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694034720,
+					["from"] = "Hakkî",
+					["msg"] = "mein ich das nur oder ist das ein krampf?",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1694034731,
+					["from"] = "Exonuklease",
+					["msg"] = "War nur ein fail |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t der hat alle vergeigt davor war okay",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1694034735,
+					["from"] = "Exonuklease",
+					["msg"] = "Aber hakki, wo dmg?",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1694034748,
+					["from"] = "Hakkî",
+					["msg"] = "es procct nichts",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1694034779,
+					["from"] = "Hakkî",
+					["msg"] = "hab umgesockelt per sim",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1694034781,
+					["from"] = "Hakkî",
+					["msg"] = "aber sag es dir",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1694034783,
+					["from"] = "Hakkî",
+					["msg"] = "katastrphe",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1694034785,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1694035117,
+					["from"] = "Hakkî",
+					["msg"] = "schick mal pls loggs",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1694035129,
+					["from"] = "Hakkî",
+					["msg"] = "ich sags dir",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1694035132,
+					["from"] = "Hakkî",
+					["msg"] = "ich hab nen neuen pc",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1694035138,
+					["from"] = "Hakkî",
+					["msg"] = "u die weak auras sind anders vom moonkin",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1694035144,
+					["from"] = "Hakkî",
+					["msg"] = "da kommen jetzt neue zeichen wenn was proccit",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1694035146,
+					["from"] = "Hakkî",
+					["msg"] = "ist der wahnsinn",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1694035156,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t so verwirrend",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1694037007,
+					["from"] = "Exonuklease",
+					["msg"] = "Brauch die armschienen noch dringend",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1694037089,
+					["from"] = "Hakkî",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1694037091,
+					["from"] = "Hakkî",
+					["msg"] = "so viel zum thema",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1694037093,
+					["from"] = "Hakkî",
+					["msg"] = "was wolltes tdu?",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1694037095,
+					["from"] = "Hakkî",
+					["msg"] = "hals oder?",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1694037104,
+					["from"] = "Exonuklease",
+					["msg"] = "Hab dne hals |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1694037139,
+					["from"] = "Hakkî",
+					["msg"] = "mach 18 |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [22]
+				["info"] = {
+				},
+			},
+			["Kyleriemen"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694038168,
+					["from"] = "Kyleriemen",
+					["msg"] = "wenn eule frei wär ich dabei und wenn holy pala frei wär |cfff48cbamyjuice|r auch dabei",
+					["inbound"] = true,
+					["convo"] = "Kyleriemen",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1694038184,
+					["from"] = "Exonuklease",
+					["msg"] = "sicher",
+					["inbound"] = false,
+					["convo"] = "Kyleriemen",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1694038240,
+					["from"] = "Kyleriemen",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Kyleriemen",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1694038627,
+					["from"] = "Kyleriemen",
+					["msg"] = "wisper aufgrund des wisperns",
+					["inbound"] = true,
+					["convo"] = "Kyleriemen",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["Graveofjenna"] = {
+				{
+					["type"] = 1,
+					["time"] = 1693863131,
+					["from"] = "Exonuklease",
+					["msg"] = "Lama |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t kaufst du trinkets ? |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1693863140,
+					["from"] = "Graveofjenna",
+					["msg"] = "natürlich immer doch",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1693863145,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1693863158,
+					["from"] = "Exonuklease",
+					["msg"] = "Mal schauen Scale seh ich mich",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1693863160,
+					["from"] = "Graveofjenna",
+					["msg"] = "flare und scale sind schon sexy |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1693863171,
+					["from"] = "Graveofjenna",
+					["msg"] = "bissl das portmonee aufn tisch haun",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1693863198,
+					["from"] = "Exonuklease",
+					["msg"] = "easy",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1693863199,
+					["from"] = "Exonuklease",
+					["msg"] = "easy",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1693863208,
+					["from"] = "Graveofjenna",
+					["msg"] = "ne quatsch bissl bieten ja aber ich bin eher so dabei",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1693864886,
+					["from"] = "Graveofjenna",
+					["msg"] = "biiiiiig!",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1693866511,
+					["from"] = "Graveofjenna",
+					["msg"] = "der andere hexer hat scale sogar",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1693866522,
+					["from"] = "Exonuklease",
+					["msg"] = "ja haben einige schon der Moonkin und 1 mage brauchens noch",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1693866538,
+					["from"] = "Graveofjenna",
+					["msg"] = "is die frage ob die wirklich hoch gehen",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1693866551,
+					["from"] = "Exonuklease",
+					["msg"] = "Ja für beide halt nicht mehr bis könnte cheap werden",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1693866579,
+					["from"] = "Graveofjenna",
+					["msg"] = "darf ich bis 10k mitgehn?^^",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1693866604,
+					["from"] = "Exonuklease",
+					["msg"] = "Mach |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t wär nur mad wenns nur wir 2 sind :d",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1693866626,
+					["from"] = "Graveofjenna",
+					["msg"] = "wäre ja schön wenns 30k oder so bringt zumindest |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1693866634,
+					["from"] = "Exonuklease",
+					["msg"] = "never",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1693866637,
+					["from"] = "Graveofjenna",
+					["msg"] = "und am besten noch ne flare",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1693866661,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ich nehm beide für 70k zusammen fertig |Helvmoji:%6af|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\StuckOutTongue:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1693866667,
+					["from"] = "Graveofjenna",
+					["msg"] = ":'D",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1694033736,
+					["from"] = "Graveofjenna",
+					["msg"] = "wer tankt denn? mino |cfff48cbabrishja|r und?",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1694033750,
+					["from"] = "Exonuklease",
+					["msg"] = "|cfff48cbaPalladriel|r",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1694033753,
+					["from"] = "Graveofjenna",
+					["msg"] = "ah ok",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1694033762,
+					["from"] = "Graveofjenna",
+					["msg"] = "hatte schon befürchtung der feral",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1694033779,
+					["from"] = "Exonuklease",
+					["msg"] = "nene",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1694033897,
+					["from"] = "Exonuklease",
+					["msg"] = "Port nochmal braucht enoch flask",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1694033943,
+					["from"] = "Graveofjenna",
+					["msg"] = "dann sag halt nächstes mal was oder so",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1694033958,
+					["from"] = "Exonuklease",
+					["msg"] = "?",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1694033965,
+					["from"] = "Graveofjenna",
+					["msg"] = "dann hätte ich dir welche gegeben^^",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1694033969,
+					["from"] = "Exonuklease",
+					["msg"] = "ach easy",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1694033979,
+					["from"] = "Graveofjenna",
+					["msg"] = "und hätte net nochn schrank stellen müssen",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1694034081,
+					["from"] = "Graveofjenna",
+					["msg"] = "gear stimmt :D? nen 4.8k feral :D?",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1694034091,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t 2. feral",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1694034111,
+					["from"] = "Graveofjenna",
+					["msg"] = "und wir können ja nen  buye rgebrauchen^^",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1694034118,
+					["from"] = "Exonuklease",
+					["msg"] = "eben",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1694034136,
+					["from"] = "Graveofjenna",
+					["msg"] = "der wird alles zu minbid kriegen |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1694034141,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1694034154,
+					["from"] = "Graveofjenna",
+					["msg"] = "wasn mit |cffffffffschmankerle|r?",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1694034156,
+					["from"] = "Graveofjenna",
+					["msg"] = "nv",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1694034159,
+					["from"] = "Graveofjenna",
+					["msg"] = "nvm*",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1694034179,
+					["from"] = "Graveofjenna",
+					["msg"] = "auf wen wollen wir den ss packen?",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1694034197,
+					["from"] = "Exonuklease",
+					["msg"] = "mach du mino ich mach |cfff48cbamyjuice|r",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1694035113,
+					["from"] = "Graveofjenna",
+					["msg"] = "nimmst noch loot raus?^^",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1694035127,
+					["from"] = "Graveofjenna",
+					["msg"] = "wenn platz brauchst hab  genug platz",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1694035173,
+					["from"] = "Exonuklease",
+					["msg"] = "hab nru vergessen |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1694035185,
+					["from"] = "Graveofjenna",
+					["msg"] = "habs dir nur fürn fall angeboten |Helvmoji:%6Kc|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Smile:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1694035344,
+					["from"] = "Graveofjenna",
+					["msg"] = "hab dem shadow ss gegeben für massdispell weil wenn priest deadge we sadge",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1694035509,
+					["from"] = "Graveofjenna",
+					["msg"] = "was für kasper eh |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1694035534,
+					["from"] = "Graveofjenna",
+					["msg"] = "du hast legit auch das gesagt was ich gedacht hab als ich die bop bei axel gesehen hab |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1694035816,
+					["from"] = "Graveofjenna",
+					["msg"] = "auf wen ss? wieder mino?",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1694035822,
+					["from"] = "Exonuklease",
+					["msg"] = "ne mach dome",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1694036248,
+					["from"] = "Graveofjenna",
+					["msg"] = "du brish ich palla?",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1694036255,
+					["from"] = "Exonuklease",
+					["msg"] = "jo",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1694037348,
+					["from"] = "Exonuklease",
+					["msg"] = "troll mich nicht ",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1694037349,
+					["from"] = "Exonuklease",
+					["msg"] = "8k",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1694037361,
+					["from"] = "Graveofjenna",
+					["msg"] = "ich muss allein schon wegen dome <.<",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [57]
+				{
+					["type"] = 1,
+					["time"] = 1694037364,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [58]
+				{
+					["type"] = 1,
+					["time"] = 1694037378,
+					["from"] = "Graveofjenna",
+					["msg"] = "und 9k für bis armschien easy ",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [59]
+				{
+					["type"] = 1,
+					["time"] = 1694037389,
+					["from"] = "Exonuklease",
+					["msg"] = "ja easy nur token war bissl dumm egal",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [60]
+				{
+					["type"] = 1,
+					["time"] = 1694037401,
+					["from"] = "Graveofjenna",
+					["msg"] = "und dich würd ich niemals groß hoch klicken |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1694037454,
+					["from"] = "Exonuklease",
+					["msg"] = "weiß ich doch |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Graveofjenna",
+				}, -- [62]
+				{
+					["type"] = 1,
+					["time"] = 1694038697,
+					["from"] = "Graveofjenna",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Graveofjenna",
+				}, -- [63]
+				["info"] = {
+				},
+			},
+			["Tolazytolvl"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694037144,
+					["from"] = "Tolazytolvl",
+					["msg"] = "war eig. 50tl ausgeschrieben?",
+					["inbound"] = true,
+					["convo"] = "Tolazytolvl",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Domedonmaya"] = {
+				{
+					["type"] = 1,
+					["time"] = 1693860200,
+					["from"] = "Exonuklease",
+					["msg"] = "inv",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1693861163,
+					["from"] = "Exonuklease",
+					["msg"] = "Sorry bin noch an meinen Fotoshop Skills, was fehlt?",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1693861179,
+					["from"] = "Domedonmaya",
+					["msg"] = "LFM U25 Skip GDKP 90/10 3k minbid Alga loot und Trinkets 5k. Nur mit Xp! 1 Holypala 1 Enhancer 1 Shadow (auch als Starkiller) dann go [22/25]/ w",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1693861186,
+					["from"] = "Domedonmaya",
+					["msg"] = "vs rausgegangen und shadow rausgegangen",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1693861188,
+					["from"] = "Domedonmaya",
+					["msg"] = "meh",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1693861190,
+					["from"] = "Exonuklease",
+					["msg"] = "Arg, können wir daniel besprechen?",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1693861193,
+					["from"] = "Exonuklease",
+					["msg"] = "Bestechen",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1693861212,
+					["from"] = "Exonuklease",
+					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t Wenns da dran scheitert komm ich mit dem Enh",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1693861227,
+					["from"] = "Exonuklease",
+					["msg"] = "Aber Star killer bin ich zu unsicher mit, ewig nicht gemacht und wenn nur 10er",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1693861342,
+					["from"] = "Domedonmaya",
+					["msg"] = "ich stelle gerade im voice fest, dass mein mikro hart suckt",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1693861369,
+					["from"] = "Domedonmaya",
+					["msg"] = "so kann ich nichtmal raidlead machen...behindert. ich kauf mir die tage mal neue kopfhörer",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1693861549,
+					["from"] = "Exonuklease",
+					["msg"] = "nervt, bekommen wir hin",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1693861562,
+					["from"] = "Exonuklease",
+					["msg"] = "kann meins empfehlen |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1693862071,
+					["from"] = "Exonuklease",
+					["msg"] = "Daniel würde star killer amchen",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1693862082,
+					["from"] = "Exonuklease",
+					["msg"] = "Hab ihn überredet |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t seid 15 min",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1693862097,
+					["from"] = "Domedonmaya",
+					["msg"] = "|Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1693862098,
+					["from"] = "Domedonmaya",
+					["msg"] = "ok",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1693862317,
+					["from"] = "Exonuklease",
+					["msg"] = "|cffffffffSolanagodx|r ist der RL der den 10er Abgebrochen hat |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t geil",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1693862331,
+					["from"] = "Exonuklease",
+					["msg"] = "Der baut am Tag 5-10 10er am stück |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1693862357,
+					["from"] = "Domedonmaya",
+					["msg"] = "lol^^",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1693862379,
+					["from"] = "Exonuklease",
+					["msg"] = "Hast meine Nachricht gesehen, hab ein Tool gefunden für DK analysen das ist krass!",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1693862494,
+					["from"] = "Exonuklease",
+					["msg"] = "Muss nochmal fix 3 min afk",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1693862679,
+					["from"] = "Exonuklease",
+					["msg"] = "Sarah noch wach, ich würd mal bis Alga die klappe halten wenn wir dort sind wechsel ich ggf. kurz an den Laptop und geh in die Küche |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t bis sie hoch geht",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1693862699,
+					["from"] = "Domedonmaya",
+					["msg"] = "jo. ich mache es erstmal so. haber den ganzen raid wird es schwierig11",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1693862714,
+					["from"] = "Exonuklease",
+					["msg"] = "Ja kein thema kann auf jeden fall übernehmen",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1693862913,
+					["from"] = "Exonuklease",
+					["msg"] = "Mage für Flair wär so viel Klüger |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t naja, ich will eh am liebsten scale auf dem WL ",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1693862925,
+					["from"] = "Domedonmaya",
+					["msg"] = "mach wie du magst^^",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1693862938,
+					["from"] = "Exonuklease",
+					["msg"] = "Ja passt so |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t WL > Mage noch |Helvmoji:%6af|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\StuckOutTongue:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1693862947,
+					["from"] = "Exonuklease",
+					["msg"] = "Mage halt Dankbar als Raidlead |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t WL so 0",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1693862955,
+					["from"] = "Domedonmaya",
+					["msg"] = "ich mache erstmal",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1693862962,
+					["from"] = "Domedonmaya",
+					["msg"] = "du merkst ja ob es gut geht oder nicht",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1693862972,
+					["from"] = "Exonuklease",
+					["msg"] = "Jo |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t aber mein nichtmal für heute",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1693862990,
+					["from"] = "Exonuklease",
+					["msg"] = "So allgemein überlege den Mage zum Main twink zu machen",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1693863081,
+					["from"] = "Exonuklease",
+					["msg"] = "Ich zahl 15k für den mimi ring |Helvmoji:%6af|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\StuckOutTongue:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1693863085,
+					["from"] = "Exonuklease",
+					["msg"] = "Min Bid",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1693863306,
+					["from"] = "Exonuklease",
+					["msg"] = "Muss nochmal afk eben sry",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1693863749,
+					["from"] = "Domedonmaya",
+					["msg"] = "wie lang?",
+					["inbound"] = true,
+					["convo"] = "Domedonmaya",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1693864334,
+					["from"] = "Exonuklease",
+					["msg"] = "re sry maila war wach",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1693867065,
+					["from"] = "Exonuklease",
+					["msg"] = "Shatter auf CD aber kann meine Dots nichts weg machen -.-",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1693867077,
+					["from"] = "Exonuklease",
+					["msg"] = "Die ticken halt",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1693868819,
+					["from"] = "Exonuklease",
+					["msg"] = "|cffa335ee|Hitem:46053::::::::80:::::::::|h[Antwortcode Alpha]|h|r",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1693868995,
+					["from"] = "Exonuklease",
+					["msg"] = "Kannst du bald den antwortcode und skale machen ... maila klingt so wach",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1693869012,
+					["from"] = "Exonuklease",
+					["msg"] = "Antwortocode trade ich zur sicherheit mal an lama",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1693869681,
+					["from"] = "Exonuklease",
+					["msg"] = "Logg gleich auf Pally dann zahl ich |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = false,
+					["convo"] = "Domedonmaya",
+				}, -- [44]
+				["info"] = {
+				},
+			},
+		},
+	},
 }
 WIM3_ChatFilters = {
 }

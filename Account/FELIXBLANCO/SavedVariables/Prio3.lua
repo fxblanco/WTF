@@ -3,62 +3,62 @@ Prio3DB = {
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Andrés - Transcendence"] = "Andrés - Transcendence",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
-			["lootlastopened"] = {
-			},
 			["priorities"] = {
+			},
+			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
 		},
 		["Alsia - Venoxis"] = {
-			["lootlastopened"] = {
-			},
 			["priorities"] = {
+			},
+			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 1680900466,
 		},
-		["Andrés - Venoxis"] = {
-			["priorities"] = {
-			},
-			["lootlastopened"] = {
-			},
-			["receivedPriorities"] = 0,
-		},
 		["Lucho - Venoxis"] = {
-			["priorities"] = {
-			},
 			["lootlastopened"] = {
+			},
+			["priorities"] = {
 			},
 			["receivedPriorities"] = 0,
 		},
-		["Xolem - Venoxis"] = {
-			["priorities"] = {
-			},
+		["Andrés - Venoxis"] = {
 			["lootlastopened"] = {
 			},
-			["receivedPriorities"] = 1683671203,
-		},
-		["Khalimmortus - Venoxis"] = {
 			["priorities"] = {
-			},
-			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
 		},
 		["Andrés - Transcendence"] = {
-			["priorities"] = {
-			},
 			["lootlastopened"] = {
 			},
+			["priorities"] = {
+			},
 			["receivedPriorities"] = 0,
+		},
+		["Khalimmortus - Venoxis"] = {
+			["lootlastopened"] = {
+			},
+			["priorities"] = {
+			},
+			["receivedPriorities"] = 0,
+		},
+		["Xolem - Venoxis"] = {
+			["lootlastopened"] = {
+			},
+			["priorities"] = {
+			},
+			["receivedPriorities"] = 1683671203,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["priorities"] = {
@@ -112,13 +112,13 @@ Prio3DB = {
 					0, -- [2]
 					0, -- [3]
 				},
-				["Flennxx"] = {
+				["Darnella"] = {
 					40399, -- [1]
 					0, -- [2]
 					0, -- [3]
 				},
-				["Hennerr"] = {
-					40399, -- [1]
+				["Specializt"] = {
+					40395, -- [1]
 					0, -- [2]
 					0, -- [3]
 				},
@@ -172,12 +172,12 @@ Prio3DB = {
 					0, -- [2]
 					0, -- [3]
 				},
-				["Specializt"] = {
-					40395, -- [1]
+				["Hennerr"] = {
+					40399, -- [1]
 					0, -- [2]
 					0, -- [3]
 				},
-				["Darnella"] = {
+				["Flennxx"] = {
 					40399, -- [1]
 					0, -- [2]
 					0, -- [3]
@@ -190,9 +190,9 @@ Prio3DB = {
 			},
 			["receivedPriorities"] = 1680901249,
 			["ignorereopen"] = 600,
+			["prioimporttime"] = 1680902007,
 			["lootlastopened"] = {
 			},
-			["prioimporttime"] = 1680902007,
 		},
 	},
 }

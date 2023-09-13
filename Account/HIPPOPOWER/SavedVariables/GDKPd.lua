@@ -13,6 +13,12 @@ GDKPd_DB = {
 		["Pippop - Venoxis"] = {
 		},
 		["Lesbenlisa - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -144.7824554443359,
+				["x"] = 457.2606811523438,
+				["point"] = "TOP",
+				["relative"] = "TOP",
+			},
 			["playerbalancepoint"] = {
 				["y"] = -138.4429626464844,
 				["relative"] = "RIGHT",
@@ -20,25 +26,19 @@ GDKPd_DB = {
 				["x"] = -240.8168640136719,
 			},
 			["point"] = {
-				["y"] = -117.0243988037109,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 13.92111396789551,
+				["y"] = -74.44844818115234,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -218.9640808105469,
 			},
 			["startBid"] = 100,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -141.1630706787109,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -69.26077270507812,
 			},
-			["balancepoint"] = {
-				["y"] = -144.7824554443359,
-				["x"] = 457.2606811523438,
-				["point"] = "TOP",
-				["relative"] = "TOP",
-			},
-			["increment"] = 50,
 		},
 		["Hakkî - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -74,4 +74,5 @@ GDKPd_PotData = {
 	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
+	["Flitzelitis"] = 0,
 }
