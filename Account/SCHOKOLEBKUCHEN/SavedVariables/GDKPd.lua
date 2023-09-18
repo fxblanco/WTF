@@ -56,8 +56,8 @@ GDKPd_DB = {
 				["x"] = -72.32453918457031,
 			},
 			["auctionTimerRefresh"] = 15,
-			["startBid"] = 100,
-			["increment"] = 50,
+			["startBid"] = 2000,
+			["increment"] = 200,
 			["statuspoint"] = {
 				["y"] = -185.0646362304688,
 				["x"] = -69.1729736328125,
@@ -69,14 +69,19 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Raque"] = -5000,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:48670::::::::80:::::::::|h[Umhang des steinharten Wächters]|h|r",
+			["name"] = "Raque",
+		}, -- [1]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 0,
+	["potAmount"] = 5000,
 	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Exonuklease"] = -11110,
 }

@@ -20,118 +20,118 @@ RXPData = {
 		[0] = 84,
 	},
 	["trainGenericSpells"] = true,
-	["release"] = "v4.5.19",
+	["release"] = "v4.5.20",
 	["guideMetaData"] = {
 		["+Mining & Herbalism|Shadowmoon Valley|Herbalism4"] = {
 			["guideId"] = 2833453562,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Herbalism4",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Herbalism4",
+			["hidewindow"] = "",
+			["name"] = "Herbalism4",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 976,
-			["name"] = "Herbalism4",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Outland Farming|Blades Edge Mountains|Nether Dragonscale_5a"] = {
 			["guideId"] = 2795116155,
 			["subgroup"] = "Blades Edge Mountains",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Blades Edge Mountains|Nether Dragonscale_5a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Blades Edge Mountains|Nether Dragonscale_5a",
+			["hidewindow"] = "",
+			["name"] = "Nether Dragonscale_5a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 363,
-			["name"] = "Nether Dragonscale_5a",
+			["farm"] = true,
 			["displayname"] = "Nether Dragonscale",
 		},
 		["+Mining & Herbalism|Borean Tundra|Herbalism10"] = {
 			["guideId"] = 1868763232,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Borean Tundra|Herbalism10",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Borean Tundra|Herbalism10",
+			["hidewindow"] = "",
+			["name"] = "Herbalism10",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 583,
-			["name"] = "Herbalism10",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Outland Farming|Nagrand|Primal Water_8a"] = {
 			["guideId"] = 877989658,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Primal Water_8a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Primal Water_8a",
+			["hidewindow"] = "",
+			["name"] = "Primal Water_8a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 438,
-			["name"] = "Primal Water_8a",
+			["farm"] = true,
 			["displayname"] = "Primal Water",
 		},
 		["+Azeroth Farming|Un'Goro Crater|Herbalism8"] = {
 			["guideId"] = 1277759414,
 			["subgroup"] = "Un'Goro Crater",
 			["group"] = "+Azeroth Farming",
-			["key"] = "+Azeroth Farming|Un'Goro Crater|Herbalism8",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Azeroth Farming|Un'Goro Crater|Herbalism8",
+			["hidewindow"] = "",
+			["name"] = "Herbalism8",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 855,
-			["name"] = "Herbalism8",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Golem)_45a"] = {
 			["guideId"] = 1792219272,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Golem)_45a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Golem)_45a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Iron Rune Golem)_45a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 409,
-			["name"] = "Eternal Earth (Iron Rune Golem)_45a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth (Iron Rune Golem)",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Water_67a"] = {
 			["guideId"] = 3343127149,
 			["subgroup"] = "Wintergrasp",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Wintergrasp|Eternal Water_67a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Wintergrasp|Eternal Water_67a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water_67a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 500,
-			["name"] = "Eternal Water_67a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water",
 		},
 		["RestedXP Horde 1-30||27-28 Southern Barrens JJ"] = {
 			["guideId"] = 1638731540,
+			["version"] = 1,
 			["next"] = "28-30 Thousand Needles JJ",
 			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["xprate"] = ">1.4999",
-			["name"] = "27-28 Southern Barrens JJ",
-			["key"] = "RestedXP Horde 1-30||27-28 Southern Barrens JJ",
-			["wotlk"] = "",
 			["menuIndex"] = 3,
+			["group"] = "RestedXP Horde 1-30",
+			["xprate"] = ">1.4999",
+			["key"] = "RestedXP Horde 1-30||27-28 Southern Barrens JJ",
+			["name"] = "27-28 Southern Barrens JJ",
+			["wotlk"] = "",
+			["tbc"] = "",
 			["length"] = 31695,
 			["submenuIndex"] = 9,
 			["displayname"] = "27-28 Southern Barrens JJ",
@@ -140,95 +140,95 @@ RXPData = {
 			["guideId"] = 1638733908,
 			["subgroup"] = "Zul'Drak",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Zul'Drak|Eternal Earth (Guardian of Zum'Rhuk)_52a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Zul'Drak|Eternal Earth (Guardian of Zum'Rhuk)_52a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Guardian of Zum'Rhuk)_52a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 378,
-			["name"] = "Eternal Earth (Guardian of Zum'Rhuk)_52a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth (Guardian of Zum'Rhuk)",
 		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Daily Quests Route"] = {
 			["guideId"] = 3465617754,
 			["subgroup"] = "Faction Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Daily Quests Route",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Daily Quests Route",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 21893,
 			["name"] = "Icecrown Gunship Daily Quests Route",
+			["length"] = 21893,
+			["farm"] = true,
 			["displayname"] = "Icecrown Gunship Daily Quests Route",
 		},
 		["+Mining & Herbalism|Howling Fjord|Mining13"] = {
 			["guideId"] = 1070927670,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Howling Fjord|Mining13",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Howling Fjord|Mining13",
+			["hidewindow"] = "",
+			["name"] = "Mining13",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 795,
-			["name"] = "Mining13",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["+Mining & Herbalism|Grizzly Hills|Mining & Herbalism14"] = {
 			["guideId"] = 332927838,
 			["subgroup"] = "Grizzly Hills",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Grizzly Hills|Mining & Herbalism14",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Grizzly Hills|Mining & Herbalism14",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism14",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 840,
-			["name"] = "Mining & Herbalism14",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Argent Tournament|||cFF00FF252.0|r Silvermoon Champion"] = {
 			["guideId"] = 578229163,
 			["next"] = "Champion Side Quests",
 			["group"] = "+Argent Tournament",
-			["enabledFor"] = "Horde !BloodElf",
-			["farm"] = true,
 			["key"] = "+Argent Tournament|||cFF00FF252.0|r Silvermoon Champion",
+			["farm"] = true,
+			["name"] = "|cFF00FF252.0|r Silvermoon Champion",
 			["wotlk"] = "",
 			["version"] = 1,
 			["length"] = 13402,
-			["name"] = "|cFF00FF252.0|r Silvermoon Champion",
+			["enabledFor"] = "Horde !BloodElf",
 			["displayname"] = "|cFF00FF252.0|r Silvermoon Champion",
 		},
 		["+Mining & Herbalism|Borean Tundra|Mining & Herbalism10"] = {
 			["guideId"] = 229970728,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Borean Tundra|Mining & Herbalism10",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Borean Tundra|Mining & Herbalism10",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism10",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 890,
-			["name"] = "Mining & Herbalism10",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Outland Farming|Nagrand|Cobra Scales_11a"] = {
 			["guideId"] = 1093668638,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Cobra Scales_11a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Cobra Scales_11a",
+			["hidewindow"] = "",
+			["name"] = "Cobra Scales_11a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 330,
-			["name"] = "Cobra Scales_11a",
+			["farm"] = true,
 			["displayname"] = "Cobra Scales",
 		},
 		["RestedXP Horde 1-30||10-12 Eversong Woods"] = {
@@ -236,12 +236,12 @@ RXPData = {
 			["next"] = "12-16 Ghostlands",
 			["enabledFor"] = "Horde !Warrior !Shaman",
 			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["name"] = "10-12 Eversong Woods",
 			["key"] = "RestedXP Horde 1-30||10-12 Eversong Woods",
+			["tbc"] = "",
 			["wotlk"] = "",
+			["version"] = 1,
 			["menuIndex"] = 3,
+			["name"] = "10-12 Eversong Woods",
 			["length"] = 52543,
 			["submenuIndex"] = 4,
 			["displayname"] = "10-12 Eversong Woods",
@@ -260,64 +260,64 @@ RXPData = {
 			["enabledFor"] = "Horde",
 			["tbc"] = "",
 			["wotlk"] = "",
-			["name"] = "10-13 Durotar",
-			["version"] = 1,
 			["lowPrio"] = "*RestedXP Horde 1-30",
+			["version"] = 1,
+			["name"] = "10-13 Durotar",
 		},
 		["+Mining & Herbalism|Netherstorm|Herbalism2"] = {
 			["guideId"] = 1190858727,
 			["subgroup"] = "Netherstorm",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Netherstorm|Herbalism2",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Netherstorm|Herbalism2",
+			["hidewindow"] = "",
+			["name"] = "Herbalism2",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 1019,
-			["name"] = "Herbalism2",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Zangarmarsh|Mining & Herbalism5"] = {
 			["guideId"] = 3711505045,
 			["subgroup"] = "Zangarmarsh",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zangarmarsh|Mining & Herbalism5",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Zangarmarsh|Mining & Herbalism5",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism5",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 719,
-			["name"] = "Mining & Herbalism5",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
-		["RestedXP Horde 1-30||25-26 Stonetalon"] = {
-			["guideId"] = 3855748158,
-			["next"] = "26-30 Ashenvale / Thousand Needles",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["xprate"] = "<1.5",
-			["version"] = 1,
-			["key"] = "RestedXP Horde 1-30||25-26 Stonetalon",
+		["+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a"] = {
+			["guideId"] = 1271404611,
+			["subgroup"] = "Zul'Drak",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Crazed Water Spirit)_49a",
 			["wotlk"] = "",
-			["tbc"] = "",
-			["length"] = 4460,
-			["name"] = "25-26 Stonetalon",
-			["displayname"] = "25-26 Stonetalon",
+			["loop"] = "",
+			["length"] = 386,
+			["farm"] = true,
+			["displayname"] = "Eternal Water (Crazed Water Spirit)",
 		},
 		["+Outland Farming|Terokkar Forest|Netherweb Spider Silk_18a"] = {
 			["guideId"] = 2301171132,
 			["subgroup"] = "Terokkar Forest",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Netherweb Spider Silk_18a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Terokkar Forest|Netherweb Spider Silk_18a",
+			["hidewindow"] = "",
+			["name"] = "Netherweb Spider Silk_18a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 863,
-			["name"] = "Netherweb Spider Silk_18a",
+			["farm"] = true,
 			["displayname"] = "Netherweb Spider Silk",
 		},
 		["+Profession leveling|Herbalism|1-375 Horde_m1"] = {
@@ -325,138 +325,150 @@ RXPData = {
 			["subgroup"] = "Herbalism",
 			["group"] = "+Profession leveling",
 			["enabledFor"] = "Horde",
-			["name"] = "01-375 Horde_m1",
 			["key"] = "+Profession leveling|Herbalism|01-375 Horde_m1",
+			["version"] = 0,
 			["farm"] = true,
 			["wotlk"] = "",
 			["length"] = 12722,
-			["version"] = 0,
+			["name"] = "01-375 Horde_m1",
 			["displayname"] = "1-375 Horde",
 		},
 		["+Northrend Farming|Howling Fjord|Eternal Life (Thornvine Creeper)_48a"] = {
 			["guideId"] = 2309495124,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Howling Fjord|Eternal Life (Thornvine Creeper)_48a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Howling Fjord|Eternal Life (Thornvine Creeper)_48a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Life (Thornvine Creeper)_48a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 420,
-			["name"] = "Eternal Life (Thornvine Creeper)_48a",
+			["farm"] = true,
 			["displayname"] = "Eternal Life (Thornvine Creeper)",
 		},
 		["+Mining & Herbalism|Terokkar Forest|Herbalism3"] = {
 			["guideId"] = 2215973155,
 			["subgroup"] = "Terokkar Forest",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Terokkar Forest|Herbalism3",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Terokkar Forest|Herbalism3",
+			["hidewindow"] = "",
+			["name"] = "Herbalism3",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 722,
-			["name"] = "Herbalism3",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Howling Fjord|Mining & Herbalism13"] = {
 			["guideId"] = 257233715,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Howling Fjord|Mining & Herbalism13",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Howling Fjord|Mining & Herbalism13",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism13",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 979,
-			["name"] = "Mining & Herbalism13",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Mining & Herbalism|Blades Edge Mountains|Mining7"] = {
 			["guideId"] = 2924220890,
 			["subgroup"] = "Blades Edge Mountains",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Blades Edge Mountains|Mining7",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Blades Edge Mountains|Mining7",
+			["hidewindow"] = "",
+			["name"] = "Mining7",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 898,
-			["name"] = "Mining7",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["+Mining & Herbalism|Dragonblight|Herbalism12"] = {
 			["guideId"] = 1687359570,
 			["subgroup"] = "Dragonblight",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Dragonblight|Herbalism12",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Dragonblight|Herbalism12",
+			["hidewindow"] = "",
+			["name"] = "Herbalism12",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 517,
-			["name"] = "Herbalism12",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Northrend Farming|Sholazar Basin|Eternal Water & Air (Storm Revenant & Aqueous Spirit)_38a"] = {
 			["guideId"] = 4227080309,
 			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Sholazar Basin|Eternal Water & Air (Storm Revenant & Aqueous Spirit)_38a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Sholazar Basin|Eternal Water & Air (Storm Revenant & Aqueous Spirit)_38a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water & Air (Storm Revenant & Aqueous Spirit)_38a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 508,
-			["name"] = "Eternal Water & Air (Storm Revenant & Aqueous Spirit)_38a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water & Air (Storm Revenant & Aqueous Spirit)",
+		},
+		["+Argent Tournament|||cFF00FF252.0|r Undercity Champion"] = {
+			["guideId"] = 227873588,
+			["enabledFor"] = "Horde !Scourge",
+			["group"] = "+Argent Tournament",
+			["name"] = "|cFF00FF252.0|r Undercity Champion",
+			["key"] = "+Argent Tournament|||cFF00FF252.0|r Undercity Champion",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 13158,
+			["farm"] = true,
+			["displayname"] = "|cFF00FF252.0|r Undercity Champion",
 		},
 		["+Cooking & Skinning|Borean Tundra|Rhino Meat & Borean Leather_33a"] = {
 			["guideId"] = 4193195753,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Cooking & Skinning",
-			["key"] = "+Cooking & Skinning|Borean Tundra|Rhino Meat & Borean Leather_33a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Cooking & Skinning|Borean Tundra|Rhino Meat & Borean Leather_33a",
+			["hidewindow"] = "",
+			["name"] = "Rhino Meat & Borean Leather_33a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 594,
-			["name"] = "Rhino Meat & Borean Leather_33a",
+			["farm"] = true,
 			["displayname"] = "Rhino Meat & Borean Leather",
 		},
 		["+Mining & Herbalism|Nagrand|Herbalism1"] = {
 			["guideId"] = 102239750,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Nagrand|Herbalism1",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Nagrand|Herbalism1",
+			["hidewindow"] = "",
+			["name"] = "Herbalism1",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 725,
-			["name"] = "Herbalism1",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Outland Farming|Shadowmoon Valley|Fel Armament_19a"] = {
 			["guideId"] = 4104393505,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Fel Armament_19a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Shadowmoon Valley|Fel Armament_19a",
+			["hidewindow"] = "",
+			["name"] = "Fel Armament_19a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 373,
-			["name"] = "Fel Armament_19a",
+			["farm"] = true,
 			["displayname"] = "Fel Armament",
 		},
 		["RestedXP Horde 1-30||16-20 Ghostlands"] = {
@@ -464,12 +476,12 @@ RXPData = {
 			["next"] = "22-26 Hillsbrad Foothills JJ;20-23 Stonetalon / The Barrens",
 			["enabledFor"] = "Horde !Warrior !Shaman",
 			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["name"] = "16-20 Ghostlands",
 			["key"] = "RestedXP Horde 1-30||16-20 Ghostlands",
+			["tbc"] = "",
 			["wotlk"] = "",
+			["version"] = 1,
 			["menuIndex"] = 3,
+			["name"] = "16-20 Ghostlands",
 			["length"] = 108590,
 			["submenuIndex"] = 6,
 			["displayname"] = "16-20 Ghostlands",
@@ -478,95 +490,95 @@ RXPData = {
 			["guideId"] = 1155012593,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Air (Scion of Storm)_58a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Air (Scion of Storm)_58a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Air (Scion of Storm)_58a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 420,
-			["name"] = "Eternal Air (Scion of Storm)_58a",
+			["farm"] = true,
 			["displayname"] = "Eternal Air (Scion of Storm)",
 		},
 		["+Outland Farming|Shadowmoon Valley|Primal Water_21a"] = {
 			["guideId"] = 4150530870,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Water_21a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Water_21a",
+			["hidewindow"] = "",
+			["name"] = "Primal Water_21a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 353,
-			["name"] = "Primal Water_21a",
+			["farm"] = true,
 			["displayname"] = "Primal Water",
 		},
 		["+Mining & Herbalism|Shadowmoon Valley|Mining4"] = {
 			["guideId"] = 1945440453,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Mining4",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Mining4",
+			["hidewindow"] = "",
+			["name"] = "Mining4",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 939,
-			["name"] = "Mining4",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["+Mining & Herbalism|Blades Edge Mountains|Herbalism7"] = {
 			["guideId"] = 3866104591,
 			["subgroup"] = "Blades Edge Mountains",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Blades Edge Mountains|Herbalism7",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Blades Edge Mountains|Herbalism7",
+			["hidewindow"] = "",
+			["name"] = "Herbalism7",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 763,
-			["name"] = "Herbalism7",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Azeroth Farming|Winterspring|Mining9"] = {
 			["guideId"] = 239210124,
 			["subgroup"] = "Winterspring",
 			["group"] = "+Azeroth Farming",
-			["key"] = "+Azeroth Farming|Winterspring|Mining9",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Azeroth Farming|Winterspring|Mining9",
+			["hidewindow"] = "",
+			["name"] = "Mining9",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 886,
-			["name"] = "Mining9",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["+Argent Tournament|||cFFFF57223.0|r Champion Daily Quests"] = {
 			["guideId"] = 1184240671,
 			["group"] = "+Argent Tournament",
-			["version"] = 1,
 			["key"] = "+Argent Tournament|||cFFFF57223.0|r Champion Daily Quests",
+			["version"] = 1,
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 22397,
 			["name"] = "|cFFFF57223.0|r Champion Daily Quests",
+			["length"] = 22397,
+			["farm"] = true,
 			["displayname"] = "|cFFFF57223.0|r Champion Daily Quests",
 		},
 		["+Outland Farming|Shadowmoon Valley|Primal Fire_20a"] = {
 			["guideId"] = 3811250872,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Fire_20a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Fire_20a",
+			["hidewindow"] = "",
+			["name"] = "Primal Fire_20a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 451,
-			["name"] = "Primal Fire_20a",
+			["farm"] = true,
 			["displayname"] = "Primal Fire",
 		},
 		["RestedXP Horde 1-30||1-6 Durotar"] = {
@@ -574,75 +586,75 @@ RXPData = {
 			["defaultfor"] = "Orc/Troll",
 			["group"] = "RestedXP Horde 1-30",
 			["defaultFor"] = "Orc/Troll",
-			["key"] = "RestedXP Horde 1-30||01-06 Durotar",
+			["lowPrio"] = "*RestedXP Horde 1-30",
 			["menuIndex"] = 8,
 			["length"] = 39827,
 			["submenuIndex"] = 1,
 			["displayname"] = "1-6 Durotar",
 			["next"] = "06-10 Durotar",
 			["enabledFor"] = "Horde",
-			["tbc"] = "",
-			["wotlk"] = "",
 			["version"] = 1,
+			["wotlk"] = "",
+			["tbc"] = "",
+			["key"] = "RestedXP Horde 1-30||01-06 Durotar",
 			["name"] = "01-06 Durotar",
-			["lowPrio"] = "*RestedXP Horde 1-30",
 		},
 		["+Mining & Herbalism|Hellfire Peninsula|Mining & Herbalism6"] = {
 			["guideId"] = 1719342354,
 			["subgroup"] = "Hellfire Peninsula",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Hellfire Peninsula|Mining & Herbalism6",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Hellfire Peninsula|Mining & Herbalism6",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism6",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 660,
-			["name"] = "Mining & Herbalism6",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Cooking & Skinning|Sholazar Basin|Chilled Meat & Sholazar Basin_34a"] = {
 			["guideId"] = 1210783776,
 			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Cooking & Skinning",
-			["key"] = "+Cooking & Skinning|Sholazar Basin|Chilled Meat & Sholazar Basin_34a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Cooking & Skinning|Sholazar Basin|Chilled Meat & Sholazar Basin_34a",
+			["hidewindow"] = "",
+			["name"] = "Chilled Meat & Sholazar Basin_34a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 625,
-			["name"] = "Chilled Meat & Sholazar Basin_34a",
+			["farm"] = true,
 			["displayname"] = "Chilled Meat & Sholazar Basin",
 		},
 		["+Mining & Herbalism|Icecrown|Mining & Herbalism18"] = {
 			["guideId"] = 3015053701,
 			["subgroup"] = "Icecrown",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Icecrown|Mining & Herbalism18",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Icecrown|Mining & Herbalism18",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism18",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 722,
-			["name"] = "Mining & Herbalism18",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["enableGroupQuests"] = {
 		},
 		["RestedXP Horde 1-30||28-30 Thousand Needles JJ"] = {
 			["guideId"] = 1610747631,
+			["version"] = 1,
 			["next"] = "RestedXP Horde 30-45\\30-32 Hillsbrad/Arathi JJ",
 			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["xprate"] = ">1.4999",
-			["name"] = "28-30 Thousand Needles JJ",
-			["key"] = "RestedXP Horde 1-30||28-30 Thousand Needles JJ",
-			["wotlk"] = "",
 			["menuIndex"] = 3,
+			["group"] = "RestedXP Horde 1-30",
+			["xprate"] = ">1.4999",
+			["key"] = "RestedXP Horde 1-30||28-30 Thousand Needles JJ",
+			["name"] = "28-30 Thousand Needles JJ",
+			["wotlk"] = "",
+			["tbc"] = "",
 			["length"] = 66392,
 			["submenuIndex"] = 10,
 			["displayname"] = "28-30 Thousand Needles JJ",
@@ -651,14 +663,14 @@ RXPData = {
 			["guideId"] = 406851250,
 			["subgroup"] = "Netherstorm",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Netherstorm|Mining2",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Netherstorm|Mining2",
+			["hidewindow"] = "",
+			["name"] = "Mining2",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 944,
-			["name"] = "Mining2",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["RestedXP Horde 1-30||10-13 Mulgore"] = {
@@ -666,59 +678,59 @@ RXPData = {
 			["defaultfor"] = "Tauren",
 			["group"] = "RestedXP Horde 1-30",
 			["defaultFor"] = "Tauren",
-			["key"] = "RestedXP Horde 1-30||10-13 Mulgore",
+			["lowPrio"] = "*RestedXP Horde 1-30",
 			["menuIndex"] = 8,
 			["length"] = 6204,
 			["submenuIndex"] = 5,
 			["displayname"] = "10-13 Mulgore",
 			["next"] = "13-23 The Barrens",
 			["enabledFor"] = "Horde",
-			["tbc"] = "",
-			["wotlk"] = "",
 			["name"] = "10-13 Mulgore",
+			["wotlk"] = "",
+			["tbc"] = "",
+			["key"] = "RestedXP Horde 1-30||10-13 Mulgore",
 			["version"] = 1,
-			["lowPrio"] = "*RestedXP Horde 1-30",
 		},
 		["+Mining & Herbalism|The Storm Peaks|Mining & Herbalism16"] = {
 			["guideId"] = 792794035,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|The Storm Peaks|Mining & Herbalism16",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|The Storm Peaks|Mining & Herbalism16",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism16",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 924,
-			["name"] = "Mining & Herbalism16",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Northrend Farming|Dragonblight|Eternal Water (Ice Revenant)_41a"] = {
 			["guideId"] = 337647497,
 			["subgroup"] = "Dragonblight",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Dragonblight|Eternal Water (Ice Revenant)_41a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Dragonblight|Eternal Water (Ice Revenant)_41a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Ice Revenant)_41a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 406,
-			["name"] = "Eternal Water (Ice Revenant)_41a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water (Ice Revenant)",
 		},
 		["+Mining & Herbalism|Icecrown|Mining18"] = {
 			["guideId"] = 4170845576,
 			["subgroup"] = "Icecrown",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Icecrown|Mining18",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Icecrown|Mining18",
+			["hidewindow"] = "",
+			["name"] = "Mining18",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 578,
-			["name"] = "Mining18",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["RestedXP Horde 1-30||6-10 Eversong Woods"] = {
@@ -726,54 +738,56 @@ RXPData = {
 			["next"] = "10-12 Eversong Woods",
 			["enabledFor"] = "BloodElf/Undead",
 			["group"] = "RestedXP Horde 1-30",
-			["version"] = 1,
 			["key"] = "RestedXP Horde 1-30||06-10 Eversong Woods",
-			["wotlk"] = "",
 			["tbc"] = "",
-			["length"] = 81081,
+			["wotlk"] = "",
+			["version"] = 1,
+			["menuIndex"] = 3,
 			["name"] = "06-10 Eversong Woods",
+			["length"] = 81081,
+			["submenuIndex"] = 3,
 			["displayname"] = "6-10 Eversong Woods",
 		},
 		["+Outland Farming|Nagrand|Thick Clefthoof Leather_9a"] = {
 			["guideId"] = 4055569189,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Thick Clefthoof Leather_9a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Thick Clefthoof Leather_9a",
+			["hidewindow"] = "",
+			["name"] = "Thick Clefthoof Leather_9a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 548,
-			["name"] = "Thick Clefthoof Leather_9a",
+			["farm"] = true,
 			["displayname"] = "Thick Clefthoof Leather",
 		},
 		["+Mining & Herbalism|Grizzly Hills|Herbalism14"] = {
 			["guideId"] = 1942229142,
 			["subgroup"] = "Grizzly Hills",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Grizzly Hills|Herbalism14",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Grizzly Hills|Herbalism14",
+			["hidewindow"] = "",
+			["name"] = "Herbalism14",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 672,
-			["name"] = "Herbalism14",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Nagrand|Mining & Herbalism1"] = {
 			["guideId"] = 2384007374,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Nagrand|Mining & Herbalism1",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Nagrand|Mining & Herbalism1",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism1",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 742,
-			["name"] = "Mining & Herbalism1",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["enabledDungeons"] = {
@@ -786,138 +800,138 @@ RXPData = {
 			["guideId"] = 672666603,
 			["subgroup"] = "Terokkar Forest",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Terokkar Forest|Mining & Herbalism3",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Terokkar Forest|Mining & Herbalism3",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism3",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 760,
-			["name"] = "Mining & Herbalism3",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Mining & Herbalism|Howling Fjord|Herbalism13"] = {
 			["guideId"] = 1891307627,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Howling Fjord|Herbalism13",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Howling Fjord|Herbalism13",
+			["hidewindow"] = "",
+			["name"] = "Herbalism13",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 693,
-			["name"] = "Herbalism13",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Argent Tournament|||cFF00FF252.0|r Thunder Bluff Champion"] = {
 			["guideId"] = 1504842854,
 			["enabledFor"] = "Horde !Tauren",
 			["group"] = "+Argent Tournament",
-			["farm"] = true,
 			["name"] = "|cFF00FF252.0|r Thunder Bluff Champion",
+			["key"] = "+Argent Tournament|||cFF00FF252.0|r Thunder Bluff Champion",
 			["wotlk"] = "",
 			["version"] = 1,
 			["length"] = 13108,
-			["key"] = "+Argent Tournament|||cFF00FF252.0|r Thunder Bluff Champion",
+			["farm"] = true,
 			["displayname"] = "|cFF00FF252.0|r Thunder Bluff Champion",
 		},
 		["+Northrend Farming|The Storm Peaks|Eternal Fire (Wailing Winds)_57a"] = {
 			["guideId"] = 1220810788,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Fire (Wailing Winds)_57a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Fire (Wailing Winds)_57a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Fire (Wailing Winds)_57a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 370,
-			["name"] = "Eternal Fire (Wailing Winds)_57a",
+			["farm"] = true,
 			["displayname"] = "Eternal Fire (Wailing Winds)",
 		},
 		["+Outland Farming|Hellfire Peninsula|Primal Fire_26a"] = {
 			["guideId"] = 4083684108,
 			["subgroup"] = "Hellfire Peninsula",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Hellfire Peninsula|Primal Fire_26a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Hellfire Peninsula|Primal Fire_26a",
+			["hidewindow"] = "",
+			["name"] = "Primal Fire_26a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 375,
-			["name"] = "Primal Fire_26a",
+			["farm"] = true,
 			["displayname"] = "Primal Fire",
 		},
 		["+Mining & Herbalism|Terokkar Forest|Mining3"] = {
 			["guideId"] = 1370034158,
 			["subgroup"] = "Terokkar Forest",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Terokkar Forest|Mining3",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Terokkar Forest|Mining3",
+			["hidewindow"] = "",
+			["name"] = "Mining3",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 686,
-			["name"] = "Mining3",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["+Northrend Farming|Borean Tundra|Eternal Fire (Boiling Spirit)_31a"] = {
 			["guideId"] = 956569606,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Fire (Boiling Spirit)_31a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Fire (Boiling Spirit)_31a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Fire (Boiling Spirit)_31a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 404,
-			["name"] = "Eternal Fire (Boiling Spirit)_31a",
+			["farm"] = true,
 			["displayname"] = "Eternal Fire (Boiling Spirit)",
 		},
 		["+Mining & Herbalism|Nagrand|Mining1"] = {
 			["guideId"] = 3706588369,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Nagrand|Mining1",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Nagrand|Mining1",
+			["hidewindow"] = "",
+			["name"] = "Mining1",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 649,
-			["name"] = "Mining1",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["+Outland Farming|Netherstorm|Nether Dragonscale_2a"] = {
 			["guideId"] = 3942388565,
 			["subgroup"] = "Netherstorm",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Netherstorm|Nether Dragonscale_2a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Netherstorm|Nether Dragonscale_2a",
+			["hidewindow"] = "",
+			["name"] = "Nether Dragonscale_2a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 330,
-			["name"] = "Nether Dragonscale_2a",
+			["farm"] = true,
 			["displayname"] = "Nether Dragonscale",
 		},
 		["+Outland Farming|Shadowmoon Valley|Wind Scale_24a"] = {
 			["guideId"] = 3473543755,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Wind Scale_24a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Shadowmoon Valley|Wind Scale_24a",
+			["hidewindow"] = "",
+			["name"] = "Wind Scale_24a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 399,
-			["name"] = "Wind Scale_24a",
+			["farm"] = true,
 			["displayname"] = "Wind Scale",
 		},
 		["RestedXP Horde 1-30||20-23 Stonetalon / The Barrens"] = {
@@ -925,13 +939,15 @@ RXPData = {
 			["next"] = "23-27 Hillsbrad / Ashenvale",
 			["enabledFor"] = "Horde !Warrior !Shaman",
 			["group"] = "RestedXP Horde 1-30",
-			["xprate"] = "<1.5",
-			["version"] = 1,
 			["key"] = "RestedXP Horde 1-30||20-23 Stonetalon / The Barrens",
-			["wotlk"] = "",
 			["tbc"] = "",
-			["length"] = 57326,
+			["xprate"] = "<1.5",
+			["wotlk"] = "",
+			["version"] = 1,
+			["menuIndex"] = 3,
 			["name"] = "20-23 Stonetalon / The Barrens",
+			["length"] = 57326,
+			["submenuIndex"] = 7,
 			["displayname"] = "20-23 Stonetalon / The Barrens",
 		},
 		["RestedXP Horde Boosted 58-60||Boosted Character 58-60"] = {
@@ -948,766 +964,798 @@ RXPData = {
 			["enabledFor"] = "Horde",
 			["tbc"] = "",
 			["wotlk"] = "",
-			["name"] = "Boosted Character 58-60",
-			["version"] = 1,
-			["defaultFor"] = "58Boost",
 			["lowPrio"] = "*RestedXP Horde Boosted 58-60",
+			["defaultFor"] = "58Boost",
+			["version"] = 1,
+			["name"] = "Boosted Character 58-60",
 		},
 		["+Cooking & Skinning|Zul'Drak|Iceweb Spider Silk & Borean Leather_50a"] = {
 			["guideId"] = 1001068489,
 			["subgroup"] = "Zul'Drak",
 			["group"] = "+Cooking & Skinning",
-			["key"] = "+Cooking & Skinning|Zul'Drak|Iceweb Spider Silk & Borean Leather_50a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Cooking & Skinning|Zul'Drak|Iceweb Spider Silk & Borean Leather_50a",
+			["hidewindow"] = "",
+			["name"] = "Iceweb Spider Silk & Borean Leather_50a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 417,
-			["name"] = "Iceweb Spider Silk & Borean Leather_50a",
+			["farm"] = true,
 			["displayname"] = "Iceweb Spider Silk & Borean Leather",
 		},
-		["+Mining & Herbalism|Dragonblight|Mining12"] = {
-			["guideId"] = 871698205,
-			["subgroup"] = "Dragonblight",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Dragonblight|Mining12",
-			["farm"] = true,
-			["hidewindow"] = "",
+		["+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a"] = {
+			["guideId"] = 2964527564,
+			["subgroup"] = "The Storm Peaks",
+			["group"] = "+Northrend Farming",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Fire (Seething Revenant)_55a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 631,
-			["name"] = "Mining12",
-			["displayname"] = "Mining",
+			["length"] = 468,
+			["farm"] = true,
+			["displayname"] = "Eternal Fire (Seething Revenant)",
 		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Unlock Daily Quests"] = {
 			["guideId"] = 523247355,
 			["subgroup"] = "Faction Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Unlock Daily Quests",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Unlock Daily Quests",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 16406,
 			["name"] = "Ebon Blade Unlock Daily Quests",
+			["length"] = 16406,
+			["farm"] = true,
 			["displayname"] = "Ebon Blade Unlock Daily Quests",
 		},
 		["+Azeroth Farming|Winterspring|Herbalism9"] = {
 			["guideId"] = 1014370241,
 			["subgroup"] = "Winterspring",
 			["group"] = "+Azeroth Farming",
-			["key"] = "+Azeroth Farming|Winterspring|Herbalism9",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Azeroth Farming|Winterspring|Herbalism9",
+			["hidewindow"] = "",
+			["name"] = "Herbalism9",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 942,
-			["name"] = "Herbalism9",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Outland Farming|Nagrand|Primal Shadow_12a"] = {
 			["guideId"] = 1396182952,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Primal Shadow_12a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Primal Shadow_12a",
+			["hidewindow"] = "",
+			["name"] = "Primal Shadow_12a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 315,
-			["name"] = "Primal Shadow_12a",
+			["farm"] = true,
 			["displayname"] = "Primal Shadow",
 		},
 		["+Azeroth Farming|Winterspring|Mining & Herbalism9"] = {
 			["guideId"] = 3552711305,
 			["subgroup"] = "Winterspring",
 			["group"] = "+Azeroth Farming",
-			["key"] = "+Azeroth Farming|Winterspring|Mining & Herbalism9",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Azeroth Farming|Winterspring|Mining & Herbalism9",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism9",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 990,
-			["name"] = "Mining & Herbalism9",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 		["+Argent Tournament|||cFFFF57223.1|r Crusader Daily Quests"] = {
 			["guideId"] = 1202852906,
 			["group"] = "+Argent Tournament",
-			["version"] = 1,
 			["key"] = "+Argent Tournament|||cFFFF57223.1|r Crusader Daily Quests",
+			["version"] = 1,
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 2941,
 			["name"] = "|cFFFF57223.1|r Crusader Daily Quests",
+			["length"] = 2941,
+			["farm"] = true,
 			["displayname"] = "|cFFFF57223.1|r Crusader Daily Quests",
 		},
 		["+Outland Farming|Hellfire Peninsula|Primal Shadow_25a"] = {
 			["guideId"] = 471077867,
 			["subgroup"] = "Hellfire Peninsula",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Hellfire Peninsula|Primal Shadow_25a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Hellfire Peninsula|Primal Shadow_25a",
+			["hidewindow"] = "",
+			["name"] = "Primal Shadow_25a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 369,
-			["name"] = "Primal Shadow_25a",
+			["farm"] = true,
 			["displayname"] = "Primal Shadow",
 		},
 		["+Mining & Herbalism|Netherstorm|Mining & Herbalism2"] = {
 			["guideId"] = 3755741871,
 			["subgroup"] = "Netherstorm",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Netherstorm|Mining & Herbalism2",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Netherstorm|Mining & Herbalism2",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism2",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 1046,
-			["name"] = "Mining & Herbalism2",
-			["displayname"] = "Mining & Herbalism",
-		},
-		["+Mining & Herbalism|Hellfire Peninsula|Mining6"] = {
-			["guideId"] = 2187071765,
-			["subgroup"] = "Hellfire Peninsula",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Hellfire Peninsula|Mining6",
 			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 665,
-			["name"] = "Mining6",
-			["displayname"] = "Mining",
+			["displayname"] = "Mining & Herbalism",
 		},
 		["RestedXP Horde 1-30||1-6 Mulgore"] = {
 			["guideId"] = 2939161226,
 			["defaultfor"] = "Tauren",
 			["group"] = "RestedXP Horde 1-30",
 			["defaultFor"] = "Tauren",
-			["key"] = "RestedXP Horde 1-30||01-06 Mulgore",
+			["lowPrio"] = "*RestedXP Horde 1-30",
 			["menuIndex"] = 8,
 			["length"] = 8484,
 			["submenuIndex"] = 2,
 			["displayname"] = "1-6 Mulgore",
 			["next"] = "06-10 Mulgore",
 			["enabledFor"] = "Horde",
-			["tbc"] = "",
-			["wotlk"] = "",
 			["name"] = "01-06 Mulgore",
+			["wotlk"] = "",
+			["tbc"] = "",
+			["key"] = "RestedXP Horde 1-30||01-06 Mulgore",
 			["version"] = 1,
-			["lowPrio"] = "*RestedXP Horde 1-30",
+		},
+		["+Mining & Herbalism|Hellfire Peninsula|Mining6"] = {
+			["guideId"] = 2187071765,
+			["subgroup"] = "Hellfire Peninsula",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Hellfire Peninsula|Mining6",
+			["hidewindow"] = "",
+			["name"] = "Mining6",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 665,
+			["farm"] = true,
+			["displayname"] = "Mining",
 		},
 		["+Argent Tournament|||cFFFF57223.2|r Sunreavers Daily Quests"] = {
 			["guideId"] = 1964709152,
 			["enabledFor"] = "Horde",
 			["group"] = "+Argent Tournament",
-			["farm"] = true,
 			["name"] = "|cFFFF57223.2|r Sunreavers Daily Quests",
+			["key"] = "+Argent Tournament|||cFFFF57223.2|r Sunreavers Daily Quests",
 			["wotlk"] = "",
 			["version"] = 1,
 			["length"] = 4499,
-			["key"] = "+Argent Tournament|||cFFFF57223.2|r Sunreavers Daily Quests",
+			["farm"] = true,
 			["displayname"] = "|cFFFF57223.2|r Sunreavers Daily Quests",
+		},
+		["+Outland Farming|Terokkar Forest|Firewing Signet_15a"] = {
+			["guideId"] = 177214368,
+			["subgroup"] = "Terokkar Forest",
+			["group"] = "+Outland Farming",
+			["version"] = 0,
+			["key"] = "+Outland Farming|Terokkar Forest|Firewing Signet_15a",
+			["hidewindow"] = "",
+			["name"] = "Firewing Signet_15a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 351,
+			["farm"] = true,
+			["displayname"] = "Firewing Signet",
 		},
 		["+Northrend Farming|The Storm Peaks|Eternal Water (Stormrider)_60a"] = {
 			["guideId"] = 508565462,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Water (Stormrider)_60a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Water (Stormrider)_60a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Stormrider)_60a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 456,
-			["name"] = "Eternal Water (Stormrider)_60a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water (Stormrider)",
 		},
-		["+Mining & Herbalism|Blades Edge Mountains|Mining & Herbalism7"] = {
-			["guideId"] = 2610632151,
-			["subgroup"] = "Blades Edge Mountains",
+		["+Mining & Herbalism|Zangarmarsh|Mining5"] = {
+			["guideId"] = 385420952,
+			["subgroup"] = "Zangarmarsh",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Blades Edge Mountains|Mining & Herbalism7",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Zangarmarsh|Mining5",
+			["hidewindow"] = "",
+			["name"] = "Mining5",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 912,
-			["name"] = "Mining & Herbalism7",
-			["displayname"] = "Mining & Herbalism",
-		},
-		["+Argent Tournament|||cFFDB2EEF2.1|r The Black Knight's Quest Story"] = {
-			["guideId"] = 89659156,
-			["group"] = "+Argent Tournament",
-			["version"] = 1,
-			["key"] = "+Argent Tournament|||cFFDB2EEF2.1|r The Black Knight's Quest Story",
-			["wotlk"] = "",
+			["length"] = 595,
 			["farm"] = true,
-			["length"] = 8967,
-			["name"] = "|cFFDB2EEF2.1|r The Black Knight's Quest Story",
-			["displayname"] = "|cFFDB2EEF2.1|r The Black Knight's Quest Story",
+			["displayname"] = "Mining",
+		},
+		["+Argent Tournament|||cFF00FF252.0|r Sen'jin Champion"] = {
+			["guideId"] = 3803386379,
+			["enabledFor"] = "Horde !Troll",
+			["group"] = "+Argent Tournament",
+			["name"] = "|cFF00FF252.0|r Sen'jin Champion",
+			["key"] = "+Argent Tournament|||cFF00FF252.0|r Sen'jin Champion",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 12782,
+			["farm"] = true,
+			["displayname"] = "|cFF00FF252.0|r Sen'jin Champion",
 		},
 		["+Northrend Farming|The Storm Peaks|Eternal Earth (Brittle Revenant)_56a"] = {
 			["guideId"] = 2989955546,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Earth (Brittle Revenant)_56a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Earth (Brittle Revenant)_56a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Brittle Revenant)_56a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 438,
-			["name"] = "Eternal Earth (Brittle Revenant)_56a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth (Brittle Revenant)",
 		},
 		["+Outland Farming|Shadowmoon Valley|Arcane Tome_23a"] = {
 			["guideId"] = 3795260079,
 			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Arcane Tome_23a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Shadowmoon Valley|Arcane Tome_23a",
+			["hidewindow"] = "",
+			["name"] = "Arcane Tome_23a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 361,
-			["name"] = "Arcane Tome_23a",
+			["farm"] = true,
 			["displayname"] = "Arcane Tome",
 		},
-		["+Argent Tournament|||cFF00FF252.0|r Sen'jin Champion"] = {
-			["guideId"] = 3803386379,
-			["enabledFor"] = "Horde !Troll",
+		["+Argent Tournament|||cFF00FF252.0|r Orgrimmar Champion"] = {
+			["guideId"] = 226300717,
+			["enabledFor"] = "Horde !Orc",
 			["group"] = "+Argent Tournament",
-			["farm"] = true,
-			["name"] = "|cFF00FF252.0|r Sen'jin Champion",
+			["name"] = "|cFF00FF252.0|r Orgrimmar Champion",
+			["key"] = "+Argent Tournament|||cFF00FF252.0|r Orgrimmar Champion",
 			["wotlk"] = "",
 			["version"] = 1,
-			["length"] = 12782,
-			["key"] = "+Argent Tournament|||cFF00FF252.0|r Sen'jin Champion",
-			["displayname"] = "|cFF00FF252.0|r Sen'jin Champion",
+			["length"] = 12808,
+			["farm"] = true,
+			["displayname"] = "|cFF00FF252.0|r Orgrimmar Champion",
 		},
 		["+Outland Farming|Netherstorm|Fel Armament_3a"] = {
 			["guideId"] = 2035028185,
 			["subgroup"] = "Netherstorm",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Netherstorm|Fel Armament_3a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Netherstorm|Fel Armament_3a",
+			["hidewindow"] = "",
+			["name"] = "Fel Armament_3a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 328,
-			["name"] = "Fel Armament_3a",
+			["farm"] = true,
 			["displayname"] = "Fel Armament",
 		},
 		["+Cooking & Skinning|The Storm Peaks|Worm Meat & Borean Leather_54a"] = {
 			["guideId"] = 157554454,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Cooking & Skinning",
-			["key"] = "+Cooking & Skinning|The Storm Peaks|Worm Meat & Borean Leather_54a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Cooking & Skinning|The Storm Peaks|Worm Meat & Borean Leather_54a",
+			["hidewindow"] = "",
+			["name"] = "Worm Meat & Borean Leather_54a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 418,
-			["name"] = "Worm Meat & Borean Leather_54a",
+			["farm"] = true,
 			["displayname"] = "Worm Meat & Borean Leather",
 		},
-		["+Argent Tournament|||cFF00FF252.0|r Orgrimmar Champion"] = {
-			["guideId"] = 226300717,
-			["enabledFor"] = "Horde !Orc",
-			["group"] = "+Argent Tournament",
-			["farm"] = true,
-			["name"] = "|cFF00FF252.0|r Orgrimmar Champion",
+		["+Northrend Farming|Borean Tundra|Eternal Water (Steam Rager)_29a"] = {
+			["guideId"] = 161421110,
+			["subgroup"] = "Borean Tundra",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Steam Rager)_29a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Steam Rager)_29a",
 			["wotlk"] = "",
-			["version"] = 1,
-			["length"] = 12808,
-			["key"] = "+Argent Tournament|||cFF00FF252.0|r Orgrimmar Champion",
-			["displayname"] = "|cFF00FF252.0|r Orgrimmar Champion",
+			["loop"] = "",
+			["length"] = 460,
+			["farm"] = true,
+			["displayname"] = "Eternal Water (Steam Rager)",
 		},
 		["+Cooking & Skinning|The Storm Peaks|Chunk o' Mammoth & Borean Leather_53a"] = {
 			["guideId"] = 3006077291,
 			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Cooking & Skinning",
-			["key"] = "+Cooking & Skinning|The Storm Peaks|Chunk o' Mammoth & Borean Leather_53a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Cooking & Skinning|The Storm Peaks|Chunk o' Mammoth & Borean Leather_53a",
+			["hidewindow"] = "",
+			["name"] = "Chunk o' Mammoth & Borean Leather_53a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 432,
-			["name"] = "Chunk o' Mammoth & Borean Leather_53a",
+			["farm"] = true,
 			["displayname"] = "Chunk o' Mammoth & Borean Leather",
-		},
-		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Unlock Daily Quests"] = {
-			["guideId"] = 4030734775,
-			["subgroup"] = "Faction Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Unlock Daily Quests",
-			["version"] = 1,
-			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 51504,
-			["name"] = "Icecrown Gunship Unlock Daily Quests",
-			["displayname"] = "Icecrown Gunship Unlock Daily Quests",
-		},
-		["+Mining & Herbalism|The Storm Peaks|Mining16"] = {
-			["guideId"] = 1508183990,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|The Storm Peaks|Mining16",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 849,
-			["name"] = "Mining16",
-			["displayname"] = "Mining",
 		},
 		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking"] = {
 			["guideId"] = 96344169,
 			["subgroup"] = "Profession Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 17102,
 			["name"] = "Cooking",
+			["length"] = 17102,
+			["farm"] = true,
 			["displayname"] = "Cooking",
+		},
+		["+Mining & Herbalism|The Storm Peaks|Mining16"] = {
+			["guideId"] = 1508183990,
+			["subgroup"] = "The Storm Peaks",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|The Storm Peaks|Mining16",
+			["hidewindow"] = "",
+			["name"] = "Mining16",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 849,
+			["farm"] = true,
+			["displayname"] = "Mining",
+		},
+		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route"] = {
+			["guideId"] = 4005534,
+			["subgroup"] = "Faction Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route",
+			["wotlk"] = "",
+			["name"] = "Ebon Blade Daily Quests Route",
+			["length"] = 5928,
+			["farm"] = true,
+			["displayname"] = "Ebon Blade Daily Quests Route",
 		},
 		["+Outland Farming|Blades Edge Mountains|Wind Scale_4a"] = {
 			["guideId"] = 4213183275,
 			["subgroup"] = "Blades Edge Mountains",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Blades Edge Mountains|Wind Scale_4a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Blades Edge Mountains|Wind Scale_4a",
+			["hidewindow"] = "",
+			["name"] = "Wind Scale_4a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 377,
-			["name"] = "Wind Scale_4a",
+			["farm"] = true,
 			["displayname"] = "Wind Scale",
 		},
 		["+Northrend Farming|Dragonblight|Eternal Water (Crystalline Ice Elemental)_39a"] = {
 			["guideId"] = 1959795854,
 			["subgroup"] = "Dragonblight",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Dragonblight|Eternal Water (Crystalline Ice Elemental)_39a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Dragonblight|Eternal Water (Crystalline Ice Elemental)_39a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Crystalline Ice Elemental)_39a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 442,
-			["name"] = "Eternal Water (Crystalline Ice Elemental)_39a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water (Crystalline Ice Elemental)",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Shadow (Wandering Shadow)_62a"] = {
 			["guideId"] = 2200443233,
 			["subgroup"] = "Wintergrasp",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Wintergrasp|Eternal Shadow (Wandering Shadow)_62a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Wintergrasp|Eternal Shadow (Wandering Shadow)_62a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Shadow (Wandering Shadow)_62a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 410,
-			["name"] = "Eternal Shadow (Wandering Shadow)_62a",
+			["farm"] = true,
 			["displayname"] = "Eternal Shadow (Wandering Shadow)",
 		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests"] = {
 			["guideId"] = 1778654388,
 			["subgroup"] = "Faction Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 1958,
 			["name"] = "The Kalu'ak Daily Quests",
+			["length"] = 1958,
+			["farm"] = true,
 			["displayname"] = "The Kalu'ak Daily Quests",
 		},
-		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route"] = {
-			["guideId"] = 4005534,
-			["subgroup"] = "Faction Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route",
-			["version"] = 1,
+		["+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4"] = {
+			["guideId"] = 1416369346,
+			["subgroup"] = "Shadowmoon Valley",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism4",
 			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 1054,
 			["farm"] = true,
-			["length"] = 5928,
-			["name"] = "Ebon Blade Daily Quests Route",
-			["displayname"] = "Ebon Blade Daily Quests Route",
+			["displayname"] = "Mining & Herbalism",
 		},
 		["+Cooking & Skinning|Sholazar Basin|Chunk o' Mammoth & Borean Leather_37a"] = {
 			["guideId"] = 2790463828,
 			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Cooking & Skinning",
-			["key"] = "+Cooking & Skinning|Sholazar Basin|Chunk o' Mammoth & Borean Leather_37a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Cooking & Skinning|Sholazar Basin|Chunk o' Mammoth & Borean Leather_37a",
+			["hidewindow"] = "",
+			["name"] = "Chunk o' Mammoth & Borean Leather_37a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 460,
-			["name"] = "Chunk o' Mammoth & Borean Leather_37a",
+			["farm"] = true,
 			["displayname"] = "Chunk o' Mammoth & Borean Leather",
 		},
 		["+RestedXP Northrend Daily Quests||Best Daily Quests Gold Per Hour Route"] = {
 			["guideId"] = 2760972767,
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["version"] = 1,
 			["key"] = "+RestedXP Northrend Daily Quests||Best Daily Quests Gold Per Hour Route",
+			["version"] = 1,
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 25741,
 			["name"] = "Best Daily Quests Gold Per Hour Route",
+			["length"] = 25741,
+			["farm"] = true,
 			["displayname"] = "Best Daily Quests Gold Per Hour Route",
 		},
-		["+Mining & Herbalism|Sholazar Basin|Herbalism11"] = {
-			["guideId"] = 2180845773,
-			["subgroup"] = "Sholazar Basin",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Sholazar Basin|Herbalism11",
-			["farm"] = true,
-			["hidewindow"] = "",
+		["+Outland Farming|Netherstorm|Primal Mana_27a"] = {
+			["guideId"] = 2057965733,
+			["subgroup"] = "Netherstorm",
+			["group"] = "+Outland Farming",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Netherstorm|Primal Mana_27a",
+			["hidewindow"] = "",
+			["name"] = "Primal Mana_27a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 669,
-			["name"] = "Herbalism11",
-			["displayname"] = "Herbalism",
+			["length"] = 347,
+			["farm"] = true,
+			["displayname"] = "Primal Mana",
 		},
 		["+Mining & Herbalism|Icecrown|Herbalism18"] = {
 			["guideId"] = 611716797,
 			["subgroup"] = "Icecrown",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Icecrown|Herbalism18",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Icecrown|Herbalism18",
+			["hidewindow"] = "",
+			["name"] = "Herbalism18",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 604,
-			["name"] = "Herbalism18",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Borean Tundra|Mining10"] = {
 			["guideId"] = 1049956139,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Borean Tundra|Mining10",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Borean Tundra|Mining10",
+			["hidewindow"] = "",
+			["name"] = "Mining10",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 727,
-			["name"] = "Mining10",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
-		["RestedXP Horde 1-30||22-25 Hillsbrad / South Barrens"] = {
-			["guideId"] = 3151565079,
-			["next"] = "25-26 Stonetalon; 26-30 Ashenvale / Thousand Needles",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["xprate"] = "<1.5",
-			["version"] = 1,
-			["key"] = "RestedXP Horde 1-30||22-25 Hillsbrad / South Barrens",
-			["wotlk"] = "",
-			["tbc"] = "",
-			["length"] = 50214,
-			["name"] = "22-25 Hillsbrad / South Barrens",
-			["displayname"] = "22-25 Hillsbrad / South Barrens",
-		},
-		["+Mining & Herbalism|The Storm Peaks|Herbalism16"] = {
-			["guideId"] = 2353139947,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|The Storm Peaks|Herbalism16",
-			["farm"] = true,
-			["hidewindow"] = "",
+		["+Outland Farming|Terokkar Forest|Warped Flesh_16a"] = {
+			["guideId"] = 3460829777,
+			["subgroup"] = "Terokkar Forest",
+			["group"] = "+Outland Farming",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Terokkar Forest|Warped Flesh_16a",
+			["hidewindow"] = "",
+			["name"] = "Warped Flesh_16a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 675,
-			["name"] = "Herbalism16",
-			["displayname"] = "Herbalism",
+			["length"] = 405,
+			["farm"] = true,
+			["displayname"] = "Warped Flesh",
+		},
+		["+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a"] = {
+			["guideId"] = 3447200319,
+			["subgroup"] = "The Storm Peaks",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Icebound Revenant)_59a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 430,
+			["farm"] = true,
+			["displayname"] = "Eternal Water (Icebound Revenant)",
 		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Daily Quests Route"] = {
 			["guideId"] = 3721601297,
 			["subgroup"] = "Faction Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Daily Quests Route",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Daily Quests Route",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 8932,
 			["name"] = "The Sons of Hodir Daily Quests Route",
+			["length"] = 8932,
+			["farm"] = true,
 			["displayname"] = "The Sons of Hodir Daily Quests Route",
 		},
-		["+Profession leveling|Mining|1-375 Horde_a1"] = {
-			["guideId"] = 1391922980,
-			["subgroup"] = "Mining",
-			["group"] = "+Profession leveling",
-			["enabledFor"] = "Horde",
-			["name"] = "01-375 Horde_a1",
-			["key"] = "+Profession leveling|Mining|01-375 Horde_a1",
-			["farm"] = true,
+		["RestedXP Horde 1-30||1-6 Eversong Woods"] = {
+			["guideId"] = 44305700,
+			["group"] = "RestedXP Horde 1-30",
+			["defaultfor"] = "BloodElf",
+			["enabledFor"] = "BloodElf",
+			["next"] = "06-10 Eversong Woods",
+			["version"] = 1,
+			["defaultFor"] = "BloodElf",
+			["key"] = "RestedXP Horde 1-30||01-06 Eversong Woods",
+			["menuIndex"] = 3,
+			["name"] = "01-06 Eversong Woods",
 			["wotlk"] = "",
-			["length"] = 13025,
-			["version"] = 0,
-			["displayname"] = "1-375 Horde",
+			["tbc"] = "",
+			["length"] = 27270,
+			["submenuIndex"] = 1,
+			["displayname"] = "1-6 Eversong Woods",
 		},
 		["+Mining & Herbalism|Zul'Drak|Mining & Herbalism15"] = {
 			["guideId"] = 2882212140,
 			["subgroup"] = "Zul'Drak",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zul'Drak|Mining & Herbalism15",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Zul'Drak|Mining & Herbalism15",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism15",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 981,
-			["name"] = "Mining & Herbalism15",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
-		["+Mining & Herbalism|Wintergrasp|Mining & Herbalism17"] = {
-			["guideId"] = 4070773472,
-			["subgroup"] = "Wintergrasp",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Wintergrasp|Mining & Herbalism17",
-			["farm"] = true,
-			["hidewindow"] = "",
+		["+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a"] = {
+			["guideId"] = 2819298733,
+			["subgroup"] = "Zul'Drak",
+			["group"] = "+Northrend Farming",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Frozen Earth)_51a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 956,
-			["name"] = "Mining & Herbalism17",
-			["displayname"] = "Mining & Herbalism",
+			["length"] = 382,
+			["farm"] = true,
+			["displayname"] = "Eternal Water (Frozen Earth)",
 		},
 		["+Outland Farming|Nagrand|Primal Earth_13a"] = {
 			["guideId"] = 1121390391,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Primal Earth_13a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Primal Earth_13a",
+			["hidewindow"] = "",
+			["name"] = "Primal Earth_13a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 386,
-			["name"] = "Primal Earth_13a",
+			["farm"] = true,
 			["displayname"] = "Primal Earth",
 		},
-		["+Argent Tournament|||cFF00BCD41.0|r Becoming a Champion"] = {
-			["guideId"] = 479073067,
-			["group"] = "+Argent Tournament",
-			["version"] = 1,
-			["key"] = "+Argent Tournament|||cFF00BCD41.0|r Becoming a Champion",
+		["RestedXP Horde 1-30||6-10 Mulgore"] = {
+			["guideId"] = 3094940346,
+			["defaultfor"] = "Tauren",
+			["group"] = "RestedXP Horde 1-30",
+			["defaultFor"] = "Tauren",
+			["lowPrio"] = "*RestedXP Horde 1-30",
+			["menuIndex"] = 8,
+			["length"] = 28940,
+			["submenuIndex"] = 3,
+			["displayname"] = "6-10 Mulgore",
+			["next"] = "10-12 Eversong Woods",
+			["enabledFor"] = "Horde",
+			["name"] = "06-10 Mulgore",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 88714,
-			["name"] = "|cFF00BCD41.0|r Becoming a Champion",
-			["displayname"] = "|cFF00BCD41.0|r Becoming a Champion",
+			["tbc"] = "",
+			["key"] = "RestedXP Horde 1-30||06-10 Mulgore",
+			["version"] = 1,
 		},
 		["+Northrend Farming|Grizzly Hills|Eternal Air (Lightning Sentry)_43a"] = {
 			["guideId"] = 1537939643,
 			["subgroup"] = "Grizzly Hills",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Grizzly Hills|Eternal Air (Lightning Sentry)_43a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Grizzly Hills|Eternal Air (Lightning Sentry)_43a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Air (Lightning Sentry)_43a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 436,
-			["name"] = "Eternal Air (Lightning Sentry)_43a",
+			["farm"] = true,
 			["displayname"] = "Eternal Air (Lightning Sentry)",
 		},
-		["+Northrend Farming|Wintergrasp|Eternal Fire_64a"] = {
-			["guideId"] = 3017413101,
+		["+Northrend Farming|Wintergrasp|Eternal Life_63a"] = {
+			["guideId"] = 3015709158,
 			["subgroup"] = "Wintergrasp",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Wintergrasp|Eternal Fire_64a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Wintergrasp|Eternal Life_63a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Life_63a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 368,
-			["name"] = "Eternal Fire_64a",
-			["displayname"] = "Eternal Fire",
+			["length"] = 364,
+			["farm"] = true,
+			["displayname"] = "Eternal Life",
 		},
 		["+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a"] = {
 			["guideId"] = 922425334,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Air (Enraged Tempest)_32a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 411,
-			["name"] = "Eternal Air (Enraged Tempest)_32a",
+			["farm"] = true,
 			["displayname"] = "Eternal Air (Enraged Tempest)",
-		},
-		["+Mining & Herbalism|Wintergrasp|Mining17"] = {
-			["guideId"] = 658902755,
-			["subgroup"] = "Wintergrasp",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Wintergrasp|Mining17",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 713,
-			["name"] = "Mining17",
-			["displayname"] = "Mining",
-		},
-		["+Mining & Herbalism|Hellfire Peninsula|Herbalism6"] = {
-			["guideId"] = 3090420298,
-			["subgroup"] = "Hellfire Peninsula",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Hellfire Peninsula|Herbalism6",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 772,
-			["name"] = "Herbalism6",
-			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Wintergrasp|Herbalism17"] = {
 			["guideId"] = 1462177816,
 			["subgroup"] = "Wintergrasp",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Wintergrasp|Herbalism17",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Wintergrasp|Herbalism17",
+			["hidewindow"] = "",
+			["name"] = "Herbalism17",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 730,
-			["name"] = "Herbalism17",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
 		},
-		["+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a"] = {
-			["guideId"] = 3193838093,
-			["subgroup"] = "Howling Fjord",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a",
-			["farm"] = true,
-			["hidewindow"] = "",
+		["+Mining & Herbalism|Hellfire Peninsula|Herbalism6"] = {
+			["guideId"] = 3090420298,
+			["subgroup"] = "Hellfire Peninsula",
+			["group"] = "+Mining & Herbalism",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Hellfire Peninsula|Herbalism6",
+			["hidewindow"] = "",
+			["name"] = "Herbalism6",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 447,
-			["name"] = "Eternal Water (Iceshard Elemental)_47a",
-			["displayname"] = "Eternal Water (Iceshard Elemental)",
+			["length"] = 772,
+			["farm"] = true,
+			["displayname"] = "Herbalism",
+		},
+		["+Mining & Herbalism|Blades Edge Mountains|Mining & Herbalism7"] = {
+			["guideId"] = 2610632151,
+			["subgroup"] = "Blades Edge Mountains",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Blades Edge Mountains|Mining & Herbalism7",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism7",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 912,
+			["farm"] = true,
+			["displayname"] = "Mining & Herbalism",
+		},
+		["RestedXP Horde 1-30||25-26 Stonetalon"] = {
+			["guideId"] = 3855748158,
+			["next"] = "26-30 Ashenvale / Thousand Needles",
+			["enabledFor"] = "Horde",
+			["group"] = "RestedXP Horde 1-30",
+			["key"] = "RestedXP Horde 1-30||25-26 Stonetalon",
+			["tbc"] = "",
+			["xprate"] = "<1.5",
+			["wotlk"] = "",
+			["version"] = 1,
+			["menuIndex"] = 3,
+			["name"] = "25-26 Stonetalon",
+			["length"] = 4460,
+			["submenuIndex"] = 9,
+			["displayname"] = "25-26 Stonetalon",
 		},
 		["+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Sentinel)_44a"] = {
 			["guideId"] = 3118078421,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Sentinel)_44a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Sentinel)_44a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Iron Rune Sentinel)_44a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 434,
-			["name"] = "Eternal Earth (Iron Rune Sentinel)_44a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth (Iron Rune Sentinel)",
 		},
-		["+Profession leveling|Skinning|1-375 Horde_b1"] = {
-			["guideId"] = 1994133508,
-			["subgroup"] = "Skinning",
-			["group"] = "+Profession leveling",
-			["enabledFor"] = "Horde",
-			["tbc"] = "",
-			["farm"] = true,
-			["key"] = "+Profession leveling|Skinning|01-375 Horde_b1",
-			["wotlk"] = "",
-			["name"] = "01-375 Horde_b1",
-			["length"] = 7741,
-			["version"] = 0,
-			["displayname"] = "1-375 Horde",
-		},
-		["+Mining & Herbalism|Zul'Drak|Herbalism15"] = {
-			["guideId"] = 529600100,
-			["subgroup"] = "Zul'Drak",
+		["+Mining & Herbalism|Sholazar Basin|Herbalism11"] = {
+			["guideId"] = 2180845773,
+			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zul'Drak|Herbalism15",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Sholazar Basin|Herbalism11",
+			["hidewindow"] = "",
+			["name"] = "Herbalism11",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 743,
-			["name"] = "Herbalism15",
+			["length"] = 669,
+			["farm"] = true,
 			["displayname"] = "Herbalism",
+		},
+		["+Outland Farming|Netherstorm|Fel Hide_1a"] = {
+			["guideId"] = 923733788,
+			["subgroup"] = "Netherstorm",
+			["group"] = "+Outland Farming",
+			["version"] = 0,
+			["key"] = "+Outland Farming|Netherstorm|Fel Hide_1a",
+			["hidewindow"] = "",
+			["name"] = "Fel Hide_1a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 350,
+			["farm"] = true,
+			["displayname"] = "Fel Hide",
 		},
 		["+Northrend Farming|Howling Fjord|Eternal Water (Ice Elemental)_46a"] = {
 			["guideId"] = 978589690,
 			["subgroup"] = "Howling Fjord",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Howling Fjord|Eternal Water (Ice Elemental)_46a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Howling Fjord|Eternal Water (Ice Elemental)_46a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Ice Elemental)_46a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 434,
-			["name"] = "Eternal Water (Ice Elemental)_46a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water (Ice Elemental)",
 		},
-		["+Outland Farming|Shadowmoon Valley|Primal Air_22a"] = {
-			["guideId"] = 3487699536,
-			["subgroup"] = "Shadowmoon Valley",
+		["+Outland Farming|Terokkar Forest|Primal Water_17a"] = {
+			["guideId"] = 3471053413,
+			["subgroup"] = "Terokkar Forest",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Air_22a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Terokkar Forest|Primal Water_17a",
+			["hidewindow"] = "",
+			["name"] = "Primal Water_17a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 548,
-			["name"] = "Primal Air_22a",
-			["displayname"] = "Primal Air",
+			["length"] = 405,
+			["farm"] = true,
+			["displayname"] = "Primal Water",
 		},
 		["+Mining & Herbalism|Zul'Drak|Mining15"] = {
 			["guideId"] = 4105637167,
 			["subgroup"] = "Zul'Drak",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zul'Drak|Mining15",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Zul'Drak|Mining15",
+			["hidewindow"] = "",
+			["name"] = "Mining15",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 697,
-			["name"] = "Mining15",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["dungeonGuides"] = {
@@ -1716,159 +1764,160 @@ RXPData = {
 			["guideId"] = 869734438,
 			["subgroup"] = "Icecrown",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Icecrown|Frostweave Cloth (Converted Hero)_61a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Icecrown|Frostweave Cloth (Converted Hero)_61a",
+			["hidewindow"] = "",
+			["name"] = "Frostweave Cloth (Converted Hero)_61a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 393,
-			["name"] = "Frostweave Cloth (Converted Hero)_61a",
+			["farm"] = true,
 			["displayname"] = "Frostweave Cloth (Converted Hero)",
 		},
-		["+Outland Farming|Netherstorm|Fel Hide_1a"] = {
-			["guideId"] = 923733788,
-			["subgroup"] = "Netherstorm",
+		["+Outland Farming|Shadowmoon Valley|Primal Air_22a"] = {
+			["guideId"] = 3487699536,
+			["subgroup"] = "Shadowmoon Valley",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Netherstorm|Fel Hide_1a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Air_22a",
+			["hidewindow"] = "",
+			["name"] = "Primal Air_22a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 350,
-			["name"] = "Fel Hide_1a",
-			["displayname"] = "Fel Hide",
+			["length"] = 548,
+			["farm"] = true,
+			["displayname"] = "Primal Air",
 		},
-		["+Mining & Herbalism|Sholazar Basin|Mining11"] = {
-			["guideId"] = 1340805016,
+		["RestedXP Horde 1-30||22-25 Hillsbrad / South Barrens"] = {
+			["guideId"] = 3151565079,
+			["next"] = "25-26 Stonetalon; 26-30 Ashenvale / Thousand Needles",
+			["enabledFor"] = "Horde",
+			["group"] = "RestedXP Horde 1-30",
+			["key"] = "RestedXP Horde 1-30||22-25 Hillsbrad / South Barrens",
+			["tbc"] = "",
+			["xprate"] = "<1.5",
+			["wotlk"] = "",
+			["version"] = 1,
+			["menuIndex"] = 3,
+			["name"] = "22-25 Hillsbrad / South Barrens",
+			["length"] = 50214,
+			["submenuIndex"] = 8,
+			["displayname"] = "22-25 Hillsbrad / South Barrens",
+		},
+		["+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11"] = {
+			["guideId"] = 605754261,
 			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Sholazar Basin|Mining11",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism11",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 753,
-			["name"] = "Mining11",
-			["displayname"] = "Mining",
-		},
-		["+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a"] = {
-			["guideId"] = 2964527564,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a",
+			["length"] = 897,
 			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 468,
-			["name"] = "Eternal Fire (Seething Revenant)_55a",
-			["displayname"] = "Eternal Fire (Seething Revenant)",
-		},
-		["RestedXP Horde 1-30||25-27 Ashenvale JJ"] = {
-			["guideId"] = 4244900963,
-			["next"] = "27-28 Southern Barrens JJ",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["xprate"] = ">1.4999",
-			["name"] = "25-27 Ashenvale JJ",
-			["key"] = "RestedXP Horde 1-30||25-27 Ashenvale JJ",
-			["wotlk"] = "",
-			["menuIndex"] = 3,
-			["length"] = 77849,
-			["submenuIndex"] = 8,
-			["displayname"] = "25-27 Ashenvale JJ",
-		},
-		["+Outland Farming|Nagrand|Combined Primals_7a"] = {
-			["guideId"] = 1964380330,
-			["subgroup"] = "Nagrand",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Combined Primals_7a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 330,
-			["name"] = "Combined Primals_7a",
-			["displayname"] = "Combined Primals",
-		},
-		["RestedXP Horde 1-30||1-6 Tirisfal Glades"] = {
-			["guideId"] = 255397213,
-			["enabledFor"] = "Horde",
-			["next"] = "06-10 Eversong Woods",
-			["group"] = "RestedXP Horde 1-30",
-			["defaultfor"] = "Scourge",
-			["key"] = "RestedXP Horde 1-30||01-06 Tirisfal Glades",
-			["defaultFor"] = "Scourge",
-			["name"] = "01-06 Tirisfal Glades",
-			["wotlk"] = "",
-			["version"] = 1,
-			["menuIndex"] = 3,
-			["tbc"] = "",
-			["length"] = 30048,
-			["submenuIndex"] = 1,
-			["displayname"] = "1-6 Tirisfal Glades",
+			["displayname"] = "Mining & Herbalism",
 		},
 		["+Azeroth Farming|Un'Goro Crater|Mining8"] = {
 			["guideId"] = 504565377,
 			["subgroup"] = "Un'Goro Crater",
 			["group"] = "+Azeroth Farming",
-			["key"] = "+Azeroth Farming|Un'Goro Crater|Mining8",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Azeroth Farming|Un'Goro Crater|Mining8",
+			["hidewindow"] = "",
+			["name"] = "Mining8",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 849,
-			["name"] = "Mining8",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
-		["+Outland Farming|Nagrand|Talbuk Venison_10a"] = {
-			["guideId"] = 1680347168,
+		["+Outland Farming|Nagrand|Combined Primals_7a"] = {
+			["guideId"] = 1964380330,
 			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Talbuk Venison_10a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Combined Primals_7a",
+			["hidewindow"] = "",
+			["name"] = "Combined Primals_7a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 367,
-			["name"] = "Talbuk Venison_10a",
-			["displayname"] = "Talbuk Venison",
+			["length"] = 330,
+			["farm"] = true,
+			["displayname"] = "Combined Primals",
+		},
+		["RestedXP Horde 1-30||1-6 Tirisfal Glades"] = {
+			["guideId"] = 255397213,
+			["tbc"] = "",
+			["next"] = "06-10 Eversong Woods",
+			["enabledFor"] = "Horde",
+			["key"] = "RestedXP Horde 1-30||01-06 Tirisfal Glades",
+			["defaultfor"] = "Scourge",
+			["defaultFor"] = "Scourge",
+			["group"] = "RestedXP Horde 1-30",
+			["version"] = 1,
+			["name"] = "01-06 Tirisfal Glades",
+			["menuIndex"] = 3,
+			["wotlk"] = "",
+			["length"] = 30048,
+			["submenuIndex"] = 1,
+			["displayname"] = "1-6 Tirisfal Glades",
+		},
+		["+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a"] = {
+			["guideId"] = 557783977,
+			["subgroup"] = "Dragonblight",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Shadow (Deathbringer Revenant)_40a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 416,
+			["farm"] = true,
+			["displayname"] = "Eternal Shadow (Deathbringer Revenant)",
+		},
+		["RestedXP Horde 1-30||6-10 Durotar"] = {
+			["guideId"] = 3094481600,
+			["next"] = "10-12 Eversong Woods",
+			["enabledFor"] = "Horde",
+			["group"] = "RestedXP Horde 1-30",
+			["key"] = "RestedXP Horde 1-30||06-10 Durotar",
+			["tbc"] = "",
+			["wotlk"] = "",
+			["version"] = 1,
+			["menuIndex"] = 3,
+			["name"] = "06-10 Durotar",
+			["length"] = 27348,
+			["submenuIndex"] = 2,
+			["displayname"] = "6-10 Durotar",
 		},
 		["+Northrend Farming|Borean Tundra|Eternal Water (Boiling Spirit)_30a"] = {
 			["guideId"] = 1426200706,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Boiling Spirit)_30a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Boiling Spirit)_30a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Boiling Spirit)_30a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 406,
-			["name"] = "Eternal Water (Boiling Spirit)_30a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water (Boiling Spirit)",
 		},
 		["+Outland Farming|Terokkar Forest|Mark of Kiljaeden_14a"] = {
 			["guideId"] = 758453249,
 			["subgroup"] = "Terokkar Forest",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Mark of Kiljaeden_14a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Terokkar Forest|Mark of Kiljaeden_14a",
+			["hidewindow"] = "",
+			["name"] = "Mark of Kiljaeden_14a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 451,
-			["name"] = "Mark of Kiljaeden_14a",
+			["farm"] = true,
 			["displayname"] = "Mark of Kiljaeden",
 		},
 		["RestedXP Horde 1-30||12-16 Ghostlands"] = {
@@ -1876,12 +1925,12 @@ RXPData = {
 			["next"] = "16-20 Ghostlands",
 			["enabledFor"] = "Horde !Warrior !Shaman",
 			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["name"] = "12-16 Ghostlands",
 			["key"] = "RestedXP Horde 1-30||12-16 Ghostlands",
+			["tbc"] = "",
 			["wotlk"] = "",
+			["version"] = 1,
 			["menuIndex"] = 3,
+			["name"] = "12-16 Ghostlands",
 			["length"] = 152036,
 			["submenuIndex"] = 5,
 			["displayname"] = "12-16 Ghostlands",
@@ -1890,337 +1939,330 @@ RXPData = {
 			["guideId"] = 4107541196,
 			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Sholazar Basin|Eternal Earth (Lifeblood Elemental)_35a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Sholazar Basin|Eternal Earth (Lifeblood Elemental)_35a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Lifeblood Elemental)_35a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 432,
-			["name"] = "Eternal Earth (Lifeblood Elemental)_35a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth (Lifeblood Elemental)",
-		},
-		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Jewelcrafting"] = {
-			["guideId"] = 2698320612,
-			["subgroup"] = "Profession Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Jewelcrafting",
-			["version"] = 1,
-			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 6722,
-			["name"] = "Jewelcrafting",
-			["displayname"] = "Jewelcrafting",
-		},
-		["+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a"] = {
-			["guideId"] = 1271404611,
-			["subgroup"] = "Zul'Drak",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 386,
-			["name"] = "Eternal Water (Crazed Water Spirit)_49a",
-			["displayname"] = "Eternal Water (Crazed Water Spirit)",
 		},
 		["+Azeroth Farming|Un'Goro Crater|Mining & Herbalism8"] = {
 			["guideId"] = 3810202238,
 			["subgroup"] = "Un'Goro Crater",
 			["group"] = "+Azeroth Farming",
-			["key"] = "+Azeroth Farming|Un'Goro Crater|Mining & Herbalism8",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Azeroth Farming|Un'Goro Crater|Mining & Herbalism8",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism8",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 913,
-			["name"] = "Mining & Herbalism8",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
+		},
+		["+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a"] = {
+			["guideId"] = 3193838093,
+			["subgroup"] = "Howling Fjord",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Iceshard Elemental)_47a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 447,
+			["farm"] = true,
+			["displayname"] = "Eternal Water (Iceshard Elemental)",
+		},
+		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Jewelcrafting"] = {
+			["guideId"] = 2698320612,
+			["subgroup"] = "Profession Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Jewelcrafting",
+			["wotlk"] = "",
+			["name"] = "Jewelcrafting",
+			["length"] = 6722,
+			["farm"] = true,
+			["displayname"] = "Jewelcrafting",
 		},
 		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Fishing"] = {
 			["guideId"] = 95885415,
 			["subgroup"] = "Profession Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Fishing",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Fishing",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 5224,
 			["name"] = "Fishing",
+			["length"] = 5224,
+			["farm"] = true,
 			["displayname"] = "Fishing",
 		},
-		["+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a"] = {
-			["guideId"] = 557783977,
-			["subgroup"] = "Dragonblight",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
+		["RestedXP Horde 1-30||25-27 Ashenvale JJ"] = {
+			["guideId"] = 4244900963,
+			["version"] = 1,
+			["next"] = "27-28 Southern Barrens JJ",
+			["enabledFor"] = "Horde",
+			["menuIndex"] = 3,
+			["group"] = "RestedXP Horde 1-30",
+			["xprate"] = ">1.4999",
+			["key"] = "RestedXP Horde 1-30||25-27 Ashenvale JJ",
+			["name"] = "25-27 Ashenvale JJ",
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 416,
-			["name"] = "Eternal Shadow (Deathbringer Revenant)_40a",
-			["displayname"] = "Eternal Shadow (Deathbringer Revenant)",
+			["tbc"] = "",
+			["length"] = 77849,
+			["submenuIndex"] = 8,
+			["displayname"] = "25-27 Ashenvale JJ",
 		},
-		["+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11"] = {
-			["guideId"] = 605754261,
-			["subgroup"] = "Sholazar Basin",
+		["+Mining & Herbalism|Dragonblight|Mining12"] = {
+			["guideId"] = 871698205,
+			["subgroup"] = "Dragonblight",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Dragonblight|Mining12",
+			["hidewindow"] = "",
+			["name"] = "Mining12",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 897,
-			["name"] = "Mining & Herbalism11",
-			["displayname"] = "Mining & Herbalism",
+			["length"] = 631,
+			["farm"] = true,
+			["displayname"] = "Mining",
 		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests"] = {
 			["guideId"] = 4281934190,
 			["subgroup"] = "Faction Daily Quests",
 			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests",
 			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests",
 			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 26245,
 			["name"] = "The Sons of Hodir Unlock Daily Quests",
+			["length"] = 26245,
+			["farm"] = true,
 			["displayname"] = "The Sons of Hodir Unlock Daily Quests",
 		},
 		["+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a"] = {
 			["guideId"] = 2295929173,
 			["subgroup"] = "Borean Tundra",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Water (Frozen Elemental)_28a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 470,
-			["name"] = "Eternal Water (Frozen Elemental)_28a",
+			["farm"] = true,
 			["displayname"] = "Eternal Water (Frozen Elemental)",
 		},
-		["RestedXP Horde 1-30||6-10 Durotar"] = {
-			["guideId"] = 3094481600,
-			["next"] = "10-12 Eversong Woods",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["name"] = "06-10 Durotar",
-			["key"] = "RestedXP Horde 1-30||06-10 Durotar",
-			["wotlk"] = "",
-			["menuIndex"] = 3,
-			["length"] = 27348,
-			["submenuIndex"] = 2,
-			["displayname"] = "6-10 Durotar",
-		},
-		["+Outland Farming|Terokkar Forest|Primal Water_17a"] = {
-			["guideId"] = 3471053413,
-			["subgroup"] = "Terokkar Forest",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Primal Water_17a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 405,
-			["name"] = "Primal Water_17a",
-			["displayname"] = "Primal Water",
-		},
-		["+Mining & Herbalism|Zangarmarsh|Mining5"] = {
-			["guideId"] = 385420952,
-			["subgroup"] = "Zangarmarsh",
+		["+Mining & Herbalism|Zul'Drak|Herbalism15"] = {
+			["guideId"] = 529600100,
+			["subgroup"] = "Zul'Drak",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zangarmarsh|Mining5",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Zul'Drak|Herbalism15",
+			["hidewindow"] = "",
+			["name"] = "Herbalism15",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 595,
-			["name"] = "Mining5",
+			["length"] = 743,
+			["farm"] = true,
+			["displayname"] = "Herbalism",
+		},
+		["+Profession leveling|Skinning|1-375 Horde_b1"] = {
+			["guideId"] = 1994133508,
+			["subgroup"] = "Skinning",
+			["group"] = "+Profession leveling",
+			["enabledFor"] = "Horde",
+			["key"] = "+Profession leveling|Skinning|01-375 Horde_b1",
+			["wotlk"] = "",
+			["version"] = 0,
+			["farm"] = true,
+			["name"] = "01-375 Horde_b1",
+			["length"] = 7741,
+			["tbc"] = "",
+			["displayname"] = "1-375 Horde",
+		},
+		["+Mining & Herbalism|Wintergrasp|Mining17"] = {
+			["guideId"] = 658902755,
+			["subgroup"] = "Wintergrasp",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Wintergrasp|Mining17",
+			["hidewindow"] = "",
+			["name"] = "Mining17",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 713,
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
 		["RestedXP Horde 1-30||22-25 Hillsbrad Foothills JJ"] = {
 			["guideId"] = 2416840752,
+			["version"] = 1,
 			["next"] = "25-27 Ashenvale JJ",
 			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Horde 1-30",
-			["tbc"] = "",
-			["version"] = 1,
-			["xprate"] = ">1.4999",
-			["name"] = "22-25 Hillsbrad Foothills JJ",
-			["key"] = "RestedXP Horde 1-30||22-25 Hillsbrad Foothills JJ",
-			["wotlk"] = "",
 			["menuIndex"] = 3,
+			["group"] = "RestedXP Horde 1-30",
+			["xprate"] = ">1.4999",
+			["key"] = "RestedXP Horde 1-30||22-25 Hillsbrad Foothills JJ",
+			["name"] = "22-25 Hillsbrad Foothills JJ",
+			["wotlk"] = "",
+			["tbc"] = "",
 			["length"] = 67512,
 			["submenuIndex"] = 7,
 			["displayname"] = "22-25 Hillsbrad Foothills JJ",
 		},
-		["+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a"] = {
-			["guideId"] = 3447200319,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a",
-			["farm"] = true,
-			["hidewindow"] = "",
+		["+Mining & Herbalism|Wintergrasp|Mining & Herbalism17"] = {
+			["guideId"] = 4070773472,
+			["subgroup"] = "Wintergrasp",
+			["group"] = "+Mining & Herbalism",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Wintergrasp|Mining & Herbalism17",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism17",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 430,
-			["name"] = "Eternal Water (Icebound Revenant)_59a",
-			["displayname"] = "Eternal Water (Icebound Revenant)",
+			["length"] = 956,
+			["farm"] = true,
+			["displayname"] = "Mining & Herbalism",
 		},
 		["+Mining & Herbalism|Zangarmarsh|Herbalism5"] = {
 			["guideId"] = 1163726797,
 			["subgroup"] = "Zangarmarsh",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zangarmarsh|Herbalism5",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Zangarmarsh|Herbalism5",
+			["hidewindow"] = "",
+			["name"] = "Herbalism5",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 701,
-			["name"] = "Herbalism5",
+			["farm"] = true,
 			["displayname"] = "Herbalism",
-		},
-		["+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4"] = {
-			["guideId"] = 1416369346,
-			["subgroup"] = "Shadowmoon Valley",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 1054,
-			["name"] = "Mining & Herbalism4",
-			["displayname"] = "Mining & Herbalism",
-		},
-		["+Northrend Farming|Wintergrasp|Eternal Life_63a"] = {
-			["guideId"] = 3015709158,
-			["subgroup"] = "Wintergrasp",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Wintergrasp|Eternal Life_63a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 364,
-			["name"] = "Eternal Life_63a",
-			["displayname"] = "Eternal Life",
-		},
-		["RestedXP Horde 1-30||6-10 Mulgore"] = {
-			["guideId"] = 3094940346,
-			["defaultfor"] = "Tauren",
-			["group"] = "RestedXP Horde 1-30",
-			["defaultFor"] = "Tauren",
-			["key"] = "RestedXP Horde 1-30||06-10 Mulgore",
-			["menuIndex"] = 8,
-			["length"] = 28940,
-			["submenuIndex"] = 3,
-			["displayname"] = "6-10 Mulgore",
-			["next"] = "10-12 Eversong Woods",
-			["enabledFor"] = "Horde",
-			["tbc"] = "",
-			["wotlk"] = "",
-			["name"] = "06-10 Mulgore",
-			["version"] = 1,
-			["lowPrio"] = "*RestedXP Horde 1-30",
-		},
-		["+Northrend Farming|Grizzly Hills|Eternal Earth (Runic Battle Golem)_42a"] = {
-			["guideId"] = 3237222874,
-			["subgroup"] = "Grizzly Hills",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Grizzly Hills|Eternal Earth (Runic Battle Golem)_42a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 444,
-			["name"] = "Eternal Earth (Runic Battle Golem)_42a",
-			["displayname"] = "Eternal Earth (Runic Battle Golem)",
-		},
-		["+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a"] = {
-			["guideId"] = 2819298733,
-			["subgroup"] = "Zul'Drak",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 382,
-			["name"] = "Eternal Water (Frozen Earth)_51a",
-			["displayname"] = "Eternal Water (Frozen Earth)",
-		},
-		["+Outland Farming|Terokkar Forest|Warped Flesh_16a"] = {
-			["guideId"] = 3460829777,
-			["subgroup"] = "Terokkar Forest",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Warped Flesh_16a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 405,
-			["name"] = "Warped Flesh_16a",
-			["displayname"] = "Warped Flesh",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Earth_65a"] = {
 			["guideId"] = 3333952092,
 			["subgroup"] = "Wintergrasp",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Wintergrasp|Eternal Earth_65a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Wintergrasp|Eternal Earth_65a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth_65a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 496,
-			["name"] = "Eternal Earth_65a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth",
+		},
+		["+Northrend Farming|Wintergrasp|Eternal Fire_64a"] = {
+			["guideId"] = 3017413101,
+			["subgroup"] = "Wintergrasp",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|Wintergrasp|Eternal Fire_64a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Fire_64a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 368,
+			["farm"] = true,
+			["displayname"] = "Eternal Fire",
+		},
+		["+Argent Tournament|||cFF00BCD41.0|r Becoming a Champion"] = {
+			["guideId"] = 479073067,
+			["group"] = "+Argent Tournament",
+			["key"] = "+Argent Tournament|||cFF00BCD41.0|r Becoming a Champion",
+			["version"] = 1,
+			["wotlk"] = "",
+			["name"] = "|cFF00BCD41.0|r Becoming a Champion",
+			["length"] = 88714,
+			["farm"] = true,
+			["displayname"] = "|cFF00BCD41.0|r Becoming a Champion",
+		},
+		["+Northrend Farming|Grizzly Hills|Eternal Earth (Runic Battle Golem)_42a"] = {
+			["guideId"] = 3237222874,
+			["subgroup"] = "Grizzly Hills",
+			["group"] = "+Northrend Farming",
+			["version"] = 0,
+			["key"] = "+Northrend Farming|Grizzly Hills|Eternal Earth (Runic Battle Golem)_42a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Runic Battle Golem)_42a",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 444,
+			["farm"] = true,
+			["displayname"] = "Eternal Earth (Runic Battle Golem)",
+		},
+		["+Profession leveling|Mining|1-375 Horde_a1"] = {
+			["guideId"] = 1391922980,
+			["subgroup"] = "Mining",
+			["group"] = "+Profession leveling",
+			["enabledFor"] = "Horde",
+			["key"] = "+Profession leveling|Mining|01-375 Horde_a1",
+			["version"] = 0,
+			["farm"] = true,
+			["wotlk"] = "",
+			["length"] = 13025,
+			["name"] = "01-375 Horde_a1",
+			["displayname"] = "1-375 Horde",
+		},
+		["+Mining & Herbalism|The Storm Peaks|Herbalism16"] = {
+			["guideId"] = 2353139947,
+			["subgroup"] = "The Storm Peaks",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|The Storm Peaks|Herbalism16",
+			["hidewindow"] = "",
+			["name"] = "Herbalism16",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 675,
+			["farm"] = true,
+			["displayname"] = "Herbalism",
+		},
+		["+Mining & Herbalism|Sholazar Basin|Mining11"] = {
+			["guideId"] = 1340805016,
+			["subgroup"] = "Sholazar Basin",
+			["group"] = "+Mining & Herbalism",
+			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Sholazar Basin|Mining11",
+			["hidewindow"] = "",
+			["name"] = "Mining11",
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 753,
+			["farm"] = true,
+			["displayname"] = "Mining",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Air_66a"] = {
 			["guideId"] = 2707689861,
 			["subgroup"] = "Wintergrasp",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Wintergrasp|Eternal Air_66a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Wintergrasp|Eternal Air_66a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Air_66a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 426,
-			["name"] = "Eternal Air_66a",
+			["farm"] = true,
 			["displayname"] = "Eternal Air",
 		},
 		["+Outland Farming|Blades Edge Mountains|Crystal Infused Leather_6a"] = {
 			["guideId"] = 491329608,
 			["subgroup"] = "Blades Edge Mountains",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Blades Edge Mountains|Crystal Infused Leather_6a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Blades Edge Mountains|Crystal Infused Leather_6a",
+			["hidewindow"] = "",
+			["name"] = "Crystal Infused Leather_6a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 403,
-			["name"] = "Crystal Infused Leather_6a",
+			["farm"] = true,
 			["displayname"] = "Crystal Infused Leather",
 		},
 		["RestedXP Horde 1-30||26-30 Ashenvale / Thousand Needles"] = {
@@ -2228,97 +2270,94 @@ RXPData = {
 			["next"] = "RestedXP Horde 30-45\\30-33 Hillsbrad / Arathi / Shimmering Flats",
 			["enabledFor"] = "Horde",
 			["group"] = "RestedXP Horde 1-30",
-			["xprate"] = "<1.5",
-			["version"] = 1,
 			["key"] = "RestedXP Horde 1-30||26-30 Ashenvale / Thousand Needles",
-			["wotlk"] = "",
 			["tbc"] = "",
-			["length"] = 52483,
+			["xprate"] = "<1.5",
+			["wotlk"] = "",
+			["version"] = 1,
+			["menuIndex"] = 3,
 			["name"] = "26-30 Ashenvale / Thousand Needles",
+			["length"] = 52483,
+			["submenuIndex"] = 10,
 			["displayname"] = "26-30 Ashenvale / Thousand Needles",
 		},
-		["+Outland Farming|Netherstorm|Primal Mana_27a"] = {
-			["guideId"] = 2057965733,
-			["subgroup"] = "Netherstorm",
+		["+Outland Farming|Nagrand|Talbuk Venison_10a"] = {
+			["guideId"] = 1680347168,
+			["subgroup"] = "Nagrand",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Netherstorm|Primal Mana_27a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Outland Farming|Nagrand|Talbuk Venison_10a",
+			["hidewindow"] = "",
+			["name"] = "Talbuk Venison_10a",
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 347,
-			["name"] = "Primal Mana_27a",
-			["displayname"] = "Primal Mana",
+			["length"] = 367,
+			["farm"] = true,
+			["displayname"] = "Talbuk Venison",
 		},
-		["+Northrend Farming|Borean Tundra|Eternal Water (Steam Rager)_29a"] = {
-			["guideId"] = 161421110,
-			["subgroup"] = "Borean Tundra",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Steam Rager)_29a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
+		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Unlock Daily Quests"] = {
+			["guideId"] = 4030734775,
+			["subgroup"] = "Faction Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["version"] = 1,
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Unlock Daily Quests",
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 460,
-			["name"] = "Eternal Water (Steam Rager)_29a",
-			["displayname"] = "Eternal Water (Steam Rager)",
+			["name"] = "Icecrown Gunship Unlock Daily Quests",
+			["length"] = 51504,
+			["farm"] = true,
+			["displayname"] = "Icecrown Gunship Unlock Daily Quests",
 		},
 		["+Northrend Farming|Sholazar Basin|Eternal Earth (Sholazar Guardian)_36a"] = {
 			["guideId"] = 3222149653,
 			["subgroup"] = "Sholazar Basin",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Sholazar Basin|Eternal Earth (Sholazar Guardian)_36a",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Northrend Farming|Sholazar Basin|Eternal Earth (Sholazar Guardian)_36a",
+			["hidewindow"] = "",
+			["name"] = "Eternal Earth (Sholazar Guardian)_36a",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 379,
-			["name"] = "Eternal Earth (Sholazar Guardian)_36a",
+			["farm"] = true,
 			["displayname"] = "Eternal Earth (Sholazar Guardian)",
 		},
 		["+Mining & Herbalism|Grizzly Hills|Mining14"] = {
 			["guideId"] = 1113591649,
 			["subgroup"] = "Grizzly Hills",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Grizzly Hills|Mining14",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Grizzly Hills|Mining14",
+			["hidewindow"] = "",
+			["name"] = "Mining14",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 617,
-			["name"] = "Mining14",
+			["farm"] = true,
 			["displayname"] = "Mining",
 		},
-		["+Outland Farming|Terokkar Forest|Firewing Signet_15a"] = {
-			["guideId"] = 177214368,
-			["subgroup"] = "Terokkar Forest",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Firewing Signet_15a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
+		["+Argent Tournament|||cFFDB2EEF2.1|r The Black Knight's Quest Story"] = {
+			["guideId"] = 89659156,
+			["group"] = "+Argent Tournament",
+			["key"] = "+Argent Tournament|||cFFDB2EEF2.1|r The Black Knight's Quest Story",
+			["version"] = 1,
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 351,
-			["name"] = "Firewing Signet_15a",
-			["displayname"] = "Firewing Signet",
+			["name"] = "|cFFDB2EEF2.1|r The Black Knight's Quest Story",
+			["length"] = 8967,
+			["farm"] = true,
+			["displayname"] = "|cFFDB2EEF2.1|r The Black Knight's Quest Story",
 		},
 		["+Mining & Herbalism|Dragonblight|Mining & Herbalism12"] = {
 			["guideId"] = 39129882,
 			["subgroup"] = "Dragonblight",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Dragonblight|Mining & Herbalism12",
-			["farm"] = true,
-			["hidewindow"] = "",
 			["version"] = 0,
+			["key"] = "+Mining & Herbalism|Dragonblight|Mining & Herbalism12",
+			["hidewindow"] = "",
+			["name"] = "Mining & Herbalism12",
 			["wotlk"] = "",
 			["loop"] = "",
 			["length"] = 915,
-			["name"] = "Mining & Herbalism12",
+			["farm"] = true,
 			["displayname"] = "Mining & Herbalism",
 		},
 	},
@@ -2346,13 +2385,13 @@ RXPDB = {
 						["next"] = "52-54 Un'goro",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 45-60",
-						["version"] = 19,
-						["name"] = "51-52 Searing Gorge/Burning Steppes",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 45-60||51-52 Searing Gorge/Burning Steppes",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "51-52 Searing Gorge/Burning Steppes",
 						["menuIndex"] = 5,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 3,
 						["displayname"] = "51-52 Searing Gorge/Burning Steppes",
@@ -2368,13 +2407,13 @@ RXPDB = {
 						["next"] = "61-63 Zangarmarsh",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 60-70",
-						["version"] = 19,
-						["name"] = "59-61 Hellfire Peninsula",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 60-70||59-61 Hellfire Peninsula",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "59-61 Hellfire Peninsula",
 						["menuIndex"] = 6,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 1,
 						["displayname"] = "59-61 Hellfire Peninsula",
@@ -2387,17 +2426,17 @@ RXPDB = {
 					["groupOrContent"] = "í]{sI’ÿßŸ¢g‰‹Ù¢ß	lc`€ÀÚao.ˆ‹²T¶zÕêÖT·0\"üá73«ÕOµAfcæ¦]]•ùË¬¬Ìzéş}×0Ã3<óèè^v1?ºwdÑêèáCíY\"üè^ÌÖ\\³Ìû–­/Ãõš‹0¾ÒÎ\"–¥ÚÏ?İûÀE&±fG÷®D²İhoyšñÅ?ßH\nš¥ß· Ã?fšeß·|í<,¾Šx¶LD¬ıÊ\"®=ĞN·ivÍ¢(¹>º÷q#XÆµGÆÔ‚àÈm=º™…qÆÅ%›ó×‰ˆk¶y0_²ìb{qñÿwí+ÁwÓ‹hó“©ßd3­´,Ñnæggº~vf:/ûÀ£1QÊÎÂOŸ\"^/{×Qö&ùô)\\a‹JùoKäFMÙ|Î7™f†®=z¤=–¾Mæ+i'Lho˜ÈRµ¡Ô{·dârÍ@T¡Bû»ëğª¬ëx®©Ô}Æ×@ò‚&®™Øi?‹éÑô*agËd›\"‡¿p¾ˆx:ñ¼©çã¿¦§4­Û\n¹se¤PíW'ë^JşTw‘’aª”•1\nù,…GQ:@É°[”<W¡ô2aíexµÌxRöQòõ©Ò9SßW)©<=Ö·ëÆZ¶ä ¶è%fL]Ù\nœ£iÆÄ€,MF{‘°è‚ƒtåi7Ú±`iz‘D¨ØüÍ»Ş7Ò†Ê?g‚ÍW¹Ê¥–ş2I²ÜÆONí¦\rİ-‘â`‡‹ğÅ‹0Šè‹³3Ç3Íóy\"6áº\"Ãş	V[?ãB$ø~ªQ›@s­]&B¡°@–VŞniÃÄ\nĞC…k³DdI˜òÕjÇ‰àc-Í© ›ÛñA´ONOt}=\000ôÉ>$ Ñ\nØCÕÓôyÌ6›‘ÜiLp\r@,^í:e„’fIJei…é*í«–;Æó9à_’ò7E:æÚøºÜFÈæŞ& ršÁÿnf†åXÿ¸¿ÿ{ò‘Ï·¯Ud¯—<ÖvÉöGÙÔÿKn\000˜T[r »àöß&W[şà\"L±8»4cÑ2\\té»¬ö”}\"GË×I]Ğ5<|Åb[Äï‘ïˆqí‡ŠóÛ4Wp©6dM\rå¼P%Î¿Šm¬%ÛLK.µ58ÿód½±ÓH01z½îÔ7§º>qõ‰Ş[ÏŸ:àvİià×ƒúÄ3§¦µaN\\oêÃõ¼©õúw 8sß¸æÔ1ÀĞs¦A0q‚©í·kM-câØS{¼:ræ8S×æZô'9u‡q„Í\000ë{èÁ(ac»Ö0=7˜š †0ûêr€ó¨v=@g¨\000èQ’l4GŸš jfª)©æ¢š„ªNUeªZTèUxkª0)P¨âª\")<×ºšn÷w5 åÏšÀÙ0$jUxÖ„Æ½‰ëO=bÓ†g—ê\000È²‰_–#xÖÔ¶Q¬À@\nP¡²°¾çM\000UÇúƒÏ…Ï–Â¿Îxølz2´™8ÆÔ ĞË3ğÙÖ±×9ÂéÙÔ]¬ïYŒï`[\000!¨ù!ø¡Â@×EEA9ĞA€M,ÏavHù>{Ä³åS¹®bR‡ÜAÈ{¡ÌaòDˆÓŒÜràÙi‚ÒòrvQË:Âa”9„ÏÁ€Õ´	baEæ\\¾Õ	>ƒ¬Î*ê\0004ºŒ{M„Z‡ğ,\rÊ}[§r› ‘ğa¹EVm#'ğŒõ=T9<L®Övh¥M1,Ô³°,ä¬”ª{ñ	ıÍHW1©Aéí…Ò£fÒ›a!”iF‹3\nÛ4°ËA}òÚdÅÖÔ§ê¤O€Æ¥Îi“x $i„hŸ]²D›¡êÛ$¸w€Ã–*!hL|[¨*´‚ÚõéÊ¡]Ç'kõñ”Ï¶›ó‰ÎGT0<ç½ÊCÇ	˜Ú™ÈëM‡zâàõƒğ·¦ŠUbw`,ö¨§¸8’íqPÕ&È=²(‡ H,:9\r¸ƒ­W	|,Ø†oä³Ÿ\000½™„xFßk%Pù:ŸjÑ'+•ƒXa]á­i]æÏóĞ!QÒ²CyÒe8@3P“¦Ï.5,}’=	dæc§õ*@kĞı`ğpI›¨ß\000ÁÂÎã`9¨5ë ©Mô^$j_',•·¦HÖ‚HëäB«'kõ2™ åeÁş¦+	ëxE‰WGyUÍÔ³f¹›7_Q-ÓX©ÚÚÑÑ€]Ã\000]×7rÿŠn€ˆéòY/\"}ª{ôìá³)£ƒbµ€!/\r£>Í,€#(ZÑÉ×ÔŸŠ\\\\é`ÜNÄÁrppàD°·uªrµ¾JÇÃ><[äË=”Ç(Ÿøgä oØ§\r´7EŞ„\n Î\000Jíœ31_R2ézÿ,üÀµS!³ÅÎÏãl‘@¼q† £Ú[öé@–ó×ğR³Sm»ù[Gš*óIİ’YP•±àÄÎòO˜`6ç7â}-ïú¤ìŸI3z02Ai¿o9¦eè¢ˆÏ3Íñ!Œ2&†ÜP¦~l_™ú¡ÉLÎÄù5ë£éXÂsÃm‚ß(®0o¼È¡zq˜¥skMxe'¸Wø¬kx©áèŸıâ–ıb¿İïë9‡îµé›ŠO.çæ&]/g,Jâ´>}ŒÇsnõ€´1“\000ã½Ñ,¨Gã²#ÔZ5¬±ö]õ‡=Ş—Õ’‚‰À je¿æC>\rËæp=ƒ’NÈƒëYâ@«·«ğG_¿ıUÖ£…q\ncÙÀS ËwZºÄ)ÄtÃ®ãT£~Şc`5Kn«9ÎÿM¶ÚšíÀa€{şÏ¶\"Æ§¢ºÆ´”Ï´æpÍÛÖÒÔtá°ú¼ÒŸıo_ÿ»Ëî6v8ùÇ;÷ÿŠuádk½Ó´}d·û^ÑûÏy[ºÙã\nšşïO×°o$ş<Ñ3şÉ™kØ‡XY•¬ VG`pœ\nc‚#ñ[ğ÷¬ˆÀµ§\"¹®–Då‡Úeñó‹™¹ÛeşR@¹Ì_Ø^ç±_Ò’ëñ­ÏY¯H9*©ÖŠ|µpï)™Ò“x.¶¸kzCigĞ7qMíTlÃ®F İíVóuu5ÿ ÂWÔ¹Ÿ|#Ş»ß-’ÜPˆÔÚP­û«ÉßÓä\"B,7Ğ¹‘.ÃŞ¾PÛDP5ZÃñ·‹ ão£•àğ»\000fq»áÈ-%ùß3H°1U~™®–èÙµÍ\")Ÿ,H[f^Şc’6Nú.XCën6N¾43—õXÌD˜Ò\r©Îßªdª×º91-Óî|íê@§é-ô;3iQY>UõS¹oŠ@?bP­Ô~ÑC¸İªééåF{Ê`Ÿ`\\Bø¹œÆ©\n/#ìÀÚ†eËÒ’s0~]ñË0ÍH„Ò\r5Tö*Iâ«†@jÁú5Ã\\òÈ'øÍ8yùNˆø&ÙOÕWï¦Ÿ0®Y…›ªæ¡eÂğ]oZâVÖÃ•02‚(ïÈ½L®@%ùø)8×“¾lFí’­ĞæxÈ2¥Ï!+¾T8Ç§G–İ’!7·¯-•åšŞgHUÈÒ°\000\n'ŞÌ¦Ë‰RŒ·DÎ‡Ğ5ß$ŠÍØVğøßv°ÇÚ.$\000_v)¥é—ÑÚÚÆ¼iÇÑöò™?‹hS­¼„¿TÌµQ)ÅOš0Nh±!q®æmt®}b{˜Aà*ëA”üBê·ÁD¥d¹aG·¨>Şl€¡,œÃJUßk—\"YkËp]\r•@g‰XãæFõÆ|§=´§Ê$w§–…&XŒ;W÷‰m(¶«Bl«.@î¿SÉß2ÌãíBÆ]±uÈ´¥È/’E\"·Éj4‚–¯EáŠ—ÒS‘ò#eí$b×Ë$í†_Ï“mşÍ1=oòĞh”A2Z/³n,k£¥Oƒv!»ğ_a]‘;Í‰¼­ãø>Å¬ê)õSÁvš`‹ gB•ÉÉw’£-˜1Æ’›v¨écH/â¶½\ràˆ¶ÔFÿn	ôû8 í´Õ5‚ƒÚüàÛöşr¾/³¿¿ù¶“lxîS_áŒ]46İ\nv…ì6mTÑVU9‰&‘{<Ïp÷12óÍ[?@d[T¯‡fáüéL{«q7ï›_CÒ¶qÜBÔ@ïµET‘ÌjŒ¬¹]İÄmc+±k»7¤\\…h°à7£$.cR&à¯t&††d^T›Ø´í	7K9²õ­«åƒìüp¾dkEË£Ê±Üü÷mÚ¨xıŞ‰I)2Äş•(q„Z\\‹dÔàb4$zq0÷r ªğ!ÜŒeğ})mm®Å±êÉø/üZ{-¸vÎPU.\\~\r1çÑeÅyì˜KòĞ˜z]šm˜%\000ùhX$i*¶HUı–…ıAb¥j)Sd”°C6íIÜCHòz\r@İVú¨sñˆP-—-Ãşï˜C{§¹Áû‹DVŸò“»\n3ìÚ^PÎEùöE¼K­”=ğä¾…¤EÚúZ\\5l‘è½çÛr\\¯™ùÌˆˆp½fâ}-şñtËÀè£4œ²^Óln*F{¸êR¢>µ¢šSşA°UaW%ËŠYUb@Ëoº»ˆ2*H¹:İ^Isbù´íÙÅiÊƒˆÆ	ŒÜ$ÒŒ…\"-†Uß6Í13QœøãËÕ+\r¹ô?”(#TôÇJåyšµùwpÕ	$ÿ‡øqµKªù¥Àö¬1\\Ëïuñmğ‹Õ›Û ²-ã·.»ñ‰åN­ƒi/˜Xˆ0Uø¶ƒ`ßù‡Ú©àlr¾â3—Õ,E]®\"	ÿÊÒ9¦a_&^Í´XÄ Éo‹aâ¾p°0ï ÓñovÀEœ(Ó¯Fà[î9^ÉÕ¤‚ÂpGùVÒ¸ö(Õ-‹*lño[¸ÏÃ±L¾ëd¥t×´dÒ:È<}5ÿ·a>poÉ¼Ê2_miƒäQÁA8~*’èÇEmE:ñ{)¾ìZqPRÀŠs—Î‡rLÚ™¨tŠ=îØ¥Sp­fŸüSäàíèl´cxêÈª‚çà®#‹ÎI™z.k÷\"!®ç&!BUkU\"åÛû©bMP~LÛ+Öl•VTÌP4™÷uÜÃe™Î“|I3w¡†céè»Áûmğ,ïÖü«\\¿sš¢\r!`ïEQ7ml·y}µ™H¾|i©İR»cx¤Í°pòf`AÇ”§Ş%Ñå1º›µü‰+XU\000A<VT~®a›bÇN(¹;pÕXûq\\×iù­\"|m×\nÑşE¶eŠši.”äP>ÃÛ_ò^?×0LKt³Öº\r|Õ}pÍd<3®Ûbæ4¼„¸ùXéÀE..ôóâ·t=š—1KZ]E8½ÚÃ™VÛÖFóÔp¡·P_¿ƒõ‘\\²šİ] qüî¡šeáãzĞ·9·tÅºÇ\n6nuJÜ\"Y†[ğÅ78×‡Ú‡n!±=¤c…¦\"²İ#rŞÕ¾ºàJW-¸í:ş äÑ#eñÏWDïŒğ]1'\"p€ì‚©™c\nïé3Ü¸N—IÖÿâuòPpNŸŠ]º\\Ñ*È2YsäòœçÈÊMKòèlÖ5kı<WœoÀädJÿ/8[ÈIÃrÀj,äı³ZÀ¯Ä<ÌvİË\000m/}‹Ğ ßä\\Ô‚Ë&Õ¹÷P„é%^©ƒ;ÏÒn¡H-å×t……71œ©ïB-ÏX³%jå	.Ôƒ¿í?€e°mC®©¼İ‚8¨2ìEjL(·õp™}æÛz Şr›!Œws˜] ÛĞqJ›J{hêMäËD( öxlî:îÍnk ›>‚n{­wx\000EÇw8Ñ£k57šIÄZc¸—oH:G­_ì´M’†^Ñ%{é’	6Ç)šüJ³exµÄ½È<û›ÇQrE4G\r¦Î5?Œ ê€7É*•±7TÜáÅV—Qt±$†WWØrIÆº/¹•?\nã•¶Ì²MúÓƒ×××Sà(Û^p<ªñàšeóåÿ|øïûÇaà\\œüâ/^Qçzùüä…öìÉÛ'wÓ[>§g¸´ïÚ–Ú¨ö×)á•İá{ÅŠz\rïÉGÀTé°‡“°!GO0Ğ9Ãâ˜xS	n\r¯mV&h¿x@÷õUp‚I`ãÖs¥ÂéV$6 ãå(†Eg2™ü\r*œ Qóxù;Àû§øCıFóMvÉæ›øOu¾µò»ß~«o!i°qSÅ}£ùÒÅÃlİs·[<MÈUƒ›øo`´››¿½F>cÒ[Tõ•Şrx«±ÕKu<[±2ùö+ÖìË§QèüY>®Iœ¾ŠÙúËĞº2x·]yå$,ûáĞR00íãÊ¨÷GQ¼ò”ßjGoÙÜ®à–…#¸Ñ,kNë`™ÕšÄ±t9±s˜İ½-Î™HPŞâ¹²0Ykî…lK=8%ğ9ÌG[>³÷á¹¡üp;V[Õ‡g‡’¶½ìQµ­ìVì>›°¶±Y­áÙòåöF/ñ2µôlÏÜ›ÑäÃSïNª¯\nUg_¸\rV=³=ıÔ°F¤ßX]õ6huÏ\r‘Wá²ï®;ÛW>èPÆ‚æÚ×½Ã|ˆ|5İ_´Î¤y¨LÉ\000æIá–)\rıäÄ\rlòHÑNWÒ]]õşY;9Úœ‰$Š¾RzåãîÎÀ¡SÛ‡ËŸÚÂ\rD{$.›ÖûLºĞÕrº’¼‹ˆ®Øèx\r_ÖÄôñ‚¡®¯	LËÆ6»^;ù•™x/îĞ9Ş2ñã,¼¹^ûéeåátÅğá2\rIón!·udFñ·%QŠá|Â‘â¿e›,Ú»e˜fÑ-ó	ÙŒ¦ùü5òß	š©™ÌrD‡¢O§</„R³yOÖ\\°ï)A:ÂP§%Şˆ®ÿ¼Ì¶â÷-ı´À\0007AÙ»áæ×0Ï5ÈŠÙÒèVwAÀ˜¬Ì;r©š\nøVàtFİt‹x\000?«…ãÃ;‡¡m[c0t¶Øõ\"Ñ\"]”øå÷FÃ´oƒD÷AÓNº*ÁÀĞóİi`ã†ü=½=ïuºxÚ2ÕË;Ê×F~´c«óóÅk×ÍwÊvı‚‘êxŠká¤ åáí‡Ã×ÿ7¢ç>aL@hÓß®ƒS·Fg¼çÒåQòöî÷xß˜E?ñ=~O—Iâ{V8óiägÛØ&‚¡avÀXEñı-\"Â(X cOoq\nLÿQyè)/)#ªŞG½ \\‡Ù{ÒHÀ¢9û€?¶d\nlä¶P3j=s¾Â•»¼fu¸Î×Õ_Îšá¢z>€°œÂÏåÏ?ÔÎÀ£(gìš÷YÕDÄv &>H@xÜ\\±«¶)Œİ…\\|‰ ÕœGü2Û·›ô[Éä¹ö¨»jd*oxédßóñp‡mÕ7†IUÌÃìgŸp½Y1Ìâf±Â0»®«~ª¿şÖU3‡#o¦×+@’ßÂÕ\n/ÂëÇÌÃ½ÆäY¼ÂD…&5R-¼¤»gyuU™$¦\\ñ3K_Êæ+¶œ«'m}¯¶?œ*àÚ.å˜æXûò´WõótÉ´Ç×¬³88Øx‡×Qu0¤F´Kî¾Ğs\000¾ªÑİŠcàèiáœt›ª“N·¥õõàf/\nóªß¢ğğ¶î¶T¢Ê×G­‹=KˆÊ%ƒÌ²ºìB¿»Æó½ÊGÕı•€;ú òâÉ\nù¦qŒºÙÁ¥ßw±å›ô`âã7¯ßÿ¼ˆX'óÑbeè!¬¸jºtQsØøóª-#†J:˜AÇ——‚íJCÍ	ƒÁ‚ËLŸ	²ÖŸzãŸ#	\n¼QñOÉÂá~ÊM8ü3EåÈ%ŞaŠwMÍŸTljoßŒÇ:o¾\nşß±0£9ØèÛ77åÎ)\r7oêdÉ¢¨üÍ;š(™ÓàsÜ[ÿkÛüqx¥½ƒ\"<bp‰ÛŒ0UÆ¨‚j¥Æ-ŞÊÏ¡á61‚`Ş3L±ª!/vmU•Åûã1¾S{šö<ÒVG{Õ0^'3%Ğõ¨ôSuScµkKöŒP‡D—?Q¶GÕµñ,ÍÚ}´'¹I¾ch§Ê°•ûW;{+w¶laË§ÖëSËM¬ˆ¼$åÊ‡uûè:üŞÓø!t—D‰`=û¨aÒ'J½Éû:Y`37èğş|AGèüÄrä‰ÿC[0Wkå/ş1ÔU‚XÙÃĞAŞm[ÔI¤/¶·PŸ ¢ÛøQ‡î*åV°ZúI;+Àd÷ó\rX]?0rû¾pà@§]íèß",
 					["metadata"] = {
 						["guideId"] = 1821380397,
-						["enabledFor"] = "Horde",
+						["version"] = 19,
 						["next"] = "34-38 Stranglethorn Vale / Dustwallow",
 						["group"] = "RestedXP Horde 30-45",
+						["menuIndex"] = 4,
+						["enabledFor"] = "Horde",
 						["key"] = "RestedXP Horde 30-45||32-34 Shimmering Flats JJ",
-						["name"] = "32-34 Shimmering Flats JJ",
-						["version"] = 19,
 						["xprate"] = ">1.4999",
 						["imported"] = true,
 						["tbc"] = "",
 						["wotlk"] = "",
-						["menuIndex"] = 4,
+						["name"] = "32-34 Shimmering Flats JJ",
 						["length"] = "611517172",
 						["submenuIndex"] = 1,
 						["displayname"] = "32-34 Shimmering Flats JJ",
@@ -2413,11 +2452,11 @@ RXPDB = {
 						["next"] = "79-80 Icecrown",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 70-80",
-						["name"] = "78-79 The Storm Peaks",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||78-79 The Storm Peaks",
 						["menuIndex"] = 7,
+						["imported"] = true,
+						["name"] = "78-79 The Storm Peaks",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 6,
@@ -2431,17 +2470,19 @@ RXPDB = {
 					["groupOrContent"] = "ÅW]oÛ6}×¯ à‡¾(š¾mE€¦…S İÚÅÁºWZ¦mÂ´¨‘Tİıñ;”#[²'k»íÅ‰¨Ë{Ï½÷Ü]\\äQ”EÃh{ŞàSšË’Dco°•F¬½™Ş`©d]‘[¦\r›ÿù‰¼—jÎH^¤™÷úõîÑ”tƒÃä\"IÉ;¦¥ …=d_\rIÒ‹dD¦FÑr)˜YIU’?¨`äò®ÖfK…[oğµRÔ0ò:\n2–*oPÈM…lËÍŠXU^°÷dZ—äVk 2ŠQC./ÉçF¼Ú)\n–Ò¾3²d†\n8ø«¬KCy©ı4ÂĞÏÃ ½ÀPµd†\\)ÊÄ}I&\\±-çŞååk«ÿ[1™„ádgÇBßî×ªä_8YLwx$xş¨æ´¬µpı±ü½F‘ç±¥Aø9â‘¡“MFÁpèç£ lÄ±?Ì‚<zV6ñØƒ|ìØ'×zøÙ†ekâ%4lWL1bVŒ¼§ªâLŠg‡,%Ñ²F¹VEĞ\rA{ègY0\n-È(Dä¯Çı«&²Kr%(¨·‘3M€r/kbsFÁ\000zÏæP³Ó5/½ B°Â8L¢Ğü(ÁYZ¬B\nğ`}x³{¼ê·R©º2L9qåq\000×„9P…Ïf`ŞäUmfu±ÌM–1K—G YF W6ÈowÈ¥I–qègHÊÉ„‰e­ÈİVµÑN}‘‚(É³‚ğÆ^­XEWÜÍ’<rä,\ríïğ€è7jèš’²\\Ú’wB:’é‘µÒ-¢	İp„ğN1v‚(J“øQŒèøY\n\\NËw°k(HÏ˜˜YVuúº¶ßÁi	Êß2A\r:¤Ş;y¢¦Ã¯$éÕ¥ã ™v	À² ò­š{åò7qøk9‘ØFæò÷WZ£’véJp–÷=N^è±CQ×“ì¨¦ÚÊ•2­¸âà¦“Ò?WË-ü~1¿ù(úgİ ´]\nÍy|`ütÃ¶i¡(ÊéB±­Ó‡\\¯ä](7r.1Óêr^WOÏÅ>¸tılÄ¾æ)MÓ•UûhÌVcsºTô»§j€z¤@Ë^Ô‚P½k³z®è¶$%7öÂÆ6Ö€¦wùÑ“Êm€ğkQ¼göä†ôÍuk¼µf‡W7r3“³ü“Ê&­ŞşıÂ0BT3í:©lïoäg´hâlüÕÔÉ’c£i¸…™`Ï…”kÌ!²€ÊÖEƒ%¢¢FIÑœÚ9×s2ÊÉ} ÿ×0ÿd¶8ëwàS\"A&¶†Ó¨tØ+ºï±kaãzê}jß¤£3÷÷úÏ*?§ 7\\ˆ£)ç¤h…l$dÎì1¥yLˆEÛ÷	±		ê\rÍæÎ53u:tÆÑ+:—[ek•ûm1êGc;Rx§½;ié¶iÉÌQua¢«Y˜İÑ1Š\\ó$=ÂBø¤¸Dóæv·3 .*ğV.q½g.I­¹şA||¤@öµŸ tòî(^,®+²FĞìàùwã–96¡ø°½îRçÚ^µ=0yİ«x«º!:b&ù³‘î+?ìUşKVÒÎºÕª¹h‡ª{,7j./oñÉÖ¶îë•DX?7©\"Ÿğÿs,í›}j%ûı/íùÿÄFö<×Êñ=ëÍn­êÆÑ±Wı„\000ö¸üüîzö³$ûÁÏ’ÖíÇÏ’ı\000r}—¬´Ár¡Ğc¡÷­’Z+Içz÷½ª×¼ÚŒ*4õîéGµT|³¡Êûû",
 					["metadata"] = {
 						["guideId"] = 3599698797,
-						["next"] = "34-38 Stranglethorn Vale / Dustwallow",
 						["enabledFor"] = "Horde",
+						["next"] = "34-38 Stranglethorn Vale / Dustwallow",
 						["group"] = "RestedXP Horde 30-45",
-						["name"] = "33-34 Desolace",
+						["key"] = "RestedXP Horde 30-45||33-34 Desolace",
+						["version"] = 19,
+						["menuIndex"] = 4,
 						["xprate"] = "<1.5",
 						["imported"] = true,
-						["key"] = "RestedXP Horde 30-45||33-34 Desolace",
-						["wotlk"] = "",
-						["version"] = 19,
-						["length"] = "611517172",
 						["tbc"] = "",
+						["wotlk"] = "",
+						["name"] = "33-34 Desolace",
+						["length"] = "611517172",
+						["submenuIndex"] = 2,
 						["displayname"] = "33-34 Desolace",
 					},
 				},
@@ -2453,15 +2494,17 @@ RXPDB = {
 					["metadata"] = {
 						["guideId"] = 156765484,
 						["next"] = "73-75 Grizzly Hills",
+						["group"] = "RestedXP Horde 70-80",
 						["enabledFor"] = "Horde",
-						["key"] = "RestedXP Horde 70-80||72-74 Dragonblight",
+						["name"] = "72-74 Dragonblight",
+						["menuIndex"] = 7,
 						["xprate"] = "<1.5",
 						["imported"] = true,
-						["name"] = "72-74 Dragonblight",
+						["key"] = "RestedXP Horde 70-80||72-74 Dragonblight",
 						["wotlk"] = "",
-						["group"] = "RestedXP Horde 70-80",
-						["length"] = "611517172",
 						["version"] = 19,
+						["length"] = "611517172",
+						["submenuIndex"] = 3,
 						["displayname"] = "72-74 Dragonblight",
 					},
 				},
@@ -2475,13 +2518,13 @@ RXPDB = {
 						["next"] = "49-51 The Hinterlands",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 45-60",
-						["version"] = 19,
-						["name"] = "45-49 Tanaris / Feralas",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 45-60||45-49 Tanaris / Feralas",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "45-49 Tanaris / Feralas",
 						["menuIndex"] = 5,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 1,
 						["displayname"] = "45-49 Tanaris / Feralas",
@@ -2494,17 +2537,17 @@ RXPDB = {
 					["groupOrContent"] = "í<]sÛ8’ïşÈæaîê† 	~ì¦\\åÏ$3ÉÄi*w·5•‚%ÈâŠ\"4 ÇSşñ×\r\")‰¤ìS&³[~I,²ô7º\r¾xáSÊh@çèèy~=>z~+ód~ôêy#ÕD=OùB×yá:d4“«Œ§ò³“Ddäí[òãGÏ¿•Å2%4:z~£äjI>Š,“ÿ¾2“úÂµa&ñ5×3yd8‹¡âô†\\&<Ïô4_—Šç‚SË‹¢èfXÀãÙ{~#Öo_Q+8²f9>&oWùŒä’|P7\nfäêÈú]¦\"›ÇËÏF3AN¹R\"ÍÖó¿Y¥¹P/‡3¾àéË+îGÏÇr±LD.ncX¦)§®sdİÈúzf[~8ğ©åG—\rìjÆmPÇŠü-j÷‚ú–íà¿aØê»êF–ã»Ô³\\\000h/¨@mÙ½ £—v-æÜ^PÊµì¨Ô,æ¨g…A^`ytà3Ë´\0005b,„º=Â·X„ì`ŞÀßs@ÀÕáşşõW V¨Wp£µºG€jùÕ–…§PÛvĞ 0#ßnPĞÂÈxÌ$ú@ôÊ…ğÖ\nÖ†@„X¬®`…ñï0›\rhh1g@zğ_Dç–«	¹_^Úöå¥Ã>¨Ÿß«eºC:p}Ë\r{æú	~ª83³µÁP	ÂÀ\níÙ~Q?Ìï¤™¬ ³t€è7ük;ïG1’6åcñòVªd²àË—ãÏ¯W××‰øì{7JÜY×Éò¯}Ÿx2G½Å¥#+G§J¨çøn;ü¼“+EÆ	Ï2’-E’d\000ÇÕÈ‰G^RÙL‚˜¾úàĞ¨şëØõà¯¦S?zğkàFÍO:İ>Î:u…64hÙ\"qGïĞÀC¹VÓ’Ìvï}¨,’s%ø\"bÖ²-R$ÃÄ$Mê‹‡”ğ·&9Ô¥ÔWÔô³¡.ñ2,é¤­r‡ ­ô%i‘ì¥½f\\§uî¢f[0}!µÙƒé«S5R2I6\"Ç3¾X†9ÄŸ%=µTÇn!nWÔ?E§ŠßHíp¦É^šŒøJñJ¤ëxıñš&3rgğ\\R÷K:|ò²cÜ±zÑ¡úXÊd\"oSçb1ğ#/ÛH˜ÅÛóRf¶“3üq?¢.|öWàØ?F\"K©ò¿‚V@\"§Éj:ıµ‘!Ô^´dõ§ÍŒ¨‰h)ğÚŒÇ±‚\000ãZv%Îî‹ºïuœ}tøDg@‘èñ¶úİ(‰OÉ^øC<ì8/²¨‡Û` ˜Èn‡	,ÛF˜Ğ>¼–òß´B0påà<yŒMÃ°\rãİ2Û‚œöŸ)OÈë„OD†É¬­óÔĞP§¢zŒÑ‹C˜vµƒ9‚³Ã.(êê5½n(›* =P®Hƒ.([£bâş‚¶aêáC ºxÿW,AA7GZÎÚ'ó•’À~ÍˆÏE¦/^ïô|¯v{¾}<Ó´á$Ï¥âİN—62ç¾$³/§üógh0¾‡lËF±˜ô¨n¢Û¹’æÖ}µë|â*‘ãùF¼Ò³ÏïDâî ÄN;„<ÏÀØ+_P<Y»\r¾Kµ\noßô–;Iİ¸8:Ãf–ÇAÒ)¿æ7üWî?ğ½p÷_Ä¤\000jœˆé®„éQüW‹Ôšd—uaú}Äş1êúJ»w].rÁg `KµµÃ€€Ïa|ÊÇXØA?[½úQªTëìJ¥³D&A‚_~~|)ÓŒÈ)9›ÉxaÅ2'”2\ryb~€ë¾ú ˆá(¤ú‡B±,°ü°Z.ôĞ£«}¸å9Oç¼öšÕ^âÙørÅoSQC8¨àzo¸ú‚µ{µ#ÜWİZQ2‡s!’©Tno‘?d8¿ƒ´&Œ³éßW0;bŞüÉ?£àIÀz	>‰ì16ùİÄå=‰ëâê0À?PZ`kOÒêÖ7Åï¿§)<éş÷İ9²U)Gw*U§îÀûÂédÉ³j9ån.ıY¸R[²åQÔ6òHléÙ­~©À$[ş°Xe¼L!/•€µÁ2¯dV¯{4¯)ÑCËÒÙtÜPQ¢Ü¬œ¡l6ğB,÷Ö*‡[``]®;Hõã\"YÕ„ä~ĞĞ]¤éc<A³,ˆ‚›İ˜F¦Gé˜í¿ˆt\"‰ÃÃN\rpºÔ9]İaa\r|§>wñ\"sîrJz©òkyû+©ÄSç?dX¼‹q:zÜGş;¬r¢”¼Íê£¦J.È,ÖÇc™$bœ×vícc)8ˆÅ­‚[ipi¹XŒ%pË@¾BĞ#kæxG^9VRÏ\000<ø…pğ÷_NŞ½ıÏàUĞ|şvtñşóûçŸÏOŞŸ¼¾ø|uññóğâìÃÏçŸ‡o>|\r^Q­ÿ&*yM*Qİ«Mæ®ÙÈş½Ø¸Á¹ï¦Ÿ¶åâÏ\r^ìğÅÿuñÛ*6Åí.ùY+øI©k³úÊú¢vhn :‚ÈBN/Z…éãÃó¥CóäZüv«÷™\\ô­C`»®)›cé7åö=ämšÎ…X\n´©{ùF¸·hbEZ¾Ã[˜şŠÆÕnM¬ú.^â‘èË¢$şò\\­âIËônyfú\\ª…æÌ)LÑ¾À3³‚éÙÕ®AéEà-Oø$NKLµC<±råµ9ÒÀ±ïR™&£Væ¼Ü58hŞ“ğæ´±|	Ò¦u•/ğÀ˜EË1ëW~ñªx³nÔÄ£Ç[ğ³ò ]‹ŠîÔ=HVu‘ÈŒÇµ 'ò\\¯ä CÀfpô[#™Æã5€Ÿq–«ø+1“ôF¡”0Ïbnnó0{ÎÅCeÏÁóÆ²‰øY£ër×ˆa—¬5w'¦…}ôÎÈ<DÂgİ3^aÆÑè­ù”îõ\000’+j¦ÂAÅêXi“Ê´…-u…²œñ$ÁTî$Şníbi¸ÊˆìM=Ä©/ÒÉJñ´™(ÒZ¢XsHxnòÙ:²ViÍSr–ÈÕ³íZë£¯”\\%<N³%ÔCµŞ¥ºÚ/››[á\\<ësBSÖçX‘ƒÿ2Ú\rG­(Ğ«{}ó9à~Cmmİp°¢ t'œ‹À|¾s8İ—t„¬Îğ/è¡ÃµåáôÌç`§	@{~ŸƒPs'lsç§ÎÅÅå¹¯B»³jìsZ´5ì11õ‡¥HM,Ù5¡EŞI™Cr@¦\r—à¶}zvî\rÅXá^.AãõâV©Ã„Ù~uV½¿fïË!o¥\000Ç½õ0^ÃË\000˜]ó.z Ç>WïÇqçw¶9î<˜ãL·LG–×cƒ!6gy¶¾·Óé~9jÑ¨›ãJàğÖÅC8îöq¼šx?»à¸»Íq÷Áß—“Ìòµê8=ŞÖÜûbáôÌ‡WÉ´è[7D8»Ç‹úz× ØÕ	`«îE=»P MÅ³¢ob#îjàm-Íi\n{ÈAzr+ú»x*úô§š¾è8¦~ù°ÎYCĞ¿Çüúd«„íòò’s¢â9W¦	*^@`ÀÅ#òñª^“gvöaèh{a‘k]ŸÙö'\n,W¹Fñã•N+Š!šÚD¡ñ3ÀUÿ¯«¼Z¢çqº¡ğØi·ùÀÁåšs?Øö;vgi5êÙda>­–}[HˆÎŞÇ×c†!n!oxélSİ²sÓâbOÎbÑ¯g$ùúrW—£¬Öß%Ï%K¹Æ#×8«Éõ”Ó¦<©§kUF|©ÖÕ(}¬×‘¦ontŠÂd\000;L?á;>—¹6¤\"z÷\"Û«EïXç!<'ïx­Ìcéz{&Ó›&yÇÇ—¹ËÛ\n‘_*`ÃØ˜H>Sru3Ó†u;“‰ \"K•[ä½¼ÎÈ-\n%[òÛ”@FËI<†$æH³õ,ƒ0™ÕÊ Û\n´‚×dƒDm4º¯KMëzÿ¾¥¯ŠÌ!På~\\-–»‘-}e¢,\r®¯K,§IœÎ­ÁÿsÓ\\@X€úäëÄıZæ¹\\ $øƒŸås|5ÅtmÂ±Ißäw¦#_#Ã˜¹+Ö‹Lä{2\"ËpVp¥W†ÿ±L‰]ÉÁõ¡§©èìflÏ.¾ŸûôÍé~wdnƒ;½¹Ãkæ¸çc¸«Y\n%vBò©€A Ìy;Å:(™Äb@Ô*%×xä€¦áVªe&È‰a]±Á3U +/QO2S0¸W5¨S'›@İğÆ	x	ÏòİR™´m¼W<ÍÑ4ÏŒh‘|Ìò›È_¤\n^OHp3™åq\"•Â~ú±*ÜoÏ.¸M¾¹1æK>sx©—^×Şãİ‚l\nÂ›ÁfS\nÌÜ*È@Åy¨'bcä%VJ91i0î_ì¤@‹˜lx~Ìõçß Àğæ\000~ú'ò<¾WƒÚ³÷`Ô7Ÿ!“«çŸâß“MF”e›ßV şä†dÄTvnğñ_N²Œ£»àè$ÈU\"ó¿®ØÄ^àµE]R¯ÁÈç¤…jœ5—ùÒéoA°â\\?È\rÃFÙj™Úöäûµí©plÄÌ;®¸cµ¨U)ÖÀ3àiN±:Æ]Õ‹Ø«}\npS&¹îğ-\000Æ<V­TTÆÊ•v)pï²Œ­÷ámªËR°ÖI/xZu+hÍ §‚ã÷D²Yœ6;XPOÛ©±OjøíÔP+!\"%&oSX?=)½´æüÁt´ÔÇu|MWæU×ä[ú³ë2´FĞîûå¶Úœ¥á³Öú°†ÿo•©-7¯Â”\"k÷….ŸÕ	ìDÚXrô	€×‘ÖR<ÍD8H;áôg• wôƒn8Èô.»g]Û¿Ü o]şğda=p‘şê’ïtÃ1ÔtêsÈn¸ ĞGJİë>ñù`|Ş.«|”óNÑ/\\Iİ^ØØ_B©nC-ÇWáAcZp(qFâÅbeS~æ9†û&O­‹æ\rk•Æy6æ)Ù…VÍùPÓïH»ÊÎ—‹t²ıÉ†¶˜İŸmè›t7“ñ¯n¥tS;«>`Ô\\ö‡SÇ/6Œ¬íşô#Q€|ÙÜñ§ sByw»\\Qß®ê\\¿Ğ§¾ ¾ö˜GÃŸú‚İT>êæs\000­}'Ó›Yq¢Õ[÷qºØLhÎÆOUñ¬ßè)ZªÉpyq_-õšÖ¨š[î’ågI<Şê{õŠ”4ìUşF«×F¿k4ãIÌÉÉâZ¨Y<ÁòÚîı\r F`f7¨l”²K”ö¸îş§«l¬âekµÍ3½\rî¾ºxÂ×~q.úà‹yú»\\İÙ°p­*{á\\ŠñqOŒçê8øı½®£Âs½ıNÌ±ğ}Ï÷!úl9|n.R`É.tC›K0²âv#ó ¡í§ÿ{Š­«»­_ã¼©˜í±]zpiÍëÜ¹ë-\\ğçÍkdt#7Şn,ëì	«õËµ_Ë²Èxw¦¿ïééïÇ‘`à®h„ÂÀ[0„û­C<@pôÂ ËT‡p!>÷=ü›ÙÍç»G<<8o›Òw°åÔ¬À×_Û0÷p|îëÑ\rñoHA\000ñ=ıi¦\000ÛC\000 ÿÍ€\r‚¹­K1¼¿Ãtåë€Âß¶ş^[²ñÓ·0}d:`íæsóa\\-Âß®ù‚TëR,Âãüæ¯¾Çô7@ÕñKGAñõ!¼ôåã¿¸óÕŸı®¹¦ÿöô—U™ş;@)E!Îéjé!|µV«.×DŞ•ûÔÕ¡®R•ŞùJ}é„«éLÏ|k=ë„«ô®.Båë‚«+iÜZi;ájJÜ	WSğ¸Rù»ájĞ·Öü:ÖÖÒ	W³¸Ò²úä¶6¯N¸šYuÂÕL±g¾µiöÁ•fÛWšt½ksïÑûÒÎ·k¯õ^˜¥Ø4\\©/ârêòHcä<¾¹\000—¨Å¸ãeiŒw¥ÿ#’™Ğ×Ãş³ˆR 0uÖÂ”êºéıFiÂÅ4d]ÊØFáo»ÿ[…Eç.ß´y‡ØÅßË9ìË}ÜkLñ:ì‚\"o³Z¹I>Ê>òM°u%ç'?)Èâşï",
 					["metadata"] = {
 						["guideId"] = 2376994718,
-						["enabledFor"] = "Horde",
+						["version"] = 19,
 						["next"] = "32-34 Shimmering Flats JJ",
 						["group"] = "RestedXP Horde 1-30",
+						["menuIndex"] = 3,
+						["enabledFor"] = "Horde",
 						["key"] = "RestedXP Horde 1-30||32-32 Thousand Needles II JJ",
-						["name"] = "32-32 Thousand Needles II JJ",
-						["version"] = 19,
 						["xprate"] = ">1.4999",
 						["imported"] = true,
 						["tbc"] = "",
 						["wotlk"] = "",
-						["menuIndex"] = 3,
+						["name"] = "32-32 Thousand Needles II JJ",
 						["length"] = "611517172",
 						["submenuIndex"] = 11,
 						["displayname"] = "32-32 Thousand Needles II JJ",
@@ -2519,11 +2562,11 @@ RXPDB = {
 						["guideId"] = 3613920149,
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 70-80",
-						["version"] = 19,
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||79-80 Icecrown",
 						["menuIndex"] = 7,
+						["imported"] = true,
+						["version"] = 19,
+						["wotlk"] = "",
 						["name"] = "79-80 Icecrown",
 						["length"] = "611517172",
 						["submenuIndex"] = 7,
@@ -2539,13 +2582,13 @@ RXPDB = {
 						["guideId"] = 3523481958,
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 60-70",
-						["version"] = 19,
-						["key"] = "RestedXP Horde 60-70||69-70 Shadowmoon Valley (Aldor)",
-						["tbc"] = "",
-						["imported"] = true,
 						["name"] = "69-70 Shadowmoon Valley (Aldor)",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["key"] = "RestedXP Horde 60-70||69-70 Shadowmoon Valley (Aldor)",
 						["menuIndex"] = 6,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 5,
 						["displayname"] = "69-70 Shadowmoon Valley (Aldor)",
@@ -2561,13 +2604,13 @@ RXPDB = {
 						["next"] = "51-52 Searing Gorge/Burning Steppes",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 45-60",
-						["version"] = 19,
-						["name"] = "49-51 The Hinterlands",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 45-60||49-51 The Hinterlands",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "49-51 The Hinterlands",
 						["menuIndex"] = 5,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 2,
 						["displayname"] = "49-51 The Hinterlands",
@@ -2583,13 +2626,13 @@ RXPDB = {
 						["next"] = "40-43 Badlands / Lower Dustwallow",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 30-45",
-						["version"] = 19,
-						["name"] = "38-40 Alterac / Arathi Part 2",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 30-45||38-40 Alterac / Arathi Part 2",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "38-40 Alterac / Arathi Part 2",
 						["menuIndex"] = 4,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 3,
 						["displayname"] = "38-40 Alterac / Arathi Part 2",
@@ -2604,12 +2647,12 @@ RXPDB = {
 						["guideId"] = 366677318,
 						["next"] = "71-73 Borean Tundra",
 						["group"] = "RestedXP Horde 70-80",
+						["name"] = "68-71 Howling Fjord",
 						["version"] = 19,
+						["menuIndex"] = 7,
+						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||68-71 Howling Fjord",
 						["wotlk"] = "",
-						["imported"] = true,
-						["name"] = "68-71 Howling Fjord",
-						["menuIndex"] = 7,
 						["enabledFor"] = "Horde",
 						["length"] = "611517172",
 						["submenuIndex"] = 1,
@@ -2625,11 +2668,11 @@ RXPDB = {
 						["guideId"] = 3719698110,
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Completionist Guides",
-						["version"] = 19,
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Completionist Guides||Emblems of Heroism 3 - Icecrown",
 						["menuIndex"] = 2,
+						["imported"] = true,
+						["version"] = 19,
+						["wotlk"] = "",
 						["name"] = "Emblems of Heroism 3 - Icecrown",
 						["length"] = "611517172",
 						["submenuIndex"] = 3,
@@ -2646,13 +2689,13 @@ RXPDB = {
 						["next"] = "54-55 Felwood / Winterspring",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 45-60",
-						["version"] = 19,
-						["name"] = "52-54 Un'goro",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 45-60||52-54 Un'goro",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "52-54 Un'goro",
 						["menuIndex"] = 5,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 4,
 						["displayname"] = "52-54 Un'goro",
@@ -2668,11 +2711,11 @@ RXPDB = {
 						["next"] = "75-77 Zul'Drak",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 70-80",
-						["name"] = "73-75 Grizzly Hills",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||73-75 Grizzly Hills",
 						["menuIndex"] = 7,
+						["imported"] = true,
+						["name"] = "73-75 Grizzly Hills",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 3,
@@ -2689,13 +2732,13 @@ RXPDB = {
 						["next"] = "67-68 Netherstorm",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 60-70",
-						["version"] = 19,
-						["name"] = "65-67 Blade's Edge",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 60-70||65-67 Blade's Edge",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "65-67 Blade's Edge",
 						["menuIndex"] = 6,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 3,
 						["displayname"] = "65-67 Blade's Edge",
@@ -2708,17 +2751,19 @@ RXPDB = {
 					["groupOrContent"] = "í}ksÛÆ’èwı\nx]·´{/à\r\"•ò–-[¶Ë/]I±Ï­­[#rD\"\000”ÂT~üíî\0003xQR¨Ä9'U)‡óèîéé÷<{Ø¶o‡vè=½áyg©aGGOo³2Y=-¯fGOy¶İç¼(ùüogÆÛ,Ÿs#°…ÖÑ?ˆ?¦l\rİgo\\ò<[­Xnœf9|ïøÏ¥øÏ‚ĞøÄ9KçGOŞä¬äÆ¶éEÑt½9z:ËÖ›„—ü6.—~td.²2kw8q=Óó&‘éØGæ/YÊÛ\rŒçÏËœİğÄè~}d«8IŒ<Çébâ8şÄã?Ş|t±de	3\\ÂÓ_/ã´äù5›ñïn³<™¯Ùæ»4¸Ú^]%üÿŞ\"ç;ó*Ù|ïX¿–—,Yaå’¿ÎNO-ëôÔñß²Å‚åsã+Lä¬ ğk>Q¼8³ä×Ü\000è(Oß/Ù¾û5?2ÙlÆ7¥a[má\n_ˆ¿é;	¨zÖÆI\\î&~dÁÄûGf¹ÍÓ8m>¿„¿\rx0ö½gZöÄóÌpª\ro+ÃcC#»6>Ä‹e9ØMèa7®Óˆ×<7¼À™h_çgğå^= ªßÉÙÊ¿$t}ĞâG¶às˜ša8ñBÓ>£\rZŞeyœ1Ä\nŒ@tıĞö%ÙÁŸ—<á›,/¿W¦x=ƒg,QÖ+îe»ø0ÿ¯Ë82¿Î’$»*îÌqa\\ğü†¥%LòÁÖIø‚—ËÇ	[iäi¹¡Bç°J@øKnœÆÅ2Nûñ¸fäMlßô¥«©§vu	³y½ãÍÅŠ—e\\ Û1}oâØ¦å¶I¥Kı—UÿAË¡uŸó9çk>8éÇ2]Ø_9\rÆ§„qT ‘\nÖúüù[Îæ0V	ç‚Ï2€ìu’e¹A˜ozzs› °¿eqidÛRÌòÌ4Ş]E¶æÈyR\000|T”U³<oàP'~·æğ¶âÄØe[cÆà©\000\000ôƒÀÿn‘KV¤HıcË‰êrüˆÆU2 É‰Á®àk8Câ~´)mòlİÇÛ¶€]3Á–©$êé5ëÈ¶0?€#Mf=?âKÀÉ‡ñ=‚G…A=x¯ôòl…éÚ*ÓmqÍvvô4aWpÍ–Y<ã-À’y–Î/fùçû×ô·$Ó8Kø|Á‘rãE’ğEÌÒÇæ<¦­˜{4à?1Åâè± ¥Í3#ÍJ öN£ØğY|Ï$± \nƒ]—Ôe´Uî6Üø·ïrdlşo\000F“¦¥\\q•ı<\000ÏB@KÂUá#aİ÷í¨ÕÀ…pª0Ø;ašâï<_{|¾„³=ğÍù?¶1HZév®ûh½9<|ß…ÅÈ³ãÈ~éq¹d‰€;ßõogr¾+–,eËñ©‰Ñ­ñ@.İ‰;5kâ\n‘­£ğVÂÖÇ“Ø©çqÁ‡…g9xïHÎÔt'^dz‡€âÇ8e	ŠK8õpŞp‚F\000Gj^.‹ÂÎ4j ÉZd{W¨EfN8óí=Pkö7B—1Ü ğŠNòEM\"À–uøõì8V³´+„dâ|ÿ_å,ßilwVÅ%Æ¶Vß»ı+ö —©uózß2”Ë,ù\ró.MWœoà ª:“‹h3‰q5¶+¥ÚşY(Î<Êé³ŸóE¯× ÿ¨ôµ!íçÙ¼¯>4¼Ê·ñş÷¾·©t>¦A{Ô§º2r§ ™RÛáy£ég	+\n<¿“¤¨öŠÇiVÿuÆ7ËœÏ›¯Ó]óÇ°¼ä8e»z*gyLºz{20h2\rÍ©¯Éü˜¯`¼ªwÀÄš¥ß±„ÁVÆX3°g™şÄ\rÌhâ ÷iÒxòìšKãm–Ì[w§“v°ï~SªpÆ«œ³5ÈM+e{]°E–®OĞ°Q”ÀXÔ—pr—Å¶©\\ngféÚĞ¾×Ì>²¡p¶ƒ™¥Y®\nØJçboyÀ/'‚ÔåLŒ'C°²éPBˆ‚\\.s– m†ÔqVñ´Ès§\nKûÈ‹‚§”<3C|]¯ZşYõíçöİWÔ¯Æßfq ê¸«y~ZÂ\rş:æ¤¼Í*€6cÂó´(ãÙjWI…â\r!ª;pQĞˆ<s\n`ŸXC¨İÀšZˆıË4Â£ô\r`¹{J:û=èæs¾û\rôR,³Fûù[–ÿ´İ&:Ï·\r* ·'Â™ì\"Ñ¸ƒ«ìÈ›œÿò‹q\\ï:.ƒ\000Z«ú¯¿g‚ùÖ“8Ï[øN²Ùê.øÖ†ß7·ƒñ“„_—dÏ\000A.»ÕéöäÂYrbp?\000ÏV*qê}ä$_õÓ“¢'^@lâ†§(`s¾ßæ‹m‚šåËíÎ‰’(#£c5¾ò9Ÿ·'ß7¹h:ñ|3º-;Hç,WĞ}“g\n1|Œó/ëñé”íÅú¸¡aO£€P|‚5fÀY–.€çÉäÀòLï\\,­~‹‚‡D\000+|“ê»{-õC¶\000İAûb¤zÜ÷Ã+ò­(ë½â(¾¼a¥º×t¤ÆYÂ€j–Îµk±F“©…zÁÔ´äÊ–y¶],ic¨í_cÛ²ôbÍ”:asÁõ_Ì–<ß6°P´E9…¥¶yoİFİ'-ÕÉe“Â¦î]ƒ“Åc(á]ıó·ÎçÀ^\rÅ.tÑ–c¾ËcÖ±ÃÀÇiÜ66xª±¡VmC²£:Ğÿ”åhìJÉ »Áq‘8hÓZgªİè% ›}‰Ñí5dKöÌ„>Çô}­7ÍcœlsN†Ñ¿³e³·gz!Ú¸íÆ,İVè_ä3–Âad@6g’\000à€âÛ§‘o	ƒ:¦t¿M t9DÈİğÍûNzœ\"õjyÍÄM”bzmß/ÚÇÜ‰ƒ²­F¶$Mñ”åèÁ¾\\‚T§ö(ø’İ@‹T¡Ô(òC•P¿BoÀE¾æp(¬ìÌâ?k¤DQ¨¹N“mã©¦Ü´\r¦JÛ@($ :ò|ÑX&^ã‰r§ ÷r¦õÑ‹g³N€•Ñå\000`Q6pC¼6ÂE™0œÚsãb»Ù$ Ìß}Gé;H;N¿²rañ_Ùvˆ> +é7œNP®øeeíLzõÒyıú´‚åç«Ÿø¬lŒ_r-)>%Äº”ââsúÉ)Oúæ%º‚áŞ£‡:=õCÇùÏâl[à,ù:+—Ê¹Õ”ÖÄoàGœKÈ¾<yå]0ì·@È*	€ƒé	¦Gæ:»2”!2BªáIÜ‹ÀÍĞv|3ˆè7\000Ê3Ã€6•ŒÒ·è¹…^âoÇÆß\"Àw°S›€Òï[ÔÔLøíQZµ±¨=(¡ÔŞî€¾uP¡™À¸¶¿)ş~{öéÃl ^‰KÚí`³j‘ãÍêõïé­Íx³jãÍj€5S`=Ş¬FÃx³CûµöÍMÁëğV(k¦PÃx³šPÆ›Õ4t\000†'ÓœOÏ9O2ÚÆo¹±a%èEÿáÓpr_åúïè°|Ì\000FöäÈÜ¦qY ^¥²¨_\\d@‹ÜÃ‚×¶º<êÛ,I®ø2ÛĞzÊì–ë<È'fˆ<GùDrÃÊ~ °ç¿8Ğ_è/ô‡r FbÕüú÷fAr{K)g¯àõˆb—™dÀŸ`“ô‘|„ôâzh£´‘š‘¿İ÷Ÿ;E„„´eñwµ“¦zÂ§D¹‚)Uı|Kâ\\?ÈaŞ>z×Ñ¾<J‡!²ÍX3Ï´\000:¡éÙ£ÍBÓpP+mæÓÎEÈjp<yubY)ß1 G¦í!`j÷ÃôN°ÔôÊß¼YûÔÆPëÕşêÆBû«·Õ¿F¡T•Ä—;ãEº3>r–Æ'>ãE!÷ãÊâğ¦rCäÒ°a¦(\"\000:èÔCæ˜~HQÛx>>ÜlÀá±¿Ññ§<WÛch²‡¿q£Ÿ´°Ï€NeKô‘ÓÃÁß–Ogµñƒjc¦ãˆ¸^$]ÛB{2HBğÛññwDÏat‚¡n$oÓ#“L|:;à·k5Aœˆ“<csãŠ—·Øa£¶¢Ùær»b5¶i'ÖvKó– å×ëM–Q´\\EËxM_–â8ç×œ•ø¬Õ`A~—†`4ÂnC‘B_qF—9Cd€yƒ6®0y1A\nHÙ,²¢ˆ7£{#2C\\W7bÜÄUÎÙ\nC#ĞŸz€ó1[±‚©'ŒŸø­4øÿöË×,/–ÚÆ‡ÿ\ru·gu@0xXÄÙüç)MÿzÓ®ã\r'c÷åuB¡ğ¦$Swbú˜Ü9@cÑ±Æ²8aŠ)'Š¦¡f{Ú­w•¡õEÎV«Œ\rÁr*…öÀÑ¬š*e^l`É\"Âùb†qÌŸø5™#Ó¥fú’#R:Àfph’íıic¸Äå6¶õùM\\ÀqBËí³âü˜Şòğá!PU9÷ ‘Ioò8Y±;Å%u6Zm}®C“Do£tË‚.¸Òİ;Y²]±_ºY\000l•‘ßGÅº¥YØÓ¼Æ€“§3®ÙãU’ûÈñŒ%Æ«¸\000.p…!¨ÅRBDJ0Õl‘*	}†k–EÓö5K®ã<gáˆ€#ÏSöEä*½~NøúŠaPÛÜø'#¹¤§4tY·áR®\rá\nxö)y;’)ld7€Fc¢€ô¥âöâÒóZMÌDgÀî8çÀLaCÄ@»Â–¡ÿ¿*\000an@¿¯¬úwÁ³®@š1fèş]®WgRÍ@ÛÄ£Ü¦r‘[ÙÔU±ğÀ%‘ŞÙdø€:©ñ ;ƒÅsŞ¢t•ØĞ`¼e›\rOI¾«'ÙiOT‹÷<»-ÄB\r õ/’Í’¿Z$îL~—ñú\nfş5Ër–û¥ø3”ºOÛ¶Â}§Ë=àä¢@:¢”@3ß¡ÀKw´™\"*È ü5YØ\"ñÁÙÓÛ4B15Í‘fSÿn÷FÒ\nfæª_Ğj{hàégÀ³Îx–v`Yêæ“­ö¨	0'×¡F“ĞÂ8'X´BsP–”²(Ø0Ï¾ ê»DÛ‘r@\nğÂ<ô€!à­\000£¢!2e\n­…”'Ş(!J›È>™AgM‡c>µÛ\\³uÎÆ¾sÖr[náÓ8ç”Dø!f ¥wàJbé’ı«‘Åtœ,ZeÚcwF/%Ï–ü½ûl¶’GT¡ÈU¢İ+~§7&t7*™ZOäÖíï¾ó®é}Óuˆ—Ènƒ‰îd½´]/ò¬ïxOÑb˜Ï0âÂ–±OÔÜ¶”ˆ ƒ4ï÷ÀDlÙì1òt ı!.@ÜçV\000Ó,®¶q‚9-ø‘Ü14ÎÔÇ;SE‹–}‹ÄAèÈ[¬¿„ÀÓkRÒQ°ï,ô0z5?ÉlŠ¡©ãÇR`º!À£6Æ?znÎ\r{±Œ9†ÿÎòá¿ÿ¿‹PP©ş8¡ÀU…‚c¾i=m4İUAXÜQ{¹“âzwå´G‡ìWµÌÄ6&BmÀèB±Æx¯ë£‘xºO8Ğ%ºşfv€¾‘=ŠÃÅ´†qfI'	êïcoèÕ$–9Ê,}t¥¢/w\\“\n²šïS¸€`şç8@rÌ…f°¯™M¦}{n6EŸy¬™…Ì=ƒã\000¡ô\rô	{1\r*\r©„¢RƒŠr¯*òT©hPa­T…š\nuıê\"Õ•tö!™Jì×¼]È—q¡0Æ—Àîç-ï³(Ê€{šŠô}ø1¯¯ãÙ6)M`>p¤0CT}®›ìÓ¸À<Ìò§´|³Ë¶È¶)C\000x¹V»€Š,!¯‰Ùâ¤¿Ö\"Z³¬ı‡:ªÔùM©zX@Ÿg¡Ç—ëÒe£ˆâR\\Ù£8cÊ†\rã=\\<¸ÂÛO]µÿ?‚	*îÛŠìpPthÍLß÷Ÿ—§œ‚•å‘™$|VÚ2BCV““c¡ç+4qıéE–ÏxÎ{œ	h¦=¤Ûê°+•U¶ô©ğ·8÷Ÿg?ëğ#ŠıÁ Èîâ²_+1@„>È2ç\\»0ØE!oìd¿–äcì;2{4JÌQRCş bÕeÚ1ìq^PR;\nŒÈ’&]Q\"LÒ4Nò¬q(Wy<_ğ†`)ôõ¾úÂãøW+E7Û–gğ¯…Ğ¬¤J\"Ğ±±IX	·ÖÑä†òéï²¾Ód§$êkC=hê{ç÷ÃPµ„ö<Ñ¢èS\nJ‡gÛ<¾ŞÑdª*±ô½˜]»…'ƒgÈï±vû¡k‡yğy\000§Ÿ¾öOY41´x{ÿ.@/v„]ã¡b·\000Í¦Ìà$A_Ğ~½úÁÖŞŞÅ’eíİÛ†Œ\000Œ²£é»=şje‚Ã*qœ›¨w6?ŒM§6û!ôãäö»³†~ ß‰ú¾Õik°åS”mm}}åcÜÃÕÆ©äáp;*c“Òğ7ö¨±)#kh/>ş,|R-jìB9$Í¶#´q]µÏoó'`¸=ÀÑø\000‹s(?@‚\000 §4.zŠb=EÏàó)™8¦2xÏ•&Õõ¤+ÉqE<ŸéPğèÔQûÿ½;}©©šLöš']d½bë\r°Ø/Y'q±Ú/@bvZÛŞBc·Ça“5å-;ÎÔ¢ˆ‚!Æü÷YVbp,lÖ¯3Ñ^æ(²Â>û4iPØÅ[ÀüàÇ÷İ¤æ’¯g\000²R<ĞM^A%8¨h	ÃÌ=ÌØ©l}6>]Â²&S´uaĞQ»^ú)âˆ¢@=•h\000û+ÂşİBÛE-E±wÓ¬×°#p€)Íî¥»ò¸(Qµmt$¸ªä®uGÀ¨Çô¡‚*Ñè)_diRÊÑ´s¡‘=~ÎÑ>uğŒT§‡µÔÙlí4Uªx©FäEš¡¬/Æ®6ÌÛ¶£æ3€\\–²Ä8e7C•²BGT‰@Ã bŸstßC’Uë¾\\-yñ!)¦qAŠä‰¦uë¡íT¾êï>ˆ©çà&úoË¿3}(ù ú…¯ØÏƒÂ¦ÒÙíläÏÛõqaœ%²\nf	ÙXµ^w[÷ÃwĞ.Ò„§¥Ç´Za<<e „îX+êÅA‰P?„M£†/Á@•×GªrZ2Ñ[…V'Ó[É\n×B19_!hAyÉó¸	Gª‚;XÛB)mÑ	U<±õG$ÊØÕv<¢ˆsÕx¨¥‡6P×ô¤ZÏÍv;!w¸§:Òöá®ĞÃq\rS¤Ø9)–ù•AX\000u=xÎUsˆvß“Ó3aZ±ÌüÉÁÈH	U­~¤Á¿×YÏÕ±lÍ×>7>e·T·Øø˜a€)nºË|;ˆÿ¾`Ğ}±Ã8òG‡ÉWy“s’Ñ¿VÅ¥É¿D\r+³+ò À\000åAQÇ=œà‡Ô¤I%0ì(°‚IS‹Û<\"şj¼4èğˆ9ÀÌëàimëkld<PY	–Vc>€ßÀ4óÙÒx—géOìvduHs+ğ¸‡øNXÎnØ@ğ’Ü›ÀxM2Y¶|¨“Lü&€A´¤ñC@—¯øœõ:¦’3±ƒq?›a¡‘[ªiÛœz:)†ƒê™¯@‡.€‘jÕi<Mzm ¦×%9ç×ÛFÍûß¼Ú@›%ãúY(NñÎaøº\\²Tã¹S‘Q£HcïÒk4‡Î³’Ï0~e€Š\\½a›A¤	!šÌÜ,š¡µ\\2›]¬€¾'8‹ŒÜ«4êğ|š‚?šiŒE'#²(Gê|U`ÿÇJÆis¬[6ØÆæÚ˜Zá_b 9Xi¥„ï· ı¤J•ÂÀØ‰‹¸*³oEzÈ±$Õflãf;#m*h<š‰íVá:Öh»+œüû2±]JÏƒfá;]i¡wªÎCººZ@*L•Q°ûÆxÍ£ğ—>9Æ•»ÌøÎ¬x@Ü\000eÕ'¡c4\"=É^9¸èğ\"2ƒÊˆ¼ÎjÎ3P\\p_ÒÏ°FgO´]ÍµÎ³¬|öµÉ~ÈÉÆÅ†İ¦Zªñ×,›ÃÎ'#²tÜ YR·GA´¾¹ˆ7}ãnóHÖ–)¬âGôµhÔ@%Y“ªy%èİø”}—ıš+4(²æ~=H5§º/Õ¡3ô½I{–§ÊÆ_—èDœş³1L¨ŸVÆCQ§ê®„¨€É‹l½®úx U·KÎKp–à+Vd8cø|±…í)ƒM@Ï ­µĞ%Ùih{Š$ÛYÀfÙÌ¬òjøf>bâ\".ÌHKc¶Ís“±ÁogÉPŒx“n Û7˜%Ç7˜İÕÕ«ÏÆ§Ï—† &è€ÅÒ¬š©æ'7ö`œœTûÃ&­ÆïÒ¸ŒY‰!Ö)g¢®í&Kç“*áY[®\000@Ø±àš	¶dœ\000Y–õ’¤5šÀ—²h¸“¥äxè¢$xé0|¢ó?ãÂfïõ$¹Só<!\\r½{6u:Èø°Ö\n¹¦<rN»Tú\000\"OÕ°))Şeµ_´ñÓ·¾ø—Ú#Ë³Ñöı)º#<•f6.íxâ\000Ä0£N×Caí‚Lá_””\\ğŞ-ĞÄTI4Hdö¼‘ôÓó¦\"–ß²£‹ãyšÙâ`\nŸSu¯êğ4N€”gqòdd}w9Ì+p½ş™Ï¶è¶ê;ı.¶ëµ|ÓÂ¸ÛrxâG\rÖÕzÖ_T½VÈ¨¸a†TÂZèZT’BøÍR5°¾„:m­ÕG×çº¦ L˜åãÑnuHœR¤Ş³!]pØ&’7œ¿#ùŠ/TìB”³…,ª>¿edÀy9ÏûÒ•#\n•¾˜	÷Jo6õÔ«xáÁ|Én{=½?æs¶ª&Z1’²ƒı³E·g–ïù®Ğ”fª1Sf	O7 *\n!«ò#¯ uåNŸ(Xÿ¡û>¨;İëNöJßÕPjcÔI1×Ès<!mubOµâ|çÁ`à®6Vı©<ÖÃr»M‡˜ƒ‡Øx3q¢º=™4„¹;(¹J¸DAc«²(z¦ë¯>\000–.¿<u<å’p.m×÷3®şûƒìÚ ¨™xÆpKéÑJkc…\nBé4ÄÚqÂNj[uLæüL³‰ÅŒ±[‡nÂÒ8AÅ9Â›-ª†GõäFB>ï œjqsò~¿Y'ªê ÒO•®âpÃÂ Mv`‹jE2À\"B3\nıvñˆp)¾Ş#_£Òş/nô\000nÔ>‘1ßÔy66SÜ?ræw›èº¢e0D¨Ò†h\n©¨µaŞ¥7€âx…ªEi-É`î7ñìO.°78C2¬êÙããöÂâ>8Ù…ºÁN–/qQy«~ı\\©¸U?ì«´õ‰j>|Ø`ã“,‹KHv½ÕÃ0r¿+¥®¢ÿ”ÆÚ!I‘æ©’8ë¯İÉYÂçÆËìçVD;Æ·†<~YÅHë£Â†^}ÍDÉÊJÃ/¨cº([åXiı¿n*ÿ9oêYçîîÖ›eğ¿ìèøş$ˆ¼éä¹Õs(?F¹Dÿ¤ºû‹ü]fÙ*n¼´°—aSVÿÎî	eª\n6eKV9°ÙÛ¾n’ëß±µmÎóTÿÚy#)uê€\r°F‹Ì¹>¬ìè>AU[IBûæ«‘ ùWüh[¦‚&j¾êrŒW.ÖÉâóxN·…g^4&ïC[­ù6ÕÉV\"¹“ÃrÃùÕğÓeÉf+Ô‡ê¢gL´1ÚrøñM¯‰dã16	‹®O¹İ£Yöhñ÷ñpoN±™=Ş›OùÊ%š4£û±™¿§føèsoQ4(ácÍ(ézsÆ{FVE“ñfhu1¥h¼™OÍ°JÈH³Ëc3 AC§Š31*ôU«pT¥BD]¶º6uÊ,;LCRãœ},fÒ­Ğb®æç©(]Pï=ÙÕşyÕYõêLì\"^¤¼Ô•ìÈs‚	&²Y]ÛêíJEn±R}ŞzóŠ_ó´û¸º7²ç˜W\000'œ~İaQ²2Ü¢™A×˜/G+ÚÂr§Òe¨•¢îA—ÚOø!¹!1¹(Ü¡p„Œ·q©z¸fı¢\rÂØ’ú®ñl[RF¯šK>‹óW2ô¡\000~\\Vò/f’Ñ¯1\\\".\rf|ø|‰õMãÃ\\j…” $ÅÊœ†ïiÊT_ KövÍ†)T?X ¨:op`¬×¯Yª×Ø#âDPäKoôxyßQ\000£×ˆí5›TÛ¤é¬ 5cæ	Ã\000`N.öyÌlãÙ*ÙéC˜şö®¢aÃõ7¦èAs©´{hÇó±Î¬2 Eh9Àô8İğ[Æ{ùH†Sjd] ?à·hİ¶¨Em¦XªEëŸvã÷È¡ƒ°÷…—n~l„=z5m*0C7b`Q‡®æ¡:x%öú¢&ŠEµÜP”Åf°‚ÚTäòÈR+\n°á–Xú*@ël@Tõ´ÿ‡÷s¨8\\I¶µ±nP´U”¤v*ÖiŒÆ½“lÎ÷HÀ½2ÀÇ—ÙúêO|ş‹uo.‰v~TyõŸ¤ÜX,™eé®:Áª€Œ­’T>çW\"ÿ€¥Ì‚ÜŠÕ×èäªê¨ˆ·†g%{¦í\000kc8ÿBØ–Ä6µÚşØ!?\000„*üìğËîV>XöxÂj00ØÇ«*@âw†t“:B(¨5£CfÚ¢z±$“Ğ´ılSrXö.­%™7d¯o=ú#$ú	mÖ&ûZï¾$á!SÆ#ÏQJŸ1t]ee	R†1;‚Ê)Hf¡(ªÑã\"UDC%_ã#K™İÖòOËœ+sHMã$¡ÄÀÜ…ã+0ØÿUí’?0r &ZÙc”@Fû'1wJÃfËÜÙ›låk­Qy}ĞHÙMßôº	¸ê‰ª”ŞV³n>pUŞãg0Ş§ÙH—b¢¬Wæh¦ÜŒ°za¤ÅiS¥ğJÅºçµ£6Ñö•Šô]Ë×EUÁ\"TÇ\r)Tç„îKc€ó»xCÁ[‘:ìC›èù>â0WŸ?_·˜ö(we3Š°ÏŸ( ¡\"ŒÈÅ9ª±\000ÕÎÊ{84%t·ùÜ‰-KÑwÒ7úÌı¥'ì\n=‹û¸ÈGŒkBŸÿÄø\\8ÛTââ66Ô7 x}õì«¿æêãôÍ<“å±Õç«8_Ç´åiÜ<{qõÓ”HâŒë´ğš/ŸŠhzTiÅŸÒ}tñW@Ú\n°\\`İğHC|ÊîÆßV’(sˆè6K¥Ïş³k¬¢”·ë:H­b!ŸIilN-^Õ€›N<ı§SªfÙäMU‡»ÚiE˜ğå¿ NZøPÖÑRŞÕ…wµ÷j¡íM8\r;¤Âv1o|â\000ÆšTEÜbà(zÜ„¬f[M÷T$Æ*§tÉ^ßšDfÊ<O^½7`Ä•ñDäO*¡ğ›˜£iĞ‹5¾0nñi\n…>¯s„6pºÀ	#Â'Q_ÂI^a±Pr²‡ËûN¬î»ÚÆ¨éoKjë“ÿS8IÛNo’[4äsÖÍ§Z¤ŠÎ¾o·Ì3ÒI*VOv¨*t“üò;¥›Ë¼ò;d ÎÉvı+|ı|ùáıcÏ©5~=-ÿòå‰ŠınÉƒ¤ÂëZÆC2Ìë®ô$Ì½ÙòJ™ıú;,N¹d¿ğïÓ$¾!½ãfğÊºß–_ïY-úEÂÅY~À˜»¢¡õG›nº ä¿‹l›¨í‡fáaá{8á›_ıõæˆQªT‹ãßfe2iğWşş¿ó?7¿çQÒeşX²ÄU\n{Ä>yÙ·-vĞp3ñäï»A´Çƒ¡|%VY•Út[2Ÿåœ‹éë÷í9©…ƒDİ¹·^[D÷:\"ºW‹èÙHk{ò±2ğˆâıbµM³bÍûÎÆf—|ˆ¾ƒÙÒ¢tåk¸ËùKéå]“í©¼I‡<[B¯–²-YœVÆ*ˆN~ƒ!Ì9‰G¯r¶á\nÉ0ææœ·IgJéáı”áä	ßúf0©Ú¡cx^÷›Áo=xõQ´o[Û´‚C°A\"X=İVãN\nÛq4©Tì\000U…OV#\npí¾È„jv˜?]ı×W¦ñ_ÙövÈÖW[ ä¹qµ3ÊÛLÙuŸóYÑÄr¬1`è'…­„3Ï³LŞÇŞ÷Ñ-æ©añ…œ³™ˆD–Å	ÌFC%üA]üXn×CÌb\000%zÒs:3í\nBY<dë1\\É§Hº6?Ñ…ËÑAú\r£ ÿqÀsb|âøk¥ {”ıºÙY²E[}×T;õ¬ÎdU™Ú½£´^Õ=·W!¶Ò^áYï ciä–YOÕ4¡4óéF¼€Ïß×Û£Úol­	\n}Ÿ´(AG…¨{x$ÀßîtŒÿâB\"\\ˆ¿,Cw;NG›Q°(¬×4Ãª’˜ïäoş£¡ìK8ì4\rŠA i7£[¦ğä£ƒ5Lé1÷í¨´»GòÄHH2Ş	 éŒÇ{òÍ=Í°6ièxëØh3¼í\"¶î6·{»°ÈîR~ì÷Ò)!@F´Û¨QÏ­–Â~gÛà›ŸºoÚ1g=²YJÛjƒ¹}`(m}¿Õ5fêZœş24µ¶ü_Lá LáÏô‘İv“{£}Dañ:yp°²øÀi'JÁù¢\"tÕ©Œ©;=@ø.+W­‹eVö‘ ÂÊ«ÙÑÓŸ79æ5ÿ\000,pxÖQ}ÂíÔZ­vô–TÆÌ,_dÅ“uÜwŞ®IWE÷X/sPÂyÒTëhôİêÕqÚŒZø›kâÂfUî·°(Ê\"Õ·÷)rb‡€pï!¹ÿ =9z×r€¹^À¦g7œ§-’Pİ=ç|–İHÍ7Úˆ»‹¸²_/¦î}<ÒD\\}–ÀR)\nÇBŠÂùï.½üA|¬.\\Id'ŠMb	ÊYİşÚså¨ ıš\"eğX\\ªIw²v}ş\r\\ŒëÖ®1ùa8?-Êx¶ÚUv‡<¹\"Lö†8‡%%è¡ l7É]²È¨É£ïÅ\rëºŒ™E¨–<Z“´”(Õ»nHÛô&¡o†‡ òOì&[ÅÒCµà#†K§•Yñ“¼¸F’°(õH=<`Ö$ÌƒTÉ8gÇ7ì'm‘­.âEj¼[oòlƒmó˜%õ\"N²5Œ*zyèBâ§ûÌVÛ62ÚÉ+TV	OÏêEĞw˜¹{0œ,c~m¼Èáûqñ+½\rZÕñı*^,P–¸”%0$­03ØåÛ?…÷ò2áfv¯Ş$Y	¦sÿı‡÷R¼à¢¾2_,€‡¡×F‘|AµK°ä•fk	ì¶õ%°+ëAü+ŸÁaÇÊÙãî;½Š R çÕ-Ë¯3–uQS¢±:³ÇñØôñ\r-E¡Hõ~†ÓíÕ‰ÃÌ=B.‚iÏ½ó¼É:¥ƒcËòy!n@app`o„éßY`ø“¡qf‹~£ûÓ¯ëãùĞùå*›ƒHE÷\\k‡™Y_%	ÊÓ1\000$Æ“t¶”­Zç-0Ü]ã“¦n+v`|ËLfÒ¤ˆg$OYŒé*yœå÷^Š$ƒÜ46HëZLÒA)ä1Àfâ[¶:g r\\ª—R½\000m8ÏŒw…ñ‰Ä²Ã–°—15+ìJ˜5)(AÉ-‹xİäU–­¶ëáç¢rwë‰Ó\"6İk×íõŞ«:$›jƒ¸…RMÅïâIA¨ß’0¤$¹×?cÌá0ê›|ZûI‚Z…jùÉ@îO	‹3™ĞfşøWh’Uô WeÌUÒÀîXm?`MËÙ÷ }r¾Ş”ñ\r0Å>Ô/;ñ´ >Œ]\\²„ß˜«ÆDY€bÔH:¦v.!ÖÃ(¢Ø™èî‰J_?¤UÄwÍ)%V*¤¬¿–pLšÆWn€’\n4Ë¦HD¹C\\í?ÏHq4µ{ŸÔ°Ğ‹ÕîvT j)‚²€×µ¬‰ÚÃ³¡¬êİïç¾\\á”\"«ÂáM¼tb‰v6ˆ'oT¿OW¾écWa§+çFÀïpßSì[¿vÚßŸß@W.Vé®x¤«§9ÿÇ·{‡Š·ìô`Â@#f±KZ¬ÈQ-X§2{Kõ6îtqo¨9p(N-Z,Ò@&câlf\\c¹fÅÖ&D)6™\"x{K³áH÷½f˜ßÏ³[J>AÑğB!K-u$RÇRâ—ZcŠ&ÜŞ·ü\n 0+ãµŸÔÇ½/,\000¹áÁ„^ä*ÒªfM},ì>şŠrÕ\"ŠåDXZn•äÛû,H+ÁíE5b˜ÊdjÓ*¢Ø±´iÒ5< ßó|×7qQd‹üw©·Á™U¿2–›‰‘oÓB|p-n%šã©F)OIv‹¶Íÿ˜ĞÕPU]|TöÄ×ê èX4ìÚì©ƒê~<†¤Ğ¬îük¡¸+ùÖ€ù?h¡\n)šï öVúõKVpYÉQ®ÂçïÒƒ¯ÚEóDĞ‘ÂûŸX\rU€ƒ\000ğ-;Nx¬AÍqTè;¼k“™M€`å¢o0}ë„•)>£ö\rİl=—Ìø#ÖçÕjg÷ø”ï“Êßò¤v~È€«wå’„Ï¯l§áè·÷Q·*4¿ş…¯bôø­ª'úÊî\rş„Àpjé2 \\X°+KÃ ò[Ã-°É$	n¸”VBúè0\\íP’ÆKèÔê‹‡=”¥X°¶µŸHƒ„Ò¯Óûº7(måCªsGWÉ=T3ë>÷PÃØUMqœß}k>¥=v¿í³~$óŠŠ[`Æ¡M°­}L\nFC£õ1…¦w°àÀ;ÍO¯,ÊS5bQ’>ĞĞÛw8Ëë'Tm+ïgÃû£âôp€!>¦]. :ğvT†ø‹g+~+Æ»·<«ªúTkß_ÕG.pìzbêŞ^‚åİCKçqÂZf¿i¤ŸÂ} O<ü˜ ~Îçœ¯ïi¸k¬İ¹B²†U¬¬aYÔ!§7\000¼Æ”/Õ¼µ,ÚpN–xïíçëkñ\rĞZtƒR\rÌ±c‹K(òşC>t…I6ßÉ[v¯ù­q™²’®btíµ$ìq]µN‰¨ELépèPhÔ>ãz\000>0ß‡à¡oX7uâ8æAÒÿº÷7İé&¥½—İoI@I–9ˆÏRJç2øöŞë¡·x‹Vœâ5\"¹ØëB …¦·¥üêo:ŒúË _äÑÅ}cb¨Pmªš‹¯~CZ«0Ù“s™:x_Æ£e1«†½0¥‚KS€ùAxÓ[Æ“r™QèÊM‹ÏŸ_\000P¨$ˆ•(:©á÷.MWœ£«µêë«ğ|–â¥n‡XÅG†!3yü³qºc ›ê¶ÏV#qêr€²ª¢B)~;VOËÊñÓN®x°d[?Äµctıô8í¼À~Ã`ù ÑˆÁ\000Ìó]Rÿ®X²”-5ÀºêyíÉPU`+ÛV°ímÜ%ºLŒªS¹ªTªÛÑ0T1ËkÁtøZ8ÇÅl'¢Ìƒ½\r*\nK¯ÿ&\0005#Q­â	¯Zİ÷Û‹Ñ¦T‡:2İÃø/±4¥0)É½lÜs3Ëj>O•µ†¯Ä8«áä€#‹z ›Å‡ŸóEƒ–˜kÄw¼0º¦¬y?ú¡rO¢ö}PÍ\\|M¬Q*I0™úXõ·NÕ`yÅcLu—ñÍ2çóæÁët×üñ#¬)9NAª¦\"â¸»“ñ1ƒoŠe×ï5™óãÕ.«{éßÂ<aMÍÀxk=Æ§DÚ“\"á$=xY,E2‡Şywê!UúLï~S[%©\n•îuÁ9–«ÕB¶ÈrÀõ	êÈ]çêË˜¥Çe±m`*—Û™™ƒ)·T*ú^3û(n?ÛÁÌR%:«©¸F³;@—Ìs˜¿$™z“Ïşí&TLümÖƒªWµÜòâ\rÍ½;	¶‡éb”jÕ¿Z¬+×ZëßX¦ÁRŒÒ7€åNì)Õ•¾(?çk„;Y/ËòãŸ¶ÛDÇé|«¤ÄWŞÉÖDÂˆêDÚ¦;¸ÊŞ‰¼Éù/¿Xşî‹4ö‡œ7÷sü6ëš5·g‹-¯+ìİßâyß7_ê?Iø5U¸¸ /}nOT¹Ü‡£î~»\n\000­T(âÔûÈI¾ê§'/D£‚;ç†§(ràLz¿Í[’Ú_nwÀ:K¢ŒŒâêdˆ†APëöZúæ\n§4VJ¾i“Kç,W°“g\nm|Œs4(Uãÿudù¯{dm£Oom®/Ym>øÿ",
 					["metadata"] = {
 						["guideId"] = 836242987,
-						["next"] = "65-67 Nagrand",
 						["enabledFor"] = "Horde",
+						["next"] = "65-67 Nagrand",
 						["group"] = "RestedXP Horde 60-70",
-						["name"] = "63-65 Terokkar Forest",
+						["key"] = "RestedXP Horde 60-70||63-65 Terokkar Forest",
+						["version"] = 19,
+						["menuIndex"] = 6,
 						["xprate"] = "<1.499",
 						["imported"] = true,
-						["key"] = "RestedXP Horde 60-70||63-65 Terokkar Forest",
-						["wotlk"] = "",
-						["version"] = 19,
-						["length"] = "611517172",
 						["tbc"] = "",
+						["wotlk"] = "",
+						["name"] = "63-65 Terokkar Forest",
+						["length"] = "611517172",
+						["submenuIndex"] = 3,
 						["displayname"] = "63-65 Terokkar Forest",
 					},
 				},
@@ -2729,17 +2774,19 @@ RXPDB = {
 					["groupOrContent"] = "íZİrÛ¸¾×S`Çigh–¤ø§NÆ3vÇÙMv]Ë­;½ƒ(Pâˆ´ i­2ûğ=”H‚,ÉëíU¯l Î‡óûá€——¡ënäFŞ`pñÌd‘	NÜÑàb-Ê|1¸('Éàb&Eµ\"¬(Ùôß÷äNÈ)#~p:ƒ÷ïëŸƒN—Œşe[–¯…˜’¿‘§Œ—°èJf|SØo%	‚Ë &O¸˜ä0å­ÿ»Ïé¬b9åÓbpñÛJÒ’‘÷®àñª;r‘ˆå*g%[gåœàª{IËÙ3Ëaı=¥ ×Åœñgš3+ì(¶¼Øv½ı]pÖ ¼º\"’âkğÂvĞ P½T,²Õnån…ì~®íXq`ƒ€’Ê+ÉgI¿çlpuõHó.ÿ{r{ë8··^P?ú]lš$lU’ØÀr]ÿzÌ–&—tM®ó|c‚£oÖ¤Œ>´ÀŠ={8°Óù´d’æS2¦<)+*7¨ƒÏ€·œ3ÃÃ4Ïfó’¬h9?dOªçz(×uFšRXIÉ7Qs!ÒÊÑ§hJ\n\\p­FI·B&¬ \"%?R6eœÊ3ñ9öÈŠ];j°=R)87Ÿ¦¶Ë¤ŞŞ¬.Â°Eø/&³t¯TûAHY­J/Î¬ø…ÿ£‚˜P®ĞƒêÇ¶g||ngk5ÍÚğúÃ—…!`£^|{tÄsËJòŒï<÷~øÙsİ^,hîî¡Ûm5^1ªäüLÓŒõsØ~„çÙ­}£›	+\nòA>›HÆ¾›£Ğ0O³¥ï:^kË9£¼@[¾$:zíãÆvl…D!lü§,Ï•W,Å¤ ©¨ø~B–ÍEU¶İZWìØ[\rxı¿?pÜö€úàmJ[…Bç”ÜÑïß©œUÙ™¡+1p´}b°kØSCÁ.²‚¡í4à>J¶ ïÆ•9Z›§¨Ğ\r5Ë^“»ª˜@ÕyW¯PŠÈ\r-KğÕ×@ç#º‘Ê´79Œ=3.–ä^ÀÂZí?z9Ë^e–,6ƒ‹œN >àY‰cò¯åíG„'xDØqÑO¼”b•%ä†¡z²”lDEÊßî—òM;	È€°¤†,I±¢knïãóŸÛÇ·7à™T\"Ù¯U&¡\000´¡[hvğDå\ne6ù*DYƒJ¥2¹Æ”ÕÏ‚\rH\"„èXı|D Z“²ùáĞrGXWšm  Ø×k\\*D‡UÖØ÷î:_v³±J¬»tÜÏ¬» Ùıló±ÛFÄGF§ŠA¨¢ú~Òì–âaØÀÙi½YºPê§$™Ñ`(ˆ’20ù\rh£êòœ%%ñœÈw-\nRä­›{ºƒ<aì^Qt!z{3`¥ª`Jº×şk´`Ïíö¬ƒõ¼“­çjµÔl‡Ã&Ô2mc÷1ÍSzòfRÉ0°İĞŠì86¹>ì6Œ,icÔ„¡\r£P¨ãSĞäN8‹ùi4´B{›CFqzı¬¡ûº®jÔäN\000Å…Õõlò%m+2•ŒÌ!1gpx SA8øïb›N–60^f¼bDVœ×¯–”0Ærûd¥›=HÇfy$(.AcıÚ®&¯ROºNhNõJÏhµŞæšĞ]È€~pÀë?\n.)s±v¼wˆ$:<[^\\³hË}çõ–y;±VÓç¸ù.njp)Íó?y»0¥…áÈ‰55|)–À<–H¤‚|®º™ˆéæä½tƒzİ(CfpÂË›ôœVr\"òY/3×?:©ù jôœíÕ9ûô<úb1éIººú,‘x4+Ç\\ÑT?åp]•raì€Üæ´X´]/Š°ª€×&BõâÁÂÑ=l¨QÙF­”zƒjí“·­/paß©‰ÜHOŒ]¸#¨2¾÷Â[\0000#:¼¤mkÚñá&¡\000ÉmËÏ\000s§œª¯?p†>Î	¼Ò3 Ü;blğí7u”3=á­·ûº´ºÍŒm^=”ÛùCm¾y{G“±¯5jà]U#…~ğ;UCİ¼Ök%¢Ï×˜(r;•uzˆQ¹Åı“|j.Ÿõ£NıŒ\\Rk\nyP^FEÉ–G¡›ÙÔh·Úy-hGİPÉ#»éÈïã…Lä\000G9»ˆÓìquõPq2¡É¢Ã†à`Zo¸SgY\"xİ£U>•è­÷ù:ğÎÓ:Z õ‘¾m°“¼!Ÿ…x¥9şOnO$·Ç\\'øó™ÒÖø;OyÙø/p	t[ˆ»ûÂÕRÈ±r!¦=„¸¨<ŞÒK‚?€\000¤jjw&éí(ÇéÔ•5òÉ[Á™O›9Ôn	>V ÈY2P³ÈàÆç\"M`?²¢ÈŠ­jÕX2áêÍÑ{Ù¡£õÆj—ÜÓ%Ëé9úÕO7±P)vªc;l•\nîÏAã’±|{{d‚¿?Ms”×É%ûk³pXp¦íÅÊÎjú}ÊnìHƒïò{G¾1ŞğÜÂ8¼¶÷èh/ğåkÓîov[ßß4æØ¿À9pK¤]¯DZK¾æhx_¹e3Û\nAI9¶3óÅÇ]µ[µ-¿îFûÕ=¬¦!œvr“ñh1ôñ(c£ıêªéà‰Ä+ŠmßbA`·Û#â\r£‰àou³‹àúf§¾ıK˜–¨»ëšw¯% ÀÙ»OğàÅ;ØŞ‚\röÏBµ®É•à™lZŸğÈPnë¨àk†¬¹íñÂâÇ\000 ÷\000é°Õ.®Œ<OPŸO>PˆvÆ•ÚS¬ÔYIª•İm”G'¿‡À‡ì±½˜R-sE”_(/ÅÈÄ «-Œv€ó“„¿ÏŒ—BnúMõ±¨r2ƒæŠ®}@Êùöy‹Ë¨7Õ—Q\r‘?ó6Ê†õm”§¥Œ3n£¶¨¶·Q;Tì:êhXïn¨â?¡Tô]K\nóõ¥2éA$Í¯±Fc[`ş¯²ºE@®³ãW¹ñÁÜøFén‡5#í83¦9œ3ğeì[\000]iTTOlzº{¯®¾*Ö¡R3gTN6;µA2>Ks±†ä¥ğª¯:2H–0\000¯¬ğa\nq<©ÒT-ãÂ‘¢¦Hk3maÍ0[@,MğM? ËŒõ‹e÷_PÁ&Ç°Ç;\000™HZ&sV°Xm-dÒ7T+.ğhc-n,ö¥È!¡**ØÊŞ›ÓõQ½K{Ø­Èû÷ä‡otÆ¾~ì¨ov<ëÒ5íGuë¢ícŒä_äLfË%•m7C\r’3€4/×.ÄpxİDuIä‘åêŒb–wOs:Íøù\"±*CeDsIšq¦d}ª\000ª‘º%P•R¬ “P(=Kú\n™1ö|CÔgËÄ¸':W&Çñ*9ğÂÿ­Ü¡åúGõ»‚@éI|ÌÄù\"£v]üáüm>ˆYu¾ãú¾íXo¿J³°Ï\\$‹ó…Fö(V]ÑpøõáåùÂ¬NP‰œM…’{SmTÙü“D&Õm;0‹9ş½G,y |A‚¿jl-FÃ-|‹¼q¾îeéü|™øÙFuì=™]IZùs$´\"a™Ódn“;FÖP+àEøñVAµÚzÈÌ³¥ESËJ{sçÎ(ÒHäL3ÍíÏÒ™„3Ò®(®á\000‘«/\\¯å²ø»ª$Ú×¶?ÀÑƒgeˆ\r¢_fìCÇÙÛP@:ój:ÑHïF½C4wùš§:_‡Åµ\"{Åçò\n\n•'FW‚ƒÿş",
 					["metadata"] = {
 						["guideId"] = 2577076385,
-						["next"] = "55-58 Western / Eastern Plaguelands",
 						["enabledFor"] = "Horde",
+						["next"] = "55-58 Western / Eastern Plaguelands",
 						["group"] = "RestedXP Horde 45-60",
-						["name"] = "54-55 Felwood / Winterspring",
+						["key"] = "RestedXP Horde 45-60||54-55 Felwood / Winterspring",
+						["version"] = 19,
+						["menuIndex"] = 5,
 						["xprate"] = "<1.5",
 						["imported"] = true,
-						["key"] = "RestedXP Horde 45-60||54-55 Felwood / Winterspring",
-						["wotlk"] = "",
-						["version"] = 19,
-						["length"] = "611517172",
 						["tbc"] = "",
+						["wotlk"] = "",
+						["name"] = "54-55 Felwood / Winterspring",
+						["length"] = "611517172",
+						["submenuIndex"] = 5,
 						["displayname"] = "54-55 Felwood / Winterspring",
 					},
 				},
@@ -2753,13 +2800,13 @@ RXPDB = {
 						["next"] = "38-40 Alterac / Arathi Part 2",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 30-45",
-						["version"] = 19,
-						["name"] = "34-38 Stranglethorn Vale / Dustwallow",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 30-45||34-38 Stranglethorn Vale / Dustwallow",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "34-38 Stranglethorn Vale / Dustwallow",
 						["menuIndex"] = 4,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 2,
 						["displayname"] = "34-38 Stranglethorn Vale / Dustwallow",
@@ -2775,11 +2822,11 @@ RXPDB = {
 						["next"] = "77-78 Sholazar Basin",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 70-80",
-						["name"] = "75-77 Zul'Drak",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||75-77 Zul'Drak",
 						["menuIndex"] = 7,
+						["imported"] = true,
+						["name"] = "75-77 Zul'Drak",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 4,
@@ -2796,15 +2843,37 @@ RXPDB = {
 						["next"] = "Emblems of Heroism 2 - The Storm Peaks",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Completionist Guides",
-						["name"] = "Emblems of Heroism 1 - Dragonblight/Zul'Drak",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Completionist Guides||Emblems of Heroism 1 - Dragonblight/Zul'Drak",
 						["menuIndex"] = 2,
+						["imported"] = true,
+						["name"] = "Emblems of Heroism 1 - Dragonblight/Zul'Drak",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 1,
 						["displayname"] = "Emblems of Heroism 1 - Dragonblight/Zul'Drak",
+					},
+				},
+				["RestedXP Horde 30-45||40-43 Badlands / Lower Dustwallow"] = {
+					["version"] = 19,
+					["cache"] = true,
+					["enabledFor"] = "Horde",
+					["groupOrContent"] = "í=ko#7’ßı+:pswPzúıö²Ûã™$óğÚÎÌn‹%QRÇ­¦Òk<˜Ud?ÈnvK¶'w·ÀˆÆj²Éb±Ş,–¾û.°mßíĞ99ùöæEÂ2ÃO¾İ³2½=ù¶œ/N¾]ç¬ÚW´(éò¯—Æk–/©áZßyşÉŸş$¾|›‘-5<xè§d™’lYÏ7lOsã¼*Ê=IS¶‡~ôSix.¼\\7^—9ÉÖ)-7,ÏŒ$¥'0ÑîÄ\\³’iÉÇš¹¶ÏlÛtf¶eÍ¬ó3ËhÛlüğƒq½O¶†ô\nÆ\000?’<eXÍ‚mw0İ'åÆ@@ú“x®éÇ3Ï1İ§QorrGS¶ÜPãE¶¦ù\nÀ5^f²İmiV§ù´ËII?Ùf8˜À7m'ğCø—1h÷y»mµ{~†ñèû8²ûúöÀô=ütí±öÈÁOoäıĞôBl£Ñv›:úöØ´#|ß?æë(FÛñÍP`AÛ…Ø¹Úvß2C{zø|Ûôƒf]»kzŞÌ÷8ôøŸÜ_éı“~ø9ISãËâşóCÇ9ÏÉše[²7®7dÉö{œ•_rŞÕö;h{™ÀP¬D:İ+–ãIÎ_³¬Ó³sïŠŸ°•q¶!YFÓ$[ÉOÌ†';²ü™}bnÙÜĞCÒoëfoy\000åÅpÉQÀI\nX×·†8	\\àì02ƒš§ß°ÅÆxË–$C®~ÃÖ¬*\rK%Û!øÈ‡ÛªØäŒmƒğs²¸mÀ±¦ñqC3ãUFÊÖ¢9ÉfĞÆÑ^Ò”îX^ò>\000Îo £˜©H@¸ÁH7šdK`Õ€ª[cS–»âûçÏ÷û½	¯”Õœ\"îïI¹Øüùî¿û¬zU2'x{‹`Ÿ½ùñìgãõË«—|/ˆ‘ÓÍi¶ °ï§Ôøğòêo\000)<­R#ÃmcÆ–İQì85ö2üIf—SŞ1RŠB	E°e¬+èˆ\000!\rT‚”‚omÉ½±¦¥qùáÒX¥d½¦KÓø1ƒ}\"K#¯²F¢1ÔhOrFÄ0e~½ÈK–¼EÌTKçáVu¢²{¬!ØkËtg:Jğ\"hBÓ×¶ï:H'¡¾Õ‡VÏ3¹µdæøĞdãÌ–XÁ¨6P_r=„È	µczfàr@i¸c³‚$3Æz¦mÏBÙc¤‡‹ÓG¶	Í#=”Ú‘gFöH;F#Xˆ;6 &œÅ¶iB\njÑÅ¾?Œá™±²–Æ˜ÚrgNŒÊÃ6ø¥ œ®\nĞüå¢â<€4+½b¬lV^“[ûìª£áæñ‘œÊŞ]üµÚ}w~öÖâœš& 8k	N½f\000@*øÇ”M‘vi#¥r_íŒŸI¾&@@0Ò+*„Qóh•&ëMiìàïšäßzÄ\000}Ø¨pÍÀòNÌŞ‡¡^=Xº!é-®Tò‹ÇÇİd± »Ò#g!¾æì$Ç‹4MH›B»ÇäÙnçú‰ä·$…m,Š-M—Úi{}$Çdšmº¢d\rî•ŒÀ´çŒË»¤€M¸i¶ÛBG¿“Hì¹±È/Ù\"%É–.aÊõ`iõ¨µm+Zx\\„l‹ófK˜7•qa8¯î4®X¶¤)*Í4¥X¸âÁ~Ä¨§|¸°|I±\000íÀ)…ÛÆ5Q/QfçÆşŠ©LiÕSÑéáD~‹Îw”Şã4e ùA×h±Ùë#!Óöl™gì™p³I€ˆ×€Ô 6Éîa½Ÿ?5¸|”YvP]­’lÙÙ/`¶Ô­ÆG0SŠnõ®gÁõ4í›Ü2¶Úå¿a%¨z@a²ÒS¯ÌV¶%­şº¬–÷Š|™R´ü‹ï Àà×Bã¢:\nqë5‚Å17‰´­ FmtElı»h@— k…3s9ëFn j÷şWER±#¥İ†×[ìy]¢*Çm[ålËÛRZ@©´}&ÌhBôt+oÎÁò¬O!3Wz\000è!sØèÍPwA|ì¦–UUoê\r|C£jjWÇ¨¨£û	ôaG@~\000ûÄ·éÓ´7y‚¸cF«*ôòûÖß%hÅ{ĞXd`É:c+Jòrsúæ¸@ ÿÍ¸E:}\000R=[ƒYi¯é3ärƒ­A¡î7Õ_ÎÒÖ@EüpeÎEfa¹ãÒ4~N`ó7àÉ“=˜°œTĞfoš9Ebsíá×\000Z‹wP¦!°Š@ÇUYR‚lËTPµí‹°¾ëÌÁ†µ¸sÖÌ³ƒ1Cëü^ÑÙ¼Ş´/›²¯¢!SÉß ıçß`„bRlŒ„ªT4RÂM£IÂRg°’¤à¾‚\n¶\\KZWÉz‚«òù³–Àºf™Ì,W±	ò9]T¨ŠUÉŞ0¦èİ0æXwİìoa×é­ €OIJ—¿Û¶Èãú¶KÔ´4zĞ¶dëæÇlYåIµ­égìé¨LöY˜q;	:•øvÆçyÃŠR»¢a7iIAÊ+Ò©ÛS#g\000Køu`i÷X¶®YZ•	÷ÔsğÎkåô÷*ÉiaÌç¿ïqA„ôM$ä«ĞÑxÚ‰àøéµ%PkÄ=mk;r£ñT•Tôƒ&o9¢™P(*ÉQIàšÚÜM”yÈ¦é.á`ZÀÀbbôb²¶>“Œ{ç/²5€w£·ê=pŞğe7£•ÂPy|Éã 1ØˆuÙŒI\000œ<§©,šĞ„Y%Œ¢¿×ã_‘]ŠÆ…='Æ’ü‘Ã\\ƒ½xCæğ·f–(Ài|[CÄĞ¸Ğ4ãêR*J’äRPCIJX6»…Å'·åó3ôôRFP¢bDúH1¢#Èğ”}bûê/äçB\r÷L,”G³jƒj¹'9˜Ñu …­Aœïs±A5Ì5\"-¹ĞÇî]Ü¦dAg¸Ô\rs‚¦É¸­¸Æû|'Û-Éù0½4şıì÷¬DtäbN®—ş£SaÍVÿğ'µR8×°â\rXüÛ- ö5˜~’)XpSp±AÇ„TXsÕ^ïÖKî±g È³õ’mÅ®ÍÏT´‘‹ÑÀÆ+æªWO\r`èÚ¨Ó|™­–BuAœ%‡»¸Mv¸1ç	å8¦Ù‘}ÖÄ¯wI˜|MIZG/5†t`[¦ëƒgJëÕj'N%ı9¢kÃÇéÚ‡iÏ)e>F·Fò¬­b<F¥º¡¤8ŞÑ=ØeÌ¸H>Vzº4”¼»'é¯o±âh˜V“†RğäI4šÔ‘mŒÁ†¿dKš/’ò3õßÈú>É@šŸ'k:¢æUßè‰pë3ÙÇúLú¨„ı•‚<5<M§Hå9^çÖa÷©a“†-ê°I.n2pç<~f÷Ôp\\\rAëÄ˜ç`<Î”àx—²!áR¶ê}JÅTNŠ¿ :ÂWèòGdE{<$ßI+zÏd•ŞƒfÚnñ<ôÌ~‘òóŠîá`Z_?­˜ãôÚ$Æëd½s…ˆ×•¶å<¯¶ÆMµ(ieS=T)å3m‡(á°½Ï8tø\"H†9€ÁÚQ^Ô_òZ¸Â7f(ŸÆ–Ø¶*îˆÕsGÌ@orĞÃ–YÒ2Å@Í2µ=pqšÿ_ß€-¼&z‚®Ûä…yƒ…Õt}¬“´¨]Œ'/Æ,Fóòà0Æ ò4ÑÁsM*—6ÆwoŞVëgå†¥¡#ÙÅhëƒÛ¢`tå5mÎü ßYÎöMûE\n¶Y€”©À]·1ã1;s:wKÓÍÇs:Oñˆ|ÇR‚øİ‘QñVPÌs€å Üà·Y\000ˆpb<\n¼@o£€\\œH{#÷÷¯\nQñQÖš(õ»­ö9ª7|ñ´xFiGÍŞu\n¼Û¹öÙ€‚Ğ(®Çn;áú]‡kĞÀê$Ñ%)s<¶z…dPêí^YAÀD\000Qƒ+Ú(Ğ`µ¢ÊU5ÕÁÛà¦ZíHßÕvK‹éã\r—nİ€óáT!èÄX¾<×l	›¥[m×¬Ğ=M\nÜ€ğNPÍí™ä7İ4I0Õ[Æ²uJ–´†µıÖ³ï`Àİô<|É¨|xÄŸ ë™€é¢£w	JßÔ©CÏyúÄ†{”¯y´'n];q\nÊ=›îY3F=„!·Td™Ï‹	;¾U:øüüÜrF:€}òÊù°Ô!0Áõ¹İF;DÈtã¹UäV ;MV¥ğ¿«¬˜ç?Ü€ƒV€—İ<2^!Ú©å¼ÊYù4&r™~º¼ŞŒ³ÀÆlğe£°>’îõ€U«Sö˜|lzÍğ0X„QÛ™‚Â·1mÙò^iº9!vsœY4ÕËvùœŞt/7Â^¡} —‡3ÚáT/‹ƒ-}gwŠE¢šxx‰¨åWºÛaú›}›PS€LUm?~Š@$ÛT¸o`ÖW«•òœU22XıË”vŒûÔ]‚oGÄX¥=s£ÁA2\"¿şOîĞÿËÖs¶ŸÛÒ¤oa$%ÈHÌªvÒ/øÊÀºİ!ó%%Ù¸±ÜÁá¢cš8zŒPª³™¶íë1ÓÔ(<b.`r‚?|*wf{·½Ô›ø<OØQ³„1äÚH&_Ì[Wô˜YPd£Ò~ÊšœÖÁ ‘È€4=6¹I³+² Ï÷,O—[²{¾Ør^Íç)ıGà­szoÎÓİ÷õ¥*ï_é]®ÆCÜÀUW+Š× ã§6pÛ]ùYGc<Ô´ëz‹a‚#¤Í\"ÿqÈ»Ì4w™“Ó¢ğ ½\r¦3ª¤ÛšİM8×¬À„Á¿³€`öO#É¡%|°ÕŠæú8ŒÒCIù‰äã½wu|mIvGó{))±ÉaOá\"FP›Ë“Ek¿HÖ0Cã)2\\+¨•.¨cbQ=šõ3Ù<‹4)„íBğ¬ä·ÈÃ¼Ò:ƒ¢ÙlIiï¡g¾O`cX?·ŠÁJ ¸~ş.öçñ eAv	¦K ı0¡8\rëVä€=\nf¬ËúÌyšäë¤,)·«9-º~t\\÷åÆvı0ğ¿‡·ÿ»±˜¿Waú{KrÍh`ˆ“¬(™‰R×vX˜¶>ÑÜ7Œâiİ†±•œv•ƒßdÿ-ÙËŸüjšv,_\"ìsğŒ·INÇ¡DŒ5€2\"=”\\L9´`;a0ˆ-¤hÿ^oŒ÷µ@ò7¥°¹cypWÄÉ~ÎÙZ!ag>W­ÎQ&{[¥k–Sírø™©+Ÿ¦JÍ®‹Í ûM³ÃSCñà¤±ÊhÁ8³:.ÎÎÏ,ëˆ‘å[ ôúøîm¬ù½ñ[µİáÑŠ>×{,Õ{†§wkş^UvçyüI}¦‡¨?êT/²ÏÈ¯?®ßü£©¡ê©ŞãpÛà\000O¡š1[XÉ~îÚ3ñÓRòk»ö½h·ÿ©I¸æ“ÈÔŸƒk\\‘;P\"#¾‡Ry{êë_Dz\r2·g;1gnP¿RWÕüşïâÌ—¿Æ/%¼¡÷µ”Åû\nhÌKPHœÉvÆ=«p·àgoRÈ‹p:su˜í^(îtƒŞˆ>ÖbÓç5JÂ\\Û|ër¬ÆñX{a»Œµ[yÚöß5	¹O7ÒGøiÙcíÏ³¿İ±vğ¦\"?øŞîéÛÌ?‡^?ÿÂßÑø;Üè9åò~ÂLaÄİÕ©ŞÔù1k+à}>GÙÕå”„€e•Sº¶ ´;Ã\000ùF?ÿdLâ_ÿğÿã<\rÿŒúç N=*ÛİŒÅl‰b£QoÚ±èu€Î³(Îğ‹°Âı¸g…·“şıÁÑcœ1~Ñ3ğ1¬,Å ¥Ş8\n<Üş@ßúèÎE£íÿ·ïû&XõØW;k«B–üîrmzIî2Ëy®ÂA+åw|\r7®;ÏWhğ‚ƒÑºÍÍ™	°ã)ÒiÔø\000Ê\r×Ó¾¤klõObÀi•X*^ØÂÃËB™l”%ÚÛÓü†G%ê¹É(Fî¾Ão\000Ûò¾ú PŒÑŞí¢øÅ›Â®æ„ñ5ö4»õ˜MøFÙÆ£ö»9&'é ş÷Öƒ÷üÁE‘n37>|Æoq:Á_u²?Õ—’k×»‰+¶ÙLıÀbíj{^lMÆÅpM·ÑájÊiiŸg»è$ûV7\n( e¼'ƒ>.Á‘6üŞD‹í ƒaHÏ—º5Ç¦ÆğŞMkÃˆuãK–0’uû¦éèó\"Ï§ÀuwÇìıpß²ÛgoYÎnoµAM?)œhÛ\"¢T£[Ó÷Ë`ïV\000ˆgLMKÎÖJ ¨©t§áJP¥ÍŒá_¤@ŒL\000\"9ÌöJ²E²ä½åŞı¬‚W äKV‚ù™²RX`Œ‘¶E9`\\ÓR„‡…­Qğäu½d˜Æ]ˆÇV®”cy“ÏÏ~MÒùXlX´ª)_	ø0Q&«û&ù4gly·9iÒ+áß‘ŒJhQ'—³(_äÛ6QQ„×Dí‚éù}Ó±ñ5Ø¥] üùL¹èğwÉ-Õçö:)9¶/?ãaà_vhÅŞ9ÚÑÅÁ/S’abn—|½ƒ-–3íÁœ]²äiàõ\r«ÆŸ„åœ©\\J\000ÂUÓûğlL¹F¯ıÙ–Väšä”p1\"`DÍïà³¾á×=|™b…\nÊçIF…ÛÛ&›Ÿü)åk•©]Ë·šLê:E\\ ƒç¼*noã0R\"g†$»ƒÅ3QÄ@°ôä´†ìÃÂ,	SuÜ½@,#£é^xÏÓÆl©É^6V/è]	‡ë¤ÍXÇ\rj˜ïšÏGA<WœxVK'§Èø×4İo«e±ËÁ¡åAéÏeÿ±’_QŞ#R\\ê>È&ê‰ñQe!óş5¥·Æûªì1¾’#9ñ:¯ QãÕr‘W°ÏçU^®(Õg‚\rz)X•ûdàæ®óûo¦éßG¯È1eF”rx²ÁVãâK>“³ŒI^;>ë™Œ0É0¬/šü^H\000+—¬JtÑ`*Î\000ÚÙŒ9]á®([¹íV´±¸ºØEƒ®Ö\"<'ŒÊñø³D/ÊÉç`ße‘Iş\n¸Ã8OrÊ+b]²¢üFÕVFÕi’¶sì){ûÈÅŒ\n«QÜ+a%7Å¬Å_'Ë%¦®ÒENËB}£ÊwõVÔÈLİ{^Ÿ©äğg/Òèû=‹êå'–/’bÛÏWs(UétuÙÆJšö	\\J»¾C:I5qÓÆeˆÙÊ;K)h~.uÜ0- ŞDĞGø2Àô=àKÛ’ˆKµÈT©%”Ü9t{›Kxa55³Ï%‚'æËF}KÑW$A{@™ÕéÍÚ&oå¤5†±†‰ÅsE%s±e‚úºÉn—£º †'º–Z¢èãaÏ%r’ÎG’ğ’Q|®.¹8âÓ!	¢Fí}9j/%í^P’Wßê\rvâ#eø$õ5Å¼,\000ü¾\000eåÖ]Vñƒ9­eØP¦O!²cI\nVu-„úÌªÛ”¶ô],hU_›Õ$|JğÂ1¥é:â¡Šn®CFNŸ3ÚTŞ8\n{ÉYg,Ï‡_æmä„©)¡b¬,ª\\äSÁDì›rÊ>Ñ‚7;u.î6ÙÔïh´S@^®íó9Yó‹ÃØ¦8Š\n OÜõ”<#îz‡H½¢::ÓfÖÈc^SÖARmatÆo‹,¸±V§$´S~ÌAwi9CRÀûK@\n¾2yö®Â*ø)âÕ§Ìø½øm„jº—‡7:°BÛd/¼#îÇjı™qèõÊWÛËCÓÿs#ï8èO¾2ş!RN±õJ2«CÕ¬îK¨cD¢£Ôô8WéÅuk}Nt19ãÍÂ Qó­AÓHT¤ùíõú^™™³û4%£;‡a8§iÖ²”;ÄrÍ;¬Û¸ \0001ªÙ·ŒåğO}¿`åNx×}i¼¡-‚<rŒ¨;À‹˜rü¦a ÈY—D²ÎÄê;œSñæĞb(ü³\"Éj„^©Â¿şlTîy¡¨`å^q'L^ínøÊ(OX—§›æ3ºñğ;V'ğp#÷\000J’îMqÓ^¯±„Ğ€À:µİğ—\nÜš¤®rˆ¬¦qÎ¨¸pQÊ‹NAïvÖŒíÍN›Û’6?#;`F¼.Æ}®Õ–qªíà³œI%ÅmÑ–·KxáşÖx‚'üïR0´Écˆğ.(×GsÀd)‚;ô?—Ìx÷şÆYÏõ,N%ê.ºLJSÅ_K±L3!^[÷åbzoA{q}ĞMu¾’ù9ğ‰&	ëà )®†Më&®Ğ:åÚÀBÏm’D¤Ìé?U_ÔyRì(Æ:ùÈ7›SE##¯7°¸2Â9Ë)İáIÏôS¡D¬àÍØ¶§‚Ü©ª¡şÁÄ8¦K-Ô¥í§ì\000K“Ó½ÀpëÛ”Óò)Æºşt/,±`(z²¹rs²†j±¼Ê!¸¢#àâeÙ¼C˜ğ°—<t\000«÷'ªÊmÁ›\nwÆÇMRJT£Ôº«É{ÚŒ-—6Rù;‰êåKØ%SK\"Ö*ª+_§æ¢7¦DÇr‡V¤dSÓT¯š&{µÔ4Ù«¥¦É^-5Möj©é\000\\ÑpµÔt\000®šš`µ¦¦N5°VËs`„$¥²?§‘ë#8åõ¿^şF\000¿‰;İ+ÊÒšîe!EËE—¼7{L!PØÎD0ò€\rÑÈ&D÷cBÃ€®ä[¹ıŞjDwrX&tğÀiÅËi5%®¥¹a™ëñÁ\\^\nıDN/\000OşMvw$½Óz©&­˜8ƒãBÙRJŒû|cğ#™„<=Bò†äÈÚÇïn^es°¤Â£êŠ\000+³ê€i‡bPÁÍ«\000úÄw–®«|ê‘3ìÖ;K•ƒyg˜ôªK¤A „@\000oˆZD\\Œï€;ÅŠuZxx‹‚­ÖÇ#ßÅ) —ÖâÕ:1¢^#ˆH–ê4–¼JôªDu–¢C'×¨N~«S~/:ãpmñŞô¹¿‹±àPDÈÅ¼'úíŒG¡ãâqèèöwrG%F-/5ØR•Lä“(9iêó¼ó&fÏoâmI•*ıûiS/‹‚Öå_fÛ®ˆÊÿ¦Ä©y¾YşL¯R7)6%°œí¸Í¦b	€â9.ÀÌÛ’LÈ€c°\"KÜ%ú±ùoX‹É{`1áŞ}$Jˆ‚­\000Oû³)Üè%- 3í¾¡ÏŠÚ\\I™6<'Áò]ÁaÜğ—x¶hv®ghÌ´Áô¥v$æ\nj‚õ¯\0006ù\\ğŞe-ü%‘€¡µµJe‘ÔàÄ¸^”ÎåmªˆwPÏêĞvLätªI03\000Ó6Æ_`a4æ‹ÃÜq~…Ãêáü`^†¼‚XÎË±ªÇ­¾&7‰öÇ/LjPÆ³ 2ãñŸÅgB+¸£•aç\\â<ºæëO¿e/?İÑ—À ækYR™ª^ºd”ÜpQRŒ9*%iT°J/2™†’uTŠûJÑg~›†Ç€Û™Œ×,]öÄ²ÛEV­V€.»AÎJUaËGèZ!8!)\"^Å§W÷|R”:M‚a}òô‹Ú_PIVôN£`‘@¤\"½ÁOçÇõ¢Z¾&2Ùa£×pxk‹ò·H'£ˆ×ø;–Œ|µêèÎëw9ãlÀĞlM›, ‘ƒ{Áİ…	ÛJô÷ù¥E13‘DïùO_Á\000óîR‚	:ÜíÅ§ı$XÕ¡+øĞ;&¿‹7}òæ¡İÙ‡|J&òÏa=sşkV“½ªû¥ÏÇ¡o¸´xº›Œ²Ş°l]Õõ§yÚxÏ€P€?ptdÊåÿA¸Aÿÿ«šCê:k1ğ4º¬“šc_\nÕ‚|`g™F/õÈàÇ¤B¯qÃízË0çËí-ÏwÄ¯8=ó «Ë=RµÓv‚º WÍ×FŠÒ!…ÆSámµ¸-6XEw×ù'º§xyI³%`lF”çw`;yYB,0>İƒ’XRdºW3£ˆíìÔc.z>øŞE›µ¬ä™Â¬œ'œÒŒOìÄ6¿maw	tO¼ÑÓ‚(=áJÏz¶¤²ÄÎ1—|8¸ñcìÆmm¬Kğé+¨Oá¨f·æIú·ÅøR»:5Š²½jëTşÊòit†‚ÚtÁ¦ÛTÅõÜ\r›§\\3ê\000Ql•Gİ3r\nû1P´Ohõ|b|˜İJ¦Uö{‹…ºÅÊüSL--£gyĞ2jL:‡ñÖ>ğ?Æ\000ïvE·Ÿ-¬÷&–_/ËÊÁíÚº½ÇŞAé¬îDK%ÏLIø<Â†#¨£Õ_#¢,ÅÛ•ì«Ç†”#ĞÃ!êm©Úêˆ5‡‡(S½¸!áËNöÂa\"ûp¯5ùÓ½\\­ŸîÕ®ñD¾¦öê¥6Ì‹²Úîx‰Š%V9»ú‡¡3™şŠEE‘ zô9nÑ¶Ç9½kå?Øzù*â|˜ç¬åéúLâ7é“•±cE‘ÌSÎ Kä‘¤¨sÙD]±îö®ş§ÊHıJÁR†§ğæqBú+ÙH$sµ³VZËTáJé`Ü*?“'¶ŠW–Ÿ¶U®^Bé€n`ìRÖBŒz7uñ‘	Æ÷¦]0? nJëó!şç",
+					["metadata"] = {
+						["guideId"] = 3931312690,
+						["next"] = "43-45 Lower Stranglethorn Vale",
+						["enabledFor"] = "Horde",
+						["group"] = "RestedXP Horde 30-45",
+						["key"] = "RestedXP Horde 30-45||40-43 Badlands / Lower Dustwallow",
+						["version"] = 19,
+						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "40-43 Badlands / Lower Dustwallow",
+						["menuIndex"] = 4,
+						["tbc"] = "",
+						["length"] = "611517172",
+						["submenuIndex"] = 4,
+						["displayname"] = "40-43 Badlands / Lower Dustwallow",
 					},
 				},
 				["RestedXP Horde 60-70||67-68 Netherstorm"] = {
@@ -2817,36 +2886,15 @@ RXPDB = {
 						["next"] = "RestedXP Horde 70-80\\68-71 Howling Fjord",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 60-70",
-						["name"] = "67-68 Netherstorm",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 60-70||67-68 Netherstorm",
 						["menuIndex"] = 6,
+						["imported"] = true,
+						["name"] = "67-68 Netherstorm",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 4,
 						["displayname"] = "67-68 Netherstorm",
-					},
-				},
-				["RestedXP Horde 60-70||69-70 Shadowmoon Valley (Scryer)"] = {
-					["version"] = 19,
-					["cache"] = true,
-					["enabledFor"] = "Horde",
-					["groupOrContent"] = "í\\moÛÈş®_±E>¸ß%lÙ²Óäš v.E‹C±¢VâBW]RqUäÇwf——%Ê\000Å}Hb“Ëå¼Ï3³Ã¼~Ø¶oí¡Óë½úÊdÊEBìqïÕ£ÈâUïU6{¯–Rl7äK36ÿûGr'äœ‘Àz=´z¿ü¢~ë½Jè®á¹è\\<®ìôc¶#¾åÉ¿ô`‡MïU(Ö›˜eì‘gIØ²Ş`)2qø`ß±¶İwü7î\rş+Ö°ù›7äAÒ¯,&M[èWÛßµ^ßu^ïÍ›o<É˜\\Ğıô(d<_ÓÍOaD³Ùv6‹Ù¿o)Ùn0‹7?;Ö·ìÆ+|ã·p:µ¬éÔño·ñZ¬¾ÉŞ€†!ÛdÄ¶ü±ô]ê_¯XÊÙ’ÍÿÔdT.\\‰…˜“Û-•ø7>İJî¸ïŒ£.È}4Èm\\¡wX%½ˆ{Å²è\"¾H®è’í‰¿gğM2’oÔJº‹¤;]~-ÙêâV(Ú›ÊÛx‘h·@c±¦»‹˜/£ŒlhíÙ)öleÃê;£Û\\ÈmZQ@`*àìEî3I y\"Í¶’¥ƒÁ`O4ø$£2Œ˜$z³Vê¾3ìÆ~®¤=k”÷=³[Iî€¢,J3ôÖZü{êß&ÉŠ±\r{iocúxš	0¢121ì‚‰;Ïéü¯ªÇ+µpIîèŞ2'w¸’»=ı“ˆ³¹Ü0³ÊÙïÖÂÁhà÷`àwÁÁy1£R¬¢o’ĞdnÜ¹ßÄ°w$Ä˜{ó¦xtÿ€Z^.2ùÙÕ0p‡KÅƒÔÅœ&fÄ°ST·Du‘’/B®LCı\000¹%†LQ¾}ëÍeÍ’9ØAM»!»ˆÑö­¾Ü½ÛR¼O§şĞqŞ&&“Ë,£á\n*¸H<:2÷íŞ`-fä`mË»½Ás†u|Å©³`Ù‰5¾Î<£&êÁVd\"p†¯(üÇÛ1à o¬ù·’%¦ÔĞ¼¾—¿&¡b|@Ş¡‚áš,„Ä¸Ì\råjríıÜø¯‹’Š¨vÅ9¸âj16İt«¤¼é®I{«(vâFeò† ›ğdŸ¼àW¿ÙÛHïá'‚¼gKÄOw\"??ÇÛ˜aºÏñ{¶t/Ø:–ä\rH`Ä‚);Ã¤z\r‰GiÏD;ún\000L¶)#®¸#xËgøwÿö`»Î0p¦şy%şCÄ`<®Òß‘f•fft™ªS|&6ğÇC‘ìj¾€!ÿ`[\nL¡×LÅ0¨a)lÈ¨O–äóFqv%Ö³g[•ã\000ü‚˜\000E0P__977ÓK¹†¸ğ1¦ƒ`’\n	ˆòœÌv„`—%d‹ÇšX‡\rÚ^àkÇ}¦seûÃ19ˆy˜!R9àß¤ôqµ\"®ƒVÄS#dÁ«0gÈ$³Øïx¶2š·qÌçTò×WT\rr^5äH3MOßîcÚ·+ À-uÑ°p“ğ,\riBj´·È$€ìàÙ»YÅ#l45‘Û÷Ld™X&®a#²Éü@?ÜÊ‡†•7Ú¯aê#£4ŠiªY-’qúü*ID£`ô[À* úk\000ßä³\n»ÚB\nvM$g¡¶K«Óû.0±¶W®eëà8…²Ûµã†\\†1#ğ}\r]»f9£Âr^¥øÓ®÷*¦3ØšaÏ»KšF§rÖ¸ïY@6‚™IîX¥MßÀ6¯ó}ÈeŠPµBÍ\000Ó°G%üÛ°^İÆ’P¡ y«•;håcUÔ×gkÕ\\$gà\"î‚I€JAuxhx„¦XhlŸ‹S²oáNz¶$_¦!axèÈÄ4ng¸è¸Z(ûI5ÜSó…\nèÒ'+èæD]Æù¡QÁLaé*ŞõÉÛŒüJW ¸¿ |öewQ±vé*«Š<ƒí†’ÕHkFKê~\n˜/fé÷Wµcİ\\pŠ°5´Ñ|nÀ6eà²½±\n\\Æ›k‰ùÀiWıƒÑXdèìk¹ƒµ­4¿P/ÁĞŒYET^êÄ5 Æ“@à-\000€‡ª˜¼†(…q~ĞÈ’ùwk\n\000™ƒ²®?R™F4ÂhzÇ°¥&Eœ’íF/Öq^\n:¯Ô ¶!”†ª¢,?†\"¾L—V/R\000Ğ[\000,'B³P«Œ(ïaÅ|0ëÏf^\000¢“‹Œ„˜²¿œîgz¤<İ8ºÎE´çÁ_-ë\000›÷½\000‚cË:#¸ŸÛ¶îúÎ£ÏlfXÆ‘¢¢\r„ø4b`K¹jG· ßÏ-ÿÇì±\rxäš2IËMXoXÒŒÜK£nZäÿ KHeµÜ?®şf>/ƒ‘e´ å	GŸÈKœ	øFÈcSTÛŒèW>ùŒp£­ùF`çşY¯H\0004Ò	ÿ\000 P‰m¢ÓRõĞĞ`w»\r–»+\000ÃiÒĞKÛ®×€Bˆ ¦Z/¯äi¨açƒÅÆ?Ö(´¶£hQ·a#µñ”‚à©wğ‘F',ã¨tt_éé»}€‡jÈW÷´‰işÇ»Ú0™äŞ$’.öÊ¹„„ƒLy’U÷º±—­iha:€\000Ùf²ÆõRÏ÷G!&•óğİ9õ’ˆYUí[yCjK2ÕŞ­™¶¢¶º\000=E©»j*Éb©u„ñŠ£M»ÒT—LHcõ†~]~§Íì—´…\\½…-œ¡ßÒ2FÖiËøBÍ¶è“\rË#×nŠVü´ôÅ”‘ÔûøÃa—ôg CÏX]ÿyèph¶‘ê Ï€†£jú$”;¿‡h»ƒ‡ÇøöŒøEÚß¨dIåLqd\r\rÃAr/Ó(ÉrËÈ•+–”pV‚ù•åë¶$áãü\nÌË˜³4²8\\‡›m÷ÍÇ{ 1%æñzÓı¦öbßV|Àg]iá=•<Miõlwdêá•t^ô )Wİ©[Õ*«á|ÈÖIšI¾jAZãn:¬`$1¯ÍŒ\\ÓŠ(ì£ÃÎ¥’—Â–`÷Pû½GKĞüşĞVõ`-èÜ„1ß¨¡ Ø1ZC°«CªşÏ#@…j	fye+¹8èëö1Ä}Øä†Fˆ-Úİ4\\öÒõæàÑ\"ãW¿nPW¿µ§í´lK,eÆY²8¹X–´ÀãKmä3„fPºêóËÀ„!ÃÇÔS¯±ÄØ`l¼éò´«›¶1ıJ•43º¬•²Õ&f‚\"Ôßb·²ÎñŞdµÕ›)[Z@>K×_Û÷ó“‡\rvëT™U®³Šc²¬m{mKDh7\\›>Zehä¶µ{}Õî÷±ït|…ƒ§ş)‚‡úDÒ;µ&À5js]3Òûœ|Ä]ˆ\\3B®N\nY½	·š›ûS·HFµâ¯ØWÜ6™\n!s\\8Syù•àJ—ä5=h…ŸgiŞäìxE;Qáî°±‚iOÂ¾£}uW >½‡	hK&óîÒIó’§¤Õs5V=ss°j [û4º½äíØ¶©ö3èÉ°#Ca§û´ùÄT'Ç\"ÆÄ”	:Õ SÙAÂ$SÛ‡ı¢C“î–óãĞÃè8CŠH7<Ñ~•ççu¼Üœg¼;†E§p‰i¸Û{ÚxçÁ7£	áVš‡øÍ@záŠ¤H¶Š­›xnhçI8Ï÷:ÄÖû\ngÏœ®pÌKwN`C¨°Â9‘GıÀ?œ‡p{ˆåãkœ¿‚7ÙÅ¼J×™BèÓò]Ï;¸Ã9mTuh}OYXà‰¶&!²ÍWi:ªFîšcggç`ÆÙä5ÿÊšBÿ¹|ò$tU:À1’ZìÉ…„£²>¡T:{îå0SİUåátAÙ¤9à¦âİıy¦ŞØØ·EãjòÔiªäTÉGŠNËAä)^_;mÁÓÇ£ÿğåMæ “U\n¨Xò¹ãsvPä¸ÆàÅaæj#ÒyÙï™ş nñİ?Úš)·›Lù«1ĞwÀÂ¹.í›\\½¨kú{!H£\r_³êç]S²‘ğo¨ËJûº£4Ş®Ñ¢”áap‰7Iesx6Š´na#¿è1è[(Æää;*ÎKñÍò!&ĞI.Ò„ŞºµÅş¢Ç-^õ¸åX)QÎÙn\rîˆVÉë«†Ö¢ã(UsöèôÎ©’\\UÚ‹%gË²ÿ³İ:Ğş3{ü£úq\\½}_6ú+g.å´úTSb|Z§ßá‘ğX\rCŸë¯Ÿw1•ÛNİÕÓîªwn¡XÍ)¹ªSp.ÅïéŠÒnLŞÒ;·Ö–óïÂÂt8¨3Øn=ÏÖ†ZÌJê-ùBS¨ïßƒ(>,Àğ@j•oê·:Í¨ƒ3'ClwZÆŒ». Å#æÄ„\\ùøvVVÇ`•ğqõıƒèQvMd×+A%ùjËbö;\n(Âïe(ÔTÎv'RR2çK‚GîÊ:¶3åæ¨¯İ:>ë»ÚÖ:AHš« ¤ãú0hB%XÊÒè}|'lşlÅ!VvlìÎœneï×Õ½¯ô5õI“Ø¦dÓö—K¬ì@+R„…xr€î‰ÕÀ\000Ûna¤Ô”Àt¢Xší(mÔ¶ısµ×Q§¬A{$x¨CkãÀğ\r¶‘À®éZãG(ä6Óß\"î‡U+,×¤+¾YŠ4å›g«ûÅ3®'´³ù-eæ˜ı×[)Ö°¢OîáIØF¿¶²Ş<Ì¼”-«½ÀX}%$],~p¡êP¸L”lWÅëTğä9¢qÎ2¿b',_\"*Ñöcï8-‰@Ï·;\rMÁãt1üotIÏøü`¿~¢Gß±–šõCS@ZIÆcìNèü^D&}Ö6å2Íö9½ÈA\r¢¨¥{ß¾QĞqÍ\nx×.ÿº\rWÑïìäšãcõò=—ìàš!“Kj×Õ	…şJüÇ› s‡7˜”a–îYf©†êªºûÄBü0†Í¿ÏB_ş@Âlÿuy¶à\000dïûV7”ë`YSğ°’ÛÚÂ©c	^³µHxH&r—f4&%‡¼h6p¬)P’…Ã\rİ¼”'kHè1ä–Îò9—¢£-…O4e1j‚ÉÃ\n‡oÜü<ÕtUS)\n»TkfÆ÷\"J.–dŞ‡¼÷X„Á†şÂ3Ôå#ïGá‹ï¾¡ «®w?¸Wl‚çXtI–E´İßBµÅ4nh’QP«†{\"\\à­Ök6¿CÅÕÓİR­ …»_<_õ][²>!Â>S%C\nQU¹Ğˆkÿ½]#ä2ğ™i³ºÂbœë£$¬+ÌZµqÃÓ#†½Ó]\"õ…„ï·.ó!—¨¾Ûn> ;½ìÚNÒÖø½øa;¬şumu|N±4îôId Ë¼vÕt¯pO²Å6&3Ò­>İlºÍ)ÎŞ)ºİÀsC!@Uc™×şuú³˜ì¦¶­nZùÏkæVš:´F3×¬ËŞ®gÛ¼/‚ÿqÔ|ÃYøäÉm‘…¾R|0o»ê#àê—§¾XªŸö9Yğ„Cšœ—oüdRì}ï§QC¦>GÊ33*kåüaÙß·Û³[svª[ì´{z¤­ŒW¼`ùƒ|/;Ïf\")gÂŠK½–A°üÁ	ÏÔpÈ¨àÀÑ‘bÆiZC…æ Ô98Oo¢,sÊc ó?!”½ÿı",
-					["metadata"] = {
-						["guideId"] = 3837006316,
-						["enabledFor"] = "Horde",
-						["group"] = "RestedXP Horde 60-70",
-						["version"] = 19,
-						["key"] = "RestedXP Horde 60-70||69-70 Shadowmoon Valley (Scryer)",
-						["tbc"] = "",
-						["imported"] = true,
-						["name"] = "69-70 Shadowmoon Valley (Scryer)",
-						["wotlk"] = "",
-						["menuIndex"] = 6,
-						["length"] = "611517172",
-						["submenuIndex"] = 6,
-						["displayname"] = "69-70 Shadowmoon Valley (Scryer)",
 					},
 				},
 				["RestedXP Horde 70-80||77-78 Sholazar Basin"] = {
@@ -2859,11 +2907,11 @@ RXPDB = {
 						["next"] = "78-79 The Storm Peaks",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 70-80",
-						["name"] = "77-78 Sholazar Basin",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||77-78 Sholazar Basin",
 						["menuIndex"] = 7,
+						["imported"] = true,
+						["name"] = "77-78 Sholazar Basin",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 5,
@@ -2880,13 +2928,13 @@ RXPDB = {
 						["next"] = "RestedXP Horde 45-60\\45-49 Tanaris / Feralas",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 30-45",
-						["version"] = 19,
-						["name"] = "43-45 Lower Stranglethorn Vale",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 30-45||43-45 Lower Stranglethorn Vale",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "43-45 Lower Stranglethorn Vale",
 						["menuIndex"] = 4,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 5,
 						["displayname"] = "43-45 Lower Stranglethorn Vale",
@@ -2902,11 +2950,11 @@ RXPDB = {
 						["next"] = "Emblems of Heroism 3 - Icecrown",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Completionist Guides",
-						["name"] = "Emblems of Heroism 2 - The Storm Peaks",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Completionist Guides||Emblems of Heroism 2 - The Storm Peaks",
 						["menuIndex"] = 2,
+						["imported"] = true,
+						["name"] = "Emblems of Heroism 2 - The Storm Peaks",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 2,
@@ -2923,13 +2971,13 @@ RXPDB = {
 						["next"] = "63-65 Terokkar Forest; 65-67 Blade's Edge",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 60-70",
-						["version"] = 19,
-						["name"] = "61-63 Zangarmarsh",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 60-70||61-63 Zangarmarsh",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "61-63 Zangarmarsh",
 						["menuIndex"] = 6,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 2,
 						["displayname"] = "61-63 Zangarmarsh",
@@ -2945,11 +2993,11 @@ RXPDB = {
 						["next"] = "72-74 Dragonblight; 73-75 Grizzly Hills",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 70-80",
-						["name"] = "71-73 Borean Tundra",
-						["wotlk"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 70-80||71-73 Borean Tundra",
 						["menuIndex"] = 7,
+						["imported"] = true,
+						["name"] = "71-73 Borean Tundra",
+						["wotlk"] = "",
 						["version"] = 19,
 						["length"] = "611517172",
 						["submenuIndex"] = 2,
@@ -2963,40 +3011,41 @@ RXPDB = {
 					["groupOrContent"] = "í}ioÜÆ²èwı\nÁƒî}O¸/A@–,;×ö±Ÿ¤Ä÷äáà¡5CÍ0Ã!çr‘\"#?şUUsi’EÍÈÉvpŸ›ì¥ººö®zöÌ5ÇğÏ<8øş:Ìò(M4#8øş&-âÕÁ÷ÅåìàûE––í,Ì‹pşßïµWi65Wæé?ı$ÿ<ø>kxè<s=íb‘‰dÏÂ?‹êÙóXÌÃÃ\\{1_ÀËn2Q„ÚOÆÔ9€^7ô“¯¢ÍÁ÷³t½‰Ã\"¼‰Š¥†ßLi‘jçKQğÑR;ŠÛ‰kOugbSÃ<øùç¿.¢¤³+1¸I³x¾›fğÅeyy‡ÿÏµYx;½Œ7?šú_Å…ˆWôù×ìôT×OOMç%ôÿ•L¯â[íwq™‰Ã?¢DûùçSø^mL‘-ÂB“Ÿtg¿‡™¼³h±ø+Ó\000‚Êó“0ùCD8C1›…›B¼ÀƒùÉ¿ÎÂ(¹J³Y¸“\"×à§öRdb.²\n~¿‹d!²µÈòåÄ2§º1qô©m©İ9mwËP{3…Y(\n®}êÙØ‡4 yæy˜,Bûã—Ñ4ÁöÍÓíU‰ĞÑäbvÜù\n›&–5uí‰áLW§Ó$¬[`ÚÚE&®ÃXk_?˜B¯q¬eÑ<JÓt&\rxğ½ˆçiÆ£•iL]We9°Â‰Ş›‚çOMkâØğ3±\nµ\000w)f«y\n;0:›ŸÔéä³ì6|ˆù4 9ÂkgQNïåÏ?¿Åæ¼„‡Çâ:æô2âáéñÉ±®Ë¾~‹’y4Ešå€©LZËR±¦w`ÌD‹®ğ[\rğA,Bí6-'øvƒ`@Œ(Â8Ü¤---¥÷•©Ê×g\"ÑòMZ`ãZ»¼Õ–)P)€!¶fÚ:-óPÃGôæûS—ğïBÔ€O\\oªŠÅâ^=‡æF³ÏÅ•È\"`}®Ã\"Z‡¹ï©ã™æK‘¬â[€).\\l6¡\000B@«¯>„\\F¹ÿ	-Pká5œxèí5NeØÑ>hÒë,‚e%*ññ‰øh¹øåp-û]A©mNl}êò–ITä¸29;í,- ß+è½Ù¤j,í$Úä\000¯Ù²‚hşOe\000+¨D.ö°ÒW\"Kã9.´(³@½ĞøSƒ¿ïZ©åÓJÍf-²7íHÂ^Ô(ğÙ&ºúW6aÖĞc ¯€5ÊÊİ0lXZ½2$ùÿsÀä‘İVsT6Ü±[öğÎP–Î´·–•İAáx\nÇTØ‹´ßÇáU±LáÌ÷@hã›ê~¸,WãŸö‚\000¥FÅÇCíXXÇÉ.³WÍ3™”j;˜ÇÉõğ\000~ˆ »q¸Z‰œjoÒšˆ!o†QVmÎóãû¢Ìñµƒé,ãpVh¦c»ÖÄša#	[§—ZÛ#7†c³ŒĞ´!÷pÍ©cØÓÀ`›üÛ™ê&ÛìÒ.{SÓ–ÍKò=åÓjçÎ±È$•\rbTÀë#ìC(¨¼îÀ¯N4®üCN>h†@„ĞĞu¤² ğ İ¯Ø@›ª}Õ7é¡Øå¯	°ûE‡´êz‹çGÚùç¡H”7ET{[ÎV@-¯G™\r4€-ÁaP¿õ»bŞ¯	ƒ$D|îºø¹ë6'¢‚‡ˆHk´ ¾I®Še°æÔ¨Wäš!VÓ€šõ`¤Ùô±Ù´ÙfX±B“Å­#]0é%¦Ù	¦¾G_›#Ím³_Cç:4ÛSÛi”5á4ñ3MÆÁ¯vlhöLlvìƒiµ‚I*ğTH©`éÀ@]°²:u)ê¼ÕI*3Rç°ƒòJqƒ*ĞF@•c÷fq:[İ€\\X‹C#µeÜ„è*wS1½=A÷8\\€H\nâ/Z‘á‹­È\"gÅá´pwzş§¯¿³%Ó$‡™DåT»YVFĞ£J$ÃêÎ[ùàa8Ïµ¦åwÍáäºã˜Èó2³tÕ_Ÿ;õˆQ8{Q¶/¢Õ*\"Qd	0,ãfHâü«¸±ğI£ÁÖú%¢ì%}Ïn„75tœ(¢5s‚]Äzh6‘f xØlïc™'™XE¢‹Å d”@ş£$áƒ¶ü—D!ì­Yo£Xõâp	²˜ö˜hØQ\n_ü	Š³«*7lä c°	&–35}¬îe™åKA“M½Q((¿åñ¬]ÅÑbY –Í\\å·ì$az°îÔØ‹t|:f^\000¹ìßRT—WptÈ\\síU´ÎÃø\nÔÄH>N+0»C07ßyˆ:„´tààa™@„-\nBüvü­;øÛBâ!É…ßƒ è9èùøÛÇß¸1ĞöÛ}€ëŸ\"L[²(‹{:ëB:=½G:Ç(2# TCíİ|ön§YÒUˆ^géb)zÿ+Í\"zÔÇpD‚V‰÷iŞ%ºµÆ¤,™Q˜úøl[¸Y–Õr&i¸«9ÓVËÒ—åa_¶£l‚ßç~YoRĞŸA:Å<dúp\\BÅòX\n”‹ÿQû=Í.%S:š_Gyª Ë¾ÿXs<ôÅ1âÁpdÏ#Tm“Ü,N;›B\000pª­kÓ®i'¸´Û°à?i\\hUgx ®ß…ûØC·½@!O@óQ²Gn“…Éb ¨#h‰\"Î—ÜÔKênVıôƒÈæaÒIÕ.R?Ûß–>òî}¨ŒŞG\nûa,É*Gâ›&Å77|‹onXßÜp7¾¹axwOí‰ãîÈq÷1õ×e¶*óe—l¾…ñqïè§Ù²\\uÎ›«¨0¿E1¸yúæ<ÜG÷Ñ6Ô¯=Õ’­.ã4WGU\noıNĞØLOí¤ÇÏk™ˆ”ötf*¾½ø^ed_a˜i@Ï˜Z$LFyß¦A­g¸\000ÊÃs4bÏqÑ&aYhoàš©®£zmñ&HĞ»mÜ“À±Pî8öÔ]3€v¾‰2©²*3\000±osûúb10ÒNê¢‡Ïà×\000¨f#|úpQq…õñ_»øİ˜…×›êºÒ\r¼@3µéoØÂ;X”ëãÊ\rkTğƒø(Š® «òÛ/@›rô.\\#µ×ß)r|9rdmjºÇîŠOæ|kêñ[î¡ëŒœ	CŸxæÔ·Æ¾†f[ZYª…cóØˆvF!¬ó_›d\reG¦öw_÷ÁıÕ¦íèÈxz§é„0%½‰Ãl—QÃÜA]Ì;ì[±bdpR°¯ã8š­¤ñÂ°v|ş¿êkÿBm”Ìp—pp•“G8-ÏbåœÂùOŒ	ğÏG6ÄGnªöŞà½²ÊğÏÆ:ª­TÕÆ·;<«Šæ¯.î9E ¼¥×pâì©Şî“TİG\no¡d÷k.m‚ÿU®7Ï] ¥ÉÖu>ÆÅPïøcQYÙÎãôæJ\000]–WWSí¬L´r#%Ç8ººÂWiGó´„9 Šü}ÃãĞÂè=P)Cfˆ%aN¡á1`,¼aÈ&,<`òQ‰h0qìºQmÔ{”4ãNµ£!3![$f(BR°H¾7‰&®0pCBâêX`ïÓ.šı@40Œe¹ `xE¦YŞd°cÚÙû‘Å8ù6vWæÇfYÔ¨ c¹rÓ_9…Ï4¡ÉH:ù†È$a8çSí|á¶E¹F1h•f¡V&÷ñJí!Å-Sèe\000\000SñYt'›ÕÁ}ÌäÙ©sx¢üÿ”€Ç•°œR\\Â”S¥×£êÁ°Wù`ËF¢\\¯Ö5¼Zù¿€êƒ€ã‘¿…LÿíHUyÍ,d>0Âw@ıÆwld(:¡K\000O@eğ·n 4Q2mÇb$ÌO“’Æ…¢mrĞ(=º³tµç4Í`&F@¡}¨WQP½7´N4T¯qkTT11>¸GÕİ6Vƒu\"zü¾cp`èiMBŠ9ç$M­!	§@‰ß)Á\"õ²”Ö_›©#¸f21úŠ!‘Æ_3|ÔhAz··õ†â= ·7DÂçiÃŠ1Kû%¹ÆÕ#µ¢(ÜïèÄ»mÕıì×d•Â‹ÚmØ×‰ZtdºŞÄ;r¾…\00062±LŠ(Ö–I,0Jæ!)ŒÃ<‡g\".–à(q`­û33U$$ÛÚ6ÚM1¼œ—3tÃµ<ŸæF—ÅÉÜµĞG@pšm½¶vºíjŒv5ÏÃ™@™´êG“|À¢6:kN²2š³ô„X¯á.Î@;Æ¿.ª8Ïµ·iš,0\\Rtù(ÏºKØ5­dhŠè˜½L5µ\r¦™‰(	³Š,ÕRì,€ù&ŒãÖ$ö&]ˆDÀn4#5ã¾_‘£×¬èC@ê.Ô…¼ H´D{‹EÆ@Îsµk¹æ¥‰ºÅÄö§zµ²%0ø…”ÆÔ¶¯Q»ÊÒµ‚GkK`_Í–aV¶°P^çË†”~yÕ%_YÏBD:µa(ÍÛî_Ä+q{¸IÕ\rÕïÄåÆä®»ŠáN†'ÃÇB{.Š\"fŒíŒ™ßPéAïÁ9Mø}&fE'nØK@Œà¹ÓAÒ,”pàímİİÇFøĞa‡åÖğ0¬ÀâõnŠ<²ÁY <{<B.Pç-‡ñ‰±#©V\"Uø Ø]“\rÉÆØ–§ìOÉîõ[É6;$­İá}®C}$C²{„®\néVÖë¨qÚƒØëfÿÕ—¸{„v–Ğ‰˜ív …úİ+”»]‘qÑ‹ånÇQ²÷\røŞ) »n‹!xO¬ÜÂX«¼¯\000Ö §§öcS›ƒb*ıQàp'bÀ/ŒäCX»Ôúc/`ğ9¨(Yz«™¶í!9ÁÀb|óø+YMÛ ëqÕèb Aƒ(SüKÊ yªıR@k’jqJ÷¥½ko>h8¶ÙµFé¼M³EW%òô>,G ßÇy×A¼0t¥/×èõÕµs·öpSc<ÔÇi–•X63×÷X~µZ¾‘–|ÇÎÙŸ.–i–À>’Ó¡+Iù=Ó’ò.7’ÚŒW‹4æÉsóÅ‹Ó“hA—ˆA19#Ø¹y	«ìÅŠ|èLB×y«3Æ$»h1XÉc6\\¤&ëLB—²‹ª8ï7uÌ³°ó€õ÷<ÖØÃM{‘d ®\000ü@[îä&:F«CocA‡ÿ™ro{]r{[ôs¹k\"R<«ÉÓÀš«£íÖôm\000à,cbÈl´f£ÚaÙøÜuIqöp á¹áÓ­Z5×Ãß›d 3pL:‡ÄZ”ş‡\000hEš]ÿô\000âôL±ôjgiS3\\ …qH¦Oxkj˜ÈÉp!6ª“¦…GÇC<…ß†¿=£æNõåq±«EY`ºÈ¡gøwÑÃŠÀ1pá–ƒ\000ô-r.Z¯`>f€@MÂ²ŒÊ<ˆÔHh*şM ô°R½ıµV[İ^SØ ®²Tşš®„W-¢BàÒdtL¬÷|u›§É‚çhòz™ÜüÿA÷Ğ¢Œæ}óÌ“4ş$?4nªRßPÈnpŞV\\F”ÍA¦+À^£˜ÇîOìIõ|Bö¯ÙïƒÂ£NËLrÕa/¨[ZAnYí‘v¢`vÛM’QTöÈ1¡¤) À¨ÇGkÙ’i³ÑZ§¥c³Ã~-#€aO>í‘ÆV@ \rä­7˜Ä¥b³=AKo¬ãÊK_F|Pšw\n­8¡8Ÿ£ŸÑŞü%™¡oLåHì»*J(~\000‹õXO~€Ïñôú-ú¬ µæ ˜¯÷bºÚ1KKeßn*v7•söx}WÓ¿q/Óÿ§Yå%9ªİóèğÛ7,âo(ë…v\nÈ×eµºôªRRùLn³èËopÅ\"ìÒDº´ÖºIª$ğû ÿªÙUÇ[C FÿUkÓ$%Ğî¿j'àÑÕ×g£İ/@ÌÀh wÂê«Á8˜×­Çİí†•ásÇS›f\rª—Znœcâv6Î´}›6®ºÒ^yÜ:¿‰Ï	I2ƒ öö1ïLÕĞ¹íCs€Lú™Ñ{°ƒ6Z\000ğmƒy{°‰Nµúü3Vş€7ğÖÅX^Ît±Ùg=æ…;/cÆ¹f·ŠS4Ù«vîx#NŞ°y_Sû¢(öƒôïƒD±0&sw$ÒVêè|£‰%ª»-(æŠFH#U$V+(ÈÀ§&´p,ò©“r;{ˆ!ÁÚ+PKÓí¼Ül@Ğ<ÆL°wGKÕƒSäV=8ºÕy)·C\000íÊ¹˜Ei™ãl‘ÌîŒòº+‹İbpğ$Ñõ™0ŒÇö(C„¾Î³ä¢iÂ²F8‹mÊûÙ(ÎpÍyµ\\4“pÍúT·°Ù`^xcÚ×lá`Z6uÎzÔ,‡ôb‡5L³=µ´ÅğQd°bÌ6ëÍSfŞ³©ğT§BJ‹\nuÁêêÔ¥¨óV&Ù\\#	Š¹ƒÒ:“«ÀêğÈ}’o‚Ù¦+í-İ>)\r4}2¼ÖÜC§Í$ğ=5G£Çú¼ëi*jæ ‘;D\nÿÿ0<L•”±måDv	ç´çâJ˜oƒY‡¯²(åäTvc:6åH¶¤5QçärVPòú‚’‚’<îäø2[ÇŒ\000Ò `¢KäG|ÄD.š¡Ğ#J.áË¥w|t@ù~å•Ñæ9ôiÚôm ößqX¡0ï¹bNë¼êtà%WU&0Ç/Ió\n(gH#;â¶Û»+ÒA€=B÷­‰I¡«/4;¥sÙfº€5Hv®GQòééè©ç›]¡Œ}\r[aÒå ¦Æ6hïl‡mş7X÷İÚEu4‡·¦ğhîvšötÜ’¿ÇDôÀfQƒ\000÷„çn¶LdÂ3}Ó»ÚÆ_¦¶=rñ¿v‘M:Œ×Ÿ“ãåÍOƒáÔ`h»b!``8LÒB»]{1í•ˆ…¨‘WE¢\\›¥Iã‰öb™|\r*IŠ“ÿß¿ÔIÌã…L¼›”¤—éü¶?0MmBYÏ´æÚ§rİX÷lE•x—/ËÃE	ÚAR¨ˆµ÷éÌ–UVW,«÷kÙxôƒ¨×3 ËÀ]İ¶(>¥’h—Qx…EB¼(ŠùLhYàı,¹\\NÂ=@ò\\”ğu²è&•ù't•“_“E}ìØJİ~Bk&ŸK§xŞán}³°!.ıƒ`â5;Ì%¢˜MeºÆF!¹+_c£˜Ø„OYmäú€uÊx8*2p(mµ%,ï×îåó2»®Ù¹#ëw§¸ÛQş.!WM¿\r€® Oı0d¡dc{ÔP“ÛĞ{(7á	I†Hòí8í7®8œÿ’ü\röıñ7ó.h±Êÿ¦ˆ8ı¿ÕzŞ—E^E$#¨ÉsÎQ(Æ~‡âÍ™ˆvÓõ0VŸ™ºV/½ğõŞòmt4üWv„Óî7ÈÉõŸ6«áø6È‘¾…Ê´å2š0Ÿ»MgÍº—‘\\6òÍvÑ¯B1ï¯Ù«0ìEs€ A™còğVÚ7ô’«™Ù– Ïàö¬›‚)UÆQhWeW÷‘X‹Dh—!Ì7Ô€¯èèö³=×ş\noÈTJY3~úIûî,]”¡ö]…¦Úw'¯÷5¹ÏšMë‡jV?Ğ¤>ñˆoS=À½)È3¸­ «Î…’b­×KG©¬Ÿ\rÎ; <ˆË«8n`lô#Xé‹|–fEoæ¯Ğ‰ˆÚ™Oµç¡–^ŞÊ+³4ç)ÈÃ„¾E°¾¹ãsò°†4­˜áï,İ`O—âdOî^ó×O‚ú`ıÔ&u…ÛuKhöYåWêµ6%sâšmÔkm³0ğ_ãØÖÔtFÆ6ml¶]†nVá#e³ùÌöfË`v CÇEš<&Rş¬ËÁªğiL&ÊŒ¯b°&úL` ‘iÊìqpÁ&á<ØxB‹B¡ñ¸ñhBõ“‡Õ¦\000ÅÏä;—\000¦P‡m0x@ş¦HŸL·É?\"ÿp2MK;WÌ«ouÇğZ¼’	sĞ«F©m’’şó¥\000¶6¸ıƒ1…ï^T:mà©›Vi6Šj¶Ók7ËÌuN«ŒL‚’Pj¨¯N\\'?ëˆÿ\rnâŒ‡¾+Q¤úSdë~\"[?#Œ{7ŸÀÓ®=À®ìE}Áª\"Lı»ıí¨_æix#UW)÷h4kƒF/õ³”ÕŞHË\"œ+jÇ;V‡jù‰Ùùøó/­ŞQ$J½²útÁ‡ìÓ‡NÜãĞ˜ÏåOhı„Ö_!Z³È:*äW¢¼=*äßGvÿöŠuEŸV¬«â§–èz h>è*Kûµ˜*7|Ô_SûF•ú939Ó[ı²ÇmP_IƒÃƒ±wX?5CÁ×xK\r5Úï$ÚÄé°{¦½\r?¹Û`¿z@ÃíÊcŸ«ØÌI–ñ©æ4RÅ§qßÊ—ëÁï]óGñêVqM;1öJñÔ+ìéÑÍÁÿË%|BÎO@Î]p‚ÏIØA‰=l7[<¦.ÓWDSSFİsKÈÎÕcÚÏU€Şaëw¥TiºòX„Ú­MßıÔäÅ°²@ûS›RŸ`íÍ®I6XÏ Àw’™ƒrUX$'™hE3…®ÚTù\000!évßiûZÈÎĞ4Šgb,Qcã^ì¿É™R@ÊÎßò}Çz„¬—[§…­E²#ÀĞ5ĞÒëleˆ0EHW¶_Ë ãt¤Q÷é<ú”t&¨®âÙh¼¤D˜6±00¶íÿ:ö¯“?o(¹:lSŸ®‡™1m‡¾õ+s6ôŒ÷’Ú;‡’kzh÷(E9È©h§û=ÏeV×–×q\\KWç6„ós‘ ŞlsÅR	Æ)+)NÕÎÉê†,)û5®®¢YL‚|ìzò¡›ií(¸®{«\r#á´ã>›æaÁ,\\uiŞËğã2¼ßaìyçj‰ZxòÅî¹vŠ\\´]§”É°á‹Õì»z„M,é¾Ú‹Õã©#†µØW\"¿Ï‹PM×`ÏÃëg²Èø™xõŞ†bæz)®ÅáŸ‘ÒjªuÏIó–7ÅÃY™Eƒb]§Jõ‹0–¦##ál(iµ/-¯Ã-iş¢­èˆB=Jô€³9ş¶{µu#:œá·4šS&ÉİÃó…¾~|-8N¸£×¼\n×Ìëüı§f€_i/Ô`Ä&=¦ë÷¢~³áÂÍ7ÕŸQv(DÕÏ-vZL¸eã\rQ‹­cfzèKól²É0Í>\"˜çw²¨(”oôJ4b£úXÇ¬-°„f¼|\\e¬4{+«ï!$[¸Uö¼p®•ëKYˆ	Ï¤¬AS‡{TQÚ=!õË’ôåiSB`=mg–ÊèzÕàÚÍ×u*ÍóÊ6ÙÍ”ÁŒ*4\rŞŒİÓÕ\000	{2Qøğ(À±«¡ìààîğ¾zô”{T<‹¿S`âUÏ1¢Ş¢d\000LïŠn°Ò‚¤H»8¢{âMM#|6«B›s*0úO’¢)\n Ò)ŠƒdªÃğkJ5æ®Ûù,±G‡±sÁúADôèŒ@v.×‹;\"mÄ´€\rïº‰ÀuñÚØãÓ!e§7b=ĞVp-$å¢eÃD=«RZF°3 \\ğğçUÕ\\uX;YlñòH€ÏM%mßC˜è¶TÖ(›]~²H*†í€MAÉÙD¹—´{×4è²Ÿ,úãQ°IÚKÛÎm/2ĞÔ0èçŒ×oÊ-èãè˜Iˆ´3Ÿní´v˜¡òş¸È+ØU}A‹PÕ6O©èeTXlıİ]R©<Õe“ªÙhïrR%m—«\\µå¨7š1¦i6;ŞÔ{Ê1µ‰ÀWmNŸ.p=–°Yù1ö»·¹Õ–S[Û\\¨:/³™(÷˜?Mİl|0OÛ6’gLNê/Jgñ]—Ûò\"…ÅÎ€¥\\•±&rœû-q˜h½.©Êg)¬:|ÛOÖ#ó·´	Ì¨Ó‘P×¢HÓ¼L@Ü«ã$´y&³°Õl˜C“¥Ì¯‚ïè­Ãâš]êc]¹$ÃÇe8d[k·×ìàr»_L‘!€WØdãéœ’áÚ|s;µm[÷ìq7†çîšì|›è[¼v¿Û=\\D[Çõn’‰Ø1PEÃÜ„”æş5©ô<‘è%L\"E¦KyWØFÍ~ƒ¨fÒWpzM”T~£“Ş4)Ù&>üöªLf4ºÅ.Ó+£H1¡&™C-á·aâI\n(A#>Gï1¢¿îU‚ÆK, ßô-cx§™L£¥u¶ƒêV=¨µ2ÈY§¬ ïa¸4¥‡–Ò¥Ü.¥‡Æo[XqÆÕÙò0N·[WÓ+^_\"2fÏš ¯ÂŞôì­r‘œ¦„y1-2^û8ÄU¾Îq•)zÇÏ9zÔ«’~+U¯Tçíê\n”sÆ:ÒfE¬Ş´µ6D\"PK#e\000Œ“FIì«¹kîçQRÅlE´2LşHå(X@gÏ+S4«€¬øÍ¶\n³ÃµR`|¯	«\000c½ÒÍ\"*½Ù*Ub\n@cÄâ`RÈY¹êÈ77“kVh(×¬Õ‘¯kJËİ_şë†ó_7$š_XCµùæ†sÍ\nmçM‡\r¹±,Ö€on˜×¬ğ	^rjXßÜp“‘æšÁğSkxßÜ°!®YáL|sÃ¬x˜7ü‹o®YÚ“0ğ$ìIØEåÜ{Î§JêÖg%¦8TÁÿ#ìjI…À:8¡.]6kÎ7û’ RVÏ@ôâÃiMòêKë“îË™È\\M¬éšm«ªCÂ5ÛèêÇeM0.3ÕF3…:Ç^²ÑL)Cb™´£˜îÌ®Î7·\n2NY¨ürÍT=O¸Í6;t‘A¹¦h’uWÖr_äÓN~S;yÀæÅëœåáååê<ç2)~*²Pl#%ï³(\rıux+­äLÔ¦í‘µ­¹}ù_µZ?Ã¤TÒŞr÷Üå'ƒ’Híô<µv•Ÿ¡¦f.æòw&h˜`âb4¥\\<?î¿Ò{ãÃ»‹7¯»ıúã‰Æı]NÆû»ìäW$ü|}VW5âûşĞ¦Õt?SìıŒ¨İÔàıŠ§oîpìO_ÖÀûßzôü·,ø ù‘ëãõıKv@ˆo}×îÜ¡ñ­PËÙ}7,{ğT%è3ªÂô³×úÀu‚~î%»kËÖTû»54º´{÷zA&/Tp…|”t0ƒ·ú`q<‹Ó©¤^+½_% ¦‹N}ó‹\rKÍ9û´¯+ïÏíróŒ­Jô˜Ûÿ­nõ¶­ÚuSF6 +Š>æ)ËcíÀ}NJ{Òöv&:,±¦Ô·ğ»A#…4q	ß¥Í¶hGÕßı}QŞ3Ô÷†'¨BìÏ×Ã±¾NÊÁÀãÄUÏBÅÖİWö4‡\\fíD£ò_É™¨Ê¶\\ÍğMWº†å\"øn¾èü­ÉèˆÔ¬˜ÜŞ¦ñií´SJó@êÿIˆ»!F¦*Ü•ÅóiÇe’DJ¹í»€³5‘•GÑ^€JŠ^}s‡¤r‘Õ‚-WÛĞ¶—ñ¼“\rËÀE Q§Ù&ñ–S9ıCš’²•şI–ßÑ8õÀê¥¹Xõ¯Ä4Åèa!‡\000¬ou	¤¤¾¡´—qA\"pï9ÕÎÊ}’AS]ô¤ÿü,*JÊ4h9Z šÀ!.…ïù”r’«GA|>ËîË(cÑæuE˜¦bEŞ‡Zúd.èÕcÌ=¢F´ÛmD;ŒëéXYÌ¥»!†s€™Èç€7¦ƒS7]ümPı=›~»t£Õ¢÷Ñq E–çÒû¾E}jÿÃ7#s5ğ”ÉpÍÊü¸feÊL³º\n®YYÿu³V~ìfù£3ÿ{¯û‰Ğ|ABóÈ²âzÍiŒëµ¯«ütÈõîh)El¥[›OÅuª†ĞYÊEÙçXÇ“^¥${×v6úT©òß¥R¥\\ÿHÊéI±:A£Ûb­ŸÒœÑ_Lš3[U‘?=-_§êıXºĞÎö\000‚aqüN™M>İgmÁ)sÿ”PsØü”yp7|üÂG²KO³Ë´ûœ{Š}Š`³›Ğ×á‚‡•ÖºŒ¾/½Ê›ØyvŠk¾RW5Ò¥\r‡Í×ë›~¦­Š©[®¯Ó\nOÄz£T£T\n\\r½5VvZbZá˜J¨W©\nDr«RÆ4oe„—i–Ys¼(Äl%íWïš“¾lDqõrË\\Çç(­ºÊ±@­LŠHy¥—„3¬j¡Õàëí”yï}æÌ\n½úsÃ‹¾üĞhÆü>¦›Lúë…rYMÀµÒ‚æ×QÎ_ƒ±ŠP6FjØ~Âpl@€eL0e”M$Š¥’2ŒíğÍ&’øÚqşFGr°F3’N=Kj€+Y®E	F|ÉtİÏ)Û±[äèŞÅ\nxR\\-ŒAà«+€ğXhÄa¡½yw_áñşsC¡İ„bC‹Å!€3ÆF¬Œ\000“X{—Ä·Z¥šP0v]:étVP‘AYm»«Ót¦*æ{“¥x®¨¶¯ÈñÃ©öGe‘>«:¥ ğ#ºçU`Q/+ûÏ‘8pôtİ\000püz?Å_–Ù¢Xëé\\mÂÊ1Š…s°?jÏ³tü(UrÖ=±›nQt¾yÌ‡±øu_mähg´úÉ¢6êİ1·®7ÚLé.¬£J»Ÿ\r¶é¼W¹2»kªL9±ã(PüÔµ”\000P6xvf×‚·tÒg/j¼m¸pA:yâ‹%İÍÅSVx_L©ùe…-êH;aŒ7À¯ÊòÓd“¼¸‰øä26Ş´®Š>ŞW‹>¾\r}ÎÒ(ñ4åóír@ß€ÀÊb‘÷ÉXÔbĞØ€» “§÷‘ÉÓ%2.ãK •§oA«­@?V×üõb×VFu¾ÊÄáB`„ä”•}::5#ì„?öåUì«èA˜mìkGC¾^ö…%¦¶³¯Zl=QvCVoY>ƒµÈÂ\r¶ŞX¼±ºw3õ/‚>ÖllÈ*&Y_/&í$F‰ %Æ1V®cÉÚ‘¨†8hòCDz›.ğö*‹9Ú7Ñ,üÏ.\rÄ ¯ƒ°«/ƒ6»H?cU±fWù§cZÄ’¤.ªò¦CéˆèŞˆoãõdYÖN§ëÉ6Õ°“WÚ¼~ãi‘®Qc¥F¯–VUãÖ¢tÓ˜àÎ¡«ĞV=–‹VeÜÀÕ·¸íJ‡\\³26×¬L“kVVÄ5+‹ç¿nàÄ5+ å§Ö@Ÿ_w°aŒ–”ÜlÂmW¹_Ü†#7¹[Ëk‚5}oµK¼r×«äfÚ`b74òa,:õ•I®ıöâìŸdaø*n~»İ,œ5P·[oæS½jMZ©nw§Vº\"¥Q:C·áqTÜÒQ¯ü¯8NÓÊ‘5nğKÅBª$QLğ§{pïGWS\"ûc¨vT´]8=zĞ€¥†+³îıöU5yßĞ¿ß†¨•~Â<Ìê âö@€>Tœ©kb\"~>—‹gc°\r4ûlâ€©GN›ÿÚE:\nÍ&{AÑ£äN€Dš¶Ù×Ô¦n4i>x™!€×\\oÌˆôm9Ñ.ËÊ´	ÿ]Şj§GgÇK$\\Hİ°„4=ÉÉ~ˆúÄG1\nX!½JR·Õ×‹õ©È…ï©°èÒ…‰á¢{ÍaŒæZ@·¢S<Ãù‚©NLJ	{ÿ	÷fäÃş\rôjFï²E­×BÆ<`Ú<’2A³jÚï¢r@¦?…*¶áşşDÆ«N—rÂÍk˜(År'>ŞñÚ%0Cé¶>W'a”¤Í_ïÃÍ2çíƒÉmûÇ¯°ìø0·Í¤ŞgQ˜Ãi9è'ñ½©ïì6­z€ìpãuÙÖïõˆg_½‘g´2¡¤/ Â	I¡1_âı¶yŸ'¦îQÚbwjßoê¯E6ÇT¬'Y(Öy®”pÿs2v‚!è«èİ8ĞÄŸ—-L«åff\"uÀ”9Æ½f&9\ny&E’¶8úŠrØüP•³ŞºXQåLY‚ÏÂo(Ÿ…•Ç Ô	ßãÀÕmÍÓdÍ}8•a1¨\"~µX\\o­ÿ-Ò,å(Ü\000:UŸ¦‹	»ƒòè°+¤¸ë|™¶×òş;Íÿ(ñN³º§ó²…C\räşD¼ ÖFWÉNäe~ü¨IèÜ<OÕÂ¿Ãa…ù6“8KeøC}ù|‡ı¶IàwLöÔßqºiNâÎMwaO¦u*ïŞïTÀÓ•\nEœ:‡NUO¶G÷¦\\:9×!È[8øgËK¯A/cÊÇZŞé,3RºˆÙˆùıÉs“|t÷ÃE jñ¡*!ı^cÖ×öÜGÙ*,šñ$TrÈ¦(hrÀ·5|’YæWH9€Ïç„TÒût-¾)F¸½0¦T\rj‚Ó\r:ò&_NĞR¥>€ÎdBE”æƒáÅŒÁØmÉÈú€VuıãT7eÜ”ÑPBõ®çÀŞ\\pm¯ñ)á×hiû5%\000ğRZßr<ıŒı’]æiÀ>mÑ‘¿p:¾|[V³A€±£—ùJ5ùÀ\"óJ¨fj!´ÆwîaŸöaŸ	³}¦ï÷ñQîhì5r9Cˆ¨yœş~²} Eì)QÂ=%°I„Y\000W)?{Õwo4W,D5:ÜIOšŞÅ¦Æ\\©W-BÛHj[3ÇÉÈÿÿ",
 					["metadata"] = {
 						["guideId"] = 3417377556,
-						["next"] = "65-67 Blade's Edge",
 						["enabledFor"] = "Horde",
+						["next"] = "65-67 Blade's Edge",
 						["group"] = "RestedXP Horde 60-70",
-						["name"] = "65-67 Nagrand",
+						["key"] = "RestedXP Horde 60-70||65-67 Nagrand",
+						["version"] = 19,
+						["menuIndex"] = 6,
 						["xprate"] = "<1.5",
 						["imported"] = true,
-						["key"] = "RestedXP Horde 60-70||65-67 Nagrand",
-						["wotlk"] = "",
-						["version"] = 19,
-						["length"] = "611517172",
 						["tbc"] = "",
+						["wotlk"] = "",
+						["name"] = "65-67 Nagrand",
+						["length"] = "611517172",
+						["submenuIndex"] = 5,
 						["displayname"] = "65-67 Nagrand",
 					},
 				},
-				["RestedXP Horde 30-45||40-43 Badlands / Lower Dustwallow"] = {
+				["RestedXP Horde 60-70||69-70 Shadowmoon Valley (Scryer)"] = {
 					["version"] = 19,
 					["cache"] = true,
 					["enabledFor"] = "Horde",
-					["groupOrContent"] = "í=ko#7’ßı+:pswPzúıö²Ûã™$óğÚÎÌn‹%QRÇ­¦Òk<˜Ud?ÈnvK¶'w·ÀˆÆj²Éb±Ş,–¾û.°mßíĞ99ùöæEÂ2ÃO¾İ³2½=ù¶œ/N¾]ç¬ÚW´(éò¯—Æk–/©áZßyşÉŸş$¾|›‘-5<xè§d™’lYÏ7lOsã¼*Ê=IS¶‡~ôSix.¼\\7^—9ÉÖ)-7,ÏŒ$¥'0ÑîÄ\\³’iÉÇš¹¶ÏlÛtf¶eÍ¬ó3ËhÛlüğƒq½O¶†ô\nÆ\000?’<eXÍ‚mw0İ'åÆ@@ú“x®éÇ3Ï1İ§QorrGS¶ÜPãE¶¦ù\nÀ5^f²İmiV§ù´ËII?Ùf8˜À7m'ğCø—1h÷y»mµ{~†ñèû8²ûúöÀô=ütí±öÈÁOoäıĞôBl£Ñv›:úöØ´#|ß?æë(FÛñÍP`AÛ…Ø¹Úvß2C{zø|Ûôƒf]»kzŞÌ÷8ôøŸÜ_éı“~ø9ISãËâşóCÇ9ÏÉše[²7®7dÉö{œ•_rŞÕö;h{™ÀP¬D:İ+–ãIÎ_³¬Ó³sïŠŸ°•q¶!YFÓ$[ÉOÌ†';²ü™}bnÙÜĞCÒoëfoy\000åÅpÉQÀI\nX×·†8	\\àì02ƒš§ß°ÅÆxË–$C®~ÃÖ¬*\rK%Û!øÈ‡ÛªØäŒmƒğs²¸mÀ±¦ñqC3ãUFÊÖ¢9ÉfĞÆÑ^Ò”îX^ò>\000Îo £˜©H@¸ÁH7šdK`Õ€ª[cS–»âûçÏ÷û½	¯”Õœ\"îïI¹Øüùî¿û¬zU2'x{‹`Ÿ½ùñìgãõË«—|/ˆ‘ÓÍi¶ °ï§Ôøğòêo\000)<­R#ÃmcÆ–İQì85ö2üIf—SŞ1RŠB	E°e¬+èˆ\000!\rT‚”‚omÉ½±¦¥qùáÒX¥d½¦KÓø1ƒ}\"K#¯²F¢1ÔhOrFÄ0e~½ÈK–¼EÌTKçáVu¢²{¬!ØkËtg:Jğ\"hBÓ×¶ï:H'¡¾Õ‡VÏ3¹µdæøĞdãÌ–XÁ¨6P_r=„È	µczfàr@i¸c³‚$3Æz¦mÏBÙc¤‡‹ÓG¶	Í#=”Ú‘gFöH;F#Xˆ;6 &œÅ¶iB\njÑÅ¾?Œá™±²–Æ˜ÚrgNŒÊÃ6ø¥ œ®\nĞüå¢â<€4+½b¬lV^“[ûìª£áæñ‘œÊŞ]üµÚ}w~öÖâœš& 8k	N½f\000@*øÇ”M‘vi#¥r_íŒŸI¾&@@0Ò+*„Qóh•&ëMiìàïšäßzÄ\000}Ø¨pÍÀòNÌŞ‡¡^=Xº!é-®Tò‹ÇÇİd± »Ò#g!¾æì$Ç‹4MH›B»ÇäÙnçú‰ä·$…m,Š-M—Úi{}$Çdšmº¢d\rî•ŒÀ´çŒË»¤€M¸i¶ÛBG¿“Hì¹±È/Ù\"%É–.aÊõ`iõ¨µm+Zx\\„l‹ófK˜7•qa8¯î4®X¶¤)*Í4¥X¸âÁ~Ä¨§|¸°|I±\000íÀ)…ÛÆ5Q/QfçÆşŠ©LiÕSÑéáD~‹Îw”Şã4e ùA×h±Ùë#!Óöl™gì™p³I€ˆ×€Ô 6Éîa½Ÿ?5¸|”YvP]­’lÙÙ/`¶Ô­ÆG0SŠnõ®gÁõ4í›Ü2¶Úå¿a%¨z@a²ÒS¯ÌV¶%­şº¬–÷Š|™R´ü‹ï Àà×Bã¢:\nqë5‚Å17‰´­ FmtElı»h@— k…3s9ëFn j÷şWER±#¥İ†×[ìy]¢*Çm[ålËÛRZ@©´}&ÌhBôt+oÎÁò¬O!3Wz\000è!sØèÍPwA|ì¦–UUoê\r|C£jjWÇ¨¨£û	ôaG@~\000ûÄ·éÓ´7y‚¸cF«*ôòûÖß%hÅ{ĞXd`É:c+Jòrsúæ¸@ ÿÍ¸E:}\000R=[ƒYi¯é3ärƒ­A¡î7Õ_ÎÒÖ@EüpeÎEfa¹ãÒ4~N`ó7àÉ“=˜°œTĞfoš9Ebsíá×\000Z‹wP¦!°Š@ÇUYR‚lËTPµí‹°¾ëÌÁ†µ¸sÖÌ³ƒ1Cëü^ÑÙ¼Ş´/›²¯¢!SÉß ıçß`„bRlŒ„ªT4RÂM£IÂRg°’¤à¾‚\n¶\\KZWÉz‚«òù³–Àºf™Ì,W±	ò9]T¨ŠUÉŞ0¦èİ0æXwİìoa×é­ €OIJ—¿Û¶Èãú¶KÔ´4zĞ¶dëæÇlYåIµ­égìé¨LöY˜q;	:•øvÆçyÃŠR»¢a7iIAÊ+Ò©ÛS#g\000Køu`i÷X¶®YZ•	÷ÔsğÎkåô÷*ÉiaÌç¿ïqA„ôM$ä«ĞÑxÚ‰àøéµ%PkÄ=mk;r£ñT•Tôƒ&o9¢™P(*ÉQIàšÚÜM”yÈ¦é.á`ZÀÀbbôb²¶>“Œ{ç/²5€w£·ê=pŞğe7£•ÂPy|Éã 1ØˆuÙŒI\000œ<§©,šĞ„Y%Œ¢¿×ã_‘]ŠÆ…='Æ’ü‘Ã\\ƒ½xCæğ·f–(Ài|[CÄĞ¸Ğ4ãêR*J’äRPCIJX6»…Å'·åó3ôôRFP¢bDúH1¢#Èğ”}bûê/äçB\r÷L,”G³jƒj¹'9˜Ñu …­Aœïs±A5Ì5\"-¹ĞÇî]Ü¦dAg¸Ô\rs‚¦É¸­¸Æû|'Û-Éù0½4şıì÷¬DtäbN®—ş£SaÍVÿğ'µR8×°â\rXüÛ- ö5˜~’)XpSp±AÇ„TXsÕ^ïÖKî±g È³õ’mÅ®ÍÏT´‘‹ÑÀÆ+æªWO\r`èÚ¨Ó|™­–BuAœ%‡»¸Mv¸1ç	å8¦Ù‘}ÖÄ¯wI˜|MIZG/5†t`[¦ëƒgJëÕj'N%ı9¢kÃÇéÚ‡iÏ)e>F·Fò¬­b<F¥º¡¤8ŞÑ=ØeÌ¸H>Vzº4”¼»'é¯o±âh˜V“†RğäI4šÔ‘mŒÁ†¿dKš/’ò3õßÈú>É@šŸ'k:¢æUßè‰pë3ÙÇúLú¨„ı•‚<5<M§Hå9^çÖa÷©a“†-ê°I.n2pç<~f÷Ôp\\\rAëÄ˜ç`<Î”àx—²!áR¶ê}JÅTNŠ¿ :ÂWèòGdE{<$ßI+zÏd•ŞƒfÚnñ<ôÌ~‘òóŠîá`Z_?­˜ãôÚ$Æëd½s…ˆ×•¶å<¯¶ÆMµ(ieS=T)å3m‡(á°½Ï8tø\"H†9€ÁÚQ^Ô_òZ¸Â7f(ŸÆ–Ø¶*îˆÕsGÌ@orĞÃ–YÒ2Å@Í2µ=pqšÿ_ß€-¼&z‚®Ûä…yƒ…Õt}¬“´¨]Œ'/Æ,Fóòà0Æ ò4ÑÁsM*—6ÆwoŞVëgå†¥¡#ÙÅhëƒÛ¢`tå5mÎü ßYÎöMûE\n¶Y€”©À]·1ã1;s:wKÓÍÇs:Oñˆ|ÇR‚øİ‘QñVPÌs€å Üà·Y\000ˆpb<\n¼@o£€\\œH{#÷÷¯\nQñQÖš(õ»­ö9ª7|ñ´xFiGÍŞu\n¼Û¹öÙ€‚Ğ(®Çn;áú]‡kĞÀê$Ñ%)s<¶z…dPêí^YAÀD\000Qƒ+Ú(Ğ`µ¢ÊU5ÕÁÛà¦ZíHßÕvK‹éã\r—nİ€óáT!èÄX¾<×l	›¥[m×¬Ğ=M\nÜ€ğNPÍí™ä7İ4I0Õ[Æ²uJ–´†µıÖ³ï`Àİô<|É¨|xÄŸ ë™€é¢£w	JßÔ©CÏyúÄ†{”¯y´'n];q\nÊ=›îY3F=„!·Td™Ï‹	;¾U:øüüÜrF:€}òÊù°Ô!0Áõ¹İF;DÈtã¹UäV ;MV¥ğ¿«¬˜ç?Ü€ƒV€—İ<2^!Ú©å¼ÊYù4&r™~º¼ŞŒ³ÀÆlğe£°>’îõ€U«Sö˜|lzÍğ0X„QÛ™‚Â·1mÙò^iº9!vsœY4ÕËvùœŞt/7Â^¡} —‡3ÚáT/‹ƒ-}gwŠE¢šxx‰¨åWºÛaú›}›PS€LUm?~Š@$ÛT¸o`ÖW«•òœU22XıË”vŒûÔ]‚oGÄX¥=s£ÁA2\"¿şOîĞÿËÖs¶ŸÛÒ¤oa$%ÈHÌªvÒ/øÊÀºİ!ó%%Ù¸±ÜÁá¢cš8zŒPª³™¶íë1ÓÔ(<b.`r‚?|*wf{·½Ô›ø<OØQ³„1äÚH&_Ì[Wô˜YPd£Ò~ÊšœÖÁ ‘È€4=6¹I³+² Ï÷,O—[²{¾Ør^Íç)ıGà­szoÎÓİ÷õ¥*ï_é]®ÆCÜÀUW+Š× ã§6pÛ]ùYGc<Ô´ëz‹a‚#¤Í\"ÿqÈ»Ì4w™“Ó¢ğ ½\r¦3ª¤ÛšİM8×¬À„Á¿³€`öO#É¡%|°ÕŠæú8ŒÒCIù‰äã½wu|mIvGó{))±ÉaOá\"FP›Ë“Ek¿HÖ0Cã)2\\+¨•.¨cbQ=šõ3Ù<‹4)„íBğ¬ä·ÈÃ¼Ò:ƒ¢ÙlIiï¡g¾O`cX?·ŠÁJ ¸~ş.öçñ eAv	¦K ı0¡8\rëVä€=\nf¬ËúÌyšäë¤,)·«9-º~t\\÷åÆvı0ğ¿‡·ÿ»±˜¿Waú{KrÍh`ˆ“¬(™‰R×vX˜¶>ÑÜ7Œâiİ†±•œv•ƒßdÿ-ÙËŸüjšv,_\"ìsğŒ·INÇ¡DŒ5€2\"=”\\L9´`;a0ˆ-¤hÿ^oŒ÷µ@ò7¥°¹cypWÄÉ~ÎÙZ!ag>W­ÎQ&{[¥k–Sírø™©+Ÿ¦JÍ®‹Í ûM³ÃSCñà¤±ÊhÁ8³:.ÎÎÏ,ëˆ‘å[ ôúøîm¬ù½ñ[µİáÑŠ>×{,Õ{†§wkş^UvçyüI}¦‡¨?êT/²ÏÈ¯?®ßü£©¡ê©ŞãpÛà\000O¡š1[XÉ~îÚ3ñÓRòk»ö½h·ÿ©I¸æ“ÈÔŸƒk\\‘;P\"#¾‡Ry{êë_Dz\r2·g;1gnP¿RWÕüşïâÌ—¿Æ/%¼¡÷µ”Åû\nhÌKPHœÉvÆ=«p·àgoRÈ‹p:su˜í^(îtƒŞˆ>ÖbÓç5JÂ\\Û|ër¬ÆñX{a»Œµ[yÚöß5	¹O7ÒGøiÙcíÏ³¿İ±vğ¦\"?øŞîéÛÌ?‡^?ÿÂßÑø;Üè9åò~ÂLaÄİÕ©ŞÔù1k+à}>GÙÕå”„€e•Sº¶ ´;Ã\000ùF?ÿdLâ_ÿğÿã<\rÿŒúç N=*ÛİŒÅl‰b£QoÚ±èu€Î³(Îğ‹°Âı¸g…·“şıÁÑcœ1~Ñ3ğ1¬,Å ¥Ş8\n<Üş@ßúèÎE£íÿ·ïû&XõØW;k«B–üîrmzIî2Ëy®ÂA+åw|\r7®;ÏWhğ‚ƒÑºÍÍ™	°ã)ÒiÔø\000Ê\r×Ó¾¤klõObÀi•X*^ØÂÃËB™l”%ÚÛÓü†G%ê¹É(Fî¾Ão\000Ûò¾ú PŒÑŞí¢øÅ›Â®æ„ñ5ö4»õ˜MøFÙÆ£ö»9&'é ş÷Öƒ÷üÁE‘n37>|Æoq:Á_u²?Õ—’k×»‰+¶ÙLıÀbíj{^lMÆÅpM·ÑájÊiiŸg»è$ûV7\n( e¼'ƒ>.Á‘6üŞD‹í ƒaHÏ—º5Ç¦ÆğŞMkÃˆuãK–0’uû¦éèó\"Ï§ÀuwÇìıpß²ÛgoYÎnoµAM?)œhÛ\"¢T£[Ó÷Ë`ïV\000ˆgLMKÎÖJ ¨©t§áJP¥ÍŒá_¤@ŒL\000\"9ÌöJ²E²ä½åŞı¬‚W äKV‚ù™²RX`Œ‘¶E9`\\ÓR„‡…­Qğäu½d˜Æ]ˆÇV®”cy“ÏÏ~MÒùXlX´ª)_	ø0Q&«û&ù4gly·9iÒ+áß‘ŒJhQ'—³(_äÛ6QQ„×Dí‚éù}Ó±ñ5Ø¥] üùL¹èğwÉ-Õçö:)9¶/?ãaà_vhÅŞ9ÚÑÅÁ/S’abn—|½ƒ-–3íÁœ]²äiàõ\r«ÆŸ„åœ©\\J\000ÂUÓûğlL¹F¯ıÙ–Väšä”p1\"`DÍïà³¾á×=|™b…\nÊçIF…ÛÛ&›Ÿü)åk•©]Ë·šLê:E\\ ƒç¼*noã0R\"g†$»ƒÅ3QÄ@°ôä´†ìÃÂ,	SuÜ½@,#£é^xÏÓÆl©É^6V/è]	‡ë¤ÍXÇ\rj˜ïšÏGA<WœxVK'§Èø×4İo«e±ËÁ¡åAéÏeÿ±’_QŞ#R\\ê>È&ê‰ñQe!óş5¥·Æûªì1¾’#9ñ:¯ QãÕr‘W°ÏçU^®(Õg‚\rz)X•ûdàæ®óûo¦éßG¯È1eF”rx²ÁVãâK>“³ŒI^;>ë™Œ0É0¬/šü^H\000+—¬JtÑ`*Î\000ÚÙŒ9]á®([¹íV´±¸ºØEƒ®Ö\"<'ŒÊñø³D/ÊÉç`ße‘Iş\n¸Ã8OrÊ+b]²¢üFÕVFÕi’¶sì){ûÈÅŒ\n«QÜ+a%7Å¬Å_'Ë%¦®ÒENËB}£ÊwõVÔÈLİ{^Ÿ©äğg/Òèû=‹êå'–/’bÛÏWs(UétuÙÆJšö	\\J»¾C:I5qÓÆeˆÙÊ;K)h~.uÜ0- ŞDĞGø2Àô=àKÛ’ˆKµÈT©%”Ü9t{›Kxa55³Ï%‚'æËF}KÑW$A{@™ÕéÍÚ&oå¤5†±†‰ÅsE%s±e‚úºÉn—£º †'º–Z¢èãaÏ%r’ÎG’ğ’Q|®.¹8âÓ!	¢Fí}9j/%í^P’Wßê\rvâ#eø$õ5Å¼,\000ü¾\000eåÖ]Vñƒ9­eØP¦O!²cI\nVu-„úÌªÛ”¶ô],hU_›Õ$|JğÂ1¥é:â¡Šn®CFNŸ3ÚTŞ8\n{ÉYg,Ï‡_æmä„©)¡b¬,ª\\äSÁDì›rÊ>Ñ‚7;u.î6ÙÔïh´S@^®íó9Yó‹ÃØ¦8Š\n OÜõ”<#îz‡H½¢::ÓfÖÈc^SÖARmatÆo‹,¸±V§$´S~ÌAwi9CRÀûK@\n¾2yö®Â*ø)âÕ§Ìø½øm„jº—‡7:°BÛd/¼#îÇjı™qèõÊWÛËCÓÿs#ï8èO¾2ş!RN±õJ2«CÕ¬îK¨cD¢£Ôô8WéÅuk}Nt19ãÍÂ Qó­AÓHT¤ùíõú^™™³û4%£;‡a8§iÖ²”;ÄrÍ;¬Û¸ \0001ªÙ·ŒåğO}¿`åNx×}i¼¡-‚<rŒ¨;À‹˜rü¦a ÈY—D²ÎÄê;œSñæĞb(ü³\"Éj„^©Â¿şlTîy¡¨`å^q'L^ínøÊ(OX—§›æ3ºñğ;V'ğp#÷\000J’îMqÓ^¯±„Ğ€À:µİğ—\nÜš¤®rˆ¬¦qÎ¨¸pQÊ‹NAïvÖŒíÍN›Û’6?#;`F¼.Æ}®Õ–qªíà³œI%ÅmÑ–·KxáşÖx‚'üïR0´Écˆğ.(×GsÀd)‚;ô?—Ìx÷şÆYÏõ,N%ê.ºLJSÅ_K±L3!^[÷åbzoA{q}ĞMu¾’ù9ğ‰&	ëà )®†Më&®Ğ:åÚÀBÏm’D¤Ìé?U_ÔyRì(Æ:ùÈ7›SE##¯7°¸2Â9Ë)İáIÏôS¡D¬àÍØ¶§‚Ü©ª¡şÁÄ8¦K-Ô¥í§ì\000K“Ó½ÀpëÛ”Óò)Æºşt/,±`(z²¹rs²†j±¼Ê!¸¢#àâeÙ¼C˜ğ°—<t\000«÷'ªÊmÁ›\nwÆÇMRJT£Ôº«É{ÚŒ-—6Rù;‰êåKØ%SK\"Ö*ª+_§æ¢7¦DÇr‡V¤dSÓT¯š&{µÔ4Ù«¥¦É^-5Möj©é\000\\ÑpµÔt\000®šš`µ¦¦N5°VËs`„$¥²?§‘ë#8åõ¿^şF\000¿‰;İ+ÊÒšîe!EËE—¼7{L!PØÎD0ò€\rÑÈ&D÷cBÃ€®ä[¹ıŞjDwrX&tğÀiÅËi5%®¥¹a™ëñÁ\\^\nıDN/\000OşMvw$½Óz©&­˜8ƒãBÙRJŒû|cğ#™„<=Bò†äÈÚÇïn^es°¤Â£êŠ\000+³ê€i‡bPÁÍ«\000úÄw–®«|ê‘3ìÖ;K•ƒyg˜ôªK¤A „@\000oˆZD\\Œï€;ÅŠuZxx‹‚­ÖÇ#ßÅ) —ÖâÕ:1¢^#ˆH–ê4–¼JôªDu–¢C'×¨N~«S~/:ãpmñŞô¹¿‹±àPDÈÅ¼'úíŒG¡ãâqèèöwrG%F-/5ØR•Lä“(9iêó¼ó&fÏoâmI•*ıûiS/‹‚Öå_fÛ®ˆÊÿ¦Ä©y¾YşL¯R7)6%°œí¸Í¦b	€â9.ÀÌÛ’LÈ€c°\"KÜ%ú±ùoX‹É{`1áŞ}$Jˆ‚­\000Oû³)Üè%- 3í¾¡ÏŠÚ\\I™6<'Áò]ÁaÜğ—x¶hv®ghÌ´Áô¥v$æ\nj‚õ¯\0006ù\\ğŞe-ü%‘€¡µµJe‘ÔàÄ¸^”ÎåmªˆwPÏêĞvLätªI03\000Ó6Æ_`a4æ‹ÃÜq~…Ãêáü`^†¼‚XÎË±ªÇ­¾&7‰öÇ/LjPÆ³ 2ãñŸÅgB+¸£•aç\\â<ºæëO¿e/?İÑ—À ækYR™ª^ºd”ÜpQRŒ9*%iT°J/2™†’uTŠûJÑg~›†Ç€Û™Œ×,]öÄ²ÛEV­V€.»AÎJUaËGèZ!8!)\"^Å§W÷|R”:M‚a}òô‹Ú_PIVôN£`‘@¤\"½ÁOçÇõ¢Z¾&2Ùa£×pxk‹ò·H'£ˆ×ø;–Œ|µêèÎëw9ãlÀĞlM›, ‘ƒ{Áİ…	ÛJô÷ù¥E13‘DïùO_Á\000óîR‚	:ÜíÅ§ı$XÕ¡+øĞ;&¿‹7}òæ¡İÙ‡|J&òÏa=sşkV“½ªû¥ÏÇ¡o¸´xº›Œ²Ş°l]Õõ§yÚxÏ€P€?ptdÊåÿA¸Aÿÿ«šCê:k1ğ4º¬“šc_\nÕ‚|`g™F/õÈàÇ¤B¯qÃízË0çËí-ÏwÄ¯8=ó «Ë=RµÓv‚º WÍ×FŠÒ!…ÆSámµ¸-6XEw×ù'º§xyI³%`lF”çw`;yYB,0>İƒ’XRdºW3£ˆíìÔc.z>øŞE›µ¬ä™Â¬œ'œÒŒOìÄ6¿maw	tO¼ÑÓ‚(=áJÏz¶¤²ÄÎ1—|8¸ñcìÆmm¬Kğé+¨Oá¨f·æIú·ÅøR»:5Š²½jëTşÊòit†‚ÚtÁ¦ÛTÅõÜ\r›§\\3ê\000Ql•Gİ3r\nû1P´Ohõ|b|˜İJ¦Uö{‹…ºÅÊüSL--£gyĞ2jL:‡ñÖ>ğ?Æ\000ïvE·Ÿ-¬÷&–_/ËÊÁíÚº½ÇŞAé¬îDK%ÏLIø<Â†#¨£Õ_#¢,ÅÛ•ì«Ç†”#ĞÃ!êm©Úêˆ5‡‡(S½¸!áËNöÂa\"ûp¯5ùÓ½\\­ŸîÕ®ñD¾¦öê¥6Ì‹²Úîx‰Š%V9»ú‡¡3™şŠEE‘ zô9nÑ¶Ç9½kå?Øzù*â|˜ç¬åéúLâ7é“•±cE‘ÌSÎ Kä‘¤¨sÙD]±îö®ş§ÊHıJÁR†§ğæqBú+ÙH$sµ³VZËTáJé`Ü*?“'¶ŠW–Ÿ¶U®^Bé€n`ìRÖBŒz7uñ‘	Æ÷¦]0? nJëó!şç",
+					["groupOrContent"] = "í\\moÛÈş®_±E>¸ß%lÙ²Óäš v.E‹C±¢VâBW]RqUäÇwf——%Ê\000Å}Hb“Ëå¼Ï3³Ã¼~Ø¶oí¡Óë½úÊdÊEBìqïÕ£ÈâUïU6{¯–Rl7äK36ÿûGr'äœ‘Àz=´z¿ü¢~ë½Jè®á¹è\\<®ìôc¶#¾åÉ¿ô`‡MïU(Ö›˜eì‘gIØ²Ş`)2qø`ß±¶İwü7î\rş+Ö°ù›7äAÒ¯,&M[èWÛßµ^ßu^ïÍ›o<É˜\\Ğıô(d<_ÓÍOaD³Ùv6‹Ù¿o)Ùn0‹7?;Ö·ìÆ+|ã·p:µ¬éÔño·ñZ¬¾ÉŞ€†!ÛdÄ¶ü±ô]ê_¯XÊÙ’ÍÿÔdT.\\‰…˜“Û-•ø7>İJî¸ïŒ£.È}4Èm\\¡wX%½ˆ{Å²è\"¾H®è’í‰¿gğM2’oÔJº‹¤;]~-ÙêâV(Ú›ÊÛx‘h·@c±¦»‹˜/£ŒlhíÙ)öleÃê;£Û\\ÈmZQ@`*àìEî3I y\"Í¶’¥ƒÁ`O4ø$£2Œ˜$z³Vê¾3ìÆ~®¤=k”÷=³[Iî€¢,J3ôÖZü{êß&ÉŠ±\r{iocúxš	0¢121ì‚‰;Ïéü¯ªÇ+µpIîèŞ2'w¸’»=ı“ˆ³¹Ü0³ÊÙïÖÂÁhà÷`àwÁÁy1£R¬¢o’ĞdnÜ¹ßÄ°w$Ä˜{ó¦xtÿ€Z^.2ùÙÕ0p‡KÅƒÔÅœ&fÄ°ST·Du‘’/B®LCı\000¹%†LQ¾}ëÍeÍ’9ØAM»!»ˆÑö­¾Ü½ÛR¼O§şĞqŞ&&“Ë,£á\n*¸H<:2÷íŞ`-fä`mË»½Ás†u|Å©³`Ù‰5¾Î<£&êÁVd\"p†¯(üÇÛ1à o¬ù·’%¦ÔĞ¼¾—¿&¡b|@Ş¡‚áš,„Ä¸Ì\råjríıÜø¯‹’Š¨vÅ9¸âj16İt«¤¼é®I{«(vâFeò† ›ğdŸ¼àW¿ÙÛHïá'‚¼gKÄOw\"??ÇÛ˜aºÏñ{¶t/Ø:–ä\rH`Ä‚);Ã¤z\r‰GiÏD;ún\000L¶)#®¸#xËgøwÿö`»Î0p¦şy%şCÄ`<®Òß‘f•fft™ªS|&6ğÇC‘ìj¾€!ÿ`[\nL¡×LÅ0¨a)lÈ¨O–äóFqv%Ö³g[•ã\000ü‚˜\000E0P__977ÓK¹†¸ğ1¦ƒ`’\n	ˆòœÌv„`—%d‹ÇšX‡\rÚ^àkÇ}¦seûÃ19ˆy˜!R9àß¤ôqµ\"®ƒVÄS#dÁ«0gÈ$³Øïx¶2š·qÌçTò×WT\rr^5äH3MOßîcÚ·+ À-uÑ°p“ğ,\riBj´·È$€ìàÙ»YÅ#l45‘Û÷Ld™X&®a#²Éü@?ÜÊ‡†•7Ú¯aê#£4ŠiªY-’qúü*ID£`ô[À* úk\000ßä³\n»ÚB\nvM$g¡¶K«Óû.0±¶W®eëà8…²Ûµã†\\†1#ğ}\r]»f9£Âr^¥øÓ®÷*¦3ØšaÏ»KšF§rÖ¸ïY@6‚™IîX¥MßÀ6¯ó}ÈeŠPµBÍ\000Ó°G%üÛ°^İÆ’P¡ y«•;håcUÔ×gkÕ\\$gà\"î‚I€JAuxhx„¦XhlŸ‹S²oáNz¶$_¦!axèÈÄ4ng¸è¸Z(ûI5ÜSó…\nèÒ'+èæD]Æù¡QÁLaé*ŞõÉÛŒüJW ¸¿ |öewQ±vé*«Š<ƒí†’ÕHkFKê~\n˜/fé÷Wµcİ\\pŠ°5´Ñ|nÀ6eà²½±\n\\Æ›k‰ùÀiWıƒÑXdèìk¹ƒµ­4¿P/ÁĞŒYET^êÄ5 Æ“@à-\000€‡ª˜¼†(…q~ĞÈ’ùwk\n\000™ƒ²®?R™F4ÂhzÇ°¥&Eœ’íF/Öq^\n:¯Ô ¶!”†ª¢,?†\"¾L—V/R\000Ğ[\000,'B³P«Œ(ïaÅ|0ëÏf^\000¢“‹Œ„˜²¿œîgz¤<İ8ºÎE´çÁ_-ë\000›÷½\000‚cË:#¸ŸÛ¶îúÎ£ÏlfXÆ‘¢¢\r„ø4b`K¹jG· ßÏ-ÿÇì±\rxäš2IËMXoXÒŒÜK£nZäÿ KHeµÜ?®şf>/ƒ‘e´ å	GŸÈKœ	øFÈcSTÛŒèW>ùŒp£­ùF`çşY¯H\0004Ò	ÿ\000 P‰m¢ÓRõĞĞ`w»\r–»+\000ÃiÒĞKÛ®×€Bˆ ¦Z/¯äi¨açƒÅÆ?Ö(´¶£hQ·a#µñ”‚à©wğ‘F',ã¨tt_éé»}€‡jÈW÷´‰işÇ»Ú0™äŞ$’.öÊ¹„„ƒLy’U÷º±—­iha:€\000Ùf²ÆõRÏ÷G!&•óğİ9õ’ˆYUí[yCjK2ÕŞ­™¶¢¶º\000=E©»j*Éb©u„ñŠ£M»ÒT—LHcõ†~]~§Íì—´…\\½…-œ¡ßÒ2FÖiËøBÍ¶è“\rË#×nŠVü´ôÅ”‘ÔûøÃa—ôg CÏX]ÿyèph¶‘ê Ï€†£jú$”;¿‡h»ƒ‡ÇøöŒøEÚß¨dIåLqd\r\rÃAr/Ó(ÉrËÈ•+–”pV‚ù•åë¶$áãü\nÌË˜³4²8\\‡›m÷ÍÇ{ 1%æñzÓı¦öbßV|Àg]iá=•<Miõlwdêá•t^ô )Wİ©[Õ*«á|ÈÖIšI¾jAZãn:¬`$1¯ÍŒ\\ÓŠ(ì£ÃÎ¥’—Â–`÷Pû½GKĞüşĞVõ`-èÜ„1ß¨¡ Ø1ZC°«CªşÏ#@…j	fye+¹8èëö1Ä}Øä†Fˆ-Úİ4\\öÒõæàÑ\"ãW¿nPW¿µ§í´lK,eÆY²8¹X–´ÀãKmä3„fPºêóËÀ„!ÃÇÔS¯±ÄØ`l¼éò´«›¶1ıJ•43º¬•²Õ&f‚\"Ôßb·²ÎñŞdµÕ›)[Z@>K×_Û÷ó“‡\rvëT™U®³Šc²¬m{mKDh7\\›>Zehä¶µ{}Õî÷±ït|…ƒ§ş)‚‡úDÒ;µ&À5js]3Òûœ|Ä]ˆ\\3B®N\nY½	·š›ûS·HFµâ¯ØWÜ6™\n!s\\8Syù•àJ—ä5=h…ŸgiŞäìxE;Qáî°±‚iOÂ¾£}uW >½‡	hK&óîÒIó’§¤Õs5V=ss°j [û4º½äíØ¶©ö3èÉ°#Ca§û´ùÄT'Ç\"ÆÄ”	:Õ SÙAÂ$SÛ‡ı¢C“î–óãĞÃè8CŠH7<Ñ~•ççu¼Üœg¼;†E§p‰i¸Û{ÚxçÁ7£	áVš‡øÍ@záŠ¤H¶Š­›xnhçI8Ï÷:ÄÖû\ngÏœ®pÌKwN`C¨°Â9‘GıÀ?œ‡p{ˆåãkœ¿‚7ÙÅ¼J×™BèÓò]Ï;¸Ã9mTuh}OYXà‰¶&!²ÍWi:ªFîšcggç`ÆÙä5ÿÊšBÿ¹|ò$tU:À1’ZìÉ…„£²>¡T:{îå0SİUåátAÙ¤9à¦âİıy¦ŞØØ·EãjòÔiªäTÉGŠNËAä)^_;mÁÓÇ£ÿğåMæ “U\n¨Xò¹ãsvPä¸ÆàÅaæj#ÒyÙï™ş nñİ?Úš)·›Lù«1ĞwÀÂ¹.í›\\½¨kú{!H£\r_³êç]S²‘ğo¨ËJûº£4Ş®Ñ¢”áap‰7Iesx6Š´na#¿è1è[(Æää;*ÎKñÍò!&ĞI.Ò„ŞºµÅş¢Ç-^õ¸åX)QÎÙn\rîˆVÉë«†Ö¢ã(UsöèôÎ©’\\UÚ‹%gË²ÿ³İ:Ğş3{ü£úq\\½}_6ú+g.å´úTSb|Z§ßá‘ğX\rCŸë¯Ÿw1•ÛNİÕÓîªwn¡XÍ)¹ªSp.ÅïéŠÒnLŞÒ;·Ö–óïÂÂt8¨3Øn=ÏÖ†ZÌJê-ùBS¨ïßƒ(>,Àğ@j•oê·:Í¨ƒ3'ClwZÆŒ». Å#æÄ„\\ùøvVVÇ`•ğqõıƒèQvMd×+A%ùjËbö;\n(Âïe(ÔTÎv'RR2çK‚GîÊ:¶3åæ¨¯İ:>ë»ÚÖ:AHš« ¤ãú0hB%XÊÒè}|'lşlÅ!VvlìÎœneï×Õ½¯ô5õI“Ø¦dÓö—K¬ì@+R„…xr€î‰ÕÀ\000Ûna¤Ô”Àt¢Xší(mÔ¶ısµ×Q§¬A{$x¨CkãÀğ\r¶‘À®éZãG(ä6Óß\"î‡U+,×¤+¾YŠ4å›g«ûÅ3®'´³ù-eæ˜ı×[)Ö°¢OîáIØF¿¶²Ş<Ì¼”-«½ÀX}%$],~p¡êP¸L”lWÅëTğä9¢qÎ2¿b',_\"*Ñöcï8-‰@Ï·;\rMÁãt1üotIÏøü`¿~¢Gß±–šõCS@ZIÆcìNèü^D&}Ö6å2Íö9½ÈA\r¢¨¥{ß¾QĞqÍ\nx×.ÿº\rWÑïìäšãcõò=—ìàš!“Kj×Õ	…şJüÇ› s‡7˜”a–îYf©†êªºûÄBü0†Í¿ÏB_ş@Âlÿuy¶à\000dïûV7”ë`YSğ°’ÛÚÂ©c	^³µHxH&r—f4&%‡¼h6p¬)P’…Ã\rİ¼”'kHè1ä–Îò9—¢£-…O4e1j‚ÉÃ\n‡oÜü<ÕtUS)\n»TkfÆ÷\"J.–dŞ‡¼÷X„Á†şÂ3Ôå#ïGá‹ï¾¡ «®w?¸Wl‚çXtI–E´İßBµÅ4nh’QP«†{\"\\à­Ök6¿CÅÕÓİR­ …»_<_õ][²>!Â>S%C\nQU¹Ğˆkÿ½]#ä2ğ™i³ºÂbœë£$¬+ÌZµqÃÓ#†½Ó]\"õ…„ï·.ó!—¨¾Ûn> ;½ìÚNÒÖø½øa;¬şumu|N±4îôId Ë¼vÕt¯pO²Å6&3Ò­>İlºÍ)ÎŞ)ºİÀsC!@Uc™×şuú³˜ì¦¶­nZùÏkæVš:´F3×¬ËŞ®gÛ¼/‚ÿqÔ|ÃYøäÉm‘…¾R|0o»ê#àê—§¾XªŸö9Yğ„Cšœ—oüdRì}ï§QC¦>GÊ33*kåüaÙß·Û³[svª[ì´{z¤­ŒW¼`ùƒ|/;Ïf\")gÂŠK½–A°üÁ	ÏÔpÈ¨àÀÑ‘bÆiZC…æ Ô98Oo¢,sÊc ó?!”½ÿı",
 					["metadata"] = {
-						["guideId"] = 3931312690,
-						["next"] = "43-45 Lower Stranglethorn Vale",
+						["guideId"] = 3837006316,
 						["enabledFor"] = "Horde",
-						["group"] = "RestedXP Horde 30-45",
+						["group"] = "RestedXP Horde 60-70",
+						["name"] = "69-70 Shadowmoon Valley (Scryer)",
 						["version"] = 19,
-						["name"] = "40-43 Badlands / Lower Dustwallow",
-						["tbc"] = "",
-						["imported"] = true,
-						["key"] = "RestedXP Horde 30-45||40-43 Badlands / Lower Dustwallow",
 						["wotlk"] = "",
-						["menuIndex"] = 4,
+						["imported"] = true,
+						["key"] = "RestedXP Horde 60-70||69-70 Shadowmoon Valley (Scryer)",
+						["menuIndex"] = 6,
+						["tbc"] = "",
 						["length"] = "611517172",
-						["submenuIndex"] = 4,
-						["displayname"] = "40-43 Badlands / Lower Dustwallow",
+						["submenuIndex"] = 6,
+						["displayname"] = "69-70 Shadowmoon Valley (Scryer)",
 					},
 				},
 				["RestedXP Horde 45-60||55-58 Western / Eastern Plaguelands"] = {
@@ -3009,13 +3058,13 @@ RXPDB = {
 						["next"] = "RestedXP Horde 60-70\\59-61 Hellfire Peninsula",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 45-60",
-						["version"] = 19,
-						["name"] = "55-58 Western / Eastern Plaguelands",
-						["tbc"] = "",
-						["imported"] = true,
 						["key"] = "RestedXP Horde 45-60||55-58 Western / Eastern Plaguelands",
+						["version"] = 19,
 						["wotlk"] = "",
+						["imported"] = true,
+						["name"] = "55-58 Western / Eastern Plaguelands",
 						["menuIndex"] = 5,
+						["tbc"] = "",
 						["length"] = "611517172",
 						["submenuIndex"] = 5,
 						["displayname"] = "55-58 Western / Eastern Plaguelands",
@@ -3031,14 +3080,14 @@ RXPDB = {
 						["next"] = "32-32 Thousand Needles II JJ",
 						["enabledFor"] = "Horde",
 						["group"] = "RestedXP Horde 1-30",
-						["version"] = 19,
+						["key"] = "RestedXP Horde 1-30||30-32 Hillsbrad/Arathi JJ",
 						["xprate"] = "1.48-1.68",
 						["imported"] = true,
-						["key"] = "RestedXP Horde 1-30||30-32 Hillsbrad/Arathi JJ",
+						["name"] = "30-32 Hillsbrad/Arathi JJ",
 						["wotlk"] = "",
 						["tbc"] = "",
 						["length"] = "611517172",
-						["name"] = "30-32 Hillsbrad/Arathi JJ",
+						["version"] = 19,
 						["displayname"] = "30-32 Hillsbrad/Arathi JJ",
 					},
 				},
@@ -3049,17 +3098,19 @@ RXPDB = {
 					["groupOrContent"] = "í\\{s¹‘ÿ_Ÿ.W²»YîxŞ3L¥¶Ê’,yãUÖ±”õ%WWW 	’8\rfF2]şğ×yó\"åµ“ºªûÇ¦f0@£Ñ_7øá‡Ğq'r\"÷ììù“)qægÏEÜŸ=ÏË³ç)Š=yÇ²œ­şã-y-äŠÏşÁÎşô§òÏ³ç)İ©‡G^ó$É’®ÈòRÒ|ËáÇí–ïvLòtC®šgğûÏûÁóÉ%ËDB—ĞÍ‡=|ÀÈŸ+8ƒñögÏ—b·OXÎy¾%øÍ™µ¹ —…9•³À¶Â™ãZá™õQ¤ŒÜæ’¦øb+dJ~¥	#?şx-|’oùÛïYÂSøû‘I‹ÜÑ{Ö}A®¥Ø}³IIB9^¿ß™çZÁÌ[Ş™µŞ7ÁpäšåªÓæÙ9Í¹ »=Y'|³ÍÉøRuÏ³¿ÀÜ—”'tô:NW³¹ã’gkšë„®Xöô©ü-]1¹äù¡ì0»ç{íÙ$jÚMÛYèYÑÌ­ù™|ßÀ¯YJ8Î+IÄãÙ?ŞÑäı´¼º²í«+70›|’g].Ù>‡!B9õ²üóÌ`WÀ1r·åìeŠ<2öÊD,ï{$E5·g^dÍıÓOs&× H/…LV;º±ÜÒ|Q,`VÿúÉÖ\"ÙÿÑµ?å}bÿ,$İ\"y!S`ŸÛÒxøûN€Œ‹µâñ]Ğ¤Ml{Ælz\r+–©!ÈË4å™H›ù½.p‚Ú6¶,]	©¨©è>g)ÿºµÈyq ”¼fôá@şZpPc²F.‚ÆYMëk&Ökœ~Õü¼€y ØèÌZŠ$aËœD^äÌœ›ƒØŠ]”öØ™ıà´ÍİÀõ†›‡ñÌó,;ÆæI––åD™ÓFş\\ôfWÓóNl\nöBê9\rÒã®t•®è\000¶ÙÏp0–ÏDh£ø¨A0Wö§y§ öa×î¨¡o·tGÓ±1Gm¯IFE‘€#R²”Ü€@:®à| =m¯Æş¬A`f·l_$Ë-“Ú0¹şüäny³ç`n¯„6Ì|×rf¾\rÖİ±±û?`¸Ábÿ_5ºKÆÅºcvì€³‚â™Ììñf¶å•DL6óÀÏ|ÚºHæ»\"%+ñ˜*ÒvÔrµ¶¿¤juIèõè,À-Í#¾¾ß|¯>}¤¨§İçÿNÉ=.&¾y¯Ş¼JØAç‰E~\"'<'kPg ÷`|e6Eq<ó}ô˜õj\000UhC0ô¢S9	=yØSØXë-pmªÑßà*)Šë{n…Ü€V)tWzİYÙÈßÊ¸›]ŸNn\\’;4ì\rO74åkhLsDaõº?RdLOqª«f>óğÔé´Âƒ»£CÛèı[Œ¯ºX!˜<è`\r™‰ãVÂ $v«¡:èh: ÁÜr¾ì0¤õù%°œ®Œ©ÔKór/ ó%•òóaîHº4)ì¹†1^%ü—¸r/7\"=Ti±÷¨¦Z äŠ?sæ–ÛêÁ8`»ëµ0\nudÜyMÉƒŒÈÅùMãÈq3òÆöğí9K¾y ’'ƒ4té<tjns…‘Å=K³#˜Ç`$­¹çµšB7EFŞcø+õ«à«MBå°]i«æëpö­D|æÑ{òS:M[ˆ”=ù\nüpê;ğÌìvN—Üû¦ €;né.£ƒ“é6Ò,Œ©Ş[Q\000Öá2C1SŸõ©tçÓTú8»–Â×€BÈ«lYä`§.©Ì·4áÃ„´Õéuç:½ç4Ïåbª(P\rKFÖÂ+l„c°ÕOi9ã/;›Z†<W“¡ÑÉtmĞÀâ¿.v&ócË_53Ä8ÒH¨Ş“‘[Ä²ÓüŠJ1n4]Ùı°zãcÚzìôSºæ	Ømô\\S&ÄÃfÀ¿ˆ¾k°¥ü¦«Á¡;mÃ¢óş5K–h8ÌüD¢é†M“GªbX!,CAwâ[b×™ç\000Òíé\r6\rz8éc\r=LJD€7„¡ízD+îašåXCm™İkXÏé\r¯ÀåßYÎ3ÔâßQä:Ì^ÒVaMøs§Ğ¦¾Bbeix^EWgÏ³œ/ïØ²£¯åâÀŒ…\n£	’İ9°Œ«FŸ7’çÂÄëùl)b°¸KÁ0K–2*ÕƒÕ	¦Å¦É‹Ut¡“çAèÜ—GoJ¡Ÿ*@ñ§—°åhÍkŒ_yªÖLÅE…lX‚’‘¤èBˆûzš›'-XóQ;O‹4BÑ>T]]ÀGK@øau&êwşv:»ƒŒ¨ü‚±NS6ÎûªÎ¬4ÿGÙIö¼–ç~i²ó=¢×š6‰¦9ıÖ½fm`°vÀ¼ã¬IT»û[)mü7í‡†s¢ƒ*YQ<‹\\+¶usSRq~qéßˆduPÉÊOÒÔKMy0µÙX9Ãº‹t•ukeĞ9Ğ4ëmø!Kv_\000yº~úáğe’Æ4ÑÕ\000çBˆğš.ïY[À(ğ)˜°6K°hÈ®Hr½APÆ¨r-*3_áÆ¸¼Iè¡•pàHC0•Ğc\000ÿïÑQ™Æ–CwœHf‘ò<CV2Ppİ¼yÍVŒØaåÊ6ÈV<£Š~|»d)˜åä;\"…ØÕYk‘—I&Èš§<ÛªÔz3EMvöĞœıÑ†<âÈY±Û¡>\n²z¤„(\n¯1…¢Ér$æ~Ó$ß>›f;BË6¼À¼ãæC^a2ê‚¥œãR¢œ_™3,%¾qxøè)r¯o|µ;5C48Ç`\000Ğóş°'ó} RFäZr >òE!<şş…ï„¶ıa?¤x*°Î1®6ív¨¶K\n–	q'=M	3<×\000Z3mƒñ~İùK`(­zÄoÅBÌÉU.™ÜÁëß—èbËF“÷lÕÀõ—	xuº$7U64CïèÎâĞÈ@ÂĞ³îßc^‹\"#Ujô_æ˜?ú¹KÊ9·Ên¨\\$ãda?‹}¿®¡¹#ËR–—i­Œ-A­È—µf‚€\000#OV ™ß°\rM‡X¨ÑıËMÎşPjí¦º	€tJğF	ñB„N¬öúÀ3r¼=€gJôîÛ!AZÁRcŠèËpcõE­5—lAQ–±Ë”È\"Mñ}„®èóÏµzáşÖ8CÑŒC}=…>Ğ,…‰=ÖßıĞN	•ƒB6ÇlƒÙGšÙ QôO7›Ãä¢Ò}-<C²0DSÑú‚E¹H *%HÒÖê[’¾÷ŸGkp“²ì»Ñ‰y†Ã\r¼¡XFÑ‡ûğs@TEçA§sÀN*Õ]6Ä.*bQGX•¦Dªı2‘NCQf¸{9#³!•¼çb_\n»5¸»¥Ã>âÔU<îÆ–Ó™öØ²\\J¾Üï)g`»R{œàœãëT\000v'ı¸º]4U‘Q1crJ>&{b•¸œ’IšĞŠ:S\nÆ¼ZŒoéŠ#âÈŒèqW§ÖKÊwûŒ€Àğ*LäYÆa¹WÀ“lÜ(øˆíbáØ”fógat¬ÙS{3°Çàº*C^FÓJ ssOd\"<ùšî&7ìë1T7Å=n/O'ø³wš0ÏL_ë¶®/qG×_9Ö?-q}…ıXÿ«e¨}ç©±şdVí«³9Œt6_¢ã+’=4@“á¿¢3zJz»YjO§ÁÈo[öÒ@§·\0005·Ù‚%…†à\"NÑ!a‚\r•TÛ¦ô´U½/¦gäïèE÷{)èr[£`KÉUµßŠMÙyˆ0!Úñ,_S0ï¤<Š6#{®'\000ùùÛÙãÆL·ék*wSK€NÍ†nFíùt¶—@ğ§¤1r\000šEè×|5½*«²VÄ¸ZïÉy‘ŞWûäO³rmm7Cø¬·Û¢!ÒhĞ]8c«‡XÁ'EŠ$Å>ƒ2ÂëV™W‰	¶?9lOÓ:ğ_ĞL~ÀslÒE˜ÉˆíN”å˜YZø»ûŞíüíh	îtø¡\rî¡	ÊõhÜäQ:</Ä(ç»f¶6U•+Ú£†„€\000·Ü=k%U!B·JÂV…X»/G3aÕb£©¹º\n\"×=E²brÍaö¿l$Ë0WE§5Àƒ¯Ô—¶}Ï$[	.âtGKšåğß§;ÇsÀÿ£ı)ÿÏ+l\000ö^yÖÿ\"mÇßŞP…À@fxºÄtÀ·UÑá\nÚÎ öÌ‰d«b	/vâe{4N¸@àEì¨ß¡ál¸F•X°^¤KáxºpxE<0>RÇ/«¥ ªÑv,§ÊeyÙ\000¶C]8¡ª^\nq'.ãïĞAœo—‚¾úí#èŸ{ê·k>w­ÀÅocµ	G\n'« !P¿mµİ ’èÏ]Ë·ñy¬~Çjf`ÿª‡²mÎi‘y•‚ÙÁz-Xæ./*5z_ÿ.ÉQ%ï0s°¦e9e]âH]Ê¼ä³· ¯xúp~3¢v\nÊa½0TÃ^²\000z>¢…»İ‚òc¿«º…\000VÖ½í1L¬¸U1ë…âÕ‹’U/§^ÔŒ2µÑíkcÍ]}ü`@}+rÔöt¤B|G ö¡8(ÆŞÛ š¸VèÖímUìYN„¿çJì#øwnê·à~¥­Ôà€à¿ø;À\000\rÛ8X=jGj=Âç¡§,B ûê7¨ÌÜÂL`ˆ¥¾ÜÍJµcŸ—*.A›Ëÿ[å¾UÄEoXJsª;lU½ò}“»Â#$+²Å<zé¢+ÜqIÉK€ıÓÕğ¶‚æ~˜WUéİPÑ„ğ¦S@B‹„©-R [n·œ%+Ğ æÛ¢àw5£pÇÎ¾S\\©ZÓlK¾UÇ\rd±Ï¿ó:UfN)B=jwjJÚªiÍà\n }9ƒNuÄ‚Ê´Æ%p–û­PÑ9’Œé7,ä•H3]ğD¡7Äí¬ØÈU(zõ¥Š’Iz«„uµæˆÊğGÉÿFÀ\\eMò!ü­çÁ³6¢S)j¯:`¬ÆìÒy2ˆƒà4°•§·ÛjHßíTC¾• Z,Ë ƒ0‹q{¯ËÈCyPwë}UH¹¦‰qfH{ª×ì·›B½^'öNGÉˆ+2¦zÕ:àé/±TÕk!JñØTëËÖatXL?çƒq3¸¹bz>§ª=mÎßlŠOëâ·êk­nU¯dSUÎŠ¦İ8¾fÆÈœ\\K¡A_çÖ¯å/d’d{¹.|¸m¯\\3Ãk!¿ÙÃ9±ê^¶zA#SŸA	øF'FmsÕ1«ša}CS}áÊÑ›<A;|S‚\\~£-—Yº¿¢j–Ùo%¸;à‘	4äèzşòL¬=—`\\Fè{|‚éa†fZù¿ğ]UÉu›Ğî‰`pı]S³€!'ˆ	0ç@6¨[çâU¦™±î÷¦²E\nr“Õ!.Ñ3ÖÖÁŸ…Ag7«×JÎôâ1\rX`ºî‘@_Ó#†1•t²•ƒ#bùîd+LèõRütå¹ÇINÔ\\­¡à{&Á/ßƒS¸ßT¬C1€Tdd@ğo·ó÷Iu1 ­õØïè>²,š`x÷®2¦în8½: 2A(R{§ „<x0(sR Ã›8ÚÜ‡Ç	–‹5ÕØı¸A9+hã;Ã•&1Ç{Ä*	·W%Q–GøZyD‡ÙcG œî1ğx‰´òQ¿ Ê±§[á!1Ï>¢_¾*>\nh§ÔÁ9ÒÊWglº»^½V1ºúèH_\000CŒ´¦çaÉ†×İ]åıY¯4§Ö	:^›ƒ:p‚|G½ı9İµº#ï‰¨ÇØ´0 ËÜ‰'áÎiŒ®SÉç17ÙjÔUvıä¸³÷y×Ó4¹¥÷‰n¾¡ß8à=;Z*ü)è©ÜßÜ>à§á³fdÿÎÕ ¯å\\ğ$Î_$5s¦æğô Ä®c£“ˆ:›%åÀÿ–}Hß9¶İÛ\000ÛOİbÜÔªOæ{ú9¡fB†ên]õH´'7ÛÁu»!49áp„1t*²¦Ä6vÒ{Ç\"Ç_6üvô‚ëîç8-Qª®hÀpSx \\ô>jùî‚Ä¶åÏ#•sgØÀjo¿Á\"0½0!6e×¦ëDs%=$Ö6Óë©=Ò9hºkqX&\"å4=¢´ƒ«‡ÅoÊ¡Ş×TZ;t	Épië`2©[»ÀKáÏµ³_ŸuIÍÑê&’†¥“W‘¼•è:åÖÌ2#_°CRUS(¢”iùeB³ó¬	÷/iÑ®Š¨¤ğ¤Ñ1ğr‚/9:8FvÊĞAˆC«ú½/5t}Øá„Ñcà¸âÔcu6òQP^ÎqÊø8G*ùRc×[1'ŒÄ sûKñŞ°áQ›¢bºÖ¨ø¥zøN@yş\n#o¯‚ĞS%JélĞ¼!·±©d\000¦]›J¶K14#~…e®X„0\\Ì6Ö\\w7å8zÓìfúM¡é‘¹‚&à%-s×rív2¿RÉwTÅÔƒÔkïÚ6û„¨åEmà!±ËÊD»ZgrÇ¶2ÇÑn„H7xiBEsó·:Vâ†êö“ğI2\\şlèÊ?ìHoöHån#ÅcÖ\\æ€Û8À_[%x›P´õgÖVUL\000ï¥v{ÍÀ8ç<}œ\000ƒßÇ ¢7NéÓ®$ƒŞà“·Fiıšñ¼éÁâ JÍ0LVe ®¦búûZÉÔ‡¿È\r¬ûJTÇµÕ™³xş$\nšQÚÎÑšÙRò}>Æ,šPÁ¼ë–¥m]TS6ñûÇ*‡+´‚â¡vğ·ˆ¶óÔ.KM·óÔv/os°Eª$ÅS\r¹xDĞ‹óC¥¼<w_½ººT›+r±e¸Û›ôñ1@!Ù³tº_óyÁNıayxï\000“ğeË`c—VÛsO÷ ',û›«>úi / @ëÚ^$|½®0)L2İà\r-ƒÖp°¥qü44vècôzÑ5SåzG,CÉ\000U²U]%ñ.?uõS×ş1O0Ç-ÏÈ†?”u„ßş¶ùş{âÁßúö;Yëu¹{¦¥(¯0J¸WÎnëUßª$éE\"ŠUÆ bu§‘r-ê¨ïzYïlUÛ½†±í®üQ#_ûzq¿ÈÉ‡B{o x¿·Wx‹äà>c»H_•²æ¦CãN1ÂZf9£*ÂÓJğÛbxíÖ#=XÕ-u r‡X°x8'R€çOšT%Ë6uf^]†bµ•ÍÊ\n¾4Y€#>ÀÜmd¬„c$ß‚3Í”ô–™K¡_9çŒšêvâ¿™ÊfU=ÏòNà9YlYÒ;A¤o8ó¡Î¿tzõ’%XÓİÜƒwŠk‰WüãÇDËÊ²…HòaèÙke®«'8Ê8»½æıIÄôZ“·Íım¹b ÒX?¢\"š‘Eˆ-¡Æ]“ë8´öÁÄòÎ¿øò³ñ®Ø	¹x†a‚Íşé4ş¡h×AÂ[šäê~_,»q*£Q³ãnOhw†½?òá³å+ƒãº²ŸØÈŸùf›3´xôŒ®¬:à‚Óº€‰Ëû]bşcËÆ¼A¿™I§¾º/É9^1Yäw¢¹·j²´w)_ÁÈ·xÎŒè%F„7Œ–p‘–†$TNÆ3!+‘~“—§BĞƒÃG©xœ—hã!S…¡ëÛK½P!Zê)åQÄW[Á×ô#î!s}X] gxUî…<d9M¶¯8Î·0j×zB‘}¤Í¬ÿŠ‚™gºÒ(0ğ‰Î¸£³vì‰Ø!Â]ĞQV<ÕJ•!DêÑ©f1–`SÅ¸G`ês²UTo\000û/¸\\&¬a»q*¢ZNü³=^o^Ñ]]iˆXã¢Zü®›lU÷ùĞÓª/µÁ»êŒ¶ßyPV•ê-‚n‹î	‚ØhQ){¤\\¬j…WGñ:‹8P—dÍ0÷S• §°ˆ¤•`M-¸GV'Á¹£‰  ÒxóÆªm\n<£{€iõ[®ò0•9 \r«Õ,P×ÍÌÀçÆ:’Ô7yË¨ª@oË©œâÑtôÕªjÀÉÏ=¢\n-!ØRÑù)} +Td%\\ìUy³ÒluŞzÁ¶5“V|C2·9½Æ£¹—I«îúKNB7 5ÕÕ«òu}ëÕn†øµ*Hy6Ñc\\\"³\\Õ;b\\óYw£ô>éµ8EÔL ÿ¯À³-:3òƒÓ€V	\"1—¬ĞÒÉ¨ !Æ6 bœŒöÚş:õ„¸7Š+5œ¢a¯Ò¥,2¼Ôæ0\000à t\n)kèàâ³¾÷JÖ_}à	[}[´3\roF˜±]|ÓLÚĞ\rÇµXàå¶·{‘fBf[Ş/r:‚ˆÂ/ˆˆÚ©k<\n‰$ûgÁÑäjÇÛ8ŞHIDŸ×·‡èhÆaºn¯´î£94µÉéšYi¤ìBŠ,S7Ìw’M/¦6']ÃÓ‡(ÉnóÌÒëùšI;gÉáš¢©\\î62ûZÒiÒİ\rå»İûŞ~ã©;·ÔuQ§ïwM¶OoÕjœÃ»<u²ùK~‚8K!M©äjã\"œ¹A]‹ÓJi·:\"2*×Ævˆ*ÑkÓÀo„”#åFå+Sßâ~^É‡LÏI;\000â§QÓ˜ÔØŸÆbÿû",
 					["metadata"] = {
 						["guideId"] = 2877887810,
-						["next"] = "33-34 Desolace",
 						["enabledFor"] = "Horde",
+						["next"] = "33-34 Desolace",
 						["group"] = "RestedXP Horde 30-45",
-						["name"] = "30-33 Hillsbrad / Arathi / Shimmering Flats",
+						["key"] = "RestedXP Horde 30-45||30-33 Hillsbrad / Arathi / Shimmering Flats",
+						["version"] = 19,
+						["menuIndex"] = 4,
 						["xprate"] = "<1.5",
 						["imported"] = true,
-						["key"] = "RestedXP Horde 30-45||30-33 Hillsbrad / Arathi / Shimmering Flats",
-						["wotlk"] = "",
-						["version"] = 19,
-						["length"] = "611517172",
 						["tbc"] = "",
+						["wotlk"] = "",
+						["name"] = "30-33 Hillsbrad / Arathi / Shimmering Flats",
+						["length"] = "611517172",
+						["submenuIndex"] = 1,
 						["displayname"] = "30-33 Hillsbrad / Arathi / Shimmering Flats",
 					},
 				},
@@ -3070,6 +3121,7 @@ RXPDB = {
 RXPSettings = {
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
@@ -3077,6 +3129,10 @@ RXPSettings = {
 			["xprate"] = 1.7,
 			["frameHeight"] = 125.0000076293945,
 			["macroAnnounced"] = true,
+		},
+		["Alsia - Venoxis"] = {
+			["hardcore"] = false,
+			["frameHeight"] = 125.0000076293945,
 		},
 	},
 }

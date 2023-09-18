@@ -10,11 +10,12 @@ GargulDB = {
 	},
 	["LoadDetails"] = {
 		["6.1.2"] = 1687520757,
-		["lastLoadedOn"] = 1687520757,
+		["lastLoadedOn"] = 1694900950,
 		["6.1.0"] = 1687288287,
 		["5.1.1"] = 1687381795,
-		["latestVersionChangesShown"] = "6.1.2",
 		["5.2.0"] = 1687381795,
+		["6.2.4"] = 1694802777,
+		["latestVersionChangesShown"] = "6.2.0",
 	},
 	["LootPriority"] = {
 	},
@@ -133,15 +134,24 @@ GargulDB = {
 			["includeOffspecItems"] = true,
 		},
 		["UI"] = {
-			["ReopenAuctioneerButton"] = {
-				["offsetX"] = 188,
-				["relativePoint"] = "CENTER",
-				["offsetY"] = -5.5,
-				["point"] = "CENTER",
+			["GDKPOverview"] = {
 				["Position"] = {
 					["point"] = "CENTER",
-					["offsetY"] = -5.5,
-					["offsetX"] = 188,
+					["offsetY"] = 0,
+					["offsetX"] = 0,
+					["relativePoint"] = "CENTER",
+				},
+				["Dimensions"] = {
+					["height"] = 410.0000305175781,
+					["scale"] = 1,
+					["width"] = 660.0001831054688,
+				},
+			},
+			["MasterLooterDialog"] = {
+				["Position"] = {
+					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -166,11 +176,15 @@ GargulDB = {
 					["relativePoint"] = "CENTER",
 				},
 			},
-			["MasterLooterDialog"] = {
+			["ReopenAuctioneerButton"] = {
+				["offsetX"] = 188,
+				["relativePoint"] = "CENTER",
+				["offsetY"] = -5.5,
+				["point"] = "CENTER",
 				["Position"] = {
 					["point"] = "CENTER",
-					["offsetY"] = 0,
-					["offsetX"] = 0,
+					["offsetY"] = -5.5,
+					["offsetX"] = 188,
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -228,6 +242,10 @@ GargulDB = {
 			["minimumQualityOfAnnouncedLoot"] = 4,
 		},
 		["RollTracking"] = {
+			["sortByTMBWishlist"] = true,
+			["sortByTMBPrio"] = true,
+			["trackAll"] = false,
+			["sortBySoftRes"] = true,
 			["Brackets"] = {
 				{
 					"MS", -- [1]
@@ -246,7 +264,6 @@ GargulDB = {
 					false, -- [6]
 				}, -- [2]
 			},
-			["trackAll"] = false,
 		},
 		["LootTradeTimers"] = {
 			["enabled"] = true,

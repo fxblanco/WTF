@@ -27,8 +27,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -260.4240417480469,
 			},
-			["startBid"] = 150,
-			["increment"] = 50,
+			["startBid"] = 100,
+			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 152.6455535888672,
 				["relative"] = "RIGHT",
@@ -42,95 +42,65 @@ GDKPd_DB = {
 				["x"] = 460.6379089355469,
 			},
 			["point"] = {
-				["y"] = -172.9643249511719,
+				["y"] = -36.5647087097168,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -230.9379119873047,
+				["x"] = -344.4711608886719,
 			},
-			["startBid"] = 500,
+			["startBid"] = 100,
 			["statuspoint"] = {
-				["y"] = 84.42755889892578,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -232.0364990234375,
+				["y"] = 198.1217803955078,
+				["relative"] = "BOTTOMRIGHT",
+				["point"] = "BOTTOMRIGHT",
+				["x"] = -247.5718688964844,
 			},
 			["balancepoint"] = {
-				["y"] = 167.4859466552734,
-				["x"] = -385.6659545898438,
+				["y"] = 168.8369140625,
+				["x"] = -57.10249328613281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
 			},
-			["increment"] = 100,
+			["increment"] = 10,
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Perakon"] = 0,
-		["Hópéful"] = 0,
-		["Graveofmaria"] = 0,
-		["Somemilk"] = 0,
-		["Gdkphunter"] = 0,
+		["Dmz"] = 0,
+		["Onixus"] = 0,
+		["Bashgirl"] = 0,
+		["Hâkkî"] = 0,
+		["Helyo"] = 0,
+		["Simicolon"] = 0,
+		["Maturitass"] = 1126,
+		["Graveofjenna"] = 0,
 		["Widi"] = 0,
-		["Maturitass"] = 2322,
-		["Viphazz"] = 0,
-		["Kentharo"] = 0,
-		["Domedonmaya"] = 0,
+		["Synthesized"] = 1126,
 	},
 	["curPotHistory"] = {
+		1000, -- [1]
 		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:47993::::::::80:::::::::|h[Gormoks Band]|h|r",
-			["name"] = "Viphazz",
-		}, -- [1]
-		{
-			["bid"] = 4000,
+			["bid"] = 9000,
 			["item"] = "|cffa335ee|Hitem:48001::::::::80:::::::::|h[Feuersturmband]|h|r",
-			["name"] = "Kentharo",
+			["name"] = "Bashgirl",
 		}, -- [2]
 		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48017::::::::80:::::::::|h[Assassinenhandschuhe der Sonnenhäscher]|h|r",
-			["name"] = "Gdkphunter",
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:48001::::::::80:::::::::|h[Feuersturmband]|h|r",
+			["name"] = "Hâkkî",
 		}, -- [3]
-		1000, -- [4]
+		-9000, -- [4]
 		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48025::::::::80:::::::::|h[Klinge der Nemesis]|h|r",
-			["name"] = "Gdkphunter",
-		}, -- [5]
-		{
-			["bid"] = 2500,
-			["item"] = "|cffa335ee|Hitem:48049::::::::80:::::::::|h[Schulterpolster des Schneebanditen]|h|r",
-			["name"] = "Viphazz",
-		}, -- [6]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48040::::::::80:::::::::|h[Stolz der Kor'kron]|h|r",
-			["name"] = "Hópéful",
-		}, -- [7]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:48697::::::::80:::::::::|h[Langbogen der rasenden Pfeile]|h|r",
-			["name"] = "Gdkphunter",
-		}, -- [8]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Viphazz",
-		}, -- [9]
-		2000, -- [10]
-		4000, -- [11]
-		{
-			["bid"] = 300,
+			["bid"] = 260,
 			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Perakon",
-		}, -- [12]
-		-2580, -- [13]
+			["name"] = "Graveofjenna",
+		}, -- [5]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 23220,
-	["prevDist"] = 23220,
+	["potAmount"] = 11260,
+	["prevDist"] = 11260,
 }
 GDKPd_BalanceData = {
-	["Maturitass"] = -2322,
+	["Maturitass"] = -1126,
 }

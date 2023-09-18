@@ -9,11 +9,12 @@ GargulDB = {
 	["TMB"] = {
 	},
 	["LoadDetails"] = {
-		["6.1.2"] = 1687518361,
-		["lastLoadedOn"] = 1687518361,
+		["6.1.2"] = 1687520757,
+		["lastLoadedOn"] = 1694864454,
 		["6.1.0"] = 1687288287,
 		["5.1.1"] = 1687381795,
-		["latestVersionChangesShown"] = "6.1.2",
+		["6.2.4"] = 1694802777,
+		["latestVersionChangesShown"] = "6.2.0",
 		["5.2.0"] = 1687381795,
 	},
 	["Settings"] = {
@@ -123,15 +124,24 @@ GargulDB = {
 			["includeOffspecItems"] = true,
 		},
 		["UI"] = {
-			["ReopenAuctioneerButton"] = {
-				["offsetX"] = 188,
-				["relativePoint"] = "CENTER",
-				["offsetY"] = -5.5,
-				["point"] = "CENTER",
+			["GDKPOverview"] = {
+				["Dimensions"] = {
+					["height"] = 410.0000305175781,
+					["scale"] = 1,
+					["width"] = 660.0001831054688,
+				},
 				["Position"] = {
+					["offsetX"] = 0,
+					["offsetY"] = 0,
 					["point"] = "CENTER",
-					["offsetY"] = -5.5,
-					["offsetX"] = 188,
+					["relativePoint"] = "CENTER",
+				},
+			},
+			["Settings"] = {
+				["Position"] = {
+					["offsetX"] = 419.8501892089844,
+					["offsetY"] = 27.00002098083496,
+					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -156,11 +166,15 @@ GargulDB = {
 					["relativePoint"] = "CENTER",
 				},
 			},
-			["Settings"] = {
+			["ReopenAuctioneerButton"] = {
+				["offsetX"] = 188,
+				["relativePoint"] = "CENTER",
+				["offsetY"] = -5.5,
+				["point"] = "CENTER",
 				["Position"] = {
-					["offsetX"] = 419.8501892089844,
-					["offsetY"] = 27.00002098083496,
 					["point"] = "CENTER",
+					["offsetY"] = -5.5,
+					["offsetX"] = 188,
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -218,6 +232,10 @@ GargulDB = {
 			["minimumQualityOfAnnouncedLoot"] = 4,
 		},
 		["RollTracking"] = {
+			["sortByTMBWishlist"] = true,
+			["sortByTMBPrio"] = true,
+			["trackAll"] = false,
+			["sortBySoftRes"] = true,
 			["Brackets"] = {
 				{
 					"MS", -- [1]
@@ -236,7 +254,6 @@ GargulDB = {
 					false, -- [6]
 				}, -- [2]
 			},
-			["trackAll"] = false,
 		},
 		["LootTradeTimers"] = {
 			["enabled"] = true,
