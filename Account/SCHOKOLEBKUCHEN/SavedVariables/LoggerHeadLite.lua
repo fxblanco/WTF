@@ -1,8 +1,8 @@
 
 LoggerHeadNDB = {
 	["profileKeys"] = {
-		["Fieserdot - Venoxis"] = "Default",
 		["Endonuclease - Venoxis"] = "Default",
+		["Fieserdot - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -15,6 +15,7 @@ LoggerHeadNDB = {
 				},
 				[603] = {
 					[176] = true,
+					[175] = true,
 				},
 			},
 		},

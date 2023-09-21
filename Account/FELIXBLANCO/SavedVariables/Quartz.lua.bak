@@ -7,8 +7,10 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 			["char"] = {
-				["Andrés - Venoxis"] = {
-					["enabled"] = false,
+				["Kwasimojo - Venoxis"] = {
+					"Shadow", -- [1]
+					"Diszi", -- [2]
+					["enabled"] = true,
 				},
 				["Khalimmortus - Venoxis"] = {
 					["enabled"] = false,
@@ -16,10 +18,8 @@ Quartz3DB = {
 				["Lucho - Venoxis"] = {
 					["enabled"] = false,
 				},
-				["Kwasimojo - Venoxis"] = {
-					"Shadow", -- [1]
-					"Diszi", -- [2]
-					["enabled"] = true,
+				["Andrés - Venoxis"] = {
+					["enabled"] = false,
 				},
 			},
 		},
@@ -71,68 +71,7 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Diszi"] = {
-					["y"] = 242.9505157470703,
-					["x"] = 1.70147705078125,
-					["point"] = "BOTTOM",
-					["w"] = 200,
-					["border"] = "None",
-					["texture"] = "Clean",
-				},
-				["Shadow"] = {
-					["y"] = 227.7035827636719,
-					["h"] = 35,
-					["point"] = "BOTTOM",
-					["x"] = 3.527130126953125,
-					["border"] = "None",
-					["w"] = 350,
-					["texture"] = "Clean",
-				},
-				["Default"] = {
-					["y"] = 295,
-					["h"] = 40,
-					["x"] = 1171,
-					["border"] = "None",
-					["texture"] = "Clean",
-				},
-				["Pally Tank"] = {
-					["x"] = 1171,
-				},
-				["Luckyone Healing 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["font"] = "Expressway",
-					["w"] = 321,
-					["nametextx"] = 2,
-					["y"] = 90.9999771118164,
-					["x"] = 0.000244140625,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["h"] = 18,
-					["texture"] = "Minimalist",
-				},
-				["Luckyone Main 2.21"] = {
-					["timetextx"] = 2,
-					["point"] = "BOTTOM",
-					["strata"] = "HIGH",
-					["x"] = 0,
-					["w"] = 276,
-					["nametextx"] = 2,
-					["y"] = 227,
-					["h"] = 18,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["font"] = "Expressway",
-					["texture"] = "Minimalist",
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -156,42 +95,42 @@ Quartz3DB = {
 					["point"] = "CENTER",
 					["strata"] = "HIGH",
 					["timefontsize"] = 11,
+					["x"] = 358.0001220703125,
+					["w"] = 238,
+					["noInterruptChangeColor"] = true,
+					["y"] = -140.9997100830078,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
-					["border"] = "Square Full White",
-					["noInterruptChangeColor"] = true,
-					["y"] = -140.9997100830078,
-					["x"] = 358.0001220703125,
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
-					["font"] = "Expressway",
 					["nametextx"] = 2,
-					["w"] = 238,
+					["border"] = "Square Full White",
 					["texture"] = "Minimalist",
 				},
 				["Luckyone Main 2.21"] = {
 					["timetextx"] = 2,
 					["noInterruptShield"] = false,
 					["point"] = "CENTER",
-					["border"] = "Square Full White",
-					["timefontsize"] = 11,
-					["x"] = 278.0001831054688,
 					["w"] = 238,
+					["timefontsize"] = 11,
+					["font"] = "Expressway",
+					["border"] = "Square Full White",
 					["noInterruptChangeColor"] = true,
 					["y"] = -140.9997406005859,
-					["font"] = "Expressway",
-					["fontsize"] = 11,
-					["iconalpha"] = 1,
 					["noInterruptColor"] = {
 						nil, -- [1]
 						0, -- [2]
 						nil, -- [3]
 						1, -- [4]
 					},
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["x"] = 278.0001831054688,
 					["nametextx"] = 2,
 					["strata"] = "HIGH",
 					["texture"] = "Minimalist",
@@ -264,7 +203,68 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Diszi"] = {
+					["w"] = 200,
+					["y"] = 242.9505157470703,
+					["point"] = "BOTTOM",
+					["border"] = "None",
+					["texture"] = "Clean",
+					["x"] = 1.70147705078125,
+				},
+				["Shadow"] = {
+					["y"] = 227.7035827636719,
+					["h"] = 35,
+					["point"] = "BOTTOM",
+					["x"] = 3.527130126953125,
+					["border"] = "None",
+					["w"] = 350,
+					["texture"] = "Clean",
+				},
+				["Default"] = {
+					["y"] = 295,
+					["h"] = 40,
+					["x"] = 1171,
+					["border"] = "None",
+					["texture"] = "Clean",
+				},
+				["Pally Tank"] = {
+					["x"] = 1171,
+				},
+				["Luckyone Healing 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["x"] = 0.000244140625,
+					["w"] = 321,
+					["nametextx"] = 2,
+					["y"] = 90.9999771118164,
+					["h"] = 18,
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["font"] = "Expressway",
+					["texture"] = "Minimalist",
+				},
+				["Luckyone Main 2.21"] = {
+					["timetextx"] = 2,
+					["point"] = "BOTTOM",
+					["strata"] = "HIGH",
+					["h"] = 18,
+					["w"] = 276,
+					["nametextx"] = 2,
+					["y"] = 227,
+					["font"] = "Expressway",
+					["fontsize"] = 11,
+					["iconalpha"] = 1,
+					["border"] = "Square Full White",
+					["timefontsize"] = 11,
+					["x"] = 0,
+					["texture"] = "Minimalist",
+				},
+			},
 		},
 		["Latency"] = {
 		},
@@ -283,26 +283,26 @@ Quartz3DB = {
 	["profiles"] = {
 		["Diszi"] = {
 			["modules"] = {
-				["Focus"] = false,
 				["Swing"] = false,
-				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
-				["Pet"] = false,
 				["Mirror"] = false,
+				["GCD"] = false,
+				["Focus"] = false,
+				["Timer"] = false,
 				["Target"] = false,
+				["Pet"] = false,
 			},
 		},
 		["Shadow"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Target"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
-				["Buff"] = false,
-				["Target"] = false,
+				["Focus"] = false,
+				["Timer"] = false,
 				["Pet"] = false,
 				["Mirror"] = false,
-				["Focus"] = false,
+				["Buff"] = false,
 			},
 		},
 		["Default"] = {
@@ -360,13 +360,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Mirror"] = false,
 				["Pet"] = false,
-				["Range"] = false,
 				["Latency"] = false,
 			},
 			["borderalpha"] = 0,
@@ -429,13 +429,13 @@ Quartz3DB = {
 				1, -- [4]
 			},
 			["modules"] = {
-				["Range"] = false,
+				["Pet"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
+				["Range"] = false,
 				["Mirror"] = false,
-				["Pet"] = false,
 				["Latency"] = false,
 			},
 			["backgroundalpha"] = 0.9,

@@ -66,41 +66,16 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Dmz"] = 0,
-		["Onixus"] = 0,
-		["Bashgirl"] = 0,
-		["Hâkkî"] = 0,
-		["Helyo"] = 0,
-		["Simicolon"] = 0,
-		["Maturitass"] = 1126,
-		["Graveofjenna"] = 0,
-		["Widi"] = 0,
-		["Synthesized"] = 1126,
 	},
 	["curPotHistory"] = {
 		1000, -- [1]
-		{
-			["bid"] = 9000,
-			["item"] = "|cffa335ee|Hitem:48001::::::::80:::::::::|h[Feuersturmband]|h|r",
-			["name"] = "Bashgirl",
-		}, -- [2]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:48001::::::::80:::::::::|h[Feuersturmband]|h|r",
-			["name"] = "Hâkkî",
-		}, -- [3]
-		-9000, -- [4]
-		{
-			["bid"] = 260,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Graveofjenna",
-		}, -- [5]
+		169, -- [2]
+		4000, -- [3]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 11260,
-	["prevDist"] = 11260,
+	["potAmount"] = 5169,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Maturitass"] = -1126,
 }

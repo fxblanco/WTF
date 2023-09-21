@@ -1,21 +1,31 @@
 
 GargulDB = {
+	["TMB"] = {
+	},
 	["BoostedRolls"] = {
-		["Points"] = {
-		},
 		["Aliases"] = {
 		},
-	},
-	["TMB"] = {
+		["Points"] = {
+		},
 	},
 	["LoadDetails"] = {
 		["6.1.2"] = 1687520757,
-		["lastLoadedOn"] = 1694864454,
+		["lastLoadedOn"] = 1695065231,
 		["6.1.0"] = 1687288287,
 		["5.1.1"] = 1687381795,
+		["5.2.0"] = 1687381795,
 		["6.2.4"] = 1694802777,
 		["latestVersionChangesShown"] = "6.2.0",
-		["5.2.0"] = 1687381795,
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["SettingsPerItem"] = {
+		},
+		["Queue"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -125,23 +135,23 @@ GargulDB = {
 		},
 		["UI"] = {
 			["GDKPOverview"] = {
+				["Position"] = {
+					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
+					["relativePoint"] = "CENTER",
+				},
 				["Dimensions"] = {
 					["height"] = 410.0000305175781,
 					["scale"] = 1,
 					["width"] = 660.0001831054688,
 				},
-				["Position"] = {
-					["offsetX"] = 0,
-					["offsetY"] = 0,
-					["point"] = "CENTER",
-					["relativePoint"] = "CENTER",
-				},
 			},
-			["Settings"] = {
+			["MasterLooterDialog"] = {
 				["Position"] = {
-					["offsetX"] = 419.8501892089844,
-					["offsetY"] = 27.00002098083496,
 					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -158,11 +168,11 @@ GargulDB = {
 				["closeOnStart"] = false,
 				["closeOnAward"] = false,
 			},
-			["MasterLooterDialog"] = {
+			["Settings"] = {
 				["Position"] = {
-					["offsetX"] = 0,
-					["offsetY"] = 0,
 					["point"] = "CENTER",
+					["offsetY"] = 27.00002098083496,
+					["offsetX"] = 419.8501892089844,
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -183,9 +193,9 @@ GargulDB = {
 			},
 			["Changelog"] = {
 				["Position"] = {
-					["offsetX"] = 0,
-					["offsetY"] = 0,
 					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -323,23 +333,13 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
-		["SettingsPerItem"] = {
-		},
-	},
-	["PlusOnes"] = {
-		["Totals"] = {
-		},
-	},
-	["LootPriority"] = {
-	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

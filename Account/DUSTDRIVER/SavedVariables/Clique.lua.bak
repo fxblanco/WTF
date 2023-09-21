@@ -4,19 +4,19 @@ CliqueDB3 = {
 	["char"] = {
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
 			["spec2_profileKey"] = "Maturitass - Venoxis",
+			["downclick"] = false,
+			["fastooc"] = false,
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["specswap"] = false,
-			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["downclick"] = false,
+			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -92,13 +92,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
@@ -106,7 +99,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Anregen",
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
@@ -116,17 +109,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spellSubName"] = "Rang 7",
-				}, -- [4]
+				}, -- [3]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spell"] = "Verjüngung",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136081,
-					["spellSubName"] = "Rang 15",
-				}, -- [5]
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -136,7 +126,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136085,
 					["spellSubName"] = "Rang 12",
-				}, -- [6]
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
@@ -145,6 +135,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 135952,
 					["spell"] = "Fluch aufheben",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spell"] = "Verjüngung",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136081,
+					["spellSubName"] = "Rang 15",
 				}, -- [7]
 				{
 					["type"] = "spell",

@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -13,6 +10,9 @@ GDKPd_DB = {
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
@@ -74,6 +74,12 @@ GDKPd_DB = {
 		["Andrés - Transcendence"] = {
 		},
 		["Andrés - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = 223.5460662841797,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -308.3594970703125,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
@@ -87,19 +93,13 @@ GDKPd_DB = {
 				["relative"] = "TOPRIGHT",
 			},
 			["startBid"] = 200,
+			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -57.77770614624023,
 			},
-			["balancepoint"] = {
-				["y"] = 223.5460662841797,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -308.3594970703125,
-			},
-			["increment"] = 50,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -116,25 +116,11 @@ GDKPd_DB = {
 			},
 		},
 		["Alsia - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 87.02503967285156,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -133.2993774414063,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 195.1252136230469,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -435.0260314941406,
-			},
-			["itemLevelPricing"] = {
-				{
-					["min"] = 235,
-					["mininc"] = 500,
-					["max"] = 0,
-					["minbid"] = 2000,
-				}, -- [1]
 			},
 			["point"] = {
 				["relative"] = "TOPLEFT",
@@ -142,41 +128,55 @@ GDKPd_DB = {
 				["x"] = 298.3500366210938,
 			},
 			["startBid"] = 100,
-			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = 60.78090286254883,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -160.336669921875,
 			},
+			["balancepoint"] = {
+				["y"] = 87.02503967285156,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -133.2993774414063,
+			},
+			["itemLevelPricing"] = {
+				{
+					["min"] = 235,
+					["minbid"] = 2000,
+					["max"] = 0,
+					["mininc"] = 500,
+				}, -- [1]
+			},
+			["increment"] = 50,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 54.72499847412109,
 				["x"] = 348.300048828125,
 			},
-			["statuspoint"] = {
-				["y"] = -152.2695617675781,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -37.39339065551758,
-			},
+			["increment"] = 100,
 			["point"] = {
 				["y"] = -20.26263236999512,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
 				["x"] = 377.8782043457031,
 			},
-			["announceBidRaidWarning"] = true,
-			["auctionTimerRefresh"] = 15,
+			["startBid"] = 500,
+			["statuspoint"] = {
+				["y"] = -152.2695617675781,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -37.39339065551758,
+			},
 			["balancepoint"] = {
 				["y"] = -131.5301666259766,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = 426.3553161621094,
 			},
-			["increment"] = 100,
-			["startBid"] = 500,
+			["announceBidRaidWarning"] = true,
+			["auctionTimerRefresh"] = 15,
 		},
 	},
 }

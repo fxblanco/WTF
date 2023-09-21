@@ -13,12 +13,6 @@ GDKPd_DB = {
 		["Pippop - Venoxis"] = {
 		},
 		["Lesbenlisa - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -144.7824554443359,
-				["x"] = 457.2606811523438,
-				["point"] = "TOP",
-				["relative"] = "TOP",
-			},
 			["playerbalancepoint"] = {
 				["y"] = -138.4429626464844,
 				["relative"] = "RIGHT",
@@ -32,13 +26,19 @@ GDKPd_DB = {
 				["x"] = -218.9640808105469,
 			},
 			["startBid"] = 100,
-			["increment"] = 50,
 			["statuspoint"] = {
 				["y"] = -141.1630706787109,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -69.26077270507812,
 			},
+			["balancepoint"] = {
+				["y"] = -144.7824554443359,
+				["x"] = 457.2606811523438,
+				["point"] = "TOP",
+				["relative"] = "TOP",
+			},
+			["increment"] = 50,
 		},
 		["Hakkî - Venoxis"] = {
 			["playerbalancepoint"] = {

@@ -4,9 +4,9 @@ CliqueDB3 = {
 	["char"] = {
 		["Lesbenlisa - Venoxis"] = {
 			["spec1_profileKey"] = "Lesbenlisa - Venoxis",
-			["fastooc"] = false,
 			["alerthidden"] = true,
 			["downclick"] = false,
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
 			["specswap"] = false,
 		},

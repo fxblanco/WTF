@@ -13,10 +13,10 @@ BisTooltipDB = {
 		},
 		["Lesbenlisa - Venoxis"] = {
 			["class_index"] = 5,
-			["spec_index"] = 3,
-			["phase_index"] = 3,
-			["data_source"] = "wh",
 			["version"] = 6.1,
+			["spec_index"] = 3,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["Hakkî - Venoxis"] = {
 			["class_index"] = 10,

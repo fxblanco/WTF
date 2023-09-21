@@ -4,19 +4,19 @@ CliqueDB3 = {
 	["char"] = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-			["downclick"] = false,
-			["specswap"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["spec2_profileKey"] = "Maturitass - Venoxis",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -92,6 +92,13 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
@@ -99,7 +106,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Anregen",
-				}, -- [2]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
@@ -109,33 +116,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spell"] = "Wiedergeburt",
-				}, -- [3]
-				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
 				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rang 12",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136085,
-					["spell"] = "Nachwachsen",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135952,
-					["spell"] = "Fluch aufheben",
-				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -145,6 +126,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spell"] = "Verjüngung",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spellSubName"] = "Rang 12",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136085,
+					["spell"] = "Nachwachsen",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135952,
+					["spell"] = "Fluch aufheben",
 				}, -- [7]
 				{
 					["type"] = "spell",

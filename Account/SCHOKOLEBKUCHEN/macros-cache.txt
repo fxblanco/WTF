@@ -35,17 +35,14 @@ VER 3 0000000000000010 "lock" "134400"
 /cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
 END
 VER 3 000000000000000E "PI" "134400"
-/w Âvalon PI me!
+/w Staminaslave PI me!
 /use 10
 END
 VER 3 0000000000000005 "Roll" "135900"
 /roll
 END
 VER 3 000000000000000A "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Joshua Kien
-/targetexact Junger Aasfresser
-/targetexact Nachtsauger
-/targetlasttarget [dead]
+//RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000009 "SB Snipe R1" "135614"
 /cast [nomod,@mouseover,harm,nodead] [] Schattenblitz(Rang 1)

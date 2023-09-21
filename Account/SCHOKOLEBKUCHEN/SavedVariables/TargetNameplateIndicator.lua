@@ -1,8 +1,8 @@
 
 TargetNameplateIndicatorDB = {
 	["profileKeys"] = {
-		["Fieserdot - Venoxis"] = "Default",
 		["Endonuclease - Venoxis"] = "Default",
+		["Fieserdot - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
 	},
 	["profiles"] = {
