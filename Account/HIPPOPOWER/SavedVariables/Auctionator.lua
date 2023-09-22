@@ -97,11 +97,11 @@ AUCTIONATOR_CONFIG = {
 	["auto_list_search"] = false,
 	["columns_selling_search_3"] = {
 	},
-	["crafting_info_show_profit"] = true,
+	["auction_chat_log"] = false,
 	["mailbox_tooltips"] = true,
 	["selling_bag_collapsed"] = false,
 	["selling_post_stack_remainder"] = false,
-	["auction_chat_log"] = false,
+	["crafting_info_show_profit"] = true,
 	["selling_prev_shortcut"] = "BACKSPACE",
 	["auction_sales_preference"] = "static",
 	["crafting_info_show_cost"] = true,
@@ -188,6 +188,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 2500,
 		},
+		["40212"] = {
+			["a"] = {
+				[1359] = 981,
+			},
+			["l"] = {
+			},
+			["h"] = {
+				[1359] = 59999,
+			},
+			["m"] = 59999,
+		},
 		["38848"] = {
 			["a"] = {
 				[1344] = 4,
@@ -268,25 +279,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 9178,
 		},
-		["44469"] = {
+		["46098"] = {
 			["a"] = {
+				[1344] = 11,
 			},
 			["l"] = {
 			},
 			["h"] = {
+				[1344] = 8499969,
 			},
-			["m"] = 1179993,
+			["m"] = 8499969,
 		},
-		["38971"] = {
+		["37705"] = {
 			["a"] = {
-				[1344] = 8,
 			},
 			["l"] = {
 			},
+			["m"] = 2582,
 			["h"] = {
-				[1344] = 10012,
 			},
-			["m"] = 10012,
 		},
 		["42989"] = {
 			["a"] = {
@@ -299,16 +310,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 649993,
 		},
-		["46098"] = {
+		["44469"] = {
 			["a"] = {
-				[1344] = 11,
 			},
 			["l"] = {
 			},
 			["h"] = {
-				[1344] = 8499969,
 			},
-			["m"] = 8499969,
+			["m"] = 1179993,
 		},
 		["g:42989:200"] = {
 			["a"] = {
@@ -343,23 +352,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 991062,
 		},
-		["40022"] = {
+		["40115"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 696784,
 			["h"] = {
 			},
+			["m"] = 1999998,
 		},
-		["40116"] = {
+		["g:25206:105"] = {
 			["a"] = {
+				[1344] = 1,
 			},
 			["l"] = {
 			},
 			["h"] = {
+				[1344] = 200000,
 			},
-			["m"] = 1509971,
+			["m"] = 200000,
 		},
 		["4394"] = {
 			["a"] = {
@@ -370,23 +381,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 82485,
 		},
-		["40115"] = {
+		["40022"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
+			["m"] = 696784,
 			["h"] = {
 			},
-			["m"] = 1999998,
-		},
-		["37700"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["h"] = {
-			},
-			["m"] = 7106,
 		},
 		["38679"] = {
 			["a"] = {
@@ -399,6 +401,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 25,
 		},
+		["37700"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 7106,
+		},
 		["38964"] = {
 			["a"] = {
 			},
@@ -407,6 +418,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 			["m"] = 119994,
+		},
+		["41380"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 399989,
 		},
 		["33448"] = {
 			["a"] = {
@@ -427,15 +447,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 				[1344] = 279999,
 			},
 			["m"] = 279999,
-		},
-		["41380"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["h"] = {
-			},
-			["m"] = 399989,
 		},
 		["38771"] = {
 			["a"] = {
@@ -586,16 +597,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 794,
 		},
-		["g:25206:105"] = {
+		["40116"] = {
 			["a"] = {
-				[1344] = 1,
 			},
 			["l"] = {
 			},
 			["h"] = {
-				[1344] = 200000,
 			},
-			["m"] = 200000,
+			["m"] = 1509971,
 		},
 		["38991"] = {
 			["a"] = {
@@ -608,14 +617,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 520000,
 		},
-		["37705"] = {
+		["38971"] = {
 			["a"] = {
+				[1344] = 8,
 			},
 			["l"] = {
 			},
-			["m"] = 2582,
 			["h"] = {
+				[1344] = 10012,
 			},
+			["m"] = 10012,
 		},
 		["44936"] = {
 			["a"] = {
@@ -739,23 +750,23 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["41584"] = 15,
 	["35948"] = 3040,
 	["3466"] = 1900,
-	["17037"] = 1120,
 	["2515"] = 0.225,
+	["17037"] = 1120,
 	["2509"] = 373,
 	["15906"] = 1924,
 	["2507"] = 1577,
-	["17035"] = 320,
+	["5441"] = 900,
 	["2516"] = 0.045,
 	["17031"] = 800,
 	["35949"] = 1615,
-	["35954"] = 1140,
+	["853"] = 2168,
 	["17021"] = 560,
-	["5441"] = 900,
+	["17035"] = 320,
 	["10647"] = 1900,
-	["2025"] = 4774,
+	["42431"] = 3040,
 	["44605"] = 4000,
 	["928"] = 8874,
-	["853"] = 2168,
+	["25872"] = 27,
 	["15904"] = 19537,
 	["44617"] = 1900,
 	["33449"] = 1615,
@@ -784,9 +795,9 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["11362"] = 900,
 	["15905"] = 1917,
 	["15903"] = 7306,
-	["28060"] = 7.2,
-	["3023"] = 3395,
 	["3423"] = 19000,
+	["3023"] = 3395,
+	["28060"] = 7.2,
 	["39684"] = 8550,
 	["3033"] = 1.35,
 	["922"] = 10835,
@@ -805,9 +816,9 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["2526"] = 17402,
 	["926"] = 8806,
 	["2029"] = 3978,
-	["25872"] = 27,
+	["35954"] = 1140,
 	["16583"] = 8000,
-	["42431"] = 3040,
+	["2025"] = 4774,
 	["42429"] = 3040,
 	["2024"] = 5471,
 	["3024"] = 6388,
@@ -818,30 +829,31 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["2512"] = 0.045,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
-	"Aderlass", -- [1]
-	"Heimsuchung", -- [2]
-	"\"Klobiger Kardinalsrubin\"", -- [3]
-	"\"Stattlicher Schreckensstein\"", -- [4]
-	"\"Klares Auge von Zul\"", -- [5]
-	"Rolle der waffenverzauberung - B", -- [6]
-	"Rolle der waffenverzauberung - ", -- [7]
-	"Rolle der waffe", -- [8]
-	"Rolle der w", -- [9]
-	"Verzauberung", -- [10]
-	"Waffen Ver", -- [11]
-	"Waffenverzauberung: Ber", -- [12]
-	"Berserker", -- [13]
-	"\"Titanbeschlag\"", -- [14]
-	"Göttliche bitte", -- [15]
-	"\"Überladener Kondensator\"", -- [16]
-	"\"Froststoff\"", -- [17]
-	"Titanbesc", -- [18]
-	"Titanb", -- [19]
-	"\"Große Eisenbombe\"", -- [20]
-	"Großer Sturm", -- [21]
-	"Armschienen", -- [22]
-	"kardinals", -- [23]
-	"Strenger Er", -- [24]
-	"\"Kristallisierte Luft\"", -- [25]
-	"\"Saronitbarren\"", -- [26]
+	"Wilden Magie", -- [1]
+	"Aderlass", -- [2]
+	"Heimsuchung", -- [3]
+	"\"Klobiger Kardinalsrubin\"", -- [4]
+	"\"Stattlicher Schreckensstein\"", -- [5]
+	"\"Klares Auge von Zul\"", -- [6]
+	"Rolle der waffenverzauberung - B", -- [7]
+	"Rolle der waffenverzauberung - ", -- [8]
+	"Rolle der waffe", -- [9]
+	"Rolle der w", -- [10]
+	"Verzauberung", -- [11]
+	"Waffen Ver", -- [12]
+	"Waffenverzauberung: Ber", -- [13]
+	"Berserker", -- [14]
+	"\"Titanbeschlag\"", -- [15]
+	"Göttliche bitte", -- [16]
+	"\"Überladener Kondensator\"", -- [17]
+	"\"Froststoff\"", -- [18]
+	"Titanbesc", -- [19]
+	"Titanb", -- [20]
+	"\"Große Eisenbombe\"", -- [21]
+	"Großer Sturm", -- [22]
+	"Armschienen", -- [23]
+	"kardinals", -- [24]
+	"Strenger Er", -- [25]
+	"\"Kristallisierte Luft\"", -- [26]
+	"\"Saronitbarren\"", -- [27]
 }

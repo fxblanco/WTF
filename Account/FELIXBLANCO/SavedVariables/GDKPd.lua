@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -14,6 +11,9 @@ GDKPd_DB = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
 			["point"] = {
@@ -24,6 +24,12 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -37,19 +43,13 @@ GDKPd_DB = {
 				["x"] = -407.1521301269531,
 			},
 			["startBid"] = 500,
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
-			["increment"] = 500,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -140,27 +140,26 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -133.2993774414063,
 			},
-			["increment"] = 50,
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["mininc"] = 500,
-					["max"] = 0,
 					["minbid"] = 2000,
+					["max"] = 0,
+					["mininc"] = 500,
 				}, -- [1]
 			},
+			["increment"] = 50,
 		},
 		["Kwasimojo - Venoxis"] = {
-			["announceBidRaidWarning"] = true,
-			["balancepoint"] = {
-				["y"] = -131.5301666259766,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 426.3553161621094,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 54.72499847412109,
 				["x"] = 348.300048828125,
+			},
+			["statuspoint"] = {
+				["y"] = -152.2695617675781,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -37.39339065551758,
 			},
 			["point"] = {
 				["y"] = -20.26263236999512,
@@ -168,15 +167,16 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 377.8782043457031,
 			},
+			["announceBidRaidWarning"] = true,
 			["auctionTimerRefresh"] = 15,
-			["startBid"] = 100,
-			["increment"] = 10,
-			["statuspoint"] = {
-				["y"] = -152.2695617675781,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -37.39339065551758,
+			["balancepoint"] = {
+				["y"] = -131.5301666259766,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 426.3553161621094,
 			},
+			["increment"] = 10,
+			["startBid"] = 100,
 		},
 	},
 }
@@ -187,17 +187,17 @@ GDKPd_PotData = {
 		["Tolazytolvl"] = 0,
 		["Longling"] = 0,
 		["Hîrntøt"] = 0,
-		["Coôzy"] = 0,
 		["Kwasimojo"] = 524,
+		["Ongbakk"] = 0,
 		["Freizaubär"] = 0,
-		["Dadebu"] = 0,
+		["Fabsen"] = 0,
 		["Intersolar"] = 0,
 		["Liolider"] = 0,
 		["Nachtsonne"] = 0,
 		["Chiamage"] = 0,
 		["Smoothý"] = 0,
 		["Myjuice"] = 0,
-		["Fabsen"] = 0,
+		["Coôzy"] = 0,
 		["Deusdominik"] = 0,
 		["Jáné"] = 0,
 		["Hotterhairy"] = 0,
@@ -205,7 +205,7 @@ GDKPd_PotData = {
 		["Kyleriemen"] = 0,
 		["Widi"] = 0,
 		["Graveofjenna"] = 0,
-		["Ongbakk"] = 0,
+		["Dadebu"] = 0,
 		["Giaru"] = 0,
 	},
 	["curPotHistory"] = {
