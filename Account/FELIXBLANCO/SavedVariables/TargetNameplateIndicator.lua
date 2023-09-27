@@ -22,11 +22,8 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Q_GreenTarget",
 				},
 				["hostile"] = {
-					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\RedChevronArrow",
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonRedArrow",
 				},
-			},
-			["targettarget"] = {
-				["enable"] = false,
 			},
 			["mouseover"] = {
 				["self"] = {
@@ -34,10 +31,20 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Arrows_SelfTowards",
 				},
 				["friendly"] = {
+					["enable"] = false,
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Q_WhiteTarget",
 				},
 				["hostile"] = {
-					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonReticule",
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonGreenArrow",
+				},
+			},
+			["targettarget"] = {
+				["enable"] = false,
+				["friendly"] = {
+					["enable"] = false,
+				},
+				["self"] = {
+					["enable"] = false,
 				},
 			},
 			["focus"] = {
@@ -46,10 +53,11 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\circles_target",
 				},
 				["friendly"] = {
+					["enable"] = false,
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\bluearrow1",
 				},
 				["hostile"] = {
-					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\gearsofwar",
+					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\Hunters_Mark",
 				},
 			},
 		},

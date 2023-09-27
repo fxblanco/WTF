@@ -47,6 +47,7 @@ Bagnon_Sets = {
 			},
 			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
+				[-2] = true,
 			},
 			["color"] = {
 			},

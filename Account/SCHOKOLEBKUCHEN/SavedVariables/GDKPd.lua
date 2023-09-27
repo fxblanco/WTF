@@ -50,14 +50,14 @@ GDKPd_DB = {
 				["x"] = 521.0999145507812,
 			},
 			["point"] = {
-				["y"] = -38.00003051757813,
+				["y"] = -80.55158233642578,
 				["relative"] = "TOP",
 				["point"] = "TOP",
-				["x"] = -72.32453918457031,
+				["x"] = -320.5552978515625,
 			},
 			["auctionTimerRefresh"] = 15,
 			["startBid"] = 2000,
-			["increment"] = 200,
+			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = -185.0646362304688,
 				["x"] = -69.1729736328125,
@@ -69,19 +69,56 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Raque"] = -5000,
+		["Veynoth"] = 0,
+		["Sharmutai"] = 0,
+		["Exonuklease"] = 2025,
+		["Palajazu"] = 0,
+		["Remseyy"] = 0,
+		["Artìì"] = 0,
+		["Romanroy"] = 0,
+		["Spellbaby"] = 0,
+		["Domedonmaya"] = 0,
+		["Roìt"] = 0,
 	},
 	["curPotHistory"] = {
 		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:48670::::::::80:::::::::|h[Umhang des steinharten Wächters]|h|r",
-			["name"] = "Raque",
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47993::::::::80:::::::::|h[Gormoks Band]|h|r",
+			["name"] = "Romanroy",
 		}, -- [1]
+		1000, -- [2]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48026::::::::80:::::::::|h[Weste der unbeständigen Schatten]|h|r",
+			["name"] = "Romanroy",
+		}, -- [3]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:48056::::::::80:::::::::|h[Seelenqual]|h|r",
+			["name"] = "Romanroy",
+		}, -- [4]
+		{
+			["bid"] = 13000,
+			["item"] = "|cffa335ee|Hitem:48668::::::::80:::::::::|h[Umhang der gezahnten Klingen]|h|r",
+			["name"] = "Remseyy",
+		}, -- [5]
+		{
+			["bid"] = 500,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Roìt",
+		}, -- [6]
+		{
+			["bid"] = 2000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Romanroy",
+		}, -- [7]
+		-2250, -- [8]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 5000,
-	["prevDist"] = 0,
+	["potAmount"] = 20250,
+	["prevDist"] = 20250,
 }
 GDKPd_BalanceData = {
+	["Exonuklease"] = -2025,
 }

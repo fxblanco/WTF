@@ -145,9 +145,9 @@ WIM3_Data = {
 			["custom_sml"] = "Chat Blip",
 			["say_sml"] = "Chat Blip",
 			["raid_sml"] = "Chat Blip",
+			["officer_sml"] = "Chat Blip",
 			["guild_sml"] = "Chat Blip",
 			["raidleader_sml"] = "Chat Blip",
-			["officer_sml"] = "Chat Blip",
 			["battlegroundleader_sml"] = "Chat Blip",
 			["battleground_sml"] = "Chat Blip",
 		},
@@ -221,8 +221,8 @@ WIM3_Data = {
 	["showToolTips"] = true,
 	["minimap"] = {
 		["free_position"] = {
-			["y"] = -81.00461418478426,
-			["x"] = -113.2949517451038,
+			["y"] = -90.96155887033001,
+			["x"] = -119.6960803723255,
 			["point"] = "TOPRIGHT",
 		},
 		["position"] = 200,
@@ -431,23 +431,22 @@ WIM3_Cache = {
 				["|Kq19|k"] = 2,
 				["|Kq28|k"] = 2,
 				["|Kq22|k"] = 2,
-				["|Kq14|k"] = 2,
+				["Alsia"] = 1,
+				["|Kq12|k"] = 2,
 				["|Kq16|k"] = 2,
 				["|Kq2|k"] = 2,
 				["|Kq25|k"] = 2,
-				["|Kq9|k"] = 2,
+				["|Kq26|k"] = 2,
 				["|Kq5|k"] = 2,
 				["|Kq23|k"] = 2,
 				["|Kq1|k"] = 2,
 				["|Kq11|k"] = 2,
-				["|Kq4|k"] = 2,
 				["|Kq17|k"] = 2,
-				["Alsia"] = 1,
+				["|Kq14|k"] = 2,
 				["|Kq18|k"] = 2,
 				["|Kq3|k"] = 2,
-				["|Kq8|k"] = 2,
-				["|Kq24|k"] = 2,
 				["|Kq20|k"] = 2,
+				["|Kq24|k"] = 2,
 				["|Kq21|k"] = 2,
 				["|Kq29|k"] = 2,
 				["|Kq27|k"] = 2,
@@ -455,8 +454,9 @@ WIM3_Cache = {
 				["|Kq15|k"] = 2,
 				["|Kq10|k"] = 2,
 				["|Kq7|k"] = 2,
-				["|Kq26|k"] = 2,
-				["|Kq12|k"] = 2,
+				["|Kq6|k"] = 2,
+				["|Kq4|k"] = 2,
+				["|Kq9|k"] = 2,
 			},
 			["guildList"] = {
 				["Hanaltar"] = 122,
@@ -579,7 +579,7 @@ WIM3_Cache = {
 				["Kolotripida"] = 38,
 				["Trolpriester"] = 34,
 				["Firecat"] = 120,
-				["Hâkki"] = 32,
+				["Hâkki"] = 33,
 				["Hakkî"] = 150,
 				["Vulvanaa"] = 28,
 				["Naio"] = 15,
@@ -595,7 +595,7 @@ WIM3_Cache = {
 				["Vacaria"] = 111,
 				["Vilro"] = 13,
 				["Tolazytolvl"] = 106,
-				["Allyfigger"] = 33,
+				["Allyfigger"] = 32,
 				["Tesfaye"] = 105,
 				["Caamo"] = 51,
 				["Hampdidampdi"] = 20,
@@ -664,6 +664,18 @@ WIM3_Filters = {
 WIM3_History = {
 	["Venoxis"] = {
 		["Exonuklease"] = {
+			["Wønka"] = {
+				{
+					["type"] = 1,
+					["time"] = 1695150139,
+					["from"] = "Exonuklease",
+					["msg"] = "inv",
+					["inbound"] = false,
+					["convo"] = "Wønka",
+				}, -- [1]
+				["info"] = {
+				},
+			},
 			["Pippop"] = {
 				{
 					["type"] = 1,
@@ -812,6 +824,18 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["Wîdi"] = {
+				{
+					["type"] = 1,
+					["time"] = 1694989868,
+					["from"] = "Wîdi",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Wîdi",
+				}, -- [1]
+				["info"] = {
+				},
+			},
 			["Bremskyle"] = {
 				{
 					["type"] = 1,
@@ -832,62 +856,6 @@ WIM3_History = {
 					["msg"] = "gn8. morgen suche ich erstmal die kopfhörer |Helvmoji:%6Kc|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Smile:16:16|t viel vergnügen beim 10er",
 					["inbound"] = true,
 					["convo"] = "Deusdominik",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Nicerö"] = {
-				{
-					["type"] = 1,
-					["time"] = 1694985113,
-					["from"] = "Nicerö",
-					["msg"] = "haste nen zm stein?",
-					["inbound"] = true,
-					["convo"] = "Nicerö",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1694985117,
-					["from"] = "Exonuklease",
-					["msg"] = "-",
-					["inbound"] = false,
-					["convo"] = "Nicerö",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1694987581,
-					["from"] = "Nicerö",
-					["msg"] = "melees runter von der eisfläche bei grounding",
-					["inbound"] = true,
-					["convo"] = "Nicerö",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1694989209,
-					["from"] = "Nicerö",
-					["msg"] = "vorallem nix gedroppt für pala heute ",
-					["inbound"] = true,
-					["convo"] = "Nicerö",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1694989215,
-					["from"] = "Exonuklease",
-					["msg"] = "true",
-					["inbound"] = false,
-					["convo"] = "Nicerö",
-				}, -- [5]
-				["info"] = {
-				},
-			},
-			["Wîdi"] = {
-				{
-					["type"] = 1,
-					["time"] = 1694989868,
-					["from"] = "Wîdi",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Wîdi",
 				}, -- [1]
 				["info"] = {
 				},
@@ -984,15 +952,47 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Wønka"] = {
+			["Nicerö"] = {
 				{
 					["type"] = 1,
-					["time"] = 1695150139,
-					["from"] = "Exonuklease",
-					["msg"] = "inv",
-					["inbound"] = false,
-					["convo"] = "Wønka",
+					["time"] = 1694985113,
+					["from"] = "Nicerö",
+					["msg"] = "haste nen zm stein?",
+					["inbound"] = true,
+					["convo"] = "Nicerö",
 				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1694985117,
+					["from"] = "Exonuklease",
+					["msg"] = "-",
+					["inbound"] = false,
+					["convo"] = "Nicerö",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1694987581,
+					["from"] = "Nicerö",
+					["msg"] = "melees runter von der eisfläche bei grounding",
+					["inbound"] = true,
+					["convo"] = "Nicerö",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1694989209,
+					["from"] = "Nicerö",
+					["msg"] = "vorallem nix gedroppt für pala heute ",
+					["inbound"] = true,
+					["convo"] = "Nicerö",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1694989215,
+					["from"] = "Exonuklease",
+					["msg"] = "true",
+					["inbound"] = false,
+					["convo"] = "Nicerö",
+				}, -- [5]
 				["info"] = {
 				},
 			},

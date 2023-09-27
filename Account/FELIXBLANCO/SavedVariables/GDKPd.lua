@@ -1,5 +1,8 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -11,9 +14,6 @@ GDKPd_DB = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
 			["point"] = {
@@ -24,12 +24,6 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -43,13 +37,19 @@ GDKPd_DB = {
 				["x"] = -407.1521301269531,
 			},
 			["startBid"] = 500,
-			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
+			["increment"] = 500,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -86,7 +86,7 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["relative"] = "TOPRIGHT",
 			},
-			["startBid"] = 200,
+			["startBid"] = 100,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
@@ -99,7 +99,7 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -308.3594970703125,
 			},
-			["increment"] = 50,
+			["increment"] = 10,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -140,163 +140,50 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -133.2993774414063,
 			},
+			["increment"] = 50,
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["minbid"] = 2000,
-					["max"] = 0,
 					["mininc"] = 500,
+					["max"] = 0,
+					["minbid"] = 2000,
 				}, -- [1]
 			},
-			["increment"] = 50,
 		},
 		["Kwasimojo - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 54.72499847412109,
-				["x"] = 348.300048828125,
-			},
-			["statuspoint"] = {
-				["y"] = -152.2695617675781,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -37.39339065551758,
-			},
-			["point"] = {
-				["y"] = -20.26263236999512,
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 377.8782043457031,
-			},
 			["announceBidRaidWarning"] = true,
-			["auctionTimerRefresh"] = 15,
 			["balancepoint"] = {
 				["y"] = -131.5301666259766,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = 426.3553161621094,
 			},
-			["increment"] = 10,
+			["playerbalancepoint"] = {
+				["y"] = 54.72499847412109,
+				["x"] = 348.300048828125,
+			},
+			["point"] = {
+				["y"] = -17.29828643798828,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -78.52912902832031,
+			},
+			["auctionTimerRefresh"] = 15,
 			["startBid"] = 100,
+			["increment"] = 10,
+			["statuspoint"] = {
+				["y"] = -152.2695617675781,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -37.39339065551758,
+			},
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Pippop"] = 0,
-		["Frighten"] = 0,
-		["Tolazytolvl"] = 0,
-		["Longling"] = 0,
-		["Hîrntøt"] = 0,
-		["Kwasimojo"] = 524,
-		["Ongbakk"] = 0,
-		["Freizaubär"] = 0,
-		["Fabsen"] = 0,
-		["Intersolar"] = 0,
-		["Liolider"] = 0,
-		["Nachtsonne"] = 0,
-		["Chiamage"] = 0,
-		["Smoothý"] = 0,
-		["Myjuice"] = 0,
-		["Coôzy"] = 0,
-		["Deusdominik"] = 0,
-		["Jáné"] = 0,
-		["Hotterhairy"] = 0,
-		["Chaningtetom"] = 0,
-		["Kyleriemen"] = 0,
-		["Widi"] = 0,
-		["Graveofjenna"] = 0,
-		["Dadebu"] = 0,
-		["Giaru"] = 0,
 	},
 	["curPotHistory"] = {
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
-			["name"] = "Pippop",
-		}, -- [1]
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
-			["name"] = "Widi",
-		}, -- [2]
-		{
-			["bid"] = 15000,
-			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
-			["name"] = "Coôzy",
-		}, -- [3]
-		{
-			["bid"] = 16000,
-			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
-			["name"] = "Longling",
-		}, -- [4]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
-			["name"] = "Fabsen",
-		}, -- [5]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47413::::::::80:::::::::|h[Ring des wilden Temperaments]|h|r",
-			["name"] = "Jáné",
-		}, -- [6]
-		{
-			["bid"] = 7000,
-			["item"] = "|cffa335ee|Hitem:47445::::::::80:::::::::|h[Eiswandlertreter]|h|r",
-			["name"] = "Longling",
-		}, -- [7]
-		{
-			["bid"] = 7000,
-			["item"] = "|cffa335ee|Hitem:47460::::::::80:::::::::|h[Gürtel des mitleidlosen Mörders]|h|r",
-			["name"] = "Giaru",
-		}, -- [8]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47473::::::::80:::::::::|h[Schienbeinschützer der Saronitzitadelle]|h|r",
-			["name"] = "Tolazytolvl",
-		}, -- [9]
-		{
-			["bid"] = 6000,
-			["item"] = "|cffa335ee|Hitem:47463::::::::80:::::::::|h[Zwillingspakt]|h|r",
-			["name"] = "Giaru",
-		}, -- [10]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47438::::::::80:::::::::|h[Bindungen der Herbstweide]|h|r",
-			["name"] = "Kyleriemen",
-		}, -- [11]
-		{
-			["bid"] = 15000,
-			["item"] = "|cffa335ee|Hitem:47479::::::::80:::::::::|h[Gamaschen des Erwachens]|h|r",
-			["name"] = "Ongbakk",
-		}, -- [12]
-		{
-			["bid"] = 14500,
-			["item"] = "|cffa335ee|Hitem:47467::::::::80:::::::::|h[Bindungen der Nachtessenz]|h|r",
-			["name"] = "Chiamage",
-		}, -- [13]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47490::::::::80:::::::::|h[Verehrung der Maid]|h|r",
-			["name"] = "Kwasimojo",
-		}, -- [14]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47417::::::::80:::::::::|h[Tuch der erfrischenden Winde]|h|r",
-			["name"] = "Hotterhairy",
-		}, -- [15]
-		{
-			["bid"] = 2500,
-			["item"] = "|cffa335ee|Hitem:47520::::::::80:::::::::|h[Kümmernis]|h|r",
-			["name"] = "Smoothý",
-		}, -- [16]
-		2500, -- [17]
-		{
-			["bid"] = 450,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Frighten",
-		}, -- [18]
-		500, -- [19]
-		-15340, -- [20]
 	},
 	["history"] = {
 		{
@@ -739,9 +626,8 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 138110,
-	["prevDist"] = 138110,
+	["potAmount"] = 0,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Kwasimojo"] = -5524,
 }

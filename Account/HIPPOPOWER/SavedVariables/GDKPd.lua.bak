@@ -11,11 +11,18 @@ GDKPd_DB = {
 	},
 	["profiles"] = {
 		["Uwusoulstone - Venoxis"] = {
-			["point"] = {
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -318.0674133300781,
+			["balancepoint"] = {
+				["y"] = -57.4296760559082,
+				["x"] = 381.6136779785156,
 			},
+			["point"] = {
+				["y"] = -38.00003051757813,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -71.9999771118164,
+			},
+			["startBid"] = 100,
+			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 184.3901824951172,
 				["relative"] = "RIGHT",
@@ -71,14 +78,148 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Grauelógs"] = 66,
+		["Orjs"] = 0,
+		["Reikyy"] = 0,
+		["Redankt"] = 0,
+		["Sliix"] = 0,
+		["Shîbuya"] = 0,
+		["Liptea"] = 0,
+		["Khaootic"] = 0,
+		["Naxxz"] = 0,
+		["Khoradk"] = 0,
+		["Danpii"] = 0,
+		["Fakdizgeym"] = 0,
+		["Yileria"] = 0,
+		["Indaríus"] = 0,
+		["Kolberg"] = 7066,
+		["Fatbutproo"] = 0,
+		["Beesportz"] = 7066,
+		["Arnia"] = 0,
+		["Talyna"] = 0,
+		["Slimpy"] = 0,
+		["Uwusoulstone"] = 7066,
+		["Sempo"] = 0,
+		["Neoxstep"] = 0,
+		["Shadowchange"] = 0,
+		["Bloodwall"] = -12934,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
+			["name"] = "Liptea",
+		}, -- [1]
+		{
+			["bid"] = 15000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Reikyy",
+		}, -- [2]
+		{
+			["bid"] = 15000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Bloodwall",
+		}, -- [3]
+		{
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:47548::::::::80:::::::::|h[Garroshs Wut]|h|r",
+			["name"] = "Sempo",
+		}, -- [4]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47523::::::::80:::::::::|h[Fezziks Autokanone]|h|r",
+			["name"] = "Neoxstep",
+		}, -- [5]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47483::::::::80:::::::::|h[Ende des Leides]|h|r",
+			["name"] = "Shadowchange",
+		}, -- [6]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47491::::::::80:::::::::|h[Helliongleve]|h|r",
+			["name"] = "Redankt",
+		}, -- [7]
+		{
+			["bid"] = 5500,
+			["item"] = "|cffa335ee|Hitem:47480::::::::80:::::::::|h[Gamaschen der lauernden Bedrohung]|h|r",
+			["name"] = "Beesportz",
+		}, -- [8]
+		{
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:47473::::::::80:::::::::|h[Schienbeinschützer der Saronitzitadelle]|h|r",
+			["name"] = "Beesportz",
+		}, -- [9]
+		{
+			["bid"] = 9000,
+			["item"] = "|cffa335ee|Hitem:47466::::::::80:::::::::|h[Kehlstück des Legionärs]|h|r",
+			["name"] = "Grauelógs",
+		}, -- [10]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47424::::::::80:::::::::|h[Sabatons des Mutigen]|h|r",
+			["name"] = "Fatbutproo",
+		}, -- [11]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:47414::::::::80:::::::::|h[Knochenschmetternde Unterarmschienen]|h|r",
+			["name"] = "Liptea",
+		}, -- [12]
+		{
+			["bid"] = 13000,
+			["item"] = "|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r",
+			["name"] = "Grauelógs",
+		}, -- [13]
+		{
+			["bid"] = 5500,
+			["item"] = "|cffa335ee|Hitem:47427::::::::80:::::::::|h[Blutfuror]|h|r",
+			["name"] = "Naxxz",
+		}, -- [14]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47436::::::::80:::::::::|h[Stolz des Dämonenlords]|h|r",
+			["name"] = "Bloodwall",
+		}, -- [15]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47470::::::::80:::::::::|h[Rätselhafter Glücksbringer]|h|r",
+			["name"] = "Shîbuya",
+		}, -- [16]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
+			["name"] = "Neoxstep",
+		}, -- [17]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
+			["name"] = "Neoxstep",
+		}, -- [18]
+		2500, -- [19]
+		{
+			["bid"] = 19000,
+			["item"] = "|cffa335ee|Hitem:47443::::::::80:::::::::|h[Band der gleichgültigen Aggression]|h|r",
+			["name"] = "Neoxstep",
+		}, -- [20]
+		{
+			["bid"] = 1000,
+			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+			["name"] = "Fatbutproo",
+		}, -- [21]
+		400, -- [22]
+		{
+			["bid"] = 400,
+			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+			["name"] = "Redankt",
+		}, -- [23]
+		-19630, -- [24]
 	},
 	["history"] = {
 	},
-	["potAmount"] = 0,
-	["prevDist"] = 0,
+	["potAmount"] = 176670,
+	["prevDist"] = 176670,
 }
 GDKPd_BalanceData = {
+	["Uwusoulstone"] = -7066,
 	["Flitzelitis"] = 0,
 }
