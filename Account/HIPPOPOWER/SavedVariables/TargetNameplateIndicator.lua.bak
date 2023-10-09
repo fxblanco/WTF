@@ -1,10 +1,10 @@
 
 TargetNameplateIndicatorDB = {
 	["profileKeys"] = {
-		["Uwusoulstone - Venoxis"] = "Default",
-		["Hakkî - Venoxis"] = "Default",
-		["Lesbenlisa - Venoxis"] = "Default",
 		["Pippop - Venoxis"] = "Default",
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Default",
+		["Uwusoulstone - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

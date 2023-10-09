@@ -1,13 +1,21 @@
 
 GargulDB = {
-	["BoostedRolls"] = {
-	},
 	["TMB"] = {
+	},
+	["BoostedRolls"] = {
 	},
 	["LoadDetails"] = {
 		["6.2.5"] = 1695299158,
-		["lastLoadedOn"] = 1695299251,
+		["lastLoadedOn"] = 1696536704,
 		["latestVersionChangesShown"] = "6.2.0",
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["Queue"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -276,19 +284,11 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
-	},
-	["PlusOnes"] = {
-	},
-	["LootPriority"] = {
-	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
 	},
 	["MinimapButton"] = {
 	},

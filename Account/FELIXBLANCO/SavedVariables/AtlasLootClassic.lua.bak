@@ -763,8 +763,8 @@ AtlasLootClassicDB = {
 			[27881] = "honor:4750",
 			[48977] = "cpvpWintergrasp:15",
 			[32039] = "honor:6650",
-			[41938] = "EmblemOfValor:30",
 			[33750] = "honor:6840",
+			[46032] = "SiderealEssence:15",
 			[45831] = "EmblemOfConquest:28",
 			[41913] = "EmblemOfValor:45",
 			[42136] = "honor:39060",
@@ -1056,7 +1056,7 @@ AtlasLootClassicDB = {
 			[45840] = "EmblemOfConquest:28",
 			[18866] = "honor:2500",
 			[41874] = "EmblemOfTriumph:50",
-			[46032] = "SiderealEssence:15",
+			[41938] = "EmblemOfValor:30",
 			[46096] = "SiderealEssence:15",
 			[42066] = "honor:8295",
 			[42130] = "honor:10850",
@@ -1134,8 +1134,8 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"IcecrownCitadel", -- [2]
-					6, -- [3]
+					"TrialoftheCrusader", -- [2]
+					4, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},
@@ -1159,7 +1159,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"TrialoftheCrusader", -- [2]
-					6, -- [3]
+					nil, -- [3]
 					12, -- [4]
 					0, -- [5]
 				},
@@ -1197,8 +1197,8 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"TrialoftheCrusader", -- [2]
-					5, -- [3]
-					8, -- [4]
+					nil, -- [3]
+					1, -- [4]
 					0, -- [5]
 				},
 			},

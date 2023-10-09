@@ -1,10 +1,10 @@
 
 LoggerHeadNDB = {
 	["profileKeys"] = {
-		["Pippop - Venoxis"] = "Default",
-		["Lesbenlisa - Venoxis"] = "Default",
-		["Hakkî - Venoxis"] = "Default",
 		["Uwusoulstone - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Default",
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

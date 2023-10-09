@@ -34,16 +34,16 @@ VMRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[581] = 10,
-			[105] = 10,
-			[577] = 10,
-			[256] = 10,
-			[254] = 10,
 			[252] = 10,
+			[105] = 10,
+			[254] = 10,
+			[256] = 10,
+			[577] = 10,
+			[581] = 10,
 		},
 		["Type"] = 2,
-		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
+		["Strata"] = "HIGH",
 	},
 	["ProfileKeys"] = {
 		["Exonuklease-Venoxis"] = "default",
@@ -339,248 +339,226 @@ VMRT = {
 	},
 	["Marks"] = {
 		["list"] = {
-			[3] = "Domedonmaya",
 		},
 	},
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
-			["Holyfalk"] = 0,
-			["Letsburn"] = 0,
-			["Nicerö"] = 0,
-			["Schildkueen"] = 0,
-			["Tysdrilla"] = 0,
-			["Cillililill"] = 0,
-			["Creow"] = 0,
-			["Pêêwz"] = 0,
-			["Czxw"] = 0,
-			["Hópéful"] = 0,
-			["Myjuice"] = 0,
-			["Schmankerle"] = 0,
-			["Snowbállzz"] = 0,
-			["Broxtar"] = 0,
-			["Artemo"] = 0,
-			["Versu"] = 0,
-			["Juumi"] = 0,
-			["Brishja"] = 0,
-			["Shrednado"] = 0,
-			["Minoton"] = 0,
-			["Nimz"] = 0,
-			["Owlyani"] = 0,
-			["Wrummwrumm"] = 0,
-			["Johnnycrap"] = 0,
-			["Wîdi"] = 0,
-			["Sepju"] = 0,
-			["Guccimain"] = 0,
-			["Anuburak"] = 0,
-			["Xhaara"] = 0,
-			["Zialak"] = 0,
-			["Fieseronkel"] = 0,
-			["Akorina"] = 0,
-			["Hotborke"] = 0,
-			["Mutenp"] = 0,
-			["Mindsét"] = 0,
-			["Deusdominik"] = 0,
-			["Nulluhrspäti"] = 0,
-			["Michor"] = 0,
-			["Velyxa"] = 0,
-			["Xwu"] = 0,
-			["Kálí"] = 0,
-			["Frogok"] = 0,
-			["Pippop"] = 0,
-			["Benchî"] = 0,
-			["Cripheal"] = 0,
-			["Terrortotem"] = 0,
-			["Yasari"] = 0,
-			["Hmokaylol"] = 0,
-			["Bloodmeal"] = 0,
-			["Krodalina"] = 0,
-			["Wrdlss"] = 0,
-			["Ektus"] = 0,
-			["Retisbad"] = 0,
-			["Logisch"] = 0,
-			["Lokivoltroll"] = 0,
-			["Alsia"] = 0,
-			["Aerythlea"] = 0,
-			["Floryn"] = 0,
-			["Lettucehaunt"] = 0,
-			["Dadujin"] = 0,
-			["Numidis"] = 0,
-			["Ottes"] = 0,
-			["Graveofmaria"] = 0,
-			["Ezdâgor"] = 0,
-			["Deliylah"] = 0,
-			["Trage"] = 0,
-			["Deathwin"] = 0,
-			["Naratie"] = 0,
-			["Héras"] = 0,
-			["Damke"] = 0,
-			["Domedonmaya"] = 0,
-			["Roguetase"] = 0,
-			["Eldunarî"] = 0,
-			["Finalschamie"] = 0,
-			["Specializt"] = 0,
-			["Kolberg"] = 0,
-			["Sinsemilia"] = 0,
-			["Turbochiggo"] = 0,
-			["Gnag"] = 0,
-			["Staminaslave"] = 0,
-			["Drockerwar"] = 0,
-			["Crusadress"] = 0,
-			["Ahzua"] = 0,
-			["Sleepychi"] = 0,
-			["Icyfrezzy"] = 0,
-			["Kentharo"] = 0,
-			["Reyfox"] = 0,
-			["Cancelcult"] = 0,
-			["Agim"] = 0,
-			["Börps"] = 0,
-			["Denadra"] = 0,
-			["Mîsêry"] = 0,
-			["Draguru"] = 0,
-			["Exonuklease"] = 0,
-			["Shîzoo"] = 0,
-			["Amzelwp"] = 0,
-			["Hayleîgh"] = 0,
-			["Cindl"] = 0,
-			["Flpstr"] = 0,
-			["Widi"] = 0,
-			["Raque"] = 0,
-			["Mövenpîck"] = 0,
-			["Giaru"] = 0,
-			["Kódiaq"] = 0,
-			["Fieserdot"] = 0,
-			["Alyrah"] = 0,
-			["Gilduk"] = 0,
-			["Djshamanxy"] = 0,
-			["Khøradaan"] = 0,
-			["Slimpy"] = 0,
-			["Wønka"] = 0,
-			["Vheraun"] = 0,
-			["Díaz"] = 0,
-			["Maryilin"] = 0,
-			["Nyhxn"] = 0,
-			["Zombiepooh"] = 0,
-			["Diggah"] = 0,
-			["Guldernikel"] = 0,
-			["Cryptlock"] = 0,
-			["Âvalon"] = 0,
-			["Longling"] = 0,
-			["Ninerjay"] = 0,
-			["Vaccus"] = 0,
-			["Twaennim"] = 0,
-			["Kø"] = 0,
+			["Kalirâ"] = 0,
 			["Hanaltar"] = 0,
-			["Crazysword"] = 0,
-			["Dolphincat"] = 0,
-			["Shruikahn"] = 0,
-			["Wurstfachqt"] = 0,
-			["Ongbakk"] = 0,
-			["Sartî"] = 0,
-			["Sînnêr"] = 0,
-			["Xublast"] = 0,
-			["Xcon"] = 0,
-			["Zadush"] = 0,
-			["Pypsi"] = 0,
-			["Muuhrrïçane"] = 0,
-			["Dschäv"] = 0,
-			["Lituzan"] = 0,
-			["Kolloso"] = 0,
-			["Barbossa"] = 0,
-			["Syrpth"] = 0,
-			["Turboschaf"] = 0,
-			["Horrordk"] = 0,
-			["Yollisso"] = 0,
-			["Hakkî"] = 0,
-			["Metallol"] = 0,
-			["Tehja"] = 0,
-			["Nemesizz"] = 0,
-			["Cratør"] = 0,
-			["Ekstasia"] = 0,
-			["Tartax"] = 0,
-			["Smoothý"] = 0,
-			["Varama"] = 0,
-			["Nadsat"] = 0,
-			["Äktschnklaus"] = 0,
-			["Clyslol"] = 0,
-			["Dábzy"] = 0,
-			["Atomix"] = 0,
-			["Tharakaua"] = 0,
-			["Andrés"] = 0,
-			["Vishnuu"] = 0,
-			["Priestux"] = 0,
-			["Graveofjenna"] = 0,
-			["Týrx"] = 0,
-			["Saatisfyer"] = 0,
-			["Róthus"] = 0,
-			["Bbo"] = 0,
-			["Arakkazul"] = 0,
-			["Peaxx"] = 0,
-			["Shyrogue"] = 0,
-			["Bønbøn"] = 0,
-			["Tolazytolvl"] = 0,
-			["Grannyhunter"] = 0,
-			["Logyna"] = 0,
-			["Oldjasongc"] = 0,
-			["Mcshampoo"] = 0,
-			["Hopéless"] = 0,
-			["Bopya"] = 0,
-			["Combwarlock"] = 0,
-			["Nøg"] = 0,
-			["Xiphos"] = 0,
-			["Somemilk"] = 0,
-			["Adyr"] = 0,
-			["Jellytko"] = 0,
-			["Harmoonie"] = 0,
-			["Bigbuxx"] = 0,
-			["Greenparser"] = 0,
-			["Deoka"] = 0,
-			["Flambierer"] = 0,
-			["Kineti"] = 0,
-			["Makittykat"] = 0,
-			["Rektase"] = 0,
-			["Imbaum"] = 0,
-			["Palladriel"] = 0,
-			["Ekstatik"] = 0,
-			["Bânu"] = 0,
-			["Lînà"] = 0,
-			["Mâyhém"] = 0,
-			["Sharmutaki"] = 0,
-			["Hazigerhazen"] = 0,
-			["Frighten"] = 0,
-			["Shadowchange"] = 0,
-			["Moonie"] = 0,
-			["Jofrey"] = 0,
-			["Troéller"] = 0,
-			["Schiemagi"] = 0,
-			["Doorg"] = 0,
-			["Königmocca"] = 0,
-			["Kyleriemen"] = 0,
-			["Sarhild"] = 0,
-			["Erthir"] = 0,
-			["Egonkowalskî"] = 0,
+			["Lnd"] = 0,
+			["Absopalâ"] = 0,
+			["Bánu"] = 0,
+			["Suliwe"] = 0,
+			["Callmegeek"] = 0,
+			["Azeyow"] = 0,
+			["Schosamos"] = 0,
+			["Taste"] = 0,
+			["Myjuice"] = 0,
+			["Semtuhldruid"] = 0,
+			["Brishja"] = 0,
+			["Gravenblock"] = 0,
+			["Minoton"] = 0,
+			["Detôx"] = 0,
+			["Moonin"] = 0,
+			["Maalidá"] = 0,
+			["Lycklig"] = 0,
+			["Wrathora"] = 0,
+			["Sepju"] = 0,
+			["Gdkphunter"] = 0,
+			["Conjoke"] = 0,
+			["Freri"] = 0,
+			["Xanthu"] = 0,
+			["Bremskyle"] = 0,
+			["Santax"] = 0,
+			["Kkttbb"] = 0,
+			["Siebeneins"] = 0,
+			["Loewenzahn"] = 0,
+			["Uwugamergirl"] = 0,
+			["Neulich"] = 0,
+			["Rootme"] = 0,
+			["Lowwl"] = 0,
+			["Vayona"] = 0,
+			["Luubiiwl"] = 0,
+			["Zozoqt"] = 0,
+			["Alloroshaman"] = 0,
+			["Hâkkî"] = 0,
+			["Hennerr"] = 0,
+			["Turbokalle"] = 0,
+			["Kimahrì"] = 0,
+			["Alsia"] = 0,
+			["Gwitheryn"] = 0,
+			["Vuko"] = 0,
+			["Freyaxgodx"] = 0,
+			["Graveofmaria"] = 0,
+			["Arftilly"] = 0,
+			["Neoxo"] = 0,
+			["Truncus"] = 0,
+			["Suriahhunt"] = 0,
+			["Domedonmaya"] = 0,
+			["Specializt"] = 0,
+			["Schôrke"] = 0,
+			["Sikkzh"] = 0,
+			["Maxxz"] = 0,
+			["Baksus"] = 0,
+			["Anaesthetist"] = 0,
+			["Gindeath"] = 0,
+			["Flairedan"] = 0,
+			["Kolberg"] = 0,
+			["Exonuklease"] = 0,
+			["Ukban"] = 0,
+			["Widi"] = 0,
+			["Zerrï"] = 0,
 			["Reikyy"] = 0,
-			["Magexd"] = 0,
-			["Kikuyu"] = 0,
-			["Hagatha"] = 0,
+			["Lipsthatgrip"] = 0,
+			["Quaddamáge"] = 0,
+			["Maryilin"] = 0,
+			["Styleploxlel"] = 0,
+			["Lerixa"] = 0,
+			["Hammêl"] = 0,
+			["Vriternity"] = 0,
+			["Grâmos"] = 0,
+			["Kedadrin"] = 0,
+			["Wønka"] = 0,
+			["Krywar"] = 0,
+			["Verothon"] = 0,
+			["Pyrosîs"] = 0,
+			["Insanabilis"] = 0,
+			["Wallahnyr"] = 0,
+			["Zündelt"] = 0,
+			["Slimpy"] = 0,
+			["Gablehauser"] = 0,
+			["Bloodwall"] = 0,
+			["Rudikay"] = 0,
+			["Bumsrums"] = 0,
+			["Pippop"] = 0,
+			["Shaïtan"] = 0,
+			["Wokepaladin"] = 0,
+			["Baumrínd"] = 0,
+			["Swaggorino"] = 0,
+			["Ezex"] = 0,
+			["Pypsi"] = 0,
+			["Delmonte"] = 0,
+			["Destroing"] = 0,
+			["Fogle"] = 0,
+			["Immortalie"] = 0,
+			["Celirith"] = 0,
+			["Hakkî"] = 0,
+			["Komsija"] = 0,
+			["Habíb"] = 0,
+			["Thorschuss"] = 0,
+			["Shasi"] = 0,
+			["Perakon"] = 0,
+			["Roximent"] = 0,
+			["Memfiqt"] = 0,
+			["Serferine"] = 0,
+			["Mpal"] = 0,
+			["Lorroth"] = 0,
+			["Sixofspades"] = 0,
+			["Beesportz"] = 0,
+			["Quadi"] = 0,
+			["Shikimora"] = 0,
+			["Andrés"] = 0,
+			["Asec"] = 0,
+			["Gatzuu"] = 0,
+			["Graveofjenna"] = 0,
+			["Loovee"] = 0,
+			["Gitgudm"] = 0,
+			["Xolem"] = 0,
+			["Connielingus"] = 0,
+			["Tolazytolvl"] = 0,
+			["Jocindyr"] = 0,
+			["Vacaria"] = 0,
+			["Vilro"] = 0,
+			["Marotéch"] = 0,
+			["Veluza"] = 0,
+			["Yppsi"] = 0,
+			["Vanec"] = 0,
+			["Batched"] = 0,
+			["Elonee"] = 0,
+			["Traklon"] = 0,
+			["Kwinnox"] = 0,
+			["Hampdidampdi"] = 0,
+			["Sharlatanus"] = 0,
+			["Bratansnitch"] = 0,
+			["Kyleriemen"] = 0,
+			["Wîdi"] = 0,
+			["Kwasimojo"] = 0,
+			["Ccstunmepls"] = 0,
+			["Smiitty"] = 0,
+			["Shevilyn"] = 0,
+			["Aximetro"] = 0,
+			["Xéreks"] = 0,
+			["Brockenbruha"] = 0,
+			["Xyte"] = 0,
+			["Arlawen"] = 0,
+			["Michorc"] = 0,
+			["Bânu"] = 0,
+			["Slig"] = 0,
+			["Rastason"] = 0,
+			["Schlüppì"] = 0,
+			["Deusdominik"] = 0,
+			["Orizi"] = 0,
+			["Frighten"] = 0,
+			["Onixus"] = 0,
+			["Niklassühne"] = 0,
+			["Gothus"] = 0,
+			["Icemachine"] = 0,
+			["Styleplox"] = 0,
+			["Krisco"] = 0,
+			["Liptea"] = 0,
+			["Amzelxo"] = 0,
+			["Dpsarchitect"] = 0,
+			["Deathzu"] = 0,
+			["Allesmitboss"] = 0,
+			["Lejo"] = 0,
+			["Salessa"] = 0,
+			["Kentharo"] = 0,
+			["Bloodstyle"] = 0,
 			["Azeyoo"] = 0,
 			["Morai"] = 0,
-			["Zjd"] = 0,
-			["Eiskafe"] = 0,
-			["Uwugamergirl"] = 0,
-			["Lostshaman"] = 0,
-			["Solanagodx"] = 0,
+			["Rôadblock"] = 0,
+			["Furiousfred"] = 0,
+			["Brôxxigar"] = 0,
+			["Clee"] = 0,
+			["Ongbakk"] = 0,
 			["Blinkyli"] = 0,
-			["Roxinshaman"] = 0,
-			["Inrage"] = 0,
-			["Rayzer"] = 0,
-			["Bremskyle"] = 0,
-			["Wandsbeker"] = 0,
+			["Letsburn"] = 0,
+			["Knüppelheini"] = 0,
+			["Lucyvera"] = 0,
+			["Tannenblut"] = 0,
+			["Mikirî"] = 0,
+		},
+		["CDECol"] = {
+			["55342;1"] = 3,
+			["62124;1"] = 3,
+			["10310;1"] = 1,
+			["10060;1"] = 2,
+			["34477;1"] = 2,
+			["42650;1"] = 2,
+			["6940;1"] = 1,
+			["64901;1"] = 4,
+			["20765;1"] = 2,
+			["57934;1"] = 2,
+			["12975;1"] = 1,
+			["355;1"] = 3,
+			["49576;1"] = 3,
+			["16190;1"] = 4,
+			["2062;1"] = 2,
+			["1038;1"] = 3,
+			["31821;1"] = 2,
+			["871;1"] = 1,
+			["9863;1"] = 2,
+			["2825;1"] = 2,
+			["20748;1"] = 2,
+			["20608;1"] = 2,
+			["29166;1"] = 4,
+			["64205;1"] = 2,
 		},
 		["NoRaid"] = true,
-		["CDECol"] = {
-		},
+		["Left"] = 517.31011962891,
 		["upd4380"] = true,
+		["Top"] = 172.95068359375,
 		["Save"] = {
 		},
 		["Profiles"] = {
@@ -598,13 +576,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -613,13 +591,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -628,27 +606,28 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [3]
 			{
+				["enabled"] = true,
 				["frameGeneral"] = true,
 				["iconGray"] = true,
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -656,13 +635,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -670,13 +649,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -684,13 +663,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -698,13 +677,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -712,13 +691,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -726,32 +705,116 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [10]
 			{
-				["frameGeneral"] = true,
-				["iconGray"] = true,
-				["textGeneral"] = true,
-				["methodsGeneral"] = true,
+				["textureColorTextDefaultR"] = 1,
+				["textureSmoothAnimation"] = true,
+				["textureColorBackgroundActiveB"] = 1,
+				["textureColorBackgroundDefaultB"] = 1,
+				["iconPosition"] = 1,
+				["textureColorTextCooldownB"] = 1,
+				["textureClassBackground"] = true,
+				["methodsStyleAnimation"] = 2,
+				["textureColorBackgroundDefaultG"] = 1,
+				["frameLines"] = 11,
+				["textureFile"] = "Interface\\AddOns\\MRT\\media\\bar19.tga",
+				["textureColorTimeLineCooldownG"] = 1,
+				["textureColorTextActiveB"] = 0.5,
+				["frameBlackBack"] = 0,
+				["fontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
-				["iconGeneral"] = true,
-				["fontOutline"] = true,
-				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
+				["textureColorTextDefaultG"] = 1,
+				["textureColorTimeLineActiveB"] = 1,
+				["frameWidth"] = 130,
+				["textureColorBackgroundActiveG"] = 1,
+				["textureColorTimeLineDefaultB"] = 1,
+				["textureAlphaBackground"] = 0.15,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["textureClassTimeLine"] = true,
+				["textureColorTextActiveR"] = 0.5,
+				["fontSize"] = 12,
+				["textureColorBackgroundActiveR"] = 1,
+				["iconGray"] = false,
+				["textTemplateRight"] = "%time%",
+				["textureColorTextCooldownG"] = 1,
+				["visibilityGeneral"] = true,
+				["textureColorTextCooldownR"] = 1,
+				["textTemplateLeft"] = "%name%",
+				["textureColorTimeLineCooldownR"] = 1,
+				["textTemplateCenter"] = "",
+				["textureColorBackgroundDefaultR"] = 1,
+				["iconSize"] = 16,
+				["textureColorTimeLineCooldownB"] = 1,
+				["textureColorBackgroundCooldownR"] = 1,
+				["textureAlphaTimeLine"] = 1,
+				["methodsTimeLineAnimation"] = 2,
+				["iconGlowType"] = 4,
+				["frameScale"] = 80,
+				["textureColorBackgroundCooldownB"] = 1,
+				["textureClassText"] = false,
+				["textureColorTimeLineDefaultR"] = 1,
+				["frameStrata"] = "MEDIUM",
+				["textureColorTimeLineActiveG"] = 1,
+				["textureColorTextActiveG"] = 1,
+				["textureColorBackgroundCooldownG"] = 1,
+				["frameBetweenLines"] = 1,
+				["frameAlpha"] = 100,
+				["textureColorTextDefaultB"] = 1,
+				["textureColorTimeLineActiveR"] = 1,
+				["textureColorTimeLineDefaultG"] = 1,
+				["textureAlphaCooldown"] = 0.85,
 			}, -- [11]
 		},
 		["Priority"] = {
+			[20748] = 30,
+			[355] = 100,
+			[20765] = 80,
+			[42650] = 65,
+			[6940] = 40,
+			[2825] = 60,
+			[16190] = 55,
+			[62124] = 100,
+			[64205] = 0,
+			[33206] = 30,
+			[49576] = 90,
+			[1038] = 40,
+			[2062] = 66,
+			[29166] = 30,
+			[871] = 60,
+			[12975] = 60,
+			[20608] = 45,
+			[9863] = 55,
 		},
 		["CDE"] = {
+			[20748] = true,
+			[64901] = true,
+			[29166] = true,
+			[64843] = true,
+			[6940] = true,
+			[31821] = true,
+			[16190] = true,
+			[871] = true,
+			[64205] = true,
+			[33206] = true,
+			[48707] = true,
+			[49576] = true,
+			[10310] = true,
+			[10278] = true,
+			[1038] = true,
+			[47788] = true,
+			[12975] = true,
+			[355] = true,
+			[55342] = true,
+			[62124] = true,
+			[20608] = true,
+			[9863] = true,
 		},
 		["OptFav"] = {
 		},
@@ -768,10 +831,10 @@ VMRT = {
 	},
 	["InspectViewer"] = {
 		["ColorizeLowIlvl685"] = false,
-		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeLowIlvl"] = true,
+		["ColorizeNoEnch"] = true,
 		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["InviteTool"] = {
@@ -782,9 +845,10 @@ VMRT = {
 		["Ranks"] = {
 			true, -- [1]
 		},
-		["LootThreshold"] = 2,
-		["MasterLooters"] = "",
-		["LootMethod"] = "group",
+		["LootThreshold"] = 3,
+		["LootMethodEnabled"] = true,
+		["MasterLooters"] = "Wønka",
+		["LootMethod"] = "master",
 		["PromoteNames"] = "",
 		["OnlyGuild"] = true,
 		["Rank"] = 1,
@@ -811,70 +875,314 @@ VMRT = {
 	["LootLink"] = {
 	},
 	["RaidGroups"] = {
-		["KeepPosInGroup"] = true,
 		["upd4550"] = true,
+		["KeepPosInGroup"] = true,
+		["importType"] = 4,
 		["profiles"] = {
+			{
+				"Alsia", -- [1]
+				"Minoton", -- [2]
+				"Delmonte", -- [3]
+				"Morai", -- [4]
+				"Wønka", -- [5]
+				"Ukban", -- [6]
+				"Jedsia", -- [7]
+				nil, -- [8]
+				"Wîdi", -- [9]
+				"Vanec", -- [10]
+				"Hakkî", -- [11]
+				"Firecat", -- [12]
+				"Uwugamergirl", -- [13]
+				"Shamir", -- [14]
+				"Lät", -- [15]
+				"Sikkzh", -- [16]
+				"Jodifrosta", -- [17]
+				"Hennerr", -- [18]
+				nil, -- [19]
+				"Jocindyr", -- [20]
+				"Xeeli", -- [21]
+				"Hanaltar", -- [22]
+				"Liptea", -- [23]
+				"Serferine", -- [24]
+				["name"] = "U25-22.06",
+				["time"] = 1687432297,
+			}, -- [1]
 		},
 	},
 	["Note"] = {
 		["BlackNames"] = {
+			"Flame Leviathan", -- [1]
+			"Ignis the Furnace Master", -- [2]
+			"Razorscale", -- [3]
+			"XT-002 Deconstructor", -- [4]
+			"The Iron Council", -- [5]
+			"Algalon", -- [6]
+			"Kologarn", -- [7]
+			"Auriaya", -- [8]
+			"Hodir", -- [9]
+			"Thorim", -- [10]
+			"Freya", -- [11]
+			"Mimiron", -- [12]
+			"General Vezax", -- [13]
+			"Yogg-Saron", -- [14]
+			"Nothrend Beasts", -- [15]
+			"Flame Leviathan*", -- [16]
 		},
-		["Strata"] = "HIGH",
+		["FontSize"] = 12,
 		["AutoLoad"] = {
 		},
-		["Left"] = 2185.29931640625,
-		["OnlyPromoted"] = true,
-		["Text1"] = "Chopper 1: Liptea {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: ||cfffff569Jedsia||r {mond} zu {dreieck}\nChopper 4:\n\nDemo 1: ||cfff58cbaAlsia||r -->  Hennerr {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> Uwugamergirl {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> ||cffff7d0aFirecat||r {mond} + Lurchlisa  {dreieck}\nDemo 4:  + ||cffabd473Shamir||r \nDemo 5: ||cffabd473Lät||r + Delmonte\n\nSiege 1: ||cfffff569Ukban||r + Minoton\nSiege 2: ||cff0070deWîdi||r + Jocindyr\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: Shikimora + Xeeli",
+		["Left"] = 1830.5745849609,
+		["HideOutsideRaid"] = true,
+		["SelfText"] = "",
+		["Fix"] = true,
+		["enabled"] = true,
+		["ScaleBack"] = 20,
+		["Text1"] = "Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7eb",
 		["OptionsFormatting"] = true,
 		["DefName"] = "Flame Leviathan",
+		["Scale"] = 88,
+		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Alsia-Venoxis",
-		["LastUpdateTime"] = 1688074719,
-		["Width"] = 379.9999084472656,
+		["Strata"] = "HIGH",
+		["Top"] = 397.52319335938,
+		["TimerPassedHide"] = true,
+		["Width"] = 380.0000305175781,
 		["BlackLastUpdateName"] = {
+			"Alsia-Venoxis", -- [1]
+			"Alsia-Venoxis", -- [2]
+			"Alsia-Venoxis", -- [3]
+			"Alsia-Venoxis", -- [4]
+			"Alsia-Venoxis", -- [5]
+			"Alsia-Venoxis", -- [6]
+			"Alsia-Venoxis", -- [7]
+			"Alsia-Venoxis", -- [8]
+			"Alsia-Venoxis", -- [9]
+			"Alsia-Venoxis", -- [10]
+			"Alsia-Venoxis", -- [11]
+			"Alsia-Venoxis", -- [12]
+			"Alsia-Venoxis", -- [13]
+			"Alsia-Venoxis", -- [14]
+			"Alsia-Venoxis", -- [15]
+			"Alsia", -- [16]
+		},
+		["EnableWhenReceive"] = true,
+		["Black"] = {
+			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [1]
+			"", -- [2]
+			"||cffee5555BoP:||r\n||cfff58cbaShikimora||r  --> ||cffff7d0aHakkî||r\n||cfff58cbaAlsia||r --> ||cffff7d0aUwugamergirl||r\n||cfff58cbaLiptea||r --> ||cff40c7ebJodifrosta||r\n||cfff58cbaBubbledîne||r --> ||cff8787edBlinkyli||r\nXeeli --> ||cffff7d0aKyleriemen||r", -- [3]
+			"||cffee5555Tympanic Tantrum||r (chain casts)\n{time:00:05,SCS:62776:1} ||cffee5555Tantrum 1||r - ||cfff58cbaAlsia||r {spell:64205} + Liptea {spell:64205}\n{time:00:05,SCS:62776:2} ||cffee5555Tantrum 2||r ||r- ||cfff58cbaXeeli||r {spell:64205} + Shikimora ||r{spell:64205} + Serferine {spell:64843}\n{time:00:05,SCS:62776:3} ||cffee5555Tantrum 3||r - ||cfff58cbaAlsia||r {spell:64205} + Liptea {spell:64205} + Hanaltar {spell:64843}\n{time:00:05,SCS:62776:4} ||cffee5555Tantrum 4||r - ||cfff58cbaXeeli||r {spell:64205} + Shikimora {spell:64205} + {spell:740}", -- [4]
+			"||cff55ee55Fusion Punch (P3)||r\n<1> {spell:61903} Liptea {spell:64205} + {spell:6940}\n<2> {spell:61903} ||cfff48cbaXeeli||r {spell:64205} + {spell:6940}\n<3> {spell:61903} Shikimora {spell:64205} + {spell:6940}\n<4> {spell:61903} Serferine {spell:33206}||cfff58cba||r", -- [5]
+			"||cfffff569Collapsing Stars||r\n{time:00:05,SCC:65108:1} ||cfffff569Star 1||r - NO CDs.\n{time:00:05,SCC:65108:2} ||cfffff569Star 2||r - Xeeli {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:3} ||cfffff569Star 3||r - ||cfff58cbaLiptea||r {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:4} ||cfffff569Star 4||r - ||cfff58cbaShikimora||r {spell:31821} + Bubbledine {spell:64843}\n{time:00:05,SCC:65108:5} ||cfffff569Star 5||r - Alsia & ||cffff7d0aFirecat||r & ||cffff7d0aHakkî||r {spell:9863}\n{time:00:05,SCC:65108:6} ||cfffff569Star 6||r - ||cffffffffSerferine||r {spell:64843} + {spell:47878}\n{time:00:05,SCC:65108:7} ||cfffff569Star 7||r - Xeeli  {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:8} ||cfffff569Star 8||r - Liptea {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:9} ||cfffff569Star 9||r - ||cfff58cbaShikimora||r ||r{spell:31821} + Bubbledine {spell:64843}\n{time:00:05,SCC:65108:10} ||cfffff569Star 10||r - Alsia ||r{spell:64205}", -- [6]
+			"||cffc79c6eRubble Explosions||r\n{time:00:25} <1> Liptea {spell:64205}\n{time:01:00} <2> ||cfff58cbaXeeli||r {spell:64205}", -- [7]
+			"||cffff0000On pull:||r ||cfff58cbaAlsia||r {spell:498} + Xeeli {spell:642}{spell:6940} + Hanaltar {spell:33206}\n\nBoP:\n||cfff58cbaShikimora||r  --> ||cffff7d0aHakkî||r\n||cfff58cbaAlsia||r --> ||cffff7d0aUwugamergirl||r\n||cfff58cbaLiptea||r --> ||cff40c7ebJodifrosta||r\n||cfff58cbaBubbledîne||r --> ||cff8787edBlinkyli||r\nXeeli --> ||cffff7d0aKyleriemen||r\n\n||cffffff00Sonic Screech||r\n{time:00:05, SCC:64688:1} <1> ||cfff58cbaBubbledîne||r {spell:64205}\n{time:00:05, SCC:64688:2} <2> ||cfff58cbaAlsia||r||r {spell:64205}", -- [8]
+			"||cff0070deFrozen Blows||r\n{time:00:05,SCS:63512:1} <1> Xeeli {spell:64205} {spell:31821}\n{time:00:05,SCS:63512:2} <2> ||cfff58cbaAlsia||r {spell:64205}", -- [9]
+			"||cffee5555Unbalancing Strike||r\n{time:00:05,SCS:62130:1} <1> No CD\n{time:00:05,SCS:62130:2} <2> No CD\n{time:00:05,SCS:62130:3} <3> No CD\n{time:00:05,SCS:62130:4} <4>  ||cfff58cbaShikimora||r {spell:6940}\n{time:00:05,SCS:62130:5} <5> ||cfff58cbaXeeli||r {spell:6940}\n{time:00:05,SCS:62130:6} <6> Liptea {spell:6940}\n{time:00:05,SCS:62130:7} <7> ||cfff58cbaAlsia||r {spell:6940}\n{time:00:05,SCS:62130:8} <8> Hanaltar {spell:33206}\n{time:00:05,SCS:62130:9} <9> Tank Personal\n{time:00:05,SCS:62130:10} <10> Tank Personal\n{time:00:05,SCS:62130:11} <11> Tank Personal\n \n||cff55ee55Tunnel Healers||r: ||cfff58cbaLiptea||r & ||cffffffffHanaltar||r ", -- [10]
+			"||cffee5555Ground Tremor||r\n{time:00:05,SCS:62859:1} ||cffee5555Tremor 1||r - ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62859:2} ||cffee5555Tremor 2||r - ||cfff58cbaLiptea||r  {spell:64205}\n{time:00:05,SCS:62859:3} ||cffee5555Tremor 3||r - ||cfff58cbaAsdâlan||r {spell:64205}\n{time:00:05,SCS:62859:4} ||cffee5555Tremor 4||r - ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62859:5} ||cffee5555Tremor 5||r - ||cfff58cbaLiptea||r  {spell:64205}\n{time:00:05,SCS:62859:6} ||cffee5555Tremor 6 ||r- ||cfff58cbaAsdâlan||r {spell:64205}\n \n||cffee5555Lasher Deaths||r\n{time:00:05,SCC:62937:1} First Set: ||cfff58cbaLiptea||r {spell:31821} + ||cffc41f3bDelmonte||r  & Vacaria\n{time:00:05,SCC:62937:30} Second Set: ||cfff58cbaAlsia||r {spell:31821} +  ||cffc41f3bMorai||r  & Königmoca\n\nWater: ||cfffff569Ukban||r & ||cff0070deWîdi||r\nStorm: ||cfffff569Onixus||r & ||cff0070deVacaria||r\nSnaplasher: ||cffc41f3bMorai||r ", -- [11]
+			"||cffff0000Plasma Blast CD (P1)||r\n{time:00:05,SCS:64529:1} <1> ||cffffffffSerferine||r {spell:33206} + ||cfff58cbaShikimora||r {spell:6940}\n{time:00:05,SCS:64529:2} <2> ||cfff58cbaAlsia||r {spell:498} + ||cfff58cbaLiptea||r {spell:6940}\n \n||cffff7d0aHeat Wave||r (every 10-15 sec) (P2)\n{time:00:01,SAA:64533:1} <1> ||cfff48cbaAlsia||r {spell:64205}\n{time:00:11,SAA:64533:1} <2> ||cfff58cbaLiptea||r {spell:64205}\n{time:00:21,SAA:64533:1} <3> ||cfff58cbaLiptea||r {spell:31821}\n{time:00:31,SAA:64533:1} <4> Joicindyr {spell:64843}\n{time:00:41,SAA:64533:1} <5> Hanaltar {spell:64843}\n{time:00:51,SAA:64533:1} <6> ||cfff58cbaShikimora||r {spell:64205}\n\n\nKerne: ||cffc79c6eWønka||r\nKite: ||cffc41f3bMorai||r\nBombs: ||cffff7d0aVanec||r", -- [12]
+			"||cffa330c9Surge of Darkness Tank CD||r\n{time:00:05,SCS:62662:1} <1> Hanaltar {spell:33206} +  ||cfff58cbaXeeli||r {spell:64205}\n{time:00:05,SCS:62662:2} <2> ||cfff58cbaLiptea||r {spell:64205} + ||cfff58cbaLiptea||r {spell:642}{spell:6940}\n{time:00:05,SCS:62662:3} <3> ||cfff58cbaAlsia||r {spell:498}\n{time:00:05,SCS:62662:4} <4> ||Hanaltar {spell:33206} + ||cfff58cbaXeeli||r {spell:642}{spell:6940}\n{time:00:05,SCS:62662:5} <5> ||cfff58cbaBubbledîne||r {spell:642}{spell:6940} + ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62662:1} <6> ||cfff58cbaAlsia||r {spell:498}\n{time:00:05,SCS:62662:6} <7> Hanaltar {spell:33206} \n\n||cffee5555Kicker||r\nGroup 1: ||cffc79c6eWønka||r & Fumas\nGroup 2: ||cfffff569Onixus||r & Delmonte\nGroup 3 ||cff0070deVacaria||r & ||cffc79c6eMinoton||r", -- [13]
+			"1. ||cffffffffSerferine||r\n2. ||cfffff569Onixus||r \n3. ||cfffff569Ukban||r \n4. ||cfff58cbaAsdâlan||r \n5. ||cffff7d0aVanec||r\n6. ||cffc41f3bDelmonte||r\n7. ||cffc41f3bTaste||r \n8. ||cffc41f3bMorai||r\n9. ||cff0070deHítaf||r\n10. ||cffff7d0aHakkî||r\n\n\n||cffa330c9Shadow Nova (P1)||r\n||cfff58cbaAlsia||r {spell:64205}\n||cfff58cbaHabib||r {spell:64205}\n||cfff58cbaLiptea||r  {spell:64205}\n \n||cffff0000Defeaning Roar (P3)||r\n{time:00:05,SCS:64189:1} <1> ||cfff58cbaHabib||r {spell:31821}\n{time:00:05,SCS:64189:2} <2> ||cfff58cbaLiptea||r {spell:31821}\n", -- [14]
+			"{spell:32182} Lust - Phase 2\n\n||cffee5555Impale/Snobold BOPs||r\n1st - Alsia Divine Shield {spell:642}\n2nd - Habíb Hand of Protection {spell:10278}\n3rd - Alsia Hand of Protection {spell:10278}\n4th - Shikimora Hand of Protection {spell:10278}\n\n||cffee5555Jormungar CDs||r\n1st - Habíb Aura Mastery {spell:31821}\n2nd - Habíb Divine Guardian {spell:70940}\n3rd - Alsia Divine Guardian {spell:70940}\n4th - Shikimora Aura Mastery {spell:31821}\n\n||cffee5555Arctic Breath CDs||r\n1st - Habíb Divine Guardian {spell:70940}\n2nd - Shikimora Aura Mastery {spell:31821}\n3rd - Habíb Aura Mastery {spell:31821}\n4th - Liptea Divine Guardian {spell:70940}\n5th - Serferine Divine Guardian {spell:70940}", -- [15]
+			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [16]
 		},
 		["BlackLastUpdateTime"] = {
+			1688668028, -- [1]
+			1688666786, -- [2]
+			1688667588, -- [3]
+			1688666890, -- [4]
+			1688666909, -- [5]
+			1688667086, -- [6]
+			1688667097, -- [7]
+			1688667600, -- [8]
+			1688667146, -- [9]
+			1688667221, -- [10]
+			1688935346, -- [11]
+			1687462188, -- [12]
+			1688667375, -- [13]
+			1690140165, -- [14]
+			1687686826, -- [15]
+			1696890027, -- [16]
 		},
-		["Black"] = {
-			"", -- [1]
-			"", -- [2]
-			"", -- [3]
-		},
-		["Height"] = 211,
-		["enabled"] = true,
-		["FontSize"] = 12,
-		["Top"] = 374.6250305175781,
+		["Height"] = 211.0000152587891,
+		["Alpha"] = 50,
+		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+		["LastUpdateTime"] = 1696891123,
 	},
 	["Logging"] = {
 	},
 	["MarksBar"] = {
-		["Show"] = {
-			true, -- [1]
-			true, -- [2]
-			true, -- [3]
-			true, -- [4]
-			true, -- [5]
-		},
+		["enabled"] = true,
 		["Strata"] = "HIGH",
+		["Left"] = 1210.1838378906,
+		["Top"] = 169.22534179688,
 		["pulltimer_right"] = 10,
 		["pulltimer"] = 10,
-		["enabled"] = true,
-		["Left"] = 1631.310424804688,
-		["Top"] = 175.6258087158203,
+		["Alpha"] = 50,
+		["ShowOnHoverAlpha"] = 1,
+		["Show"] = {
+			true, -- [1]
+			[3] = true,
+			[5] = true,
+		},
 	},
 	["VisNote"] = {
 		["data"] = {
+			{
+				"447704D937F81676199891", -- [1]
+				192, -- [2]
+				"D", -- [3]
+				239, -- [4]
+				83, -- [5]
+				4, -- [6]
+				6, -- [7]
+				"0,0,4,1,3,0,2,1,4,0,4,0,3,1,4,0,4,0,2,1,4,0,4,0,4,1,4,0,4,0,4,1,3,0,4,0,4,0,4,0,4,0,4,0,2,1,4,0,4,0,4,0,4,0,2,1,4,0,4,0,4,0,4,1,4,0,4,0,4,0,4,0,4,0,4,0,3,0,2,1,4,0,4,1,3,0,3,1,4,0,2,1,4,0,3,1,2,2,1,2,2,2,-1,2,-1,2,-1,2,-2,3,-1,3,-1,3,-1,2,-1,2,-1,2,-1,3,-1,2,-2,3,-1,2,-1,3,-1,2,-1,2,-1,2,-2,2,-1,2,-1,2,-2,3,-2,2,-3,3,-2,3,-3,2,-3,2,-1,2,-2,1,-1,2,-4,1,-2,1,-2,1,-4,1,-2,1,-4,1,-4,1,-4,0,-2,1,-4,1,-3,1,-3,0,-4,0,-4,0,-4,0,-4,0,-4,0,-4,0,-2,-1,-4,-1,-4,0,-2,-1,-3,0,-2,-1,-3,-2,-2,-1,0,-3,0,-4,2,-3,1,-2,2,-1,1,-2,2,-1,3,-2,2,-1,3,-2,2,-2,3,-1,2,-1,4,-1,2,-1,3,-1,4,0,4,0,2,-1,4,0,2,2,-1,2,-3,2,-2,1,-3,2,-2,1,-2,1,-3,2,-3,2,-2,1,-2,1,-3,1,-2,1,-2,1,-2,1,-3,2,-2,1,-4,1,-2,1,-2,1,-5,3,16,3,4,0,3,0,4,0,4,0,4,0,2,-1,4,0,4,0,4,0,4,0,4,0,4,-1,5,-1,4,0,14,-2,4,-1,4,-1,4,0,2,-1,3,0,2,-1,4,-1,4,-1,4,-1,3,-1,4,-1,4,-1,4,-1,4,-1,4,-1,3,-1,2,-1,2,-1,3,-2,2,-1,2,-1,3,-2,2,-1,3,-2,1,-2,2,-3,0,5,0,4,0,4,0,4,-1,4,-1,3,-1,2,-1,2,-1,4,-1,2,-1,3,-2,2,-1,2,-3,3,-2,3,-2,1,-1,2,-3,2,-2,2,-3,2,-2,1,-2,1,-3,2,-2,1,-2,1,-2,1,-3,1,-2,1,-2,1,-3,2,-4,1,-2,1,-2,1,-3,1,-2,1,-2,1,-2,1,-4,1,-2,1,-4,1,-2,1,-4,1,-4,0,-2,1,-4,1,-4,1,-4,0,-4,0,-4,0,-1,-2,0,-4,1,-2,2,-2,2,-3,1,-2,2,-3,1,-2,1,-2,2,-3,1,-2,2,-3,1,-2,1,-2,2,-3,1,-2,1,-2,2,-3,1,-2,3,-3,30,-31,2,-3,2,-1,3,-3,3,-3,3,-2,1,-2,3,-2,1,-2,2,-1,3,-3,2,-1,3,-3,3,-2,1,-2,2,-1,3,-2,1,-2,2,-1,3,-3,3,-2,2,-2,2,-1,2,-1,3,-2,2,-1,3,-2,2,-1,2,-1,3,-2,2,-1,2,-1,2,-1,3,-2,2,-1,1,2,-2,3,-1,4,-1,2,-2,3,-1,2,-1,4,-2,3,-1,2,-1,2,-1,2,-1,3,-1,2,-1,2,-1,2,-1,2,-1,3,-1,2,-1,2,-1,2,-2,3,-1,4,-5,9,-1,2,-1,2,-2,3,-1,2,-1,2,-2,3,-1,2,-1,2,-1,2,-1,2,-1,2,-2,3,-1,2,-2,3,-2,2,-1,2,-2,3,-1,2,-2,3,-1,2,-2,3,-6,9,-2,1,-1,2,-1,2,-2,3,-2,1,-1,2,-1,2,-2,3,-2,1,-1,2,-1,2,-2,2,-3,3,-3,2,-1,2,-2,1,-3,3,-3,2,-3,3,-3,2,-1,2,-2,1,-3,2,-3,3,-3,2,6,-2,2,-1,2,-1,3,-2,2,-1,3,-2,2,-1,3,-1,3,-2,2,-1,2,-1,3,-2,2,-1,2,-1,3,-2,2,-1,2,-1,2,-2,2,-1,2,-1,2,-1,3,-2,2,-1,2,-1,3,-2,2,-1,2,-1,3,-2,2,-1,3,-1,2,-1,2,-1,4,-1,3,-2,4,-1,2,-1,2,-1,3,-1,3,-1,2,-1,4,-1,2,-1,4,-1,3,-1,2,-1,4,-1,4,0,1,2,", -- [8]
+				"D", -- [9]
+				427, -- [10]
+				394, -- [11]
+				4, -- [12]
+				6, -- [13]
+				"0,0,-2,-1,-2,-1,-1,-3,-1,-4,0,-4,-1,-2,-1,-4,0,-4,-1,-2,-1,-4,0,-4,-1,-2,-1,-4,0,-4,-1,-2,-1,-4,-1,-4,0,-4,-1,-2,0,-4,-1,-3,-1,-4,-1,-4,0,-4,-1,-2,-1,-4,0,-4,-1,-2,-1,-3,0,-3,-1,-2,-1,-4,-1,-3,-1,-4,-1,-4,-1,-4,-1,-4,-1,-4,-1,-3,-1,-4,-1,-4,-1,-4,-1,-4,-1,-4,-2,-7,-3,-8,-1,-2,-1,-2,-1,-4,-2,-3,-2,-6,-1,-2,-2,-3,-1,-2,", -- [14]
+				"D", -- [15]
+				336, -- [16]
+				332, -- [17]
+				4, -- [18]
+				6, -- [19]
+				"0,0,0,-3,1,-4,1,-4,0,-4,1,-2,0,-3,1,-2,0,-4,1,-2,0,-4,1,-2,1,-4,0,-4,1,-2,0,-4,1,-2,0,-4,1,-2,0,-3,1,-2,0,-4,1,-2,0,-4,1,-2,1,-3,0,-4,1,-2,0,-4,1,-2,1,-4,0,-4,1,-2,1,-4,0,-4,2,-6,1,-3,1,-4,1,-4,1,-2,1,-3,1,-2,1,-4,1,-2,1,-2,1,-2,1,3,2,3,1,2,1,2,10,17,1,2,2,3,1,2,1,2,4,7,2,3,2,4,1,2,2,2,3,2,1,2,2,1,3,3,3,2,1,2,2,1,3,2,1,2,2,1,3,3,3,2,1,2,2,1,3,3,2,2,2,1,2,1,2,1,2,1,3,1,2,1,2,1,2,1,3,2,4,1,4,0,2,1,4,1,3,0,4,0,-8,2,-2,1,-3,2,-3,1,-2,1,-2,1,-3,2,-2,1,-2,1,-2,1,-2,1,-2,1,-2,1,-2,1,-3,2,-2,1,-2,1,-3,2,-2,1,-2,1,-3,2,-4,1,-3,2,-2,2,-5,3,-2,1,-3,3,-2,1,-2,2,-2,1,-1,2,-2,1,", -- [20]
+				"T", -- [21]
+				276.7248954793, -- [22]
+				281.32498775194, -- [23]
+				11, -- [24]
+				25.649899815305, -- [25]
+				"1", -- [26]
+				"T", -- [27]
+				362.44992430257, -- [28]
+				214.50004773494, -- [29]
+				11, -- [30]
+				22.949923913276, -- [31]
+				"2", -- [32]
+				"T", -- [33]
+				465.72492523505, -- [34]
+				280.65001523411, -- [35]
+				11, -- [36]
+				22.274779734067, -- [37]
+				"3", -- [38]
+				"T", -- [39]
+				555.49987499602, -- [40]
+				218.55005450332, -- [41]
+				11, -- [42]
+				23.624896431111, -- [43]
+				"4", -- [44]
+				"O", -- [45]
+				257.82489250372, -- [46]
+				262.42502769171, -- [47]
+				8, -- [48]
+				100, -- [49]
+				294.94992593704, -- [50]
+				299.55006112503, -- [51]
+				4, -- [52]
+				"O", -- [53]
+				350.97496234593, -- [54]
+				207.75002214918, -- [55]
+				8, -- [56]
+				100, -- [57]
+				386.07482073368, -- [58]
+				240.15003338093, -- [59]
+				4, -- [60]
+				"O", -- [61]
+				450.20004234071, -- [62]
+				265.80006194226, -- [63]
+				8, -- [64]
+				100, -- [65]
+				486.64975993345, -- [66]
+				302.25003702706, -- [67]
+				4, -- [68]
+				"O", -- [69]
+				541.32493713735, -- [70]
+				207.75002214918, -- [71]
+				8, -- [72]
+				100, -- [73]
+				575.07493632012, -- [74]
+				242.17503676512, -- [75]
+				4, -- [76]
+			}, -- [1]
+			{
+				"447704D937F81676200724", -- [1]
+				192, -- [2]
+				"T", -- [3]
+				276.7248954793, -- [4]
+				281.32498775194, -- [5]
+				11, -- [6]
+				25.649899815305, -- [7]
+				"1", -- [8]
+				"T", -- [9]
+				362.44992430257, -- [10]
+				214.50004773494, -- [11]
+				11, -- [12]
+				22.949923913276, -- [13]
+				"2", -- [14]
+				"T", -- [15]
+				465.72492523505, -- [16]
+				280.65001523411, -- [17]
+				11, -- [18]
+				22.274779734067, -- [19]
+				"3", -- [20]
+				"T", -- [21]
+				555.49987499602, -- [22]
+				218.55005450332, -- [23]
+				11, -- [24]
+				23.624896431111, -- [25]
+				"4", -- [26]
+				"O", -- [27]
+				257.82489250372, -- [28]
+				262.42502769171, -- [29]
+				8, -- [30]
+				100, -- [31]
+				294.94992593704, -- [32]
+				299.55006112503, -- [33]
+				4, -- [34]
+				"O", -- [35]
+				350.97496234593, -- [36]
+				207.75002214918, -- [37]
+				8, -- [38]
+				100, -- [39]
+				386.07482073368, -- [40]
+				240.15003338093, -- [41]
+				4, -- [42]
+				"O", -- [43]
+				450.20004234071, -- [44]
+				265.80006194226, -- [45]
+				8, -- [46]
+				100, -- [47]
+				486.64975993345, -- [48]
+				302.25003702706, -- [49]
+				4, -- [50]
+				"O", -- [51]
+				541.32493713735, -- [52]
+				207.75002214918, -- [53]
+				8, -- [54]
+				100, -- [55]
+				575.07493632012, -- [56]
+				242.17503676512, -- [57]
+				4, -- [58]
+				["name"] = " *",
+			}, -- [2]
 		},
 		["sync_data"] = {
+			["447704D937F81676199891"] = {
+				["time"] = 1676200533,
+				["sender"] = "Alsia-Venoxis",
+			},
 		},
 	},
 	["RaidCheck"] = {
+		["ReadyCheckLeft"] = 1138.5769042969,
+		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckFrameScale"] = 104,
 		["FlaskExp"] = 1,
-		["ReadyCheckFrame"] = true,
-		["ReadyCheckTop"] = 973.029541015625,
+		["ReadyCheckTop"] = 959.14984130859,
 		["WeaponEnch"] = {
 		},
-		["ReadyCheckLeft"] = 1205.367065429688,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFontSize"] = 14,
+		["ReadyCheckFrame"] = true,
 	},
 }
