@@ -123,7 +123,7 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["y"] = 0,
-			["x"] = -158.28173828125,
+			["x"] = -158.2818603515625,
 			["borderColor"] = {
 			},
 			["brokerObject"] = "AtlasLoot",
@@ -160,7 +160,7 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -76.57501220703125,
+			["y"] = -76.57525634765625,
 			["x"] = 548.4878540039062,
 			["borderColor"] = {
 			},
@@ -175,7 +175,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.11",
+	["version"] = "10.1.13",
 	["display"] = {
 	},
 	["enchantColor"] = {

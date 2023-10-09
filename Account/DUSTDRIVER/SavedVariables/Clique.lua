@@ -2,17 +2,17 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Maturitass - Venoxis"] = {
-			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-			["downclick"] = false,
-			["alerthidden"] = true,
-			["specswap"] = false,
-		},
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
+			["fastooc"] = false,
+			["specswap"] = false,
+			["downclick"] = false,
 			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["alerthidden"] = true,
+		},
+		["Maturitass - Venoxis"] = {
+			["spec1_profileKey"] = "Maturitass - Venoxis",
+			["spec2_profileKey"] = "Maturitass - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
@@ -28,10 +28,10 @@ CliqueDB3 = {
 		["Maturitas - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -47,10 +47,10 @@ CliqueDB3 = {
 		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -84,10 +84,10 @@ CliqueDB3 = {
 		["Maturitass - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "ALT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -103,12 +103,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
-					["spell"] = "Wiedergeburt",
+					["spellSubName"] = "Rang 7",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136080,
-					["spellSubName"] = "Rang 7",
+					["spell"] = "Wiedergeburt",
 				}, -- [3]
 				{
 					["type"] = "menu",
@@ -120,12 +120,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spell"] = "Nachwachsen",
+					["spellSubName"] = "Rang 12",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136085,
-					["spellSubName"] = "Rang 12",
+					["spell"] = "Nachwachsen",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -139,12 +139,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spell"] = "Verjüngung",
+					["spellSubName"] = "Rang 15",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136081,
-					["spellSubName"] = "Rang 15",
+					["spell"] = "Verjüngung",
 				}, -- [7]
 				{
 					["type"] = "spell",

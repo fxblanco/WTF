@@ -1,6 +1,6 @@
 
 HidingBarDB = {
-	["tstmp"] = 1695252617,
+	["tstmp"] = 1695408286,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
@@ -8,13 +8,13 @@ HidingBarDB = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
 					["LibDBIcon10_ItemRack"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["LibDBIcon10_RXPGuides"] = {
 						["tstmp"] = 1695249501,
 					},
 					["LibDBIcon10_BisTooltipIcon"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["LibDBIcon10_VuhDo"] = {
 						["tstmp"] = 1691317234,
@@ -23,76 +23,79 @@ HidingBarDB = {
 						["tstmp"] = 1694891506,
 					},
 					["LibDBIcon10_DBM"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
+					},
+					["LibDBIcon10_Myslot"] = {
+						["tstmp"] = 1695408286,
 					},
 					["WIM3MinimapButton"] = {
-						["tstmp"] = 1694891917,
+						["tstmp"] = 1695408286,
 					},
 					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["LibDBIcon10_Grid2"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1695252617,
-					},
-					["LibDBIcon10_WeakAuras"] = {
-						["tstmp"] = 1695252617,
-					},
-					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1695252617,
-					},
-					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1695252617,
-					},
-					["LibDBIcon10_GDKPdLDB"] = {
-						["tstmp"] = 1695252617,
-					},
-					["LibDBIcon10_Questie"] = {
-						["tstmp"] = 1695252619,
-					},
-					["LibDBIcon10_LoggerHeadLite"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["LibDBIcon10_AtlasLoot"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
+					},
+					["LibDBIcon10_LoggerHeadLite"] = {
+						["tstmp"] = 1695408286,
+					},
+					["LibDBIcon10_DetailsStreamer"] = {
+						["tstmp"] = 1695408286,
+					},
+					["LibDBIcon10_WeakAuras"] = {
+						["tstmp"] = 1695408286,
+					},
+					["LibDBIcon10_Plater"] = {
+						["tstmp"] = 1695408286,
+					},
+					["LibDBIcon10_Questie"] = {
+						["tstmp"] = 1695408288,
+					},
+					["LibDBIcon10_GDKPdLDB"] = {
+						["tstmp"] = 1695408286,
 					},
 				},
 				["btnSettings"] = {
 					["HidingBar"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["Grid2"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["DBM"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["ItemRack"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["AtlasLoot"] = {
-						["tstmp"] = 1695252617,
-					},
-					["WeakAuras"] = {
-						["tstmp"] = 1695252617,
-					},
-					["BisTooltipIcon"] = {
-						["tstmp"] = 1695252617,
-					},
-					["BagnonLauncher"] = {
-						["tstmp"] = 1695252617,
+						["tstmp"] = 1695408286,
 					},
 					["VuhDo"] = {
 						["tstmp"] = 1691317234,
 					},
+					["BisTooltipIcon"] = {
+						["tstmp"] = 1695408286,
+					},
+					["WeakAuras"] = {
+						["tstmp"] = 1695408286,
+					},
+					["BagnonLauncher"] = {
+						["tstmp"] = 1695408286,
+					},
 				},
 				["grabMinimap"] = true,
 				["grabMinimapAfterN"] = 1,
-				["customGrabList"] = {
-				},
 				["ombGrabQueue"] = {
+				},
+				["customGrabList"] = {
 				},
 				["ignoreMBtn"] = {
 				},
@@ -146,25 +149,25 @@ HidingBarDB = {
 						["gapSize"] = 0,
 						["interceptTooltip"] = true,
 						["buttonDirection"] = {
-							["V"] = 0,
 							["H"] = 0,
+							["V"] = 0,
 						},
 						["borderOffset"] = 4,
 						["omb"] = {
-							["hide"] = true,
+							["distanceToBar"] = 0,
 							["anchor"] = "right",
 							["barDisplacement"] = 0,
 							["size"] = 31,
-							["distanceToBar"] = 0,
+							["hide"] = true,
 						},
 						["buttonSize"] = 31,
 						["frameStrata"] = 2,
 						["lineBorderSize"] = 2,
 						["fadeOpacity"] = 0.2,
 						["orientation"] = 0,
-						["barOffset"] = 2,
-						["hideHandler"] = 2,
 						["borderSize"] = 16,
+						["hideHandler"] = 2,
+						["barOffset"] = 2,
 					},
 					["name"] = "Leiste 1",
 				}, -- [1]

@@ -9,14 +9,15 @@ GargulDB = {
 	["TMB"] = {
 	},
 	["LoadDetails"] = {
-		["6.1.2"] = 1687520757,
-		["lastLoadedOn"] = 1695849915,
-		["6.2.5"] = 1695244375,
-		["6.1.0"] = 1687288287,
-		["5.1.1"] = 1687381795,
-		["latestVersionChangesShown"] = "6.2.0",
-		["6.2.4"] = 1694802777,
 		["5.2.0"] = 1687381795,
+		["6.2.4"] = 1694802777,
+		["6.1.2"] = 1687520757,
+		["lastLoadedOn"] = 1696893867,
+		["6.1.0"] = 1687288287,
+		["6.2.5"] = 1695244375,
+		["6.2.6"] = 1696893333,
+		["latestVersionChangesShown"] = "6.2.0",
+		["5.1.1"] = 1687381795,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -170,6 +171,21 @@ GargulDB = {
 				},
 			},
 			["Gargul"] = {
+				["BidderQueue"] = {
+					["Window"] = {
+						["Dimensions"] = {
+							["height"] = 169.9999847412109,
+							["scale"] = 1,
+							["width"] = 150.0000457763672,
+						},
+						["Position"] = {
+							["point"] = "CENTER",
+							["offsetY"] = -3.362087227287702e-05,
+							["offsetX"] = 0,
+							["relativePoint"] = "CENTER",
+						},
+					},
+				},
 				["Interface"] = {
 					["TradeTime"] = {
 						["Overview"] = {
@@ -192,7 +208,7 @@ GargulDB = {
 			},
 			["Settings"] = {
 				["Position"] = {
-					["offsetX"] = 419.8501281738281,
+					["offsetX"] = 419.8501586914063,
 					["offsetY"] = 27.00002098083496,
 					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",

@@ -44,7 +44,7 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPRIGHT",
+			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
 				[-2] = false,
 			},
@@ -52,8 +52,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -161.038330078125,
-			["x"] = 0,
+			["y"] = 74.39778137207031,
+			["x"] = -777.742431640625,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
@@ -173,7 +173,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.10",
+	["version"] = "10.1.13",
 	["display"] = {
 	},
 	["enchantColor"] = {

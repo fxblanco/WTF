@@ -24,12 +24,6 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -37,19 +31,25 @@ GDKPd_DB = {
 				["x"] = -64.45061492919922,
 			},
 			["point"] = {
-				["y"] = -6.725102424621582,
+				["y"] = -6.999984741210938,
 				["relative"] = "TOP",
 				["point"] = "TOP",
-				["x"] = -407.1521301269531,
+				["x"] = -406.9999389648438,
 			},
-			["startBid"] = 500,
-			["increment"] = 500,
+			["startBid"] = 100,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
+			["increment"] = 10,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -151,39 +151,152 @@ GDKPd_DB = {
 			["increment"] = 50,
 		},
 		["Kwasimojo - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 54.72499847412109,
-				["x"] = 348.300048828125,
-			},
-			["statuspoint"] = {
-				["y"] = -152.2695617675781,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -37.39339065551758,
-			},
-			["point"] = {
-				["y"] = -17.29828643798828,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -78.52912902832031,
-			},
 			["announceBidRaidWarning"] = true,
-			["auctionTimerRefresh"] = 15,
 			["balancepoint"] = {
 				["y"] = -131.5301666259766,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = 426.3553161621094,
 			},
-			["increment"] = 10,
-			["startBid"] = 100,
+			["auctionTimer"] = 17,
+			["playerbalancepoint"] = {
+				["y"] = 54.72499847412109,
+				["x"] = 348.300048828125,
+			},
+			["point"] = {
+				["y"] = -17.00000953674316,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -79.00003051757812,
+			},
+			["auctionTimerRefresh"] = 10,
+			["startBid"] = 200,
+			["increment"] = 20,
+			["statuspoint"] = {
+				["y"] = -152.2695617675781,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -37.39339065551758,
+			},
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Gravenblock"] = 0,
+		["Lowwl"] = 0,
+		["Bánu"] = 0,
+		["Marotéch"] = 0,
+		["Hakkî"] = 0,
+		["Gdkphunter"] = 0,
+		["Hammêl"] = 0,
+		["Kwasimojo"] = 6781,
+		["Amzelxo"] = 0,
+		["Kolberg"] = 0,
+		["Grâmos"] = 0,
+		["Allesmitboss"] = 0,
+		["Michorc"] = 0,
+		["Flairedan"] = 0,
+		["Myjuice"] = 0,
+		["Furiousfred"] = 0,
+		["Lipsthatgrip"] = 0,
+		["Smiitty"] = 0,
+		["Styleplox"] = 0,
+		["Fogle"] = 0,
+		["Kyleriemen"] = 0,
+		["Bloodwall"] = -23219,
+		["Deusdominik"] = 0,
+		["Azeyow"] = 0,
+		["Zerrï"] = 0,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
+			["name"] = "Deusdominik",
+		}, -- [1]
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
+			["name"] = "Styleplox",
+		}, -- [2]
+		{
+			["bid"] = 17100,
+			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
+			["name"] = "Kyleriemen",
+		}, -- [3]
+		{
+			["bid"] = 17001,
+			["item"] = "|cffa335ee|Hitem:47559::::::::80:::::::::|h[Ornat des großen Bezwingers]|h|r",
+			["name"] = "Hammêl",
+		}, -- [4]
+		{
+			["bid"] = 8500,
+			["item"] = "|cffa335ee|Hitem:47523::::::::80:::::::::|h[Fezziks Autokanone]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [5]
+		{
+			["bid"] = 8500,
+			["item"] = "|cffa335ee|Hitem:47473::::::::80:::::::::|h[Schienbeinschützer der Saronitzitadelle]|h|r",
+			["name"] = "Lipsthatgrip",
+		}, -- [6]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47442::::::::80:::::::::|h[Armschienen des stillen Massakers]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [7]
+		-5000, -- [8]
+		{
+			["bid"] = 7500,
+			["item"] = "|cffa335ee|Hitem:47442::::::::80:::::::::|h[Armschienen des stillen Massakers]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [9]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47460::::::::80:::::::::|h[Gürtel des mitleidlosen Mörders]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [10]
+		{
+			["bid"] = 10001,
+			["item"] = "|cffa335ee|Hitem:47467::::::::80:::::::::|h[Bindungen der Nachtessenz]|h|r",
+			["name"] = "Hakkî",
+		}, -- [11]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47452::::::::80:::::::::|h[Tuch der Verschiebung]|h|r",
+			["name"] = "Kyleriemen",
+		}, -- [12]
+		{
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r",
+			["name"] = "Bloodwall",
+		}, -- [13]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47427::::::::80:::::::::|h[Blutfuror]|h|r",
+			["name"] = "Grâmos",
+		}, -- [14]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:47434::::::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r",
+			["name"] = "Bánu",
+		}, -- [15]
+		{
+			["bid"] = 13000,
+			["item"] = "|cffa335ee|Hitem:47439::::::::80:::::::::|h[Kreis des Dunkelheilers]|h|r",
+			["name"] = "Gravenblock",
+		}, -- [16]
+		2500, -- [17]
+		{
+			["bid"] = 16000,
+			["item"] = "|cffa335ee|Hitem:47422::::::::80:::::::::|h[Haken von Tarasque]|h|r",
+			["name"] = "Fogle",
+		}, -- [18]
+		2500, -- [19]
+		2500, -- [20]
+		743, -- [21]
+		500, -- [22]
+		-18800, -- [23]
 	},
 	["history"] = {
 		{
@@ -626,8 +739,8 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 0,
-	["prevDist"] = 0,
+	["potAmount"] = 169545,
+	["prevDist"] = 169545,
 }
 GDKPd_BalanceData = {
 }

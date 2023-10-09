@@ -1,11 +1,5 @@
 
 AtlasLootClassicDB = {
-	["profileKeys"] = {
-		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-	},
 	["global"] = {
 		["__addonrevision"] = 3010003,
 		["VendorPrice"] = {
@@ -111,29 +105,29 @@ AtlasLootClassicDB = {
 			[47675] = "EmblemOfTriumph:75",
 			[47691] = "EmblemOfTriumph:75",
 			[47699] = "EmblemOfTriumph:45",
-			[45886] = "SiderealEssence:38",
+			[48597] = "EmblemOfTriumph:50",
 			[45930] = "SiderealEssence:25",
-			[46033] = "SiderealEssence:38",
+			[47662] = "EmblemOfTriumph:25",
 			[45946] = "SiderealEssence:15",
-			[45990] = "SiderealEssence:38",
-			[46049] = "SiderealEssence:32",
-			[46039] = "SiderealEssence:32",
-			[45877] = "SiderealEssence:25",
+			[46046] = "SiderealEssence:19",
+			[47673] = "EmblemOfTriumph:25",
+			[45888] = "SiderealEssence:15",
+			[45928] = "SiderealEssence:19",
 			[44711] = "EmblemOfTriumph:1",
-			[45887] = "SiderealEssence:25",
-			[45876] = "SiderealEssence:25",
-			[47714] = "EmblemOfTriumph:45",
-			[45947] = "SiderealEssence:25",
+			[45988] = "SiderealEssence:19",
+			[46040] = "SiderealEssence:19",
+			[46048] = "SiderealEssence:19",
+			[47732] = "EmblemOfTriumph:35",
 			[47556] = "SiderealEssence:3",
 			[46034] = "SiderealEssence:25",
 			[46042] = "SiderealEssence:19",
 			[46050] = "SiderealEssence:24",
 			[45293] = "SiderealEssence:19",
-			[47730] = "EmblemOfTriumph:35",
+			[47734] = "EmblemOfTriumph:50",
 			[48624] = "EmblemOfTriumph:75",
-			[47716] = "EmblemOfTriumph:45",
-			[46045] = "SiderealEssence:24",
-			[46041] = "SiderealEssence:24",
+			[45931] = "SiderealEssence:19",
+			[47731] = "EmblemOfTriumph:35",
+			[46043] = "SiderealEssence:24",
 			[48656] = "EmblemOfTriumph:30",
 			[46044] = "SiderealEssence:24",
 			[45867] = "SiderealEssence:25",
@@ -142,42 +136,30 @@ AtlasLootClassicDB = {
 			[48592] = "EmblemOfTriumph:75",
 			[47684] = "EmblemOfTriumph:75",
 			[47692] = "EmblemOfTriumph:75",
-			[46043] = "SiderealEssence:24",
-			[47731] = "EmblemOfTriumph:35",
-			[45931] = "SiderealEssence:19",
-			[47734] = "EmblemOfTriumph:50",
-			[47732] = "EmblemOfTriumph:35",
-			[46048] = "SiderealEssence:19",
-			[46040] = "SiderealEssence:19",
-			[45988] = "SiderealEssence:19",
-			[45928] = "SiderealEssence:19",
-			[45888] = "SiderealEssence:15",
-			[47673] = "EmblemOfTriumph:25",
-			[46046] = "SiderealEssence:19",
-			[47662] = "EmblemOfTriumph:25",
-			[48597] = "EmblemOfTriumph:50",
+			[46041] = "SiderealEssence:24",
+			[46045] = "SiderealEssence:24",
+			[47716] = "EmblemOfTriumph:45",
+			[47730] = "EmblemOfTriumph:35",
+			[45947] = "SiderealEssence:25",
+			[47714] = "EmblemOfTriumph:45",
+			[45876] = "SiderealEssence:25",
+			[45887] = "SiderealEssence:25",
+			[45877] = "SiderealEssence:25",
+			[46039] = "SiderealEssence:32",
+			[46049] = "SiderealEssence:32",
+			[45990] = "SiderealEssence:38",
+			[46033] = "SiderealEssence:38",
+			[45886] = "SiderealEssence:38",
 		},
 	},
+	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
+	},
 	["profiles"] = {
-		["Uwusoulstone - Venoxis"] = {
-		},
-		["Hakkî - Venoxis"] = {
-			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-146.5293731689453, -- [4]
-					-10.80682468414307, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"IcecrownCitadel", -- [2]
-					nil, -- [3]
-					8, -- [4]
-					0, -- [5]
-				},
-			},
+		["Pippop - Venoxis"] = {
 		},
 		["Lesbenlisa - Venoxis"] = {
 			["GUI"] = {
@@ -197,7 +179,25 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Pippop - Venoxis"] = {
+		["Hakkî - Venoxis"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-146.5293731689453, -- [4]
+					-10.80682468414307, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"IcecrownCitadel", -- [2]
+					nil, -- [3]
+					8, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Uwusoulstone - Venoxis"] = {
 		},
 	},
 }

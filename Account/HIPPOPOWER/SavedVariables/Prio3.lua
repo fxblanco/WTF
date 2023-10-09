@@ -1,13 +1,20 @@
 
 Prio3DB = {
 	["profileKeys"] = {
-		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 	},
 	["profiles"] = {
-		["Uwusoulstone - Venoxis"] = {
+		["Pippop - Venoxis"] = {
+			["priorities"] = {
+			},
+			["lootlastopened"] = {
+			},
+			["receivedPriorities"] = 0,
+		},
+		["Hakkî - Venoxis"] = {
 			["lootlastopened"] = {
 			},
 			["priorities"] = {
@@ -15,23 +22,16 @@ Prio3DB = {
 			["receivedPriorities"] = 0,
 		},
 		["Lesbenlisa - Venoxis"] = {
-			["lootlastopened"] = {
-			},
-			["priorities"] = {
-			},
-			["receivedPriorities"] = 0,
-		},
-		["Hakkî - Venoxis"] = {
 			["priorities"] = {
 			},
 			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
 		},
-		["Pippop - Venoxis"] = {
-			["lootlastopened"] = {
-			},
+		["Uwusoulstone - Venoxis"] = {
 			["priorities"] = {
+			},
+			["lootlastopened"] = {
 			},
 			["receivedPriorities"] = 0,
 		},

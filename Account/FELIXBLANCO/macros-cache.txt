@@ -1,5 +1,5 @@
 VER 3 000000000000003F "111_" "134400"
-/4 LFM TOGC 25  - 50TL || GDKP 90/10 5k/500, Tokens 15k || Jetzt wisp me (Logs & GS) - 1 Pala Heal
+/4 LFM LFM TOGC 25  - 50TL || GDKP 90/10 5k/500, Tokens 15k || JETZT - wsp Logs/GS/Spec - 1 Enh dann go (24/25)
 END
 VER 3 0000000000000038 "cancel" "134400"
 /cancelaura Gebet der Seelenstärke
@@ -86,7 +86,7 @@ VER 3 000000000000002C "pat_ret_f" "134400"
 END
 VER 3 000000000000003A "PI" "134400"
 #showtooltip
-/target Radladerhans
+/target Hakkî
 /cast Seele der Macht
 END
 VER 3 000000000000003C "priest_sp_e" "134400"

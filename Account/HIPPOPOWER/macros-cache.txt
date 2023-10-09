@@ -13,7 +13,7 @@ VER 3 0000000000000006 "Cancelaura" "134400"
 END
 VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Wille der Verlassenen;  [@mouseover,exists,mod:ctrl] Wille der Verlassenen; [@mouseover,exists,mod:shift] Wille der Verlassenen
+/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Vergiftung aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
 END
 VER 3 0000000000000010 "focus" "132097"
 /focus

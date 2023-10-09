@@ -1,10 +1,10 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Pippop - Venoxis"] = "Other",
-		["Lesbenlisa - Venoxis"] = "Default",
-		["Hakkî - Venoxis"] = "Other",
 		["Uwusoulstone - Venoxis"] = "Other",
+		["Hakkî - Venoxis"] = "Other",
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -14,10 +14,10 @@ PallyPowerDB = {
 		},
 		["Other"] = {
 			["cBuffNeedAll"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
@@ -27,16 +27,16 @@ PallyPowerDB = {
 			["enable"] = true,
 			["WrathTransition"] = true,
 			["cBuffGood"] = {
-				["b"] = 0.2,
+				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
-				["r"] = 0.2,
+				["b"] = 0.2,
 			},
 			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
 		},
 	},
@@ -54,79 +54,7 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Schpen"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		3, -- [8]
-		1, -- [9]
-		3, -- [10]
-	},
-	["Bremskyle"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
-	},
-	["Habíb"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
-	},
 	["Kolberg"] = {
-		2, -- [1]
-		2, -- [2]
-		0, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		0, -- [7]
-		0, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
-	["Fatbutproo"] = {
-		3, -- [1]
-		0, -- [2]
-		0, -- [3]
-		3, -- [4]
-		0, -- [5]
-		3, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
-	["Xeeli"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Graveofmaria"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -138,79 +66,7 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Hópéful"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		2, -- [5]
-		3, -- [6]
-		1, -- [7]
-		3, -- [8]
-		1, -- [9]
-		3, -- [10]
-	},
-	["Liptea"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
-	},
-	["Lesbenlisa"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
-	["Sempo"] = {
-		2, -- [1]
-		2, -- [2]
-		0, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		0, -- [7]
-		0, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
-	["Khaootic"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
-	},
-	["Shikimora"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
-	["Grauelógs"] = {
+	["Beesportz"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
@@ -224,17 +80,11 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Grauelógs"] = {
-	},
-	["Liptea"] = {
-	},
-	["Sempo"] = {
-	},
-	["Khaootic"] = {
-	},
-	["Fatbutproo"] = {
+	["Alsia"] = {
 	},
 	["Kolberg"] = {
+	},
+	["Beesportz"] = {
 	},
 }
 PallyPower_AuraAssignments = {
@@ -245,7 +95,7 @@ PallyPower_AuraAssignments = {
 	["Adyr"] = 3,
 	["Twintts"] = 2,
 	["Elpopotanko"] = 2,
-	["Alsia"] = 4,
+	["Alsia"] = 1,
 	["Hópéful"] = 6,
 	["Myjuice"] = 6,
 	["Annidina"] = 7,
@@ -259,14 +109,15 @@ PallyPower_AuraAssignments = {
 	["Shikimora"] = 4,
 	["Sleepychi"] = 0,
 	["Khaootic"] = 5,
+	["Beesportz"] = 6,
 	["Xhaara"] = 6,
 	["Nobuffg"] = 5,
 	["Liptea"] = 6,
-	["Hornymoon"] = 1,
+	["Awfultry"] = 0,
 	["Bremskyle"] = 1,
 	["Habíb"] = 3,
-	["Kolberg"] = 1,
-	["Fatbutproo"] = 1,
+	["Kolberg"] = 2,
+	["Hornymoon"] = 1,
 	["Yuisis"] = 5,
 	["Xellzs"] = 3,
 	["Lesbenlisa"] = 1,
@@ -274,7 +125,7 @@ PallyPower_AuraAssignments = {
 	["Faîlz"] = 4,
 	["Sempo"] = 2,
 	["Markodu"] = 3,
-	["Awfultry"] = 0,
+	["Fatbutproo"] = 1,
 	["Chantris"] = 6,
 }
 PallyPower_SavedPresets = {
