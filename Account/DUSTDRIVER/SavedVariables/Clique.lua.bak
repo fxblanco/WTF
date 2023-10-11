@@ -5,18 +5,18 @@ CliqueDB3 = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
 			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["downclick"] = false,
+			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["specswap"] = false,
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["spec2_profileKey"] = "Maturitass - Venoxis",
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -92,22 +92,12 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["spellSubName"] = "Rang 7",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136080,
-					["spell"] = "Wiedergeburt",
-				}, -- [2]
-				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -116,16 +106,17 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Anregen",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
+					["key"] = "SHIFT-BUTTON2",
+					["spellSubName"] = "Rang 7",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135952,
-					["spell"] = "Fluch aufheben",
-				}, -- [5]
+					["icon"] = 136080,
+					["spell"] = "Wiedergeburt",
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -135,7 +126,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spell"] = "Verjüngung",
-				}, -- [6]
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -145,6 +136,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 136085,
 					["spell"] = "Nachwachsen",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135952,
+					["spell"] = "Fluch aufheben",
 				}, -- [7]
 				{
 					["type"] = "spell",

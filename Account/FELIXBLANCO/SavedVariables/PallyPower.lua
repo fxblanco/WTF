@@ -13,21 +13,6 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["freeassign"] = true,
-			["buffscale"] = 0.75,
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["seal"] = 9,
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["WrathTransition"] = true,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
@@ -35,27 +20,6 @@ PallyPowerDB = {
 				["r"] = 0.2,
 			},
 			["skin"] = "ElvUI Blank",
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["display"] = {
-				["buffDuration"] = false,
-				["frameLocked"] = true,
-			},
-			["border"] = "None",
-			["enable"] = true,
-			["rf"] = true,
-		},
-		["Other"] = {
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -67,7 +31,14 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["seal"] = 9,
+			["display"] = {
+				["buffDuration"] = false,
+				["frameLocked"] = true,
+			},
+			["freeassign"] = true,
 			["enable"] = true,
+			["border"] = "None",
 			["WrathTransition"] = true,
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
@@ -75,21 +46,86 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["buffscale"] = 0.75,
+			["rf"] = true,
+		},
+		["Other"] = {
+			["cBuffNeedAll"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["enable"] = true,
+			["WrathTransition"] = true,
 		},
 	},
 }
 PallyPower_Assignments = {
-	["Alsia"] = {
+	["Brishja"] = {
 		2, -- [1]
 		2, -- [2]
 		3, -- [3]
 		3, -- [4]
 		4, -- [5]
-		2, -- [6]
-		0, -- [7]
+		0, -- [6]
+		3, -- [7]
 		3, -- [8]
-		2, -- [9]
+		3, -- [9]
 		2, -- [10]
+	},
+	["Bremskyle"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+	["Bubbledîne"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+	},
+	["Myjuice"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
 	},
 	["Graveofmaria"] = {
 		0, -- [1]
@@ -115,54 +151,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Bremskyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		3, -- [6]
-		3, -- [7]
-		1, -- [8]
-		1, -- [9]
-		3, -- [10]
-	},
-	["Bubbledîne"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
-	["Myjuice"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Brishja"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		4, -- [5]
-		0, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		2, -- [10]
-	},
 	["Beesportz"] = {
 		3, -- [1]
 		3, -- [2]
@@ -172,6 +160,30 @@ PallyPower_Assignments = {
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+	["Alsia"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		2, -- [6]
+		0, -- [7]
+		3, -- [8]
+		2, -- [9]
+		2, -- [10]
+	},
+	["Shikimora"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		1, -- [8]
 		3, -- [9]
 		3, -- [10]
 	},
@@ -258,6 +270,7 @@ PallyPower_AuraAssignments = {
 	["Bounzbereich"] = 0,
 	["Elpopotanko"] = 2,
 	["Gepetta"] = 0,
+	["Nimuxtt"] = 1,
 	["Flottiloleh"] = 0,
 	["Arryl"] = 0,
 	["Dánáá"] = 0,
@@ -362,11 +375,11 @@ PallyPower_AuraAssignments = {
 	["Wokepaladin"] = 3,
 	["Kopax"] = 1,
 	["Ragnajrjr"] = 6,
-	["Xileni"] = 0,
+	["Beesportz"] = 6,
 	["Habíb"] = 1,
 	["Lichtsegen"] = 3,
 	["Fabsen"] = 2,
-	["Beesportz"] = 6,
+	["Xileni"] = 0,
 	["Hulkadine"] = 0,
 	["Prokain"] = 6,
 	["Binsosauer"] = 5,
@@ -451,10 +464,8 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Allgemein", -- [1]
-	"Handel", -- [2]
-	"LokaleVerteidigung", -- [3]
-	"SucheNachGruppe", -- [4]
+	"SucheNachGruppe", -- [1]
+	"WeltVerteidigung", -- [2]
 	[0] = "None",
 }
 LCD_Data = nil

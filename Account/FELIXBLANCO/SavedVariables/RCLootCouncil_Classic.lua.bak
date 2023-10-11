@@ -429,10 +429,55 @@ RCLootCouncilDB = {
 			"01:23:41 - GetPlayersGuildRank()", -- [424]
 			"01:23:41 - Found Guild Rank: Gildenmeister", -- [425]
 			"01:23:42 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [426]
+			"10/11/23", -- [427]
+			"01:34:41 - Logged In", -- [428]
+			"01:34:41 - ML initialized!", -- [429]
+			"01:34:41 - TradeUI enabled", -- [430]
+			"01:34:47 - Andrés-Venoxis (2.19.3) (nil)", -- [431]
+			"01:34:47 - ActivateSkin (bfa)", -- [432]
+			"01:34:53 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [433]
+			"01:34:53 - GetML()", -- [434]
+			"01:34:53 - LootMethod =  (group)", -- [435]
+			"01:34:53 - UpdatePlayersData()", -- [436]
+			"01:34:53 - ClassicModule enabled (0.19.0) (nil)", -- [437]
+			"01:34:53 - DoCommsCompressFix", -- [438]
+			"01:34:53 - Removing Column (role)", -- [439]
+			"01:34:53 - Removing Column (corruption)", -- [440]
+			"01:34:53 - GetPlayersGuildRank()", -- [441]
+			"01:34:53 - Found Guild Rank: Rat", -- [442]
+			"01:34:54 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [443]
+			"10/11/23", -- [444]
+			"22:26:48 - Logged In", -- [445]
+			"22:26:48 - ML initialized!", -- [446]
+			"22:26:48 - TradeUI enabled", -- [447]
+			"22:26:54 - Alsia-Venoxis (2.19.3) (nil)", -- [448]
+			"22:26:54 - ActivateSkin (new_blue)", -- [449]
+			"22:26:59 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [450]
+			"22:26:59 - GetML()", -- [451]
+			"22:26:59 - LootMethod =  (group)", -- [452]
+			"22:26:59 - UpdatePlayersData()", -- [453]
+			"22:27:00 - ClassicModule enabled (0.19.0) (nil)", -- [454]
+			"22:27:00 - DoCommsCompressFix", -- [455]
+			"22:27:00 - Removing Column (role)", -- [456]
+			"22:27:00 - Removing Column (corruption)", -- [457]
+			"22:27:01 - GetPlayersGuildRank()", -- [458]
+			"22:27:01 - Found Guild Rank: Gildenmeister", -- [459]
+			"22:27:03 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [460]
+			"22:28:47 - Event: (PARTY_LEADER_CHANGED)", -- [461]
+			"22:28:47 - GetML()", -- [462]
+			"22:28:47 - LootMethod =  (group)", -- [463]
+			"22:28:47 - NewMLCheck (Unknown ML)", -- [464]
+			"22:28:48 - GetML()", -- [465]
+			"22:28:48 - LootMethod =  (group)", -- [466]
+			"22:28:48 - NewMLCheck (Resetting council as we have a new ML!)", -- [467]
+			"22:28:48 - Some else is ML", -- [468]
+			"22:29:03 - Timer MLdb_check passed", -- [469]
+			"22:30:47 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [470]
+			"22:31:38 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Longling) (distri:) (GUILD)", -- [471]
+			"22:32:07 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Wønka) (distri:) (GUILD)", -- [472]
 		},
 		["errors"] = {
 			{
-				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
 				["stack"] = {
 					"[string \"@Interface/AddOns/WagoAnalytics/WagoAnalytics.lua\"]:73: in function <Interface/AddOns/WagoAnalytics/WagoAnalytics.lua:71>\n...\n", -- [1]
 					"[string \"@Interface/AddOns/RCLootCouncil_Classic/RCLootCouncil/Modules/options.lua\"]:1883: in function <...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:138>\n...\n", -- [2]
@@ -445,8 +490,9 @@ RCLootCouncilDB = {
 					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:70: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:67>\n[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [9]
 					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [10]
 				},
-				["count"] = 1,
+				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
 				["time"] = 1696977832,
+				["count"] = 1,
 			}, -- [1]
 		},
 		["Classic_game"] = 11,
@@ -456,7 +502,27 @@ RCLootCouncilDB = {
 			["Longling-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1696980222, -- [3]
+				1697056298, -- [3]
+			},
+			["Jodifrosta-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056329, -- [3]
+			},
+			["Alsia-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056328, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056328, -- [3]
+			},
+			["Wønka-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056327, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
@@ -468,15 +534,25 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1696979644, -- [3]
 			},
-			["Graveofmaria-Venoxis"] = {
+			["Bloodwall-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1696979266, -- [3]
+				1697056328, -- [3]
 			},
-			["Alsia-Venoxis"] = {
+			["Myjuice-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1696979644, -- [3]
+				1697056328, -- [3]
+			},
+			["Vilro-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056328, -- [3]
+			},
+			["Jocindyr-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056328, -- [3]
 			},
 		},
 		["regionID"] = 3,

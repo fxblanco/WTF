@@ -1,5 +1,121 @@
+VER 3 0000000000000011 " " "132337"
+/dismount
+/cast Sturmangriff(Rang 3)
+END
+VER 3 0000000000000016 " " "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Remove Lesser Curse
+END
+VER 3 0000000000000015 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover] Feuerschlag(Rang 1)
+END
+VER 3 0000000000000014 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast !Schießen
+END
+VER 3 0000000000000013 " " "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast Counterspell
+END
+VER 3 0000000000000012 " " "132090"
+/target Malach
+/script SetRaidTarget("target",8);
+END
+VER 3 0000000000000010 " " "132147"
+/stopcast
+/equipslot 16 Kolossales schädelverstärktes Spaltbeil
+/equipslot 16 Rotes Schwert des Mutes
+/equipslot 17 Crygils ausrangierte Plattenscheibe
+END
+VER 3 000000000000000F " " "INV_Misc_QuestionMark"
+#showtooltip Abfangen
+/dismount
+/cast Berserkerhaltung
+/cast Abfangen
+END
+VER 3 0000000000000017 "  " "INV_Misc_QuestionMark"
+#showtooltip Spöttischer Schlag
+/wirken [stance:1] Spöttischer Schlag; Kampfhaltung
+END
+VER 3 000000000000001E "++" "INV_Misc_QuestionMark"
+#showtooltip Zerschmetternder Wurf
+/cast Kampfhaltung
+/cast Zerschmetternder Wurf
+END
+VER 3 000000000000001C "++" "132155"
+/castsequence reset=3 Kampfhaltung, Berserkerhaltung, nil
+/cast Verwunden
+/stopcasting [stance:1]
+END
+VER 3 000000000000001F "++" "237295"
+#showtooltop Saronitbombe
+/cast [@player] Saronitbombe
+END
+VER 3 0000000000000020 "++" "INV_Misc_QuestionMark"
+#showtooltip Verteidigungshaltung
+/equipset Tank
+/cast Verteidigungshaltung
+END
+VER 3 0000000000000021 "++" "INV_Misc_QuestionMark"
+#showtooltip Hand des Schutzes
+/cancelaura Hand des Schutzes
+END
+VER 3 000000000000002F "++" "INV_Misc_QuestionMark"
+#showtooltip Schildwall
+/equip Einsame Barriere
+/cast Verteidigungshaltung
+/cast Schildwall
+/equipset [equipped:Shields] Fury
+END
+VER 3 000000000000001A "++" "INV_Misc_QuestionMark"
+#showtooltip Überwältigen
+/cast Kampfhaltung
+/cast Überwältigen
+END
+VER 3 000000000000001D "++" "INV_Misc_QuestionMark"
+#showtooltip Blutdurst
+/cast Berserkerhaltung
+/cast Blutdurst
+/startattack
+END
+VER 3 0000000000000018 "++" "INV_Misc_QuestionMark"
+#showtooltip Gegenschlag
+/equipslot 16 Aesirs Schneide
+/equipslot 17 Sturmrunenschneide
+/cast Kampfhaltung
+/cast Gegenschlag
+END
+VER 3 0000000000000019 "++" "INV_Misc_QuestionMark"
+#showtooltip Rache(Rang 9)
+/cast Verteidigungshaltung
+/cast Rache(Rang 9)
+END
+VER 3 000000000000001B "++" "INV_Misc_QuestionMark"
+#showtooltip Weitreichende Stöße
+/cast [stance:1/3] Weitreichende Stöße
+/cast [stance:2] Kampfhaltung
+END
+VER 3 0000000000000030 "+++" "INV_Misc_QuestionMark"
+#showtooltip Schildwall
+/equipslot 16 Doppelklingenschlächter
+/equipslot 17 Einsame Barriere
+/cast Verteidigungshaltung
+/cast Schildwall
+END
 VER 3 000000000000000E "111_" "134400"
 /4 LFM TOGC 25 45-50TL || GDKP 90/10 5k/500, Tokens 15k || Heute  22:30 - Anmeldung : https://discord.gg/qsV6fa9k (Logs & GS)
+END
+VER 3 0000000000000022 "Alone" "136047"
+/run InviteUnit("Neo");C_Timer.After(.25,function() ConvertToRaid() end)
+END
+VER 3 0000000000000023 "Anub !!!" "132118"
+/cancelaura Gebet der Seelenstärke
+/cancelaura Befehlsruf
+/cancelaura Sonnenwendfestverstärkung
+/cancelaura Feuerfestverstärkung
+/use Mächtiger Frostschutztrank
 END
 VER 3 000000000000000B "bomb" "134400"
 #showtooltip
@@ -9,6 +125,15 @@ END
 VER 3 000000000000000D "boots" "134400"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 8
+END
+VER 3 0000000000000031 "BäM" "135726"
+/cast Kochendes Blut(Volk)
+/cast Todeswunsch
+/cast Tollkühnheit
+END
+VER 3 0000000000000024 "Camshit" "4777763"
+/script SetCVar ("cameraDistancemax" ,50)
+/console CameraDistanceMaxFactor 5
 END
 VER 3 0000000000000008 "druid_b" "134400"
 #showtooltip Terrorbärengestalt(Gestaltwandel)
@@ -25,6 +150,41 @@ VER 3 000000000000000C "druid_travel" "134400"
 #showtooltip
 /cast [swimming]Wassergestalt(Gestaltwandel);[flyable,nocombat]Schnelle Fluggestalt(Gestaltwandel);[outdoors]Reisegestalt(Gestaltwandel)
 END
+VER 3 0000000000000025 "Eisfalle" "136192"
+/cast Totstellen
+/cast Eiskältefalle(Rang 1)
+END
+VER 3 0000000000000026 "Focus" "INV_Misc_QuestionMark"
+#showtooltip Zuschlagen
+/cast [@focus,exists,nodead] [] Zuschlagen
+END
+VER 3 0000000000000027 "Gilde/LFG" "136129"
+/4 {Dreieck} <Herzblut> sucht in hinsicht auf Ulduar, Ulduar Hardmode zum Ausbau des Raidkaders // Tank: Dk. /// DD :  Eule / WL . Raidtag DO  SO 20:30 - 23:30 Infos /w oder https://discord.gg/jeZ98ZEV {Dreieck}
+END
+VER 3 0000000000000028 "LFM" "132098"
+/4 <Herzblut> sucht für heute Abend ab 20:30 Uhr noch Leute für Obsi 3D 25 und Maly 25 AV (unter 6min) Gesucht werden: 1 Healer (pref Shami )
+END
+VER 3 0000000000000029 "Marken" "132096"
+/script BuyMerchantItem(1, 240)
+END
+VER 3 000000000000002A "Poly" "134400"
+/cast [@mouseover] Verwandlung
+END
 VER 3 0000000000000007 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
+END
+VER 3 000000000000002B "Set" "134400"
+/run SetCVar("nameplateMaxDistance", "41")
+END
+VER 3 000000000000002C "Terron" "132107"
+/pull 10
+END
+VER 3 000000000000002D "Test" "132122"
+/castsequence reset=3 Battle Stance, Berserker Stance, nil
+/cast Rend
+/stopcasting [stance:1]
+END
+VER 3 000000000000002E "Test ++" "132341"
+/equipset Tank
+/run SetActiveTalentGroup(2)
 END

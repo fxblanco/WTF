@@ -450,11 +450,117 @@ RCLootCouncilDB = {
 			"01:34:53 - GetPlayersGuildRank()", -- [441]
 			"01:34:53 - Found Guild Rank: Rat", -- [442]
 			"01:34:54 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [443]
+			"10/11/23", -- [444]
+			"22:26:48 - Logged In", -- [445]
+			"22:26:48 - ML initialized!", -- [446]
+			"22:26:48 - TradeUI enabled", -- [447]
+			"22:26:54 - Alsia-Venoxis (2.19.3) (nil)", -- [448]
+			"22:26:54 - ActivateSkin (new_blue)", -- [449]
+			"22:26:59 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [450]
+			"22:26:59 - GetML()", -- [451]
+			"22:26:59 - LootMethod =  (group)", -- [452]
+			"22:26:59 - UpdatePlayersData()", -- [453]
+			"22:27:00 - ClassicModule enabled (0.19.0) (nil)", -- [454]
+			"22:27:00 - DoCommsCompressFix", -- [455]
+			"22:27:00 - Removing Column (role)", -- [456]
+			"22:27:00 - Removing Column (corruption)", -- [457]
+			"22:27:01 - GetPlayersGuildRank()", -- [458]
+			"22:27:01 - Found Guild Rank: Gildenmeister", -- [459]
+			"22:27:03 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [460]
+			"22:28:47 - Event: (PARTY_LEADER_CHANGED)", -- [461]
+			"22:28:47 - GetML()", -- [462]
+			"22:28:47 - LootMethod =  (group)", -- [463]
+			"22:28:47 - NewMLCheck (Unknown ML)", -- [464]
+			"22:28:48 - GetML()", -- [465]
+			"22:28:48 - LootMethod =  (group)", -- [466]
+			"22:28:48 - NewMLCheck (Resetting council as we have a new ML!)", -- [467]
+			"22:28:48 - Some else is ML", -- [468]
+			"22:29:03 - Timer MLdb_check passed", -- [469]
+			"22:30:47 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [470]
+			"22:31:38 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Longling) (distri:) (GUILD)", -- [471]
+			"22:32:07 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Wønka) (distri:) (GUILD)", -- [472]
+			"10/11/23", -- [473]
+			"22:34:00 - Logged In", -- [474]
+			"22:34:00 - ML initialized!", -- [475]
+			"22:34:00 - TradeUI enabled", -- [476]
+			"22:34:03 - Alsia-Venoxis (2.19.3) (nil)", -- [477]
+			"22:34:03 - ActivateSkin (new_blue)", -- [478]
+			"22:34:09 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [479]
+			"22:34:09 - GetML()", -- [480]
+			"22:34:09 - LootMethod =  (group)", -- [481]
+			"22:34:09 - NewMLCheck (Resetting council as we have a new ML!)", -- [482]
+			"22:34:09 - Some else is ML", -- [483]
+			"22:34:09 - Player relog...", -- [484]
+			"22:34:09 - UpdatePlayersData()", -- [485]
+			"22:34:10 - GetPlayersGuildRank()", -- [486]
+			"22:34:10 - Found Guild Rank: Gildenmeister", -- [487]
+			"22:34:10 - ClassicModule enabled (0.19.0) (nil)", -- [488]
+			"22:34:10 - DoCommsCompressFix", -- [489]
+			"22:34:10 - Removing Column (role)", -- [490]
+			"22:34:10 - Removing Column (corruption)", -- [491]
+			"22:34:11 - Timer MLdb_check passed", -- [492]
+			"22:34:11 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [493]
+			"22:45:15 - Comm received:^1^SverTest^T^N1^S0.14.1^t^^ (from:) (Liptea) (distri:) (GUILD)", -- [494]
+			"22:51:56 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Wîdi) (distri:) (GUILD)", -- [495]
+			"22:54:08 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Bubbledîne) (distri:) (GUILD)", -- [496]
+			"22:55:42 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Wîdi) (distri:) (GUILD)", -- [497]
+			"23:00:28 - Event: (PARTY_LEADER_CHANGED)", -- [498]
+			"23:00:28 - GetML()", -- [499]
+			"23:00:28 - LootMethod =  (group)", -- [500]
+			"23:00:28 - useWithGroupLoot == false", -- [501]
+			"23:00:28 - NewMLCheck (Resetting council as we have a new ML!)", -- [502]
+			"23:00:28 - Some else is ML", -- [503]
+			"23:00:29 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [504]
+			"23:00:29 - GetML()", -- [505]
+			"23:00:29 - LootMethod =  (master)", -- [506]
+			"23:00:29 - MasterLooter =  (Alsia-Venoxis)", -- [507]
+			"23:00:29 - NewMLCheck (Resetting council as we have a new ML!)", -- [508]
+			"23:00:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [509]
+			"23:00:32 - GetML()", -- [510]
+			"23:00:32 - LootMethod =  (master)", -- [511]
+			"23:00:32 - MasterLooter =  (Alsia-Venoxis)", -- [512]
+			"23:00:32 - NewMLCheck (No ML Change)", -- [513]
+			"23:00:43 - Timer MLdb_check passed", -- [514]
+			"23:00:43 - Throttled council_request! Current CPS: 10, delayed: 1 messages.", -- [515]
+			"23:00:43 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [516]
+			"23:00:44 - New CPS: (0)", -- [517]
+			"23:00:44 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [518]
+			"23:00:44 - Timer MLdb_check passed", -- [519]
+			"23:00:44 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [520]
+			"23:00:44 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [521]
+			"23:00:44 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [522]
+			"23:00:45 - Queue and CPS is 0", -- [523]
+			"23:01:38 - ADDON_ACTION_FORBIDDEN (WIM) (CopyToClipboard())", -- [524]
+			"23:03:24 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Myjuice) (distri:) (GUILD)", -- [525]
+			"23:03:36 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Myjuice) (distri:) (WHISPER)", -- [526]
+			"23:03:36 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Myjuice) (distri:) (WHISPER)", -- [527]
+			"23:06:45 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Mikirî) (distri:) (GUILD)", -- [528]
+			"23:06:50 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Bubbledîne) (distri:) (GUILD)", -- [529]
+			"23:07:41 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Wîdi) (distri:) (GUILD)", -- [530]
+			"23:12:17 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [531]
+			"23:14:27 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012845A4E)", -- [532]
+			"23:14:27 - GetML()", -- [533]
+			"23:14:27 - LootMethod =  (group)", -- [534]
+			"23:14:27 - Stop handling loot", -- [535]
+			"23:14:27 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [536]
+			"23:14:31 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [537]
+			"23:14:48 - Player declined usage", -- [538]
+			"23:15:53 - Event: (PARTY_LEADER_CHANGED)", -- [539]
+			"23:15:53 - GetML()", -- [540]
+			"23:15:53 - LootMethod =  (group)", -- [541]
+			"23:15:53 - Not in raid group", -- [542]
+			"23:15:53 - NewMLCheck (Resetting council as we have a new ML!)", -- [543]
+			"23:15:53 - Some else is ML", -- [544]
+			"23:16:00 - Event: (GROUP_LEFT) (1) (Party-4477-1-00001284C26C)", -- [545]
+			"23:16:00 - GetML()", -- [546]
+			"23:16:00 - LootMethod =  (group)", -- [547]
+			"23:16:00 - Stop handling loot", -- [548]
+			"23:16:00 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [549]
+			"23:16:08 - Timer MLdb_check passed", -- [550]
+			"23:17:37 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Slimpy) (distri:) (GUILD)", -- [551]
 		},
 		["errors"] = {
 			{
-				["time"] = 1696977832,
-				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
 				["count"] = 1,
 				["stack"] = {
 					"[string \"@Interface/AddOns/WagoAnalytics/WagoAnalytics.lua\"]:73: in function <Interface/AddOns/WagoAnalytics/WagoAnalytics.lua:71>\n...\n", -- [1]
@@ -468,6 +574,8 @@ RCLootCouncilDB = {
 					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:70: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:67>\n[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [9]
 					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [10]
 				},
+				["time"] = 1696977832,
+				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
 			}, -- [1]
 		},
 		["Classic_game"] = 11,
@@ -477,27 +585,82 @@ RCLootCouncilDB = {
 			["Longling-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1696980894, -- [3]
+				1697056298, -- [3]
+			},
+			["Exonuklease-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697059058, -- [3]
+			},
+			["Jodifrosta-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697058204, -- [3]
+			},
+			["Alsia-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697059058, -- [3]
+			},
+			["Bloodwall-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697059058, -- [3]
+			},
+			["Mikirî-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697058411, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697059057, -- [3]
+			},
+			["Bubbledîne-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697058461, -- [3]
+			},
+			["Wønka-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697059057, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
 				nil, -- [2]
-				1696977553, -- [3]
+				1697059058, -- [3]
+			},
+			["Wîdi-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697059058, -- [3]
 			},
 			["Butzebank-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
 				1696979644, -- [3]
 			},
-			["Graveofmaria-Venoxis"] = {
+			["Slimpy-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1696979266, -- [3]
+				1697059057, -- [3]
 			},
-			["Alsia-Venoxis"] = {
+			["Myjuice-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1696979644, -- [3]
+				1697058204, -- [3]
+			},
+			["Vilro-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056328, -- [3]
+			},
+			["Jocindyr-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697057116, -- [3]
 			},
 		},
 		["regionID"] = 3,
@@ -506,70 +669,6 @@ RCLootCouncilDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["responses"] = {
-				["default"] = {
-					{
-						["text"] = "Steht auf der Wishlist",
-					}, -- [1]
-					{
-						["text"] = "Upgrade für MS",
-					}, -- [2]
-					{
-						["text"] = "OS",
-					}, -- [3]
-				},
-			},
-			["usage"] = {
-				["ask_leader"] = true,
-				["leader"] = false,
-			},
-			["UI"] = {
-				["tradeui"] = {
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
-					["borderColor"] = {
-						0.62, -- [1]
-						0.86, -- [2]
-						0.87, -- [3]
-						0.85, -- [4]
-					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
-				},
-				["lootframe"] = {
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
-					["borderColor"] = {
-						0.62, -- [1]
-						0.86, -- [2]
-						0.87, -- [3]
-						0.85, -- [4]
-					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
-				},
-				["default"] = {
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
-					["borderColor"] = {
-						0.62, -- [1]
-						0.86, -- [2]
-						0.87, -- [3]
-						0.85, -- [4]
-					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
-				},
-			},
 			["council"] = {
 				"Alsia-Venoxis", -- [1]
 				"Domedonmaya-Venoxis", -- [2]
@@ -598,46 +697,79 @@ RCLootCouncilDB = {
 					}, -- [3]
 				},
 			},
-		},
-		["OR-LC"] = {
-			["timeout"] = 90,
-			["buttons"] = {
+			["UI"] = {
+				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+				},
+				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+				},
+				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+				},
+			},
+			["usage"] = {
+				["leader"] = false,
+				["ask_leader"] = true,
+			},
+			["responses"] = {
 				["default"] = {
 					{
-						["whisperKey"] = "Wishlist",
-						["text"] = "Wishlist",
+						["text"] = "Steht auf der Wishlist",
 					}, -- [1]
 					{
-						["whisperKey"] = "Upgrade, MS, 2",
-						["text"] = "Upgrade",
+						["text"] = "Upgrade für MS",
 					}, -- [2]
 					{
-						["whisperKey"] = "OS, 3",
 						["text"] = "OS",
 					}, -- [3]
 				},
 			},
-			["autoAward"] = true,
+		},
+		["OR-LC"] = {
 			["modules"] = {
 				["RCVotingFrame"] = {
 					["moreInfo"] = false,
 				},
 			},
-			["council"] = {
-				"Alsia-Venoxis", -- [1]
-				"Andrés-Venoxis", -- [2]
-				"Beesportz-Venoxis", -- [3]
-				"Deusdominik-Venoxis", -- [4]
-				"Domedonmaya-Venoxis", -- [5]
-				"Kwasimojo-Venoxis", -- [6]
-				"Specializt-Venoxis", -- [7]
-				"Xolem-Venoxis", -- [8]
-				"Habíb-Venoxis", -- [9]
-				"Hennerr-Venoxis", -- [10]
-				"Liptea-Venoxis", -- [11]
-				"Wønka-Venoxis", -- [12]
-				"Vanec-Venoxis", -- [13]
-			},
+			["autoAward"] = true,
+			["numAwardReasons"] = 4,
 			["currentSkin"] = "new_blue",
 			["UI"] = {
 				["lootframe"] = {
@@ -646,15 +778,15 @@ RCLootCouncilDB = {
 					["point"] = "RIGHT",
 					["scale"] = 1.100000023841858,
 				},
-				["sessionframe"] = {
-					["y"] = 30.37495437914549,
-					["x"] = -55.12527468692861,
-					["point"] = "RIGHT",
-					["scale"] = 1.100000023841858,
-				},
 				["votingframe"] = {
 					["y"] = 45.22465257698059,
 					["x"] = -99.10043433147075,
+					["point"] = "RIGHT",
+					["scale"] = 1.100000023841858,
+				},
+				["sessionframe"] = {
+					["y"] = 30.37495437914549,
+					["x"] = -55.12527468692861,
 					["point"] = "RIGHT",
 					["scale"] = 1.100000023841858,
 				},
@@ -673,6 +805,38 @@ RCLootCouncilDB = {
 					["text"] = "Diss",
 				}, -- [4]
 			},
+			["council"] = {
+				"Alsia-Venoxis", -- [1]
+				"Andrés-Venoxis", -- [2]
+				"Beesportz-Venoxis", -- [3]
+				"Deusdominik-Venoxis", -- [4]
+				"Domedonmaya-Venoxis", -- [5]
+				"Kwasimojo-Venoxis", -- [6]
+				"Specializt-Venoxis", -- [7]
+				"Xolem-Venoxis", -- [8]
+				"Habíb-Venoxis", -- [9]
+				"Hennerr-Venoxis", -- [10]
+				"Liptea-Venoxis", -- [11]
+				"Wønka-Venoxis", -- [12]
+				"Vanec-Venoxis", -- [13]
+			},
+			["timeout"] = 90,
+			["buttons"] = {
+				["default"] = {
+					{
+						["whisperKey"] = "Wishlist",
+						["text"] = "Wishlist",
+					}, -- [1]
+					{
+						["whisperKey"] = "Upgrade, MS, 2",
+						["text"] = "Upgrade",
+					}, -- [2]
+					{
+						["whisperKey"] = "OS, 3",
+						["text"] = "OS",
+					}, -- [3]
+				},
+			},
 			["responses"] = {
 				["default"] = {
 					{
@@ -686,7 +850,6 @@ RCLootCouncilDB = {
 					}, -- [3]
 				},
 			},
-			["numAwardReasons"] = 4,
 		},
 	},
 }
