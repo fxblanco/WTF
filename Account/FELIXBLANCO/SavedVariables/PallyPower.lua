@@ -13,83 +13,131 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["freeassign"] = true,
 			["buffscale"] = 0.75,
-			["skin"] = "ElvUI Blank",
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
 			["seal"] = 9,
-			["display"] = {
-				["buffDuration"] = false,
-				["frameLocked"] = true,
-			},
-			["freeassign"] = true,
-			["enable"] = true,
-			["border"] = "None",
-			["WrathTransition"] = true,
-			["cBuffNeedSpecial"] = {
+			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["WrathTransition"] = true,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
+			["skin"] = "ElvUI Blank",
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["display"] = {
+				["buffDuration"] = false,
+				["frameLocked"] = true,
+			},
+			["border"] = "None",
+			["enable"] = true,
 			["rf"] = true,
 		},
 		["Other"] = {
-			["WrathTransition"] = true,
-			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
 			},
 			["cBuffNeedAll"] = {
-				["r"] = 0.5,
+				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["b"] = 0.5,
+				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
 			["enable"] = true,
+			["WrathTransition"] = true,
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 		},
 	},
 }
 PallyPower_Assignments = {
-	["Brishja"] = {
+	["Alsia"] = {
 		2, -- [1]
 		2, -- [2]
 		3, -- [3]
 		3, -- [4]
 		4, -- [5]
+		2, -- [6]
+		0, -- [7]
+		3, -- [8]
+		2, -- [9]
+		2, -- [10]
+	},
+	["Graveofmaria"] = {
+		0, -- [1]
+		2, -- [2]
+		0, -- [3]
+		2, -- [4]
+		4, -- [5]
 		0, -- [6]
 		3, -- [7]
-		3, -- [8]
-		3, -- [9]
+		0, -- [8]
+		2, -- [9]
 		2, -- [10]
+	},
+	["Liptea"] = {
+		0, -- [1]
+		3, -- [2]
+		0, -- [3]
+		3, -- [4]
+		3, -- [5]
+		0, -- [6]
+		1, -- [7]
+		0, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+	["Bremskyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		3, -- [6]
+		3, -- [7]
+		1, -- [8]
+		1, -- [9]
+		3, -- [10]
+	},
+	["Bubbledîne"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
 	},
 	["Myjuice"] = {
 		3, -- [1]
@@ -103,17 +151,17 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Alsia"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
+	["Brishja"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
 		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
 	},
 	["Beesportz"] = {
 		3, -- [1]
@@ -148,7 +196,7 @@ PallyPower_AuraAssignments = {
 	["Claisn"] = 1,
 	["Yaalol"] = 0,
 	["Holyshiad"] = 3,
-	["Bremskyle"] = 5,
+	["Bremskyle"] = 1,
 	["Invictús"] = 0,
 	["Deoka"] = 1,
 	["Uhter"] = 1,
@@ -224,7 +272,7 @@ PallyPower_AuraAssignments = {
 	["Saxz"] = 4,
 	["Beaconjus"] = 1,
 	["Fuccsen"] = 0,
-	["Liptea"] = 6,
+	["Liptea"] = 5,
 	["Lettn"] = 0,
 	["Yasuli"] = 3,
 	["Turbochiggo"] = 3,
@@ -324,7 +372,7 @@ PallyPower_AuraAssignments = {
 	["Binsosauer"] = 5,
 	["Futelf"] = 2,
 	["Rodríguez"] = 0,
-	["Alsia"] = 1,
+	["Alsia"] = 6,
 	["Schabernak"] = 0,
 	["Kawaiiteen"] = 0,
 	["Theoreen"] = 6,
@@ -357,7 +405,7 @@ PallyPower_AuraAssignments = {
 	["Methhilde"] = 0,
 	["Futschas"] = 5,
 	["Løxar"] = 0,
-	["Bubbledîne"] = 6,
+	["Bubbledîne"] = 4,
 	["Vodar"] = 0,
 	["Entenzwerg"] = 2,
 	["Schpen"] = 5,
@@ -403,8 +451,10 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"SucheNachGruppe", -- [1]
-	"WeltVerteidigung", -- [2]
+	"Allgemein", -- [1]
+	"Handel", -- [2]
+	"LokaleVerteidigung", -- [3]
+	"SucheNachGruppe", -- [4]
 	[0] = "None",
 }
 LCD_Data = nil

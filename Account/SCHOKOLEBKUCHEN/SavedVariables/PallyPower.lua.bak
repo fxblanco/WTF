@@ -95,17 +95,17 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Vriternity"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
+	["Brishja"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+		4, -- [10]
 	},
 	["Beesportz"] = {
 		3, -- [1]
@@ -131,17 +131,17 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Liptea"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		0, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
+	["Bubbledîne"] = {
+		4, -- [1]
+		4, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		4, -- [10]
 	},
 	["Habíb"] = {
 		0, -- [1]
@@ -155,17 +155,17 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Bubbledîne"] = {
-		4, -- [1]
-		4, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		4, -- [10]
+	["Liptea"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		0, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
 	},
 	["Bânu"] = {
 		0, -- [1]
@@ -179,17 +179,17 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Brishja"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
+	["Vriternity"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -222,93 +222,93 @@ PallyPower_AuraAssignments = {
 	["Hulkadine"] = 2,
 	["Sínan"] = 0,
 	["Thêrealzero"] = 1,
-	["Vriternity"] = 3,
+	["Skotia"] = 1,
 	["Twintts"] = 2,
-	["Palajazu"] = 1,
+	["Paniniqt"] = 3,
 	["Bombenbabsi"] = 6,
 	["Qlikadin"] = 5,
 	["Noobdog"] = 0,
 	["Xhaara"] = 6,
 	["Lituzan"] = 1,
 	["Raycin"] = 2,
-	["Vanillodin"] = 2,
+	["Bremskyle"] = 1,
 	["Wrathzilla"] = 3,
 	["Habíb"] = 1,
-	["Beesportz"] = 6,
 	["Pypsi"] = 5,
-	["Êlsee"] = 6,
-	["Deoka"] = 1,
+	["Palladriel"] = 5,
+	["Beesportz"] = 6,
+	["Lypî"] = 6,
 	["Kurella"] = 3,
 	["Kti"] = 0,
-	["Lypî"] = 6,
-	["Adyr"] = 3,
+	["Deoka"] = 1,
+	["Kálí"] = 2,
 	["Bønbøn"] = 6,
 	["Briladin"] = 5,
 	["Genosis"] = 2,
-	["Myjuice"] = 3,
-	["Zjd"] = 6,
+	["Výrgin"] = 6,
+	["Kolberg"] = 6,
 	["Dábzy"] = 5,
-	["Mutenp"] = 6,
+	["Blazèé"] = 1,
 	["Stellâr"] = 2,
 	["Asdâlan"] = 2,
-	["Logyna"] = 6,
+	["Bopya"] = 6,
 	["Crippi"] = 2,
-	["Gdkpaladin"] = 0,
+	["Logyna"] = 6,
 	["Skadya"] = 0,
 	["Krodalina"] = 4,
 	["Steyo"] = 2,
-	["Liolider"] = 5,
+	["Liadrîn"] = 2,
 	["Eiskafe"] = 6,
-	["Cancelcult"] = 6,
-	["Hópéful"] = 5,
+	["Nôirun"] = 6,
+	["Alyrah"] = 5,
 	["Alsia"] = 1,
 	["Aerythlea"] = 1,
 	["Floryn"] = 1,
-	["Aqinu"] = 6,
 	["Smoothý"] = 1,
-	["Artìì"] = 3,
-	["Avêss"] = 0,
+	["Aqinu"] = 6,
+	["Bananaflow"] = 1,
+	["Sleepychi"] = 2,
 	["Graveofmaria"] = 0,
 	["Palîne"] = 0,
-	["Shikimora"] = 2,
-	["Falkeron"] = 1,
-	["Luzilord"] = 0,
+	["Liptea"] = 3,
+	["Enely"] = 0,
+	["Eldunarî"] = 5,
 	["Naratie"] = 3,
-	["Fuccsen"] = 0,
+	["Celløphane"] = 5,
 	["Bânu"] = 3,
 	["Whoiswho"] = 3,
 	["Entenzwerg"] = 2,
-	["Eldunarî"] = 5,
-	["Towey"] = 3,
-	["Crusadress"] = 2,
-	["Bubbledîne"] = 3,
-	["Saxz"] = 3,
+	["Luzilord"] = 0,
 	["Onlyfarm"] = 3,
-	["Celløphane"] = 5,
+	["Saxz"] = 3,
+	["Bubbledîne"] = 3,
+	["Crusadress"] = 2,
+	["Towey"] = 3,
+	["Fuccsen"] = 0,
 	["Beautypally"] = 0,
-	["Enely"] = 0,
-	["Liptea"] = 3,
+	["Falkeron"] = 1,
+	["Shikimora"] = 2,
 	["Juliawe"] = 1,
-	["Sleepychi"] = 2,
-	["Bananaflow"] = 1,
+	["Avêss"] = 0,
+	["Artìì"] = 3,
 	["Lettn"] = 6,
-	["Alyrah"] = 5,
-	["Nôirun"] = 6,
-	["Liadrîn"] = 2,
-	["Bopya"] = 6,
-	["Blazèé"] = 1,
+	["Hópéful"] = 5,
+	["Cancelcult"] = 6,
+	["Liolider"] = 5,
+	["Gdkpaladin"] = 0,
+	["Mutenp"] = 6,
 	["Turbochiggo"] = 3,
-	["Kolberg"] = 6,
-	["Výrgin"] = 6,
-	["Kálí"] = 2,
+	["Zjd"] = 6,
+	["Myjuice"] = 3,
+	["Adyr"] = 3,
 	["Klxi"] = 0,
-	["Palladriel"] = 5,
+	["Êlsee"] = 6,
 	["Sasette"] = 6,
-	["Bremskyle"] = 1,
+	["Vanillodin"] = 2,
 	["Wintex"] = 0,
-	["Paniniqt"] = 3,
+	["Palajazu"] = 1,
 	["Wertoxdin"] = 4,
-	["Skotia"] = 1,
+	["Vriternity"] = 3,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {

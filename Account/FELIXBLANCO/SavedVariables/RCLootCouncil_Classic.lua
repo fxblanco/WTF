@@ -1,0 +1,698 @@
+
+RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Andrés - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "OR-LC",
+	},
+	["global"] = {
+		["logMaxEntries"] = 4000,
+		["log"] = {
+			"10/11/23", -- [1]
+			"00:38:56 - Logged In", -- [2]
+			"00:38:56 - ML initialized!", -- [3]
+			"00:38:56 - TradeUI enabled", -- [4]
+			"00:38:58 - Alsia-Venoxis (2.19.3) (nil)", -- [5]
+			"00:38:58 - ActivateSkin (bfa)", -- [6]
+			"00:39:03 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [7]
+			"00:39:03 - GetML()", -- [8]
+			"00:39:03 - LootMethod =  (group)", -- [9]
+			"00:39:03 - UpdatePlayersData()", -- [10]
+			"00:39:03 - GetPlayersGuildRank()", -- [11]
+			"00:39:03 - Found Guild Rank: Gildenmeister", -- [12]
+			"00:39:04 - ClassicModule enabled (0.19.0) (nil)", -- [13]
+			"00:39:04 - DoCommsCompressFix", -- [14]
+			"00:39:04 - Removing Column (role)", -- [15]
+			"00:39:04 - Removing Column (corruption)", -- [16]
+			"00:39:04 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [17]
+			"00:39:13 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Butzebank) (distri:) (GUILD)", -- [18]
+			"00:43:52 - <ERROR> (...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil))", -- [19]
+			"10/11/23", -- [20]
+			"00:43:56 - Logged In", -- [21]
+			"00:43:56 - ML initialized!", -- [22]
+			"00:43:56 - TradeUI enabled", -- [23]
+			"00:43:58 - Alsia-Venoxis (2.19.3) (nil)", -- [24]
+			"00:43:58 - ActivateSkin (bfa)", -- [25]
+			"00:44:03 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [26]
+			"00:44:03 - GetML()", -- [27]
+			"00:44:03 - LootMethod =  (group)", -- [28]
+			"00:44:03 - UpdatePlayersData()", -- [29]
+			"00:44:03 - GetPlayersGuildRank()", -- [30]
+			"00:44:03 - Found Guild Rank: Gildenmeister", -- [31]
+			"00:44:03 - ClassicModule enabled (0.19.0) (nil)", -- [32]
+			"00:44:03 - DoCommsCompressFix", -- [33]
+			"00:44:03 - Removing Column (role)", -- [34]
+			"00:44:03 - Removing Column (corruption)", -- [35]
+			"00:44:04 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [36]
+			"00:44:09 - / ()", -- [37]
+			"00:44:09 - - debug or d - Toggle debugging", -- [38]
+			"00:44:09 - - log - display the debug log", -- [39]
+			"00:44:09 - - clearLog - clear the debug log", -- [40]
+			"00:44:13 - / (options)", -- [41]
+			"00:44:59 - ActivateSkin (minimalGrey)", -- [42]
+			"00:45:01 - Event: (PARTY_LEADER_CHANGED)", -- [43]
+			"00:45:01 - GetML()", -- [44]
+			"00:45:01 - LootMethod =  (group)", -- [45]
+			"00:45:01 - Not in raid group", -- [46]
+			"00:45:01 - NewMLCheck (Resetting council as we have a new ML!)", -- [47]
+			"00:45:01 - Some else is ML", -- [48]
+			"00:45:13 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [49]
+			"00:45:13 - GetML()", -- [50]
+			"00:45:13 - LootMethod =  (master)", -- [51]
+			"00:45:13 - MasterLooter =  (Alsia-Venoxis)", -- [52]
+			"00:45:13 - NewMLCheck (Resetting council as we have a new ML!)", -- [53]
+			"00:45:15 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [54]
+			"00:45:15 - GetML()", -- [55]
+			"00:45:15 - LootMethod =  (master)", -- [56]
+			"00:45:15 - MasterLooter =  (Alsia-Venoxis)", -- [57]
+			"00:45:15 - NewMLCheck (No ML Change)", -- [58]
+			"00:45:16 - Timer MLdb_check passed", -- [59]
+			"00:45:16 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Longling) (distri:) (WHISPER)", -- [60]
+			"00:45:16 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [61]
+			"00:45:16 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [62]
+			"00:45:16 - Player confirmed usage", -- [63]
+			"00:45:16 - Start handle loot.", -- [64]
+			"00:45:16 - GetCouncilInGroup (Alsia-Venoxis)", -- [65]
+			"00:45:16 - ML:NewML (Alsia-Venoxis)", -- [66]
+			"00:45:16 - UpdateMLdb", -- [67]
+			"00:45:16 - OnMLDBReceived", -- [68]
+			"00:45:16 - UpdateGroup (true)", -- [69]
+			"00:45:16 - ML:AddCandidate (Alsia-Venoxis) (PALADIN) (TANK) (nil) (nil) (nil) (nil) (nil)", -- [70]
+			"00:45:16 - ML:AddCandidate (Longling-Venoxis) (ROGUE) (DAMAGER) (nil) (nil) (nil) (nil) (nil)", -- [71]
+			"00:45:16 - RCLootCouncilML:SendCandidates()", -- [72]
+			"00:45:16 - candidates_cooldown == false", -- [73]
+			"00:45:16 - GetCouncilInGroup (Alsia-Venoxis)", -- [74]
+			"00:45:16 - ML:SendCouncil()", -- [75]
+			"00:45:16 - Comm received:^1^SStartHandleLoot^T^t^^ (from:) (Alsia) (distri:) (RAID)", -- [76]
+			"00:45:16 - Comm received:^1^SplayerInfoRequest^T^t^^ (from:) (Alsia) (distri:) (RAID)", -- [77]
+			"00:45:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [78]
+			"00:45:16 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [79]
+			"00:45:16 - Comm received:^1^Scandidates^T^N1^T^SLongling-Venoxis^T^Srole^SDAMAGER^Sclass^SROGUE^Srank^S^t^SAlsia-Venoxis^T^Srole^STANK^Sclass^SPALADIN^Srank^S^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [80]
+			"00:45:16 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [81]
+			"00:45:16 - true = (ConcilContains) (Alsia-Venoxis)", -- [82]
+			"00:45:16 - GetLootDBStatistics()", -- [83]
+			"00:45:16 - GetGuildRankNum()", -- [84]
+			"00:45:16 - RCVotingFrame (enabled)", -- [85]
+			"00:45:16 - ML:AddCandidate (Longling-Venoxis) (ROGUE) (NONE) (Twink) (nil) (0) (249.24) (nil)", -- [86]
+			"00:45:16 - RCLootCouncilML:SendCandidates()", -- [87]
+			"00:45:16 - candidates_cooldown == true", -- [88]
+			"00:45:16 - candidate_send == false", -- [89]
+			"00:45:16 - Comm received:^1^SplayerInfo^T^N1^SLongling-Venoxis^N2^SROGUE^N3^SNONE^N4^STwink^N6^N0^N7^N249.24^t^^ (from:) (Longling) (distri:) (WHISPER)", -- [90]
+			"00:45:16 - ML:AddCandidate (Alsia-Venoxis) (PALADIN) (NONE) (Gildenmeister) (nil) (0) (249.29) (nil)", -- [91]
+			"00:45:16 - RCLootCouncilML:SendCandidates()", -- [92]
+			"00:45:16 - candidates_cooldown == true", -- [93]
+			"00:45:16 - candidate_send == true", -- [94]
+			"00:45:16 - Comm received:^1^SplayerInfo^T^N1^SAlsia-Venoxis^N2^SPALADIN^N3^SNONE^N4^SGildenmeister^N6^N0^N7^N249.29^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [95]
+			"00:45:21 - ML:OnCouncilCooldown()", -- [96]
+			"00:45:21 - / (council)", -- [97]
+			"00:45:26 - Throttled candidates! Current CPS: 10, delayed: 1 messages.", -- [98]
+			"00:45:26 - ML:SendCandidates()", -- [99]
+			"00:45:26 - RCLootCouncilML:OnCandidatesCooldown()", -- [100]
+			"00:45:27 - New CPS: (0)", -- [101]
+			"00:45:27 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [102]
+			"00:45:27 - Comm received:^1^Scandidates^T^N1^T^SLongling-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SROGUE^Srank^STwink^t^SAlsia-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SGildenmeister^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [103]
+			"00:45:28 - Queue and CPS is 0", -- [104]
+			"00:45:28 - Timer MLdb_check passed", -- [105]
+			"00:45:30 - / (add) (|cffa335ee|Hitem:48044::::::::80:::::::::|h[Inbrünstige Wache]|h|r)", -- [106]
+			"00:45:30 - ML:AddItem (|cffa335ee|Hitem:48044::::::::80:::::::::|h[Inbrünstige Wache]|h|r) (false) (nil) (Alsia-Venoxis) (nil) (nil)", -- [107]
+			"00:45:30 - RCSessionFrame (enabled)", -- [108]
+			"00:45:39 - ML:StartSession()", -- [109]
+			"00:45:39 - RCSessionFrame (disabled)", -- [110]
+			"00:45:39 - Comm received:^1^SlootTable^T^N1^T^N1^T^SequipLoc^SINVTYPE_WEAPON^Sawarded^b^Slink^S|cffa335ee|Hitem:48044::::::::80:::::::::|h[Inbrünstige~`Wache]|h|r^StypeCode^Sdefault^Sowner^SAlsia-Venoxis^SsubType^SEinhandschwerter^Stexture^N251962^SisSent^b^Silvl^N245^Sclasses^N4294967295^Sboe^b^Squality^N4^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [111]
+			"00:45:39 - SwitchSession (1)", -- [112]
+			"00:45:39 - SwitchSession (1)", -- [113]
+			"00:45:39 - GetPlayersGear (|cffa335ee|Hitem:48044::::::::80:::::::::|h[Inbrünstige Wache]|h|r) (INVTYPE_WEAPON)", -- [114]
+			"00:45:39 - LootFrame (GetFrame())", -- [115]
+			"00:45:39 - LootFrame:Start (1) (nil)", -- [116]
+			"00:45:39 - GetButtons (default)", -- [117]
+			"00:45:39 - Comm received:^1^SlootAck^T^N1^SAlsia-Venoxis^N2^N0^N3^N249.29^N4^T^Sresponse^T^t^Sdiff^T^N1^N0^t^Sgear1^T^N1^Sitem:45947:3789:40111::::::80^t^Sgear2^T^N1^Sitem:47421:3849:40126::::::80^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [118]
+			"00:45:39 - Comm received:^1^SlootAck^T^N1^SLongling-Venoxis^N2^N0^N3^N249.24^N4^T^Sresponse^T^t^Sdiff^T^N1^N7^t^Sgear1^T^N1^Sitem:48043:3789:40114::::::80^t^Sgear2^T^N1^Sitem:45142:3789:::::::80^t^t^t^^ (from:) (Longling) (distri:) (RAID)", -- [119]
+			"00:45:51 - Comm received:^1^Soffline_timer^T^t^^ (from:) (Alsia) (distri:) (RAID)", -- [120]
+			"00:45:58 - Comm received:^1^Sresponse^T^N1^N1^N2^SLongling-Venoxis^N3^T^Snote^b^Sresponse^N1^t^t^^ (from:) (Longling) (distri:) (RAID)", -- [121]
+			"00:46:27 - Vote button pressed", -- [122]
+			"00:46:27 - true = (ConcilContains) (Alsia)", -- [123]
+			"00:46:27 - Comm received:^1^Svote^T^N1^N1^N2^SAlsia-Venoxis^N3^N1^t^^ (from:) (Alsia) (distri:) (RAID)", -- [124]
+			"00:46:39 - LootFrame:Response (TIMEOUT) (Response:) (Kandidat hat nicht rechtzeitig geanwortet)", -- [125]
+			"00:46:39 - SendResponse (group) (1) (TIMEOUT) (nil) (nil) (false) (nil) (nil) (nil) (nil) (nil) (nil) (nil)", -- [126]
+			"00:46:39 - Trashing entry: (1) (|cffa335ee|Hitem:48044::::::::80:::::::::|h[Inbrünstige Wache]|h|r)", -- [127]
+			"00:46:39 - Comm received:^1^Sresponse^T^N1^N1^N2^SAlsia-Venoxis^N3^T^Snote^b^Sresponse^STIMEOUT^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [128]
+			"00:46:45 - Vote button pressed", -- [129]
+			"00:46:45 - true = (ConcilContains) (Alsia)", -- [130]
+			"00:46:45 - Comm received:^1^Svote^T^N1^N1^N2^SAlsia-Venoxis^N3^N-1^t^^ (from:) (Alsia) (distri:) (RAID)", -- [131]
+			"00:46:47 - Vote button pressed", -- [132]
+			"00:46:47 - true = (ConcilContains) (Alsia)", -- [133]
+			"00:46:47 - Comm received:^1^Svote^T^N1^N1^N2^SLongling-Venoxis^N3^N1^t^^ (from:) (Alsia) (distri:) (RAID)", -- [134]
+			"00:46:48 - Vote button pressed", -- [135]
+			"00:46:48 - true = (ConcilContains) (Alsia)", -- [136]
+			"00:46:48 - Comm received:^1^Svote^T^N1^N1^N2^SAlsia-Venoxis^N3^N1^t^^ (from:) (Alsia) (distri:) (RAID)", -- [137]
+			"00:46:49 - Vote button pressed", -- [138]
+			"00:46:49 - true = (ConcilContains) (Alsia)", -- [139]
+			"00:46:49 - Comm received:^1^Svote^T^N1^N1^N2^SAlsia-Venoxis^N3^N-1^t^^ (from:) (Alsia) (distri:) (RAID)", -- [140]
+			"00:46:49 - Vote button pressed", -- [141]
+			"00:46:49 - Throttled vote! Current CPS: 10, delayed: 1 messages.", -- [142]
+			"00:46:50 - New CPS: (0)", -- [143]
+			"00:46:50 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [144]
+			"00:46:51 - true = (ConcilContains) (Alsia)", -- [145]
+			"00:46:51 - Comm received:^1^Svote^T^N1^N1^N2^SLongling-Venoxis^N3^N-1^t^^ (from:) (Alsia) (distri:) (RAID)", -- [146]
+			"00:46:51 - Queue and CPS is 0", -- [147]
+			"00:48:48 - / (options)", -- [148]
+			"00:49:19 - UpdateMLdb", -- [149]
+			"00:49:19 - OnMLDBReceived", -- [150]
+			"00:49:20 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [151]
+			"00:49:24 - UpdateMLdb", -- [152]
+			"00:49:24 - OnMLDBReceived", -- [153]
+			"00:49:25 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^N2^T^Stext^SUpgrade^t^N3^T^Stext^SOS^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [154]
+			"00:49:36 - UpdateMLdb", -- [155]
+			"00:49:36 - OnMLDBReceived", -- [156]
+			"00:49:36 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SWishlist^Ssort^N1^t^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^N2^T^Stext^SUpgrade^t^N3^T^Stext^SOS^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [157]
+			"00:49:41 - UpdateMLdb", -- [158]
+			"00:49:41 - OnMLDBReceived", -- [159]
+			"00:49:41 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SWishlist^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^Stext^SMS^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^SOS^Ssort^N3^t^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^N2^T^Stext^SUpgrade^t^N3^T^Stext^SOS^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [160]
+			"00:50:35 - UpdateMLdb", -- [161]
+			"00:50:35 - OnMLDBReceived", -- [162]
+			"00:50:35 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N60^SselfVote^B^Sresponses^T^Sdefault^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SWishlist^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^Stext^SMS^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^SOS^Ssort^N3^t^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^N2^T^Stext^SUpgrade^t^N3^T^Stext^SOS^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [163]
+			"00:50:40 - UpdateMLdb", -- [164]
+			"00:50:40 - OnMLDBReceived", -- [165]
+			"00:50:40 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^Sresponses^T^Sdefault^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SWishlist^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^Stext^SMS^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^SOS^Ssort^N3^t^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^N2^T^Stext^SUpgrade^t^N3^T^Stext^SOS^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [166]
+			"00:50:45 - UpdateMLdb", -- [167]
+			"00:50:45 - OnMLDBReceived", -- [168]
+			"00:50:45 - Throttled MLdb! Current CPS: 10, delayed: 2 messages.", -- [169]
+			"00:50:46 - New CPS: (0)", -- [170]
+			"00:50:46 - Sent 1 messages - new CPS is 2 - Queue:Size(): 0", -- [171]
+			"00:50:46 - Comm received:^1^SMLdb^T^N1^T^SallowNotes^B^Stimeout^N90^SselfVote^B^Sresponses^T^Sdefault^T^N1^T^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Stext^SWishlist^Ssort^N1^t^N2^T^Scolor^T^N1^N1^N2^N0.5^N3^N0^N4^N1^t^Stext^SMS^Ssort^N2^t^N3^T^Scolor^T^N1^N0^N2^N0.7^N3^N0.7^N4^N1^t^Stext^SOS^Ssort^N3^t^t^t^SmultiVote^B^Sbuttons^T^Sdefault^T^N1^T^Stext^SWishlist^t^N2^T^Stext^SUpgrade^t^N3^T^Stext^SOS^t^SnumButtons^N3^t^t^SnumButtons^N3^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [172]
+			"00:50:47 - Queue and CPS is 0", -- [173]
+			"00:50:51 - GetCouncilInGroup (Alsia-Venoxis)", -- [174]
+			"00:50:51 - ML:SendCouncil()", -- [175]
+			"00:50:51 - RCLootCouncilML:SendCandidates()", -- [176]
+			"00:50:51 - candidates_cooldown == false", -- [177]
+			"00:50:52 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [178]
+			"00:50:52 - true = (ConcilContains) (Alsia-Venoxis)", -- [179]
+			"00:50:52 - Comm received:^1^Scandidates^T^N1^T^SLongling-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SROGUE^Srank^STwink^t^SAlsia-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SGildenmeister^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [180]
+			"00:50:53 - GetCouncilInGroup (Alsia-Venoxis)", -- [181]
+			"00:50:53 - RCLootCouncilML:SendCandidates()", -- [182]
+			"00:50:53 - candidates_cooldown == true", -- [183]
+			"00:50:53 - candidate_send == false", -- [184]
+			"00:50:54 - GetCouncilInGroup (Alsia-Venoxis)", -- [185]
+			"00:50:54 - RCLootCouncilML:SendCandidates()", -- [186]
+			"00:50:54 - candidates_cooldown == true", -- [187]
+			"00:50:54 - candidate_send == true", -- [188]
+			"00:50:54 - GetCouncilInGroup (Alsia-Venoxis)", -- [189]
+			"00:50:54 - RCLootCouncilML:SendCandidates()", -- [190]
+			"00:50:54 - candidates_cooldown == true", -- [191]
+			"00:50:54 - candidate_send == true", -- [192]
+			"00:50:55 - GetCouncilInGroup (Alsia-Venoxis)", -- [193]
+			"00:50:55 - RCLootCouncilML:SendCandidates()", -- [194]
+			"00:50:55 - candidates_cooldown == true", -- [195]
+			"00:50:55 - candidate_send == true", -- [196]
+			"00:50:55 - GetCouncilInGroup (Alsia-Venoxis)", -- [197]
+			"00:50:55 - RCLootCouncilML:SendCandidates()", -- [198]
+			"00:50:55 - candidates_cooldown == true", -- [199]
+			"00:50:55 - candidate_send == true", -- [200]
+			"00:50:56 - GetCouncilInGroup (Alsia-Venoxis)", -- [201]
+			"00:50:56 - RCLootCouncilML:SendCandidates()", -- [202]
+			"00:50:56 - candidates_cooldown == true", -- [203]
+			"00:50:56 - candidate_send == true", -- [204]
+			"00:50:56 - GetCouncilInGroup (Alsia-Venoxis)", -- [205]
+			"00:50:56 - RCLootCouncilML:SendCandidates()", -- [206]
+			"00:50:56 - candidates_cooldown == true", -- [207]
+			"00:50:56 - candidate_send == true", -- [208]
+			"00:50:56 - ML:SendCouncil()", -- [209]
+			"00:50:56 - ML:OnCouncilCooldown()", -- [210]
+			"00:50:57 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [211]
+			"00:50:57 - true = (ConcilContains) (Alsia-Venoxis)", -- [212]
+			"00:50:58 - GetCouncilInGroup (Alsia-Venoxis)", -- [213]
+			"00:50:58 - ML:SendCouncil()", -- [214]
+			"00:50:58 - RCLootCouncilML:SendCandidates()", -- [215]
+			"00:50:58 - candidates_cooldown == true", -- [216]
+			"00:50:58 - candidate_send == true", -- [217]
+			"00:50:59 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [218]
+			"00:50:59 - true = (ConcilContains) (Alsia-Venoxis)", -- [219]
+			"00:50:59 - GetCouncilInGroup (Alsia-Venoxis)", -- [220]
+			"00:50:59 - RCLootCouncilML:SendCandidates()", -- [221]
+			"00:50:59 - candidates_cooldown == true", -- [222]
+			"00:50:59 - candidate_send == true", -- [223]
+			"00:51:01 - ML:SendCandidates()", -- [224]
+			"00:51:01 - RCLootCouncilML:OnCandidatesCooldown()", -- [225]
+			"00:51:02 - Comm received:^1^Scandidates^T^N1^T^SLongling-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SROGUE^Srank^STwink^t^SAlsia-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SGildenmeister^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [226]
+			"00:51:02 - GetCouncilInGroup (Alsia-Venoxis)", -- [227]
+			"00:51:02 - RCLootCouncilML:SendCandidates()", -- [228]
+			"00:51:02 - candidates_cooldown == false", -- [229]
+			"00:51:02 - Comm received:^1^Scandidates^T^N1^T^SLongling-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SROGUE^Srank^STwink^t^SAlsia-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SGildenmeister^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [230]
+			"00:51:03 - ML:OnCouncilCooldown()", -- [231]
+			"00:51:03 - ML:SendCouncil()", -- [232]
+			"00:51:04 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [233]
+			"00:51:04 - true = (ConcilContains) (Alsia-Venoxis)", -- [234]
+			"00:51:04 - GetCouncilInGroup (Alsia-Venoxis)", -- [235]
+			"00:51:04 - ML:SendCouncil()", -- [236]
+			"00:51:04 - RCLootCouncilML:SendCandidates()", -- [237]
+			"00:51:04 - candidates_cooldown == true", -- [238]
+			"00:51:04 - candidate_send == false", -- [239]
+			"00:51:04 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [240]
+			"00:51:04 - true = (ConcilContains) (Alsia-Venoxis)", -- [241]
+			"00:51:05 - GetCouncilInGroup (Alsia-Venoxis)", -- [242]
+			"00:51:05 - RCLootCouncilML:SendCandidates()", -- [243]
+			"00:51:05 - candidates_cooldown == true", -- [244]
+			"00:51:05 - candidate_send == true", -- [245]
+			"00:51:09 - ML:SendCouncil()", -- [246]
+			"00:51:09 - ML:OnCouncilCooldown()", -- [247]
+			"00:51:09 - Comm received:^1^Scouncil^T^N1^T^N1^SAlsia-Venoxis^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [248]
+			"00:51:09 - true = (ConcilContains) (Alsia-Venoxis)", -- [249]
+			"00:51:12 - ML:SendCandidates()", -- [250]
+			"00:51:12 - RCLootCouncilML:OnCandidatesCooldown()", -- [251]
+			"00:51:12 - Comm received:^1^Scandidates^T^N1^T^SLongling-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SROGUE^Srank^STwink^t^SAlsia-Venoxis^T^Srole^SNONE^Senchant_lvl^N0^Sclass^SPALADIN^Srank^SGildenmeister^t^t^t^^ (from:) (Alsia) (distri:) (RAID)", -- [252]
+			"00:53:12 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [253]
+			"00:53:12 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [254]
+			"00:53:12 - UpdateFrame (DefaultRCLootFrame)", -- [255]
+			"00:53:15 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [256]
+			"00:53:15 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [257]
+			"00:53:15 - UpdateFrame (DefaultRCLootFrame)", -- [258]
+			"00:53:15 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [259]
+			"00:53:15 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [260]
+			"00:53:15 - UpdateFrame (DefaultRCLootFrame)", -- [261]
+			"00:53:16 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [262]
+			"00:53:16 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [263]
+			"00:53:16 - UpdateFrame (DefaultRCLootFrame)", -- [264]
+			"00:53:16 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [265]
+			"00:53:16 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [266]
+			"00:53:16 - UpdateFrame (DefaultRCLootFrame)", -- [267]
+			"00:53:16 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [268]
+			"00:53:16 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [269]
+			"00:53:16 - UpdateFrame (DefaultRCLootFrame)", -- [270]
+			"00:53:16 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [271]
+			"00:53:16 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [272]
+			"00:53:16 - UpdateFrame (DefaultRCLootFrame)", -- [273]
+			"00:53:17 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [274]
+			"00:53:17 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [275]
+			"00:53:17 - UpdateFrame (DefaultRCLootFrame)", -- [276]
+			"00:53:17 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [277]
+			"00:53:17 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [278]
+			"00:53:17 - UpdateFrame (DefaultRCLootFrame)", -- [279]
+			"00:53:17 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [280]
+			"00:53:17 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [281]
+			"00:53:17 - UpdateFrame (DefaultRCLootFrame)", -- [282]
+			"00:53:17 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [283]
+			"00:53:17 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [284]
+			"00:53:17 - UpdateFrame (DefaultRCLootFrame)", -- [285]
+			"00:53:17 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [286]
+			"00:53:17 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [287]
+			"00:53:17 - UpdateFrame (DefaultRCLootFrame)", -- [288]
+			"00:53:18 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [289]
+			"00:53:18 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [290]
+			"00:53:18 - UpdateFrame (DefaultRCLootFrame)", -- [291]
+			"00:53:18 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [292]
+			"00:53:18 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [293]
+			"00:53:18 - UpdateFrame (DefaultRCLootFrame)", -- [294]
+			"00:53:18 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [295]
+			"00:53:18 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [296]
+			"00:53:18 - UpdateFrame (DefaultRCLootFrame)", -- [297]
+			"00:53:20 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [298]
+			"00:53:20 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [299]
+			"00:53:20 - UpdateFrame (DefaultRCLootFrame)", -- [300]
+			"00:53:24 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [301]
+			"00:53:24 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [302]
+			"00:53:24 - UpdateFrame (DefaultRCLootFrame)", -- [303]
+			"00:53:29 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [304]
+			"00:53:29 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [305]
+			"00:53:29 - UpdateFrame (DefaultRCLootFrame)", -- [306]
+			"00:53:29 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [307]
+			"00:53:29 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [308]
+			"00:53:29 - UpdateFrame (DefaultRCLootFrame)", -- [309]
+			"00:53:32 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [310]
+			"00:53:32 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [311]
+			"00:53:32 - UpdateFrame (DefaultRCLootFrame)", -- [312]
+			"00:53:33 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [313]
+			"00:53:33 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [314]
+			"00:53:33 - UpdateFrame (DefaultRCLootFrame)", -- [315]
+			"00:53:33 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [316]
+			"00:53:33 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [317]
+			"00:53:33 - UpdateFrame (DefaultRCLootFrame)", -- [318]
+			"00:53:33 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [319]
+			"00:53:33 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [320]
+			"00:53:33 - UpdateFrame (DefaultRCLootFrame)", -- [321]
+			"00:53:33 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [322]
+			"00:53:33 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [323]
+			"00:53:33 - UpdateFrame (DefaultRCLootFrame)", -- [324]
+			"00:53:33 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [325]
+			"00:53:33 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [326]
+			"00:53:33 - UpdateFrame (DefaultRCLootFrame)", -- [327]
+			"00:53:34 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [328]
+			"00:53:34 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [329]
+			"00:53:34 - UpdateFrame (DefaultRCLootFrame)", -- [330]
+			"00:53:34 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [331]
+			"00:53:34 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [332]
+			"00:53:34 - UpdateFrame (DefaultRCLootFrame)", -- [333]
+			"00:53:34 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [334]
+			"00:53:34 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [335]
+			"00:53:34 - UpdateFrame (DefaultRCLootFrame)", -- [336]
+			"00:53:35 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [337]
+			"00:53:35 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [338]
+			"00:53:35 - UpdateFrame (DefaultRCLootFrame)", -- [339]
+			"00:53:39 - ActivateSkin (new_blue)", -- [340]
+			"00:53:39 - UpdateFrame (DefaultRCLootCouncilFrame)", -- [341]
+			"00:53:39 - UpdateFrame (DefaultRCSessionSetupFrame)", -- [342]
+			"00:53:39 - UpdateFrame (DefaultRCLootFrame)", -- [343]
+			"00:54:05 - Sync:addNameToList() (Alsia-Venoxis) (PALADIN)", -- [344]
+			"00:54:05 - Sync:addNameToList() (Longling-Venoxis) (ROGUE)", -- [345]
+			"00:54:05 - Sync:addNameToList() (Connielingus-Venoxis) (DRUID)", -- [346]
+			"00:54:05 - Sync:addNameToList() (Graveofmaria-Venoxis) (PALADIN)", -- [347]
+			"00:54:05 - Sync:addNameToList() (Longling-Venoxis) (ROGUE)", -- [348]
+			"00:54:05 - Sync:addNameToList() (Alsia-Venoxis) (PALADIN)", -- [349]
+			"00:54:08 - Sync:addNameToList() (Alsia-Venoxis) (PALADIN)", -- [350]
+			"00:54:08 - Sync:addNameToList() (Longling-Venoxis) (ROGUE)", -- [351]
+			"00:54:08 - Sync:addNameToList() (Connielingus-Venoxis) (DRUID)", -- [352]
+			"00:54:08 - Sync:addNameToList() (Graveofmaria-Venoxis) (PALADIN)", -- [353]
+			"00:54:08 - Sync:addNameToList() (Longling-Venoxis) (ROGUE)", -- [354]
+			"00:54:08 - Sync:addNameToList() (Alsia-Venoxis) (PALADIN)", -- [355]
+			"00:54:16 - SendSyncRequest (Longling-Venoxis) (settings)", -- [356]
+			"00:54:16 - Throttled syncRequest! Current CPS: 10, delayed: 1 messages.", -- [357]
+			"00:54:17 - SendSyncRequest (Longling-Venoxis) (settings)", -- [358]
+			"00:54:17 - New CPS: (0)", -- [359]
+			"00:54:17 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [360]
+			"00:54:18 - Comm received:^1^SsyncNack^T^N1^SLongling-Venoxis^N2^Ssettings^N3^Snot_open^t^^ (from:) (Longling) (distri:) (WHISPER)", -- [361]
+			"00:54:18 - SyncNackReceived (Longling-Venoxis) (settings) (not_open)", -- [362]
+			"00:54:18 - SendSyncRequest (Longling-Venoxis) (settings)", -- [363]
+			"00:54:18 - Queue and CPS is 0", -- [364]
+			"00:54:28 - SendSyncRequest (Longling-Venoxis) (settings)", -- [365]
+			"00:54:30 - SendSyncRequest (Longling-Venoxis) (settings)", -- [366]
+			"00:54:31 - Comm received:^1^SsyncAck^T^N1^SLongling-Venoxis^N2^Ssettings^t^^ (from:) (Longling) (distri:) (WHISPER)", -- [367]
+			"00:54:31 - SyncAckReceived (Longling-Venoxis) (settings)", -- [368]
+			"00:54:31 - SendSyncData (Longling-Venoxis) (settings)", -- [369]
+			"00:54:31 - Done syncing", -- [370]
+			"00:54:31 - SendSyncData (SENT)", -- [371]
+			"00:55:09 - LootHistory:OnEnable()", -- [372]
+			"00:55:09 - LootHistory:BuildData()", -- [373]
+			"00:55:09 - LootHistory:Show()", -- [374]
+			"00:55:09 - GetLootDBStatistics()", -- [375]
+			"00:55:24 - LootHistory:OnEnable()", -- [376]
+			"00:55:24 - LootHistory:BuildData()", -- [377]
+			"00:55:24 - LootHistory:Show()", -- [378]
+			"00:55:24 - GetLootDBStatistics()", -- [379]
+			"00:56:06 - ML aborted session", -- [380]
+			"00:56:06 - ML:EndSession()", -- [381]
+			"00:56:06 - RCVotingFrame:EndSession (true)", -- [382]
+			"00:56:06 - Hide VotingFrame", -- [383]
+			"00:56:06 - Comm received:^1^Ssession_end^T^t^^ (from:) (Alsia) (distri:) (RAID)", -- [384]
+			"00:59:14 - Event: (GROUP_LEFT) (1) (Party-4477-1-0000127E1753)", -- [385]
+			"00:59:14 - GetML()", -- [386]
+			"00:59:14 - LootMethod =  (group)", -- [387]
+			"00:59:14 - Stop handling loot", -- [388]
+			"00:59:14 - ML Disabled", -- [389]
+			"00:59:14 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [390]
+			"01:07:46 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [391]
+			"01:14:04 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Butzebank) (distri:) (GUILD)", -- [392]
+			"10/11/23", -- [393]
+			"01:17:39 - Logged In", -- [394]
+			"01:17:39 - ML initialized!", -- [395]
+			"01:17:39 - TradeUI enabled", -- [396]
+			"01:17:45 - Andrés-Venoxis (2.19.3) (nil)", -- [397]
+			"01:17:45 - ActivateSkin (bfa)", -- [398]
+			"01:17:51 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [399]
+			"01:17:51 - GetML()", -- [400]
+			"01:17:51 - LootMethod =  (group)", -- [401]
+			"01:17:51 - UpdatePlayersData()", -- [402]
+			"01:17:52 - ClassicModule enabled (0.19.0) (nil)", -- [403]
+			"01:17:52 - DoCommsCompressFix", -- [404]
+			"01:17:52 - Removing Column (role)", -- [405]
+			"01:17:52 - Removing Column (corruption)", -- [406]
+			"01:17:52 - GetPlayersGuildRank()", -- [407]
+			"01:17:52 - Found Guild Rank: Rat", -- [408]
+			"01:17:52 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [409]
+			"10/11/23", -- [410]
+			"01:23:29 - Logged In", -- [411]
+			"01:23:29 - ML initialized!", -- [412]
+			"01:23:29 - TradeUI enabled", -- [413]
+			"01:23:35 - Alsia-Venoxis (2.19.3) (nil)", -- [414]
+			"01:23:35 - ActivateSkin (new_blue)", -- [415]
+			"01:23:41 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [416]
+			"01:23:41 - GetML()", -- [417]
+			"01:23:41 - LootMethod =  (group)", -- [418]
+			"01:23:41 - UpdatePlayersData()", -- [419]
+			"01:23:41 - ClassicModule enabled (0.19.0) (nil)", -- [420]
+			"01:23:41 - DoCommsCompressFix", -- [421]
+			"01:23:41 - Removing Column (role)", -- [422]
+			"01:23:41 - Removing Column (corruption)", -- [423]
+			"01:23:41 - GetPlayersGuildRank()", -- [424]
+			"01:23:41 - Found Guild Rank: Gildenmeister", -- [425]
+			"01:23:42 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [426]
+			"10/11/23", -- [427]
+			"01:34:41 - Logged In", -- [428]
+			"01:34:41 - ML initialized!", -- [429]
+			"01:34:41 - TradeUI enabled", -- [430]
+			"01:34:47 - Andrés-Venoxis (2.19.3) (nil)", -- [431]
+			"01:34:47 - ActivateSkin (bfa)", -- [432]
+			"01:34:53 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [433]
+			"01:34:53 - GetML()", -- [434]
+			"01:34:53 - LootMethod =  (group)", -- [435]
+			"01:34:53 - UpdatePlayersData()", -- [436]
+			"01:34:53 - ClassicModule enabled (0.19.0) (nil)", -- [437]
+			"01:34:53 - DoCommsCompressFix", -- [438]
+			"01:34:53 - Removing Column (role)", -- [439]
+			"01:34:53 - Removing Column (corruption)", -- [440]
+			"01:34:53 - GetPlayersGuildRank()", -- [441]
+			"01:34:53 - Found Guild Rank: Rat", -- [442]
+			"01:34:54 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [443]
+		},
+		["errors"] = {
+			{
+				["time"] = 1696977832,
+				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
+				["count"] = 1,
+				["stack"] = {
+					"[string \"@Interface/AddOns/WagoAnalytics/WagoAnalytics.lua\"]:73: in function <Interface/AddOns/WagoAnalytics/WagoAnalytics.lua:71>\n...\n", -- [1]
+					"[string \"@Interface/AddOns/RCLootCouncil_Classic/RCLootCouncil/Modules/options.lua\"]:1883: in function <...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:138>\n...\n", -- [2]
+					"[string \"@Interface/AddOns/RCLootCouncil_Classic/API/OptionsUpdates.lua\"]:9: in function <.../AddOns/RCLootCouncil_Classic/API/OptionsUpdates.lua:8>\n...\n", -- [3]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua\"]:334: in function `app'\n...\n", -- [4]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua\"]:1854: in function `Open'\n...\n", -- [5]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua\"]:866: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:658>\n...\n", -- [6]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/AceGUI-3.0.lua\"]:66: in function <...AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>\n...\n", -- [7]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/AceGUI-3.0.lua\"]:300: in function `Fire'\n...\n", -- [8]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:70: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:67>\n[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [9]
+					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [10]
+				},
+			}, -- [1]
+		},
+		["Classic_game"] = 11,
+		["Classic_oldVersion"] = "0.19.0",
+		["locale"] = "deDE",
+		["verTestCandidates"] = {
+			["Longling-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1696980894, -- [3]
+			},
+			["Liptea-Venoxis"] = {
+				"0.14.1", -- [1]
+				nil, -- [2]
+				1696977553, -- [3]
+			},
+			["Butzebank-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1696979644, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1696979266, -- [3]
+			},
+			["Alsia-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1696979644, -- [3]
+			},
+		},
+		["regionID"] = 3,
+		["version"] = "2.19.3",
+		["Classic_version"] = "0.19.0",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["responses"] = {
+				["default"] = {
+					{
+						["text"] = "Steht auf der Wishlist",
+					}, -- [1]
+					{
+						["text"] = "Upgrade für MS",
+					}, -- [2]
+					{
+						["text"] = "OS",
+					}, -- [3]
+				},
+			},
+			["usage"] = {
+				["ask_leader"] = true,
+				["leader"] = false,
+			},
+			["UI"] = {
+				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+			},
+			["council"] = {
+				"Alsia-Venoxis", -- [1]
+				"Domedonmaya-Venoxis", -- [2]
+				"Andrés-Venoxis", -- [3]
+				"Beesportz-Venoxis", -- [4]
+				"Deusdominik-Venoxis", -- [5]
+				"Specializt-Venoxis", -- [6]
+				"Kwasimojo-Venoxis", -- [7]
+				"Xolem-Venoxis", -- [8]
+				"Habíb-Venoxis", -- [9]
+				"Hennerr-Venoxis", -- [10]
+				"Liptea-Venoxis", -- [11]
+				"Wønka-Venoxis", -- [12]
+				"Vanec-Venoxis", -- [13]
+			},
+			["buttons"] = {
+				["default"] = {
+					{
+						["text"] = "Wishlist",
+					}, -- [1]
+					{
+						["text"] = "Upgrade",
+					}, -- [2]
+					{
+						["text"] = "OffSpec",
+					}, -- [3]
+				},
+			},
+		},
+		["OR-LC"] = {
+			["timeout"] = 90,
+			["buttons"] = {
+				["default"] = {
+					{
+						["whisperKey"] = "Wishlist",
+						["text"] = "Wishlist",
+					}, -- [1]
+					{
+						["whisperKey"] = "Upgrade, MS, 2",
+						["text"] = "Upgrade",
+					}, -- [2]
+					{
+						["whisperKey"] = "OS, 3",
+						["text"] = "OS",
+					}, -- [3]
+				},
+			},
+			["autoAward"] = true,
+			["modules"] = {
+				["RCVotingFrame"] = {
+					["moreInfo"] = false,
+				},
+			},
+			["council"] = {
+				"Alsia-Venoxis", -- [1]
+				"Andrés-Venoxis", -- [2]
+				"Beesportz-Venoxis", -- [3]
+				"Deusdominik-Venoxis", -- [4]
+				"Domedonmaya-Venoxis", -- [5]
+				"Kwasimojo-Venoxis", -- [6]
+				"Specializt-Venoxis", -- [7]
+				"Xolem-Venoxis", -- [8]
+				"Habíb-Venoxis", -- [9]
+				"Hennerr-Venoxis", -- [10]
+				"Liptea-Venoxis", -- [11]
+				"Wønka-Venoxis", -- [12]
+				"Vanec-Venoxis", -- [13]
+			},
+			["currentSkin"] = "new_blue",
+			["UI"] = {
+				["lootframe"] = {
+					["y"] = 24.77490085200589,
+					["x"] = -130.0504227952624,
+					["point"] = "RIGHT",
+					["scale"] = 1.100000023841858,
+				},
+				["sessionframe"] = {
+					["y"] = 30.37495437914549,
+					["x"] = -55.12527468692861,
+					["point"] = "RIGHT",
+					["scale"] = 1.100000023841858,
+				},
+				["votingframe"] = {
+					["y"] = 45.22465257698059,
+					["x"] = -99.10043433147075,
+					["point"] = "RIGHT",
+					["scale"] = 1.100000023841858,
+				},
+			},
+			["awardReasons"] = {
+				{
+					["text"] = "Wishlist",
+				}, -- [1]
+				{
+					["text"] = "MS",
+				}, -- [2]
+				{
+					["text"] = "OS",
+				}, -- [3]
+				{
+					["text"] = "Diss",
+				}, -- [4]
+			},
+			["responses"] = {
+				["default"] = {
+					{
+						["text"] = "Wishlist",
+					}, -- [1]
+					{
+						["text"] = "MS",
+					}, -- [2]
+					{
+						["text"] = "OS",
+					}, -- [3]
+				},
+			},
+			["numAwardReasons"] = 4,
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+	},
+}
