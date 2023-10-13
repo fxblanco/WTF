@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -13,6 +10,9 @@ GDKPd_DB = {
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
@@ -132,9 +132,9 @@ GDKPd_DB = {
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["mininc"] = 500,
-					["max"] = 0,
 					["minbid"] = 2000,
+					["max"] = 0,
+					["mininc"] = 500,
 				}, -- [1]
 			},
 			["point"] = {
@@ -178,8 +178,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["startBid"] = 200,
 			["increment"] = 20,
+			["startBid"] = 200,
 		},
 	},
 }
@@ -195,20 +195,20 @@ GDKPd_PotData = {
 		["Hakkî"] = 0,
 		["Kaffeemocca"] = 0,
 		["Alsia"] = 3674,
-		["Serferine"] = 0,
 		["Reikyy"] = 0,
-		["Bremskyle"] = 0,
+		["Vaccus"] = 0,
+		["Serferine"] = 0,
 		["Týrx"] = 0,
 		["Myjuice"] = 0,
-		["Wønka"] = 0,
-		["Freezemage"] = 0,
-		["Slimpy"] = 0,
+		["Delmonte"] = 0,
+		["Lapastro"] = 0,
 		["Vasstic"] = 0,
 		["Blinkyli"] = 0,
+		["Freezemage"] = 0,
 		["Donnerkeíl"] = 0,
-		["Lapastro"] = 0,
-		["Delmonte"] = 0,
-		["Vaccus"] = 0,
+		["Slimpy"] = 0,
+		["Wønka"] = 0,
+		["Bremskyle"] = 0,
 		["Jodifrosta"] = 0,
 	},
 	["curPotHistory"] = {

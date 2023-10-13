@@ -1,9 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Andrés - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "OR-LC",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1778,10 +1774,38 @@ RCLootCouncilDB = {
 			"19:47:16 - Found Guild Rank: Gildenmeister", -- [1769]
 			"19:47:18 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1770]
 			"19:49:55 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hakkî) (distri:) (GUILD)", -- [1771]
+			"10/13/23", -- [1772]
+			"20:05:41 - Logged In", -- [1773]
+			"20:05:41 - ML initialized!", -- [1774]
+			"20:05:41 - TradeUI enabled", -- [1775]
+			"20:05:46 - Alsia-Venoxis (2.19.3) (nil)", -- [1776]
+			"20:05:46 - ActivateSkin (new_blue)", -- [1777]
+			"20:05:51 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1778]
+			"20:05:51 - GetML()", -- [1779]
+			"20:05:51 - LootMethod =  (group)", -- [1780]
+			"20:05:51 - UpdatePlayersData()", -- [1781]
+			"20:05:52 - ClassicModule enabled (0.20.0) (nil)", -- [1782]
+			"20:05:52 - DoCommsCompressFix", -- [1783]
+			"20:05:52 - Removing Column (role)", -- [1784]
+			"20:05:52 - Removing Column (corruption)", -- [1785]
+			"20:05:52 - GetPlayersGuildRank()", -- [1786]
+			"20:05:52 - Found Guild Rank: Gildenmeister", -- [1787]
+			"20:05:54 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1788]
+			"20:07:46 - Event: (PARTY_LEADER_CHANGED)", -- [1789]
+			"20:07:46 - GetML()", -- [1790]
+			"20:07:46 - LootMethod =  (group)", -- [1791]
+			"20:07:46 - Not in raid group", -- [1792]
+			"20:07:46 - NewMLCheck (Resetting council as we have a new ML!)", -- [1793]
+			"20:07:46 - Some else is ML", -- [1794]
+			"20:08:01 - Timer MLdb_check passed", -- [1795]
+			"20:08:01 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1796]
+			"20:08:01 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1797]
+			"20:08:04 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Hakkî) (distri:) (WHISPER)", -- [1798]
+			"20:08:04 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Hakkî) (distri:) (WHISPER)", -- [1799]
 		},
 		["errors"] = {
 			{
-				["count"] = 1,
+				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
 				["stack"] = {
 					"[string \"@Interface/AddOns/WagoAnalytics/WagoAnalytics.lua\"]:73: in function <Interface/AddOns/WagoAnalytics/WagoAnalytics.lua:71>\n...\n", -- [1]
 					"[string \"@Interface/AddOns/RCLootCouncil_Classic/RCLootCouncil/Modules/options.lua\"]:1883: in function <...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:138>\n...\n", -- [2]
@@ -1794,17 +1818,17 @@ RCLootCouncilDB = {
 					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:70: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:67>\n[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [9]
 					"[string \"@Interface/AddOns/Bistooltip/lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua\"]:114: in function <...lib/Ace3/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua:111>\n", -- [10]
 				},
+				["count"] = 1,
 				["time"] = 1696977832,
-				["msg"] = "...ootCouncil_Classic/RCLootCouncil/Modules/options.lua:1883: bad argument #1 to 'pairs' (table expected, got nil)",
 			}, -- [1]
 			{
-				["count"] = 28,
+				["msg"] = "ML.lootQueue nil",
 				["stack"] = {
 					"[string \"@Interface/AddOns/RCLootCouncil_Classic/RCLootCouncil/core.lua\"]:1957: in function `?'\n...\n", -- [1]
 					"[string \"@Interface/AddOns/BagBrother/libs/AceEvent-3.0/AceEvent-3.0.lua\"]:120: in function <...AddOns/BagBrother/libs/AceEvent-3.0/AceEvent-3.0.lua:119>\n", -- [2]
 				},
+				["count"] = 28,
 				["time"] = 1697145649,
-				["msg"] = "ML.lootQueue nil",
 			}, -- [2]
 		},
 		["Classic_game"] = 11,
@@ -1829,7 +1853,7 @@ RCLootCouncilDB = {
 			["Hakkî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697219395, -- [3]
+				1697220354, -- [3]
 			},
 			["Bloodwall-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -1849,12 +1873,12 @@ RCLootCouncilDB = {
 			["Jodifrosta-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697219395, -- [3]
+				1697220354, -- [3]
 			},
 			["Vacaria-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697219395, -- [3]
+				1697220354, -- [3]
 			},
 			["Graveofmaria-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1916,10 +1940,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697150978, -- [3]
 			},
-			["Hampdidampdi-Venoxis"] = {
+			["Turrasq-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697219395, -- [3]
+				1697144234, -- [3]
 			},
 			["Connielingus-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1931,55 +1955,59 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697151191, -- [3]
 			},
-			["Vilro-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697056328, -- [3]
-			},
-			["Schetner-Venoxis"] = {
+			["Graveofjenna-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697138709, -- [3]
-			},
-			["Liptea-Venoxis"] = {
-				"0.14.1", -- [1]
-				nil, -- [2]
-				1697151191, -- [3]
-			},
-			["Larasombardi-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697142143, -- [3]
-			},
-			["Myjuice-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697146876, -- [3]
-			},
-			["Jocindyr-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697219395, -- [3]
+				1697147928, -- [3]
 			},
 			["Mikirî-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
 				1697058411, -- [3]
 			},
-			["Graveofjenna-Venoxis"] = {
-				"0.20.0", -- [1]
+			["Liptea-Venoxis"] = {
+				"0.14.1", -- [1]
 				nil, -- [2]
-				1697147928, -- [3]
+				1697151191, -- [3]
 			},
-			["Turrasq-Venoxis"] = {
+			["Jocindyr-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697144234, -- [3]
+				1697220355, -- [3]
+			},
+			["Myjuice-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697146876, -- [3]
+			},
+			["Larasombardi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697142143, -- [3]
+			},
+			["Schetner-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697138709, -- [3]
+			},
+			["Vilro-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697056328, -- [3]
+			},
+			["Hampdidampdi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697220354, -- [3]
 			},
 		},
 		["regionID"] = 3,
-		["version"] = "2.19.3",
 		["Classic_version"] = "0.20.0",
+		["version"] = "2.19.3",
+	},
+	["profileKeys"] = {
+		["Alsia - Venoxis"] = "OR-LC",
+		["Andrés - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -2138,16 +2166,16 @@ RCLootCouncilDB = {
 			["buttons"] = {
 				["default"] = {
 					{
-						["whisperKey"] = "Wishlist",
 						["text"] = "Wishlist",
+						["whisperKey"] = "Wishlist",
 					}, -- [1]
 					{
-						["whisperKey"] = "Upgrade, MS, 2",
 						["text"] = "Upgrade",
+						["whisperKey"] = "Upgrade, MS, 2",
 					}, -- [2]
 					{
-						["whisperKey"] = "OS, 3",
 						["text"] = "OS",
+						["whisperKey"] = "OS, 3",
 					}, -- [3]
 				},
 			},
@@ -2169,7 +2197,7 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 	},
 }
