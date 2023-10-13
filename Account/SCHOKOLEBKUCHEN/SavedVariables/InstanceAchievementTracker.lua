@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
+	["announceTrackedAchievements"] = false,
 	["InfoFramescale"] = 1,
-	["hideCompletedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["hideCompletedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -30671,6 +30671,54 @@ AchievementTrackerDebug = {
 	"12/10/2023 0:36 [DEBUG] Enabling Addon", -- [30646]
 	"12/10/2023 0:36 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [30647]
 	"12/10/2023 0:37 [DEBUG] Showing Minimap Icon", -- [30648]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [30649]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [30650]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [30651]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [30652]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [30653]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [30654]
+	"12/10/2023 23:36 [DEBUG] Showing Minimap Icon", -- [30655]
+	"12/10/2023 23:40 [DEBUG] Player has entered instance", -- [30656]
+	"12/10/2023 23:40 [DEBUG] 576", -- [30657]
+	"12/10/2023 23:40 [DEBUG] Offical Instance Name: 576 _576", -- [30658]
+	"12/10/2023 23:40 [DEBUG] Expansion: 3", -- [30659]
+	"12/10/2023 23:40 [DEBUG] Instance Type: Dungeons", -- [30660]
+	"12/10/2023 23:40 [DEBUG] Instance: 576", -- [30661]
+	"12/10/2023 23:40 [DEBUG] DifficultyID: 2", -- [30662]
+	"12/10/2023 23:40 [DEBUG] Expansion: 3", -- [30663]
+	"12/10/2023 23:40 [DEBUG] Instance Type: Dungeons", -- [30664]
+	"12/10/2023 23:40 [DEBUG] Instance: 576", -- [30665]
+	"12/10/2023 23:40 [DEBUG] Asking user whether they want to track this instance", -- [30666]
+	"12/10/2023 23:40 [DEBUG] Creating Tracking UI", -- [30667]
+	"12/10/2023 23:40 [DEBUG] InfoFrame Setup Complete", -- [30668]
+	"12/10/2023 23:40 [DEBUG] Expansion: 3", -- [30669]
+	"12/10/2023 23:40 [DEBUG] Player has entered instance", -- [30670]
+	"12/10/2023 23:40 [DEBUG] 576", -- [30671]
+	"12/10/2023 23:40 [DEBUG] Offical Instance Name: 576 _576", -- [30672]
+	"12/10/2023 23:40 [DEBUG] Expansion: 3", -- [30673]
+	"12/10/2023 23:40 [DEBUG] Instance Type: Dungeons", -- [30674]
+	"12/10/2023 23:40 [DEBUG] Instance: 576", -- [30675]
+	"12/10/2023 23:40 [DEBUG] DifficultyID: 2", -- [30676]
+	"12/10/2023 23:40 [DEBUG] Expansion: 3", -- [30677]
+	"12/10/2023 23:40 [DEBUG] Instance Type: Dungeons", -- [30678]
+	"12/10/2023 23:40 [DEBUG] Instance: 576", -- [30679]
+	"12/10/2023 23:40 [DEBUG] No Achievements to track for this instance", -- [30680]
+	"12/10/2023 23:40 [DEBUG] Expansion: 3", -- [30681]
+	"13/10/2023 0:3 [DEBUG] 6", -- [30682]
+	"13/10/2023 0:3 [DEBUG] Hiding Tracking UI", -- [30683]
+	"13/10/2023 0:3 [DEBUG] Hiding Tracking UI", -- [30684]
+	"13/10/2023 0:3 [DEBUG] Clearing Instance Variables", -- [30685]
+	"13/10/2023 0:3 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [30686]
+	"13/10/2023 0:3 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [30687]
+	"13/10/2023 0:3 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [30688]
+	"13/10/2023 0:3 [DEBUG] Clearing Instance Variables if exists", -- [30689]
+	"13/10/2023 0:3 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [30690]
+	"13/10/2023 0:3 [DEBUG] Clearing Instance Variables if exists", -- [30691]
+	"13/10/2023 0:3 [DEBUG] Clearing Instance Variables", -- [30692]
+	"13/10/2023 0:3 [DEBUG] Resetting Global Variables", -- [30693]
+	"13/10/2023 0:3 [DEBUG] InfoFrame does not need to be reset", -- [30694]
+	"13/10/2023 0:3 [DEBUG] Resetting PlayerRank", -- [30695]
+	"13/10/2023 0:3 [DEBUG] InfoFrame was not active", -- [30696]
 }
 AchievementTrackerNPCCache = {
 }
@@ -30685,7 +30733,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebart",
 	[26746] = "Wahnsinniges Managespenst",
 	[27756] = "Rubindrache",
-	[26668] = "Svala Grabesleid",
+	[26555] = "Hüne der Geißel",
 	[33572] = "Stahlgeschmiedeter Verteidiger",
 	[29713] = "Slad'ranwürger",
 	[26627] = "Kristallwirker",
@@ -30696,33 +30744,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotischer Riss",
 	[28586] = "General Bjarngrim",
 	[16028] = "Flickwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Missgestalteter Schlamm",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgrind",
 	[26731] = "Großmagistrix Telestra",
-	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
-	[33136] = "Wächter des Yogg-Saron",
+	[26893] = "Grauf",
 	[27975] = "Maid der Trauer",
 	[33388] = "Dunkler Runenwächter",
-	[27658] = "Belgaristrasz",
+	[28731] = "Aufseher Silthik",
+	[28729] = "Aufseher Narjil",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
 	[30176] = "Wächter der Ahn'kahar",
 	[23562] = "Unaufhaltsame Monstrosität",
-	[28729] = "Aufseher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Aufseher Gashra",
-	[28731] = "Aufseher Silthik",
+	[33136] = "Wächter des Yogg-Saron",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",
 	[29932] = "Der wilde Eck",
 	[29240] = "Sturmgeschmiedeter Leutnant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Missgestalteter Schlamm",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Schrottbot",
 	[23953] = "Prinz Keleseth",
-	[26555] = "Hüne der Geißel",
+	[26668] = "Svala Grabesleid",
 }

@@ -1,8 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Exonuklease - Venoxis"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -519,6 +516,23 @@ RCLootCouncilDB = {
 			"00:33:50 - Stop handling loot", -- [511]
 			"00:33:50 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (WHISPER)", -- [512]
 			"00:33:51 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [513]
+			"10/12/23", -- [514]
+			"00:38:06 - Logged In", -- [515]
+			"00:38:06 - ML initialized!", -- [516]
+			"00:38:06 - TradeUI enabled", -- [517]
+			"00:38:11 - Exonuklease-Venoxis (2.19.3) (nil)", -- [518]
+			"00:38:11 - ActivateSkin (bfa)", -- [519]
+			"00:38:16 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [520]
+			"00:38:16 - GetML()", -- [521]
+			"00:38:16 - LootMethod =  (group)", -- [522]
+			"00:38:16 - UpdatePlayersData()", -- [523]
+			"00:38:17 - ClassicModule enabled (0.19.0) (nil)", -- [524]
+			"00:38:17 - DoCommsCompressFix", -- [525]
+			"00:38:17 - Removing Column (role)", -- [526]
+			"00:38:17 - Removing Column (corruption)", -- [527]
+			"00:38:18 - GetPlayersGuildRank()", -- [528]
+			"00:38:18 - Found Guild Rank: Twink", -- [529]
+			"00:38:21 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [530]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.19.0",
@@ -537,17 +551,17 @@ RCLootCouncilDB = {
 			["Graveofmaria-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697063631, -- [3]
+				1697063901, -- [3]
 			},
 			["Wønka-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697063631, -- [3]
+				1697063901, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
 				nil, -- [2]
-				1697063631, -- [3]
+				1697063901, -- [3]
 			},
 			["Bloodwall-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -557,12 +571,12 @@ RCLootCouncilDB = {
 			["Slimpy-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697063631, -- [3]
+				1697063901, -- [3]
 			},
 			["Wîdi-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697063631, -- [3]
+				1697063902, -- [3]
 			},
 			["Uwugamergirl-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -571,8 +585,11 @@ RCLootCouncilDB = {
 			},
 		},
 		["version"] = "2.19.3",
-		["Classic_version"] = "0.19.0",
 		["regionID"] = 3,
+		["Classic_version"] = "0.19.0",
+	},
+	["profileKeys"] = {
+		["Exonuklease - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
