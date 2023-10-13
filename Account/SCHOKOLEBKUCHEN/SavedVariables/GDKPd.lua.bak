@@ -1,28 +1,14 @@
 
 GDKPd_DB = {
+	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
-	["profileKeys"] = {
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
 	["profiles"] = {
-		["Endonuclease - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = -253.7497711181641,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -61.74993515014648,
-			},
-			["point"] = {
-				["y"] = -50.07497024536133,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -455.7244873046875,
-			},
-		},
 		["Fieserdot - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 62.83293914794922,
@@ -35,6 +21,20 @@ GDKPd_DB = {
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -336.3038940429688,
+			},
+		},
+		["Endonuclease - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = -253.7497711181641,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -61.74993515014648,
+			},
+			["point"] = {
+				["y"] = -50.07497024536133,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -455.7244873046875,
 			},
 		},
 		["Exonuklease - Venoxis"] = {
@@ -77,23 +77,23 @@ GDKPd_PotData = {
 		["Vrinda"] = 0,
 		["Elonee"] = 0,
 		["Kritkah"] = 0,
-		["Beesportz"] = 0,
+		["Zettinger"] = 0,
 		["Shasi"] = 0,
 		["Liadrîn"] = 0,
 		["Bloodstyle"] = 0,
 		["Azeyoo"] = 0,
 		["Hotterhairy"] = 0,
-		["Atomix"] = 0,
-		["Exonuklease"] = 5710,
-		["Skotia"] = 0,
 		["Noobfilterx"] = 0,
+		["Exonuklease"] = 5710,
+		["Beesportz"] = 0,
+		["Atomix"] = 0,
 		["Icie"] = 0,
 		["Mojobulle"] = 0,
 		["Ongbakk"] = 0,
 		["Widi"] = 0,
 		["Blinkyli"] = 0,
 		["Bânu"] = 0,
-		["Zettinger"] = 0,
+		["Skotia"] = 0,
 	},
 	["curPotHistory"] = {
 		{

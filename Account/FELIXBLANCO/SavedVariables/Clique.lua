@@ -198,13 +198,12 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spellSubName"] = "Rang 3",
+					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
-					["spell"] = "Hand des Schutzes",
+					["icon"] = 135968,
+					["spell"] = "Hand der Freiheit",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -217,21 +216,22 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["spellSubName"] = "Rang 3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135964,
+					["spell"] = "Hand des Schutzes",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135966,
 					["spell"] = "Hand der Aufopferung",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135968,
-					["spell"] = "Hand der Freiheit",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -253,6 +253,16 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spellSubName"] = "Rang 13",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135920,
+					["spell"] = "Heiliges Licht",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
 					["spellSubName"] = "Rang 5",
 					["sets"] = {
@@ -260,7 +270,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135928,
 					["spell"] = "Handauflegung",
-				}, -- [8]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON3",
@@ -269,16 +279,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 136106,
 					["spell"] = "Göttliches Eingreifen",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rang 13",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135920,
-					["spell"] = "Heiliges Licht",
 				}, -- [10]
 				{
 					["type"] = "target",
