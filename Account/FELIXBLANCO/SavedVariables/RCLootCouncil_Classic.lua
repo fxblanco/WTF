@@ -1802,6 +1802,235 @@ RCLootCouncilDB = {
 			"20:08:01 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1797]
 			"20:08:04 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Hakkî) (distri:) (WHISPER)", -- [1798]
 			"20:08:04 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Hakkî) (distri:) (WHISPER)", -- [1799]
+			"10/13/23", -- [1800]
+			"20:13:10 - Logged In", -- [1801]
+			"20:13:10 - ML initialized!", -- [1802]
+			"20:13:10 - TradeUI enabled", -- [1803]
+			"20:13:15 - Alsia-Venoxis (2.19.3) (nil)", -- [1804]
+			"20:13:15 - ActivateSkin (new_blue)", -- [1805]
+			"20:13:20 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1806]
+			"20:13:20 - GetML()", -- [1807]
+			"20:13:20 - LootMethod =  (group)", -- [1808]
+			"20:13:20 - UpdatePlayersData()", -- [1809]
+			"20:13:21 - ClassicModule enabled (0.20.0) (nil)", -- [1810]
+			"20:13:21 - DoCommsCompressFix", -- [1811]
+			"20:13:21 - Removing Column (role)", -- [1812]
+			"20:13:21 - Removing Column (corruption)", -- [1813]
+			"20:13:21 - GetPlayersGuildRank()", -- [1814]
+			"20:13:21 - Found Guild Rank: Gildenmeister", -- [1815]
+			"20:13:21 - Event: (PARTY_LEADER_CHANGED)", -- [1816]
+			"20:13:21 - GetML()", -- [1817]
+			"20:13:21 - LootMethod =  (master)", -- [1818]
+			"20:13:21 - MasterLooter =  (Alsia-Venoxis)", -- [1819]
+			"20:13:21 - NewMLCheck (Resetting council as we have a new ML!)", -- [1820]
+			"20:13:21 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1821]
+			"20:13:21 - GetML()", -- [1822]
+			"20:13:21 - LootMethod =  (master)", -- [1823]
+			"20:13:21 - MasterLooter =  (Alsia-Venoxis)", -- [1824]
+			"20:13:21 - NewMLCheck (No ML Change)", -- [1825]
+			"20:13:22 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1826]
+			"20:13:24 - Player declined usage", -- [1827]
+			"20:13:36 - Timer MLdb_check passed", -- [1828]
+			"20:13:36 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1829]
+			"20:13:36 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1830]
+			"20:14:25 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Perakon) (distri:) (WHISPER)", -- [1831]
+			"20:14:25 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Perakon) (distri:) (WHISPER)", -- [1832]
+			"20:14:40 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Hampdidampdi) (distri:) (WHISPER)", -- [1833]
+			"20:14:40 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Hampdidampdi) (distri:) (WHISPER)", -- [1834]
+			"10/15/23", -- [1835]
+			"23:49:04 - Logged In", -- [1836]
+			"23:49:04 - ML initialized!", -- [1837]
+			"23:49:04 - TradeUI enabled", -- [1838]
+			"23:49:09 - Alsia-Venoxis (2.19.3) (nil)", -- [1839]
+			"23:49:09 - ActivateSkin (new_blue)", -- [1840]
+			"23:49:15 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1841]
+			"23:49:15 - GetML()", -- [1842]
+			"23:49:15 - LootMethod =  (group)", -- [1843]
+			"23:49:15 - UpdatePlayersData()", -- [1844]
+			"23:49:15 - Event: (PARTY_LEADER_CHANGED)", -- [1845]
+			"23:49:15 - GetML()", -- [1846]
+			"23:49:15 - LootMethod =  (group)", -- [1847]
+			"23:49:15 - NewMLCheck (Unknown ML)", -- [1848]
+			"23:49:16 - ClassicModule enabled (0.20.0) (nil)", -- [1849]
+			"23:49:16 - DoCommsCompressFix", -- [1850]
+			"23:49:16 - Removing Column (role)", -- [1851]
+			"23:49:16 - Removing Column (corruption)", -- [1852]
+			"23:49:17 - GetPlayersGuildRank()", -- [1853]
+			"23:49:17 - Found Guild Rank: Gildenmeister", -- [1854]
+			"23:49:17 - GetML()", -- [1855]
+			"23:49:17 - LootMethod =  (group)", -- [1856]
+			"23:49:17 - NewMLCheck (Resetting council as we have a new ML!)", -- [1857]
+			"23:49:17 - Some else is ML", -- [1858]
+			"23:49:18 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1859]
+			"23:49:32 - Timer MLdb_check passed", -- [1860]
+			"23:49:32 - Event: (ENCOUNTER_START) (831) (Verschlinger der Seelen) (2) (5)", -- [1861]
+			"23:49:32 - UpdatePlayersData()", -- [1862]
+			"23:50:27 - Event: (ENCOUNTER_END) (831) (Verschlinger der Seelen) (2) (5) (1)", -- [1863]
+			"23:50:28 - Event: (LOOT_READY) (true)", -- [1864]
+			"23:50:28 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4448-632-7936-36502-00002C5BF4) (6725)", -- [1865]
+			"23:50:28 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50203::::::::80:::::::::|h[Blutweiner]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1866]
+			"23:50:28 - Adding to self.lootSlotInfo (4) (|cffa335ee|Hitem:50211::::::::80:::::::::|h[Arkane Ringe des Zorns]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1867]
+			"23:50:28 - Adding to self.lootSlotInfo (5) (|cffffffff|Hitem:211206::::::::80:::::::::|h[Medaillon der Entweihten]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1868]
+			"23:50:28 - Adding to self.lootSlotInfo (6) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1869]
+			"23:50:29 - LootOpened", -- [1870]
+			"23:50:29 - Event: (LOOT_READY) (true)", -- [1871]
+			"23:50:29 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4448-632-7936-36502-00002C5BF4) (6725)", -- [1872]
+			"23:50:29 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50203::::::::80:::::::::|h[Blutweiner]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1873]
+			"23:50:29 - Adding to self.lootSlotInfo (4) (|cffa335ee|Hitem:50211::::::::80:::::::::|h[Arkane Ringe des Zorns]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1874]
+			"23:50:29 - Adding to self.lootSlotInfo (5) (|cffffffff|Hitem:211206::::::::80:::::::::|h[Medaillon der Entweihten]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1875]
+			"23:50:29 - Adding to self.lootSlotInfo (6) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1876]
+			"23:50:29 - OnLootSlotCleared() (1) (nil) (0)", -- [1877]
+			"23:50:29 - LootClosed", -- [1878]
+			"23:50:37 - Event: (LOOT_READY) (true)", -- [1879]
+			"23:50:37 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:50203::::::::80:::::::::|h[Blutweiner]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1880]
+			"23:50:37 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50211::::::::80:::::::::|h[Arkane Ringe des Zorns]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1881]
+			"23:50:37 - Adding to self.lootSlotInfo (4) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1882]
+			"23:50:37 - LootOpened", -- [1883]
+			"23:50:37 - Event: (LOOT_READY) (true)", -- [1884]
+			"23:50:37 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:50203::::::::80:::::::::|h[Blutweiner]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1885]
+			"23:50:37 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50211::::::::80:::::::::|h[Arkane Ringe des Zorns]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1886]
+			"23:50:37 - Adding to self.lootSlotInfo (4) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1887]
+			"23:50:40 - LootClosed", -- [1888]
+			"23:50:44 - Event: (LOOT_READY) (false)", -- [1889]
+			"23:50:44 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1890]
+			"23:50:44 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:50203::::::::80:::::::::|h[Blutweiner]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1891]
+			"23:50:44 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50211::::::::80:::::::::|h[Arkane Ringe des Zorns]|h|r) (4) (1) (Creature-0-4448-632-7936-36502-00002C5BF4) (1)", -- [1892]
+			"23:50:45 - LootOpened", -- [1893]
+			"23:50:46 - OnLootSlotCleared() (1) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1)", -- [1894]
+			"23:50:48 - LootClosed", -- [1895]
+			"23:50:57 - Event: (GROUP_LEFT) (2) (Party-4445-1-000012EA4975)", -- [1896]
+			"23:50:57 - GetML()", -- [1897]
+			"23:50:57 - LootMethod =  (group)", -- [1898]
+			"23:50:57 - NewMLCheck (No ML Change)", -- [1899]
+			"23:51:05 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1900]
+			"23:51:05 - GetML()", -- [1901]
+			"23:51:05 - LootMethod =  (group)", -- [1902]
+			"23:51:05 - NewMLCheck (No ML Change)", -- [1903]
+			"23:52:21 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Letsburn) (distri:) (GUILD)", -- [1904]
+			"23:52:55 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bremskyle) (distri:) (PARTY)", -- [1905]
+			"23:53:17 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bremskyle) (distri:) (PARTY)", -- [1906]
+			"23:54:32 - Event: (PARTY_LEADER_CHANGED)", -- [1907]
+			"23:54:32 - GetML()", -- [1908]
+			"23:54:32 - LootMethod =  (group)", -- [1909]
+			"23:54:32 - Not in raid group", -- [1910]
+			"23:54:32 - NewMLCheck (Resetting council as we have a new ML!)", -- [1911]
+			"23:54:32 - Some else is ML", -- [1912]
+			"23:54:33 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bremskyle) (distri:) (PARTY)", -- [1913]
+			"23:54:47 - Timer MLdb_check passed", -- [1914]
+			"23:54:47 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Bremskyle) (distri:) (WHISPER)", -- [1915]
+			"23:54:47 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Taste) (distri:) (WHISPER)", -- [1916]
+			"23:54:47 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1917]
+			"23:54:47 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1918]
+			"23:55:56 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Manatria) (distri:) (WHISPER)", -- [1919]
+			"23:55:56 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Manatria) (distri:) (WHISPER)", -- [1920]
+			"23:59:23 - Event: (PARTY_LEADER_CHANGED)", -- [1921]
+			"23:59:23 - GetML()", -- [1922]
+			"23:59:23 - LootMethod =  (group)", -- [1923]
+			"23:59:23 - Stop handling loot", -- [1924]
+			"23:59:23 - NewMLCheck (Resetting council as we have a new ML!)", -- [1925]
+			"23:59:23 - Some else is ML", -- [1926]
+			"23:59:24 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Alsia) (distri:) (PARTY)", -- [1927]
+			"10/16/23", -- [1928]
+			"00:00:07 - Logged In", -- [1929]
+			"00:00:07 - ML initialized!", -- [1930]
+			"00:00:07 - TradeUI enabled", -- [1931]
+			"00:00:15 - Alsia-Venoxis (2.19.3) (nil)", -- [1932]
+			"00:00:15 - ActivateSkin (new_blue)", -- [1933]
+			"00:00:20 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1934]
+			"00:00:20 - GetML()", -- [1935]
+			"00:00:20 - LootMethod =  (group)", -- [1936]
+			"00:00:20 - UpdatePlayersData()", -- [1937]
+			"00:00:21 - ClassicModule enabled (0.20.0) (nil)", -- [1938]
+			"00:00:21 - DoCommsCompressFix", -- [1939]
+			"00:00:21 - Removing Column (role)", -- [1940]
+			"00:00:21 - Removing Column (corruption)", -- [1941]
+			"00:00:21 - GetPlayersGuildRank()", -- [1942]
+			"00:00:21 - Found Guild Rank: Gildenmeister", -- [1943]
+			"00:00:22 - Event: (PARTY_LEADER_CHANGED)", -- [1944]
+			"00:00:22 - GetML()", -- [1945]
+			"00:00:22 - LootMethod =  (group)", -- [1946]
+			"00:00:22 - NewMLCheck (Unknown ML)", -- [1947]
+			"00:00:23 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bremskyle) (distri:) (PARTY)", -- [1948]
+			"00:00:23 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1949]
+			"00:00:23 - GetML()", -- [1950]
+			"00:00:23 - LootMethod =  (group)", -- [1951]
+			"00:00:23 - NewMLCheck (Resetting council as we have a new ML!)", -- [1952]
+			"00:00:23 - Some else is ML", -- [1953]
+			"00:00:24 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [1954]
+			"00:00:38 - Timer MLdb_check passed", -- [1955]
+			"00:00:55 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012A2E58D)", -- [1956]
+			"00:00:55 - GetML()", -- [1957]
+			"00:00:55 - LootMethod =  (group)", -- [1958]
+			"10/16/23", -- [1959]
+			"00:06:47 - Logged In", -- [1960]
+			"00:06:47 - ML initialized!", -- [1961]
+			"00:06:47 - TradeUI enabled", -- [1962]
+			"00:07:01 - Kwasimojo-Venoxis (2.19.3) (nil)", -- [1963]
+			"00:07:01 - ActivateSkin (bfa)", -- [1964]
+			"00:07:07 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1965]
+			"00:07:07 - GetML()", -- [1966]
+			"00:07:07 - LootMethod =  (group)", -- [1967]
+			"00:07:07 - UpdatePlayersData()", -- [1968]
+			"00:07:08 - ClassicModule enabled (0.20.0) (nil)", -- [1969]
+			"00:07:08 - DoCommsCompressFix", -- [1970]
+			"00:07:08 - Removing Column (role)", -- [1971]
+			"00:07:08 - Removing Column (corruption)", -- [1972]
+			"00:07:09 - GetPlayersGuildRank()", -- [1973]
+			"00:07:09 - GetPlayersGuildRank()", -- [1974]
+			"00:07:09 - Found Guild Rank: Rat", -- [1975]
+			"00:07:12 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Kwasimojo) (distri:) (GUILD)", -- [1976]
+			"00:07:58 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Tréalis) (distri:) (GUILD)", -- [1977]
+			"00:08:34 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Onixus) (distri:) (GUILD)", -- [1978]
+			"00:08:53 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Larasombardi) (distri:) (GUILD)", -- [1979]
+			"00:08:54 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Tâste) (distri:) (GUILD)", -- [1980]
+			"00:09:26 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [1981]
+			"00:09:55 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Shamir) (distri:) (GUILD)", -- [1982]
+			"00:10:32 - Event: (PARTY_LEADER_CHANGED)", -- [1983]
+			"00:10:32 - GetML()", -- [1984]
+			"00:10:32 - LootMethod =  (group)", -- [1985]
+			"00:10:32 - NewMLCheck (Resetting council as we have a new ML!)", -- [1986]
+			"00:10:32 - Some else is ML", -- [1987]
+			"00:10:32 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [1988]
+			"00:10:32 - GetML()", -- [1989]
+			"00:10:32 - LootMethod =  (group)", -- [1990]
+			"00:10:32 - NewMLCheck (No ML Change)", -- [1991]
+			"00:10:47 - Timer MLdb_check passed", -- [1992]
+			"00:10:48 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [1993]
+			"00:10:59 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hanaltar) (distri:) (GUILD)", -- [1994]
+			"00:11:00 - New CPS: (0)", -- [1995]
+			"00:11:00 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [1996]
+			"00:11:01 - Queue and CPS is 0", -- [1997]
+			"00:11:09 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [1998]
+			"00:11:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1999]
+			"00:11:31 - GetML()", -- [2000]
+			"00:11:31 - LootMethod =  (group)", -- [2001]
+			"00:11:31 - NewMLCheck (No ML Change)", -- [2002]
+			"00:11:44 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (RAID)", -- [2003]
+			"00:12:31 - Event: (RAID_INSTANCE_WELCOME) (Das Obsidiansanktum (10 Spieler)) (2) (5) (47) (0)", -- [2004]
+			"00:12:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2005]
+			"00:12:32 - GetML()", -- [2006]
+			"00:12:32 - LootMethod =  (group)", -- [2007]
+			"00:12:32 - NewMLCheck (No ML Change)", -- [2008]
+			"00:19:03 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Vacaria) (distri:) (GUILD)", -- [2009]
+			"00:22:34 - Event: (ENCOUNTER_START) (742) (Sartharion) (3) (10)", -- [2010]
+			"00:22:34 - UpdatePlayersData()", -- [2011]
+			"00:23:35 - Event: (ENCOUNTER_END) (742) (Sartharion) (3) (10) (1)", -- [2012]
+			"00:24:21 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (RAID)", -- [2013]
+			"00:24:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [2014]
+			"00:24:29 - GetML()", -- [2015]
+			"00:24:29 - LootMethod =  (group)", -- [2016]
+			"00:24:29 - NewMLCheck (No ML Change)", -- [2017]
+			"00:24:49 - Event: (PARTY_LEADER_CHANGED)", -- [2018]
+			"00:24:49 - GetML()", -- [2019]
+			"00:24:49 - LootMethod =  (group)", -- [2020]
+			"00:24:49 - NewMLCheck (Resetting council as we have a new ML!)", -- [2021]
+			"00:24:49 - Some else is ML", -- [2022]
+			"00:25:02 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012A2E58D)", -- [2023]
+			"00:25:02 - GetML()", -- [2024]
+			"00:25:02 - LootMethod =  (group)", -- [2025]
+			"00:25:04 - Timer MLdb_check passed", -- [2026]
+			"00:25:21 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Giaru) (distri:) (GUILD)", -- [2027]
+			"00:25:47 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Graveofjenna) (distri:) (GUILD)", -- [2028]
 		},
 		["errors"] = {
 			{
@@ -1843,22 +2072,37 @@ RCLootCouncilDB = {
 			["Letsburn-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697147734, -- [3]
+				1697408747, -- [3]
 			},
 			["Alsia-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697219395, -- [3]
+				1697407225, -- [3]
 			},
 			["Hakkî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697220354, -- [3]
+				1697407225, -- [3]
+			},
+			["Tâste-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408343, -- [3]
+			},
+			["Serferine-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697406741, -- [3]
 			},
 			["Bloodwall-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697059058, -- [3]
+				1697408747, -- [3]
+			},
+			["Shamir-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407869, -- [3]
 			},
 			["Hâkkî-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1868,27 +2112,32 @@ RCLootCouncilDB = {
 			["Exonuklease-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697148877, -- [3]
+				1697408748, -- [3]
 			},
 			["Jodifrosta-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697220354, -- [3]
+				1697220802, -- [3]
 			},
 			["Vacaria-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697220354, -- [3]
+				1697408343, -- [3]
 			},
 			["Graveofmaria-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697147760, -- [3]
+				1697408343, -- [3]
 			},
 			["Morai-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697151192, -- [3]
+				1697406558, -- [3]
+			},
+			["Bremskyle-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
 			},
 			["Slimpy-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1905,10 +2154,15 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697140489, -- [3]
 			},
+			["Domedonmaya-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407225, -- [3]
+			},
 			["Pippop-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697219239, -- [3]
+				1697407869, -- [3]
 			},
 			["Uwusoulstone-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1916,34 +2170,74 @@ RCLootCouncilDB = {
 				1697142128, -- [3]
 			},
 			["Bubbledîne-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697058461, -- [3]
+				1697220802, -- [3]
 			},
 			["Wønka-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697151191, -- [3]
+				1697408747, -- [3]
+			},
+			["Taste-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407678, -- [3]
+			},
+			["Giaru-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
 			},
 			["Butzebank-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1697143149, -- [3]
 			},
+			["Tréalis-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407766, -- [3]
+			},
+			["Kwasimojo-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
+			},
 			["Hanaltar-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697151191, -- [3]
+				1697407869, -- [3]
 			},
 			["Delmonte-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697150978, -- [3]
+				1697407869, -- [3]
+			},
+			["Onixus-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407869, -- [3]
+			},
+			["Minoton-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407678, -- [3]
+			},
+			["Hampdidampdi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
 			},
 			["Turrasq-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1697144234, -- [3]
+			},
+			["Mikirî-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697058411, -- [3]
 			},
 			["Connielingus-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1955,35 +2249,30 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697151191, -- [3]
 			},
-			["Graveofjenna-Venoxis"] = {
+			["Shikimora-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697147928, -- [3]
-			},
-			["Mikirî-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697058411, -- [3]
-			},
-			["Liptea-Venoxis"] = {
-				"0.14.1", -- [1]
-				nil, -- [2]
-				1697151191, -- [3]
+				1697407225, -- [3]
 			},
 			["Jocindyr-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697220355, -- [3]
+				1697220802, -- [3]
+			},
+			["Liptea-Venoxis"] = {
+				"0.14.1", -- [1]
+				nil, -- [2]
+				1697220802, -- [3]
+			},
+			["Larasombardi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407734, -- [3]
 			},
 			["Myjuice-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
 				1697146876, -- [3]
-			},
-			["Larasombardi-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697142143, -- [3]
 			},
 			["Schetner-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1995,10 +2284,15 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697056328, -- [3]
 			},
-			["Hampdidampdi-Venoxis"] = {
+			["Perakon-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697220354, -- [3]
+				1697220802, -- [3]
+			},
+			["Graveofjenna-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
 			},
 		},
 		["regionID"] = 3,
@@ -2007,10 +2301,75 @@ RCLootCouncilDB = {
 	},
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "OR-LC",
+		["Kwasimojo - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["responses"] = {
+				["default"] = {
+					{
+						["text"] = "Steht auf der Wishlist",
+					}, -- [1]
+					{
+						["text"] = "Upgrade für MS",
+					}, -- [2]
+					{
+						["text"] = "OS",
+					}, -- [3]
+				},
+			},
+			["usage"] = {
+				["ask_leader"] = true,
+				["leader"] = false,
+			},
+			["UI"] = {
+				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+				},
+			},
 			["council"] = {
 				"Alsia-Venoxis", -- [1]
 				"Domedonmaya-Venoxis", -- [2]
@@ -2039,79 +2398,46 @@ RCLootCouncilDB = {
 					}, -- [3]
 				},
 			},
-			["UI"] = {
-				["tradeui"] = {
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
-					["borderColor"] = {
-						0.62, -- [1]
-						0.86, -- [2]
-						0.87, -- [3]
-						0.85, -- [4]
-					},
-				},
-				["lootframe"] = {
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
-					["borderColor"] = {
-						0.62, -- [1]
-						0.86, -- [2]
-						0.87, -- [3]
-						0.85, -- [4]
-					},
-				},
-				["default"] = {
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
-					["borderColor"] = {
-						0.62, -- [1]
-						0.86, -- [2]
-						0.87, -- [3]
-						0.85, -- [4]
-					},
-				},
-			},
-			["usage"] = {
-				["leader"] = false,
-				["ask_leader"] = true,
-			},
-			["responses"] = {
+		},
+		["OR-LC"] = {
+			["timeout"] = 90,
+			["buttons"] = {
 				["default"] = {
 					{
-						["text"] = "Steht auf der Wishlist",
+						["text"] = "Wishlist",
+						["whisperKey"] = "Wishlist",
 					}, -- [1]
 					{
-						["text"] = "Upgrade für MS",
+						["text"] = "Upgrade",
+						["whisperKey"] = "Upgrade, MS, 2",
 					}, -- [2]
 					{
 						["text"] = "OS",
+						["whisperKey"] = "OS, 3",
 					}, -- [3]
 				},
 			},
-		},
-		["OR-LC"] = {
+			["autoAward"] = true,
 			["modules"] = {
 				["RCVotingFrame"] = {
 					["moreInfo"] = false,
 				},
 			},
-			["autoAward"] = true,
-			["numAwardReasons"] = 4,
+			["council"] = {
+				"Alsia-Venoxis", -- [1]
+				"Andrés-Venoxis", -- [2]
+				"Beesportz-Venoxis", -- [3]
+				"Deusdominik-Venoxis", -- [4]
+				"Domedonmaya-Venoxis", -- [5]
+				"Kwasimojo-Venoxis", -- [6]
+				"Specializt-Venoxis", -- [7]
+				"Xolem-Venoxis", -- [8]
+				"Habíb-Venoxis", -- [9]
+				"Hennerr-Venoxis", -- [10]
+				"Liptea-Venoxis", -- [11]
+				"Wønka-Venoxis", -- [12]
+				"Vanec-Venoxis", -- [13]
+			},
 			["currentSkin"] = "new_blue",
 			["UI"] = {
 				["lootframe"] = {
@@ -2120,15 +2446,15 @@ RCLootCouncilDB = {
 					["point"] = "RIGHT",
 					["scale"] = 1.100000023841858,
 				},
-				["votingframe"] = {
-					["y"] = 45.22465257698059,
-					["x"] = -99.10043433147075,
-					["point"] = "RIGHT",
-					["scale"] = 1.100000023841858,
-				},
 				["sessionframe"] = {
 					["y"] = 30.37495437914549,
 					["x"] = -55.12527468692861,
+					["point"] = "RIGHT",
+					["scale"] = 1.100000023841858,
+				},
+				["votingframe"] = {
+					["y"] = 45.22465257698059,
+					["x"] = -99.10043433147075,
 					["point"] = "RIGHT",
 					["scale"] = 1.100000023841858,
 				},
@@ -2147,38 +2473,6 @@ RCLootCouncilDB = {
 					["text"] = "Diss",
 				}, -- [4]
 			},
-			["council"] = {
-				"Alsia-Venoxis", -- [1]
-				"Andrés-Venoxis", -- [2]
-				"Beesportz-Venoxis", -- [3]
-				"Deusdominik-Venoxis", -- [4]
-				"Domedonmaya-Venoxis", -- [5]
-				"Kwasimojo-Venoxis", -- [6]
-				"Specializt-Venoxis", -- [7]
-				"Xolem-Venoxis", -- [8]
-				"Habíb-Venoxis", -- [9]
-				"Hennerr-Venoxis", -- [10]
-				"Liptea-Venoxis", -- [11]
-				"Wønka-Venoxis", -- [12]
-				"Vanec-Venoxis", -- [13]
-			},
-			["timeout"] = 90,
-			["buttons"] = {
-				["default"] = {
-					{
-						["text"] = "Wishlist",
-						["whisperKey"] = "Wishlist",
-					}, -- [1]
-					{
-						["text"] = "Upgrade",
-						["whisperKey"] = "Upgrade, MS, 2",
-					}, -- [2]
-					{
-						["text"] = "OS",
-						["whisperKey"] = "OS, 3",
-					}, -- [3]
-				},
-			},
 			["responses"] = {
 				["default"] = {
 					{
@@ -2192,12 +2486,14 @@ RCLootCouncilDB = {
 					}, -- [3]
 				},
 			},
+			["numAwardReasons"] = 4,
 		},
 	},
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 	},
 }

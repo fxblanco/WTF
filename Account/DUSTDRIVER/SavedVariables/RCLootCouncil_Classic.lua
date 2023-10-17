@@ -1,5 +1,8 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Bloodwall - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -259,6 +262,101 @@ RCLootCouncilDB = {
 			"00:27:51 - LootClosed", -- [254]
 			"00:27:51 - LootClosed", -- [255]
 			"00:27:53 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [256]
+			"10/16/23", -- [257]
+			"00:09:09 - Logged In", -- [258]
+			"00:09:09 - ML initialized!", -- [259]
+			"00:09:09 - TradeUI enabled", -- [260]
+			"00:09:18 - Bloodwall-Venoxis (2.19.3) (nil)", -- [261]
+			"00:09:18 - ActivateSkin (bfa)", -- [262]
+			"00:09:24 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [263]
+			"00:09:24 - GetML()", -- [264]
+			"00:09:24 - LootMethod =  (group)", -- [265]
+			"00:09:24 - UpdatePlayersData()", -- [266]
+			"00:09:24 - ClassicModule enabled (0.20.0) (nil)", -- [267]
+			"00:09:24 - DoCommsCompressFix", -- [268]
+			"00:09:24 - Removing Column (role)", -- [269]
+			"00:09:24 - Removing Column (corruption)", -- [270]
+			"00:09:25 - GetPlayersGuildRank()", -- [271]
+			"00:09:25 - Found Guild Rank: Twink", -- [272]
+			"00:09:26 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [273]
+			"00:09:40 - Event: (PARTY_LEADER_CHANGED)", -- [274]
+			"00:09:40 - GetML()", -- [275]
+			"00:09:40 - LootMethod =  (group)", -- [276]
+			"00:09:40 - NewMLCheck (Unknown ML)", -- [277]
+			"00:09:40 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [278]
+			"00:09:40 - GetML()", -- [279]
+			"00:09:40 - LootMethod =  (group)", -- [280]
+			"00:09:40 - NewMLCheck (Unknown ML)", -- [281]
+			"00:09:40 - GetML()", -- [282]
+			"00:09:40 - LootMethod =  (group)", -- [283]
+			"00:09:40 - NewMLCheck (Resetting council as we have a new ML!)", -- [284]
+			"00:09:40 - Some else is ML", -- [285]
+			"00:09:40 - GetML()", -- [286]
+			"00:09:40 - LootMethod =  (group)", -- [287]
+			"00:09:40 - NewMLCheck (No ML Change)", -- [288]
+			"00:09:55 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Shamir) (distri:) (GUILD)", -- [289]
+			"00:09:55 - Timer MLdb_check passed", -- [290]
+			"00:10:28 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012A2E58D)", -- [291]
+			"00:10:28 - GetML()", -- [292]
+			"00:10:28 - LootMethod =  (group)", -- [293]
+			"00:10:43 - Event: (PARTY_LEADER_CHANGED)", -- [294]
+			"00:10:43 - GetML()", -- [295]
+			"00:10:43 - LootMethod =  (group)", -- [296]
+			"00:10:43 - NewMLCheck (Resetting council as we have a new ML!)", -- [297]
+			"00:10:43 - Some else is ML", -- [298]
+			"00:10:43 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [299]
+			"00:10:43 - GetML()", -- [300]
+			"00:10:43 - LootMethod =  (group)", -- [301]
+			"00:10:43 - NewMLCheck (No ML Change)", -- [302]
+			"00:10:48 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [303]
+			"00:10:58 - Timer MLdb_check passed", -- [304]
+			"00:10:59 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hanaltar) (distri:) (GUILD)", -- [305]
+			"00:11:08 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [306]
+			"00:11:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [307]
+			"00:11:32 - GetML()", -- [308]
+			"00:11:32 - LootMethod =  (group)", -- [309]
+			"00:11:32 - NewMLCheck (No ML Change)", -- [310]
+			"00:11:44 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (RAID)", -- [311]
+			"00:12:00 - Event: (RAID_INSTANCE_WELCOME) (Das Obsidiansanktum (10 Spieler)) (2) (5) (47) (0)", -- [312]
+			"00:12:00 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [313]
+			"00:12:00 - GetML()", -- [314]
+			"00:12:00 - LootMethod =  (group)", -- [315]
+			"00:12:00 - NewMLCheck (No ML Change)", -- [316]
+			"00:19:03 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Vacaria) (distri:) (GUILD)", -- [317]
+			"00:22:34 - Event: (ENCOUNTER_START) (742) (Sartharion) (3) (10)", -- [318]
+			"00:22:34 - UpdatePlayersData()", -- [319]
+			"00:23:35 - Event: (ENCOUNTER_END) (742) (Sartharion) (3) (10) (1)", -- [320]
+			"00:24:24 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (RAID)", -- [321]
+			"00:24:25 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [322]
+			"00:24:25 - GetML()", -- [323]
+			"00:24:25 - LootMethod =  (group)", -- [324]
+			"00:24:25 - NewMLCheck (No ML Change)", -- [325]
+			"00:24:49 - Event: (PARTY_LEADER_CHANGED)", -- [326]
+			"00:24:49 - GetML()", -- [327]
+			"00:24:49 - LootMethod =  (group)", -- [328]
+			"00:24:49 - NewMLCheck (Resetting council as we have a new ML!)", -- [329]
+			"00:24:49 - Some else is ML", -- [330]
+			"00:25:04 - Timer MLdb_check passed", -- [331]
+			"00:25:04 - Throttled MLdb_request! Current CPS: 10, delayed: 1 messages.", -- [332]
+			"00:25:04 - Throttled council_request! Current CPS: 10, delayed: 1 messages.", -- [333]
+			"00:25:05 - New CPS: (0)", -- [334]
+			"00:25:05 - Sent 2 messages - new CPS is 2 - Queue:Size(): 0", -- [335]
+			"00:25:06 - Queue and CPS is 0", -- [336]
+			"00:25:20 - Event: (PARTY_LEADER_CHANGED)", -- [337]
+			"00:25:20 - GetML()", -- [338]
+			"00:25:20 - LootMethod =  (group)", -- [339]
+			"00:25:20 - useWithGroupLoot == false", -- [340]
+			"00:25:20 - NewMLCheck (Resetting council as we have a new ML!)", -- [341]
+			"00:25:20 - Some else is ML", -- [342]
+			"00:25:22 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Giaru) (distri:) (GUILD)", -- [343]
+			"00:25:32 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012A2E58D)", -- [344]
+			"00:25:32 - GetML()", -- [345]
+			"00:25:32 - LootMethod =  (group)", -- [346]
+			"00:25:32 - Stop handling loot", -- [347]
+			"00:25:32 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bloodwall) (distri:) (WHISPER)", -- [348]
+			"00:25:35 - Timer MLdb_check passed", -- [349]
+			"00:25:47 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Graveofjenna) (distri:) (GUILD)", -- [350]
+			"00:28:04 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Taste) (distri:) (GUILD)", -- [351]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.19.0",
@@ -269,35 +367,30 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697056298, -- [3]
 			},
-			["Exonuklease-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Letsburn-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1697408884, -- [3]
 			},
-			["Jodifrosta-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Pippop-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697058204, -- [3]
+				1697407869, -- [3]
 			},
 			["Alsia-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
 				1697059058, -- [3]
 			},
-			["Graveofmaria-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697063273, -- [3]
-			},
 			["Mikirî-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
 				1697058411, -- [3]
 			},
-			["Uwugamergirl-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Tâste-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697059358, -- [3]
+				1697408343, -- [3]
 			},
 			["Bubbledîne-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -305,19 +398,99 @@ RCLootCouncilDB = {
 				1697058461, -- [3]
 			},
 			["Wønka-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408884, -- [3]
+			},
+			["Taste-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408884, -- [3]
+			},
+			["Graveofjenna-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
+			},
+			["Bloodwall-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408884, -- [3]
+			},
+			["Giaru-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408884, -- [3]
+			},
+			["Hanaltar-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407869, -- [3]
+			},
+			["Vilro-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1697056328, -- [3]
+			},
+			["Delmonte-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407869, -- [3]
+			},
+			["Onixus-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407869, -- [3]
+			},
+			["Exonuklease-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408884, -- [3]
+			},
+			["Jodifrosta-Venoxis"] = {
+				"0.19.0", -- [1]
+				nil, -- [2]
+				1697058204, -- [3]
+			},
+			["Shamir-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407869, -- [3]
+			},
+			["Vacaria-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408343, -- [3]
+			},
+			["Tréalis-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697407766, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408343, -- [3]
+			},
+			["Kwasimojo-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408747, -- [3]
+			},
+			["Hampdidampdi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697408884, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
 				nil, -- [2]
 				1697063273, -- [3]
 			},
-			["Vilro-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Bremskyle-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697056328, -- [3]
+				1697408884, -- [3]
 			},
 			["Myjuice-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -329,10 +502,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697063273, -- [3]
 			},
-			["Bloodwall-Venoxis"] = {
+			["Uwugamergirl-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1697059358, -- [3]
 			},
 			["Wîdi-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -346,11 +519,8 @@ RCLootCouncilDB = {
 			},
 		},
 		["version"] = "2.19.3",
+		["Classic_version"] = "0.20.0",
 		["regionID"] = 3,
-		["Classic_version"] = "0.19.0",
-	},
-	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,8 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -238,8 +235,33 @@ RCLootCouncilDB = {
 			"23:17:37 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Slimpy) (distri:) (GUILD)", -- [230]
 			"23:22:38 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Uwugamergirl) (distri:) (GUILD)", -- [231]
 			"23:23:49 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [232]
+			"10/12/23", -- [233]
+			"00:26:47 - Logged In", -- [234]
+			"00:26:47 - ML initialized!", -- [235]
+			"00:26:47 - TradeUI enabled", -- [236]
+			"00:26:54 - Bloodwall-Venoxis (2.19.3) (nil)", -- [237]
+			"00:26:54 - ActivateSkin (bfa)", -- [238]
+			"00:26:59 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [239]
+			"00:26:59 - GetML()", -- [240]
+			"00:26:59 - LootMethod =  (group)", -- [241]
+			"00:26:59 - UpdatePlayersData()", -- [242]
+			"00:27:00 - ClassicModule enabled (0.19.0) (nil)", -- [243]
+			"00:27:00 - DoCommsCompressFix", -- [244]
+			"00:27:00 - Removing Column (role)", -- [245]
+			"00:27:00 - Removing Column (corruption)", -- [246]
+			"00:27:00 - GetPlayersGuildRank()", -- [247]
+			"00:27:00 - Found Guild Rank: Twink", -- [248]
+			"00:27:00 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [249]
+			"00:27:09 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [250]
+			"00:27:50 - Event: (LOOT_READY) (true)", -- [251]
+			"00:27:50 - LootOpened", -- [252]
+			"00:27:50 - Event: (LOOT_READY) (true)", -- [253]
+			"00:27:51 - LootClosed", -- [254]
+			"00:27:51 - LootClosed", -- [255]
+			"00:27:53 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [256]
 		},
 		["Classic_game"] = 11,
+		["Classic_oldVersion"] = "0.19.0",
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
 			["Longling-Venoxis"] = {
@@ -250,7 +272,7 @@ RCLootCouncilDB = {
 			["Exonuklease-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059430, -- [3]
+				1697063273, -- [3]
 			},
 			["Jodifrosta-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -262,20 +284,20 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1697059058, -- [3]
 			},
-			["Uwugamergirl-Venoxis"] = {
+			["Graveofmaria-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059358, -- [3]
+				1697063273, -- [3]
 			},
 			["Mikirî-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
 				1697058411, -- [3]
 			},
-			["Graveofmaria-Venoxis"] = {
+			["Uwugamergirl-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059429, -- [3]
+				1697059358, -- [3]
 			},
 			["Bubbledîne-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -285,17 +307,17 @@ RCLootCouncilDB = {
 			["Wønka-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059429, -- [3]
+				1697063273, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
 				nil, -- [2]
-				1697059429, -- [3]
+				1697063273, -- [3]
 			},
-			["Wîdi-Venoxis"] = {
+			["Vilro-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059429, -- [3]
+				1697056328, -- [3]
 			},
 			["Myjuice-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -305,17 +327,17 @@ RCLootCouncilDB = {
 			["Slimpy-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059429, -- [3]
+				1697063273, -- [3]
 			},
 			["Bloodwall-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697059429, -- [3]
+				1697063273, -- [3]
 			},
-			["Vilro-Venoxis"] = {
+			["Wîdi-Venoxis"] = {
 				"0.19.0", -- [1]
 				nil, -- [2]
-				1697056328, -- [3]
+				1697063273, -- [3]
 			},
 			["Jocindyr-Venoxis"] = {
 				"0.19.0", -- [1]
@@ -323,14 +345,22 @@ RCLootCouncilDB = {
 				1697057116, -- [3]
 			},
 		},
-		["regionID"] = 3,
 		["version"] = "2.19.3",
+		["regionID"] = 3,
 		["Classic_version"] = "0.19.0",
+	},
+	["profileKeys"] = {
+		["Bloodwall - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["UI"] = {
 				["tradeui"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
@@ -339,13 +369,13 @@ RCLootCouncilDB = {
 					},
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
 				},
 				["lootframe"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
@@ -354,13 +384,13 @@ RCLootCouncilDB = {
 					},
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
 				},
 				["default"] = {
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
@@ -369,11 +399,6 @@ RCLootCouncilDB = {
 					},
 					["background"] = "Blizzard Garrison Background 3",
 					["border"] = "Blizzard Dialog",
-					["bgColor"] = {
-						0.55, -- [1]
-						0.84, -- [2]
-						1, -- [3]
-					},
 				},
 			},
 		},

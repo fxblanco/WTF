@@ -1,0 +1,81 @@
+
+AdiBagsDB = {
+	["namespaces"] = {
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["ItemCategory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["splitBySubclass"] = {
+						["Edelstein"] = false,
+						["Handwerkswaren"] = false,
+						["Verbrauchbar"] = true,
+						["Glyphe"] = true,
+					},
+					["mergeGlyphs"] = false,
+				},
+			},
+		},
+		["NewItem"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["MoneyFrame"] = {
+		},
+		["DataSource"] = {
+		},
+		["ItemSets"] = {
+			["char"] = {
+				["Alsia - Venoxis"] = {
+					["mergedSets"] = {
+						["Tank"] = true,
+						["Full DPS"] = true,
+						["Into ICC"] = true,
+						["BQ"] = true,
+						["Icc Full Avoid"] = true,
+					},
+				},
+			},
+		},
+		["Junk"] = {
+		},
+		["Equipment"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Alsia - Venoxis"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Masque"] = false,
+			},
+			["experiments"] = {
+				["Bag Lag Fix"] = {
+					["Enabled"] = false,
+					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
+					["Percent"] = 1,
+					["Name"] = "Bag Lag Fix",
+				},
+			},
+			["positions"] = {
+				["Backpack"] = {
+					["xOffset"] = -76.649658203125,
+					["point"] = "TOPRIGHT",
+					["yOffset"] = -157.5999755859375,
+				},
+				["Bank"] = {
+					["xOffset"] = 2.975032329559326,
+					["yOffset"] = -4.7750244140625,
+				},
+			},
+		},
+	},
+}

@@ -1113,31 +1113,29 @@ Grid2DB = {
 						},
 					},
 				},
-				["classcolor"] = {
-					["colors"] = {
-						["Demon"] = {
-							["a"] = 1,
-							["b"] = 0.69,
-							["g"] = 0.25,
-							["r"] = 0.54,
-						},
-						["Elemental"] = {
-							["a"] = 1,
-							["b"] = 0.9,
-							["g"] = 0.3,
-							["r"] = 0.1,
-						},
-						["Beast"] = {
-							["a"] = 1,
-							["b"] = 0.28,
-							["g"] = 0.76,
-							["r"] = 0.94,
-						},
+				["debuff-special-MarkofBlaumeux"] = {
+					["enableStacks"] = 3,
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.2,
+						["g"] = 0.2,
+						["r"] = 1,
 					},
+					["spellName"] = 28833,
 				},
-				["health-current"] = {
-					["deadAsFullHealth"] = true,
-					["quickHealth"] = true,
+				["buff-ProtectionofAncientKings-mine"] = {
+					["type"] = "buff",
+					["valueMax"] = 20000,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["valueIndex"] = 1,
+					["mine"] = 1,
+					["spellName"] = 64413,
 				},
 				["buff-BeaconofLight-not-mine"] = {
 					["type"] = "buff",
@@ -1377,16 +1375,27 @@ Grid2DB = {
 						["r"] = 0,
 					},
 				},
-				["debuff-special-AcidVolley"] = {
-					["enableStacks"] = 10,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0.392156862745098,
-						["r"] = 0.392156862745098,
+				["classcolor"] = {
+					["colors"] = {
+						["Demon"] = {
+							["a"] = 1,
+							["b"] = 0.69,
+							["g"] = 0.25,
+							["r"] = 0.54,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 0.9,
+							["g"] = 0.3,
+							["r"] = 0.1,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["b"] = 0.28,
+							["g"] = 0.76,
+							["r"] = 0.94,
+						},
 					},
-					["spellName"] = 29325,
 				},
 				["buffs-health-color-lightred"] = {
 					["type"] = "buffs",
@@ -1443,89 +1452,6 @@ Grid2DB = {
 				},
 				["ready-check"] = {
 					["threshold"] = 3,
-				},
-				["debuff-special-MarkofBlaumeux"] = {
-					["enableStacks"] = 3,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0.2,
-						["g"] = 0.2,
-						["r"] = 1,
-					},
-					["spellName"] = 28833,
-				},
-				["buff-Revivify:Mine-mine"] = {
-					["spellName"] = 57090,
-					["type"] = "buff",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
-				["buff-BeaconofLight-mine"] = {
-					["type"] = "buff",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 1,
-						["r"] = 0,
-					},
-					["color2"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0.5882352941176471,
-						["r"] = 1,
-					},
-					["useSpellId"] = true,
-					["colorCount"] = 2,
-					["load"] = {
-						["playerClass"] = {
-							["PALADIN"] = true,
-						},
-					},
-					["colorThreshold"] = {
-						10, -- [1]
-					},
-					["spellName"] = 53563,
-				},
-				["mana"] = {
-					["color1"] = {
-						["b"] = 0.8509803921568627,
-						["g"] = 0.5019607843137255,
-						["r"] = 0.3019607843137255,
-					},
-				},
-				["debuff-special-ArcaneBuffet"] = {
-					["spellName"] = 45018,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.392156862745098,
-						["g"] = 0.392156862745098,
-						["b"] = 0,
-					},
-					["enableStacks"] = 7,
-				},
-				["buff-EarthShield-not-mine"] = {
-					["type"] = "buff",
-					["spellName"] = 974,
-					["mine"] = 2,
-					["load"] = {
-						["playerClass"] = {
-							["SHAMAN"] = true,
-						},
-					},
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.7411764705882353,
-						["g"] = 0.3215686274509804,
-						["b"] = 1,
-					},
 				},
 				["debuffs-icons-bottomleft-ignored"] = {
 					["type"] = "debuffs",
@@ -1624,6 +1550,82 @@ Grid2DB = {
 						"Weakened Soul", -- [86]
 						"Woe", -- [87]
 					},
+				},
+				["buff-Revivify:Mine-mine"] = {
+					["spellName"] = 57090,
+					["type"] = "buff",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["buff-BeaconofLight-mine"] = {
+					["type"] = "buff",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 1,
+						["r"] = 0,
+					},
+					["color2"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0.5882352941176471,
+						["r"] = 1,
+					},
+					["useSpellId"] = true,
+					["colorCount"] = 2,
+					["load"] = {
+						["playerClass"] = {
+							["PALADIN"] = true,
+						},
+					},
+					["colorThreshold"] = {
+						10, -- [1]
+					},
+					["spellName"] = 53563,
+				},
+				["mana"] = {
+					["color1"] = {
+						["b"] = 0.8509803921568627,
+						["g"] = 0.5019607843137255,
+						["r"] = 0.3019607843137255,
+					},
+				},
+				["debuff-special-ArcaneBuffet"] = {
+					["spellName"] = 45018,
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.392156862745098,
+						["g"] = 0.392156862745098,
+						["b"] = 0,
+					},
+					["enableStacks"] = 7,
+				},
+				["buff-EarthShield-not-mine"] = {
+					["type"] = "buff",
+					["spellName"] = 974,
+					["mine"] = 2,
+					["load"] = {
+						["playerClass"] = {
+							["SHAMAN"] = true,
+						},
+					},
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.7411764705882353,
+						["g"] = 0.3215686274509804,
+						["b"] = 1,
+					},
+				},
+				["health-current"] = {
+					["deadAsFullHealth"] = true,
+					["quickHealth"] = true,
 				},
 				["debuff-special-Strangulate"] = {
 					["spellName"] = 47476,
@@ -2458,18 +2460,16 @@ Grid2DB = {
 						"Wretched Strike", -- [24]
 					},
 				},
-				["buff-ProtectionofAncientKings-mine"] = {
-					["type"] = "buff",
-					["valueMax"] = 20000,
+				["debuff-special-AcidVolley"] = {
+					["enableStacks"] = 10,
+					["type"] = "debuff",
 					["color1"] = {
 						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
+						["b"] = 0,
+						["g"] = 0.392156862745098,
+						["r"] = 0.392156862745098,
 					},
-					["valueIndex"] = 1,
-					["mine"] = 1,
-					["spellName"] = 64413,
+					["spellName"] = 29325,
 				},
 				["buffs-Healer-OS"] = {
 					["auras"] = {

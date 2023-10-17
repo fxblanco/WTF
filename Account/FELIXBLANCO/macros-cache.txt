@@ -53,7 +53,6 @@ END
 VER 3 0000000000000039 "pal_cd" "134400"
 #showtooltip
 /cast Zornige Vergeltung
-/use 14
 END
 VER 3 000000000000001A "pal_cd_h" "INV_MISC_QUESTIONMARK"
 #showtooltip

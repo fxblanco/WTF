@@ -1,39 +1,13 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
+	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+	},
 	["profiles"] = {
-		["Bloodwall - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 168.8369140625,
-				["x"] = -57.10249328613281,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
-			["playerbalancepoint"] = {
-				["y"] = 230.3377990722656,
-				["x"] = 460.6379089355469,
-			},
-			["point"] = {
-				["y"] = -36.5647087097168,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -344.4711608886719,
-			},
-			["startBid"] = 100,
-			["increment"] = 10,
-			["statuspoint"] = {
-				["y"] = 198.1217803955078,
-				["relative"] = "BOTTOMRIGHT",
-				["point"] = "BOTTOMRIGHT",
-				["x"] = -247.5718688964844,
-			},
-		},
 		["Maturitass - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 177.6548461914063,
@@ -61,6 +35,32 @@ GDKPd_DB = {
 				["x"] = -285.3945617675781,
 			},
 			["increment"] = 10,
+		},
+		["Bloodwall - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = 168.8369140625,
+				["x"] = -57.10249328613281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["playerbalancepoint"] = {
+				["y"] = 230.3377990722656,
+				["x"] = 460.6379089355469,
+			},
+			["point"] = {
+				["y"] = -36.5647087097168,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -344.4711608886719,
+			},
+			["startBid"] = 100,
+			["increment"] = 10,
+			["statuspoint"] = {
+				["y"] = 198.1217803955078,
+				["relative"] = "BOTTOMRIGHT",
+				["point"] = "BOTTOMRIGHT",
+				["x"] = -247.5718688964844,
+			},
 		},
 	},
 }
