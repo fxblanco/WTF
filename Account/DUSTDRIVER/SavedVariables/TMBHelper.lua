@@ -14,22 +14,22 @@ ItemListsDB = {
 	["displayRank"] = true,
 	["lootTableTest"] = {
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
-		["Maturitass - Venoxis"] = {
-		},
 		["Bloodwall - Venoxis"] = {
+		},
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }
