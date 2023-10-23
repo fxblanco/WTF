@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -14,6 +11,9 @@ GDKPd_DB = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
 			["point"] = {
@@ -24,12 +24,6 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -43,13 +37,19 @@ GDKPd_DB = {
 				["x"] = -406.9999389648438,
 			},
 			["startBid"] = 100,
-			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
+			["increment"] = 10,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -74,6 +74,12 @@ GDKPd_DB = {
 		["Andrés - Transcendence"] = {
 		},
 		["Andrés - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = 223.5460662841797,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -308.3594970703125,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
@@ -81,25 +87,19 @@ GDKPd_DB = {
 				["x"] = -132.6243743896484,
 			},
 			["point"] = {
-				["y"] = -106.0000076293945,
-				["x"] = -149.9998474121094,
+				["y"] = -98.5749740600586,
+				["x"] = -376.7997436523438,
 				["point"] = "TOPRIGHT",
 				["relative"] = "TOPRIGHT",
 			},
 			["startBid"] = 100,
+			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -57.77770614624023,
 			},
-			["balancepoint"] = {
-				["y"] = 223.5460662841797,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -308.3594970703125,
-			},
-			["increment"] = 10,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -119,9 +119,9 @@ GDKPd_DB = {
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["mininc"] = 500,
-					["max"] = 0,
 					["minbid"] = 2000,
+					["max"] = 0,
+					["mininc"] = 500,
 				}, -- [1]
 			},
 			["point"] = {
@@ -180,115 +180,15 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["increment"] = 20,
 			["startBid"] = 200,
+			["increment"] = 20,
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Flamsy"] = 0,
-		["Lysaniâ"] = 0,
-		["Onixus"] = 0,
-		["Schôrke"] = 0,
-		["Syé"] = 0,
-		["Bosax"] = 0,
-		["Liptea"] = 0,
-		["Hakkî"] = 0,
-		["Kaffeemocca"] = 0,
-		["Alsia"] = 3674,
-		["Reikyy"] = 0,
-		["Bremskyle"] = 0,
-		["Vaccus"] = 0,
-		["Týrx"] = 0,
-		["Myjuice"] = 0,
-		["Wønka"] = 0,
-		["Slimpy"] = 0,
-		["Blinkyli"] = 0,
-		["Freezemage"] = 0,
-		["Vasstic"] = 0,
-		["Donnerkeíl"] = 0,
-		["Lapastro"] = 0,
-		["Delmonte"] = 0,
-		["Serferine"] = 0,
-		["Jodifrosta"] = 0,
 	},
 	["curPotHistory"] = {
-		{
-			["bid"] = 11000,
-			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
-			["name"] = "Liptea",
-		}, -- [1]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
-			["name"] = "Liptea",
-		}, -- [2]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47557::::::::80:::::::::|h[Ornat des großen Eroberers]|h|r",
-			["name"] = "Myjuice",
-		}, -- [3]
-		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:47558::::::::80:::::::::|h[Ornat des großen Beschützers]|h|r",
-			["name"] = "Reikyy",
-		}, -- [4]
-		2500, -- [5]
-		{
-			["bid"] = 8321,
-			["item"] = "|cffa335ee|Hitem:47432::::::::80:::::::::|h[Trost der Gefallenen]|h|r",
-			["name"] = "Hakkî",
-		}, -- [6]
-		{
-			["bid"] = 22000,
-			["item"] = "|cffa335ee|Hitem:47475::::::::80:::::::::|h[Höllschreis Zerteiler]|h|r",
-			["name"] = "Delmonte",
-		}, -- [7]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47460::::::::80:::::::::|h[Gürtel des mitleidlosen Mörders]|h|r",
-			["name"] = "Donnerkeíl",
-		}, -- [8]
-		{
-			["bid"] = 8500,
-			["item"] = "|cffa335ee|Hitem:47437::::::::80:::::::::|h[Talisman der achtlosen Sünden]|h|r",
-			["name"] = "Bosax",
-		}, -- [9]
-		{
-			["bid"] = 5000,
-			["item"] = "|cffa335ee|Hitem:47418::::::::80:::::::::|h[Umhang des ungezähmten Raubtiers]|h|r",
-			["name"] = "Syé",
-		}, -- [10]
-		{
-			["bid"] = 33000,
-			["item"] = "|cffa335ee|Hitem:47444::::::::80:::::::::|h[Gürtel der blutigen Narben]|h|r",
-			["name"] = "Wønka",
-		}, -- [11]
-		-33000, -- [12]
-		{
-			["bid"] = 3500,
-			["item"] = "|cffa335ee|Hitem:47444::::::::80:::::::::|h[Gürtel der blutigen Narben]|h|r",
-			["name"] = "Wønka",
-		}, -- [13]
-		{
-			["bid"] = 3000,
-			["item"] = "|cffa335ee|Hitem:47430::::::::80:::::::::|h[Sabatons des anbrechenden Morgens]|h|r",
-			["name"] = "Vasstic",
-		}, -- [14]
-		{
-			["bid"] = 2000,
-			["item"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-			["name"] = "Flamsy",
-		}, -- [15]
-		300, -- [16]
-		300, -- [17]
-		{
-			["bid"] = 450,
-			["item"] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-			["name"] = "Vaccus",
-		}, -- [18]
-		-10000, -- [19]
 	},
 	["history"] = {
 		{
@@ -731,8 +631,8 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 91871,
-	["prevDist"] = 91871,
+	["potAmount"] = 0,
+	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
 }

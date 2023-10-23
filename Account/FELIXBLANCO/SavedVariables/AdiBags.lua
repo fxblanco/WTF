@@ -17,9 +17,9 @@ AdiBagsDB = {
 						["Handwerkswaren"] = true,
 						["Verbrauchbar"] = true,
 						["Rezept"] = false,
-						["Glyphe"] = true,
-						["Edelstein"] = true,
 						["Verschiedenes"] = false,
+						["Edelstein"] = true,
+						["Glyphe"] = true,
 					},
 					["mergeGlyphs"] = false,
 				},
@@ -29,9 +29,7 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
+		["Equipment"] = {
 		},
 		["ItemSets"] = {
 			["char"] = {
@@ -46,16 +44,18 @@ AdiBagsDB = {
 				},
 			},
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Kwasimojo - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -71,13 +71,13 @@ AdiBagsDB = {
 				},
 			},
 			["positions"] = {
-				["Backpack"] = {
-					["xOffset"] = 0.3004150390625,
-					["yOffset"] = 140.9000549316406,
-				},
 				["Bank"] = {
 					["xOffset"] = 2.975032329559326,
 					["yOffset"] = -4.7750244140625,
+				},
+				["Backpack"] = {
+					["xOffset"] = 0.3004150390625,
+					["yOffset"] = 140.9000549316406,
 				},
 			},
 		},
