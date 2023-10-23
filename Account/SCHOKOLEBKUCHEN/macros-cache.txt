@@ -23,7 +23,6 @@ END
 VER 3 000000000000000C "gloves" "134400"
 #showtooltip 10
 /use 10
-/use 13
 /use 14
 /cast Kochendes Blut(Volk)
 END

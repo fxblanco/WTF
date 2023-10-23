@@ -73,6 +73,18 @@ GDKPd_DB = {
 			["increment"] = 50,
 		},
 		["Pippop - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = -112.6750564575195,
+				["x"] = -210.9242858886719,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["point"] = {
+				["y"] = -99.22490692138672,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -75.67478942871094,
+			},
 		},
 	},
 }
@@ -90,16 +102,16 @@ GDKPd_PotData = {
 		["Khoradk"] = 0,
 		["Danpii"] = 0,
 		["Fakdizgeym"] = 0,
-		["Kolberg"] = 0,
 		["Arnia"] = 0,
 		["Yileria"] = 0,
+		["Kolberg"] = 0,
 		["Fatbutproo"] = 0,
 		["Beesportz"] = 0,
-		["Sempo"] = 0,
-		["Talyna"] = 0,
-		["Indaríus"] = 0,
-		["Uwusoulstone"] = 7066,
 		["Bloodwall"] = -34,
+		["Talyna"] = 0,
+		["Sempo"] = 0,
+		["Uwusoulstone"] = 7066,
+		["Indaríus"] = 0,
 		["Neoxstep"] = 0,
 		["Slimpy"] = 0,
 		["Shadowchange"] = 0,
@@ -220,6 +232,4 @@ GDKPd_PotData = {
 	["prevDist"] = 176670,
 }
 GDKPd_BalanceData = {
-	["Uwusoulstone"] = -7066,
-	["Flitzelitis"] = 0,
 }

@@ -8,8 +8,8 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Pippop - Venoxis"] = {
-			["version"] = 6.1,
 			["data_source"] = "wh",
+			["version"] = 6.1,
 		},
 		["Lesbenlisa - Venoxis"] = {
 			["class_index"] = 5,
@@ -25,10 +25,10 @@ BisTooltipDB = {
 		},
 		["Uwusoulstone - Venoxis"] = {
 			["class_index"] = 9,
-			["spec_index"] = 3,
-			["phase_index"] = 3,
-			["data_source"] = "wh",
 			["version"] = 6.1,
+			["spec_index"] = 3,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 	},
 }

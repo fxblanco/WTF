@@ -3,16 +3,25 @@ GargulDB = {
 	["TMB"] = {
 	},
 	["BoostedRolls"] = {
+		["Points"] = {
+		},
+		["Aliases"] = {
+		},
 	},
 	["LoadDetails"] = {
+		["lastLoadedOn"] = 1697580215,
 		["6.2.5"] = 1695299158,
-		["lastLoadedOn"] = 1696536704,
+		["5.1.1"] = 1697580139,
+		["5.2.0"] = 1697580139,
 		["latestVersionChangesShown"] = "6.2.0",
+		["6.2.8"] = 1697580139,
 	},
 	["LootPriority"] = {
 	},
 	["GDKP"] = {
 		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
 		},
 	},
 	["AwardHistory"] = {
@@ -289,6 +298,8 @@ GargulDB = {
 	["RecentlyAwardedItems"] = {
 	},
 	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

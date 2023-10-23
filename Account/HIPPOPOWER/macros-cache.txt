@@ -1,15 +1,10 @@
-VER 3 000000000000000F "boots" "134400"
-#showtooltip
-/use 10
+VER 3 0000000000000013 "Blühendes Leben" "134206"
+#showtooltip Blühendes Leben
+/cast [@mouseover] Blühendes Leben
 END
 VER 3 000000000000000E "boots" "134400"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 8
-END
-VER 3 0000000000000006 "Cancelaura" "134400"
-/cancelaura Gebet der Seelenstärke
-/cancelaura Befehlsruf
-/cancelaura Sonnenwendfestverstärkung
 END
 VER 3 0000000000000001 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
@@ -20,7 +15,7 @@ VER 3 0000000000000010 "focus" "132097"
 END
 VER 3 0000000000000002 "InstantHeal" "136041"
 /cast Schnelligkeit der Natur
-/cast Heilende Berührung 
+/cast [@mouseover] Heilende Berührung 
 END
 VER 3 0000000000000003 "Manaregg" "135955"
 #show Göttliche Bitte
@@ -28,10 +23,22 @@ VER 3 0000000000000003 "Manaregg" "135955"
 /cast Göttliche Eingebung
 /use Zornige Vergeltung
 END
+VER 3 0000000000000012 "Nachwachsen" "134400"
+#showtooltip Nachwachsen
+/cast [@mouseover] Nachwachsen
+END
+VER 3 0000000000000011 "Pflege" "134400"
+#showtooltip Pflege
+/cast [@mouseover] Pflege
+END
 VER 3 0000000000000005 "Raid Sec" "135958"
 #showtooltip
 /wirken Heilige Opferung
 /cancelaura Heilige Opferung
+END
+VER 3 0000000000000006 "Rasche Heilung" "134914"
+#showtooltip Rasche Heilung
+/cast [@mouseover] Rasche Heilung
 END
 VER 3 0000000000000007 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
@@ -40,4 +47,8 @@ VER 3 0000000000000004 "Toppen" "135964"
 #show Heiliger Schock
 /use Göttliche Gunst
 /cast Heiliger Schock
+END
+VER 3 000000000000000F "Verjüngung" "134400"
+#showtooltip Verjüngung
+/cast [@mouseover] Verjüngung
 END

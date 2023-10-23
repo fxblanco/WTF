@@ -115,15 +115,15 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPRIGHT",
+			["point"] = "TOPLEFT",
 			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = 0,
-			["x"] = -158.2818603515625,
+			["y"] = -42.5250244140625,
+			["x"] = 705.9681396484375,
 			["borderColor"] = {
 			},
 			["brokerObject"] = "AtlasLoot",
@@ -175,7 +175,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.14",
+	["version"] = "10.1.15",
 	["display"] = {
 	},
 	["enchantColor"] = {

@@ -54,17 +54,17 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Kolberg"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
+	["Bremskyle"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
 	},
 	["Beesportz"] = {
 		3, -- [1]
@@ -80,11 +80,7 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Alsia"] = {
-	},
-	["Kolberg"] = {
-	},
-	["Beesportz"] = {
+	["Bremskyle"] = {
 	},
 }
 PallyPower_AuraAssignments = {
@@ -109,15 +105,15 @@ PallyPower_AuraAssignments = {
 	["Shikimora"] = 4,
 	["Sleepychi"] = 0,
 	["Khaootic"] = 5,
-	["Beesportz"] = 6,
+	["Liptea"] = 6,
 	["Xhaara"] = 6,
 	["Nobuffg"] = 5,
-	["Liptea"] = 6,
 	["Awfultry"] = 0,
+	["Beesportz"] = 6,
 	["Bremskyle"] = 1,
 	["Habíb"] = 3,
 	["Kolberg"] = 2,
-	["Hornymoon"] = 1,
+	["Fatbutproo"] = 1,
 	["Yuisis"] = 5,
 	["Xellzs"] = 3,
 	["Lesbenlisa"] = 1,
@@ -125,7 +121,7 @@ PallyPower_AuraAssignments = {
 	["Faîlz"] = 4,
 	["Sempo"] = 2,
 	["Markodu"] = 3,
-	["Fatbutproo"] = 1,
+	["Hornymoon"] = 1,
 	["Chantris"] = 6,
 }
 PallyPower_SavedPresets = {

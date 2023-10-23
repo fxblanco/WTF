@@ -174,7 +174,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "10.1.14",
+	["version"] = "10.1.15",
 	["display"] = {
 	},
 	["enchantColor"] = {

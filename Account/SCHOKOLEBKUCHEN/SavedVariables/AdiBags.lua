@@ -17,8 +17,8 @@ AdiBagsDB = {
 						["Handwerkswaren"] = true,
 						["Glyphe"] = false,
 						["Verschiedenes"] = false,
-						["Edelstein"] = true,
 						["Verbrauchbar"] = true,
+						["Edelstein"] = true,
 					},
 				},
 			},
@@ -27,15 +27,15 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
+		["Equipment"] = {
 		},
 		["ItemSets"] = {
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -49,9 +49,9 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
+					["Percent"] = 1,
 				},
 			},
 		},

@@ -259,97 +259,319 @@ RCLootCouncilDB = {
 			"00:27:51 - LootClosed", -- [254]
 			"00:27:51 - LootClosed", -- [255]
 			"00:27:53 - Comm received:^1^SverTest^T^N1^S0.19.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [256]
+			"10/16/23", -- [257]
+			"00:09:09 - Logged In", -- [258]
+			"00:09:09 - ML initialized!", -- [259]
+			"00:09:09 - TradeUI enabled", -- [260]
+			"00:09:18 - Bloodwall-Venoxis (2.19.3) (nil)", -- [261]
+			"00:09:18 - ActivateSkin (bfa)", -- [262]
+			"00:09:24 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [263]
+			"00:09:24 - GetML()", -- [264]
+			"00:09:24 - LootMethod =  (group)", -- [265]
+			"00:09:24 - UpdatePlayersData()", -- [266]
+			"00:09:24 - ClassicModule enabled (0.20.0) (nil)", -- [267]
+			"00:09:24 - DoCommsCompressFix", -- [268]
+			"00:09:24 - Removing Column (role)", -- [269]
+			"00:09:24 - Removing Column (corruption)", -- [270]
+			"00:09:25 - GetPlayersGuildRank()", -- [271]
+			"00:09:25 - Found Guild Rank: Twink", -- [272]
+			"00:09:26 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [273]
+			"00:09:40 - Event: (PARTY_LEADER_CHANGED)", -- [274]
+			"00:09:40 - GetML()", -- [275]
+			"00:09:40 - LootMethod =  (group)", -- [276]
+			"00:09:40 - NewMLCheck (Unknown ML)", -- [277]
+			"00:09:40 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [278]
+			"00:09:40 - GetML()", -- [279]
+			"00:09:40 - LootMethod =  (group)", -- [280]
+			"00:09:40 - NewMLCheck (Unknown ML)", -- [281]
+			"00:09:40 - GetML()", -- [282]
+			"00:09:40 - LootMethod =  (group)", -- [283]
+			"00:09:40 - NewMLCheck (Resetting council as we have a new ML!)", -- [284]
+			"00:09:40 - Some else is ML", -- [285]
+			"00:09:40 - GetML()", -- [286]
+			"00:09:40 - LootMethod =  (group)", -- [287]
+			"00:09:40 - NewMLCheck (No ML Change)", -- [288]
+			"00:09:55 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Shamir) (distri:) (GUILD)", -- [289]
+			"00:09:55 - Timer MLdb_check passed", -- [290]
+			"00:10:28 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012A2E58D)", -- [291]
+			"00:10:28 - GetML()", -- [292]
+			"00:10:28 - LootMethod =  (group)", -- [293]
+			"00:10:43 - Event: (PARTY_LEADER_CHANGED)", -- [294]
+			"00:10:43 - GetML()", -- [295]
+			"00:10:43 - LootMethod =  (group)", -- [296]
+			"00:10:43 - NewMLCheck (Resetting council as we have a new ML!)", -- [297]
+			"00:10:43 - Some else is ML", -- [298]
+			"00:10:43 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [299]
+			"00:10:43 - GetML()", -- [300]
+			"00:10:43 - LootMethod =  (group)", -- [301]
+			"00:10:43 - NewMLCheck (No ML Change)", -- [302]
+			"00:10:48 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [303]
+			"00:10:58 - Timer MLdb_check passed", -- [304]
+			"00:10:59 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hanaltar) (distri:) (GUILD)", -- [305]
+			"00:11:08 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [306]
+			"00:11:32 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [307]
+			"00:11:32 - GetML()", -- [308]
+			"00:11:32 - LootMethod =  (group)", -- [309]
+			"00:11:32 - NewMLCheck (No ML Change)", -- [310]
+			"00:11:44 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (RAID)", -- [311]
+			"00:12:00 - Event: (RAID_INSTANCE_WELCOME) (Das Obsidiansanktum (10 Spieler)) (2) (5) (47) (0)", -- [312]
+			"00:12:00 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [313]
+			"00:12:00 - GetML()", -- [314]
+			"00:12:00 - LootMethod =  (group)", -- [315]
+			"00:12:00 - NewMLCheck (No ML Change)", -- [316]
+			"00:19:03 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Vacaria) (distri:) (GUILD)", -- [317]
+			"00:22:34 - Event: (ENCOUNTER_START) (742) (Sartharion) (3) (10)", -- [318]
+			"00:22:34 - UpdatePlayersData()", -- [319]
+			"00:23:35 - Event: (ENCOUNTER_END) (742) (Sartharion) (3) (10) (1)", -- [320]
+			"00:24:24 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Exonuklease) (distri:) (RAID)", -- [321]
+			"00:24:25 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [322]
+			"00:24:25 - GetML()", -- [323]
+			"00:24:25 - LootMethod =  (group)", -- [324]
+			"00:24:25 - NewMLCheck (No ML Change)", -- [325]
+			"00:24:49 - Event: (PARTY_LEADER_CHANGED)", -- [326]
+			"00:24:49 - GetML()", -- [327]
+			"00:24:49 - LootMethod =  (group)", -- [328]
+			"00:24:49 - NewMLCheck (Resetting council as we have a new ML!)", -- [329]
+			"00:24:49 - Some else is ML", -- [330]
+			"00:25:04 - Timer MLdb_check passed", -- [331]
+			"00:25:04 - Throttled MLdb_request! Current CPS: 10, delayed: 1 messages.", -- [332]
+			"00:25:04 - Throttled council_request! Current CPS: 10, delayed: 1 messages.", -- [333]
+			"00:25:05 - New CPS: (0)", -- [334]
+			"00:25:05 - Sent 2 messages - new CPS is 2 - Queue:Size(): 0", -- [335]
+			"00:25:06 - Queue and CPS is 0", -- [336]
+			"00:25:20 - Event: (PARTY_LEADER_CHANGED)", -- [337]
+			"00:25:20 - GetML()", -- [338]
+			"00:25:20 - LootMethod =  (group)", -- [339]
+			"00:25:20 - useWithGroupLoot == false", -- [340]
+			"00:25:20 - NewMLCheck (Resetting council as we have a new ML!)", -- [341]
+			"00:25:20 - Some else is ML", -- [342]
+			"00:25:22 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Giaru) (distri:) (GUILD)", -- [343]
+			"00:25:32 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012A2E58D)", -- [344]
+			"00:25:32 - GetML()", -- [345]
+			"00:25:32 - LootMethod =  (group)", -- [346]
+			"00:25:32 - Stop handling loot", -- [347]
+			"00:25:32 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bloodwall) (distri:) (WHISPER)", -- [348]
+			"00:25:35 - Timer MLdb_check passed", -- [349]
+			"00:25:47 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Graveofjenna) (distri:) (GUILD)", -- [350]
+			"00:28:04 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Taste) (distri:) (GUILD)", -- [351]
+			"10/22/23", -- [352]
+			"22:01:46 - Logged In", -- [353]
+			"22:01:46 - ML initialized!", -- [354]
+			"22:01:46 - TradeUI enabled", -- [355]
+			"22:01:53 - Maturitass-Venoxis (2.19.3) (nil)", -- [356]
+			"22:01:53 - ActivateSkin (bfa)", -- [357]
+			"22:01:58 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [358]
+			"22:01:58 - GetML()", -- [359]
+			"22:01:58 - LootMethod =  (group)", -- [360]
+			"22:01:58 - UpdatePlayersData()", -- [361]
+			"22:01:59 - ClassicModule enabled (0.20.0) (nil)", -- [362]
+			"22:01:59 - DoCommsCompressFix", -- [363]
+			"22:01:59 - Removing Column (role)", -- [364]
+			"22:01:59 - Removing Column (corruption)", -- [365]
+			"22:01:59 - GetPlayersGuildRank()", -- [366]
+			"22:01:59 - Found Guild Rank: Twink", -- [367]
+			"22:02:02 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [368]
+			"22:02:02 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Perakon) (distri:) (GUILD)", -- [369]
+			"22:02:36 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Xolem) (distri:) (GUILD)", -- [370]
+			"22:05:00 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hampdidampdi) (distri:) (GUILD)", -- [371]
+			"22:05:29 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hampdidampdi) (distri:) (GUILD)", -- [372]
+			"10/23/23", -- [373]
+			"00:25:12 - Logged In", -- [374]
+			"00:25:12 - ML initialized!", -- [375]
+			"00:25:12 - TradeUI enabled", -- [376]
+			"00:25:19 - Bloodwall-Venoxis (2.19.3) (nil)", -- [377]
+			"00:25:19 - ActivateSkin (bfa)", -- [378]
+			"00:25:23 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [379]
+			"00:25:23 - GetML()", -- [380]
+			"00:25:23 - LootMethod =  (group)", -- [381]
+			"00:25:23 - UpdatePlayersData()", -- [382]
+			"00:25:23 - ClassicModule enabled (0.20.0) (nil)", -- [383]
+			"00:25:23 - DoCommsCompressFix", -- [384]
+			"00:25:23 - Removing Column (role)", -- [385]
+			"00:25:23 - Removing Column (corruption)", -- [386]
+			"00:25:23 - GetPlayersGuildRank()", -- [387]
+			"00:25:23 - Found Guild Rank: Twink", -- [388]
+			"00:25:24 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [389]
+			"00:26:40 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [390]
+			"00:43:01 - Event: (PARTY_LEADER_CHANGED)", -- [391]
+			"00:43:01 - GetML()", -- [392]
+			"00:43:01 - LootMethod =  (group)", -- [393]
+			"00:43:01 - Not in raid group", -- [394]
+			"00:43:01 - NewMLCheck (Resetting council as we have a new ML!)", -- [395]
+			"00:43:01 - Some else is ML", -- [396]
+			"00:43:05 - Event: (GROUP_LEFT) (1) (Party-4477-1-000012E0CF04)", -- [397]
+			"00:43:05 - GetML()", -- [398]
+			"00:43:05 - LootMethod =  (group)", -- [399]
+			"00:43:05 - Stop handling loot", -- [400]
+			"00:43:07 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Bloodwall) (distri:) (WHISPER)", -- [401]
+			"00:43:16 - Timer MLdb_check passed", -- [402]
+			"00:43:47 - Event: (PARTY_LEADER_CHANGED)", -- [403]
+			"00:43:47 - GetML()", -- [404]
+			"00:43:47 - LootMethod =  (group)", -- [405]
+			"00:43:47 - NewMLCheck (Resetting council as we have a new ML!)", -- [406]
+			"00:43:47 - Some else is ML", -- [407]
+			"00:44:02 - Timer MLdb_check passed", -- [408]
+			"10/23/23", -- [409]
+			"00:47:20 - Logged In", -- [410]
+			"00:47:20 - ML initialized!", -- [411]
+			"00:47:20 - TradeUI enabled", -- [412]
+			"00:47:31 - Bloodwall-Venoxis (2.19.3) (nil)", -- [413]
+			"00:47:31 - ActivateSkin (bfa)", -- [414]
+			"00:47:36 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [415]
+			"00:47:36 - GetML()", -- [416]
+			"00:47:36 - LootMethod =  (group)", -- [417]
+			"00:47:36 - UpdatePlayersData()", -- [418]
+			"00:47:36 - ClassicModule enabled (0.20.0) (nil)", -- [419]
+			"00:47:36 - DoCommsCompressFix", -- [420]
+			"00:47:36 - Removing Column (role)", -- [421]
+			"00:47:36 - Removing Column (corruption)", -- [422]
+			"00:47:36 - GetPlayersGuildRank()", -- [423]
+			"00:47:36 - Found Guild Rank: Twink", -- [424]
+			"00:47:37 - Event: (PARTY_LEADER_CHANGED)", -- [425]
+			"00:47:37 - GetML()", -- [426]
+			"00:47:37 - LootMethod =  (group)", -- [427]
+			"00:47:37 - NewMLCheck (Resetting council as we have a new ML!)", -- [428]
+			"00:47:37 - Some else is ML", -- [429]
+			"00:47:37 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bloodwall) (distri:) (GUILD)", -- [430]
+			"00:47:51 - Timer MLdb_check passed", -- [431]
+			"00:49:20 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Taste) (distri:) (GUILD)", -- [432]
 		},
 		["Classic_game"] = 11,
-		["Classic_oldVersion"] = "0.19.0",
+		["Classic_oldVersion"] = "0.20.0",
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
-			["Longling-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697056298, -- [3]
-			},
-			["Exonuklease-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697063273, -- [3]
-			},
-			["Jodifrosta-Venoxis"] = {
-				"0.19.0", -- [1]
-				nil, -- [2]
-				1697058204, -- [3]
-			},
 			["Alsia-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697059058, -- [3]
+				1698014961, -- [3]
 			},
-			["Graveofmaria-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Perakon-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1698005129, -- [3]
 			},
-			["Mikirî-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Maturitass-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697058411, -- [3]
+				1698005129, -- [3]
 			},
-			["Uwugamergirl-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Styleplox-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697059358, -- [3]
+				1698005129, -- [3]
 			},
 			["Bubbledîne-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697058461, -- [3]
+				1698005129, -- [3]
 			},
 			["Wønka-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1698014961, -- [3]
+			},
+			["Taste-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698014960, -- [3]
+			},
+			["Xolem-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Bloodwall-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698014961, -- [3]
+			},
+			["Wackelbacke-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Ukban-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Shamir-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Uséléss-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Lesbenlisa-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Bigmæc-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1698005129, -- [3]
 			},
-			["Vilro-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Xandros-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697056328, -- [3]
+				1698005129, -- [3]
 			},
-			["Myjuice-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Uwugamergirl-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697058204, -- [3]
+				1698005129, -- [3]
+			},
+			["Hampdidampdi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Bremskyle-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698013524, -- [3]
+			},
+			["Morai-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
 			},
 			["Slimpy-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1698013601, -- [3]
 			},
-			["Bloodwall-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Onixus-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1698005130, -- [3]
 			},
 			["Wîdi-Venoxis"] = {
-				"0.19.0", -- [1]
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697063273, -- [3]
+				1698014962, -- [3]
 			},
-			["Jocindyr-Venoxis"] = {
-				"0.19.0", -- [1]
+			["Hanaltar-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1697057116, -- [3]
+				1698013600, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
 		["regionID"] = 3,
-		["Classic_version"] = "0.19.0",
+		["Classic_version"] = "0.20.0",
 	},
 	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -406,6 +628,7 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 }

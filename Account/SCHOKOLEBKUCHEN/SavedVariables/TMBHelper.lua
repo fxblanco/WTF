@@ -14,11 +14,11 @@ ItemListsDB = {
 	["displayRank"] = true,
 	["lootTableTest"] = {
 	},
-	["displayOS"] = true,
-	["displayWishes"] = true,
-	["showMemberNotes"] = false,
-	["onlyRaidMembers"] = false,
 	["displayPrios"] = true,
+	["displayWishes"] = true,
+	["onlyRaidMembers"] = false,
+	["showMemberNotes"] = false,
+	["displayOS"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {

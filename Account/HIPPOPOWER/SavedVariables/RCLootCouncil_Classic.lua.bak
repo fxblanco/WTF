@@ -1,0 +1,156 @@
+
+RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Default",
+	},
+	["global"] = {
+		["logMaxEntries"] = 4000,
+		["log"] = {
+			"10/18/23", -- [1]
+			"00:02:21 - Logged In", -- [2]
+			"00:02:21 - ML initialized!", -- [3]
+			"00:02:21 - TradeUI enabled", -- [4]
+			"00:02:33 - Pippop-Venoxis (2.19.3) (nil)", -- [5]
+			"00:02:33 - ActivateSkin (bfa)", -- [6]
+			"00:02:50 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [7]
+			"00:02:50 - GetML()", -- [8]
+			"00:02:50 - LootMethod =  (group)", -- [9]
+			"00:02:50 - UpdatePlayersData()", -- [10]
+			"00:02:52 - ClassicModule enabled (0.20.0) (nil)", -- [11]
+			"00:02:52 - DoCommsCompressFix", -- [12]
+			"00:02:52 - Removing Column (role)", -- [13]
+			"00:02:52 - Removing Column (corruption)", -- [14]
+			"00:02:54 - GetPlayersGuildRank()", -- [15]
+			"00:02:54 - GetPlayersGuildRank()", -- [16]
+			"00:02:54 - GetPlayersGuildRank()", -- [17]
+			"00:02:54 - GetPlayersGuildRank()", -- [18]
+			"00:02:54 - Found Guild Rank: Twink", -- [19]
+			"00:02:57 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Ohrfeigen) (distri:) (GUILD)", -- [20]
+			"00:02:57 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [21]
+			"00:03:22 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Taste) (distri:) (GUILD)", -- [22]
+		},
+		["Classic_game"] = 11,
+		["locale"] = "deDE",
+		["verTestCandidates"] = {
+			["Ohrfeigen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Pippop-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Alsia-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Wønka-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Bremskyle-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Taste-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Morai-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Slimpy-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580203, -- [3]
+			},
+			["Tréalis-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580202, -- [3]
+			},
+			["Hanaltar-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580203, -- [3]
+			},
+			["Schpen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1697580177, -- [3]
+			},
+		},
+		["regionID"] = 3,
+		["version"] = "2.19.3",
+		["Classic_version"] = "0.20.0",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["UI"] = {
+				["tradeui"] = {
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+				},
+				["lootframe"] = {
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+				},
+				["default"] = {
+					["borderColor"] = {
+						0.62, -- [1]
+						0.86, -- [2]
+						0.87, -- [3]
+						0.85, -- [4]
+					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
+					["bgColor"] = {
+						0.55, -- [1]
+						0.84, -- [2]
+						1, -- [3]
+					},
+				},
+			},
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
+	},
+}

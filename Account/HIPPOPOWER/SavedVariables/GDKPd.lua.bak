@@ -11,6 +11,16 @@ GDKPd_DB = {
 	},
 	["profiles"] = {
 		["Pippop - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 118.8500061035156,
+				["x"] = 382.0499877929688,
+			},
+			["point"] = {
+				["y"] = 53.99995803833008,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -290.7749328613281,
+			},
 		},
 		["Lesbenlisa - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -55,10 +65,6 @@ GDKPd_DB = {
 			},
 		},
 		["Uwusoulstone - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -57.4296760559082,
-				["x"] = 381.6136779785156,
-			},
 			["point"] = {
 				["y"] = -33.27197647094727,
 				["relative"] = "TOP",
@@ -66,13 +72,17 @@ GDKPd_DB = {
 				["x"] = -71.9999771118164,
 			},
 			["startBid"] = 100,
-			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 184.3901824951172,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -248.2466888427734,
 			},
+			["balancepoint"] = {
+				["y"] = -57.4296760559082,
+				["x"] = 381.6136779785156,
+			},
+			["increment"] = 10,
 		},
 	},
 }
@@ -90,19 +100,19 @@ GDKPd_PotData = {
 		["Khoradk"] = 0,
 		["Danpii"] = 0,
 		["Fakdizgeym"] = 0,
-		["Bloodwall"] = -34,
 		["Shadowchange"] = 0,
-		["Yileria"] = 0,
+		["Slimpy"] = 0,
+		["Kolberg"] = 0,
 		["Fatbutproo"] = 0,
 		["Beesportz"] = 0,
-		["Slimpy"] = 0,
-		["Talyna"] = 0,
-		["Sempo"] = 0,
-		["Uwusoulstone"] = 7066,
 		["Indaríus"] = 0,
+		["Talyna"] = 0,
+		["Bloodwall"] = -34,
+		["Uwusoulstone"] = 7066,
+		["Sempo"] = 0,
 		["Neoxstep"] = 0,
+		["Yileria"] = 0,
 		["Arnia"] = 0,
-		["Kolberg"] = 0,
 	},
 	["curPotHistory"] = {
 		{

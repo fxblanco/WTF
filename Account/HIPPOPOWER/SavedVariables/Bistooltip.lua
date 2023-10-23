@@ -27,8 +27,8 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["Pippop - Venoxis"] = {
-			["version"] = 6.1,
 			["data_source"] = "wh",
+			["version"] = 6.1,
 		},
 	},
 }
