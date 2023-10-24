@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
-	["announceTrackedAchievements"] = false,
 	["trackAchievementsAutomatically"] = false,
+	["InfoFramescale"] = 1,
+	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["announceTrackedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -32705,6 +32705,47 @@ AchievementTrackerDebug = {
 	"22/10/2023 23:44 [DEBUG] DifficultyID: 1", -- [32680]
 	"22/10/2023 23:44 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [32681]
 	"22/10/2023 23:46 [DEBUG] Hiding Tracking UI", -- [32682]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [32683]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [32684]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [32685]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [32686]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [32687]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [32688]
+	"22/10/2023 23:49 [DEBUG] Showing Minimap Icon", -- [32689]
+	"22/10/2023 23:55 [DEBUG] Player has entered instance", -- [32690]
+	"22/10/2023 23:55 [DEBUG] 632", -- [32691]
+	"22/10/2023 23:55 [DEBUG] Offical Instance Name: 632 _632", -- [32692]
+	"22/10/2023 23:55 [DEBUG] Expansion: 3", -- [32693]
+	"22/10/2023 23:55 [DEBUG] Instance Type: Dungeons", -- [32694]
+	"22/10/2023 23:55 [DEBUG] Instance: 632", -- [32695]
+	"22/10/2023 23:55 [DEBUG] DifficultyID: 2", -- [32696]
+	"22/10/2023 23:55 [DEBUG] Expansion: 3", -- [32697]
+	"22/10/2023 23:55 [DEBUG] Instance Type: Dungeons", -- [32698]
+	"22/10/2023 23:55 [DEBUG] Instance: 632", -- [32699]
+	"22/10/2023 23:55 [DEBUG] Asking user whether they want to track this instance", -- [32700]
+	"22/10/2023 23:55 [DEBUG] Creating Tracking UI", -- [32701]
+	"22/10/2023 23:55 [DEBUG] InfoFrame Setup Complete", -- [32702]
+	"22/10/2023 23:55 [DEBUG] Expansion: 3", -- [32703]
+	"23/10/2023 0:4 [DEBUG] Hiding Tracking UI", -- [32704]
+	"23/10/2023 0:4 [DEBUG] Clearing Instance Variables", -- [32705]
+	"23/10/2023 0:4 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [32706]
+	"23/10/2023 0:4 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [32707]
+	"23/10/2023 0:4 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [32708]
+	"23/10/2023 0:4 [DEBUG] Clearing Instance Variables if exists", -- [32709]
+	"23/10/2023 0:4 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [32710]
+	"23/10/2023 0:4 [DEBUG] Clearing Instance Variables if exists", -- [32711]
+	"23/10/2023 0:4 [DEBUG] Clearing Instance Variables", -- [32712]
+	"23/10/2023 0:4 [DEBUG] Resetting Global Variables", -- [32713]
+	"23/10/2023 0:4 [DEBUG] InfoFrame does not need to be reset", -- [32714]
+	"23/10/2023 0:4 [DEBUG] Resetting PlayerRank", -- [32715]
+	"23/10/2023 0:4 [DEBUG] InfoFrame was not active", -- [32716]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [32717]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.25.0", -- [32718]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [32719]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [32720]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [32721]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [32722]
+	"24/10/2023 23:25 [DEBUG] Showing Minimap Icon", -- [32723]
 }
 AchievementTrackerNPCCache = {
 }
@@ -32737,9 +32778,9 @@ AchievementTrackerNPCCacheClassic = {
 	[26731] = "Großmagistrix Telestra",
 	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
-	[33388] = "Dunkler Runenwächter",
-	[28731] = "Aufseher Silthik",
 	[33136] = "Wächter des Yogg-Saron",
+	[27975] = "Maid der Trauer",
+	[33388] = "Dunkler Runenwächter",
 	[27658] = "Belgaristrasz",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
@@ -32747,7 +32788,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unaufhaltsame Monstrosität",
 	[28729] = "Aufseher Narjil",
 	[28730] = "Aufseher Gashra",
-	[27975] = "Maid der Trauer",
+	[28731] = "Aufseher Silthik",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",

@@ -18,8 +18,8 @@ LoggerHeadNDB = {
 					[176] = true,
 					[175] = true,
 				},
-				[600] = {
-					[2] = true,
+				[615] = {
+					[3] = false,
 				},
 				[624] = {
 					[4] = false,
@@ -30,8 +30,8 @@ LoggerHeadNDB = {
 				[574] = {
 					[2] = false,
 				},
-				[615] = {
-					[3] = false,
+				[600] = {
+					[2] = true,
 				},
 				[602] = {
 					[2] = false,

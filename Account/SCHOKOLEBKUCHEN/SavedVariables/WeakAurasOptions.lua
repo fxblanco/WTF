@@ -50620,15 +50620,15 @@ WeakAurasOptionsSaved = {
 	["locale"] = "deDE",
 	["needsRebuild"] = false,
 	["version"] = "5.8.3",
-	["frame"] = {
-		["xOffset"] = 1514.824920654297,
-		["yOffset"] = 1046.904296875,
-		["height"] = 664.9999389648438,
-		["width"] = 830.0000610351562,
-	},
-	["spellCacheAchivements"] = true,
-	["spellCacheStrings"] = true,
 	["savedSnippets"] = {
 	},
+	["spellCacheStrings"] = true,
+	["frame"] = {
+		["xOffset"] = 1133.449645996094,
+		["width"] = 829.9998779296875,
+		["height"] = 664.9999389648438,
+		["yOffset"] = 1002.354248046875,
+	},
+	["spellCacheAchivements"] = true,
 	["build"] = "51739",
 }
