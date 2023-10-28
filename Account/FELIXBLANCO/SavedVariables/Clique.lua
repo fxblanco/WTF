@@ -12,10 +12,10 @@ CliqueDB3 = {
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
 			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Alsia - Venoxis",
+			["downclick"] = false,
+			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -198,31 +198,22 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON4",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135953,
-					["spell"] = "Reinigung des Glaubens",
-				}, -- [3]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135968,
 					["spell"] = "Hand der Freiheit",
-				}, -- [4]
+				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135967,
+					["spell"] = "Hand der Erlösung",
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
@@ -232,32 +223,34 @@ CliqueDB3 = {
 					},
 					["icon"] = 135964,
 					["spell"] = "Hand des Schutzes",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
+					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135967,
-					["spell"] = "Hand der Erlösung",
+					["icon"] = 135953,
+					["spell"] = "Reinigung des Glaubens",
 				}, -- [6]
 				{
-					["type"] = "target",
-					["key"] = "ALT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [7]
-				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
+					["key"] = "BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136106,
-					["spell"] = "Göttliches Eingreifen",
-				}, -- [8]
+					["icon"] = 135068,
+					["spell"] = "Rechtschaffene Verteidigung",
+				}, -- [7]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -267,7 +260,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135920,
 					["spell"] = "Heiliges Licht",
-				}, -- [9]
+				}, -- [8]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -277,15 +270,22 @@ CliqueDB3 = {
 					},
 					["icon"] = 135928,
 					["spell"] = "Handauflegung",
-				}, -- [10]
+				}, -- [9]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON3",
+					["key"] = "CTRL-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135068,
-					["spell"] = "Rechtschaffene Verteidigung",
+					["icon"] = 136106,
+					["spell"] = "Göttliches Eingreifen",
+				}, -- [10]
+				{
+					["type"] = "target",
+					["key"] = "ALT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
 				}, -- [11]
 				{
 					["type"] = "spell",
