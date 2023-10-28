@@ -37,8 +37,8 @@ BisTooltipDB = {
 		},
 		["Andrés - Venoxis"] = {
 			["class_index"] = 4,
-			["version"] = 6.1,
 			["data_source"] = "wowtbc",
+			["version"] = 6.1,
 			["phase_index"] = 3,
 		},
 		["Khalimmortus - Venoxis"] = {
@@ -53,8 +53,8 @@ BisTooltipDB = {
 		},
 		["Kwasimojo - Venoxis"] = {
 			["class_index"] = 6,
-			["version"] = 6.1,
 			["data_source"] = "wowtbc",
+			["version"] = 6.1,
 			["phase_index"] = 3,
 		},
 	},
