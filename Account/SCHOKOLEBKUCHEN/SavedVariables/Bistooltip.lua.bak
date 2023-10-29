@@ -18,7 +18,7 @@ BisTooltipDB = {
 			["class_index"] = 10,
 			["phase_index"] = 3,
 			["data_source"] = "wowtbc",
-			["version"] = 6.1,
+			["version"] = 6.2,
 		},
 	},
 }

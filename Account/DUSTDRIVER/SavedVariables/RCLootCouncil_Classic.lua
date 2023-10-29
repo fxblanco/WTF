@@ -1,5 +1,9 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Bloodwall - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -474,6 +478,226 @@ RCLootCouncilDB = {
 			"08:54:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [469]
 			"08:54:46 - GetML()", -- [470]
 			"08:54:46 - LootMethod =  (group)", -- [471]
+			"10/29/23", -- [472]
+			"11:39:11 - Logged In", -- [473]
+			"11:39:11 - ML initialized!", -- [474]
+			"11:39:11 - TradeUI enabled", -- [475]
+			"11:39:21 - Maturitass-Venoxis (2.19.3) (nil)", -- [476]
+			"11:39:21 - ActivateSkin (bfa)", -- [477]
+			"11:39:28 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [478]
+			"11:39:28 - GetML()", -- [479]
+			"11:39:28 - LootMethod =  (group)", -- [480]
+			"11:39:28 - UpdatePlayersData()", -- [481]
+			"11:39:29 - ClassicModule enabled (0.20.0) (nil)", -- [482]
+			"11:39:29 - DoCommsCompressFix", -- [483]
+			"11:39:29 - Removing Column (role)", -- [484]
+			"11:39:29 - Removing Column (corruption)", -- [485]
+			"11:39:29 - GetPlayersGuildRank()", -- [486]
+			"11:39:29 - Found Guild Rank: Twink", -- [487]
+			"11:39:32 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [488]
+			"11:39:32 - Event: (PARTY_LEADER_CHANGED)", -- [489]
+			"11:39:32 - GetML()", -- [490]
+			"11:39:32 - LootMethod =  (group)", -- [491]
+			"11:39:32 - NewMLCheck (Resetting council as we have a new ML!)", -- [492]
+			"11:39:32 - Some else is ML", -- [493]
+			"11:39:46 - Timer MLdb_check passed", -- [494]
+			"11:40:10 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Gdkphunter) (distri:) (GUILD)", -- [495]
+			"11:41:19 - Event: (PARTY_LEADER_CHANGED)", -- [496]
+			"11:41:19 - GetML()", -- [497]
+			"11:41:19 - LootMethod =  (group)", -- [498]
+			"11:41:19 - NewMLCheck (Unknown ML)", -- [499]
+			"11:41:20 - GetML()", -- [500]
+			"11:41:20 - LootMethod =  (group)", -- [501]
+			"11:41:20 - NewMLCheck (Resetting council as we have a new ML!)", -- [502]
+			"11:41:20 - Some else is ML", -- [503]
+			"11:41:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [504]
+			"11:41:21 - GetML()", -- [505]
+			"11:41:21 - LootMethod =  (group)", -- [506]
+			"11:41:21 - NewMLCheck (No ML Change)", -- [507]
+			"11:41:21 - Event: (RAID_INSTANCE_WELCOME) (Ahn'kahet: Das Alte Königreich (Heroisch)) (0) (17) (18) (0)", -- [508]
+			"11:41:21 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [509]
+			"11:41:35 - Timer MLdb_check passed", -- [510]
+			"11:42:31 - Event: (LOOT_READY) (true)", -- [511]
+			"11:42:31 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-31104-00003E36D0) (3390)", -- [512]
+			"11:42:31 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:43494::::::::80:::::::::|h[Leiche einer Wache der Ahn'kahar]|h|r) (1) (1) (Creature-0-4447-619-28850-31104-00003E36D0) (1)", -- [513]
+			"11:42:31 - LootOpened", -- [514]
+			"11:42:31 - Event: (LOOT_READY) (true)", -- [515]
+			"11:42:31 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-31104-00003E36D0) (3390)", -- [516]
+			"11:42:31 - Adding to self.lootSlotInfo (2) (|cffffffff|Hitem:43494::::::::80:::::::::|h[Leiche einer Wache der Ahn'kahar]|h|r) (1) (1) (Creature-0-4447-619-28850-31104-00003E36D0) (1)", -- [517]
+			"11:42:31 - LootClosed", -- [518]
+			"11:43:29 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [519]
+			"11:43:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [520]
+			"11:43:51 - GetML()", -- [521]
+			"11:43:51 - LootMethod =  (group)", -- [522]
+			"11:43:51 - NewMLCheck (No ML Change)", -- [523]
+			"11:43:57 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Dandeen) (distri:) (GUILD)", -- [524]
+			"11:44:04 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [525]
+			"11:44:29 - Event: (RAID_INSTANCE_WELCOME) (Ahn'kahet: Das Alte Königreich (Heroisch)) (0) (17) (15) (0)", -- [526]
+			"11:44:29 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [527]
+			"11:44:29 - GetML()", -- [528]
+			"11:44:29 - LootMethod =  (group)", -- [529]
+			"11:44:29 - NewMLCheck (No ML Change)", -- [530]
+			"11:46:00 - Event: (LOOT_READY) (true)", -- [531]
+			"11:46:00 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:44758::::::::80:::::::::|h[Eisige Spinndrüse]|h|r) (0) (4) (Creature-0-4447-619-28850-30279-0003BE36D0) (4)", -- [532]
+			"11:46:01 - LootOpened", -- [533]
+			"11:46:01 - Event: (LOOT_READY) (true)", -- [534]
+			"11:46:01 - Adding to self.lootSlotInfo (1) (|cff9d9d9d|Hitem:44758::::::::80:::::::::|h[Eisige Spinndrüse]|h|r) (0) (4) (Creature-0-4447-619-28850-30279-0003BE36D0) (4)", -- [535]
+			"11:46:01 - LootClosed", -- [536]
+			"11:46:22 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [537]
+			"11:46:27 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Myjuice) (distri:) (GUILD)", -- [538]
+			"11:46:55 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [539]
+			"11:47:01 - Event: (LOOT_READY) (true)", -- [540]
+			"11:47:01 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30277-00003E36D0) (2340)", -- [541]
+			"11:47:01 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:36667::::::-8:2090336289:80:::::::::|h[Solider Eiszauberstab des Wals]|h|r) (2) (1) (Creature-0-4447-619-28850-30277-00003E36D0) (1)", -- [542]
+			"11:47:02 - LootOpened", -- [543]
+			"11:47:02 - Event: (LOOT_READY) (true)", -- [544]
+			"11:47:02 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30277-00003E36D0) (2340)", -- [545]
+			"11:47:02 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:36667::::::-8:2090336289:80:::::::::|h[Solider Eiszauberstab des Wals]|h|r) (2) (1) (Creature-0-4447-619-28850-30277-00003E36D0) (1)", -- [546]
+			"11:47:02 - LootClosed", -- [547]
+			"11:47:02 - Event: (LOOT_READY) (true)", -- [548]
+			"11:47:02 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hitem:36667::::::-8:2090336289:80:::::::::|h[Solider Eiszauberstab des Wals]|h|r) (2) (1) (Creature-0-4447-619-28850-30277-00003E36D0) (1)", -- [549]
+			"11:47:03 - LootOpened", -- [550]
+			"11:47:03 - Event: (LOOT_READY) (true)", -- [551]
+			"11:47:03 - Adding to self.lootSlotInfo (1) (|cff1eff00|Hitem:36667::::::-8:2090336289:80:::::::::|h[Solider Eiszauberstab des Wals]|h|r) (2) (1) (Creature-0-4447-619-28850-30277-00003E36D0) (1)", -- [552]
+			"11:47:03 - LootClosed", -- [553]
+			"11:47:13 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [554]
+			"11:47:14 - New CPS: (0)", -- [555]
+			"11:47:14 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [556]
+			"11:47:15 - Queue and CPS is 0", -- [557]
+			"11:47:24 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [558]
+			"11:47:51 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [559]
+			"11:47:51 - GetML()", -- [560]
+			"11:47:51 - LootMethod =  (group)", -- [561]
+			"11:47:51 - NewMLCheck (No ML Change)", -- [562]
+			"11:47:52 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [563]
+			"11:48:22 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [564]
+			"11:48:28 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [565]
+			"11:48:28 - GetML()", -- [566]
+			"11:48:28 - LootMethod =  (group)", -- [567]
+			"11:48:28 - NewMLCheck (No ML Change)", -- [568]
+			"11:48:28 - Event: (RAID_INSTANCE_WELCOME) (Ahn'kahet: Das Alte Königreich (Heroisch)) (0) (17) (11) (0)", -- [569]
+			"11:48:48 - Event: (LOOT_READY) (true)", -- [570]
+			"11:48:48 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:43494::::::::80:::::::::|h[Leiche einer Wache der Ahn'kahar]|h|r) (1) (1) (Creature-0-4447-619-28850-31104-0000BE36D0) (1)", -- [571]
+			"11:48:48 - LootOpened", -- [572]
+			"11:48:48 - Event: (LOOT_READY) (true)", -- [573]
+			"11:48:48 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:43494::::::::80:::::::::|h[Leiche einer Wache der Ahn'kahar]|h|r) (1) (1) (Creature-0-4447-619-28850-31104-0000BE36D0) (1)", -- [574]
+			"11:48:50 - LootClosed", -- [575]
+			"11:49:57 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [576]
+			"11:49:59 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [577]
+			"11:49:59 - GetML()", -- [578]
+			"11:49:59 - LootMethod =  (group)", -- [579]
+			"11:49:59 - NewMLCheck (No ML Change)", -- [580]
+			"11:50:35 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (INSTANCE_CHAT)", -- [581]
+			"11:50:35 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [582]
+			"11:50:35 - GetML()", -- [583]
+			"11:50:35 - LootMethod =  (group)", -- [584]
+			"11:50:35 - NewMLCheck (No ML Change)", -- [585]
+			"11:50:36 - Event: (RAID_INSTANCE_WELCOME) (Ahn'kahet: Das Alte Königreich (Heroisch)) (0) (17) (9) (0)", -- [586]
+			"11:52:18 - Event: (LOOT_READY) (true)", -- [587]
+			"11:52:18 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30278-00023E36D0) (10156)", -- [588]
+			"11:52:18 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:43852::::::::80:::::::::|h[Dicke Fellkleidungsfetzen]|h|r) (0) (1) (Creature-0-4447-619-28850-30278-00023E36D0) (1)", -- [589]
+			"11:52:19 - LootOpened", -- [590]
+			"11:52:19 - Event: (LOOT_READY) (true)", -- [591]
+			"11:52:19 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30278-00023E36D0) (10156)", -- [592]
+			"11:52:19 - Adding to self.lootSlotInfo (2) (|cff9d9d9d|Hitem:43852::::::::80:::::::::|h[Dicke Fellkleidungsfetzen]|h|r) (0) (1) (Creature-0-4447-619-28850-30278-00023E36D0) (1)", -- [593]
+			"11:52:19 - OnLootSlotCleared() (1) (nil) (0)", -- [594]
+			"11:52:19 - LootClosed", -- [595]
+			"11:53:23 - Event: (ENCOUNTER_START) (212) (Urahne Nadox) (2) (5)", -- [596]
+			"11:53:23 - UpdatePlayersData()", -- [597]
+			"11:54:48 - Event: (ENCOUNTER_END) (212) (Urahne Nadox) (2) (5) (1)", -- [598]
+			"11:54:49 - Event: (LOOT_READY) (true)", -- [599]
+			"11:54:49 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-29309-00003E36D0) (3045)", -- [600]
+			"11:54:49 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:36286::::::-16:1020788817:80:::::::::|h[Spektrale Stulpen der Ausdauer]|h|r) (2) (1) (Creature-0-4447-619-28850-29309-00003E36D0) (1)", -- [601]
+			"11:54:49 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:39263::::::::80:::::::::|h[Abgetrennte Gamaschen]|h|r) (4) (1) (Creature-0-4447-619-28850-29309-00003E36D0) (1)", -- [602]
+			"11:54:49 - Adding to self.lootSlotInfo (4) (|cffa335ee|Hitem:45310::::::::80:::::::::|h[Stulpen des Eisenwerks]|h|r) (4) (1) (Creature-0-4447-619-28850-29309-00003E36D0) (1)", -- [603]
+			"11:54:50 - LootOpened", -- [604]
+			"11:54:50 - Event: (LOOT_READY) (true)", -- [605]
+			"11:54:50 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-29309-00003E36D0) (3045)", -- [606]
+			"11:54:50 - Adding to self.lootSlotInfo (2) (|cff1eff00|Hitem:36286::::::-16:1020788817:80:::::::::|h[Spektrale Stulpen der Ausdauer]|h|r) (2) (1) (Creature-0-4447-619-28850-29309-00003E36D0) (1)", -- [607]
+			"11:54:50 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:39263::::::::80:::::::::|h[Abgetrennte Gamaschen]|h|r) (4) (1) (Creature-0-4447-619-28850-29309-00003E36D0) (1)", -- [608]
+			"11:54:50 - Adding to self.lootSlotInfo (4) (|cffa335ee|Hitem:45310::::::::80:::::::::|h[Stulpen des Eisenwerks]|h|r) (4) (1) (Creature-0-4447-619-28850-29309-00003E36D0) (1)", -- [609]
+			"11:54:50 - LootClosed", -- [610]
+			"11:56:02 - Event: (LOOT_READY) (true)", -- [611]
+			"11:56:02 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30285-00023E36D0) (8394)", -- [612]
+			"11:56:03 - LootOpened", -- [613]
+			"11:56:03 - Event: (LOOT_READY) (true)", -- [614]
+			"11:56:03 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30285-00023E36D0) (8394)", -- [615]
+			"11:56:03 - OnLootSlotCleared() (1) (nil) (0)", -- [616]
+			"11:56:03 - LootClosed", -- [617]
+			"11:56:03 - LootClosed", -- [618]
+			"11:56:50 - Event: (LOOT_READY) (true)", -- [619]
+			"11:56:50 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30284-0000BE36D0) (8462)", -- [620]
+			"11:56:50 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hitem:37625::::::::80:::::::::|h[Netzwinderhandschuhe]|h|r) (3) (1) (Creature-0-4447-619-28850-30284-0000BE36D0) (1)", -- [621]
+			"11:56:51 - LootOpened", -- [622]
+			"11:56:51 - Event: (LOOT_READY) (true)", -- [623]
+			"11:56:51 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30284-0000BE36D0) (8462)", -- [624]
+			"11:56:51 - Adding to self.lootSlotInfo (2) (|cff0070dd|Hitem:37625::::::::80:::::::::|h[Netzwinderhandschuhe]|h|r) (3) (1) (Creature-0-4447-619-28850-30284-0000BE36D0) (1)", -- [625]
+			"11:56:51 - LootClosed", -- [626]
+			"11:56:51 - Event: (LOOT_READY) (true)", -- [627]
+			"11:56:51 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30287-00053E36D0) (2898)", -- [628]
+			"11:56:51 - LootOpened", -- [629]
+			"11:56:51 - Event: (LOOT_READY) (true)", -- [630]
+			"11:56:51 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-30287-00053E36D0) (2898)", -- [631]
+			"11:56:51 - LootClosed", -- [632]
+			"12:00:23 - Event: (ENCOUNTER_START) (213) (Prinz Taldaram) (2) (5)", -- [633]
+			"12:00:23 - UpdatePlayersData()", -- [634]
+			"12:01:59 - Event: (ENCOUNTER_END) (213) (Prinz Taldaram) (2) (5) (1)", -- [635]
+			"12:02:00 - Event: (LOOT_READY) (true)", -- [636]
+			"12:02:00 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-29308-00003E36D0) (9653)", -- [637]
+			"12:02:00 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:39247::::::::80:::::::::|h[Manschetten der dunklen Schatten]|h|r) (4) (1) (Creature-0-4447-619-28850-29308-00003E36D0) (1)", -- [638]
+			"12:02:00 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:45321::::::::80:::::::::|h[Schulterstücke des gestärkten Willens]|h|r) (4) (1) (Creature-0-4447-619-28850-29308-00003E36D0) (1)", -- [639]
+			"12:02:00 - LootOpened", -- [640]
+			"12:02:00 - Event: (LOOT_READY) (true)", -- [641]
+			"12:02:00 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4447-619-28850-29308-00003E36D0) (9653)", -- [642]
+			"12:02:00 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:39247::::::::80:::::::::|h[Manschetten der dunklen Schatten]|h|r) (4) (1) (Creature-0-4447-619-28850-29308-00003E36D0) (1)", -- [643]
+			"12:02:00 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:45321::::::::80:::::::::|h[Schulterstücke des gestärkten Willens]|h|r) (4) (1) (Creature-0-4447-619-28850-29308-00003E36D0) (1)", -- [644]
+			"12:02:00 - OnLootSlotCleared() (1) (nil) (0)", -- [645]
+			"12:02:00 - LootClosed", -- [646]
+			"12:04:10 - Event: (ENCOUNTER_START) (215) (Herold Volazj) (2) (5)", -- [647]
+			"12:04:10 - UpdatePlayersData()", -- [648]
+			"12:05:39 - Event: (ENCOUNTER_END) (215) (Herold Volazj) (2) (5) (1)", -- [649]
+			"12:05:40 - Event: (LOOT_READY) (true)", -- [650]
+			"12:05:40 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [651]
+			"12:05:40 - Adding to self.lootSlotInfo (3) (|cffffffff|Hitem:211206::::::::80:::::::::|h[Medaillon der Entweihten]|h|r) (1) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [652]
+			"12:05:40 - Adding to self.lootSlotInfo (4) (|cffa335ee|Hitem:43998::::::::80:::::::::|h[Brustschutz des ungeheuerlichen Könnens]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [653]
+			"12:05:40 - Adding to self.lootSlotInfo (5) (|cffa335ee|Hitem:45648::::::::80:::::::::|h[Helm des abtrünnigen Beschützers]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [654]
+			"12:05:40 - Adding to self.lootSlotInfo (6) (|cffa335ee|Hitem:45696::::::::80:::::::::|h[Zeichen des Unnachgiebigen]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [655]
+			"12:05:40 - Adding to self.lootSlotInfo (7) (|cffa335ee|Hitem:40616::::::::80:::::::::|h[Helm des verlorenen Eroberers]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [656]
+			"12:05:40 - Adding to self.lootSlotInfo (8) (|cff0070dd|Hitem:41790::::::::80:::::::::|h[Vorlage: Präziser Scharlachrubin]|h|r) (3) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [657]
+			"12:05:41 - LootOpened", -- [658]
+			"12:05:41 - Event: (LOOT_READY) (true)", -- [659]
+			"12:05:41 - Adding to self.lootSlotInfo (1) (|cffffffff|Hitem:211207::::::::80:::::::::|h[Geheimnisvolles Artefakt]|h|r) (1) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [660]
+			"12:05:41 - Adding to self.lootSlotInfo (3) (|cffffffff|Hitem:211206::::::::80:::::::::|h[Medaillon der Entweihten]|h|r) (1) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [661]
+			"12:05:41 - Adding to self.lootSlotInfo (4) (|cffa335ee|Hitem:43998::::::::80:::::::::|h[Brustschutz des ungeheuerlichen Könnens]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [662]
+			"12:05:41 - Adding to self.lootSlotInfo (5) (|cffa335ee|Hitem:45648::::::::80:::::::::|h[Helm des abtrünnigen Beschützers]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [663]
+			"12:05:41 - Adding to self.lootSlotInfo (6) (|cffa335ee|Hitem:45696::::::::80:::::::::|h[Zeichen des Unnachgiebigen]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [664]
+			"12:05:41 - Adding to self.lootSlotInfo (7) (|cffa335ee|Hitem:40616::::::::80:::::::::|h[Helm des verlorenen Eroberers]|h|r) (4) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [665]
+			"12:05:41 - Adding to self.lootSlotInfo (8) (|cff0070dd|Hitem:41790::::::::80:::::::::|h[Vorlage: Präziser Scharlachrubin]|h|r) (3) (1) (Creature-0-4447-619-28850-29311-00003E36D0) (1)", -- [666]
+			"12:05:41 - LootClosed", -- [667]
+			"12:05:53 - Event: (PARTY_LEADER_CHANGED)", -- [668]
+			"12:05:53 - GetML()", -- [669]
+			"12:05:53 - LootMethod =  (group)", -- [670]
+			"12:05:53 - NewMLCheck (Resetting council as we have a new ML!)", -- [671]
+			"12:05:53 - Some else is ML", -- [672]
+			"12:05:54 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (PARTY)", -- [673]
+			"12:05:58 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Pippop) (distri:) (PARTY)", -- [674]
+			"12:05:59 - Event: (GROUP_LEFT) (2) (Party-4445-1-00001377B40C)", -- [675]
+			"12:05:59 - GetML()", -- [676]
+			"12:05:59 - LootMethod =  (group)", -- [677]
+			"12:05:59 - NewMLCheck (Resetting council as we have a new ML!)", -- [678]
+			"12:05:59 - Some else is ML", -- [679]
+			"12:06:03 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [680]
+			"12:06:03 - GetML()", -- [681]
+			"12:06:03 - LootMethod =  (group)", -- [682]
+			"12:06:03 - NewMLCheck (No ML Change)", -- [683]
+			"12:06:08 - Timer MLdb_check passed", -- [684]
+			"12:06:14 - Timer MLdb_check passed", -- [685]
+			"12:06:50 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Jocindyr) (distri:) (GUILD)", -- [686]
+			"12:07:28 - Event: (LOOT_READY) (true)", -- [687]
+			"12:07:28 - LootOpened", -- [688]
+			"12:07:28 - Event: (LOOT_READY) (true)", -- [689]
+			"12:07:29 - LootClosed", -- [690]
+			"12:07:29 - LootClosed", -- [691]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
@@ -488,21 +712,6 @@ RCLootCouncilDB = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698005129, -- [3]
-			},
-			["Bubbledîne-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698043971, -- [3]
-			},
-			["Wønka-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698015555, -- [3]
-			},
-			["Taste-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698015555, -- [3]
 			},
 			["Bloodwall-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -519,37 +728,97 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Ukban-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
 			["Maturitass-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698577610, -- [3]
 			},
 			["Lesbenlisa-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Perakon-Venoxis"] = {
+			["Dandeen-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698577611, -- [3]
 			},
-			["Bigmæc-Venoxis"] = {
+			["Vacaria-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Uséléss-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
+				1698577610, -- [3]
 			},
 			["Xandros-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Morai-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Bremskyle-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698013524, -- [3]
+			},
+			["Slimpy-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698013601, -- [3]
+			},
+			["Andrés-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698576444, -- [3]
+			},
+			["Wîdi-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698015555, -- [3]
+			},
+			["Jocindyr-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698577610, -- [3]
+			},
+			["Pippop-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698577610, -- [3]
+			},
+			["Bubbledîne-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698043971, -- [3]
+			},
+			["Wønka-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698015555, -- [3]
+			},
+			["Ukban-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Hanaltar-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698013600, -- [3]
+			},
+			["Onixus-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005130, -- [3]
+			},
+			["Ohrfeigen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698577610, -- [3]
+			},
+			["Bigmæc-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698005129, -- [3]
@@ -559,7 +828,42 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
+			["Taste-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698015555, -- [3]
+			},
+			["Gdkphunter-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698576010, -- [3]
+			},
+			["Liptea-Venoxis"] = {
+				"0.14.1", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Exonuklease-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698577610, -- [3]
+			},
+			["Myjuice-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698576444, -- [3]
+			},
 			["Xolem-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Uséléss-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698005129, -- [3]
+			},
+			["Perakon-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698005129, -- [3]
@@ -569,49 +873,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Liptea-Venoxis"] = {
-				"0.14.1", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Bremskyle-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698013524, -- [3]
-			},
-			["Morai-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Slimpy-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698013601, -- [3]
-			},
-			["Onixus-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005130, -- [3]
-			},
-			["Wîdi-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698015555, -- [3]
-			},
-			["Hanaltar-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698013600, -- [3]
-			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.0",
-	},
-	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -667,7 +932,7 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 }

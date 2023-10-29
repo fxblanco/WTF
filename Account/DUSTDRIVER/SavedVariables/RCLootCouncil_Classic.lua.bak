@@ -1,9 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -458,6 +454,26 @@ RCLootCouncilDB = {
 			"00:59:13 - GetPlayersGuildRank()", -- [449]
 			"00:59:13 - Found Guild Rank: Twink", -- [450]
 			"00:59:15 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [451]
+			"10/23/23", -- [452]
+			"08:52:36 - Logged In", -- [453]
+			"08:52:36 - ML initialized!", -- [454]
+			"08:52:36 - TradeUI enabled", -- [455]
+			"08:52:44 - Maturitass-Venoxis (2.19.3) (nil)", -- [456]
+			"08:52:44 - ActivateSkin (bfa)", -- [457]
+			"08:52:48 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [458]
+			"08:52:48 - GetML()", -- [459]
+			"08:52:48 - LootMethod =  (group)", -- [460]
+			"08:52:48 - UpdatePlayersData()", -- [461]
+			"08:52:48 - ClassicModule enabled (0.20.0) (nil)", -- [462]
+			"08:52:48 - DoCommsCompressFix", -- [463]
+			"08:52:48 - Removing Column (role)", -- [464]
+			"08:52:48 - Removing Column (corruption)", -- [465]
+			"08:52:49 - GetPlayersGuildRank()", -- [466]
+			"08:52:49 - Found Guild Rank: Twink", -- [467]
+			"08:52:51 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [468]
+			"08:54:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [469]
+			"08:54:46 - GetML()", -- [470]
+			"08:54:46 - LootMethod =  (group)", -- [471]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
@@ -476,7 +492,7 @@ RCLootCouncilDB = {
 			["Bubbledîne-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698043971, -- [3]
 			},
 			["Wønka-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -503,10 +519,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Hanaltar-Venoxis"] = {
+			["Ukban-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698013600, -- [3]
+				1698005129, -- [3]
 			},
 			["Maturitass-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -518,20 +534,20 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Wîdi-Venoxis"] = {
+			["Perakon-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698015555, -- [3]
+				1698005129, -- [3]
 			},
 			["Bigmæc-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Onixus-Venoxis"] = {
+			["Uséléss-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005130, -- [3]
+				1698005129, -- [3]
 			},
 			["Xandros-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -543,10 +559,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Slimpy-Venoxis"] = {
+			["Xolem-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698013601, -- [3]
+				1698005129, -- [3]
 			},
 			["Hampdidampdi-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -558,40 +574,44 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Morai-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
 			["Bremskyle-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698013524, -- [3]
 			},
-			["Xolem-Venoxis"] = {
+			["Morai-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698005129, -- [3]
 			},
-			["Uséléss-Venoxis"] = {
+			["Slimpy-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698013601, -- [3]
 			},
-			["Perakon-Venoxis"] = {
+			["Onixus-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698005130, -- [3]
 			},
-			["Ukban-Venoxis"] = {
+			["Wîdi-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698015555, -- [3]
+			},
+			["Hanaltar-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698013600, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["Classic_version"] = "0.20.0",
 		["regionID"] = 3,
+		["Classic_version"] = "0.20.0",
+	},
+	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -647,7 +667,7 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 }

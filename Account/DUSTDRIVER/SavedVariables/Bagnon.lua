@@ -121,11 +121,11 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["x"] = 710.1688232421875,
-			["hiddenRules"] = {
-			},
 			["hiddenBags"] = {
 			},
+			["hiddenRules"] = {
+			},
+			["x"] = 710.1688232421875,
 		},
 		["bank"] = {
 			["rules"] = {
@@ -177,8 +177,8 @@ Bagnon_Sets = {
 	["version"] = "10.1.15",
 	["display"] = {
 	},
-	["fridgeColor"] = {
-	},
 	["enchantColor"] = {
+	},
+	["fridgeColor"] = {
 	},
 }
