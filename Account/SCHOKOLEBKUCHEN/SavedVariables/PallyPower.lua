@@ -95,18 +95,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		0, -- [10]
 	},
-	["Liptea"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
 	["Lesbenlisa"] = {
 		3, -- [1]
 		3, -- [2]
@@ -118,6 +106,18 @@ PallyPower_Assignments = {
 		3, -- [8]
 		3, -- [9]
 		2, -- [10]
+	},
+	["Liptea"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
 	},
 	["Habíb"] = {
 		0, -- [1]
@@ -192,6 +192,7 @@ PallyPower_AuraAssignments = {
 	["Maryilin"] = 0,
 	["Snackbox"] = 0,
 	["Gachipride"] = 0,
+	["Artìì"] = 0,
 	["Xenta"] = 0,
 	["Palajazu"] = 0,
 	["Leovold"] = 3,
@@ -212,7 +213,7 @@ PallyPower_AuraAssignments = {
 	["Vanillodin"] = 0,
 	["Twintts"] = 0,
 	["Paniniqt"] = 0,
-	["Swonsch"] = 6,
+	["Vastria"] = 0,
 	["Hulkadine"] = 0,
 	["Pypsi"] = 0,
 	["Sínan"] = 0,
@@ -220,48 +221,48 @@ PallyPower_AuraAssignments = {
 	["Adyr"] = 0,
 	["Myjuice"] = 0,
 	["Kolberg"] = 0,
-	["Lituzan"] = 0,
+	["Bombenbabsi"] = 0,
 	["Qlikadin"] = 0,
 	["Noobdog"] = 0,
 	["Xhaara"] = 0,
-	["Výrgin"] = 0,
 	["Mokokos-Golemagg"] = 1,
-	["Kti"] = 0,
-	["Bremskyle"] = 1,
+	["Raycin"] = 0,
+	["Dábzy"] = 0,
+	["Wrathzilla"] = 0,
 	["Habíb"] = 0,
-	["Lypî"] = 0,
+	["Deoka"] = 0,
 	["Liadrîn"] = 0,
-	["Beesportz"] = 0,
+	["Êlsee"] = 0,
 	["Nôirun"] = 0,
 	["Kurella"] = 0,
-	["Dábzy"] = 0,
-	["Deoka"] = 0,
+	["Kti"] = 0,
+	["Lypî"] = 0,
 	["Blazèé"] = 0,
 	["Bønbøn"] = 0,
 	["Briladin"] = 0,
 	["Genosis"] = 0,
 	["Palladriel"] = 0,
-	["Logyna"] = 0,
+	["Lesbenlisa"] = 6,
 	["Sleepychi"] = 0,
-	["Shikimora"] = 0,
+	["Logyna"] = 0,
 	["Stellâr"] = 0,
 	["Asdâlan"] = 0,
-	["Lesbenlisa"] = 6,
+	["Shikimora"] = 0,
 	["Crippi"] = 0,
 	["Gdkpaladin"] = 0,
 	["Skadya"] = 0,
 	["Krodalina"] = 0,
 	["Steyo"] = 0,
-	["Eiskafe"] = 0,
 	["Bopya"] = 0,
+	["Eiskafe"] = 0,
 	["Zelcher"] = 0,
 	["Celløphane"] = 0,
 	["Alsia"] = 1,
 	["Aerythlea"] = 0,
 	["Floryn"] = 0,
-	["Artìì"] = 0,
+	["Shalluna"] = 1,
 	["Aqinu"] = 0,
-	["Smoothý"] = 0,
+	["Smoothý"] = 5,
 	["Bubbledîne"] = 0,
 	["Graveofmaria"] = 6,
 	["Onlyfarm"] = 0,
@@ -290,14 +291,14 @@ PallyPower_AuraAssignments = {
 	["Mutenp"] = 0,
 	["Cancelcult"] = 0,
 	["Liolider"] = 0,
-	["Êlsee"] = 0,
-	["Wrathzilla"] = 0,
+	["Beesportz"] = 0,
+	["Bremskyle"] = 1,
 	["Turbochiggo"] = 0,
 	["Zjd"] = 0,
-	["Raycin"] = 0,
-	["Bombenbabsi"] = 0,
+	["Výrgin"] = 0,
+	["Lituzan"] = 0,
 	["Klxi"] = 0,
-	["Vastria"] = 0,
+	["Swonsch"] = 6,
 	["Sasette"] = 0,
 	["Skotia"] = 0,
 	["Wintex"] = 0,

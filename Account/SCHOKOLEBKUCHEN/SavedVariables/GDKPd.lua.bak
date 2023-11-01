@@ -85,7 +85,7 @@ GDKPd_PotData = {
 		["Hotterhairy"] = 0,
 		["Noobfilterx"] = 0,
 		["Exonuklease"] = 5710,
-		["Beesportz"] = 0,
+		["Skotia"] = 0,
 		["Atomix"] = 0,
 		["Icie"] = 0,
 		["Mojobulle"] = 0,
@@ -93,7 +93,7 @@ GDKPd_PotData = {
 		["Widi"] = 0,
 		["Blinkyli"] = 0,
 		["Bânu"] = 0,
-		["Skotia"] = 0,
+		["Beesportz"] = 0,
 	},
 	["curPotHistory"] = {
 		{

@@ -53,18 +53,26 @@ VMRT = {
 	["Encounter"] = {
 		["names"] = {
 			[756] = "Yogg-Saron",
+			[849] = "Fauldarm",
 			[757] = "Algalon der Beobachter",
 			[742] = "Sartharion",
+			[851] = "Professor Seuchenmord",
+			[852] = "Rat des Blutes",
 			[1114] = "Kel'Thuzad",
 			[744] = "Flammenleviathan",
+			[853] = "Blutkönigin Lana'thel",
 			[745] = "Ignis, Meister des Eisenwerks",
 			[637] = "Fraktionschampions",
 			[746] = "Klingenschuppe",
+			[850] = "Modermiene",
 			[747] = "XT-002 Dekonstruktor",
+			[848] = "Todesbringer Saurfang",
 			[748] = "Der Eiserne Rat",
+			[846] = "Lady Todeswisper",
 			[749] = "Kologarn",
 			[641] = "Zwillingsval'kyr",
 			[750] = "Auriaya",
+			[845] = "Lord Mark'gar",
 			[751] = "Hodir",
 			[1119] = "Saphiron",
 			[752] = "Thorim",
@@ -331,6 +339,23 @@ VMRT = {
 				"^750^175^1695150622^70^1^10^255.66^", -- [251]
 				"^752^175^1695150837^175^1^10^256.23^", -- [252]
 				"^742^3^1697408554^61^1^10^256.66^", -- [253]
+				"^845^3^1698793353^167^1^10^263.16^", -- [254]
+				"^846^3^1698793876^165^1^10^263.16^Deusdominik", -- [255]
+				"^848^3^1698794708^243^1^10^263.40^Deusdominik", -- [256]
+				"^850^3^1698795845^130^0^10^263.40^Smoothý", -- [257]
+				"^850^3^1698796207^164^1^10^263.40^Deusdominik", -- [258]
+				"^849^3^1698796729^53^0^10^263.40^Hopéless", -- [259]
+				"^849^3^1698796913^199^0^10^263.40^Shalluna", -- [260]
+				"^849^3^1698797385^188^1^10^263.69^Shalluna", -- [261]
+				"^851^3^1698797812^287^1^10^263.69^", -- [262]
+				"^852^3^1698798634^146^0^10^263.86^Tâste", -- [263]
+				"^852^3^1698798976^39^0^10^263.86^Nackentank", -- [264]
+				"^852^3^1698799245^112^0^10^263.86^Tâste", -- [265]
+				"^852^3^1698799509^185^1^10^263.86^", -- [266]
+				"^853^3^1698800540^257^0^10^263.86^Liolidas", -- [267]
+				"^853^3^1698801156^191^0^10^263.86^Exonuklease", -- [268]
+				"^853^3^1698801541^24^0^10^263.85^Deusdominik", -- [269]
+				"^853^3^1698801705^282^1^10^263.85^Tâste", -- [270]
 			},
 			["Fieserdot"] = {
 			},
@@ -350,6 +375,7 @@ VMRT = {
 			["Bánu"] = 0,
 			["Luguri"] = 0,
 			["Reeyø-Auberdine"] = 0,
+			["Krioss"] = 0,
 			["Brishja"] = 0,
 			["Kryozon"] = 0,
 			["Detôx"] = 0,
@@ -380,6 +406,7 @@ VMRT = {
 			["Sakartis"] = 0,
 			["Crippx"] = 0,
 			["Sîlux"] = 0,
+			["Hopéless"] = 0,
 			["Maxxz"] = 0,
 			["Baksus"] = 0,
 			["Gindeath"] = 0,
@@ -475,6 +502,7 @@ VMRT = {
 			["Alsia"] = 0,
 			["Plaguecidus"] = 0,
 			["Vuko"] = 0,
+			["Shalluna"] = 0,
 			["Pyrosîs"] = 0,
 			["Graveofmaria"] = 0,
 			["Arftilly"] = 0,
@@ -490,6 +518,9 @@ VMRT = {
 			["Nvmdx"] = 0,
 			["Nasune"] = 0,
 			["Goldpalme"] = 0,
+			["Nackentank"] = 0,
+			["Liolidas"] = 0,
+			["Smoothý"] = 0,
 			["Niklassühne"] = 0,
 			["Lesbenlisa"] = 0,
 			["Xinopa-Gehennas"] = 0,
@@ -535,19 +566,19 @@ VMRT = {
 			["Pypsi"] = 0,
 			["Delmonte"] = 0,
 			["Gablehauser"] = 0,
-			["Hakkî"] = 0,
-			["Kwasimojo"] = 0,
 			["Orizi"] = 0,
+			["Kwasimojo"] = 0,
 			["Ioná"] = 0,
+			["Hakkî"] = 0,
 			["Siebeneins"] = 0,
 			["Giaru"] = 0,
 			["Asec"] = 0,
-			["Graveofjenna"] = 0,
-			["Larasombardi"] = 0,
+			["Memfiqt"] = 0,
+			["Perakon"] = 0,
 			["Aiona"] = 0,
 			["Renooknight"] = 0,
 			["Moinmacs"] = 0,
-			["Mpal"] = 0,
+			["Habíb"] = 0,
 			["Lorroth"] = 0,
 			["Sixofspades"] = 0,
 			["Beesportz"] = 0,
@@ -555,17 +586,17 @@ VMRT = {
 			["Jezra"] = 0,
 			["Andrés"] = 0,
 			["Vishnuu"] = 0,
-			["Darkkosar"] = 0,
-			["Memfiqt"] = 0,
+			["Bratansnitch"] = 0,
+			["Graveofjenna"] = 0,
 			["Loovee"] = 0,
 			["Gitgudm"] = 0,
-			["Rootme"] = 0,
-			["Bratansnitch"] = 0,
-			["Tolazytolvl"] = 0,
+			["Darkkosar"] = 0,
+			["Connielingus"] = 0,
+			["Marotéch"] = 0,
 			["Minwhitydudu"] = 0,
 			["Lümmler"] = 0,
 			["Viçtoria"] = 0,
-			["Marotéch"] = 0,
+			["Krautbeatzx"] = 0,
 			["Veluza"] = 0,
 			["Andalamar"] = 0,
 			["Vanec"] = 0,
@@ -588,14 +619,14 @@ VMRT = {
 			["Krywar"] = 0,
 			["Kolberg"] = 0,
 			["Michorc"] = 0,
-			["Krautbeatzx"] = 0,
+			["Tolazytolvl"] = 0,
 			["Xéreks"] = 0,
 			["Rastason"] = 0,
 			["Kangamah"] = 0,
-			["Connielingus"] = 0,
+			["Rootme"] = 0,
 			["Steelclaws-Golemagg"] = 0,
-			["Habíb"] = 0,
-			["Perakon"] = 0,
+			["Mpal"] = 0,
+			["Larasombardi"] = 0,
 			["Dioxiz"] = 0,
 			["Hitmeplease"] = 0,
 			["Specializt"] = 0,
@@ -641,11 +672,11 @@ VMRT = {
 			["12975;1"] = 1,
 			["49576;1"] = 3,
 			["16190;1"] = 4,
-			["9863;1"] = 2,
+			["20608;1"] = 2,
 			["1038;1"] = 3,
 			["31821;1"] = 2,
 			["871;1"] = 1,
-			["20608;1"] = 2,
+			["9863;1"] = 2,
 			["2825;1"] = 2,
 			["20748;1"] = 2,
 			["2062;1"] = 2,
@@ -827,11 +858,11 @@ VMRT = {
 				["blacklistGeneral"] = true,
 				["textureAlphaCooldown"] = 0.85,
 				["textureColorTimeLineActiveB"] = 1,
-				["textureAnimation"] = true,
+				["textureColorTimeLineDefaultG"] = 1,
 				["textureColorBackgroundActiveG"] = 1,
 				["textureColorTimeLineDefaultB"] = 1,
 				["textureAlphaBackground"] = 0.15,
-				["textureColorTimeLineDefaultG"] = 1,
+				["frameWidth"] = 130,
 				["textureClassTimeLine"] = true,
 				["textureColorTimeLineActiveR"] = 1,
 				["fontSize"] = 12,
@@ -850,20 +881,20 @@ VMRT = {
 				["textureColorTimeLineDefaultR"] = 1,
 				["textureAlphaTimeLine"] = 1,
 				["textureClassText"] = false,
-				["iconGlowType"] = 4,
+				["methodsTimeLineAnimation"] = 2,
 				["frameScale"] = 80,
 				["textureColorBackgroundCooldownB"] = 1,
-				["methodsTimeLineAnimation"] = 2,
+				["iconGlowType"] = 4,
 				["textureColorBackgroundCooldownR"] = 1,
 				["frameStrata"] = "MEDIUM",
 				["textureColorTimeLineActiveG"] = 1,
 				["textureColorTextActiveG"] = 1,
 				["textureColorTextCooldownR"] = 1,
 				["visibilityGeneral"] = true,
-				["textTemplateRight"] = "%time%",
 				["textureColorTextActiveR"] = 0.5,
+				["textTemplateRight"] = "%time%",
 				["textureColorBackgroundActiveR"] = 1,
-				["frameWidth"] = 130,
+				["textureAnimation"] = true,
 				["textureColorTextDefaultG"] = 1,
 			}, -- [11]
 		},
@@ -933,12 +964,12 @@ VMRT = {
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["RaidCheck"] = {
-		["ReadyCheckLeft"] = 1138.5769042969,
+		["ReadyCheckLeft"] = 821.1973266601562,
 		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckFrameOnlyRL"] = true,
 		["ReadyCheckFrame"] = true,
 		["FlaskExp"] = 1,
-		["ReadyCheckTop"] = 959.14984130859,
+		["ReadyCheckTop"] = 952.6594848632812,
 		["WeaponEnch"] = {
 		},
 		["ReadyCheckFontSize"] = 14,
@@ -1026,15 +1057,14 @@ VMRT = {
 		["HideOutsideRaid"] = true,
 		["SelfText"] = "",
 		["Fix"] = true,
-		["TimerPassedHide"] = true,
+		["LastUpdateTime"] = 1696891123,
 		["ScaleBack"] = 20,
 		["Text1"] = "Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7eb",
 		["OptionsFormatting"] = true,
-		["DefName"] = "Flame Leviathan",
-		["LastUpdateTime"] = 1696891123,
+		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Alsia-Venoxis",
-		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+		["Alpha"] = 50,
 		["BlackLastUpdateName"] = {
 			"Alsia-Venoxis", -- [1]
 			"Alsia-Venoxis", -- [2]
@@ -1053,27 +1083,9 @@ VMRT = {
 			"Alsia-Venoxis", -- [15]
 			"Alsia", -- [16]
 		},
-		["Alpha"] = 50,
+		["TimerPassedHide"] = true,
 		["Width"] = 380.0000305175781,
 		["Top"] = 397.52319335938,
-		["Black"] = {
-			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [1]
-			"", -- [2]
-			"||cffee5555BoP:||r\n||cfff58cbaShikimora||r  --> ||cffff7d0aHakkî||r\n||cfff58cbaAlsia||r --> ||cffff7d0aUwugamergirl||r\n||cfff58cbaLiptea||r --> ||cff40c7ebJodifrosta||r\n||cfff58cbaBubbledîne||r --> ||cff8787edBlinkyli||r\nXeeli --> ||cffff7d0aKyleriemen||r", -- [3]
-			"||cffee5555Tympanic Tantrum||r (chain casts)\n{time:00:05,SCS:62776:1} ||cffee5555Tantrum 1||r - ||cfff58cbaAlsia||r {spell:64205} + Liptea {spell:64205}\n{time:00:05,SCS:62776:2} ||cffee5555Tantrum 2||r ||r- ||cfff58cbaXeeli||r {spell:64205} + Shikimora ||r{spell:64205} + Serferine {spell:64843}\n{time:00:05,SCS:62776:3} ||cffee5555Tantrum 3||r - ||cfff58cbaAlsia||r {spell:64205} + Liptea {spell:64205} + Hanaltar {spell:64843}\n{time:00:05,SCS:62776:4} ||cffee5555Tantrum 4||r - ||cfff58cbaXeeli||r {spell:64205} + Shikimora {spell:64205} + {spell:740}", -- [4]
-			"||cff55ee55Fusion Punch (P3)||r\n<1> {spell:61903} Liptea {spell:64205} + {spell:6940}\n<2> {spell:61903} ||cfff48cbaXeeli||r {spell:64205} + {spell:6940}\n<3> {spell:61903} Shikimora {spell:64205} + {spell:6940}\n<4> {spell:61903} Serferine {spell:33206}||cfff58cba||r", -- [5]
-			"||cfffff569Collapsing Stars||r\n{time:00:05,SCC:65108:1} ||cfffff569Star 1||r - NO CDs.\n{time:00:05,SCC:65108:2} ||cfffff569Star 2||r - Xeeli {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:3} ||cfffff569Star 3||r - ||cfff58cbaLiptea||r {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:4} ||cfffff569Star 4||r - ||cfff58cbaShikimora||r {spell:31821} + Bubbledine {spell:64843}\n{time:00:05,SCC:65108:5} ||cfffff569Star 5||r - Alsia & ||cffff7d0aFirecat||r & ||cffff7d0aHakkî||r {spell:9863}\n{time:00:05,SCC:65108:6} ||cfffff569Star 6||r - ||cffffffffSerferine||r {spell:64843} + {spell:47878}\n{time:00:05,SCC:65108:7} ||cfffff569Star 7||r - Xeeli  {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:8} ||cfffff569Star 8||r - Liptea {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:9} ||cfffff569Star 9||r - ||cfff58cbaShikimora||r ||r{spell:31821} + Bubbledine {spell:64843}\n{time:00:05,SCC:65108:10} ||cfffff569Star 10||r - Alsia ||r{spell:64205}", -- [6]
-			"||cffc79c6eRubble Explosions||r\n{time:00:25} <1> Liptea {spell:64205}\n{time:01:00} <2> ||cfff58cbaXeeli||r {spell:64205}", -- [7]
-			"||cffff0000On pull:||r ||cfff58cbaAlsia||r {spell:498} + Xeeli {spell:642}{spell:6940} + Hanaltar {spell:33206}\n\nBoP:\n||cfff58cbaShikimora||r  --> ||cffff7d0aHakkî||r\n||cfff58cbaAlsia||r --> ||cffff7d0aUwugamergirl||r\n||cfff58cbaLiptea||r --> ||cff40c7ebJodifrosta||r\n||cfff58cbaBubbledîne||r --> ||cff8787edBlinkyli||r\nXeeli --> ||cffff7d0aKyleriemen||r\n\n||cffffff00Sonic Screech||r\n{time:00:05, SCC:64688:1} <1> ||cfff58cbaBubbledîne||r {spell:64205}\n{time:00:05, SCC:64688:2} <2> ||cfff58cbaAlsia||r||r {spell:64205}", -- [8]
-			"||cff0070deFrozen Blows||r\n{time:00:05,SCS:63512:1} <1> Xeeli {spell:64205} {spell:31821}\n{time:00:05,SCS:63512:2} <2> ||cfff58cbaAlsia||r {spell:64205}", -- [9]
-			"||cffee5555Unbalancing Strike||r\n{time:00:05,SCS:62130:1} <1> No CD\n{time:00:05,SCS:62130:2} <2> No CD\n{time:00:05,SCS:62130:3} <3> No CD\n{time:00:05,SCS:62130:4} <4>  ||cfff58cbaShikimora||r {spell:6940}\n{time:00:05,SCS:62130:5} <5> ||cfff58cbaXeeli||r {spell:6940}\n{time:00:05,SCS:62130:6} <6> Liptea {spell:6940}\n{time:00:05,SCS:62130:7} <7> ||cfff58cbaAlsia||r {spell:6940}\n{time:00:05,SCS:62130:8} <8> Hanaltar {spell:33206}\n{time:00:05,SCS:62130:9} <9> Tank Personal\n{time:00:05,SCS:62130:10} <10> Tank Personal\n{time:00:05,SCS:62130:11} <11> Tank Personal\n \n||cff55ee55Tunnel Healers||r: ||cfff58cbaLiptea||r & ||cffffffffHanaltar||r ", -- [10]
-			"||cffee5555Ground Tremor||r\n{time:00:05,SCS:62859:1} ||cffee5555Tremor 1||r - ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62859:2} ||cffee5555Tremor 2||r - ||cfff58cbaLiptea||r  {spell:64205}\n{time:00:05,SCS:62859:3} ||cffee5555Tremor 3||r - ||cfff58cbaAsdâlan||r {spell:64205}\n{time:00:05,SCS:62859:4} ||cffee5555Tremor 4||r - ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62859:5} ||cffee5555Tremor 5||r - ||cfff58cbaLiptea||r  {spell:64205}\n{time:00:05,SCS:62859:6} ||cffee5555Tremor 6 ||r- ||cfff58cbaAsdâlan||r {spell:64205}\n \n||cffee5555Lasher Deaths||r\n{time:00:05,SCC:62937:1} First Set: ||cfff58cbaLiptea||r {spell:31821} + ||cffc41f3bDelmonte||r  & Vacaria\n{time:00:05,SCC:62937:30} Second Set: ||cfff58cbaAlsia||r {spell:31821} +  ||cffc41f3bMorai||r  & Königmoca\n\nWater: ||cfffff569Ukban||r & ||cff0070deWîdi||r\nStorm: ||cfffff569Onixus||r & ||cff0070deVacaria||r\nSnaplasher: ||cffc41f3bMorai||r ", -- [11]
-			"||cffff0000Plasma Blast CD (P1)||r\n{time:00:05,SCS:64529:1} <1> ||cffffffffSerferine||r {spell:33206} + ||cfff58cbaShikimora||r {spell:6940}\n{time:00:05,SCS:64529:2} <2> ||cfff58cbaAlsia||r {spell:498} + ||cfff58cbaLiptea||r {spell:6940}\n \n||cffff7d0aHeat Wave||r (every 10-15 sec) (P2)\n{time:00:01,SAA:64533:1} <1> ||cfff48cbaAlsia||r {spell:64205}\n{time:00:11,SAA:64533:1} <2> ||cfff58cbaLiptea||r {spell:64205}\n{time:00:21,SAA:64533:1} <3> ||cfff58cbaLiptea||r {spell:31821}\n{time:00:31,SAA:64533:1} <4> Joicindyr {spell:64843}\n{time:00:41,SAA:64533:1} <5> Hanaltar {spell:64843}\n{time:00:51,SAA:64533:1} <6> ||cfff58cbaShikimora||r {spell:64205}\n\n\nKerne: ||cffc79c6eWønka||r\nKite: ||cffc41f3bMorai||r\nBombs: ||cffff7d0aVanec||r", -- [12]
-			"||cffa330c9Surge of Darkness Tank CD||r\n{time:00:05,SCS:62662:1} <1> Hanaltar {spell:33206} +  ||cfff58cbaXeeli||r {spell:64205}\n{time:00:05,SCS:62662:2} <2> ||cfff58cbaLiptea||r {spell:64205} + ||cfff58cbaLiptea||r {spell:642}{spell:6940}\n{time:00:05,SCS:62662:3} <3> ||cfff58cbaAlsia||r {spell:498}\n{time:00:05,SCS:62662:4} <4> ||Hanaltar {spell:33206} + ||cfff58cbaXeeli||r {spell:642}{spell:6940}\n{time:00:05,SCS:62662:5} <5> ||cfff58cbaBubbledîne||r {spell:642}{spell:6940} + ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62662:1} <6> ||cfff58cbaAlsia||r {spell:498}\n{time:00:05,SCS:62662:6} <7> Hanaltar {spell:33206} \n\n||cffee5555Kicker||r\nGroup 1: ||cffc79c6eWønka||r & Fumas\nGroup 2: ||cfffff569Onixus||r & Delmonte\nGroup 3 ||cff0070deVacaria||r & ||cffc79c6eMinoton||r", -- [13]
-			"1. ||cffffffffSerferine||r\n2. ||cfffff569Onixus||r \n3. ||cfffff569Ukban||r \n4. ||cfff58cbaAsdâlan||r \n5. ||cffff7d0aVanec||r\n6. ||cffc41f3bDelmonte||r\n7. ||cffc41f3bTaste||r \n8. ||cffc41f3bMorai||r\n9. ||cff0070deHítaf||r\n10. ||cffff7d0aHakkî||r\n\n\n||cffa330c9Shadow Nova (P1)||r\n||cfff58cbaAlsia||r {spell:64205}\n||cfff58cbaHabib||r {spell:64205}\n||cfff58cbaLiptea||r  {spell:64205}\n \n||cffff0000Defeaning Roar (P3)||r\n{time:00:05,SCS:64189:1} <1> ||cfff58cbaHabib||r {spell:31821}\n{time:00:05,SCS:64189:2} <2> ||cfff58cbaLiptea||r {spell:31821}\n", -- [14]
-			"{spell:32182} Lust - Phase 2\n\n||cffee5555Impale/Snobold BOPs||r\n1st - Alsia Divine Shield {spell:642}\n2nd - Habíb Hand of Protection {spell:10278}\n3rd - Alsia Hand of Protection {spell:10278}\n4th - Shikimora Hand of Protection {spell:10278}\n\n||cffee5555Jormungar CDs||r\n1st - Habíb Aura Mastery {spell:31821}\n2nd - Habíb Divine Guardian {spell:70940}\n3rd - Alsia Divine Guardian {spell:70940}\n4th - Shikimora Aura Mastery {spell:31821}\n\n||cffee5555Arctic Breath CDs||r\n1st - Habíb Divine Guardian {spell:70940}\n2nd - Shikimora Aura Mastery {spell:31821}\n3rd - Habíb Aura Mastery {spell:31821}\n4th - Liptea Divine Guardian {spell:70940}\n5th - Serferine Divine Guardian {spell:70940}", -- [15]
-			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [16]
-		},
 		["BlackLastUpdateTime"] = {
 			1688668028, -- [1]
 			1688666786, -- [2]
@@ -1092,11 +1104,29 @@ VMRT = {
 			1687686826, -- [15]
 			1696890027, -- [16]
 		},
+		["Black"] = {
+			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [1]
+			"", -- [2]
+			"||cffee5555BoP:||r\n||cfff58cbaShikimora||r  --> ||cffff7d0aHakkî||r\n||cfff58cbaAlsia||r --> ||cffff7d0aUwugamergirl||r\n||cfff58cbaLiptea||r --> ||cff40c7ebJodifrosta||r\n||cfff58cbaBubbledîne||r --> ||cff8787edBlinkyli||r\nXeeli --> ||cffff7d0aKyleriemen||r", -- [3]
+			"||cffee5555Tympanic Tantrum||r (chain casts)\n{time:00:05,SCS:62776:1} ||cffee5555Tantrum 1||r - ||cfff58cbaAlsia||r {spell:64205} + Liptea {spell:64205}\n{time:00:05,SCS:62776:2} ||cffee5555Tantrum 2||r ||r- ||cfff58cbaXeeli||r {spell:64205} + Shikimora ||r{spell:64205} + Serferine {spell:64843}\n{time:00:05,SCS:62776:3} ||cffee5555Tantrum 3||r - ||cfff58cbaAlsia||r {spell:64205} + Liptea {spell:64205} + Hanaltar {spell:64843}\n{time:00:05,SCS:62776:4} ||cffee5555Tantrum 4||r - ||cfff58cbaXeeli||r {spell:64205} + Shikimora {spell:64205} + {spell:740}", -- [4]
+			"||cff55ee55Fusion Punch (P3)||r\n<1> {spell:61903} Liptea {spell:64205} + {spell:6940}\n<2> {spell:61903} ||cfff48cbaXeeli||r {spell:64205} + {spell:6940}\n<3> {spell:61903} Shikimora {spell:64205} + {spell:6940}\n<4> {spell:61903} Serferine {spell:33206}||cfff58cba||r", -- [5]
+			"||cfffff569Collapsing Stars||r\n{time:00:05,SCC:65108:1} ||cfffff569Star 1||r - NO CDs.\n{time:00:05,SCC:65108:2} ||cfffff569Star 2||r - Xeeli {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:3} ||cfffff569Star 3||r - ||cfff58cbaLiptea||r {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:4} ||cfffff569Star 4||r - ||cfff58cbaShikimora||r {spell:31821} + Bubbledine {spell:64843}\n{time:00:05,SCC:65108:5} ||cfffff569Star 5||r - Alsia & ||cffff7d0aFirecat||r & ||cffff7d0aHakkî||r {spell:9863}\n{time:00:05,SCC:65108:6} ||cfffff569Star 6||r - ||cffffffffSerferine||r {spell:64843} + {spell:47878}\n{time:00:05,SCC:65108:7} ||cfffff569Star 7||r - Xeeli  {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:8} ||cfffff569Star 8||r - Liptea {spell:64205}{spell:31821}\n{time:00:05,SCC:65108:9} ||cfffff569Star 9||r - ||cfff58cbaShikimora||r ||r{spell:31821} + Bubbledine {spell:64843}\n{time:00:05,SCC:65108:10} ||cfffff569Star 10||r - Alsia ||r{spell:64205}", -- [6]
+			"||cffc79c6eRubble Explosions||r\n{time:00:25} <1> Liptea {spell:64205}\n{time:01:00} <2> ||cfff58cbaXeeli||r {spell:64205}", -- [7]
+			"||cffff0000On pull:||r ||cfff58cbaAlsia||r {spell:498} + Xeeli {spell:642}{spell:6940} + Hanaltar {spell:33206}\n\nBoP:\n||cfff58cbaShikimora||r  --> ||cffff7d0aHakkî||r\n||cfff58cbaAlsia||r --> ||cffff7d0aUwugamergirl||r\n||cfff58cbaLiptea||r --> ||cff40c7ebJodifrosta||r\n||cfff58cbaBubbledîne||r --> ||cff8787edBlinkyli||r\nXeeli --> ||cffff7d0aKyleriemen||r\n\n||cffffff00Sonic Screech||r\n{time:00:05, SCC:64688:1} <1> ||cfff58cbaBubbledîne||r {spell:64205}\n{time:00:05, SCC:64688:2} <2> ||cfff58cbaAlsia||r||r {spell:64205}", -- [8]
+			"||cff0070deFrozen Blows||r\n{time:00:05,SCS:63512:1} <1> Xeeli {spell:64205} {spell:31821}\n{time:00:05,SCS:63512:2} <2> ||cfff58cbaAlsia||r {spell:64205}", -- [9]
+			"||cffee5555Unbalancing Strike||r\n{time:00:05,SCS:62130:1} <1> No CD\n{time:00:05,SCS:62130:2} <2> No CD\n{time:00:05,SCS:62130:3} <3> No CD\n{time:00:05,SCS:62130:4} <4>  ||cfff58cbaShikimora||r {spell:6940}\n{time:00:05,SCS:62130:5} <5> ||cfff58cbaXeeli||r {spell:6940}\n{time:00:05,SCS:62130:6} <6> Liptea {spell:6940}\n{time:00:05,SCS:62130:7} <7> ||cfff58cbaAlsia||r {spell:6940}\n{time:00:05,SCS:62130:8} <8> Hanaltar {spell:33206}\n{time:00:05,SCS:62130:9} <9> Tank Personal\n{time:00:05,SCS:62130:10} <10> Tank Personal\n{time:00:05,SCS:62130:11} <11> Tank Personal\n \n||cff55ee55Tunnel Healers||r: ||cfff58cbaLiptea||r & ||cffffffffHanaltar||r ", -- [10]
+			"||cffee5555Ground Tremor||r\n{time:00:05,SCS:62859:1} ||cffee5555Tremor 1||r - ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62859:2} ||cffee5555Tremor 2||r - ||cfff58cbaLiptea||r  {spell:64205}\n{time:00:05,SCS:62859:3} ||cffee5555Tremor 3||r - ||cfff58cbaAsdâlan||r {spell:64205}\n{time:00:05,SCS:62859:4} ||cffee5555Tremor 4||r - ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62859:5} ||cffee5555Tremor 5||r - ||cfff58cbaLiptea||r  {spell:64205}\n{time:00:05,SCS:62859:6} ||cffee5555Tremor 6 ||r- ||cfff58cbaAsdâlan||r {spell:64205}\n \n||cffee5555Lasher Deaths||r\n{time:00:05,SCC:62937:1} First Set: ||cfff58cbaLiptea||r {spell:31821} + ||cffc41f3bDelmonte||r  & Vacaria\n{time:00:05,SCC:62937:30} Second Set: ||cfff58cbaAlsia||r {spell:31821} +  ||cffc41f3bMorai||r  & Königmoca\n\nWater: ||cfffff569Ukban||r & ||cff0070deWîdi||r\nStorm: ||cfffff569Onixus||r & ||cff0070deVacaria||r\nSnaplasher: ||cffc41f3bMorai||r ", -- [11]
+			"||cffff0000Plasma Blast CD (P1)||r\n{time:00:05,SCS:64529:1} <1> ||cffffffffSerferine||r {spell:33206} + ||cfff58cbaShikimora||r {spell:6940}\n{time:00:05,SCS:64529:2} <2> ||cfff58cbaAlsia||r {spell:498} + ||cfff58cbaLiptea||r {spell:6940}\n \n||cffff7d0aHeat Wave||r (every 10-15 sec) (P2)\n{time:00:01,SAA:64533:1} <1> ||cfff48cbaAlsia||r {spell:64205}\n{time:00:11,SAA:64533:1} <2> ||cfff58cbaLiptea||r {spell:64205}\n{time:00:21,SAA:64533:1} <3> ||cfff58cbaLiptea||r {spell:31821}\n{time:00:31,SAA:64533:1} <4> Joicindyr {spell:64843}\n{time:00:41,SAA:64533:1} <5> Hanaltar {spell:64843}\n{time:00:51,SAA:64533:1} <6> ||cfff58cbaShikimora||r {spell:64205}\n\n\nKerne: ||cffc79c6eWønka||r\nKite: ||cffc41f3bMorai||r\nBombs: ||cffff7d0aVanec||r", -- [12]
+			"||cffa330c9Surge of Darkness Tank CD||r\n{time:00:05,SCS:62662:1} <1> Hanaltar {spell:33206} +  ||cfff58cbaXeeli||r {spell:64205}\n{time:00:05,SCS:62662:2} <2> ||cfff58cbaLiptea||r {spell:64205} + ||cfff58cbaLiptea||r {spell:642}{spell:6940}\n{time:00:05,SCS:62662:3} <3> ||cfff58cbaAlsia||r {spell:498}\n{time:00:05,SCS:62662:4} <4> ||Hanaltar {spell:33206} + ||cfff58cbaXeeli||r {spell:642}{spell:6940}\n{time:00:05,SCS:62662:5} <5> ||cfff58cbaBubbledîne||r {spell:642}{spell:6940} + ||cfff58cbaAlsia||r {spell:64205}\n{time:00:05,SCS:62662:1} <6> ||cfff58cbaAlsia||r {spell:498}\n{time:00:05,SCS:62662:6} <7> Hanaltar {spell:33206} \n\n||cffee5555Kicker||r\nGroup 1: ||cffc79c6eWønka||r & Fumas\nGroup 2: ||cfffff569Onixus||r & Delmonte\nGroup 3 ||cff0070deVacaria||r & ||cffc79c6eMinoton||r", -- [13]
+			"1. ||cffffffffSerferine||r\n2. ||cfffff569Onixus||r \n3. ||cfffff569Ukban||r \n4. ||cfff58cbaAsdâlan||r \n5. ||cffff7d0aVanec||r\n6. ||cffc41f3bDelmonte||r\n7. ||cffc41f3bTaste||r \n8. ||cffc41f3bMorai||r\n9. ||cff0070deHítaf||r\n10. ||cffff7d0aHakkî||r\n\n\n||cffa330c9Shadow Nova (P1)||r\n||cfff58cbaAlsia||r {spell:64205}\n||cfff58cbaHabib||r {spell:64205}\n||cfff58cbaLiptea||r  {spell:64205}\n \n||cffff0000Defeaning Roar (P3)||r\n{time:00:05,SCS:64189:1} <1> ||cfff58cbaHabib||r {spell:31821}\n{time:00:05,SCS:64189:2} <2> ||cfff58cbaLiptea||r {spell:31821}\n", -- [14]
+			"{spell:32182} Lust - Phase 2\n\n||cffee5555Impale/Snobold BOPs||r\n1st - Alsia Divine Shield {spell:642}\n2nd - Habíb Hand of Protection {spell:10278}\n3rd - Alsia Hand of Protection {spell:10278}\n4th - Shikimora Hand of Protection {spell:10278}\n\n||cffee5555Jormungar CDs||r\n1st - Habíb Aura Mastery {spell:31821}\n2nd - Habíb Divine Guardian {spell:70940}\n3rd - Alsia Divine Guardian {spell:70940}\n4th - Shikimora Aura Mastery {spell:31821}\n\n||cffee5555Arctic Breath CDs||r\n1st - Habíb Divine Guardian {spell:70940}\n2nd - Shikimora Aura Mastery {spell:31821}\n3rd - Habíb Aura Mastery {spell:31821}\n4th - Liptea Divine Guardian {spell:70940}\n5th - Serferine Divine Guardian {spell:70940}", -- [15]
+			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [16]
+		},
 		["EnableWhenReceive"] = true,
 		["Height"] = 211.0000152587891,
 		["Strata"] = "HIGH",
 		["Scale"] = 88,
-		["enabled"] = true,
+		["DefName"] = "Flame Leviathan",
 	},
 	["Logging"] = {
 	},
@@ -1111,8 +1141,8 @@ VMRT = {
 			[3] = true,
 			[5] = true,
 		},
-		["Alpha"] = 50,
 		["ShowOnHoverAlpha"] = 1,
+		["Alpha"] = 50,
 	},
 	["VisNote"] = {
 		["data"] = {

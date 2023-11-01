@@ -21,7 +21,7 @@ GargulDB = {
 		["6.2.5"] = 1695244375,
 		["6.2.6"] = 1696893333,
 		["latestVersionChangesShown"] = "7.0.0",
-		["lastLoadedOn"] = 1698618881,
+		["lastLoadedOn"] = 1698706659,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,

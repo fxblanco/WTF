@@ -13,6 +13,22 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
+			["GUI"] = {
+				["point"] = {
+					"BOTTOMRIGHT", -- [1]
+					nil, -- [2]
+					"BOTTOMRIGHT", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"IcecrownCitadel", -- [2]
+					nil, -- [3]
+					10, -- [4]
+					0, -- [5]
+				},
+			},
 		},
 		["Andrés - Venoxis"] = {
 		},

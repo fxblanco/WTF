@@ -350,6 +350,7 @@ VMRT = {
 			["Bánu"] = 0,
 			["Luguri"] = 0,
 			["Reeyø-Auberdine"] = 0,
+			["Krioss"] = 0,
 			["Brishja"] = 0,
 			["Kryozon"] = 0,
 			["Detôx"] = 0,
@@ -537,17 +538,17 @@ VMRT = {
 			["Verothon"] = 0,
 			["Specializt"] = 0,
 			["Hitmeplease"] = 0,
-			["Larasombardi"] = 0,
-			["Ioná"] = 0,
-			["Mpal"] = 0,
-			["Vishnuu"] = 0,
 			["Dioxiz"] = 0,
-			["Bratansnitch"] = 0,
+			["Hakkî"] = 0,
 			["Perakon"] = 0,
+			["Habíb"] = 0,
+			["Vishnuu"] = 0,
+			["Connielingus"] = 0,
+			["Larasombardi"] = 0,
 			["Kangamah"] = 0,
 			["Renooknight"] = 0,
 			["Moinmacs"] = 0,
-			["Habíb"] = 0,
+			["Mpal"] = 0,
 			["Lorroth"] = 0,
 			["Sixofspades"] = 0,
 			["Beesportz"] = 0,
@@ -555,17 +556,17 @@ VMRT = {
 			["Jezra"] = 0,
 			["Andrés"] = 0,
 			["Asec"] = 0,
-			["Connielingus"] = 0,
-			["Memfiqt"] = 0,
+			["Rootme"] = 0,
+			["Graveofjenna"] = 0,
 			["Loovee"] = 0,
 			["Gitgudm"] = 0,
-			["Marotéch"] = 0,
+			["Bratansnitch"] = 0,
 			["Darkkosar"] = 0,
-			["Rootme"] = 0,
+			["Krautbeatzx"] = 0,
 			["Minwhitydudu"] = 0,
 			["Lümmler"] = 0,
 			["Viçtoria"] = 0,
-			["Krautbeatzx"] = 0,
+			["Tolazytolvl"] = 0,
 			["Veluza"] = 0,
 			["Andalamar"] = 0,
 			["Vanec"] = 0,
@@ -588,17 +589,17 @@ VMRT = {
 			["Quaddamáge"] = 0,
 			["Zozoqt"] = 0,
 			["Michorc"] = 0,
-			["Tolazytolvl"] = 0,
+			["Marotéch"] = 0,
 			["Xéreks"] = 0,
 			["Rastason"] = 0,
 			["Aiona"] = 0,
-			["Graveofjenna"] = 0,
+			["Memfiqt"] = 0,
 			["Steelclaws-Golemagg"] = 0,
 			["Giaru"] = 0,
 			["Siebeneins"] = 0,
-			["Orizi"] = 0,
+			["Ioná"] = 0,
 			["Kwasimojo"] = 0,
-			["Hakkî"] = 0,
+			["Orizi"] = 0,
 			["Gablehauser"] = 0,
 			["Krisco"] = 0,
 			["Shikimora"] = 0,
@@ -643,10 +644,10 @@ VMRT = {
 			["1038;1"] = 3,
 			["31821;1"] = 2,
 			["871;1"] = 1,
-			["20608;1"] = 2,
+			["9863;1"] = 2,
 			["2825;1"] = 2,
 			["20748;1"] = 2,
-			["9863;1"] = 2,
+			["20608;1"] = 2,
 			["29166;1"] = 4,
 			["64205;1"] = 2,
 		},
@@ -827,17 +828,17 @@ VMRT = {
 				["blacklistGeneral"] = true,
 				["textureColorTextDefaultG"] = 1,
 				["textureColorTimeLineActiveB"] = 1,
-				["textureColorTimeLineDefaultG"] = 1,
+				["frameWidth"] = 130,
 				["textureColorBackgroundActiveG"] = 1,
 				["textureColorTimeLineDefaultB"] = 1,
 				["textureAlphaBackground"] = 0.15,
-				["frameWidth"] = 130,
+				["textureAnimation"] = true,
 				["textureClassTimeLine"] = true,
 				["textureColorBackgroundActiveR"] = 1,
 				["fontSize"] = 12,
-				["textTemplateRight"] = "%time%",
-				["iconGray"] = false,
 				["textureColorTextActiveR"] = 0.5,
+				["iconGray"] = false,
+				["textTemplateRight"] = "%time%",
 				["textureColorTextCooldownG"] = 1,
 				["visibilityGeneral"] = true,
 				["textureColorTextCooldownR"] = 1,
@@ -849,8 +850,8 @@ VMRT = {
 				["textureColorTimeLineCooldownB"] = 1,
 				["textureColorBackgroundCooldownR"] = 1,
 				["textureAlphaTimeLine"] = 1,
-				["iconGlowType"] = 4,
 				["methodsTimeLineAnimation"] = 2,
+				["iconGlowType"] = 4,
 				["frameScale"] = 80,
 				["textureColorBackgroundCooldownB"] = 1,
 				["textureClassText"] = false,
@@ -863,7 +864,7 @@ VMRT = {
 				["frameAlpha"] = 100,
 				["textureColorTextDefaultB"] = 1,
 				["textureColorTimeLineActiveR"] = 1,
-				["textureAnimation"] = true,
+				["textureColorTimeLineDefaultG"] = 1,
 				["textureAlphaCooldown"] = 0.85,
 			}, -- [11]
 		},
@@ -1030,17 +1031,17 @@ VMRT = {
 		["HideOutsideRaid"] = true,
 		["SelfText"] = "",
 		["Fix"] = true,
-		["DefName"] = "Flame Leviathan",
+		["enabled"] = true,
 		["ScaleBack"] = 20,
 		["Text1"] = "Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7eb",
 		["OptionsFormatting"] = true,
-		["enabled"] = true,
+		["DefName"] = "Flame Leviathan",
 		["Scale"] = 88,
 		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Alsia-Venoxis",
 		["Strata"] = "HIGH",
 		["Top"] = 397.52319335938,
-		["Alpha"] = 50,
+		["TimerPassedHide"] = true,
 		["Width"] = 380.0000305175781,
 		["BlackLastUpdateName"] = {
 			"Alsia-Venoxis", -- [1]
@@ -1061,24 +1062,6 @@ VMRT = {
 			"Alsia", -- [16]
 		},
 		["EnableWhenReceive"] = true,
-		["BlackLastUpdateTime"] = {
-			1688668028, -- [1]
-			1688666786, -- [2]
-			1688667588, -- [3]
-			1688666890, -- [4]
-			1688666909, -- [5]
-			1688667086, -- [6]
-			1688667097, -- [7]
-			1688667600, -- [8]
-			1688667146, -- [9]
-			1688667221, -- [10]
-			1688935346, -- [11]
-			1687462188, -- [12]
-			1688667375, -- [13]
-			1690140165, -- [14]
-			1687686826, -- [15]
-			1696890027, -- [16]
-		},
 		["Black"] = {
 			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [1]
 			"", -- [2]
@@ -1097,18 +1080,36 @@ VMRT = {
 			"{spell:32182} Lust - Phase 2\n\n||cffee5555Impale/Snobold BOPs||r\n1st - Alsia Divine Shield {spell:642}\n2nd - Habíb Hand of Protection {spell:10278}\n3rd - Alsia Hand of Protection {spell:10278}\n4th - Shikimora Hand of Protection {spell:10278}\n\n||cffee5555Jormungar CDs||r\n1st - Habíb Aura Mastery {spell:31821}\n2nd - Habíb Divine Guardian {spell:70940}\n3rd - Alsia Divine Guardian {spell:70940}\n4th - Shikimora Aura Mastery {spell:31821}\n\n||cffee5555Arctic Breath CDs||r\n1st - Habíb Divine Guardian {spell:70940}\n2nd - Shikimora Aura Mastery {spell:31821}\n3rd - Habíb Aura Mastery {spell:31821}\n4th - Liptea Divine Guardian {spell:70940}\n5th - Serferine Divine Guardian {spell:70940}", -- [15]
 			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [16]
 		},
+		["BlackLastUpdateTime"] = {
+			1688668028, -- [1]
+			1688666786, -- [2]
+			1688667588, -- [3]
+			1688666890, -- [4]
+			1688666909, -- [5]
+			1688667086, -- [6]
+			1688667097, -- [7]
+			1688667600, -- [8]
+			1688667146, -- [9]
+			1688667221, -- [10]
+			1688935346, -- [11]
+			1687462188, -- [12]
+			1688667375, -- [13]
+			1690140165, -- [14]
+			1687686826, -- [15]
+			1696890027, -- [16]
+		},
 		["Height"] = 211.0000152587891,
+		["Alpha"] = 50,
 		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 		["LastUpdateTime"] = 1696891123,
-		["TimerPassedHide"] = true,
 	},
 	["Logging"] = {
 	},
 	["MarksBar"] = {
 		["Top"] = 170.6000823974609,
 		["Strata"] = "HIGH",
-		["Alpha"] = 50,
 		["ShowOnHoverAlpha"] = 1,
+		["Alpha"] = 50,
 		["pulltimer"] = 10,
 		["Show"] = {
 			true, -- [1]

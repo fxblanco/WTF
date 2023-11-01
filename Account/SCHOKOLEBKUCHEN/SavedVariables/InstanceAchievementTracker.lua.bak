@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["InfoFramescale"] = 1,
 	["hideCompletedAchievements"] = false,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -32857,6 +32857,36 @@ AchievementTrackerDebug = {
 	"29/10/2023 11:41 [DEBUG] Creating Tracking UI", -- [32832]
 	"29/10/2023 11:41 [DEBUG] InfoFrame Setup Complete", -- [32833]
 	"29/10/2023 11:41 [DEBUG] Expansion: 3", -- [32834]
+	"30/10/2023 0:2 [DEBUG] ---IAT Runtime---", -- [32835]
+	"30/10/2023 0:2 [DEBUG] Version: 4.25.0", -- [32836]
+	"30/10/2023 0:2 [DEBUG] Attempting to load from local NPC Cache classic", -- [32837]
+	"30/10/2023 0:2 [DEBUG] Generating NPC Cache Classic...", -- [32838]
+	"30/10/2023 0:2 [DEBUG] Enabling Addon", -- [32839]
+	"30/10/2023 0:2 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [32840]
+	"30/10/2023 0:2 [DEBUG] Showing Minimap Icon", -- [32841]
+	"30/10/2023 0:2 [DEBUG] Player has entered instance", -- [32842]
+	"30/10/2023 0:2 [DEBUG] 631", -- [32843]
+	"30/10/2023 0:2 [DEBUG] Offical Instance Name: 631 _631", -- [32844]
+	"30/10/2023 0:2 [DEBUG] Detected Legacy 10 man Raid", -- [32845]
+	"30/10/2023 0:2 [DEBUG] New Instance Name: 631-10", -- [32846]
+	"30/10/2023 0:2 [DEBUG] Expansion: 3", -- [32847]
+	"30/10/2023 0:2 [DEBUG] Instance Type: Raids", -- [32848]
+	"30/10/2023 0:2 [DEBUG] Instance: 631-10", -- [32849]
+	"30/10/2023 0:2 [DEBUG] DifficultyID: 5", -- [32850]
+	"30/10/2023 0:2 [DEBUG] Expansion: 3", -- [32851]
+	"30/10/2023 0:2 [DEBUG] Instance Type: Raids", -- [32852]
+	"30/10/2023 0:2 [DEBUG] Instance: 631-10", -- [32853]
+	"30/10/2023 0:2 [DEBUG] Asking user whether they want to track this instance", -- [32854]
+	"30/10/2023 0:2 [DEBUG] Creating Tracking UI", -- [32855]
+	"30/10/2023 0:2 [DEBUG] InfoFrame Setup Complete", -- [32856]
+	"30/10/2023 0:2 [DEBUG] Expansion: 3", -- [32857]
+	"30/10/2023 23:56 [DEBUG] ---IAT Runtime---", -- [32858]
+	"30/10/2023 23:56 [DEBUG] Version: 4.25.0", -- [32859]
+	"30/10/2023 23:56 [DEBUG] Attempting to load from local NPC Cache classic", -- [32860]
+	"30/10/2023 23:56 [DEBUG] Generating NPC Cache Classic...", -- [32861]
+	"30/10/2023 23:56 [DEBUG] Enabling Addon", -- [32862]
+	"30/10/2023 23:56 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [32863]
+	"30/10/2023 23:55 [DEBUG] Showing Minimap Icon", -- [32864]
 }
 AchievementTrackerNPCCache = {
 }
@@ -32889,9 +32919,9 @@ AchievementTrackerNPCCacheClassic = {
 	[26731] = "Großmagistrix Telestra",
 	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
-	[33136] = "Wächter des Yogg-Saron",
-	[27975] = "Maid der Trauer",
 	[33388] = "Dunkler Runenwächter",
+	[28731] = "Aufseher Silthik",
+	[33136] = "Wächter des Yogg-Saron",
 	[27658] = "Belgaristrasz",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
@@ -32899,7 +32929,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unaufhaltsame Monstrosität",
 	[28729] = "Aufseher Narjil",
 	[28730] = "Aufseher Gashra",
-	[28731] = "Aufseher Silthik",
+	[27975] = "Maid der Trauer",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",

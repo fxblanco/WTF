@@ -11,9 +11,9 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
+			["fastooc"] = false,
 			["alerthidden"] = true,
 			["downclick"] = false,
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Alsia - Venoxis",
 			["specswap"] = false,
 		},
@@ -21,16 +21,16 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
 			["downclick"] = false,
-			["specswap"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["spec2_profileKey"] = "Xolem - Venoxis",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Xolem - Venoxis",
 			["alerthidden"] = true,
-			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -80,13 +80,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
 					["spell"] = "Geringe Welle der Heilung",
@@ -95,17 +88,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136043,
 					["spellSubName"] = "Rang 9",
-				}, -- [3]
+				}, -- [2]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Kettenheilung",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136042,
-					["spellSubName"] = "Rang 7",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -115,6 +105,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136052,
 					["spellSubName"] = "Rang 14",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spell"] = "Kettenheilung",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136042,
+					["spellSubName"] = "Rang 7",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -198,12 +198,12 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
-					["spell"] = "Hand der Freiheit",
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -216,6 +216,15 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135968,
+					["spell"] = "Hand der Freiheit",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
 					["spell"] = "Hand des Schutzes",
 					["sets"] = {
@@ -223,15 +232,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135964,
 					["spellSubName"] = "Rang 3",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -253,6 +253,15 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Göttliches Eingreifen",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["spell"] = "Heiliges Licht",
 					["sets"] = {
@@ -260,7 +269,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135920,
 					["spellSubName"] = "Rang 13",
-				}, -- [8]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -270,15 +279,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135928,
 					["spellSubName"] = "Rang 5",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136106,
-					["spell"] = "Göttliches Eingreifen",
 				}, -- [10]
 				{
 					["type"] = "target",

@@ -1,5 +1,5 @@
 VER 3 000000000000003F "111_" "134400"
-/4 Final TOGC 25 GDKP - 50 TL - 10k Tokens, 5k Min Bid - Wisp me mit Logs - Resto Schami Dann Go!
+/2 ICC 10 GDKP (6-8hc) - Dienstag (Heute) 22:30 - Anmeldung mit Logs unter https://discord.gg/X38D4apW - Tank, PalaHeal, DD
 END
 VER 3 0000000000000038 "cancel" "134400"
 /cancelaura Gebet der Seelenstärke
