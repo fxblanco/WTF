@@ -1,15 +1,15 @@
 
 AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+	},
 	["global"] = {
 		["__addonrevision"] = 3020000,
 		["VendorPrice"] = {
 			[44231] = "EmblemOfHeroism:200",
 		},
-	},
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -30,9 +30,9 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Andrés - Venoxis"] = {
-		},
 		["Kwasimojo - Venoxis"] = {
+		},
+		["Andrés - Venoxis"] = {
 		},
 	},
 }

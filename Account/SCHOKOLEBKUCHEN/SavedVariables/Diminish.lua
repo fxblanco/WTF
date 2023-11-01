@@ -7,17 +7,9 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["trackNPCs"] = true,
-			["timerEdge"] = true,
-			["timerText"] = true,
+			["timerColors"] = false,
 			["categoryTextMaxLines"] = 2,
-			["announceDRs"] = false,
-			["border"] = {
-				["edgeSize"] = 2.5,
-				["layer"] = "BORDER",
-				["name"] = "Default",
-				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
-			},
+			["trackNPCs"] = true,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -43,11 +35,6 @@ DiminishDB = {
 				["player"] = {
 					["enabled"] = true,
 					["anchorUIParent"] = false,
-					["growDirection"] = "RIGHT",
-					["iconPadding"] = 10,
-					["watchFriendly"] = true,
-					["disabledCategories"] = {
-					},
 					["zones"] = {
 						["party"] = false,
 						["scenario"] = true,
@@ -56,6 +43,11 @@ DiminishDB = {
 						["arena"] = true,
 						["none"] = true,
 					},
+					["iconPadding"] = 10,
+					["watchFriendly"] = true,
+					["disabledCategories"] = {
+					},
+					["growDirection"] = "RIGHT",
 					["offsetX"] = -6,
 					["timerTextSize"] = 12,
 					["iconSize"] = 21,
@@ -151,13 +143,21 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
+			["timerEdge"] = true,
+			["border"] = {
+				["edgeSize"] = 2.5,
+				["layer"] = "BORDER",
+				["name"] = "Default",
+				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
+			},
+			["announceDRs"] = false,
 			["version"] = "1.11",
 			["timerStartAuraEnd"] = false,
 			["showCategoryText"] = true,
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
+			["timerText"] = true,
 			["timerSwipe"] = true,
-			["timerColors"] = false,
 			["categoryFont"] = {
 				["size"] = 11,
 				["x"] = 0,

@@ -3474,6 +3474,16 @@ ItemListsDB = {
 				}, -- [5]
 			},
 		},
+		[50183] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
 		[51939] = {
 			["wishlist"] = {
 				{
@@ -3481,16 +3491,6 @@ ItemListsDB = {
 					["character_class"] = 7,
 					["sort_order"] = 5,
 					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50178] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
@@ -3581,12 +3581,12 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50183] = {
+		[50178] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["character_name"] = "Ukban",
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
