@@ -24,6 +24,12 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -37,19 +43,13 @@ GDKPd_DB = {
 				["x"] = -406.9999389648438,
 			},
 			["startBid"] = 100,
+			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
-			["increment"] = 10,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -153,35 +153,35 @@ GDKPd_DB = {
 			["increment"] = 20,
 		},
 		["Kwasimojo - Venoxis"] = {
-			["announceBidRaidWarning"] = true,
-			["balancepoint"] = {
-				["y"] = -131.5301666259766,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 426.3553161621094,
-			},
-			["auctionTimer"] = 17,
-			["playerbalancepoint"] = {
-				["y"] = 76.32506561279297,
-				["x"] = -325.6748657226563,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
 			["point"] = {
 				["y"] = -16.99997520446777,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = -79.00001525878906,
 			},
+			["announceBidRaidWarning"] = true,
 			["auctionTimerRefresh"] = 10,
-			["startBid"] = 200,
-			["increment"] = 20,
+			["balancepoint"] = {
+				["y"] = -131.5301666259766,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 426.3553161621094,
+			},
+			["playerbalancepoint"] = {
+				["y"] = 76.32506561279297,
+				["x"] = -325.6748657226563,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["auctionTimer"] = 17,
 			["statuspoint"] = {
 				["y"] = -152.2695617675781,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
+			["increment"] = 20,
+			["startBid"] = 200,
 		},
 	},
 }

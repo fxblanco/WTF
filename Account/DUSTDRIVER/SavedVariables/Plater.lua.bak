@@ -1,30 +1,70 @@
 
 PlaterDB = {
 	["captured_spells"] = {
-		[55964] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
+		[58875] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Geisterwolf",
+			["npcID"] = 29264,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
+			["encounterID"] = 215,
 		},
-		[56737] = {
+		[4511] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenschinder",
-			["npcID"] = 30284,
+			["source"] = "Tarnar",
+			["npcID"] = 416,
 		},
-		[45525] = {
-			["type"] = "BUFF",
-			["source"] = "Magier der Kriegshymnenfeste",
+		[61462] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Frostbringer",
+			["npcID"] = 30286,
+		},
+		[42587] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Der kopflose Reiter",
+			["npcID"] = 23682,
+		},
+		[59466] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 25420,
+			["type"] = "DEBUFF",
+			["source"] = "Lavahund",
+			["npcID"] = 32237,
 		},
-		[19647] = {
+		[12611] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Flaanum",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[20615] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
+		},
+		[68950] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[68982] = {
+			["encounterName"] = "Verschlinger der Seelen",
+			["source"] = "Verschlinger der Seelen",
+			["npcID"] = 36502,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 831,
+		},
+		[57566] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
 			["npcID"] = 417,
 		},
 		[24751] = {
@@ -33,11 +73,1131 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 28687,
 		},
+		[54053] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Haadom",
+			["npcID"] = 417,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[42380] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Der kopflose Reiter",
+			["npcID"] = 23682,
+		},
+		[8599] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Knochenschinder",
+			["npcID"] = 30284,
+		},
+		[54261] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[61463] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Auge von Taldaram",
+			["npcID"] = 30285,
+		},
+		[59467] = {
+			["encounterName"] = "Urahne Nadox",
+			["source"] = "Urahne Nadox",
+			["npcID"] = 29309,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 212,
+		},
+		[59994] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30621,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[44185] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Der kopflose Reiter",
+			["npcID"] = 23682,
+		},
+		[67834] = {
+			["isChanneled"] = false,
+			["source"] = "Wurmloch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 35646,
+		},
+		[55970] = {
+			["encounterName"] = "Prinz Taldaram",
+			["type"] = "BUFF",
+			["source"] = "Prinz Taldaram",
+			["npcID"] = 29308,
+			["event"] = "SPELL_AURA_APPLIED",
+			["encounterID"] = 213,
+		},
+		[57567] = {
+			["isChanneled"] = false,
+			["source"] = "Flaadrom",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 417,
+		},
+		[69080] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Knochenwirker der Seelenwache",
+			["npcID"] = 36564,
+		},
+		[20424] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Paladin",
+			["npcID"] = 32342,
+		},
+		[35706] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Thoodhun",
+			["npcID"] = 17252,
+		},
+		[68793] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[32736] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[56737] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Knochenschinder",
+			["npcID"] = 30284,
+		},
+		[68921] = {
+			["encounterName"] = "Bronjahm",
+			["type"] = "DEBUFF",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["event"] = "SPELL_AURA_APPLIED",
+			["encounterID"] = 829,
+		},
+		[13338] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zwielichtdunkelzauberer",
+			["npcID"] = 30319,
+		},
+		[58861] = {
+			["encounterName"] = "Urahne Nadox",
+			["source"] = "Geisterwolf",
+			["npcID"] = 29264,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 212,
+		},
+		[3600] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Totem der Erdbindung",
+			["npcID"] = 2630,
+		},
+		[71157] = {
+			["source"] = "Verseuchter Zombie",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 38104,
+		},
+		[52825] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Sonix",
+			["npcID"] = 28086,
+		},
+		[59995] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30621,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[60011] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30621,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[67836] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wurmloch",
+			["npcID"] = 35646,
+		},
+		[27275] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Elerneth",
+			["npcID"] = 1863,
+		},
+		[52474] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Rema",
+			["npcID"] = 20330,
+		},
+		[6713] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[58702] = {
+			["isChanneled"] = false,
+			["source"] = "Totem der Verbrennung X",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 31165,
+		},
+		[67837] = {
+			["isChanneled"] = false,
+			["source"] = "Wurmloch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 35646,
+		},
+		[61353] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dagna Flintriegel",
+			["npcID"] = 29476,
+		},
+		[69051] = {
+			["encounterName"] = "Verschlinger der Seelen",
+			["source"] = "Verschlinger der Seelen",
+			["npcID"] = 36502,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 831,
+		},
+		[57984] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Großer Feuerelementar",
+			["npcID"] = 15438,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[15043] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[68988] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[59102] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zauberwerfer der Ahn'kahar",
+			["npcID"] = 30278,
+		},
+		[69052] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Wachmann der Seelenwache",
+			["npcID"] = 36478,
+		},
+		[69148] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Spektraler Wärter",
+			["npcID"] = 36666,
+		},
+		[56643] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wache der Ahn'kahar",
+			["npcID"] = 31104,
+		},
+		[24529] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 28002,
+		},
+		[12544] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Magister Surdiel",
+			["npcID"] = 32170,
+		},
+		[56707] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Seuchenwandler",
+			["npcID"] = 30283,
+		},
+		[54216] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Behundert",
+			["npcID"] = 30455,
+		},
+		[70043] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[69053] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wachmann der Seelenwache",
+			["npcID"] = 36478,
+		},
+		[59997] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30622,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[57458] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Gorilla",
+			["npcID"] = 1557,
+		},
+		[61562] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zwielichtdunkelzauberer",
+			["npcID"] = 30319,
+		},
+		[19579] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Gorilla",
+			["npcID"] = 1557,
+		},
+		[53434] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Rema",
+			["npcID"] = 20330,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[27268] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[388378] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Pebbles",
+			["npcID"] = 194870,
+		},
+		[59103] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zauberwerfer der Ahn'kahar",
+			["npcID"] = 30278,
+		},
+		[34655] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Giftige Schlange",
+			["npcID"] = 19833,
+		},
+		[61834] = {
+			["source"] = "Minigob Manaflausch",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 32838,
+		},
+		[68895] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Boshafte Erscheinung",
+			["npcID"] = 36551,
+		},
+		[388126] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Pebbles",
+			["npcID"] = 194870,
+		},
+		[6358] = {
+			["type"] = "DEBUFF",
+			["source"] = "Unbekannt",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 1863,
+		},
+		[32851] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Shaaghun",
+			["npcID"] = 17252,
+		},
+		[15786] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Schamane",
+			["npcID"] = 32340,
+		},
+		[24394] = {
+			["source"] = "Akrosonix",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 6500,
+		},
+		[388129] = {
+			["isChanneled"] = false,
+			["source"] = "Pebbles",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 194870,
+		},
+		[59008] = {
+			["isChanneled"] = false,
+			["source"] = "Kräftiger Wolf",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 31233,
+		},
+		[29544] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[72090] = {
+			["isChanneled"] = false,
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 38433,
+		},
+		[69056] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wachmann der Seelenwache",
+			["npcID"] = 36478,
+		},
+		[53515] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 1997,
+		},
+		[1604] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[11770] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[32714] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Schlitzer der Ahn'kahar",
+			["npcID"] = 30277,
+		},
+		[413172] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Unsterblicher Schmettertentakel",
+			["npcID"] = 206038,
+		},
+		[53148] = {
+			["source"] = "Akrosonix",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 6500,
+		},
+		[13323] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Magier",
+			["npcID"] = 32324,
+		},
+		[388134] = {
+			["isChanneled"] = false,
+			["source"] = "Pebbles",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 194870,
+		},
+		[72091] = {
+			["isChanneled"] = false,
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 38433,
+		},
+		[61995] = {
+			["isChanneled"] = false,
+			["source"] = "Minigob Manaflausch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 32838,
+		},
+		[33395] = {
+			["type"] = "DEBUFF",
+			["source"] = "Wasserelementar",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 510,
+		},
+		[67237] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Argentumlichtwirker",
+			["npcID"] = 35309,
+		},
+		[52909] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Bibliothekar Garren",
+			["npcID"] = 25291,
+		},
+		[36589] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Kräftiger Wolf",
+			["npcID"] = 31233,
+		},
+		[69058] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Ernter der Seelenwache",
+			["npcID"] = 36499,
+		},
+		[69633] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Spektraler Wärter",
+			["npcID"] = 36666,
+		},
+		[24259] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Flaanum",
+			["npcID"] = 417,
+		},
+		[56646] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wache der Ahn'kahar",
+			["npcID"] = 31104,
+		},
+		[29385] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Paladin",
+			["npcID"] = 32342,
+		},
+		[75446] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 24677,
+		},
+		[23844] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 1860,
+		},
+		[75447] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Gorilla",
+			["npcID"] = 1557,
+		},
+		[11974] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Priester",
+			["npcID"] = 32343,
+		},
+		[17289] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Auge von Taldaram",
+			["npcID"] = 30285,
+		},
+		[64695] = {
+			["source"] = "Totem der Erdbindung",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 2630,
+		},
+		[21401] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Schamane",
+			["npcID"] = 32340,
+		},
+		[59106] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Netzwinder der Ahn'kahar",
+			["npcID"] = 30276,
+		},
+		[69060] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Ernter der Seelenwache",
+			["npcID"] = 36499,
+		},
+		[54028] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Magierwache des Silberbunds",
+			["npcID"] = 29254,
+		},
+		[35696] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Thoodhun",
+			["npcID"] = 17252,
+		},
+		[44415] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Priester",
+			["npcID"] = 32343,
+		},
+		[35361] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Hainläufer",
+			["npcID"] = 31228,
+		},
+		[55817] = {
+			["source"] = "Unbekannt",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17252,
+		},
+		[32982] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Totem des Feuerelementars",
+			["npcID"] = 15439,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[56520] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Befreiter Kreuzfahrer",
+			["npcID"] = 30274,
+		},
+		[59107] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Knochenschinder",
+			["npcID"] = 30284,
+		},
+		[38204] = {
+			["isChanneled"] = false,
+			["source"] = "Unbändiger Seher",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 33422,
+		},
+		[56632] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Netzwinder der Ahn'kahar",
+			["npcID"] = 30276,
+		},
+		[56153] = {
+			["encounterName"] = "Urahne Nadox",
+			["type"] = "BUFF",
+			["source"] = "Wächter der Ahn'kahar",
+			["npcID"] = 30176,
+			["event"] = "SPELL_AURA_APPLIED",
+			["encounterID"] = 212,
+		},
+		[47993] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Shaaghun",
+			["npcID"] = 17252,
+		},
+		[68839] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[56728] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Auge von Taldaram",
+			["npcID"] = 30285,
+		},
+		[59826] = {
+			["source"] = "Gal'darah",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 29306,
+		},
+		[23829] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[9128] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[32919] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Kräftiger Wolf",
+			["npcID"] = 31233,
+		},
+		[61567] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zwielichtanbeter",
+			["npcID"] = 30111,
+		},
+		[68872] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 829,
+		},
+		[56521] = {
+			["source"] = "Befreiter Kreuzfahrer",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 30274,
+		},
+		[59108] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Tiefenkriecher",
+			["npcID"] = 30279,
+		},
+		[69128] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Animator der Seelenwache",
+			["npcID"] = 36516,
+		},
+		[57655] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30621,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[11767] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[47994] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Shaaghun",
+			["npcID"] = 17252,
+		},
+		[57767] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30622,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[48090] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unbekannt",
+			["npcID"] = 17252,
+		},
+		[55931] = {
+			["encounterName"] = "Prinz Taldaram",
+			["source"] = "Prinz Taldaram",
+			["npcID"] = 29308,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 213,
+		},
+		[61568] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zwielichtanbeter",
+			["npcID"] = 30111,
+		},
+		[72004] = {
+			["type"] = "DEBUFF",
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 38433,
+		},
+		[61632] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Sartharion",
+			["npcID"] = 28860,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[59109] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Tiefenkriecher",
+			["npcID"] = 30279,
+		},
+		[69066] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Adept der Seelenwache",
+			["npcID"] = 36620,
+		},
+		[69130] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Animator der Seelenwache",
+			["npcID"] = 36516,
+		},
+		[8314] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Kranal Fiss",
+			["npcID"] = 5907,
+		},
+		[47468] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Auferstandener Ghul",
+			["npcID"] = 26125,
+		},
+		[47484] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Markmaul",
+			["npcID"] = 26125,
+		},
+		[48011] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Flaanum",
+			["npcID"] = 417,
+		},
+		[68939] = {
+			["encounterName"] = "Verschlinger der Seelen",
+			["source"] = "Verschlinger der Seelen",
+			["npcID"] = 36502,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 831,
+		},
+		[69131] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Animator der Seelenwache",
+			["npcID"] = 36516,
+		},
+		[15532] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[14514] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[59988] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30622,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[51876] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30623,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[13005] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Paladin",
+			["npcID"] = 32342,
+		},
+		[24453] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 33776,
+		},
+		[59110] = {
+			["isChanneled"] = false,
+			["source"] = "Scheckiger Hirsch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 31236,
+		},
+		[59637] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Spiegelbild",
+			["npcID"] = 31216,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[59142] = {
+			["source"] = "Gehärteter Stahlhäscher",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 28578,
+		},
+		[23511] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Marschall der Nordtruppen von Dun Baldar",
+			["npcID"] = 14762,
+		},
+		[47996] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Shaaghun",
+			["npcID"] = 17252,
+		},
+		[65386] = {
+			["type"] = "BUFF",
+			["source"] = "Catrina",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 34383,
+		},
+		[73061] = {
+			["source"] = "Sindragosa",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 36853,
+		},
+		[69069] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Knochenwirker der Seelenwache",
+			["npcID"] = 36564,
+		},
+		[59989] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Verzerrtes Gesicht",
+			["npcID"] = 30621,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
+		},
+		[61570] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Zwielichtapostel",
+			["npcID"] = 30179,
+		},
+		[25228] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Thoodhun",
+			["npcID"] = 17252,
+		},
+		[19615] = {
+			["source"] = "Akrosonix",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 6500,
+		},
+		[59111] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Auge von Taldaram",
+			["npcID"] = 30285,
+		},
+		[59638] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Spiegelbild",
+			["npcID"] = 31216,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[19647] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Flaanum",
+			["npcID"] = 417,
+		},
+		[33625] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Schamane",
+			["npcID"] = 32340,
+		},
+		[7870] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Disriana",
+			["npcID"] = 1863,
+		},
+		[11640] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Priester",
+			["npcID"] = 32343,
+		},
+		[53602] = {
+			["source"] = "Ungeziefer der Anub'ar",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 29213,
+		},
+		[62305] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Behundert",
+			["npcID"] = 30455,
+		},
+		[56716] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Frostbringer",
+			["npcID"] = 30286,
+		},
+		[13704] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Priester",
+			["npcID"] = 32343,
+		},
+		[61459] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Seuchenwandler",
+			["npcID"] = 30283,
+		},
+		[56908] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Sartharion",
+			["npcID"] = 28860,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 742,
+		},
+		[71841] = {
+			["isChanneled"] = false,
+			["source"] = "Wächterin der Val'kyr",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 38391,
+		},
+		[67835] = {
+			["isChanneled"] = false,
+			["source"] = "Wurmloch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 35646,
+		},
+		[61044] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Gefallener Krieger",
+			["npcID"] = 36841,
+		},
+		[54508] = {
+			["source"] = "Haadhun",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17252,
+		},
+		[72034] = {
+			["isChanneled"] = false,
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 38433,
+		},
+		[68912] = {
+			["encounterName"] = "Verschlinger der Seelen",
+			["source"] = "Verschlinger der Seelen",
+			["npcID"] = 36502,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 831,
+		},
+		[61676] = {
+			["isChanneled"] = false,
+			["source"] = "Unbekannt",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 3823,
+		},
+		[55964] = {
+			["encounterName"] = "Prinz Taldaram",
+			["source"] = "Prinz Taldaram",
+			["npcID"] = 29308,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 213,
+		},
+		[25810] = {
+			["isChanneled"] = false,
+			["source"] = "Viper",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19921,
+		},
 		[52442] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
 			["source"] = "Arthas",
 			["npcID"] = 26499,
+		},
+		[17843] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Priester",
+			["npcID"] = 32343,
 		},
 		[59845] = {
 			["event"] = "SPELL_AURA_APPLIED",
@@ -51,91 +1211,11 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 7347,
 		},
-		[57566] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 417,
-		},
-		[52474] = {
+		[71993] = {
 			["isChanneled"] = false,
+			["source"] = "Toravon der Eiswächter",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[3600] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Totem der Erdbindung",
-			["npcID"] = 2630,
-		},
-		[69056] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
-		},
-		[75447] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[29385] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[61463] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[32919] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Kräftiger Wolf",
-			["npcID"] = 31233,
-		},
-		[52825] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Sonix",
-			["npcID"] = 28086,
-		},
-		[47996] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[32736] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[59997] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30622,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[67834] = {
-			["isChanneled"] = false,
-			["source"] = "Wurmloch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
-		},
-		[36213] = {
-			["isChanneled"] = false,
-			["source"] = "Großer Erdelementar",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 15352,
+			["npcID"] = 38433,
 		},
 		[33663] = {
 			["isChanneled"] = false,
@@ -143,55 +1223,35 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 15430,
 		},
-		[47993] = {
+		[36213] = {
+			["isChanneled"] = false,
+			["source"] = "Großer Erdelementar",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 15352,
+		},
+		[47982] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[61567] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtanbeter",
-			["npcID"] = 30111,
-		},
-		[59826] = {
-			["type"] = "DEBUFF",
-			["source"] = "Gal'darah",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 29306,
-		},
-		[47481] = {
-			["isChanneled"] = false,
-			["source"] = "Erdwurm",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 26125,
-		},
-		[11770] = {
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["event"] = "SPELL_AURA_APPLIED",
+			["source"] = "Jubpep",
 			["npcID"] = 416,
 		},
-		[57724] = {
-			["encounterName"] = "Sartharion",
-			["type"] = "DEBUFF",
-			["source"] = "Geisterwolf",
-			["npcID"] = 29264,
+		[58729] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 742,
+			["type"] = "BUFF",
+			["source"] = "Geisterführer der Taunka",
+			["npcID"] = 31841,
 		},
-		[23600] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
+		[57723] = {
+			["type"] = "DEBUFF",
+			["source"] = "FelFel",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 23326,
 		},
-		[69068] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
+		[70893] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Rema",
+			["npcID"] = 20330,
 		},
 		[54681] = {
 			["source"] = "Akrosonix",
@@ -199,75 +1259,17 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 6500,
 		},
-		[51876] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30623,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
 		[33844] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Uralter Wächter",
 			["npcID"] = 31229,
 		},
-		[57567] = {
-			["isChanneled"] = false,
-			["source"] = "Flaadrom",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 417,
-		},
-		[59114] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Plündernder Spuk",
-			["npcID"] = 30287,
-		},
-		[12611] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[19615] = {
-			["source"] = "Akrosonix",
-			["type"] = "BUFF",
+		[59178] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[59608] = {
-			["source"] = "Metallarbeiter der Drachenschinder",
 			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 24078,
-		},
-		[69058] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Ernter der Seelenwache",
-			["npcID"] = 36499,
-		},
-		[68054] = {
-			["isChanneled"] = false,
-			["source"] = "Jeeves",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35642,
-		},
-		[54053] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Haadom",
-			["npcID"] = 417,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[54131] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Rema",
-			["npcID"] = 20330,
+			["source"] = "Titanvorposten",
+			["npcID"] = 28838,
 		},
 		[44178] = {
 			["isChanneled"] = false,
@@ -281,25 +1283,87 @@ PlaterDB = {
 			["source"] = "Shaaghun",
 			["npcID"] = 17252,
 		},
-		[6713] = {
+		[59465] = {
+			["encounterName"] = "Urahne Nadox",
+			["source"] = "Urahne Nadox",
+			["npcID"] = 29309,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 212,
+		},
+		[23600] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Goldener Krieger",
 			["npcID"] = 32322,
 		},
-		[56643] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wache der Ahn'kahar",
-			["npcID"] = 31104,
+		[70127] = {
+			["source"] = "Sindragosa",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 36853,
 		},
-		[58875] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Geisterwolf",
-			["npcID"] = 29264,
+		[61460] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Seuchenwandler",
+			["npcID"] = 30283,
+		},
+		[58921] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Vater Kamaros",
+			["npcID"] = 31279,
+		},
+		[42514] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Pulsierender Kürbis",
+			["npcID"] = 23694,
+		},
+		[56909] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Sartharion",
+			["npcID"] = 28860,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
+			["encounterID"] = 742,
+		},
+		[69068] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Adept der Seelenwache",
+			["npcID"] = 36620,
+		},
+		[68054] = {
+			["isChanneled"] = false,
+			["source"] = "Jeeves",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 35642,
+		},
+		[8267] = {
+			["source"] = "Faulender Agam'ar",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 4512,
+		},
+		[53401] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Rema",
+			["npcID"] = 20330,
+		},
+		[47482] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Auferstandener Ghul",
+			["npcID"] = 26125,
+		},
+		[69564] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Adept der Seelenwache",
+			["npcID"] = 36620,
 		},
 		[59974] = {
 			["encounterName"] = "Herold Volazj",
@@ -315,191 +1379,11 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 17280,
 		},
-		[11974] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[24453] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 33776,
-		},
-		[57655] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[21401] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[56707] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Seuchenwandler",
-			["npcID"] = 30283,
-		},
-		[8314] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Kranal Fiss",
-			["npcID"] = 5907,
-		},
-		[17843] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[32982] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Totem des Feuerelementars",
-			["npcID"] = 15439,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[70127] = {
-			["source"] = "Sindragosa",
+		[59608] = {
+			["source"] = "Metallarbeiter der Drachenschinder",
 			["type"] = "DEBUFF",
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 36853,
-		},
-		[69633] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Spektraler Wärter",
-			["npcID"] = 36666,
-		},
-		[19134] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[61353] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dagna Flintriegel",
-			["npcID"] = 29476,
-		},
-		[42746] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wache der Ahn'kahar",
-			["npcID"] = 31104,
-		},
-		[73061] = {
-			["source"] = "Sindragosa",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 36853,
-		},
-		[61632] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[54028] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Magierwache des Silberbunds",
-			["npcID"] = 29254,
-		},
-		[54508] = {
-			["source"] = "Haadhun",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 17252,
-		},
-		[54261] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[38204] = {
-			["isChanneled"] = false,
-			["source"] = "Unbändiger Seher",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 33422,
-		},
-		[58867] = {
-			["isChanneled"] = false,
-			["source"] = "Geisterwolf",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 29264,
-		},
-		[24529] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 28002,
-		},
-		[69060] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Ernter der Seelenwache",
-			["npcID"] = 36499,
-		},
-		[58702] = {
-			["isChanneled"] = false,
-			["source"] = "Totem der Verbrennung X",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 31165,
-		},
-		[29386] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[70893] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[56716] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Frostbringer",
-			["npcID"] = 30286,
-		},
-		[59178] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Titanvorposten",
-			["npcID"] = 28838,
-		},
-		[61568] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtanbeter",
-			["npcID"] = 30111,
-		},
-		[24306] = {
-			["source"] = "Jin'do der Verhexer",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 11380,
-		},
-		[47982] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Jubpep",
-			["npcID"] = 416,
+			["npcID"] = 24078,
 		},
 		[59975] = {
 			["encounterName"] = "Herold Volazj",
@@ -509,39 +1393,77 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 215,
 		},
-		[61685] = {
+		[61684] = {
 			["isChanneled"] = false,
-			["source"] = "Akrosonix",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 6500,
+			["source"] = "Rema",
+			["npcID"] = 20330,
+		},
+		[388122] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Pebbles",
+			["npcID"] = 194870,
+		},
+		[19134] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Krieger",
+			["npcID"] = 32322,
+		},
+		[42746] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Wache der Ahn'kahar",
+			["npcID"] = 31104,
+		},
+		[58867] = {
+			["isChanneled"] = false,
+			["source"] = "Geisterwolf",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 29264,
+		},
+		[29386] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Paladin",
+			["npcID"] = 32342,
+		},
+		[47983] = {
+			["source"] = "Unbekannt",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 416,
+		},
+		[54131] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Rema",
+			["npcID"] = 20330,
+		},
+		[414266] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Sargreißer",
+			["npcID"] = 26125,
+		},
+		[47992] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Unbekannt",
+			["npcID"] = 1863,
+		},
+		[24306] = {
+			["source"] = "Jin'do der Verhexer",
+			["type"] = "DEBUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 11380,
 		},
 		[52086] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "DEBUFF",
 			["source"] = "Aufseher Silthik",
 			["npcID"] = 28731,
-		},
-		[59465] = {
-			["encounterName"] = "Urahne Nadox",
-			["source"] = "Urahne Nadox",
-			["npcID"] = 29309,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 212,
-		},
-		[68872] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[61459] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Seuchenwandler",
-			["npcID"] = 30283,
 		},
 		[59513] = {
 			["encounterName"] = "Prinz Taldaram",
@@ -551,41 +1473,13 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 213,
 		},
-		[53401] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[1604] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[57724] = {
+			["encounterName"] = "Sartharion",
 			["type"] = "DEBUFF",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[23840] = {
-			["source"] = "Fzuuroon",
-			["type"] = "BUFF",
+			["source"] = "Geisterwolf",
+			["npcID"] = 29264,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 417,
-		},
-		[23844] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 1860,
-		},
-		[413172] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Unsterblicher Schmettertentakel",
-			["npcID"] = 206038,
-		},
-		[53403] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Rema",
-			["npcID"] = 20330,
+			["encounterID"] = 742,
 		},
 		[12470] = {
 			["isChanneled"] = false,
@@ -593,261 +1487,11 @@ PlaterDB = {
 			["source"] = "Goldener Schamane",
 			["npcID"] = 32340,
 		},
-		[15532] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[14514] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[68950] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[68793] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[46604] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[59107] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenschinder",
-			["npcID"] = 30284,
-		},
-		[24394] = {
-			["source"] = "Akrosonix",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[35696] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[23840] = {
+			["source"] = "Fzuuroon",
 			["type"] = "BUFF",
-			["source"] = "Thoodhun",
-			["npcID"] = 17252,
-		},
-		[20424] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[57984] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Großer Feuerelementar",
-			["npcID"] = 15438,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[67836] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wurmloch",
-			["npcID"] = 35646,
-		},
-		[68839] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[388122] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Pebbles",
-			["npcID"] = 194870,
-		},
-		[58861] = {
-			["encounterName"] = "Urahne Nadox",
-			["source"] = "Geisterwolf",
-			["npcID"] = 29264,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 212,
-		},
-		[17289] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[14032] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[388378] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Pebbles",
-			["npcID"] = 194870,
-		},
-		[56908] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[59466] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Lavahund",
-			["npcID"] = 32237,
-		},
-		[59467] = {
-			["encounterName"] = "Urahne Nadox",
-			["source"] = "Urahne Nadox",
-			["npcID"] = 29309,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 212,
-		},
-		[4511] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tarnar",
-			["npcID"] = 416,
-		},
-		[69069] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenwirker der Seelenwache",
-			["npcID"] = 36564,
-		},
-		[57458] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[68921] = {
-			["encounterName"] = "Bronjahm",
-			["type"] = "DEBUFF",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 829,
-		},
-		[61044] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Gefallener Krieger",
-			["npcID"] = 36841,
-		},
-		[27275] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Elerneth",
-			["npcID"] = 1863,
-		},
-		[61570] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtapostel",
-			["npcID"] = 30179,
-		},
-		[55968] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
-		},
-		[388126] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Pebbles",
-			["npcID"] = 194870,
-		},
-		[53434] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[11767] = {
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[55931] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
-		},
-		[388134] = {
-			["isChanneled"] = false,
-			["source"] = "Pebbles",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 194870,
-		},
-		[35361] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Hainläufer",
-			["npcID"] = 31228,
-		},
-		[15090] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Priester",
-			["npcID"] = 32325,
-		},
-		[13338] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtdunkelzauberer",
-			["npcID"] = 30319,
-		},
-		[24259] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Flaanum",
 			["npcID"] = 417,
-		},
-		[59108] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tiefenkriecher",
-			["npcID"] = 30279,
-		},
-		[414266] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Sargreißer",
-			["npcID"] = 26125,
 		},
 		[64495] = {
 			["isChanneled"] = false,
@@ -855,29 +1499,23 @@ PlaterDB = {
 			["source"] = "Kenny",
 			["npcID"] = 29452,
 		},
-		[55817] = {
-			["source"] = "Unbekannt",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 17252,
+		[46604] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Magier",
+			["npcID"] = 32341,
+		},
+		[61461] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Frostbringer",
+			["npcID"] = 30286,
 		},
 		[25809] = {
 			["isChanneled"] = false,
 			["source"] = "Viper",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 19921,
-		},
-		[69080] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenwirker der Seelenwache",
-			["npcID"] = 36564,
-		},
-		[13323] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Magier",
-			["npcID"] = 32324,
 		},
 		[424340] = {
 			["encounterName"] = "Sartharion",
@@ -887,31 +1525,7 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 742,
 		},
-		[69128] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
-		},
-		[32714] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Schlitzer der Ahn'kahar",
-			["npcID"] = 30277,
-		},
-		[47994] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[56646] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wache der Ahn'kahar",
-			["npcID"] = 31104,
-		},
-		[56909] = {
+		[56910] = {
 			["encounterName"] = "Sartharion",
 			["source"] = "Sartharion",
 			["npcID"] = 28860,
@@ -919,77 +1533,17 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 742,
 		},
-		[53602] = {
-			["source"] = "Ungeziefer der Anub'ar",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 29213,
-		},
-		[50550] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Bernsteindrache",
-			["npcID"] = 27755,
-		},
-		[53148] = {
-			["source"] = "Akrosonix",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[23829] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[69088] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Seelenschrecken",
-			["npcID"] = 36522,
-		},
-		[69148] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Spektraler Wärter",
-			["npcID"] = 36666,
-		},
-		[57475] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
 		[61563] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Zwielichtdunkelzauberer",
 			["npcID"] = 30319,
 		},
-		[67837] = {
+		[47481] = {
 			["isChanneled"] = false,
-			["source"] = "Wurmloch",
+			["source"] = "Erdwurm",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
-		},
-		[36589] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Kräftiger Wolf",
-			["npcID"] = 31233,
-		},
-		[67838] = {
-			["isChanneled"] = false,
-			["source"] = "Wurmloch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
-		},
-		[35706] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Thoodhun",
-			["npcID"] = 17252,
+			["npcID"] = 26125,
 		},
 		[68820] = {
 			["encounterName"] = "Verschlinger der Seelen",
@@ -999,103 +1553,37 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 831,
 		},
-		[54216] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Behundert",
-			["npcID"] = 30455,
-		},
-		[55499] = {
-			["isChanneled"] = false,
-			["source"] = "Akrosonix",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 6500,
-		},
-		[8267] = {
-			["source"] = "Faulender Agam'ar",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 4512,
-		},
-		[64695] = {
-			["source"] = "Totem der Erdbindung",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 2630,
-		},
-		[61562] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtdunkelzauberer",
-			["npcID"] = 30319,
-		},
-		[59142] = {
-			["source"] = "Gehärteter Stahlhäscher",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 28578,
-		},
-		[59109] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tiefenkriecher",
-			["npcID"] = 30279,
-		},
-		[23511] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Marschall der Nordtruppen von Dun Baldar",
-			["npcID"] = 14762,
-		},
-		[33625] = {
+		[49309] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Goldener Schamane",
 			["npcID"] = 32340,
 		},
-		[52909] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Bibliothekar Garren",
-			["npcID"] = 25291,
-		},
-		[69066] = {
+		[55968] = {
+			["encounterName"] = "Prinz Taldaram",
+			["source"] = "Prinz Taldaram",
+			["npcID"] = 29308,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
+			["encounterID"] = 213,
 		},
-		[25228] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Thoodhun",
-			["npcID"] = 17252,
-		},
-		[68939] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
+		[69088] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
+			["source"] = "Seelenschrecken",
+			["npcID"] = 36522,
 		},
-		[61460] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Seuchenwandler",
-			["npcID"] = 30283,
-		},
-		[69130] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
-		},
-		[59102] = {
+		[14032] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zauberwerfer der Ahn'kahar",
-			["npcID"] = 30278,
+			["source"] = "Grüner Priester",
+			["npcID"] = 32343,
+		},
+		[63619] = {
+			["isChanneled"] = false,
+			["source"] = "Schattengeist",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 19668,
 		},
 		[51944] = {
 			["isChanneled"] = false,
@@ -1103,65 +1591,73 @@ PlaterDB = {
 			["source"] = "Uralter Wächter",
 			["npcID"] = 31229,
 		},
-		[61834] = {
-			["source"] = "Minigob Manaflausch",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 32838,
-		},
-		[44415] = {
+		[59114] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
+			["source"] = "Plündernder Spuk",
+			["npcID"] = 30287,
 		},
-		[56153] = {
-			["encounterName"] = "Urahne Nadox",
-			["type"] = "BUFF",
-			["source"] = "Wächter der Ahn'kahar",
-			["npcID"] = 30176,
+		[61685] = {
+			["isChanneled"] = false,
+			["source"] = "Akrosonix",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 6500,
+		},
+		[50550] = {
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 212,
+			["type"] = "BUFF",
+			["source"] = "Bernsteindrache",
+			["npcID"] = 27755,
+		},
+		[57475] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Gorilla",
+			["npcID"] = 1557,
+		},
+		[27577] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Grüner Krieger",
+			["npcID"] = 32321,
+		},
+		[53403] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Rema",
+			["npcID"] = 20330,
+		},
+		[15090] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Goldener Priester",
+			["npcID"] = 32325,
+		},
+		[67838] = {
+			["isChanneled"] = false,
+			["source"] = "Wurmloch",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 35646,
+		},
+		[55499] = {
+			["isChanneled"] = false,
+			["source"] = "Akrosonix",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 6500,
+		},
+		[59978] = {
+			["encounterName"] = "Herold Volazj",
+			["source"] = "Herold Volazj",
+			["npcID"] = 29311,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 215,
 		},
 		[39586] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Goldener Schamane",
 			["npcID"] = 32340,
-		},
-		[59994] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[68982] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[62305] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Behundert",
-			["npcID"] = 30455,
-		},
-		[27268] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[7870] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Disriana",
-			["npcID"] = 1863,
 		},
 		[9080] = {
 			["isChanneled"] = false,
@@ -1175,417 +1671,17 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 35451,
 		},
-		[55970] = {
-			["encounterName"] = "Prinz Taldaram",
+		[45525] = {
+			["source"] = "Magier der Kriegshymnenfeste",
 			["type"] = "BUFF",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 213,
-		},
-		[59638] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Spiegelbild",
-			["npcID"] = 31216,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[69131] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
-		},
-		[11640] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[56910] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[56520] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Befreiter Kreuzfahrer",
-			["npcID"] = 30274,
-		},
-		[69051] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[68912] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[59978] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Herold Volazj",
-			["npcID"] = 29311,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[68988] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[59110] = {
-			["isChanneled"] = false,
-			["source"] = "Scheckiger Hirsch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 31236,
-		},
-		[63619] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Schattengeist",
-			["npcID"] = 19668,
-		},
-		[69052] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
-		},
-		[61684] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[25810] = {
-			["isChanneled"] = false,
-			["source"] = "Viper",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19921,
-		},
-		[13704] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[53515] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 1997,
-		},
-		[61461] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Frostbringer",
-			["npcID"] = 30286,
-		},
-		[27577] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Krieger",
-			["npcID"] = 32321,
-		},
-		[56632] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Netzwinder der Ahn'kahar",
-			["npcID"] = 30276,
-		},
-		[61995] = {
-			["isChanneled"] = false,
-			["source"] = "Minigob Manaflausch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 32838,
-		},
-		[47468] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auferstandener Ghul",
-			["npcID"] = 26125,
-		},
-		[9128] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[47484] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Markmaul",
-			["npcID"] = 26125,
-		},
-		[32851] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[59995] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[47992] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Unbekannt",
-			["npcID"] = 1863,
-		},
-		[60011] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[49309] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[69053] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
+			["npcID"] = 25420,
 		},
 		[69579] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "DEBUFF",
 			["source"] = "Gefallener Krieger",
 			["npcID"] = 36841,
-		},
-		[56728] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[388129] = {
-			["isChanneled"] = false,
-			["source"] = "Pebbles",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 194870,
-		},
-		[71157] = {
-			["source"] = "Verseuchter Zombie",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 38104,
-		},
-		[12544] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Magister Surdiel",
-			["npcID"] = 32170,
-		},
-		[48090] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 17252,
-		},
-		[15786] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[56521] = {
-			["type"] = "BUFF",
-			["source"] = "Befreiter Kreuzfahrer",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 30274,
-		},
-		[69564] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
-		},
-		[47482] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auferstandener Ghul",
-			["npcID"] = 26125,
-		},
-		[47983] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[59103] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zauberwerfer der Ahn'kahar",
-			["npcID"] = 30278,
-		},
-		[59111] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[59106] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Netzwinder der Ahn'kahar",
-			["npcID"] = 30276,
-		},
-		[59637] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Spiegelbild",
-			["npcID"] = 31216,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[34655] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Giftige Schlange",
-			["npcID"] = 19833,
-		},
-		[8599] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenschinder",
-			["npcID"] = 30284,
-		},
-		[15043] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[13005] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[61462] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Frostbringer",
-			["npcID"] = 30286,
-		},
-		[19579] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[68895] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Boshafte Erscheinung",
-			["npcID"] = 36551,
-		},
-		[42380] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Der kopflose Reiter",
-			["npcID"] = 23682,
-		},
-		[42587] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Der kopflose Reiter",
-			["npcID"] = 23682,
-		},
-		[20615] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Grüner Krieger",
-			["npcID"] = 32321,
-		},
-		[29544] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[59988] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30622,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[48011] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Flaanum",
-			["npcID"] = 417,
-		},
-		[58729] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Geisterführer der Taunka",
-			["npcID"] = 31841,
-		},
-		[70043] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[57767] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30622,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[59008] = {
-			["isChanneled"] = false,
-			["source"] = "Kräftiger Wolf",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 31233,
-		},
-		[75446] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 24677,
-		},
-		[59989] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
 		},
 	},
 	["profiles"] = {
@@ -6474,6 +6570,11 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
+				[38456] = {
+					"Gefrorene Kugel", -- [1]
+					"Archavons Kammer", -- [2]
+					"deDE", -- [3]
+				},
 				[36666] = {
 					"Spektraler Wärter", -- [1]
 					"Die Seelenschmiede", -- [2]
@@ -6564,14 +6665,14 @@ PlaterDB = {
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
-				[36516] = {
-					"Animator der Seelenwache", -- [1]
-					"Die Seelenschmiede", -- [2]
-					"deDE", -- [3]
-				},
 				[27972] = {
 					"Blitzkonstrukt", -- [1]
 					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[30414] = {
+					"Vergessener", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
 				[27975] = {
@@ -6584,9 +6685,9 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[30414] = {
-					"Vergessener", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[35031] = {
+					"Erinnerung an Lucifron", -- [1]
+					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
 				[34472] = {
@@ -6604,9 +6705,9 @@ PlaterDB = {
 					"Archavons Kammer", -- [2]
 					"deDE", -- [3]
 				},
-				[35031] = {
-					"Erinnerung an Lucifron", -- [1]
-					"Prüfung des Champions", -- [2]
+				[36564] = {
+					"Knochenwirker der Seelenwache", -- [1]
+					"Die Seelenschmiede", -- [2]
 					"deDE", -- [3]
 				},
 				[35047] = {
@@ -6614,19 +6715,19 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[34137] = {
-					"Winterjormungar", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
-				[9696] = {
-					"Manni", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
 				[33985] = {
 					"Verderbertentakel", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[34057] = {
+					"Angriffsbot", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[26554] = {
+					"Seherin der Drachenschinder", -- [1]
+					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
 				[31129] = {
@@ -6644,9 +6745,9 @@ PlaterDB = {
 					"Archavons Kammer", -- [2]
 					"deDE", -- [3]
 				},
-				[26554] = {
-					"Seherin der Drachenschinder", -- [1]
-					"Turm Utgarde", -- [2]
+				[34137] = {
+					"Winterjormungar", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[32927] = {
@@ -6674,9 +6775,9 @@ PlaterDB = {
 					"Das Obsidiansanktum", -- [2]
 					"deDE", -- [3]
 				},
-				[30179] = {
-					"Zwielichtapostel", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[33722] = {
+					"Sturmgehärteter Wächter", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[32877] = {
@@ -6699,18 +6800,13 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[26690] = {
-					"Krieger der Ymirjar", -- [1]
-					"Turm Utgarde", -- [2]
+				[32919] = {
+					"Sturmpeitscher", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[33818] = {
 					"Zwielichtanhängerin", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
-				[32919] = {
-					"Sturmpeitscher", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
@@ -6719,13 +6815,13 @@ PlaterDB = {
 					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
-				[32876] = {
-					"Dunkler Runenchampion", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
 				[34466] = {
 					"Anthar Schmiedenformer", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[34463] = {
+					"Shaabad", -- [1]
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
@@ -6734,14 +6830,19 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[32876] = {
+					"Dunkler Runenchampion", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
 				[32934] = {
 					"Rechter Arm", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32908] = {
-					"Gefangener Söldnerhauptmann", -- [1]
-					"Ulduar", -- [2]
+				[30283] = {
+					"Seuchenwandler", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
 				[30451] = {
@@ -6759,11 +6860,6 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[33515] = {
-					"Auriaya", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
 				[26553] = {
 					"Fanatiker der Drachenschinder", -- [1]
 					"Turm Utgarde", -- [2]
@@ -6772,6 +6868,11 @@ PlaterDB = {
 				[29309] = {
 					"Urahne Nadox", -- [1]
 					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
+				[36070] = {
+					"Treant", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
 				[34800] = {
@@ -6794,14 +6895,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[30890] = {
-					"Zwielichtwelpe", -- [1]
-					"Das Obsidiansanktum", -- [2]
-					"deDE", -- [3]
-				},
 				[35144] = {
 					"Ätzschlund", -- [1]
 					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[30890] = {
+					"Zwielichtwelpe", -- [1]
+					"Das Obsidiansanktum", -- [2]
 					"deDE", -- [3]
 				},
 				[35590] = {
@@ -6829,9 +6930,9 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[36070] = {
-					"Treant", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[33515] = {
+					"Auriaya", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[34234] = {
@@ -6849,14 +6950,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[30283] = {
-					"Seuchenwandler", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[32908] = {
+					"Gefangener Söldnerhauptmann", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34463] = {
-					"Shaabad", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[26690] = {
+					"Krieger der Ymirjar", -- [1]
+					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
 				[34825] = {
@@ -6894,9 +6995,9 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[33722] = {
-					"Sturmgehärteter Wächter", -- [1]
-					"Ulduar", -- [2]
+				[30179] = {
+					"Zwielichtapostel", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
 				[33453] = {
@@ -6919,8 +7020,8 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34057] = {
-					"Angriffsbot", -- [1]
+				[9696] = {
+					"Manni", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
@@ -6929,8 +7030,8 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[36564] = {
-					"Knochenwirker der Seelenwache", -- [1]
+				[36516] = {
+					"Animator der Seelenwache", -- [1]
 					"Die Seelenschmiede", -- [2]
 					"deDE", -- [3]
 				},
@@ -7039,11 +7140,7 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["__TrashAt"] = 1685814778,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-					["SpellIds"] = {
-						350421, -- [1]
-						355787, -- [2]
-						348513, -- [3]
-					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -7181,7 +7278,11 @@ PlaterDB = {
 						}, -- [12]
 					},
 					["version"] = -1,
-					["Name"] = "Cast - Alert + Timer [P]",
+					["SpellIds"] = {
+						350421, -- [1]
+						355787, -- [2]
+						348513, -- [3]
+					},
 					["NpcNames"] = {
 					},
 				}, -- [1]
@@ -7240,13 +7341,13 @@ PlaterDB = {
 				["Auto Set Skull"] = 11,
 				["Spiteful Affix"] = 3,
 				["Add - Non Elite Trash [P]"] = 4,
-				["Countdown"] = 11,
-				["Fixate"] = 11,
 				["Cast - Stop Casting"] = 4,
+				["Fixate"] = 11,
+				["Cast - On Going Cast [P]"] = 2,
 				["Fixate by Unit Buff [P]"] = 2,
 				["Cast - Frontal Cone"] = 15,
 				["Add - Explode on Die [P]"] = 1,
-				["Cast - On Going Cast [P]"] = 2,
+				["Countdown"] = 11,
 				["Cast - Quick Flash"] = 2,
 				["Explosion Affix M+"] = 14,
 				["Unit - Show Energy"] = 11,
@@ -7256,14 +7357,14 @@ PlaterDB = {
 				["Dont Have Aura"] = 1,
 				["Players Targetting Amount"] = 4,
 				["Color Automation"] = 1,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 				["Cast Bar Icon Config"] = 2,
 				["Aura Reorder"] = 3,
-				["Extra Border"] = 2,
+				["Hide Neutral Units"] = 1,
 				["Attacking Specific Unit"] = 2,
 				["Target Color"] = 3,
 				["Execute Range"] = 1,
-				["Hide Neutral Units"] = 1,
+				["Combo Points"] = 6,
 			},
 			["aura2_x_offset"] = 0,
 			["saved_cvars"] = {
@@ -7287,7 +7388,7 @@ PlaterDB = {
 				["nameplateSelectedAlpha"] = "1",
 				["NamePlateVerticalScale"] = "1",
 			},
-			["login_counter"] = 411,
+			["login_counter"] = 415,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["global_health_width"] = 112,
@@ -8043,14 +8144,14 @@ PlaterDB = {
 				},
 			},
 			["aura_x_offset"] = 0,
-			["ui_parent_scale_tune"] = 1.111111140545504,
 			["use_ui_parent"] = true,
+			["ui_parent_scale_tune"] = 1.111111140545504,
 			["aura_tracker"] = {
 				["buff_tracked"] = {
 					[209859] = true,
 				},
 			},
-			["patch_version"] = 30,
+			["patch_version"] = 31,
 			["number_region_first_run"] = true,
 			["first_run3"] = true,
 		},
@@ -9152,6 +9253,16 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27962,
 		},
+		[72034] = {
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 38433,
+		},
+		[72091] = {
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 38433,
+		},
 		[64386] = {
 			["encounterName"] = "Auriaya",
 			["source"] = "Auriaya",
@@ -9336,12 +9447,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 565,
 		},
-		[62529] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Dunkler Runenhervorrufer",
-			["npcID"] = 32878,
+		[56908] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Sartharion",
+			["npcID"] = 28860,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["encounterID"] = 742,
 		},
 		[64767] = {
 			["event"] = "SPELL_CAST_START",
@@ -9567,17 +9678,17 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33651,
 		},
+		[49113] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Drache des Wyrmruhtempels",
+			["npcID"] = 26925,
+		},
 		[66902] = {
 			["encounterName"] = "Bestien von Nordend",
 			["source"] = "Schreckensmaul",
 			["npcID"] = 34799,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 629,
-		},
-		[49113] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Drache des Wyrmruhtempels",
-			["npcID"] = 26925,
 		},
 		[62131] = {
 			["encounterName"] = "Thorim",
@@ -9610,15 +9721,15 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34701,
 		},
-		[51496] = {
-			["source"] = "Dunkler Runenformer",
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 27965,
-		},
 		[63760] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Zwielichtanhänger",
 			["npcID"] = 33818,
+		},
+		[51496] = {
+			["source"] = "Dunkler Runenformer",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27965,
 		},
 		[66104] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9812,12 +9923,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34702,
 		},
-		[56908] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
+		[62529] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Dunkler Runenhervorrufer",
+			["npcID"] = 32878,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 742,
+			["encounterID"] = 752,
 		},
 		[68950] = {
 			["encounterName"] = "Bronjahm",
@@ -9898,25 +10009,25 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 	["_general_logs"] = {
-		"2023-10-30 22:45:21 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [1]
-		"2023-10-29 23:33:39 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [2]
-		"2023-10-29 22:37:26 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [3]
-		"2023-10-29 11:39:09 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Maturitass", -- [4]
-		"2023-10-29 11:11:38 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [5]
-		"2023-10-29 00:44:15 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [6]
-		"2023-10-27 23:36:20 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [7]
-		"2023-10-26 23:57:12 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [8]
-		"2023-10-25 00:58:35 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [9]
-		"2023-10-25 00:56:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [10]
-		"2023-10-23 23:55:59 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [11]
-		"2023-10-23 08:52:34 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [12]
-		"2023-10-23 00:59:00 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [13]
-		"2023-10-23 00:52:23 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [14]
-		"2023-10-23 00:47:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [15]
-		"2023-10-23 00:25:10 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [16]
-		"2023-10-22 22:01:41 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [17]
-		"2023-10-16 00:09:06 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [18]
-		"2023-10-12 00:26:44 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [19]
+		"2023-11-01 23:11:34 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [1]
+		"2023-10-30 23:48:36 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [2]
+		"2023-10-30 22:45:21 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [3]
+		"2023-10-29 23:33:39 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [4]
+		"2023-10-29 22:37:26 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [5]
+		"2023-10-29 11:39:09 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Maturitass", -- [6]
+		"2023-10-29 11:11:38 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [7]
+		"2023-10-29 00:44:15 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [8]
+		"2023-10-27 23:36:20 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [9]
+		"2023-10-26 23:57:12 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [10]
+		"2023-10-25 00:58:35 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [11]
+		"2023-10-25 00:56:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [12]
+		"2023-10-23 23:55:59 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [13]
+		"2023-10-23 08:52:34 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [14]
+		"2023-10-23 00:59:00 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [15]
+		"2023-10-23 00:52:23 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [16]
+		"2023-10-23 00:47:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [17]
+		"2023-10-23 00:25:10 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [18]
+		"2023-10-22 22:01:41 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [19]
 	},
 	["_error_logs"] = {
 	},

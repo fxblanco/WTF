@@ -1,6 +1,7 @@
 
 DiminishDB = {
 	["profileKeys"] = {
+		["Xolem-Venoxis"] = "Default",
 		["Kwasimojo-Venoxis"] = "Default",
 		["Alsia-Venoxis"] = "Default",
 	},
@@ -8,7 +9,10 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
+			["timerText"] = true,
+			["announceDRs"] = false,
 			["timerSwipe"] = true,
+			["timerEdge"] = true,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -142,23 +146,20 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["timerColors"] = false,
-			["announceDRs"] = false,
-			["categoryTextMaxLines"] = 2,
 			["border"] = {
 				["edgeSize"] = 2.5,
 				["layer"] = "BORDER",
 				["name"] = "Default",
 				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
 			},
-			["timerEdge"] = true,
+			["categoryTextMaxLines"] = 2,
 			["version"] = "1.11",
 			["timerStartAuraEnd"] = false,
 			["showCategoryText"] = true,
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
+			["timerColors"] = false,
 			["trackNPCs"] = true,
-			["timerText"] = true,
 			["categoryFont"] = {
 				["size"] = 11,
 				["x"] = 0,

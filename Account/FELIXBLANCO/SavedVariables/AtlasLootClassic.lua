@@ -31,6 +31,22 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Kwasimojo - Venoxis"] = {
+			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					-130.8753509521484, -- [4]
+					88.90000915527344, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"TailoringWrath", -- [2]
+					5, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
 		},
 		["Andrés - Venoxis"] = {
 		},
