@@ -1,16 +1,17 @@
 
 DiminishDB = {
 	["profileKeys"] = {
+		["Maturitass-Venoxis"] = "Default",
+		["Maturitas-Venoxis"] = "Default",
 		["Bloodwall-Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["timerText"] = true,
-			["timerColors"] = false,
 			["timerSwipe"] = true,
-			["announceDRs"] = false,
+			["trackNPCs"] = true,
+			["timerColors"] = false,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -144,20 +145,21 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
+			["categoryTextMaxLines"] = 2,
 			["border"] = {
 				["layer"] = "BORDER",
 				["edgeSize"] = 2.5,
 				["name"] = "Default",
 				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
 			},
-			["timerEdge"] = true,
+			["announceDRs"] = false,
 			["showCategoryText"] = true,
 			["timerStartAuraEnd"] = false,
 			["version"] = "1.11",
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["trackNPCs"] = true,
-			["categoryTextMaxLines"] = 2,
+			["timerText"] = true,
+			["timerEdge"] = true,
 			["categoryFont"] = {
 				["x"] = 0,
 				["size"] = 11,

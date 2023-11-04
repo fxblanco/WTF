@@ -1,0 +1,34 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["XPMax"] = 24000,
+				["played"] = 77113,
+				["playedThisLevel"] = 6576,
+				["isResting"] = true,
+				["lastUpdate"] = 1699062217,
+				["class"] = "Schamane",
+				["race"] = "Tauren",
+				["subZone"] = "Das Grabmal",
+				["level"] = 22,
+				["XP"] = 12258,
+				["zone"] = "Silberwald",
+				["RestXP"] = 36000,
+				["money"] = 36569,
+				["gender"] = 2,
+				["classID"] = 7,
+				["bindLocation"] = "Orgrimmar",
+				["englishClass"] = "SHAMAN",
+				["name"] = "Maturitas",
+				["faction"] = "Horde",
+				["englishRace"] = "Tauren",
+				["localizedFaction"] = "Horde",
+				["lastLogoutTimestamp"] = 1699062217,
+			},
+		},
+	},
+}

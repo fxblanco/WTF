@@ -8,7 +8,7 @@ BisTooltipDB = {
 	["char"] = {
 		["Maturitas - Venoxis"] = {
 			["data_source"] = "wowtbc",
-			["version"] = 6.1,
+			["version"] = 6.2,
 		},
 		["Bloodwall - Venoxis"] = {
 			["class_index"] = 10,

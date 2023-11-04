@@ -1,6 +1,7 @@
 
 RCLootCouncilDB = {
 	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
@@ -698,45 +699,77 @@ RCLootCouncilDB = {
 			"12:07:28 - Event: (LOOT_READY) (true)", -- [689]
 			"12:07:29 - LootClosed", -- [690]
 			"12:07:29 - LootClosed", -- [691]
+			"11/04/23", -- [692]
+			"02:42:28 - Logged In", -- [693]
+			"02:42:28 - ML initialized!", -- [694]
+			"02:42:28 - TradeUI enabled", -- [695]
+			"02:42:33 - Maturitass-Venoxis (2.19.3) (nil)", -- [696]
+			"02:42:33 - ActivateSkin (bfa)", -- [697]
+			"02:42:37 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [698]
+			"02:42:37 - GetML()", -- [699]
+			"02:42:37 - LootMethod =  (group)", -- [700]
+			"02:42:37 - UpdatePlayersData()", -- [701]
+			"02:42:38 - ClassicModule enabled (0.20.0) (nil)", -- [702]
+			"02:42:38 - DoCommsCompressFix", -- [703]
+			"02:42:38 - Removing Column (role)", -- [704]
+			"02:42:38 - Removing Column (corruption)", -- [705]
+			"02:42:38 - GetPlayersGuildRank()", -- [706]
+			"02:42:38 - Found Guild Rank: Twink", -- [707]
+			"02:42:40 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [708]
+			"02:42:42 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Gdkphunter) (distri:) (GUILD)", -- [709]
+			"11/04/23", -- [710]
+			"02:43:02 - Logged In", -- [711]
+			"02:43:02 - ML initialized!", -- [712]
+			"02:43:02 - TradeUI enabled", -- [713]
+			"02:43:07 - Maturitas-Venoxis (2.19.3) (nil)", -- [714]
+			"02:43:07 - ActivateSkin (bfa)", -- [715]
+			"02:43:12 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [716]
+			"02:43:12 - GetML()", -- [717]
+			"02:43:12 - LootMethod =  (group)", -- [718]
+			"02:43:12 - UpdatePlayersData()", -- [719]
+			"02:43:12 - ClassicModule enabled (0.20.0) (nil)", -- [720]
+			"02:43:12 - DoCommsCompressFix", -- [721]
+			"02:43:12 - Removing Column (role)", -- [722]
+			"02:43:12 - Removing Column (corruption)", -- [723]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
-			["Alsia-Venoxis"] = {
+			["Letsburn-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698014961, -- [3]
+				1699062162, -- [3]
 			},
-			["Styleplox-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Bloodwall-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698014961, -- [3]
-			},
-			["Wackelbacke-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Shamir-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Maturitass-Venoxis"] = {
+			["Pippop-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698577610, -- [3]
 			},
-			["Lesbenlisa-Venoxis"] = {
+			["Slimpyi-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1699062162, -- [3]
+			},
+			["Mikirî-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699062162, -- [3]
+			},
+			["Hâkkî-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699062163, -- [3]
+			},
+			["Maturitass-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699062162, -- [3]
+			},
+			["Ohrfeigen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1698577610, -- [3]
 			},
 			["Dandeen-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -748,130 +781,55 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1698577610, -- [3]
 			},
-			["Xandros-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Morai-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Bremskyle-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698013524, -- [3]
-			},
-			["Slimpy-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698013601, -- [3]
-			},
-			["Andrés-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698576444, -- [3]
-			},
-			["Wîdi-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698015555, -- [3]
-			},
-			["Jocindyr-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577610, -- [3]
-			},
-			["Pippop-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577610, -- [3]
-			},
-			["Bubbledîne-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698043971, -- [3]
-			},
-			["Wønka-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698015555, -- [3]
-			},
-			["Ukban-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Hanaltar-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698013600, -- [3]
-			},
-			["Onixus-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005130, -- [3]
-			},
-			["Ohrfeigen-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577610, -- [3]
-			},
-			["Bigmæc-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Uwugamergirl-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698005129, -- [3]
-			},
-			["Taste-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698015555, -- [3]
-			},
 			["Gdkphunter-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698576010, -- [3]
+				1699062163, -- [3]
 			},
-			["Liptea-Venoxis"] = {
-				"0.14.1", -- [1]
+			["Hopéless-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1699062162, -- [3]
+			},
+			["Kentharo-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699062162, -- [3]
 			},
 			["Exonuklease-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698577610, -- [3]
 			},
+			["Kyleriemen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699062162, -- [3]
+			},
 			["Myjuice-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1698576444, -- [3]
 			},
-			["Xolem-Venoxis"] = {
+			["Schpen-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1699062162, -- [3]
 			},
-			["Uséléss-Venoxis"] = {
+			["Andrés-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698576444, -- [3]
 			},
-			["Perakon-Venoxis"] = {
+			["Tréalis-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1699062162, -- [3]
 			},
-			["Hampdidampdi-Venoxis"] = {
+			["Jocindyr-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698005129, -- [3]
+				1698577610, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
@@ -932,6 +890,7 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},

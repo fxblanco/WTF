@@ -1,0 +1,25 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["lastUpdate"] = 1699062192,
+				["Factions"] = {
+					[77] = 4867,
+					[7] = 5255,
+					[8] = 9952,
+					[17] = 725,
+					[18] = 725,
+					[19] = 725,
+					[20] = 950,
+					[6] = 4542,
+					[9] = 4522,
+					[10] = 400,
+				},
+			},
+		},
+	},
+}

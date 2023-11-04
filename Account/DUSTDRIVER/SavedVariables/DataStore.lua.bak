@@ -1,0 +1,16 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["ShortToLongRealmNames"] = {
+			["Venoxis"] = "Venoxis",
+		},
+	},
+}

@@ -28,6 +28,7 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
@@ -35,6 +36,13 @@ AdiBagsDB = {
 		["Default"] = {
 			["modules"] = {
 				["Masque"] = false,
+			},
+			["positions"] = {
+				["Backpack"] = {
+					["xOffset"] = -518,
+					["point"] = "TOPRIGHT",
+					["yOffset"] = -169.6500244140625,
+				},
 			},
 			["experiments"] = {
 				["Bag Lag Fix"] = {

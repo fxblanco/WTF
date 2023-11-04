@@ -1,0 +1,32 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["Professions"] = {
+					["Kräuterkunde"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 165,
+						["Rank"] = 83,
+					},
+					["Kürschnerei"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 225,
+						["Rank"] = 158,
+					},
+				},
+				["Prof2"] = "Kürschnerei",
+				["lastUpdate"] = 1699062192,
+				["Prof1"] = "Kräuterkunde",
+			},
+		},
+	},
+}
+DataStore_CraftsRefDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+}

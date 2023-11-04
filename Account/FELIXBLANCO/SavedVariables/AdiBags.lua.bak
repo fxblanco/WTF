@@ -16,22 +16,22 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
-		},
-		["ItemSets"] = {
+		["MoneyFrame"] = {
 		},
 		["DataSource"] = {
 		},
+		["ItemSets"] = {
+		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Kwasimojo - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -39,14 +39,14 @@ AdiBagsDB = {
 				["Masque"] = false,
 			},
 			["positions"] = {
+				["Bank"] = {
+					["xOffset"] = 0.9500797986984253,
+					["yOffset"] = -2.75,
+				},
 				["Backpack"] = {
 					["xOffset"] = -7.0250244140625,
 					["point"] = "TOPRIGHT",
 					["yOffset"] = -156.0498657226563,
-				},
-				["Bank"] = {
-					["xOffset"] = 0.9500797986984253,
-					["yOffset"] = -2.75,
 				},
 			},
 			["experiments"] = {

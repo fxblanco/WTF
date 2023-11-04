@@ -5,12 +5,6 @@ END
 VER 3 000000000000000F "buy" "134400"
 /script BuyMerchantItem(1,96)
 END
-VER 3 0000000000000002 "danke" "135769"
-/danke
-END
-VER 3 0000000000000007 "dism" "132096"
-/dismount
-END
 VER 3 0000000000000006 "focus" "132097"
 /focus
 END
@@ -20,47 +14,29 @@ VER 3 000000000000000B "gesu" "134400"
 /use item:36893
 /use item:36892
 END
-VER 3 000000000000000C "gloves" "134400"
+VER 3 0000000000000014 "glove" "134400"
 #showtooltip 10
 /use 10
 /use 14
 /cast Kochendes Blut(Volk)
 END
-VER 3 0000000000000003 "hi" "132092"
-/hi
-END
 VER 3 0000000000000010 "lock" "134400"
 #showtooltip Zaubersperre
 /cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
 END
-VER 3 000000000000000E "PI" "134400"
-/w Elonee PI me!
-/use 10
-END
-VER 3 0000000000000005 "Roll" "135900"
-/roll
-END
-VER 3 000000000000000A "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
+VER 3 000000000000000E "PI" "135939"
+/w Longling PI PLS!
 END
 VER 3 0000000000000009 "SB Snipe R1" "135614"
 /cast [nomod,@mouseover,harm,nodead] [] Schattenblitz(Rang 1)
 END
 VER 3 0000000000000012 "sb1" "134400"
-#showtooltip
+#showtooltip Schattenblitz
 /cast [@focus,exists] Schattenblitz(Rang 1)
-END
-VER 3 0000000000000011 "Schurke" "132299"
-/w Longling Tricks me!
-END
-VER 3 0000000000000001 "start imp" "132097"
-/dismount
-/cast heimsuchung
-/petattack
 END
 VER 3 0000000000000004 "target" "132089"
 /target Andre Feuerbart
 END
-VER 3 0000000000000008 "zug" "135789"
-/zug
+VER 3 0000000000000011 "Tricks" "236283"
+/w Longling Tricks PLS!
 END

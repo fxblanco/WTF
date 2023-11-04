@@ -1,0 +1,13 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["lastUpdate"] = 1699062192,
+			},
+		},
+	},
+}

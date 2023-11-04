@@ -1,0 +1,37 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Alsia"] = {
+				["XPMax"] = 1691700,
+				["played"] = 3288728,
+				["playedThisLevel"] = 2933926,
+				["isResting"] = true,
+				["lastUpdate"] = 1699124526,
+				["class"] = "Paladin",
+				["race"] = "Blutelf",
+				["level"] = 80,
+				["XP"] = 0,
+				["guildRankIndex"] = 0,
+				["RestXP"] = 0,
+				["localizedFaction"] = "Horde",
+				["englishClass"] = "PALADIN",
+				["money"] = 909872819,
+				["gender"] = 2,
+				["classID"] = 2,
+				["faction"] = "Horde",
+				["bindLocation"] = "Dalaran",
+				["name"] = "Alsia",
+				["subZone"] = "Dalaran",
+				["guildName"] = "Old Rabbitz",
+				["englishRace"] = "BloodElf",
+				["guildRankName"] = "Gildenmeister",
+				["lastLogoutTimestamp"] = 1699124526,
+				["zone"] = "Dalaran",
+			},
+		},
+	},
+}

@@ -23,13 +23,16 @@ ItemListsDB = {
 }
 TMBDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
-		["Maturitass - Venoxis"] = {
+		["Maturitas - Venoxis"] = {
 		},
 		["Bloodwall - Venoxis"] = {
+		},
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

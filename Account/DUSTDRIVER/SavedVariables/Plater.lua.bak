@@ -1,281 +1,91 @@
 
 PlaterDB = {
 	["captured_spells"] = {
-		[58875] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Geisterwolf",
-			["npcID"] = 29264,
+		[70084] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
+			["npcID"] = 36853,
 		},
-		[4511] = {
+		[57984] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Großer Feuerelementar",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tarnar",
-			["npcID"] = 416,
+			["npcID"] = 15438,
 		},
-		[61462] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Frostbringer",
-			["npcID"] = 30286,
-		},
-		[42587] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Der kopflose Reiter",
-			["npcID"] = 23682,
-		},
-		[59466] = {
+		[32851] = {
+			["encounterName"] = "Sindragosa",
+			["type"] = "BUFF",
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Lavahund",
-			["npcID"] = 32237,
+			["npcID"] = 17252,
 		},
-		[12611] = {
+		[73061] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
+			["npcID"] = 36853,
 		},
-		[20615] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Grüner Krieger",
-			["npcID"] = 32321,
-		},
-		[68950] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[68982] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[57566] = {
+		[35696] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
 			["source"] = "Unbekannt",
-			["npcID"] = 417,
-		},
-		[24751] = {
-			["isChanneled"] = false,
-			["source"] = "Amisi Azurblick",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 28687,
-		},
-		[54053] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Haadom",
-			["npcID"] = 417,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[42380] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Der kopflose Reiter",
-			["npcID"] = 23682,
-		},
-		[8599] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenschinder",
-			["npcID"] = 30284,
-		},
-		[54261] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[61463] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[59467] = {
-			["encounterName"] = "Urahne Nadox",
-			["source"] = "Urahne Nadox",
-			["npcID"] = 29309,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 212,
-		},
-		[59994] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[44185] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Der kopflose Reiter",
-			["npcID"] = 23682,
-		},
-		[67834] = {
-			["isChanneled"] = false,
-			["source"] = "Wurmloch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
-		},
-		[55970] = {
-			["encounterName"] = "Prinz Taldaram",
-			["type"] = "BUFF",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 213,
-		},
-		[57567] = {
-			["isChanneled"] = false,
-			["source"] = "Flaadrom",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 417,
-		},
-		[69080] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenwirker der Seelenwache",
-			["npcID"] = 36564,
-		},
-		[20424] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[35706] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Thoodhun",
 			["npcID"] = 17252,
 		},
-		[68793] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
+		[59638] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Spiegelbild",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
+			["npcID"] = 31216,
 		},
-		[32736] = {
+		[47481] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Vampirgesicht",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
+			["npcID"] = 26125,
 		},
-		[56737] = {
+		[64495] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Widi",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenschinder",
-			["npcID"] = 30284,
+			["npcID"] = 3823,
 		},
-		[68921] = {
-			["encounterName"] = "Bronjahm",
-			["type"] = "DEBUFF",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
+		[57567] = {
+			["encounterName"] = "Sindragosa",
+			["type"] = "BUFF",
+			["source"] = "Khaamyn",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 829,
+			["npcID"] = 417,
 		},
-		[13338] = {
+		[69762] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtdunkelzauberer",
-			["npcID"] = 30319,
+			["npcID"] = 36853,
 		},
-		[58861] = {
-			["encounterName"] = "Urahne Nadox",
-			["source"] = "Geisterwolf",
-			["npcID"] = 29264,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 212,
-		},
-		[3600] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Totem der Erdbindung",
-			["npcID"] = 2630,
-		},
-		[71157] = {
-			["source"] = "Verseuchter Zombie",
+		[47995] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "DEBUFF",
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 38104,
-		},
-		[52825] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Sonix",
-			["npcID"] = 28086,
-		},
-		[59995] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[60011] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[67836] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wurmloch",
-			["npcID"] = 35646,
-		},
-		[27275] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Elerneth",
-			["npcID"] = 1863,
-		},
-		[52474] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[6713] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[58702] = {
-			["isChanneled"] = false,
-			["source"] = "Totem der Verbrennung X",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 31165,
-		},
-		[67837] = {
-			["isChanneled"] = false,
-			["source"] = "Wurmloch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
+			["npcID"] = 17252,
 		},
 		[61353] = {
 			["isChanneled"] = false,
@@ -283,1405 +93,273 @@ PlaterDB = {
 			["source"] = "Dagna Flintriegel",
 			["npcID"] = 29476,
 		},
-		[69051] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
+		[52474] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Widi",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[57984] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Großer Feuerelementar",
-			["npcID"] = 15438,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[15043] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[68988] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[59102] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zauberwerfer der Ahn'kahar",
-			["npcID"] = 30278,
-		},
-		[69052] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
-		},
-		[69148] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Spektraler Wärter",
-			["npcID"] = 36666,
-		},
-		[56643] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wache der Ahn'kahar",
-			["npcID"] = 31104,
-		},
-		[24529] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 28002,
-		},
-		[12544] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Magister Surdiel",
-			["npcID"] = 32170,
-		},
-		[56707] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Seuchenwandler",
-			["npcID"] = 30283,
-		},
-		[54216] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Behundert",
-			["npcID"] = 30455,
-		},
-		[70043] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[69053] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
-		},
-		[59997] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30622,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[57458] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[61562] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtdunkelzauberer",
-			["npcID"] = 30319,
-		},
-		[19579] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[53434] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[27268] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[388378] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Pebbles",
-			["npcID"] = 194870,
-		},
-		[59103] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zauberwerfer der Ahn'kahar",
-			["npcID"] = 30278,
-		},
-		[34655] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Giftige Schlange",
-			["npcID"] = 19833,
-		},
-		[61834] = {
-			["source"] = "Minigob Manaflausch",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 32838,
-		},
-		[68895] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Boshafte Erscheinung",
-			["npcID"] = 36551,
-		},
-		[388126] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Pebbles",
-			["npcID"] = 194870,
-		},
-		[6358] = {
-			["type"] = "DEBUFF",
-			["source"] = "Unbekannt",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 1863,
-		},
-		[32851] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[15786] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[24394] = {
-			["source"] = "Akrosonix",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[388129] = {
-			["isChanneled"] = false,
-			["source"] = "Pebbles",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 194870,
-		},
-		[59008] = {
-			["isChanneled"] = false,
-			["source"] = "Kräftiger Wolf",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 31233,
-		},
-		[29544] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[72090] = {
-			["isChanneled"] = false,
-			["source"] = "Toravon der Eiswächter",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 38433,
-		},
-		[69056] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
-		},
-		[53515] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 1997,
-		},
-		[1604] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[11770] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[32714] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Schlitzer der Ahn'kahar",
-			["npcID"] = 30277,
-		},
-		[413172] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Unsterblicher Schmettertentakel",
-			["npcID"] = 206038,
-		},
-		[53148] = {
-			["source"] = "Akrosonix",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[13323] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Magier",
-			["npcID"] = 32324,
-		},
-		[388134] = {
-			["isChanneled"] = false,
-			["source"] = "Pebbles",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 194870,
-		},
-		[72091] = {
-			["isChanneled"] = false,
-			["source"] = "Toravon der Eiswächter",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 38433,
-		},
-		[61995] = {
-			["isChanneled"] = false,
-			["source"] = "Minigob Manaflausch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 32838,
-		},
-		[33395] = {
-			["type"] = "DEBUFF",
-			["source"] = "Wasserelementar",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 510,
-		},
-		[67237] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Argentumlichtwirker",
-			["npcID"] = 35309,
-		},
-		[52909] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Bibliothekar Garren",
-			["npcID"] = 25291,
-		},
-		[36589] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Kräftiger Wolf",
-			["npcID"] = 31233,
-		},
-		[69058] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Ernter der Seelenwache",
-			["npcID"] = 36499,
-		},
-		[69633] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Spektraler Wärter",
-			["npcID"] = 36666,
-		},
-		[24259] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Flaanum",
-			["npcID"] = 417,
-		},
-		[56646] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wache der Ahn'kahar",
-			["npcID"] = 31104,
-		},
-		[29385] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[75446] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 24677,
-		},
-		[23844] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 1860,
-		},
-		[75447] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[11974] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[17289] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[64695] = {
-			["source"] = "Totem der Erdbindung",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 2630,
-		},
-		[21401] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[59106] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Netzwinder der Ahn'kahar",
-			["npcID"] = 30276,
-		},
-		[69060] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Ernter der Seelenwache",
-			["npcID"] = 36499,
-		},
-		[54028] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Magierwache des Silberbunds",
-			["npcID"] = 29254,
-		},
-		[35696] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Thoodhun",
-			["npcID"] = 17252,
-		},
-		[44415] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[35361] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Hainläufer",
-			["npcID"] = 31228,
-		},
-		[55817] = {
-			["source"] = "Unbekannt",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 17252,
-		},
-		[32982] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Totem des Feuerelementars",
-			["npcID"] = 15439,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[56520] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Befreiter Kreuzfahrer",
-			["npcID"] = 30274,
-		},
-		[59107] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenschinder",
-			["npcID"] = 30284,
-		},
-		[38204] = {
-			["isChanneled"] = false,
-			["source"] = "Unbändiger Seher",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 33422,
-		},
-		[56632] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Netzwinder der Ahn'kahar",
-			["npcID"] = 30276,
-		},
-		[56153] = {
-			["encounterName"] = "Urahne Nadox",
-			["type"] = "BUFF",
-			["source"] = "Wächter der Ahn'kahar",
-			["npcID"] = 30176,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 212,
-		},
-		[47993] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[68839] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[56728] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[59826] = {
-			["source"] = "Gal'darah",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 29306,
-		},
-		[23829] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[9128] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[32919] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Kräftiger Wolf",
-			["npcID"] = 31233,
-		},
-		[61567] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtanbeter",
-			["npcID"] = 30111,
-		},
-		[68872] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 829,
-		},
-		[56521] = {
-			["source"] = "Befreiter Kreuzfahrer",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 30274,
-		},
-		[59108] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tiefenkriecher",
-			["npcID"] = 30279,
-		},
-		[69128] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
-		},
-		[57655] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[11767] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
-		},
-		[47994] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[57767] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30622,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[48090] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unbekannt",
-			["npcID"] = 17252,
-		},
-		[55931] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
-		},
-		[61568] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtanbeter",
-			["npcID"] = 30111,
-		},
-		[72004] = {
-			["type"] = "DEBUFF",
-			["source"] = "Toravon der Eiswächter",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 38433,
-		},
-		[61632] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[59109] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Tiefenkriecher",
-			["npcID"] = 30279,
-		},
-		[69066] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
-		},
-		[69130] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
-		},
-		[8314] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Kranal Fiss",
-			["npcID"] = 5907,
-		},
-		[47468] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auferstandener Ghul",
-			["npcID"] = 26125,
-		},
-		[47484] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Markmaul",
-			["npcID"] = 26125,
-		},
-		[48011] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Flaanum",
-			["npcID"] = 417,
-		},
-		[68939] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[69131] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
-		},
-		[15532] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[14514] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[59988] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30622,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[51876] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30623,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[13005] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[24453] = {
-			["source"] = "Unbekannt",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 33776,
-		},
-		[59110] = {
-			["isChanneled"] = false,
-			["source"] = "Scheckiger Hirsch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 31236,
-		},
-		[59637] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Spiegelbild",
-			["npcID"] = 31216,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[59142] = {
-			["source"] = "Gehärteter Stahlhäscher",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 28578,
-		},
-		[23511] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Marschall der Nordtruppen von Dun Baldar",
-			["npcID"] = 14762,
-		},
-		[47996] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Shaaghun",
-			["npcID"] = 17252,
-		},
-		[65386] = {
-			["type"] = "BUFF",
-			["source"] = "Catrina",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 34383,
-		},
-		[73061] = {
-			["source"] = "Sindragosa",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 36853,
-		},
-		[69069] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Knochenwirker der Seelenwache",
-			["npcID"] = 36564,
-		},
-		[59989] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Verzerrtes Gesicht",
-			["npcID"] = 30621,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[61570] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtapostel",
-			["npcID"] = 30179,
-		},
-		[25228] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Thoodhun",
-			["npcID"] = 17252,
-		},
-		[19615] = {
-			["source"] = "Akrosonix",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[59111] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auge von Taldaram",
-			["npcID"] = 30285,
-		},
-		[59638] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Spiegelbild",
-			["npcID"] = 31216,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[19647] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Flaanum",
-			["npcID"] = 417,
-		},
-		[33625] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[7870] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Disriana",
-			["npcID"] = 1863,
-		},
-		[11640] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[53602] = {
-			["source"] = "Ungeziefer der Anub'ar",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 29213,
-		},
-		[62305] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Behundert",
-			["npcID"] = 30455,
-		},
-		[56716] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Frostbringer",
-			["npcID"] = 30286,
-		},
-		[13704] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[61459] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Seuchenwandler",
-			["npcID"] = 30283,
-		},
-		[56908] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[71841] = {
-			["isChanneled"] = false,
-			["source"] = "Wächterin der Val'kyr",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 38391,
-		},
-		[67835] = {
-			["isChanneled"] = false,
-			["source"] = "Wurmloch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
-		},
-		[61044] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Gefallener Krieger",
-			["npcID"] = 36841,
-		},
-		[54508] = {
-			["source"] = "Haadhun",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 17252,
-		},
-		[72034] = {
-			["isChanneled"] = false,
-			["source"] = "Toravon der Eiswächter",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 38433,
-		},
-		[68912] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[61676] = {
-			["isChanneled"] = false,
-			["source"] = "Unbekannt",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 3823,
 		},
-		[55964] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
+		[54053] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Khaamyn",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
+			["npcID"] = 417,
 		},
-		[25810] = {
+		[70109] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
-			["source"] = "Viper",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19921,
+			["npcID"] = 36853,
 		},
-		[52442] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[70117] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 36853,
+		},
+		[54508] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "BUFF",
-			["source"] = "Arthas",
-			["npcID"] = 26499,
-		},
-		[17843] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
-		},
-		[59845] = {
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Sjonnir der Eisenformer",
-			["npcID"] = 27978,
-		},
-		[12541] = {
-			["source"] = "Knochenschinderghul",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 7347,
-		},
-		[71993] = {
-			["isChanneled"] = false,
-			["source"] = "Toravon der Eiswächter",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 38433,
-		},
-		[33663] = {
-			["isChanneled"] = false,
-			["source"] = "Totem des Erdelementars",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 15430,
-		},
-		[36213] = {
-			["isChanneled"] = false,
-			["source"] = "Großer Erdelementar",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 15352,
-		},
-		[47982] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Jubpep",
-			["npcID"] = 416,
-		},
-		[58729] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Geisterführer der Taunka",
-			["npcID"] = 31841,
-		},
-		[57723] = {
-			["type"] = "DEBUFF",
-			["source"] = "FelFel",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 23326,
-		},
-		[70893] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[54681] = {
-			["source"] = "Akrosonix",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 6500,
-		},
-		[33844] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Uralter Wächter",
-			["npcID"] = 31229,
-		},
-		[59178] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Titanvorposten",
-			["npcID"] = 28838,
-		},
-		[44178] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[47995] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Shaaghun",
 			["npcID"] = 17252,
 		},
-		[59465] = {
-			["encounterName"] = "Urahne Nadox",
-			["source"] = "Urahne Nadox",
-			["npcID"] = 29309,
+		[70893] = {
+			["encounterName"] = "Sindragosa",
+			["type"] = "BUFF",
+			["source"] = "Widi",
+			["encounterID"] = 855,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 3823,
+		},
+		[48090] = {
+			["encounterName"] = "Sindragosa",
+			["type"] = "BUFF",
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 17252,
+		},
+		[58867] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Geisterwolf",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 212,
+			["npcID"] = 29264,
 		},
-		[23600] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[70127] = {
-			["source"] = "Sindragosa",
+		[70157] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "DEBUFF",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
 			["npcID"] = 36853,
 		},
-		[61460] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[47468] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Vampirgesicht",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 26125,
+		},
+		[32982] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Totem des Feuerelementars",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 15439,
+		},
+		[59637] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Spiegelbild",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 31216,
+		},
+		[15571] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "DEBUFF",
-			["source"] = "Seuchenwandler",
-			["npcID"] = 30283,
-		},
-		[58921] = {
+			["source"] = "Vampirgesicht",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Vater Kamaros",
-			["npcID"] = 31279,
-		},
-		[42514] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Pulsierender Kürbis",
-			["npcID"] = 23694,
-		},
-		[56909] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[69068] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
-		},
-		[68054] = {
-			["isChanneled"] = false,
-			["source"] = "Jeeves",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35642,
-		},
-		[8267] = {
-			["source"] = "Faulender Agam'ar",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 4512,
-		},
-		[53401] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Rema",
-			["npcID"] = 20330,
+			["npcID"] = 26125,
 		},
 		[47482] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Vampirgesicht",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Auferstandener Ghul",
 			["npcID"] = 26125,
 		},
-		[69564] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
-		},
-		[59974] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Herold Volazj",
-			["npcID"] = 29311,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[75593] = {
-			["source"] = "Wolf",
+		[35706] = {
+			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 17280,
-		},
-		[59608] = {
-			["source"] = "Metallarbeiter der Drachenschinder",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 24078,
-		},
-		[59975] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Herold Volazj",
-			["npcID"] = 29311,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[61684] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[388122] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Pebbles",
-			["npcID"] = 194870,
-		},
-		[19134] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[42746] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Wache der Ahn'kahar",
-			["npcID"] = 31104,
-		},
-		[58867] = {
-			["isChanneled"] = false,
-			["source"] = "Geisterwolf",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 29264,
-		},
-		[29386] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Paladin",
-			["npcID"] = 32342,
-		},
-		[47983] = {
 			["source"] = "Unbekannt",
+			["npcID"] = 17252,
+		},
+		[19983] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 36853,
+		},
+		[53403] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "BUFF",
+			["source"] = "Widi",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 416,
+			["npcID"] = 3823,
 		},
-		[54131] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[414266] = {
+		[51963] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Schwarzer Gargoyle",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Sargreißer",
-			["npcID"] = 26125,
+			["npcID"] = 27829,
 		},
-		[47992] = {
+		[47996] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Unbekannt",
-			["npcID"] = 1863,
+			["npcID"] = 17252,
 		},
-		[24306] = {
-			["source"] = "Jin'do der Verhexer",
-			["type"] = "DEBUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 11380,
-		},
-		[52086] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "DEBUFF",
-			["source"] = "Aufseher Silthik",
-			["npcID"] = 28731,
-		},
-		[59513] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
+		[69649] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
+			["npcID"] = 36853,
 		},
-		[57724] = {
-			["encounterName"] = "Sartharion",
-			["type"] = "DEBUFF",
-			["source"] = "Geisterwolf",
-			["npcID"] = 29264,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 742,
-		},
-		[12470] = {
+		[53434] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Widi",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[23840] = {
-			["source"] = "Fzuuroon",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 417,
-		},
-		[64495] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Kenny",
-			["npcID"] = 29452,
-		},
-		[46604] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Magier",
-			["npcID"] = 32341,
-		},
-		[61461] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Frostbringer",
-			["npcID"] = 30286,
-		},
-		[25809] = {
-			["isChanneled"] = false,
-			["source"] = "Viper",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 19921,
-		},
-		[424340] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Großer Feuerelementar",
-			["npcID"] = 15438,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[56910] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 742,
-		},
-		[61563] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Zwielichtdunkelzauberer",
-			["npcID"] = 30319,
-		},
-		[47481] = {
-			["isChanneled"] = false,
-			["source"] = "Erdwurm",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 26125,
-		},
-		[68820] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 831,
-		},
-		[49309] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[55968] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 213,
-		},
-		[69088] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Seelenschrecken",
-			["npcID"] = 36522,
-		},
-		[14032] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Priester",
-			["npcID"] = 32343,
+			["npcID"] = 3823,
 		},
 		[63619] = {
-			["isChanneled"] = false,
+			["encounterName"] = "Sindragosa",
 			["source"] = "Schattengeist",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 19668,
 		},
-		[51944] = {
+		[53401] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Widi",
+			["encounterID"] = 855,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Uralter Wächter",
-			["npcID"] = 31229,
+			["npcID"] = 3823,
 		},
-		[59114] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Plündernder Spuk",
-			["npcID"] = 30287,
-		},
-		[61685] = {
-			["isChanneled"] = false,
-			["source"] = "Akrosonix",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 6500,
-		},
-		[50550] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Bernsteindrache",
-			["npcID"] = 27755,
-		},
-		[57475] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Gorilla",
-			["npcID"] = 1557,
-		},
-		[27577] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Grüner Krieger",
-			["npcID"] = 32321,
-		},
-		[53403] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Rema",
-			["npcID"] = 20330,
-		},
-		[15090] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Priester",
-			["npcID"] = 32325,
-		},
-		[67838] = {
-			["isChanneled"] = false,
-			["source"] = "Wurmloch",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 35646,
-		},
-		[55499] = {
-			["isChanneled"] = false,
-			["source"] = "Akrosonix",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 6500,
-		},
-		[59978] = {
-			["encounterName"] = "Herold Volazj",
-			["source"] = "Herold Volazj",
-			["npcID"] = 29311,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 215,
-		},
-		[39586] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
-		},
-		[9080] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Goldener Krieger",
-			["npcID"] = 32322,
-		},
-		[67808] = {
-			["source"] = "Der Schwarze Ritter",
+		[70126] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "DEBUFF",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
 			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 35451,
+			["npcID"] = 36853,
 		},
-		[45525] = {
-			["source"] = "Magier der Kriegshymnenfeste",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 25420,
+		[47994] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 17252,
 		},
-		[69579] = {
-			["event"] = "SPELL_AURA_APPLIED",
+		[424340] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Großer Feuerelementar",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 15438,
+		},
+		[69712] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 36853,
+		},
+		[61684] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Widi",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 3823,
+		},
+		[70123] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 36853,
+		},
+		[70127] = {
+			["encounterName"] = "Sindragosa",
 			["type"] = "DEBUFF",
-			["source"] = "Gefallener Krieger",
-			["npcID"] = 36841,
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 36853,
+		},
+		[54131] = {
+			["encounterName"] = "Sindragosa",
+			["type"] = "BUFF",
+			["source"] = "Widi",
+			["encounterID"] = 855,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 3823,
+		},
+		[57724] = {
+			["encounterName"] = "Sindragosa",
+			["type"] = "DEBUFF",
+			["source"] = "Khaamyn",
+			["encounterID"] = 855,
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 417,
+		},
+		[35361] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Hainläufer",
+			["npcID"] = 31228,
+		},
+		[47993] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "KlekGozin",
+			["encounterID"] = 855,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 17252,
 		},
 	},
 	["profiles"] = {
@@ -5710,6 +4388,16 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
+				[26763] = {
+					"Anomalus", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[37126] = {
+					"Schwester Svalna", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[33118] = {
 					"Ignis, Meister des Eisenwerks", -- [1]
 					"Ulduar", -- [2]
@@ -5730,9 +4418,24 @@ PlaterDB = {
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
+				[37813] = {
+					"Todesbringer Saurfang", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[36807] = {
+					"Jünger der Todessprecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[30452] = {
 					"Tenebron", -- [1]
 					"Das Obsidiansanktum", -- [2]
+					"deDE", -- [3]
+				},
+				[36855] = {
+					"Lady Todeswisper", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[6112] = {
@@ -5755,6 +4458,11 @@ PlaterDB = {
 					"Onyxias Hort", -- [2]
 					"deDE", -- [3]
 				},
+				[37127] = {
+					"Frostbinder der Ymirjar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[35610] = {
 					"Katze", -- [1]
 					"Prüfung des Kreuzfahrers", -- [2]
@@ -5763,6 +4471,11 @@ PlaterDB = {
 				[11262] = {
 					"Welpe von Onyxia", -- [1]
 					"Onyxias Hort", -- [2]
+					"deDE", -- [3]
+				},
+				[36808] = {
+					"Zelot der Todessprecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[34780] = {
@@ -5865,6 +4578,16 @@ PlaterDB = {
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
+				[26796] = {
+					"Kommandant Starkbart", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[205999] = {
+					"Spiegelbild", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
 				[33136] = {
 					"Wächter des Yogg-Saron", -- [1]
 					"Ulduar", -- [2]
@@ -5910,6 +4633,11 @@ PlaterDB = {
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
+				[37017] = {
+					"Assassinin der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[17271] = {
 					"Zerstörer der Knochenmalmer", -- [1]
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
@@ -5948,6 +4676,11 @@ PlaterDB = {
 				[34191] = {
 					"Müll", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[27635] = {
+					"Azurblauer Zauberbinder", -- [1]
+					"Das Oculus", -- [2]
 					"deDE", -- [3]
 				},
 				[34271] = {
@@ -6005,6 +4738,21 @@ PlaterDB = {
 					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
+				[38104] = {
+					"Verseuchter Zombie", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37098] = {
+					"Botin der Val'kyr", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[36619] = {
+					"Knochenstachel", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[12129] = {
 					"Wärter von Onyxia", -- [1]
 					"Onyxias Hort", -- [2]
@@ -6013,6 +4761,11 @@ PlaterDB = {
 				[34607] = {
 					"Nerubischer Gräber", -- [1]
 					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[26805] = {
+					"Kleriker der Allianz", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[34687] = {
@@ -6040,6 +4793,11 @@ PlaterDB = {
 					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
+				[36811] = {
+					"Knecht der Todessprecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[34288] = {
 					"Recyclebot Sägeblatt", -- [1]
 					"Ulduar", -- [2]
@@ -6063,6 +4821,11 @@ PlaterDB = {
 				[27971] = {
 					"Unerbittliches Konstrukt", -- [1]
 					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[37003] = {
+					"Verteidiger der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[17264] = {
@@ -6090,9 +4853,19 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[205997] = {
+					"Spiegelbild", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
 				[26550] = {
 					"Todessucher der Drachenschinder", -- [1]
 					"Turm Utgarde", -- [2]
+					"deDE", -- [3]
+				},
+				[35305] = {
+					"Argentummönch", -- [1]
+					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
 				[30654] = {
@@ -6100,14 +4873,34 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
+				[34267] = {
+					"Ersatzteiltechniker", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
 				[34193] = {
 					"Aufziehräuber", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[27651] = {
+					"Unwirkliches Feuer", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
 				[33203] = {
 					"Uralter Konservator", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37863] = {
+					"Unterdrücker", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[27636] = {
+					"Azurblauer Leywelpe", -- [1]
+					"Das Oculus", -- [2]
 					"deDE", -- [3]
 				},
 				[34273] = {
@@ -6120,14 +4913,34 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
+				[33651] = {
+					"VX-001", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[30287] = {
+					"Plündernder Spuk", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
 				[5913] = {
 					"Totem des Erdstoßes", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[38184] = {
+					"Verderbter Ymirjar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[26670] = {
 					"Fleischjäger der Ymirjar", -- [1]
 					"Turm Utgarde", -- [2]
+					"deDE", -- [3]
+				},
+				[33985] = {
+					"Verderbertentakel", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[26686] = {
@@ -6150,6 +4963,16 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[37531] = {
+					"Tierführer der Frostwächter", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[32933] = {
+					"Linker Arm", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
 				[34497] = {
 					"Fjola Lichtbann", -- [1]
 					"Prüfung des Kreuzfahrers", -- [2]
@@ -6160,9 +4983,19 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
+				[37595] = {
+					"Sinistrer Blutritter", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[34034] = {
 					"Schwärmender Wächter", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37116] = {
+					"Zauberin der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[15447] = {
@@ -6170,14 +5003,39 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[26782] = {
+					"Kristalliner Bewahrer", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[26555] = {
+					"Hüne der Geißel", -- [1]
+					"Turm Utgarde", -- [2]
+					"deDE", -- [3]
+				},
+				[33772] = {
+					"Gesichtsloser Schrecken", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[38454] = {
+					"Kinetische Bombe", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[34657] = {
 					"Jaelyne Abendlied", -- [1]
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[33651] = {
-					"VX-001", -- [1]
-					"Ulduar", -- [2]
+				[37228] = {
+					"Krieger der Frostwächter", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37973] = {
+					"Prinz Taldaram", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[34705] = {
@@ -6195,9 +5053,54 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[37972] = {
+					"Prinz Keleseth", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[33202] = {
+					"Uralter Wassergeist", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[36829] = {
+					"Hohepriester der Todessprecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[38456] = {
+					"Gefrorene Kugel", -- [1]
+					"Archavons Kammer", -- [2]
+					"deDE", -- [3]
+				},
 				[35328] = {
 					"Champion von Sturmwind", -- [1]
 					"Prüfung des Champions", -- [2]
+					"deDE", -- [3]
+				},
+				[38410] = {
+					"Abgetrennte Essenz", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[17270] = {
+					"Bogenschütze des Blutenden Auges", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[26918] = {
+					"Chaotischer Riss", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[17455] = {
+					"Bestienmeister der Knochenmalmer", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[37562] = {
+					"Gaswolke", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[27964] = {
@@ -6215,9 +5118,19 @@ PlaterDB = {
 					"Die Seelenschmiede", -- [2]
 					"deDE", -- [3]
 				},
-				[32933] = {
-					"Linker Arm", -- [1]
-					"Ulduar", -- [2]
+				[34467] = {
+					"Alyssia Mondpirscher", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[37532] = {
+					"Frostschwingenwelpe", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[34474] = {
+					"Serissa Düsterhauch", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
 				[17281] = {
@@ -6225,8 +5138,33 @@ PlaterDB = {
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
+				[34004] = {
+					"Lebensfunke", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[30284] = {
+					"Knochenschinder", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
 				[34035] = {
 					"Wilder Verteidiger", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[10404] = {
+					"Eiternder Schrecken", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37133] = {
+					"Kriegsfürst der Ymirjar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[32877] = {
+					"Dunkler Runenkriegshetzer", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
@@ -6235,9 +5173,24 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
+				[34014] = {
+					"Späher des Sanktums", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37955] = {
+					"Blutkönigin Lana'thel", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[34147] = {
 					"Notfallfeuerbot", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37229] = {
+					"Zauberin der Frostwächter", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[28619] = {
@@ -6245,9 +5198,24 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
+				[37022] = {
+					"Verseuchte Monstrosität", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[33293] = {
+					"XT-002 Dekonstruktor", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
 				[30176] = {
 					"Wächter der Ahn'kahar", -- [1]
 					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
+				[37907] = {
+					"Faulwurm", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[31214] = {
@@ -6260,9 +5228,39 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[27653] = {
+					"Unwirkliches Wasser", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
 				[35329] = {
 					"Champion von Eisenschmiede", -- [1]
 					"Prüfung des Champions", -- [2]
+					"deDE", -- [3]
+				},
+				[32934] = {
+					"Rechter Arm", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[36969] = {
+					"Scharfschütze der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37230] = {
+					"Bastionsfrostwyrm", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[30451] = {
+					"Shadron", -- [1]
+					"Das Obsidiansanktum", -- [2]
+					"deDE", -- [3]
+				},
+				[36805] = {
+					"Diener der Todessprecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[26687] = {
@@ -6275,14 +5273,24 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[37501] = {
+					"Champion der Nerub'ar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[32918] = {
 					"Explodierender Peitscher", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34467] = {
-					"Alyssia Mondpirscher", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[37533] = {
+					"Raufang", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[26727] = {
+					"Aszendent der Magierjäger", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[33988] = {
@@ -6290,9 +5298,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34004] = {
-					"Lebensfunke", -- [1]
-					"Ulduar", -- [2]
+				[28276] = {
+					"Großer Leywelpe", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[38028] = {
+					"Fangnetz", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[33525] = {
@@ -6300,9 +5313,49 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[37016] = {
+					"Erleuchter der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37134] = {
+					"Jägerin der Ymirjar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[17306] = {
+					"Wachhabender Gargolmar", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[30879] = {
+					"Planare Anomalie", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[34085] = {
+					"Schmiedenkonstrukt", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[30279] = {
+					"Tiefenkriecher", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
+				[36998] = {
+					"Beschützer der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[33142] = {
 					"Leviathan-Verteidigungsturm", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37004] = {
+					"Schreckensklinge der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[34196] = {
@@ -6310,29 +5363,104 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[26802] = {
+					"Waldläufer der Allianz", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[33526] = {
+					"Eisenwurzelpeitscher", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[36844] = {
+					"Auferstandener Diener der Todessprecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[33271] = {
+					"General Vezax", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37124] = {
+					"Hauptmann Grondel", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[36612] = {
+					"Lord Mark'gar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[35330] = {
 					"Champion der Exodar", -- [1]
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[27965] = {
-					"Dunkler Runenformer", -- [1]
-					"Hallen des Steins", -- [2]
+				[37901] = {
+					"Vampirscheusal", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[27973] = {
-					"Kristalliner Steinling", -- [1]
-					"Hallen des Steins", -- [2]
-					"deDE", -- [3]
-				},
-				[33430] = {
-					"Wächterpeitscher", -- [1]
+				[33515] = {
+					"Auriaya", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34468] = {
-					"Noozle Zischelstock", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[36666] = {
+					"Spektraler Wärter", -- [1]
+					"Die Seelenschmiede", -- [2]
+					"deDE", -- [3]
+				},
+				[37949] = {
+					"Treuer Kultist", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[32878] = {
+					"Dunkler Runenhervorrufer", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[32871] = {
+					"Algalon der Beobachter", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[38508] = {
+					"Blutbestie", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37502] = {
+					"Netzweber der Nerub'ar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37007] = {
+					"Todesgeweihter Wächter", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37023] = {
+					"Seuchenwissenschaftler", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[33431] = {
+					"Waldschwärmer", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[26722] = {
+					"Azurblauer Magus", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[33527] = {
+					"Klinge der Natur", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[417] = {
@@ -6340,9 +5468,9 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[17306] = {
-					"Wachhabender Gargolmar", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[38125] = {
+					"Todesbringer der Ymirjar", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[34564] = {
@@ -6355,19 +5483,34 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34085] = {
-					"Schmiedenkonstrukt", -- [1]
-					"Ulduar", -- [2]
+				[37662] = {
+					"Sinistrer Kommandant", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[26536] = {
-					"Hirnloser Diener", -- [1]
-					"Turm Utgarde", -- [2]
+				[30624] = {
+					"Maturitass", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
+				[30283] = {
+					"Seuchenwandler", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
 				[34133] = {
 					"Champion von Hodir", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[36980] = {
+					"Eisgrab", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[26690] = {
+					"Krieger der Ymirjar", -- [1]
+					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
 				[33670] = {
@@ -6385,9 +5528,29 @@ PlaterDB = {
 					"Das Obsidiansanktum", -- [2]
 					"deDE", -- [3]
 				},
-				[33271] = {
-					"General Vezax", -- [1]
-					"Ulduar", -- [2]
+				[37970] = {
+					"Prinz Valanar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[26723] = {
+					"Keristrasza", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[27638] = {
+					"Azurblauer Ringwächter", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[36791] = {
+					"Loderndes Skelett", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[27654] = {
+					"Drakos der Befrager", -- [1]
+					"Das Oculus", -- [2]
 					"deDE", -- [3]
 				},
 				[35331] = {
@@ -6395,14 +5558,34 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[33846] = {
-					"Dunkle Runenschildwache", -- [1]
-					"Ulduar", -- [2]
+				[36880] = {
+					"Verwesender Koloss", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[34466] = {
+					"Anthar Schmiedenformer", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[37934] = {
+					"Mörderischer Zombie", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[26672] = {
 					"Blutdurstiger Tundrawolf", -- [1]
 					"Turm Utgarde", -- [2]
+					"deDE", -- [3]
+				},
+				[34703] = {
+					"Lana Starkhammer", -- [1]
+					"Prüfung des Champions", -- [2]
+					"deDE", -- [3]
+				},
+				[26731] = {
+					"Großmagistrix Telestra", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[26696] = {
@@ -6415,9 +5598,9 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[33431] = {
-					"Waldschwärmer", -- [1]
-					"Ulduar", -- [2]
+				[36497] = {
+					"Bronjahm", -- [1]
+					"Die Seelenschmiede", -- [2]
 					"deDE", -- [3]
 				},
 				[34469] = {
@@ -6425,14 +5608,39 @@ PlaterDB = {
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
+				[26728] = {
+					"Initiand der Magierjäger", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[30890] = {
+					"Zwielichtwelpe", -- [1]
+					"Das Obsidiansanktum", -- [2]
+					"deDE", -- [3]
+				},
 				[36561] = {
 					"Wache von Onyxias Hort", -- [1]
 					"Onyxias Hort", -- [2]
 					"deDE", -- [3]
 				},
-				[33527] = {
-					"Klinge der Natur", -- [1]
-					"Ulduar", -- [2]
+				[38369] = {
+					"Dunkler Kern", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[23694] = {
+					"Pulsierender Kürbis", -- [1]
+					"Scharlachrotes Kloster", -- [2]
+					"deDE", -- [3]
+				},
+				[27640] = {
+					"Beschwörer des Ringlords", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[26734] = {
+					"Azurblauer Vollstrecker", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[34086] = {
@@ -6440,9 +5648,34 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[26792] = {
+					"Kristalliner Beschützer", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[26800] = {
+					"Berserker der Allianz", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[30179] = {
+					"Zwielichtapostel", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
 				[28860] = {
 					"Sartharion", -- [1]
 					"Das Obsidiansanktum", -- [2]
+					"deDE", -- [3]
+				},
+				[37232] = {
+					"Brutling der Nerub'ar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[32665] = {
+					"Kristalliner Greifer", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[34198] = {
@@ -6450,8 +5683,18 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[27447] = {
+					"Varos Wolkenwanderer", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
 				[35763] = {
 					"Huschender Skarabäus", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[34470] = {
+					"Saamul", -- [1]
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
@@ -6460,9 +5703,39 @@ PlaterDB = {
 					"Das Obsidiansanktum", -- [2]
 					"deDE", -- [3]
 				},
-				[33288] = {
-					"Yogg-Saron", -- [1]
+				[36522] = {
+					"Seelenschrecken", -- [1]
+					"Die Seelenschmiede", -- [2]
+					"deDE", -- [3]
+				},
+				[33528] = {
+					"Wächter des Lebens", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[35332] = {
+					"Champion von Darnassus", -- [1]
+					"Prüfung des Champions", -- [2]
+					"deDE", -- [3]
+				},
+				[26554] = {
+					"Seherin der Drachenschinder", -- [1]
+					"Turm Utgarde", -- [2]
+					"deDE", -- [3]
+				},
+				[36897] = {
+					"Kleiner Schlamm", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[29309] = {
+					"Urahne Nadox", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
+				[26928] = {
+					"Großmagistrix Telestra", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[32857] = {
@@ -6480,14 +5753,24 @@ PlaterDB = {
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
-				[17259] = {
-					"Zehrer der Knochenmalmer", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[34701] = {
+					"Kolosos", -- [1]
+					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[34470] = {
-					"Saamul", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[33432] = {
+					"Leviathan Mk II", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37025] = {
+					"Stinki", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37666] = {
+					"Sinistre Taktikerin", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[35013] = {
@@ -6505,9 +5788,24 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[33528] = {
-					"Wächter des Lebens", -- [1]
-					"Ulduar", -- [2]
+				[31104] = {
+					"Wache der Ahn'kahar", -- [1]
+					"Ahn'kahet: Das Alte Königreich", -- [2]
+					"deDE", -- [3]
+				},
+				[27647] = {
+					"Unwirklicher Oger", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[36626] = {
+					"Fauldarm", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37664] = {
+					"Sinistrer Erzmagier", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[30625] = {
@@ -6515,9 +5813,24 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
+				[34057] = {
+					"Angriffsbot", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
 				[33113] = {
 					"Flammenleviathan", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37217] = {
+					"Schatz", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[34796] = {
+					"Gormok der Pfähler", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
 				[34183] = {
@@ -6540,9 +5853,64 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
+				[34799] = {
+					"Schreckensmaul", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[27639] = {
+					"Zauberin des Ringlords", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
 				[33768] = {
 					"Geröll", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[27655] = {
+					"Magierlord Urom", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[35031] = {
+					"Erinnerung an Lucifron", -- [1]
+					"Prüfung des Champions", -- [2]
+					"deDE", -- [3]
+				},
+				[17280] = {
+					"Kriegshund der Zerschmetterten Hand", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+					"deDE", -- [3]
+				},
+				[34472] = {
+					"Irieth Schattenschritt", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[37027] = {
+					"Hierophantin der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[34269] = {
+					"Recyclebot XR-949", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[37038] = {
+					"Rachsüchtiger Fleischernter", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37026] = {
+					"Zauberin der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[36978] = {
+					"Mörsersoldat der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[32906] = {
@@ -6560,6 +5928,21 @@ PlaterDB = {
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
+				[26729] = {
+					"Bediensteter", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[26737] = {
+					"Wahnsinnige Manawoge", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[27972] = {
+					"Blitzkonstrukt", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
 				[29308] = {
 					"Prinz Taldaram", -- [1]
 					"Ahn'kahet: Das Alte Königreich", -- [2]
@@ -6570,33 +5953,43 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
-				[38456] = {
-					"Gefrorene Kugel", -- [1]
-					"Archavons Kammer", -- [2]
+				[37122] = {
+					"Hauptmann Arnath", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[36666] = {
-					"Spektraler Wärter", -- [1]
-					"Die Seelenschmiede", -- [2]
+				[36627] = {
+					"Modermiene", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[35305] = {
-					"Argentummönch", -- [1]
-					"Prüfung des Champions", -- [2]
+				[37665] = {
+					"Sinistrer Leutnant", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[30111] = {
-					"Zwielichtanbeterin", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[26793] = {
+					"Kristalliner Peitschling", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
-				[34701] = {
-					"Kolosos", -- [1]
-					"Prüfung des Champions", -- [2]
+				[37697] = {
+					"Flüchtiger Schlamm", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[27961] = {
-					"Dunkler Runenarbeiter", -- [1]
+				[32927] = {
+					"Runenmeister Molgeim", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[32930] = {
+					"Kologarn", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[27973] = {
+					"Kristalliner Steinling", -- [1]
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
@@ -6610,53 +6003,23 @@ PlaterDB = {
 					"Scharlachrotes Kloster", -- [2]
 					"deDE", -- [3]
 				},
-				[34796] = {
-					"Gormok der Pfähler", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
-					"deDE", -- [3]
-				},
-				[34928] = {
-					"Argentumbeichtpatin Blondlocke", -- [1]
-					"Prüfung des Champions", -- [2]
-					"deDE", -- [3]
-				},
-				[33202] = {
-					"Uralter Wassergeist", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
-				[34799] = {
-					"Schreckensmaul", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
-					"deDE", -- [3]
-				},
-				[35332] = {
-					"Champion von Darnassus", -- [1]
-					"Prüfung des Champions", -- [2]
-					"deDE", -- [3]
-				},
-				[26555] = {
-					"Hüne der Geißel", -- [1]
+				[27386] = {
+					"Rachegeist", -- [1]
 					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
-				[17280] = {
-					"Kriegshund der Zerschmetterten Hand", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
-					"deDE", -- [3]
-				},
-				[34269] = {
-					"Recyclebot XR-949", -- [1]
+				[33453] = {
+					"Dunkler Runenbetrachter", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[34702] = {
-					"Ambrose Bolzenfunk", -- [1]
-					"Prüfung des Champions", -- [2]
+				[33168] = {
+					"Verstärkte Eiserne Wurzeln", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[33293] = {
-					"XT-002 Dekonstruktor", -- [1]
+				[32919] = {
+					"Sturmpeitscher", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
@@ -6665,9 +6028,39 @@ PlaterDB = {
 					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
-				[27972] = {
-					"Blitzkonstrukt", -- [1]
-					"Hallen des Steins", -- [2]
+				[34463] = {
+					"Shaabad", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
+					"deDE", -- [3]
+				},
+				[34702] = {
+					"Ambrose Bolzenfunk", -- [1]
+					"Prüfung des Champions", -- [2]
+					"deDE", -- [3]
+				},
+				[26735] = {
+					"Azurblauer Schuppenbinder", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[36899] = {
+					"Großer Schlamm", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[33846] = {
+					"Dunkle Runenschildwache", -- [1]
+					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[26929] = {
+					"Großmagistrix Telestra", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[26553] = {
+					"Fanatiker der Drachenschinder", -- [1]
+					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
 				[30414] = {
@@ -6685,14 +6078,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[35031] = {
-					"Erinnerung an Lucifron", -- [1]
-					"Prüfung des Champions", -- [2]
+				[37011] = {
+					"Die Verdammten", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[34472] = {
-					"Irieth Schattenschritt", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[36516] = {
+					"Animator der Seelenwache", -- [1]
+					"Die Seelenschmiede", -- [2]
 					"deDE", -- [3]
 				},
 				[32955] = {
@@ -6715,19 +6108,19 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[33985] = {
-					"Verderbertentakel", -- [1]
-					"Ulduar", -- [2]
+				[34928] = {
+					"Argentumbeichtpatin Blondlocke", -- [1]
+					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[34057] = {
-					"Angriffsbot", -- [1]
-					"Ulduar", -- [2]
+				[35590] = {
+					"Wiederauferstandener Champion", -- [1]
+					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[26554] = {
-					"Seherin der Drachenschinder", -- [1]
-					"Turm Utgarde", -- [2]
+				[34800] = {
+					"Schneeboldvasall", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
 				[31129] = {
@@ -6735,9 +6128,9 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[34474] = {
-					"Serissa Düsterhauch", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[9696] = {
+					"Manni", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[35143] = {
@@ -6750,19 +6143,19 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32927] = {
-					"Runenmeister Molgeim", -- [1]
-					"Ulduar", -- [2]
+				[17259] = {
+					"Zehrer der Knochenmalmer", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
-				[32930] = {
-					"Kologarn", -- [1]
-					"Ulduar", -- [2]
+				[36724] = {
+					"Diener des Throns", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[34014] = {
-					"Späher des Sanktums", -- [1]
-					"Ulduar", -- [2]
+				[36961] = {
+					"Unteroffizier der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[31185] = {
@@ -6780,8 +6173,8 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32877] = {
-					"Dunkler Runenkriegshetzer", -- [1]
+				[33288] = {
+					"Yogg-Saron", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
@@ -6790,19 +6183,19 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[27386] = {
-					"Rachegeist", -- [1]
-					"Turm Utgarde", -- [2]
+				[27648] = {
+					"Unwirkliche Naga", -- [1]
+					"Das Oculus", -- [2]
 					"deDE", -- [3]
 				},
-				[33168] = {
-					"Verstärkte Eiserne Wurzeln", -- [1]
-					"Ulduar", -- [2]
+				[27656] = {
+					"Leywächter Eregos", -- [1]
+					"Das Oculus", -- [2]
 					"deDE", -- [3]
 				},
-				[32919] = {
-					"Sturmpeitscher", -- [1]
-					"Ulduar", -- [2]
+				[37890] = {
+					"Fanatischer Kultist", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[33818] = {
@@ -6810,19 +6203,24 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[37132] = {
+					"Kriegsmaid der Ymirjar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37663] = {
+					"Sinistre Adlige", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[26693] = {
 					"Skadi der Skrupellose", -- [1]
 					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
-				[34466] = {
-					"Anthar Schmiedenformer", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
-					"deDE", -- [3]
-				},
-				[34463] = {
-					"Shaabad", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[36948] = {
+					"Muradin Bronzebart", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[33387] = {
@@ -6830,24 +6228,19 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32876] = {
-					"Dunkler Runenchampion", -- [1]
+				[28231] = {
+					"Kristalline Hüterin", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[32908] = {
+					"Gefangener Söldnerhauptmann", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32934] = {
-					"Rechter Arm", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
-				[30283] = {
-					"Seuchenwandler", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
-					"deDE", -- [3]
-				},
-				[30451] = {
-					"Shadron", -- [1]
-					"Das Obsidiansanktum", -- [2]
+				[37012] = {
+					"Uralter Skelettsoldat", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[34473] = {
@@ -6855,19 +6248,19 @@ PlaterDB = {
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
-				[32878] = {
-					"Dunkler Runenhervorrufer", -- [1]
-					"Ulduar", -- [2]
+				[26730] = {
+					"Magiertöter", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
-				[26553] = {
-					"Fanatiker der Drachenschinder", -- [1]
-					"Turm Utgarde", -- [2]
+				[37571] = {
+					"Sinistrer Berater", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[29309] = {
-					"Urahne Nadox", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[26746] = {
+					"Wahnsinniges Managespenst", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[36070] = {
@@ -6875,9 +6268,9 @@ PlaterDB = {
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
-				[34800] = {
-					"Schneeboldvasall", -- [1]
-					"Prüfung des Kreuzfahrers", -- [2]
+				[37886] = {
+					"Gefräßige Monstrosität", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[27281] = {
@@ -6890,9 +6283,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32865] = {
-					"Thorim", -- [1]
+				[32876] = {
+					"Dunkler Runenchampion", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[26794] = {
+					"Ormorok der Baumformer", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[35144] = {
@@ -6900,29 +6298,9 @@ PlaterDB = {
 					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
-				[30890] = {
-					"Zwielichtwelpe", -- [1]
-					"Das Obsidiansanktum", -- [2]
-					"deDE", -- [3]
-				},
-				[35590] = {
-					"Wiederauferstandener Champion", -- [1]
-					"Prüfung des Champions", -- [2]
-					"deDE", -- [3]
-				},
-				[34703] = {
-					"Lana Starkhammer", -- [1]
-					"Prüfung des Champions", -- [2]
-					"deDE", -- [3]
-				},
-				[33526] = {
-					"Eisenwurzelpeitscher", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
-				[17270] = {
-					"Bogenschütze des Blutenden Auges", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
+				[26536] = {
+					"Hirnloser Diener", -- [1]
+					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
 				[33344] = {
@@ -6930,9 +6308,24 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[33515] = {
-					"Auriaya", -- [1]
+				[36725] = {
+					"Bruthüter der Nerub'ar", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[37534] = {
+					"Wirbelpirscher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[33430] = {
+					"Wächterpeitscher", -- [1]
 					"Ulduar", -- [2]
+					"deDE", -- [3]
+				},
+				[27965] = {
+					"Dunkler Runenformer", -- [1]
+					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
 				[34234] = {
@@ -6950,14 +6343,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[32908] = {
-					"Gefangener Söldnerhauptmann", -- [1]
+				[32865] = {
+					"Thorim", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[26690] = {
-					"Krieger der Ymirjar", -- [1]
-					"Turm Utgarde", -- [2]
+				[37021] = {
+					"Vikar der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[34825] = {
@@ -6970,19 +6363,19 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
+				[37144] = {
+					"Schütze der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
 				[35119] = {
 					"Eadric der Reine", -- [1]
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[26668] = {
-					"Svala Grabesleid", -- [1]
-					"Turm Utgarde", -- [2]
-					"deDE", -- [3]
-				},
-				[33432] = {
-					"Leviathan Mk II", -- [1]
-					"Ulduar", -- [2]
+				[26930] = {
+					"Großmagistrix Telestra", -- [1]
+					"Der Nexus", -- [2]
 					"deDE", -- [3]
 				},
 				[27960] = {
@@ -6995,14 +6388,14 @@ PlaterDB = {
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[30179] = {
-					"Zwielichtapostel", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[416] = {
+					"Azpit", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[33453] = {
-					"Dunkler Runenbetrachter", -- [1]
-					"Ulduar", -- [2]
+				[34468] = {
+					"Noozle Zischelstock", -- [1]
+					"Prüfung des Kreuzfahrers", -- [2]
 					"deDE", -- [3]
 				},
 				[36502] = {
@@ -7015,14 +6408,14 @@ PlaterDB = {
 					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
-				[32871] = {
-					"Algalon der Beobachter", -- [1]
-					"Ulduar", -- [2]
+				[36950] = {
+					"Marinesoldat der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[9696] = {
-					"Manni", -- [1]
-					"Ulduar", -- [2]
+				[37868] = {
+					"Auferstandener Erzmagier", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
 				[35033] = {
@@ -7030,59 +6423,14 @@ PlaterDB = {
 					"Prüfung des Champions", -- [2]
 					"deDE", -- [3]
 				},
-				[36516] = {
-					"Animator der Seelenwache", -- [1]
-					"Die Seelenschmiede", -- [2]
-					"deDE", -- [3]
-				},
-				[17309] = {
-					"Höllenfeuerwächter", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
-					"deDE", -- [3]
-				},
-				[17455] = {
-					"Bestienmeister der Knochenmalmer", -- [1]
-					"Höllenfeuerzitadelle: Bollwerk", -- [2]
-					"deDE", -- [3]
-				},
 				[33524] = {
 					"Saronitanimus", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
-				[36522] = {
-					"Seelenschrecken", -- [1]
-					"Die Seelenschmiede", -- [2]
-					"deDE", -- [3]
-				},
-				[36497] = {
-					"Bronjahm", -- [1]
-					"Die Seelenschmiede", -- [2]
-					"deDE", -- [3]
-				},
-				[416] = {
-					"Azpit", -- [1]
-					"Ulduar", -- [2]
-					"deDE", -- [3]
-				},
-				[30643] = {
-					"Lavaflamme", -- [1]
-					"Das Obsidiansanktum", -- [2]
-					"deDE", -- [3]
-				},
-				[23694] = {
-					"Pulsierender Kürbis", -- [1]
-					"Scharlachrotes Kloster", -- [2]
-					"deDE", -- [3]
-				},
-				[31104] = {
-					"Wache der Ahn'kahar", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
-					"deDE", -- [3]
-				},
-				[30279] = {
-					"Tiefenkriecher", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[17309] = {
+					"Höllenfeuerwächter", -- [1]
+					"Höllenfeuerzitadelle: Bollwerk", -- [2]
 					"deDE", -- [3]
 				},
 				[30277] = {
@@ -7095,29 +6443,74 @@ PlaterDB = {
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
-				[30287] = {
-					"Plündernder Spuk", -- [1]
+				[26716] = {
+					"Azurblauer Wärter", -- [1]
+					"Der Nexus", -- [2]
+					"deDE", -- [3]
+				},
+				[27961] = {
+					"Dunkler Runenarbeiter", -- [1]
+					"Hallen des Steins", -- [2]
+					"deDE", -- [3]
+				},
+				[36678] = {
+					"Professor Seuchenmord", -- [1]
+					"Eiskronenzitadelle", -- [2]
+					"deDE", -- [3]
+				},
+				[30643] = {
+					"Lavaflamme", -- [1]
+					"Das Obsidiansanktum", -- [2]
+					"deDE", -- [3]
+				},
+				[30111] = {
+					"Zwielichtanbeterin", -- [1]
 					"Ahn'kahet: Das Alte Königreich", -- [2]
 					"deDE", -- [3]
 				},
-				[30284] = {
-					"Knochenschinder", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[38154] = {
+					"Kriegsfalke", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[34267] = {
-					"Ersatzteiltechniker", -- [1]
-					"Ulduar", -- [2]
+				[37148] = {
+					"Beschwörer der Himmelsbrecher", -- [1]
+					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[33772] = {
-					"Gesichtsloser Schrecken", -- [1]
-					"Ulduar", -- [2]
+				[205998] = {
+					"Spiegelbild", -- [1]
+					"Das Oculus", -- [2]
 					"deDE", -- [3]
 				},
-				[30624] = {
-					"Maturitass", -- [1]
-					"Ahn'kahet: Das Alte Königreich", -- [2]
+				[28153] = {
+					"Schneeflocke", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[27650] = {
+					"Unwirkliche Luft", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[27633] = {
+					"Azurblauer Inquisitor", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[27641] = {
+					"Zentrifugenkonstrukt", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[27649] = {
+					"Unwirklicher Murloc", -- [1]
+					"Das Oculus", -- [2]
+					"deDE", -- [3]
+				},
+				[26668] = {
+					"Svala Grabesleid", -- [1]
+					"Turm Utgarde", -- [2]
 					"deDE", -- [3]
 				},
 			},
@@ -7140,7 +6533,11 @@ PlaterDB = {
 					["Desc"] = "Player an animation when the cast start. Start a timer when the cast finishes. Set the time in the options.",
 					["__TrashAt"] = 1685814778,
 					["OnShowCode"] = "function (self, unitId, unitFrame, envTable, scriptTable)\n    \n    --play flash animations\n    envTable.FullBarFlash:Play()\n    \n    --envTable.currentHeight = unitFrame.castBar:GetHeight()\n    \n    --restoring the default size (not required since it already restore in the hide script)\n    if (envTable.OriginalHeight) then\n        self:SetHeight (envTable.OriginalHeight)\n    end\n    \n    --increase the cast bar size\n    local height = self:GetHeight()\n    envTable.OriginalHeight = height\n    \n    self:SetHeight (height + envTable.CastBarHeightAdd)\n    \n    Plater.SetCastBarBorderColor (self, 1, .2, .2, 0.4)\n    \n    unitFrame:PlayFrameShake (envTable.FrameShake)\n    \n    --set the color of the cast bar to dark orange (only if can be interrupted)\n    --Plater auto set this color to default when a new cast starts, no need to reset this value at OnHide.    \n    if (envTable._CanInterrupt) then\n        if (scriptTable.config.useCastbarColor) then\n            self:SetStatusBarColor (Plater:ParseColors (envTable.CastbarColor))\n        end\n    end\n    \n    envTable.BackgroundFlash:Play()\n    \n    unitFrame.castBar.Spark:SetHeight(unitFrame.castBar:GetHeight())\n    \nend\n\n\n\n\n\n\n\n\n\n\n",
-					["Name"] = "Cast - Alert + Timer [P]",
+					["SpellIds"] = {
+						350421, -- [1]
+						355787, -- [2]
+						348513, -- [3]
+					},
 					["PlaterCore"] = 1,
 					["Options"] = {
 						{
@@ -7278,11 +6675,7 @@ PlaterDB = {
 						}, -- [12]
 					},
 					["version"] = -1,
-					["SpellIds"] = {
-						350421, -- [1]
-						355787, -- [2]
-						348513, -- [3]
-					},
+					["Name"] = "Cast - Alert + Timer [P]",
 					["NpcNames"] = {
 					},
 				}, -- [1]
@@ -7388,7 +6781,7 @@ PlaterDB = {
 				["nameplateSelectedAlpha"] = "1",
 				["NamePlateVerticalScale"] = "1",
 			},
-			["login_counter"] = 415,
+			["login_counter"] = 436,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["global_health_width"] = 112,
@@ -8234,6 +7627,11 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 774,
 		},
+		[50476] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
+		},
 		[66619] = {
 			["encounterName"] = "Argentumchampion",
 			["source"] = "Erinnerung an Eck",
@@ -8317,12 +7715,22 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33196,
 		},
+		[22907] = {
+			["source"] = "Waldläufer der Allianz",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26802,
+		},
 		[65854] = {
 			["encounterName"] = "Fraktionschampions",
 			["source"] = "Kavina Haineslied",
 			["encounterID"] = 637,
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34460,
+		},
+		[69974] = {
+			["source"] = "Schütze der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37144,
 		},
 		[62661] = {
 			["encounterName"] = "General Vezax",
@@ -8361,6 +7769,13 @@ PlaterDB = {
 			["source"] = "Fleischjäger der Ymirjar",
 			["npcID"] = 26670,
 		},
+		[59260] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Unwirkliche Naga",
+			["npcID"] = 27648,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 532,
+		},
 		[65791] = {
 			["encounterName"] = "Fraktionschampions",
 			["source"] = "Noozle Zischelstock",
@@ -8375,12 +7790,39 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 756,
 		},
+		[70965] = {
+			["source"] = "Bruthüter der Nerub'ar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36725,
+		},
+		[69975] = {
+			["source"] = "Schütze der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37144,
+		},
+		[71029] = {
+			["source"] = "Diener des Throns",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36724,
+		},
+		[59372] = {
+			["encounterName"] = "Varos Wolkenwanderer",
+			["source"] = "Varos Wolkenwanderer",
+			["npcID"] = 27447,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 530,
+		},
 		[18500] = {
 			["encounterName"] = "Onyxia",
 			["source"] = "Onyxia",
 			["encounterID"] = 1084,
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 10184,
+		},
+		[71253] = {
+			["source"] = "Jägerin der Ymirjar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37134,
 		},
 		[67229] = {
 			["source"] = "Argentumpriesterin",
@@ -8411,10 +7853,27 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 776,
 		},
+		[71254] = {
+			["encounterName"] = "Lady Todeswisper",
+			["source"] = "Lady Todeswisper",
+			["encounterID"] = 846,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36855,
+		},
 		[58702] = {
 			["source"] = "Totem der Verbrennung X",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 31165,
+		},
+		[71318] = {
+			["source"] = "Zauberin der Frostwächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37229,
+		},
+		[71350] = {
+			["source"] = "Frostschwingenwelpe",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37532,
 		},
 		[62327] = {
 			["encounterName"] = "Thorim",
@@ -8496,6 +7955,11 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Zauberwerfer der Ahn'kahar",
 			["npcID"] = 30278,
+		},
+		[50495] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
 		},
 		[59246] = {
 			["encounterName"] = "Skadi der Skrupellose",
@@ -8585,6 +8049,11 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 629,
 		},
+		[69405] = {
+			["source"] = "Diener der Todessprecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36805,
+		},
 		[68958] = {
 			["encounterName"] = "Onyxia",
 			["source"] = "Wache von Onyxias Hort",
@@ -8592,10 +8061,29 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 1084,
 		},
+		[73142] = {
+			["encounterName"] = "Lord Mark'gar",
+			["source"] = "Lord Mark'gar",
+			["encounterID"] = 845,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36612,
+		},
+		[57091] = {
+			["encounterName"] = "Keristrasza",
+			["source"] = "Keristrasza",
+			["encounterID"] = 526,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26723,
+		},
 		[20665] = {
 			["source"] = "Bewahrer Remulos",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 11832,
+		},
+		[50496] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
 		},
 		[62776] = {
 			["encounterName"] = "XT-002 Dekonstruktor",
@@ -8603,6 +8091,11 @@ PlaterDB = {
 			["encounterID"] = 747,
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33293,
+		},
+		[59215] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Großer Leywelpe",
+			["npcID"] = 28276,
 		},
 		[67745] = {
 			["encounterName"] = "Der schwarze Ritter",
@@ -8617,6 +8110,11 @@ PlaterDB = {
 			["npcID"] = 26691,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 581,
+		},
+		[71386] = {
+			["source"] = "Raufang",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37533,
 		},
 		[64389] = {
 			["encounterName"] = "Auriaya",
@@ -8640,6 +8138,11 @@ PlaterDB = {
 		[116] = {
 			["npcID"] = 188027,
 		},
+		[73079] = {
+			["source"] = "Seuchenwissenschaftler",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37023,
+		},
 		[6358] = {
 			["source"] = "Naztai",
 			["event"] = "SPELL_CAST_START",
@@ -8657,31 +8160,20 @@ PlaterDB = {
 			["source"] = "Sturmgehärteter Wächter",
 			["npcID"] = 33699,
 		},
-		[62042] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Thorim",
-			["npcID"] = 32865,
+		[36922] = {
+			["source"] = "Wirbelpirscher",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["npcID"] = 37534,
 		},
-		[62601] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Sif",
-			["npcID"] = 33196,
+		[61402] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["source"] = "Zauberin des Ringlords",
+			["npcID"] = 27639,
 		},
-		[62649] = {
-			["encounterName"] = "Freya",
-			["source"] = "Sturmpeitscher",
-			["encounterID"] = 753,
+		[71323] = {
+			["source"] = "Frostklinge",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 32919,
-		},
-		[69056] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Wachmann der Seelenwache",
-			["npcID"] = 36478,
+			["npcID"] = 38199,
 		},
 		[66054] = {
 			["encounterName"] = "Fraktionschampions",
@@ -8690,15 +8182,89 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
+		[18435] = {
+			["encounterName"] = "Onyxia",
+			["source"] = "Onyxia",
+			["encounterID"] = 1084,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 10184,
+		},
+		[62601] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Sif",
+			["npcID"] = 33196,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 752,
+		},
+		[71546] = {
+			["source"] = "Hauptmann Arnath",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37122,
+		},
+		[71376] = {
+			["source"] = "Raufang",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37533,
+		},
+		[62649] = {
+			["encounterName"] = "Freya",
+			["source"] = "Sturmpeitscher",
+			["encounterID"] = 753,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 32919,
+		},
+		[71196] = {
+			["source"] = "Valithria Traumwandler",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36789,
+		},
+		[71189] = {
+			["encounterName"] = "Valithria Traumwandler",
+			["source"] = "Valithria Traumwandler",
+			["encounterID"] = 854,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36789,
+		},
+		[69056] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Wachmann der Seelenwache",
+			["npcID"] = 36478,
+		},
+		[66821] = {
+			["encounterName"] = "Bestien von Nordend",
+			["source"] = "Schreckensmaul",
+			["npcID"] = 34799,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 629,
+		},
+		[32674] = {
+			["source"] = "Wiedererweckter Kreuzfahrer",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 30202,
+		},
 		[51503] = {
 			["source"] = "Dunkler Runenaufseher",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27966,
 		},
-		[63272] = {
-			["source"] = "Mangrovenent",
+		[62250] = {
+			["encounterName"] = "Leywächter Eregos",
+			["source"] = "Großer Leywelpe",
+			["npcID"] = 28276,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33525,
+			["encounterID"] = 534,
+		},
+		[48258] = {
+			["encounterName"] = "Svala Grabesleid",
+			["source"] = "Svala Grabesleid",
+			["npcID"] = 26668,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 577,
+		},
+		[70196] = {
+			["source"] = "Schwester Svalna",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37126,
 		},
 		[66725] = {
 			["encounterName"] = "Koralon der Flammenwächter",
@@ -8707,12 +8273,22 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 776,
 		},
-		[66821] = {
-			["encounterName"] = "Bestien von Nordend",
-			["source"] = "Schreckensmaul",
-			["npcID"] = 34799,
+		[72378] = {
+			["encounterName"] = "Todesbringer Saurfang",
+			["source"] = "Todesbringer Saurfang",
+			["encounterID"] = 848,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 629,
+			["npcID"] = 37813,
+		},
+		[70645] = {
+			["source"] = "Sinistrer Adliger",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37663,
+		},
+		[59280] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Schneeflocke",
+			["npcID"] = 28153,
 		},
 		[13323] = {
 			["event"] = "SPELL_CAST_START",
@@ -8726,6 +8302,18 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33515,
 		},
+		[64767] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Thorim",
+			["npcID"] = 32865,
+		},
+		[63716] = {
+			["encounterName"] = "Kologarn",
+			["source"] = "Kologarn",
+			["encounterID"] = 749,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 32930,
+		},
 		[65492] = {
 			["encounterName"] = "Fraktionschampions",
 			["source"] = "Brienna Tiefnacht",
@@ -8733,12 +8321,70 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
+		[59376] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 532,
+		},
+		[56837] = {
+			["source"] = "Aszendent der Magierjäger",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26727,
+		},
 		[66055] = {
 			["encounterName"] = "Fraktionschampions",
 			["source"] = "Saamul",
 			["npcID"] = 34470,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
+		},
+		[71088] = {
+			["source"] = "Eiternder Schrecken",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 10404,
+		},
+		[47782] = {
+			["source"] = "Verseuchter Runenmagier der Drachenschinder",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 24198,
+		},
+		[72057] = {
+			["source"] = "Sinistrer Berater",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37571,
+		},
+		[70043] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 829,
+		},
+		[71325] = {
+			["source"] = "Krieger der Frostwächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37228,
+		},
+		[62443] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Dunkler Runenakolyt",
+			["npcID"] = 33110,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 752,
+		},
+		[18431] = {
+			["encounterName"] = "Onyxia",
+			["source"] = "Onyxia",
+			["encounterID"] = 1084,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 10184,
+		},
+		[49309] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Goldener Schamane",
+			["npcID"] = 32340,
 		},
 		[49843] = {
 			["source"] = "Blutschemen",
@@ -8751,6 +8397,11 @@ PlaterDB = {
 			["npcID"] = 33515,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 750,
+		},
+		[69882] = {
+			["source"] = "Hierophant der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37027,
 		},
 		[62666] = {
 			["encounterName"] = "Klingenschuppe",
@@ -8766,6 +8417,18 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 774,
 		},
+		[64607] = {
+			["encounterName"] = "Algalon der Beobachter",
+			["source"] = "Lebendige Konstellation",
+			["encounterID"] = 757,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 33052,
+		},
+		[56775] = {
+			["source"] = "Azurblauer Magus",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26722,
+		},
 		[69633] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Spektraler Wärter",
@@ -8778,10 +8441,37 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 756,
 		},
+		[14515] = {
+			["source"] = "Hauptmann Arnath",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37122,
+		},
+		[33844] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Uralter Wächter",
+			["npcID"] = 31229,
+		},
+		[69562] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Animator der Seelenwache",
+			["npcID"] = 36516,
+		},
+		[71326] = {
+			["source"] = "Netzweber der Nerub'ar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37502,
+		},
 		[62315] = {
 			["source"] = "Jormungarungetüm",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 32882,
+		},
+		[70672] = {
+			["encounterName"] = "Professor Seuchenmord",
+			["source"] = "Gaswolke",
+			["encounterID"] = 851,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37562,
 		},
 		[65801] = {
 			["encounterName"] = "Fraktionschampions",
@@ -8795,6 +8485,13 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34198,
 		},
+		[66552] = {
+			["encounterName"] = "Argentumchampion",
+			["source"] = "Erinnerung an Eck",
+			["encounterID"] = 338,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 35047,
+		},
 		[62395] = {
 			["encounterName"] = "Flammenleviathan",
 			["source"] = "Flammenleviathangeschütz",
@@ -8807,12 +8504,17 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34184,
 		},
-		[62443] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Dunkler Runenakolyt",
-			["npcID"] = 33110,
+		[71930] = {
+			["source"] = "Abgetrennte Essenz",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["npcID"] = 38410,
+		},
+		[59377] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 532,
 		},
 		[66536] = {
 			["encounterName"] = "Argentumchampion",
@@ -8833,6 +8535,16 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33670,
 		},
+		[69972] = {
+			["source"] = "Beschwörer der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37148,
+		},
+		[70460] = {
+			["source"] = "Frost Freeze Trap",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37744,
+		},
 		[23381] = {
 			["source"] = "Bewahrer Remulos",
 			["event"] = "SPELL_CAST_START",
@@ -8844,6 +8556,16 @@ PlaterDB = {
 			["encounterID"] = 757,
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33052,
+		},
+		[12470] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Goldener Schamane",
+			["npcID"] = 32340,
+		},
+		[50690] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Azurblauer Inquisitor",
+			["npcID"] = 27633,
 		},
 		[49317] = {
 			["event"] = "SPELL_CAST_START",
@@ -8864,6 +8586,25 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
+		[70903] = {
+			["encounterName"] = "Lady Todeswisper",
+			["source"] = "Treuer Kultist",
+			["encounterID"] = 846,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37949,
+		},
+		[57046] = {
+			["source"] = "Wahnsinnige Manawoge",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26737,
+		},
+		[62605] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Sif",
+			["npcID"] = 33196,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 752,
+		},
 		[30615] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Wahrsager des Blutenden Auges",
@@ -8879,12 +8620,29 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33525,
 		},
+		[64383] = {
+			["encounterName"] = "Mimiron",
+			["source"] = "VX-001",
+			["encounterID"] = 754,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 33651,
+		},
+		[51475] = {
+			["source"] = "Dunkler Runenelementarist",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 27962,
+		},
 		[66665] = {
 			["encounterName"] = "Koralon der Flammenwächter",
 			["source"] = "Koralon der Flammenwächter",
 			["npcID"] = 35013,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 776,
+		},
+		[71296] = {
+			["source"] = "Todesbringer der Ymirjar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 38125,
 		},
 		[67751] = {
 			["encounterName"] = "Der schwarze Ritter",
@@ -8893,22 +8651,55 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 35451,
 		},
-		[18431] = {
-			["encounterName"] = "Onyxia",
-			["source"] = "Onyxia",
-			["encounterID"] = 1084,
+		[66313] = {
+			["encounterName"] = "Bestien von Nordend",
+			["source"] = "Schneeboldvasall",
+			["npcID"] = 34800,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 10184,
+			["encounterID"] = 629,
 		},
-		[63913] = {
+		[59266] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Unwirkliches Wasser",
+			["npcID"] = 27653,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Zwielichtfrostmagier",
-			["npcID"] = 33819,
+			["encounterID"] = 532,
+		},
+		[61326] = {
+			["source"] = "Azurblauer Schuppenbinder",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26735,
+		},
+		[69923] = {
+			["source"] = "Erleuchter der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37016,
+		},
+		[65867] = {
+			["encounterName"] = "Fraktionschampions",
+			["source"] = "Alyssia Mondpirscher",
+			["npcID"] = 34467,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 637,
 		},
 		[49110] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Wächter des Wyrmruhtempels",
 			["npcID"] = 26933,
+		},
+		[69508] = {
+			["encounterName"] = "Modermiene",
+			["source"] = "Modermiene",
+			["encounterID"] = 850,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36627,
+		},
+		[65026] = {
+			["encounterName"] = "Mimiron",
+			["source"] = "Leviathan Mk II",
+			["encounterID"] = 754,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 34071,
 		},
 		[67528] = {
 			["encounterName"] = "Großchampions",
@@ -8917,10 +8708,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34701,
 		},
-		[33844] = {
+		[66538] = {
+			["encounterName"] = "Argentumchampion",
+			["source"] = "Argentumbeichtpatin Blondlocke",
+			["encounterID"] = 338,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Uralter Wächter",
-			["npcID"] = 31229,
+			["npcID"] = 34928,
 		},
 		[61965] = {
 			["event"] = "SPELL_CAST_START",
@@ -8934,6 +8727,18 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33651,
 		},
+		[69899] = {
+			["source"] = "Primalist der Kor'kron",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37030,
+		},
+		[70754] = {
+			["encounterName"] = "Valithria Traumwandler",
+			["source"] = "Loderndes Skelett",
+			["encounterID"] = 854,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36791,
+		},
 		[64584] = {
 			["encounterName"] = "Algalon der Beobachter",
 			["source"] = "Algalon der Beobachter",
@@ -8941,10 +8746,25 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 32871,
 		},
+		[69973] = {
+			["source"] = "Beschwörer der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37148,
+		},
+		[71361] = {
+			["source"] = "Frostschwingenwelpe",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37532,
+		},
 		[48280] = {
 			["source"] = "Wächter der Drachenschinder",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27927,
+		},
+		[71906] = {
+			["source"] = "Botin der Val'kyr",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37098,
 		},
 		[64153] = {
 			["encounterName"] = "Yogg-Saron",
@@ -8953,12 +8773,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 756,
 		},
-		[63147] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Sara",
-			["npcID"] = 33134,
+		[65868] = {
+			["encounterName"] = "Großchampions",
+			["source"] = "Jaelyne Abendlied",
+			["encounterID"] = 334,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
+			["npcID"] = 34657,
 		},
 		[64696] = {
 			["encounterName"] = "Klingenschuppe",
@@ -8967,10 +8787,27 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33453,
 		},
+		[57047] = {
+			["source"] = "Wahnsinnige Manawoge",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26737,
+		},
+		[69649] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36853,
+		},
 		[63722] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Gesichtsloser Schrecken",
 			["npcID"] = 33772,
+		},
+		[70116] = {
+			["source"] = "Bastionsfrostwyrm",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37230,
 		},
 		[38204] = {
 			["source"] = "Unbändiger Seher",
@@ -8994,15 +8831,63 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 756,
 		},
+		[71298] = {
+			["source"] = "Todesbringer der Ymirjar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 38125,
+		},
+		[71330] = {
+			["source"] = "Zauberin der Frostwächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37229,
+		},
+		[64390] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Thorim",
+			["npcID"] = 32865,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 752,
+		},
+		[71420] = {
+			["encounterName"] = "Lady Todeswisper",
+			["source"] = "Lady Todeswisper",
+			["encounterID"] = 846,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36855,
+		},
+		[66330] = {
+			["encounterName"] = "Bestien von Nordend",
+			["source"] = "Gormok der Pfähler",
+			["npcID"] = 34796,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 629,
+		},
 		[53167] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Dunkler Runentheurg",
 			["npcID"] = 27963,
 		},
-		[49111] = {
+		[70900] = {
+			["encounterName"] = "Lady Todeswisper",
+			["source"] = "Fanatischer Kultist",
+			["encounterID"] = 846,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Azurblauer Großdrache",
-			["npcID"] = 27608,
+			["npcID"] = 37890,
+		},
+		[69989] = {
+			["source"] = "Schütze der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37144,
+		},
+		[71022] = {
+			["source"] = "Todesgeweihter Wächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37007,
+		},
+		[70053] = {
+			["source"] = "Schwester Svalna",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37126,
 		},
 		[62445] = {
 			["encounterName"] = "Thorim",
@@ -9011,6 +8896,18 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 752,
 		},
+		[69968] = {
+			["source"] = "Hierophant der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37027,
+		},
+		[67529] = {
+			["encounterName"] = "Großchampions",
+			["source"] = "Kolosos",
+			["encounterID"] = 334,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 34701,
+		},
 		[64537] = {
 			["encounterName"] = "Mimiron",
 			["source"] = "VX-001",
@@ -9018,10 +8915,34 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33651,
 		},
+		[69389] = {
+			["source"] = "Jünger der Todessprecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36807,
+		},
 		[58948] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Wächter des Onyxsanktums",
 			["npcID"] = 30453,
+		},
+		[69564] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Adept der Seelenwache",
+			["npcID"] = 36620,
+		},
+		[70351] = {
+			["encounterName"] = "Professor Seuchenmord",
+			["source"] = "Professor Seuchenmord",
+			["encounterID"] = 851,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36678,
+		},
+		[64386] = {
+			["encounterName"] = "Auriaya",
+			["source"] = "Auriaya",
+			["npcID"] = 33515,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 750,
 		},
 		[66796] = {
 			["encounterName"] = "Bestien von Nordend",
@@ -9030,19 +8951,30 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 629,
 		},
-		[62605] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Sif",
-			["npcID"] = 33196,
+		[72960] = {
+			["source"] = "Sinistrer Adliger",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["npcID"] = 37663,
 		},
-		[62653] = {
-			["encounterName"] = "Freya",
-			["source"] = "Uralter Wassergeist",
-			["encounterID"] = 753,
+		[17290] = {
+			["source"] = "Aszendent der Magierjäger",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33202,
+			["npcID"] = 26727,
+		},
+		[69958] = {
+			["source"] = "Erleuchter der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37016,
+		},
+		[72034] = {
+			["source"] = "Toravon der Eiswächter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 38433,
+		},
+		[64746] = {
+			["source"] = "Magmawüter",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 34086,
 		},
 		[59108] = {
 			["event"] = "SPELL_CAST_START",
@@ -9056,15 +8988,27 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34687,
 		},
-		[51475] = {
-			["source"] = "Dunkler Runenelementarist",
+		[71140] = {
+			["source"] = "Verseuchte Monstrosität",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 27962,
+			["npcID"] = 37022,
+		},
+		[11986] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Zwielichtapostel",
+			["npcID"] = 30179,
 		},
 		[51507] = {
 			["source"] = "Dunkler Runenaufseher",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27966,
+		},
+		[69712] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36853,
 		},
 		[18392] = {
 			["encounterName"] = "Onyxia",
@@ -9072,6 +9016,20 @@ PlaterDB = {
 			["encounterID"] = 1084,
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 10184,
+		},
+		[69057] = {
+			["encounterName"] = "Lord Mark'gar",
+			["source"] = "Lord Mark'gar",
+			["encounterID"] = 845,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36612,
+		},
+		[70594] = {
+			["encounterName"] = "Lady Todeswisper",
+			["source"] = "Treuer Kultist",
+			["encounterID"] = 846,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37949,
 		},
 		[62318] = {
 			["event"] = "SPELL_CAST_START",
@@ -9090,29 +9048,108 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
-		[62446] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Dunkler Runenhervorrufer",
-			["npcID"] = 32878,
+		[56969] = {
+			["source"] = "Azurblauer Schuppenbinder",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
-		},
-		[64570] = {
-			["encounterName"] = "Mimiron",
-			["source"] = "Leviathan Mk II",
-			["encounterID"] = 754,
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33432,
-		},
-		[22121] = {
-			["source"] = "Verteidiger von Nachthafen",
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 15495,
+			["npcID"] = 26735,
 		},
 		[66798] = {
 			["source"] = "Der Schwarze Ritter",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 35451,
+		},
+		[71123] = {
+			["source"] = "Schatz",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37217,
+		},
+		[56934] = {
+			["encounterName"] = "Großmagistrix Telestra",
+			["source"] = "Großmagistrix Telestra",
+			["encounterID"] = 520,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26731,
+		},
+		[62131] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Thorim",
+			["encounterID"] = 752,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 32865,
+		},
+		[69576] = {
+			["source"] = "Diener der Todessprecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36805,
+		},
+		[69967] = {
+			["source"] = "Vikar der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37021,
+		},
+		[61562] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Zwielichtdunkelzauberer",
+			["npcID"] = 30319,
+		},
+		[59211] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Azurblauer Ringwächter",
+			["npcID"] = 27638,
+		},
+		[71237] = {
+			["encounterName"] = "Lady Todeswisper",
+			["source"] = "Treuer Kultist",
+			["encounterID"] = 846,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37949,
+		},
+		[65648] = {
+			["encounterName"] = "Mimiron",
+			["source"] = "Luftkommandoeinheit",
+			["encounterID"] = 754,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 33670,
+		},
+		[63038] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Wächter des Yogg-Saron",
+			["npcID"] = 33136,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 756,
+		},
+		[56937] = {
+			["encounterName"] = "Großmagistrix Telestra",
+			["source"] = "Großmagistrix Telestra",
+			["encounterID"] = 520,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26930,
+		},
+		[55931] = {
+			["encounterName"] = "Prinz Taldaram",
+			["source"] = "Prinz Taldaram",
+			["npcID"] = 29308,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 213,
+		},
+		[61568] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Zwielichtanbeter",
+			["npcID"] = 30111,
+		},
+		[69839] = {
+			["encounterName"] = "Modermiene",
+			["source"] = "Großer Schlamm",
+			["encounterID"] = 850,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36899,
+		},
+		[56938] = {
+			["encounterName"] = "Großmagistrix Telestra",
+			["source"] = "Großmagistrix Telestra",
+			["encounterID"] = 520,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26928,
 		},
 		[64171] = {
 			["encounterName"] = "Yogg-Saron",
@@ -9121,10 +9158,87 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 756,
 		},
-		[64746] = {
-			["source"] = "Magmawüter",
+		[59381] = {
+			["encounterName"] = "Leywächter Eregos",
+			["source"] = "Leywächter Eregos",
+			["npcID"] = 27656,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 34086,
+			["encounterID"] = 534,
+		},
+		[69387] = {
+			["source"] = "Knecht der Todessprecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36811,
+		},
+		[63479] = {
+			["encounterName"] = "Der Eiserne Rat",
+			["source"] = "Sturmrufer Brundir",
+			["npcID"] = 32857,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 748,
+		},
+		[71621] = {
+			["encounterName"] = "Professor Seuchenmord",
+			["source"] = "Professor Seuchenmord",
+			["encounterID"] = 851,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36678,
+		},
+		[69679] = {
+			["encounterName"] = "Kanonenschiffsschlacht von Eiskrone",
+			["source"] = "Mörsersoldat der Himmelsbrecher",
+			["encounterID"] = 847,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36978,
+		},
+		[68982] = {
+			["encounterName"] = "Verschlinger der Seelen",
+			["source"] = "Verschlinger der Seelen",
+			["npcID"] = 36502,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 831,
+		},
+		[72293] = {
+			["encounterName"] = "Todesbringer Saurfang",
+			["source"] = "Todesbringer Saurfang",
+			["encounterID"] = 848,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37813,
+		},
+		[69705] = {
+			["encounterName"] = "Kanonenschiffsschlacht von Eiskrone",
+			["source"] = "Zauberer der Himmelsbrecher",
+			["encounterID"] = 847,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37116,
+		},
+		[70759] = {
+			["encounterName"] = "Valithria Traumwandler",
+			["source"] = "Auferstandener Erzmagier",
+			["encounterID"] = 854,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37868,
+		},
+		[71335] = {
+			["encounterName"] = "Kanonenschiffsschlacht von Eiskrone",
+			["source"] = "Unteroffizier der Himmelsbrecher",
+			["encounterID"] = 847,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36961,
+		},
+		[62623] = {
+			["encounterName"] = "Freya",
+			["source"] = "Freya",
+			["encounterID"] = 753,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 32906,
+		},
+		[59370] = {
+			["encounterName"] = "Drakos der Befrager",
+			["source"] = "Drakos der Befrager",
+			["npcID"] = 27654,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 528,
 		},
 		[62335] = {
 			["event"] = "SPELL_CAST_START",
@@ -9137,6 +9251,11 @@ PlaterDB = {
 			["npcID"] = 34474,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
+		},
+		[61353] = {
+			["source"] = "Dagna Flintriegel",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 29476,
 		},
 		[68939] = {
 			["encounterName"] = "Verschlinger der Seelen",
@@ -9157,6 +9276,13 @@ PlaterDB = {
 			["source"] = "Jormungarungetüm",
 			["npcID"] = 32882,
 		},
+		[64759] = {
+			["encounterName"] = "Klingenschuppe",
+			["source"] = "Dunkler Runenbetrachter",
+			["encounterID"] = 746,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 33453,
+		},
 		[67534] = {
 			["encounterName"] = "Großchampions",
 			["source"] = "Kolosos",
@@ -9164,34 +9290,53 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34701,
 		},
+		[65875] = {
+			["encounterName"] = "Zwillingsval'kyr",
+			["source"] = "Eydis Nachtbann",
+			["npcID"] = 34496,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 641,
+		},
 		[69131] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Animator der Seelenwache",
 			["npcID"] = 36516,
 		},
-		[63038] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Wächter des Yogg-Saron",
-			["npcID"] = 33136,
+		[71718] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Taldaram",
+			["encounterID"] = 852,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
+			["npcID"] = 37973,
+		},
+		[69195] = {
+			["encounterName"] = "Fauldarm",
+			["source"] = "Fauldarm",
+			["encounterID"] = 849,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36626,
+		},
+		[62016] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Thorim",
+			["npcID"] = 32865,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 752,
+		},
+		[71303] = {
+			["source"] = "Todesbringer der Ymirjar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 38125,
 		},
 		[67247] = {
 			["source"] = "Argentumlichtwirker",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 35309,
 		},
-		[64156] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Verderbertentakel",
-			["npcID"] = 33985,
+		[38047] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
-		},
-		[69068] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
+			["source"] = "Azurblauer Zauberbinder",
+			["npcID"] = 27635,
 		},
 		[66066] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9199,6 +9344,64 @@ PlaterDB = {
 			["npcID"] = 34469,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
+		},
+		[70409] = {
+			["source"] = "Sinistrer Erzmagier",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37664,
+		},
+		[63134] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Sara",
+			["npcID"] = 33134,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 756,
+		},
+		[63147] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Sara",
+			["npcID"] = 33134,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 756,
+		},
+		[69483] = {
+			["source"] = "Hohepriester der Todessprecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36829,
+		},
+		[64059] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Yogg-Sarons Gehirn",
+			["npcID"] = 33890,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 756,
+		},
+		[59252] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Dämmerschamane der Ymirjar",
+			["npcID"] = 26694,
+		},
+		[69068] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Adept der Seelenwache",
+			["npcID"] = 36620,
+		},
+		[64189] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Yogg-Saron",
+			["npcID"] = 33288,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 756,
+		},
+		[30633] = {
+			["source"] = "Kristalliner Beschützer",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26792,
+		},
+		[413091] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Spiegelbild",
+			["npcID"] = 205999,
 		},
 		[63789] = {
 			["event"] = "SPELL_CAST_START",
@@ -9209,6 +9412,20 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Azpit",
 			["npcID"] = 416,
+		},
+		[71815] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Keleseth",
+			["encounterID"] = 852,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37972,
+		},
+		[56908] = {
+			["encounterName"] = "Sartharion",
+			["source"] = "Sartharion",
+			["npcID"] = 28860,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 742,
 		},
 		[59254] = {
 			["event"] = "SPELL_CAST_START",
@@ -9222,24 +9439,53 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 1893,
 		},
-		[64396] = {
-			["encounterName"] = "Auriaya",
-			["source"] = "Auriaya",
-			["npcID"] = 33515,
+		[70410] = {
+			["source"] = "Sinistrer Erzmagier",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 750,
+			["npcID"] = 37664,
 		},
-		[65875] = {
-			["encounterName"] = "Zwillingsval'kyr",
-			["source"] = "Eydis Nachtbann",
-			["npcID"] = 34496,
+		[62529] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Dunkler Runenhervorrufer",
+			["npcID"] = 32878,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 641,
+			["encounterID"] = 752,
+		},
+		[69963] = {
+			["source"] = "Vikar der Himmelsbrecher",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37021,
+		},
+		[72039] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Valanar",
+			["encounterID"] = 852,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37970,
 		},
 		[64971] = {
 			["source"] = "Eisenheiler",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34198,
+		},
+		[71592] = {
+			["source"] = "Hauptmann Rupert",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37125,
+		},
+		[67729] = {
+			["encounterName"] = "Der schwarze Ritter",
+			["source"] = "Wiederauferstandener Jaeren Sonnenschwur",
+			["encounterID"] = 340,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 35545,
+		},
+		[70123] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36853,
 		},
 		[66067] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9248,27 +9494,46 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
+		[69165] = {
+			["encounterName"] = "Fauldarm",
+			["source"] = "Fauldarm",
+			["encounterID"] = 849,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36626,
+		},
 		[53314] = {
 			["source"] = "Dunkler Runenelementarist",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27962,
 		},
-		[72034] = {
-			["source"] = "Toravon der Eiswächter",
+		[64652] = {
+			["source"] = "Champion von Hodir",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 38433,
+			["npcID"] = 34133,
 		},
-		[72091] = {
-			["source"] = "Toravon der Eiswächter",
+		[68899] = {
+			["encounterName"] = "Verschlinger der Seelen",
+			["source"] = "Verschlinger der Seelen",
+			["npcID"] = 36502,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 38433,
+			["encounterID"] = 831,
 		},
-		[64386] = {
-			["encounterName"] = "Auriaya",
-			["source"] = "Auriaya",
-			["npcID"] = 33515,
+		[71337] = {
+			["source"] = "Tierführer der Frostwächter",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 750,
+			["npcID"] = 37531,
+		},
+		[62653] = {
+			["encounterName"] = "Freya",
+			["source"] = "Uralter Wassergeist",
+			["encounterID"] = 753,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 33202,
+		},
+		[63758] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Zwielichtfrostmagier",
+			["npcID"] = 33819,
 		},
 		[65812] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9291,12 +9556,10 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34497,
 		},
-		[64189] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Yogg-Saron",
-			["npcID"] = 33288,
+		[9053] = {
+			["source"] = "Nekrolyth des Blutenden Auges",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
+			["npcID"] = 19422,
 		},
 		[65940] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9317,10 +9580,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 31216,
 		},
-		[61568] = {
+		[47731] = {
+			["encounterName"] = "Großmagistrix Telestra",
+			["source"] = "Großmagistrix Telestra",
+			["encounterID"] = 520,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Zwielichtanbeter",
-			["npcID"] = 30111,
+			["npcID"] = 26929,
 		},
 		[63247] = {
 			["source"] = "Klinge der Natur",
@@ -9334,33 +9599,27 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34466,
 		},
-		[66313] = {
-			["encounterName"] = "Bestien von Nordend",
-			["source"] = "Schneeboldvasall",
-			["npcID"] = 34800,
+		[59255] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 629,
+			["source"] = "Totenbeschwörer der Ymirjar",
+			["npcID"] = 28368,
 		},
-		[18435] = {
-			["encounterName"] = "Onyxia",
-			["source"] = "Onyxia",
-			["encounterID"] = 1084,
+		[69869] = {
+			["source"] = "Zauberer der Himmelsbrecher",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 10184,
+			["npcID"] = 37026,
 		},
-		[67729] = {
-			["encounterName"] = "Der schwarze Ritter",
-			["source"] = "Wiederauferstandener Jaeren Sonnenschwur",
-			["encounterID"] = 340,
+		[47981] = {
+			["encounterName"] = "Ormorok der Baumformer",
+			["source"] = "Ormorok der Baumformer",
+			["encounterID"] = 524,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 35545,
+			["npcID"] = 26794,
 		},
-		[68872] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
+		[15241] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 829,
+			["source"] = "Dunkelzauberer des Blutenden Auges",
+			["npcID"] = 17269,
 		},
 		[62321] = {
 			["encounterName"] = "Thorim",
@@ -9376,10 +9635,10 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 579,
 		},
-		[69562] = {
+		[51494] = {
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Animator der Seelenwache",
-			["npcID"] = 36516,
+			["source"] = "Dunkler Runenriese",
+			["npcID"] = 27969,
 		},
 		[66867] = {
 			["encounterName"] = "Argentumchampion",
@@ -9395,50 +9654,46 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
-		[62488] = {
-			["encounterName"] = "Ignis, Meister des Eisenwerks",
-			["source"] = "Ignis, Meister des Eisenwerks",
-			["encounterID"] = 745,
+		[59223] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Unwirklicher Wolkenreißer",
+			["npcID"] = 27645,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33118,
+			["encounterID"] = 532,
 		},
-		[64759] = {
-			["encounterName"] = "Klingenschuppe",
-			["source"] = "Dunkler Runenbetrachter",
-			["encounterID"] = 746,
+		[68950] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33453,
+			["encounterID"] = 829,
 		},
-		[62623] = {
-			["encounterName"] = "Freya",
-			["source"] = "Freya",
-			["encounterID"] = 753,
+		[71594] = {
+			["source"] = "Hauptmann Rupert",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 32906,
+			["npcID"] = 37125,
 		},
 		[60916] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Wärter des Archavon",
 			["npcID"] = 32353,
 		},
-		[63716] = {
-			["encounterName"] = "Kologarn",
-			["source"] = "Kologarn",
-			["encounterID"] = 749,
+		[72040] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Taldaram",
+			["encounterID"] = 852,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 32930,
+			["npcID"] = 37973,
 		},
-		[62328] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Dunkler Runenhervorrufer",
-			["encounterID"] = 752,
+		[56860] = {
+			["source"] = "Initiand der Magierjäger",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 32878,
+			["npcID"] = 26728,
 		},
-		[32674] = {
-			["source"] = "Wiedererweckter Kreuzfahrer",
+		[70189] = {
+			["source"] = "Bastionsgargoyle",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 30202,
+			["npcID"] = 37544,
 		},
 		[50760] = {
 			["encounterName"] = "Maid der Trauer",
@@ -9447,46 +9702,22 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 565,
 		},
-		[56908] = {
-			["encounterName"] = "Sartharion",
-			["source"] = "Sartharion",
-			["npcID"] = 28860,
-			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 742,
-		},
-		[64767] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Thorim",
-			["npcID"] = 32865,
-		},
-		[57753] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Herrin der Onyxbrut",
-			["npcID"] = 30681,
-		},
-		[59252] = {
-			["event"] = "SPELL_CAST_START",
-			["source"] = "Dämmerschamane der Ymirjar",
-			["npcID"] = 26694,
-		},
-		[64059] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Yogg-Sarons Gehirn",
-			["npcID"] = 33890,
-			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
-		},
-		[63631] = {
-			["encounterName"] = "Mimiron",
-			["source"] = "Leviathan Mk II",
-			["encounterID"] = 754,
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33432,
-		},
 		[65084] = {
 			["source"] = "Entsorgungsbot XB-488",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34273,
+		},
+		[69774] = {
+			["source"] = "Kleiner Schlamm",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36897,
+		},
+		[73061] = {
+			["encounterName"] = "Sindragosa",
+			["source"] = "Sindragosa",
+			["encounterID"] = 855,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36853,
 		},
 		[62532] = {
 			["encounterName"] = "Freya",
@@ -9495,24 +9726,43 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33203,
 		},
-		[63830] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Sara",
-			["npcID"] = 33134,
+		[57753] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
+			["source"] = "Herrin der Onyxbrut",
+			["npcID"] = 30681,
 		},
-		[48258] = {
-			["encounterName"] = "Svala Grabesleid",
-			["source"] = "Svala Grabesleid",
-			["npcID"] = 26668,
+		[63631] = {
+			["encounterName"] = "Mimiron",
+			["source"] = "Leviathan Mk II",
+			["encounterID"] = 754,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 577,
+			["npcID"] = 33432,
 		},
-		[49309] = {
+		[71934] = {
+			["source"] = "Abgetrennte Essenz",
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
+			["npcID"] = 38410,
+		},
+		[59331] = {
+			["encounterName"] = "Skadi der Skrupellose",
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Skadi der Skrupellose",
+			["npcID"] = 26693,
+		},
+		[71020] = {
+			["source"] = "Bruthüter der Nerub'ar",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 36725,
+		},
+		[63760] = {
+			["event"] = "SPELL_CAST_START",
+			["source"] = "Zwielichtanhänger",
+			["npcID"] = 33818,
+		},
+		[71595] = {
+			["source"] = "Hauptmann Arnath",
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37122,
 		},
 		[17843] = {
 			["source"] = "Goldener Priester",
@@ -9524,7 +9774,7 @@ PlaterDB = {
 			["source"] = "Pulsierender Kürbis",
 			["npcID"] = 23694,
 		},
-		[66538] = {
+		[66537] = {
 			["encounterName"] = "Argentumchampion",
 			["source"] = "Argentumbeichtpatin Blondlocke",
 			["encounterID"] = 338,
@@ -9543,43 +9793,45 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 645,
 		},
-		[64607] = {
-			["encounterName"] = "Algalon der Beobachter",
-			["source"] = "Lebendige Konstellation",
-			["encounterID"] = 757,
+		[72037] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Valanar",
+			["encounterID"] = 852,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33052,
+			["npcID"] = 37970,
 		},
-		[62016] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Thorim",
-			["npcID"] = 32865,
+		[64396] = {
+			["encounterName"] = "Auriaya",
+			["source"] = "Auriaya",
+			["npcID"] = 33515,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["encounterID"] = 750,
 		},
-		[65868] = {
-			["encounterName"] = "Großchampions",
-			["source"] = "Jaelyne Abendlied",
-			["encounterID"] = 334,
+		[62488] = {
+			["encounterName"] = "Ignis, Meister des Eisenwerks",
+			["source"] = "Ignis, Meister des Eisenwerks",
+			["encounterID"] = 745,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 34657,
+			["npcID"] = 33118,
 		},
 		[64877] = {
 			["source"] = "Gehärteter Eisengolem",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34190,
 		},
-		[66058] = {
-			["encounterName"] = "Zwillingsval'kyr",
-			["source"] = "Eydis Nachtbann",
-			["npcID"] = 34496,
+		[68872] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["npcID"] = 36497,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 641,
+			["encounterID"] = 829,
 		},
-		[12470] = {
+		[51112] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Goldener Schamane",
-			["npcID"] = 32340,
+			["encounterID"] = 532,
 		},
 		[58793] = {
 			["encounterName"] = "Sartharion",
@@ -9602,17 +9854,19 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33142,
 		},
-		[63758] = {
+		[64156] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Verderbertentakel",
+			["npcID"] = 33985,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Zwielichtfrostmagier",
-			["npcID"] = 33819,
+			["encounterID"] = 756,
 		},
-		[66552] = {
-			["encounterName"] = "Argentumchampion",
-			["source"] = "Erinnerung an Eck",
-			["encounterID"] = 338,
+		[63830] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Sara",
+			["npcID"] = 33134,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 35047,
+			["encounterID"] = 756,
 		},
 		[63472] = {
 			["encounterName"] = "Ignis, Meister des Eisenwerks",
@@ -9621,24 +9875,24 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33118,
 		},
-		[61353] = {
-			["source"] = "Dagna Flintriegel",
+		[22121] = {
+			["source"] = "Verteidiger von Nachthafen",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 29476,
+			["npcID"] = 15495,
 		},
-		[64487] = {
-			["encounterName"] = "Algalon der Beobachter",
-			["source"] = "Algalon der Beobachter",
-			["encounterID"] = 757,
+		[66058] = {
+			["encounterName"] = "Zwillingsval'kyr",
+			["source"] = "Eydis Nachtbann",
+			["npcID"] = 34496,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 32871,
+			["encounterID"] = 641,
 		},
-		[66537] = {
-			["encounterName"] = "Argentumchampion",
-			["source"] = "Argentumbeichtpatin Blondlocke",
-			["encounterID"] = 338,
+		[64570] = {
+			["encounterName"] = "Mimiron",
+			["source"] = "Leviathan Mk II",
+			["encounterID"] = 754,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 34928,
+			["npcID"] = 33432,
 		},
 		[50761] = {
 			["encounterName"] = "Maid der Trauer",
@@ -9647,41 +9901,52 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27975,
 		},
-		[72898] = {
-			["encounterName"] = "Krystallus",
-			["source"] = "Wasserelementar",
-			["encounterID"] = 563,
+		[38618] = {
+			["encounterName"] = "Eingefrorener Kommandant",
+			["source"] = "Kommandant Starkbart",
+			["encounterID"] = 519,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 37994,
+			["npcID"] = 26796,
 		},
-		[15241] = {
+		[62446] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Dunkler Runenhervorrufer",
+			["npcID"] = 32878,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Dunkelzauberer des Blutenden Auges",
-			["npcID"] = 17269,
-		},
-		[65026] = {
-			["encounterName"] = "Mimiron",
-			["source"] = "Leviathan Mk II",
-			["encounterID"] = 754,
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 34071,
-		},
-		[64652] = {
-			["source"] = "Champion von Hodir",
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 34133,
-		},
-		[64383] = {
-			["encounterName"] = "Mimiron",
-			["source"] = "VX-001",
-			["encounterID"] = 754,
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33651,
+			["encounterID"] = 752,
 		},
 		[49113] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Drache des Wyrmruhtempels",
 			["npcID"] = 26925,
+		},
+		[51336] = {
+			["encounterName"] = "Drakos der Befrager",
+			["source"] = "Drakos der Befrager",
+			["npcID"] = 27654,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 528,
+		},
+		[71405] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Keleseth",
+			["encounterID"] = 852,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37972,
+		},
+		[47736] = {
+			["encounterName"] = "Großmagistrix Telestra",
+			["source"] = "Großmagistrix Telestra",
+			["encounterID"] = 520,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 26929,
+		},
+		[70447] = {
+			["encounterName"] = "Professor Seuchenmord",
+			["source"] = "Flüchtiger Schlamm",
+			["encounterID"] = 851,
+			["event"] = "SPELL_CAST_START",
+			["npcID"] = 37697,
 		},
 		[66902] = {
 			["encounterName"] = "Bestien von Nordend",
@@ -9690,41 +9955,36 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 629,
 		},
-		[62131] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Thorim",
-			["encounterID"] = 752,
-			["event"] = "SPELL_CAST_START",
-			["npcID"] = 32865,
-		},
 		[59081] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Seherin der Drachenschinder",
 			["npcID"] = 26554,
 		},
-		[63134] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Sara",
-			["npcID"] = 33134,
+		[64487] = {
+			["encounterName"] = "Algalon der Beobachter",
+			["source"] = "Algalon der Beobachter",
+			["encounterID"] = 757,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 756,
+			["npcID"] = 32871,
 		},
 		[21668] = {
 			["source"] = "Bewahrer Remulos",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 11832,
 		},
-		[67529] = {
-			["encounterName"] = "Großchampions",
-			["source"] = "Kolosos",
-			["encounterID"] = 334,
+		[72898] = {
+			["encounterName"] = "Krystallus",
+			["source"] = "Wasserelementar",
+			["encounterID"] = 563,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 34701,
+			["npcID"] = 37994,
 		},
-		[63760] = {
+		[17086] = {
+			["encounterName"] = "Onyxia",
+			["source"] = "Onyxia",
+			["npcID"] = 10184,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Zwielichtanhänger",
-			["npcID"] = 33818,
+			["encounterID"] = 1084,
 		},
 		[51496] = {
 			["source"] = "Dunkler Runenformer",
@@ -9738,34 +9998,32 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
-		[66330] = {
-			["encounterName"] = "Bestien von Nordend",
-			["source"] = "Gormok der Pfähler",
-			["npcID"] = 34796,
-			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 629,
-		},
 		[51832] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Unerbittliches Konstrukt",
 			["npcID"] = 27971,
 		},
-		[47782] = {
-			["source"] = "Verseuchter Runenmagier der Drachenschinder",
+		[71778] = {
+			["source"] = "Hauptmann Arnath",
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 24198,
+			["npcID"] = 37122,
+		},
+		[59225] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Unwirkliches Feuer",
+			["npcID"] = 27651,
+			["event"] = "SPELL_CAST_START",
+			["encounterID"] = 532,
 		},
 		[59241] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Fleischjäger der Ymirjar",
 			["npcID"] = 26670,
 		},
-		[65867] = {
-			["encounterName"] = "Fraktionschampions",
-			["source"] = "Alyssia Mondpirscher",
-			["npcID"] = 34467,
+		[49111] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 637,
+			["source"] = "Azurblauer Großdrache",
+			["npcID"] = 27608,
 		},
 		[59273] = {
 			["encounterName"] = "Gortok Bleichhuf",
@@ -9774,12 +10032,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 579,
 		},
-		[17086] = {
-			["encounterName"] = "Onyxia",
-			["source"] = "Onyxia",
-			["npcID"] = 10184,
+		[66794] = {
+			["encounterName"] = "Bestien von Nordend",
+			["source"] = "Ätzschlund",
+			["npcID"] = 35144,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 1084,
+			["encounterID"] = 629,
 		},
 		[59305] = {
 			["encounterName"] = "König Ymiron",
@@ -9788,12 +10046,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 583,
 		},
-		[66794] = {
-			["encounterName"] = "Bestien von Nordend",
-			["source"] = "Ätzschlund",
-			["npcID"] = 35144,
+		[68959] = {
+			["encounterName"] = "Onyxia",
+			["source"] = "Wache von Onyxias Hort",
+			["encounterID"] = 1084,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 629,
+			["npcID"] = 36561,
 		},
 		[66935] = {
 			["encounterName"] = "Argentumchampion",
@@ -9802,24 +10060,24 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 35119,
 		},
-		[68959] = {
-			["encounterName"] = "Onyxia",
-			["source"] = "Wache von Onyxias Hort",
-			["encounterID"] = 1084,
+		[71617] = {
+			["encounterName"] = "Professor Seuchenmord",
+			["source"] = "Professor Seuchenmord",
+			["encounterID"] = 851,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 36561,
+			["npcID"] = 36678,
 		},
 		[60902] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Wärter des Archavon",
 			["npcID"] = 32353,
 		},
-		[65648] = {
-			["encounterName"] = "Mimiron",
-			["source"] = "Luftkommandoeinheit",
-			["encounterID"] = 754,
+		[66118] = {
+			["encounterName"] = "Anub'arak",
+			["source"] = "Anub'arak",
+			["npcID"] = 34564,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33670,
+			["encounterID"] = 645,
 		},
 		[63489] = {
 			["encounterName"] = "Der Eiserne Rat",
@@ -9833,12 +10091,10 @@ PlaterDB = {
 			["source"] = "Frostbringer",
 			["npcID"] = 30286,
 		},
-		[66118] = {
-			["encounterName"] = "Anub'arak",
-			["source"] = "Anub'arak",
-			["npcID"] = 34564,
+		[56919] = {
+			["source"] = "Kleriker der Allianz",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 645,
+			["npcID"] = 26805,
 		},
 		[65070] = {
 			["source"] = "Ersatzteiltechniker",
@@ -9850,10 +10106,10 @@ PlaterDB = {
 			["source"] = "Wahrsager des Blutenden Auges",
 			["npcID"] = 17478,
 		},
-		[9053] = {
-			["source"] = "Nekrolyth des Blutenden Auges",
+		[63913] = {
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 19422,
+			["source"] = "Zwielichtfrostmagier",
+			["npcID"] = 33819,
 		},
 		[50810] = {
 			["encounterName"] = "Krystallus",
@@ -9874,12 +10130,10 @@ PlaterDB = {
 			["source"] = "Flammenwächter",
 			["npcID"] = 35143,
 		},
-		[63479] = {
-			["encounterName"] = "Der Eiserne Rat",
-			["source"] = "Sturmrufer Brundir",
-			["npcID"] = 32857,
+		[71928] = {
+			["source"] = "Abgetrennte Essenz",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 748,
+			["npcID"] = 38410,
 		},
 		[63138] = {
 			["encounterName"] = "Yogg-Saron",
@@ -9888,33 +10142,34 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 756,
 		},
-		[69564] = {
+		[69970] = {
+			["source"] = "Erleuchter der Himmelsbrecher",
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Adept der Seelenwache",
-			["npcID"] = 36620,
+			["npcID"] = 37016,
 		},
-		[70043] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
+		[62328] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Dunkler Runenhervorrufer",
+			["encounterID"] = 752,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 829,
+			["npcID"] = 32878,
 		},
-		[59331] = {
-			["encounterName"] = "Skadi der Skrupellose",
+		[72091] = {
+			["source"] = "Toravon der Eiswächter",
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Skadi der Skrupellose",
-			["npcID"] = 26693,
+			["npcID"] = 38433,
 		},
 		[63713] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Gesichtsloser Schrecken",
 			["npcID"] = 33772,
 		},
-		[59255] = {
+		[69076] = {
+			["encounterName"] = "Lord Mark'gar",
+			["source"] = "Lord Mark'gar",
+			["encounterID"] = 845,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Totenbeschwörer der Ymirjar",
-			["npcID"] = 28368,
+			["npcID"] = 36612,
 		},
 		[66042] = {
 			["encounterName"] = "Großchampions",
@@ -9923,45 +10178,41 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34702,
 		},
-		[62529] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Dunkler Runenhervorrufer",
-			["npcID"] = 32878,
+		[70162] = {
+			["encounterName"] = "Kanonenschiffsschlacht von Eiskrone",
+			["source"] = "Scharfschütze der Himmelsbrecher",
+			["encounterID"] = 847,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["npcID"] = 36969,
 		},
-		[68950] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["npcID"] = 36497,
+		[51103] = {
+			["encounterName"] = "Magierlord Urom",
+			["source"] = "Magierlord Urom",
+			["npcID"] = 27655,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 829,
+			["encounterID"] = 532,
 		},
-		[68982] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
+		[41056] = {
+			["source"] = "Kriegsfürst der Ymirjar",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 831,
+			["npcID"] = 37133,
 		},
-		[55931] = {
-			["encounterName"] = "Prinz Taldaram",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 29308,
+		[59210] = {
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 213,
+			["source"] = "Azurblauer Leywelpe",
+			["npcID"] = 27636,
 		},
-		[68899] = {
-			["encounterName"] = "Verschlinger der Seelen",
-			["source"] = "Verschlinger der Seelen",
-			["npcID"] = 36502,
+		[71893] = {
+			["encounterName"] = "Professor Seuchenmord",
+			["source"] = "Professor Seuchenmord",
+			["encounterID"] = 851,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 831,
+			["npcID"] = 36678,
 		},
-		[51494] = {
+		[59212] = {
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Dunkler Runenriese",
-			["npcID"] = 27969,
+			["source"] = "Azurblauer Zauberbinder",
+			["npcID"] = 27635,
 		},
 		[62324] = {
 			["encounterName"] = "Flammenleviathan",
@@ -9970,12 +10221,10 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 33109,
 		},
-		[64390] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Thorim",
-			["npcID"] = 32865,
+		[63272] = {
+			["source"] = "Mangrovenent",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 752,
+			["npcID"] = 33525,
 		},
 		[65819] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9984,10 +10233,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
-		[61562] = {
+		[70744] = {
+			["encounterName"] = "Valithria Traumwandler",
+			["source"] = "Mörderischer Zombie",
+			["encounterID"] = 854,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Zwielichtdunkelzauberer",
-			["npcID"] = 30319,
+			["npcID"] = 37934,
 		},
 		[65883] = {
 			["encounterName"] = "Fraktionschampions",
@@ -9996,10 +10247,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 637,
 		},
-		[11986] = {
+		[62042] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Thorim",
+			["npcID"] = 32865,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Zwielichtapostel",
-			["npcID"] = 30179,
+			["encounterID"] = 752,
 		},
 	},
 }
@@ -10009,25 +10262,25 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 	["_general_logs"] = {
-		"2023-11-01 23:11:34 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [1]
-		"2023-10-30 23:48:36 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [2]
-		"2023-10-30 22:45:21 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [3]
-		"2023-10-29 23:33:39 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [4]
-		"2023-10-29 22:37:26 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [5]
-		"2023-10-29 11:39:09 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Maturitass", -- [6]
-		"2023-10-29 11:11:38 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [7]
-		"2023-10-29 00:44:15 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [8]
-		"2023-10-27 23:36:20 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [9]
-		"2023-10-26 23:57:12 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [10]
-		"2023-10-25 00:58:35 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [11]
-		"2023-10-25 00:56:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [12]
-		"2023-10-23 23:55:59 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [13]
-		"2023-10-23 08:52:34 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [14]
-		"2023-10-23 00:59:00 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [15]
-		"2023-10-23 00:52:23 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [16]
-		"2023-10-23 00:47:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [17]
-		"2023-10-23 00:25:10 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [18]
-		"2023-10-22 22:01:41 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Maturitass", -- [19]
+		"2023-11-04 02:42:59 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Maturitas", -- [1]
+		"2023-11-04 02:42:26 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Maturitass", -- [2]
+		"2023-11-03 23:06:15 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [3]
+		"2023-11-03 23:02:07 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [4]
+		"2023-11-03 00:41:32 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [5]
+		"2023-11-02 00:12:32 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [6]
+		"2023-11-01 23:11:34 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [7]
+		"2023-10-30 23:48:36 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [8]
+		"2023-10-30 22:45:21 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [9]
+		"2023-10-29 23:33:39 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [10]
+		"2023-10-29 22:37:26 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [11]
+		"2023-10-29 11:39:09 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Maturitass", -- [12]
+		"2023-10-29 11:11:38 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [13]
+		"2023-10-29 00:44:15 | INIT | Plater-v564.2-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [14]
+		"2023-10-27 23:36:20 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [15]
+		"2023-10-26 23:57:12 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [16]
+		"2023-10-25 00:58:35 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [17]
+		"2023-10-25 00:56:18 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [18]
+		"2023-10-23 23:55:59 | INIT | Plater-v564.2-Wrath | Framework v468 | 3.4.3 | deDE | Bloodwall", -- [19]
 	},
 	["_error_logs"] = {
 	},

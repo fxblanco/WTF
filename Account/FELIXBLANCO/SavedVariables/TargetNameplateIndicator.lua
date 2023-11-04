@@ -25,15 +25,6 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonRedArrow",
 				},
 			},
-			["targettarget"] = {
-				["enable"] = false,
-				["friendly"] = {
-					["enable"] = false,
-				},
-				["self"] = {
-					["enable"] = false,
-				},
-			},
 			["mouseover"] = {
 				["self"] = {
 					["enable"] = false,
@@ -45,6 +36,15 @@ TargetNameplateIndicatorDB = {
 				},
 				["hostile"] = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonGreenArrow",
+				},
+			},
+			["targettarget"] = {
+				["enable"] = false,
+				["friendly"] = {
+					["enable"] = false,
+				},
+				["self"] = {
+					["enable"] = false,
 				},
 			},
 			["focus"] = {

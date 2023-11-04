@@ -1,0 +1,31 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["Inventory"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"|cffffffff|Hitem:10657::::::::22:::::::::|h[]|h|r", -- [3]
+					"|cffffffff|Hitem:154::::::::22:::::::::|h[]|h|r", -- [4]
+					"|cffffffff|Hitem:3585::::::::22:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:15110::::::234:1488895360:22:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:4909::::::::22:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:11853::::::::22:::::::::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:15453::::::::22:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:3314::::::::22:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:3235::::::::22:::::::::|h[]|h|r", -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					"|cffffffff|Hitem:15508::::::1182:1076201984:22:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:6505::::::::22:::::::::|h[]|h|r", -- [16]
+				},
+				["lastUpdate"] = 1699062192,
+			},
+		},
+	},
+}

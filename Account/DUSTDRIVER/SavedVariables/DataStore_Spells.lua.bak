@@ -1,0 +1,30 @@
+
+DataStore_SpellsDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Maturitas"] = {
+				["lastUpdate"] = 1699062192,
+				["Spells"] = {
+					["Allgemein"] = {
+						"81|Passiv", -- [1]
+						"6603|", -- [2]
+						"107|Passiv", -- [3]
+						"20550|Volk Passiv", -- [4]
+						"20552|Volk Passiv", -- [5]
+						"20549|Volk", -- [6]
+						"20551|Volk Passiv", -- [7]
+					},
+				},
+				["SpellTabs"] = {
+					"Allgemein", -- [1]
+					"Elementarkampf", -- [2]
+					"Verstärkung", -- [3]
+					"Wiederherstellung", -- [4]
+				},
+			},
+		},
+	},
+}
