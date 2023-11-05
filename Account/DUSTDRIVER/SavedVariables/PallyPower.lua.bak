@@ -1,0 +1,41 @@
+
+PallyPowerDB = {
+	["profileKeys"] = {
+		["Bloodwall - Venoxis"] = "Other",
+	},
+	["profiles"] = {
+		["Other"] = {
+			["enable"] = true,
+			["WrathTransition"] = true,
+		},
+	},
+}
+PallyPower_Assignments = {
+}
+PallyPower_NormalAssignments = {
+}
+PallyPower_AuraAssignments = {
+}
+PallyPower_SavedPresets = {
+	["PallyPower_NormalAssignments"] = {
+		[0] = {
+		},
+	},
+	["PallyPower_AuraAssignments"] = {
+		[0] = {
+		},
+	},
+	["PallyPower_Assignments"] = {
+		[0] = {
+		},
+	},
+}
+PallyPower_ChanNames = {
+	"Allgemein", -- [1]
+	"Handel", -- [2]
+	"LokaleVerteidigung", -- [3]
+	[0] = "None",
+	[5] = "SucheNachGruppe",
+}
+LCD_Data = nil
+LCD_GUIDAccess = nil

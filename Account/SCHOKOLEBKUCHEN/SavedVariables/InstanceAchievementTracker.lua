@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
 	["InfoFramescale"] = 1,
+	["announceTrackedAchievements"] = false,
 	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -34177,6 +34177,55 @@ AchievementTrackerDebug = {
 	"5/11/2023 2:5 [DEBUG] Enabling Addon", -- [34152]
 	"5/11/2023 2:5 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34153]
 	"5/11/2023 2:5 [DEBUG] Showing Minimap Icon", -- [34154]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [34155]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.26.0", -- [34156]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [34157]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [34158]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [34159]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34160]
+	"5/11/2023 13:21 [DEBUG] Showing Minimap Icon", -- [34161]
+	"5/11/2023 13:21 [DEBUG] ---IAT Runtime---", -- [34162]
+	"5/11/2023 13:21 [DEBUG] Version: 4.26.0", -- [34163]
+	"5/11/2023 13:21 [DEBUG] Attempting to load from local NPC Cache classic", -- [34164]
+	"5/11/2023 13:21 [DEBUG] Generating NPC Cache Classic...", -- [34165]
+	"5/11/2023 13:21 [DEBUG] Enabling Addon", -- [34166]
+	"5/11/2023 13:21 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34167]
+	"5/11/2023 13:21 [DEBUG] Showing Minimap Icon", -- [34168]
+	"5/11/2023 13:23 [DEBUG] ---IAT Runtime---", -- [34169]
+	"5/11/2023 13:23 [DEBUG] Version: 4.26.0", -- [34170]
+	"5/11/2023 13:23 [DEBUG] Attempting to load from local NPC Cache classic", -- [34171]
+	"5/11/2023 13:23 [DEBUG] Generating NPC Cache Classic...", -- [34172]
+	"5/11/2023 13:23 [DEBUG] Enabling Addon", -- [34173]
+	"5/11/2023 13:23 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34174]
+	"5/11/2023 13:23 [DEBUG] Showing Minimap Icon", -- [34175]
+	"5/11/2023 19:44 [DEBUG] ---IAT Runtime---", -- [34176]
+	"5/11/2023 19:44 [DEBUG] Version: 4.26.0", -- [34177]
+	"5/11/2023 19:44 [DEBUG] Attempting to load from local NPC Cache classic", -- [34178]
+	"5/11/2023 19:44 [DEBUG] Generating NPC Cache Classic...", -- [34179]
+	"5/11/2023 19:44 [DEBUG] Enabling Addon", -- [34180]
+	"5/11/2023 19:44 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34181]
+	"5/11/2023 19:45 [DEBUG] Showing Minimap Icon", -- [34182]
+	"5/11/2023 19:46 [DEBUG] ---IAT Runtime---", -- [34183]
+	"5/11/2023 19:46 [DEBUG] Version: 4.26.0", -- [34184]
+	"5/11/2023 19:46 [DEBUG] Attempting to load from local NPC Cache classic", -- [34185]
+	"5/11/2023 19:46 [DEBUG] Generating NPC Cache Classic...", -- [34186]
+	"5/11/2023 19:46 [DEBUG] Enabling Addon", -- [34187]
+	"5/11/2023 19:46 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34188]
+	"5/11/2023 19:46 [DEBUG] Showing Minimap Icon", -- [34189]
+	"5/11/2023 19:48 [DEBUG] ---IAT Runtime---", -- [34190]
+	"5/11/2023 19:48 [DEBUG] Version: 4.26.0", -- [34191]
+	"5/11/2023 19:48 [DEBUG] Attempting to load from local NPC Cache classic", -- [34192]
+	"5/11/2023 19:48 [DEBUG] Generating NPC Cache Classic...", -- [34193]
+	"5/11/2023 19:48 [DEBUG] Enabling Addon", -- [34194]
+	"5/11/2023 19:48 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34195]
+	"5/11/2023 19:48 [DEBUG] Showing Minimap Icon", -- [34196]
+	"5/11/2023 19:49 [DEBUG] ---IAT Runtime---", -- [34197]
+	"5/11/2023 19:49 [DEBUG] Version: 4.26.0", -- [34198]
+	"5/11/2023 19:49 [DEBUG] Attempting to load from local NPC Cache classic", -- [34199]
+	"5/11/2023 19:49 [DEBUG] Generating NPC Cache Classic...", -- [34200]
+	"5/11/2023 19:49 [DEBUG] Enabling Addon", -- [34201]
+	"5/11/2023 19:49 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34202]
+	"5/11/2023 19:49 [DEBUG] Showing Minimap Icon", -- [34203]
 }
 AchievementTrackerNPCCache = {
 }
@@ -34191,7 +34240,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebart",
 	[26746] = "Wahnsinniges Managespenst",
 	[27756] = "Rubindrache",
-	[26668] = "Svala Grabesleid",
+	[26555] = "Hüne der Geißel",
 	[33572] = "Stahlgeschmiedeter Verteidiger",
 	[29713] = "Slad'ranwürger",
 	[26627] = "Kristallwirker",
@@ -34202,33 +34251,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotischer Riss",
 	[28586] = "General Bjarngrim",
 	[16028] = "Flickwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Missgestalteter Schlamm",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgrind",
 	[26731] = "Großmagistrix Telestra",
-	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
+	[26893] = "Grauf",
+	[28731] = "Aufseher Silthik",
 	[33136] = "Wächter des Yogg-Saron",
 	[27975] = "Maid der Trauer",
-	[33388] = "Dunkler Runenwächter",
-	[27658] = "Belgaristrasz",
+	[28729] = "Aufseher Narjil",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
 	[30176] = "Wächter der Ahn'kahar",
 	[23562] = "Unaufhaltsame Monstrosität",
-	[28729] = "Aufseher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Aufseher Gashra",
-	[28731] = "Aufseher Silthik",
+	[33388] = "Dunkler Runenwächter",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",
 	[29932] = "Der wilde Eck",
 	[29240] = "Sturmgeschmiedeter Leutnant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Missgestalteter Schlamm",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Schrottbot",
 	[23953] = "Prinz Keleseth",
-	[26555] = "Hüne der Geißel",
+	[26668] = "Svala Grabesleid",
 }

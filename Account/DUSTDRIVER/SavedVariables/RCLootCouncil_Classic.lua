@@ -1,10 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -731,6 +726,24 @@ RCLootCouncilDB = {
 			"02:43:12 - DoCommsCompressFix", -- [721]
 			"02:43:12 - Removing Column (role)", -- [722]
 			"02:43:12 - Removing Column (corruption)", -- [723]
+			"11/05/23", -- [724]
+			"19:43:28 - Logged In", -- [725]
+			"19:43:28 - ML initialized!", -- [726]
+			"19:43:28 - TradeUI enabled", -- [727]
+			"19:43:34 - Maturitass-Venoxis (2.19.3) (nil)", -- [728]
+			"19:43:34 - ActivateSkin (bfa)", -- [729]
+			"19:43:39 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [730]
+			"19:43:39 - GetML()", -- [731]
+			"19:43:39 - LootMethod =  (group)", -- [732]
+			"19:43:39 - UpdatePlayersData()", -- [733]
+			"19:43:40 - ClassicModule enabled (0.20.0) (nil)", -- [734]
+			"19:43:40 - DoCommsCompressFix", -- [735]
+			"19:43:40 - Removing Column (role)", -- [736]
+			"19:43:40 - Removing Column (corruption)", -- [737]
+			"19:43:40 - GetPlayersGuildRank()", -- [738]
+			"19:43:40 - GetPlayersGuildRank()", -- [739]
+			"19:43:40 - Found Guild Rank: Twink", -- [740]
+			"19:43:42 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [741]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
@@ -740,11 +753,6 @@ RCLootCouncilDB = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699062162, -- [3]
-			},
-			["Pippop-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577610, -- [3]
 			},
 			["Slimpyi-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -756,35 +764,40 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1699062162, -- [3]
 			},
+			["Wallahnyr-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699209822, -- [3]
+			},
+			["Alsia-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699209822, -- [3]
+			},
 			["Hâkkî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062163, -- [3]
+				1699209822, -- [3]
 			},
 			["Maturitass-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699062162, -- [3]
 			},
-			["Ohrfeigen-Venoxis"] = {
+			["Schpen-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698577610, -- [3]
-			},
-			["Dandeen-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577611, -- [3]
-			},
-			["Vacaria-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577610, -- [3]
+				1699062162, -- [3]
 			},
 			["Gdkphunter-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062163, -- [3]
+				1699209822, -- [3]
+			},
+			["Uséléss-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699209822, -- [3]
 			},
 			["Hopéless-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -796,45 +809,35 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1699062162, -- [3]
 			},
-			["Exonuklease-Venoxis"] = {
+			["Tréalis-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1698577610, -- [3]
+				1699062162, -- [3]
+			},
+			["Slimpy-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699209822, -- [3]
+			},
+			["Jogí-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699209822, -- [3]
 			},
 			["Kyleriemen-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699062162, -- [3]
 			},
-			["Myjuice-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698576444, -- [3]
-			},
-			["Schpen-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699062162, -- [3]
-			},
-			["Andrés-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698576444, -- [3]
-			},
-			["Tréalis-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699062162, -- [3]
-			},
-			["Jocindyr-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1698577610, -- [3]
-			},
 		},
 		["version"] = "2.19.3",
-		["Classic_version"] = "0.20.0",
 		["regionID"] = 3,
+		["Classic_version"] = "0.20.0",
+	},
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

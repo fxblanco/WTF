@@ -6,6 +6,7 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
+				["lastUpdate"] = 1699209906,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -21,7 +22,6 @@ DataStore_CurrenciesDB = {
 					"0|Verschiedenes", -- [12]
 					"1|Siegel des Champions|3|241", -- [13]
 				},
-				["lastUpdate"] = 1699146393,
 			},
 		},
 	},

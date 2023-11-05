@@ -1,12 +1,13 @@
 
 DataStore_InventoryDB = {
 	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699146354,
+				["lastUpdate"] = 1699209152,
 				["Inventory"] = {
 					"|cffffffff|Hitem:48649:3818:41380:40129:::::80:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:47466::40119::::::80:::::::::|h[]|h|r", -- [2]
@@ -28,6 +29,30 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:47661::::::::80:::::::::|h[]|h|r", -- [18]
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
 				},
+			},
+			["Default.Venoxis.Xolem"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:48363:3820:::::::80:::::::::|h[Thralls Gesichtsschutz des Triumphs]|h|r", -- [1]
+					"|cffa335ee|Hitem:48030::40113::::::80:::::::::|h[Nachtbanns Amulett]|h|r", -- [2]
+					"|cffa335ee|Hitem:48361:3808:40128::::::80:::::::::|h[Thralls Schulterschützer des Triumphs]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:47412:3832:40159:49110:40128::::80:::::::::|h[Kürass der Böswilligkeit]|h|r", -- [5]
+					"|cffa335ee|Hitem:47994::40113:40113:40113::::80:::::::::|h[Eisheulers Bindungen]|h|r", -- [6]
+					"|cffa335ee|Hitem:48362:3823:40128:40128:::::80:::::::::|h[Thralls Kriegskilt des Triumphs]|h|r", -- [7]
+					"|cffa335ee|Hitem:45989:3606:40017:40055:::::80:::::::::|h[Getemperte Quecksilberschienbeinschützer]|h|r", -- [8]
+					"|cffa335ee|Hitem:47577:3845:40128::::::80:::::::::|h[Drachenschuppenarmschienen des Kreuzfahrers]|h|r", -- [9]
+					"|cffa335ee|Hitem:48364:3604:40128::::::80:::::::::|h[Thralls Griff des Triumphs]|h|r", -- [10]
+					"|cffa335ee|Hitem:48007:3839:40128::::::80:::::::::|h[Ebenenpirscherband]|h|r", -- [11]
+					"|cffa335ee|Hitem:48001:3840:40128::::::80:::::::::|h[Feuersturmband]|h|r", -- [12]
+					"|cffa335ee|Hitem:48020::::::::80:::::::::|h[Rache der Verlassenen]|h|r", -- [13]
+					"|cffa335ee|Hitem:45286::::::::80:::::::::|h[Pyriteinspritzung]|h|r", -- [14]
+					"|cffa335ee|Hitem:47452:3859:40113::::::80:::::::::|h[Tuch der Verschiebung]|h|r", -- [15]
+					"|cffa335ee|Hitem:48050:3789:40128::::::80:::::::::|h[Schwarzhornknüttel]|h|r", -- [16]
+					"|cffa335ee|Hitem:48050:3789:40128::::::80:::::::::|h[Schwarzhornknüttel]|h|r", -- [17]
+					"|cffa335ee|Hitem:47666::::::::80:::::::::|h[Totem des aufladenden Windes]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Gildenwappenrock]|h|r", -- [19]
+				},
+				["lastUpdate"] = 1699184199,
 			},
 		},
 	},

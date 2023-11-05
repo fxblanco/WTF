@@ -6,7 +6,7 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699062558,
+				["lastUpdate"] = 1699209365,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 2,
@@ -54,9 +54,9 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [19]
 							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [20]
 						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							20, -- [1]
 							3, -- [2]
@@ -76,7 +76,7 @@ DataStore_ContainersDB = {
 					["Bag0"] = {
 						["ids"] = {
 							45313, -- [1]
-							43523, -- [2]
+							33470, -- [2]
 							47571, -- [3]
 							nil, -- [4]
 							41119, -- [5]
@@ -85,7 +85,7 @@ DataStore_ContainersDB = {
 							41119, -- [8]
 							47303, -- [9]
 							47436, -- [10]
-							36892, -- [11]
+							nil, -- [11]
 							nil, -- [12]
 							nil, -- [13]
 							nil, -- [14]
@@ -94,7 +94,7 @@ DataStore_ContainersDB = {
 						},
 						["links"] = {
 							"|cffa335ee|Hitem:45313::::::::80:::::::::|h[Stein des Eisenwerks]|h|r", -- [1]
-							"|cffffffff|Hitem:43523::::::::80:::::::::|h[Herbeigezauberter Manastrudel]|h|r", -- [2]
+							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [2]
 							"|cffa335ee|Hitem:47571:3850:40166::::::80:::::::::|h[Saronitschwertbrecher]|h|r", -- [3]
 							nil, -- [4]
 							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [5]
@@ -103,7 +103,7 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [8]
 							"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Des Todes Wahl]|h|r", -- [9]
 							"|cffa335ee|Hitem:47436:3294:40166::::::80:::::::::|h[Stolz des Dämonenlords]|h|r", -- [10]
-							"|cffffffff|Hitem:36892::::::::80:::::::::|h[Teuflischer Gesundheitsstein]|h|r", -- [11]
+							nil, -- [11]
 							nil, -- [12]
 							nil, -- [13]
 							nil, -- [14]
@@ -114,11 +114,11 @@ DataStore_ContainersDB = {
 						["size"] = 16,
 						["counts"] = {
 							[5] = 20,
-							[2] = 17,
+							[2] = 2,
 							[8] = 17,
 							[6] = 20,
 						},
-						["freeslots"] = 5,
+						["freeslots"] = 6,
 					},
 					["Bag1"] = {
 						["rarity"] = 2,
@@ -128,16 +128,16 @@ DataStore_ContainersDB = {
 						["links"] = {
 							[13] = "|cffa335ee|Hitem:47466::40119::::::80:::::::::|h[Kehlstück des Legionärs]|h|r",
 						},
+						["size"] = 20,
 						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["icon"] = 133665,
-						["size"] = 20,
 						["freeslots"] = 19,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
 						["ids"] = {
 							nil, -- [1]
-							43523, -- [2]
+							nil, -- [2]
 							47421, -- [3]
 							nil, -- [4]
 							40093, -- [5]
@@ -150,7 +150,7 @@ DataStore_ContainersDB = {
 						},
 						["links"] = {
 							nil, -- [1]
-							"|cffffffff|Hitem:43523::::::::80:::::::::|h[Herbeigezauberter Manastrudel]|h|r", -- [2]
+							nil, -- [2]
 							"|cffa335ee|Hitem:47421:3849:40119::::::80:::::::::|h[Einsame Barriere]|h|r", -- [3]
 							nil, -- [4]
 							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [5]
@@ -161,18 +161,17 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:46377::::::::80:::::::::|h[Fläschchen der endlosen Wut]|h|r", -- [10]
 							[12] = "|cffffffff|Hitem:44951::::::::80:::::::::|h[Kiste voller Bomben]|h|r",
 						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[6] = 20,
-							[2] = 20,
 							[8] = 8,
 							[10] = 18,
 							[5] = 10,
 							[9] = 20,
 						},
-						["freeslots"] = 12,
+						["freeslots"] = 13,
 					},
 					["Bag3"] = {
 						["rarity"] = 2,
@@ -188,9 +187,9 @@ DataStore_ContainersDB = {
 							[20] = "|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r",
 							[11] = "|cffa335ee|Hitem:48699:2673:40166::::::80:::::::::|h[Kraft und Ehre]|h|r",
 						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[10] = 20,
 							[20] = 3,
@@ -204,12 +203,12 @@ DataStore_ContainersDB = {
 						["links"] = {
 							"|cff1eff00|Hitem:7146::::::::80:::::::::|h[Der Scharlachrote Schlüssel]|h|r", -- [1]
 						},
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
 						["size"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
 						["freeslots"] = 31,
 					},
 				},
-				["numFreeBagSlots"] = 57,
+				["numFreeBagSlots"] = 59,
 				["numBagSlots"] = 96,
 			},
 		},

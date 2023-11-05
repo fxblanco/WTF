@@ -1,6 +1,7 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 	},
 	["global"] = {
@@ -13,6 +14,10 @@ DataStoreDB = {
 			["Default.Venoxis.Alsia"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Xolem"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {

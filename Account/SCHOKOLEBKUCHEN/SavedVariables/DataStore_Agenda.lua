@@ -7,23 +7,12 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["DungeonIDs"] = {
-					["Die Seelenschmiede Heroisch|271195902"] = "10297|1699146502|0|0",
-					["Archavons Kammer 10 Spieler|191427753"] = "269497|1699146502|0|1",
-					["Naxxramas 10 Spieler|191443069"] = "269497|1699146502|0|1",
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = "269497|1699146502|0|1",
-					["Archavons Kammer 25 Spieler|191445947"] = "269497|1699146502|0|1",
+					["Naxxramas 10 Spieler|191443069"] = "205863|1699210137|0|1",
+					["Archavons Kammer 10 Spieler|191427753"] = "205863|1699210137|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = "205863|1699210137|0|1",
+					["Archavons Kammer 25 Spieler|191445947"] = "205863|1699210137|0|1",
 				},
 				["BossKills"] = {
-					["Die Seelenschmiede Heroisch|271195902"] = {
-						"Bronjahm|1", -- [1]
-						"Verschlinger der Seelen|1", -- [2]
-					},
-					["Archavons Kammer 10 Spieler|191427753"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
-					},
 					["Naxxramas 10 Spieler|191443069"] = {
 						"Anub'Rekhan|1", -- [1]
 						"Großwitwe Faerlina|0", -- [2]
@@ -40,6 +29,12 @@ DataStore_AgendaDB = {
 						"Thaddius|0", -- [13]
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
+					},
+					["Archavons Kammer 10 Spieler|191427753"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
 					},
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = {
 						"Lord Mark'gar|1", -- [1]
@@ -62,7 +57,7 @@ DataStore_AgendaDB = {
 						"Toravon der Eiswächter|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1699146502,
+				["lastUpdate"] = 1699210137,
 			},
 		},
 	},

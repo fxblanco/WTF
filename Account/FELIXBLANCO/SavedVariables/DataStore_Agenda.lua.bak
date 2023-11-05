@@ -2,18 +2,19 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "271180|1699144820|0|1",
-					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "271180|1699144820|0|1",
-					["Archavons Kammer 10 Spieler|191504858"] = "271180|1699144820|0|1",
-					["Die Seelenschmiede Heroisch|271193668"] = "11980|1699144820|0|0",
-					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "271180|1699144820|0|1",
-					["Archavons Kammer 25 Spieler|191492728"] = "271180|1699144820|0|1",
-					["Naxxramas 10 Spieler|191355938"] = "271180|1699144820|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "206763|1699209237|0|1",
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "206763|1699209237|0|1",
+					["Archavons Kammer 10 Spieler|191504858"] = "206763|1699209237|0|1",
+					["Die Seelenschmiede Heroisch|271276136"] = "33963|1699209237|0|0",
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "206763|1699209237|0|1",
+					["Archavons Kammer 25 Spieler|191492728"] = "206763|1699209237|0|1",
+					["Naxxramas 10 Spieler|191355938"] = "206763|1699209237|0|1",
 				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = {
@@ -43,7 +44,7 @@ DataStore_AgendaDB = {
 						"Koralon der Flammenwächter|0", -- [3]
 						"Toravon der Eiswächter|1", -- [4]
 					},
-					["Die Seelenschmiede Heroisch|271193668"] = {
+					["Die Seelenschmiede Heroisch|271276136"] = {
 						"Bronjahm|1", -- [1]
 						"Verschlinger der Seelen|1", -- [2]
 					},
@@ -85,7 +86,10 @@ DataStore_AgendaDB = {
 						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["lastUpdate"] = 1699144820,
+				["lastUpdate"] = 1699209237,
+			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1699184199,
 			},
 		},
 	},

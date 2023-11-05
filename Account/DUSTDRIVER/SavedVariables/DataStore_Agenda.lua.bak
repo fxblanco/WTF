@@ -6,7 +6,12 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699062524,
+				["DungeonIDs"] = {
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "206628|1699209371|0|1",
+					["Archavons Kammer 10 Spieler|191428229"] = "206628|1699209371|0|1",
+					["Archavons Kammer 25 Spieler|191405065"] = "206628|1699209371|0|1",
+					["Naxxramas 10 Spieler|191493285"] = "206628|1699209371|0|1",
+				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = {
 						"Lord Mark'gar|1", -- [1]
@@ -21,10 +26,6 @@ DataStore_AgendaDB = {
 						"Valithria Traumwandler|1", -- [10]
 						"Sindragosa|0", -- [11]
 						"Der Lichkönig|0", -- [12]
-					},
-					["Die Seelenschmiede Heroisch|270771733"] = {
-						"Bronjahm|1", -- [1]
-						"Verschlinger der Seelen|1", -- [2]
 					},
 					["Archavons Kammer 10 Spieler|191428229"] = {
 						"Archavon der Steinwächter|0", -- [1]
@@ -56,13 +57,7 @@ DataStore_AgendaDB = {
 						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "353476|1699062524|0|1",
-					["Die Seelenschmiede Heroisch|270771733"] = "7876|1699062524|0|0",
-					["Archavons Kammer 10 Spieler|191428229"] = "353476|1699062524|0|1",
-					["Archavons Kammer 25 Spieler|191405065"] = "353476|1699062524|0|1",
-					["Naxxramas 10 Spieler|191493285"] = "353476|1699062524|0|1",
-				},
+				["lastUpdate"] = 1699209371,
 			},
 		},
 	},

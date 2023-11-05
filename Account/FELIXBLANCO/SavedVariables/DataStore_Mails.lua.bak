@@ -2,54 +2,17 @@
 DataStore_MailsDB = {
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699136538,
-				["Mails"] = {
-					{
-						["returned"] = false,
-						["sender"] = "Bloodwall",
-						["itemID"] = 43102,
-						["link"] = "|cff0070dd|Hitem:43102::::::::80:::::::::|h[Gefrorene Kugel]|h|r",
-						["count"] = 2,
-						["lastCheck"] = 1699136538,
-						["icon"] = 135851,
-						["daysLeft"] = 29.99734878540039,
-					}, -- [1]
-					{
-						["returned"] = false,
-						["sender"] = "Bloodwall",
-						["itemID"] = 33470,
-						["link"] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
-						["count"] = 8,
-						["lastCheck"] = 1699136538,
-						["icon"] = 132908,
-						["daysLeft"] = 29.99734878540039,
-					}, -- [2]
-					{
-						["returned"] = false,
-						["sender"] = "Bloodwall",
-						["itemID"] = 33470,
-						["link"] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
-						["count"] = 18,
-						["lastCheck"] = 1699136538,
-						["icon"] = 132908,
-						["daysLeft"] = 29.99734878540039,
-					}, -- [3]
-					{
-						["lastCheck"] = 1699136538,
-						["sender"] = "Bloodwall",
-						["subject"] = "Gefrorene Kugel (2)",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["icon"] = 134327,
-						["daysLeft"] = 29.99734878540039,
-					}, -- [4]
-				},
-				["lastVisitDate"] = "2023/11/04 23:22",
+				["lastUpdate"] = 1699185638,
+				["lastVisitDate"] = "2023/11/05 13:00",
+			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1699184282,
+				["lastVisitDate"] = "2023/11/05 12:38",
 			},
 		},
 	},

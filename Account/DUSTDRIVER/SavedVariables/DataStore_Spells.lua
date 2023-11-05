@@ -1,12 +1,13 @@
 
 DataStore_SpellsDB = {
 	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699146217,
+				["lastUpdate"] = 1699209210,
 				["Spells"] = {
 					["Furor"] = {
 						"20252|", -- [1]
@@ -83,6 +84,28 @@ DataStore_SpellsDB = {
 					"Furor", -- [2]
 					"Schutz", -- [3]
 					"Waffen", -- [4]
+				},
+			},
+			["Default.Venoxis.Maturitass"] = {
+				["lastUpdate"] = 1699209820,
+				["Spells"] = {
+					["Allgemein"] = {
+						"81|Passiv", -- [1]
+						"6603|", -- [2]
+						"20550|Volk Passiv", -- [3]
+						"20222|", -- [4]
+						"20552|Volk Passiv", -- [5]
+						"51306|Großmeister", -- [6]
+						"54197|Passiv", -- [7]
+						"20549|Volk", -- [8]
+						"20551|Volk Passiv", -- [9]
+					},
+				},
+				["SpellTabs"] = {
+					"Allgemein", -- [1]
+					"Gleichgewicht", -- [2]
+					"Wiederherstellung", -- [3]
+					"Wilder Kampf", -- [4]
 				},
 			},
 		},
