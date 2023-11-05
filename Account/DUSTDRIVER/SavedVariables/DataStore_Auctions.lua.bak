@@ -1,6 +1,6 @@
 
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 }

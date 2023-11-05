@@ -1,13 +1,13 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Venoxis.Maturitas"] = {
-				["lastUpdate"] = 1699062215,
-				["lastVisitDate"] = "2023/11/04 02:43",
+			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1699062349,
+				["lastVisitDate"] = "2023/11/04 02:45",
 			},
 		},
 	},

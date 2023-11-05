@@ -7,11 +7,13 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "291624|1699124377|0|1",
-					["Archavons Kammer 10 Spieler|191504858"] = "291624|1699124377|0|1",
-					["Archavons Kammer 25 Spieler|191492728"] = "291624|1699124377|0|1",
-					["Naxxramas 10 Spieler|191355938"] = "291624|1699124377|0|1",
-					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "291624|1699124377|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "271180|1699144820|0|1",
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "271180|1699144820|0|1",
+					["Archavons Kammer 10 Spieler|191504858"] = "271180|1699144820|0|1",
+					["Die Seelenschmiede Heroisch|271193668"] = "11980|1699144820|0|0",
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "271180|1699144820|0|1",
+					["Archavons Kammer 25 Spieler|191492728"] = "271180|1699144820|0|1",
+					["Naxxramas 10 Spieler|191355938"] = "271180|1699144820|0|1",
 				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = {
@@ -28,11 +30,36 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"Der Lichkönig|0", -- [12]
 					},
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = {
+						"Bestien von Nordend|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Fraktionschampions|1", -- [3]
+						"Zwillingsval'kyr|1", -- [4]
+						"Anub'arak|1", -- [5]
+					},
 					["Archavons Kammer 10 Spieler|191504858"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
 						"Koralon der Flammenwächter|0", -- [3]
 						"Toravon der Eiswächter|1", -- [4]
+					},
+					["Die Seelenschmiede Heroisch|271193668"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = {
+						"Lord Mark'gar|1", -- [1]
+						"Lady Todeswisper|1", -- [2]
+						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
+						"Todesbringer Saurfang|1", -- [4]
+						"Fauldarm|1", -- [5]
+						"Modermiene|1", -- [6]
+						"Professor Seuchenmord|1", -- [7]
+						"Rat des Blutes|1", -- [8]
+						"Blutkönigin Lana'thel|1", -- [9]
+						"Valithria Traumwandler|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"Der Lichkönig|1", -- [12]
 					},
 					["Archavons Kammer 25 Spieler|191492728"] = {
 						"Archavon der Steinwächter|0", -- [1]
@@ -57,15 +84,8 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
-					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = {
-						"Bestien von Nordend|1", -- [1]
-						"Lord Jaraxxus|1", -- [2]
-						"Fraktionschampions|1", -- [3]
-						"Zwillingsval'kyr|1", -- [4]
-						"Anub'arak|1", -- [5]
-					},
 				},
-				["lastUpdate"] = 1699124377,
+				["lastUpdate"] = 1699144820,
 			},
 		},
 	},

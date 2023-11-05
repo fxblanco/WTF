@@ -6,7 +6,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699124867,
+				["lastUpdate"] = 1699146354,
 				["Class"] = "PALADIN",
 				["TalentTrees"] = {
 					["Vergeltung"] = {
@@ -99,42 +99,6 @@ DataStore_TalentsRefDB = {
 					["icon"] = 135920,
 					["background"] = "PaladinHoly",
 				},
-				["Vergeltung"] = {
-					["talents"] = {
-						"Verbesserter Segen der Macht|135906|2|3|2", -- [1]
-						"Rache|132275|6|2|3", -- [2]
-						"Abwehr|132269|1|2|5", -- [3]
-						"Segnung|135863|1|3|5", -- [4]
-						"Zweihandwaffen-Spezialisierung|133041|5|1|3", -- [5]
-						"Überzeugung|135957|3|2|5", -- [6]
-						"Buße|135942|7|2|1", -- [7]
-						"Herz des Kreuzfahrers|135924|2|2|3", -- [8]
-						"Siegel des Befehls|132347|3|3|1", -- [9]
-						"Verbesserte Richturteile|135959|2|1|2", -- [10]
-						"Auge um Auge|135904|4|1|2", -- [11]
-						"Rechtschaffene Schwächung|135985|3|1|2", -- [12]
-						"Streben nach Gerechtigkeit|135937|3|4|2", -- [13]
-						"Kreuzzug|135889|4|4|3", -- [14]
-						"Geweihte Vergeltung|135934|5|3|1", -- [15]
-						"Göttliche Bestimmung|135897|6|3|2", -- [16]
-						"Richturteil des Weisen|236257|7|3|3", -- [17]
-						"Fanatismus|135905|8|2|3", -- [18]
-						"Geheiligter Kampf|135924|4|3|3", -- [19]
-						"Kreuzfahrerstoß|135891|9|2|1", -- [20]
-						"Geweihte Wut|236262|8|3|2", -- [21]
-						"Schnelle Vergeltung|236266|9|1|3", -- [22]
-						"Rechtschaffene Vergeltung|236260|10|2|3", -- [23]
-						"Göttlicher Sturm|236250|11|2|1", -- [24]
-						"Die Kunst des Krieges|236246|7|1|2", -- [25]
-						"Ummantelung des Lichts|236263|9|3|3", -- [26]
-					},
-					["prereqs"] = {
-						[2] = "3|2",
-						[18] = "7|2",
-					},
-					["icon"] = 135873,
-					["background"] = "PaladinCombat",
-				},
 				["Schutz"] = {
 					["talents"] = {
 						"Verschanzen|132110|8|1|3", -- [1]
@@ -172,6 +136,42 @@ DataStore_TalentsRefDB = {
 					},
 					["icon"] = 135893,
 					["background"] = "PaladinProtection",
+				},
+				["Vergeltung"] = {
+					["talents"] = {
+						"Verbesserter Segen der Macht|135906|2|3|2", -- [1]
+						"Rache|132275|6|2|3", -- [2]
+						"Abwehr|132269|1|2|5", -- [3]
+						"Segnung|135863|1|3|5", -- [4]
+						"Zweihandwaffen-Spezialisierung|133041|5|1|3", -- [5]
+						"Überzeugung|135957|3|2|5", -- [6]
+						"Buße|135942|7|2|1", -- [7]
+						"Herz des Kreuzfahrers|135924|2|2|3", -- [8]
+						"Siegel des Befehls|132347|3|3|1", -- [9]
+						"Verbesserte Richturteile|135959|2|1|2", -- [10]
+						"Auge um Auge|135904|4|1|2", -- [11]
+						"Rechtschaffene Schwächung|135985|3|1|2", -- [12]
+						"Streben nach Gerechtigkeit|135937|3|4|2", -- [13]
+						"Kreuzzug|135889|4|4|3", -- [14]
+						"Geweihte Vergeltung|135934|5|3|1", -- [15]
+						"Göttliche Bestimmung|135897|6|3|2", -- [16]
+						"Richturteil des Weisen|236257|7|3|3", -- [17]
+						"Fanatismus|135905|8|2|3", -- [18]
+						"Geheiligter Kampf|135924|4|3|3", -- [19]
+						"Kreuzfahrerstoß|135891|9|2|1", -- [20]
+						"Geweihte Wut|236262|8|3|2", -- [21]
+						"Schnelle Vergeltung|236266|9|1|3", -- [22]
+						"Rechtschaffene Vergeltung|236260|10|2|3", -- [23]
+						"Göttlicher Sturm|236250|11|2|1", -- [24]
+						"Die Kunst des Krieges|236246|7|1|2", -- [25]
+						"Ummantelung des Lichts|236263|9|3|3", -- [26]
+					},
+					["prereqs"] = {
+						[2] = "3|2",
+						[18] = "7|2",
+					},
+					["icon"] = 135873,
+					["background"] = "PaladinCombat",
 				},
 			},
 		},

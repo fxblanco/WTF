@@ -6,9 +6,10 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1699146354,
 				["Inventory"] = {
 					"|cffffffff|Hitem:48649:3818:41380:40129:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:50195::40119::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:47466::40119::::::80:::::::::|h[]|h|r", -- [2]
 					"|cffffffff|Hitem:48647:3852:40119::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
 					"|cffffffff|Hitem:51174:3297:40129:36767:::::80:::::::::|h[]|h|r", -- [5]
@@ -20,14 +21,13 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50185::40119::::::80:::::::::|h[]|h|r", -- [11]
 					"|cffa335ee|Hitem:50404::40166::::::80:::::::::|h[Äschernes Band des endlosen Mutes]|h|r", -- [12]
 					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:47451::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:42987::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:45496:3605:40129::::::80:::::::::|h[]|h|r", -- [15]
-					"|cffffffff|Hitem:51021:2673:::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:45947:3789:40111::::::80:::::::::|h[]|h|r", -- [16]
 					"|cffffffff|Hitem:47421:1071:40119::::::80:::::::::|h[]|h|r", -- [17]
 					"|cffffffff|Hitem:47661::::::::80:::::::::|h[]|h|r", -- [18]
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
 				},
-				["lastUpdate"] = 1699124867,
 			},
 		},
 	},

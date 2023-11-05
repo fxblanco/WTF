@@ -1,38 +1,13 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
+	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+	},
 	["profiles"] = {
-		["Bloodwall - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 168.8369140625,
-				["x"] = -57.10249328613281,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
-			["playerbalancepoint"] = {
-				["y"] = 230.3377990722656,
-				["x"] = 460.6379089355469,
-			},
-			["point"] = {
-				["y"] = -157.8250732421875,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-			},
-			["startBid"] = 100,
-			["increment"] = 100,
-			["statuspoint"] = {
-				["y"] = -242.5281066894531,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -249.5969543457031,
-			},
-		},
 		["Maturitass - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 177.6548461914063,
@@ -61,6 +36,31 @@ GDKPd_DB = {
 			},
 			["increment"] = 10,
 		},
+		["Bloodwall - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = 168.8369140625,
+				["x"] = -57.10249328613281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["playerbalancepoint"] = {
+				["y"] = 230.3377990722656,
+				["x"] = 460.6379089355469,
+			},
+			["point"] = {
+				["y"] = -157.8250732421875,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+			},
+			["startBid"] = 100,
+			["increment"] = 100,
+			["statuspoint"] = {
+				["y"] = -242.5281066894531,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -249.5969543457031,
+			},
+		},
 	},
 }
 GDKPd_PotData = {
@@ -74,18 +74,18 @@ GDKPd_PotData = {
 		["Eltorero"] = 0,
 		["Kentharo"] = 0,
 		["Hopéless"] = 0,
-		["Kolberg"] = 0,
+		["Daîo"] = 0,
 		["Liolider"] = 0,
 		["Tréalis"] = 0,
 		["Slimpyi"] = -5840,
 		["Týrx"] = 17160,
-		["Daîo"] = 0,
+		["Kolberg"] = 0,
 		["Lisolu"] = 0,
 		["Psychonazzo"] = 0,
-		["Tayda"] = 0,
+		["Kyleriemen"] = 0,
 		["Apotherkerin"] = 0,
 		["Blinkyli"] = 0,
-		["Kyleriemen"] = 0,
+		["Tayda"] = 0,
 		["Bloodwall"] = -6340,
 		["Críspy"] = 0,
 		["Sashagréy"] = 0,

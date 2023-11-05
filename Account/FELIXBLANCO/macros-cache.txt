@@ -6,6 +6,9 @@ VER 3 0000000000000038 "cancel" "134400"
 /cancelaura Befehlsruf
 /cancelaura Sonnenwendfestverstärkung
 END
+VER 3 0000000000000041 "cancel" "134400"
+/cancelaura Zorn der Gerechtigkeit
+END
 VER 3 000000000000003B "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Reinigung des Glaubens;  [@mouseover,exists,mod:ctrl] Reinigung des Glaubens; [@mouseover,exists,mod:shift] Reinigung des Glaubens

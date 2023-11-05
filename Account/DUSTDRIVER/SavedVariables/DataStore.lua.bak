@@ -1,11 +1,17 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Venoxis.Maturitas"] = {
+			["Default.Venoxis.Bloodwall"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+		},
+		["Guilds"] = {
+			["Default.Venoxis.Old Rabbitz"] = {
 				["faction"] = "Horde",
 			},
 		},

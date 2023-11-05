@@ -1,0 +1,37 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Exonuklease"] = {
+				["XPMax"] = 1691700,
+				["played"] = 1817905,
+				["playedThisLevel"] = 1044516,
+				["isResting"] = true,
+				["lastUpdate"] = 1699145618,
+				["class"] = "Hexenmeisterin",
+				["race"] = "Orcin",
+				["level"] = 80,
+				["XP"] = 0,
+				["guildRankIndex"] = 5,
+				["RestXP"] = 0,
+				["localizedFaction"] = "Horde",
+				["englishClass"] = "WARLOCK",
+				["money"] = 436871217,
+				["gender"] = 3,
+				["classID"] = 9,
+				["faction"] = "Horde",
+				["bindLocation"] = "Dalaran",
+				["name"] = "Exonuklease",
+				["subZone"] = "Die Violette Festung",
+				["guildName"] = "Old Rabbitz",
+				["englishRace"] = "Orc",
+				["guildRankName"] = "Twink",
+				["lastLogoutTimestamp"] = 1699145618,
+				["zone"] = "Dalaran",
+			},
+		},
+	},
+}

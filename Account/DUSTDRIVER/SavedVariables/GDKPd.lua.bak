@@ -1,20 +1,39 @@
 
 GDKPd_DB = {
+	["profileKeys"] = {
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
-	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-	},
 	["profiles"] = {
-		["Maturitass - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["balancepoint"] = {
-				["y"] = -171.1238861083984,
+				["y"] = 168.8369140625,
+				["x"] = -57.10249328613281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["playerbalancepoint"] = {
+				["y"] = 230.3377990722656,
+				["x"] = 460.6379089355469,
+			},
+			["point"] = {
+				["y"] = -157.8250732421875,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -285.3945617675781,
 			},
+			["startBid"] = 100,
+			["increment"] = 100,
+			["statuspoint"] = {
+				["y"] = -242.5281066894531,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -249.5969543457031,
+			},
+		},
+		["Maturitass - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 177.6548461914063,
 				["relative"] = "RIGHT",
@@ -28,68 +47,49 @@ GDKPd_DB = {
 				["x"] = -260.4240417480469,
 			},
 			["startBid"] = 100,
-			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 152.6455535888672,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -34.81410980224609,
 			},
-		},
-		["Bloodwall - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 230.3377990722656,
-				["x"] = 460.6379089355469,
-			},
-			["point"] = {
-				["y"] = -157.8250732421875,
+			["balancepoint"] = {
+				["y"] = -171.1238861083984,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
+				["x"] = -285.3945617675781,
 			},
-			["startBid"] = 100,
-			["statuspoint"] = {
-				["y"] = -242.5281066894531,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -249.5969543457031,
-			},
-			["balancepoint"] = {
-				["y"] = 168.8369140625,
-				["x"] = -57.10249328613281,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
-			["increment"] = 100,
+			["increment"] = 10,
 		},
 	},
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Brishja"] = 14160,
-		["Schpen"] = 14160,
-		["Letsburn"] = 14160,
+		["Brishja"] = 0,
+		["Schpen"] = 0,
+		["Letsburn"] = 0,
 		["Gnag"] = 0,
-		["Hâkkî"] = 14160,
+		["Hâkkî"] = 0,
 		["Maryilin"] = 0,
-		["Eltorero"] = 14160,
-		["Kentharo"] = 14160,
+		["Eltorero"] = 0,
+		["Kentharo"] = 0,
 		["Hopéless"] = 0,
-		["Daîo"] = 0,
+		["Kolberg"] = 0,
 		["Liolider"] = 0,
-		["Tréalis"] = 14160,
+		["Tréalis"] = 0,
 		["Slimpyi"] = -5840,
-		["Týrx"] = 14160,
-		["Kolberg"] = 14160,
-		["Lisolu"] = 14160,
-		["Psychonazzo"] = 14160,
-		["Kyleriemen"] = 0,
-		["Apotherkerin"] = 14160,
-		["Blinkyli"] = 0,
+		["Týrx"] = 17160,
+		["Daîo"] = 0,
+		["Lisolu"] = 0,
+		["Psychonazzo"] = 0,
 		["Tayda"] = 0,
+		["Apotherkerin"] = 0,
+		["Blinkyli"] = 0,
+		["Kyleriemen"] = 0,
 		["Bloodwall"] = -6340,
 		["Críspy"] = 0,
-		["Sashagréy"] = 14160,
-		["Mikirî"] = 14160,
+		["Sashagréy"] = 0,
+		["Mikirî"] = 0,
 	},
 	["curPotHistory"] = {
 		5000, -- [1]

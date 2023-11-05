@@ -6,7 +6,13 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699062524,
+				["DungeonIDs"] = {
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "269782|1699146218|0|1",
+					["Archavons Kammer 10 Spieler|191428229"] = "269782|1699146218|0|1",
+					["Naxxramas 10 Spieler|191493285"] = "269782|1699146218|0|1",
+					["Archavons Kammer 25 Spieler|191405065"] = "269782|1699146218|0|1",
+					["Die Seelenschmiede Heroisch|271197219"] = "10582|1699146218|0|0",
+				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = {
 						"Lord Mark'gar|1", -- [1]
@@ -22,17 +28,7 @@ DataStore_AgendaDB = {
 						"Sindragosa|0", -- [11]
 						"Der Lichkönig|0", -- [12]
 					},
-					["Die Seelenschmiede Heroisch|270771733"] = {
-						"Bronjahm|1", -- [1]
-						"Verschlinger der Seelen|1", -- [2]
-					},
 					["Archavons Kammer 10 Spieler|191428229"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
-					},
-					["Archavons Kammer 25 Spieler|191405065"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
 						"Koralon der Flammenwächter|0", -- [3]
@@ -55,14 +51,18 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
+					["Archavons Kammer 25 Spieler|191405065"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
+					["Die Seelenschmiede Heroisch|271197219"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
 				},
-				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "353476|1699062524|0|1",
-					["Die Seelenschmiede Heroisch|270771733"] = "7876|1699062524|0|0",
-					["Archavons Kammer 10 Spieler|191428229"] = "353476|1699062524|0|1",
-					["Archavons Kammer 25 Spieler|191405065"] = "353476|1699062524|0|1",
-					["Naxxramas 10 Spieler|191493285"] = "353476|1699062524|0|1",
-				},
+				["lastUpdate"] = 1699146218,
 			},
 		},
 	},

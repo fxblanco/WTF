@@ -6,7 +6,7 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699038140,
+				["lastUpdate"] = 1699146394,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 3,
@@ -70,19 +70,19 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [27]
 							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [28]
 						},
+						["bagtype"] = 4,
 						["link"] = "|cff0070dd|Hitem:21872::::::::80:::::::::|h[Schwarzschattentasche]|h|r",
 						["icon"] = 133667,
-						["bagtype"] = 4,
 						["size"] = 28,
 					},
 					["Bag0"] = {
 						["ids"] = {
 							43005, -- [1]
-							nil, -- [2]
+							6265, -- [2]
 							33470, -- [3]
 							51326, -- [4]
 							47732, -- [5]
-							6265, -- [6]
+							36680, -- [6]
 							40211, -- [7]
 							nil, -- [8]
 							nil, -- [9]
@@ -96,11 +96,11 @@ DataStore_ContainersDB = {
 						},
 						["links"] = {
 							"|cffffffff|Hitem:43005::::::::80:::::::::|h[Gewürzte Mammutleckereien]|h|r", -- [1]
-							nil, -- [2]
+							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [2]
 							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [3]
 							"|cffa335ee|Hitem:51326::::::::80:::::::::|h[Zauberstab des rubinroten Weins]|h|r", -- [4]
 							"|cffa335ee|Hitem:47732::::::::80:::::::::|h[Band des Herbeirufers]|h|r", -- [5]
-							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [6]
+							"|cff1eff00|Hitem:36680::::::-8:2078408747:80:::::::::|h[Mystischer Fangzahn des Wals]|h|r", -- [6]
 							"|cffffffff|Hitem:40211::::::::80:::::::::|h[Geschwindigkeitstrank]|h|r", -- [7]
 							nil, -- [8]
 							nil, -- [9]
@@ -113,9 +113,6 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [16]
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["cooldowns"] = {
-							[13] = "1699038139.664|1|1",
-						},
 						["size"] = 16,
 						["counts"] = {
 							[11] = 12,
@@ -124,7 +121,7 @@ DataStore_ContainersDB = {
 							[12] = 2,
 							[16] = 20,
 						},
-						["freeslots"] = 4,
+						["freeslots"] = 3,
 					},
 					["Bag1"] = {
 						["rarity"] = 4,
@@ -136,17 +133,17 @@ DataStore_ContainersDB = {
 							5565, -- [5]
 							47793, -- [6]
 							5565, -- [7]
-							[9] = 47795,
-							[10] = 33470,
-							[11] = 33445,
-							[12] = 48032,
 							[13] = 6265,
-							[15] = 45466,
+							[15] = 50259,
 							[17] = 38928,
+							[9] = 47795,
+							[11] = 33445,
 							[19] = 47452,
 							[20] = 33470,
 							[21] = 43102,
 							[22] = 33470,
+							[12] = 48032,
+							[10] = 33470,
 						},
 						["links"] = {
 							"|cffa335ee|Hitem:47422:3834:40133::::::80:::::::::|h[Haken von Tarasque]|h|r", -- [1]
@@ -156,25 +153,25 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:5565::::::::80:::::::::|h[Höllenstein]|h|r", -- [5]
 							"|cffa335ee|Hitem:47793:3810:40155::::::80:::::::::|h[Gul'dans Schulterpolster des Triumphs]|h|r", -- [6]
 							"|cffffffff|Hitem:5565::::::::80:::::::::|h[Höllenstein]|h|r", -- [7]
-							[9] = "|cffa335ee|Hitem:47795:3872:40113:40155:::::80:::::::::|h[Gul'dans Gamaschen des Triumphs]|h|r",
-							[10] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
-							[11] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
-							[12] = "|cffa335ee|Hitem:48032::40155::::::80:::::::::|h[Lichtbanns Fokus]|h|r",
 							[13] = "|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r",
-							[15] = "|cffa335ee|Hitem:45466::::::::80:::::::::|h[Waagschale der Schicksale]|h|r",
+							[15] = "|cffa335ee|Hitem:50259::::::::80:::::::::|h[Nimmerschmelzender Eiskristall]|h|r",
 							[17] = "|cffffffff|Hitem:38928::::::::80:::::::::|h[Rolle der Brustverzauberung - Erhebliche Willenskraft]|h|r",
+							[9] = "|cffa335ee|Hitem:47795:3872:40113:40155:::::80:::::::::|h[Gul'dans Gamaschen des Triumphs]|h|r",
+							[11] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
 							[19] = "|cffa335ee|Hitem:47452:3722:40155::::::80:::::::::|h[Tuch der Verschiebung]|h|r",
 							[20] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
 							[21] = "|cff0070dd|Hitem:43102::::::::80:::::::::|h[Gefrorene Kugel]|h|r",
 							[22] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
+							[12] = "|cffa335ee|Hitem:48032::40155::::::80:::::::::|h[Lichtbanns Fokus]|h|r",
+							[10] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
 						},
-						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
 						["icon"] = 133659,
 						["size"] = 22,
+						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
 						["counts"] = {
 							[11] = 2,
 							[7] = 5,
-							[21] = 2,
+							[21] = 3,
 							[10] = 17,
 							[22] = 20,
 							[5] = 5,
@@ -224,9 +221,9 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r", -- [17]
 							"|cffffffff|Hitem:37700::::::::80:::::::::|h[Kristallisierte Luft]|h|r", -- [18]
 						},
-						["link"] = "|cffa335ee|Hitem:50317::::::::80:::::::::|h[Rios Reisetasche]|h|r",
 						["icon"] = 133659,
 						["size"] = 20,
+						["link"] = "|cffa335ee|Hitem:50317::::::::80:::::::::|h[Rios Reisetasche]|h|r",
 						["counts"] = {
 							20, -- [1]
 							nil, -- [2]
@@ -244,7 +241,7 @@ DataStore_ContainersDB = {
 							17, -- [14]
 							nil, -- [15]
 							19, -- [16]
-							3, -- [17]
+							4, -- [17]
 							8, -- [18]
 						},
 						["freeslots"] = 5,
@@ -293,9 +290,9 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [18]
 							[20] = "|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r",
 						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							5, -- [1]
 							5, -- [2]
@@ -304,10 +301,10 @@ DataStore_ContainersDB = {
 							4, -- [5]
 							20, -- [6]
 							[11] = 7,
-							[12] = 20,
 							[13] = 2,
-							[14] = 16,
 							[15] = 4,
+							[12] = 20,
+							[14] = 16,
 						},
 						["freeslots"] = 5,
 					},
@@ -336,7 +333,7 @@ DataStore_ContainersDB = {
 						["freeslots"] = 26,
 					},
 				},
-				["numFreeBagSlots"] = 19,
+				["numFreeBagSlots"] = 18,
 				["numBagSlots"] = 106,
 			},
 		},

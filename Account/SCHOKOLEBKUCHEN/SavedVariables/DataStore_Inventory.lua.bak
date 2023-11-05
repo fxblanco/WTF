@@ -1,0 +1,34 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Venoxis.Exonuklease"] = {
+				["lastUpdate"] = 1699145585,
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51208:3820:41285:40133:::::80:::::::::|h[Geweihte Kapuze des dunklen Zirkels]|h|r", -- [1]
+					"|cffa335ee|Hitem:47468::40155::::::80:::::::::|h[Schrei der Val'kyr]|h|r", -- [2]
+					"|cffa335ee|Hitem:50244:3810:40155::::::80:::::::::|h[Schulterpolster des dunklen Zirkels]|h|r", -- [3]
+					"|cffffffff|Hitem:4334::::::::80:::::::::|h[Formelles weißes Hemd]|h|r", -- [4]
+					"|cffa335ee|Hitem:50243:1144:40113:40155:::::80:::::::::|h[Robe des dunklen Zirkels]|h|r", -- [5]
+					"|cffa335ee|Hitem:47419::40133:40113:40113::::80:::::::::|h[Gürtel des finsteren Nebels]|h|r", -- [6]
+					"|cffa335ee|Hitem:51207:3872:40133:40155:::::80:::::::::|h[Geweihte Gamaschen des dunklen Zirkels]|h|r", -- [7]
+					"|cffa335ee|Hitem:47454:3606:40133:40113:::::80:::::::::|h[Sandalen der trauernden Witwe]|h|r", -- [8]
+					"|cffa335ee|Hitem:47485:2332:40133::::::80:::::::::|h[Bindungen des leichenblassen Heiligen]|h|r", -- [9]
+					"|cffa335ee|Hitem:47797:3604:40113::::::80:::::::::|h[Gul'dans Stulpen des Triumphs]|h|r", -- [10]
+					"|cffa335ee|Hitem:50170::40133::::::80:::::::::|h[Valanars anderer Siegelring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50397::::::::80:::::::::|h[Äschernes Band der unvergleichlichen Zerstörung]|h|r", -- [12]
+					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Leuchtfeuer der Himmel]|h|r", -- [13]
+					"|cffa335ee|Hitem:45466::::::::80:::::::::|h[Waagschale der Schicksale]|h|r", -- [14]
+					"|cffa335ee|Hitem:50014:3722:40133::::::80:::::::::|h[Großumhang des bekehrten Champions]|h|r", -- [15]
+					"|cffa335ee|Hitem:50068:3834:::::::80:::::::::|h[Rigormortis]|h|r", -- [16]
+					"|cffa335ee|Hitem:50173::::::::80:::::::::|h[Schattenseidenspindel]|h|r", -- [17]
+					"|cffa335ee|Hitem:45294::40155::::::80:::::::::|h[Versteinerter Efeuzweig]|h|r", -- [18]
+					"|cffffffff|Hitem:43157::::::::80:::::::::|h[Wappenrock der Kirin Tor]|h|r", -- [19]
+				},
+			},
+		},
+	},
+}

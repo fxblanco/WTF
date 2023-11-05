@@ -6,8 +6,18 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699038039,
+				["DungeonIDs"] = {
+					["Die Seelenschmiede Heroisch|271195902"] = "10297|1699146502|0|0",
+					["Archavons Kammer 10 Spieler|191427753"] = "269497|1699146502|0|1",
+					["Naxxramas 10 Spieler|191443069"] = "269497|1699146502|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = "269497|1699146502|0|1",
+					["Archavons Kammer 25 Spieler|191445947"] = "269497|1699146502|0|1",
+				},
 				["BossKills"] = {
+					["Die Seelenschmiede Heroisch|271195902"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
 					["Archavons Kammer 10 Spieler|191427753"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
@@ -31,12 +41,6 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
-					["Archavons Kammer 25 Spieler|191445947"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
-					},
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = {
 						"Lord Mark'gar|1", -- [1]
 						"Lady Todeswisper|1", -- [2]
@@ -51,18 +55,14 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"Der Lichkönig|1", -- [12]
 					},
-					["Die Seelenschmiede Heroisch|270775888"] = {
-						"Bronjahm|1", -- [1]
-						"Verschlinger der Seelen|1", -- [2]
+					["Archavons Kammer 25 Spieler|191445947"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
 					},
 				},
-				["DungeonIDs"] = {
-					["Archavons Kammer 10 Spieler|191427753"] = "377962|1699038039|0|1",
-					["Naxxramas 10 Spieler|191443069"] = "377962|1699038039|0|1",
-					["Archavons Kammer 25 Spieler|191445947"] = "377962|1699038039|0|1",
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = "377962|1699038039|0|1",
-					["Die Seelenschmiede Heroisch|270775888"] = "32362|1699038039|0|0",
-				},
+				["lastUpdate"] = 1699146502,
 			},
 		},
 	},

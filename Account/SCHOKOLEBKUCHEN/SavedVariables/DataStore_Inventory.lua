@@ -19,15 +19,15 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:47797:3604:40113::::::80:::::::::|h[]|h|r", -- [10]
 					"|cffffffff|Hitem:50170::40133::::::80:::::::::|h[]|h|r", -- [11]
 					"|cffa335ee|Hitem:50397::::::::80:::::::::|h[Äschernes Band der unvergleichlichen Zerstörung]|h|r", -- [12]
-					"|cffffffff|Hitem:50259::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:45518::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:45518::::::::80:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:45466::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:50014:3722:40133::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:50068:3834:::::::80:::::::::|h[]|h|r", -- [16]
 					"|cffffffff|Hitem:50173::::::::80:::::::::|h[]|h|r", -- [17]
 					"|cffffffff|Hitem:45294::40155::::::80:::::::::|h[]|h|r", -- [18]
 					"|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r", -- [19]
 				},
-				["lastUpdate"] = 1699038038,
+				["lastUpdate"] = 1699146393,
 			},
 		},
 	},

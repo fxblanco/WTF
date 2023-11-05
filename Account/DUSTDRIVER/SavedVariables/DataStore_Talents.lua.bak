@@ -1,147 +1,186 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Venoxis.Maturitas"] = {
-				["lastUpdate"] = 1699062192,
-				["Class"] = "SHAMAN",
-				["PointsSpent"] = "0,0,0",
+			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1699062523,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Furor"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						2, -- [4]
+						[27] = 3,
+					},
+					["Schutz"] = {
+						5, -- [1]
+						5, -- [2]
+						3, -- [3]
+						nil, -- [4]
+						3, -- [5]
+						nil, -- [6]
+						2, -- [7]
+						1, -- [8]
+						2, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						1, -- [12]
+						1, -- [13]
+						5, -- [14]
+						5, -- [15]
+						2, -- [16]
+						3, -- [17]
+						2, -- [18]
+						nil, -- [19]
+						1, -- [20]
+						nil, -- [21]
+						3, -- [22]
+						1, -- [23]
+						3, -- [24]
+						1, -- [25]
+						2, -- [26]
+					},
+					["Waffen"] = {
+						3, -- [1]
+						[3] = 2,
+						[7] = 3,
+						[9] = 5,
+						[18] = 2,
+					},
+				},
+				["PointsSpent"] = "15,5,51",
 			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["global"] = {
-		["SHAMAN"] = {
-			["Order"] = "Elementar,Verstärk,Wiederherst",
+		["WARRIOR"] = {
+			["Order"] = "Waffen,Furor,Schutz",
 			["Trees"] = {
-				["Elementar"] = {
+				["Furor"] = {
+					["background"] = "WarriorFury",
 					["talents"] = {
-						"Ruf der Flamme|135817|2|1|3", -- [1]
-						"Ruf des Donners|136014|5|2|1", -- [2]
-						"Erschütterung|135807|1|3|5", -- [3]
-						"Konvektion|136116|1|2|5", -- [4]
-						"Elementarfuror|135830|3|3|5", -- [5]
-						"Verbesserte Feuernova|135824|4|1|2", -- [6]
-						"Elementarbeherrschung|136115|7|2|1", -- [7]
-						"Elementarfokus|136170|3|2|1", -- [8]
-						"Nachklingen|135850|3|1|5", -- [9]
-						"Blitzschlagbeherrschung|135990|6|3|5", -- [10]
-						"Schutz der Elemente|136094|2|2|3", -- [11]
-						"Elementare Reichweite|136099|5|1|2", -- [12]
-						"Auge des Sturms|136213|4|4|3", -- [13]
-						"Elementarverwüstung|135791|2|3|3", -- [14]
-						"Unerbittlicher Sturm|136111|5|4|3", -- [15]
-						"Elementare Präzision|136028|6|1|3", -- [16]
-						"Blitzüberladung|136050|8|3|3", -- [17]
-						"Totem des Ingrimms|135829|9|2|1", -- [18]
-						"Elementarer Schwur|237576|8|2|2", -- [19]
-						"Astralwandler|237572|9|1|3", -- [20]
-						"Lavastrom|237583|9|3|3", -- [21]
-						"Sturm, Erde und Feuer|237588|7|3|3", -- [22]
-						"Gewitter|237589|11|2|1", -- [23]
-						"Schamanismus|136234|10|2|5", -- [24]
-						"Donnernde Echos|135782|8|1|2", -- [25]
+						"Gebieterische Stimme|136035|3|4|5", -- [1]
+						"Wutanfall|136224|4|3|5", -- [2]
+						"Schlaghagel|132152|6|3|5", -- [3]
+						"Grausamkeit|132292|1|3|5", -- [4]
+						"Donnernde Stimme|136075|1|2|2", -- [5]
+						"Entfesselter Zorn|136097|2|3|5", -- [6]
+						"Durchdringendes Heulen|136147|3|2|1", -- [7]
+						"Verbesserter demoralisierender Ruf|132366|2|2|5", -- [8]
+						"Todeswunsch|136146|5|2|1", -- [9]
+						"Verbessertes Spalten|132338|3|1|3", -- [10]
+						"Blutdurst|136012|7|2|1", -- [11]
+						"Blutwahnsinn|136218|3|3|3", -- [12]
+						"Verbesserte Berserkerwut|136009|6|1|2", -- [13]
+						"Verbessertes Hinrichten|135358|4|2|2", -- [14]
+						"Verbessertes Abfangen|132307|5|3|2", -- [15]
+						"Beidhändigkeits-Spezialisierung|132147|4|1|5", -- [16]
+						"Verbesserter Wirbelwind|132369|7|4|2", -- [17]
+						"Präzision|132222|5|1|3", -- [18]
+						"Verbesserte Berserkerhaltung|132275|8|4|5", -- [19]
+						"Toben|132352|9|2|1", -- [20]
+						"Wut verstärken|132344|7|1|3", -- [21]
+						"Wütende Angriffe|236308|8|1|2", -- [22]
+						"Schäumendes Blut|236306|9|3|3", -- [23]
+						"Titanengriff|236316|11|2|1", -- [24]
+						"Heldenhafter Furor|236171|9|1|1", -- [25]
+						"Unendlicher Furor|236310|10|2|5", -- [26]
+						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
 					},
-					["background"] = "ShamanElementalCombat",
+					["icon"] = 132347,
 					["prereqs"] = {
-						[19] = "7|2",
-						[2] = "3|2",
-						[7] = "5|2",
-						[10] = "3|3",
+						[11] = "5|2",
+						[20] = "7|2",
+						[23] = "7|2",
 					},
 				},
-				["Verstärk"] = {
+				["Schutz"] = {
+					["background"] = "WarriorProtection",
 					["talents"] = {
-						"Vorahnung|136056|3|4|3", -- [1]
-						"Schlaghagel|132152|4|2|5", -- [2]
-						"Verbesserter Geisterwolf|136095|2|3|2", -- [3]
-						"Verbesserte Schilde|136051|2|4|3", -- [4]
-						"Wächtertotems|136098|2|1|2", -- [5]
-						"Stärkungstotems|136023|1|1|3", -- [6]
-						"Elementarwaffen|135814|3|1|3", -- [7]
-						"Donnernde Stöße|132325|2|2|5", -- [8]
-						"Wissen der Ahnen|136162|1|3|5", -- [9]
-						"Zähigkeit|135892|4|3|5", -- [10]
-						"Waffen der Geister|132269|5|2|1", -- [11]
-						"Schamanistischer Fokus|136027|3|3|1", -- [12]
-						"Sturmschlag|132314|7|3|1", -- [13]
-						"Waffenbeherrschung|132215|6|3|3", -- [14]
-						"Verbessertes Totem des Windzorns|136114|5|1|2", -- [15]
-						"Entfesselte Wut|136110|6|1|3", -- [16]
-						"Beidhändigkeit|132147|7|2|1", -- [17]
-						"Geistige Schnelligkeit|136055|9|1|3", -- [18]
-						"Beidhändigkeitsspezialisierung|132148|7|1|3", -- [19]
-						"Schamanistische Wut|136088|9|2|1", -- [20]
-						"Verbesserter Sturmschlag|237581|8|3|2", -- [21]
-						"Statischer Schock|237587|8|1|3", -- [22]
-						"Irdische Kraft|136024|9|3|2", -- [23]
-						"Waffe des Mahlstroms|237584|10|2|5", -- [24]
-						"Wildgeist|237577|11|2|1", -- [25]
-						"Geistige Gewandtheit|136012|5|3|3", -- [26]
-						"Griff der Erde|136097|1|2|2", -- [27]
-						"Lavapeitsche|236289|8|2|1", -- [28]
-						"Gefrorene Kraft|135776|6|4|2", -- [29]
+						"Vorahnung|136056|2|3|5", -- [1]
+						"Zähigkeit|135892|3|4|5", -- [2]
+						"Verbesserter Donnerknall|132326|1|3|3", -- [3]
+						"Verbesserter Blutrausch|132277|1|1|2", -- [4]
+						"Anstacheln|236309|2|2|3", -- [5]
+						"Durchstechen|132363|4|3|3", -- [6]
+						"Verbesserte Rache|132353|3|2|2", -- [7]
+						"Wachsamkeit|236318|7|2|1", -- [8]
+						"Auf die Kehle zielen|132357|5|3|2", -- [9]
+						"Verbesserte Disziplinen|132362|5|1|2", -- [10]
+						"Verbessertes Entwaffnen|132343|4|2|2", -- [11]
+						"Erschütternder Schlag|132325|5|2|1", -- [12]
+						"Letztes Gefecht|135871|3|1|1", -- [13]
+						"Einhandwaffen-Spezialisierung|135321|6|3|5", -- [14]
+						"Schild-Spezialisierung|134952|1|2|5", -- [15]
+						"Verbesserte Verteidigungshaltung|132341|7|1|2", -- [16]
+						"Vitalität|133123|8|2|3", -- [17]
+						"Schildbeherrschung|132360|3|3|2", -- [18]
+						"Fokussierte Wut|132345|7|3|3", -- [19]
+						"Verwüsten|135291|9|2|1", -- [20]
+						"Sicherung|236311|8|3|2", -- [21]
+						"Schwert und Schild|236315|10|2|3", -- [22]
+						"Schockwelle|236312|11|2|1", -- [23]
+						"Kritisches Blocken|236307|9|3|3", -- [24]
+						"Kriegstreiber|236319|9|1|1", -- [25]
+						"Schadensschild|134976|10|3|2", -- [26]
+						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
 					},
-					["background"] = "ShamanEnhancement",
+					["icon"] = 132341,
 					["prereqs"] = {
-						[17] = "5|2",
-						[21] = "7|3",
-						[19] = "7|2",
-						[28] = "7|2",
-						[2] = "2|2",
+						[8] = "5|2",
+						[22] = "9|2",
 					},
 				},
-				["Wiederherst"] = {
+				["Waffen"] = {
+					["background"] = "WarriorArms",
 					["talents"] = {
-						"Heilung der Ahnen|136109|3|4|3", -- [1]
-						"Kraft der Gezeiten|135845|3|3|1", -- [2]
-						"Verbesserter Wasserschild|132315|3|1|3", -- [3]
-						"Verbesserte Welle der Heilung|136052|1|2|5", -- [4]
-						"Heilfokus|136043|3|2|3", -- [5]
-						"Regenerationstotems|136053|4|2|3", -- [6]
-						"Verbesserte Reinkarnation|136080|2|1|2", -- [7]
-						"Totem der Manaflut|135861|7|2|1", -- [8]
-						"Schnelligkeit der Natur|136076|5|3|1", -- [9]
-						"Läuterung|135865|6|3|5", -- [10]
-						"Gezeitenfokus|135859|2|3|5", -- [11]
-						"Gezeitenbeherrschung|136107|4|3|5", -- [12]
-						"Totemfokus|136057|1|3|5", -- [13]
-						"Geschick der Heilung|136041|2|2|3", -- [14]
-						"Pfad der Heilung|136044|5|1|3", -- [15]
-						"Fokussierte Gedanken|136035|5|4|3", -- [16]
-						"Segen der Natur|136059|8|3|3", -- [17]
-						"Verbesserte Kettenheilung|136042|8|2|2", -- [18]
-						"Erdschild|136089|9|2|1", -- [19]
-						"Wächter der Natur|136060|7|1|5", -- [20]
-						"Verbesserter Erdschild|136089|9|3|2", -- [21]
-						"Segen der Ewigen|237573|8|1|2", -- [22]
-						"Erwachen der Ahnen|237571|9|1|3", -- [23]
-						"Flutwellen|237590|10|2|5", -- [24]
-						"Springflut|252995|11|2|1", -- [25]
-						"Geistläuterung|236288|7|3|1", -- [26]
+						"Tiefe Wunden|132090|3|4|3", -- [1]
+						"Schwert-Spezialisierung|135328|5|4|5", -- [2]
+						"Verbesserter heldenhafter Stoß|132282|1|1|3", -- [3]
+						"Streitkolben-Spezialisierung|133476|5|3|5", -- [4]
+						"Verbesserter Sturmangriff|132337|2|1|2", -- [5]
+						"Verbessertes Verwunden|132155|1|3|2", -- [6]
+						"Taktiker|136031|2|3|3", -- [7]
+						"Verbesserte Kniesehne|132316|6|3|3", -- [8]
+						"Abwehr|132269|1|2|5", -- [9]
+						"Verbessertes Überwältigen|135275|3|1|2", -- [10]
+						"Axt- und Stangenspezialisierung|132397|5|1|5", -- [11]
+						"Weitreichende Stöße|132306|5|2|1", -- [12]
+						"Waffenbeherrschung|132367|6|1|2", -- [13]
+						"Tödlicher Stoß|132355|7|2|1", -- [14]
+						"Zweihandwaffen-Spezialisierung|132400|4|2|3", -- [15]
+						"Aggressionskontrolle|135881|3|2|1", -- [16]
+						"Eiserner Wille|135995|2|2|3", -- [17]
+						"Durchbohren|132312|3|3|2", -- [18]
+						"Endlose Wut|132344|9|2|1", -- [19]
+						"Plötzlicher Tod|132346|9|1|3", -- [20]
+						"Kräfte sammeln|132175|7|1|2", -- [21]
+						"Blutraserei|132334|9|3|2", -- [22]
+						"Verbesserter tödlicher Stoß|132355|8|2|3", -- [23]
+						"Trauma|236305|6|4|2", -- [24]
+						"Unerbittliche Gewalt|236317|8|3|2", -- [25]
+						"Waffenstärke|132349|7|3|2", -- [26]
+						"Klingensturm|236303|11|2|1", -- [27]
+						"Abrisskommando|132364|10|2|5", -- [28]
+						"Verlangen nach Blut|236276|4|3|3", -- [29]
+						"Verbessertes Zerschmettern|132340|7|4|2", -- [30]
+						"Dampfwalze|132335|8|1|1", -- [31]
 					},
-					["background"] = "ShamanRestoration",
+					["icon"] = 132292,
 					["prereqs"] = {
-						[21] = "9|2",
-						[26] = "6|3",
-						[8] = "4|2",
+						"3|3", -- [1]
+						[14] = "5|2",
+						[23] = "7|2",
 					},
-				},
-				["Verstärkung"] = {
-					["icon"] = 136051,
-				},
-				["Elementarkampf"] = {
-					["icon"] = 136048,
-				},
-				["Wiederherstellung"] = {
-					["icon"] = 136052,
 				},
 			},
 		},

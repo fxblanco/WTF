@@ -22,24 +22,24 @@ DataStore_CraftsDB = {
 						["MaxRank"] = 225,
 						["Rank"] = 225,
 					},
-					["Erste Hilfe"] = {
-						["isSecondary"] = true,
-						["MaxRank"] = 150,
-						["Rank"] = 85,
+					["Juwelenschleifen"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 450,
 					},
 					["Reiten"] = {
 						["isSecondary"] = true,
 						["MaxRank"] = 300,
 						["Rank"] = 300,
 					},
-					["Juwelenschleifen"] = {
-						["isPrimary"] = true,
-						["MaxRank"] = 450,
-						["Rank"] = 450,
+					["Erste Hilfe"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 150,
+						["Rank"] = 85,
 					},
 				},
 				["Prof2"] = "Juwelenschleifen",
-				["lastUpdate"] = 1699124867,
+				["lastUpdate"] = 1699146354,
 				["Prof1"] = "Ingenieurskunst",
 			},
 		},

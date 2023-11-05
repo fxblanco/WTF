@@ -54,7 +54,7 @@ VMRT = {
 		["names"] = {
 			[756] = "Yogg-Saron",
 			[849] = "Fauldarm",
-			[633] = "Lord Jaraxxus",
+			[757] = "Algalon der Beobachter",
 			[742] = "Sartharion",
 			[851] = "Professor Seuchenmord",
 			[848] = "Todesbringer Saurfang",
@@ -74,15 +74,15 @@ VMRT = {
 			[750] = "Auriaya",
 			[846] = "Lady Todeswisper",
 			[751] = "Hodir",
-			[752] = "Thorim",
 			[845] = "Lord Mark'gar",
+			[752] = "Thorim",
 			[753] = "Freya",
 			[629] = "Bestien von Nordend",
 			[645] = "Anub'arak",
 			[754] = "Mimiron",
 			[1084] = "Onyxia",
 			[755] = "General Vezax",
-			[757] = "Algalon der Beobachter",
+			[633] = "Lord Jaraxxus",
 		},
 		["list"] = {
 			["Exonuklease"] = {
@@ -422,6 +422,7 @@ VMRT = {
 			["Styleploxlel"] = 0,
 			["Lerixa"] = 0,
 			["Vriternity"] = 0,
+			["Munigoof"] = 0,
 			["Zündelt"] = 0,
 			["Kyleriemen"] = 0,
 			["Vaniqtx"] = 0,
@@ -514,6 +515,7 @@ VMRT = {
 			["Schôrke"] = 0,
 			["Sikkzh"] = 0,
 			["Teddyursah"] = 0,
+			["Zyntox-NethergardeKeep"] = 0,
 			["Dioxiz"] = 0,
 			["Chéàps"] = 0,
 			["Kentharo"] = 0,
@@ -576,35 +578,35 @@ VMRT = {
 			["Bestdrood"] = 0,
 			["Kwasimojo"] = 0,
 			["Rootme"] = 0,
-			["Hakkî"] = 0,
 			["Ioná"] = 0,
+			["Hakkî"] = 0,
 			["Giaru"] = 0,
 			["Salessa"] = 0,
-			["Perakon"] = 0,
 			["Zozoqt"] = 0,
 			["Larasombardi"] = 0,
-			["Graveofjenna"] = 0,
+			["Perakon"] = 0,
+			["Memfiqt"] = 0,
 			["Renooknight"] = 0,
 			["Moinmacs"] = 0,
-			["Habíb"] = 0,
+			["Mpal"] = 0,
 			["Lorroth"] = 0,
 			["Sixofspades"] = 0,
 			["Beesportz"] = 0,
 			["Quadi"] = 0,
 			["Jezra"] = 0,
 			["Andrés"] = 0,
-			["Vishnuu"] = 0,
+			["Asec"] = 0,
 			["Vhargo"] = 0,
-			["Memfiqt"] = 0,
+			["Graveofjenna"] = 0,
 			["Loovee"] = 0,
 			["Gitgudm"] = 0,
-			["Bratansnitch"] = 0,
 			["Connielingus"] = 0,
-			["Krautbeatzx"] = 0,
+			["Darkkosar"] = 0,
+			["Marotéch"] = 0,
 			["Minwhitydudu"] = 0,
 			["Lümmler"] = 0,
 			["Viçtoria"] = 0,
-			["Marotéch"] = 0,
+			["Tolazytolvl"] = 0,
 			["Veluza"] = 0,
 			["Andalamar"] = 0,
 			["Vanec"] = 0,
@@ -612,19 +614,19 @@ VMRT = {
 			["Azznoob"] = 0,
 			["Traklon"] = 0,
 			["Quaddamáge"] = 0,
-			["Hampdidampdi"] = 0,
+			["Lonantas"] = 0,
 			["Gwitheryn"] = 0,
 			["Vaado"] = 0,
 			["Pippop"] = 0,
-			["Lonantas"] = 0,
+			["Hampdidampdi"] = 0,
 			["Shevilyn"] = 0,
 			["Baumrínd"] = 0,
-			["Tolazytolvl"] = 0,
-			["Darkkosar"] = 0,
+			["Krautbeatzx"] = 0,
+			["Bratansnitch"] = 0,
 			["Aximetro"] = 0,
+			["Vishnuu"] = 0,
+			["Habíb"] = 0,
 			["Azeyoo"] = 0,
-			["Asec"] = 0,
-			["Mpal"] = 0,
 			["Krywar"] = 0,
 			["Michorc"] = 0,
 			["Kolberg"] = 0,
@@ -680,11 +682,11 @@ VMRT = {
 			["12975;1"] = 1,
 			["49576;1"] = 3,
 			["16190;1"] = 4,
-			["9863;1"] = 2,
+			["20608;1"] = 2,
 			["1038;1"] = 3,
 			["31821;1"] = 2,
 			["871;1"] = 1,
-			["20608;1"] = 2,
+			["9863;1"] = 2,
 			["2825;1"] = 2,
 			["20748;1"] = 2,
 			["2062;1"] = 2,
@@ -866,11 +868,11 @@ VMRT = {
 				["blacklistGeneral"] = true,
 				["textureAlphaCooldown"] = 0.85,
 				["textureColorTimeLineActiveB"] = 1,
-				["textureColorTimeLineDefaultG"] = 1,
+				["frameWidth"] = 130,
 				["textureColorBackgroundActiveG"] = 1,
 				["textureColorTimeLineDefaultB"] = 1,
 				["textureAlphaBackground"] = 0.15,
-				["frameWidth"] = 130,
+				["textureAnimation"] = true,
 				["textureClassTimeLine"] = true,
 				["textureColorTimeLineActiveR"] = 1,
 				["fontSize"] = 12,
@@ -889,20 +891,20 @@ VMRT = {
 				["textureColorTimeLineDefaultR"] = 1,
 				["textureAlphaTimeLine"] = 1,
 				["textureClassText"] = false,
-				["iconGlowType"] = 4,
+				["methodsTimeLineAnimation"] = 2,
 				["frameScale"] = 80,
 				["textureColorBackgroundCooldownB"] = 1,
-				["methodsTimeLineAnimation"] = 2,
+				["iconGlowType"] = 4,
 				["textureColorBackgroundCooldownR"] = 1,
 				["frameStrata"] = "MEDIUM",
 				["textureColorTimeLineActiveG"] = 1,
 				["textureColorTextActiveG"] = 1,
 				["textureColorTextCooldownR"] = 1,
 				["visibilityGeneral"] = true,
-				["textTemplateRight"] = "%time%",
 				["textureColorTextActiveR"] = 0.5,
+				["textTemplateRight"] = "%time%",
 				["textureColorBackgroundActiveR"] = 1,
-				["textureAnimation"] = true,
+				["textureColorTimeLineDefaultG"] = 1,
 				["textureColorTextDefaultG"] = 1,
 			}, -- [11]
 		},
@@ -1069,14 +1071,31 @@ VMRT = {
 		["Text1"] = "Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7eb",
 		["OptionsFormatting"] = true,
 		["DefName"] = "Flame Leviathan",
-		["TimerPassedHide"] = true,
+		["LastUpdateTime"] = 1696891123,
 		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Alsia-Venoxis",
-		["LastUpdateTime"] = 1696891123,
 		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 		["Alpha"] = 50,
+		["TimerPassedHide"] = true,
 		["Width"] = 380.0000305175781,
-		["Top"] = 397.52319335938,
+		["BlackLastUpdateName"] = {
+			"Alsia-Venoxis", -- [1]
+			"Alsia-Venoxis", -- [2]
+			"Alsia-Venoxis", -- [3]
+			"Alsia-Venoxis", -- [4]
+			"Alsia-Venoxis", -- [5]
+			"Alsia-Venoxis", -- [6]
+			"Alsia-Venoxis", -- [7]
+			"Alsia-Venoxis", -- [8]
+			"Alsia-Venoxis", -- [9]
+			"Alsia-Venoxis", -- [10]
+			"Alsia-Venoxis", -- [11]
+			"Alsia-Venoxis", -- [12]
+			"Alsia-Venoxis", -- [13]
+			"Alsia-Venoxis", -- [14]
+			"Alsia-Venoxis", -- [15]
+			"Alsia", -- [16]
+		},
 		["EnableWhenReceive"] = true,
 		["BlackLastUpdateTime"] = {
 			1688668028, -- [1]
@@ -1115,24 +1134,7 @@ VMRT = {
 			"Chopper 1: ||cfff58cbaLiptea||r {kreis} zu {stern}\nChopper 2: ||cffc41f3bMorai||r {diamant} zu {quadrat}\nChopper 3: Onixus {mond} zu {dreieck}\nChopper 4: ||cffc79c6eFumas||r \n\nDemo 1: ||cfff58cbaAlsia||r -->  ||cff40c7ebHennerr||r {kreis} + ||cffff7d0aHakki||r {stern}\nDemo 2: ||cffc79c6eWonka||r --> ||cffff7d0aUwugamergirl||r {diamant} + ||cff40c7ebJodifrosta||r {quadrat}\nDemo 3: ||cffff7d0aVanec||r  --> Jocindyr {mond} + ||cff40c7ebSikkzh||r {dreieck}\nDemo 4: Domedonmaya + ||cffabd473Shamir||r \nDemo 5: ||cff0070deKönigmocca||r + ||cffc41f3bDelmonte||r \n\nSiege 1: ||cfff58cbaBubbledîne||r + ||cffc79c6eMinoton||r \nSiege 2: ||cfff58cbaShikimora||r + ||cff0070deVacaria||r\nSiege 3: Hanaltar + ||cffffffffSerferine||r \nSiege 4: ||cfff58cbaXeeli||r + ||cffff7d0aKyleriemen||r ", -- [16]
 		},
 		["Height"] = 211.0000152587891,
-		["BlackLastUpdateName"] = {
-			"Alsia-Venoxis", -- [1]
-			"Alsia-Venoxis", -- [2]
-			"Alsia-Venoxis", -- [3]
-			"Alsia-Venoxis", -- [4]
-			"Alsia-Venoxis", -- [5]
-			"Alsia-Venoxis", -- [6]
-			"Alsia-Venoxis", -- [7]
-			"Alsia-Venoxis", -- [8]
-			"Alsia-Venoxis", -- [9]
-			"Alsia-Venoxis", -- [10]
-			"Alsia-Venoxis", -- [11]
-			"Alsia-Venoxis", -- [12]
-			"Alsia-Venoxis", -- [13]
-			"Alsia-Venoxis", -- [14]
-			"Alsia-Venoxis", -- [15]
-			"Alsia", -- [16]
-		},
+		["Top"] = 397.52319335938,
 		["Strata"] = "HIGH",
 		["Scale"] = 88,
 	},
@@ -1149,8 +1151,8 @@ VMRT = {
 			[3] = true,
 			[5] = true,
 		},
-		["Alpha"] = 50,
 		["ShowOnHoverAlpha"] = 1,
+		["Alpha"] = 50,
 	},
 	["VisNote"] = {
 		["data"] = {

@@ -6,7 +6,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699062523,
+				["lastUpdate"] = 1699146217,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Furor"] = {
@@ -66,7 +66,13 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Waffen,Furor,Schutz",
 			["Trees"] = {
 				["Furor"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[20] = "7|2",
+						[23] = "7|2",
+					},
 					["background"] = "WarriorFury",
+					["icon"] = 132347,
 					["talents"] = {
 						"Gebieterische Stimme|136035|3|4|5", -- [1]
 						"Wutanfall|136224|4|3|5", -- [2]
@@ -96,15 +102,14 @@ DataStore_TalentsRefDB = {
 						"Unendlicher Furor|236310|10|2|5", -- [26]
 						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
 					},
-					["icon"] = 132347,
-					["prereqs"] = {
-						[11] = "5|2",
-						[20] = "7|2",
-						[23] = "7|2",
-					},
 				},
 				["Schutz"] = {
+					["prereqs"] = {
+						[8] = "5|2",
+						[22] = "9|2",
+					},
 					["background"] = "WarriorProtection",
+					["icon"] = 132341,
 					["talents"] = {
 						"Vorahnung|136056|2|3|5", -- [1]
 						"Zähigkeit|135892|3|4|5", -- [2]
@@ -134,14 +139,15 @@ DataStore_TalentsRefDB = {
 						"Schadensschild|134976|10|3|2", -- [26]
 						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
 					},
-					["icon"] = 132341,
-					["prereqs"] = {
-						[8] = "5|2",
-						[22] = "9|2",
-					},
 				},
 				["Waffen"] = {
+					["prereqs"] = {
+						"3|3", -- [1]
+						[14] = "5|2",
+						[23] = "7|2",
+					},
 					["background"] = "WarriorArms",
+					["icon"] = 132292,
 					["talents"] = {
 						"Tiefe Wunden|132090|3|4|3", -- [1]
 						"Schwert-Spezialisierung|135328|5|4|5", -- [2]
@@ -174,12 +180,6 @@ DataStore_TalentsRefDB = {
 						"Verlangen nach Blut|236276|4|3|3", -- [29]
 						"Verbessertes Zerschmettern|132340|7|4|2", -- [30]
 						"Dampfwalze|132335|8|1|1", -- [31]
-					},
-					["icon"] = 132292,
-					["prereqs"] = {
-						"3|3", -- [1]
-						[14] = "5|2",
-						[23] = "7|2",
 					},
 				},
 			},

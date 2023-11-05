@@ -6,6 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1699146217,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:48468:3878:41380:40130:::::80:::::::::|h[Höllschreis Großhelm des Triumphs]|h|r", -- [1]
 					"|cffa335ee|Hitem:50023::::::::80:::::::::|h[Galleverkrustetes Medaillon]|h|r", -- [2]
@@ -26,7 +27,6 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:50065::::::::80:::::::::|h[Gletscherwand aus Eiskrone]|h|r", -- [17]
 					"|cffa335ee|Hitem:50444::::::::80:::::::::|h[Rowans Gewehr der Silberkugeln]|h|r", -- [18]
 				},
-				["lastUpdate"] = 1699062523,
 			},
 		},
 	},
