@@ -29,7 +29,7 @@ DataStore_CraftsDB = {
 					},
 				},
 				["Prof2"] = "Schneiderei",
-				["lastUpdate"] = 1699209906,
+				["lastUpdate"] = 1699228264,
 				["Prof1"] = "Ingenieurskunst",
 			},
 		},

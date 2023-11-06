@@ -1,13 +1,12 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699209210,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Eroberung|23|221", -- [2]
@@ -22,8 +21,10 @@ DataStore_CurrenciesDB = {
 					"0|Verschiedenes", -- [11]
 					"1|Siegel des Champions|15|241", -- [12]
 				},
+				["lastUpdate"] = 1699228352,
 			},
 			["Default.Venoxis.Maturitass"] = {
+				["lastUpdate"] = 1699209820,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Eroberung|30|221", -- [2]
@@ -39,7 +40,6 @@ DataStore_CurrenciesDB = {
 					"0|Verschiedenes", -- [12]
 					"1|Siegel des Champions|6|241", -- [13]
 				},
-				["lastUpdate"] = 1699209820,
 			},
 		},
 	},

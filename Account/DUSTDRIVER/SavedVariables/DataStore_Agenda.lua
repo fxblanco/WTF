@@ -1,17 +1,17 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "206628|1699209371|0|1",
-					["Naxxramas 10 Spieler|191493285"] = "206628|1699209371|0|1",
-					["Archavons Kammer 25 Spieler|191405065"] = "206628|1699209371|0|1",
-					["Archavons Kammer 10 Spieler|191428229"] = "206628|1699209371|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "187647|1699228353|0|1",
+					["Archavons Kammer 10 Spieler|191428229"] = "187647|1699228353|0|1",
+					["Naxxramas 10 Spieler|191493285"] = "187647|1699228353|0|1",
+					["Archavons Kammer 25 Spieler|191405065"] = "187647|1699228353|0|1",
 				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = {
@@ -27,6 +27,12 @@ DataStore_AgendaDB = {
 						"Valithria Traumwandler|1", -- [10]
 						"Sindragosa|0", -- [11]
 						"Der Lichkönig|0", -- [12]
+					},
+					["Archavons Kammer 10 Spieler|191428229"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
 					},
 					["Naxxramas 10 Spieler|191493285"] = {
 						"Anub'Rekhan|1", -- [1]
@@ -51,14 +57,8 @@ DataStore_AgendaDB = {
 						"Koralon der Flammenwächter|0", -- [3]
 						"Toravon der Eiswächter|1", -- [4]
 					},
-					["Archavons Kammer 10 Spieler|191428229"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
-					},
 				},
-				["lastUpdate"] = 1699209371,
+				["lastUpdate"] = 1699228353,
 			},
 			["Default.Venoxis.Maturitass"] = {
 				["lastUpdate"] = 1699209820,

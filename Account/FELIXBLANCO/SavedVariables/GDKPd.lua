@@ -24,12 +24,6 @@ GDKPd_DB = {
 			},
 		},
 		["Xolem - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -145.0500793457031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 122.8999710083008,
 				["relative"] = "RIGHT",
@@ -43,13 +37,19 @@ GDKPd_DB = {
 				["x"] = -406.9999389648438,
 			},
 			["startBid"] = 100,
-			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 6.074981212615967,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -40.1491813659668,
 			},
+			["balancepoint"] = {
+				["y"] = -145.0500793457031,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -235.8995971679688,
+			},
+			["increment"] = 10,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -180,8 +180,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["startBid"] = 200,
 			["increment"] = 20,
+			["startBid"] = 200,
 		},
 	},
 }

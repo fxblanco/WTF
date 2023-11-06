@@ -6,8 +6,8 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699210131,
-				["numFreeBagSlots"] = 18,
+				["lastUpdate"] = 1699228265,
+				["numFreeBagSlots"] = 15,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 3,
@@ -79,15 +79,15 @@ DataStore_ContainersDB = {
 					["Bag0"] = {
 						["ids"] = {
 							43005, -- [1]
-							6265, -- [2]
+							33447, -- [2]
 							33470, -- [3]
 							51326, -- [4]
 							47732, -- [5]
-							36680, -- [6]
+							33454, -- [6]
 							40211, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
+							33470, -- [8]
+							43852, -- [9]
+							6265, -- [10]
 							33470, -- [11]
 							40212, -- [12]
 							41196, -- [13]
@@ -97,15 +97,15 @@ DataStore_ContainersDB = {
 						},
 						["links"] = {
 							"|cffffffff|Hitem:43005::::::::80:::::::::|h[Gewürzte Mammutleckereien]|h|r", -- [1]
-							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [2]
+							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [2]
 							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [3]
 							"|cffa335ee|Hitem:51326::::::::80:::::::::|h[Zauberstab des rubinroten Weins]|h|r", -- [4]
 							"|cffa335ee|Hitem:47732::::::::80:::::::::|h[Band des Herbeirufers]|h|r", -- [5]
-							"|cff1eff00|Hitem:36680::::::-8:2078408747:80:::::::::|h[Mystischer Fangzahn des Wals]|h|r", -- [6]
+							"|cffffffff|Hitem:33454::::::::80:::::::::|h[Gesalzenes Wildbret]|h|r", -- [6]
 							"|cffffffff|Hitem:40211::::::::80:::::::::|h[Geschwindigkeitstrank]|h|r", -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
+							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [8]
+							"|cff9d9d9d|Hitem:43852::::::::80:::::::::|h[Dicke Fellkleidungsfetzen]|h|r", -- [9]
+							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [10]
 							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [11]
 							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [12]
 							"|cffffffff|Hitem:41196::::::::80:::::::::|h[Großartiger Zauberstein]|h|r", -- [13]
@@ -114,13 +114,13 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [16]
 						},
 						["counts"] = {
-							[11] = 12,
+							[11] = 20,
 							[7] = 10,
+							[8] = 3,
 							[3] = 20,
 							[12] = 2,
 							[16] = 20,
 						},
-						["freeslots"] = 3,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
 					},
@@ -131,24 +131,25 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:47422:3834:40133::::::80:::::::::|h[Haken von Tarasque]|h|r", -- [1]
 							"|cffa335ee|Hitem:47796:3820:41285:40133:::::80:::::::::|h[Gul'dans Kapuze des Triumphs]|h|r", -- [2]
 							nil, -- [3]
-							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [4]
+							nil, -- [4]
 							"|cffffffff|Hitem:5565::::::::80:::::::::|h[Höllenstein]|h|r", -- [5]
 							"|cffa335ee|Hitem:47793:3810:40155::::::80:::::::::|h[Gul'dans Schulterpolster des Triumphs]|h|r", -- [6]
 							"|cffffffff|Hitem:5565::::::::80:::::::::|h[Höllenstein]|h|r", -- [7]
-							[13] = "|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r",
-							[15] = "|cffa335ee|Hitem:50259::::::::80:::::::::|h[Nimmerschmelzender Eiskristall]|h|r",
-							[19] = "|cffa335ee|Hitem:47452:3722:40155::::::80:::::::::|h[Tuch der Verschiebung]|h|r",
-							[9] = "|cffa335ee|Hitem:47795:3872:40113:40155:::::80:::::::::|h[Gul'dans Gamaschen des Triumphs]|h|r",
-							[21] = "|cff0070dd|Hitem:43102::::::::80:::::::::|h[Gefrorene Kugel]|h|r",
-							[10] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
+							"|cffa335ee|Hitem:50212::::::::80:::::::::|h[Essenz des Begehrens]|h|r", -- [8]
+							"|cffa335ee|Hitem:47795:3872:40113:40155:::::80:::::::::|h[Gul'dans Gamaschen des Triumphs]|h|r", -- [9]
+							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [10]
+							"|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r", -- [11]
+							"|cffa335ee|Hitem:48032::40155::::::80:::::::::|h[Lichtbanns Fokus]|h|r", -- [12]
+							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [13]
 							[20] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
-							[11] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
-							[22] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
-							[12] = "|cffa335ee|Hitem:48032::40155::::::80:::::::::|h[Lichtbanns Fokus]|h|r",
 							[17] = "|cffffffff|Hitem:38928::::::::80:::::::::|h[Rolle der Brustverzauberung - Erhebliche Willenskraft]|h|r",
+							[15] = "|cffa335ee|Hitem:50259::::::::80:::::::::|h[Nimmerschmelzender Eiskristall]|h|r",
+							[22] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
+							[19] = "|cffa335ee|Hitem:47452:3722:40155::::::80:::::::::|h[Tuch der Verschiebung]|h|r",
+							[21] = "|cff0070dd|Hitem:43102::::::::80:::::::::|h[Gefrorene Kugel]|h|r",
 						},
 						["counts"] = {
-							[11] = 2,
+							[11] = 3,
 							[7] = 5,
 							[21] = 3,
 							[10] = 17,
@@ -161,21 +162,22 @@ DataStore_ContainersDB = {
 							47422, -- [1]
 							47796, -- [2]
 							nil, -- [3]
-							6265, -- [4]
+							nil, -- [4]
 							5565, -- [5]
 							47793, -- [6]
 							5565, -- [7]
-							[13] = 6265,
-							[15] = 50259,
-							[19] = 47452,
-							[9] = 47795,
-							[21] = 43102,
-							[10] = 33470,
+							50212, -- [8]
+							47795, -- [9]
+							33470, -- [10]
+							33445, -- [11]
+							48032, -- [12]
+							6265, -- [13]
 							[20] = 33470,
-							[11] = 33445,
-							[22] = 33470,
-							[12] = 48032,
 							[17] = 38928,
+							[15] = 50259,
+							[22] = 33470,
+							[19] = 47452,
+							[21] = 43102,
 						},
 						["icon"] = 133659,
 						["size"] = 22,

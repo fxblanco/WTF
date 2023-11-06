@@ -2,12 +2,69 @@
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Kwasimojo"] = {
+				["lastUpdate"] = 1699227348,
+				["Currencies"] = {
+					"0|Dungeon und Schlachtzug", -- [1]
+					"1|Emblem der Ehre|0|102", -- [2]
+					"1|Emblem der Eroberung|0|221", -- [3]
+					"1|Emblem des Frosts|62|341", -- [4]
+					"1|Emblem des Heldentums|0|101", -- [5]
+					"1|Emblem des Triumphs|77|301", -- [6]
+					"1|Geißelstein des Entweihers|4|2711", -- [7]
+					"1|Sternenessenz|3|2589", -- [8]
+					"0|Spieler gegen Spieler", -- [9]
+					"1|Ehrepunkte|2039|1901", -- [10]
+					"1|Münze der Venture Co.|54|201", -- [11]
+					"1|Splitter eines Steinbewahrers|31|161", -- [12]
+					"0|Verschiedenes", -- [13]
+					"1|Siegel des Champions|1|241", -- [14]
+				},
+			},
+			["Default.Venoxis.Andrés"] = {
+				["Currencies"] = {
+					"0|Dungeon und Schlachtzug", -- [1]
+					"1|Emblem der Ehre|0|102", -- [2]
+					"1|Emblem der Eroberung|0|221", -- [3]
+					"1|Emblem des Frosts|85|341", -- [4]
+					"1|Emblem des Heldentums|13|101", -- [5]
+					"1|Emblem des Triumphs|63|301", -- [6]
+					"1|Geißelstein des Entweihers|44|2711", -- [7]
+					"1|Sternenessenz|5|2589", -- [8]
+					"0|Spieler gegen Spieler", -- [9]
+					"1|Ehrenabzeichen von Tausendwinter|10|126", -- [10]
+					"1|Ehrepunkte|9175|1901", -- [11]
+					"1|Münze der Venture Co.|124|201", -- [12]
+					"1|Splitter eines Steinbewahrers|623|161", -- [13]
+					"0|Verschiedenes", -- [14]
+					"1|Siegel des Champions|11|241", -- [15]
+				},
+				["lastUpdate"] = 1699227589,
+			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1699227752,
+				["Currencies"] = {
+					"0|Dungeon und Schlachtzug", -- [1]
+					"1|Emblem der Ehre|0|102", -- [2]
+					"1|Emblem der Eroberung|4|221", -- [3]
+					"1|Emblem des Frosts|14|341", -- [4]
+					"1|Emblem des Heldentums|0|101", -- [5]
+					"1|Emblem des Triumphs|4|301", -- [6]
+					"0|Spieler gegen Spieler", -- [7]
+					"1|Arenapunkte|0|1900", -- [8]
+					"1|Ehrepunkte|5262|1901", -- [9]
+					"1|Münze der Venture Co.|34|201", -- [10]
+					"1|Splitter eines Steinbewahrers|16|161", -- [11]
+				},
+			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699209152,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -29,22 +86,10 @@ DataStore_CurrenciesDB = {
 					"1|Juwelierssymbol von Dalaran|4|61", -- [18]
 					"1|Siegel des Champions|22|241", -- [19]
 				},
+				["lastUpdate"] = 1699228501,
 			},
-			["Default.Venoxis.Xolem"] = {
-				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Ehre|0|102", -- [2]
-					"1|Emblem der Eroberung|4|221", -- [3]
-					"1|Emblem des Frosts|14|341", -- [4]
-					"1|Emblem des Heldentums|0|101", -- [5]
-					"1|Emblem des Triumphs|4|301", -- [6]
-					"0|Spieler gegen Spieler", -- [7]
-					"1|Arenapunkte|0|1900", -- [8]
-					"1|Ehrepunkte|5262|1901", -- [9]
-					"1|Münze der Venture Co.|34|201", -- [10]
-					"1|Splitter eines Steinbewahrers|16|161", -- [11]
-				},
-				["lastUpdate"] = 1699184199,
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228474,
 			},
 		},
 	},

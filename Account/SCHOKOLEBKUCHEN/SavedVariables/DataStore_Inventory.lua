@@ -6,7 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699209906,
+				["lastUpdate"] = 1699228264,
 				["Inventory"] = {
 					"|cffffffff|Hitem:51208:3820:41285:40133:::::80:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:47468::40155::::::80:::::::::|h[]|h|r", -- [2]

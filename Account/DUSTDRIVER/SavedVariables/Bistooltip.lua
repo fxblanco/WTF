@@ -12,16 +12,16 @@ BisTooltipDB = {
 		},
 		["Bloodwall - Venoxis"] = {
 			["class_index"] = 10,
-			["version"] = 6.2,
-			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
+			["data_source"] = "wowtbc",
+			["version"] = 6.2,
 		},
 		["Maturitass - Venoxis"] = {
 			["class_index"] = 2,
-			["spec_index"] = 3,
-			["phase_index"] = 3,
-			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+			["spec_index"] = 3,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 3,
 		},
 	},
 }

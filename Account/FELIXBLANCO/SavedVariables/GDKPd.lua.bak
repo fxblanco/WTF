@@ -180,8 +180,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["increment"] = 20,
 			["startBid"] = 200,
+			["increment"] = 20,
 		},
 	},
 }

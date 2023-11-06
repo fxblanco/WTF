@@ -11,10 +11,25 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
+	["Alsia"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		2, -- [9]
+		2, -- [10]
+	},
 }
 PallyPower_NormalAssignments = {
+	["Alsia"] = {
+	},
 }
 PallyPower_AuraAssignments = {
+	["Alsia"] = 1,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

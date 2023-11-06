@@ -13,15 +13,20 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1698803462] = {
+			"Ihr", -- [1]
+			"44159", -- [2]
+			"Arkanum der brennenden Mysterien", -- [3]
+		},
 		[1698803402] = {
 			"Ihr", -- [1]
 			"44135", -- [2]
 			"Große Inschrift des Sturms", -- [3]
 		},
-		[1698803462] = {
+		[1699226570] = {
 			"Ihr", -- [1]
-			"44159", -- [2]
-			"Arkanum der brennenden Mysterien", -- [3]
+			"122284", -- [2]
+			"WoW-Marke", -- [3]
 		},
 	},
 	["displayPrios"] = true,

@@ -1,13 +1,13 @@
 
 DataStore_SpellsDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699209210,
+				["lastUpdate"] = 1699228352,
 				["Spells"] = {
 					["Furor"] = {
 						"20252|", -- [1]
@@ -47,6 +47,19 @@ DataStore_SpellsDB = {
 						"50720|", -- [17]
 						"23920|", -- [18]
 					},
+					["Waffen"] = {
+						"47502|Rang 9", -- [1]
+						"20230|", -- [2]
+						"47450|Rang 13", -- [3]
+						"57755|", -- [4]
+						"2457|", -- [5]
+						"1715|", -- [6]
+						"694|", -- [7]
+						"11578|Rang 3", -- [8]
+						"47465|Rang 10", -- [9]
+						"64382|", -- [10]
+						"7384|", -- [11]
+					},
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
 						"6603|", -- [2]
@@ -64,19 +77,6 @@ DataStore_SpellsDB = {
 						"3018|", -- [14]
 						"3538|Experte", -- [15]
 						"2764|", -- [16]
-					},
-					["Waffen"] = {
-						"47502|Rang 9", -- [1]
-						"20230|", -- [2]
-						"47450|Rang 13", -- [3]
-						"57755|", -- [4]
-						"2457|", -- [5]
-						"1715|", -- [6]
-						"694|", -- [7]
-						"11578|Rang 3", -- [8]
-						"47465|Rang 10", -- [9]
-						"64382|", -- [10]
-						"7384|", -- [11]
 					},
 				},
 				["SpellTabs"] = {

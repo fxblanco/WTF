@@ -1,7 +1,10 @@
 
 AltoholicDB = {
 	["profileKeys"] = {
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 }

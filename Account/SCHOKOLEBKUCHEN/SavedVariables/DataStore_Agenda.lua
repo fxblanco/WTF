@@ -7,12 +7,19 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["DungeonIDs"] = {
-					["Naxxramas 10 Spieler|191443069"] = "205863|1699210137|0|1",
-					["Archavons Kammer 10 Spieler|191427753"] = "205863|1699210137|0|1",
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = "205863|1699210137|0|1",
-					["Archavons Kammer 25 Spieler|191445947"] = "205863|1699210137|0|1",
+					["Archavons Kammer 10 Spieler|191427753"] = "187736|1699228265|0|1",
+					["Naxxramas 10 Spieler|191443069"] = "187736|1699228265|0|1",
+					["Archavons Kammer 25 Spieler|191445947"] = "187736|1699228265|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191428404"] = "187736|1699228265|0|1",
+					["Die Seelenschmiede Heroisch|271437533"] = "14936|1699228265|0|0",
 				},
 				["BossKills"] = {
+					["Archavons Kammer 10 Spieler|191427753"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
 					["Naxxramas 10 Spieler|191443069"] = {
 						"Anub'Rekhan|1", -- [1]
 						"Großwitwe Faerlina|0", -- [2]
@@ -30,7 +37,7 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
-					["Archavons Kammer 10 Spieler|191427753"] = {
+					["Archavons Kammer 25 Spieler|191445947"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
 						"Koralon der Flammenwächter|0", -- [3]
@@ -50,14 +57,12 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"Der Lichkönig|1", -- [12]
 					},
-					["Archavons Kammer 25 Spieler|191445947"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
+					["Die Seelenschmiede Heroisch|271437533"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
 					},
 				},
-				["lastUpdate"] = 1699210137,
+				["lastUpdate"] = 1699228265,
 			},
 		},
 	},

@@ -1,6 +1,7 @@
 
 DataStore_SpellsDB = {
 	["profileKeys"] = {
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 	},
 	["global"] = {
@@ -46,19 +47,6 @@ DataStore_SpellsDB = {
 						"50720|", -- [17]
 						"23920|", -- [18]
 					},
-					["Waffen"] = {
-						"47502|Rang 9", -- [1]
-						"20230|", -- [2]
-						"47450|Rang 13", -- [3]
-						"57755|", -- [4]
-						"2457|", -- [5]
-						"1715|", -- [6]
-						"694|", -- [7]
-						"11578|Rang 3", -- [8]
-						"47465|Rang 10", -- [9]
-						"64382|", -- [10]
-						"7384|", -- [11]
-					},
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
 						"6603|", -- [2]
@@ -77,12 +65,47 @@ DataStore_SpellsDB = {
 						"3538|Experte", -- [15]
 						"2764|", -- [16]
 					},
+					["Waffen"] = {
+						"47502|Rang 9", -- [1]
+						"20230|", -- [2]
+						"47450|Rang 13", -- [3]
+						"57755|", -- [4]
+						"2457|", -- [5]
+						"1715|", -- [6]
+						"694|", -- [7]
+						"11578|Rang 3", -- [8]
+						"47465|Rang 10", -- [9]
+						"64382|", -- [10]
+						"7384|", -- [11]
+					},
 				},
 				["SpellTabs"] = {
 					"Allgemein", -- [1]
 					"Furor", -- [2]
 					"Schutz", -- [3]
 					"Waffen", -- [4]
+				},
+			},
+			["Default.Venoxis.Maturitass"] = {
+				["lastUpdate"] = 1699209820,
+				["Spells"] = {
+					["Allgemein"] = {
+						"81|Passiv", -- [1]
+						"6603|", -- [2]
+						"20550|Volk Passiv", -- [3]
+						"20222|", -- [4]
+						"20552|Volk Passiv", -- [5]
+						"51306|Großmeister", -- [6]
+						"54197|Passiv", -- [7]
+						"20549|Volk", -- [8]
+						"20551|Volk Passiv", -- [9]
+					},
+				},
+				["SpellTabs"] = {
+					"Allgemein", -- [1]
+					"Gleichgewicht", -- [2]
+					"Wiederherstellung", -- [3]
+					"Wilder Kampf", -- [4]
 				},
 			},
 		},
