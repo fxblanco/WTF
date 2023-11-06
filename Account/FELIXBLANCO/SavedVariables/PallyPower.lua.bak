@@ -13,43 +13,45 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["freeassign"] = true,
 			["buffscale"] = 0.75,
+			["cBuffNeedAll"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
 			["seal"] = 5,
-			["cBuffNeedAll"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
+			["display"] = {
+				["buffDuration"] = false,
+				["frameLocked"] = true,
 			},
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
+			["freeassign"] = true,
+			["enable"] = true,
+			["border"] = "None",
 			["cBuffNeedSpecial"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
-			["WrathTransition"] = true,
 			["skin"] = "ElvUI Blank",
-			["display"] = {
-				["buffDuration"] = false,
-				["frameLocked"] = true,
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
 			},
-			["border"] = "None",
-			["enable"] = true,
+			["WrathTransition"] = true,
 			["rf"] = true,
 		},
 		["Other"] = {
+			["enable"] = true,
+			["WrathTransition"] = true,
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -61,20 +63,18 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["enable"] = true,
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["WrathTransition"] = true,
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 		},
 	},
 }
@@ -474,8 +474,8 @@ PallyPower_AuraAssignments = {
 	["Everglow"] = 0,
 	["Salvy"] = 0,
 	["Methhilde"] = 0,
-	["Viphazz"] = 0,
 	["Gruffelo"] = 0,
+	["Viphazz"] = 0,
 	["Pendragonas"] = 0,
 	["Amayorie"] = 0,
 	["Randyblamáge"] = 0,
@@ -538,10 +538,11 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Allgemein", -- [1]
-	"Handel", -- [2]
+	"Community:198368472:1", -- [1]
+	"Allgemein", -- [2]
 	"LokaleVerteidigung", -- [3]
 	"SucheNachGruppe", -- [4]
+	"WeltVerteidigung", -- [5]
 	[0] = "None",
 }
 LCD_Data = nil

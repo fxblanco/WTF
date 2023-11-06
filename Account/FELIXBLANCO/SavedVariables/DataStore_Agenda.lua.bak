@@ -67,13 +67,13 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "187571|1699228430|0|1",
-					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "187571|1699228430|0|1",
-					["Archavons Kammer 10 Spieler|191504858"] = "187571|1699228430|0|1",
-					["Naxxramas 10 Spieler|191355938"] = "187571|1699228430|0|1",
-					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "187571|1699228430|0|1",
-					["Archavons Kammer 25 Spieler|191492728"] = "187571|1699228430|0|1",
-					["Die Seelenschmiede Heroisch|271276136"] = "14771|1699228430|0|0",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "120765|1699295237|0|1",
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "120765|1699295237|0|1",
+					["Archavons Kammer 25 Spieler|191492728"] = "120765|1699295237|0|1",
+					["Archavons Kammer 10 Spieler|191504858"] = "120765|1699295237|0|1",
+					["Die Seelenschmiede Heroisch|271501197"] = "34365|1699295237|0|0",
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "120765|1699295237|0|1",
+					["Naxxramas 10 Spieler|191355938"] = "120765|1699295237|0|1",
 				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = {
@@ -97,11 +97,35 @@ DataStore_AgendaDB = {
 						"Zwillingsval'kyr|1", -- [4]
 						"Anub'arak|1", -- [5]
 					},
+					["Archavons Kammer 25 Spieler|191492728"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
 					["Archavons Kammer 10 Spieler|191504858"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
 						"Koralon der Flammenwächter|0", -- [3]
 						"Toravon der Eiswächter|1", -- [4]
+					},
+					["Die Seelenschmiede Heroisch|271501197"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = {
+						"Lord Mark'gar|1", -- [1]
+						"Lady Todeswisper|1", -- [2]
+						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
+						"Todesbringer Saurfang|1", -- [4]
+						"Fauldarm|1", -- [5]
+						"Modermiene|1", -- [6]
+						"Professor Seuchenmord|1", -- [7]
+						"Rat des Blutes|1", -- [8]
+						"Blutkönigin Lana'thel|1", -- [9]
+						"Valithria Traumwandler|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"Der Lichkönig|1", -- [12]
 					},
 					["Naxxramas 10 Spieler|191355938"] = {
 						"Anub'Rekhan|1", -- [1]
@@ -120,32 +144,8 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
-					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = {
-						"Lord Mark'gar|1", -- [1]
-						"Lady Todeswisper|1", -- [2]
-						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
-						"Todesbringer Saurfang|1", -- [4]
-						"Fauldarm|1", -- [5]
-						"Modermiene|1", -- [6]
-						"Professor Seuchenmord|1", -- [7]
-						"Rat des Blutes|1", -- [8]
-						"Blutkönigin Lana'thel|1", -- [9]
-						"Valithria Traumwandler|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"Der Lichkönig|1", -- [12]
-					},
-					["Archavons Kammer 25 Spieler|191492728"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
-					},
-					["Die Seelenschmiede Heroisch|271276136"] = {
-						"Bronjahm|1", -- [1]
-						"Verschlinger der Seelen|1", -- [2]
-					},
 				},
-				["lastUpdate"] = 1699228430,
+				["lastUpdate"] = 1699295237,
 			},
 		},
 	},

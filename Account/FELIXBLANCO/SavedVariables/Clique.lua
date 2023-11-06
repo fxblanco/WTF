@@ -198,12 +198,12 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
-					["spell"] = "Hand der Freiheit",
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -216,6 +216,15 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135968,
+					["spell"] = "Hand der Freiheit",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
 					["spellSubName"] = "Rang 3",
 					["sets"] = {
@@ -223,15 +232,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135964,
 					["spell"] = "Hand des Schutzes",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -251,6 +251,15 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Göttliches Eingreifen",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["spellSubName"] = "Rang 13",
 					["sets"] = {
@@ -258,7 +267,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135920,
 					["spell"] = "Heiliges Licht",
-				}, -- [8]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -268,15 +277,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135928,
 					["spell"] = "Handauflegung",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136106,
-					["spell"] = "Göttliches Eingreifen",
 				}, -- [10]
 				{
 					["type"] = "spell",
