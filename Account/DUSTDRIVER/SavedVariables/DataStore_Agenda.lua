@@ -8,27 +8,25 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "187647|1699228353|0|1",
-					["Archavons Kammer 10 Spieler|191428229"] = "187647|1699228353|0|1",
-					["Naxxramas 10 Spieler|191493285"] = "187647|1699228353|0|1",
-					["Archavons Kammer 25 Spieler|191405065"] = "187647|1699228353|0|1",
+					["Archavons Kammer 10 Spieler|191428229"] = "98790|1699317210|0|1",
+					["Die Seelenschmiede Heroisch|271499818"] = "12390|1699317210|0|0",
+					["Archavons Kammer 25 Spieler|191405065"] = "98790|1699317210|0|1",
+					["Naxxramas 10 Spieler|191493285"] = "98790|1699317210|0|1",
+					["Eiskronenzitadelle 10 Spieler|191730460"] = "98790|1699317210|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = "98790|1699317210|0|1",
 				},
 				["BossKills"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = {
-						"Lord Mark'gar|1", -- [1]
-						"Lady Todeswisper|1", -- [2]
-						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
-						"Todesbringer Saurfang|1", -- [4]
-						"Fauldarm|1", -- [5]
-						"Modermiene|1", -- [6]
-						"Professor Seuchenmord|1", -- [7]
-						"Rat des Blutes|1", -- [8]
-						"Blutkönigin Lana'thel|1", -- [9]
-						"Valithria Traumwandler|1", -- [10]
-						"Sindragosa|0", -- [11]
-						"Der Lichkönig|0", -- [12]
-					},
 					["Archavons Kammer 10 Spieler|191428229"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
+					["Die Seelenschmiede Heroisch|271499818"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
+					["Archavons Kammer 25 Spieler|191405065"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
 						"Koralon der Flammenwächter|0", -- [3]
@@ -51,14 +49,36 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
-					["Archavons Kammer 25 Spieler|191405065"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
+					["Eiskronenzitadelle 10 Spieler|191730460"] = {
+						"Lord Mark'gar|1", -- [1]
+						"Lady Todeswisper|1", -- [2]
+						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
+						"Todesbringer Saurfang|1", -- [4]
+						"Fauldarm|1", -- [5]
+						"Modermiene|1", -- [6]
+						"Professor Seuchenmord|1", -- [7]
+						"Rat des Blutes|1", -- [8]
+						"Blutkönigin Lana'thel|1", -- [9]
+						"Valithria Traumwandler|1", -- [10]
+						"Sindragosa|0", -- [11]
+						"Der Lichkönig|0", -- [12]
+					},
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191532169"] = {
+						"Lord Mark'gar|1", -- [1]
+						"Lady Todeswisper|1", -- [2]
+						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
+						"Todesbringer Saurfang|1", -- [4]
+						"Fauldarm|1", -- [5]
+						"Modermiene|1", -- [6]
+						"Professor Seuchenmord|1", -- [7]
+						"Rat des Blutes|1", -- [8]
+						"Blutkönigin Lana'thel|1", -- [9]
+						"Valithria Traumwandler|1", -- [10]
+						"Sindragosa|0", -- [11]
+						"Der Lichkönig|0", -- [12]
 					},
 				},
-				["lastUpdate"] = 1699228353,
+				["lastUpdate"] = 1699317210,
 			},
 			["Default.Venoxis.Maturitass"] = {
 				["lastUpdate"] = 1699209820,

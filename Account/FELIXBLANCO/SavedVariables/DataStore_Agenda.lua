@@ -64,13 +64,13 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "120075|1699295924|0|1",
-					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "120075|1699295924|0|1",
-					["Archavons Kammer 10 Spieler|191504858"] = "120075|1699295924|0|1",
-					["Die Seelenschmiede Heroisch|271501197"] = "33675|1699295924|0|0",
-					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "120075|1699295924|0|1",
-					["Archavons Kammer 25 Spieler|191492728"] = "120075|1699295924|0|1",
-					["Naxxramas 10 Spieler|191355938"] = "120075|1699295924|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "108993|1699307008|0|1",
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "108993|1699307008|0|1",
+					["Archavons Kammer 10 Spieler|191504858"] = "108993|1699307008|0|1",
+					["Die Seelenschmiede Heroisch|271501197"] = "22593|1699307008|0|0",
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "108993|1699307008|0|1",
+					["Archavons Kammer 25 Spieler|191492728"] = "108993|1699307008|0|1",
+					["Naxxramas 10 Spieler|191355938"] = "108993|1699307008|0|1",
 				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = {
@@ -142,7 +142,7 @@ DataStore_AgendaDB = {
 						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["lastUpdate"] = 1699295924,
+				["lastUpdate"] = 1699307008,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228475,

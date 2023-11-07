@@ -8,8 +8,8 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:49986::::::::80:::::::::|h[Zerbrochener Widderschädelhelm]|h|r", -- [1]
-					"|cffa335ee|Hitem:50023::::::::80:::::::::|h[Galleverkrustetes Medaillon]|h|r", -- [2]
+					"|cffa335ee|Hitem:49986:3878:41380:40141:::::80:::::::::|h[Zerbrochener Widderschädelhelm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50023::40119::::::80:::::::::|h[Galleverkrustetes Medaillon]|h|r", -- [2]
 					"|cffa335ee|Hitem:48470:3852:40119::::::80:::::::::|h[Höllschreis Schulterstücke des Triumphs]|h|r", -- [3]
 					nil, -- [4]
 					"|cffa335ee|Hitem:50850:3297:40119:40119:::::80:::::::::|h[Brustplatte des Ymirjarfürsten]|h|r", -- [5]
@@ -24,10 +24,10 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r", -- [14]
 					"|cffa335ee|Hitem:47550:3294:40119::::::80:::::::::|h[Cairnes Belastbarkeit]|h|r", -- [15]
 					"|cffa335ee|Hitem:47427:3788:40166::::::80:::::::::|h[Blutfuror]|h|r", -- [16]
-					"|cffa335ee|Hitem:50065::::::::80:::::::::|h[Gletscherwand aus Eiskrone]|h|r", -- [17]
+					"|cffa335ee|Hitem:50065:1071:::::::80:::::::::|h[Gletscherwand aus Eiskrone]|h|r", -- [17]
 					"|cffa335ee|Hitem:50444::::::::80:::::::::|h[Rowans Gewehr der Silberkugeln]|h|r", -- [18]
 				},
-				["lastUpdate"] = 1699228459,
+				["lastUpdate"] = 1699317238,
 			},
 			["Default.Venoxis.Maturitass"] = {
 				["lastUpdate"] = 1699209820,

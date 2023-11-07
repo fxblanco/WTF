@@ -198,12 +198,13 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
+					["key"] = "CTRL-BUTTON1",
+					["spellSubName"] = "Rang 3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
+					["icon"] = 135964,
+					["spell"] = "Hand des Schutzes",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -216,22 +217,21 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135968,
 					["spell"] = "Hand der Freiheit",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spellSubName"] = "Rang 3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135964,
-					["spell"] = "Hand des Schutzes",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -251,13 +251,23 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["spellSubName"] = "Rang 5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["spell"] = "Handauflegung",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136106,
 					["spell"] = "Göttliches Eingreifen",
-				}, -- [8]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -267,16 +277,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135920,
 					["spell"] = "Heiliges Licht",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spellSubName"] = "Rang 5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spell"] = "Handauflegung",
 				}, -- [10]
 				{
 					["type"] = "spell",

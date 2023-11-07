@@ -86,7 +86,7 @@ DataStore_CurrenciesDB = {
 					"1|Juwelierssymbol von Dalaran|5|61", -- [18]
 					"1|Siegel des Champions|22|241", -- [19]
 				},
-				["lastUpdate"] = 1699295235,
+				["lastUpdate"] = 1699307007,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228474,

@@ -103,7 +103,7 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:47661::::::::80:::::::::|h[]|h|r", -- [18]
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
 				},
-				["lastUpdate"] = 1699295235,
+				["lastUpdate"] = 1699307007,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228474,

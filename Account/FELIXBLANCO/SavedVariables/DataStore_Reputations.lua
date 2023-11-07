@@ -139,7 +139,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699295235,
+				["lastUpdate"] = 1699307007,
 				["Factions"] = {
 					[75] = 10101,
 					[54] = 10,

@@ -13,7 +13,12 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["buffscale"] = 0.75,
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
+			},
 			["cBuffNeedAll"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
@@ -40,24 +45,24 @@ PallyPowerDB = {
 				["b"] = 0.5,
 			},
 			["skin"] = "ElvUI Blank",
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
+			["buffscale"] = 0.75,
 			["WrathTransition"] = true,
 			["rf"] = true,
 		},
 		["Other"] = {
-			["enable"] = true,
-			["WrathTransition"] = true,
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["enable"] = true,
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
@@ -69,12 +74,7 @@ PallyPowerDB = {
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
+			["WrathTransition"] = true,
 		},
 	},
 }
@@ -474,8 +474,8 @@ PallyPower_AuraAssignments = {
 	["Everglow"] = 0,
 	["Salvy"] = 0,
 	["Methhilde"] = 0,
-	["Gruffelo"] = 0,
 	["Viphazz"] = 0,
+	["Gruffelo"] = 0,
 	["Pendragonas"] = 0,
 	["Amayorie"] = 0,
 	["Randyblamáge"] = 0,

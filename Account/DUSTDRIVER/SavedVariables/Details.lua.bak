@@ -7,6 +7,286 @@ _detalhes_global = {
 			829, -- [1]
 			"Bronjahm", -- [2]
 		}, -- [1]
+		[69508] = {
+			850, -- [1]
+			"Modermiene", -- [2]
+		},
+		[70659] = {
+			846, -- [1]
+			"Fanatischer Kultist", -- [2]
+		},
+		[69651] = {
+			847, -- [1]
+			"Unteroffizier der Himmelsbrecher", -- [2]
+		},
+		[69278] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[69159] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[72723] = {
+			848, -- [1]
+			"Blutbestie <Todesbringer Saurfang>", -- [2]
+		},
+		[68921] = {
+			829, -- [1]
+			"Bronjahm", -- [2]
+		},
+		[70215] = {
+			851, -- [1]
+			"Gaswolke", -- [2]
+		},
+		[71001] = {
+			846, -- [1]
+			"Lady Todeswisper", -- [2]
+		},
+		[72295] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[70906] = {
+			846, -- [1]
+			"Treuer Kultist", -- [2]
+		},
+		[69652] = {
+			847, -- [1]
+			"Unteroffizier der Himmelsbrecher", -- [2]
+		},
+		[71335] = {
+			847, -- [1]
+			"Unteroffizier der Himmelsbrecher", -- [2]
+		},
+		[69057] = {
+			845, -- [1]
+			"Lord Mark'gar", -- [2]
+		},
+		[70343] = {
+			851, -- [1]
+			"Anwachsende Schlammpfütze <Professor Seuchenmord>", -- [2]
+		},
+		[71621] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[72272] = {
+			850, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[70383] = {
+			847, -- [1]
+			"Mörsersoldat der Himmelsbrecher", -- [2]
+		},
+		[65946] = {
+			846, -- [1]
+			"Darnavan", -- [2]
+		},
+		[69653] = {
+			847, -- [1]
+			"Unteroffizier der Himmelsbrecher", -- [2]
+		},
+		[69034] = {
+			831, -- [1]
+			"[*] Gespiegelte Seele", -- [2]
+		},
+		[69558] = {
+			850, -- [1]
+			"Großer Schlamm", -- [2]
+		},
+		[68939] = {
+			831, -- [1]
+			"Verschlinger der Seelen", -- [2]
+		},
+		[68820] = {
+			831, -- [1]
+			"Verschlinger der Seelen", -- [2]
+		},
+		[65947] = {
+			846, -- [1]
+			"Darnavan", -- [2]
+		},
+		[70768] = {
+			846, -- [1]
+			"Treuer Kultist", -- [2]
+		},
+		[70900] = {
+			846, -- [1]
+			"Fanatischer Kultist", -- [2]
+		},
+		[70670] = {
+			846, -- [1]
+			"Fanatischer Kultist", -- [2]
+		},
+		[70043] = {
+			829, -- [1]
+			"Bronjahm", -- [2]
+		},
+		[70492] = {
+			851, -- [1]
+			"Flüchtiger Schlamm", -- [2]
+		},
+		[70447] = {
+			851, -- [1]
+			"Flüchtiger Schlamm", -- [2]
+		},
+		[69051] = {
+			831, -- [1]
+			"Verschlinger der Seelen", -- [2]
+		},
+		[70346] = {
+			851, -- [1]
+			"Anwachsende Schlammpfütze <Professor Seuchenmord>", -- [2]
+		},
+		[70853] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[69075] = {
+			845, -- [1]
+			"Lord Mark'gar", -- [2]
+		},
+		[72385] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[71255] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[65924] = {
+			846, -- [1]
+			"Darnavan", -- [2]
+		},
+		[72409] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[68988] = {
+			829, -- [1]
+			"Bronjahm", -- [2]
+		},
+		[70901] = {
+			846, -- [1]
+			"Treuer Kultist", -- [2]
+		},
+		[71544] = {
+			846, -- [1]
+			"Rachsüchtiger Schatten <Lady Todeswisper>", -- [2]
+		},
+		[69647] = {
+			847, -- [1]
+			"Marinesoldat der Himmelsbrecher", -- [2]
+		},
+		[70341] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[70351] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[69163] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[69679] = {
+			847, -- [1]
+			"Mörsersoldat der Himmelsbrecher", -- [2]
+		},
+		[71617] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[71893] = {
+			851, -- [1]
+			"Professor Seuchenmord", -- [2]
+		},
+		[69195] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[72378] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[69674] = {
+			850, -- [1]
+			"Modermiene", -- [2]
+		},
+		[69161] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[72219] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[72410] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[69751] = {
+			850, -- [1]
+			"Kleiner Schlamm", -- [2]
+		},
+		[72172] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[69240] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
+		},
+		[72176] = {
+			848, -- [1]
+			"Blutbestie <Todesbringer Saurfang>", -- [2]
+		},
+		[70672] = {
+			851, -- [1]
+			"Gaswolke", -- [2]
+		},
+		[69839] = {
+			850, -- [1]
+			"Großer Schlamm", -- [2]
+		},
+		[69778] = {
+			850, -- [1]
+			"Klebriger Schlamm", -- [2]
+		},
+		[69680] = {
+			847, -- [1]
+			"Mörsersoldat der Himmelsbrecher", -- [2]
+		},
+		[69889] = {
+			850, -- [1]
+			"Kleiner Schlamm", -- [2]
+		},
+		[69789] = {
+			850, -- [1]
+			"[*] Schlammflut", -- [2]
+		},
+		[69761] = {
+			850, -- [1]
+			"Großer Schlamm", -- [2]
+		},
+		[68950] = {
+			829, -- [1]
+			"Bronjahm", -- [2]
+		},
+		[69760] = {
+			850, -- [1]
+			"Großer Schlamm", -- [2]
+		},
+		[68839] = {
+			829, -- [1]
+			"Bronjahm", -- [2]
+		},
+		[65926] = {
+			846, -- [1]
+			"Darnavan", -- [2]
+		},
 		[68982] = {
 			831, -- [1]
 			"Verschlinger der Seelen", -- [2]
@@ -15,53 +295,137 @@ _detalhes_global = {
 			831, -- [1]
 			"Seelenquell", -- [2]
 		},
-		[68939] = {
-			831, -- [1]
-			"Verschlinger der Seelen", -- [2]
+		[72173] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[69774] = {
+			850, -- [1]
+			"Kleiner Schlamm", -- [2]
+		},
+		[69776] = {
+			850, -- [1]
+			"Klebriger Schlamm", -- [2]
 		},
 		[68895] = {
 			829, -- [1]
 			"Boshafte Erscheinung", -- [2]
 		},
-		[68793] = {
-			829, -- [1]
-			"Bronjahm", -- [2]
+		[69750] = {
+			850, -- [1]
+			"Kleiner Schlamm", -- [2]
 		},
-		[68839] = {
-			829, -- [1]
-			"Bronjahm", -- [2]
+		[69165] = {
+			849, -- [1]
+			"Fauldarm", -- [2]
 		},
-		[69034] = {
-			831, -- [1]
-			"[*] Gespiegelte Seele", -- [2]
+		[69507] = {
+			850, -- [1]
+			"Modermiene", -- [2]
 		},
-		[69051] = {
-			831, -- [1]
-			"Verschlinger der Seelen", -- [2]
+		[72737] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[69076] = {
+			845, -- [1]
+			"Lord Mark'gar", -- [2]
+		},
+		[69705] = {
+			847, -- [1]
+			"Zauberer der Himmelsbrecher", -- [2]
+		},
+		[71237] = {
+			846, -- [1]
+			"Treuer Kultist", -- [2]
+		},
+		[72769] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[50424] = {
+			850, -- [1]
+			"Modermiene", -- [2]
+		},
+		[65927] = {
+			846, -- [1]
+			"Darnavan", -- [2]
+		},
+		[72380] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
+		},
+		[72293] = {
+			848, -- [1]
+			"Todesbringer Saurfang", -- [2]
 		},
 		[68872] = {
 			829, -- [1]
 			"Bronjahm", -- [2]
 		},
-		[70043] = {
+		[71420] = {
+			846, -- [1]
+			"Lady Todeswisper", -- [2]
+		},
+		[68793] = {
 			829, -- [1]
 			"Bronjahm", -- [2]
 		},
-		[68820] = {
-			831, -- [1]
-			"Verschlinger der Seelen", -- [2]
+		[70674] = {
+			846, -- [1]
+			"Fanatischer Kultist", -- [2]
 		},
-		[68950] = {
-			829, -- [1]
-			"Bronjahm", -- [2]
+		[71254] = {
+			846, -- [1]
+			"Lady Todeswisper", -- [2]
 		},
-		[68921] = {
-			829, -- [1]
-			"Bronjahm", -- [2]
+		[70309] = {
+			847, -- [1]
+			"Muradin Bronzebart", -- [2]
 		},
-		[68988] = {
-			829, -- [1]
-			"Bronjahm", -- [2]
+		[15284] = {
+			847, -- [1]
+			"Muradin Bronzebart", -- [2]
+		},
+		[69055] = {
+			845, -- [1]
+			"Lord Mark'gar", -- [2]
+		},
+		[70162] = {
+			847, -- [1]
+			"Scharfschütze der Himmelsbrecher", -- [2]
+		},
+		[69833] = {
+			850, -- [1]
+			"Großer Schlamm", -- [2]
+		},
+		[70444] = {
+			847, -- [1]
+			"[*] Explosion", -- [2]
+		},
+		[70594] = {
+			846, -- [1]
+			"Treuer Kultist", -- [2]
+		},
+		[72905] = {
+			846, -- [1]
+			"Lady Todeswisper", -- [2]
+		},
+		[73142] = {
+			845, -- [1]
+			"Lord Mark'gar", -- [2]
+		},
+		[65936] = {
+			846, -- [1]
+			"Darnavan", -- [2]
+		},
+		[71278] = {
+			851, -- [1]
+			"[*] Erstickendes Gas", -- [2]
+		},
+		[69146] = {
+			845, -- [1]
+			"Kalte Flamme <Lord Mark'gar>", -- [2]
 		},
 	},
 	["immersion_pets_on_solo_play"] = false,
@@ -115,7 +479,7 @@ _detalhes_global = {
 		["Legionsflamme"] = 4,
 		["Wildes Zustürmen"] = 32,
 		["Lavapeitsche"] = 4,
-		["Kosmisches Schmettern"] = 4,
+		["Einäschern"] = 4,
 		["Klebriger Schlamm"] = 40,
 		["Sturmschlag"] = 1,
 		["Magenblähung"] = 40,
@@ -123,6 +487,7 @@ _detalhes_global = {
 		["Vampirbiss"] = 1,
 		["Kehlenreißer"] = 1,
 		["Sickernde wilde Essenz"] = 32,
+		["Seuchenstoß"] = 1,
 		["Nachtvortex"] = 32,
 		["Schaudern"] = 32,
 		["Sphärendetonation"] = 64,
@@ -172,25 +537,25 @@ _detalhes_global = {
 		["Umhüllung der Trauer"] = 32,
 		["Gleißende Funken"] = 4,
 		["Geisterquelle"] = 32,
+		["Kosmisches Schmettern"] = 4,
 		["Heiliger Schock"] = 2,
-		["Einäschern"] = 4,
 		["Weihe"] = 2,
 		["Staubwolke"] = 8,
 		["Arkaner Schuss"] = 64,
 		["Runenschild"] = 64,
 		["Betäubender Koller"] = 1,
 		["Gravitationsbrunnen"] = 32,
-		["Schleimsprühen"] = 40,
+		["Heiliger Zorn"] = 2,
 		["Nekrotischer Stoß"] = 1,
 		["Teufelsinferno"] = 4,
-		["Fluch der Verdammnis"] = 32,
-		["Heiliger Zorn"] = 2,
+		["Mal der Gesichtslosen"] = 1,
+		["Seelensturm"] = 32,
 		["Reflektierender Schild"] = 2,
 		["Schattenwort: Tod"] = 32,
-		["Mal der Gesichtslosen"] = 1,
+		["Lichtvortex"] = 4,
 		["Feuerball"] = 4,
 		["Rune des Blutes"] = 1,
-		["Lichtvortex"] = 4,
+		["Fluch der Verdammnis"] = 32,
 		["Blizzard"] = 16,
 		["Steingebrüll"] = 1,
 		["Schatten im Dunklen"] = 32,
@@ -217,7 +582,7 @@ _detalhes_global = {
 		["Magie verschlingen"] = 32,
 		["Brennendes Pech"] = 4,
 		["Zorn"] = 8,
-		["Verwüsten"] = 4,
+		["Verwüsten"] = 1,
 		["Sturmangriff"] = 1,
 		["Mal des gefallenen Champions"] = 1,
 		["Überkopfkracherbeben"] = 1,
@@ -247,7 +612,7 @@ _detalhes_global = {
 		["Hodirs Furor"] = 16,
 		["Eisige Berührung"] = 16,
 		["Gravitationsbombe"] = 32,
-		["Seelensturm"] = 32,
+		["Schleimsprühen"] = 40,
 		["Betäubender Donner"] = 8,
 		["Teufelshitze"] = 4,
 		["Wirbelwind"] = 1,
@@ -296,8 +661,8 @@ _detalhes_global = {
 		[2436] = true,
 		[2423] = true,
 		[2549] = true,
-		[2398] = true,
 		[2399] = true,
+		[2398] = true,
 	},
 	["keystone_frame"] = {
 		["scale"] = 1,
@@ -472,7 +837,7 @@ _detalhes_global = {
 	["always_use_profile_name"] = "Luckyone 2.21",
 	["profile_by_spec"] = {
 	},
-	["combat_id_global"] = 679,
+	["combat_id_global"] = 726,
 	["displays_by_spec"] = {
 	},
 	["plugin_window_pos"] = {
@@ -486,20 +851,101 @@ _detalhes_global = {
 	["lastUpdateWarning"] = 1698702707,
 	["npcid_pool"] = {
 		[0] = "[*] Gespiegelte Seele",
-		[36502] = "Verschlinger der Seelen",
-		[36595] = "Entfesselte Seele",
-		[36516] = "Animator der Seelenwache",
-		[36564] = "Knochenwirker der Seelenwache",
-		[36497] = "Bronjahm",
+		[37562] = "Gaswolke",
+		[36808] = "Zelot der Todessprecher",
+		[37217] = "Schatz",
+		[36844] = "Auferstandener Diener der Todessprecher",
+		[36725] = "Bruthüter der Nerub'ar",
+		[37126] = "Schwester Svalna",
+		[37003] = "Verteidiger der Himmelsbrecher",
+		[36880] = "Verwesender Koloss",
+		[37011] = "Die Verdammten",
+		[37023] = "Seuchenwissenschaftler",
+		[37027] = "Hierophant der Himmelsbrecher",
+		[37666] = "Sinistrer Taktiker",
+		[37547] = "Luftschiffrumpf",
 		[36535] = "Korrumpiertes Seelenfragment <Tâste>",
-		[31233] = "Kräftiger Wolf",
-		[36536] = "Seelenquell",
-		[36499] = "Ernter der Seelenwache",
-		[36522] = "Seelenschrecken",
-		[36620] = "Adept der Seelenwache",
-		[36478] = "Wachmann der Seelenwache",
 		[36666] = "Spektraler Wärter",
+		[37813] = "Todesbringer Saurfang",
+		[37690] = "Anwachsende Schlammpfütze <Professor Seuchenmord>",
+		[36805] = "Diener der Todessprecher",
+		[37571] = "Sinistrer Berater",
+		[36948] = "Muradin Bronzebart",
+		[38222] = "Rachsüchtiger Schatten <Lady Todeswisper>",
+		[36829] = "Hohepriester der Todessprecher",
+		[37595] = "Sinistrer Blutritter",
+		[38369] = "Dunkler Kern <Prinz Keleseth>",
+		[36595] = "Entfesselte Seele",
+		[38508] = "Blutbestie <Todesbringer Saurfang>",
+		[38008] = "Steuerung der Blutkugel",
+		[36619] = "Aufgespießt <Pippop>",
+		[37004] = "Schreckensklinge der Himmelsbrecher",
+		[36627] = "Modermiene",
+		[38028] = "Fangnetz <Gnag>",
+		[37016] = "Erleuchter der Himmelsbrecher",
+		[37782] = "Fleischfressendes Insekt",
+		[36516] = "Animator der Seelenwache",
+		[37663] = "Sinistrer Adliger",
+		[37544] = "Bastionsgargoyle",
+		[10404] = "Eiternder Schrecken",
+		[36536] = "Seelenquell",
+		[37949] = "Treuer Kultist",
+		[31233] = "Kräftiger Wolf",
+		[36564] = "Knochenwirker der Seelenwache",
+		[37973] = "Prinz Taldaram",
+		[36961] = "Unteroffizier der Himmelsbrecher",
+		[38422] = "Schockvortex <Prinz Valanar>",
+		[36969] = "Scharfschütze der Himmelsbrecher",
+		[36626] = "Fauldarm",
+		[38451] = "Infernoflammenkugel",
+		[38332] = "Flammenkugel",
+		[37972] = "Prinz Keleseth",
+		[37116] = "Zauberer der Himmelsbrecher",
+		[36612] = "Lord Mark'gar",
+		[36678] = "Professor Seuchenmord",
+		[37890] = "Fanatischer Kultist",
+		[36497] = "Bronjahm",
+		[37662] = "Sinistrer Kommandant",
+		[37013] = "Pfützenpirscher",
+		[37144] = "Schütze der Himmelsbrecher",
+		[37148] = "Beschwörer der Himmelsbrecher",
+		[37025] = "Stinki",
+		[37664] = "Sinistrer Erzmagier",
+		[37665] = "Sinistrer Leutnant",
+		[37545] = "Bastionsdiener",
+		[37901] = "Vampirscheusal",
+		[37697] = "Flüchtiger Schlamm",
+		[36620] = "Adept der Seelenwache",
+		[36672] = "Eisflamme <Lord Mark'gar>",
+		[38454] = "Kinetische Bombe",
+		[36807] = "Jünger der Todessprecher",
+		[36811] = "Knecht der Todessprecher",
+		[36899] = "Großer Schlamm",
 		[36551] = "Boshafte Erscheinung",
+		[36950] = "Marinesoldat der Himmelsbrecher",
+		[37970] = "Prinz Valanar",
+		[36897] = "Kleiner Schlamm",
+		[38104] = "Verseuchter Zombie <Schatz>",
+		[36499] = "Ernter der Seelenwache",
+		[37007] = "Todesgeweihter Wächter",
+		[38879] = "Seuchenmords Falle",
+		[36978] = "Mörsersoldat der Himmelsbrecher",
+		[36855] = "Lady Todeswisper",
+		[36478] = "Wachmann der Seelenwache",
+		[37017] = "Assassine der Himmelsbrecher",
+		[37021] = "Vikar der Himmelsbrecher",
+		[36998] = "Beschützer der Himmelsbrecher",
+		[38472] = "Darnavan",
+		[37006] = "Klebriger Schlamm",
+		[36502] = "Verschlinger der Seelen",
+		[36724] = "Diener des Throns",
+		[37230] = "Bastionsfrostwyrm",
+		[37022] = "Verseuchte Monstrosität",
+		[37026] = "Zauberer der Himmelsbrecher",
+		[36522] = "Seelenschrecken",
+		[37012] = "Uralter Skelettsoldat",
+		[37546] = "Rasende Monstrosität",
+		[37038] = "Rachsüchtiger Fleischernter",
 	},
 	["death_recap"] = {
 		["enabled"] = true,
@@ -509,159 +955,708 @@ _detalhes_global = {
 	},
 	["spell_pool"] = {
 		1, -- [1]
-		[51637] = 4,
-		[54968] = 2,
-		[64411] = 2,
-		[25771] = 2,
-		[74347] = 1,
-		[20185] = 2,
-		[48665] = 4,
-		[58363] = 1,
-		[69056] = "Wachmann der Seelenwache",
-		[25046] = 4,
-		[69088] = "Seelenschrecken",
-		[57399] = 1,
-		[58427] = 4,
-		[46968] = 1,
-		[47502] = 1,
-		[57965] = 4,
-		[53654] = 2,
-		[10308] = 2,
-		[57822] = 4,
-		[53758] = 1,
-		[20572] = 4,
-		[69058] = "Ernter der Seelenwache",
-		[71401] = 4,
-		[58683] = 4,
-		[57934] = 4,
-		[67210] = 4,
-		[54149] = 2,
-		[14177] = 4,
-		[54428] = 2,
-		[2479] = 4,
-		[64413] = 2,
-		[20166] = 2,
-		[55775] = 4,
-		[57823] = 1,
-		[20186] = 2,
-		[69060] = "Ernter der Seelenwache",
-		[65019] = 4,
-		[64772] = 4,
-		[47440] = 1,
-		[47488] = 1,
-		[47520] = 1,
-		[54158] = 2,
-		[12976] = 1,
-		[26669] = 4,
-		[68950] = "Bronjahm",
-		[68982] = "Verschlinger der Seelen",
-		[58597] = 2,
-		[53760] = 4,
-		[48668] = 4,
-		[48676] = 4,
-		[4987] = 2,
-		[68839] = "Bronjahm",
-		[6774] = 4,
-		[31821] = 2,
-		[1766] = 4,
-		[51585] = 4,
-		[68872] = "Bronjahm",
-		[72586] = 4,
-		[68793] = "Bronjahm",
-		[69080] = "Knochenwirker der Seelenwache",
-		[72] = 1,
-		[64790] = 4,
-		[54861] = 1,
-		[47498] = 1,
-		[11305] = 4,
-		[1330] = 4,
-		[57993] = 4,
-		[48821] = 2,
-		[72412] = 4,
-		[18498] = 1,
-		[72221] = 4,
-		[13877] = 4,
-		[51690] = 4,
-		[54758] = 4,
-		[57842] = 4,
-		[69034] = "[*] Gespiegelte Seele",
-		[53563] = 2,
-		[50227] = 1,
-		[68820] = "Verschlinger der Seelen",
-		[31834] = 2,
-		[53908] = 4,
-		[53408] = 2,
-		[22482] = 4,
-		[48782] = 2,
-		[70804] = 4,
-		[1784] = 4,
-		[69051] = "Verschlinger der Seelen",
-		[69128] = "Animator der Seelenwache",
-		[54153] = 2,
-		[57755] = 1,
-		[48938] = 2,
-		[57516] = 1,
-		[69633] = "Spektraler Wärter",
-		[72590] = 4,
-		[871] = 1,
-		[20168] = 2,
-		[68939] = "Verschlinger der Seelen",
-		[67703] = 4,
-		[68988] = "Bronjahm",
-		[59620] = 4,
-		[59628] = 4,
-		[48942] = 2,
-		[68863] = "Seelenquell",
-		[69068] = "Adept der Seelenwache",
-		[68921] = "Bronjahm",
-		[2565] = 1,
-		[48943] = 2,
-		[69642] = "Knochenwirker der Seelenwache",
-		[69148] = "Spektraler Wärter",
-		[57970] = 4,
-		[28730] = 2,
-		[52874] = 4,
-		[51723] = 4,
-		[29131] = 1,
-		[413763] = 1,
-		[60513] = 2,
-		[32747] = 2,
-		[69053] = "Wachmann der Seelenwache",
-		[53652] = 2,
-		[69069] = "Knochenwirker der Seelenwache",
+		3, -- [2]
+		"Umgebung: (Fallen)", -- [3]
+		[65024] = 3,
 		[20268] = 2,
-		[20272] = 2,
-		[12975] = 1,
-		[23602] = 1,
-		[56350] = 4,
-		[13750] = 4,
-		[72588] = 4,
-		[355] = 1,
-		[31224] = 4,
-		[47875] = 4,
-		[48659] = 4,
-		[413764] = 1,
-		[48664] = 4,
-		[48672] = 4,
+		[70906] = "Treuer Kultist",
+		[47825] = 9,
+		[66047] = "Schwarzer Champion",
+		[60229] = 2,
+		[70395] = "Bastionsdiener",
 		[69564] = "Adept der Seelenwache",
-		[59653] = 1,
-		[14181] = 4,
-		[63848] = 4,
-		[7922] = 1,
+		[20572] = 4,
 		[58567] = 1,
-		[68895] = "Boshafte Erscheinung",
-		[20267] = 2,
-		[7744] = 4,
-		[55382] = 2,
-		[57940] = 4,
+		[69053] = "Wachmann der Seelenwache",
+		[71163] = "Rachsüchtiger Fleischernter",
+		[48465] = 11,
+		[72378] = "Todesbringer Saurfang",
+		[70396] = "Bastionsdiener",
+		[45524] = 6,
+		[22842] = 11,
+		[48785] = 2,
+		[48817] = 2,
+		[71164] = "Rachsüchtiger Fleischernter",
+		[71420] = "Lady Todeswisper",
+		[49233] = 7,
+		[68863] = "Seelenquell",
+		[69055] = "Lord Mark'gar",
+		[71165] = 9,
+		[48466] = 11,
+		[72380] = "Todesbringer Saurfang",
+		[67713] = 8,
+		[57993] = 4,
+		[60103] = 7,
+		[69056] = "Wachmann der Seelenwache",
+		[34720] = 3,
+		[67714] = 8,
+		[31842] = 2,
+		[65924] = "Darnavan",
+		[69057] = "Lord Mark'gar",
+		[50449] = 6,
+		[48467] = 11,
+		[47476] = 6,
+		[53742] = 2,
+		[69633] = "Spektraler Wärter",
+		[54861] = 1,
+		[57994] = 7,
+		[48819] = 2,
+		[69058] = "Ernter der Seelenwache",
+		[29077] = 8,
+		[54158] = 2,
+		[64420] = 3,
+		[65926] = "Darnavan",
+		[64772] = 4,
+		[48468] = 11,
+		[69507] = "Modermiene",
+		[70594] = "Treuer Kultist",
+		[19263] = 3,
+		[48788] = 2,
+		[72] = 1,
+		[69060] = "Ernter der Seelenwache",
+		[47893] = 9,
+		[69188] = 1,
+		[60233] = 3,
+		[72385] = "Todesbringer Saurfang",
+		[42938] = 8,
+		[69508] = "Modermiene",
+		[43002] = 8,
+		[70659] = "Fanatischer Kultist",
+		[50227] = 1,
+		[33891] = 11,
+		[1161] = 1,
+		[57516] = 1,
+		[72066] = "Sinistrer Berater",
+		[48469] = 11,
+		[55694] = 1,
+		[24858] = 11,
+		[70980] = "Bruthüter der Nerub'ar",
+		[413841] = 8,
+		[6774] = 4,
+		[70341] = "Professor Seuchenmord",
+		[53201] = 11,
+		[413843] = 8,
+		[70853] = "Professor Seuchenmord",
+		[69958] = "Erleuchter der Himmelsbrecher",
+		[75] = 3,
+		[69127] = 2,
+		[71237] = "Treuer Kultist",
+		[26297] = 7,
+		[45529] = 6,
+		[71621] = "Professor Seuchenmord",
+		[20271] = 2,
+		[57965] = 4,
+		[68872] = "Bronjahm",
+		[49909] = 6,
+		[57102] = 2,
+		[69192] = 1,
+		[67210] = 4,
+		[46968] = 1,
+		[53138] = 6,
+		[42940] = 8,
+		[57294] = 7,
+		[69576] = "Diener der Todessprecher",
+		[49238] = 7,
+		[39104] = 7,
+		[59628] = 4,
+		[69193] = 6,
+		[63848] = 4,
+		[50581] = 9,
+		[56815] = 6,
+		[25898] = 2,
+		[22845] = 11,
+		[24907] = 11,
+		[34501] = 3,
+		[61291] = 9,
+		[52212] = 6,
+		[69642] = "Knochenwirker der Seelenwache",
+		[49271] = 7,
+		[69898] = "Hierophant der Himmelsbrecher",
+		[68939] = "Verschlinger der Seelen",
 		[69131] = "Animator der Seelenwache",
+		[69195] = "Fauldarm",
+		[70346] = "Anwachsende Schlammpfütze <Professor Seuchenmord>",
+		[69387] = "Jünger der Todessprecher",
+		[51637] = 4,
+		[57807] = "Beschützer der Himmelsbrecher",
+		[48664] = 4,
+		[20272] = 2,
+		[48792] = 6,
+		[69963] = "Vikar der Himmelsbrecher",
+		[69068] = "Adept der Seelenwache",
+		[54131] = "Widi <Gnag>",
+		[49048] = 3,
+		[642] = 2,
+		[70539] = "Mutierte Monströsität <Telefonkuh>",
+		[18498] = 1,
+		[72905] = "Lady Todeswisper",
+		[18562] = 11,
+		[69069] = "Knochenwirker der Seelenwache",
+		[25771] = 2,
 		[47450] = 1,
-		[48638] = 4,
-		[70043] = "Bronjahm",
+		[58735] = "Totem des glühenden Magmas VII <Vacaria>",
+		[53652] = 2,
+		[72586] = 4,
+		[48665] = 4,
+		[53908] = 4,
+		[62124] = 2,
+		[47834] = 9,
+		[57073] = 2,
+		[47994] = "Jhuuthun <Shekshek>",
+		[48090] = 9,
+		[69774] = "Kleiner Schlamm",
+		[49273] = 7,
+		[69902] = "Beschützer der Himmelsbrecher",
+		[35079] = 3,
+		[49497] = 6,
+		[53653] = 2,
+		[72588] = 4,
 		[57841] = 4,
-		[35548] = 4,
+		[70670] = "Fanatischer Kultist",
+		[61006] = 3,
+		[69839] = "Großer Schlamm",
+		[53909] = 7,
+		[69967] = "Vikar der Himmelsbrecher",
+		[11719] = 9,
+		[47867] = 9,
+		[47995] = "Jhuuthun <Shekshek>",
+		[49050] = 3,
+		[5384] = 3,
+		[70671] = "Vampirscheusal",
+		[69776] = "Klebriger Schlamm",
+		[13877] = 4,
+		[30823] = 7,
+		[48443] = 11,
+		[45438] = 8,
+		[45470] = 6,
+		[72590] = 4,
+		[57842] = 4,
+		[70672] = "Gaswolke",
+		[57970] = 4,
+		[69969] = "Nekrolyt der Kor'kron",
+		[47836] = 9,
+		[71184] = 11,
+		[22959] = 8,
+		[69778] = "Klebriger Schlamm",
+		[62606] = 11,
+		[694] = 1,
+		[34026] = 3,
+		[69075] = "Lord Mark'gar",
+		[70162] = "Scharfschütze der Himmelsbrecher",
+		[72272] = "Professor Seuchenmord",
+		[55637] = 11,
+		[48540] = "Mutierte Monströsität <Telefonkuh>",
+		[48668] = 4,
+		[68820] = "Verschlinger der Seelen",
+		[50842] = 6,
+		[64205] = 2,
+		[69076] = "Lord Mark'gar",
+		[49052] = 3,
+		[28682] = 8,
+		[60433] = 11,
+		[28730] = 2,
+		[355] = 1,
+		[30824] = 7,
+		[34027] = 3,
+		[71123] = "Stinki",
+		[34123] = 11,
+		[48477] = 11,
+		[48541] = 1,
+		[18708] = 9,
+		[69653] = "Unteroffizier der Himmelsbrecher",
+		[57940] = 4,
+		[68950] = "Bronjahm",
+		[47838] = 9,
+		[55095] = 6,
+		[16870] = 11,
+		[16886] = 11,
+		[31224] = 4,
+		[6795] = 11,
+		[72723] = "Blutbestie <Todesbringer Saurfang>",
+		[69910] = "Vikar der Himmelsbrecher",
+		[8515] = 7,
+		[65946] = "Darnavan",
+		[52474] = "Widi <Gnag>",
+		[48542] = 2,
+		[48638] = 4,
+		[9634] = 11,
+		[71893] = "Professor Seuchenmord",
+		[53913] = 11,
+		[54968] = 2,
+		[65947] = "Darnavan",
+		[69080] = "Knochenwirker der Seelenwache",
+		[7922] = 1,
+		[48990] = 3,
+		[70423] = "Sinistrer Leutnant",
+		[20467] = 2,
+		[64495] = 3,
+		[43044] = 8,
+		[26669] = 4,
+		[53338] = 3,
+		[30809] = 7,
+		[53434] = 3,
+		[71127] = "Stinki",
+		[48447] = 11,
+		[47488] = 1,
+		[48543] = 6,
+		[1494] = 3,
+		[12975] = 1,
+		[60052] = 3,
+		[69146] = "Kalte Flamme <Lord Mark'gar>",
+		[29131] = 1,
+		[69402] = "Kanone des Hordenkanonenboots <Kentharo>",
+		[57367] = 3,
+		[57399] = 1,
+		[53339] = 3,
+		[49279] = 7,
+		[71001] = "Lady Todeswisper",
+		[59637] = "Spiegelbild <Pippop>",
+		[58646] = 7,
+		[53563] = 2,
+		[13159] = 3,
+		[70362] = "Bastionsfrostwyrm",
+		[69403] = 2,
+		[67485] = 2,
+		[53755] = 9,
+		[48672] = 4,
+		[60053] = 3,
+		[47809] = 9,
+		[70043] = "Bronjahm",
+		[54043] = 1,
+		[768] = 11,
+		[70299] = "Sinistrer Erzmagier",
+		[22482] = 4,
+		[69404] = "Diener der Todessprecher",
+		[49088] = 6,
+		[43046] = 8,
+		[70747] = 8,
+		[11305] = 4,
+		[69916] = "Schreckensklinge der Himmelsbrecher",
+		[35022] = 6,
+		[59638] = "Spiegelbild <Pippop>",
+		[72410] = "Todesbringer Saurfang",
+		[69405] = "Diener der Todessprecher",
+		[70492] = "Flüchtiger Schlamm",
+		[71579] = 9,
+		[69789] = "[*] Schlammflut",
+		[70940] = 2,
+		[5225] = 11,
+		[70173] = "Kanone des Hordenkanonenboots <Kentharo>",
+		[28093] = 1,
+		[54172] = 2,
+		[52286] = 6,
+		[20053] = 2,
+		[54428] = 2,
+		[50464] = 11,
+		[72412] = 4,
+		[32553] = 9,
+		[47811] = 9,
+		[49921] = 6,
+		[72221] = 4,
+		[70431] = "Sinistrer Taktiker",
 		[67490] = 2,
+		[23602] = 1,
+		[20549] = 1,
+		[31818] = 9,
+		[31834] = 2,
+		[61654] = 7,
+		[71199] = 7,
+		[48451] = 11,
+		[31930] = 2,
+		[72414] = 6,
+		[70432] = "Sinistrer Taktiker",
+		[53758] = 1,
+		[48707] = 6,
+		[12976] = 1,
+		[69921] = "Assassine der Himmelsbrecher",
+		[17800] = 9,
+		[66021] = "Schwarzer Champion",
+		[35696] = 9,
+		[16857] = 11,
+		[42921] = 8,
+		[33778] = 11,
+		[57371] = 1,
+		[70753] = 8,
+		[48420] = 11,
+		[20166] = 2,
+		[72416] = 8,
+		[57755] = 1,
+		[65012] = 6,
+		[48676] = 4,
+		[69923] = "Erleuchter der Himmelsbrecher",
+		[60089] = 11,
+		[48932] = 2,
+		[70371] = "Rasende Monstrosität",
+		[70435] = "Sinistrer Leutnant",
+		[58363] = 1,
+		[72737] = "Todesbringer Saurfang",
+		[58427] = 4,
+		[69244] = 6,
+		[43183] = 11,
+		[53408] = 2,
+		[13376] = "Großer Feuerelementar <Vacaria>",
+		[70426] = 6,
+		[70116] = "Bastionsfrostwyrm",
+		[48421] = 11,
+		[58683] = 4,
+		[70750] = "Sinistrer Kommandant",
+		[57724] = 1,
+		[70449] = "Sinistrer Kommandant",
+		[70445] = 2,
+		[57820] = 6,
+		[53760] = 4,
+		[72065] = "Sinistrer Berater",
+		[72057] = "Sinistrer Berater",
+		[41290] = "Vampirscheusal",
+		[70437] = "Sinistrer Blutritter",
+		[69925] = "Pirscher der Kor'kron",
+		[69989] = "Schütze der Himmelsbrecher",
+		[14177] = 4,
+		[49924] = 6,
+		[72960] = "Sinistrer Adliger",
+		[47875] = 4,
+		[42859] = 8,
+		[71396] = 7,
+		[56222] = 6,
+		[29166] = 11,
+		[42987] = 8,
+		[70360] = "Mutierte Monströsität <Telefonkuh>",
+		[56350] = 4,
+		[71278] = "[*] Erstickendes Gas",
+		[70215] = "Gaswolke",
+		[68839] = "Bronjahm",
+		[69926] = "Erleuchter der Himmelsbrecher",
+		[70447] = "Flüchtiger Schlamm",
+		[70343] = "Anwachsende Schlammpfütze <Professor Seuchenmord>",
+		[70542] = "Mutierte Monströsität <Telefonkuh>",
+		[64790] = 4,
+		[69674] = "Modermiene",
+		[71255] = "Professor Seuchenmord",
+		[48518] = 11,
+		[70351] = "Professor Seuchenmord",
+		[71617] = "Professor Seuchenmord",
+		[57821] = 3,
+		[6940] = 2,
+		[72967] = "Fleischfressendes Insekt",
+		[70475] = "Seuchenmords Falle",
+		[47822] = 9,
+		[69290] = 2,
+		[48806] = 2,
+		[69291] = 1,
+		[72176] = "Blutbestie <Todesbringer Saurfang>",
+		[20375] = 2,
+		[48934] = 2,
+		[72293] = "Todesbringer Saurfang",
+		[69159] = "Fauldarm",
+		[69278] = "Fauldarm",
 		[51722] = 4,
+		[32747] = 2,
+		[12809] = 1,
+		[17057] = 11,
+		[54203] = 2,
+		[55360] = 8,
+		[72219] = "Fauldarm",
+		[48263] = 6,
+		[47520] = 1,
+		[63672] = 3,
+		[64372] = 11,
+		[871] = 1,
+		[69161] = "Fauldarm",
+		[49005] = 6,
+		[71335] = "Unteroffizier der Himmelsbrecher",
+		[50424] = "Modermiene",
+		[67371] = 2,
+		[69833] = "Großer Schlamm",
+		[57822] = 4,
+		[53762] = 1,
+		[50725] = 1,
+		[48801] = 2,
+		[2479] = 4,
+		[69761] = "Großer Schlamm",
+		[69760] = "Großer Schlamm",
+		[69889] = "Kleiner Schlamm",
+		[69034] = "[*] Gespiegelte Seele",
+		[48517] = 11,
+		[2139] = 8,
+		[72295] = "Professor Seuchenmord",
+		[63321] = 9,
+		[42917] = 8,
+		[48441] = 11,
+		[55233] = 6,
+		[71114] = "Verwesender Koloss",
+		[53251] = 11,
+		[1766] = 4,
+		[50763] = 11,
+		[71465] = "Schwester Svalna",
+		[47241] = 9,
+		[69930] = "Bezwinger der Kor'kron",
+		[69975] = "Schütze der Himmelsbrecher",
+		[71103] = "Seuchenwissenschaftler",
+		[70901] = "Treuer Kultist",
+		[69163] = "Fauldarm",
+		[40504] = "Verseuchte Monstrosität",
+		[20168] = 2,
+		[71401] = 4,
+		[16246] = 7,
+		[69483] = "Hohepriester der Todessprecher",
+		[57823] = 1,
+		[71150] = "Verseuchte Monstrosität",
+		[71140] = "Verseuchte Monstrosität",
+		[48018] = 9,
+		[1784] = 4,
+		[12536] = 8,
+		[25228] = 9,
+		[13810] = 3,
+		[49895] = 6,
+		[69973] = "Nekrolyt der Kor'kron",
+		[48936] = 2,
+		[72769] = "Todesbringer Saurfang",
+		[71544] = "Rachsüchtiger Schatten <Lady Todeswisper>",
+		[69901] = "Beschützer der Himmelsbrecher",
+		[72409] = "Todesbringer Saurfang",
+		[2565] = 1,
+		[70444] = "[*] Explosion",
+		[70309] = "Muradin Bronzebart",
+		[15284] = "Muradin Bronzebart",
+		[55362] = 8,
+		[69652] = "Unteroffizier der Himmelsbrecher",
+		[31821] = 2,
+		[69651] = "Unteroffizier der Himmelsbrecher",
+		[10308] = 2,
+		[54499] = 2,
+		[69705] = "Zauberer der Himmelsbrecher",
+		[69165] = "Fauldarm",
+		[69912] = "Schreckensklinge der Himmelsbrecher",
+		[70383] = "Mörsersoldat der Himmelsbrecher",
+		[47498] = 1,
+		[49576] = 6,
+		[69647] = "Marinesoldat der Himmelsbrecher",
+		[45548] = 2,
+		[58879] = "Geisterwolf <Vacaria>",
+		[70804] = 4,
+		[69904] = "Zauberer der Himmelsbrecher",
+		[67759] = 11,
+		[57984] = "Großer Feuerelementar <Vacaria>",
+		[8012] = 7,
+		[71020] = "Bruthüter der Nerub'ar",
+		[10444] = 7,
+		[47856] = 9,
+		[70189] = "Bastionsgargoyle",
+		[69972] = "Nekrolyt der Kor'kron",
+		[49001] = 3,
+		[5246] = 1,
+		[49065] = 3,
+		[70361] = "Bastionsfrostwyrm",
+		[69899] = "Hierophant der Himmelsbrecher",
+		[48108] = 8,
+		[69968] = "Primalist der Kor'kron",
+		[69869] = "Herbeirufer der Kor'kron",
+		[67760] = 11,
+		[70893] = 3,
+		[69934] = "Bezwinger der Kor'kron",
+		[71021] = "Todesgeweihter Wächter",
+		[69927] = "Bezwinger der Kor'kron",
+		[72172] = "Todesbringer Saurfang",
+		[69903] = "Beschützer der Himmelsbrecher",
+		[69965] = "Beschützer der Himmelsbrecher",
+		[1604] = "Beschützer der Himmelsbrecher",
+		[20185] = 2,
+		[69911] = "Schreckensklinge der Himmelsbrecher",
+		[41425] = 8,
+		[53733] = 2,
+		[69917] = "Schreckensklinge der Himmelsbrecher",
+		[69679] = "Mörsersoldat der Himmelsbrecher",
+		[69920] = "Assassine der Himmelsbrecher",
+		[69974] = "Schütze der Himmelsbrecher",
+		[69871] = "Seuchenwissenschaftler",
+		[69970] = "Erleuchter der Himmelsbrecher",
+		[51911] = 6,
+		[70728] = 3,
+		[72173] = "Todesbringer Saurfang",
+		[48938] = 2,
+		[74347] = 1,
+		[2687] = 1,
+		[54149] = 2,
+		[64411] = 2,
+		[53190] = 11,
+		[58750] = 7,
+		[70674] = "Fanatischer Kultist",
+		[69680] = "Mörsersoldat der Himmelsbrecher",
+		[58433] = 3,
+		[65927] = "Darnavan",
+		[59578] = 2,
+		[68982] = "Verschlinger der Seelen",
+		[67545] = 8,
+		[55342] = 8,
+		[475] = 8,
+		[61840] = 2,
+		[42891] = 8,
+		[64859] = 6,
+		[20216] = 2,
+		[54181] = 9,
+		[57327] = 8,
+		[49231] = 7,
+		[65019] = 4,
+		[57934] = 4,
+		[70768] = "Treuer Kultist",
+		[69809] = "Herbeirufer der Kor'kron",
+		[49281] = 7,
+		[70960] = "Die Verdammten",
+		[57623] = 6,
+		[71088] = "Eiternder Schrecken",
+		[49930] = 6,
+		[53654] = 2,
+		[42833] = 8,
+		[770] = 11,
+		[55775] = 4,
+		[67380] = 6,
+		[69490] = "Hohepriester der Todessprecher",
+		[413763] = 1,
+		[12051] = 8,
+		[61290] = 9,
+		[58434] = 3,
+		[413764] = 1,
+		[16280] = 7,
+		[70961] = "Die Verdammten",
+		[47528] = 6,
+		[71089] = "Eiternder Schrecken",
+		[34074] = 3,
+		[50589] = 9,
+		[47437] = 1,
+		[61847] = 3,
+		[20186] = 2,
+		[70450] = "Sinistrer Blutritter",
+		[60346] = 2,
+		[54758] = 4,
+		[14181] = 4,
+		[69088] = "Seelenschrecken",
+		[1953] = 8,
+		[53352] = 3,
+		[34477] = 3,
+		[60065] = 2,
+		[58597] = 2,
+		[47993] = "Jhuuthun <Shekshek>",
+		[48982] = 6,
+		[55078] = 6,
+		[48418] = 11,
+		[13750] = 4,
+		[71254] = "Lady Todeswisper",
+		[64413] = 2,
+		[69492] = "Zelot der Todessprecher",
+		[50590] = 9,
+		[2825] = 7,
+		[52042] = 7,
+		[60234] = 2,
+		[60513] = 2,
+		[56453] = 3,
+		[43186] = 2,
+		[60347] = 2,
+		[50411] = "Treant <Kentharo>",
+		[34075] = 3,
+		[22812] = 11,
+		[48461] = 11,
+		[53506] = 11,
+		[47502] = 1,
+		[7744] = 4,
+		[47813] = 9,
+		[51690] = 4,
+		[53768] = 9,
+		[69482] = "Hohepriester der Todessprecher",
+		[67703] = 4,
+		[67767] = "Schwarzer Champion",
+		[70900] = "Fanatischer Kultist",
+		[70964] = "Uralter Skelettsoldat",
+		[63167] = 9,
+		[68988] = "Bronjahm",
+		[64739] = 11,
+		[19883] = 3,
+		[32175] = 7,
+		[35706] = 9,
+		[25046] = 4,
+		[42931] = 8,
+		[67360] = 11,
+		[69558] = "Großer Schlamm",
+		[70645] = "Sinistrer Adliger",
+		[2782] = 11,
+		[69750] = "Kleiner Schlamm",
+		[1330] = 4,
+		[53385] = 2,
+		[70965] = "Bruthüter der Nerub'ar",
+		[71029] = "Diener des Throns",
+		[65003] = 11,
+		[58578] = 6,
+		[68895] = "Boshafte Erscheinung",
+		[57669] = 2,
+		[69389] = "Jünger der Todessprecher",
+		[65936] = "Darnavan",
+		[53227] = 11,
+		[53307] = 6,
+		[29442] = 8,
+		[51723] = 4,
+		[20267] = 2,
+		[69751] = "Kleiner Schlamm",
+		[52874] = 4,
+		[48782] = 2,
+		[72418] = 11,
+		[47823] = 9,
+		[47855] = 9,
+		[69148] = "Spektraler Wärter",
+		[48942] = 2,
+		[69240] = "Fauldarm",
+		[48821] = 2,
+		[54153] = 2,
+		[31884] = 2,
+		[48659] = 4,
+		[48422] = 11,
+		[412668] = 2,
+		[48470] = 11,
+		[53817] = 7,
+		[68793] = "Bronjahm",
+		[55382] = 2,
+		[68921] = "Bronjahm",
+		[17364] = 7,
+		[59620] = 4,
+		[51585] = 4,
+		[29178] = 7,
+		[48463] = 11,
+		[16591] = 1,
+		[49938] = 6,
+		[48823] = 2,
+		[71010] = 6,
+		[48445] = 11,
+		[47632] = 6,
+		[47865] = 9,
+		[60995] = 9,
+		[49941] = 6,
+		[49560] = 6,
+		[64713] = 11,
+		[35548] = 4,
+		[73142] = "Lord Mark'gar",
+		[71160] = "Stinki",
+		[48943] = 2,
+		[32176] = 7,
+		[4987] = 2,
+		[35395] = 2,
+		[348704] = 2,
+		[53195] = 11,
+		[61411] = 2,
+		[8983] = 11,
+		[34837] = 3,
+		[67708] = 1,
+		[71022] = "Todesgeweihter Wächter",
+		[69882] = "Hierophant der Himmelsbrecher",
+		[56488] = 7,
+		[424340] = "Großer Feuerelementar <Vacaria>",
+		[69051] = "Verschlinger der Seelen",
+		[59653] = 1,
+		[63375] = 7,
+		[69128] = "Animator der Seelenwache",
+		[67699] = 6,
+		[69391] = "Jünger der Todessprecher",
+		[51399] = 6,
+		[3045] = 3,
+		[53739] = 2,
+		[47440] = 1,
 	},
 	["shield_spellid_cache"] = {
 	},
@@ -670,7 +1665,7 @@ _detalhes_global = {
 	["got_first_run"] = true,
 	["plater"] = {
 		["realtime_dps_enabled"] = false,
-		["realtime_dps_size"] = 12,
+		["damage_taken_shadow"] = true,
 		["realtime_dps_player_shadow"] = true,
 		["damage_taken_enabled"] = false,
 		["realtime_dps_player_size"] = 12,
@@ -686,12 +1681,12 @@ _detalhes_global = {
 			["x"] = 0,
 			["side"] = 7,
 		},
-		["damage_taken_shadow"] = true,
 		["damage_taken_anchor"] = {
 			["y"] = 0,
 			["x"] = 0,
 			["side"] = 7,
 		},
+		["realtime_dps_size"] = 12,
 		["damage_taken_color"] = {
 			1, -- [1]
 			1, -- [2]
@@ -1151,42 +2146,7 @@ _detalhes_global = {
 			["animation_speed"] = 33,
 			["deadlog_limit"] = 16,
 			["disable_stretch_from_toolbar"] = false,
-			["realtime_dps_meter"] = {
-				["enabled"] = false,
-				["font_color"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-					1, -- [4]
-				},
-				["arena_enabled"] = true,
-				["font_shadow"] = "NONE",
-				["font_size"] = 18,
-				["mythic_dungeon_enabled"] = false,
-				["sample_size"] = 3,
-				["frame_settings"] = {
-					["show_title"] = true,
-					["strata"] = "LOW",
-					["point"] = "TOP",
-					["scale"] = 1,
-					["width"] = 300,
-					["y"] = -110,
-					["x"] = 0,
-					["backdrop_color"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0.2, -- [4]
-					},
-					["locked"] = true,
-					["height"] = 23,
-				},
-				["font_face"] = "Friz Quadrata TT",
-				["text_offset"] = 2,
-				["update_interval"] = 0.3,
-				["options_frame"] = {
-				},
-			},
+			["disable_lock_ungroup_buttons"] = false,
 			["memory_ram"] = 64,
 			["instances_segments_locked"] = true,
 			["ps_abbreviation"] = 3,
@@ -1206,6 +2166,7 @@ _detalhes_global = {
 			},
 			["death_tooltip_width"] = 350,
 			["time_type"] = 2,
+			["segments_amount"] = 40,
 			["instances"] = {
 				{
 					["__pos"] = {
@@ -1424,9 +2385,8 @@ _detalhes_global = {
 						["n_enemies"] = 3,
 					},
 					["StatusBarSaved"] = {
-						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
-						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["center"] = "DETAILS_STATUSBAR_PLUGIN_CLOCK",
+						["right"] = "DETAILS_STATUSBAR_PLUGIN_PDPS",
 						["options"] = {
 							["DETAILS_STATUSBAR_PLUGIN_PDPS"] = {
 								["segmentType"] = 2,
@@ -1471,13 +2431,11 @@ _detalhes_global = {
 								},
 							},
 						},
+						["left"] = "DETAILS_STATUSBAR_PLUGIN_PSEGMENT",
 					},
 					["switch_damager"] = false,
 					["switch_all_roles_after_wipe"] = false,
-					["instance_button_anchor"] = {
-						-27, -- [1]
-						1, -- [2]
-					},
+					["switch_tank_in_combat"] = false,
 					["version"] = 3,
 					["fontstrings_text4_anchor"] = 0,
 					["__locked"] = false,
@@ -1530,7 +2488,14 @@ _detalhes_global = {
 							["size"] = 12,
 						},
 						["textL_custom_text"] = "{data1}. {data3}{data2}",
-						["font_size"] = 16,
+						["models"] = {
+							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
+							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
+							["upper_alpha"] = 0.5,
+							["lower_enabled"] = false,
+							["lower_alpha"] = 0.1,
+							["upper_enabled"] = false,
+						},
 						["start_after_icon"] = true,
 						["texture_custom_file"] = "Interface\\",
 						["textL_translit_text"] = false,
@@ -1550,13 +2515,13 @@ _detalhes_global = {
 							0, -- [4]
 						},
 						["show_arena_role_icon"] = false,
-						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
 						["arena_role_icon_size_offset"] = -10,
+						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small",
 						["icon_grayscale"] = false,
 						["textR_enable_custom_text"] = false,
-						["use_spec_icons"] = true,
+						["textR_bracket"] = "(",
 						["texture_custom"] = "",
-						["textR_class_colors"] = false,
+						["texture_background"] = "Details D'ictum (reverse)",
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -1564,7 +2529,7 @@ _detalhes_global = {
 						},
 						["textL_show_number"] = true,
 						["alpha"] = 1,
-						["textL_class_colors"] = false,
+						["textR_class_colors"] = false,
 						["textR_custom_text"] = "{data1} ({data2}, {data3}%)",
 						["texture"] = "Details Hyanda",
 						["space"] = {
@@ -1581,7 +2546,7 @@ _detalhes_global = {
 						["overlay_texture"] = "Details D'ictum",
 						["texture_background_file"] = "Interface\\AddOns\\Details\\images\\bar4_reverse",
 						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
-						["texture_background"] = "Details D'ictum (reverse)",
+						["textL_class_colors"] = false,
 						["textR_outline_small_color"] = {
 							0, -- [1]
 							0, -- [2]
@@ -1593,27 +2558,16 @@ _detalhes_global = {
 							0, -- [1]
 							0, -- [2]
 						},
-						["textR_bracket"] = "(",
+						["use_spec_icons"] = true,
 						["font_face"] = "Accidental Presidency",
 						["texture_class_colors"] = true,
 						["show_faction_icon"] = true,
 						["fast_ps_update"] = false,
 						["textR_separator"] = "NONE",
-						["models"] = {
-							["upper_model"] = "Spells\\AcidBreath_SuperGreen.M2",
-							["lower_model"] = "World\\EXPANSION02\\DOODADS\\Coldarra\\COLDARRALOCUS.m2",
-							["upper_alpha"] = 0.5,
-							["lower_enabled"] = false,
-							["lower_alpha"] = 0.1,
-							["upper_enabled"] = false,
-						},
+						["font_size"] = 16,
 					},
 					["hide_in_combat_alpha"] = 0,
-					["row_show_animation"] = {
-						["anim"] = "Fade",
-						["options"] = {
-						},
-					},
+					["bars_grow_direction"] = 1,
 					["grab_on_top"] = false,
 					["libwindow"] = {
 						["y"] = -1.52587890625e-05,
@@ -1629,10 +2583,14 @@ _detalhes_global = {
 							0.333333333333333, -- [3]
 						},
 					},
-					["bars_grow_direction"] = 1,
 					["menu_anchor_down"] = {
 						16, -- [1]
 						-3, -- [2]
+					},
+					["row_show_animation"] = {
+						["anim"] = "Fade",
+						["options"] = {
+						},
 					},
 					["hide_in_combat_type"] = 1,
 					["backdrop_texture"] = "Details Ground",
@@ -1643,7 +2601,10 @@ _detalhes_global = {
 					["auto_current"] = true,
 					["switch_healer_in_combat"] = false,
 					["bg_alpha"] = 0.6,
-					["switch_tank_in_combat"] = false,
+					["instance_button_anchor"] = {
+						-27, -- [1]
+						1, -- [2]
+					},
 					["hide_in_combat"] = false,
 					["posicao"] = {
 						["normal"] = {
@@ -1697,8 +2658,7 @@ _detalhes_global = {
 					},
 				}, -- [1]
 			},
-			["segments_amount"] = 40,
-			["report_lines"] = 5,
+			["overall_clear_pvp"] = true,
 			["row_fade_out"] = {
 				"out", -- [1]
 				0.2, -- [2]
@@ -1709,27 +2669,22 @@ _detalhes_global = {
 			["show_arena_role_icon"] = false,
 			["overall_flag"] = 16,
 			["deny_score_messages"] = false,
-			["overall_clear_logout"] = false,
 			["minimum_combat_time"] = 5,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
+			["overall_clear_logout"] = false,
 			["window_clamp"] = {
 				-8, -- [1]
 				0, -- [2]
 				21, -- [3]
 				-14, -- [4]
 			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["y_offset"] = 0,
-				["x_offset"] = 0,
-				["tab_name"] = "",
-				["single_window"] = false,
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
 			},
+			["memory_threshold"] = 3,
 			["deadlog_events"] = 32,
 			["use_scroll"] = false,
 			["close_shields"] = false,
@@ -1818,11 +2773,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
+				["WARLOCK"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
 				},
 				["DEMONHUNTER"] = {
 					0.36914063, -- [1]
@@ -1836,11 +2791,11 @@ _detalhes_global = {
 					0.375, -- [3]
 					0.5, -- [4]
 				},
-				["WARLOCK"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
+				["ENEMY"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
 				},
 				["EVOKER"] = {
 					0.50390625, -- [1]
@@ -1857,11 +2812,30 @@ _detalhes_global = {
 			},
 			["profile_save_pos"] = true,
 			["disable_alldisplays_window"] = false,
-			["trash_auto_remove"] = false,
 			["total_abbreviation"] = 2,
+			["trash_auto_remove"] = false,
 			["animation_speed_triggertravel"] = 5,
 			["segments_amount_to_save"] = 40,
 			["clear_graphic"] = true,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["segments_auto_erase"] = 1,
+			["options_group_edit"] = true,
+			["broadcaster_enabled"] = false,
+			["minimap"] = {
+				["onclick_what_todo"] = 1,
+				["radius"] = 160,
+				["hide"] = false,
+				["minimapPos"] = 220,
+				["text_format"] = 3,
+				["text_type"] = 1,
+			},
+			["instances_amount"] = 5,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -1933,12 +2907,12 @@ _detalhes_global = {
 					1, -- [2]
 					1, -- [3]
 				},
+				["version"] = 1,
 				["WARLOCK"] = {
 					0.58, -- [1]
 					0.51, -- [2]
 					0.79, -- [3]
 				},
-				["version"] = 1,
 				["ENEMY"] = {
 					0.94117, -- [1]
 					0, -- [2]
@@ -1971,31 +2945,17 @@ _detalhes_global = {
 					0.89019, -- [3]
 				},
 			},
-			["segments_auto_erase"] = 1,
-			["options_group_edit"] = true,
-			["broadcaster_enabled"] = false,
-			["minimap"] = {
-				["onclick_what_todo"] = 1,
-				["radius"] = 160,
-				["hide"] = false,
-				["minimapPos"] = 220,
-				["text_format"] = 3,
-				["text_type"] = 1,
-			},
-			["instances_amount"] = 5,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
 			["only_pvp_frags"] = false,
 			["disable_stretch_button"] = false,
-			["memory_threshold"] = 3,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["y_offset"] = 0,
+				["x_offset"] = 0,
+				["tab_name"] = "",
+				["single_window"] = false,
+			},
+			["font_sizes"] = {
+				["menus"] = 10,
 			},
 			["windows_fade_out"] = {
 				"out", -- [1]
@@ -2009,7 +2969,7 @@ _detalhes_global = {
 				["bar_texture"] = "Skyline",
 			},
 			["auto_swap_to_dynamic_overall"] = false,
-			["overall_clear_pvp"] = true,
+			["report_lines"] = 5,
 			["numerical_system"] = 1,
 			["pvp_as_group"] = true,
 			["force_activity_time_pvp"] = true,
@@ -2020,7 +2980,42 @@ _detalhes_global = {
 			["standard_skin"] = false,
 			["instances_no_libwindow"] = false,
 			["default_bg_alpha"] = 0.5,
-			["disable_lock_ungroup_buttons"] = false,
+			["realtime_dps_meter"] = {
+				["enabled"] = false,
+				["font_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["arena_enabled"] = true,
+				["font_shadow"] = "NONE",
+				["font_size"] = 18,
+				["mythic_dungeon_enabled"] = false,
+				["sample_size"] = 3,
+				["frame_settings"] = {
+					["show_title"] = true,
+					["strata"] = "LOW",
+					["point"] = "TOP",
+					["scale"] = 1,
+					["width"] = 300,
+					["y"] = -110,
+					["x"] = 0,
+					["backdrop_color"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.2, -- [4]
+					},
+					["locked"] = true,
+					["height"] = 23,
+				},
+				["font_face"] = "Friz Quadrata TT",
+				["text_offset"] = 2,
+				["update_interval"] = 0.3,
+				["options_frame"] = {
+				},
+			},
 		},
 		["Luckyone 2.21"] = {
 			["overall_clear_newtorghast"] = true,
@@ -2461,7 +3456,42 @@ _detalhes_global = {
 			["animation_speed"] = 33,
 			["data_broker_text"] = "",
 			["disable_stretch_from_toolbar"] = false,
-			["disable_lock_ungroup_buttons"] = true,
+			["realtime_dps_meter"] = {
+				["enabled"] = false,
+				["font_color"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+					1, -- [4]
+				},
+				["arena_enabled"] = true,
+				["font_shadow"] = "NONE",
+				["font_size"] = 18,
+				["mythic_dungeon_enabled"] = false,
+				["sample_size"] = 3,
+				["frame_settings"] = {
+					["show_title"] = true,
+					["strata"] = "LOW",
+					["point"] = "TOP",
+					["scale"] = 1,
+					["width"] = 300,
+					["y"] = -110,
+					["x"] = 0,
+					["backdrop_color"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.2, -- [4]
+					},
+					["locked"] = true,
+					["height"] = 23,
+				},
+				["font_face"] = "Friz Quadrata TT",
+				["text_offset"] = 2,
+				["update_interval"] = 0.3,
+				["options_frame"] = {
+				},
+			},
 			["memory_ram"] = 64,
 			["standard_skin"] = false,
 			["instances_no_libwindow"] = false,
@@ -2485,313 +3515,6 @@ _detalhes_global = {
 			},
 			["numerical_system"] = 1,
 			["overall_clear_pvp"] = true,
-			["segments_amount"] = 40,
-			["report_lines"] = 8,
-			["player_details_window"] = {
-				["scale"] = 1,
-				["skin"] = "ElvUI",
-				["bar_texture"] = "Skyline",
-			},
-			["deny_score_messages"] = false,
-			["skin"] = "Dark Theme",
-			["override_spellids"] = true,
-			["use_scroll"] = false,
-			["minimum_combat_time"] = 5,
-			["overall_clear_logout"] = false,
-			["new_window_size"] = {
-				["height"] = 158,
-				["width"] = 310,
-			},
-			["realtimedps_always_arena"] = false,
-			["font_sizes"] = {
-				["menus"] = 10,
-			},
-			["cloud_capture"] = true,
-			["damage_taken_everything"] = false,
-			["scroll_speed"] = 2,
-			["window_clamp"] = {
-				-8, -- [1]
-				0, -- [2]
-				21, -- [3]
-				-14, -- [4]
-			},
-			["memory_threshold"] = 3,
-			["deadlog_events"] = 32,
-			["profile_save_pos"] = true,
-			["close_shields"] = false,
-			["class_coords"] = {
-				["HUNTER"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["WARRIOR"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["MAGE"] = {
-					0.125, -- [1]
-					0.248046875, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["PET"] = {
-					0.125, -- [1]
-					0.248046875, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["DRUID"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["MONK"] = {
-					0.25, -- [1]
-					0.369140625, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["DEATHKNIGHT"] = {
-					0.125, -- [1]
-					0.25, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["MONSTER"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["SHAMAN"] = {
-					0.125, -- [1]
-					0.248046875, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["UNKNOW"] = {
-					0.25, -- [1]
-					0.375, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["PRIEST"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-				["UNGROUPPLAYER"] = {
-					0.25, -- [1]
-					0.375, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["Alliance"] = {
-					0.248046875, -- [1]
-					0.02968748, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["ENEMY"] = {
-					0, -- [1]
-					0.125, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["DEMONHUNTER"] = {
-					0.36914063, -- [1]
-					0.5, -- [2]
-					0.25, -- [3]
-					0.375, -- [4]
-				},
-				["Horde"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0.375, -- [3]
-					0.5, -- [4]
-				},
-				["ROGUE"] = {
-					0.248046875, -- [1]
-					0.37109375, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["EVOKER"] = {
-					0.50390625, -- [1]
-					0.625, -- [2]
-					0, -- [3]
-					0.125, -- [4]
-				},
-				["WARLOCK"] = {
-					0.37109375, -- [1]
-					0.494140625, -- [2]
-					0.125, -- [3]
-					0.25, -- [4]
-				},
-			},
-			["total_abbreviation"] = 2,
-			["disable_alldisplays_window"] = false,
-			["class_colors"] = {
-				["HUNTER"] = {
-					0.67, -- [1]
-					0.83, -- [2]
-					0.45, -- [3]
-				},
-				["WARRIOR"] = {
-					0.78, -- [1]
-					0.61, -- [2]
-					0.43, -- [3]
-				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
-				["MAGE"] = {
-					0.41, -- [1]
-					0.8, -- [2]
-					0.94, -- [3]
-				},
-				["ARENA_YELLOW"] = {
-					1, -- [1]
-					1, -- [2]
-					0.25, -- [3]
-				},
-				["UNGROUPPLAYER"] = {
-					0.4, -- [1]
-					0.4, -- [2]
-					0.4, -- [3]
-				},
-				["DRUID"] = {
-					1, -- [1]
-					0.49, -- [2]
-					0.04, -- [3]
-				},
-				["MONK"] = {
-					0, -- [1]
-					1, -- [2]
-					0.59, -- [3]
-				},
-				["DEATHKNIGHT"] = {
-					0.77, -- [1]
-					0.12, -- [2]
-					0.23, -- [3]
-				},
-				["PET"] = {
-					0.3, -- [1]
-					0.4, -- [2]
-					0.5, -- [3]
-				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
-				},
-				["PALADIN"] = {
-					0.96, -- [1]
-					0.55, -- [2]
-					0.73, -- [3]
-				},
-				["UNKNOW"] = {
-					0.2, -- [1]
-					0.2, -- [2]
-					0.2, -- [3]
-				},
-				["PRIEST"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-				},
-				["ARENA_GREEN"] = {
-					0.6862745098039216, -- [1]
-					0.3843137254901961, -- [2]
-					1, -- [3]
-				},
-				["version"] = 1,
-				["ENEMY"] = {
-					0.94117, -- [1]
-					0, -- [2]
-					0.0196, -- [3]
-					1, -- [4]
-				},
-				["DEMONHUNTER"] = {
-					0.64, -- [1]
-					0.19, -- [2]
-					0.79, -- [3]
-				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
-				},
-				["NEUTRAL"] = {
-					1, -- [1]
-					1, -- [2]
-					0, -- [3]
-				},
-				["EVOKER"] = {
-					0.2, -- [1]
-					0.5764, -- [2]
-					0.498, -- [3]
-				},
-				["SELF"] = {
-					0.89019, -- [1]
-					0.32156, -- [2]
-					0.89019, -- [3]
-				},
-			},
-			["segments_amount_to_save"] = 40,
-			["trash_auto_remove"] = true,
-			["animation_speed_triggertravel"] = 5,
-			["clear_graphic"] = true,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
-			["segments_auto_erase"] = 2,
-			["options_group_edit"] = true,
-			["broadcaster_enabled"] = false,
-			["minimap"] = {
-				["minimapPos"] = 220,
-				["radius"] = 160,
-				["hide"] = true,
-				["onclick_what_todo"] = 1,
-				["text_format"] = 3,
-				["text_type"] = 1,
-			},
-			["instances_amount"] = 3,
-			["max_window_size"] = {
-				["height"] = 450,
-				["width"] = 480,
-			},
-			["chat_tab_embed"] = {
-				["enabled"] = false,
-				["tab_name"] = "",
-				["x_offset"] = 0,
-				["y_offset"] = 0,
-				["single_window"] = false,
-			},
-			["only_pvp_frags"] = false,
-			["disable_stretch_button"] = true,
-			["windows_fade_out"] = {
-				"out", -- [1]
-				0.2, -- [2]
-			},
-			["overall_flag"] = 16,
-			["overall_clear_newboss"] = false,
-			["segments_panic_mode"] = false,
-			["realtimedps_order_bars"] = false,
 			["instances"] = {
 				{
 					["__pos"] = {
@@ -3123,7 +3846,7 @@ _detalhes_global = {
 						["textL_outline"] = true,
 						["textR_outline_small"] = false,
 						["textL_outline_small"] = false,
-						["percent_type"] = 1,
+						["show_faction_icon"] = true,
 						["fixed_text_color"] = {
 							1, -- [1]
 							1, -- [2]
@@ -3149,7 +3872,7 @@ _detalhes_global = {
 							["enabled"] = false,
 							["size"] = 10,
 						},
-						["show_faction_icon"] = true,
+						["textL_enable_custom_text"] = false,
 						["textL_translit_text"] = false,
 						["texture_custom_file"] = "Interface\\",
 						["texture_file"] = "Interface\\Addons\\SharedMedia\\statusbar\\Minimalist",
@@ -3159,7 +3882,7 @@ _detalhes_global = {
 							["left"] = 0,
 							["between"] = 0,
 						},
-						["textL_enable_custom_text"] = false,
+						["percent_type"] = 1,
 						["overlay_color"] = {
 							0.7, -- [1]
 							0.7, -- [2]
@@ -3171,11 +3894,11 @@ _detalhes_global = {
 							true, -- [2]
 							false, -- [3]
 						},
-						["textR_bracket"] = "(",
-						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes",
+						["use_spec_icons"] = true,
+						["arena_role_icon_size_offset"] = -10,
 						["icon_grayscale"] = false,
 						["textR_enable_custom_text"] = false,
-						["use_spec_icons"] = true,
+						["textR_bracket"] = "(",
 						["texture_custom"] = "",
 						["textR_outline"] = true,
 						["fixed_texture_color"] = {
@@ -3211,7 +3934,7 @@ _detalhes_global = {
 							0, -- [1]
 							0, -- [2]
 						},
-						["arena_role_icon_size_offset"] = -10,
+						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes",
 						["font_face"] = "Expressway",
 						["texture_class_colors"] = true,
 						["textL_outline_small_color"] = {
@@ -3617,7 +4340,7 @@ _detalhes_global = {
 						["textL_outline"] = true,
 						["textR_outline_small"] = false,
 						["textL_outline_small"] = false,
-						["percent_type"] = 1,
+						["show_faction_icon"] = true,
 						["fixed_text_color"] = {
 							1, -- [1]
 							1, -- [2]
@@ -3643,7 +4366,7 @@ _detalhes_global = {
 							["enabled"] = false,
 							["size"] = 12,
 						},
-						["show_faction_icon"] = true,
+						["textL_enable_custom_text"] = false,
 						["textL_translit_text"] = false,
 						["texture_custom_file"] = "Interface\\",
 						["texture_file"] = "Interface\\Addons\\SharedMedia\\statusbar\\Minimalist",
@@ -3653,7 +4376,7 @@ _detalhes_global = {
 							["left"] = 0,
 							["between"] = 0,
 						},
-						["textL_enable_custom_text"] = false,
+						["percent_type"] = 1,
 						["overlay_color"] = {
 							0.7, -- [1]
 							0.7, -- [2]
@@ -3665,11 +4388,11 @@ _detalhes_global = {
 							true, -- [2]
 							false, -- [3]
 						},
-						["textR_bracket"] = "(",
-						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_bw",
+						["use_spec_icons"] = true,
+						["arena_role_icon_size_offset"] = -10,
 						["icon_grayscale"] = false,
 						["textR_enable_custom_text"] = false,
-						["use_spec_icons"] = true,
+						["textR_bracket"] = "(",
 						["texture_custom"] = "",
 						["textR_outline"] = true,
 						["fixed_texture_color"] = {
@@ -3705,7 +4428,7 @@ _detalhes_global = {
 							0, -- [1]
 							0, -- [2]
 						},
-						["arena_role_icon_size_offset"] = -10,
+						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_bw",
 						["font_face"] = "Expressway",
 						["texture_class_colors"] = true,
 						["textL_outline_small_color"] = {
@@ -3779,6 +4502,313 @@ _detalhes_global = {
 					},
 				}, -- [2]
 			},
+			["report_lines"] = 8,
+			["player_details_window"] = {
+				["scale"] = 1,
+				["skin"] = "ElvUI",
+				["bar_texture"] = "Skyline",
+			},
+			["deny_score_messages"] = false,
+			["skin"] = "Dark Theme",
+			["override_spellids"] = true,
+			["use_scroll"] = false,
+			["overall_clear_logout"] = false,
+			["minimum_combat_time"] = 5,
+			["new_window_size"] = {
+				["height"] = 158,
+				["width"] = 310,
+			},
+			["realtimedps_always_arena"] = false,
+			["window_clamp"] = {
+				-8, -- [1]
+				0, -- [2]
+				21, -- [3]
+				-14, -- [4]
+			},
+			["cloud_capture"] = true,
+			["damage_taken_everything"] = false,
+			["scroll_speed"] = 2,
+			["font_sizes"] = {
+				["menus"] = 10,
+			},
+			["chat_tab_embed"] = {
+				["enabled"] = false,
+				["tab_name"] = "",
+				["x_offset"] = 0,
+				["y_offset"] = 0,
+				["single_window"] = false,
+			},
+			["deadlog_events"] = 32,
+			["profile_save_pos"] = true,
+			["close_shields"] = false,
+			["class_coords"] = {
+				["HUNTER"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["WARRIOR"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["PALADIN"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["MAGE"] = {
+					0.125, -- [1]
+					0.248046875, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["PET"] = {
+					0.125, -- [1]
+					0.248046875, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["DRUID"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["MONK"] = {
+					0.25, -- [1]
+					0.369140625, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["DEATHKNIGHT"] = {
+					0.125, -- [1]
+					0.25, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["MONSTER"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["SHAMAN"] = {
+					0.125, -- [1]
+					0.248046875, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["UNKNOW"] = {
+					0.25, -- [1]
+					0.375, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["PRIEST"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["UNGROUPPLAYER"] = {
+					0.25, -- [1]
+					0.375, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["Alliance"] = {
+					0.248046875, -- [1]
+					0.02968748, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["WARLOCK"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0.125, -- [3]
+					0.25, -- [4]
+				},
+				["DEMONHUNTER"] = {
+					0.36914063, -- [1]
+					0.5, -- [2]
+					0.25, -- [3]
+					0.375, -- [4]
+				},
+				["Horde"] = {
+					0.37109375, -- [1]
+					0.494140625, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+				["ROGUE"] = {
+					0.248046875, -- [1]
+					0.37109375, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["EVOKER"] = {
+					0.50390625, -- [1]
+					0.625, -- [2]
+					0, -- [3]
+					0.125, -- [4]
+				},
+				["ENEMY"] = {
+					0, -- [1]
+					0.125, -- [2]
+					0.375, -- [3]
+					0.5, -- [4]
+				},
+			},
+			["trash_auto_remove"] = true,
+			["disable_alldisplays_window"] = false,
+			["hotcorner_topleft"] = {
+				["hide"] = false,
+			},
+			["segments_amount_to_save"] = 40,
+			["total_abbreviation"] = 2,
+			["animation_speed_triggertravel"] = 5,
+			["clear_graphic"] = true,
+			["class_colors"] = {
+				["HUNTER"] = {
+					0.67, -- [1]
+					0.83, -- [2]
+					0.45, -- [3]
+				},
+				["WARRIOR"] = {
+					0.78, -- [1]
+					0.61, -- [2]
+					0.43, -- [3]
+				},
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
+				},
+				["MAGE"] = {
+					0.41, -- [1]
+					0.8, -- [2]
+					0.94, -- [3]
+				},
+				["ARENA_YELLOW"] = {
+					1, -- [1]
+					1, -- [2]
+					0.25, -- [3]
+				},
+				["UNGROUPPLAYER"] = {
+					0.4, -- [1]
+					0.4, -- [2]
+					0.4, -- [3]
+				},
+				["DRUID"] = {
+					1, -- [1]
+					0.49, -- [2]
+					0.04, -- [3]
+				},
+				["MONK"] = {
+					0, -- [1]
+					1, -- [2]
+					0.59, -- [3]
+				},
+				["DEATHKNIGHT"] = {
+					0.77, -- [1]
+					0.12, -- [2]
+					0.23, -- [3]
+				},
+				["PET"] = {
+					0.3, -- [1]
+					0.4, -- [2]
+					0.5, -- [3]
+				},
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
+				},
+				["PALADIN"] = {
+					0.96, -- [1]
+					0.55, -- [2]
+					0.73, -- [3]
+				},
+				["UNKNOW"] = {
+					0.2, -- [1]
+					0.2, -- [2]
+					0.2, -- [3]
+				},
+				["PRIEST"] = {
+					1, -- [1]
+					1, -- [2]
+					1, -- [3]
+				},
+				["ARENA_GREEN"] = {
+					0.6862745098039216, -- [1]
+					0.3843137254901961, -- [2]
+					1, -- [3]
+				},
+				["version"] = 1,
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
+				["DEMONHUNTER"] = {
+					0.64, -- [1]
+					0.19, -- [2]
+					0.79, -- [3]
+				},
+				["ENEMY"] = {
+					0.94117, -- [1]
+					0, -- [2]
+					0.0196, -- [3]
+					1, -- [4]
+				},
+				["NEUTRAL"] = {
+					1, -- [1]
+					1, -- [2]
+					0, -- [3]
+				},
+				["EVOKER"] = {
+					0.2, -- [1]
+					0.5764, -- [2]
+					0.498, -- [3]
+				},
+				["SELF"] = {
+					0.89019, -- [1]
+					0.32156, -- [2]
+					0.89019, -- [3]
+				},
+			},
+			["segments_auto_erase"] = 2,
+			["options_group_edit"] = true,
+			["broadcaster_enabled"] = false,
+			["minimap"] = {
+				["minimapPos"] = 220,
+				["radius"] = 160,
+				["hide"] = true,
+				["onclick_what_todo"] = 1,
+				["text_format"] = 3,
+				["text_type"] = 1,
+			},
+			["instances_amount"] = 3,
+			["max_window_size"] = {
+				["height"] = 450,
+				["width"] = 480,
+			},
+			["memory_threshold"] = 3,
+			["only_pvp_frags"] = false,
+			["disable_stretch_button"] = true,
+			["windows_fade_out"] = {
+				"out", -- [1]
+				0.2, -- [2]
+			},
+			["overall_flag"] = 16,
+			["overall_clear_newboss"] = false,
+			["segments_panic_mode"] = false,
+			["realtimedps_order_bars"] = false,
+			["segments_amount"] = 40,
 			["auto_swap_to_dynamic_overall"] = false,
 			["pvp_as_group"] = true,
 			["clear_ungrouped"] = true,
@@ -3788,42 +4818,7 @@ _detalhes_global = {
 			["death_tooltip_texture"] = "Details Serenity",
 			["disable_reset_button"] = true,
 			["animate_scroll"] = false,
-			["realtime_dps_meter"] = {
-				["enabled"] = false,
-				["font_color"] = {
-					1, -- [1]
-					1, -- [2]
-					1, -- [3]
-					1, -- [4]
-				},
-				["arena_enabled"] = true,
-				["font_shadow"] = "NONE",
-				["font_size"] = 18,
-				["mythic_dungeon_enabled"] = false,
-				["sample_size"] = 3,
-				["frame_settings"] = {
-					["show_title"] = true,
-					["strata"] = "LOW",
-					["point"] = "TOP",
-					["scale"] = 1,
-					["width"] = 300,
-					["y"] = -110,
-					["x"] = 0,
-					["backdrop_color"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0.2, -- [4]
-					},
-					["locked"] = true,
-					["height"] = 23,
-				},
-				["font_face"] = "Friz Quadrata TT",
-				["text_offset"] = 2,
-				["update_interval"] = 0.3,
-				["options_frame"] = {
-				},
-			},
+			["disable_lock_ungroup_buttons"] = true,
 			["use_realtimedps"] = false,
 			["default_bg_alpha"] = 0.5,
 			["show_arena_role_icon"] = false,
@@ -3836,6 +4831,426 @@ _detalhes_global = {
 		},
 		["latest_boss_mods_access"] = 1699062154,
 		["encounter_timers_dbm"] = {
+			["69705"] = {
+				"69705", -- [1]
+				"Timer69705next", -- [2]
+				"Nächster Unter Null", -- [3]
+				3.2, -- [4]
+				135841, -- [5]
+				"next", -- [6]
+				69705, -- [7]
+				5, -- [8]
+				"GunshipBattle", -- [9]
+				["id"] = 847,
+			},
+			["72451"] = {
+				"72451", -- [1]
+				"Timer72451cd", -- [2]
+				"Mutierte Seuche CD", -- [3]
+				10, -- [4]
+				236271, -- [5]
+				"cd", -- [6]
+				72451, -- [7]
+				5, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["69279"] = {
+				"69279", -- [1]
+				"Timer69279next", -- [2]
+				"Nächster Gasspore", -- [3]
+				20, -- [4]
+				136134, -- [5]
+				"next", -- [6]
+				69279, -- [7]
+				3, -- [8]
+				"Festergut", -- [9]
+				["id"] = 849,
+			},
+			["nil"] = {
+				"nil", -- [1]
+				"%s	Pull in", -- [2]
+				"Pull in", -- [3]
+				12, -- [4]
+				"132349", -- [5]
+				"pull", -- [6]
+				nil, -- [7]
+				0, -- [8]
+				"PullTimerCountdownDummy", -- [9]
+				["id"] = 845,
+			},
+			["69638"] = {
+				"69638", -- [1]
+				"Timer69638active", -- [2]
+				"Kampfesfuror endet", -- [3]
+				17, -- [4]
+				132352, -- [5]
+				"cast", -- [6]
+				69638, -- [7]
+				5, -- [8]
+				"GunshipBattle", -- [9]
+				["id"] = 847,
+			},
+			["4610"] = {
+				"4610", -- [1]
+				"Timer4610achievement", -- [2]
+				"Entknöchert (25 Spieler)", -- [3]
+				8, -- [4]
+				342917, -- [5]
+				"stage", -- [6]
+				4610, -- [7]
+				0, -- [8]
+				"LordMarrowgar", -- [9]
+				["id"] = 845,
+			},
+			["72272"] = {
+				"72272", -- [1]
+				"Timer72272next", -- [2]
+				"Nächster Ekelhaftes Gas", -- [3]
+				22, -- [4]
+				132093, -- [5]
+				"next", -- [6]
+				72272, -- [7]
+				3, -- [8]
+				"Rotface", -- [9]
+				["id"] = 850,
+			},
+			["70672"] = {
+				"70672", -- [1]
+				"Timer70672target	Spaltkyle", -- [2]
+				"Gasförmige Blähung: Spaltkyle", -- [3]
+				20, -- [4]
+				135867, -- [5]
+				"target", -- [6]
+				70672, -- [7]
+				3, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["61131"] = {
+				"61131", -- [1]
+				"TimerAdds", -- [2]
+				"Neue Adds", -- [3]
+				7, -- [4]
+				132299, -- [5]
+				"cd", -- [6]
+				61131, -- [7]
+				1, -- [8]
+				"Deathwhisper", -- [9]
+				["id"] = 846,
+			},
+			["72378"] = {
+				"72378", -- [1]
+				"Timer72378next", -- [2]
+				"Nächster Blutnova", -- [3]
+				20, -- [4]
+				237513, -- [5]
+				"next", -- [6]
+				72378, -- [7]
+				2, -- [8]
+				"Deathbringer", -- [9]
+				["id"] = 848,
+			},
+			["69674"] = {
+				"69674", -- [1]
+				"Timer69674target	Beesportz", -- [2]
+				"Mutierte Infektion: Beesportz", -- [3]
+				12, -- [4]
+				132099, -- [5]
+				"target", -- [6]
+				69674, -- [7]
+				5, -- [8]
+				"Rotface", -- [9]
+				["id"] = 850,
+			},
+			["69076"] = {
+				"69076", -- [1]
+				"Timer69076cd", -- [2]
+				"Knochensturm CD", -- [3]
+				45, -- [4]
+				132119, -- [5]
+				"cd", -- [6]
+				69076, -- [7]
+				2, -- [8]
+				"LordMarrowgar", -- [9]
+				["id"] = 845,
+			},
+			["69508"] = {
+				"69508", -- [1]
+				"Timer69508next", -- [2]
+				"Nächster Schleimsprühen", -- [3]
+				21, -- [4]
+				135793, -- [5]
+				"next", -- [6]
+				69508, -- [7]
+				3, -- [8]
+				"Rotface", -- [9]
+				["id"] = 850,
+			},
+			["71718"] = {
+				"71718", -- [1]
+				"Timer71718cd", -- [2]
+				"Flamme herbeizaubern CD", -- [3]
+				20, -- [4]
+				135824, -- [5]
+				"cd", -- [6]
+				71718, -- [7]
+				3, -- [8]
+				"BPCouncil", -- [9]
+				["id"] = 852,
+			},
+			["69774"] = {
+				"69774", -- [1]
+				"Timer69774nextnp	Creature-0-4458-631-11088-36897-0000496D61", -- [2]
+				"Klebriger Schlamm", -- [3]
+				16, -- [4]
+				136182, -- [5]
+				"nextnp", -- [6]
+				69774, -- [7]
+				5, -- [8]
+				"Rotface", -- [9]
+				["id"] = 850,
+			},
+			["71617"] = {
+				"71617", -- [1]
+				"Timer71617fades", -- [2]
+				"Tränengas schwindet", -- [3]
+				16, -- [4]
+				135867, -- [5]
+				"target", -- [6]
+				71617, -- [7]
+				6, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["69789"] = {
+				"69789", -- [1]
+				"Timer69789next", -- [2]
+				"Nächster Schlammflut", -- [3]
+				25, -- [4]
+				136182, -- [5]
+				"next", -- [6]
+				69789, -- [7]
+				0, -- [8]
+				"Rotface", -- [9]
+				["id"] = 850,
+			},
+			["69195"] = {
+				"69195", -- [1]
+				"Timer69195next", -- [2]
+				"Nächster Stechende Seuche", -- [3]
+				33, -- [4]
+				136118, -- [5]
+				"next", -- [6]
+				69195, -- [7]
+				2, -- [8]
+				"Festergut", -- [9]
+				["id"] = 849,
+			},
+			["70351"] = {
+				"70351", -- [1]
+				"Timer70351next", -- [2]
+				"Nächster Instabiles Experiment", -- [3]
+				30, -- [4]
+				136226, -- [5]
+				"next", -- [6]
+				70351, -- [7]
+				1, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["70341"] = {
+				"70341", -- [1]
+				"Timer70341cd", -- [2]
+				"Schleimpfütze CD", -- [3]
+				10, -- [4]
+				132104, -- [5]
+				"cd", -- [6]
+				70341, -- [7]
+				5, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["69839"] = {
+				"69839", -- [1]
+				"Timer69839cast", -- [2]
+				"Instabile Schlammexplosion", -- [3]
+				4, -- [4]
+				132108, -- [5]
+				"cast", -- [6]
+				69839, -- [7]
+				2, -- [8]
+				"Rotface", -- [9]
+				["id"] = 850,
+			},
+			["71255"] = {
+				"71255", -- [1]
+				"Timer71255next", -- [2]
+				"Nächster Erstickende Gasbombe", -- [3]
+				15, -- [4]
+				136173, -- [5]
+				"next", -- [6]
+				71255, -- [7]
+				3, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["69166"] = {
+				"69166", -- [1]
+				"Timer69166next", -- [2]
+				"Nächster Eingeatmete Seuche", -- [3]
+				34, -- [4]
+				342913, -- [5]
+				"next", -- [6]
+				69166, -- [7]
+				6, -- [8]
+				"Festergut", -- [9]
+				["id"] = 849,
+			},
+			["23334"] = {
+				"23334", -- [1]
+				"TimerAdds", -- [2]
+				"Neue Adds", -- [3]
+				15, -- [4]
+				132486, -- [5]
+				"cd", -- [6]
+				23334, -- [7]
+				1, -- [8]
+				"GunshipBattle", -- [9]
+				["id"] = 847,
+			},
+			["70952"] = {
+				"70952", -- [1]
+				"TimerTargetSwitch", -- [2]
+				"Zielwechsel", -- [3]
+				47, -- [4]
+				237513, -- [5]
+				"cd", -- [6]
+				70952, -- [7]
+				5, -- [8]
+				"BPCouncil", -- [9]
+				["id"] = 852,
+			},
+			["72410"] = {
+				"72410", -- [1]
+				"Timer72410next", -- [2]
+				"Nächster Rune des Blutes", -- [3]
+				20, -- [4]
+				135772, -- [5]
+				"next", -- [6]
+				72410, -- [7]
+				5, -- [8]
+				"Deathbringer", -- [9]
+				["id"] = 848,
+			},
+			["72037"] = {
+				"72037", -- [1]
+				"Timer72037cd", -- [2]
+				"Schockvortex CD", -- [3]
+				16.5, -- [4]
+				136022, -- [5]
+				"cd", -- [6]
+				72037, -- [7]
+				3, -- [8]
+				"BPCouncil", -- [9]
+				["id"] = 852,
+			},
+			["69057"] = {
+				"69057", -- [1]
+				"Timer69057cd", -- [2]
+				"Knochenstachelfriedhof CD", -- [3]
+				15, -- [4]
+				236946, -- [5]
+				"cd", -- [6]
+				69057, -- [7]
+				1, -- [8]
+				"LordMarrowgar", -- [9]
+				["id"] = 845,
+			},
+			["71204"] = {
+				"71204", -- [1]
+				"Timer71204target	Bloodwall", -- [2]
+				"Berührung der Unbedeutsamkeit: Bloodwall", -- [3]
+				30, -- [4]
+				132156, -- [5]
+				"target", -- [6]
+				71204, -- [7]
+				5, -- [8]
+				"Deathwhisper", -- [9]
+				["id"] = 846,
+			},
+			["72173"] = {
+				"72173", -- [1]
+				"Timer72173next", -- [2]
+				"Nächster Blutbestie rufen", -- [3]
+				40, -- [4]
+				252272, -- [5]
+				"next", -- [6]
+				72173, -- [7]
+				1, -- [8]
+				"Deathbringer", -- [9]
+				["id"] = 848,
+			},
+			["72295"] = {
+				"72295", -- [1]
+				"Timer72295cd", -- [2]
+				"Formbarer Glibber CD", -- [3]
+				5, -- [4]
+				237376, -- [5]
+				"cd", -- [6]
+				72295, -- [7]
+				3, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["70539"] = {
+				"70539", -- [1]
+				"Timer70539target	Gaswolke", -- [2]
+				"Erbrochener Schlamm: Gaswolke", -- [3]
+				20, -- [4]
+				132104, -- [5]
+				"target", -- [6]
+				70539, -- [7]
+				5, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["72219"] = {
+				"72219", -- [1]
+				"Timer72219target	Bloodwall", -- [2]
+				"Magenblähung: Bloodwall", -- [3]
+				100, -- [4]
+				342913, -- [5]
+				"target", -- [6]
+				72219, -- [7]
+				5, -- [8]
+				"Festergut", -- [9]
+				["id"] = 849,
+			},
+			["70542"] = {
+				"70542", -- [1]
+				"Timer70542target	Flüchtiger Schlamm", -- [2]
+				"Mutiertes Schlitzen: Flüchtiger Schlamm", -- [3]
+				20, -- [4]
+				237535, -- [5]
+				"target", -- [6]
+				70542, -- [7]
+				5, -- [8]
+				"Putricide", -- [9]
+				["id"] = 851,
+			},
+			["71807"] = {
+				"71807", -- [1]
+				"Timer71807cd", -- [2]
+				"Gleißende Funken CD", -- [3]
+				20, -- [4]
+				135815, -- [5]
+				"cd", -- [6]
+				71807, -- [7]
+				2, -- [8]
+				"BPCouncil", -- [9]
+				["id"] = 852,
+			},
 		},
 	},
 	["check_stuttering"] = true,
@@ -3851,7 +5266,7 @@ _detalhes_global = {
 	["class_time_played"] = {
 		[2] = {
 			["DRUID"] = 158345.216,
-			["WARRIOR"] = 143182.8639999998,
+			["WARRIOR"] = 151210.3919999998,
 			["SHAMAN"] = 158.6330000000162,
 		},
 	},
@@ -3860,6 +5275,16 @@ _detalhes_global = {
 		["shield_overheal"] = false,
 	},
 	["slash_me_used"] = false,
+	["run_code"] = {
+		["on_specchanged"] = "\n-- run when the player changes its spec",
+		["on_zonechanged"] = "\n-- when the player changes zone, this code will run",
+		["on_init"] = "\n-- code to run when Details! initializes, put here code which only will run once\n-- this also will run then the profile is changed\n\n--size of the death log tooltip in the Deaths display (default 350)\nDetails.death_tooltip_width = 350;\n\n--when in arena or battleground, details! silently switch to activity time (goes back to the old setting on leaving, default true)\nDetails.force_activity_time_pvp = true;\n\n--speed of the bar animations (default 33)\nDetails.animation_speed = 33;\n\n--threshold to trigger slow or fast speed (default 0.45)\nDetails.animation_speed_mintravel = 0.45;\n\n--call to update animations\nDetails:RefreshAnimationFunctions();\n\n--max window size, does require a /reload to work (default 480 x 450)\nDetails.max_window_size.width = 480;\nDetails.max_window_size.height = 450;\n\n--use the arena team color as the class color (default true)\nDetails.color_by_arena_team = true;\n\n--how much time the update warning is shown (default 10)\nDetails.update_warning_timeout = 10;",
+		["on_groupchange"] = "\n-- this code runs when the player enter or leave a group",
+		["on_leavecombat"] = "\n-- this code runs when the player leave combat",
+		["on_entercombat"] = "\n-- this code runs when the player enters in combat",
+	},
+	["merge_player_abilities"] = false,
+	["show_warning_id1"] = true,
 	["mythic_plus"] = {
 		["make_overall_boss_only"] = false,
 		["mythicrun_chart_frame"] = {
@@ -3876,16 +5301,6 @@ _detalhes_global = {
 		},
 		["last_mythicrun_chart"] = {
 		},
-	},
-	["merge_player_abilities"] = false,
-	["show_warning_id1"] = true,
-	["run_code"] = {
-		["on_specchanged"] = "\n-- run when the player changes its spec",
-		["on_zonechanged"] = "\n-- when the player changes zone, this code will run",
-		["on_init"] = "\n-- code to run when Details! initializes, put here code which only will run once\n-- this also will run then the profile is changed\n\n--size of the death log tooltip in the Deaths display (default 350)\nDetails.death_tooltip_width = 350;\n\n--when in arena or battleground, details! silently switch to activity time (goes back to the old setting on leaving, default true)\nDetails.force_activity_time_pvp = true;\n\n--speed of the bar animations (default 33)\nDetails.animation_speed = 33;\n\n--threshold to trigger slow or fast speed (default 0.45)\nDetails.animation_speed_mintravel = 0.45;\n\n--call to update animations\nDetails:RefreshAnimationFunctions();\n\n--max window size, does require a /reload to work (default 480 x 450)\nDetails.max_window_size.width = 480;\nDetails.max_window_size.height = 450;\n\n--use the arena team color as the class color (default true)\nDetails.color_by_arena_team = true;\n\n--how much time the update warning is shown (default 10)\nDetails.update_warning_timeout = 10;",
-		["on_groupchange"] = "\n-- this code runs when the player enter or leave a group",
-		["on_leavecombat"] = "\n-- this code runs when the player leave combat",
-		["on_entercombat"] = "\n-- this code runs when the player enters in combat",
 	},
 	["exit_errors"] = {
 	},
@@ -3904,34 +5319,54 @@ _detalhes_global = {
 		["10"] = false,
 	},
 	["item_level_pool"] = {
-		["Player-4476-03AE8F7A"] = {
-			["time"] = 1699146203,
-			["name"] = "Rookwood-Gehennas",
-			["ilvl"] = 243,
+		["Player-4477-01F3FE44"] = {
+			["time"] = 1699313321,
+			["name"] = "Shekshek",
+			["ilvl"] = 256.9375,
 		},
-		["Player-4477-04A200F9"] = {
-			["time"] = 1699146203,
-			["name"] = "Schnippy",
-			["ilvl"] = 261,
+		["Player-4477-052753A8"] = {
+			["time"] = 1699313326,
+			["name"] = "Spaltkyle",
+			["ilvl"] = 238.3125,
 		},
-		["Player-4477-03725D65"] = {
-			["time"] = 1699146303,
-			["name"] = "Tâste",
-			["ilvl"] = 246,
+		["Player-4477-04F7A623"] = {
+			["time"] = 1699313493,
+			["name"] = "Vacaria",
+			["ilvl"] = 247,
 		},
-		["Player-4477-04D937F8"] = {
-			["name"] = "Alsia",
-			["time"] = 1699209714,
-			["ilvl"] = 257,
+		["Player-4477-03B1365A"] = {
+			["time"] = 1699313384,
+			["name"] = "Kentharo",
+			["ilvl"] = 253,
 		},
-		["Player-4477-04D7D070"] = {
-			["time"] = 1699146203,
-			["name"] = "Michor",
+		["Player-4477-04D835B0"] = {
+			["time"] = 1699313311,
+			["name"] = "Pippop",
+			["ilvl"] = 259,
+		},
+		["Player-4477-0514320B"] = {
+			["time"] = 1699313351,
+			["name"] = "Telefonkuh",
+			["ilvl"] = 250,
+		},
+		["Player-4477-051538F6"] = {
+			["time"] = 1699313361,
+			["name"] = "Beesportz",
+			["ilvl"] = 237.6,
+		},
+		["Player-4477-04D78229"] = {
+			["time"] = 1699313312,
+			["name"] = "Omgbbqrofl",
+			["ilvl"] = 251,
+		},
+		["Player-4477-03B3C02F"] = {
+			["time"] = 1699313312,
+			["name"] = "Gnag",
 			["ilvl"] = 251,
 		},
 		["Player-4477-04D937D7"] = {
+			["time"] = 1699313312,
 			["name"] = "Bloodwall",
-			["time"] = 1699209714,
 			["ilvl"] = 254,
 		},
 	},
@@ -3966,7 +5401,7 @@ _detalhes_global = {
 	},
 	["tutorial"] = {
 		["unlock_button"] = 4,
-		["main_help_button"] = 3673,
+		["main_help_button"] = 3675,
 		["FORGE_TUTORIAL"] = true,
 		["WINDOW_GROUP_MAKING1"] = true,
 		["DETAILS_INFO_TUTORIAL1"] = true,
@@ -3978,7 +5413,7 @@ _detalhes_global = {
 			false, -- [5]
 			false, -- [6]
 		},
-		["logons"] = 3673,
+		["logons"] = 3675,
 		["ctrl_click_close_tutorial"] = false,
 		["OVERALLDATA_WARNING1"] = 60,
 		["MIN_COMBAT_TIME"] = true,
@@ -4247,11 +5682,12 @@ _detalhes_global = {
 		"2 - Clearing user placed position from instance windows.", -- [2]
 		"  - 1 has baseFrame: yes.", -- [3]
 		"  - 2 has baseFrame: yes.", -- [4]
-		"4 - Reversing switches.", -- [5]
-		"6 - Saving Config.", -- [6]
-		"7 - Saving Profiles.", -- [7]
-		"8 - Saving nicktag cache.", -- [8]
-		"9 - Saving Auto Run Code.", -- [9]
+		"3 - Leaving current combat.", -- [5]
+		"4 - Reversing switches.", -- [6]
+		"6 - Saving Config.", -- [7]
+		"7 - Saving Profiles.", -- [8]
+		"8 - Saving nicktag cache.", -- [9]
+		"9 - Saving Auto Run Code.", -- [10]
 	},
 	["deathlog_line_height"] = 16,
 	["raid_data"] = {
@@ -4869,39 +6305,39 @@ _detalhes_global = {
 	["show_aug_predicted_spell_damage"] = false,
 }
 __details_backup = {
-	["_instance_backup"] = {
-	},
 	["_exit_error"] = {
 	},
 	["_general_logs"] = {
-		"2023-11-05 19:44:20 | actor removed Britneybtch (disposable)", -- [1]
-		"2023-11-05 19:44:20 | actor removed Kalthorx (disposable)", -- [2]
-		"2023-11-05 19:44:20 | actor removed Dothazard (disposable)", -- [3]
-		"2023-11-05 19:44:20 | actor removed Unbekannt (disposable)", -- [4]
-		"2023-11-05 19:35:55 | actor removed Goldener Priester (disposable)", -- [5]
-		"2023-11-05 19:35:55 | actor removed Grüner Priester (disposable)", -- [6]
-		"2023-11-05 19:35:55 | actor removed Shampoow (disposable)", -- [7]
-		"2023-11-05 19:35:55 | actor removed Gnaq (disposable)", -- [8]
-		"2023-11-05 19:35:55 | actor removed Fizzypump (disposable)", -- [9]
-		"2023-11-05 19:35:55 | actor removed Zugzugdkpro (disposable)", -- [10]
-		"2023-11-05 19:35:55 | actor removed Kimyongoom (disposable)", -- [11]
-		"2023-11-05 19:35:55 | actor removed Mercimek (disposable)", -- [12]
-		"2023-11-05 19:35:55 | actor removed Syin (disposable)", -- [13]
-		"2023-11-05 19:35:55 | actor removed Reptiler (disposable)", -- [14]
-		"2023-11-05 19:35:55 | actor removed Dipo (disposable)", -- [15]
-		"2023-11-05 19:34:53 | actor removed Goldener Priester (disposable)", -- [16]
-		"2023-11-05 19:34:53 | actor removed Grüner Priester (disposable)", -- [17]
-		"2023-11-05 19:34:53 | actor removed Shampoow (disposable)", -- [18]
-		"2023-11-05 19:34:53 | actor removed Gnaq (disposable)", -- [19]
-		"2023-11-05 19:34:53 | actor removed Fizzypump (disposable)", -- [20]
-		"2023-11-05 19:34:53 | actor removed Zugzugdkpro (disposable)", -- [21]
-		"2023-11-05 19:34:53 | actor removed Kimyongoom (disposable)", -- [22]
-		"2023-11-05 19:34:53 | actor removed Mercimek (disposable)", -- [23]
-		"2023-11-05 13:31:48 | actor removed Goldener Priester (disposable)", -- [24]
-		"2023-11-05 13:31:48 | actor removed Grüner Priester (disposable)", -- [25]
-		"2023-11-05 13:31:48 | actor removed Shampoow (disposable)", -- [26]
-		"2023-11-05 13:31:48 | actor removed Gnaq (disposable)", -- [27]
-		"2023-11-05 13:31:48 | actor removed Fizzypump (disposable)", -- [28]
-		"2023-11-05 13:29:50 | actor removed Shampoow (disposable)", -- [29]
+		"2023-11-06 00:56:54 | actor removed Yabura (disposable)", -- [1]
+		"2023-11-06 00:56:54 | actor removed Klepzy (disposable)", -- [2]
+		"2023-11-06 00:56:54 | actor removed Untotendude (disposable)", -- [3]
+		"2023-11-06 00:56:54 | actor removed Hugsqtfâce (disposable)", -- [4]
+		"2023-11-06 00:56:54 | actor removed Pullboi (disposable)", -- [5]
+		"2023-11-06 00:56:54 | actor removed Mcpriestgodx (disposable)", -- [6]
+		"2023-11-06 00:56:54 | actor removed Nolity (disposable)", -- [7]
+		"2023-11-06 00:56:54 | actor removed Dubbledee (disposable)", -- [8]
+		"2023-11-06 00:56:54 | actor removed Crackslap (disposable)", -- [9]
+		"2023-11-06 00:56:54 | actor removed Peetu (disposable)", -- [10]
+		"2023-11-06 00:56:54 | actor removed Henryck (disposable)", -- [11]
+		"2023-11-06 00:56:54 | actor removed Pedroburito (disposable)", -- [12]
+		"2023-11-06 00:56:54 | actor removed Sinthâ (disposable)", -- [13]
+		"2023-11-06 00:56:54 | actor removed Prage (disposable)", -- [14]
+		"2023-11-06 00:56:54 | actor removed Yabura (disposable)", -- [15]
+		"2023-11-06 00:56:54 | actor removed Kømøra (disposable)", -- [16]
+		"2023-11-06 00:56:54 | actor removed Amososo (disposable)", -- [17]
+		"2023-11-06 00:56:54 | actor removed Vsta (disposable)", -- [18]
+		"2023-11-06 00:56:54 | actor removed Bullark (disposable)", -- [19]
+		"2023-11-06 00:56:54 | actor removed Bishamøtø (disposable)", -- [20]
+		"2023-11-06 00:56:54 | actor removed Chímono (disposable)", -- [21]
+		"2023-11-06 00:56:54 | actor removed Untotendude (disposable)", -- [22]
+		"2023-11-06 00:56:54 | actor removed Rudelgemuese (disposable)", -- [23]
+		"2023-11-06 00:56:54 | actor removed Guínevere (disposable)", -- [24]
+		"2023-11-05 19:44:20 | actor removed Britneybtch (disposable)", -- [25]
+		"2023-11-05 19:44:20 | actor removed Kalthorx (disposable)", -- [26]
+		"2023-11-05 19:44:20 | actor removed Dothazard (disposable)", -- [27]
+		"2023-11-05 19:44:20 | actor removed Unbekannt (disposable)", -- [28]
+		"2023-11-05 19:35:55 | actor removed Goldener Priester (disposable)", -- [29]
+	},
+	["_instance_backup"] = {
 	},
 }

@@ -126,7 +126,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699295235,
+				["lastUpdate"] = 1699307007,
 				["Spells"] = {
 					["Allgemein"] = {
 						"7732|Experte", -- [1]

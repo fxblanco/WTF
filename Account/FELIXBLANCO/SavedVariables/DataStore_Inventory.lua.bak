@@ -104,7 +104,7 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1699228474,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699295235,
+				["lastUpdate"] = 1699305715,
 				["Inventory"] = {
 					"|cffffffff|Hitem:48649:3818:41380:40129:::::80:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:50195::40119::::::80:::::::::|h[]|h|r", -- [2]

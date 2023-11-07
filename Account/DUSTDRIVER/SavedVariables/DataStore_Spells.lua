@@ -7,7 +7,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699228352,
+				["lastUpdate"] = 1699317234,
 				["Spells"] = {
 					["Furor"] = {
 						"20252|", -- [1]

@@ -67,13 +67,13 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "120765|1699295237|0|1",
-					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "120765|1699295237|0|1",
-					["Archavons Kammer 25 Spieler|191492728"] = "120765|1699295237|0|1",
-					["Archavons Kammer 10 Spieler|191504858"] = "120765|1699295237|0|1",
-					["Die Seelenschmiede Heroisch|271501197"] = "34365|1699295237|0|0",
-					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "120765|1699295237|0|1",
-					["Naxxramas 10 Spieler|191355938"] = "120765|1699295237|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = "110284|1699305717|0|1",
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191407829"] = "110284|1699305717|0|1",
+					["Archavons Kammer 10 Spieler|191504858"] = "110284|1699305717|0|1",
+					["Die Seelenschmiede Heroisch|271501197"] = "23884|1699305717|0|0",
+					["Eiskronenzitadelle 10 Spieler (Heroisch)|191592802"] = "110284|1699305717|0|1",
+					["Archavons Kammer 25 Spieler|191492728"] = "110284|1699305717|0|1",
+					["Naxxramas 10 Spieler|191355938"] = "110284|1699305717|0|1",
 				},
 				["BossKills"] = {
 					["Eiskronenzitadelle 25 Spieler (Heroisch)|191459661"] = {
@@ -96,12 +96,6 @@ DataStore_AgendaDB = {
 						"Fraktionschampions|1", -- [3]
 						"Zwillingsval'kyr|1", -- [4]
 						"Anub'arak|1", -- [5]
-					},
-					["Archavons Kammer 25 Spieler|191492728"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|0", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
 					},
 					["Archavons Kammer 10 Spieler|191504858"] = {
 						"Archavon der Steinwächter|0", -- [1]
@@ -127,6 +121,12 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"Der Lichkönig|1", -- [12]
 					},
+					["Archavons Kammer 25 Spieler|191492728"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
 					["Naxxramas 10 Spieler|191355938"] = {
 						"Anub'Rekhan|1", -- [1]
 						"Großwitwe Faerlina|0", -- [2]
@@ -145,7 +145,7 @@ DataStore_AgendaDB = {
 						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["lastUpdate"] = 1699295237,
+				["lastUpdate"] = 1699305717,
 			},
 		},
 	},

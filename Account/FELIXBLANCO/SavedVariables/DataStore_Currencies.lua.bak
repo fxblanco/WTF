@@ -68,7 +68,7 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1699228474,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699295235,
+				["lastUpdate"] = 1699305715,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]

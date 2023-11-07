@@ -7,53 +7,49 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699228352,
+				["lastUpdate"] = 1699317209,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Furor"] = {
 						nil, -- [1]
 						nil, -- [2]
-						nil, -- [3]
-						2, -- [4]
-						[27] = 3,
-					},
-					["Schutz"] = {
-						5, -- [1]
-						5, -- [2]
-						3, -- [3]
-						nil, -- [4]
-						3, -- [5]
-						nil, -- [6]
-						2, -- [7]
-						1, -- [8]
-						2, -- [9]
-						nil, -- [10]
-						nil, -- [11]
-						1, -- [12]
-						1, -- [13]
-						5, -- [14]
-						5, -- [15]
-						2, -- [16]
-						3, -- [17]
-						2, -- [18]
-						nil, -- [19]
+						5, -- [3]
+						5, -- [4]
+						nil, -- [5]
+						5, -- [6]
+						nil, -- [7]
+						nil, -- [8]
+						1, -- [9]
+						3, -- [10]
+						1, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						2, -- [14]
+						nil, -- [15]
+						5, -- [16]
+						2, -- [17]
+						3, -- [18]
+						5, -- [19]
 						1, -- [20]
-						nil, -- [21]
-						3, -- [22]
-						1, -- [23]
-						3, -- [24]
-						1, -- [25]
-						2, -- [26]
+						3, -- [21]
+						nil, -- [22]
+						3, -- [23]
+						1, -- [24]
+						nil, -- [25]
+						5, -- [26]
+						3, -- [27]
 					},
 					["Waffen"] = {
 						3, -- [1]
-						[3] = 2,
+						[3] = 3,
+						[6] = 2,
 						[7] = 3,
-						[9] = 5,
+						[15] = 3,
+						[17] = 2,
 						[18] = 2,
 					},
 				},
-				["PointsSpent"] = "15,5,51",
+				["PointsSpent"] = "18,53,0",
 			},
 			["Default.Venoxis.Maturitass"] = {
 				["lastUpdate"] = 1699209820,
@@ -111,6 +107,13 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Waffen,Furor,Schutz",
 			["Trees"] = {
 				["Furor"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[20] = "7|2",
+						[23] = "7|2",
+					},
+					["background"] = "WarriorFury",
+					["icon"] = 132347,
 					["talents"] = {
 						"Gebieterische Stimme|136035|3|4|5", -- [1]
 						"Wutanfall|136224|4|3|5", -- [2]
@@ -140,15 +143,14 @@ DataStore_TalentsRefDB = {
 						"Unendlicher Furor|236310|10|2|5", -- [26]
 						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
 					},
-					["prereqs"] = {
-						[11] = "5|2",
-						[20] = "7|2",
-						[23] = "7|2",
-					},
-					["icon"] = 132347,
-					["background"] = "WarriorFury",
 				},
 				["Schutz"] = {
+					["prereqs"] = {
+						[8] = "5|2",
+						[22] = "9|2",
+					},
+					["background"] = "WarriorProtection",
+					["icon"] = 132341,
 					["talents"] = {
 						"Vorahnung|136056|2|3|5", -- [1]
 						"Zähigkeit|135892|3|4|5", -- [2]
@@ -178,14 +180,15 @@ DataStore_TalentsRefDB = {
 						"Schadensschild|134976|10|3|2", -- [26]
 						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
 					},
-					["prereqs"] = {
-						[8] = "5|2",
-						[22] = "9|2",
-					},
-					["icon"] = 132341,
-					["background"] = "WarriorProtection",
 				},
 				["Waffen"] = {
+					["prereqs"] = {
+						"3|3", -- [1]
+						[14] = "5|2",
+						[23] = "7|2",
+					},
+					["background"] = "WarriorArms",
+					["icon"] = 132292,
 					["talents"] = {
 						"Tiefe Wunden|132090|3|4|3", -- [1]
 						"Schwert-Spezialisierung|135328|5|4|5", -- [2]
@@ -219,13 +222,6 @@ DataStore_TalentsRefDB = {
 						"Verbessertes Zerschmettern|132340|7|4|2", -- [30]
 						"Dampfwalze|132335|8|1|1", -- [31]
 					},
-					["prereqs"] = {
-						"3|3", -- [1]
-						[14] = "5|2",
-						[23] = "7|2",
-					},
-					["icon"] = 132292,
-					["background"] = "WarriorArms",
 				},
 			},
 		},
@@ -233,18 +229,7 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Gleichgewicht,Wilder Kampf,Wiederherst",
 			["Trees"] = {
 				["Wilder Kampf"] = {
-					["prereqs"] = {
-						[20] = "7|2",
-						[7] = "3|3",
-						[21] = "7|2",
-						[25] = "9|2",
-						[22] = "3|3",
-						[13] = "4|2",
-						[30] = "10|2",
-						[28] = "7|2",
-					},
 					["background"] = "DruidFeralCombat",
-					["icon"] = 132276,
 					["talents"] = {
 						"Dickes Fell|134355|2|3|3", -- [1]
 						"Wilde Aggression|132121|1|3|5", -- [2]
@@ -277,18 +262,20 @@ DataStore_TalentsRefDB = {
 						"Natürliche Reaktion|132091|6|1|3", -- [29]
 						"Urtümliches Blutvergießen|132140|10|3|1", -- [30]
 					},
-				},
-				["Gleichgewicht"] = {
+					["icon"] = 132276,
 					["prereqs"] = {
 						[20] = "7|2",
+						[7] = "3|3",
 						[21] = "7|2",
-						[8] = "2|2",
-						[19] = "7|2",
-						[27] = "5|2",
-						[28] = "2|2",
+						[25] = "9|2",
+						[22] = "3|3",
+						[13] = "4|2",
+						[30] = "10|2",
+						[28] = "7|2",
 					},
+				},
+				["Gleichgewicht"] = {
 					["background"] = "DruidBalance",
-					["icon"] = 136096,
 					["talents"] = {
 						"Zorniges Sternenlicht|136006|1|2|5", -- [1]
 						"Verbessertes Mondfeuer|136096|2|4|2", -- [2]
@@ -318,6 +305,15 @@ DataStore_TalentsRefDB = {
 						"Genesis|135730|1|3|5", -- [26]
 						"Verbesserter Insektenschwarm|136045|5|3|3", -- [27]
 						"Pracht der Natur|136060|3|3|1", -- [28]
+					},
+					["icon"] = 136096,
+					["prereqs"] = {
+						[20] = "7|2",
+						[21] = "7|2",
+						[8] = "2|2",
+						[19] = "7|2",
+						[27] = "5|2",
+						[28] = "2|2",
 					},
 				},
 				["Wiederherst"] = {
@@ -355,9 +351,9 @@ DataStore_TalentsRefDB = {
 						[15] = "5|2",
 						[21] = "2|3",
 						[5] = "4|3",
-						[26] = "9|2",
-						[23] = "9|2",
 						[19] = "8|2",
+						[23] = "9|2",
+						[26] = "9|2",
 					},
 					["background"] = "DruidRestoration",
 				},
