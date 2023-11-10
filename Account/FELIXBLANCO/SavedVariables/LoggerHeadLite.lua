@@ -50,10 +50,15 @@ LoggerHeadNDB = {
 				[595] = {
 					[2] = false,
 				},
-				[600] = {
-					[2] = false,
+				[649] = {
+					[5] = true,
+					[6] = true,
+					[4] = true,
 				},
-				[533] = {
+				[631] = {
+					[5] = true,
+					[6] = false,
+					[4] = false,
 					[3] = false,
 				},
 				[650] = {
@@ -62,16 +67,11 @@ LoggerHeadNDB = {
 				[615] = {
 					[3] = true,
 				},
-				[631] = {
-					[5] = true,
-					[6] = false,
-					[4] = false,
-					[3] = false,
+				[600] = {
+					[2] = false,
 				},
-				[649] = {
-					[5] = true,
-					[6] = true,
-					[4] = true,
+				[533] = {
+					[3] = false,
 				},
 			},
 		},

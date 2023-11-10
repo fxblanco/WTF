@@ -9,13 +9,17 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1699658270,
+				["lastVisitDate"] = "2023/11/11 00:17",
+			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1699184282,
 				["lastVisitDate"] = "2023/11/05 12:38",
 			},
-			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699575363,
-				["lastVisitDate"] = "2023/11/10 01:16",
+			["Default.Venoxis.Andrés"] = {
+				["lastUpdate"] = 1699657693,
+				["lastVisitDate"] = "2023/11/11 00:08",
 			},
 		},
 	},

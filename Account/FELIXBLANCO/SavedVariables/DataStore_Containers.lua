@@ -11,46 +11,9 @@ DataStore_ContainersDB = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
 				["lastUpdate"] = 1699529342,
-				["numFreeBagSlots"] = 50,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 4,
-						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
-						["links"] = {
-							"|cff0070dd|Hitem:41593::::::::80:::::::::|h[Schwarztuch]|h|r", -- [1]
-							"|cff0070dd|Hitem:41594::::::::80:::::::::|h[Mondgespinst]|h|r", -- [2]
-							"|cff0070dd|Hitem:41595::::::::80:::::::::|h[Zaubertuch]|h|r", -- [3]
-							nil, -- [4]
-							"|cffffffff|Hitem:42545::::::::80:::::::::|h[Runenverzierte Manatrankeinspritzung]|h|r", -- [5]
-							"|cffffffff|Hitem:42400::::::::80:::::::::|h[Glyphe 'Blitzheilung']|h|r", -- [6]
-							"|cffa335ee|Hitem:48045:3854:40151:40113:::::80:::::::::|h[Verderben]|h|r", -- [7]
-							nil, -- [8]
-							"|cffa335ee|Hitem:45308::::::::80:::::::::|h[Auge der Brutmutter]|h|r", -- [9]
-							"|cffa335ee|Hitem:48018::::::::80:::::::::|h[Fetisch der flüchtigen Macht]|h|r", -- [10]
-							"|cff1eff00|Hitem:35627::::::::80:::::::::|h[Äonenschatten]|h|r", -- [11]
-							"|cff1eff00|Hitem:36860::::::::80:::::::::|h[Äonenfeuer]|h|r", -- [12]
-							"|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r", -- [13]
-							nil, -- [14]
-							"|cffffffff|Hitem:42545::::::::80:::::::::|h[Runenverzierte Manatrankeinspritzung]|h|r", -- [15]
-							"|cffffffff|Hitem:45753::::::::80:::::::::|h[Glyphe 'Dispersion']|h|r", -- [16]
-							"|cffffffff|Hitem:45757::::::::80:::::::::|h[Glyphe 'Gedankenexplosion']|h|r", -- [17]
-							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [18]
-							nil, -- [19]
-							nil, -- [20]
-							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [21]
-							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [22]
-						},
-						["counts"] = {
-							2, -- [1]
-							15, -- [2]
-							[6] = 3,
-							[17] = 2,
-							[15] = 20,
-							[12] = 12,
-							[16] = 2,
-							[11] = 8,
-						},
-						["freeslots"] = 5,
 						["ids"] = {
 							41593, -- [1]
 							41594, -- [2]
@@ -75,27 +38,46 @@ DataStore_ContainersDB = {
 							40772, -- [21]
 							6948, -- [22]
 						},
+						["links"] = {
+							"|cff0070dd|Hitem:41593::::::::80:::::::::|h[Schwarztuch]|h|r", -- [1]
+							"|cff0070dd|Hitem:41594::::::::80:::::::::|h[Mondgespinst]|h|r", -- [2]
+							"|cff0070dd|Hitem:41595::::::::80:::::::::|h[Zaubertuch]|h|r", -- [3]
+							nil, -- [4]
+							"|cffffffff|Hitem:42545::::::::80:::::::::|h[Runenverzierte Manatrankeinspritzung]|h|r", -- [5]
+							"|cffffffff|Hitem:42400::::::::80:::::::::|h[Glyphe 'Blitzheilung']|h|r", -- [6]
+							"|cffa335ee|Hitem:48045:3854:40151:40113:::::80:::::::::|h[Verderben]|h|r", -- [7]
+							nil, -- [8]
+							"|cffa335ee|Hitem:45308::::::::80:::::::::|h[Auge der Brutmutter]|h|r", -- [9]
+							"|cffa335ee|Hitem:48018::::::::80:::::::::|h[Fetisch der flüchtigen Macht]|h|r", -- [10]
+							"|cff1eff00|Hitem:35627::::::::80:::::::::|h[Äonenschatten]|h|r", -- [11]
+							"|cff1eff00|Hitem:36860::::::::80:::::::::|h[Äonenfeuer]|h|r", -- [12]
+							"|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r", -- [13]
+							nil, -- [14]
+							"|cffffffff|Hitem:42545::::::::80:::::::::|h[Runenverzierte Manatrankeinspritzung]|h|r", -- [15]
+							"|cffffffff|Hitem:45753::::::::80:::::::::|h[Glyphe 'Dispersion']|h|r", -- [16]
+							"|cffffffff|Hitem:45757::::::::80:::::::::|h[Glyphe 'Gedankenexplosion']|h|r", -- [17]
+							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [18]
+							nil, -- [19]
+							nil, -- [20]
+							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [21]
+							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [22]
+						},
 						["icon"] = 133659,
 						["size"] = 22,
+						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
+						["counts"] = {
+							2, -- [1]
+							15, -- [2]
+							[6] = 3,
+							[17] = 2,
+							[15] = 20,
+							[12] = 12,
+							[16] = 2,
+							[11] = 8,
+						},
+						["freeslots"] = 5,
 					},
 					["Bag0"] = {
-						["counts"] = {
-							[11] = 8,
-							[13] = 20,
-							[12] = 20,
-						},
-						["freeslots"] = 12,
-						["ids"] = {
-							47645, -- [1]
-							33292, -- [2]
-							33154, -- [3]
-							47651, -- [4]
-							39717, -- [5]
-							[11] = 44615,
-							[13] = 44615,
-							[12] = 44615,
-						},
-						["size"] = 20,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
 							"|cffa335ee|Hitem:47645::::::::80:::::::::|h[Pläne: Titanstachelschützer]|h|r", -- [1]
@@ -107,40 +89,32 @@ DataStore_ContainersDB = {
 							[13] = "|cffffffff|Hitem:44615::::::::80:::::::::|h[Andachtskerze]|h|r",
 							[12] = "|cffffffff|Hitem:44615::::::::80:::::::::|h[Andachtskerze]|h|r",
 						},
+						["ids"] = {
+							47645, -- [1]
+							33292, -- [2]
+							33154, -- [3]
+							47651, -- [4]
+							39717, -- [5]
+							[11] = 44615,
+							[13] = 44615,
+							[12] = 44615,
+						},
+						["size"] = 20,
+						["counts"] = {
+							[11] = 8,
+							[13] = 20,
+							[12] = 20,
+						},
+						["freeslots"] = 12,
 					},
 					["Bag1"] = {
 						["link"] = "|cffffffff|Hitem:50317::::::::80:::::::::|h[]|h|r",
-						["freeslots"] = 20,
-						["icon"] = 133659,
 						["size"] = 20,
+						["icon"] = 133659,
+						["freeslots"] = 20,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["links"] = {
-							[13] = "|cffffffff|Hitem:2459::::::::80:::::::::|h[Hurtigkeitstrank]|h|r",
-							[14] = "|cffffffff|Hitem:38351::::::::80:::::::::|h[Murleberöl]|h|r",
-							[4] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
-							[16] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
-							[17] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
-							[18] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
-							[19] = "|cffa335ee|Hitem:46321:3722:40113::::::80:::::::::|h[Sonnenglimmertuch]|h|r",
-							[20] = "|cffa335ee|Hitem:48004:3872:40151:40113:::::80:::::::::|h[Beinwickel des dämonischen Herolds]|h|r",
-							[11] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
-							[12] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
-							[15] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
-						},
-						["counts"] = {
-							[11] = 5,
-							[13] = 5,
-							[15] = 20,
-							[18] = 12,
-							[12] = 10,
-							[4] = 16,
-							[16] = 20,
-							[17] = 20,
-						},
-						["freeslots"] = 9,
 						["ids"] = {
 							[13] = 2459,
 							[14] = 38351,
@@ -154,45 +128,36 @@ DataStore_ContainersDB = {
 							[12] = 43015,
 							[15] = 33445,
 						},
+						["links"] = {
+							[13] = "|cffffffff|Hitem:2459::::::::80:::::::::|h[Hurtigkeitstrank]|h|r",
+							[14] = "|cffffffff|Hitem:38351::::::::80:::::::::|h[Murleberöl]|h|r",
+							[4] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
+							[16] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
+							[17] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
+							[18] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
+							[19] = "|cffa335ee|Hitem:46321:3722:40113::::::80:::::::::|h[Sonnenglimmertuch]|h|r",
+							[20] = "|cffa335ee|Hitem:48004:3872:40151:40113:::::80:::::::::|h[Beinwickel des dämonischen Herolds]|h|r",
+							[11] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
+							[12] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
+							[15] = "|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r",
+						},
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["counts"] = {
+							[11] = 5,
+							[13] = 5,
+							[15] = 20,
+							[18] = 12,
+							[12] = 10,
+							[4] = 16,
+							[16] = 20,
+							[17] = 20,
+						},
+						["freeslots"] = 9,
 					},
 					["Bag3"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["links"] = {
-							"|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r", -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [4]
-							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [5]
-							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [6]
-							"|cffa335ee|Hitem:48093:3832:40113:40133:::::80:::::::::|h[Zabras Gewandung des Triumphs]|h|r", -- [7]
-							"|cffa335ee|Hitem:48095:3820:41285:40133:::::80:::::::::|h[Zabras Reif des Triumphs]|h|r", -- [8]
-							"|cffa335ee|Hitem:48096::40155::::::80:::::::::|h[Zabras Handwickel des Triumphs]|h|r", -- [9]
-							"|cffa335ee|Hitem:48001::40113::::::80:::::::::|h[Feuersturmband]|h|r", -- [10]
-							"|cff1eff00|Hitem:41511::::::::80:::::::::|h[Magieerfüllter Froststoffballen]|h|r", -- [11]
-							nil, -- [12]
-							"|cffffffff|Hitem:34054::::::::80:::::::::|h[Schleierstaub]|h|r", -- [13]
-							nil, -- [14]
-							"|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r", -- [15]
-							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [16]
-							"|cffa335ee|Hitem:46034:3872:39998:40047:::::80:::::::::|h[Gamaschen der tiefsten Dunkelheit]|h|r", -- [17]
-							"|cffa335ee|Hitem:45933::40014::::::80:::::::::|h[Anhänger des flachen Grabes]|h|r", -- [18]
-							"|cffa335ee|Hitem:45557::40026:40049:40014::::80:::::::::|h[Schärpe der uralten Kraft]|h|r", -- [19]
-							"|cffa335ee|Hitem:48092:3810:40155::::::80:::::::::|h[Zabras Mantelung des Triumphs]|h|r", -- [20]
-						},
-						["counts"] = {
-							17, -- [1]
-							[11] = 10,
-							[13] = 11,
-							[15] = 4,
-							[6] = 5,
-							[4] = 12,
-							[5] = 20,
-							[16] = 20,
-						},
-						["freeslots"] = 4,
 						["ids"] = {
 							42641, -- [1]
 							nil, -- [2]
@@ -215,11 +180,49 @@ DataStore_ContainersDB = {
 							45557, -- [19]
 							48092, -- [20]
 						},
+						["links"] = {
+							"|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r", -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [4]
+							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [5]
+							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [6]
+							"|cffa335ee|Hitem:48093:3832:40113:40133:::::80:::::::::|h[Zabras Gewandung des Triumphs]|h|r", -- [7]
+							"|cffa335ee|Hitem:48095:3820:41285:40133:::::80:::::::::|h[Zabras Reif des Triumphs]|h|r", -- [8]
+							"|cffa335ee|Hitem:48096::40155::::::80:::::::::|h[Zabras Handwickel des Triumphs]|h|r", -- [9]
+							"|cffa335ee|Hitem:48001::40113::::::80:::::::::|h[Feuersturmband]|h|r", -- [10]
+							"|cff1eff00|Hitem:41511::::::::80:::::::::|h[Magieerfüllter Froststoffballen]|h|r", -- [11]
+							nil, -- [12]
+							"|cffffffff|Hitem:34054::::::::80:::::::::|h[Schleierstaub]|h|r", -- [13]
+							nil, -- [14]
+							"|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r", -- [15]
+							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [16]
+							"|cffa335ee|Hitem:46034:3872:39998:40047:::::80:::::::::|h[Gamaschen der tiefsten Dunkelheit]|h|r", -- [17]
+							"|cffa335ee|Hitem:45933::40014::::::80:::::::::|h[Anhänger des flachen Grabes]|h|r", -- [18]
+							"|cffa335ee|Hitem:45557::40026:40049:40014::::80:::::::::|h[Schärpe der uralten Kraft]|h|r", -- [19]
+							"|cffa335ee|Hitem:48092:3810:40155::::::80:::::::::|h[Zabras Mantelung des Triumphs]|h|r", -- [20]
+						},
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["counts"] = {
+							17, -- [1]
+							[11] = 10,
+							[13] = 11,
+							[15] = 4,
+							[5] = 20,
+							[4] = 12,
+							[16] = 20,
+							[6] = 5,
+						},
+						["freeslots"] = 4,
 					},
 					["Bag-2"] = {
-						["freeslots"] = 29,
+						["links"] = {
+							"|cff1eff00|Hitem:27808::::::::80:::::::::|h[Schlüssel für Spring-o-Mat 4000]|h|r", -- [1]
+							"|cffa335ee|Hitem:44581::::::::80:::::::::|h[Heroischer Schlüssel der fokussierenden Iris]|h|r", -- [2]
+							"|cffffffff|Hitem:45796::::::::80:::::::::|h[Schlüssel des Himmlischen Planetariums]|h|r", -- [3]
+						},
 						["ids"] = {
 							27808, -- [1]
 							44581, -- [2]
@@ -227,41 +230,19 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 32,
 						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["links"] = {
-							"|cff1eff00|Hitem:27808::::::::80:::::::::|h[Schlüssel für Spring-o-Mat 4000]|h|r", -- [1]
-							"|cffa335ee|Hitem:44581::::::::80:::::::::|h[Heroischer Schlüssel der fokussierenden Iris]|h|r", -- [2]
-							"|cffffffff|Hitem:45796::::::::80:::::::::|h[Schlüssel des Himmlischen Planetariums]|h|r", -- [3]
-						},
+						["freeslots"] = 29,
 					},
 				},
+				["numFreeBagSlots"] = 50,
 				["numBagSlots"] = 102,
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1699529430,
+				["lastUpdate"] = 1699657692,
+				["numFreeBagSlots"] = 43,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 4,
-						["ids"] = {
-							39681, -- [1]
-							23768, -- [2]
-							23768, -- [3]
-							2459, -- [4]
-							6372, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							33448, -- [8]
-							33448, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							35623, -- [12]
-							36908, -- [13]
-							36908, -- [14]
-							9149, -- [15]
-							[18] = 36924,
-							[19] = 47499,
-							[20] = 48001,
-							[21] = 48012,
-						},
+						["link"] = "|cffa335ee|Hitem:49295::::::::80:::::::::|h[Vergrößerter Rucksack aus Onyxias Haut]|h|r",
 						["links"] = {
 							"|cffffffff|Hitem:39681::::::::80:::::::::|h[Eine Hand voll Kobaltbolzen]|h|r", -- [1]
 							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [2]
@@ -283,9 +264,6 @@ DataStore_ContainersDB = {
 							[20] = "|cffa335ee|Hitem:48001::40113::::::80:::::::::|h[Feuersturmband]|h|r",
 							[21] = "|cffa335ee|Hitem:48012:3606:40155:40155:::::80:::::::::|h[Sandalen des Sonnenhäschermagus']|h|r",
 						},
-						["icon"] = 133655,
-						["size"] = 22,
-						["link"] = "|cffa335ee|Hitem:49295::::::::80:::::::::|h[Vergrößerter Rucksack aus Onyxias Haut]|h|r",
 						["counts"] = {
 							nil, -- [1]
 							20, -- [2]
@@ -298,20 +276,49 @@ DataStore_ContainersDB = {
 							20, -- [9]
 							nil, -- [10]
 							nil, -- [11]
-							4, -- [12]
+							3, -- [12]
 							20, -- [13]
 							3, -- [14]
-							[18] = 4,
+							[18] = 3,
 						},
 						["freeslots"] = 7,
+						["ids"] = {
+							39681, -- [1]
+							23768, -- [2]
+							23768, -- [3]
+							2459, -- [4]
+							6372, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							33448, -- [8]
+							33448, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							35623, -- [12]
+							36908, -- [13]
+							36908, -- [14]
+							9149, -- [15]
+							[18] = 36924,
+							[19] = 47499,
+							[20] = 48001,
+							[21] = 48012,
+						},
+						["icon"] = 133655,
+						["size"] = 22,
 					},
 					["Bag0"] = {
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 20,
+						["counts"] = {
+							[11] = 13,
+							[13] = 2,
+							[10] = 2,
+							[4] = 8,
+							[9] = 13,
+						},
+						["freeslots"] = 4,
 						["ids"] = {
 							40152, -- [1]
 							33445, -- [2]
-							33312, -- [3]
+							nil, -- [3]
 							33470, -- [4]
 							nil, -- [5]
 							37012, -- [6]
@@ -322,18 +329,18 @@ DataStore_ContainersDB = {
 							40212, -- [11]
 							43011, -- [12]
 							46376, -- [13]
+							50193, -- [14]
+							211262, -- [15]
+							36414, -- [16]
+							39408, -- [17]
+							[20] = 33312,
 						},
-						["freeslots"] = 8,
-						["counts"] = {
-							[11] = 13,
-							[13] = 2,
-							[9] = 13,
-							[4] = 8,
-						},
+						["size"] = 20,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
 							"|cffa335ee|Hitem:40152::::::::80:::::::::|h[Mächtiger Ametrin]|h|r", -- [1]
 							"|cffffffff|Hitem:33445::::::::80:::::::::|h[Honigminztee]|h|r", -- [2]
-							"|cffffffff|Hitem:33312::::::::80:::::::::|h[Manasaphir]|h|r", -- [3]
+							nil, -- [3]
 							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [4]
 							nil, -- [5]
 							"|cffa335ee|Hitem:37012::::::::80:::::::::|h[Die Zügel des Reiters]|h|r", -- [6]
@@ -344,61 +351,58 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [11]
 							"|cffffffff|Hitem:43011::::::::80:::::::::|h[Worgschenkel]|h|r", -- [12]
 							"|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r", -- [13]
+							"|cffa335ee|Hitem:50193::::::::80:::::::::|h[Schulterstücke mit Sahne]|h|r", -- [14]
+							"|cffffffff|Hitem:211262::::::::80:::::::::|h[Siegel der Sonnenhäscher]|h|r", -- [15]
+							"|cff1eff00|Hitem:36414::::::-43:1412366392:80:::::::::|h[Mammutfellumhang des Soldaten]|h|r", -- [16]
+							"|cffa335ee|Hitem:39408::::::::80:::::::::|h[Saphirons Gamaschen]|h|r", -- [17]
+							[20] = "|cffffffff|Hitem:33312::::::::80:::::::::|h[Manasaphir]|h|r",
 						},
 					},
 					["Bag1"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							[4] = 43012,
-							[20] = 50418,
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
-							[4] = "|cffffffff|Hitem:43012::::::::80:::::::::|h[Rhinozerosfleisch]|h|r",
+							nil, -- [1]
+							"|cffa335ee|Hitem:39401::::::::80:::::::::|h[Kreis des Todes]|h|r", -- [2]
+							"|cffa335ee|Hitem:46015::::::::80:::::::::|h[Anhänger der endlosen Verzweiflung]|h|r", -- [3]
+							"|cffffffff|Hitem:43012::::::::80:::::::::|h[Rhinozerosfleisch]|h|r", -- [4]
+							[8] = "|cffa335ee|Hitem:46013::::::::80:::::::::|h[Unterweltmantelung]|h|r",
+							[10] = "|cffa335ee|Hitem:44658::::::::80:::::::::|h[Kette des uralten Wyrms]|h|r",
+							[9] = "|cffa335ee|Hitem:39403::::::::80:::::::::|h[Helm des Ungehorsamen]|h|r",
 							[20] = "|cffa335ee|Hitem:50418::::::::80:::::::::|h[Roben des wachen Alptraums]|h|r",
 						},
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["freeslots"] = 13,
+						["ids"] = {
+							nil, -- [1]
+							39401, -- [2]
+							46015, -- [3]
+							43012, -- [4]
+							[8] = 46013,
+							[10] = 44658,
+							[9] = 39403,
+							[20] = 50418,
+						},
 						["icon"] = 133665,
-						["freeslots"] = 18,
+						["size"] = 20,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							50377, -- [1]
-							[20] = 43364,
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffa335ee|Hitem:50377::::::::80:::::::::|h[Äschernes Band der Zerstörung]|h|r", -- [1]
 							[20] = "|cffffffff|Hitem:43364::::::::80:::::::::|h[Glyphe 'Langsamer Fall']|h|r",
 						},
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["icon"] = 133665,
 						["freeslots"] = 18,
+						["ids"] = {
+							50377, -- [1]
+							[20] = 43364,
+						},
+						["icon"] = 133665,
+						["size"] = 20,
 					},
 					["Bag3"] = {
 						["rarity"] = 4,
-						["ids"] = {
-							17031, -- [1]
-							17031, -- [2]
-							17032, -- [3]
-							17032, -- [4]
-							17020, -- [5]
-							6948, -- [6]
-							40411, -- [7]
-							37704, -- [8]
-							37704, -- [9]
-							37700, -- [10]
-							36904, -- [11]
-							36907, -- [12]
-							36901, -- [13]
-							36903, -- [14]
-							36905, -- [15]
-							[18] = 36913,
-							[19] = 40772,
-							[17] = 36906,
-							[20] = 42641,
-						},
+						["link"] = "|cffa335ee|Hitem:50317::::::::80:::::::::|h[Rios Reisetasche]|h|r",
 						["links"] = {
 							"|cffffffff|Hitem:17031::::::::80:::::::::|h[Rune der Teleportation]|h|r", -- [1]
 							"|cffffffff|Hitem:17031::::::::80:::::::::|h[Rune der Teleportation]|h|r", -- [2]
@@ -420,9 +424,6 @@ DataStore_ContainersDB = {
 							[17] = "|cffffffff|Hitem:36906::::::::80:::::::::|h[Eisdorn]|h|r",
 							[20] = "|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r",
 						},
-						["icon"] = 133659,
-						["size"] = 20,
-						["link"] = "|cffa335ee|Hitem:50317::::::::80:::::::::|h[Rios Reisetasche]|h|r",
 						["counts"] = {
 							20, -- [1]
 							7, -- [2]
@@ -443,10 +444,36 @@ DataStore_ContainersDB = {
 							[20] = 14,
 						},
 						["freeslots"] = 1,
+						["ids"] = {
+							17031, -- [1]
+							17031, -- [2]
+							17032, -- [3]
+							17032, -- [4]
+							17020, -- [5]
+							6948, -- [6]
+							40411, -- [7]
+							37704, -- [8]
+							37704, -- [9]
+							37700, -- [10]
+							36904, -- [11]
+							36907, -- [12]
+							36901, -- [13]
+							36903, -- [14]
+							36905, -- [15]
+							[18] = 36913,
+							[19] = 40772,
+							[17] = 36906,
+							[20] = 42641,
+						},
+						["icon"] = 133659,
+						["size"] = 20,
 					},
 					["Bag-2"] = {
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["size"] = 32,
+						["counts"] = {
+							[2] = 2,
+							[6] = 3,
+						},
+						["freeslots"] = 26,
 						["ids"] = {
 							7146, -- [1]
 							11078, -- [2]
@@ -455,11 +482,8 @@ DataStore_ContainersDB = {
 							42482, -- [5]
 							37500, -- [6]
 						},
-						["freeslots"] = 26,
-						["counts"] = {
-							[2] = 2,
-							[6] = 3,
-						},
+						["size"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
 						["links"] = {
 							"|cff1eff00|Hitem:7146::::::::80:::::::::|h[Der Scharlachrote Schlüssel]|h|r", -- [1]
 							"|cffffffff|Hitem:11078::::::::80:::::::::|h[Reliktkastenschlüssel]|h|r", -- [2]
@@ -470,49 +494,13 @@ DataStore_ContainersDB = {
 						},
 					},
 				},
-				["numFreeBagSlots"] = 52,
 				["numBagSlots"] = 102,
 			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1699529389,
-				["numFreeBagSlots"] = 48,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 4,
-						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
-						["links"] = {
-							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [1]
-							"|cffffffff|Hitem:43146::::::::80:::::::::|h[Waffenpergament III]|h|r", -- [2]
-							"|cffffffff|Hitem:43145::::::::80:::::::::|h[Rüstungspergament III]|h|r", -- [3]
-							"|cffffffff|Hitem:40769::::::::80:::::::::|h[Konstruktionsset: Schrottbot]|h|r", -- [4]
-							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [5]
-							nil, -- [6]
-							"|cffa335ee|Hitem:47479:3719:40113:40113:40113::::80:::::::::|h[Gamaschen des Erwachens]|h|r", -- [7]
-							"|cffa335ee|Hitem:49233:3606:40027::::::80:::::::::|h[Sandalen der trauernden Seele]|h|r", -- [8]
-							"|cffa335ee|Hitem:48001:3840:40113::::::80:::::::::|h[Feuersturmband]|h|r", -- [9]
-							"|cffa335ee|Hitem:40720:3840:::::::80:::::::::|h[Erneuerung des Lebens]|h|r", -- [10]
-							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [11]
-							"|cff0070dd|Hitem:48933::::::::80:::::::::|h[Wurmlochgenerator: Nordend]|h|r", -- [12]
-							"|cffffffff|Hitem:43499::::::::80:::::::::|h[Eiserner Flachmann]|h|r", -- [13]
-							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [14]
-							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [15]
-							"|cff0070dd|Hitem:37873::::::::80:::::::::|h[Mal des Kriegsgefangenen]|h|r", -- [16]
-							"|cffa335ee|Hitem:47448:1128:40113::::::80:::::::::|h[Bastion der Entschlossenheit]|h|r", -- [17]
-							"|cffa335ee|Hitem:48013:3834:40113::::::80:::::::::|h[Klinge des Sonnenhäscherjüngers]|h|r", -- [18]
-							"|cffa335ee|Hitem:48018::::::::80:::::::::|h[Fetisch der flüchtigen Macht]|h|r", -- [19]
-							"|cffa335ee|Hitem:40682::::::::80:::::::::|h[Sonnenuhr des Exilierten]|h|r", -- [20]
-							"|cff0070dd|Hitem:44452::::::::80:::::::::|h[Runenverzierte Titanrute]|h|r", -- [21]
-							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [22]
-						},
-						["counts"] = {
-							20, -- [1]
-							6, -- [2]
-							5, -- [3]
-							5, -- [4]
-							[14] = 4,
-							[15] = 11,
-						},
-						["freeslots"] = 1,
 						["ids"] = {
 							23768, -- [1]
 							43146, -- [2]
@@ -537,10 +525,64 @@ DataStore_ContainersDB = {
 							44452, -- [21]
 							6948, -- [22]
 						},
+						["links"] = {
+							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [1]
+							"|cffffffff|Hitem:43146::::::::80:::::::::|h[Waffenpergament III]|h|r", -- [2]
+							"|cffffffff|Hitem:43145::::::::80:::::::::|h[Rüstungspergament III]|h|r", -- [3]
+							"|cffffffff|Hitem:40769::::::::80:::::::::|h[Konstruktionsset: Schrottbot]|h|r", -- [4]
+							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [5]
+							nil, -- [6]
+							"|cffa335ee|Hitem:47479:3719:40113:40113:40113::::80:::::::::|h[Gamaschen des Erwachens]|h|r", -- [7]
+							"|cffa335ee|Hitem:49233:3606:40027::::::80:::::::::|h[Sandalen der trauernden Seele]|h|r", -- [8]
+							"|cffa335ee|Hitem:48001:3840:40113::::::80:::::::::|h[Feuersturmband]|h|r", -- [9]
+							"|cffa335ee|Hitem:40720:3840:::::::80:::::::::|h[Erneuerung des Lebens]|h|r", -- [10]
+							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [11]
+							"|cff0070dd|Hitem:48933::::::::80:::::::::|h[Wurmlochgenerator: Nordend]|h|r", -- [12]
+							"|cffffffff|Hitem:43499::::::::80:::::::::|h[Eiserner Flachmann]|h|r", -- [13]
+							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [14]
+							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [15]
+							"|cff0070dd|Hitem:37873::::::::80:::::::::|h[Mal des Kriegsgefangenen]|h|r", -- [16]
+							"|cffa335ee|Hitem:47448:1128:40113::::::80:::::::::|h[Bastion der Entschlossenheit]|h|r", -- [17]
+							"|cffa335ee|Hitem:48013:3834:40113::::::80:::::::::|h[Klinge des Sonnenhäscherjüngers]|h|r", -- [18]
+							"|cffa335ee|Hitem:48018::::::::80:::::::::|h[Fetisch der flüchtigen Macht]|h|r", -- [19]
+							"|cffa335ee|Hitem:40682::::::::80:::::::::|h[Sonnenuhr des Exilierten]|h|r", -- [20]
+							"|cff0070dd|Hitem:44452::::::::80:::::::::|h[Runenverzierte Titanrute]|h|r", -- [21]
+							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [22]
+						},
 						["icon"] = 133659,
 						["size"] = 22,
+						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
+						["counts"] = {
+							20, -- [1]
+							6, -- [2]
+							5, -- [3]
+							5, -- [4]
+							[14] = 4,
+							[15] = 11,
+						},
+						["freeslots"] = 1,
 					},
 					["Bag0"] = {
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 20,
+						["ids"] = {
+							nil, -- [1]
+							34054, -- [2]
+							nil, -- [3]
+							34057, -- [4]
+							34053, -- [5]
+							34054, -- [6]
+							34055, -- [7]
+							34054, -- [8]
+							43102, -- [9]
+							34054, -- [10]
+							34054, -- [11]
+							34054, -- [12]
+							34054, -- [13]
+							34052, -- [14]
+							[18] = 34054,
+						},
+						["freeslots"] = 7,
 						["counts"] = {
 							nil, -- [1]
 							2, -- [2]
@@ -575,93 +617,43 @@ DataStore_ContainersDB = {
 							"|cff0070dd|Hitem:34052::::::::80:::::::::|h[Traumsplitter]|h|r", -- [14]
 							[18] = "|cffffffff|Hitem:34054::::::::80:::::::::|h[Schleierstaub]|h|r",
 						},
-						["ids"] = {
-							nil, -- [1]
-							34054, -- [2]
-							nil, -- [3]
-							34057, -- [4]
-							34053, -- [5]
-							34054, -- [6]
-							34055, -- [7]
-							34054, -- [8]
-							43102, -- [9]
-							34054, -- [10]
-							34054, -- [11]
-							34054, -- [12]
-							34054, -- [13]
-							34052, -- [14]
-							[18] = 34054,
-						},
-						["freeslots"] = 7,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 20,
 					},
 					["Bag1"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["links"] = {
-							[6] = "|cffa335ee|Hitem:47646::::::::80:::::::::|h[Muster: Schwarze Chitinarmschienen]|h|r",
-							[7] = "|cffa335ee|Hitem:47647::::::::80:::::::::|h[Muster: Armschienen des schnellen Todes]|h|r",
-						},
-						["freeslots"] = 18,
 						["ids"] = {
 							[6] = 47646,
 							[7] = 47647,
 						},
-						["icon"] = 133665,
+						["links"] = {
+							[6] = "|cffa335ee|Hitem:47646::::::::80:::::::::|h[Muster: Schwarze Chitinarmschienen]|h|r",
+							[7] = "|cffa335ee|Hitem:47647::::::::80:::::::::|h[Muster: Armschienen des schnellen Todes]|h|r",
+						},
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["icon"] = 133665,
+						["freeslots"] = 18,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["ids"] = {
+							[11] = 23768,
+							[13] = 40211,
+						},
 						["links"] = {
 							[11] = "|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r",
 							[13] = "|cffffffff|Hitem:40211::::::::80:::::::::|h[Geschwindigkeitstrank]|h|r",
 						},
+						["icon"] = 133665,
+						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[11] = 5,
 							[13] = 14,
 						},
 						["freeslots"] = 18,
-						["ids"] = {
-							[11] = 23768,
-							[13] = 40211,
-						},
-						["icon"] = 133665,
-						["size"] = 20,
 					},
 					["Bag3"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["links"] = {
-							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [1]
-							"|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r", -- [2]
-							"|cffffffff|Hitem:46377::::::::80:::::::::|h[Fläschchen der endlosen Wut]|h|r", -- [3]
-							"|cffffffff|Hitem:39520::::::::80:::::::::|h[Kungaloosh]|h|r", -- [4]
-							nil, -- [5]
-							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [6]
-							"|cffa335ee|Hitem:48333:3820:41285:40155:::::80:::::::::|h[Thralls Helm des Triumphs]|h|r", -- [7]
-							[13] = "|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r",
-							[14] = "|cffffffff|Hitem:39520::::::::80:::::::::|h[Kungaloosh]|h|r",
-							[15] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-							[16] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
-							[9] = "|cffa335ee|Hitem:48330:3810:40113::::::80:::::::::|h[Thralls Schulterpolster des Triumphs]|h|r",
-							[18] = "|cffa335ee|Hitem:48000:2332:40113::::::80:::::::::|h[Teufelsfunkenarmschienen]|h|r",
-							[19] = "|cffa335ee|Hitem:48334:3604:40155::::::80:::::::::|h[Thralls Handschuhe des Triumphs]|h|r",
-							[11] = "|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r",
-							[12] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[17] = "|cffa335ee|Hitem:48335:3832:40113:40134:::::80:::::::::|h[Thralls Halsberge des Triumphs]|h|r",
-						},
-						["counts"] = {
-							20, -- [1]
-							14, -- [2]
-							3, -- [3]
-							7, -- [4]
-							[11] = 20,
-							[13] = 3,
-							[14] = 17,
-						},
-						["freeslots"] = 4,
 						["ids"] = {
 							23768, -- [1]
 							42641, -- [2]
@@ -681,18 +673,41 @@ DataStore_ContainersDB = {
 							[12] = 40215,
 							[17] = 48335,
 						},
+						["links"] = {
+							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [1]
+							"|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r", -- [2]
+							"|cffffffff|Hitem:46377::::::::80:::::::::|h[Fläschchen der endlosen Wut]|h|r", -- [3]
+							"|cffffffff|Hitem:39520::::::::80:::::::::|h[Kungaloosh]|h|r", -- [4]
+							nil, -- [5]
+							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [6]
+							"|cffa335ee|Hitem:48333:3820:41285:40155:::::80:::::::::|h[Thralls Helm des Triumphs]|h|r", -- [7]
+							[13] = "|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r",
+							[14] = "|cffffffff|Hitem:39520::::::::80:::::::::|h[Kungaloosh]|h|r",
+							[15] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+							[16] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r",
+							[9] = "|cffa335ee|Hitem:48330:3810:40113::::::80:::::::::|h[Thralls Schulterpolster des Triumphs]|h|r",
+							[18] = "|cffa335ee|Hitem:48000:2332:40113::::::80:::::::::|h[Teufelsfunkenarmschienen]|h|r",
+							[19] = "|cffa335ee|Hitem:48334:3604:40155::::::80:::::::::|h[Thralls Handschuhe des Triumphs]|h|r",
+							[11] = "|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r",
+							[12] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[17] = "|cffa335ee|Hitem:48335:3832:40113:40134:::::80:::::::::|h[Thralls Halsberge des Triumphs]|h|r",
+						},
 						["icon"] = 133665,
 						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["counts"] = {
+							20, -- [1]
+							14, -- [2]
+							3, -- [3]
+							7, -- [4]
+							[11] = 20,
+							[13] = 3,
+							[14] = 17,
+						},
+						["freeslots"] = 4,
 					},
 					["Bag-2"] = {
-						["links"] = {
-							"|cffffffff|Hitem:27991::::::::80:::::::::|h[Schlüssel des Schattenlabyrinths]|h|r", -- [1]
-							"|cff1eff00|Hitem:27808::::::::80:::::::::|h[Schlüssel für Spring-o-Mat 4000]|h|r", -- [2]
-							"|cffffffff|Hitem:37500::::::::80:::::::::|h[Schlüssel zum runderneuerten Schredder]|h|r", -- [3]
-							"|cffffffff|Hitem:42482::::::::80:::::::::|h[Der Schlüssel zur Violetten Festung]|h|r", -- [4]
-							"|cffa335ee|Hitem:44582::::::::80:::::::::|h[Schlüssel der fokussierenden Iris]|h|r", -- [5]
-							"|cffa335ee|Hitem:44581::::::::80:::::::::|h[Heroischer Schlüssel der fokussierenden Iris]|h|r", -- [6]
-						},
+						["size"] = 32,
 						["ids"] = {
 							27991, -- [1]
 							27808, -- [2]
@@ -703,15 +718,137 @@ DataStore_ContainersDB = {
 						},
 						["freeslots"] = 26,
 						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["size"] = 32,
+						["links"] = {
+							"|cffffffff|Hitem:27991::::::::80:::::::::|h[Schlüssel des Schattenlabyrinths]|h|r", -- [1]
+							"|cff1eff00|Hitem:27808::::::::80:::::::::|h[Schlüssel für Spring-o-Mat 4000]|h|r", -- [2]
+							"|cffffffff|Hitem:37500::::::::80:::::::::|h[Schlüssel zum runderneuerten Schredder]|h|r", -- [3]
+							"|cffffffff|Hitem:42482::::::::80:::::::::|h[Der Schlüssel zur Violetten Festung]|h|r", -- [4]
+							"|cffa335ee|Hitem:44582::::::::80:::::::::|h[Schlüssel der fokussierenden Iris]|h|r", -- [5]
+							"|cffa335ee|Hitem:44581::::::::80:::::::::|h[Heroischer Schlüssel der fokussierenden Iris]|h|r", -- [6]
+						},
 					},
 				},
+				["numFreeBagSlots"] = 48,
 				["numBagSlots"] = 102,
 			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228475,
+				["Containers"] = {
+					["Bag4"] = {
+						["rarity"] = 1,
+						["ids"] = {
+							[11] = 38707,
+							[10] = 38675,
+							[12] = 6948,
+						},
+						["links"] = {
+							[11] = "|cff0070dd|Hitem:38707:3369:::::::60:::::::::|h[Runenbeschriebene Seelenklinge]|h|r",
+							[10] = "|cff0070dd|Hitem:38675::::::::60:::::::::|h[Siegel der dunklen Bruderschaft]|h|r",
+							[12] = "|cffffffff|Hitem:6948::::::::60:::::::::|h[Ruhestein]|h|r",
+						},
+						["size"] = 12,
+						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[Todesstofftasche]|h|r",
+						["icon"] = 133640,
+						["freeslots"] = 9,
+					},
+					["Bag0"] = {
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["links"] = {
+							"|cffffffff|Hitem:41751::::::::60:::::::::|h[Schwarzer Pilz]|h|r", -- [1]
+							"|cff9d9d9d|Hitem:39317::::::::60:::::::::|h[Neues aus dem Norden]|h|r", -- [2]
+							"|cffffffff|Hitem:21877::::::::60:::::::::|h[Netherstoff]|h|r", -- [3]
+							"|cff1eff00|Hitem:25283::::::-36:268828684:60:::::::::|h[Kristallverzierter Ebenholzzauberstab des Zauberers]|h|r", -- [4]
+							"|cff1eff00|Hitem:29935::::::::60:::::::::|h[Feuervernarbte Brustplatte]|h|r", -- [5]
+							"|cffffffff|Hitem:27479::::::::60:::::::::|h[Flammende Fackel]|h|r", -- [6]
+							"|cffffffff|Hitem:28399::::::::60:::::::::|h[Gefiltertes draenisches Wasser]|h|r", -- [7]
+							"|cffffffff|Hitem:27854::::::::60:::::::::|h[Geräuchertes Talbukwildbret]|h|r", -- [8]
+							"|cffffffff|Hitem:13446::::::::60:::::::::|h[Erheblicher Heiltrank]|h|r", -- [9]
+							"|cff9d9d9d|Hitem:4584::::::::60:::::::::|h[Große Trophäentatze]|h|r", -- [10]
+							"|cff9d9d9d|Hitem:25399::::::::60:::::::::|h[Dürftige Klinge]|h|r", -- [11]
+							"|cffffffff|Hitem:14047::::::::60:::::::::|h[Runenstoff]|h|r", -- [12]
+							"|cffffffff|Hitem:27859::::::::60:::::::::|h[Zangarkappen]|h|r", -- [13]
+							"|cffffffff|Hitem:14047::::::::60:::::::::|h[Runenstoff]|h|r", -- [14]
+							"|cffffffff|Hitem:39327::::::::60:::::::::|h[Noths Spezialgebräu]|h|r", -- [15]
+							"|cffffffff|Hitem:8766::::::::60:::::::::|h[Trichterwindentau]|h|r", -- [16]
+							"|cffffffff|Hitem:8932::::::::60:::::::::|h[Alteraclochkäse]|h|r", -- [17]
+							"|cffffffff|Hitem:30404::::::::60:::::::::|h[Blutprobe des Blutenden Auges]|h|r", -- [18]
+							"|cff1eff00|Hitem:29911::::::::60:::::::::|h[Agammagans Kiel]|h|r", -- [19]
+						},
+						["ids"] = {
+							41751, -- [1]
+							39317, -- [2]
+							21877, -- [3]
+							25283, -- [4]
+							29935, -- [5]
+							27479, -- [6]
+							28399, -- [7]
+							27854, -- [8]
+							13446, -- [9]
+							4584, -- [10]
+							25399, -- [11]
+							14047, -- [12]
+							27859, -- [13]
+							14047, -- [14]
+							39327, -- [15]
+							8766, -- [16]
+							8932, -- [17]
+							30404, -- [18]
+							29911, -- [19]
+						},
+						["size"] = 20,
+						["counts"] = {
+							10, -- [1]
+							[8] = 4,
+							[17] = 3,
+							[15] = 5,
+							[10] = 2,
+							[12] = 20,
+							[14] = 2,
+							[16] = 2,
+							[3] = 20,
+						},
+						["freeslots"] = 1,
+					},
+					["Bag1"] = {
+						["rarity"] = 1,
+						["ids"] = {
+							25398, -- [1]
+							4583, -- [2]
+						},
+						["links"] = {
+							"|cff9d9d9d|Hitem:25398::::::::60:::::::::|h[Steinschneide]|h|r", -- [1]
+							"|cff9d9d9d|Hitem:4583::::::::60:::::::::|h[Dicke fellige Mähne]|h|r", -- [2]
+						},
+						["size"] = 12,
+						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[Todesstofftasche]|h|r",
+						["icon"] = 133640,
+						["freeslots"] = 10,
+					},
+					["Bag2"] = {
+						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[]|h|r",
+						["size"] = 12,
+						["icon"] = 133640,
+						["freeslots"] = 12,
+					},
+					["Bag3"] = {
+						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[]|h|r",
+						["size"] = 12,
+						["icon"] = 133640,
+						["freeslots"] = 12,
+					},
+					["Bag-2"] = {
+						["size"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["freeslots"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 44,
+				["numBagSlots"] = 68,
+			},
 			["Default.Venoxis.Alsia"] = {
-				["numFreeBankSlots"] = 20,
+				["numFreeBankSlots"] = 18,
 				["numBankSlots"] = 168,
-				["lastUpdate"] = 1699575408,
+				["lastUpdate"] = 1699658588,
 				["Containers"] = {
 					["Bag10"] = {
 						["rarity"] = 2,
@@ -759,18 +896,15 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:20398::::::::80:::::::::|h[Stab der Verwandlung - Ninja]|h|r", -- [19]
 							"|cffffffff|Hitem:46824::::::::80:::::::::|h[Pilgerrobe]|h|r", -- [20]
 						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["cooldowns"] = {
-							[8] = "1699575122.368|180|1",
-						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[5] = 9,
 							[6] = 17,
 							[4] = 10,
 						},
 						["freeslots"] = 2,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["icon"] = 133665,
+						["size"] = 20,
 					},
 					["Bag-2"] = {
 						["ids"] = {
@@ -791,32 +925,13 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:185691::::::::80:::::::::|h[Schlüssel der Auchenai]|h|r", -- [6]
 							"|cffffffff|Hitem:27991::::::::80:::::::::|h[Schlüssel des Schattenlabyrinths]|h|r", -- [7]
 						},
-						["size"] = 32,
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
 						["freeslots"] = 25,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["size"] = 32,
 					},
 					["Bag8"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							42546, -- [1]
-							42996, -- [2]
-							42996, -- [3]
-							43015, -- [4]
-							40257, -- [5]
-							49116, -- [6]
-							nil, -- [7]
-							46021, -- [8]
-							44063, -- [9]
-							37220, -- [10]
-							46154, -- [11]
-							47442, -- [12]
-							48625, -- [13]
-							51782, -- [14]
-							42546, -- [15]
-							[19] = 49118,
-							[17] = 40769,
-							[20] = 40707,
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffffffff|Hitem:42546::::::::80:::::::::|h[Einspritzerset: Manatrank]|h|r", -- [1]
 							"|cffffffff|Hitem:42996::::::::80:::::::::|h[Bombenschnapper]|h|r", -- [2]
@@ -837,9 +952,6 @@ DataStore_ContainersDB = {
 							[17] = "|cffffffff|Hitem:40769::::::::80:::::::::|h[Konstruktionsset: Schrottbot]|h|r",
 							[20] = "|cffa335ee|Hitem:40707::::::::80:::::::::|h[Buchband der Unpassierbarkeit]|h|r",
 						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							16, -- [1]
 							20, -- [2]
@@ -849,50 +961,30 @@ DataStore_ContainersDB = {
 							[15] = 20,
 						},
 						["freeslots"] = 3,
+						["ids"] = {
+							42546, -- [1]
+							42996, -- [2]
+							42996, -- [3]
+							43015, -- [4]
+							40257, -- [5]
+							49116, -- [6]
+							nil, -- [7]
+							46021, -- [8]
+							44063, -- [9]
+							37220, -- [10]
+							46154, -- [11]
+							47442, -- [12]
+							48625, -- [13]
+							51782, -- [14]
+							42546, -- [15]
+							[19] = 49118,
+							[17] = 40769,
+							[20] = 40707,
+						},
+						["icon"] = 133665,
+						["size"] = 20,
 					},
 					["Bag100"] = {
-						["freeslots"] = 2,
-						["ids"] = {
-							47991, -- [1]
-							48024, -- [2]
-							47734, -- [3]
-							36921, -- [4]
-							47242, -- [5]
-							47242, -- [6]
-							39683, -- [7]
-							nil, -- [8]
-							41380, -- [9]
-							23768, -- [10]
-							42142, -- [11]
-							38374, -- [12]
-							44936, -- [13]
-							40705, -- [14]
-							211851, -- [15]
-							51795, -- [16]
-							51902, -- [17]
-							36919, -- [18]
-							47242, -- [19]
-							47242, -- [20]
-							36913, -- [21]
-							36925, -- [22]
-							45158, -- [23]
-							47476, -- [24]
-							47444, -- [25]
-							nil, -- [26]
-							44947, -- [27]
-							23768, -- [28]
-						},
-						["cooldowns"] = {
-							[8] = "1699575122.368|180|1",
-						},
-						["size"] = 28,
-						["counts"] = {
-							[27] = 3,
-							[21] = 4,
-							[10] = 20,
-							[4] = 2,
-							[28] = 20,
-						},
 						["links"] = {
 							"|cffa335ee|Hitem:47991:3850:40119::::::80:::::::::|h[Schreckensmaularmschienen]|h|r", -- [1]
 							"|cffa335ee|Hitem:48024:3606:40166:36767:::::80:::::::::|h[Schienbeinschützer des beständigen Vortex]|h|r", -- [2]
@@ -901,7 +993,7 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [5]
 							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [6]
 							"|cffffffff|Hitem:39683::::::::80:::::::::|h[Froststahlröhre]|h|r", -- [7]
-							nil, -- [8]
+							"|cffa335ee|Hitem:48648:3822:40119:40119:::::80:::::::::|h[Liadrins Beinschützer des Triumphs]|h|r", -- [8]
 							"|cff0070dd|Hitem:41380::::::::80:::::::::|h[Strenger Erdringdiamant]|h|r", -- [9]
 							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [10]
 							"|cffa335ee|Hitem:42142::::::::80:::::::::|h[Klobiges Drachenauge]|h|r", -- [11]
@@ -919,41 +1011,58 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:45158::::::::80:::::::::|h[Eisernes Herz]|h|r", -- [23]
 							"|cffa335ee|Hitem:47476::40111::::::80:::::::::|h[Band des Verräterkönigs]|h|r", -- [24]
 							"|cffa335ee|Hitem:47444::40119:40119:36767::::80:::::::::|h[Gürtel der blutigen Narben]|h|r", -- [25]
-							nil, -- [26]
+							"|cffa335ee|Hitem:48650:3860:40119::::::80:::::::::|h[Liadrins Handschützer des Triumphs]|h|r", -- [26]
 							"|cffffffff|Hitem:44947::::::::80:::::::::|h[Rolle der Armschienenverzauberung - Erhebliche Ausdauer]|h|r", -- [27]
 							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [28]
+						},
+						["ids"] = {
+							47991, -- [1]
+							48024, -- [2]
+							47734, -- [3]
+							36921, -- [4]
+							47242, -- [5]
+							47242, -- [6]
+							39683, -- [7]
+							48648, -- [8]
+							41380, -- [9]
+							23768, -- [10]
+							42142, -- [11]
+							38374, -- [12]
+							44936, -- [13]
+							40705, -- [14]
+							211851, -- [15]
+							51795, -- [16]
+							51902, -- [17]
+							36919, -- [18]
+							47242, -- [19]
+							47242, -- [20]
+							36913, -- [21]
+							36925, -- [22]
+							45158, -- [23]
+							47476, -- [24]
+							47444, -- [25]
+							48650, -- [26]
+							44947, -- [27]
+							23768, -- [28]
+						},
+						["size"] = 28,
+						["counts"] = {
+							[27] = 3,
+							[21] = 4,
+							[10] = 20,
+							[4] = 2,
+							[28] = 20,
 						},
 					},
 					["Bag3"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							41119, -- [1]
-							46376, -- [2]
-							47997, -- [3]
-							45145, -- [4]
-							48011, -- [5]
-							46323, -- [6]
-							43587, -- [7]
-							43015, -- [8]
-							36923, -- [9]
-							36920, -- [10]
-							36932, -- [11]
-							40093, -- [12]
-							47451, -- [13]
-							49632, -- [14]
-							47417, -- [15]
-							49632, -- [16]
-							17033, -- [17]
-							52027, -- [18]
-							36929, -- [19]
-							36926, -- [20]
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
-							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [1]
+							nil, -- [1]
 							"|cffffffff|Hitem:46376::::::::80:::::::::|h[Fläschchen des Frostwyrms]|h|r", -- [2]
 							"|cffa335ee|Hitem:47997::40012:40012:::::80:::::::::|h[Gurt der gefrorenen Weite]|h|r", -- [3]
 							"|cffa335ee|Hitem:45145::::::::80:::::::::|h[Buchband des geheiligten Schildes]|h|r", -- [4]
-							"|cffa335ee|Hitem:48011::40141::::::80:::::::::|h[Seelenstärke der Höllenbestie]|h|r", -- [5]
+							"|cffa335ee|Hitem:47466::40119::::::80:::::::::|h[Kehlstück des Legionärs]|h|r", -- [5]
 							"|cffa335ee|Hitem:46323::40047::::::80:::::::::|h[Sternenlichtsiegel]|h|r", -- [6]
 							"|cffa335ee|Hitem:43587::40119:40119:36767::::80:::::::::|h[Eisbanngurt]|h|r", -- [7]
 							"|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r", -- [8]
@@ -961,19 +1070,18 @@ DataStore_ContainersDB = {
 							"|cff1eff00|Hitem:36920::::::::80:::::::::|h[Sonnenkristall]|h|r", -- [10]
 							"|cff1eff00|Hitem:36932::::::::80:::::::::|h[Nephrit]|h|r", -- [11]
 							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [12]
-							"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Vitalität des Molochs]|h|r", -- [13]
+							"|cffa335ee|Hitem:42987::::::::80:::::::::|h[Dunkelmond-Karte: Grandeur]|h|r", -- [13]
 							"|cffffffff|Hitem:49632::::::::80:::::::::|h[Runenschriftrolle der Seelenstärke]|h|r", -- [14]
 							"|cffa335ee|Hitem:47417::40012::::::80:::::::::|h[Tuch der erfrischenden Winde]|h|r", -- [15]
 							"|cffffffff|Hitem:49632::::::::80:::::::::|h[Runenschriftrolle der Seelenstärke]|h|r", -- [16]
 							"|cffffffff|Hitem:17033::::::::80:::::::::|h[Symbol der Offenbarung]|h|r", -- [17]
-							"|cffa335ee|Hitem:52027::::::::80:::::::::|h[Weiheabzeichen des Eroberers]|h|r", -- [18]
+							"|cff0070dd|Hitem:36933::::::::80:::::::::|h[Waldsmaragd]|h|r", -- [18]
 							"|cff1eff00|Hitem:36929::::::::80:::::::::|h[Riesencitrin]|h|r", -- [19]
 							"|cff1eff00|Hitem:36926::::::::80:::::::::|h[Schattenkristall]|h|r", -- [20]
 						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["icon"] = 133665,
+						["freeslots"] = 1,
 						["counts"] = {
-							7, -- [1]
+							nil, -- [1]
 							13, -- [2]
 							nil, -- [3]
 							nil, -- [4]
@@ -981,9 +1089,9 @@ DataStore_ContainersDB = {
 							nil, -- [6]
 							nil, -- [7]
 							5, -- [8]
-							5, -- [9]
+							4, -- [9]
 							10, -- [10]
-							11, -- [11]
+							10, -- [11]
 							20, -- [12]
 							nil, -- [13]
 							15, -- [14]
@@ -992,33 +1100,286 @@ DataStore_ContainersDB = {
 							4, -- [17]
 							nil, -- [18]
 							12, -- [19]
-							4, -- [20]
+							3, -- [20]
 						},
+						["ids"] = {
+							nil, -- [1]
+							46376, -- [2]
+							47997, -- [3]
+							45145, -- [4]
+							47466, -- [5]
+							46323, -- [6]
+							43587, -- [7]
+							43015, -- [8]
+							36923, -- [9]
+							36920, -- [10]
+							36932, -- [11]
+							40093, -- [12]
+							42987, -- [13]
+							49632, -- [14]
+							47417, -- [15]
+							49632, -- [16]
+							17033, -- [17]
+							36933, -- [18]
+							36929, -- [19]
+							36926, -- [20]
+						},
+						["icon"] = 133665,
+						["size"] = 20,
+					},
+					["Bag1"] = {
+						["rarity"] = 4,
+						["link"] = "|cffa335ee|Hitem:49295::::::::80:::::::::|h[Vergrößerter Rucksack aus Onyxias Haut]|h|r",
+						["links"] = {
+							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [1]
+							nil, -- [2]
+							"|cffffffff|Hitem:39690::::::::80:::::::::|h[Unberechenbarer Sprengauslöser]|h|r", -- [3]
+							"|cffa335ee|Hitem:40268::::::::80:::::::::|h[Buchband der Toleranz]|h|r", -- [4]
+							nil, -- [5]
+							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [6]
+							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [7]
+							"|cffffffff|Hitem:33448::::::::80:::::::::|h[Runenverzierter Manatrank]|h|r", -- [8]
+							"|cffa335ee|Hitem:45313::::::::80:::::::::|h[Stein des Eisenwerks]|h|r", -- [9]
+							"|cffa335ee|Hitem:48011::40141::::::80:::::::::|h[Seelenstärke der Höllenbestie]|h|r", -- [10]
+							"|cffa335ee|Hitem:46051::::::::80:::::::::|h[Meteoritkristall]|h|r", -- [11]
+							"|cffa335ee|Hitem:50059:3810:40012:40012:::::80:::::::::|h[Schreckliche Fleischschulterklappen]|h|r", -- [12]
+							"|cffa335ee|Hitem:47436:3230:40167::::::80:::::::::|h[Stolz des Dämonenlords]|h|r", -- [13]
+							"|cffa335ee|Hitem:43586:1953:42154:40118:40118::::80:::::::::|h[Eisbannbrustschutz]|h|r", -- [14]
+							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [15]
+							"|cffffffff|Hitem:41509::::::::80:::::::::|h[Froststoffnetz]|h|r", -- [16]
+							"|cffa335ee|Hitem:51907:1119:40012::::::80:::::::::|h[Armschienen der blassen Illumination]|h|r", -- [17]
+							nil, -- [18]
+							"|cffa335ee|Hitem:47450::40012:40012:40012::::80:::::::::|h[Gamaschen des verborgenen Hasses]|h|r", -- [19]
+							"|cffffffff|Hitem:41100::::::::80:::::::::|h[Glyphe 'Rechtschaffene Verteidigung']|h|r", -- [20]
+							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [21]
+							"|cffa335ee|Hitem:47456::::::::80:::::::::|h[Sabatons der bebenden Erde]|h|r", -- [22]
+						},
+						["counts"] = {
+							11, -- [1]
+							[6] = 20,
+							[7] = 18,
+							[8] = 6,
+							[3] = 20,
+							[20] = 2,
+							[21] = 19,
+							[16] = 10,
+							[15] = 20,
+						},
+						["freeslots"] = 3,
+						["ids"] = {
+							23768, -- [1]
+							nil, -- [2]
+							39690, -- [3]
+							40268, -- [4]
+							nil, -- [5]
+							41119, -- [6]
+							41119, -- [7]
+							33448, -- [8]
+							45313, -- [9]
+							48011, -- [10]
+							46051, -- [11]
+							50059, -- [12]
+							47436, -- [13]
+							43586, -- [14]
+							40093, -- [15]
+							41509, -- [16]
+							51907, -- [17]
+							nil, -- [18]
+							47450, -- [19]
+							41100, -- [20]
+							43000, -- [21]
+							47456, -- [22]
+						},
+						["icon"] = 133655,
+						["size"] = 22,
+					},
+					["Bag5"] = {
+						["rarity"] = 2,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["links"] = {
+							"|cffa335ee|Hitem:45471::40166::::::80:::::::::|h[Umklammerung des Schicksals]|h|r", -- [1]
+							"|cffa335ee|Hitem:48027::40119::::::80:::::::::|h[Band der Zwillingsval'kyr]|h|r", -- [2]
+							"|cffa335ee|Hitem:47415:3297:40129:40166:36767::::80:::::::::|h[Halsberge der gewaltigen Monstrosität]|h|r", -- [3]
+							"|cffa335ee|Hitem:47434:3822:40119:40119:40119::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r", -- [4]
+							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [5]
+							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [6]
+							"|cffffffff|Hitem:39681::::::::80:::::::::|h[Eine Hand voll Kobaltbolzen]|h|r", -- [7]
+							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [8]
+							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [9]
+							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [10]
+							"|cffa335ee|Hitem:48670:3294:40119::::::80:::::::::|h[Umhang des steinharten Wächters]|h|r", -- [11]
+							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [12]
+							"|cffffffff|Hitem:38945::::::::80:::::::::|h[Rolle der Schildverzauberung - Erhebliche Ausdauer]|h|r", -- [13]
+							"|cff0070dd|Hitem:44497::::::::80:::::::::|h[Rolle der Waffenverzauberung - Präzision]|h|r", -- [14]
+							"|cffa335ee|Hitem:36934::::::::80:::::::::|h[Auge von Zul]|h|r", -- [15]
+							"|cffa335ee|Hitem:36928::::::::80:::::::::|h[Schreckensstein]|h|r", -- [16]
+							nil, -- [17]
+							nil, -- [18]
+							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [19]
+							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [20]
+						},
+						["counts"] = {
+							[7] = 6,
+							[15] = 7,
+							[8] = 20,
+							[16] = 2,
+							[9] = 20,
+							[19] = 20,
+							[20] = 20,
+							[6] = 20,
+							[12] = 20,
+							[10] = 20,
+						},
+						["freeslots"] = 2,
+						["ids"] = {
+							45471, -- [1]
+							48027, -- [2]
+							47415, -- [3]
+							47434, -- [4]
+							47242, -- [5]
+							6657, -- [6]
+							39681, -- [7]
+							43000, -- [8]
+							43000, -- [9]
+							43000, -- [10]
+							48670, -- [11]
+							40093, -- [12]
+							38945, -- [13]
+							44497, -- [14]
+							36934, -- [15]
+							36928, -- [16]
+							nil, -- [17]
+							nil, -- [18]
+							6657, -- [19]
+							6657, -- [20]
+						},
+						["icon"] = 133665,
+						["size"] = 20,
+					},
+					["Bag4"] = {
+						["rarity"] = 2,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["links"] = {
+							"|cff1eff00|Hitem:36917::::::::80:::::::::|h[Blutstein]|h|r", -- [1]
+							nil, -- [2]
+							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [3]
+							"|cffffffff|Hitem:40769::::::::80:::::::::|h[Konstruktionsset: Schrottbot]|h|r", -- [4]
+							"|cffa335ee|Hitem:50356::::::::80:::::::::|h[Korrodierter Skelettschlüssel]|h|r", -- [5]
+							"|cffa335ee|Hitem:45116::::::::80:::::::::|h[Freyas Halsreif des Walls]|h|r", -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							"|cffa335ee|Hitem:49040::::::::80:::::::::|h[Jeeves]|h|r", -- [9]
+							nil, -- [10]
+							"|cffa335ee|Hitem:49995:3604:::::::80:::::::::|h[Handschützer des gefallenen Lords]|h|r", -- [11]
+							nil, -- [12]
+							"|cffa335ee|Hitem:45496:3605:40129::::::80:::::::::|h[Titanenhautumhang]|h|r", -- [13]
+							"|cffa335ee|Hitem:50612:3822:40129:40119:40166::::80:::::::::|h[Beinschützer der verlorenen Hoffnung]|h|r", -- [14]
+							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [15]
+							"|cffffffff|Hitem:44987::::::::80:::::::::|h[Siegel des Recken]|h|r", -- [16]
+							"|cffffffff|Hitem:20824::::::::80:::::::::|h[Einfacher Schleifer]|h|r", -- [17]
+							"|cffffffff|Hitem:20815::::::::80:::::::::|h[Juweliersset]|h|r", -- [18]
+							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [19]
+							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [20]
+						},
+						["counts"] = {
+							4, -- [1]
+							nil, -- [2]
+							10, -- [3]
+							2, -- [4]
+							[16] = 5,
+							[15] = 11,
+						},
+						["freeslots"] = 5,
+						["cooldowns"] = {
+							[13] = "1699658580.782|30|1",
+						},
+						["ids"] = {
+							36917, -- [1]
+							nil, -- [2]
+							40212, -- [3]
+							40769, -- [4]
+							50356, -- [5]
+							45116, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							49040, -- [9]
+							nil, -- [10]
+							49995, -- [11]
+							nil, -- [12]
+							45496, -- [13]
+							50612, -- [14]
+							8529, -- [15]
+							44987, -- [16]
+							20824, -- [17]
+							20815, -- [18]
+							40772, -- [19]
+							6948, -- [20]
+						},
+						["icon"] = 133665,
+						["size"] = 20,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							36924, -- [1]
+							43015, -- [2]
+							45947, -- [3]
+							nil, -- [4]
+							49908, -- [5]
+							42641, -- [6]
+							nil, -- [7]
+							33470, -- [8]
+							48659, -- [9]
+							nil, -- [10]
+							37700, -- [11]
+							21177, -- [12]
+							36913, -- [13]
+							48647, -- [14]
+							39690, -- [15]
+							33447, -- [16]
+							nil, -- [17]
+							42225, -- [18]
+							44939, -- [19]
+						},
+						["links"] = {
+							"|cff0070dd|Hitem:36924::::::::80:::::::::|h[Himmelssaphir]|h|r", -- [1]
+							"|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r", -- [2]
+							"|cffa335ee|Hitem:45947:2673:40166::::::80:::::::::|h[Serilas, Blutklinge des Invar Einarm]|h|r", -- [3]
+							nil, -- [4]
+							"|cff0070dd|Hitem:49908::::::::80:::::::::|h[Urtümliches Saronit]|h|r", -- [5]
+							"|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r", -- [6]
+							nil, -- [7]
+							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [8]
+							"|cffa335ee|Hitem:48659:3812:41380:40111:::::80:::::::::|h[Liadrins Gesichtsschutz des Triumphs]|h|r", -- [9]
+							nil, -- [10]
+							"|cffffffff|Hitem:37700::::::::80:::::::::|h[Kristallisierte Luft]|h|r", -- [11]
+							"|cffffffff|Hitem:21177::::::::80:::::::::|h[Symbol der Könige]|h|r", -- [12]
+							"|cffffffff|Hitem:36913::::::::80:::::::::|h[Saronitbarren]|h|r", -- [13]
+							"|cffa335ee|Hitem:48647:3852:40119::::::80:::::::::|h[Liadrins Schulterschützer des Triumphs]|h|r", -- [14]
+							"|cffffffff|Hitem:39690::::::::80:::::::::|h[Unberechenbarer Sprengauslöser]|h|r", -- [15]
+							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [16]
+							nil, -- [17]
+							"|cff0070dd|Hitem:42225::::::::80:::::::::|h[Drachenauge]|h|r", -- [18]
+							"|cffffffff|Hitem:44939::::::::80:::::::::|h[Geringes Fläschchen des Widerstands]|h|r", -- [19]
+						},
+						["counts"] = {
+							[13] = 14,
+							[2] = 20,
+							[15] = 10,
+							[8] = 9,
+							[16] = 11,
+							[5] = 3,
+							[19] = 9,
+							[11] = 3,
+							[6] = 3,
+							[12] = 75,
+						},
+						["freeslots"] = 5,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 20,
 					},
 					["Bag7"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							39764, -- [1]
-							45228, -- [2]
-							46180, -- [3]
-							46178, -- [4]
-							46179, -- [5]
-							46181, -- [6]
-							nil, -- [7]
-							44137, -- [8]
-							nil, -- [9]
-							23768, -- [10]
-							45139, -- [11]
-							45842, -- [12]
-							39717, -- [13]
-							45247, -- [14]
-							23768, -- [15]
-							[18] = 46040,
-							[19] = 48622,
-							[17] = 48015,
-							[20] = 51912,
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffa335ee|Hitem:39764:3850:::::::80:::::::::|h[Bindungen der bedauernswerten Beute]|h|r", -- [1]
 							"|cffa335ee|Hitem:45228::::::::80:::::::::|h[Handschützer der Enklave]|h|r", -- [2]
@@ -1040,282 +1401,38 @@ DataStore_ContainersDB = {
 							[17] = "|cffa335ee|Hitem:48015::::::::80:::::::::|h[Gesichtsschutz des Sonnenhäscherchampions]|h|r",
 							[20] = "|cffa335ee|Hitem:51912::::::::80:::::::::|h[Saronitgargoyleumhang]|h|r",
 						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[10] = 20,
 							[15] = 20,
 						},
 						["freeslots"] = 3,
-					},
-					["Bag5"] = {
-						["rarity"] = 2,
 						["ids"] = {
-							45471, -- [1]
-							48027, -- [2]
-							47415, -- [3]
-							47434, -- [4]
-							47242, -- [5]
-							6657, -- [6]
-							39681, -- [7]
-							43000, -- [8]
-							43000, -- [9]
-							43000, -- [10]
-							48670, -- [11]
-							40093, -- [12]
-							38945, -- [13]
-							44497, -- [14]
-							[19] = 6657,
-							[20] = 6657,
-						},
-						["links"] = {
-							"|cffa335ee|Hitem:45471::40166::::::80:::::::::|h[Umklammerung des Schicksals]|h|r", -- [1]
-							"|cffa335ee|Hitem:48027::40119::::::80:::::::::|h[Band der Zwillingsval'kyr]|h|r", -- [2]
-							"|cffa335ee|Hitem:47415:3297:40129:40166:36767::::80:::::::::|h[Halsberge der gewaltigen Monstrosität]|h|r", -- [3]
-							"|cffa335ee|Hitem:47434:3822:40119:40119:40119::::80:::::::::|h[Beinplatten der fieberhaften Hingabe]|h|r", -- [4]
-							"|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophäe des Kreuzzugs]|h|r", -- [5]
-							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [6]
-							"|cffffffff|Hitem:39681::::::::80:::::::::|h[Eine Hand voll Kobaltbolzen]|h|r", -- [7]
-							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [8]
-							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [9]
-							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [10]
-							"|cffa335ee|Hitem:48670:3294:40119::::::80:::::::::|h[Umhang des steinharten Wächters]|h|r", -- [11]
-							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [12]
-							"|cffffffff|Hitem:38945::::::::80:::::::::|h[Rolle der Schildverzauberung - Erhebliche Ausdauer]|h|r", -- [13]
-							"|cff0070dd|Hitem:44497::::::::80:::::::::|h[Rolle der Waffenverzauberung - Präzision]|h|r", -- [14]
-							[19] = "|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r",
-							[20] = "|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r",
+							39764, -- [1]
+							45228, -- [2]
+							46180, -- [3]
+							46178, -- [4]
+							46179, -- [5]
+							46181, -- [6]
+							nil, -- [7]
+							44137, -- [8]
+							nil, -- [9]
+							23768, -- [10]
+							45139, -- [11]
+							45842, -- [12]
+							39717, -- [13]
+							45247, -- [14]
+							23768, -- [15]
+							[18] = 46040,
+							[19] = 48622,
+							[17] = 48015,
+							[20] = 51912,
 						},
 						["icon"] = 133665,
 						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["counts"] = {
-							[6] = 20,
-							[7] = 6,
-							[8] = 20,
-							[10] = 20,
-							[12] = 20,
-							[19] = 20,
-							[9] = 20,
-							[20] = 20,
-						},
-						["freeslots"] = 4,
-					},
-					["Bag4"] = {
-						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["links"] = {
-							"|cff1eff00|Hitem:36917::::::::80:::::::::|h[Blutstein]|h|r", -- [1]
-							nil, -- [2]
-							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [3]
-							"|cffffffff|Hitem:40769::::::::80:::::::::|h[Konstruktionsset: Schrottbot]|h|r", -- [4]
-							"|cffa335ee|Hitem:50356::::::::80:::::::::|h[Korrodierter Skelettschlüssel]|h|r", -- [5]
-							"|cffa335ee|Hitem:45116::::::::80:::::::::|h[Freyas Halsreif des Walls]|h|r", -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							"|cffa335ee|Hitem:49040::::::::80:::::::::|h[Jeeves]|h|r", -- [9]
-							nil, -- [10]
-							"|cffa335ee|Hitem:49995:3604:::::::80:::::::::|h[Handschützer des gefallenen Lords]|h|r", -- [11]
-							nil, -- [12]
-							"|cffa335ee|Hitem:47436:3230:40167::::::80:::::::::|h[Stolz des Dämonenlords]|h|r", -- [13]
-							"|cffa335ee|Hitem:48648:3822:40119:40119:::::80:::::::::|h[Liadrins Beinschützer des Triumphs]|h|r", -- [14]
-							"|cffffffff|Hitem:8529::::::::80:::::::::|h[Noggenfoggers Elixier]|h|r", -- [15]
-							"|cffffffff|Hitem:44987::::::::80:::::::::|h[Siegel des Recken]|h|r", -- [16]
-							"|cffffffff|Hitem:20824::::::::80:::::::::|h[Einfacher Schleifer]|h|r", -- [17]
-							"|cffffffff|Hitem:20815::::::::80:::::::::|h[Juweliersset]|h|r", -- [18]
-							"|cffffffff|Hitem:40772::::::::80:::::::::|h[Gnomisches Armeemesser]|h|r", -- [19]
-							"|cffffffff|Hitem:6948::::::::80:::::::::|h[Ruhestein]|h|r", -- [20]
-						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["cooldowns"] = {
-							[11] = "1699575382.836|60|1",
-							[20] = "1699574950.527|1800|1",
-						},
-						["ids"] = {
-							36917, -- [1]
-							nil, -- [2]
-							40212, -- [3]
-							40769, -- [4]
-							50356, -- [5]
-							45116, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							49040, -- [9]
-							nil, -- [10]
-							49995, -- [11]
-							nil, -- [12]
-							47436, -- [13]
-							48648, -- [14]
-							8529, -- [15]
-							44987, -- [16]
-							20824, -- [17]
-							20815, -- [18]
-							40772, -- [19]
-							6948, -- [20]
-						},
-						["counts"] = {
-							4, -- [1]
-							nil, -- [2]
-							10, -- [3]
-							2, -- [4]
-							[16] = 5,
-							[15] = 11,
-						},
-						["freeslots"] = 5,
-					},
-					["Bag0"] = {
-						["ids"] = {
-							52027, -- [1]
-							43015, -- [2]
-							45947, -- [3]
-							44951, -- [4]
-							49908, -- [5]
-							42641, -- [6]
-							45675, -- [7]
-							33470, -- [8]
-							48659, -- [9]
-							21177, -- [10]
-							37700, -- [11]
-							21177, -- [12]
-							36913, -- [13]
-							40093, -- [14]
-							39690, -- [15]
-							33447, -- [16]
-							nil, -- [17]
-							42225, -- [18]
-							44939, -- [19]
-							36892, -- [20]
-						},
-						["links"] = {
-							"|cffa335ee|Hitem:52027::::::::80:::::::::|h[Weiheabzeichen des Eroberers]|h|r", -- [1]
-							"|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r", -- [2]
-							"|cffa335ee|Hitem:45947:2673:40166::::::80:::::::::|h[Serilas, Blutklinge des Invar Einarm]|h|r", -- [3]
-							"|cffffffff|Hitem:44951::::::::80:::::::::|h[Kiste voller Bomben]|h|r", -- [4]
-							"|cff0070dd|Hitem:49908::::::::80:::::::::|h[Urtümliches Saronit]|h|r", -- [5]
-							"|cffffffff|Hitem:42641::::::::80:::::::::|h[Globalthermische Pioniersprengladung]|h|r", -- [6]
-							"|cffa335ee|Hitem:45675::::::::80:::::::::|h[Machtverstärkender Ring]|h|r", -- [7]
-							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [8]
-							"|cffa335ee|Hitem:48659:3812:41380:40111:::::80:::::::::|h[Liadrins Gesichtsschutz des Triumphs]|h|r", -- [9]
-							"|cffffffff|Hitem:21177::::::::80:::::::::|h[Symbol der Könige]|h|r", -- [10]
-							"|cffffffff|Hitem:37700::::::::80:::::::::|h[Kristallisierte Luft]|h|r", -- [11]
-							"|cffffffff|Hitem:21177::::::::80:::::::::|h[Symbol der Könige]|h|r", -- [12]
-							"|cffffffff|Hitem:36913::::::::80:::::::::|h[Saronitbarren]|h|r", -- [13]
-							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [14]
-							"|cffffffff|Hitem:39690::::::::80:::::::::|h[Unberechenbarer Sprengauslöser]|h|r", -- [15]
-							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [16]
-							nil, -- [17]
-							"|cff0070dd|Hitem:42225::::::::80:::::::::|h[Drachenauge]|h|r", -- [18]
-							"|cffffffff|Hitem:44939::::::::80:::::::::|h[Geringes Fläschchen des Widerstands]|h|r", -- [19]
-							"|cffffffff|Hitem:36892::::::::80:::::::::|h[Teuflischer Gesundheitsstein]|h|r", -- [20]
-						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 20,
-						["counts"] = {
-							[13] = 14,
-							[14] = 5,
-							[2] = 20,
-							[15] = 10,
-							[8] = 9,
-							[16] = 11,
-							[5] = 3,
-							[10] = 14,
-							[11] = 3,
-							[6] = 6,
-							[12] = 100,
-							[19] = 9,
-						},
-						["freeslots"] = 1,
-					},
-					["Bag1"] = {
-						["rarity"] = 4,
-						["ids"] = {
-							23768, -- [1]
-							nil, -- [2]
-							39690, -- [3]
-							40268, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							43102, -- [7]
-							33448, -- [8]
-							45313, -- [9]
-							50195, -- [10]
-							46051, -- [11]
-							50059, -- [12]
-							50074, -- [13]
-							43586, -- [14]
-							40093, -- [15]
-							41509, -- [16]
-							51907, -- [17]
-							48650, -- [18]
-							47450, -- [19]
-							41100, -- [20]
-							43000, -- [21]
-							40187, -- [22]
-						},
-						["links"] = {
-							"|cffffffff|Hitem:23768::::::::80:::::::::|h[Weißes Rauchsignal]|h|r", -- [1]
-							nil, -- [2]
-							"|cffffffff|Hitem:39690::::::::80:::::::::|h[Unberechenbarer Sprengauslöser]|h|r", -- [3]
-							"|cffa335ee|Hitem:40268::::::::80:::::::::|h[Buchband der Toleranz]|h|r", -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							"|cff0070dd|Hitem:43102::::::::80:::::::::|h[Gefrorene Kugel]|h|r", -- [7]
-							"|cffffffff|Hitem:33448::::::::80:::::::::|h[Runenverzierter Manatrank]|h|r", -- [8]
-							"|cffa335ee|Hitem:45313::::::::80:::::::::|h[Stein des Eisenwerks]|h|r", -- [9]
-							"|cffa335ee|Hitem:50195::40119::::::80:::::::::|h[Malachitschlinge]|h|r", -- [10]
-							"|cffa335ee|Hitem:46051::::::::80:::::::::|h[Meteoritkristall]|h|r", -- [11]
-							"|cffa335ee|Hitem:50059:3810:40012:40012:::::80:::::::::|h[Schreckliche Fleischschulterklappen]|h|r", -- [12]
-							"|cffa335ee|Hitem:50074:3294:40166::::::80:::::::::|h[Königlicher Purpurumhang]|h|r", -- [13]
-							"|cffa335ee|Hitem:43586:1953:42154:40118:40118::::80:::::::::|h[Eisbannbrustschutz]|h|r", -- [14]
-							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [15]
-							"|cffffffff|Hitem:41509::::::::80:::::::::|h[Froststoffnetz]|h|r", -- [16]
-							"|cffa335ee|Hitem:51907:1119:40012::::::80:::::::::|h[Armschienen der blassen Illumination]|h|r", -- [17]
-							"|cffa335ee|Hitem:48650:3860:40119::::::80:::::::::|h[Liadrins Handschützer des Triumphs]|h|r", -- [18]
-							"|cffa335ee|Hitem:47450::40012:40012:40012::::80:::::::::|h[Gamaschen des verborgenen Hasses]|h|r", -- [19]
-							"|cffffffff|Hitem:41100::::::::80:::::::::|h[Glyphe 'Rechtschaffene Verteidigung']|h|r", -- [20]
-							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [21]
-							"|cffa335ee|Hitem:40187:3606:40047::::::80:::::::::|h[Scharfe Sabatons]|h|r", -- [22]
-						},
-						["icon"] = 133655,
-						["size"] = 22,
-						["link"] = "|cffa335ee|Hitem:49295::::::::80:::::::::|h[Vergrößerter Rucksack aus Onyxias Haut]|h|r",
-						["counts"] = {
-							12, -- [1]
-							[20] = 2,
-							[8] = 6,
-							[3] = 20,
-							[15] = 20,
-							[21] = 20,
-							[16] = 10,
-						},
-						["freeslots"] = 3,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							45946, -- [1]
-							46377, -- [2]
-							43582, -- [3]
-							41509, -- [4]
-							43869, -- [5]
-							41101, -- [6]
-							45747, -- [7]
-							45742, -- [8]
-							40211, -- [9]
-							6657, -- [10]
-							51021, -- [11]
-							46379, -- [12]
-							45470, -- [13]
-							48042, -- [14]
-							47471, -- [15]
-							48701, -- [16]
-							48044, -- [17]
-							45442, -- [18]
-							44255, -- [19]
-							40093, -- [20]
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffa335ee|Hitem:45946::40012::::::80:::::::::|h[Feuerorchideensiegel]|h|r", -- [1]
 							"|cffffffff|Hitem:46377::::::::80:::::::::|h[Fläschchen der endlosen Wut]|h|r", -- [2]
@@ -1327,19 +1444,17 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:45742::::::::80:::::::::|h[Glyphe 'Hammer der Rechtschaffenen']|h|r", -- [8]
 							"|cffffffff|Hitem:40211::::::::80:::::::::|h[Geschwindigkeitstrank]|h|r", -- [9]
 							"|cffffffff|Hitem:6657::::::::80:::::::::|h[Pikantes Deviat Supreme]|h|r", -- [10]
-							"|cffa335ee|Hitem:51021:2673:::::::80:::::::::|h[Seelenbrecher]|h|r", -- [11]
+							"|cffa335ee|Hitem:45947:3789:40111::::::80:::::::::|h[Serilas, Blutklinge des Invar Einarm]|h|r", -- [11]
 							"|cffffffff|Hitem:46379::::::::80:::::::::|h[Fläschchen des Steinbluts]|h|r", -- [12]
 							"|cffa335ee|Hitem:45470:1128:42148::::::80:::::::::|h[Schild der Weisheit]|h|r", -- [13]
 							"|cffa335ee|Hitem:48042:3820:41401:40012:::::80:::::::::|h[Helm des Gruftlords]|h|r", -- [14]
 							"|cffa335ee|Hitem:47471:3832:40012:40012:40012::::80:::::::::|h[Brustplatte des gefrorenen Sees]|h|r", -- [15]
 							"|cffa335ee|Hitem:48701::::::::80:::::::::|h[Zauberernte]|h|r", -- [16]
-							"|cffa335ee|Hitem:48044:3870:40119::::::80:::::::::|h[Inbrünstige Wache]|h|r", -- [17]
-							"|cffa335ee|Hitem:45442:3870:40141::::::80:::::::::|h[Sorthalis, Hammer der Wächter]|h|r", -- [18]
+							"|cffa335ee|Hitem:45442:3870:40141::::::80:::::::::|h[Sorthalis, Hammer der Wächter]|h|r", -- [17]
+							"|cffa335ee|Hitem:48044:3870:40119::::::80:::::::::|h[Inbrünstige Wache]|h|r", -- [18]
 							"|cffa335ee|Hitem:44255::::::::80:::::::::|h[Dunkelmond-Karte: Grandeur]|h|r", -- [19]
 							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [20]
 						},
-						["icon"] = 133665,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							nil, -- [1]
 							12, -- [2]
@@ -1352,9 +1467,32 @@ DataStore_ContainersDB = {
 							9, -- [9]
 							13, -- [10]
 							nil, -- [11]
-							7, -- [12]
+							6, -- [12]
 							[20] = 20,
 						},
+						["ids"] = {
+							45946, -- [1]
+							46377, -- [2]
+							43582, -- [3]
+							41509, -- [4]
+							43869, -- [5]
+							41101, -- [6]
+							45747, -- [7]
+							45742, -- [8]
+							40211, -- [9]
+							6657, -- [10]
+							45947, -- [11]
+							46379, -- [12]
+							45470, -- [13]
+							48042, -- [14]
+							47471, -- [15]
+							48701, -- [16]
+							45442, -- [17]
+							48044, -- [18]
+							44255, -- [19]
+							40093, -- [20]
+						},
+						["icon"] = 133665,
 						["size"] = 20,
 					},
 					["Bag9"] = {
@@ -1403,12 +1541,6 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:45868:3789:39996:42702:::::80:::::::::|h[Aesirs Schneide]|h|r", -- [19]
 							"|cffa335ee|Hitem:45510::::::::80:::::::::|h[Buchband der Zwietracht]|h|r", -- [20]
 						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["cooldowns"] = {
-							[14] = "1699575122.368|180|1",
-						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[11] = 17,
 							[10] = 15,
@@ -1416,30 +1548,13 @@ DataStore_ContainersDB = {
 							[12] = 20,
 						},
 						["freeslots"] = 2,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["icon"] = 133665,
+						["size"] = 20,
 					},
 					["Bag11"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							45594, -- [1]
-							46176, -- [2]
-							46174, -- [3]
-							46173, -- [4]
-							46177, -- [5]
-							46175, -- [6]
-							43156, -- [7]
-							43154, -- [8]
-							23705, -- [9]
-							37897, -- [10]
-							37865, -- [11]
-							44788, -- [12]
-							46723, -- [13]
-							46800, -- [14]
-							198647, -- [15]
-							[18] = 40579,
-							[19] = 40584,
-							[17] = 48661,
-							[20] = 40581,
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffa335ee|Hitem:45594:3823:40111:40129:40166::::80:::::::::|h[Beinplatten der endlosen Leere]|h|r", -- [1]
 							"|cffa335ee|Hitem:46176:3822:40034:40089:::::80:::::::::|h[Aegisbeinschützer des Eroberers]|h|r", -- [2]
@@ -1461,35 +1576,34 @@ DataStore_ContainersDB = {
 							[17] = "|cffa335ee|Hitem:48661:3808:40111::::::80:::::::::|h[Liadrins Schulterschützer des Triumphs]|h|r",
 							[20] = "|cffa335ee|Hitem:40581:3818:41380:40031:::::80:::::::::|h[Gesichtsschutz der tapferen Erlösung]|h|r",
 						},
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["icon"] = 133665,
 						["freeslots"] = 1,
+						["ids"] = {
+							45594, -- [1]
+							46176, -- [2]
+							46174, -- [3]
+							46173, -- [4]
+							46177, -- [5]
+							46175, -- [6]
+							43156, -- [7]
+							43154, -- [8]
+							23705, -- [9]
+							37897, -- [10]
+							37865, -- [11]
+							44788, -- [12]
+							46723, -- [13]
+							46800, -- [14]
+							198647, -- [15]
+							[18] = 40579,
+							[19] = 40584,
+							[17] = 48661,
+							[20] = 40581,
+						},
+						["icon"] = 133665,
+						["size"] = 20,
 					},
 					["Bag6"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							39690, -- [1]
-							44951, -- [2]
-							44951, -- [3]
-							44939, -- [4]
-							nil, -- [5]
-							40093, -- [6]
-							44150, -- [7]
-							44465, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							23768, -- [11]
-							45038, -- [12]
-							6657, -- [13]
-							6657, -- [14]
-							42641, -- [15]
-							23768, -- [16]
-							45262, -- [17]
-							48016, -- [18]
-							45322, -- [19]
-							45334, -- [20]
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffffffff|Hitem:39690::::::::80:::::::::|h[Unberechenbarer Sprengauslöser]|h|r", -- [1]
 							"|cffffffff|Hitem:44951::::::::80:::::::::|h[Kiste voller Bomben]|h|r", -- [2]
@@ -1512,9 +1626,6 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:45322::::::::80:::::::::|h[Umhang des Eisernen Rates]|h|r", -- [19]
 							"|cffa335ee|Hitem:45334::40015:40015:::::80:::::::::|h[Unzerstörbarer Brustschutz]|h|r", -- [20]
 						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							14, -- [1]
 							[6] = 20,
@@ -1525,124 +1636,34 @@ DataStore_ContainersDB = {
 							[11] = 20,
 						},
 						["freeslots"] = 3,
-					},
-				},
-				["numFreeBagSlots"] = 9,
-				["numBagSlots"] = 102,
-			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228475,
-				["numFreeBagSlots"] = 44,
-				["Containers"] = {
-					["Bag4"] = {
-						["rarity"] = 1,
-						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[Todesstofftasche]|h|r",
-						["links"] = {
-							[11] = "|cff0070dd|Hitem:38707:3369:::::::60:::::::::|h[Runenbeschriebene Seelenklinge]|h|r",
-							[10] = "|cff0070dd|Hitem:38675::::::::60:::::::::|h[Siegel der dunklen Bruderschaft]|h|r",
-							[12] = "|cffffffff|Hitem:6948::::::::60:::::::::|h[Ruhestein]|h|r",
-						},
-						["freeslots"] = 9,
 						["ids"] = {
-							[11] = 38707,
-							[10] = 38675,
-							[12] = 6948,
+							39690, -- [1]
+							44951, -- [2]
+							44951, -- [3]
+							44939, -- [4]
+							nil, -- [5]
+							40093, -- [6]
+							44150, -- [7]
+							44465, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							23768, -- [11]
+							45038, -- [12]
+							6657, -- [13]
+							6657, -- [14]
+							42641, -- [15]
+							23768, -- [16]
+							45262, -- [17]
+							48016, -- [18]
+							45322, -- [19]
+							45334, -- [20]
 						},
-						["icon"] = 133640,
-						["size"] = 12,
-					},
-					["Bag0"] = {
-						["counts"] = {
-							10, -- [1]
-							[3] = 20,
-							[17] = 3,
-							[8] = 4,
-							[10] = 2,
-							[12] = 20,
-							[14] = 2,
-							[16] = 2,
-							[15] = 5,
-						},
-						["freeslots"] = 1,
-						["ids"] = {
-							41751, -- [1]
-							39317, -- [2]
-							21877, -- [3]
-							25283, -- [4]
-							29935, -- [5]
-							27479, -- [6]
-							28399, -- [7]
-							27854, -- [8]
-							13446, -- [9]
-							4584, -- [10]
-							25399, -- [11]
-							14047, -- [12]
-							27859, -- [13]
-							14047, -- [14]
-							39327, -- [15]
-							8766, -- [16]
-							8932, -- [17]
-							30404, -- [18]
-							29911, -- [19]
-						},
+						["icon"] = 133665,
 						["size"] = 20,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["links"] = {
-							"|cffffffff|Hitem:41751::::::::60:::::::::|h[Schwarzer Pilz]|h|r", -- [1]
-							"|cff9d9d9d|Hitem:39317::::::::60:::::::::|h[Neues aus dem Norden]|h|r", -- [2]
-							"|cffffffff|Hitem:21877::::::::60:::::::::|h[Netherstoff]|h|r", -- [3]
-							"|cff1eff00|Hitem:25283::::::-36:268828684:60:::::::::|h[Kristallverzierter Ebenholzzauberstab des Zauberers]|h|r", -- [4]
-							"|cff1eff00|Hitem:29935::::::::60:::::::::|h[Feuervernarbte Brustplatte]|h|r", -- [5]
-							"|cffffffff|Hitem:27479::::::::60:::::::::|h[Flammende Fackel]|h|r", -- [6]
-							"|cffffffff|Hitem:28399::::::::60:::::::::|h[Gefiltertes draenisches Wasser]|h|r", -- [7]
-							"|cffffffff|Hitem:27854::::::::60:::::::::|h[Geräuchertes Talbukwildbret]|h|r", -- [8]
-							"|cffffffff|Hitem:13446::::::::60:::::::::|h[Erheblicher Heiltrank]|h|r", -- [9]
-							"|cff9d9d9d|Hitem:4584::::::::60:::::::::|h[Große Trophäentatze]|h|r", -- [10]
-							"|cff9d9d9d|Hitem:25399::::::::60:::::::::|h[Dürftige Klinge]|h|r", -- [11]
-							"|cffffffff|Hitem:14047::::::::60:::::::::|h[Runenstoff]|h|r", -- [12]
-							"|cffffffff|Hitem:27859::::::::60:::::::::|h[Zangarkappen]|h|r", -- [13]
-							"|cffffffff|Hitem:14047::::::::60:::::::::|h[Runenstoff]|h|r", -- [14]
-							"|cffffffff|Hitem:39327::::::::60:::::::::|h[Noths Spezialgebräu]|h|r", -- [15]
-							"|cffffffff|Hitem:8766::::::::60:::::::::|h[Trichterwindentau]|h|r", -- [16]
-							"|cffffffff|Hitem:8932::::::::60:::::::::|h[Alteraclochkäse]|h|r", -- [17]
-							"|cffffffff|Hitem:30404::::::::60:::::::::|h[Blutprobe des Blutenden Auges]|h|r", -- [18]
-							"|cff1eff00|Hitem:29911::::::::60:::::::::|h[Agammagans Kiel]|h|r", -- [19]
-						},
-					},
-					["Bag1"] = {
-						["rarity"] = 1,
-						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[Todesstofftasche]|h|r",
-						["links"] = {
-							"|cff9d9d9d|Hitem:25398::::::::60:::::::::|h[Steinschneide]|h|r", -- [1]
-							"|cff9d9d9d|Hitem:4583::::::::60:::::::::|h[Dicke fellige Mähne]|h|r", -- [2]
-						},
-						["freeslots"] = 10,
-						["ids"] = {
-							25398, -- [1]
-							4583, -- [2]
-						},
-						["icon"] = 133640,
-						["size"] = 12,
-					},
-					["Bag2"] = {
-						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[]|h|r",
-						["freeslots"] = 12,
-						["icon"] = 133640,
-						["size"] = 12,
-					},
-					["Bag3"] = {
-						["link"] = "|cffffffff|Hitem:38145::::::::60:::::::::|h[]|h|r",
-						["freeslots"] = 12,
-						["icon"] = 133640,
-						["size"] = 12,
-					},
-					["Bag-2"] = {
-						["freeslots"] = 32,
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["size"] = 32,
 					},
 				},
-				["numBagSlots"] = 68,
+				["numBagSlots"] = 102,
+				["numFreeBagSlots"] = 14,
 			},
 		},
 		["Guilds"] = {
@@ -1853,12 +1874,9 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:46378::::::::80:::::::::|h[Fläschchen des reinen Mojo]|h|r", -- [97]
 							"|cffffffff|Hitem:46378::::::::80:::::::::|h[Fläschchen des reinen Mojo]|h|r", -- [98]
 						},
-						["ServerHour"] = 20,
 						["ClientMinute"] = 17,
+						["ServerHour"] = 20,
 						["name"] = "Raid",
-						["icon"] = 237383,
-						["ClientHour"] = 20,
-						["ServerMinute"] = 16,
 						["counts"] = {
 							nil, -- [1]
 							nil, -- [2]
@@ -1959,6 +1977,9 @@ DataStore_ContainersDB = {
 							4, -- [97]
 							4, -- [98]
 						},
+						["ServerMinute"] = 16,
+						["ClientHour"] = 20,
+						["icon"] = 237383,
 						["size"] = 98,
 					}, -- [1]
 					{
@@ -1998,7 +2019,7 @@ DataStore_ContainersDB = {
 							[26] = 40212,
 							[30] = 33448,
 							[44] = 49632,
-							[95] = 43015,
+							[97] = 43015,
 							[35] = 44332,
 							[91] = 43015,
 							[83] = 46378,
@@ -2009,7 +2030,7 @@ DataStore_ContainersDB = {
 							[61] = 46379,
 							[74] = 46378,
 							[90] = 43015,
-							[97] = 43015,
+							[95] = 43015,
 						},
 						["ClientTime"] = 1699557454,
 						["visitedBy"] = "Alsia",
@@ -2048,7 +2069,7 @@ DataStore_ContainersDB = {
 							[26] = "|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r",
 							[30] = "|cffffffff|Hitem:33448::::::::80:::::::::|h[Runenverzierter Manatrank]|h|r",
 							[44] = "|cffffffff|Hitem:49632::::::::80:::::::::|h[Runenschriftrolle der Seelenstärke]|h|r",
-							[95] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
+							[97] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
 							[35] = "|cffffffff|Hitem:44332::::::::80:::::::::|h[Elixier der mächtigen Gedanken]|h|r",
 							[91] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
 							[83] = "|cffffffff|Hitem:46378::::::::80:::::::::|h[Fläschchen des reinen Mojo]|h|r",
@@ -2059,11 +2080,14 @@ DataStore_ContainersDB = {
 							[61] = "|cffffffff|Hitem:46379::::::::80:::::::::|h[Fläschchen des Steinbluts]|h|r",
 							[74] = "|cffffffff|Hitem:46378::::::::80:::::::::|h[Fläschchen des reinen Mojo]|h|r",
 							[90] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
-							[97] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
+							[95] = "|cffffffff|Hitem:43015::::::::80:::::::::|h[Fischmahl]|h|r",
 						},
-						["ClientMinute"] = 17,
 						["ServerHour"] = 20,
+						["ClientMinute"] = 17,
 						["ServerMinute"] = 16,
+						["icon"] = 237385,
+						["ClientHour"] = 20,
+						["name"] = "Raid Stock",
 						["counts"] = {
 							[27] = 20,
 							[31] = 20,
@@ -2099,7 +2123,7 @@ DataStore_ContainersDB = {
 							[26] = 17,
 							[30] = 20,
 							[44] = 20,
-							[95] = 20,
+							[97] = 20,
 							[35] = 20,
 							[91] = 20,
 							[83] = 20,
@@ -2110,11 +2134,8 @@ DataStore_ContainersDB = {
 							[61] = 10,
 							[74] = 20,
 							[90] = 20,
-							[97] = 20,
+							[95] = 20,
 						},
-						["name"] = "Raid Stock",
-						["ClientHour"] = 20,
-						["icon"] = 237385,
 						["size"] = 98,
 					}, -- [2]
 					{
@@ -2162,7 +2183,7 @@ DataStore_ContainersDB = {
 							[87] = 36926,
 							[72] = 37702,
 							[88] = 36918,
-							[86] = 36926,
+							[78] = 35625,
 							[43] = 35622,
 							[73] = 37702,
 							[89] = 36933,
@@ -2170,52 +2191,10 @@ DataStore_ContainersDB = {
 							[44] = 35622,
 							[19] = 44951,
 							[90] = 41266,
-							[78] = 35625,
+							[86] = 36926,
 						},
 						["ClientTime"] = 1699575238,
 						["visitedBy"] = "Alsia",
-						["counts"] = {
-							nil, -- [1]
-							5, -- [2]
-							2, -- [3]
-							4, -- [4]
-							2, -- [5]
-							[91] = 20,
-							[92] = 20,
-							[7] = 13,
-							[10] = 16,
-							[93] = 20,
-							[14] = 20,
-							[78] = 13,
-							[94] = 20,
-							[95] = 20,
-							[64] = 10,
-							[96] = 4,
-							[65] = 10,
-							[97] = 18,
-							[57] = 13,
-							[66] = 2,
-							[98] = 4,
-							[29] = 20,
-							[50] = 7,
-							[9] = 5,
-							[11] = 20,
-							[13] = 20,
-							[22] = 20,
-							[71] = 13,
-							[87] = 20,
-							[72] = 2,
-							[88] = 4,
-							[43] = 20,
-							[86] = 20,
-							[73] = 9,
-							[89] = 7,
-							[51] = 7,
-							[44] = 13,
-							[45] = 2,
-							[90] = 2,
-							[85] = 20,
-						},
 						["links"] = {
 							"|cffffffff|Hitem:44951::::::::80:::::::::|h[Kiste voller Bomben]|h|r", -- [1]
 							"|cffffffff|Hitem:39682::::::::80:::::::::|h[Überladener Kondensator]|h|r", -- [2]
@@ -2259,7 +2238,7 @@ DataStore_ContainersDB = {
 							[87] = "|cff1eff00|Hitem:36926::::::::80:::::::::|h[Schattenkristall]|h|r",
 							[72] = "|cffffffff|Hitem:37702::::::::80:::::::::|h[Kristallisiertes Feuer]|h|r",
 							[88] = "|cff0070dd|Hitem:36918::::::::80:::::::::|h[Scharlachrubin]|h|r",
-							[86] = "|cff1eff00|Hitem:36926::::::::80:::::::::|h[Schattenkristall]|h|r",
+							[78] = "|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r",
 							[43] = "|cff1eff00|Hitem:35622::::::::80:::::::::|h[Äonenwasser]|h|r",
 							[73] = "|cffffffff|Hitem:37702::::::::80:::::::::|h[Kristallisiertes Feuer]|h|r",
 							[89] = "|cff0070dd|Hitem:36933::::::::80:::::::::|h[Waldsmaragd]|h|r",
@@ -2267,14 +2246,56 @@ DataStore_ContainersDB = {
 							[44] = "|cff1eff00|Hitem:35622::::::::80:::::::::|h[Äonenwasser]|h|r",
 							[19] = "|cffffffff|Hitem:44951::::::::80:::::::::|h[Kiste voller Bomben]|h|r",
 							[90] = "|cff0070dd|Hitem:41266::::::::80:::::::::|h[Polarlichtdiamant]|h|r",
-							[78] = "|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r",
+							[86] = "|cff1eff00|Hitem:36926::::::::80:::::::::|h[Schattenkristall]|h|r",
 						},
-						["ClientMinute"] = 13,
 						["ServerHour"] = 1,
+						["ClientMinute"] = 13,
 						["ServerMinute"] = 14,
-						["name"] = "Mats 1",
-						["ClientHour"] = 1,
 						["icon"] = 236994,
+						["ClientHour"] = 1,
+						["name"] = "Mats 1",
+						["counts"] = {
+							nil, -- [1]
+							5, -- [2]
+							2, -- [3]
+							4, -- [4]
+							2, -- [5]
+							[91] = 20,
+							[92] = 20,
+							[7] = 13,
+							[10] = 16,
+							[93] = 20,
+							[14] = 20,
+							[78] = 13,
+							[94] = 20,
+							[95] = 20,
+							[64] = 10,
+							[96] = 4,
+							[65] = 10,
+							[97] = 18,
+							[57] = 13,
+							[66] = 2,
+							[98] = 4,
+							[29] = 20,
+							[50] = 7,
+							[9] = 5,
+							[11] = 20,
+							[13] = 20,
+							[22] = 20,
+							[71] = 13,
+							[87] = 20,
+							[72] = 2,
+							[88] = 4,
+							[85] = 20,
+							[86] = 20,
+							[73] = 9,
+							[89] = 7,
+							[45] = 2,
+							[44] = 13,
+							[51] = 7,
+							[90] = 2,
+							[43] = 20,
+						},
 						["size"] = 98,
 					}, -- [3]
 					{
@@ -2373,15 +2394,11 @@ DataStore_ContainersDB = {
 							41806, -- [91]
 							33568, -- [92]
 							38558, -- [93]
-							nil, -- [94]
-							nil, -- [95]
-							nil, -- [96]
-							33470, -- [97]
-							42253, -- [98]
+							[97] = 33470,
+							[98] = 42253,
 						},
 						["ClientTime"] = 1699575159,
 						["visitedBy"] = "Alsia",
-						["ServerMinute"] = 12,
 						["links"] = {
 							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [1]
 							"|cffffffff|Hitem:33447::::::::80:::::::::|h[Runenverzierter Heiltrank]|h|r", -- [2]
@@ -2476,17 +2493,12 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:41806::::::::80:::::::::|h[Muschelrückengroppe]|h|r", -- [91]
 							"|cffffffff|Hitem:33568::::::::80:::::::::|h[Boreanisches Leder]|h|r", -- [92]
 							"|cffffffff|Hitem:38558::::::::80:::::::::|h[Nerubisches Chitin]|h|r", -- [93]
-							nil, -- [94]
-							nil, -- [95]
-							nil, -- [96]
-							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [97]
-							"|cffffffff|Hitem:42253::::::::80:::::::::|h[Vereiste Spinnenseide]|h|r", -- [98]
+							[97] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
+							[98] = "|cffffffff|Hitem:42253::::::::80:::::::::|h[Vereiste Spinnenseide]|h|r",
 						},
-						["ServerHour"] = 1,
 						["ClientMinute"] = 12,
-						["name"] = "Mats 2",
-						["ClientHour"] = 1,
-						["icon"] = 236994,
+						["ServerHour"] = 1,
+						["ServerMinute"] = 12,
 						["counts"] = {
 							15, -- [1]
 							20, -- [2]
@@ -2581,12 +2593,12 @@ DataStore_ContainersDB = {
 							20, -- [91]
 							20, -- [92]
 							20, -- [93]
-							nil, -- [94]
-							nil, -- [95]
-							nil, -- [96]
-							7, -- [97]
-							12, -- [98]
+							[97] = 7,
+							[98] = 12,
 						},
+						["name"] = "Mats 2",
+						["ClientHour"] = 1,
+						["icon"] = 236994,
 						["size"] = 98,
 					}, -- [4]
 					{
@@ -2628,18 +2640,17 @@ DataStore_ContainersDB = {
 							[87] = 39005,
 							[52] = 22445,
 							[60] = 22445,
-							[92] = 38986,
+							[20] = 34055,
 							[13] = 34054,
 							[89] = 34057,
 							[85] = 38961,
 							[82] = 34057,
 							[19] = 34055,
 							[90] = 34057,
-							[20] = 34055,
+							[92] = 38986,
 						},
 						["ClientTime"] = 1699575249,
 						["visitedBy"] = "Alsia",
-						["ServerMinute"] = 14,
 						["links"] = {
 							[27] = "|cff1eff00|Hitem:34055::::::::80:::::::::|h[Große kosmische Essenz]|h|r",
 							[91] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[Tiefenkristall]|h|r",
@@ -2677,20 +2688,18 @@ DataStore_ContainersDB = {
 							[87] = "|cffffffff|Hitem:39005::::::::80:::::::::|h[Rolle der Brustverzauberung - Erstklassige Gesundheit]|h|r",
 							[52] = "|cffffffff|Hitem:22445::::::::80:::::::::|h[Arkaner Staub]|h|r",
 							[60] = "|cffffffff|Hitem:22445::::::::80:::::::::|h[Arkaner Staub]|h|r",
-							[92] = "|cffffffff|Hitem:38986::::::::80:::::::::|h[Rolle der Stiefelverzauberung - Eiswandler]|h|r",
+							[20] = "|cff1eff00|Hitem:34055::::::::80:::::::::|h[Große kosmische Essenz]|h|r",
 							[13] = "|cffffffff|Hitem:34054::::::::80:::::::::|h[Schleierstaub]|h|r",
 							[89] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[Tiefenkristall]|h|r",
 							[85] = "|cffffffff|Hitem:38961::::::::80:::::::::|h[Rolle der Stiefelverzauberung - Große Willenskraft]|h|r",
 							[82] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[Tiefenkristall]|h|r",
 							[19] = "|cff1eff00|Hitem:34055::::::::80:::::::::|h[Große kosmische Essenz]|h|r",
 							[90] = "|cffa335ee|Hitem:34057::::::::80:::::::::|h[Tiefenkristall]|h|r",
-							[20] = "|cff1eff00|Hitem:34055::::::::80:::::::::|h[Große kosmische Essenz]|h|r",
+							[92] = "|cffffffff|Hitem:38986::::::::80:::::::::|h[Rolle der Stiefelverzauberung - Eiswandler]|h|r",
 						},
-						["ServerHour"] = 1,
 						["ClientMinute"] = 14,
-						["name"] = "VZ",
-						["ClientHour"] = 1,
-						["icon"] = 133851,
+						["ServerHour"] = 1,
+						["ServerMinute"] = 14,
 						["counts"] = {
 							[27] = 10,
 							[91] = 20,
@@ -2724,14 +2733,17 @@ DataStore_ContainersDB = {
 							[86] = 2,
 							[52] = 20,
 							[60] = 8,
-							[13] = 20,
+							[20] = 10,
 							[89] = 20,
 							[85] = 3,
 							[82] = 20,
 							[19] = 2,
 							[90] = 20,
-							[20] = 10,
+							[13] = 20,
 						},
+						["name"] = "VZ",
+						["ClientHour"] = 1,
+						["icon"] = 133851,
 						["size"] = 98,
 					}, -- [5]
 					{
@@ -2772,54 +2784,47 @@ DataStore_ContainersDB = {
 							36906, -- [33]
 							36906, -- [34]
 							36906, -- [35]
-							nil, -- [36]
-							nil, -- [37]
-							nil, -- [38]
-							nil, -- [39]
-							nil, -- [40]
-							nil, -- [41]
-							36908, -- [42]
-							36908, -- [43]
-							36908, -- [44]
-							36908, -- [45]
-							36908, -- [46]
-							36908, -- [47]
-							36908, -- [48]
-							36908, -- [49]
-							36903, -- [50]
-							36903, -- [51]
-							[59] = 40411,
-							[60] = 40411,
-							[61] = 40411,
-							[62] = 40411,
-							[63] = 40411,
-							[83] = 42546,
-							[89] = 40215,
-							[91] = 40215,
-							[93] = 47556,
-							[95] = 40215,
-							[97] = 40215,
-							[70] = 37704,
-							[72] = 22838,
-							[74] = 40087,
-							[76] = 35625,
-							[82] = 45912,
-							[84] = 42546,
-							[86] = 47556,
-							[88] = 40215,
-							[90] = 40215,
-							[92] = 49908,
-							[94] = 47556,
-							[96] = 40215,
-							[98] = 40215,
-							[71] = 44329,
-							[73] = 40109,
 							[75] = 9172,
+							[46] = 36908,
+							[62] = 40411,
+							[76] = 35625,
+							[92] = 49908,
 							[77] = 35625,
+							[47] = 36908,
+							[63] = 40411,
+							[94] = 47556,
+							[48] = 36908,
+							[96] = 40215,
+							[49] = 36908,
+							[82] = 45912,
+							[98] = 40215,
+							[42] = 36908,
+							[50] = 36903,
+							[84] = 42546,
+							[43] = 36908,
+							[51] = 36903,
+							[59] = 40411,
+							[70] = 37704,
+							[86] = 47556,
+							[83] = 42546,
+							[71] = 44329,
+							[44] = 36908,
+							[93] = 47556,
+							[60] = 40411,
+							[72] = 22838,
+							[88] = 40215,
+							[95] = 40215,
+							[45] = 36908,
+							[73] = 40109,
+							[89] = 40215,
+							[97] = 40215,
+							[61] = 40411,
+							[74] = 40087,
+							[90] = 40215,
+							[91] = 40215,
 						},
 						["ClientTime"] = 1699575251,
 						["visitedBy"] = "Alsia",
-						["ServerMinute"] = 14,
 						["links"] = {
 							"|cffffffff|Hitem:36905::::::::80:::::::::|h[Lichblüte]|h|r", -- [1]
 							"|cffffffff|Hitem:36905::::::::80:::::::::|h[Lichblüte]|h|r", -- [2]
@@ -2856,56 +2861,48 @@ DataStore_ContainersDB = {
 							"|cffffffff|Hitem:36906::::::::80:::::::::|h[Eisdorn]|h|r", -- [33]
 							"|cffffffff|Hitem:36906::::::::80:::::::::|h[Eisdorn]|h|r", -- [34]
 							"|cffffffff|Hitem:36906::::::::80:::::::::|h[Eisdorn]|h|r", -- [35]
-							nil, -- [36]
-							nil, -- [37]
-							nil, -- [38]
-							nil, -- [39]
-							nil, -- [40]
-							nil, -- [41]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [42]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [43]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [44]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [45]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [46]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [47]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [48]
-							"|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r", -- [49]
-							"|cffffffff|Hitem:36903::::::::80:::::::::|h[Schlangenzunge]|h|r", -- [50]
-							"|cffffffff|Hitem:36903::::::::80:::::::::|h[Schlangenzunge]|h|r", -- [51]
-							[59] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
-							[60] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
-							[61] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
-							[62] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
-							[63] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
-							[83] = "|cffffffff|Hitem:42546::::::::80:::::::::|h[Einspritzerset: Manatrank]|h|r",
-							[89] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[91] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[93] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-							[95] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[97] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[70] = "|cffffffff|Hitem:37704::::::::80:::::::::|h[Kristallisiertes Leben]|h|r",
-							[72] = "|cffffffff|Hitem:22838::::::::80:::::::::|h[Hasttrank]|h|r",
-							[74] = "|cffffffff|Hitem:40087::::::::80:::::::::|h[Mächtiger Verjüngungstrank]|h|r",
-							[76] = "|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r",
-							[82] = "|cff1eff00|Hitem:45912::::::::80:::::::::|h[Buch der Glyphenbeherrschung]|h|r",
-							[84] = "|cffffffff|Hitem:42546::::::::80:::::::::|h[Einspritzerset: Manatrank]|h|r",
-							[86] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-							[88] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[90] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[92] = "|cff0070dd|Hitem:49908::::::::80:::::::::|h[Urtümliches Saronit]|h|r",
-							[94] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
-							[96] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[98] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
-							[71] = "|cffffffff|Hitem:44329::::::::80:::::::::|h[Elixier der Waffenkunde]|h|r",
-							[73] = "|cffffffff|Hitem:40109::::::::80:::::::::|h[Elixier des mächtigen Magierbluts]|h|r",
 							[75] = "|cffffffff|Hitem:9172::::::::80:::::::::|h[Unsichtbarkeitstrank]|h|r",
+							[46] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[62] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
+							[76] = "|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r",
+							[92] = "|cff0070dd|Hitem:49908::::::::80:::::::::|h[Urtümliches Saronit]|h|r",
 							[77] = "|cff1eff00|Hitem:35625::::::::80:::::::::|h[Äonenleben]|h|r",
+							[47] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[63] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
+							[94] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+							[48] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[96] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[49] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[82] = "|cff1eff00|Hitem:45912::::::::80:::::::::|h[Buch der Glyphenbeherrschung]|h|r",
+							[98] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[42] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[50] = "|cffffffff|Hitem:36903::::::::80:::::::::|h[Schlangenzunge]|h|r",
+							[84] = "|cffffffff|Hitem:42546::::::::80:::::::::|h[Einspritzerset: Manatrank]|h|r",
+							[43] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[51] = "|cffffffff|Hitem:36903::::::::80:::::::::|h[Schlangenzunge]|h|r",
+							[59] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
+							[70] = "|cffffffff|Hitem:37704::::::::80:::::::::|h[Kristallisiertes Leben]|h|r",
+							[86] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+							[83] = "|cffffffff|Hitem:42546::::::::80:::::::::|h[Einspritzerset: Manatrank]|h|r",
+							[71] = "|cffffffff|Hitem:44329::::::::80:::::::::|h[Elixier der Waffenkunde]|h|r",
+							[44] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[93] = "|cff0070dd|Hitem:47556::::::::80:::::::::|h[Kugel des Kreuzfahrers]|h|r",
+							[60] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
+							[72] = "|cffffffff|Hitem:22838::::::::80:::::::::|h[Hasttrank]|h|r",
+							[88] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[95] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[45] = "|cff1eff00|Hitem:36908::::::::80:::::::::|h[Frostlotus]|h|r",
+							[73] = "|cffffffff|Hitem:40109::::::::80:::::::::|h[Elixier des mächtigen Magierbluts]|h|r",
+							[89] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[97] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[61] = "|cffffffff|Hitem:40411::::::::80:::::::::|h[Verzauberte Phiole]|h|r",
+							[74] = "|cffffffff|Hitem:40087::::::::80:::::::::|h[Mächtiger Verjüngungstrank]|h|r",
+							[90] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
+							[91] = "|cffffffff|Hitem:40215::::::::80:::::::::|h[Mächtiger Frostschutztrank]|h|r",
 						},
-						["ServerHour"] = 1,
 						["ClientMinute"] = 14,
-						["name"] = "Rest",
-						["ClientHour"] = 1,
-						["icon"] = 237177,
+						["ServerHour"] = 1,
+						["ServerMinute"] = 14,
 						["counts"] = {
 							20, -- [1]
 							20, -- [2]
@@ -2942,50 +2939,47 @@ DataStore_ContainersDB = {
 							20, -- [33]
 							20, -- [34]
 							20, -- [35]
-							nil, -- [36]
-							nil, -- [37]
-							nil, -- [38]
-							nil, -- [39]
-							nil, -- [40]
-							nil, -- [41]
-							20, -- [42]
-							20, -- [43]
-							20, -- [44]
-							20, -- [45]
-							19, -- [46]
-							20, -- [47]
-							20, -- [48]
-							20, -- [49]
-							20, -- [50]
-							20, -- [51]
-							[59] = 20,
-							[60] = 11,
-							[61] = 20,
-							[62] = 20,
-							[63] = 20,
-							[83] = 11,
-							[89] = 20,
-							[91] = 20,
-							[93] = 20,
-							[95] = 20,
-							[97] = 20,
-							[70] = 5,
-							[72] = 20,
-							[74] = 5,
-							[76] = 6,
-							[84] = 20,
-							[86] = 4,
-							[88] = 20,
-							[90] = 20,
-							[92] = 6,
-							[94] = 20,
-							[96] = 20,
-							[98] = 20,
-							[71] = 4,
-							[73] = 9,
 							[75] = 13,
+							[46] = 19,
+							[62] = 20,
+							[76] = 6,
+							[92] = 6,
 							[77] = 20,
+							[47] = 20,
+							[63] = 20,
+							[94] = 20,
+							[48] = 20,
+							[96] = 20,
+							[49] = 20,
+							[98] = 20,
+							[42] = 20,
+							[50] = 20,
+							[84] = 20,
+							[43] = 20,
+							[51] = 20,
+							[59] = 20,
+							[70] = 5,
+							[86] = 4,
+							[83] = 11,
+							[71] = 4,
+							[44] = 20,
+							[93] = 20,
+							[60] = 11,
+							[72] = 20,
+							[88] = 20,
+							[95] = 20,
+							[45] = 20,
+							[73] = 9,
+							[89] = 20,
+							[97] = 20,
+							[61] = 20,
+							[74] = 5,
+							[90] = 20,
+							[91] = 20,
 						},
+						["name"] = "Rest",
+						["ClientHour"] = 1,
+						["icon"] = 237177,
 						["size"] = 98,
 					}, -- [6]
 				},

@@ -13,26 +13,43 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1699529342,
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1699529432,
+				["lastUpdate"] = 1699657570,
+				["DungeonIDs"] = {
+					["Die Seelenschmiede Heroisch|272374526"] = "17630|1699657570|0|0",
+					["Das Oculus Heroisch|272379396"] = "17630|1699657570|0|0",
+				},
+				["BossKills"] = {
+					["Die Seelenschmiede Heroisch|272374526"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
+					["Das Oculus Heroisch|272379396"] = {
+						"Drakos der Befrager|1", -- [1]
+						"Varos Wolkenwanderer|1", -- [2]
+						"Magierlord Urom|1", -- [3]
+						"Leywächter Eregos|1", -- [4]
+					},
+				},
 			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1699529388,
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228475,
-			},
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Archavons Kammer 25 Spieler|191829397"] = "457649|1699563151|0|1",
-					["Archavons Kammer 10 Spieler|191831955"] = "457649|1699563151|0|1",
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191916192"] = "457649|1699563151|0|1",
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191930589"] = "363298|1699657501|0|1",
+					["Archavons Kammer 10 Spieler|191831955"] = "363298|1699657501|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191916192"] = "363298|1699657501|0|1",
+					["Archavons Kammer 25 Spieler|191829397"] = "363298|1699657501|0|1",
+					["Die Seelenschmiede Heroisch|272373100"] = "17698|1699657501|0|0",
+					["Prüfung des Kreuzfahrers 25 Spieler (Heroisch)|191965863"] = "363298|1699657501|0|1",
 				},
 				["BossKills"] = {
-					["Archavons Kammer 25 Spieler|191829397"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|1", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
+					["Prüfung des Kreuzfahrers 10 Spieler (Heroisch)|191930589"] = {
+						"Bestien von Nordend|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Fraktionschampions|1", -- [3]
+						"Zwillingsval'kyr|1", -- [4]
+						"Anub'arak|1", -- [5]
 					},
 					["Archavons Kammer 10 Spieler|191831955"] = {
 						"Archavon der Steinwächter|0", -- [1]
@@ -45,17 +62,37 @@ DataStore_AgendaDB = {
 						"Lady Todeswisper|1", -- [2]
 						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
 						"Todesbringer Saurfang|1", -- [4]
-						"Fauldarm|0", -- [5]
-						"Modermiene|0", -- [6]
-						"Professor Seuchenmord|0", -- [7]
+						"Fauldarm|1", -- [5]
+						"Modermiene|1", -- [6]
+						"Professor Seuchenmord|1", -- [7]
 						"Rat des Blutes|1", -- [8]
 						"Blutkönigin Lana'thel|1", -- [9]
-						"Valithria Traumwandler|0", -- [10]
-						"Sindragosa|0", -- [11]
+						"Valithria Traumwandler|1", -- [10]
+						"Sindragosa|1", -- [11]
 						"Der Lichkönig|0", -- [12]
 					},
+					["Archavons Kammer 25 Spieler|191829397"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|1", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
+					["Die Seelenschmiede Heroisch|272373100"] = {
+						"Bronjahm|1", -- [1]
+						"Verschlinger der Seelen|1", -- [2]
+					},
+					["Prüfung des Kreuzfahrers 25 Spieler (Heroisch)|191965863"] = {
+						"Bestien von Nordend|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Fraktionschampions|1", -- [3]
+						"Zwillingsval'kyr|1", -- [4]
+						"Anub'arak|1", -- [5]
+					},
 				},
-				["lastUpdate"] = 1699563151,
+				["lastUpdate"] = 1699657501,
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228475,
 			},
 		},
 	},
