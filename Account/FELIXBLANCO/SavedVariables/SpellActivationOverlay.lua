@@ -49,14 +49,14 @@ SpellActivationOverlayDB = {
 				[52437] = {
 					[5308] = true,
 				},
-				[34428] = {
-					[34428] = true,
+				[50227] = {
+					[23922] = true,
 				},
 				[46916] = {
 					[1464] = true,
 				},
-				[50227] = {
-					[23922] = true,
+				[34428] = {
+					[34428] = true,
 				},
 			},
 		},
@@ -72,13 +72,16 @@ SpellActivationOverlayDB = {
 					[5] = true,
 					[0] = true,
 				},
+				[60515] = {
+					[0] = false,
+				},
 			},
 			["glow"] = {
 				[53817] = {
 					[403] = false,
-					[421] = false,
-					[8004] = false,
 					[1064] = false,
+					[8004] = false,
+					[421] = false,
 					[331] = false,
 					[51514] = false,
 				},
@@ -108,13 +111,13 @@ SpellActivationOverlayDB = {
 				[5276] = {
 					[0] = false,
 				},
-				[54741] = {
+				[74396] = {
 					[0] = true,
 				},
 				[12536] = {
 					[0] = false,
 				},
-				[74396] = {
+				[54741] = {
 					[0] = true,
 				},
 				[96215] = {
@@ -139,22 +142,25 @@ SpellActivationOverlayDB = {
 					[30455] = true,
 					[44572] = true,
 				},
+				[48108] = {
+					[11366] = true,
+				},
 				[57761] = {
 					[133] = true,
 					[44614] = true,
-				},
-				[48108] = {
-					[11366] = true,
 				},
 			},
 		},
 		["PRIEST"] = {
 			["alert"] = {
+				[63734] = {
+					[3] = true,
+					[0] = false,
+				},
 				[33151] = {
 					[0] = true,
 				},
-				[63734] = {
-					[3] = true,
+				[60514] = {
 					[0] = false,
 				},
 			},
@@ -217,12 +223,12 @@ SpellActivationOverlayDB = {
 				},
 			},
 			["glow"] = {
+				[19306] = {
+					[19306] = true,
+				},
 				[56453] = {
 					[3044] = true,
 					[53301] = true,
-				},
-				[19306] = {
-					[19306] = true,
 				},
 				[53220] = {
 					[19434] = true,
@@ -231,6 +237,9 @@ SpellActivationOverlayDB = {
 				},
 				[53351] = {
 					[53351] = true,
+				},
+				[1495] = {
+					[1495] = true,
 				},
 			},
 		},
@@ -245,14 +254,17 @@ SpellActivationOverlayDB = {
 				[16886] = {
 					[0] = false,
 				},
-				[48517] = {
-					[0] = true,
-				},
 				[64823] = {
 					[0] = false,
 				},
+				[48517] = {
+					[0] = true,
+				},
 				[69369] = {
 					[0] = true,
+				},
+				[60512] = {
+					[0] = false,
 				},
 				[46833] = {
 					[0] = false,
@@ -272,8 +284,8 @@ SpellActivationOverlayDB = {
 					[339] = false,
 					[50464] = false,
 					[20484] = false,
-					[8936] = false,
 					[5176] = false,
+					[8936] = false,
 					[5185] = true,
 					[33786] = true,
 					[2637] = false,
@@ -302,6 +314,9 @@ SpellActivationOverlayDB = {
 				},
 				[59578] = {
 					[0] = true,
+				},
+				[60513] = {
+					[0] = false,
 				},
 			},
 			["glow"] = {

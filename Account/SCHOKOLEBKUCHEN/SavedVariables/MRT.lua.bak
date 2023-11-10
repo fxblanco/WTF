@@ -331,8 +331,8 @@ VMRT = {
 		},
 		["names"] = {
 			[756] = "Yogg-Saron",
-			[633] = "Lord Jaraxxus",
 			[757] = "Algalon der Beobachter",
+			[633] = "Lord Jaraxxus",
 			[742] = "Sartharion",
 			[851] = "Professor Seuchenmord",
 			[755] = "General Vezax",
@@ -353,8 +353,8 @@ VMRT = {
 			[629] = "Bestien von Nordend",
 			[751] = "Hodir",
 			[753] = "Freya",
-			[845] = "Lord Mark'gar",
 			[752] = "Thorim",
+			[845] = "Lord Mark'gar",
 			[846] = "Lady Todeswisper",
 			[645] = "Anub'arak",
 			[754] = "Mimiron",
@@ -417,23 +417,23 @@ VMRT = {
 			["Raikii"] = 0,
 			["Xoyolive"] = 0,
 			["Onixus"] = 0,
-			["Moonbird"] = 0,
+			["Shikimora"] = 0,
 			["Supersayajín"] = 0,
 			["Gnag"] = 0,
-			["Døømdruid"] = 0,
-			["Xolem"] = 0,
-			["Shikimora"] = 0,
 			["Shamir"] = 0,
+			["Xolem"] = 0,
+			["Døømdruid"] = 0,
 			["Xeeli"] = 0,
 			["Kwasimojo"] = 0,
-			["Smorcmeister"] = 0,
 			["Domedonmaya"] = 0,
-			["Schetner"] = 0,
+			["Smorcmeister"] = 0,
 			["Eîssenpai"] = 0,
+			["Schetner"] = 0,
 			["Vanec"] = 0,
-			["Ehlia"] = 0,
-			["Morai"] = 0,
 			["Damaze"] = 0,
+			["Ehlia"] = 0,
+			["Moonbird"] = 0,
+			["Morai"] = 0,
 			["Exonuklease"] = 0,
 			["Ukban"] = 0,
 			["Sbudbencer"] = 0,
@@ -462,11 +462,11 @@ VMRT = {
 			["12975;1"] = 1,
 			["49576;1"] = 3,
 			["16190;1"] = 4,
-			["20608;1"] = 2,
+			["9863;1"] = 2,
 			["1038;1"] = 3,
 			["31821;1"] = 2,
 			["871;1"] = 1,
-			["9863;1"] = 2,
+			["20608;1"] = 2,
 			["2825;1"] = 2,
 			["20748;1"] = 2,
 			["2062;1"] = 2,
@@ -648,11 +648,11 @@ VMRT = {
 				["blacklistGeneral"] = true,
 				["textureAlphaCooldown"] = 0.85,
 				["textureColorTimeLineActiveB"] = 1,
-				["frameWidth"] = 130,
+				["textureColorTimeLineDefaultG"] = 1,
 				["textureColorBackgroundActiveG"] = 1,
 				["textureColorTimeLineDefaultB"] = 1,
 				["textureAlphaBackground"] = 0.15,
-				["textureColorTimeLineDefaultG"] = 1,
+				["textureAnimation"] = true,
 				["textureClassTimeLine"] = true,
 				["textureColorTimeLineActiveR"] = 1,
 				["fontSize"] = 12,
@@ -671,20 +671,20 @@ VMRT = {
 				["textureColorTimeLineDefaultR"] = 1,
 				["textureAlphaTimeLine"] = 1,
 				["textureClassText"] = false,
-				["methodsTimeLineAnimation"] = 2,
+				["iconGlowType"] = 4,
 				["frameScale"] = 80,
 				["textureColorBackgroundCooldownB"] = 1,
-				["iconGlowType"] = 4,
+				["methodsTimeLineAnimation"] = 2,
 				["textureColorBackgroundCooldownR"] = 1,
 				["frameStrata"] = "MEDIUM",
 				["textureColorTimeLineActiveG"] = 1,
 				["textureColorTextActiveG"] = 1,
 				["textureColorTextCooldownR"] = 1,
 				["visibilityGeneral"] = true,
-				["textureColorTextActiveR"] = 0.5,
 				["textTemplateRight"] = "%time%",
+				["textureColorTextActiveR"] = 0.5,
 				["textureColorBackgroundActiveB"] = 1,
-				["textureAnimation"] = true,
+				["frameWidth"] = 130,
 				["textureColorTextDefaultG"] = 1,
 			}, -- [11]
 		},
@@ -832,6 +832,18 @@ VMRT = {
 			"Valy", -- [4]
 			nil, -- [5]
 			"Lord Mark'gar*", -- [6]
+			"Lord Marrowgar*", -- [7]
+			"Lady Deathwhisper*", -- [8]
+			"Deathbringer Saurfang*", -- [9]
+			"Festergut*", -- [10]
+			"Rotface*", -- [11]
+			"Rotface & Festergu*", -- [12]
+			"Professor Putricide*", -- [13]
+			"Blood Council*", -- [14]
+			"Queen Lana'thel*", -- [15]
+			"Valithria Dreamwalker*", -- [16]
+			"Sindragosa*", -- [17]
+			"The Lich King*", -- [18]
 		},
 		["Strata"] = "HIGH",
 		["AutoLoad"] = {
@@ -841,21 +853,55 @@ VMRT = {
 		["SelfText"] = "",
 		["Fix"] = true,
 		["ScaleBack"] = 0,
-		["Text1"] = "{spell:69146} {time:00:05,SCC:69146:1}||cffee5555Cold Flame||r - ||cfff58cbaShikimora||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - Jocindyr {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69076} {time:00:00,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaLiptea||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - Hanaltar {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205} \n",
-		["LastUpdateTime"] = 1699186678,
-		["DefName"] = "Lord Mark'gar",
+		["Text1"] = "{spell:2825} Bloodlust\nP3 after all Raging Spirits are dead\n\nInfest Cooldowns\n1 - none \n2 - Bermskyle Divine Sacrifice {spell:64205}\n3 - Liptea Aura Mastery {spell:31821}{spell:48943} \n4 - Alsia Divine Sacrifice {spell:64205}\n5 - Bermskyle Aura Mastery {spell:31821}{spell:48943} \n6 - Liptea Divine Sacrifice {spell:64205}\n\nSoul Reaper Cooldowns - P2\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n5 -    / Alsia Divine Protection{spell:498}\n6 -    / Bubbledine Divine Protection{spell:498}\nRepeat\n\nPhase 3\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n\nVal'kyr Stuns\n{rt2} Alsia HoJ {spell:10308}\n{rt2} Shikimora Holy Wrath {spell:48817}\n{rt2} Alsia Holy Wrath {spell:48817}\n{rt2} Ukban Cheap Shot {spell:1833}\n{rt3} Shikimora HoJ {spell:10308}\n{rt3} Shikimora Holy Wrath {spell:48817}\n{rt3} Alsia Holy Wrath {spell:48817}\n{rt3} Onixus Cheap Shot {spell:1833}\n{rt1} Bermskyle HoJ {spell:10308}\n{rt1} Shikimora Holy Wrath {spell:48817}\n{rt1} Alsia Holy Wrath {spell:48817}\n{rt1} Liptea HoJ {spell:10308}",
 		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
-		["SaveAllNew"] = true,
-		["LastUpdateName"] = "Alsia",
+		["enabled"] = true,
 		["Alpha"] = 50,
-		["Top"] = 614.59722900391,
+		["SaveAllNew"] = true,
+		["LastUpdateName"] = "Alsia-Venoxis",
 		["TimerPassedHide"] = true,
+		["Top"] = 614.59722900391,
+		["LastUpdateTime"] = 1699486961,
 		["Width"] = 380.0000305175781,
 		["BlackLastUpdateName"] = {
 			"Alsia-Venoxis", -- [1]
-			[5] = "Alsia-Venoxis",
-			[6] = "Alsia",
-			[3] = "Alsia-Venoxis",
+			nil, -- [2]
+			"Alsia-Venoxis", -- [3]
+			nil, -- [4]
+			"Alsia-Venoxis", -- [5]
+			"Alsia", -- [6]
+			"Alsia-Venoxis", -- [7]
+			"Alsia-Venoxis", -- [8]
+			"Alsia-Venoxis", -- [9]
+			"Alsia-Venoxis", -- [10]
+			"Alsia-Venoxis", -- [11]
+			"Alsia-Venoxis", -- [12]
+			"Alsia-Venoxis", -- [13]
+			"Alsia-Venoxis", -- [14]
+			"Alsia-Venoxis", -- [15]
+			"Alsia-Venoxis", -- [16]
+			"Alsia-Venoxis", -- [17]
+			"Alsia-Venoxis", -- [18]
+		},
+		["BlackLastUpdateTime"] = {
+			1697739452, -- [1]
+			nil, -- [2]
+			1697739396, -- [3]
+			nil, -- [4]
+			1698952051, -- [5]
+			1699186678, -- [6]
+			1699486221, -- [7]
+			1699486306, -- [8]
+			1699486337, -- [9]
+			1699486425, -- [10]
+			1699486452, -- [11]
+			1699486475, -- [12]
+			1699486514, -- [13]
+			1699486819, -- [14]
+			1699486566, -- [15]
+			1699486832, -- [16]
+			1699486848, -- [17]
+			1699486961, -- [18]
 		},
 		["Black"] = {
 			"{spell:69279} {time:00:05,SCS:69195:1}||cffee5555Gas Spore||r - ||cfff58cbaBermskyle||r {spell:64205}\n{spell:69279} {time:00:05,SCS:69195:2}||cffee5555Gas Spore||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69279} {time:00:05,SCS:69195:3}||cffee5555Gas Spore||r - ||cfff58cbaAsdâlan||r {spell:64205}\n{spell:69279} {time:00:05,SCS:69195:4}||cffee5555Gas Spore||r - ||cfff58cbaBremskyle||r {spell:64205} - DONT MOVE\n{spell:69279} {time:00:05,SCS:69195:5}||cffee5555Gas Spore||r - ||cfff58cbaAlsia||r {spell:64205} - DONT MOVE\n{spell:69279} {time:00:05,SCS:69195:6}||cffee5555Gas Spore||r - ||cfff58cbaAsdâlan||r {spell:64205} - DONT MOVE\n{spell:69195} {time:00:05,SCS:69195:1}||cff5555eePungent Blight||r - ||cfff58cbaLiptea||r {spell:31821}{spell:64205}\n{time:02:20}||cffee5555High AoE||r - Hanaltar {spell:64843}\n\n---TANK CDS---\n{time:01:00}BubbleSac auf ||cffff7d0aPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:642}{spell:6940}\n{time:01:12}Use CD - ||cffff7d0aPLAYERNAME||r {spell:22812}\n{time:01:15}Use CD - ||cffff7d0aPLAYERNAME||r {spell:61336}\n{time:01:23}Sac auf ||cffff7d0aPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:6940}\n{time:01:35}Salv auf ||cffff7d0aPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:1038}\n{time:01:35}Taunt - ||cfff58cbaPLAYERNAME||r {spell:62124}\n{time:01:45}Use CD - ||cfff58cbaPLAYERNAME||r {spell:498}\n{time:02:00}PS auf ||cfff58cbaPLAYERNAME||r - PLAYERNAME {spell:33206}\n{time:02:07}Use CD - ||cfff58cbaPLAYERNAME||r {spell:1038}\n{time:02:08}LoH auf ||cfff58cbaPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:633}\n{time:03:20}Use CD - ||cfff58cbaPLAYERNAME||r {spell:642}\n{time:03:58}BSac auf ||cfff58cbaPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:642}{spell:6940}\n{time:04:08}Use CD - ||cfff58cbaPLAYERNAME||r {spell:1038}\n{time:04:20}LoH auf ||cfff58cbaPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:633}\n{time:04:24}PS auf ||cfff58cbaPLAYERNAME||r - PLAYERNAME {spell:33206} \n", -- [1]
@@ -864,18 +910,24 @@ VMRT = {
 			"---RAID CDS---\n{spell:69325} {time:00:05,SCC:69325:1}||cffee5555Lay Waste||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69325} {time:00:05,SCC:69325:2}||cffee5555Lay Waste||r - ||cfff58cbaLiptea||r {spell:64205}", -- [4]
 			"\"Heroism\n{time:0:05,p1} Heroism {spell:32182}\n\n1st Bone Storm Cooldowns\nAlsia: Divine Sacrifice {spell:64205} \nBermskyle: Divine Sacrifice {spell:64205} \nMyjuice: Aura Mastery {spell:31821} {spell:48945}\nSerferine: Divine Hymn {spell:64843} \n\n2nd Bone Storm Cooldowns\nMyjuice: Divine Sacrifice {spell:64205} \nShikimora: Aura Mastery {spell:31821} {spell:48945}\nBermskyle: Aura Mastery {spell:31821} {spell:48945}\nHanaltar: Divine Hymn {spell:64843} \n\"                \n                ", -- [5]
 			"{spell:69146} {time:00:05,SCC:69146:1}||cffee5555Cold Flame||r - ||cfff58cbaShikimora||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - Jocindyr {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69076} {time:00:00,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaLiptea||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - Hanaltar {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205} \n", -- [6]
-		},
-		["BlackLastUpdateTime"] = {
-			1697739452, -- [1]
-			[5] = 1698952051,
-			[6] = 1699186678,
-			[3] = 1697739396,
+			"{time:0:05,p1} Bloodlust {spell:2825}\n\n1st Bone Storm Cooldowns\n{spell:69076} {time:00:00,SCS:69076:1}||cffee5555Bone Storm||r - Alsia {spell:64205} \n{spell:69076} {time:00:10,SCS:69076:1}||cffee5555Bone Storm||r - Bermskyle {spell:64205} \n{spell:69076} {time:00:05,SCS:69076:1}||cffee5555Bone Storm||r - Liptea {spell:31821} {spell:48942}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - Serferine {spell:64843} \n2nd Bone Storm Cooldowns\n{spell:69076} {time:00:00,SCS:69076:1}||cffee5555Bone Storm||r - Liptea {spell:64205} \n{spell:69076} {time:00:05,SCS:69076:1}||cffee5555Bone Storm||r - Shikimora {spell:31821} {spell:48942}\n{spell:69076} {time:00:10,SCS:69076:1}||cffee5555Bone Storm||r - Bermskyle {spell:31821} {spell:48942}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - Hanaltar {spell:64843} \n", -- [7]
+			"Phase 2 - Bloodlust {spell:2825}Phase 1\n{time:00:25}Adds - Alsia{spell:64205}\n{time:01:05}Adds - Bermskyle{spell:64205}\n{time:01:50}Adds - Liptea{spell:64205}\n\nPhase 2\n{spell:71426} {time:00:05,SCC:71426:1}Shade - Alsia{spell:64205}\n{spell:71426} {time:00:05,SCC:71426:2}Shade - Bermskyle{spell:64205}\n{spell:71426} {time:00:05,SCC:71426:3}Shade - Liptea{spell:64205}\n\nFrostbolt Volley\nBermskyle - Aura Mastery {spell:31821}{spell:48945} \nShikimora - Aura Mastery {spell:31821}{spell:48945} \nLiptea - Aura Mastery {spell:31821}{spell:48945} ", -- [8]
+			"Mark Healing\n1 - Bermskyle\n2 - Bermskyle\n3 - Liptea\n4 - Schetner\n5 - DI\n6 - DI\n\nKnockbacks\n1st - Uwugamergirl\n2nd - Hakkî\n\nHealing Debuff\nJogî - {spell:49050}\n\nCloth Blood Boil BoP Rotation\n1st - Alsia Hand of Protection {spell:10278}\n2nd - Bermskyle Hand of Protection {spell:10278}\n3rd - Bubbledine Hand of Protection {spell:10278}\n4th - Liptea Hand of Protection {spell:10278}\n\nAt 30% -Bloodlust {spell:2825}\n\nRaid Cooldowns at 30%\n{spell:72737} {time:00:01,SCC:72737:1}||cffee5555Frenzy||r - Alsia {spell:64205} \n{spell:72737} {time:00:07,SCC:72737:1}||cffee5555Frenzy||r - Bermskyle {spell:64205} \n{spell:72737} {time:00:13,SCC:72737:1}||cffee5555Frenzy||r - Bubbledine {spell:64205} \n{spell:72737} {time:00:19,SCC:72737:1}||cffee5555Frenzy||r - Liptea {spell:64205} \n{spell:72737} {time:00:25,SCC:72737:1}||cffee5555Frenzy||r - Bermskyle {spell:31821} {spell:48942} \n{spell:72737} {time:00:31,SCC:72737:1}||cffee5555Frenzy||r - Liptea {spell:31821} {spell:48942} \n{spell:72737} {time:00:37,SCC:72737:1}||cffee5555Frenzy||r -  {spell:64843} \n{spell:72737} {time:00:45,SCC:72737:1}||cffee5555Frenzy||r -  {spell:64843} ", -- [9]
+			"{time:0:05} Bloodlust {spell:2825}\n\n\n{spell:69279} {time:00:05,SCS:69195:1}||cffee5555Gas Spore||r - Bermskyle Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:2}||cffee5555Gas Spore||r - Liptea Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:3}||cffee5555Gas Spore||r - Shikimora Aura Mastery {spell:31821} {spell:48943} \n{spell:69195} {time:00:05,SCS:69195:1}||cff5555eePungent Blight||r - Alsia Divine Sacrifice {spell:64205} \n{spell:69279} {time:00:05,SCS:69195:1}||cffee5555Gas Spore||r - Bermskyle Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:2}||cffee5555Gas Spore||r - Liptea Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:3}||cffee5555Gas Spore||r - Shikimora Aura Mastery {spell:31821} {spell:48943} \n{spell:69195} {time:00:05,SCS:69195:1}||cff5555eePungent Blight||r - Alsia Divine Sacrifice {spell:64205} \n{time:02:20}||cffee5555High AoE||r - Serferine Hymn ", -- [10]
+			"{time:0:05} Bloodlust {spell:2825}\n\nUnstable Ooze Explosions\n{spell:69839}{time:00:04,SCC:69839:1}||cffee5555Ooze Explosione||r - Alsia Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:2}||cffee5555Ooze Explosione||r - Bermskyle Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:3}||cffee5555Ooze Explosione||r - Liptea Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:1}||cffee5555Ooze Explosione||r - Alsia Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:2}||cffee5555Ooze Explosione||r - Bermskyle Divine Sacrifice {spell:64205}", -- [11]
+			"FESTERGUT\n{time:0:05} Bloodlust {spell:2825}\n\n\n{spell:69279} {time:00:05,SCS:69195:1}||cffee5555Gas Spore||r - Bermskyle Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:2}||cffee5555Gas Spore||r - Liptea Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:3}||cffee5555Gas Spore||r - Shikimora Aura Mastery {spell:31821} {spell:48943} \n{spell:69195} {time:00:05,SCS:69195:1}||cff5555eePungent Blight||r - Alsia Divine Sacrifice {spell:64205} \n{spell:69279} {time:00:05,SCS:69195:1}||cffee5555Gas Spore||r - Bermskyle Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:2}||cffee5555Gas Spore||r - Liptea Aura Mastery {spell:31821} {spell:48943} \n{spell:69279} {time:00:05,SCS:69195:3}||cffee5555Gas Spore||r - Shikimora Aura Mastery {spell:31821} {spell:48943} \n{spell:69195} {time:00:05,SCS:69195:1}||cff5555eePungent Blight||r - Alsia Divine Sacrifice {spell:64205} \n{time:02:20}||cffee5555High AoE||r - Serferine Hymn\n\nROTFACE\n{time:0:05} Bloodlust {spell:2825}\n\nUnstable Ooze Explosions\n{spell:69839}{time:00:04,SCC:69839:1}||cffee5555Ooze Explosione||r - Alsia Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:2}||cffee5555Ooze Explosione||r - Bermskyle Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:3}||cffee5555Ooze Explosione||r - Liptea Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:1}||cffee5555Ooze Explosione||r - Alsia Divine Sacrifice {spell:64205}\n{spell:69839}{time:00:04,SCC:69839:2}||cffee5555Ooze Explosione||r - Bermskyle Divine Sacrifice {spell:64205}\n", -- [12]
+			"Phase 3 - Bloodlust {spell:2825}\n\nVolatile Ooze Eruption\n1st - Alsia Divine Sacrifice {spell:64205} \n2nd - Bermskyle Divine Sacrifice {spell:64205} \n3rd - Liptea Divine Sacrifice {spell:64205} -\nRepeat\n\nMutated Plague Raid CDs\n{spell:72745} {time:00:09,SCC:70492:4}||cffee5555Mutated Plague||r 4 - Alsia Divine Sacrifice {spell:64205} \n{spell:72745} {time:00:09,SCC:70492:5}||cffee5555Mutated Plague||r 5 - Bermskyle Divine Sacrifice {spell:64205} \n{spell:72745} {time:00:09,SCC:70492:6}||cffee5555Mutated Plague||r 6 - Liptea Divine Sacrifice {spell:64205} -\n{spell:72745} {time:00:09,SCC:70492:7}||cffee5555Mutated Plague||r 7 - Shikimora Aura Mastery {spell:31821} {spell:48943} \n\nMutated Plague Soaking/CD\n{spell:72745} {time:00:09,SCC:70492:1}||cffee5555Mutated Plague||r 1 - Wonka {spell:871}{spell:355}\n{spell:72745} {time:00:09,SCC:70492:2}||cffee5555Mutated Plague||r 2 - Alsia {spell:10278} / Wonka {spell:1161}\n{spell:72745} {time:00:09,SCC:70492:3}||cffee5555Mutated Plague||r 3 - Bermskyle {spell:10278} / Vanec {spell:5209}\n{spell:72745} {time:00:09,SCC:70492:4}||cffee5555Mutated Plague||r 4 - Alsia {spell:498}Divine Protection\n{spell:72745} {time:00:09,SCC:70492:5}||cffee5555Mutated Plague||r 5 - Alsia {spell:1038}Hand of Salvation\n{spell:72745} {time:00:09,SCC:70492:6}||cffee5555Mutated Plague||r 6 - Bubbledine {spell:498}Divine Protection\n{spell:72745} {time:00:09,SCC:70492:7}||cffee5555Mutated Plague||r 7 - Bubbledine {spell:1038}Hand of Salvation", -- [13]
+			"{time:0:05} Bloodlust {spell:2825}\n\nEmpowered Shock Vortex\n{spell:72039} {time:00:05,SCS:72039:1}||cffee5555Empowered Shock Vortex||r #1 - Alsia Divine Sacrifice {spell:64205} \n{spell:72039} {time:00:05,SCS:72039:2}||cffee5555Empowered Shock Vortex||r #2 - Bermskyle Divine Sacrifice {spell:64205} \n{spell:72039} {time:00:05,SCS:72039:3}||cffee5555Empowered Shock Vortex||r #3 - Liptea Divine Sacrifice {spell:64205} \n{spell:72039} {time:00:05,SCS:72039:1}||cffee5555Empowered Shock Vortex||r #4 - Alsia Divine Sacrifice {spell:64205} \n\nEmpowered Flame\n{spell:72040} {time:00:05,SCC:72040:1}||cffee5555Empowered Flame Orb||r #1 - Bermskyle Aura Mastery {spell:31821} {spell:48947} \n{spell:72040} {time:00:05,SCC:72040:2}||cffee5555Empowered Flame Orb||r #2 - Shikimora Aura Mastery {spell:31821} {spell:48947} \n{spell:72040} {time:00:05,SCC:72040:3}||cffee5555Empowered Flame Orb||r #3 - Liptea Aura Mastery {spell:31821} {spell:48947} \n{spell:72040} {time:00:05,SCC:72040:1}||cffee5555Empowered Flame Orb||r #4 - Bermskyle Aura Mastery {spell:31821} {spell:48947}", -- [14]
+			"BL After 5th bite\n{time:04:30} Bloodlust {spell:2825}\n\nBloodbolt Whirl Cooldowns\n{time:2:10} - Alsia Divine Sacrifice {spell:64205} \n{time:2:16} - Shikimora Aura Mastery {spell:31821} {spell:48943} \n{time:2:22} - Serferine Divine Hymn {spell:64843} \n{time:3:51} - Bermskyle Divine Sacrifice {spell:64205} \n{time:3:57} - Liptea Aura Mastery {spell:31821} {spell:48943} \n{time:4:03} - Jocindyr Divine Hymn {spell:64843}  ", -- [15]
+			"{spell:2825} Bloodlust\nAt ~ 30 stacks\n\nKill Priority\n#1 - Blazing Skeleton\n#2 - Suppressors\n#3 - Risen Archmage\n#4 - Blistering Zombie\n#5 - Abomination/Worms\n\nCrusader Aura\nBermskyle\n\nAmplify Magic\nJodifrosta", -- [16]
+			"{spell:2825} Bloodlust- P3 35%\n\nPhase 2 - Ice Tomb CDs\n{spell:70157} {time:00:05,SCS:70157:1}||cffee5555Ice Tomb||r - Bermskyle Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70157} {time:00:05,SCS:70157:2}||cffee5555Ice Tomb||r - Liptea - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70157} {time:00:05,SCS:70157:3}||cffee5555Ice Tomb||r - Bermskyle Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\n{spell:70157} {time:00:05,p2,SCS:70157:1}||cffee5555Ice Tomb 1 P3||r - Alsia Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\n{spell:70123} {time:00:05,p2,SCS:70123:1}||cffee5555Blistering Cold||r - Bermskyle - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70123} {time:00:05,p2,SCS:70123:2}||cffee5555Blistering Cold||r - Liptea - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\nOn Call - Shikimora - Aura Mastery {spell:31821}{spell:48945}", -- [17]
+			"{spell:2825} Bloodlust\nP3 after all Raging Spirits are dead\n\nInfest Cooldowns\n1 - none \n2 - Bermskyle Divine Sacrifice {spell:64205}\n3 - Liptea Aura Mastery {spell:31821}{spell:48943} \n4 - Alsia Divine Sacrifice {spell:64205}\n5 - Bermskyle Aura Mastery {spell:31821}{spell:48943} \n6 - Liptea Divine Sacrifice {spell:64205}\n\nSoul Reaper Cooldowns - P2\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n5 -    / Alsia Divine Protection{spell:498}\n6 -    / Bubbledine Divine Protection{spell:498}\nRepeat\n\nPhase 3\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n\nVal'kyr Stuns\n{rt2} Alsia HoJ {spell:10308}\n{rt2} Shikimora Holy Wrath {spell:48817}\n{rt2} Alsia Holy Wrath {spell:48817}\n{rt2} Ukban Cheap Shot {spell:1833}\n{rt3} Shikimora HoJ {spell:10308}\n{rt3} Shikimora Holy Wrath {spell:48817}\n{rt3} Alsia Holy Wrath {spell:48817}\n{rt3} Onixus Cheap Shot {spell:1833}\n{rt1} Bermskyle HoJ {spell:10308}\n{rt1} Shikimora Holy Wrath {spell:48817}\n{rt1} Alsia Holy Wrath {spell:48817}\n{rt1} Liptea HoJ {spell:10308}", -- [18]
 		},
 		["EnableWhenReceive"] = true,
 		["Height"] = 211,
 		["FontSize"] = 12,
 		["Scale"] = 88,
-		["enabled"] = true,
+		["DefName"] = "The Lich King",
 	},
 	["Logging"] = {
 		["enabled"] = true,

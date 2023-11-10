@@ -1,13 +1,30 @@
 
 GargulDB = {
-	["BoostedRolls"] = {
-	},
 	["TMB"] = {
 	},
+	["BoostedRolls"] = {
+		["Aliases"] = {
+		},
+		["Points"] = {
+		},
+	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1694891489,
+		["lastLoadedOn"] = 1699062178,
+		["5.1.1"] = 1699062178,
+		["7.0.2"] = 1699062178,
+		["5.2.0"] = 1699062178,
+		["latestVersionChangesShown"] = "7.0.0",
 		["6.2.4"] = 1694808720,
-		["latestVersionChangesShown"] = "6.2.0",
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["SettingsPerItem"] = {
+		},
+		["Queue"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -77,6 +94,14 @@ GargulDB = {
 			["antiSnipe"] = 15,
 			["enableBidderQueue"] = true,
 			["announceNewBidInRW"] = true,
+			["MultiAuction"] = {
+				["time"] = 600,
+				["includeMaterials"] = false,
+				["minimumFillQuality"] = 4,
+				["includeAwarded"] = false,
+				["antiSnipe"] = 15,
+				["includeBOEs"] = true,
+			},
 			["finalCallTime"] = 10,
 			["showHistoryOnTooltip"] = true,
 			["queueIsHalted"] = true,
@@ -114,17 +139,25 @@ GargulDB = {
 			["includeOffspecItems"] = true,
 		},
 		["UI"] = {
-			["GDKPOverview"] = {
-				["Dimensions"] = {
-					["height"] = 410.0000305175781,
-					["scale"] = 1,
-					["width"] = 660.0001831054688,
-				},
+			["Changelog"] = {
 				["Position"] = {
 					["offsetX"] = 0,
 					["offsetY"] = 0,
 					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
+				},
+			},
+			["GDKPOverview"] = {
+				["Position"] = {
+					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
+					["relativePoint"] = "CENTER",
+				},
+				["Dimensions"] = {
+					["height"] = 410.0000305175781,
+					["scale"] = 1,
+					["width"] = 660.0001831054688,
 				},
 			},
 			["PopupDialog"] = {
@@ -140,6 +173,14 @@ GargulDB = {
 				["closeOnStart"] = false,
 				["closeOnAward"] = false,
 			},
+			["MasterLooterDialog"] = {
+				["Position"] = {
+					["offsetX"] = 0,
+					["offsetY"] = 0,
+					["point"] = "CENTER",
+					["relativePoint"] = "CENTER",
+				},
+			},
 			["ReopenAuctioneerButton"] = {
 				["offsetX"] = 188,
 				["relativePoint"] = "CENTER",
@@ -152,14 +193,6 @@ GargulDB = {
 					["relativePoint"] = "CENTER",
 				},
 			},
-			["MasterLooterDialog"] = {
-				["Position"] = {
-					["point"] = "CENTER",
-					["offsetY"] = 0,
-					["offsetX"] = 0,
-					["relativePoint"] = "CENTER",
-				},
-			},
 			["Award"] = {
 				["closeOnAward"] = true,
 			},
@@ -168,16 +201,16 @@ GargulDB = {
 					["TradeTime"] = {
 						["Overview"] = {
 							["Window"] = {
+								["Position"] = {
+									["offsetX"] = 347.8423767089844,
+									["offsetY"] = 14.18389511108398,
+									["point"] = "CENTER",
+									["relativePoint"] = "CENTER",
+								},
 								["Dimensions"] = {
 									["height"] = 35.99995803833008,
 									["scale"] = 1,
 									["width"] = 249.9998931884766,
-								},
-								["Position"] = {
-									["point"] = "CENTER",
-									["offsetY"] = 14.18389511108398,
-									["offsetX"] = 347.8423767089844,
-									["relativePoint"] = "CENTER",
 								},
 							},
 						},
@@ -318,19 +351,13 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
-	},
-	["PlusOnes"] = {
-	},
-	["LootPriority"] = {
-	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

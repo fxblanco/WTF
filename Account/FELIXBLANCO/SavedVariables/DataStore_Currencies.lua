@@ -10,7 +10,7 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1699227348,
+				["lastUpdate"] = 1699529340,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -33,23 +33,23 @@ DataStore_CurrenciesDB = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
 					"1|Emblem der Eroberung|0|221", -- [3]
-					"1|Emblem des Frosts|85|341", -- [4]
+					"1|Emblem des Frosts|89|341", -- [4]
 					"1|Emblem des Heldentums|13|101", -- [5]
 					"1|Emblem des Triumphs|63|301", -- [6]
 					"1|Geißelstein des Entweihers|44|2711", -- [7]
 					"1|Sternenessenz|5|2589", -- [8]
 					"0|Spieler gegen Spieler", -- [9]
 					"1|Ehrenabzeichen von Tausendwinter|10|126", -- [10]
-					"1|Ehrepunkte|9175|1901", -- [11]
+					"1|Ehrepunkte|9495|1901", -- [11]
 					"1|Münze der Venture Co.|124|201", -- [12]
 					"1|Splitter eines Steinbewahrers|623|161", -- [13]
 					"0|Verschiedenes", -- [14]
 					"1|Siegel des Champions|11|241", -- [15]
 				},
-				["lastUpdate"] = 1699227589,
+				["lastUpdate"] = 1699529432,
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699227752,
+				["lastUpdate"] = 1699529388,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -69,24 +69,24 @@ DataStore_CurrenciesDB = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
 					"1|Emblem der Eroberung|0|221", -- [3]
-					"1|Emblem des Frosts|139|341", -- [4]
+					"1|Emblem des Frosts|186|341", -- [4]
 					"1|Emblem des Heldentums|11|101", -- [5]
-					"1|Emblem des Triumphs|22|301", -- [6]
-					"1|Geißelstein des Entweihers|26|2711", -- [7]
+					"1|Emblem des Triumphs|54|301", -- [6]
+					"1|Geißelstein des Entweihers|34|2711", -- [7]
 					"1|Sternenessenz|0|2589", -- [8]
 					"0|Spieler gegen Spieler", -- [9]
 					"1|Arenapunkte|0|1900", -- [10]
 					"1|Ehrenabzeichen von Tausendwinter|3|126", -- [11]
-					"1|Ehrepunkte|2640|1901", -- [12]
+					"1|Ehrepunkte|3120|1901", -- [12]
 					"1|Münze der Venture Co.|34|201", -- [13]
-					"1|Splitter eines Steinbewahrers|304|161", -- [14]
+					"1|Splitter eines Steinbewahrers|336|161", -- [14]
 					"0|Verschiedenes", -- [15]
 					"1|Abzeichen der Gerechtigkeit|34|42", -- [16]
 					"1|Feinschmeckerpreis|3|81", -- [17]
 					"1|Juwelierssymbol von Dalaran|5|61", -- [18]
 					"1|Siegel des Champions|22|241", -- [19]
 				},
-				["lastUpdate"] = 1699307007,
+				["lastUpdate"] = 1699575025,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228474,

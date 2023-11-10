@@ -18,7 +18,7 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:47485:2332:40133::::::80:::::::::|h[Bindungen des leichenblassen Heiligen]|h|r", -- [9]
 					"|cffa335ee|Hitem:47797:3604:40113::::::80:::::::::|h[Gul'dans Stulpen des Triumphs]|h|r", -- [10]
 					"|cffa335ee|Hitem:50170::40133::::::80:::::::::|h[Valanars anderer Siegelring]|h|r", -- [11]
-					"|cffa335ee|Hitem:50397::::::::80:::::::::|h[Äschernes Band der unvergleichlichen Zerstörung]|h|r", -- [12]
+					"|cffa335ee|Hitem:50398::40155::::::80:::::::::|h[Äschernes Band der endlosen Zerstörung]|h|r", -- [12]
 					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Leuchtfeuer der Himmel]|h|r", -- [13]
 					"|cffa335ee|Hitem:45466::::::::80:::::::::|h[Waagschale der Schicksale]|h|r", -- [14]
 					"|cffa335ee|Hitem:50014:3722:40133::::::80:::::::::|h[Großumhang des bekehrten Champions]|h|r", -- [15]
@@ -27,7 +27,7 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:45294::40155::::::80:::::::::|h[Versteinerter Efeuzweig]|h|r", -- [18]
 					"|cffffffff|Hitem:43157::::::::80:::::::::|h[Wappenrock der Kirin Tor]|h|r", -- [19]
 				},
-				["lastUpdate"] = 1699225938,
+				["lastUpdate"] = 1699485294,
 			},
 		},
 	},

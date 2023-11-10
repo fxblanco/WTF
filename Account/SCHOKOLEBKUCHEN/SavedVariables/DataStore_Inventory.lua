@@ -6,7 +6,9 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699228264,
+				["lastUpdate"] = 1699529712,
+				["averageItemLvl"] = 258.5625,
+				["overallAIL"] = 259.4375,
 				["Inventory"] = {
 					"|cffffffff|Hitem:51208:3820:41285:40133:::::80:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:47468::40155::::::80:::::::::|h[]|h|r", -- [2]
@@ -19,7 +21,7 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:47485:2332:40133::::::80:::::::::|h[]|h|r", -- [9]
 					"|cffffffff|Hitem:47797:3604:40113::::::80:::::::::|h[]|h|r", -- [10]
 					"|cffffffff|Hitem:50170::40133::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffa335ee|Hitem:50397::::::::80:::::::::|h[Äschernes Band der unvergleichlichen Zerstörung]|h|r", -- [12]
+					"|cffa335ee|Hitem:50398::40155::::::80:::::::::|h[Äschernes Band der endlosen Zerstörung]|h|r", -- [12]
 					"|cffffffff|Hitem:45518::::::::80:::::::::|h[]|h|r", -- [13]
 					"|cffffffff|Hitem:45466::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:50014:3722:40133::::::80:::::::::|h[]|h|r", -- [15]
@@ -27,6 +29,15 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50173::::::::80:::::::::|h[]|h|r", -- [17]
 					"|cffffffff|Hitem:45294::40155::::::80:::::::::|h[]|h|r", -- [18]
 					"|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r", -- [19]
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.Venoxis.Old Rabbitz"] = {
+				["Members"] = {
+					["Exonuklease"] = {
+						["averageItemLvl"] = 258,
+					},
 				},
 			},
 		},

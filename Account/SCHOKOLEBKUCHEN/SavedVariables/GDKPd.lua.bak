@@ -50,10 +50,9 @@ GDKPd_DB = {
 				["x"] = 521.0999145507812,
 			},
 			["point"] = {
-				["y"] = -18.18558692932129,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -357.1221618652344,
+				["y"] = -150.3000335693359,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
 			},
 			["auctionTimerRefresh"] = 15,
 			["startBid"] = 500,

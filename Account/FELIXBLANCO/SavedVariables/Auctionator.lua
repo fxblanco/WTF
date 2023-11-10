@@ -1267,12 +1267,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["36913"] = {
 			["a"] = {
+				[1409] = 998,
 			},
 			["l"] = {
 			},
 			["h"] = {
+				[1409] = 15863,
 			},
-			["m"] = 15997,
+			["m"] = 15863,
 		},
 		["38838"] = {
 			["a"] = {
@@ -3546,6 +3548,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 5995,
 		},
+		["10333"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 149998,
+		},
 		["2749"] = {
 			["a"] = {
 			},
@@ -3696,15 +3707,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 119993,
 		},
-		["22393"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 39871,
-			["h"] = {
-			},
-		},
 		["4390"] = {
 			["a"] = {
 			},
@@ -3713,6 +3715,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 			["m"] = 24829,
+		},
+		["22393"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 39871,
+			["h"] = {
+			},
 		},
 		["45742"] = {
 			["a"] = {
@@ -4183,6 +4194,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 		},
+		["g:42990:200"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 6959950,
+		},
+		["g:2059:24"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 3549999,
+		},
 		["g:45493:232"] = {
 			["a"] = {
 			},
@@ -4202,26 +4231,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 				[1402] = 182972,
 			},
-		},
-		["40167"] = {
-			["a"] = {
-				[1404] = 50,
-			},
-			["l"] = {
-			},
-			["m"] = 2342241,
-			["h"] = {
-				[1404] = 2342241,
-			},
-		},
-		["g:2059:24"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["h"] = {
-			},
-			["m"] = 3549999,
 		},
 		["37663"] = {
 			["a"] = {
@@ -4654,14 +4663,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 59989,
 		},
-		["g:42990:200"] = {
+		["40167"] = {
 			["a"] = {
+				[1404] = 50,
 			},
 			["l"] = {
 			},
+			["m"] = 2342241,
 			["h"] = {
+				[1404] = 2342241,
 			},
-			["m"] = 6959950,
 		},
 		["45096"] = {
 			["a"] = {
@@ -4918,14 +4929,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 		},
-		["10333"] = {
+		["37700"] = {
 			["a"] = {
+				[1409] = 335,
 			},
 			["l"] = {
 			},
+			["m"] = 10568,
 			["h"] = {
+				[1409] = 10568,
 			},
-			["m"] = 149998,
 		},
 		["2738"] = {
 			["a"] = {
@@ -6153,13 +6166,7 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1680368411,
 		}, -- [1]
 	},
-	["g:50453:264"] = {
-		{
-			["price"] = 57499999,
-			["quantity"] = 2,
-			["time"] = 1697406863,
-		}, -- [1]
-	},
+	["__dbversion"] = 1,
 	["45096"] = {
 		{
 			["price"] = 67680,
@@ -6174,49 +6181,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1679437441,
 		}, -- [1]
 	},
-	["43012"] = {
-		{
-			["price"] = 6883,
-			["quantity"] = 1,
-			["time"] = 1693160135,
-		}, -- [1]
-	},
-	["16204"] = {
-		{
-			["price"] = 13997,
-			["quantity"] = 23,
-			["time"] = 1680438751,
-		}, -- [1]
-	},
-	["50069"] = {
-		{
-			["price"] = 169009996,
-			["quantity"] = 1,
-			["time"] = 1697406843,
-		}, -- [1]
-		{
-			["price"] = 89009966,
-			["quantity"] = 1,
-			["time"] = 1698356929,
-		}, -- [2]
-		{
-			["price"] = 87659949,
-			["quantity"] = 1,
-			["time"] = 1698450453,
-		}, -- [3]
-		{
-			["price"] = 70009996,
-			["quantity"] = 1,
-			["time"] = 1698572717,
-		}, -- [4]
-	},
-	["2319"] = {
-		{
-			["price"] = 5991,
-			["quantity"] = 10,
-			["time"] = 1680368634,
-		}, -- [1]
-	},
 	["g:50472:264"] = {
 		{
 			["price"] = 125006968,
@@ -6228,6 +6192,34 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["quantity"] = 1,
 			["time"] = 1698450450,
 		}, -- [2]
+	},
+	["23445"] = {
+		{
+			["price"] = 17046,
+			["quantity"] = 25,
+			["time"] = 1680370165,
+		}, -- [1]
+	},
+	["45105"] = {
+		{
+			["price"] = 799996,
+			["quantity"] = 3,
+			["time"] = 1687124134,
+		}, -- [1]
+	},
+	["43012"] = {
+		{
+			["price"] = 6883,
+			["quantity"] = 1,
+			["time"] = 1693160135,
+		}, -- [1]
+	},
+	["2319"] = {
+		{
+			["price"] = 5991,
+			["quantity"] = 10,
+			["time"] = 1680368634,
+		}, -- [1]
 	},
 	["45566"] = {
 		{
@@ -6338,18 +6330,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1685528535,
 		}, -- [4]
 	},
-	["21877"] = {
+	["10938"] = {
 		{
-			["price"] = 1248,
-			["quantity"] = 20,
-			["time"] = 1680370154,
-		}, -- [1]
-	},
-	["43010"] = {
-		{
-			["price"] = 1543,
-			["quantity"] = 25,
-			["time"] = 1683398991,
+			["price"] = 2254,
+			["quantity"] = 11,
+			["time"] = 1680438705,
 		}, -- [1]
 	},
 	["45167"] = {
@@ -6359,6 +6344,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1687126111,
 		}, -- [1]
 	},
+	["43010"] = {
+		{
+			["price"] = 1543,
+			["quantity"] = 25,
+			["time"] = 1683398991,
+		}, -- [1]
+	},
 	["2841"] = {
 		{
 			["price"] = 22764,
@@ -6366,11 +6358,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1680368842,
 		}, -- [1]
 	},
-	["10938"] = {
+	["21877"] = {
 		{
-			["price"] = 2254,
-			["quantity"] = 11,
-			["time"] = 1680438705,
+			["price"] = 1248,
+			["quantity"] = 20,
+			["time"] = 1680370154,
 		}, -- [1]
 	},
 	["23736"] = {
@@ -6466,21 +6458,42 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1693083776,
 		}, -- [1]
 	},
-	["45105"] = {
+	["50069"] = {
 		{
-			["price"] = 799996,
-			["quantity"] = 3,
-			["time"] = 1687124134,
+			["price"] = 169009996,
+			["quantity"] = 1,
+			["time"] = 1697406843,
+		}, -- [1]
+		{
+			["price"] = 89009966,
+			["quantity"] = 1,
+			["time"] = 1698356929,
+		}, -- [2]
+		{
+			["price"] = 87659949,
+			["quantity"] = 1,
+			["time"] = 1698450453,
+		}, -- [3]
+		{
+			["price"] = 70009996,
+			["quantity"] = 1,
+			["time"] = 1698572717,
+		}, -- [4]
+	},
+	["16204"] = {
+		{
+			["price"] = 13997,
+			["quantity"] = 23,
+			["time"] = 1680438751,
 		}, -- [1]
 	},
-	["23445"] = {
+	["g:50453:264"] = {
 		{
-			["price"] = 17046,
-			["quantity"] = 25,
-			["time"] = 1680370165,
+			["price"] = 57499999,
+			["quantity"] = 2,
+			["time"] = 1697406863,
 		}, -- [1]
 	},
-	["__dbversion"] = 1,
 	["45103"] = {
 		{
 			["price"] = 1169997,
@@ -7006,7 +7019,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["30765"] = 126608,
 	["4599"] = 400,
 	["24004"] = 9500,
-	["6529"] = 50,
+	["2207"] = 2032,
 	["25740"] = 152000,
 	["6532"] = 250,
 	["44499"] = 30000000,
@@ -7017,22 +7030,22 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["21910"] = 60000,
 	["44150"] = 1275000,
 	["22147"] = 4000,
-	["25875"] = 180,
+	["29010"] = 720,
 	["42360"] = 522500,
 	["44570"] = 50,
 	["3424"] = 400000,
 	["2287"] = 25,
-	["42369"] = 332500,
-	["17034"] = 160,
-	["29451"] = 1600,
 	["1850"] = 1393,
 	["28469"] = 19000,
+	["42369"] = 332500,
+	["29451"] = 1600,
+	["17034"] = 160,
 	["17037"] = 1120,
 	["6950"] = 150,
-	["29010"] = 720,
+	["25875"] = 180,
 	["8950"] = 800,
 	["2438"] = 17847,
-	["2207"] = 2032,
+	["6529"] = 50,
 	["21895"] = 40000,
 	["30771"] = 65032,
 	["25738"] = 114000,
@@ -7107,36 +7120,36 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["28164"] = 3505,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
-	"\"Robustes Auge von Zul\"", -- [1]
-	"\"Spiegelnder Königsbernstein\"", -- [2]
-	"\"Unerbittlicher Erdringdiamant\"", -- [3]
-	"drachena", -- [4]
-	"kardinalsru", -- [5]
-	"Präziser k", -- [6]
-	"\"Eisbannbrustschutz\"", -- [7]
-	"\"Große Planaressenz\"", -- [8]
-	"\"Ametrin\"", -- [9]
-	"schreckensstein", -- [10]
-	"\"Runenbeschriebene Kugel\"", -- [11]
-	"\"Traumsplitter\"", -- [12]
-	"schreckenssetin", -- [13]
-	"Ametrin", -- [14]
-	"\"Glänzender Zauberfaden\"", -- [15]
-	"Geringes Fläschchen des Widerstands", -- [16]
-	"fläschen des widerstands", -- [17]
-	"geringen widerstands", -- [18]
-	"geringen widerstand", -- [19]
-	"widerstand", -- [20]
-	"\"Geläuterter Schreckensstein\"", -- [21]
-	"mächtiger Am", -- [22]
-	"tödlicher amet", -- [23]
-	"Auge von ZUl", -- [24]
-	"\"Knochenband des Herolds\"", -- [25]
-	"\"Kobaltbarren\"", -- [26]
-	"siegel des lichts", -- [27]
-	"Bombensch", -- [28]
-	"\"Titanring der Frostwache\"", -- [29]
-	"Blutsaug", -- [30]
+	"\"Kristallisierte Luft\"", -- [1]
+	"\"Saronitbarren\"", -- [2]
+	"\"Robustes Auge von Zul\"", -- [3]
+	"\"Spiegelnder Königsbernstein\"", -- [4]
+	"\"Unerbittlicher Erdringdiamant\"", -- [5]
+	"drachena", -- [6]
+	"kardinalsru", -- [7]
+	"Präziser k", -- [8]
+	"\"Eisbannbrustschutz\"", -- [9]
+	"\"Große Planaressenz\"", -- [10]
+	"\"Ametrin\"", -- [11]
+	"schreckensstein", -- [12]
+	"\"Runenbeschriebene Kugel\"", -- [13]
+	"\"Traumsplitter\"", -- [14]
+	"schreckenssetin", -- [15]
+	"Ametrin", -- [16]
+	"\"Glänzender Zauberfaden\"", -- [17]
+	"Geringes Fläschchen des Widerstands", -- [18]
+	"fläschen des widerstands", -- [19]
+	"geringen widerstands", -- [20]
+	"geringen widerstand", -- [21]
+	"widerstand", -- [22]
+	"\"Geläuterter Schreckensstein\"", -- [23]
+	"mächtiger Am", -- [24]
+	"tödlicher amet", -- [25]
+	"Auge von ZUl", -- [26]
+	"\"Knochenband des Herolds\"", -- [27]
+	"\"Kobaltbarren\"", -- [28]
+	"siegel des lichts", -- [29]
+	"Bombensch", -- [30]
 }
 AUCTIONATOR_SELLING_GROUPS = {
 	["CustomGroups"] = {

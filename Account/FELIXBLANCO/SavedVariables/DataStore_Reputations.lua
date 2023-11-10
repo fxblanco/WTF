@@ -10,7 +10,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1699227347,
+				["lastUpdate"] = 1699529340,
 				["Factions"] = {
 					[31] = -12250,
 					[46] = 2765,
@@ -54,7 +54,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1699227588,
+				["lastUpdate"] = 1699529429,
 				["Factions"] = {
 					[27] = 15,
 					[31] = -10775,
@@ -100,7 +100,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699227752,
+				["lastUpdate"] = 1699529386,
 				["Factions"] = {
 					[75] = 8201,
 					[54] = 0,
@@ -139,7 +139,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699307007,
+				["lastUpdate"] = 1699574954,
 				["Factions"] = {
 					[75] = 10101,
 					[54] = 10,

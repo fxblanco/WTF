@@ -1,30 +1,21 @@
 
 GargulDB = {
-	["TMB"] = {
-	},
 	["BoostedRolls"] = {
-		["Aliases"] = {
-		},
 		["Points"] = {
 		},
+		["Aliases"] = {
+		},
+	},
+	["TMB"] = {
 	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1699062178,
-		["5.1.1"] = 1699062178,
-		["7.0.2"] = 1699062178,
-		["5.2.0"] = 1699062178,
-		["latestVersionChangesShown"] = "7.0.0",
+		["lastLoadedOn"] = 1699529474,
+		["7.1.0"] = 1699529474,
 		["6.2.4"] = 1694808720,
-	},
-	["LootPriority"] = {
-	},
-	["GDKP"] = {
-		["SettingsPerItem"] = {
-		},
-		["Queue"] = {
-		},
-	},
-	["AwardHistory"] = {
+		["5.1.1"] = 1699062178,
+		["5.2.0"] = 1699062178,
+		["latestVersionChangesShown"] = "7.1.0",
+		["7.0.2"] = 1699062178,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -141,23 +132,18 @@ GargulDB = {
 		["UI"] = {
 			["Changelog"] = {
 				["Position"] = {
-					["offsetX"] = 0,
-					["offsetY"] = 0,
 					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
 					["relativePoint"] = "CENTER",
 				},
 			},
-			["GDKPOverview"] = {
+			["MasterLooterDialog"] = {
 				["Position"] = {
 					["point"] = "CENTER",
 					["offsetY"] = 0,
 					["offsetX"] = 0,
 					["relativePoint"] = "CENTER",
-				},
-				["Dimensions"] = {
-					["height"] = 410.0000305175781,
-					["scale"] = 1,
-					["width"] = 660.0001831054688,
 				},
 			},
 			["PopupDialog"] = {
@@ -173,7 +159,12 @@ GargulDB = {
 				["closeOnStart"] = false,
 				["closeOnAward"] = false,
 			},
-			["MasterLooterDialog"] = {
+			["GDKPOverview"] = {
+				["Dimensions"] = {
+					["height"] = 410.0000305175781,
+					["scale"] = 1,
+					["width"] = 660.0001831054688,
+				},
 				["Position"] = {
 					["offsetX"] = 0,
 					["offsetY"] = 0,
@@ -201,16 +192,16 @@ GargulDB = {
 					["TradeTime"] = {
 						["Overview"] = {
 							["Window"] = {
-								["Position"] = {
-									["offsetX"] = 347.8423767089844,
-									["offsetY"] = 14.18389511108398,
-									["point"] = "CENTER",
-									["relativePoint"] = "CENTER",
-								},
 								["Dimensions"] = {
 									["height"] = 35.99995803833008,
 									["scale"] = 1,
 									["width"] = 249.9998931884766,
+								},
+								["Position"] = {
+									["point"] = "CENTER",
+									["offsetY"] = 14.18389511108398,
+									["offsetX"] = 347.8423767089844,
+									["relativePoint"] = "CENTER",
 								},
 							},
 						},
@@ -335,6 +326,7 @@ GargulDB = {
 			["awardMessagesEnabled"] = true,
 			["autoTradeAfterAwardingAnItem"] = true,
 			["awardOnReceiveMinimumQuality"] = 4,
+			["skipAwardConfirmationDialog"] = false,
 		},
 		["MasterLooting"] = {
 			["announceCountdownOnce"] = false,
@@ -351,13 +343,23 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["SoftRes"] = {
-	},
-	["RecentlyAwardedItems"] = {
+	["GDKP"] = {
+		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
+		},
 	},
 	["PlusOnes"] = {
 		["Totals"] = {
 		},
+	},
+	["LootPriority"] = {
+	},
+	["SoftRes"] = {
+	},
+	["RecentlyAwardedItems"] = {
+	},
+	["AwardHistory"] = {
 	},
 	["MinimapButton"] = {
 	},

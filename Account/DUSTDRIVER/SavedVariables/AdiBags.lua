@@ -16,20 +16,21 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
-		},
-		["ItemSets"] = {
+		["MoneyFrame"] = {
 		},
 		["DataSource"] = {
 		},
+		["ItemSets"] = {
+		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Maturitas - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {

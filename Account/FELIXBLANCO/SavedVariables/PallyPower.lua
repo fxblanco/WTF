@@ -13,7 +13,12 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["buffscale"] = 0.75,
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
 			["skin"] = "ElvUI Blank",
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
@@ -26,7 +31,7 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["seal"] = 5,
+			["seal"] = 9,
 			["display"] = {
 				["buffDuration"] = false,
 				["frameLocked"] = true,
@@ -41,22 +46,17 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["WrathTransition"] = true,
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
+			["buffscale"] = 0.75,
 			["rf"] = true,
 		},
 		["Other"] = {
-			["WrathTransition"] = true,
 			["cBuffNeedSpecial"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
+			["WrathTransition"] = true,
 			["cBuffNeedAll"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
@@ -68,13 +68,13 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["enable"] = true,
 			["cBuffGood"] = {
 				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["b"] = 0.2,
 			},
-			["enable"] = true,
 		},
 	},
 }
@@ -104,28 +104,28 @@ PallyPower_Assignments = {
 		0, -- [10]
 	},
 	["Bremskyle"] = {
-		3, -- [1]
-		3, -- [2]
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
 		1, -- [4]
 		1, -- [5]
 		1, -- [6]
 		1, -- [7]
 		1, -- [8]
-		0, -- [9]
+		1, -- [9]
 		0, -- [10]
 	},
 	["Bubbledîne"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
 	},
 	["Myjuice"] = {
 		0, -- [1]
@@ -151,6 +151,18 @@ PallyPower_Assignments = {
 		3, -- [9]
 		0, -- [10]
 	},
+	["Spaltkyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		3, -- [10]
+	},
 	["Xeeli"] = {
 		3, -- [1]
 		3, -- [2]
@@ -164,16 +176,16 @@ PallyPower_Assignments = {
 		3, -- [10]
 	},
 	["Liptea"] = {
-		3, -- [1]
-		2, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		3, -- [10]
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
 	},
 	["Beesportz"] = {
 		2, -- [1]
@@ -215,12 +227,12 @@ PallyPower_Assignments = {
 		2, -- [1]
 		2, -- [2]
 		3, -- [3]
-		3, -- [4]
+		2, -- [4]
 		4, -- [5]
 		2, -- [6]
 		3, -- [7]
 		3, -- [8]
-		2, -- [9]
+		3, -- [9]
 		2, -- [10]
 	},
 	["Habíb"] = {
@@ -237,6 +249,8 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
+	["Spaltkyle"] = {
+	},
 }
 PallyPower_AuraAssignments = {
 	["Palatrut"] = 0,
@@ -404,6 +418,7 @@ PallyPower_AuraAssignments = {
 	["Grauelógs"] = 0,
 	["Towild"] = 0,
 	["Xenapa"] = 0,
+	["Vriternity"] = 0,
 	["Jultris"] = 0,
 	["Eríona"] = 0,
 	["Palajazu"] = 1,
@@ -433,7 +448,7 @@ PallyPower_AuraAssignments = {
 	["Raycin"] = 0,
 	["Xellzs"] = 0,
 	["Jzuzcrst"] = 0,
-	["Vriternity"] = 0,
+	["Spaltkyle"] = 6,
 	["Freydos"] = 0,
 	["Nodmg"] = 0,
 	["Pypsi"] = 0,
@@ -474,8 +489,8 @@ PallyPower_AuraAssignments = {
 	["Everglow"] = 0,
 	["Lufenia"] = 0,
 	["Peaxx"] = 0,
-	["Bubbledîne"] = 0,
-	["Viphazz"] = 0,
+	["Bubbledîne"] = 1,
+	["Gruffelo"] = 0,
 	["Pendragonas"] = 0,
 	["Awfultry"] = 0,
 	["Výrgin"] = 0,
@@ -487,7 +502,7 @@ PallyPower_AuraAssignments = {
 	["Randyblamáge"] = 0,
 	["Amayorie"] = 0,
 	["Zeolona"] = 0,
-	["Gruffelo"] = 0,
+	["Viphazz"] = 0,
 	["Methhilde"] = 0,
 	["Salvy"] = 0,
 	["Futschas"] = 0,

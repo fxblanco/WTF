@@ -3,6 +3,7 @@ LoggerHeadNDB = {
 	["profileKeys"] = {
 		["Maturitas - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -24,12 +25,22 @@ LoggerHeadNDB = {
 				[650] = {
 					[2] = true,
 				},
-				[615] = {
-					[3] = true,
+				[575] = {
+					[2] = true,
 				},
 				[624] = {
 					[4] = true,
 					[3] = true,
+				},
+				[249] = {
+					[3] = true,
+					[4] = true,
+				},
+				[619] = {
+					[2] = false,
+				},
+				[600] = {
+					[2] = false,
 				},
 				[632] = {
 					[2] = false,
@@ -39,21 +50,11 @@ LoggerHeadNDB = {
 					[6] = true,
 					[3] = true,
 				},
-				[600] = {
-					[2] = false,
-				},
-				[249] = {
-					[3] = true,
-					[4] = true,
-				},
-				[619] = {
-					[2] = false,
-				},
 				[576] = {
 					[2] = false,
 				},
-				[575] = {
-					[2] = true,
+				[615] = {
+					[3] = true,
 				},
 			},
 		},

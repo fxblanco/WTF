@@ -9,12 +9,6 @@ GDKPd_DB = {
 	},
 	["profiles"] = {
 		["Bloodwall - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 168.8369140625,
-				["x"] = -57.10249328613281,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
 			["playerbalancepoint"] = {
 				["y"] = 230.3377990722656,
 				["x"] = 460.6379089355469,
@@ -25,15 +19,27 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 			},
 			["startBid"] = 100,
-			["increment"] = 100,
 			["statuspoint"] = {
 				["y"] = 220.3969268798828,
 				["relative"] = "BOTTOMRIGHT",
 				["point"] = "BOTTOMRIGHT",
 				["x"] = -31.57160758972168,
 			},
+			["balancepoint"] = {
+				["y"] = 168.8369140625,
+				["x"] = -57.10249328613281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["increment"] = 100,
 		},
 		["Maturitass - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -171.1238861083984,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -285.3945617675781,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 177.6548461914063,
 				["relative"] = "RIGHT",
@@ -47,19 +53,13 @@ GDKPd_DB = {
 				["x"] = -260.4240417480469,
 			},
 			["startBid"] = 100,
+			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = 152.6455535888672,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -34.81410980224609,
 			},
-			["balancepoint"] = {
-				["y"] = -171.1238861083984,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -285.3945617675781,
-			},
-			["increment"] = 10,
 		},
 	},
 }

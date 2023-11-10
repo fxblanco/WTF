@@ -19,8 +19,9 @@ LoggerHeadNDB = {
 					[175] = true,
 				},
 				[631] = {
-					[5] = false,
 					[3] = true,
+					[6] = false,
+					[5] = false,
 				},
 				[600] = {
 					[2] = true,

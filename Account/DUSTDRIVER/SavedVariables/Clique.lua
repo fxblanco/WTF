@@ -2,36 +2,37 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Maturitass - Venoxis"] = {
-			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-			["specswap"] = false,
-		},
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["specswap"] = false,
+		},
+		["Maturitass - Venoxis"] = {
+			["spec1_profileKey"] = "Maturitass - Venoxis",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Maturitass - Venoxis",
+			["downclick"] = false,
+			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
 		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Maturitas - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -47,10 +48,10 @@ CliqueDB3 = {
 		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -81,23 +82,35 @@ CliqueDB3 = {
 				}, -- [4]
 			},
 		},
-		["Maturitass - Venoxis"] = {
+		["Recombinase - Venoxis"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
 						["default"] = true,
 					},
 					["type"] = "target",
-					["key"] = "ALT-BUTTON1",
+					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
 					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
 				}, -- [2]
+			},
+		},
+		["Maturitass - Venoxis"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "ALT-BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -106,37 +119,34 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Anregen",
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
-					["spellSubName"] = "Rang 7",
+					["spell"] = "Wiedergeburt",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136080,
-					["spell"] = "Wiedergeburt",
-				}, -- [4]
+					["spellSubName"] = "Rang 7",
+				}, -- [3]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rang 15",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136081,
-					["spell"] = "Verjüngung",
-				}, -- [5]
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spellSubName"] = "Rang 12",
+					["spell"] = "Nachwachsen",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136085,
-					["spell"] = "Nachwachsen",
-				}, -- [6]
+					["spellSubName"] = "Rang 12",
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
@@ -145,6 +155,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 135952,
 					["spell"] = "Fluch aufheben",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spell"] = "Verjüngung",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136081,
+					["spellSubName"] = "Rang 15",
 				}, -- [7]
 				{
 					["type"] = "spell",

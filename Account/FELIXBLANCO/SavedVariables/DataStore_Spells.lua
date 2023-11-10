@@ -10,7 +10,18 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1699227347,
+				["lastUpdate"] = 1699529340,
+				["Spells"] = {
+					["Allgemein"] = {
+						"81|Passiv", -- [1]
+						"6603|", -- [2]
+						"818|", -- [3]
+						"3274|Geselle", -- [4]
+						"20222|", -- [5]
+						"51306|Großmeister", -- [6]
+						"54197|Passiv", -- [7]
+					},
+				},
 				["SpellTabs"] = {
 					"Allgemein", -- [1]
 					"Disziplin", -- [2]
@@ -19,8 +30,11 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1699227588,
+				["lastUpdate"] = 1699529429,
 				["Spells"] = {
+					["Arkan"] = {
+						"43002|Rang 3", -- [1]
+					},
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
 						"6603|", -- [2]
@@ -35,6 +49,9 @@ DataStore_SpellsDB = {
 						"20557|Volk Passiv", -- [11]
 						"20558|Volk Passiv", -- [12]
 					},
+					["Feuer"] = {
+						"43046|Rang 3", -- [1]
+					},
 				},
 				["SpellTabs"] = {
 					"Allgemein", -- [1]
@@ -44,14 +61,15 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699227752,
+				["lastUpdate"] = 1699529386,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
 						"6603|", -- [2]
-						"20222|", -- [3]
-						"51306|Großmeister", -- [4]
-						"54197|Passiv", -- [5]
+						"107|Passiv", -- [3]
+						"20222|", -- [4]
+						"51306|Großmeister", -- [5]
+						"54197|Passiv", -- [6]
 					},
 					["Verstärkung"] = {
 						"556|", -- [1]
@@ -126,7 +144,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699307007,
+				["lastUpdate"] = 1699574954,
 				["Spells"] = {
 					["Allgemein"] = {
 						"7732|Experte", -- [1]

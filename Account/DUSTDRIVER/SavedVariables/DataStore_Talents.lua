@@ -2,57 +2,13 @@
 DataStore_TalentsDB = {
 	["profileKeys"] = {
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699317209,
-				["Class"] = "WARRIOR",
-				["TalentTrees"] = {
-					["Furor"] = {
-						nil, -- [1]
-						nil, -- [2]
-						5, -- [3]
-						5, -- [4]
-						nil, -- [5]
-						5, -- [6]
-						nil, -- [7]
-						nil, -- [8]
-						1, -- [9]
-						3, -- [10]
-						1, -- [11]
-						nil, -- [12]
-						nil, -- [13]
-						2, -- [14]
-						nil, -- [15]
-						5, -- [16]
-						2, -- [17]
-						3, -- [18]
-						5, -- [19]
-						1, -- [20]
-						3, -- [21]
-						nil, -- [22]
-						3, -- [23]
-						1, -- [24]
-						nil, -- [25]
-						5, -- [26]
-						3, -- [27]
-					},
-					["Waffen"] = {
-						3, -- [1]
-						[3] = 3,
-						[6] = 2,
-						[7] = 3,
-						[15] = 3,
-						[17] = 2,
-						[18] = 2,
-					},
-				},
-				["PointsSpent"] = "18,53,0",
-			},
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699209820,
+				["lastUpdate"] = 1699529624,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
 					["Wilder Kampf"] = {
@@ -71,15 +27,15 @@ DataStore_TalentsDB = {
 						5, -- [13]
 						1, -- [14]
 						1, -- [15]
-						[26] = 3,
-						[27] = 1,
-						[30] = 1,
 						[18] = 3,
 						[19] = 3,
 						[20] = 1,
 						[21] = 1,
 						[22] = 2,
 						[23] = 5,
+						[26] = 3,
+						[27] = 1,
+						[30] = 1,
 					},
 					["Wiederherst"] = {
 						2, -- [1]
@@ -94,12 +50,67 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "0,55,16",
 			},
+			["Default.Venoxis.Recombinase"] = {
+				["lastUpdate"] = 1699529504,
+				["Class"] = "ROGUE",
+				["PointsSpent"] = "0,0,0",
+			},
+			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1699529534,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Waffen"] = {
+						3, -- [1]
+						[3] = 2,
+						[18] = 2,
+						[7] = 3,
+						[9] = 5,
+					},
+					["Schutz"] = {
+						5, -- [1]
+						5, -- [2]
+						3, -- [3]
+						nil, -- [4]
+						3, -- [5]
+						nil, -- [6]
+						2, -- [7]
+						1, -- [8]
+						2, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						1, -- [12]
+						1, -- [13]
+						5, -- [14]
+						5, -- [15]
+						2, -- [16]
+						3, -- [17]
+						2, -- [18]
+						nil, -- [19]
+						1, -- [20]
+						nil, -- [21]
+						3, -- [22]
+						1, -- [23]
+						3, -- [24]
+						1, -- [25]
+						2, -- [26]
+					},
+					["Furor"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						2, -- [4]
+						[27] = 3,
+					},
+				},
+				["PointsSpent"] = "15,5,51",
+			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["global"] = {
@@ -269,9 +280,9 @@ DataStore_TalentsRefDB = {
 						[21] = "7|2",
 						[25] = "9|2",
 						[22] = "3|3",
-						[13] = "4|2",
-						[30] = "10|2",
 						[28] = "7|2",
+						[30] = "10|2",
+						[13] = "4|2",
 					},
 				},
 				["Gleichgewicht"] = {
@@ -310,10 +321,10 @@ DataStore_TalentsRefDB = {
 					["prereqs"] = {
 						[20] = "7|2",
 						[21] = "7|2",
-						[8] = "2|2",
+						[28] = "2|2",
 						[19] = "7|2",
 						[27] = "5|2",
-						[28] = "2|2",
+						[8] = "2|2",
 					},
 				},
 				["Wiederherst"] = {
@@ -346,19 +357,141 @@ DataStore_TalentsRefDB = {
 						"Verbesserter Baum des Lebens|236157|9|3|3", -- [26]
 						"Verbesserte Baumrinde|136097|10|1|2", -- [27]
 					},
+					["background"] = "DruidRestoration",
 					["prereqs"] = {
 						[11] = "3|1",
 						[15] = "5|2",
-						[21] = "2|3",
-						[5] = "4|3",
 						[19] = "8|2",
 						[23] = "9|2",
 						[26] = "9|2",
+						[5] = "4|3",
+						[21] = "2|3",
 					},
-					["background"] = "DruidRestoration",
 				},
 				["Wiederherstellung"] = {
 					["icon"] = 136041,
+				},
+			},
+		},
+		["ROGUE"] = {
+			["Order"] = "Meucheln,Kampf,Täuschung",
+			["Trees"] = {
+				["Täuschung"] = {
+					["talents"] = {
+						"Meister der Täuschung|136129|1|2|3", -- [1]
+						"Tarnung|132320|2|3|3", -- [2]
+						"Initiative|136159|4|2|3", -- [3]
+						"Reinlegen|136056|4|1|3", -- [4]
+						"Flüchtigkeit|135994|3|1|2", -- [5]
+						"Günstige Gelegenheit|132366|1|3|2", -- [6]
+						"Faule Tricks|132310|2|2|2", -- [7]
+						"Verbesserter Hinterhalt|132282|4|3|2", -- [8]
+						"Gemeinheiten|136220|5|3|2", -- [9]
+						"Vorbereitung|136121|5|2|1", -- [10]
+						"Geisterhafter Stoß|136136|3|2|1", -- [11]
+						"Konzentration|136183|7|2|1", -- [12]
+						"Blutsturz|136168|5|4|1", -- [13]
+						"Gezahnte Klingen|135315|3|3|3", -- [14]
+						"Kunstgriff|132294|2|1|2", -- [15]
+						"Geschärfte Sinne|132089|5|1|2", -- [16]
+						"Todbringer|135540|6|3|5", -- [17]
+						"Verhüllende Schatten|132291|7|1|3", -- [18]
+						"Finstere Berufung|132305|8|2|5", -- [19]
+						"Meister des hinterhältigen Angriffs|132299|6|1|3", -- [20]
+						"Schattenschritt|132303|9|2|1", -- [21]
+						"Von der Schippe springen|132285|7|3|3", -- [22]
+						"Wegelagerei|236286|8|3|2", -- [23]
+						"Ehre unter Dieben|236275|9|1|3", -- [24]
+						"Schmutzige Tricks|236287|9|3|2", -- [25]
+						"Hinterhältiger Mord|236280|10|2|5", -- [26]
+						"Schattentanz|236279|11|2|1", -- [27]
+						"Unerbittliche Stöße|132340|1|1|5", -- [28]
+					},
+					["prereqs"] = {
+						[13] = "3|3",
+						[12] = "5|2",
+						[19] = "7|2",
+					},
+					["icon"] = 132320,
+					["background"] = "RogueSubtlety",
+				},
+				["Kampf"] = {
+					["talents"] = {
+						"Präzision|132222|2|4|5", -- [1]
+						"Nahbereichsgefecht|135641|3|3|5", -- [2]
+						"Streitkolben-Spezialisierung|133476|5|1|5", -- [3]
+						"Blitzartige Reflexe|136047|4|3|3", -- [4]
+						"Abwehr|132269|2|2|3", -- [5]
+						"Verbesserter finsterer Stoß|136189|1|2|2", -- [6]
+						"Verbesserter Solarplexus|132155|1|1|3", -- [7]
+						"Durchhaltevermögen|136205|3|1|2", -- [8]
+						"Adrenalinrausch|136206|7|2|1", -- [9]
+						"Verbesserter Tritt|132219|4|1|2", -- [10]
+						"Beidhändigkeits-Spezialisierung|132147|1|3|5", -- [11]
+						"Verbessertes Sprinten|132307|4|2|2", -- [12]
+						"Klingenwirbel|132350|5|2|1", -- [13]
+						"Niedermetzeln|135328|5|3|5", -- [14]
+						"Riposte|132336|3|2|1", -- [15]
+						"Aggression|132275|4|4|5", -- [16]
+						"Waffenexperte|135882|6|2|2", -- [17]
+						"Vitalität|132353|7|1|3", -- [18]
+						"Klingenwendung|132283|6|3|2", -- [19]
+						"Nerven aus Stahl|132300|7|3|2", -- [20]
+						"Überraschungsangriffe|132308|9|2|1", -- [21]
+						"Kampfkraft|135673|8|3|5", -- [22]
+						"Verbessertes Zerhäckseln|132306|2|1|2", -- [23]
+						"Wurfspezialisierung|236282|8|1|2", -- [24]
+						"Unfairer Vorteil|236285|9|1|2", -- [25]
+						"Grausamer Kampf|132100|9|3|2", -- [26]
+						"Die Schwachen ausbeuten|236278|10|2|5", -- [27]
+						"Mordlust|236277|11|2|1", -- [28]
+					},
+					["prereqs"] = {
+						[21] = "7|2",
+						[2] = "1|3",
+						[15] = "2|2",
+						[17] = "5|2",
+					},
+					["icon"] = 132090,
+					["background"] = "RogueCombat",
+				},
+				["Meucheln"] = {
+					["talents"] = {
+						"Verbesserte Gifte|132273|4|3|5", -- [1]
+						"Tödlichkeit|132109|3|3|5", -- [2]
+						"Tücke|132277|1|3|5", -- [3]
+						"Gnadenlose Angriffe|132151|1|2|2", -- [4]
+						"Skrupellosigkeit|132122|2|1|3", -- [5]
+						"Mord|136147|6|3|2", -- [6]
+						"Verbessertes Ausweiden|132292|1|1|3", -- [7]
+						"Stichwunden|132090|2|4|3", -- [8]
+						"Verbessertes Rüstung schwächen|132354|3|2|2", -- [9]
+						"Verbesserter Nierenhieb|132298|5|3|3", -- [10]
+						"Kaltblütigkeit|135988|5|2|1", -- [11]
+						"Amok|132205|7|2|1", -- [12]
+						"Schicksal besiegeln|136130|6|2|5", -- [13]
+						"Lebenskraft|136023|3|1|1", -- [14]
+						"Üble Gifte|132293|4|2|3", -- [15]
+						"Meister der Gifte|132108|9|1|3", -- [16]
+						"Schwächen aufspüren|132295|8|3|3", -- [17]
+						"Verstümmeln|132304|9|2|1", -- [18]
+						"Leichtfüßig|132296|5|1|2", -- [19]
+						"Abgestumpfte Nerven|132286|7|3|3", -- [20]
+						"Schnelle Erholung|132301|5|4|2", -- [21]
+						"Tödliche Mischung|236270|7|1|2", -- [22]
+						"Den Spieß umdrehen|236284|9|3|3", -- [23]
+						"Blut vergießen|236268|2|2|2", -- [24]
+						"Fokussierte Angriffe|236274|8|1|3", -- [25]
+						"In Stücke schneiden|236269|10|2|5", -- [26]
+						"Blutgier|236276|11|2|1", -- [27]
+					},
+					["prereqs"] = {
+						[18] = "7|2",
+						[13] = "5|2",
+						[2] = "1|3",
+					},
+					["icon"] = 132292,
+					["background"] = "RogueAssassination",
 				},
 			},
 		},

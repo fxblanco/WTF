@@ -3,6 +3,7 @@ BisTooltipDB = {
 	["profileKeys"] = {
 		["Maturitas - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
 	["char"] = {
@@ -16,6 +17,10 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+		},
+		["Recombinase - Venoxis"] = {
+			["version"] = 6.2,
+			["data_source"] = "wh",
 		},
 		["Maturitass - Venoxis"] = {
 			["class_index"] = 2,
