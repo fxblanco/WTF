@@ -1,5 +1,11 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -775,101 +781,102 @@ RCLootCouncilDB = {
 			"12:33:45 - GetPlayersGuildRank()", -- [770]
 			"12:33:45 - Found Guild Rank: Twink", -- [771]
 			"12:33:47 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [772]
+			"11/12/23", -- [773]
+			"23:56:34 - Logged In", -- [774]
+			"23:56:34 - ML initialized!", -- [775]
+			"23:56:34 - TradeUI enabled", -- [776]
+			"23:56:40 - Maturitass-Venoxis (2.19.3) (nil)", -- [777]
+			"23:56:40 - ActivateSkin (bfa)", -- [778]
+			"23:56:46 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [779]
+			"23:56:46 - GetML()", -- [780]
+			"23:56:46 - LootMethod =  (group)", -- [781]
+			"23:56:46 - UpdatePlayersData()", -- [782]
+			"23:56:47 - ClassicModule enabled (0.20.0) (nil)", -- [783]
+			"23:56:47 - DoCommsCompressFix", -- [784]
+			"23:56:47 - Removing Column (role)", -- [785]
+			"23:56:47 - Removing Column (corruption)", -- [786]
+			"23:56:47 - GetPlayersGuildRank()", -- [787]
+			"23:56:47 - GetPlayersGuildRank()", -- [788]
+			"23:56:47 - Found Guild Rank: Twink", -- [789]
+			"23:56:47 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bremskyle) (distri:) (GUILD)", -- [790]
+			"23:56:51 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [791]
+			"00:15:04 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [792]
+			"00:22:23 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Mikirî) (distri:) (GUILD)", -- [793]
+			"00:27:15 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hakkî) (distri:) (GUILD)", -- [794]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
-			["Maturitass-Venoxis"] = {
+			["Uséléss-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
-			},
-			["Letsburn-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699062162, -- [3]
-			},
-			["Hâkkî-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699209822, -- [3]
-			},
-			["Slimpyi-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699062162, -- [3]
+				1699829808, -- [3]
 			},
 			["Alsia-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699209822, -- [3]
+				1699831635, -- [3]
+			},
+			["Camoraa-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699831635, -- [3]
+			},
+			["Hakkî-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699831635, -- [3]
 			},
 			["Mikirî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
+				1699831635, -- [3]
 			},
-			["Gdkphunter-Venoxis"] = {
+			["Morai-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699209822, -- [3]
+				1699830904, -- [3]
 			},
-			["Hopéless-Venoxis"] = {
+			["Bremskyle-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
+				1699831344, -- [3]
 			},
-			["Kentharo-Venoxis"] = {
+			["Maturitass-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
+				1699831635, -- [3]
 			},
-			["Tréalis-Venoxis"] = {
+			["Wønka-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
-			},
-			["Wallahnyr-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699209822, -- [3]
-			},
-			["Uséléss-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699209822, -- [3]
+				1699831635, -- [3]
 			},
 			["Slimpy-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699209822, -- [3]
+				1699831635, -- [3]
 			},
-			["Jogí-Venoxis"] = {
+			["Andrés-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699209822, -- [3]
+				1699829811, -- [3]
 			},
-			["Kyleriemen-Venoxis"] = {
+			["Wîdi-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
+				1699830904, -- [3]
 			},
-			["Schpen-Venoxis"] = {
+			["Blinkyli-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699062162, -- [3]
+				1699831635, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.0",
-	},
-	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Recombinase - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {

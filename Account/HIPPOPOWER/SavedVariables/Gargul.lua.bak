@@ -1,20 +1,30 @@
 
 GargulDB = {
-	["BoostedRolls"] = {
-		["Aliases"] = {
-		},
-		["Points"] = {
-		},
-	},
 	["TMB"] = {
 	},
+	["BoostedRolls"] = {
+		["Points"] = {
+		},
+		["Aliases"] = {
+		},
+	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1697580139,
+		["lastLoadedOn"] = 1697580215,
+		["6.2.5"] = 1695299158,
 		["5.1.1"] = 1697580139,
-		["6.2.8"] = 1697580139,
 		["5.2.0"] = 1697580139,
 		["latestVersionChangesShown"] = "6.2.0",
-		["6.2.5"] = 1695299158,
+		["6.2.8"] = 1697580139,
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -283,23 +293,13 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["GDKP"] = {
-		["SettingsPerItem"] = {
-		},
-		["Queue"] = {
-		},
-	},
-	["PlusOnes"] = {
-		["Totals"] = {
-		},
-	},
-	["LootPriority"] = {
-	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

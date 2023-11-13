@@ -14,18 +14,21 @@ ItemListsDB = {
 	["displayRank"] = true,
 	["lootTableTest"] = {
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
 	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["profiles"] = {
+		["Lesbenlisa - Venoxis"] = {
+		},
 		["Pippop - Venoxis"] = {
 		},
 	},

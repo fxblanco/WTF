@@ -1,5 +1,11 @@
 
 AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
+	},
 	["global"] = {
 		["__addonrevision"] = 3010003,
 		["VendorPrice"] = {
@@ -105,29 +111,29 @@ AtlasLootClassicDB = {
 			[47675] = "EmblemOfTriumph:75",
 			[47691] = "EmblemOfTriumph:75",
 			[47699] = "EmblemOfTriumph:45",
-			[48597] = "EmblemOfTriumph:50",
+			[45886] = "SiderealEssence:38",
 			[45930] = "SiderealEssence:25",
-			[47662] = "EmblemOfTriumph:25",
+			[46033] = "SiderealEssence:38",
 			[45946] = "SiderealEssence:15",
-			[46046] = "SiderealEssence:19",
-			[47673] = "EmblemOfTriumph:25",
-			[45888] = "SiderealEssence:15",
-			[45928] = "SiderealEssence:19",
+			[45990] = "SiderealEssence:38",
+			[46049] = "SiderealEssence:32",
+			[46039] = "SiderealEssence:32",
+			[45877] = "SiderealEssence:25",
 			[44711] = "EmblemOfTriumph:1",
-			[45988] = "SiderealEssence:19",
-			[46040] = "SiderealEssence:19",
-			[46048] = "SiderealEssence:19",
-			[47732] = "EmblemOfTriumph:35",
+			[45887] = "SiderealEssence:25",
+			[45876] = "SiderealEssence:25",
+			[47714] = "EmblemOfTriumph:45",
+			[45947] = "SiderealEssence:25",
 			[47556] = "SiderealEssence:3",
 			[46034] = "SiderealEssence:25",
 			[46042] = "SiderealEssence:19",
 			[46050] = "SiderealEssence:24",
 			[45293] = "SiderealEssence:19",
-			[47734] = "EmblemOfTriumph:50",
+			[47730] = "EmblemOfTriumph:35",
 			[48624] = "EmblemOfTriumph:75",
-			[45931] = "SiderealEssence:19",
-			[47731] = "EmblemOfTriumph:35",
-			[46043] = "SiderealEssence:24",
+			[47716] = "EmblemOfTriumph:45",
+			[46045] = "SiderealEssence:24",
+			[46041] = "SiderealEssence:24",
 			[48656] = "EmblemOfTriumph:30",
 			[46044] = "SiderealEssence:24",
 			[45867] = "SiderealEssence:25",
@@ -136,48 +142,24 @@ AtlasLootClassicDB = {
 			[48592] = "EmblemOfTriumph:75",
 			[47684] = "EmblemOfTriumph:75",
 			[47692] = "EmblemOfTriumph:75",
-			[46041] = "SiderealEssence:24",
-			[46045] = "SiderealEssence:24",
-			[47716] = "EmblemOfTriumph:45",
-			[47730] = "EmblemOfTriumph:35",
-			[45947] = "SiderealEssence:25",
-			[47714] = "EmblemOfTriumph:45",
-			[45876] = "SiderealEssence:25",
-			[45887] = "SiderealEssence:25",
-			[45877] = "SiderealEssence:25",
-			[46039] = "SiderealEssence:32",
-			[46049] = "SiderealEssence:32",
-			[45990] = "SiderealEssence:38",
-			[46033] = "SiderealEssence:38",
-			[45886] = "SiderealEssence:38",
+			[46043] = "SiderealEssence:24",
+			[47731] = "EmblemOfTriumph:35",
+			[45931] = "SiderealEssence:19",
+			[47734] = "EmblemOfTriumph:50",
+			[47732] = "EmblemOfTriumph:35",
+			[46048] = "SiderealEssence:19",
+			[46040] = "SiderealEssence:19",
+			[45988] = "SiderealEssence:19",
+			[45928] = "SiderealEssence:19",
+			[45888] = "SiderealEssence:15",
+			[47673] = "EmblemOfTriumph:25",
+			[46046] = "SiderealEssence:19",
+			[47662] = "EmblemOfTriumph:25",
+			[48597] = "EmblemOfTriumph:50",
 		},
-	},
-	["profileKeys"] = {
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
 	},
 	["profiles"] = {
-		["Pippop - Venoxis"] = {
-		},
-		["Lesbenlisa - Venoxis"] = {
-			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-7.596671581268311, -- [4]
-					38.98138046264648, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"TrialoftheCrusader", -- [2]
-					5, -- [3]
-					10, -- [4]
-					0, -- [5]
-				},
-			},
+		["Uwusoulstone - Venoxis"] = {
 		},
 		["Hakkî - Venoxis"] = {
 			["GUI"] = {
@@ -197,7 +179,25 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Uwusoulstone - Venoxis"] = {
+		["Lesbenlisa - Venoxis"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-7.596671581268311, -- [4]
+					38.98138046264648, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"TrialoftheCrusader", -- [2]
+					5, -- [3]
+					10, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Pippop - Venoxis"] = {
 		},
 	},
 }

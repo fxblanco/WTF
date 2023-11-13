@@ -7,9 +7,25 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Maturitass"] = {
+				["lastUpdate"] = 1699830010,
+				["lastVisitDate"] = "2023/11/13 00:00",
+			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699062349,
-				["lastVisitDate"] = "2023/11/04 02:45",
+				["lastUpdate"] = 1699829734,
+				["Mails"] = {
+					{
+						["icon"] = 134327,
+						["sender"] = "Auktionshaus",
+						["subject"] = "Auktion gewonnen: WoW-Marke",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "Vielen Dank für Ihren Kauf einer WoW-Marke!\r\n\r\nUm die Marke einzulösen, klicken Sie mit der rechten Maustaste auf den Gegenstand in Ihrem Inventar.\r\n\r\nWir möchten uns bei Ihnen dafür bedanken, dass sie World of Warcraft mit uns spielen. Viel Spaß bei all den Abenteuern, die Ihnen bevorstehen!",
+						["lastCheck"] = 1699829734,
+						["daysLeft"] = 25.57895851135254,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2023/11/12 23:55",
 			},
 		},
 	},

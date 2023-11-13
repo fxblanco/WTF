@@ -1,30 +1,21 @@
 
 GargulDB = {
-	["TMB"] = {
-	},
 	["BoostedRolls"] = {
-		["Points"] = {
-		},
 		["Aliases"] = {
 		},
+		["Points"] = {
+		},
+	},
+	["TMB"] = {
 	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1697580215,
-		["6.2.5"] = 1695299158,
-		["5.1.1"] = 1697580139,
-		["5.2.0"] = 1697580139,
-		["latestVersionChangesShown"] = "6.2.0",
+		["lastLoadedOn"] = 1699834341,
+		["7.1.0"] = 1699834341,
 		["6.2.8"] = 1697580139,
-	},
-	["LootPriority"] = {
-	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
-		["SettingsPerItem"] = {
-		},
-	},
-	["AwardHistory"] = {
+		["6.2.5"] = 1695299158,
+		["5.2.0"] = 1697580139,
+		["latestVersionChangesShown"] = "7.1.0",
+		["5.1.1"] = 1697580139,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -94,6 +85,14 @@ GargulDB = {
 			["antiSnipe"] = 15,
 			["enableBidderQueue"] = true,
 			["announceNewBidInRW"] = true,
+			["MultiAuction"] = {
+				["time"] = 600,
+				["includeMaterials"] = false,
+				["minimumFillQuality"] = 4,
+				["includeAwarded"] = false,
+				["antiSnipe"] = 15,
+				["includeBOEs"] = true,
+			},
 			["finalCallTime"] = 10,
 			["showHistoryOnTooltip"] = true,
 			["queueIsHalted"] = true,
@@ -131,6 +130,19 @@ GargulDB = {
 			["includeOffspecItems"] = true,
 		},
 		["UI"] = {
+			["PopupDialog"] = {
+				["Position"] = {
+					["point"] = "TOP",
+					["offsetY"] = -115,
+					["offsetX"] = 0,
+					["relativePoint"] = "TOP",
+				},
+			},
+			["RollOff"] = {
+				["timer"] = 30,
+				["closeOnStart"] = false,
+				["closeOnAward"] = false,
+			},
 			["ReopenAuctioneerButton"] = {
 				["offsetX"] = 188,
 				["relativePoint"] = "CENTER",
@@ -146,18 +158,13 @@ GargulDB = {
 			["Award"] = {
 				["closeOnAward"] = true,
 			},
-			["PopupDialog"] = {
+			["Changelog"] = {
 				["Position"] = {
-					["point"] = "TOP",
-					["offsetY"] = -115,
 					["offsetX"] = 0,
-					["relativePoint"] = "TOP",
+					["offsetY"] = 0,
+					["point"] = "CENTER",
+					["relativePoint"] = "CENTER",
 				},
-			},
-			["RollOff"] = {
-				["timer"] = 30,
-				["closeOnStart"] = false,
-				["closeOnAward"] = false,
 			},
 		},
 		["PlusOnes"] = {
@@ -277,6 +284,7 @@ GargulDB = {
 			["awardMessagesEnabled"] = true,
 			["autoTradeAfterAwardingAnItem"] = true,
 			["awardOnReceiveMinimumQuality"] = 4,
+			["skipAwardConfirmationDialog"] = false,
 		},
 		["MasterLooting"] = {
 			["announceCountdownOnce"] = false,
@@ -293,13 +301,23 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["SoftRes"] = {
-	},
-	["RecentlyAwardedItems"] = {
+	["GDKP"] = {
+		["SettingsPerItem"] = {
+		},
+		["Queue"] = {
+		},
 	},
 	["PlusOnes"] = {
 		["Totals"] = {
 		},
+	},
+	["LootPriority"] = {
+	},
+	["SoftRes"] = {
+	},
+	["RecentlyAwardedItems"] = {
+	},
+	["AwardHistory"] = {
 	},
 	["MinimapButton"] = {
 	},

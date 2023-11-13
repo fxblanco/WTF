@@ -1,15 +1,71 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
+	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
+	},
 	["profiles"] = {
+		["Pippop - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = -112.6750564575195,
+				["x"] = -210.9242858886719,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["point"] = {
+				["y"] = -99.22490692138672,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -75.67478942871094,
+			},
+		},
+		["Lesbenlisa - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -144.7824554443359,
+				["x"] = 457.2606811523438,
+				["point"] = "TOP",
+				["relative"] = "TOP",
+			},
+			["playerbalancepoint"] = {
+				["y"] = -138.4429626464844,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -240.8168640136719,
+			},
+			["point"] = {
+				["y"] = -74.44844818115234,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -218.9640808105469,
+			},
+			["startBid"] = 100,
+			["increment"] = 50,
+			["statuspoint"] = {
+				["y"] = -141.1630706787109,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -69.26077270507812,
+			},
+		},
+		["Hakkî - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 147.9363098144531,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -340.1041259765625,
+			},
+			["point"] = {
+				["y"] = -120.1687774658203,
+				["x"] = -187.5171356201172,
+				["point"] = "TOPRIGHT",
+				["relative"] = "TOPRIGHT",
+			},
+		},
 		["Uwusoulstone - Venoxis"] = {
 			["point"] = {
 				["y"] = -33.27197647094727,
@@ -30,62 +86,6 @@ GDKPd_DB = {
 			},
 			["increment"] = 10,
 		},
-		["Hakkî - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 147.9363098144531,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -340.1041259765625,
-			},
-			["point"] = {
-				["y"] = -120.1687774658203,
-				["x"] = -187.5171356201172,
-				["point"] = "TOPRIGHT",
-				["relative"] = "TOPRIGHT",
-			},
-		},
-		["Lesbenlisa - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = -138.4429626464844,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -240.8168640136719,
-			},
-			["point"] = {
-				["y"] = -74.44844818115234,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -218.9640808105469,
-			},
-			["startBid"] = 100,
-			["statuspoint"] = {
-				["y"] = -141.1630706787109,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -69.26077270507812,
-			},
-			["balancepoint"] = {
-				["y"] = -144.7824554443359,
-				["x"] = 457.2606811523438,
-				["point"] = "TOP",
-				["relative"] = "TOP",
-			},
-			["increment"] = 50,
-		},
-		["Pippop - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = -112.6750564575195,
-				["x"] = -210.9242858886719,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
-			["point"] = {
-				["y"] = -99.22490692138672,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -75.67478942871094,
-			},
-		},
 	},
 }
 GDKPd_PotData = {
@@ -102,19 +102,19 @@ GDKPd_PotData = {
 		["Khoradk"] = 0,
 		["Danpii"] = 0,
 		["Fakdizgeym"] = 0,
+		["Shadowchange"] = 0,
+		["Slimpy"] = 0,
 		["Arnia"] = 0,
-		["Yileria"] = 0,
-		["Kolberg"] = 0,
 		["Fatbutproo"] = 0,
 		["Beesportz"] = 0,
-		["Bloodwall"] = -34,
-		["Talyna"] = 0,
 		["Sempo"] = 0,
-		["Uwusoulstone"] = 7066,
+		["Talyna"] = 0,
 		["Indaríus"] = 0,
+		["Uwusoulstone"] = 7066,
+		["Bloodwall"] = -34,
 		["Neoxstep"] = 0,
-		["Slimpy"] = 0,
-		["Shadowchange"] = 0,
+		["Kolberg"] = 0,
+		["Yileria"] = 0,
 	},
 	["curPotHistory"] = {
 		{

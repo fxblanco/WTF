@@ -14,9 +14,10 @@ GDKPd_DB = {
 				["x"] = 460.6379089355469,
 			},
 			["point"] = {
-				["y"] = -157.8250732421875,
+				["y"] = -212.0001068115234,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
+				["x"] = -12.82554244995117,
 			},
 			["startBid"] = 100,
 			["statuspoint"] = {
@@ -47,10 +48,9 @@ GDKPd_DB = {
 				["x"] = -258.3778686523438,
 			},
 			["point"] = {
-				["y"] = -81.69601440429688,
+				["y"] = -140.7248840332031,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -260.4240417480469,
 			},
 			["startBid"] = 100,
 			["increment"] = 10,
@@ -89,5 +89,4 @@ GDKPd_PotData = {
 	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Bloodwall"] = -14160,
 }

@@ -7,18 +7,18 @@ CliqueDB3 = {
 			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
 			["specswap"] = false,
+			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
 		},
 	},
 	["profileKeys"] = {
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Uwusoulstone - Venoxis"] = "Uwusoulstone - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["profiles"] = {
-		["Pippop - Venoxis"] = {
+		["Uwusoulstone - Venoxis"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -37,17 +37,36 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
+		["Hakkî - Venoxis"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
 		["Lesbenlisa - Venoxis"] = {
 			["bindings"] = {
 				{
 					["spellSubName"] = "Rang 9",
 					["key"] = "BUTTON1",
-					["spell"] = "Lichtblitz",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["type"] = "spell",
+					["spell"] = "Lichtblitz",
 				}, -- [1]
 				{
 					["type"] = "spell",
@@ -70,12 +89,12 @@ CliqueDB3 = {
 				{
 					["spellSubName"] = "Rang 3",
 					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand des Schutzes",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135964,
-					["type"] = "spell",
+					["spell"] = "Hand des Schutzes",
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -105,22 +124,22 @@ CliqueDB3 = {
 				{
 					["spellSubName"] = "Rang 13",
 					["key"] = "BUTTON2",
-					["spell"] = "Heiliges Licht",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135920,
-					["type"] = "spell",
+					["spell"] = "Heiliges Licht",
 				}, -- [8]
 				{
 					["spellSubName"] = "Rang 5",
 					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Handauflegung",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135928,
-					["type"] = "spell",
+					["spell"] = "Handauflegung",
 				}, -- [9]
 				{
 					["type"] = "spell",
@@ -143,35 +162,16 @@ CliqueDB3 = {
 				{
 					["spell"] = "Heiliger Schock",
 					["key"] = "BUTTON3",
-					["spellSubName"] = "Rang 7",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135972,
-					["type"] = "spell",
+					["spellSubName"] = "Rang 7",
 				}, -- [12]
 			},
 		},
-		["Hakkî - Venoxis"] = {
-			["bindings"] = {
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Uwusoulstone - Venoxis"] = {
+		["Pippop - Venoxis"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",

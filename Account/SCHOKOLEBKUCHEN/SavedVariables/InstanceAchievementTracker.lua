@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramescale"] = 1,
-	["announceTrackedAchievements"] = false,
 	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["trackAchievementsAutomatically"] = false,
+	["announceTrackedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -34521,6 +34521,44 @@ AchievementTrackerDebug = {
 	"9/11/2023 12:34 [DEBUG] Enabling Addon", -- [34496]
 	"9/11/2023 12:34 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34497]
 	"9/11/2023 12:34 [DEBUG] Showing Minimap Icon", -- [34498]
+	"13/11/2023 0:35 [DEBUG] ---IAT Runtime---", -- [34499]
+	"13/11/2023 0:35 [DEBUG] Version: 4.28.0", -- [34500]
+	"13/11/2023 0:35 [DEBUG] Attempting to load from local NPC Cache classic", -- [34501]
+	"13/11/2023 0:35 [DEBUG] Generating NPC Cache Classic...", -- [34502]
+	"13/11/2023 0:35 [DEBUG] Enabling Addon", -- [34503]
+	"13/11/2023 0:35 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34504]
+	"13/11/2023 0:40 [DEBUG] Showing Minimap Icon", -- [34505]
+	"13/11/2023 0:57 [DEBUG] Player has entered instance", -- [34506]
+	"13/11/2023 0:57 [DEBUG] 533", -- [34507]
+	"13/11/2023 0:57 [DEBUG] Offical Instance Name: 533 _533", -- [34508]
+	"13/11/2023 0:57 [DEBUG] Detected Legacy 10 man Raid", -- [34509]
+	"13/11/2023 0:57 [DEBUG] New Instance Name: 533-10", -- [34510]
+	"13/11/2023 0:57 [DEBUG] Expansion: 3", -- [34511]
+	"13/11/2023 0:57 [DEBUG] Instance Type: Raids", -- [34512]
+	"13/11/2023 0:57 [DEBUG] Instance: 533-10", -- [34513]
+	"13/11/2023 0:57 [DEBUG] DifficultyID: 3", -- [34514]
+	"13/11/2023 0:57 [DEBUG] Expansion: 3", -- [34515]
+	"13/11/2023 0:57 [DEBUG] Instance Type: Raids", -- [34516]
+	"13/11/2023 0:57 [DEBUG] Instance: 533-10", -- [34517]
+	"13/11/2023 0:57 [DEBUG] Asking user whether they want to track this instance", -- [34518]
+	"13/11/2023 0:57 [DEBUG] Creating Tracking UI", -- [34519]
+	"13/11/2023 0:57 [DEBUG] InfoFrame Setup Complete", -- [34520]
+	"13/11/2023 0:57 [DEBUG] Expansion: 3", -- [34521]
+	"13/11/2023 1:4 [DEBUG] 6", -- [34522]
+	"13/11/2023 1:4 [DEBUG] Hiding Tracking UI", -- [34523]
+	"13/11/2023 1:4 [DEBUG] Hiding Tracking UI", -- [34524]
+	"13/11/2023 1:4 [DEBUG] Clearing Instance Variables", -- [34525]
+	"13/11/2023 1:4 [DEBUG] Cleaning up instance events for _533", -- [34526]
+	"13/11/2023 1:4 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [34527]
+	"13/11/2023 1:4 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [34528]
+	"13/11/2023 1:4 [DEBUG] Clearing Instance Variables if exists", -- [34529]
+	"13/11/2023 1:4 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [34530]
+	"13/11/2023 1:4 [DEBUG] Clearing Instance Variables if exists", -- [34531]
+	"13/11/2023 1:4 [DEBUG] Clearing Instance Variables", -- [34532]
+	"13/11/2023 1:4 [DEBUG] Resetting Global Variables", -- [34533]
+	"13/11/2023 1:4 [DEBUG] InfoFrame does not need to be reset", -- [34534]
+	"13/11/2023 1:4 [DEBUG] Resetting PlayerRank", -- [34535]
+	"13/11/2023 1:4 [DEBUG] InfoFrame was not active", -- [34536]
 }
 AchievementTrackerNPCCache = {
 }
@@ -34535,7 +34573,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebart",
 	[26746] = "Wahnsinniges Managespenst",
 	[27756] = "Rubindrache",
-	[26555] = "Hüne der Geißel",
+	[26668] = "Svala Grabesleid",
 	[33572] = "Stahlgeschmiedeter Verteidiger",
 	[29713] = "Slad'ranwürger",
 	[26627] = "Kristallwirker",
@@ -34546,33 +34584,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotischer Riss",
 	[28586] = "General Bjarngrim",
 	[16028] = "Flickwerk",
-	[29305] = "Moorabi",
-	[29304] = "Slad'ran",
+	[26533] = "Mal'Ganis",
+	[27981] = "Missgestalteter Schlamm",
 	[26763] = "Anomalus",
 	[26630] = "Trollgrind",
 	[26731] = "Großmagistrix Telestra",
-	[26641] = "Magenfetzer der Drakkari",
 	[26893] = "Grauf",
-	[28731] = "Aufseher Silthik",
+	[26641] = "Magenfetzer der Drakkari",
 	[33136] = "Wächter des Yogg-Saron",
 	[27975] = "Maid der Trauer",
-	[28729] = "Aufseher Narjil",
+	[33388] = "Dunkler Runenwächter",
+	[27658] = "Belgaristrasz",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
 	[30176] = "Wächter der Ahn'kahar",
 	[23562] = "Unaufhaltsame Monstrosität",
-	[27658] = "Belgaristrasz",
+	[28729] = "Aufseher Narjil",
 	[28730] = "Aufseher Gashra",
-	[33388] = "Dunkler Runenwächter",
+	[28731] = "Aufseher Silthik",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",
 	[29932] = "Der wilde Eck",
 	[29240] = "Sturmgeschmiedeter Leutnant",
-	[27981] = "Missgestalteter Schlamm",
-	[26533] = "Mal'Ganis",
+	[29304] = "Slad'ran",
+	[29305] = "Moorabi",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Schrottbot",
 	[23953] = "Prinz Keleseth",
-	[26668] = "Svala Grabesleid",
+	[26555] = "Hüne der Geißel",
 }

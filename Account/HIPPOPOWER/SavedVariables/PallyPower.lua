@@ -1,43 +1,43 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Uwusoulstone - Venoxis"] = "Other",
-		["Hakkî - Venoxis"] = "Other",
-		["Lesbenlisa - Venoxis"] = "Default",
 		["Pippop - Venoxis"] = "Other",
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Other",
+		["Uwusoulstone - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["enable"] = true,
 			["seal"] = 9,
+			["enable"] = true,
 			["WrathTransition"] = true,
 		},
 		["Other"] = {
-			["cBuffNeedAll"] = {
-				["r"] = 0.5,
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["WrathTransition"] = true,
+			["cBuffNeedAll"] = {
 				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["enable"] = true,
-			["WrathTransition"] = true,
 			["cBuffGood"] = {
-				["r"] = 0.2,
+				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
-				["b"] = 0.2,
+				["r"] = 0.2,
 			},
-			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
-			},
+			["enable"] = true,
 		},
 	},
 }
@@ -54,7 +54,7 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Bremskyle"] = {
+	["Beesportz"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
@@ -66,7 +66,7 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Beesportz"] = {
+	["Bremskyle"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
@@ -108,20 +108,20 @@ PallyPower_AuraAssignments = {
 	["Liptea"] = 6,
 	["Xhaara"] = 6,
 	["Nobuffg"] = 5,
-	["Awfultry"] = 0,
-	["Beesportz"] = 6,
+	["Hornymoon"] = 1,
+	["Yuisis"] = 5,
 	["Bremskyle"] = 1,
 	["Habíb"] = 3,
 	["Kolberg"] = 2,
 	["Fatbutproo"] = 1,
-	["Yuisis"] = 5,
+	["Beesportz"] = 6,
 	["Xellzs"] = 3,
-	["Lesbenlisa"] = 1,
-	["Palladriel"] = 2,
 	["Faîlz"] = 4,
+	["Palladriel"] = 2,
+	["Lesbenlisa"] = 1,
 	["Sempo"] = 2,
 	["Markodu"] = 3,
-	["Hornymoon"] = 1,
+	["Awfultry"] = 0,
 	["Chantris"] = 6,
 }
 PallyPower_SavedPresets = {

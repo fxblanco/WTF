@@ -8,7 +8,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699529624,
+				["lastUpdate"] = 1699829807,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
 					["Wilder Kampf"] = {
@@ -56,7 +56,7 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "0,0,0",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699529534,
+				["lastUpdate"] = 1699828032,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Waffen"] = {
@@ -118,13 +118,7 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Waffen,Furor,Schutz",
 			["Trees"] = {
 				["Furor"] = {
-					["prereqs"] = {
-						[11] = "5|2",
-						[20] = "7|2",
-						[23] = "7|2",
-					},
 					["background"] = "WarriorFury",
-					["icon"] = 132347,
 					["talents"] = {
 						"Gebieterische Stimme|136035|3|4|5", -- [1]
 						"Wutanfall|136224|4|3|5", -- [2]
@@ -154,14 +148,15 @@ DataStore_TalentsRefDB = {
 						"Unendlicher Furor|236310|10|2|5", -- [26]
 						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
 					},
+					["icon"] = 132347,
+					["prereqs"] = {
+						[11] = "5|2",
+						[20] = "7|2",
+						[23] = "7|2",
+					},
 				},
 				["Schutz"] = {
-					["prereqs"] = {
-						[8] = "5|2",
-						[22] = "9|2",
-					},
 					["background"] = "WarriorProtection",
-					["icon"] = 132341,
 					["talents"] = {
 						"Vorahnung|136056|2|3|5", -- [1]
 						"Zähigkeit|135892|3|4|5", -- [2]
@@ -191,15 +186,14 @@ DataStore_TalentsRefDB = {
 						"Schadensschild|134976|10|3|2", -- [26]
 						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
 					},
+					["icon"] = 132341,
+					["prereqs"] = {
+						[8] = "5|2",
+						[22] = "9|2",
+					},
 				},
 				["Waffen"] = {
-					["prereqs"] = {
-						"3|3", -- [1]
-						[14] = "5|2",
-						[23] = "7|2",
-					},
 					["background"] = "WarriorArms",
-					["icon"] = 132292,
 					["talents"] = {
 						"Tiefe Wunden|132090|3|4|3", -- [1]
 						"Schwert-Spezialisierung|135328|5|4|5", -- [2]
@@ -233,6 +227,12 @@ DataStore_TalentsRefDB = {
 						"Verbessertes Zerschmettern|132340|7|4|2", -- [30]
 						"Dampfwalze|132335|8|1|1", -- [31]
 					},
+					["icon"] = 132292,
+					["prereqs"] = {
+						"3|3", -- [1]
+						[14] = "5|2",
+						[23] = "7|2",
+					},
 				},
 			},
 		},
@@ -240,7 +240,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Gleichgewicht,Wilder Kampf,Wiederherst",
 			["Trees"] = {
 				["Wilder Kampf"] = {
-					["background"] = "DruidFeralCombat",
 					["talents"] = {
 						"Dickes Fell|134355|2|3|3", -- [1]
 						"Wilde Aggression|132121|1|3|5", -- [2]
@@ -273,7 +272,6 @@ DataStore_TalentsRefDB = {
 						"Natürliche Reaktion|132091|6|1|3", -- [29]
 						"Urtümliches Blutvergießen|132140|10|3|1", -- [30]
 					},
-					["icon"] = 132276,
 					["prereqs"] = {
 						[20] = "7|2",
 						[7] = "3|3",
@@ -284,9 +282,10 @@ DataStore_TalentsRefDB = {
 						[30] = "10|2",
 						[13] = "4|2",
 					},
+					["icon"] = 132276,
+					["background"] = "DruidFeralCombat",
 				},
 				["Gleichgewicht"] = {
-					["background"] = "DruidBalance",
 					["talents"] = {
 						"Zorniges Sternenlicht|136006|1|2|5", -- [1]
 						"Verbessertes Mondfeuer|136096|2|4|2", -- [2]
@@ -317,7 +316,6 @@ DataStore_TalentsRefDB = {
 						"Verbesserter Insektenschwarm|136045|5|3|3", -- [27]
 						"Pracht der Natur|136060|3|3|1", -- [28]
 					},
-					["icon"] = 136096,
 					["prereqs"] = {
 						[20] = "7|2",
 						[21] = "7|2",
@@ -326,6 +324,8 @@ DataStore_TalentsRefDB = {
 						[27] = "5|2",
 						[8] = "2|2",
 					},
+					["icon"] = 136096,
+					["background"] = "DruidBalance",
 				},
 				["Wiederherst"] = {
 					["talents"] = {
@@ -361,9 +361,9 @@ DataStore_TalentsRefDB = {
 					["prereqs"] = {
 						[11] = "3|1",
 						[15] = "5|2",
-						[19] = "8|2",
-						[23] = "9|2",
 						[26] = "9|2",
+						[23] = "9|2",
+						[19] = "8|2",
 						[5] = "4|3",
 						[21] = "2|3",
 					},
@@ -377,6 +377,13 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Meucheln,Kampf,Täuschung",
 			["Trees"] = {
 				["Täuschung"] = {
+					["prereqs"] = {
+						[13] = "3|3",
+						[12] = "5|2",
+						[19] = "7|2",
+					},
+					["background"] = "RogueSubtlety",
+					["icon"] = 132320,
 					["talents"] = {
 						"Meister der Täuschung|136129|1|2|3", -- [1]
 						"Tarnung|132320|2|3|3", -- [2]
@@ -407,15 +414,16 @@ DataStore_TalentsRefDB = {
 						"Schattentanz|236279|11|2|1", -- [27]
 						"Unerbittliche Stöße|132340|1|1|5", -- [28]
 					},
-					["prereqs"] = {
-						[13] = "3|3",
-						[12] = "5|2",
-						[19] = "7|2",
-					},
-					["icon"] = 132320,
-					["background"] = "RogueSubtlety",
 				},
 				["Kampf"] = {
+					["prereqs"] = {
+						[21] = "7|2",
+						[2] = "1|3",
+						[15] = "2|2",
+						[17] = "5|2",
+					},
+					["background"] = "RogueCombat",
+					["icon"] = 132090,
 					["talents"] = {
 						"Präzision|132222|2|4|5", -- [1]
 						"Nahbereichsgefecht|135641|3|3|5", -- [2]
@@ -446,16 +454,15 @@ DataStore_TalentsRefDB = {
 						"Die Schwachen ausbeuten|236278|10|2|5", -- [27]
 						"Mordlust|236277|11|2|1", -- [28]
 					},
-					["prereqs"] = {
-						[21] = "7|2",
-						[2] = "1|3",
-						[15] = "2|2",
-						[17] = "5|2",
-					},
-					["icon"] = 132090,
-					["background"] = "RogueCombat",
 				},
 				["Meucheln"] = {
+					["prereqs"] = {
+						[18] = "7|2",
+						[13] = "5|2",
+						[2] = "1|3",
+					},
+					["background"] = "RogueAssassination",
+					["icon"] = 132292,
 					["talents"] = {
 						"Verbesserte Gifte|132273|4|3|5", -- [1]
 						"Tödlichkeit|132109|3|3|5", -- [2]
@@ -485,13 +492,6 @@ DataStore_TalentsRefDB = {
 						"In Stücke schneiden|236269|10|2|5", -- [26]
 						"Blutgier|236276|11|2|1", -- [27]
 					},
-					["prereqs"] = {
-						[18] = "7|2",
-						[13] = "5|2",
-						[2] = "1|3",
-					},
-					["icon"] = 132292,
-					["background"] = "RogueAssassination",
 				},
 			},
 		},

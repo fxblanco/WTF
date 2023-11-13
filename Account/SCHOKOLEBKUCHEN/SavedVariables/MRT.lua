@@ -34,16 +34,16 @@ VMRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[252] = 10,
-			[105] = 10,
-			[254] = 10,
-			[256] = 10,
-			[577] = 10,
 			[581] = 10,
+			[105] = 10,
+			[577] = 10,
+			[256] = 10,
+			[254] = 10,
+			[252] = 10,
 		},
 		["Type"] = 2,
-		["timeToKillAnalyze"] = 15,
 		["Strata"] = "HIGH",
+		["timeToKillAnalyze"] = 15,
 	},
 	["ProfileKeys"] = {
 		["Exonuklease-Venoxis"] = "default",
@@ -51,40 +51,9 @@ VMRT = {
 		["Endonuclease-Venoxis"] = "default",
 	},
 	["Encounter"] = {
-		["names"] = {
-			[756] = "Yogg-Saron",
-			[849] = "Fauldarm",
-			[757] = "Algalon der Beobachter",
-			[742] = "Sartharion",
-			[851] = "Professor Seuchenmord",
-			[848] = "Todesbringer Saurfang",
-			[852] = "Rat des Blutes",
-			[744] = "Flammenleviathan",
-			[853] = "Blutkönigin Lana'thel",
-			[745] = "Ignis, Meister des Eisenwerks",
-			[637] = "Fraktionschampions",
-			[746] = "Klingenschuppe",
-			[850] = "Modermiene",
-			[747] = "XT-002 Dekonstruktor",
-			[1114] = "Kel'Thuzad",
-			[748] = "Der Eiserne Rat",
-			[1119] = "Saphiron",
-			[749] = "Kologarn",
-			[641] = "Zwillingsval'kyr",
-			[750] = "Auriaya",
-			[846] = "Lady Todeswisper",
-			[751] = "Hodir",
-			[845] = "Lord Mark'gar",
-			[752] = "Thorim",
-			[753] = "Freya",
-			[629] = "Bestien von Nordend",
-			[645] = "Anub'arak",
-			[754] = "Mimiron",
-			[1084] = "Onyxia",
-			[755] = "General Vezax",
-			[633] = "Lord Jaraxxus",
-		},
 		["list"] = {
+			["Fieserdot"] = {
+			},
 			["Exonuklease"] = {
 				"^742^3^1682199276^2^0^10^195.05^", -- [1]
 				"^742^3^1682199453^147^0^10^215.16^Strammpogx", -- [2]
@@ -356,11 +325,44 @@ VMRT = {
 				"^853^3^1698801156^191^0^10^263.86^Exonuklease", -- [268]
 				"^853^3^1698801541^24^0^10^263.85^Deusdominik", -- [269]
 				"^853^3^1698801705^282^1^10^263.85^Tâste", -- [270]
-			},
-			["Fieserdot"] = {
+				"^1113^3^1699833695^130^1^10^249.93^Worldiscneyx", -- [271]
 			},
 			["Endonuclease"] = {
 			},
+		},
+		["names"] = {
+			[755] = "General Vezax",
+			[756] = "Yogg-Saron",
+			[633] = "Lord Jaraxxus",
+			[757] = "Algalon der Beobachter",
+			[742] = "Sartharion",
+			[851] = "Professor Seuchenmord",
+			[1113] = "Instrukteur Razuvious",
+			[852] = "Rat des Blutes",
+			[744] = "Flammenleviathan",
+			[853] = "Blutkönigin Lana'thel",
+			[745] = "Ignis, Meister des Eisenwerks",
+			[637] = "Fraktionschampions",
+			[746] = "Klingenschuppe",
+			[1084] = "Onyxia",
+			[747] = "XT-002 Dekonstruktor",
+			[1114] = "Kel'Thuzad",
+			[748] = "Der Eiserne Rat",
+			[1119] = "Saphiron",
+			[749] = "Kologarn",
+			[641] = "Zwillingsval'kyr",
+			[750] = "Auriaya",
+			[629] = "Bestien von Nordend",
+			[751] = "Hodir",
+			[753] = "Freya",
+			[845] = "Lord Mark'gar",
+			[752] = "Thorim",
+			[846] = "Lady Todeswisper",
+			[645] = "Anub'arak",
+			[754] = "Mimiron",
+			[850] = "Modermiene",
+			[848] = "Todesbringer Saurfang",
+			[849] = "Fauldarm",
 		},
 	},
 	["Marks"] = {
@@ -380,6 +382,7 @@ VMRT = {
 			["Grutok"] = 0,
 			["Wønka"] = 0,
 			["Myjuice"] = 0,
+			["Worldiscneyx"] = 0,
 			["Bcrazy"] = 0,
 			["Euron"] = 0,
 			["Kyleriemen"] = 0,
@@ -390,6 +393,7 @@ VMRT = {
 			["Kiøku"] = 0,
 			["Wîdi"] = 0,
 			["Hakkî"] = 0,
+			["Sebulver"] = 0,
 			["Gógeta"] = 0,
 			["Beercat"] = 0,
 			["Larasombardi"] = 0,
@@ -397,12 +401,14 @@ VMRT = {
 			["Serferine"] = 0,
 			["Mindsét"] = 0,
 			["Nokra"] = 0,
+			["Draguvic"] = 0,
 			["Clack"] = 0,
 			["Uwugamergirl"] = 0,
 			["Jocindyr"] = 0,
 			["Sârdukk"] = 0,
 			["Eberth"] = 0,
 			["Pippop"] = 0,
+			["Slyestealth"] = 0,
 			["Slimpy"] = 0,
 			["Hâkkî"] = 0,
 			["Hennerr"] = 0,
@@ -410,41 +416,50 @@ VMRT = {
 			["Hampdidampdi"] = 0,
 			["Alsia"] = 0,
 			["Satako"] = 0,
+			["Reasonable"] = 0,
 			["Amdarius"] = 0,
 			["Hiroxx"] = 0,
+			["Grhief"] = 0,
+			["Sadik"] = 0,
+			["Geisha"] = 0,
 			["Samaros"] = 0,
+			["Hollowtips"] = 0,
 			["Jodifrosta"] = 0,
+			["Bremskyle"] = 0,
+			["Terrortotem"] = 0,
 			["Raikii"] = 0,
-			["Klassíc"] = 0,
+			["Xoyolive"] = 0,
 			["Onixus"] = 0,
-			["Delmonte"] = 0,
+			["Shamir"] = 0,
 			["Supersayajín"] = 0,
 			["Gnag"] = 0,
-			["Braxxnbonez"] = 0,
+			["Døømdruid"] = 0,
 			["Xolem"] = 0,
 			["Shikimora"] = 0,
-			["Kroda"] = 0,
-			["Bremskyle"] = 0,
-			["Slimpyi"] = 0,
+			["Xeeli"] = 0,
+			["Kwasimojo"] = 0,
+			["Domedonmaya"] = 0,
 			["Smorcmeister"] = 0,
-			["Vartok"] = 0,
-			["Sbudbencer"] = 0,
+			["Eîssenpai"] = 0,
+			["Schetner"] = 0,
 			["Vanec"] = 0,
-			["Exonuklease"] = 0,
+			["Damaze"] = 0,
 			["Ehlia"] = 0,
 			["Moonbird"] = 0,
 			["Morai"] = 0,
-			["Damaze"] = 0,
+			["Exonuklease"] = 0,
 			["Ukban"] = 0,
-			["Schetner"] = 0,
-			["Eîssenpai"] = 0,
-			["Domedonmaya"] = 0,
-			["Kwasimojo"] = 0,
-			["Xeeli"] = 0,
-			["Døømdruid"] = 0,
-			["Shamir"] = 0,
-			["Xoyolive"] = 0,
+			["Sbudbencer"] = 0,
+			["Vartok"] = 0,
+			["Slimpyi"] = 0,
+			["Orngemrmld"] = 0,
+			["Kroda"] = 0,
+			["Braxxnbonez"] = 0,
+			["Delmonte"] = 0,
+			["Klassíc"] = 0,
 		},
+		["Left"] = 517.31011962891,
+		["NoRaid"] = true,
 		["CDECol"] = {
 			["55342;1"] = 3,
 			["62124;1"] = 3,
@@ -456,23 +471,21 @@ VMRT = {
 			["64901;1"] = 4,
 			["20765;1"] = 2,
 			["34477;1"] = 2,
-			["12975;1"] = 1,
 			["355;1"] = 3,
+			["12975;1"] = 1,
 			["49576;1"] = 3,
 			["16190;1"] = 4,
-			["2062;1"] = 2,
+			["20608;1"] = 2,
 			["1038;1"] = 3,
 			["31821;1"] = 2,
 			["871;1"] = 1,
 			["9863;1"] = 2,
 			["2825;1"] = 2,
 			["20748;1"] = 2,
-			["20608;1"] = 2,
+			["2062;1"] = 2,
 			["29166;1"] = 4,
 			["64205;1"] = 2,
 		},
-		["NoRaid"] = true,
-		["Left"] = 517.31011962891,
 		["upd4380"] = true,
 		["Top"] = 172.95068359375,
 		["Save"] = {
@@ -492,13 +505,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -507,13 +520,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -522,13 +535,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [3]
 			{
 				["enabled"] = true,
@@ -537,13 +550,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -551,13 +564,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -565,13 +578,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -579,13 +592,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -593,13 +606,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -607,13 +620,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -621,13 +634,13 @@ VMRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 			}, -- [10]
 			{
 				["textureColorTextDefaultR"] = 1,
@@ -646,46 +659,46 @@ VMRT = {
 				["frameBlackBack"] = 0,
 				["fontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 				["blacklistGeneral"] = true,
-				["textureColorTextDefaultG"] = 1,
+				["textureAlphaCooldown"] = 0.85,
 				["textureColorTimeLineActiveB"] = 1,
-				["frameWidth"] = 130,
+				["textureAnimation"] = true,
 				["textureColorBackgroundActiveG"] = 1,
 				["textureColorTimeLineDefaultB"] = 1,
 				["textureAlphaBackground"] = 0.15,
-				["textureColorTimeLineDefaultG"] = 1,
+				["frameWidth"] = 130,
 				["textureClassTimeLine"] = true,
-				["textureColorBackgroundActiveB"] = 1,
+				["textureColorTimeLineActiveR"] = 1,
 				["fontSize"] = 12,
-				["textureColorTextActiveR"] = 0.5,
+				["textureColorTextDefaultB"] = 1,
 				["iconGray"] = false,
-				["textTemplateRight"] = "%time%",
+				["frameAlpha"] = 100,
 				["textureColorTextCooldownG"] = 1,
-				["visibilityGeneral"] = true,
-				["textureColorTextCooldownR"] = 1,
-				["textTemplateLeft"] = "%name%",
+				["frameBetweenLines"] = 1,
+				["textureColorBackgroundCooldownG"] = 1,
 				["textureColorTimeLineCooldownR"] = 1,
+				["textTemplateLeft"] = "%name%",
 				["textTemplateCenter"] = "",
 				["textureColorBackgroundDefaultR"] = 1,
 				["iconSize"] = 16,
 				["textureColorTimeLineCooldownB"] = 1,
-				["textureColorBackgroundCooldownR"] = 1,
+				["textureColorTimeLineDefaultR"] = 1,
 				["textureAlphaTimeLine"] = 1,
+				["textureClassText"] = false,
 				["methodsTimeLineAnimation"] = 2,
-				["iconGlowType"] = 4,
 				["frameScale"] = 80,
 				["textureColorBackgroundCooldownB"] = 1,
-				["textureClassText"] = false,
-				["textureColorTimeLineDefaultR"] = 1,
+				["iconGlowType"] = 4,
+				["textureColorBackgroundCooldownR"] = 1,
 				["frameStrata"] = "MEDIUM",
 				["textureColorTimeLineActiveG"] = 1,
 				["textureColorTextActiveG"] = 1,
-				["textureColorBackgroundCooldownG"] = 1,
-				["frameBetweenLines"] = 1,
-				["frameAlpha"] = 100,
-				["textureColorTextDefaultB"] = 1,
-				["textureColorTimeLineActiveR"] = 1,
-				["textureAnimation"] = true,
-				["textureAlphaCooldown"] = 0.85,
+				["textureColorTextCooldownR"] = 1,
+				["visibilityGeneral"] = true,
+				["textureColorTextActiveR"] = 0.5,
+				["textTemplateRight"] = "%time%",
+				["textureColorBackgroundActiveB"] = 1,
+				["textureColorTimeLineDefaultG"] = 1,
+				["textureColorTextDefaultG"] = 1,
 			}, -- [11]
 		},
 		["Priority"] = {
@@ -701,12 +714,12 @@ VMRT = {
 			[33206] = 30,
 			[49576] = 90,
 			[1038] = 40,
-			[2062] = 66,
-			[29166] = 30,
-			[871] = 60,
-			[12975] = 60,
-			[20608] = 45,
 			[9863] = 55,
+			[29166] = 30,
+			[12975] = 60,
+			[871] = 60,
+			[20608] = 45,
+			[2062] = 66,
 		},
 		["CDE"] = {
 			[20748] = true,
@@ -722,15 +735,15 @@ VMRT = {
 			[48707] = true,
 			[49576] = true,
 			[10310] = true,
-			[10278] = true,
+			[9863] = true,
 			[1038] = true,
 			[47788] = true,
-			[12975] = true,
-			[355] = true,
-			[55342] = true,
 			[62124] = true,
+			[55342] = true,
+			[355] = true,
+			[12975] = true,
 			[20608] = true,
-			[9863] = true,
+			[10278] = true,
 		},
 		["OptFav"] = {
 		},
@@ -749,31 +762,32 @@ VMRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeLowIlvl"] = true,
+		["ColorizeNoTopEnchGems"] = false,
 		["ColorizeNoValorUpgrade"] = false,
 	},
-	["RaidCheck"] = {
-		["ReadyCheckLeft"] = 1061.4925537109,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["FlaskExp"] = 1,
-		["ReadyCheckFrameScale"] = 104,
-		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckTop"] = 566.61059570312,
-		["WeaponEnch"] = {
+	["InviteTool"] = {
+		["Words"] = "инв inv byd штм 123",
+		["InvByChat"] = true,
+		["RaidDiff"] = 16,
+		["PromoteRank"] = 2,
+		["Ranks"] = {
+			true, -- [1]
 		},
-		["ReadyCheckFontSize"] = 14,
-		["ReadyCheckFrame"] = true,
+		["LootThreshold"] = 3,
+		["MasterLooters"] = "",
+		["LootMethod"] = "master",
+		["PromoteNames"] = "",
+		["OnlyGuild"] = true,
+		["Rank"] = 1,
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
-		["Scale"] = 1,
+		["PreVersion"] = 4800,
 		["Version"] = 4800,
-		["PreVersion"] = 4785,
+		["Scale"] = 1,
 	},
 	["WhoPulled"] = {
-	},
-	["Profiles"] = {
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
@@ -782,6 +796,8 @@ VMRT = {
 		["optionsHealingGraph"] = true,
 		["trackingDamageSpells"] = {
 		},
+	},
+	["Profiles"] = {
 	},
 	["Profile"] = "default",
 	["LootLink"] = {
@@ -851,12 +867,15 @@ VMRT = {
 		["Fix"] = true,
 		["ScaleBack"] = 0,
 		["Text1"] = "{spell:2825} Bloodlust\nP3 after all Raging Spirits are dead\n\nInfest Cooldowns\n1 - none \n2 - Bermskyle Divine Sacrifice {spell:64205}\n3 - Liptea Aura Mastery {spell:31821}{spell:48943} \n4 - Alsia Divine Sacrifice {spell:64205}\n5 - Bermskyle Aura Mastery {spell:31821}{spell:48943} \n6 - Liptea Divine Sacrifice {spell:64205}\n\nSoul Reaper Cooldowns - P2\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n5 -    / Alsia Divine Protection{spell:498}\n6 -    / Bubbledine Divine Protection{spell:498}\nRepeat\n\nPhase 3\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n\nVal'kyr Stuns\n{rt2} Alsia HoJ {spell:10308}\n{rt2} Shikimora Holy Wrath {spell:48817}\n{rt2} Alsia Holy Wrath {spell:48817}\n{rt2} Ukban Cheap Shot {spell:1833}\n{rt3} Shikimora HoJ {spell:10308}\n{rt3} Shikimora Holy Wrath {spell:48817}\n{rt3} Alsia Holy Wrath {spell:48817}\n{rt3} Onixus Cheap Shot {spell:1833}\n{rt1} Bermskyle HoJ {spell:10308}\n{rt1} Shikimora Holy Wrath {spell:48817}\n{rt1} Alsia Holy Wrath {spell:48817}\n{rt1} Liptea HoJ {spell:10308}",
+		["Alpha"] = 50,
 		["DefName"] = "The Lich King",
-		["enabled"] = true,
-		["Scale"] = 88,
+		["TimerPassedHide"] = true,
 		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Alsia-Venoxis",
-		["FontSize"] = 12,
+		["LastUpdateTime"] = 1699486961,
+		["Top"] = 614.59722900391,
+		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+		["Width"] = 380.0000305175781,
 		["BlackLastUpdateName"] = {
 			"Alsia-Venoxis", -- [1]
 			nil, -- [2]
@@ -876,30 +895,6 @@ VMRT = {
 			"Alsia-Venoxis", -- [16]
 			"Alsia-Venoxis", -- [17]
 			"Alsia-Venoxis", -- [18]
-		},
-		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
-		["Width"] = 380.0000305175781,
-		["Top"] = 614.59722900391,
-		["EnableWhenReceive"] = true,
-		["BlackLastUpdateTime"] = {
-			1697739452, -- [1]
-			nil, -- [2]
-			1697739396, -- [3]
-			nil, -- [4]
-			1698952051, -- [5]
-			1699186678, -- [6]
-			1699486221, -- [7]
-			1699486306, -- [8]
-			1699486337, -- [9]
-			1699486425, -- [10]
-			1699486452, -- [11]
-			1699486475, -- [12]
-			1699486514, -- [13]
-			1699486819, -- [14]
-			1699486566, -- [15]
-			1699486832, -- [16]
-			1699486848, -- [17]
-			1699486961, -- [18]
 		},
 		["Black"] = {
 			"{spell:69279} {time:00:05,SCS:69195:1}||cffee5555Gas Spore||r - ||cfff58cbaBermskyle||r {spell:64205}\n{spell:69279} {time:00:05,SCS:69195:2}||cffee5555Gas Spore||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69279} {time:00:05,SCS:69195:3}||cffee5555Gas Spore||r - ||cfff58cbaAsdâlan||r {spell:64205}\n{spell:69279} {time:00:05,SCS:69195:4}||cffee5555Gas Spore||r - ||cfff58cbaBremskyle||r {spell:64205} - DONT MOVE\n{spell:69279} {time:00:05,SCS:69195:5}||cffee5555Gas Spore||r - ||cfff58cbaAlsia||r {spell:64205} - DONT MOVE\n{spell:69279} {time:00:05,SCS:69195:6}||cffee5555Gas Spore||r - ||cfff58cbaAsdâlan||r {spell:64205} - DONT MOVE\n{spell:69195} {time:00:05,SCS:69195:1}||cff5555eePungent Blight||r - ||cfff58cbaLiptea||r {spell:31821}{spell:64205}\n{time:02:20}||cffee5555High AoE||r - Hanaltar {spell:64843}\n\n---TANK CDS---\n{time:01:00}BubbleSac auf ||cffff7d0aPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:642}{spell:6940}\n{time:01:12}Use CD - ||cffff7d0aPLAYERNAME||r {spell:22812}\n{time:01:15}Use CD - ||cffff7d0aPLAYERNAME||r {spell:61336}\n{time:01:23}Sac auf ||cffff7d0aPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:6940}\n{time:01:35}Salv auf ||cffff7d0aPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:1038}\n{time:01:35}Taunt - ||cfff58cbaPLAYERNAME||r {spell:62124}\n{time:01:45}Use CD - ||cfff58cbaPLAYERNAME||r {spell:498}\n{time:02:00}PS auf ||cfff58cbaPLAYERNAME||r - PLAYERNAME {spell:33206}\n{time:02:07}Use CD - ||cfff58cbaPLAYERNAME||r {spell:1038}\n{time:02:08}LoH auf ||cfff58cbaPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:633}\n{time:03:20}Use CD - ||cfff58cbaPLAYERNAME||r {spell:642}\n{time:03:58}BSac auf ||cfff58cbaPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:642}{spell:6940}\n{time:04:08}Use CD - ||cfff58cbaPLAYERNAME||r {spell:1038}\n{time:04:20}LoH auf ||cfff58cbaPLAYERNAME||r - ||cfff58cbaPLAYERNAME||r {spell:633}\n{time:04:24}PS auf ||cfff58cbaPLAYERNAME||r - PLAYERNAME {spell:33206} \n", -- [1]
@@ -921,10 +916,31 @@ VMRT = {
 			"{spell:2825} Bloodlust- P3 35%\n\nPhase 2 - Ice Tomb CDs\n{spell:70157} {time:00:05,SCS:70157:1}||cffee5555Ice Tomb||r - Bermskyle Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70157} {time:00:05,SCS:70157:2}||cffee5555Ice Tomb||r - Liptea - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70157} {time:00:05,SCS:70157:3}||cffee5555Ice Tomb||r - Bermskyle Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\n{spell:70157} {time:00:05,p2,SCS:70157:1}||cffee5555Ice Tomb 1 P3||r - Alsia Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\n{spell:70123} {time:00:05,p2,SCS:70123:1}||cffee5555Blistering Cold||r - Bermskyle - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70123} {time:00:05,p2,SCS:70123:2}||cffee5555Blistering Cold||r - Liptea - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\nOn Call - Shikimora - Aura Mastery {spell:31821}{spell:48945}", -- [17]
 			"{spell:2825} Bloodlust\nP3 after all Raging Spirits are dead\n\nInfest Cooldowns\n1 - none \n2 - Bermskyle Divine Sacrifice {spell:64205}\n3 - Liptea Aura Mastery {spell:31821}{spell:48943} \n4 - Alsia Divine Sacrifice {spell:64205}\n5 - Bermskyle Aura Mastery {spell:31821}{spell:48943} \n6 - Liptea Divine Sacrifice {spell:64205}\n\nSoul Reaper Cooldowns - P2\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n5 -    / Alsia Divine Protection{spell:498}\n6 -    / Bubbledine Divine Protection{spell:498}\nRepeat\n\nPhase 3\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 -    / Bubbledine Divine Protection{spell:498}\n3 - Bermskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Bubbledine Hand of Salvation{spell:1038}\n\nVal'kyr Stuns\n{rt2} Alsia HoJ {spell:10308}\n{rt2} Shikimora Holy Wrath {spell:48817}\n{rt2} Alsia Holy Wrath {spell:48817}\n{rt2} Ukban Cheap Shot {spell:1833}\n{rt3} Shikimora HoJ {spell:10308}\n{rt3} Shikimora Holy Wrath {spell:48817}\n{rt3} Alsia Holy Wrath {spell:48817}\n{rt3} Onixus Cheap Shot {spell:1833}\n{rt1} Bermskyle HoJ {spell:10308}\n{rt1} Shikimora Holy Wrath {spell:48817}\n{rt1} Alsia Holy Wrath {spell:48817}\n{rt1} Liptea HoJ {spell:10308}", -- [18]
 		},
+		["BlackLastUpdateTime"] = {
+			1697739452, -- [1]
+			nil, -- [2]
+			1697739396, -- [3]
+			nil, -- [4]
+			1698952051, -- [5]
+			1699186678, -- [6]
+			1699486221, -- [7]
+			1699486306, -- [8]
+			1699486337, -- [9]
+			1699486425, -- [10]
+			1699486452, -- [11]
+			1699486475, -- [12]
+			1699486514, -- [13]
+			1699486819, -- [14]
+			1699486566, -- [15]
+			1699486832, -- [16]
+			1699486848, -- [17]
+			1699486961, -- [18]
+		},
+		["EnableWhenReceive"] = true,
 		["Height"] = 211,
-		["LastUpdateTime"] = 1699486961,
-		["TimerPassedHide"] = true,
-		["Alpha"] = 50,
+		["FontSize"] = 12,
+		["Scale"] = 88,
+		["enabled"] = true,
 	},
 	["Logging"] = {
 		["enabled"] = true,
@@ -935,7 +951,7 @@ VMRT = {
 		["DisableOutsideRaid"] = true,
 		["ShowOnHover"] = true,
 		["Alpha"] = 50,
-		["Scale"] = 94,
+		["Left"] = 1320.6929931641,
 		["Show"] = {
 			true, -- [1]
 			[3] = true,
@@ -947,7 +963,7 @@ VMRT = {
 		["pulltimer"] = 10,
 		["Top"] = 181.22370910645,
 		["ShowOnHoverAlpha"] = 0,
-		["Left"] = 1320.6929931641,
+		["Scale"] = 94,
 	},
 	["VisNote"] = {
 		["data"] = {
@@ -1098,19 +1114,16 @@ VMRT = {
 			},
 		},
 	},
-	["InviteTool"] = {
-		["Words"] = "инв inv byd штм 123",
-		["InvByChat"] = true,
-		["RaidDiff"] = 16,
-		["PromoteRank"] = 2,
-		["Ranks"] = {
-			true, -- [1]
+	["RaidCheck"] = {
+		["ReadyCheckLeft"] = 1061.4925537109,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["FlaskExp"] = 1,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckTop"] = 566.61059570312,
+		["WeaponEnch"] = {
 		},
-		["LootThreshold"] = 3,
-		["MasterLooters"] = "",
-		["LootMethod"] = "master",
-		["PromoteNames"] = "",
-		["OnlyGuild"] = true,
-		["Rank"] = 1,
+		["ReadyCheckFontSize"] = 14,
+		["ReadyCheckFrameScale"] = 104,
 	},
 }

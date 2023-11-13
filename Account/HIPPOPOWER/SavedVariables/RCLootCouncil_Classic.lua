@@ -1,5 +1,9 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -169,83 +173,64 @@ RCLootCouncilDB = {
 			"00:33:50 - NewMLCheck (No ML Change)", -- [164]
 			"00:33:51 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Wønka) (distri:) (PARTY)", -- [165]
 			"00:34:02 - Comm received:^1^SStopHandleLoot^T^t^^ (from:) (Vacaria) (distri:) (PARTY)", -- [166]
+			"11/13/23", -- [167]
+			"01:12:23 - Logged In", -- [168]
+			"01:12:23 - ML initialized!", -- [169]
+			"01:12:23 - TradeUI enabled", -- [170]
+			"01:12:30 - Lesbenlisa-Venoxis (2.19.3) (nil)", -- [171]
+			"01:12:30 - ActivateSkin (bfa)", -- [172]
+			"01:12:47 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [173]
+			"01:12:47 - GetML()", -- [174]
+			"01:12:47 - LootMethod =  (group)", -- [175]
+			"01:12:47 - UpdatePlayersData()", -- [176]
+			"01:12:48 - ClassicModule enabled (0.20.0) (nil)", -- [177]
+			"01:12:48 - DoCommsCompressFix", -- [178]
+			"01:12:48 - Removing Column (role)", -- [179]
+			"01:12:48 - Removing Column (corruption)", -- [180]
+			"01:12:49 - GetPlayersGuildRank()", -- [181]
+			"01:12:49 - Found Guild Rank: Twink", -- [182]
+			"01:12:50 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Lesbenlisa) (distri:) (GUILD)", -- [183]
+			"01:14:53 - Comm received:^1^SverTest^T^N1^S0.14.1^t^^ (from:) (Nicerö) (distri:) (GUILD)", -- [184]
+			"01:18:25 - Comm received:^1^SverTest^T^N1^S0.14.1^t^^ (from:) (Liptea) (distri:) (GUILD)", -- [185]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
-			["Ohrfeigen-Venoxis"] = {
+			["Lesbenlisa-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697581603, -- [3]
+				1699834705, -- [3]
 			},
-			["Pippop-Venoxis"] = {
+			["Mikirî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697581603, -- [3]
-			},
-			["Alsia-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697581603, -- [3]
-			},
-			["Vacaria-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697581603, -- [3]
+				1699834705, -- [3]
 			},
 			["Graveofmaria-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697581603, -- [3]
+				1699834705, -- [3]
+			},
+			["Nicerö-Venoxis"] = {
+				"0.14.1", -- [1]
+				nil, -- [2]
+				1699834493, -- [3]
 			},
 			["Wønka-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1697581603, -- [3]
+				1699834705, -- [3]
 			},
-			["Bremskyle-Venoxis"] = {
-				"0.20.0", -- [1]
+			["Liptea-Venoxis"] = {
+				"0.14.1", -- [1]
 				nil, -- [2]
-				1697581603, -- [3]
-			},
-			["Schpen-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697580177, -- [3]
-			},
-			["Morai-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697581603, -- [3]
-			},
-			["Slimpy-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697580203, -- [3]
-			},
-			["Taste-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697580256, -- [3]
-			},
-			["Hanaltar-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697581603, -- [3]
-			},
-			["Tréalis-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1697580256, -- [3]
+				1699834705, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.0",
-	},
-	["profileKeys"] = {
-		["Pippop - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -301,6 +286,7 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 }

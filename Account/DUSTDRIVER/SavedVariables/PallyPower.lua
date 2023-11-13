@@ -15,12 +15,12 @@ PallyPower_Assignments = {
 		2, -- [1]
 		2, -- [2]
 		3, -- [3]
-		3, -- [4]
+		2, -- [4]
 		4, -- [5]
 		2, -- [6]
 		3, -- [7]
 		3, -- [8]
-		2, -- [9]
+		3, -- [9]
 		2, -- [10]
 	},
 	["Spaltkyle"] = {
@@ -53,7 +53,13 @@ PallyPower_NormalAssignments = {
 PallyPower_AuraAssignments = {
 	["Alsia"] = 1,
 	["Spaltkyle"] = 1,
+	["Highlightz"] = 2,
 	["Beesportz"] = 2,
+	["Diggii"] = 1,
+	["Psychøtin"] = 1,
+	["Tagirx"] = 1,
+	["Transhorsti"] = 6,
+	["Velanya"] = 1,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

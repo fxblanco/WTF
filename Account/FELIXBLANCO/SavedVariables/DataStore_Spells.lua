@@ -30,7 +30,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1699657611,
+				["lastUpdate"] = 1699829680,
 				["Spells"] = {
 					["Arkan"] = {
 						"43002|Rang 3", -- [1]
@@ -80,18 +80,6 @@ DataStore_SpellsDB = {
 						"43012|Rang 7", -- [8]
 						"42931|Rang 8", -- [9]
 					},
-					["Feuer"] = {
-						"11129|", -- [1]
-						"42833|Rang 16", -- [2]
-						"42873|Rang 11", -- [3]
-						"43010|Rang 7", -- [4]
-						"42926|Rang 9", -- [5]
-						"47610|Rang 2", -- [6]
-						"43046|Rang 3", -- [7]
-						"55360|Rang 3", -- [8]
-						"42891|Rang 12", -- [9]
-						"42859|Rang 11", -- [10]
-					},
 					["Allgemein"] = {
 						"51304|Großmeister", -- [1]
 						"81|Passiv", -- [2]
@@ -109,6 +97,18 @@ DataStore_SpellsDB = {
 						"20557|Volk Passiv", -- [14]
 						"20558|Volk Passiv", -- [15]
 					},
+					["Feuer"] = {
+						"11129|", -- [1]
+						"42833|Rang 16", -- [2]
+						"42873|Rang 11", -- [3]
+						"43010|Rang 7", -- [4]
+						"42926|Rang 9", -- [5]
+						"47610|Rang 2", -- [6]
+						"43046|Rang 3", -- [7]
+						"55360|Rang 3", -- [8]
+						"42891|Rang 12", -- [9]
+						"42859|Rang 11", -- [10]
+					},
 				},
 				["SpellTabs"] = {
 					"Allgemein", -- [1]
@@ -118,7 +118,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699529386,
+				["lastUpdate"] = 1699827372,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -200,24 +200,8 @@ DataStore_SpellsDB = {
 					"Wiederherstellung", -- [4]
 				},
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228474,
-				["Spells"] = {
-					["Allgemein"] = {
-						"81|Passiv", -- [1]
-						"6603|", -- [2]
-						"3127|Passiv", -- [3]
-					},
-				},
-				["SpellTabs"] = {
-					"Allgemein", -- [1]
-					"Blut", -- [2]
-					"Frost", -- [3]
-					"Unheilig", -- [4]
-				},
-			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699657979,
+				["lastUpdate"] = 1699830903,
 				["Spells"] = {
 					["Allgemein"] = {
 						"7732|Experte", -- [1]
@@ -258,19 +242,6 @@ DataStore_SpellsDB = {
 						"5502|", -- [18]
 						"48819|Rang 8", -- [19]
 					},
-					["Vergeltung"] = {
-						"54043|Rang 7", -- [1]
-						"32223|", -- [2]
-						"48934|Rang 5", -- [3]
-						"48806|Rang 6", -- [4]
-						"53407|", -- [5]
-						"53408|", -- [6]
-						"20271|", -- [7]
-						"48932|Rang 10", -- [8]
-						"348704|", -- [9]
-						"20375|", -- [10]
-						"31884|", -- [11]
-					},
 					["Schutz"] = {
 						"48942|Rang 10", -- [1]
 						"48947|Rang 5", -- [2]
@@ -299,12 +270,41 @@ DataStore_SpellsDB = {
 						"20164|", -- [25]
 						"25780|", -- [26]
 					},
+					["Vergeltung"] = {
+						"54043|Rang 7", -- [1]
+						"32223|", -- [2]
+						"48934|Rang 5", -- [3]
+						"48806|Rang 6", -- [4]
+						"53407|", -- [5]
+						"53408|", -- [6]
+						"20271|", -- [7]
+						"48932|Rang 10", -- [8]
+						"348704|", -- [9]
+						"20375|", -- [10]
+						"31884|", -- [11]
+					},
 				},
 				["SpellTabs"] = {
 					"Allgemein", -- [1]
 					"Heilig", -- [2]
 					"Schutz", -- [3]
 					"Vergeltung", -- [4]
+				},
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228474,
+				["Spells"] = {
+					["Allgemein"] = {
+						"81|Passiv", -- [1]
+						"6603|", -- [2]
+						"3127|Passiv", -- [3]
+					},
+				},
+				["SpellTabs"] = {
+					"Allgemein", -- [1]
+					"Blut", -- [2]
+					"Frost", -- [3]
+					"Unheilig", -- [4]
 				},
 			},
 		},

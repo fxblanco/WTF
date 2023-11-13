@@ -23,24 +23,24 @@ DataStore_CurrenciesDB = {
 					"0|Verschiedenes", -- [12]
 					"1|Siegel des Champions|6|241", -- [13]
 				},
-				["lastUpdate"] = 1699529624,
+				["lastUpdate"] = 1699829807,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699529534,
+				["lastUpdate"] = 1699828058,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Eroberung|23|221", -- [2]
-					"1|Emblem des Frosts|133|341", -- [3]
+					"1|Emblem des Frosts|32|341", -- [3]
 					"1|Emblem des Heldentums|6|101", -- [4]
-					"1|Emblem des Triumphs|14|301", -- [5]
-					"1|Geißelstein des Entweihers|15|2711", -- [6]
+					"1|Emblem des Triumphs|22|301", -- [5]
+					"1|Geißelstein des Entweihers|17|2711", -- [6]
 					"1|Sternenessenz|3|2589", -- [7]
 					"0|Spieler gegen Spieler", -- [8]
-					"1|Ehrepunkte|3766|1901", -- [9]
-					"1|Splitter eines Steinbewahrers|218|161", -- [10]
+					"1|Ehrepunkte|3926|1901", -- [9]
+					"1|Splitter eines Steinbewahrers|226|161", -- [10]
 					"0|Verschiedenes", -- [11]
 					"1|Siegel des Champions|15|241", -- [12]
 				},

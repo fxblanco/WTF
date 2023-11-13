@@ -9,13 +9,13 @@ DataStore_AuctionsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Venoxis.Alsia"] = {
-				["lastVisitDate"] = "2023/11/11 00:17",
-				["lastUpdate"] = 1699658243,
-			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1699184271,
 				["lastVisitDate"] = "2023/11/05 12:37",
+			},
+			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1699658243,
+				["lastVisitDate"] = "2023/11/11 00:17",
 			},
 		},
 	},

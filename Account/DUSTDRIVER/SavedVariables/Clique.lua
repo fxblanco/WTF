@@ -4,19 +4,19 @@ CliqueDB3 = {
 	["char"] = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["alerthidden"] = true,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
 			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-			["downclick"] = false,
-			["alerthidden"] = true,
 			["specswap"] = false,
+			["downclick"] = false,
+			["spec2_profileKey"] = "Maturitass - Venoxis",
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -113,15 +113,6 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136048,
-					["spell"] = "Anregen",
-				}, -- [2]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
 					["spell"] = "Wiedergeburt",
 					["sets"] = {
@@ -129,24 +120,23 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spellSubName"] = "Rang 7",
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Nachwachsen",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136085,
-					["spellSubName"] = "Rang 12",
-				}, -- [5]
+					["icon"] = 136048,
+					["spell"] = "Anregen",
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
@@ -155,7 +145,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135952,
 					["spell"] = "Fluch aufheben",
-				}, -- [6]
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -165,6 +155,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spellSubName"] = "Rang 15",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spell"] = "Nachwachsen",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136085,
+					["spellSubName"] = "Rang 12",
 				}, -- [7]
 				{
 					["type"] = "spell",

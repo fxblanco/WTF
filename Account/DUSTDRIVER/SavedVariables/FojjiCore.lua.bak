@@ -1,4 +1,6 @@
 
 FojjiTimersSavedVars = {
-	["pullEndTime"] = 11650.918,
+}
+FojjiSkipWTF = {
+	["skip"] = true,
 }
