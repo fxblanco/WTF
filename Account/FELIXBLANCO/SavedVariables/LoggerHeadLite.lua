@@ -52,6 +52,7 @@ LoggerHeadNDB = {
 				},
 				[533] = {
 					[3] = false,
+					[4] = true,
 				},
 				[600] = {
 					[2] = false,

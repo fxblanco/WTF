@@ -8,33 +8,33 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["numFreeBankSlots"] = 51,
+				["numFreeBankSlots"] = 49,
 				["numBankSlots"] = 76,
-				["lastUpdate"] = 1699830247,
+				["lastUpdate"] = 1699917602,
 				["Containers"] = {
-					["Bag100"] = {
-						["size"] = 28,
+					["Bag1"] = {
+						["rarity"] = 2,
 						["ids"] = {
-							48034, -- [1]
-							[17] = 45520,
-							[15] = 47453,
-							[3] = 47996,
-							[28] = 47648,
-							[14] = 47638,
-							[16] = 47173,
-							[18] = 47994,
+							[17] = 33568,
+							[15] = 38557,
+							[18] = 44128,
+							[16] = 38425,
 						},
-						["freeslots"] = 20,
 						["links"] = {
-							"|cffa335ee|Hitem:48034::::::::80:::::::::|h[Helm der Hochmesa]|h|r", -- [1]
-							[17] = "|cffa335ee|Hitem:45520::::::::80:::::::::|h[Handlappen des Wachsamen]|h|r",
-							[15] = "|cffa335ee|Hitem:47453::::::::80:::::::::|h[Robe der zerschlagenen Gefolgschaft]|h|r",
-							[3] = "|cffa335ee|Hitem:47996::::::::80:::::::::|h[Schulterstücke der eiszeitlichen Wildnis]|h|r",
-							[28] = "|cffa335ee|Hitem:47648::::::::80:::::::::|h[Muster: Drachenschuppenarmschienen des Kreuzfahrers]|h|r",
-							[14] = "|cffa335ee|Hitem:47638::::::::80:::::::::|h[Muster: Merlins Robe]|h|r",
-							[16] = "|cffa335ee|Hitem:47173::::::::80:::::::::|h[Bindungen des Verschlagenen]|h|r",
-							[18] = "|cffa335ee|Hitem:47994::::::::80:::::::::|h[Eisheulers Bindungen]|h|r",
+							[17] = "|cffffffff|Hitem:33568::::::::80:::::::::|h[Boreanisches Leder]|h|r",
+							[15] = "|cffffffff|Hitem:38557::::::::80:::::::::|h[Eisige Drachenschuppe]|h|r",
+							[18] = "|cff0070dd|Hitem:44128::::::::80:::::::::|h[Arktischer Pelz]|h|r",
+							[16] = "|cffffffff|Hitem:38425::::::::80:::::::::|h[Schweres boreanisches Leder]|h|r",
 						},
+						["icon"] = 133665,
+						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["counts"] = {
+							[16] = 7,
+							[17] = 15,
+							[15] = 7,
+						},
+						["freeslots"] = 16,
 					},
 					["Bag8"] = {
 						["rarity"] = 1,
@@ -46,7 +46,7 @@ DataStore_ContainersDB = {
 							44817, -- [5]
 							44579, -- [6]
 							47329, -- [7]
-							48020, -- [8]
+							nil, -- [8]
 							42989, -- [9]
 							42117, -- [10]
 							41772, -- [11]
@@ -60,85 +60,36 @@ DataStore_ContainersDB = {
 							"|cff1eff00|Hitem:44817::::::::80:::::::::|h[Der Unruhestifter]|h|r", -- [5]
 							"|cff0070dd|Hitem:44579::::::::80:::::::::|h[Medaillon des Heldentums]|h|r", -- [6]
 							"|cffa335ee|Hitem:47329::40008::::::80:::::::::|h[Helliongleve]|h|r", -- [7]
-							"|cffa335ee|Hitem:48020::::::::80:::::::::|h[Rache der Verlassenen]|h|r", -- [8]
+							nil, -- [8]
 							"|cffa335ee|Hitem:42989::::::::80:::::::::|h[Dunkelmond-Karte: Berserker!]|h|r", -- [9]
 							"|cffa335ee|Hitem:42117::::::::80:::::::::|h[Triumphales Band des wütenden Gladiators]|h|r", -- [10]
 							"|cffa335ee|Hitem:41772::40023::::::80:::::::::|h[Drachenlederhandschuhe des tödlichen Gladiators]|h|r", -- [11]
 							"|cffa335ee|Hitem:40713::::::::80:::::::::|h[Götze der gefräßigen Bestie]|h|r", -- [12]
 						},
+						["size"] = 12,
 						["link"] = "|cffffffff|Hitem:4499::::::::80:::::::::|h[Gewaltiger brauner Sack]|h|r",
 						["icon"] = 133639,
-						["size"] = 12,
-						["freeslots"] = 1,
+						["freeslots"] = 2,
 					},
-					["Bag0"] = {
+					["Bag-2"] = {
 						["ids"] = {
-							49110, -- [1]
-							nil, -- [2]
-							34068, -- [3]
-							47649, -- [4]
-							47648, -- [5]
-							33154, -- [6]
-							45555, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							41774, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							33470, -- [15]
-							33292, -- [16]
+							27808, -- [1]
+							37500, -- [2]
 						},
 						["links"] = {
-							"|cffa335ee|Hitem:49110::::::::80:::::::::|h[Alptraumträne]|h|r", -- [1]
-							nil, -- [2]
-							"|cffffffff|Hitem:34068::::::::80:::::::::|h[Gewichtige Kürbislaterne]|h|r", -- [3]
-							"|cffa335ee|Hitem:47649::::::::80:::::::::|h[Muster: Drachenschuppenbrustplatte des Kreuzfahrers]|h|r", -- [4]
-							"|cffa335ee|Hitem:47648::::::::80:::::::::|h[Muster: Drachenschuppenarmschienen des Kreuzfahrers]|h|r", -- [5]
-							"|cff0070dd|Hitem:33154::::::::80:::::::::|h[Gruselkürbis]|h|r", -- [6]
-							"|cffa335ee|Hitem:45555::40002:40002:40002::::80:::::::::|h[Todesgewärmter Gürtel]|h|r", -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							"|cffa335ee|Hitem:41774::::::::80:::::::::|h[Drachenlederhandschuhe des unerbittlichen Gladiators]|h|r", -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [15]
-							"|cff0070dd|Hitem:33292::::::::80:::::::::|h[Gruselhelm]|h|r", -- [16]
+							"|cff1eff00|Hitem:27808::::::::80:::::::::|h[Schlüssel für Spring-o-Mat 4000]|h|r", -- [1]
+							"|cffffffff|Hitem:37500::::::::80:::::::::|h[Schlüssel zum runderneuerten Schredder]|h|r", -- [2]
 						},
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["size"] = 32,
 						["counts"] = {
-							[3] = 5,
-							[15] = 5,
+							[2] = 4,
 						},
-						["freeslots"] = 7,
+						["freeslots"] = 30,
 					},
 					["Bag3"] = {
 						["rarity"] = 2,
-						["ids"] = {
-							48011, -- [1]
-							45265, -- [2]
-							nil, -- [3]
-							47600, -- [4]
-							44951, -- [5]
-							44951, -- [6]
-							42641, -- [7]
-							46377, -- [8]
-							44133, -- [9]
-							41774, -- [10]
-							47420, -- [11]
-							47992, -- [12]
-							45874, -- [13]
-							47243, -- [14]
-							44951, -- [15]
-							44951, -- [16]
-							42641, -- [17]
-							46379, -- [18]
-							44136, -- [19]
-						},
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["links"] = {
 							"|cffa335ee|Hitem:48011::40119::::::80:::::::::|h[Seelenstärke der Höllenbestie]|h|r", -- [1]
 							"|cffa335ee|Hitem:45265:3808:40008::::::80:::::::::|h[Schulterpolster des Monoliths]|h|r", -- [2]
@@ -162,24 +113,62 @@ DataStore_ContainersDB = {
 						},
 						["icon"] = 133665,
 						["size"] = 20,
-						["cooldowns"] = {
-							[12] = "1699830094.515|30|1",
+						["ids"] = {
+							48011, -- [1]
+							45265, -- [2]
+							nil, -- [3]
+							47600, -- [4]
+							44951, -- [5]
+							44951, -- [6]
+							42641, -- [7]
+							46377, -- [8]
+							44133, -- [9]
+							41774, -- [10]
+							47420, -- [11]
+							47992, -- [12]
+							45874, -- [13]
+							47243, -- [14]
+							44951, -- [15]
+							44951, -- [16]
+							42641, -- [17]
+							46379, -- [18]
+							44136, -- [19]
 						},
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
 						["counts"] = {
 							[8] = 19,
 							[18] = 10,
-							[7] = 7,
 							[17] = 20,
+							[7] = 7,
 						},
 						["freeslots"] = 2,
 					},
-					["Bag7"] = {
-						["rarity"] = 1,
-						["link"] = "|cffffffff|Hitem:4499::::::::80:::::::::|h[Gewaltiger brauner Sack]|h|r",
-						["icon"] = 133639,
-						["size"] = 12,
-						["freeslots"] = 12,
+					["Bag100"] = {
+						["links"] = {
+							"|cffa335ee|Hitem:48034::::::::80:::::::::|h[Helm der Hochmesa]|h|r", -- [1]
+							"|cffa335ee|Hitem:41774::::::::80:::::::::|h[Drachenlederhandschuhe des unerbittlichen Gladiators]|h|r", -- [2]
+							"|cffa335ee|Hitem:47996::::::::80:::::::::|h[Schulterstücke der eiszeitlichen Wildnis]|h|r", -- [3]
+							"|cffa335ee|Hitem:48020::::::::80:::::::::|h[Rache der Verlassenen]|h|r", -- [4]
+							[17] = "|cffa335ee|Hitem:45520::::::::80:::::::::|h[Handlappen des Wachsamen]|h|r",
+							[15] = "|cffa335ee|Hitem:47453::::::::80:::::::::|h[Robe der zerschlagenen Gefolgschaft]|h|r",
+							[18] = "|cffa335ee|Hitem:47994::::::::80:::::::::|h[Eisheulers Bindungen]|h|r",
+							[14] = "|cffa335ee|Hitem:47638::::::::80:::::::::|h[Muster: Merlins Robe]|h|r",
+							[16] = "|cffa335ee|Hitem:47173::::::::80:::::::::|h[Bindungen des Verschlagenen]|h|r",
+							[28] = "|cffa335ee|Hitem:47648::::::::80:::::::::|h[Muster: Drachenschuppenarmschienen des Kreuzfahrers]|h|r",
+						},
+						["ids"] = {
+							48034, -- [1]
+							41774, -- [2]
+							47996, -- [3]
+							48020, -- [4]
+							[17] = 45520,
+							[15] = 47453,
+							[18] = 47994,
+							[14] = 47638,
+							[16] = 47173,
+							[28] = 47648,
+						},
+						["size"] = 28,
+						["freeslots"] = 18,
 					},
 					["Bag5"] = {
 						["rarity"] = 1,
@@ -195,9 +184,9 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:47200::::::::80:::::::::|h[Siegel der Reinheit]|h|r", -- [3]
 							"|cffa335ee|Hitem:45515::::::::80:::::::::|h[Ring des leeren Auges]|h|r", -- [4]
 						},
+						["size"] = 12,
 						["link"] = "|cffffffff|Hitem:4499::::::::80:::::::::|h[Gewaltiger brauner Sack]|h|r",
 						["icon"] = 133639,
-						["size"] = 12,
 						["freeslots"] = 9,
 					},
 					["Bag4"] = {
@@ -270,45 +259,38 @@ DataStore_ContainersDB = {
 						},
 						["freeslots"] = 2,
 					},
-					["Bag-2"] = {
+					["Bag0"] = {
 						["ids"] = {
-							27808, -- [1]
-							37500, -- [2]
+							49110, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							47649, -- [4]
+							47648, -- [5]
+							[7] = 45555,
+							[15] = 33470,
 						},
 						["links"] = {
-							"|cff1eff00|Hitem:27808::::::::80:::::::::|h[Schlüssel für Spring-o-Mat 4000]|h|r", -- [1]
-							"|cffffffff|Hitem:37500::::::::80:::::::::|h[Schlüssel zum runderneuerten Schredder]|h|r", -- [2]
+							"|cffa335ee|Hitem:49110::::::::80:::::::::|h[Alptraumträne]|h|r", -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							"|cffa335ee|Hitem:47649::::::::80:::::::::|h[Muster: Drachenschuppenbrustplatte des Kreuzfahrers]|h|r", -- [4]
+							"|cffa335ee|Hitem:47648::::::::80:::::::::|h[Muster: Drachenschuppenarmschienen des Kreuzfahrers]|h|r", -- [5]
+							[7] = "|cffa335ee|Hitem:45555::40002:40002:40002::::80:::::::::|h[Todesgewärmter Gürtel]|h|r",
+							[15] = "|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r",
 						},
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
-						["size"] = 32,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 						["counts"] = {
-							[2] = 4,
+							[15] = 5,
 						},
-						["freeslots"] = 30,
+						["freeslots"] = 11,
 					},
-					["Bag1"] = {
-						["rarity"] = 2,
-						["ids"] = {
-							[17] = 33568,
-							[15] = 38557,
-							[18] = 44128,
-							[16] = 38425,
-						},
-						["links"] = {
-							[17] = "|cffffffff|Hitem:33568::::::::80:::::::::|h[Boreanisches Leder]|h|r",
-							[15] = "|cffffffff|Hitem:38557::::::::80:::::::::|h[Eisige Drachenschuppe]|h|r",
-							[18] = "|cff0070dd|Hitem:44128::::::::80:::::::::|h[Arktischer Pelz]|h|r",
-							[16] = "|cffffffff|Hitem:38425::::::::80:::::::::|h[Schweres boreanisches Leder]|h|r",
-						},
-						["icon"] = 133665,
-						["size"] = 20,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["counts"] = {
-							[17] = 15,
-							[15] = 7,
-							[16] = 7,
-						},
-						["freeslots"] = 16,
+					["Bag7"] = {
+						["rarity"] = 1,
+						["link"] = "|cffffffff|Hitem:4499::::::::80:::::::::|h[Gewaltiger brauner Sack]|h|r",
+						["size"] = 12,
+						["icon"] = 133639,
+						["freeslots"] = 12,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
@@ -324,8 +306,8 @@ DataStore_ContainersDB = {
 							nil, -- [9]
 							47436, -- [10]
 							45945, -- [11]
-							46021, -- [12]
-							49118, -- [13]
+							49118, -- [12]
+							46021, -- [13]
 							45509, -- [14]
 							37863, -- [15]
 							38561, -- [16]
@@ -346,8 +328,8 @@ DataStore_ContainersDB = {
 							nil, -- [9]
 							"|cffa335ee|Hitem:47436::::::::80:::::::::|h[Stolz des Dämonenlords]|h|r", -- [10]
 							"|cffa335ee|Hitem:45945::40117::::::80:::::::::|h[Saat des aufkeimenden Gemetzels]|h|r", -- [11]
-							"|cffa335ee|Hitem:46021::::::::80:::::::::|h[König Llanes hoheitliches Siegel]|h|r", -- [12]
-							"|cffa335ee|Hitem:49118::::::::80:::::::::|h[Perlender Hellbräuglücksbringer]|h|r", -- [13]
+							"|cffa335ee|Hitem:49118::::::::80:::::::::|h[Perlender Hellbräuglücksbringer]|h|r", -- [12]
+							"|cffa335ee|Hitem:46021::::::::80:::::::::|h[König Llanes hoheitliches Siegel]|h|r", -- [13]
 							"|cffa335ee|Hitem:45509::::::::80:::::::::|h[Götze des Verderbers]|h|r", -- [14]
 							"|cff0070dd|Hitem:37863::::::::80:::::::::|h[Düsterbräus Fernbedienung]|h|r", -- [15]
 							"|cffffffff|Hitem:38561::::::::80:::::::::|h[Jormungarschuppe]|h|r", -- [16]
@@ -363,9 +345,8 @@ DataStore_ContainersDB = {
 							[6] = 20,
 							[7] = 20,
 							[8] = 20,
-							[17] = 6,
-							[5] = 4,
 							[16] = 4,
+							[17] = 6,
 						},
 						["freeslots"] = 5,
 					},
@@ -383,13 +364,13 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:45234::::::::80:::::::::|h[Euphorie]|h|r", -- [3]
 							[12] = "|cffa335ee|Hitem:49080::::::::80:::::::::|h[Raufboldsouvenir]|h|r",
 						},
+						["size"] = 12,
 						["link"] = "|cffffffff|Hitem:4499::::::::80:::::::::|h[Gewaltiger brauner Sack]|h|r",
 						["icon"] = 133639,
-						["size"] = 12,
 						["freeslots"] = 8,
 					},
 				},
-				["numFreeBagSlots"] = 32,
+				["numFreeBagSlots"] = 36,
 				["numBagSlots"] = 96,
 			},
 			["Default.Venoxis.Recombinase"] = {
@@ -593,52 +574,15 @@ DataStore_ContainersDB = {
 						["icon"] = 133654,
 						["size"] = 14,
 					},
-					["Bag0"] = {
-						["counts"] = {
-							nil, -- [1]
-							2, -- [2]
-							nil, -- [3]
-							4, -- [4]
-							20, -- [5]
-							20, -- [6]
-							nil, -- [7]
-							10, -- [8]
-							[11] = 14,
-							[13] = 20,
-							[12] = 20,
-						},
-						["size"] = 16,
+					["Bag-2"] = {
+						["freeslots"] = 31,
 						["ids"] = {
-							46021, -- [1]
-							33470, -- [2]
-							47571, -- [3]
-							44939, -- [4]
-							41119, -- [5]
-							41119, -- [6]
-							48027, -- [7]
-							41119, -- [8]
-							45313, -- [9]
-							47436, -- [10]
-							43000, -- [11]
-							43000, -- [12]
-							40093, -- [13]
+							7146, -- [1]
 						},
-						["freeslots"] = 3,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 32,
+						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
 						["links"] = {
-							"|cffa335ee|Hitem:46021::::::::80:::::::::|h[König Llanes hoheitliches Siegel]|h|r", -- [1]
-							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [2]
-							"|cffa335ee|Hitem:47571:3850:40166::::::80:::::::::|h[Saronitschwertbrecher]|h|r", -- [3]
-							"|cffffffff|Hitem:44939::::::::80:::::::::|h[Geringes Fläschchen des Widerstands]|h|r", -- [4]
-							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [5]
-							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [6]
-							"|cffa335ee|Hitem:48027::40119::::::80:::::::::|h[Band der Zwillingsval'kyr]|h|r", -- [7]
-							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [8]
-							"|cffa335ee|Hitem:45313::::::::80:::::::::|h[Stein des Eisenwerks]|h|r", -- [9]
-							"|cffa335ee|Hitem:47436:3294:40166::::::80:::::::::|h[Stolz des Dämonenlords]|h|r", -- [10]
-							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [11]
-							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [12]
-							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [13]
+							"|cff1eff00|Hitem:7146::::::::80:::::::::|h[Der Scharlachrote Schlüssel]|h|r", -- [1]
 						},
 					},
 					["Bag3"] = {
@@ -659,12 +603,27 @@ DataStore_ContainersDB = {
 						["icon"] = 133665,
 						["size"] = 20,
 					},
-					["Bag7"] = {
+					["Bag1"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:30744::::::::80:::::::::|h[Draenischer Lederbeutel]|h|r",
-						["freeslots"] = 14,
-						["icon"] = 133654,
-						["size"] = 14,
+						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
+						["links"] = {
+							nil, -- [1]
+							nil, -- [2]
+							"|cffffffff|Hitem:49632::::::::80:::::::::|h[Runenschriftrolle der Seelenstärke]|h|r", -- [3]
+							"|cffa335ee|Hitem:51010:2673:::::::80:::::::::|h[Der chirurgische Eingriff]|h|r", -- [4]
+						},
+						["counts"] = {
+							[3] = 7,
+						},
+						["freeslots"] = 18,
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							49632, -- [3]
+							51010, -- [4]
+						},
+						["icon"] = 133665,
+						["size"] = 20,
 					},
 					["Bag5"] = {
 						["rarity"] = 1,
@@ -722,14 +681,14 @@ DataStore_ContainersDB = {
 							3, -- [2]
 							nil, -- [3]
 							4, -- [4]
-							[17] = 1000,
 							[7] = 4,
+							[13] = 5,
 							[15] = 7,
 							[10] = 9,
 							[9] = 20,
 							[14] = 7,
 							[16] = 3,
-							[13] = 5,
+							[17] = 1000,
 						},
 						["freeslots"] = 6,
 						["ids"] = {
@@ -820,27 +779,12 @@ DataStore_ContainersDB = {
 							"|cffa335ee|Hitem:47993::39910:39910:::::80:::::::::|h[Gormoks Band]|h|r", -- [28]
 						},
 					},
-					["Bag1"] = {
+					["Bag7"] = {
 						["rarity"] = 2,
-						["link"] = "|cff1eff00|Hitem:41599::::::::80:::::::::|h[Froststofftasche]|h|r",
-						["links"] = {
-							nil, -- [1]
-							nil, -- [2]
-							"|cffffffff|Hitem:49632::::::::80:::::::::|h[Runenschriftrolle der Seelenstärke]|h|r", -- [3]
-							"|cffa335ee|Hitem:51010:2673:::::::80:::::::::|h[Der chirurgische Eingriff]|h|r", -- [4]
-						},
-						["counts"] = {
-							[3] = 7,
-						},
-						["freeslots"] = 18,
-						["ids"] = {
-							nil, -- [1]
-							nil, -- [2]
-							49632, -- [3]
-							51010, -- [4]
-						},
-						["icon"] = 133665,
-						["size"] = 20,
+						["link"] = "|cff1eff00|Hitem:30744::::::::80:::::::::|h[Draenischer Lederbeutel]|h|r",
+						["freeslots"] = 14,
+						["icon"] = 133654,
+						["size"] = 14,
 					},
 					["Bag2"] = {
 						["rarity"] = 2,
@@ -900,15 +844,52 @@ DataStore_ContainersDB = {
 						["icon"] = 133654,
 						["size"] = 14,
 					},
-					["Bag-2"] = {
-						["freeslots"] = 31,
-						["ids"] = {
-							7146, -- [1]
+					["Bag0"] = {
+						["counts"] = {
+							nil, -- [1]
+							2, -- [2]
+							nil, -- [3]
+							4, -- [4]
+							20, -- [5]
+							20, -- [6]
+							nil, -- [7]
+							10, -- [8]
+							[11] = 14,
+							[13] = 20,
+							[12] = 20,
 						},
-						["size"] = 32,
-						["icon"] = "ICONS\\INV_Misc_Key_04.blp",
+						["size"] = 16,
+						["ids"] = {
+							46021, -- [1]
+							33470, -- [2]
+							47571, -- [3]
+							44939, -- [4]
+							41119, -- [5]
+							41119, -- [6]
+							48027, -- [7]
+							41119, -- [8]
+							45313, -- [9]
+							47436, -- [10]
+							43000, -- [11]
+							43000, -- [12]
+							40093, -- [13]
+						},
+						["freeslots"] = 3,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["links"] = {
-							"|cff1eff00|Hitem:7146::::::::80:::::::::|h[Der Scharlachrote Schlüssel]|h|r", -- [1]
+							"|cffa335ee|Hitem:46021::::::::80:::::::::|h[König Llanes hoheitliches Siegel]|h|r", -- [1]
+							"|cffffffff|Hitem:33470::::::::80:::::::::|h[Froststoff]|h|r", -- [2]
+							"|cffa335ee|Hitem:47571:3850:40166::::::80:::::::::|h[Saronitschwertbrecher]|h|r", -- [3]
+							"|cffffffff|Hitem:44939::::::::80:::::::::|h[Geringes Fläschchen des Widerstands]|h|r", -- [4]
+							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [5]
+							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [6]
+							"|cffa335ee|Hitem:48027::40119::::::80:::::::::|h[Band der Zwillingsval'kyr]|h|r", -- [7]
+							"|cffffffff|Hitem:41119::::::::80:::::::::|h[Saronitbombe]|h|r", -- [8]
+							"|cffa335ee|Hitem:45313::::::::80:::::::::|h[Stein des Eisenwerks]|h|r", -- [9]
+							"|cffa335ee|Hitem:47436:3294:40166::::::80:::::::::|h[Stolz des Dämonenlords]|h|r", -- [10]
+							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [11]
+							"|cffffffff|Hitem:43000::::::::80:::::::::|h[Drachenflossenfilet]|h|r", -- [12]
+							"|cffffffff|Hitem:40093::::::::80:::::::::|h[Unzerstörbarer Trank]|h|r", -- [13]
 						},
 					},
 					["Bag6"] = {

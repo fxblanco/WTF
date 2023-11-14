@@ -1,21 +1,39 @@
 
 GargulDB = {
+	["TMB"] = {
+	},
 	["BoostedRolls"] = {
 		["Aliases"] = {
 		},
 		["Points"] = {
 		},
 	},
-	["TMB"] = {
-	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1699834341,
-		["7.1.0"] = 1699834341,
-		["6.2.8"] = 1697580139,
-		["6.2.5"] = 1695299158,
-		["5.2.0"] = 1697580139,
+		["5.2.0"] = 1687381795,
+		["lastLoadedOn"] = 1700004586,
+		["5.1.1"] = 1687381795,
+		["6.2.8"] = 1697407603,
+		["7.0.1"] = 1698532390,
+		["6.2.4"] = 1694802777,
+		["6.2.6"] = 1696893333,
+		["6.1.2"] = 1687520757,
+		["6.2.5"] = 1695244375,
+		["7.1.0"] = 1699529322,
+		["6.1.0"] = 1687288287,
+		["7.0.2"] = 1698837704,
+		["6.2.9"] = 1698004934,
 		["latestVersionChangesShown"] = "7.1.0",
-		["5.1.1"] = 1697580139,
+		["7.0.0"] = 1698357476,
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["SettingsPerItem"] = {
+		},
+		["Queue"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -85,6 +103,8 @@ GargulDB = {
 			["antiSnipe"] = 15,
 			["enableBidderQueue"] = true,
 			["announceNewBidInRW"] = true,
+			["Mutators"] = {
+			},
 			["MultiAuction"] = {
 				["time"] = 600,
 				["includeMaterials"] = false,
@@ -130,6 +150,30 @@ GargulDB = {
 			["includeOffspecItems"] = true,
 		},
 		["UI"] = {
+			["MasterLooterDialog"] = {
+				["Position"] = {
+					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
+					["relativePoint"] = "CENTER",
+				},
+			},
+			["RollOff"] = {
+				["timer"] = 30,
+				["closeOnStart"] = false,
+				["closeOnAward"] = false,
+			},
+			["Award"] = {
+				["closeOnAward"] = true,
+			},
+			["Changelog"] = {
+				["Position"] = {
+					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
+					["relativePoint"] = "CENTER",
+				},
+			},
 			["PopupDialog"] = {
 				["Position"] = {
 					["point"] = "TOP",
@@ -137,11 +181,6 @@ GargulDB = {
 					["offsetX"] = 0,
 					["relativePoint"] = "TOP",
 				},
-			},
-			["RollOff"] = {
-				["timer"] = 30,
-				["closeOnStart"] = false,
-				["closeOnAward"] = false,
 			},
 			["ReopenAuctioneerButton"] = {
 				["offsetX"] = 188,
@@ -155,15 +194,61 @@ GargulDB = {
 					["relativePoint"] = "CENTER",
 				},
 			},
-			["Award"] = {
-				["closeOnAward"] = true,
+			["Gargul"] = {
+				["BidderQueue"] = {
+					["Window"] = {
+						["Position"] = {
+							["offsetX"] = 0,
+							["offsetY"] = -3.362087227287702e-05,
+							["point"] = "CENTER",
+							["relativePoint"] = "CENTER",
+						},
+						["Dimensions"] = {
+							["height"] = 169.9999847412109,
+							["scale"] = 1,
+							["width"] = 150.0000457763672,
+						},
+					},
+				},
+				["Interface"] = {
+					["TradeTime"] = {
+						["Overview"] = {
+							["Window"] = {
+								["Dimensions"] = {
+									["height"] = 99.99998474121094,
+									["scale"] = 1,
+									["width"] = 249.9998931884766,
+								},
+								["Position"] = {
+									["point"] = "TOPRIGHT",
+									["offsetY"] = -243.4707641601563,
+									["offsetX"] = -0.6286863684654236,
+									["relativePoint"] = "TOPRIGHT",
+								},
+							},
+						},
+					},
+				},
 			},
-			["Changelog"] = {
+			["Settings"] = {
 				["Position"] = {
-					["offsetX"] = 0,
-					["offsetY"] = 0,
 					["point"] = "CENTER",
+					["offsetY"] = 27.00002098083496,
+					["offsetX"] = 419.8501586914063,
 					["relativePoint"] = "CENTER",
+				},
+			},
+			["GDKPOverview"] = {
+				["Position"] = {
+					["point"] = "CENTER",
+					["offsetY"] = 0,
+					["offsetX"] = 0,
+					["relativePoint"] = "CENTER",
+				},
+				["Dimensions"] = {
+					["height"] = 410.0000305175781,
+					["scale"] = 1,
+					["width"] = 660.0001831054688,
 				},
 			},
 		},
@@ -246,6 +331,7 @@ GargulDB = {
 			},
 			["scale"] = 1,
 			["hideAwarded"] = false,
+			["minimize"] = true,
 			["showHotkeyReminder"] = true,
 			["showOnlyWhenMasterLooting"] = true,
 			["maximumTradeTimeLeft"] = 120,
@@ -301,23 +387,13 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
-	["GDKP"] = {
-		["SettingsPerItem"] = {
-		},
-		["Queue"] = {
-		},
-	},
-	["PlusOnes"] = {
-		["Totals"] = {
-		},
-	},
-	["LootPriority"] = {
-	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

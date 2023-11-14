@@ -9,29 +9,29 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:48194::41398:40147:::::80:::::::::|h[Runentotems Kopfschutz des Triumphs]|h|r", -- [1]
-					"|cffa335ee|Hitem:47988::40117::::::80:::::::::|h[Halsband der endlosen Qual]|h|r", -- [2]
-					"|cffa335ee|Hitem:48197:3808:40117::::::80:::::::::|h[Runentotems Schulterpolster des Triumphs]|h|r", -- [3]
+					"|cffffffff|Hitem:48194::41398:40147:::::80:::::::::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:47988::40117::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:48197:3808:40117::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:48196:3832:40117:40117:::::80:::::::::|h[Runentotems Gewandung des Triumphs]|h|r", -- [5]
-					"|cffa335ee|Hitem:47460::::::::80:::::::::|h[Gürtel des mitleidlosen Mörders]|h|r", -- [6]
-					"|cffa335ee|Hitem:48195:3328:40117:40117:::::80:::::::::|h[Runentotems Beinschützer des Triumphs]|h|r", -- [7]
+					"|cffffffff|Hitem:48196:3832:40117:40117:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:47460::::::::80:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:48195:3328:40117:40117:::::80:::::::::|h[]|h|r", -- [7]
 					"|cffa335ee|Hitem:47445:3606:40119:40119:::::80:::::::::|h[Eiswandlertreter]|h|r", -- [8]
-					"|cffa335ee|Hitem:47582:3756:40117::::::80:::::::::|h[Armschienen des schnellen Todes]|h|r", -- [9]
-					"|cffa335ee|Hitem:48017:3604:40117:40117:::::80:::::::::|h[Assassinenhandschuhe der Sonnenhäscher]|h|r", -- [10]
-					"|cffa335ee|Hitem:40474::::::::80:::::::::|h[Sognadelring]|h|r", -- [11]
-					"|cffa335ee|Hitem:47993::40117:40117:::::80:::::::::|h[Gormoks Band]|h|r", -- [12]
-					"|cffa335ee|Hitem:44253::::::::80:::::::::|h[Dunkelmond-Karte: Grandeur]|h|r", -- [13]
-					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Runenstein von Mjolnir]|h|r", -- [14]
-					"|cffa335ee|Hitem:48669:3605:40117::::::80:::::::::|h[Umhang des triumphalen Kombattanten]|h|r", -- [15]
+					"|cffffffff|Hitem:47582:3756:40117::::::80:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:48017:3604:40117:40117:::::80:::::::::|h[]|h|r", -- [10]
+					"|cffa335ee|Hitem:47730::::::::80:::::::::|h[Geschickter Hellsteinring]|h|r", -- [11]
+					"|cffffffff|Hitem:47993::40117:40117:::::80:::::::::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:44253::::::::80:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:45931::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:48669:3605:40117::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:40130:40112:::::80:::::::::|h[]|h|r", -- [16]
 					nil, -- [17]
-					"|cffa335ee|Hitem:47668::::::::80:::::::::|h[Götze der Verstümmelung]|h|r", -- [18]
-					"|cffffffff|Hitem:43155::::::::80:::::::::|h[Wappenrock der Schwarzen Klinge]|h|r", -- [19]
+					"|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
 				},
-				["averageItemLvl"] = 239.25,
-				["overallAIL"] = 249.0625,
-				["lastUpdate"] = 1699830101,
+				["averageItemLvl"] = 243.875,
+				["overallAIL"] = 249.875,
+				["lastUpdate"] = 1699916822,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -90,7 +90,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 245,
 					},
 					["Andrés"] = {
-						["averageItemLvl"] = 253,
+						["averageItemLvl"] = 256,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
@@ -99,7 +99,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 244,
 					},
 					["Maturitass"] = {
-						["averageItemLvl"] = 240,
+						["averageItemLvl"] = 243,
 					},
 				},
 			},

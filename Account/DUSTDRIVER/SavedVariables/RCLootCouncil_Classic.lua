@@ -803,47 +803,114 @@ RCLootCouncilDB = {
 			"00:15:04 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [792]
 			"00:22:23 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Mikirî) (distri:) (GUILD)", -- [793]
 			"00:27:15 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hakkî) (distri:) (GUILD)", -- [794]
+			"11/13/23", -- [795]
+			"23:14:09 - Logged In", -- [796]
+			"23:14:09 - ML initialized!", -- [797]
+			"23:14:09 - TradeUI enabled", -- [798]
+			"23:14:15 - Maturitass-Venoxis (2.19.3) (nil)", -- [799]
+			"23:14:15 - ActivateSkin (bfa)", -- [800]
+			"23:14:21 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [801]
+			"23:14:21 - GetML()", -- [802]
+			"23:14:21 - LootMethod =  (group)", -- [803]
+			"23:14:21 - UpdatePlayersData()", -- [804]
+			"23:14:21 - ClassicModule enabled (0.20.0) (nil)", -- [805]
+			"23:14:21 - DoCommsCompressFix", -- [806]
+			"23:14:21 - Removing Column (role)", -- [807]
+			"23:14:21 - Removing Column (corruption)", -- [808]
+			"23:14:22 - GetPlayersGuildRank()", -- [809]
+			"23:14:22 - GetPlayersGuildRank()", -- [810]
+			"23:14:22 - GetPlayersGuildRank()", -- [811]
+			"23:14:22 - Found Guild Rank: Twink", -- [812]
+			"23:14:24 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Schpen) (distri:) (GUILD)", -- [813]
+			"23:14:24 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [814]
+			"23:14:31 - Event: (PARTY_LEADER_CHANGED)", -- [815]
+			"23:14:31 - GetML()", -- [816]
+			"23:14:31 - LootMethod =  (group)", -- [817]
+			"23:14:31 - NewMLCheck (Resetting council as we have a new ML!)", -- [818]
+			"23:14:31 - Some else is ML", -- [819]
+			"23:14:46 - Timer MLdb_check passed", -- [820]
+			"23:15:57 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Andrés) (distri:) (GUILD)", -- [821]
+			"23:18:29 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [822]
+			"23:21:33 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Kwasimojo) (distri:) (GUILD)", -- [823]
+			"23:28:09 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [824]
+			"23:28:09 - GetML()", -- [825]
+			"23:28:09 - LootMethod =  (master)", -- [826]
+			"23:28:09 - MasterLooter =  (Vacaria-Venoxis)", -- [827]
+			"23:28:09 - NewMLCheck (Resetting council as we have a new ML!)", -- [828]
+			"23:28:09 - Some else is ML", -- [829]
+			"23:28:14 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [830]
+			"23:28:14 - GetML()", -- [831]
+			"23:28:14 - LootMethod =  (master)", -- [832]
+			"23:28:14 - MasterLooter =  (Vacaria-Venoxis)", -- [833]
+			"23:28:14 - NewMLCheck (No ML Change)", -- [834]
+			"23:28:24 - Timer MLdb_check passed", -- [835]
+			"23:29:04 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [836]
+			"23:29:04 - GetML()", -- [837]
+			"23:29:04 - LootMethod =  (master)", -- [838]
+			"23:29:04 - MasterLooter =  (Vacaria-Venoxis)", -- [839]
+			"23:29:04 - NewMLCheck (No ML Change)", -- [840]
+			"23:29:05 - Event: (RAID_INSTANCE_WELCOME) (Archavons Kammer (10 Spieler)) (1) (5) (30) (0)", -- [841]
+			"23:35:06 - Event: (LOOT_READY) (true)", -- [842]
+			"23:35:06 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4460-624-1860-38433-000052A2C6) (1758364)", -- [843]
+			"23:35:06 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:50081::::::::80:::::::::|h[Beinplatten des Ymirjarfürsten]|h|r) (4) (1) (Creature-0-4460-624-1860-38433-000052A2C6) (1)", -- [844]
+			"23:35:06 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50842::::::::80:::::::::|h[Handschuhe der Frosthexe]|h|r) (4) (1) (Creature-0-4460-624-1860-38433-000052A2C6) (1)", -- [845]
+			"23:35:07 - LootOpened", -- [846]
+			"23:35:07 - Event: (LOOT_READY) (true)", -- [847]
+			"23:35:07 - Adding to self.lootSlotInfo (1) (nil) (0) (0) (Creature-0-4460-624-1860-38433-000052A2C6) (1758364)", -- [848]
+			"23:35:07 - Adding to self.lootSlotInfo (2) (|cffa335ee|Hitem:50081::::::::80:::::::::|h[Beinplatten des Ymirjarfürsten]|h|r) (4) (1) (Creature-0-4460-624-1860-38433-000052A2C6) (1)", -- [849]
+			"23:35:07 - Adding to self.lootSlotInfo (3) (|cffa335ee|Hitem:50842::::::::80:::::::::|h[Handschuhe der Frosthexe]|h|r) (4) (1) (Creature-0-4460-624-1860-38433-000052A2C6) (1)", -- [850]
+			"23:35:07 - OnLootSlotCleared() (1) (nil) (0)", -- [851]
+			"23:35:12 - LootClosed", -- [852]
+			"23:35:44 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Letsburn) (distri:) (GUILD)", -- [853]
+			"23:35:48 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [854]
+			"23:35:48 - GetML()", -- [855]
+			"23:35:48 - LootMethod =  (master)", -- [856]
+			"23:35:48 - MasterLooter =  (Vacaria-Venoxis)", -- [857]
+			"23:35:48 - NewMLCheck (No ML Change)", -- [858]
+			"23:36:05 - Event: (GROUP_LEFT) (1) (Party-4477-1-00001389B677)", -- [859]
+			"23:36:05 - GetML()", -- [860]
+			"23:36:05 - LootMethod =  (group)", -- [861]
+			"23:38:29 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Jogí) (distri:) (GUILD)", -- [862]
+			"23:38:30 - New CPS: (0)", -- [863]
+			"23:38:30 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [864]
+			"23:38:31 - Queue and CPS is 0", -- [865]
+			"23:42:44 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Uwusoulstone) (distri:) (GUILD)", -- [866]
+			"23:43:44 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Bigmæc) (distri:) (GUILD)", -- [867]
+			"23:45:25 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Slimpy) (distri:) (GUILD)", -- [868]
+			"11/14/23", -- [869]
+			"00:03:28 - Logged In", -- [870]
+			"00:03:28 - ML initialized!", -- [871]
+			"00:03:28 - TradeUI enabled", -- [872]
+			"00:03:42 - Maturitass-Venoxis (2.19.3) (nil)", -- [873]
+			"00:03:42 - ActivateSkin (bfa)", -- [874]
+			"00:03:49 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [875]
+			"00:03:49 - GetML()", -- [876]
+			"00:03:49 - LootMethod =  (group)", -- [877]
+			"00:03:49 - UpdatePlayersData()", -- [878]
+			"00:03:50 - ClassicModule enabled (0.20.0) (nil)", -- [879]
+			"00:03:50 - DoCommsCompressFix", -- [880]
+			"00:03:50 - Removing Column (role)", -- [881]
+			"00:03:50 - Removing Column (corruption)", -- [882]
+			"00:03:50 - GetPlayersGuildRank()", -- [883]
+			"00:03:50 - Found Guild Rank: Twink", -- [884]
+			"00:03:52 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [885]
+			"00:20:15 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Morai) (distri:) (GUILD)", -- [886]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
 		["locale"] = "deDE",
 		["verTestCandidates"] = {
-			["Uséléss-Venoxis"] = {
+			["Letsburn-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699829808, -- [3]
+				1699916632, -- [3]
 			},
 			["Alsia-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699831635, -- [3]
-			},
-			["Camoraa-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699831635, -- [3]
-			},
-			["Hakkî-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699831635, -- [3]
+				1699913909, -- [3]
 			},
 			["Mikirî-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699831635, -- [3]
-			},
-			["Morai-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699830904, -- [3]
-			},
-			["Bremskyle-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699831344, -- [3]
-			},
-			["Maturitass-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699831635, -- [3]
@@ -851,27 +918,122 @@ RCLootCouncilDB = {
 			["Wønka-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699831635, -- [3]
+				1699917615, -- [3]
 			},
-			["Slimpy-Venoxis"] = {
+			["Klassíc-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917615, -- [3]
+			},
+			["Camoraa-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699831635, -- [3]
-			},
-			["Andrés-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699829811, -- [3]
 			},
 			["Wîdi-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699830904, -- [3]
 			},
+			["Andrés-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699913757, -- [3]
+			},
+			["Schpen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699914093, -- [3]
+			},
 			["Blinkyli-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699831635, -- [3]
+			},
+			["Hâkkî-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699916632, -- [3]
+			},
+			["Maturitass-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917615, -- [3]
+			},
+			["Hakkî-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699831635, -- [3]
+			},
+			["Hennerr-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699914093, -- [3]
+			},
+			["Bigmæc-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699915525, -- [3]
+			},
+			["Vacaria-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699915425, -- [3]
+			},
+			["Uséléss-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699913757, -- [3]
+			},
+			["Shamir-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699913757, -- [3]
+			},
+			["Takuta-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699914944, -- [3]
+			},
+			["Morai-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917615, -- [3]
+			},
+			["Bremskyle-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699831344, -- [3]
+			},
+			["Delmonte-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699914944, -- [3]
+			},
+			["Myjuice-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917615, -- [3]
+			},
+			["Slimpy-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699915525, -- [3]
+			},
+			["Jogí-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917615, -- [3]
+			},
+			["Kwasimojo-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917616, -- [3]
+			},
+			["Uwusoulstone-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699915525, -- [3]
 			},
 		},
 		["version"] = "2.19.3",

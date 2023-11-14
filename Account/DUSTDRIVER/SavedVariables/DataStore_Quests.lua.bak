@@ -8,9 +8,19 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["HistoryLastUpdate"] = 1699529627,
-				["HistoryBuild"] = "51943",
-				["HistorySize"] = 1082,
+				["HistoryLastUpdate"] = 1699913664,
+				["QuestHeaders"] = {
+					"Eiskrone", -- [1]
+					"Grube von Saron", -- [2]
+					"Tanaris", -- [3]
+					"Druide", -- [4]
+				},
+				["HistorySize"] = 1096,
+				["QuestTitles"] = {
+					"Die Berührung eines Aspekts", -- [1]
+					"Die Schwarzwacht", -- [2]
+					"Tief im Inneren des Kellergewölbes", -- [3]
+				},
 				["History"] = {
 					4227858432, -- [1]
 					[365] = 4236376539,
@@ -56,9 +66,12 @@ DataStore_QuestsDB = {
 					[319] = 3934344321,
 					[323] = 536871008,
 					[327] = 4709376,
+					[2461] = 1,
 					[335] = 8192,
 					[339] = 2244739073,
+					[2462] = 2,
 					[2007] = 33554432,
+					[769] = 32760,
 					[188] = 393216,
 					[2001] = 2415919104,
 					[363] = 4293164879,
@@ -81,7 +94,7 @@ DataStore_QuestsDB = {
 					[304] = 1375219811,
 					[308] = 4276486145,
 					[312] = 3460138784,
-					[316] = 2860581057,
+					[159] = 32,
 					[320] = 1358901280,
 					[324] = 2147524673,
 					[328] = 36864,
@@ -98,7 +111,7 @@ DataStore_QuestsDB = {
 					[372] = 502633168,
 					[376] = 4093848545,
 					[380] = 33543006,
-					[384] = 679907322,
+					[764] = 8192,
 					[388] = 3087007745,
 					[392] = 2684321537,
 					[396] = 2148810800,
@@ -116,31 +129,30 @@ DataStore_QuestsDB = {
 					[317] = 4048698361,
 					[321] = 107265028,
 					[325] = 804257795,
-					[764] = 8192,
+					[384] = 679907322,
 					[333] = 96,
 					[766] = 2148007936,
 					[341] = 328322,
 					[345] = 4026531841,
-					[159] = 32,
+					[316] = 2860581057,
 					[9] = 65536,
 				},
-				["lastUpdate"] = 1699529624,
-				["QuestHeaders"] = {
-					"Eiskrone", -- [1]
-					"Grube von Saron", -- [2]
-					"Naxxramas", -- [3]
-					"Tanaris", -- [4]
-					"Druide", -- [5]
+				["Money"] = {
+					157300, -- [1]
+					20600, -- [2]
+					206300, -- [3]
 				},
+				["HistoryBuild"] = "51943",
+				["Quests"] = {
+					5244992, -- [1]
+					5244992, -- [2]
+					5244992, -- [3]
+				},
+				["lastUpdate"] = 1699914948,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["HistoryLastUpdate"] = 1699529505,
-				["QuestHeaders"] = {
-					"Brachland", -- [1]
-					"Kral der Klingenhauer", -- [2]
-					"Orgrimmar", -- [3]
-					"Steinkrallengebirge", -- [4]
-				},
+				["lastUpdate"] = 1699529504,
 				["HistorySize"] = 122,
 				["History"] = {
 					256, -- [1]
@@ -179,12 +191,17 @@ DataStore_QuestsDB = {
 					[31] = 4,
 					[34] = 16,
 				},
+				["QuestHeaders"] = {
+					"Brachland", -- [1]
+					"Kral der Klingenhauer", -- [2]
+					"Orgrimmar", -- [3]
+					"Steinkrallengebirge", -- [4]
+				},
 				["HistoryBuild"] = "51943",
-				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["HistoryLastUpdate"] = 1699822293,
-				["lastUpdate"] = 1699828058,
+				["HistoryBuild"] = "51943",
 				["HistorySize"] = 827,
 				["History"] = {
 					33554436, -- [1]
@@ -331,11 +348,11 @@ DataStore_QuestsDB = {
 					[28] = 3184518642,
 					[789] = 8388608,
 				},
+				["lastUpdate"] = 1699828058,
 				["QuestHeaders"] = {
 					"Grube von Saron", -- [1]
 					"Höhlen der Zeit", -- [2]
 				},
-				["HistoryBuild"] = "51943",
 			},
 		},
 	},

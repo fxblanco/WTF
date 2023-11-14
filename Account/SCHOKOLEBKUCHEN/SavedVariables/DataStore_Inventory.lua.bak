@@ -6,7 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699529712,
+				["lastUpdate"] = 1699913508,
 				["averageItemLvl"] = 258.5625,
 				["overallAIL"] = 259.4375,
 				["Inventory"] = {
@@ -35,6 +35,18 @@ DataStore_InventoryDB = {
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
+					["Alsia"] = {
+						["averageItemLvl"] = 262,
+					},
+					["Xolem"] = {
+						["averageItemLvl"] = 245,
+					},
+					["Andrés"] = {
+						["averageItemLvl"] = 253,
+					},
+					["Kwasimojo"] = {
+						["averageItemLvl"] = 244,
+					},
 					["Exonuklease"] = {
 						["averageItemLvl"] = 258,
 					},

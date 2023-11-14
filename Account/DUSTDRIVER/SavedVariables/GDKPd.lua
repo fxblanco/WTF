@@ -48,9 +48,9 @@ GDKPd_DB = {
 				["x"] = -258.3778686523438,
 			},
 			["point"] = {
-				["y"] = -140.7248840332031,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 286.0494384765625,
 			},
 			["startBid"] = 100,
 			["increment"] = 10,

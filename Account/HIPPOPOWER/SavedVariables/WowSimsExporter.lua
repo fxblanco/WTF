@@ -1,9 +1,15 @@
 
 WSEDB = {
 	["profileKeys"] = {
-		["Pippop - Venoxis"] = "Default",
+		["Fiesercousin - Venoxis"] = "Default",
+		["Xolem - Venoxis"] = "Default",
+		["Pjanic - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
+		["Andrés - Transcendence"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
-		["Hakkî - Venoxis"] = "Default",
-		["Uwusoulstone - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 }

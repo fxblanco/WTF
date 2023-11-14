@@ -20,7 +20,6 @@ Bagnon_Sets = {
 	},
 	["global"] = {
 		["inventory"] = {
-			["y"] = 102.0261840820313,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -51,11 +50,13 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
-			},
 			["hiddenRules"] = {
 			},
-			["x"] = -343.80908203125,
+			["y"] = 139.8126983642578,
+			["x"] = 0,
+			["borderColor"] = {
+			},
+			["showBags"] = true,
 		},
 		["vault"] = {
 			["rules"] = {
@@ -90,7 +91,6 @@ Bagnon_Sets = {
 			},
 		},
 		["guild"] = {
-			["y"] = -331.8599243164063,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -116,18 +116,19 @@ Bagnon_Sets = {
 				"equip/ammo", -- [22]
 			},
 			["point"] = "TOPLEFT",
-			["borderColor"] = {
+			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
-			["hiddenBags"] = {
-			},
 			["hiddenRules"] = {
 			},
-			["x"] = 586.5665283203125,
+			["y"] = -42.5250244140625,
+			["x"] = 705.9681396484375,
+			["borderColor"] = {
+			},
+			["brokerObject"] = "AtlasLoot",
 		},
 		["bank"] = {
-			["y"] = 398.9916076660156,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -152,16 +153,18 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "BOTTOMLEFT",
+			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
-			},
 			["hiddenRules"] = {
 			},
-			["x"] = 341.5291137695313,
+			["y"] = -179.8501586914063,
+			["x"] = -365.0369873046875,
+			["borderColor"] = {
+			},
+			["showBags"] = true,
 		},
 	},
 	["keyColor"] = {

@@ -1,18 +1,38 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
-		["Characters"] = {
-			["Default.Venoxis.Lesbenlisa"] = {
-				["guildName"] = "Old Rabbitz",
-				["faction"] = "Horde",
-			},
-		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["faction"] = "Horde",
+			},
+		},
+		["Characters"] = {
+			["Default.Venoxis.Kwasimojo"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Andrés"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Xolem"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Alsia"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
 			},
 		},
 		["ShortToLongRealmNames"] = {

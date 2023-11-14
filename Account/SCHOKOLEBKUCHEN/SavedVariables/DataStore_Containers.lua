@@ -6,7 +6,7 @@ DataStore_ContainersDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699833939,
+				["lastUpdate"] = 1699916244,
 				["Containers"] = {
 					["Bag4"] = {
 						["rarity"] = 3,
@@ -82,14 +82,14 @@ DataStore_ContainersDB = {
 							nil, -- [3]
 							51326, -- [4]
 							47732, -- [5]
-							nil, -- [6]
+							6265, -- [6]
 							41196, -- [7]
 							41510, -- [8]
-							nil, -- [9]
+							6265, -- [9]
 							40212, -- [10]
-							nil, -- [11]
+							6265, -- [11]
 							45912, -- [12]
-							6265, -- [13]
+							nil, -- [13]
 							40113, -- [14]
 							40113, -- [15]
 							40212, -- [16]
@@ -100,20 +100,20 @@ DataStore_ContainersDB = {
 							nil, -- [3]
 							"|cffa335ee|Hitem:51326::::::::80:::::::::|h[Zauberstab des rubinroten Weins]|h|r", -- [4]
 							"|cffa335ee|Hitem:47732::::::::80:::::::::|h[Band des Herbeirufers]|h|r", -- [5]
-							nil, -- [6]
+							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [6]
 							"|cffffffff|Hitem:41196::::::::80:::::::::|h[Großartiger Zauberstein]|h|r", -- [7]
 							"|cffffffff|Hitem:41510::::::::80:::::::::|h[Froststoffballen]|h|r", -- [8]
-							nil, -- [9]
+							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [9]
 							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [10]
-							nil, -- [11]
+							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [11]
 							"|cff1eff00|Hitem:45912::::::::80:::::::::|h[Buch der Glyphenbeherrschung]|h|r", -- [12]
-							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [13]
+							nil, -- [13]
 							"|cffa335ee|Hitem:40113::::::::80:::::::::|h[Runenbeschriebener Kardinalsrubin]|h|r", -- [14]
 							"|cffa335ee|Hitem:40113::::::::80:::::::::|h[Runenbeschriebener Kardinalsrubin]|h|r", -- [15]
 							"|cffffffff|Hitem:40212::::::::80:::::::::|h[Trank der wilden Magie]|h|r", -- [16]
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 4,
+						["freeslots"] = 2,
 						["counts"] = {
 							4, -- [1]
 							2, -- [2]
@@ -128,7 +128,7 @@ DataStore_ContainersDB = {
 						["ids"] = {
 							47422, -- [1]
 							47796, -- [2]
-							6265, -- [3]
+							nil, -- [3]
 							41882, -- [4]
 							nil, -- [5]
 							47793, -- [6]
@@ -152,7 +152,7 @@ DataStore_ContainersDB = {
 						["links"] = {
 							"|cffa335ee|Hitem:47422:3834:40133::::::80:::::::::|h[Haken von Tarasque]|h|r", -- [1]
 							"|cffa335ee|Hitem:47796:3820:41285:40133:::::80:::::::::|h[Gul'dans Kapuze des Triumphs]|h|r", -- [2]
-							"|cffffffff|Hitem:6265::::::::80:::::::::|h[Seelensplitter]|h|r", -- [3]
+							nil, -- [3]
 							"|cffa335ee|Hitem:41882::::::::80:::::::::|h[Erretterkordel des unerbittlichen Gladiators]|h|r", -- [4]
 							nil, -- [5]
 							"|cffa335ee|Hitem:47793:3810:40155::::::80:::::::::|h[Gul'dans Schulterpolster des Triumphs]|h|r", -- [6]
@@ -178,11 +178,11 @@ DataStore_ContainersDB = {
 						["link"] = "|cffa335ee|Hitem:43345::::::::80:::::::::|h[Tasche aus Drachenhaut]|h|r",
 						["counts"] = {
 							[11] = 3,
-							[21] = 4,
 							[22] = 6,
+							[21] = 5,
 							[18] = 11,
 						},
-						["freeslots"] = 6,
+						["freeslots"] = 7,
 					},
 					["Bag2"] = {
 						["rarity"] = 4,
@@ -338,7 +338,7 @@ DataStore_ContainersDB = {
 						["freeslots"] = 26,
 					},
 				},
-				["numFreeBagSlots"] = 21,
+				["numFreeBagSlots"] = 20,
 				["numBagSlots"] = 106,
 			},
 		},

@@ -9,6 +9,10 @@ DataStore_MailsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Kwasimojo"] = {
+				["lastUpdate"] = 1699916395,
+				["lastVisitDate"] = "2023/11/13 23:59",
+			},
 			["Default.Venoxis.Alsia"] = {
 				["lastUpdate"] = 1699824950,
 				["lastVisitDate"] = "2023/11/12 22:35",
@@ -55,6 +59,14 @@ DataStore_MailsDB = {
 						["lastCheck"] = 1699829956,
 						["daysLeft"] = 30,
 					}, -- [2]
+					{
+						["sender"] = "Maturitass",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:36056::::::-37:122945640:80:::::::::|h[Wesirsbeinlinge des Heilers]|h|r",
+						["icon"] = 134604,
+						["lastCheck"] = 1699917428,
+						["daysLeft"] = 30,
+					}, -- [3]
 				},
 			},
 			["Default.Venoxis.Andrés"] = {

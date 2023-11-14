@@ -6,7 +6,7 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1699226571,
+				["lastUpdate"] = 1699832663,
 				["Mails"] = {
 					{
 						["icon"] = 134327,
@@ -15,11 +15,11 @@ DataStore_MailsDB = {
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "Vielen Dank für Ihren Kauf einer WoW-Marke!\r\n\r\nUm die Marke einzulösen, klicken Sie mit der rechten Maustaste auf den Gegenstand in Ihrem Inventar.\r\n\r\nWir möchten uns bei Ihnen dafür bedanken, dass sie World of Warcraft mit uns spielen. Viel Spaß bei all den Abenteuern, die Ihnen bevorstehen!",
-						["lastCheck"] = 1699226571,
-						["daysLeft"] = 29.99993133544922,
+						["lastCheck"] = 1699832663,
+						["daysLeft"] = 22.98495292663574,
 					}, -- [1]
 				},
-				["lastVisitDate"] = "2023/11/06 00:22",
+				["lastVisitDate"] = "2023/11/13 00:44",
 			},
 		},
 	},

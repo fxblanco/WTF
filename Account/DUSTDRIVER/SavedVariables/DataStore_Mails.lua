@@ -8,8 +8,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699830010,
-				["lastVisitDate"] = "2023/11/13 00:00",
+				["lastUpdate"] = 1699917430,
+				["lastVisitDate"] = "2023/11/14 00:17",
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["lastUpdate"] = 1699829734,
@@ -24,6 +24,15 @@ DataStore_MailsDB = {
 						["lastCheck"] = 1699829734,
 						["daysLeft"] = 25.57895851135254,
 					}, -- [1]
+					{
+						["sender"] = "Maturitass",
+						["subject"] = "qwe",
+						["lastCheck"] = 1699917409,
+						["money"] = 50000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
+					}, -- [2]
 				},
 				["lastVisitDate"] = "2023/11/12 23:55",
 			},
