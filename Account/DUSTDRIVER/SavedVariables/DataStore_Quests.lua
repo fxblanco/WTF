@@ -8,14 +8,19 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["HistoryLastUpdate"] = 1699916632,
-				["QuestHeaders"] = {
-					"Eiskrone", -- [1]
-					"Grube von Saron", -- [2]
-					"Tanaris", -- [3]
-					"Druide", -- [4]
+				["HistoryLastUpdate"] = 1700144302,
+				["lastUpdate"] = 1700145772,
+				["HistorySize"] = 1094,
+				["QuestTitles"] = {
+					"Proof of Demise: Threats to Azeroth", -- [1]
+					"Proof of Demise: Titan Rune Protocol Gamma", -- [2]
+					"The Thirsty Goblin", -- [3]
+					"Morthis Whisperwing", -- [4]
 				},
-				["HistorySize"] = 1096,
+				["QuestTags"] = {
+					85, -- [1]
+					85, -- [2]
+				},
 				["History"] = {
 					4227858432, -- [1]
 					[365] = 4236376539,
@@ -64,11 +69,11 @@ DataStore_QuestsDB = {
 					[9] = 65536,
 					[335] = 8192,
 					[339] = 2244739073,
-					[316] = 2860581057,
-					[2007] = 33554432,
 					[769] = 32760,
+					[2007] = 33554432,
 					[188] = 393216,
 					[766] = 2148007936,
+					[159] = 32,
 					[363] = 4293164879,
 					[367] = 2103222,
 					[371] = 4143972353,
@@ -89,16 +94,16 @@ DataStore_QuestsDB = {
 					[304] = 1375219811,
 					[308] = 4276486145,
 					[312] = 3460138784,
-					[159] = 32,
+					[316] = 2860581057,
 					[320] = 1358901280,
 					[324] = 2147524673,
 					[328] = 36864,
 					[386] = 1920,
-					[384] = 679907322,
+					[391] = 1508312,
 					[340] = 4264632339,
 					[325] = 804257795,
-					[391] = 1508312,
 					[192] = 523776,
+					[384] = 679907322,
 					[313] = 796638920,
 					[420] = 3082,
 					[364] = 3758030751,
@@ -129,20 +134,30 @@ DataStore_QuestsDB = {
 					[2001] = 2415919104,
 					[341] = 328322,
 					[345] = 4026531841,
-					[2462] = 2,
-					[2461] = 1,
+				},
+				["Money"] = {
+					486600, -- [1]
+					486600, -- [2]
+					10900, -- [3]
+					780, -- [4]
+				},
+				["QuestHeaders"] = {
+					"Dalaran", -- [1]
+					"Pit of Saron", -- [2]
+					"Tanaris", -- [3]
+					"Druid", -- [4]
+				},
+				["Quests"] = {
+					5244994, -- [1]
+					5244994, -- [2]
+					3217472, -- [3]
+					4595776, -- [4]
 				},
 				["HistoryBuild"] = "51943",
-				["lastUpdate"] = 1699916629,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["HistoryLastUpdate"] = 1699529505,
-				["QuestHeaders"] = {
-					"Brachland", -- [1]
-					"Kral der Klingenhauer", -- [2]
-					"Orgrimmar", -- [3]
-					"Steinkrallengebirge", -- [4]
-				},
+				["lastUpdate"] = 1699529504,
 				["HistorySize"] = 122,
 				["History"] = {
 					256, -- [1]
@@ -181,12 +196,17 @@ DataStore_QuestsDB = {
 					[78] = 114688,
 					[13] = 28327936,
 				},
+				["QuestHeaders"] = {
+					"Brachland", -- [1]
+					"Kral der Klingenhauer", -- [2]
+					"Orgrimmar", -- [3]
+					"Steinkrallengebirge", -- [4]
+				},
 				["HistoryBuild"] = "51943",
-				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["HistoryLastUpdate"] = 1699822293,
-				["lastUpdate"] = 1699828058,
+				["HistoryLastUpdate"] = 1700143904,
+				["HistoryBuild"] = "51943",
 				["HistorySize"] = 827,
 				["History"] = {
 					33554436, -- [1]
@@ -292,7 +312,6 @@ DataStore_QuestsDB = {
 					[401] = 56,
 					[217] = 1536,
 					[449] = 98304,
-					[769] = 64,
 					[354] = 146735014,
 					[97] = 524288,
 					[1728] = 1,
@@ -333,11 +352,10 @@ DataStore_QuestsDB = {
 					[300] = 16384,
 					[151] = 2097152,
 				},
+				["lastUpdate"] = 1700143902,
 				["QuestHeaders"] = {
-					"Grube von Saron", -- [1]
-					"Höhlen der Zeit", -- [2]
+					"Naxxramas", -- [1]
 				},
-				["HistoryBuild"] = "51943",
 			},
 		},
 	},

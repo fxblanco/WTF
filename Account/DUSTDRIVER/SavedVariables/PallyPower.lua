@@ -23,18 +23,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		2, -- [10]
 	},
-	["Spaltkyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		1, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
 	["Beesportz"] = {
 		2, -- [1]
 		0, -- [2]
@@ -46,6 +34,18 @@ PallyPower_Assignments = {
 		3, -- [8]
 		2, -- [9]
 		2, -- [10]
+	},
+	["Spaltkyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		1, -- [4]
+		3, -- [5]
+		3, -- [6]
+		1, -- [7]
+		1, -- [8]
+		3, -- [9]
+		3, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -76,11 +76,7 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Allgemein", -- [1]
-	"Handel", -- [2]
-	"LokaleVerteidigung", -- [3]
 	[0] = "None",
-	[5] = "SucheNachGruppe",
 }
 LCD_Data = nil
 LCD_GUIDAccess = nil

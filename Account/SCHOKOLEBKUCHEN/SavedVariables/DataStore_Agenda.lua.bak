@@ -7,14 +7,19 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["DungeonIDs"] = {
-					["Naxxramas 10 Spieler|192142738"] = "104263|1699916536|0|1",
-					["Archavons Kammer 25 Spieler|191832095"] = "104263|1699916536|0|1",
-					["Archavons Kammer 10 Spieler|191831697"] = "104263|1699916536|0|1",
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191813689"] = "104263|1699916536|0|1",
-					["Die Seelenschmiede Heroisch|273040961"] = "17863|1699916536|0|0",
+					["Archavons Kammer 10 Spieler|192329118"] = "533618|1700091981|0|1",
+					["Naxxramas 10 Spieler|192329528"] = "533618|1700091981|0|1",
+					["Archavons Kammer 25 Spieler|192332088"] = "533618|1700091981|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|192278069"] = "533618|1700091981|0|1",
 				},
 				["BossKills"] = {
-					["Naxxramas 10 Spieler|192142738"] = {
+					["Archavons Kammer 10 Spieler|192329118"] = {
+						"Archavon der Steinwächter|0", -- [1]
+						"Emalon der Sturmwächter|0", -- [2]
+						"Koralon der Flammenwächter|0", -- [3]
+						"Toravon der Eiswächter|1", -- [4]
+					},
+					["Naxxramas 10 Spieler|192329528"] = {
 						"Anub'Rekhan|0", -- [1]
 						"Großwitwe Faerlina|0", -- [2]
 						"Maexxna|0", -- [3]
@@ -31,19 +36,13 @@ DataStore_AgendaDB = {
 						"Saphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
-					["Archavons Kammer 25 Spieler|191832095"] = {
-						"Archavon der Steinwächter|0", -- [1]
-						"Emalon der Sturmwächter|0", -- [2]
-						"Koralon der Flammenwächter|1", -- [3]
-						"Toravon der Eiswächter|1", -- [4]
-					},
-					["Archavons Kammer 10 Spieler|191831697"] = {
+					["Archavons Kammer 25 Spieler|192332088"] = {
 						"Archavon der Steinwächter|0", -- [1]
 						"Emalon der Sturmwächter|0", -- [2]
 						"Koralon der Flammenwächter|0", -- [3]
 						"Toravon der Eiswächter|1", -- [4]
 					},
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191813689"] = {
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|192278069"] = {
 						"Lord Mark'gar|1", -- [1]
 						"Lady Todeswisper|1", -- [2]
 						"Kanonenschiffsschlacht von Eiskrone|1", -- [3]
@@ -57,12 +56,8 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"Der Lichkönig|1", -- [12]
 					},
-					["Die Seelenschmiede Heroisch|273040961"] = {
-						"Bronjahm|1", -- [1]
-						"Verschlinger der Seelen|1", -- [2]
-					},
 				},
-				["lastUpdate"] = 1699916536,
+				["lastUpdate"] = 1700091981,
 			},
 		},
 	},

@@ -9,40 +9,40 @@ DataStore_CurrenciesDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Eroberung|30|221", -- [2]
-					"1|Emblem des Frosts|80|341", -- [3]
-					"1|Emblem des Heldentums|0|101", -- [4]
-					"1|Emblem des Triumphs|35|301", -- [5]
-					"1|Geißelstein des Entweihers|13|2711", -- [6]
-					"1|Sternenessenz|3|2589", -- [7]
-					"0|Spieler gegen Spieler", -- [8]
-					"1|Ehrepunkte|14384|1901", -- [9]
-					"1|Münze der Venture Co.|44|201", -- [10]
-					"1|Splitter eines Steinbewahrers|136|161", -- [11]
-					"0|Verschiedenes", -- [12]
-					"1|Siegel des Champions|6|241", -- [13]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|13|2711", -- [2]
+					"1|Emblem of Conquest|30|221", -- [3]
+					"1|Emblem of Frost|94|341", -- [4]
+					"1|Emblem of Heroism|0|101", -- [5]
+					"1|Emblem of Triumph|41|301", -- [6]
+					"1|Sidereal Essence|3|2589", -- [7]
+					"0|Miscellaneous", -- [8]
+					"1|Champion's Seal|6|241", -- [9]
+					"0|Player vs. Player", -- [10]
+					"1|Honor Points|14704|1901", -- [11]
+					"1|Stone Keeper's Shard|136|161", -- [12]
+					"1|Venture Coin|44|201", -- [13]
 				},
-				["lastUpdate"] = 1699916817,
+				["lastUpdate"] = 1700144300,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699828058,
+				["lastUpdate"] = 1700143903,
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Eroberung|23|221", -- [2]
-					"1|Emblem des Frosts|32|341", -- [3]
-					"1|Emblem des Heldentums|6|101", -- [4]
-					"1|Emblem des Triumphs|22|301", -- [5]
-					"1|Geißelstein des Entweihers|17|2711", -- [6]
-					"1|Sternenessenz|3|2589", -- [7]
-					"0|Spieler gegen Spieler", -- [8]
-					"1|Ehrepunkte|3926|1901", -- [9]
-					"1|Splitter eines Steinbewahrers|226|161", -- [10]
-					"0|Verschiedenes", -- [11]
-					"1|Siegel des Champions|15|241", -- [12]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|21|2711", -- [2]
+					"1|Emblem of Conquest|23|221", -- [3]
+					"1|Emblem of Frost|44|341", -- [4]
+					"1|Emblem of Heroism|6|101", -- [5]
+					"1|Emblem of Triumph|26|301", -- [6]
+					"1|Sidereal Essence|3|2589", -- [7]
+					"0|Miscellaneous", -- [8]
+					"1|Champion's Seal|15|241", -- [9]
+					"0|Player vs. Player", -- [10]
+					"1|Honor Points|4086|1901", -- [11]
+					"1|Stone Keeper's Shard|234|161", -- [12]
 				},
 			},
 		},

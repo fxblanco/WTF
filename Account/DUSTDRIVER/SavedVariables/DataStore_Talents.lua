@@ -8,10 +8,20 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699916629,
+				["lastUpdate"] = 1700144299,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
-					["Wilder Kampf"] = {
+					["Restoration"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						5, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						1, -- [7]
+						[21] = 2,
+					},
+					["Feral Combat"] = {
 						nil, -- [1]
 						5, -- [2]
 						5, -- [3]
@@ -37,16 +47,6 @@ DataStore_TalentsDB = {
 						[27] = 1,
 						[30] = 1,
 					},
-					["Wiederherst"] = {
-						2, -- [1]
-						3, -- [2]
-						nil, -- [3]
-						5, -- [4]
-						nil, -- [5]
-						3, -- [6]
-						1, -- [7]
-						[21] = 2,
-					},
 				},
 				["PointsSpent"] = "0,55,16",
 			},
@@ -56,17 +56,24 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "0,0,0",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699828032,
+				["lastUpdate"] = 1700143902,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
-					["Waffen"] = {
+					["Fury"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						2, -- [4]
+						[27] = 3,
+					},
+					["Arms"] = {
 						3, -- [1]
 						[3] = 2,
 						[18] = 2,
-						[9] = 5,
 						[7] = 3,
+						[9] = 5,
 					},
-					["Schutz"] = {
+					["Protection"] = {
 						5, -- [1]
 						5, -- [2]
 						3, -- [3]
@@ -94,13 +101,6 @@ DataStore_TalentsDB = {
 						1, -- [25]
 						2, -- [26]
 					},
-					["Furor"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						2, -- [4]
-						[27] = 3,
-					},
 				},
 				["PointsSpent"] = "15,5,51",
 			},
@@ -115,84 +115,16 @@ DataStore_TalentsRefDB = {
 	},
 	["global"] = {
 		["WARRIOR"] = {
-			["Order"] = "Waffen,Furor,Schutz",
+			["Order"] = "Arms,Fury,Protection",
 			["Trees"] = {
-				["Furor"] = {
-					["talents"] = {
-						"Gebieterische Stimme|136035|3|4|5", -- [1]
-						"Wutanfall|136224|4|3|5", -- [2]
-						"Schlaghagel|132152|6|3|5", -- [3]
-						"Grausamkeit|132292|1|3|5", -- [4]
-						"Donnernde Stimme|136075|1|2|2", -- [5]
-						"Entfesselter Zorn|136097|2|3|5", -- [6]
-						"Durchdringendes Heulen|136147|3|2|1", -- [7]
-						"Verbesserter demoralisierender Ruf|132366|2|2|5", -- [8]
-						"Todeswunsch|136146|5|2|1", -- [9]
-						"Verbessertes Spalten|132338|3|1|3", -- [10]
-						"Blutdurst|136012|7|2|1", -- [11]
-						"Blutwahnsinn|136218|3|3|3", -- [12]
-						"Verbesserte Berserkerwut|136009|6|1|2", -- [13]
-						"Verbessertes Hinrichten|135358|4|2|2", -- [14]
-						"Verbessertes Abfangen|132307|5|3|2", -- [15]
-						"Beidhändigkeits-Spezialisierung|132147|4|1|5", -- [16]
-						"Verbesserter Wirbelwind|132369|7|4|2", -- [17]
-						"Präzision|132222|5|1|3", -- [18]
-						"Verbesserte Berserkerhaltung|132275|8|4|5", -- [19]
-						"Toben|132352|9|2|1", -- [20]
-						"Wut verstärken|132344|7|1|3", -- [21]
-						"Wütende Angriffe|236308|8|1|2", -- [22]
-						"Schäumendes Blut|236306|9|3|3", -- [23]
-						"Titanengriff|236316|11|2|1", -- [24]
-						"Heldenhafter Furor|236171|9|1|1", -- [25]
-						"Unendlicher Furor|236310|10|2|5", -- [26]
-						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
-					},
+				["Waffen"] = {
 					["prereqs"] = {
-						[11] = "5|2",
-						[20] = "7|2",
+						"3|3", -- [1]
+						[14] = "5|2",
 						[23] = "7|2",
 					},
-					["icon"] = 132347,
-					["background"] = "WarriorFury",
-				},
-				["Schutz"] = {
-					["talents"] = {
-						"Vorahnung|136056|2|3|5", -- [1]
-						"Zähigkeit|135892|3|4|5", -- [2]
-						"Verbesserter Donnerknall|132326|1|3|3", -- [3]
-						"Verbesserter Blutrausch|132277|1|1|2", -- [4]
-						"Anstacheln|236309|2|2|3", -- [5]
-						"Durchstechen|132363|4|3|3", -- [6]
-						"Verbesserte Rache|132353|3|2|2", -- [7]
-						"Wachsamkeit|236318|7|2|1", -- [8]
-						"Auf die Kehle zielen|132357|5|3|2", -- [9]
-						"Verbesserte Disziplinen|132362|5|1|2", -- [10]
-						"Verbessertes Entwaffnen|132343|4|2|2", -- [11]
-						"Erschütternder Schlag|132325|5|2|1", -- [12]
-						"Letztes Gefecht|135871|3|1|1", -- [13]
-						"Einhandwaffen-Spezialisierung|135321|6|3|5", -- [14]
-						"Schild-Spezialisierung|134952|1|2|5", -- [15]
-						"Verbesserte Verteidigungshaltung|132341|7|1|2", -- [16]
-						"Vitalität|133123|8|2|3", -- [17]
-						"Schildbeherrschung|132360|3|3|2", -- [18]
-						"Fokussierte Wut|132345|7|3|3", -- [19]
-						"Verwüsten|135291|9|2|1", -- [20]
-						"Sicherung|236311|8|3|2", -- [21]
-						"Schwert und Schild|236315|10|2|3", -- [22]
-						"Schockwelle|236312|11|2|1", -- [23]
-						"Kritisches Blocken|236307|9|3|3", -- [24]
-						"Kriegstreiber|236319|9|1|1", -- [25]
-						"Schadensschild|134976|10|3|2", -- [26]
-						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
-					},
-					["prereqs"] = {
-						[8] = "5|2",
-						[22] = "9|2",
-					},
-					["icon"] = 132341,
-					["background"] = "WarriorProtection",
-				},
-				["Waffen"] = {
+					["background"] = "WarriorArms",
+					["icon"] = 132292,
 					["talents"] = {
 						"Tiefe Wunden|132090|3|4|3", -- [1]
 						"Schwert-Spezialisierung|135328|5|4|5", -- [2]
@@ -226,32 +158,248 @@ DataStore_TalentsRefDB = {
 						"Verbessertes Zerschmettern|132340|7|4|2", -- [30]
 						"Dampfwalze|132335|8|1|1", -- [31]
 					},
+				},
+				["Schutz"] = {
+					["prereqs"] = {
+						[8] = "5|2",
+						[22] = "9|2",
+					},
+					["background"] = "WarriorProtection",
+					["icon"] = 132341,
+					["talents"] = {
+						"Vorahnung|136056|2|3|5", -- [1]
+						"Zähigkeit|135892|3|4|5", -- [2]
+						"Verbesserter Donnerknall|132326|1|3|3", -- [3]
+						"Verbesserter Blutrausch|132277|1|1|2", -- [4]
+						"Anstacheln|236309|2|2|3", -- [5]
+						"Durchstechen|132363|4|3|3", -- [6]
+						"Verbesserte Rache|132353|3|2|2", -- [7]
+						"Wachsamkeit|236318|7|2|1", -- [8]
+						"Auf die Kehle zielen|132357|5|3|2", -- [9]
+						"Verbesserte Disziplinen|132362|5|1|2", -- [10]
+						"Verbessertes Entwaffnen|132343|4|2|2", -- [11]
+						"Erschütternder Schlag|132325|5|2|1", -- [12]
+						"Letztes Gefecht|135871|3|1|1", -- [13]
+						"Einhandwaffen-Spezialisierung|135321|6|3|5", -- [14]
+						"Schild-Spezialisierung|134952|1|2|5", -- [15]
+						"Verbesserte Verteidigungshaltung|132341|7|1|2", -- [16]
+						"Vitalität|133123|8|2|3", -- [17]
+						"Schildbeherrschung|132360|3|3|2", -- [18]
+						"Fokussierte Wut|132345|7|3|3", -- [19]
+						"Verwüsten|135291|9|2|1", -- [20]
+						"Sicherung|236311|8|3|2", -- [21]
+						"Schwert und Schild|236315|10|2|3", -- [22]
+						"Schockwelle|236312|11|2|1", -- [23]
+						"Kritisches Blocken|236307|9|3|3", -- [24]
+						"Kriegstreiber|236319|9|1|1", -- [25]
+						"Schadensschild|134976|10|3|2", -- [26]
+						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
+					},
+				},
+				["Arms"] = {
 					["prereqs"] = {
 						"3|3", -- [1]
 						[14] = "5|2",
 						[23] = "7|2",
 					},
-					["icon"] = 132292,
 					["background"] = "WarriorArms",
+					["icon"] = 132292,
+					["talents"] = {
+						"Deep Wounds|132090|3|4|3", -- [1]
+						"Sword Specialization|135328|5|4|5", -- [2]
+						"Improved Heroic Strike|132282|1|1|3", -- [3]
+						"Mace Specialization|133476|5|3|5", -- [4]
+						"Improved Charge|132337|2|1|2", -- [5]
+						"Improved Rend|132155|1|3|2", -- [6]
+						"Tactical Mastery|136031|2|3|3", -- [7]
+						"Improved Hamstring|132316|6|3|3", -- [8]
+						"Deflection|132269|1|2|5", -- [9]
+						"Improved Overpower|135275|3|1|2", -- [10]
+						"Poleaxe Specialization|132397|5|1|5", -- [11]
+						"Sweeping Strikes|132306|5|2|1", -- [12]
+						"Weapon Mastery|132367|6|1|2", -- [13]
+						"Mortal Strike|132355|7|2|1", -- [14]
+						"Two-Handed Weapon Specialization|132400|4|2|3", -- [15]
+						"Anger Management|135881|3|2|1", -- [16]
+						"Iron Will|135995|2|2|3", -- [17]
+						"Impale|132312|3|3|2", -- [18]
+						"Endless Rage|132344|9|2|1", -- [19]
+						"Sudden Death|132346|9|1|3", -- [20]
+						"Second Wind|132175|7|1|2", -- [21]
+						"Blood Frenzy|132334|9|3|2", -- [22]
+						"Improved Mortal Strike|132355|8|2|3", -- [23]
+						"Trauma|236305|6|4|2", -- [24]
+						"Unrelenting Assault|236317|8|3|2", -- [25]
+						"Strength of Arms|132349|7|3|2", -- [26]
+						"Bladestorm|236303|11|2|1", -- [27]
+						"Wrecking Crew|132364|10|2|5", -- [28]
+						"Taste for Blood|236276|4|3|3", -- [29]
+						"Improved Slam|132340|7|4|2", -- [30]
+						"Juggernaut|132335|8|1|1", -- [31]
+					},
+				},
+				["Furor"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[20] = "7|2",
+						[23] = "7|2",
+					},
+					["background"] = "WarriorFury",
+					["icon"] = 132347,
+					["talents"] = {
+						"Gebieterische Stimme|136035|3|4|5", -- [1]
+						"Wutanfall|136224|4|3|5", -- [2]
+						"Schlaghagel|132152|6|3|5", -- [3]
+						"Grausamkeit|132292|1|3|5", -- [4]
+						"Donnernde Stimme|136075|1|2|2", -- [5]
+						"Entfesselter Zorn|136097|2|3|5", -- [6]
+						"Durchdringendes Heulen|136147|3|2|1", -- [7]
+						"Verbesserter demoralisierender Ruf|132366|2|2|5", -- [8]
+						"Todeswunsch|136146|5|2|1", -- [9]
+						"Verbessertes Spalten|132338|3|1|3", -- [10]
+						"Blutdurst|136012|7|2|1", -- [11]
+						"Blutwahnsinn|136218|3|3|3", -- [12]
+						"Verbesserte Berserkerwut|136009|6|1|2", -- [13]
+						"Verbessertes Hinrichten|135358|4|2|2", -- [14]
+						"Verbessertes Abfangen|132307|5|3|2", -- [15]
+						"Beidhändigkeits-Spezialisierung|132147|4|1|5", -- [16]
+						"Verbesserter Wirbelwind|132369|7|4|2", -- [17]
+						"Präzision|132222|5|1|3", -- [18]
+						"Verbesserte Berserkerhaltung|132275|8|4|5", -- [19]
+						"Toben|132352|9|2|1", -- [20]
+						"Wut verstärken|132344|7|1|3", -- [21]
+						"Wütende Angriffe|236308|8|1|2", -- [22]
+						"Schäumendes Blut|236306|9|3|3", -- [23]
+						"Titanengriff|236316|11|2|1", -- [24]
+						"Heldenhafter Furor|236171|9|1|1", -- [25]
+						"Unendlicher Furor|236310|10|2|5", -- [26]
+						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
+					},
+				},
+				["Fury"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[20] = "7|2",
+						[23] = "7|2",
+					},
+					["background"] = "WarriorFury",
+					["icon"] = 132347,
+					["talents"] = {
+						"Commanding Presence|136035|3|4|5", -- [1]
+						"Enrage|136224|4|3|5", -- [2]
+						"Flurry|132152|6|3|5", -- [3]
+						"Cruelty|132292|1|3|5", -- [4]
+						"Booming Voice|136075|1|2|2", -- [5]
+						"Unbridled Wrath|136097|2|3|5", -- [6]
+						"Piercing Howl|136147|3|2|1", -- [7]
+						"Improved Demoralizing Shout|132366|2|2|5", -- [8]
+						"Death Wish|136146|5|2|1", -- [9]
+						"Improved Cleave|132338|3|1|3", -- [10]
+						"Bloodthirst|136012|7|2|1", -- [11]
+						"Blood Craze|136218|3|3|3", -- [12]
+						"Improved Berserker Rage|136009|6|1|2", -- [13]
+						"Improved Execute|135358|4|2|2", -- [14]
+						"Improved Intercept|132307|5|3|2", -- [15]
+						"Dual Wield Specialization|132147|4|1|5", -- [16]
+						"Improved Whirlwind|132369|7|4|2", -- [17]
+						"Precision|132222|5|1|3", -- [18]
+						"Improved Berserker Stance|132275|8|4|5", -- [19]
+						"Rampage|132352|9|2|1", -- [20]
+						"Intensify Rage|132344|7|1|3", -- [21]
+						"Furious Attacks|236308|8|1|2", -- [22]
+						"Bloodsurge|236306|9|3|3", -- [23]
+						"Titan's Grip|236316|11|2|1", -- [24]
+						"Heroic Fury|236171|9|1|1", -- [25]
+						"Unending Fury|236310|10|2|5", -- [26]
+						"Armored to the Teeth|135053|1|1|3", -- [27]
+					},
+				},
+				["Protection"] = {
+					["prereqs"] = {
+						[8] = "5|2",
+						[22] = "9|2",
+					},
+					["background"] = "WarriorProtection",
+					["icon"] = 132341,
+					["talents"] = {
+						"Anticipation|136056|2|3|5", -- [1]
+						"Toughness|135892|3|4|5", -- [2]
+						"Improved Thunder Clap|132326|1|3|3", -- [3]
+						"Improved Bloodrage|132277|1|1|2", -- [4]
+						"Incite|236309|2|2|3", -- [5]
+						"Puncture|132363|4|3|3", -- [6]
+						"Improved Revenge|132353|3|2|2", -- [7]
+						"Vigilance|236318|7|2|1", -- [8]
+						"Gag Order|132357|5|3|2", -- [9]
+						"Improved Disciplines|132362|5|1|2", -- [10]
+						"Improved Disarm|132343|4|2|2", -- [11]
+						"Concussion Blow|132325|5|2|1", -- [12]
+						"Last Stand|135871|3|1|1", -- [13]
+						"One-Handed Weapon Specialization|135321|6|3|5", -- [14]
+						"Shield Specialization|134952|1|2|5", -- [15]
+						"Improved Defensive Stance|132341|7|1|2", -- [16]
+						"Vitality|133123|8|2|3", -- [17]
+						"Shield Mastery|132360|3|3|2", -- [18]
+						"Focused Rage|132345|7|3|3", -- [19]
+						"Devastate|135291|9|2|1", -- [20]
+						"Safeguard|236311|8|3|2", -- [21]
+						"Sword and Board|236315|10|2|3", -- [22]
+						"Shockwave|236312|11|2|1", -- [23]
+						"Critical Block|236307|9|3|3", -- [24]
+						"Warbringer|236319|9|1|1", -- [25]
+						"Damage Shield|134976|10|3|2", -- [26]
+						"Improved Spell Reflection|132361|4|1|2", -- [27]
+					},
 				},
 			},
 		},
 		["DRUID"] = {
-			["Order"] = "Gleichgewicht,Wilder Kampf,Wiederherst",
+			["Order"] = "Balance,Feral Combat,Restoration",
 			["Trees"] = {
-				["Wilder Kampf"] = {
+				["Balance"] = {
+					["background"] = "DruidBalance",
+					["talents"] = {
+						"Starlight Wrath|136006|1|2|5", -- [1]
+						"Improved Moonfire|136096|2|4|2", -- [2]
+						"Nature's Reach|136065|3|4|2", -- [3]
+						"Brambles|136104|3|1|3", -- [4]
+						"Moonglow|136087|2|1|3", -- [5]
+						"Celestial Focus|135753|4|3|3", -- [6]
+						"Insect Swarm|136045|5|2|1", -- [7]
+						"Nature's Grace|136062|3|2|3", -- [8]
+						"Moonfury|136057|6|2|3", -- [9]
+						"Vengeance|136075|4|2|5", -- [10]
+						"Moonkin Form|136036|7|2|1", -- [11]
+						"Lunar Guidance|132132|5|1|3", -- [12]
+						"Balance of Power|132113|6|3|2", -- [13]
+						"Dreamstate|132123|6|1|3", -- [14]
+						"Improved Faerie Fire|136033|7|4|3", -- [15]
+						"Wrath of Cenarius|132146|8|3|5", -- [16]
+						"Force of Nature|132129|9|3|1", -- [17]
+						"Nature's Majesty|135138|2|2|2", -- [18]
+						"Improved Moonkin Form|236156|7|3|3", -- [19]
+						"Owlkin Frenzy|236163|8|1|3", -- [20]
+						"Typhoon|236170|9|2|1", -- [21]
+						"Eclipse|236151|9|1|3", -- [22]
+						"Gale Winds|236154|9|4|2", -- [23]
+						"Starfall|236168|11|2|1", -- [24]
+						"Earth and Moon|236150|10|2|3", -- [25]
+						"Genesis|135730|1|3|5", -- [26]
+						"Improved Insect Swarm|136045|5|3|3", -- [27]
+						"Nature's Splendor|136060|3|3|1", -- [28]
+					},
+					["icon"] = 136096,
 					["prereqs"] = {
 						[20] = "7|2",
-						[7] = "3|3",
 						[21] = "7|2",
-						[25] = "9|2",
-						[22] = "3|3",
-						[28] = "7|2",
-						[30] = "10|2",
-						[13] = "4|2",
+						[28] = "2|2",
+						[19] = "7|2",
+						[27] = "5|2",
+						[8] = "2|2",
 					},
+				},
+				["Wilder Kampf"] = {
 					["background"] = "DruidFeralCombat",
-					["icon"] = 132276,
 					["talents"] = {
 						"Dickes Fell|134355|2|3|3", -- [1]
 						"Wilde Aggression|132121|1|3|5", -- [2]
@@ -284,47 +432,62 @@ DataStore_TalentsRefDB = {
 						"Natürliche Reaktion|132091|6|1|3", -- [29]
 						"Urtümliches Blutvergießen|132140|10|3|1", -- [30]
 					},
-				},
-				["Gleichgewicht"] = {
+					["icon"] = 132276,
 					["prereqs"] = {
 						[20] = "7|2",
+						[7] = "3|3",
 						[21] = "7|2",
-						[28] = "2|2",
-						[19] = "7|2",
-						[27] = "5|2",
-						[8] = "2|2",
+						[25] = "9|2",
+						[22] = "3|3",
+						[28] = "7|2",
+						[30] = "10|2",
+						[13] = "4|2",
 					},
-					["background"] = "DruidBalance",
-					["icon"] = 136096,
+				},
+				["Feral Combat"] = {
+					["background"] = "DruidFeralCombat",
 					["talents"] = {
-						"Zorniges Sternenlicht|136006|1|2|5", -- [1]
-						"Verbessertes Mondfeuer|136096|2|4|2", -- [2]
-						"Reichweite der Natur|136065|3|4|2", -- [3]
-						"Dornenranken|136104|3|1|3", -- [4]
-						"Mondschein|136087|2|1|3", -- [5]
-						"Himmlischer Fokus|135753|4|3|3", -- [6]
-						"Insektenschwarm|136045|5|2|1", -- [7]
-						"Anmut der Natur|136062|3|2|3", -- [8]
-						"Mondfuror|136057|6|2|3", -- [9]
-						"Rache|136075|4|2|5", -- [10]
-						"Mondkingestalt|136036|7|2|1", -- [11]
-						"Weisheit des Mondes|132132|5|1|3", -- [12]
-						"Gleichgewicht der Kräfte|132113|6|3|2", -- [13]
-						"Traumzustand|132123|6|1|3", -- [14]
-						"Verbessertes Feenfeuer|136033|7|4|3", -- [15]
-						"Zorn des Cenarius|132146|8|3|5", -- [16]
-						"Naturgewalt|132129|9|3|1", -- [17]
-						"Erhabenheit der Natur|135138|2|2|2", -- [18]
-						"Verbesserte Mondkingestalt|236156|7|3|3", -- [19]
-						"Eulkinraserei|236163|8|1|3", -- [20]
-						"Taifun|236170|9|2|1", -- [21]
-						"Finsternis|236151|9|1|3", -- [22]
-						"Windböen|236154|9|4|2", -- [23]
-						"Sternenregen|236168|11|2|1", -- [24]
-						"Erde und Mond|236150|10|2|3", -- [25]
-						"Genesis|135730|1|3|5", -- [26]
-						"Verbesserter Insektenschwarm|136045|5|3|3", -- [27]
-						"Pracht der Natur|136060|3|3|1", -- [28]
+						"Thick Hide|134355|2|3|3", -- [1]
+						"Feral Aggression|132121|1|3|5", -- [2]
+						"Ferocity|132190|1|2|5", -- [3]
+						"Brutal Impact|132114|5|1|2", -- [4]
+						"Sharpened Claws|134297|3|3|3", -- [5]
+						"Feral Instinct|132089|2|1|3", -- [6]
+						"Primal Fury|132278|4|3|2", -- [7]
+						"Shredding Attacks|136231|4|1|2", -- [8]
+						"Predatory Strikes|132185|4|2|3", -- [9]
+						"Feral Charge|132183|5|3|1", -- [10]
+						"Savage Fury|132141|2|2|2", -- [11]
+						"Feral Swiftness|136095|3|1|2", -- [12]
+						"Heart of the Wild|135879|6|2|5", -- [13]
+						"Leader of the Pack|136112|7|2|1", -- [14]
+						"Survival Instincts|236169|3|2|1", -- [15]
+						"Nurturing Instinct|132130|5|4|2", -- [16]
+						"Primal Tenacity|132139|7|4|3", -- [17]
+						"Survival of the Fittest|132126|6|3|3", -- [18]
+						"Predatory Instincts|132138|8|3|3", -- [19]
+						"Mangle|132135|9|2|1", -- [20]
+						"Improved Leader of the Pack|136112|7|3|2", -- [21]
+						"Primal Precision|236165|4|4|2", -- [22]
+						"Rend and Tear|236164|10|2|5", -- [23]
+						"Infected Wounds|236158|8|4|3", -- [24]
+						"Improved Mangle|132135|9|3|3", -- [25]
+						"King of the Jungle|236159|9|1|3", -- [26]
+						"Berserk|236149|11|2|1", -- [27]
+						"Protector of the Pack|132117|8|1|3", -- [28]
+						"Natural Reaction|132091|6|1|3", -- [29]
+						"Primal Gore|132140|10|3|1", -- [30]
+					},
+					["icon"] = 132276,
+					["prereqs"] = {
+						[20] = "7|2",
+						[7] = "3|3",
+						[21] = "7|2",
+						[25] = "9|2",
+						[22] = "3|3",
+						[28] = "7|2",
+						[30] = "10|2",
+						[13] = "4|2",
 					},
 				},
 				["Wiederherst"] = {
@@ -361,9 +524,93 @@ DataStore_TalentsRefDB = {
 					["prereqs"] = {
 						[11] = "3|1",
 						[15] = "5|2",
-						[19] = "8|2",
-						[23] = "9|2",
 						[26] = "9|2",
+						[23] = "9|2",
+						[19] = "8|2",
+						[5] = "4|3",
+						[21] = "2|3",
+					},
+				},
+				["Gleichgewicht"] = {
+					["background"] = "DruidBalance",
+					["talents"] = {
+						"Zorniges Sternenlicht|136006|1|2|5", -- [1]
+						"Verbessertes Mondfeuer|136096|2|4|2", -- [2]
+						"Reichweite der Natur|136065|3|4|2", -- [3]
+						"Dornenranken|136104|3|1|3", -- [4]
+						"Mondschein|136087|2|1|3", -- [5]
+						"Himmlischer Fokus|135753|4|3|3", -- [6]
+						"Insektenschwarm|136045|5|2|1", -- [7]
+						"Anmut der Natur|136062|3|2|3", -- [8]
+						"Mondfuror|136057|6|2|3", -- [9]
+						"Rache|136075|4|2|5", -- [10]
+						"Mondkingestalt|136036|7|2|1", -- [11]
+						"Weisheit des Mondes|132132|5|1|3", -- [12]
+						"Gleichgewicht der Kräfte|132113|6|3|2", -- [13]
+						"Traumzustand|132123|6|1|3", -- [14]
+						"Verbessertes Feenfeuer|136033|7|4|3", -- [15]
+						"Zorn des Cenarius|132146|8|3|5", -- [16]
+						"Naturgewalt|132129|9|3|1", -- [17]
+						"Erhabenheit der Natur|135138|2|2|2", -- [18]
+						"Verbesserte Mondkingestalt|236156|7|3|3", -- [19]
+						"Eulkinraserei|236163|8|1|3", -- [20]
+						"Taifun|236170|9|2|1", -- [21]
+						"Finsternis|236151|9|1|3", -- [22]
+						"Windböen|236154|9|4|2", -- [23]
+						"Sternenregen|236168|11|2|1", -- [24]
+						"Erde und Mond|236150|10|2|3", -- [25]
+						"Genesis|135730|1|3|5", -- [26]
+						"Verbesserter Insektenschwarm|136045|5|3|3", -- [27]
+						"Pracht der Natur|136060|3|3|1", -- [28]
+					},
+					["icon"] = 136096,
+					["prereqs"] = {
+						[20] = "7|2",
+						[21] = "7|2",
+						[28] = "2|2",
+						[19] = "7|2",
+						[27] = "5|2",
+						[8] = "2|2",
+					},
+				},
+				["Restoration"] = {
+					["background"] = "DruidRestoration",
+					["talents"] = {
+						"Improved Mark of the Wild|136078|1|1|2", -- [1]
+						"Furor|135881|1|3|5", -- [2]
+						"Nature's Focus|136042|1|2|3", -- [3]
+						"Naturalist|136041|2|1|5", -- [4]
+						"Nature's Bounty|136085|6|3|5", -- [5]
+						"Natural Shapeshifter|136116|2|3|3", -- [6]
+						"Omen of Clarity|136017|3|2|1", -- [7]
+						"Gift of Nature|136074|5|2|5", -- [8]
+						"Intensity|135863|3|1|3", -- [9]
+						"Improved Rejuvenation|136081|4|3|3", -- [10]
+						"Nature's Swiftness|136076|5|1|1", -- [11]
+						"Subtlety|132150|2|2|3", -- [12]
+						"Improved Tranquility|136107|5|4|2", -- [13]
+						"Tranquil Spirit|135900|4|2|5", -- [14]
+						"Swiftmend|134914|7|2|1", -- [15]
+						"Empowered Touch|132125|6|1|2", -- [16]
+						"Empowered Rejuvenation|132124|8|2|5", -- [17]
+						"Natural Perfection|132137|7|3|3", -- [18]
+						"Tree of Life|132145|9|2|1", -- [19]
+						"Living Spirit|136037|7|1|3", -- [20]
+						"Master Shapeshifter|236161|3|3|2", -- [21]
+						"Gift of the Earthmother|236160|10|3|5", -- [22]
+						"Wild Growth|236153|11|2|1", -- [23]
+						"Living Seed|236155|8|3|3", -- [24]
+						"Revitalize|236166|9|1|3", -- [25]
+						"Improved Tree of Life|236157|9|3|3", -- [26]
+						"Improved Barkskin|136097|10|1|2", -- [27]
+					},
+					["icon"] = 136041,
+					["prereqs"] = {
+						[11] = "3|1",
+						[15] = "5|2",
+						[26] = "9|2",
+						[23] = "9|2",
+						[19] = "8|2",
 						[5] = "4|3",
 						[21] = "2|3",
 					},
@@ -377,7 +624,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Meucheln,Kampf,Täuschung",
 			["Trees"] = {
 				["Täuschung"] = {
-					["background"] = "RogueSubtlety",
 					["talents"] = {
 						"Meister der Täuschung|136129|1|2|3", -- [1]
 						"Tarnung|132320|2|3|3", -- [2]
@@ -408,15 +654,15 @@ DataStore_TalentsRefDB = {
 						"Schattentanz|236279|11|2|1", -- [27]
 						"Unerbittliche Stöße|132340|1|1|5", -- [28]
 					},
-					["icon"] = 132320,
 					["prereqs"] = {
 						[13] = "3|3",
 						[12] = "5|2",
 						[19] = "7|2",
 					},
+					["icon"] = 132320,
+					["background"] = "RogueSubtlety",
 				},
 				["Kampf"] = {
-					["background"] = "RogueCombat",
 					["talents"] = {
 						"Präzision|132222|2|4|5", -- [1]
 						"Nahbereichsgefecht|135641|3|3|5", -- [2]
@@ -447,16 +693,16 @@ DataStore_TalentsRefDB = {
 						"Die Schwachen ausbeuten|236278|10|2|5", -- [27]
 						"Mordlust|236277|11|2|1", -- [28]
 					},
-					["icon"] = 132090,
 					["prereqs"] = {
 						[21] = "7|2",
 						[2] = "1|3",
 						[15] = "2|2",
 						[17] = "5|2",
 					},
+					["icon"] = 132090,
+					["background"] = "RogueCombat",
 				},
 				["Meucheln"] = {
-					["background"] = "RogueAssassination",
 					["talents"] = {
 						"Verbesserte Gifte|132273|4|3|5", -- [1]
 						"Tödlichkeit|132109|3|3|5", -- [2]
@@ -486,12 +732,13 @@ DataStore_TalentsRefDB = {
 						"In Stücke schneiden|236269|10|2|5", -- [26]
 						"Blutgier|236276|11|2|1", -- [27]
 					},
-					["icon"] = 132292,
 					["prereqs"] = {
 						[18] = "7|2",
 						[13] = "5|2",
 						[2] = "1|3",
 					},
+					["icon"] = 132292,
+					["background"] = "RogueAssassination",
 				},
 			},
 		},

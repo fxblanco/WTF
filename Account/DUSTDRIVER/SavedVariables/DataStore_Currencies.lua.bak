@@ -8,13 +8,13 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699914948,
+				["lastUpdate"] = 1699916817,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Eroberung|30|221", -- [2]
 					"1|Emblem des Frosts|80|341", -- [3]
 					"1|Emblem des Heldentums|0|101", -- [4]
-					"1|Emblem des Triumphs|70|301", -- [5]
+					"1|Emblem des Triumphs|35|301", -- [5]
 					"1|Geißelstein des Entweihers|13|2711", -- [6]
 					"1|Sternenessenz|3|2589", -- [7]
 					"0|Spieler gegen Spieler", -- [8]
@@ -30,20 +30,20 @@ DataStore_CurrenciesDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Eroberung|23|221", -- [2]
-					"1|Emblem des Frosts|32|341", -- [3]
-					"1|Emblem des Heldentums|6|101", -- [4]
-					"1|Emblem des Triumphs|22|301", -- [5]
-					"1|Geißelstein des Entweihers|17|2711", -- [6]
-					"1|Sternenessenz|3|2589", -- [7]
-					"0|Spieler gegen Spieler", -- [8]
-					"1|Ehrepunkte|3926|1901", -- [9]
-					"1|Splitter eines Steinbewahrers|226|161", -- [10]
-					"0|Verschiedenes", -- [11]
-					"1|Siegel des Champions|15|241", -- [12]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|21|2711", -- [2]
+					"1|Emblem of Conquest|23|221", -- [3]
+					"1|Emblem of Frost|44|341", -- [4]
+					"1|Emblem of Heroism|6|101", -- [5]
+					"1|Emblem of Triumph|26|301", -- [6]
+					"1|Sidereal Essence|3|2589", -- [7]
+					"0|Miscellaneous", -- [8]
+					"1|Champion's Seal|15|241", -- [9]
+					"0|Player vs. Player", -- [10]
+					"1|Honor Points|4086|1901", -- [11]
+					"1|Stone Keeper's Shard|234|161", -- [12]
 				},
-				["lastUpdate"] = 1699828058,
+				["lastUpdate"] = 1700143903,
 			},
 		},
 	},

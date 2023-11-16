@@ -6,22 +6,22 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1700091176,
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Ehre|0|102", -- [2]
-					"1|Emblem der Eroberung|0|221", -- [3]
-					"1|Emblem des Frosts|112|341", -- [4]
-					"1|Emblem des Heldentums|3|101", -- [5]
-					"1|Emblem des Triumphs|6|301", -- [6]
-					"1|Geißelstein des Entweihers|0|2711", -- [7]
-					"1|Sternenessenz|5|2589", -- [8]
-					"0|Spieler gegen Spieler", -- [9]
-					"1|Ehrepunkte|4034|1901", -- [10]
-					"1|Splitter eines Steinbewahrers|685|161", -- [11]
-					"0|Verschiedenes", -- [12]
-					"1|Siegel des Champions|3|241", -- [13]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|0|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|112|341", -- [4]
+					"1|Emblem of Heroism|3|101", -- [5]
+					"1|Emblem of Triumph|6|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|5|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|3|241", -- [10]
+					"0|Player vs. Player", -- [11]
+					"1|Honor Points|4034|1901", -- [12]
+					"1|Stone Keeper's Shard|685|161", -- [13]
 				},
+				["lastUpdate"] = 1700143121,
 			},
 		},
 	},

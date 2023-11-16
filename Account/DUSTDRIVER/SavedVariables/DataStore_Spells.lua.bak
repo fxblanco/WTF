@@ -8,7 +8,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699914948,
+				["lastUpdate"] = 1699916629,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -111,7 +111,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699828032,
+				["lastUpdate"] = 1700143902,
 				["Spells"] = {
 					["Furor"] = {
 						"20252|", -- [1]
@@ -184,10 +184,10 @@ DataStore_SpellsDB = {
 					},
 				},
 				["SpellTabs"] = {
-					"Allgemein", -- [1]
-					"Furor", -- [2]
-					"Schutz", -- [3]
-					"Waffen", -- [4]
+					"General", -- [1]
+					"Arms", -- [2]
+					"Fury", -- [3]
+					"Protection", -- [4]
 				},
 			},
 		},

@@ -50,8 +50,8 @@ VER 3 000000000000001C "++" "132155"
 /stopcasting [stance:1]
 END
 VER 3 000000000000001F "++" "237295"
-#showtooltop Saronitbombe
-/cast [@player] Saronitbombe
+#showtooltop Saronite Bomb
+/cast [@player] Saronite Bomb
 END
 VER 3 0000000000000020 "++" "INV_Misc_QuestionMark"
 #showtooltip Verteidigungshaltung
@@ -136,19 +136,19 @@ VER 3 0000000000000024 "Camshit" "4777763"
 /console CameraDistanceMaxFactor 5
 END
 VER 3 0000000000000008 "druid_b" "134400"
-#showtooltip Terrorbärengestalt(Gestaltwandel)
-/cast Terrorbärengestalt(Gestaltwandel)
+#showtooltip Dire Bear Form(Shapeshift)
+/cast Dire Bear Form(Shapeshift)
 END
 VER 3 000000000000000A "druid_cancelform" "135736"
 /cancelform
 END
 VER 3 0000000000000009 "druid_cat" "134400"
-#showtooltip Katzengestalt(Gestaltwandel)
-/cast !Katzengestalt(Gestaltwandel)
+#showtooltip Cat Form(Shapeshift)
+/cast !Cat Form(Shapeshift)
 END
 VER 3 000000000000000C "druid_travel" "134400"
 #showtooltip
-/cast [swimming]Wassergestalt(Gestaltwandel);[flyable,nocombat]Schnelle Fluggestalt(Gestaltwandel);[outdoors]Reisegestalt(Gestaltwandel)
+/cast [swimming]Aquatic Form(Shapeshift);[flyable,nocombat]Swift Flight Form(Shapeshift);[outdoors]Travel Form(Shapeshift)
 END
 VER 3 0000000000000025 "Eisfalle" "136192"
 /cast Totstellen

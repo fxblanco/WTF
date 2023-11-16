@@ -1,11 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Recombinase - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -895,75 +889,131 @@ RCLootCouncilDB = {
 			"00:03:50 - Found Guild Rank: Twink", -- [884]
 			"00:03:52 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [885]
 			"00:20:15 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Morai) (distri:) (GUILD)", -- [886]
+			"11/16/23", -- [887]
+			"15:18:07 - Logged In", -- [888]
+			"15:18:07 - ML initialized!", -- [889]
+			"15:18:07 - TradeUI enabled", -- [890]
+			"15:18:12 - Maturitass-Venoxis (2.19.3) (nil)", -- [891]
+			"15:18:12 - ActivateSkin (bfa)", -- [892]
+			"15:18:19 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [893]
+			"15:18:19 - GetML()", -- [894]
+			"15:18:19 - LootMethod =  (group)", -- [895]
+			"15:18:19 - UpdatePlayersData()", -- [896]
+			"15:18:20 - ClassicModule enabled (0.20.0) (nil)", -- [897]
+			"15:18:20 - DoCommsCompressFix", -- [898]
+			"15:18:20 - Removing Column (role)", -- [899]
+			"15:18:20 - Removing Column (corruption)", -- [900]
+			"15:18:20 - GetPlayersGuildRank()", -- [901]
+			"15:18:20 - Found Guild Rank: Twink", -- [902]
+			"15:18:22 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [903]
+			"15:22:43 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [904]
+			"15:23:46 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hakkî) (distri:) (GUILD)", -- [905]
+			"15:24:59 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [906]
+			"15:26:40 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hâkki) (distri:) (GUILD)", -- [907]
+			"15:27:25 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [908]
+			"15:27:59 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hâkki) (distri:) (GUILD)", -- [909]
+			"15:33:12 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Slimpy) (distri:) (GUILD)", -- [910]
+			"15:35:00 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hakkî) (distri:) (GUILD)", -- [911]
+			"15:37:42 - Event: (LOOT_READY) (true)", -- [912]
+			"15:37:42 - LootOpened", -- [913]
+			"15:37:42 - Event: (LOOT_READY) (true)", -- [914]
+			"15:37:42 - LootClosed", -- [915]
+			"15:37:42 - LootClosed", -- [916]
+			"15:38:44 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Hâkki) (distri:) (GUILD)", -- [917]
+			"15:41:55 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Pippop) (distri:) (GUILD)", -- [918]
+			"15:41:56 - New CPS: (0)", -- [919]
+			"15:41:56 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [920]
+			"15:41:57 - Queue and CPS is 0", -- [921]
+			"15:42:37 - Comm received:^1^SverTest^T^N1^S0.20.0^t^^ (from:) (Shikimora) (distri:) (GUILD)", -- [922]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.0",
-		["locale"] = "deDE",
+		["locale"] = "enUS",
 		["verTestCandidates"] = {
 			["Letsburn-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699916632, -- [3]
 			},
+			["Pippop-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1700145758, -- [3]
+			},
 			["Alsia-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699913909, -- [3]
+			},
+			["Shikimora-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1700145757, -- [3]
 			},
 			["Mikirî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699831635, -- [3]
 			},
+			["Hâkki-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1700145524, -- [3]
+			},
+			["Slimpyi-Venoxis"] = {
+				"0.20.1", -- [1]
+				nil, -- [2]
+				1700144881, -- [3]
+			},
 			["Wønka-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699917615, -- [3]
 			},
-			["Klassíc-Venoxis"] = {
+			["Uwusoulstone-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699915525, -- [3]
+			},
+			["Kwasimojo-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699917616, -- [3]
+			},
+			["Jogí-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699917615, -- [3]
-			},
-			["Camoraa-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699831635, -- [3]
-			},
-			["Wîdi-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699830904, -- [3]
-			},
-			["Andrés-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699913757, -- [3]
-			},
-			["Schpen-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699914093, -- [3]
-			},
-			["Blinkyli-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699831635, -- [3]
 			},
 			["Hâkkî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
 				1699916632, -- [3]
 			},
-			["Maturitass-Venoxis"] = {
-				"0.20.0", -- [1]
-				nil, -- [2]
-				1699917615, -- [3]
-			},
 			["Hakkî-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
+				1700145300, -- [3]
+			},
+			["Blinkyli-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
 				1699831635, -- [3]
+			},
+			["Schpen-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699914093, -- [3]
+			},
+			["Maturitass-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1700145758, -- [3]
+			},
+			["Delmonte-Venoxis"] = {
+				"0.20.0", -- [1]
+				nil, -- [2]
+				1699914944, -- [3]
 			},
 			["Hennerr-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -975,10 +1025,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1699915525, -- [3]
 			},
-			["Vacaria-Venoxis"] = {
+			["Klassíc-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699915425, -- [3]
+				1699917615, -- [3]
 			},
 			["Uséléss-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1005,10 +1055,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1699831344, -- [3]
 			},
-			["Delmonte-Venoxis"] = {
+			["Vacaria-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699914944, -- [3]
+				1699915425, -- [3]
 			},
 			["Myjuice-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -1016,29 +1066,35 @@ RCLootCouncilDB = {
 				1699917615, -- [3]
 			},
 			["Slimpy-Venoxis"] = {
-				"0.20.0", -- [1]
+				"0.20.1", -- [1]
 				nil, -- [2]
-				1699915525, -- [3]
+				1700145192, -- [3]
 			},
-			["Jogí-Venoxis"] = {
+			["Andrés-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699917615, -- [3]
+				1699913757, -- [3]
 			},
-			["Kwasimojo-Venoxis"] = {
+			["Wîdi-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699917616, -- [3]
+				1699830904, -- [3]
 			},
-			["Uwusoulstone-Venoxis"] = {
+			["Camoraa-Venoxis"] = {
 				"0.20.0", -- [1]
 				nil, -- [2]
-				1699915525, -- [3]
+				1699831635, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["Classic_version"] = "0.20.0",
 		["regionID"] = 3,
+		["Classic_version"] = "0.20.0",
+	},
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

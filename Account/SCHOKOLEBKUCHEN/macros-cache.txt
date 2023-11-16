@@ -35,7 +35,7 @@ VER 3 0000000000000009 "SB Snipe R1" "135614"
 END
 VER 3 0000000000000012 "sb1" "134400"
 #showtooltip Schattenblitz
-/cast [@focus,exists] Schattenblitz(Rang 1)
+/cast [@mouseover,harm,nodead] Schattenblitz(Rang 1)
 END
 VER 3 0000000000000004 "target" "132089"
 /target Andre Feuerbart

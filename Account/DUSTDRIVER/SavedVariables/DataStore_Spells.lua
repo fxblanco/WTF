@@ -8,7 +8,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1699916629,
+				["lastUpdate"] = 1700144299,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -22,21 +22,16 @@ DataStore_SpellsDB = {
 						"51302|Großmeister", -- [9]
 						"20551|Volk Passiv", -- [10]
 					},
-					["Gleichgewicht"] = {
-						"29166|", -- [1]
-						"22812|", -- [2]
-						"53307|Rang 8", -- [3]
-						"770|", -- [4]
-						"53312|Rang 8", -- [5]
-						"48467|Rang 5", -- [6]
-						"48463|Rang 14", -- [7]
-						"48465|Rang 10", -- [8]
-						"18960|", -- [9]
-						"26995|Rang 4", -- [10]
-						"18658|Rang 3", -- [11]
-						"33786|", -- [12]
-						"53308|Rang 8", -- [13]
-						"48461|Rang 12", -- [14]
+					["General"] = {
+						"6603|", -- [1]
+						"54197|Passive", -- [2]
+						"20552|Racial Passive", -- [3]
+						"81|Passive", -- [4]
+						"20550|Racial Passive", -- [5]
+						"51306|Grand Master", -- [6]
+						"20222|", -- [7]
+						"20551|Racial Passive", -- [8]
+						"20549|Racial", -- [9]
 					},
 					["Wilder Kampf"] = {
 						"49803|Rang 5", -- [1]
@@ -78,6 +73,22 @@ DataStore_SpellsDB = {
 						"48480|Rang 10", -- [37]
 						"61336|", -- [38]
 					},
+					["Gleichgewicht"] = {
+						"29166|", -- [1]
+						"22812|", -- [2]
+						"53307|Rang 8", -- [3]
+						"770|", -- [4]
+						"53312|Rang 8", -- [5]
+						"48467|Rang 5", -- [6]
+						"48463|Rang 14", -- [7]
+						"48465|Rang 10", -- [8]
+						"18960|", -- [9]
+						"26995|Rang 4", -- [10]
+						"18658|Rang 3", -- [11]
+						"33786|", -- [12]
+						"53308|Rang 8", -- [13]
+						"48461|Rang 12", -- [14]
+					},
 					["Wiederherstellung"] = {
 						"48451|Rang 3", -- [1]
 						"2782|", -- [2]
@@ -95,10 +106,10 @@ DataStore_SpellsDB = {
 					},
 				},
 				["SpellTabs"] = {
-					"Allgemein", -- [1]
-					"Gleichgewicht", -- [2]
-					"Wiederherstellung", -- [3]
-					"Wilder Kampf", -- [4]
+					"General", -- [1]
+					"Balance", -- [2]
+					"Feral Combat", -- [3]
+					"Restoration", -- [4]
 				},
 			},
 			["Default.Venoxis.Recombinase"] = {
@@ -111,7 +122,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1699828032,
+				["lastUpdate"] = 1700143902,
 				["Spells"] = {
 					["Furor"] = {
 						"20252|", -- [1]
@@ -184,10 +195,10 @@ DataStore_SpellsDB = {
 					},
 				},
 				["SpellTabs"] = {
-					"Allgemein", -- [1]
-					"Furor", -- [2]
-					"Schutz", -- [3]
-					"Waffen", -- [4]
+					"General", -- [1]
+					"Arms", -- [2]
+					"Fury", -- [3]
+					"Protection", -- [4]
 				},
 			},
 		},
