@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
+	["InfoFramescale"] = 1,
 	["announceTrackedAchievements"] = false,
-	["trackAchievementsAutomatically"] = false,
+	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["trackAchievementsAutomatically"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -34573,6 +34573,103 @@ AchievementTrackerDebug = {
 	"13/11/2023 23:47 [DEBUG] Enabling Addon", -- [34548]
 	"13/11/2023 23:47 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34549]
 	"13/11/2023 23:56 [DEBUG] Showing Minimap Icon", -- [34550]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [34551]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.28.0", -- [34552]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [34553]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [34554]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [34555]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [34556]
+	"15/11/2023 23:35 [DEBUG] Showing Minimap Icon", -- [34557]
+	"15/11/2023 23:38 [DEBUG] Player has entered instance", -- [34558]
+	"15/11/2023 23:38 [DEBUG] 624", -- [34559]
+	"15/11/2023 23:38 [DEBUG] Offical Instance Name: 624 _624", -- [34560]
+	"15/11/2023 23:38 [DEBUG] Detected Legacy 10 man Raid", -- [34561]
+	"15/11/2023 23:38 [DEBUG] New Instance Name: 624-10", -- [34562]
+	"15/11/2023 23:38 [DEBUG] Expansion: 3", -- [34563]
+	"15/11/2023 23:38 [DEBUG] Instance Type: Raids", -- [34564]
+	"15/11/2023 23:38 [DEBUG] Instance: 624-10", -- [34565]
+	"15/11/2023 23:38 [DEBUG] DifficultyID: 3", -- [34566]
+	"15/11/2023 23:38 [DEBUG] Expansion: 3", -- [34567]
+	"15/11/2023 23:38 [DEBUG] Instance Type: Raids", -- [34568]
+	"15/11/2023 23:38 [DEBUG] Instance: 624-10", -- [34569]
+	"15/11/2023 23:38 [DEBUG] Asking user whether they want to track this instance", -- [34570]
+	"15/11/2023 23:38 [DEBUG] Creating Tracking UI", -- [34571]
+	"15/11/2023 23:38 [DEBUG] InfoFrame Setup Complete", -- [34572]
+	"15/11/2023 23:38 [DEBUG] Expansion: 3", -- [34573]
+	"15/11/2023 23:45 [DEBUG] Hiding Tracking UI", -- [34574]
+	"15/11/2023 23:45 [DEBUG] Clearing Instance Variables", -- [34575]
+	"15/11/2023 23:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [34576]
+	"15/11/2023 23:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [34577]
+	"15/11/2023 23:45 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [34578]
+	"15/11/2023 23:45 [DEBUG] Clearing Instance Variables if exists", -- [34579]
+	"15/11/2023 23:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [34580]
+	"15/11/2023 23:45 [DEBUG] Clearing Instance Variables if exists", -- [34581]
+	"15/11/2023 23:45 [DEBUG] Clearing Instance Variables", -- [34582]
+	"15/11/2023 23:45 [DEBUG] Resetting Global Variables", -- [34583]
+	"15/11/2023 23:45 [DEBUG] InfoFrame does not need to be reset", -- [34584]
+	"15/11/2023 23:45 [DEBUG] Resetting PlayerRank", -- [34585]
+	"15/11/2023 23:45 [DEBUG] InfoFrame was not active", -- [34586]
+	"15/11/2023 23:50 [DEBUG] Hiding Tracking UI", -- [34587]
+	"15/11/2023 23:51 [DEBUG] Hiding Tracking UI", -- [34588]
+	"15/11/2023 23:51 [DEBUG] Hiding Tracking UI", -- [34589]
+	"15/11/2023 23:51 [DEBUG] Player has entered instance", -- [34590]
+	"15/11/2023 23:51 [DEBUG] 533", -- [34591]
+	"15/11/2023 23:51 [DEBUG] Offical Instance Name: 533 _533", -- [34592]
+	"15/11/2023 23:51 [DEBUG] Detected Legacy 10 man Raid", -- [34593]
+	"15/11/2023 23:51 [DEBUG] New Instance Name: 533-10", -- [34594]
+	"15/11/2023 23:51 [DEBUG] Expansion: 3", -- [34595]
+	"15/11/2023 23:51 [DEBUG] Instance Type: Raids", -- [34596]
+	"15/11/2023 23:51 [DEBUG] Instance: 533-10", -- [34597]
+	"15/11/2023 23:51 [DEBUG] DifficultyID: 3", -- [34598]
+	"15/11/2023 23:51 [DEBUG] Expansion: 3", -- [34599]
+	"15/11/2023 23:51 [DEBUG] Instance Type: Raids", -- [34600]
+	"15/11/2023 23:51 [DEBUG] Instance: 533-10", -- [34601]
+	"15/11/2023 23:51 [DEBUG] Asking user whether they want to track this instance", -- [34602]
+	"15/11/2023 23:51 [DEBUG] Displaying Tracking UI since it was already created", -- [34603]
+	"15/11/2023 23:51 [DEBUG] Expansion: 3", -- [34604]
+	"15/11/2023 23:59 [DEBUG] Hiding Tracking UI", -- [34605]
+	"15/11/2023 23:59 [DEBUG] Clearing Instance Variables", -- [34606]
+	"15/11/2023 23:59 [DEBUG] Cleaning up instance events for _533", -- [34607]
+	"15/11/2023 23:59 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [34608]
+	"15/11/2023 23:59 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [34609]
+	"15/11/2023 23:59 [DEBUG] Clearing Instance Variables if exists", -- [34610]
+	"15/11/2023 23:59 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [34611]
+	"15/11/2023 23:59 [DEBUG] Clearing Instance Variables if exists", -- [34612]
+	"15/11/2023 23:59 [DEBUG] Clearing Instance Variables", -- [34613]
+	"15/11/2023 23:59 [DEBUG] Resetting Global Variables", -- [34614]
+	"15/11/2023 23:59 [DEBUG] InfoFrame does not need to be reset", -- [34615]
+	"15/11/2023 23:59 [DEBUG] Resetting PlayerRank", -- [34616]
+	"15/11/2023 23:59 [DEBUG] InfoFrame was not active", -- [34617]
+	"16/11/2023 0:20 [DEBUG] Hiding Tracking UI", -- [34618]
+	"16/11/2023 0:20 [DEBUG] Hiding Tracking UI", -- [34619]
+	"16/11/2023 0:20 [DEBUG] Player has entered instance", -- [34620]
+	"16/11/2023 0:20 [DEBUG] 624", -- [34621]
+	"16/11/2023 0:20 [DEBUG] Offical Instance Name: 624 _624", -- [34622]
+	"16/11/2023 0:20 [DEBUG] Detected Legacy 25 man raid", -- [34623]
+	"16/11/2023 0:20 [DEBUG] New Instance Name: 624-25", -- [34624]
+	"16/11/2023 0:20 [DEBUG] Expansion: 3", -- [34625]
+	"16/11/2023 0:20 [DEBUG] Instance Type: Raids", -- [34626]
+	"16/11/2023 0:20 [DEBUG] Instance: 624-25", -- [34627]
+	"16/11/2023 0:20 [DEBUG] DifficultyID: 4", -- [34628]
+	"16/11/2023 0:20 [DEBUG] Expansion: 3", -- [34629]
+	"16/11/2023 0:20 [DEBUG] Instance Type: Raids", -- [34630]
+	"16/11/2023 0:20 [DEBUG] Instance: 624-25", -- [34631]
+	"16/11/2023 0:20 [DEBUG] Asking user whether they want to track this instance", -- [34632]
+	"16/11/2023 0:20 [DEBUG] Displaying Tracking UI since it was already created", -- [34633]
+	"16/11/2023 0:20 [DEBUG] Expansion: 3", -- [34634]
+	"16/11/2023 0:32 [DEBUG] Hiding Tracking UI", -- [34635]
+	"16/11/2023 0:32 [DEBUG] Clearing Instance Variables", -- [34636]
+	"16/11/2023 0:32 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [34637]
+	"16/11/2023 0:32 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [34638]
+	"16/11/2023 0:32 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [34639]
+	"16/11/2023 0:32 [DEBUG] Clearing Instance Variables if exists", -- [34640]
+	"16/11/2023 0:32 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [34641]
+	"16/11/2023 0:32 [DEBUG] Clearing Instance Variables if exists", -- [34642]
+	"16/11/2023 0:32 [DEBUG] Clearing Instance Variables", -- [34643]
+	"16/11/2023 0:32 [DEBUG] Resetting Global Variables", -- [34644]
+	"16/11/2023 0:32 [DEBUG] InfoFrame does not need to be reset", -- [34645]
+	"16/11/2023 0:32 [DEBUG] Resetting PlayerRank", -- [34646]
+	"16/11/2023 0:32 [DEBUG] InfoFrame was not active", -- [34647]
 }
 AchievementTrackerNPCCache = {
 }
@@ -34587,7 +34684,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebart",
 	[26746] = "Wahnsinniges Managespenst",
 	[27756] = "Rubindrache",
-	[26668] = "Svala Grabesleid",
+	[26555] = "Hüne der Geißel",
 	[33572] = "Stahlgeschmiedeter Verteidiger",
 	[29713] = "Slad'ranwürger",
 	[26627] = "Kristallwirker",
@@ -34598,33 +34695,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotischer Riss",
 	[28586] = "General Bjarngrim",
 	[16028] = "Flickwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Missgestalteter Schlamm",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgrind",
 	[26731] = "Großmagistrix Telestra",
-	[26893] = "Grauf",
 	[26641] = "Magenfetzer der Drakkari",
-	[33388] = "Dunkler Runenwächter",
+	[26893] = "Grauf",
 	[28731] = "Aufseher Silthik",
 	[33136] = "Wächter des Yogg-Saron",
-	[27658] = "Belgaristrasz",
+	[27975] = "Maid der Trauer",
+	[28729] = "Aufseher Narjil",
 	[27654] = "Drakos der Befrager",
 	[26206] = "Keristrasza",
 	[30176] = "Wächter der Ahn'kahar",
 	[23562] = "Unaufhaltsame Monstrosität",
-	[28729] = "Aufseher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Aufseher Gashra",
-	[27975] = "Maid der Trauer",
+	[33388] = "Dunkler Runenwächter",
 	[28165] = "Eisenschlick",
 	[30623] = "Verzerrtes Gesicht",
 	[29364] = "Leerenwache",
 	[29932] = "Der wilde Eck",
 	[29240] = "Sturmgeschmiedeter Leutnant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Missgestalteter Schlamm",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Schrottbot",
 	[23953] = "Prinz Keleseth",
-	[26555] = "Hüne der Geißel",
+	[26668] = "Svala Grabesleid",
 }

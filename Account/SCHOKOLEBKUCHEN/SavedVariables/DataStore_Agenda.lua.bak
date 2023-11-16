@@ -7,11 +7,11 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["DungeonIDs"] = {
-					["Naxxramas 10 Spieler|192142738"] = "107292|1699913510|0|1",
-					["Archavons Kammer 25 Spieler|191832095"] = "107292|1699913510|0|1",
-					["Archavons Kammer 10 Spieler|191831697"] = "107292|1699913510|0|1",
-					["Eiskronenzitadelle 25 Spieler (Heroisch)|191813689"] = "107292|1699913510|0|1",
-					["Die Seelenschmiede Heroisch|273040961"] = "20892|1699913510|0|0",
+					["Naxxramas 10 Spieler|192142738"] = "104263|1699916536|0|1",
+					["Archavons Kammer 25 Spieler|191832095"] = "104263|1699916536|0|1",
+					["Archavons Kammer 10 Spieler|191831697"] = "104263|1699916536|0|1",
+					["Eiskronenzitadelle 25 Spieler (Heroisch)|191813689"] = "104263|1699916536|0|1",
+					["Die Seelenschmiede Heroisch|273040961"] = "17863|1699916536|0|0",
 				},
 				["BossKills"] = {
 					["Naxxramas 10 Spieler|192142738"] = {
@@ -62,7 +62,7 @@ DataStore_AgendaDB = {
 						"Verschlinger der Seelen|1", -- [2]
 					},
 				},
-				["lastUpdate"] = 1699913510,
+				["lastUpdate"] = 1699916536,
 			},
 		},
 	},

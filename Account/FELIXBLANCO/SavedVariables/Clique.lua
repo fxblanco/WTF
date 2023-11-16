@@ -26,11 +26,11 @@ CliqueDB3 = {
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["alerthidden"] = true,
 			["spec2_profileKey"] = "Xolem - Venoxis",
-			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -80,13 +80,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
 					["spellSubName"] = "Rang 9",
@@ -95,17 +88,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136043,
 					["spell"] = "Geringe Welle der Heilung",
-				}, -- [3]
+				}, -- [2]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rang 7",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136042,
-					["spell"] = "Kettenheilung",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -115,6 +105,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136052,
 					["spell"] = "Welle der Heilung",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spellSubName"] = "Rang 7",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136042,
+					["spell"] = "Kettenheilung",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -198,12 +198,12 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135968,
-					["spell"] = "Hand der Freiheit",
+					["icon"] = 135966,
+					["spell"] = "Hand der Aufopferung",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -216,6 +216,15 @@ CliqueDB3 = {
 				}, -- [3]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135968,
+					["spell"] = "Hand der Freiheit",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
 					["spellSubName"] = "Rang 3",
 					["sets"] = {
@@ -223,15 +232,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135964,
 					["spell"] = "Hand des Schutzes",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -253,6 +253,15 @@ CliqueDB3 = {
 				}, -- [7]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Göttliches Eingreifen",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["spellSubName"] = "Rang 13",
 					["sets"] = {
@@ -260,7 +269,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135920,
 					["spell"] = "Heiliges Licht",
-				}, -- [8]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -270,15 +279,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135928,
 					["spell"] = "Handauflegung",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136106,
-					["spell"] = "Göttliches Eingreifen",
 				}, -- [10]
 				{
 					["type"] = "target",
@@ -321,22 +321,20 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rang 14",
+					["key"] = "CTRL-BUTTON1",
+					["spellSubName"] = "Rang 9",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135940,
-					["spell"] = "Machtwort: Schild",
+					["icon"] = 135913,
+					["spell"] = "Große Heilung",
 				}, -- [3]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON4",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135936,
-					["spell"] = "Schmerzunterdrückung",
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -350,20 +348,22 @@ CliqueDB3 = {
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spellSubName"] = "Rang 9",
+					["key"] = "BUTTON2",
+					["spellSubName"] = "Rang 14",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135913,
-					["spell"] = "Große Heilung",
+					["icon"] = 135940,
+					["spell"] = "Machtwort: Schild",
 				}, -- [6]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 135936,
+					["spell"] = "Schmerzunterdrückung",
 				}, -- [7]
 				{
 					["type"] = "spell",
@@ -376,13 +376,12 @@ CliqueDB3 = {
 				}, -- [8]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["spellSubName"] = "Rang 3",
+					["key"] = "SHIFT-BUTTON5",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135944,
-					["spell"] = "Gebet der Besserung",
+					["icon"] = 135939,
+					["spell"] = "Seele der Macht",
 				}, -- [9]
 				{
 					["type"] = "spell",
@@ -396,22 +395,23 @@ CliqueDB3 = {
 				}, -- [10]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["spellSubName"] = "Rang 2",
+					["key"] = "BUTTON1",
+					["spellSubName"] = "Rang 3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135894,
-					["spell"] = "Magiebannung",
+					["icon"] = 237545,
+					["spell"] = "Sühne",
 				}, -- [11]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON5",
+					["key"] = "BUTTON3",
+					["spellSubName"] = "Rang 3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135939,
-					["spell"] = "Seele der Macht",
+					["icon"] = 135944,
+					["spell"] = "Gebet der Besserung",
 				}, -- [12]
 				{
 					["type"] = "spell",
@@ -425,13 +425,13 @@ CliqueDB3 = {
 				}, -- [13]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rang 3",
+					["key"] = "BUTTON5",
+					["spellSubName"] = "Rang 2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 237545,
-					["spell"] = "Sühne",
+					["icon"] = 135894,
+					["spell"] = "Magiebannung",
 				}, -- [14]
 				{
 					["type"] = "spell",
