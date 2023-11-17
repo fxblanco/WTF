@@ -11,26 +11,26 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
-			["downclick"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["alerthidden"] = true,
 			["spec2_profileKey"] = "Xolem - Venoxis",
-			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -188,14 +188,22 @@ CliqueDB3 = {
 			["bindings"] = {
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rang 9",
+					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135907,
-					["spell"] = "Lichtblitz",
+					["icon"] = 135968,
+					["spell"] = "Hand of Freedom",
 				}, -- [1]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Divine Intervention",
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
@@ -203,8 +211,8 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 135966,
-					["spell"] = "Hand der Aufopferung",
-				}, -- [2]
+					["spell"] = "Hand of Sacrifice",
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -212,26 +220,17 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 135967,
-					["spell"] = "Hand der Erlösung",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135968,
-					["spell"] = "Hand der Freiheit",
+					["spell"] = "Hand of Salvation",
 				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
-					["spellSubName"] = "Rang 3",
+					["spell"] = "Hand of Protection",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135964,
-					["spell"] = "Hand des Schutzes",
+					["spellSubName"] = "Rank 3",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -240,63 +239,47 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 135953,
-					["spell"] = "Reinigung des Glaubens",
+					["spell"] = "Cleanse",
 				}, -- [6]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135068,
-					["spell"] = "Rechtschaffene Verteidigung",
-				}, -- [7]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136106,
-					["spell"] = "Göttliches Eingreifen",
-				}, -- [8]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rang 13",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135920,
-					["spell"] = "Heiliges Licht",
-				}, -- [9]
-				{
-					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
-					["spellSubName"] = "Rang 5",
+					["spell"] = "Lay on Hands",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135928,
-					["spell"] = "Handauflegung",
-				}, -- [10]
-				{
-					["type"] = "target",
-					["key"] = "ALT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [11]
+					["spellSubName"] = "Rank 5",
+				}, -- [7]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["spell"] = "Heiliger Schock",
+					["key"] = "BUTTON5",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135972,
-					["spellSubName"] = "Rang 7",
-				}, -- [12]
+					["icon"] = 135949,
+					["spell"] = "Purify",
+				}, -- [8]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spell"] = "Holy Light",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135920,
+					["spellSubName"] = "Rank 13",
+				}, -- [9]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spell"] = "Flash of Light",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135907,
+					["spellSubName"] = "Rank 9",
+				}, -- [10]
 			},
 		},
 		["Kwasimojo - Venoxis"] = {
