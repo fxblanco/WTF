@@ -41,19 +41,19 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = true,
 			},
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
 			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
 			},
 			["alwaysOther"] = false,
 		},
@@ -102,14 +102,14 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["arena"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["raid"] = {
+			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -145,9 +145,9 @@ WIM3_Data = {
 			["custom_sml"] = "Chat Blip",
 			["say_sml"] = "Chat Blip",
 			["raid_sml"] = "Chat Blip",
-			["guild_sml"] = "Chat Blip",
 			["raidleader_sml"] = "Chat Blip",
 			["officer_sml"] = "Chat Blip",
+			["guild_sml"] = "Chat Blip",
 			["battlegroundleader_sml"] = "Chat Blip",
 			["battleground_sml"] = "Chat Blip",
 		},
@@ -201,12 +201,12 @@ WIM3_Data = {
 			["g"] = 0,
 			["b"] = 0,
 		},
+		["useSkin"] = true,
 		["BNwispIn"] = {
 			["r"] = 0,
 			["g"] = 0.4862745098039216,
 			["b"] = 0.6549019607843137,
 		},
-		["useSkin"] = true,
 		["historyOut"] = {
 			["r"] = 0.7058823529411764,
 			["g"] = 0.7058823529411764,
@@ -303,11 +303,11 @@ WIM3_Data = {
 		},
 	},
 	["ignoreArrowKeys"] = true,
+	["coloredNames"] = true,
 	["winLoc"] = {
 		["left"] = 217,
 		["top"] = 664,
 	},
-	["coloredNames"] = true,
 	["clampToScreen"] = true,
 	["stats"] = {
 		["startDate"] = "",
@@ -321,6 +321,21 @@ WIM3_Data = {
 		["selected"] = "WIM Classic",
 		["font"] = "ChatFontNormal",
 		["suggest"] = true,
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
 	},
 	["history"] = {
 		["ageLimit"] = true,
@@ -342,21 +357,6 @@ WIM3_Data = {
 			["maxCount"] = 500,
 			["previewCount"] = 25,
 		},
-	},
-	["tabs"] = {
-		["sortBy"] = 2,
-		["whispers"] = {
-			["enabled"] = false,
-			["guild"] = false,
-			["friends"] = false,
-		},
-		["chat"] = {
-			["enabled"] = false,
-			["aswhisper"] = false,
-		},
-	},
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
 	},
 	["chat"] = {
 		["bn"] = {
@@ -399,14 +399,14 @@ WIM3_Cache = {
 			["friendList"] = {
 				["|Kq19|k"] = 2,
 				["|Kq16|k"] = 2,
-				["|Kq3|k"] = 2,
-				["Møønkinqt"] = 1,
+				["|Kq4|k"] = 2,
+				["|Kq1|k"] = 2,
 				["|Kq2|k"] = 2,
 				["|Kq12|k"] = 2,
 				["|Kq9|k"] = 2,
 				["|Kq5|k"] = 2,
 				["|Kq18|k"] = 2,
-				["|Kq1|k"] = 2,
+				["Møønkinqt"] = 1,
 				["|Kq11|k"] = 2,
 				["Kaffeemocca"] = 1,
 				["|Kq17|k"] = 2,
@@ -414,209 +414,214 @@ WIM3_Cache = {
 				["Fieseronkel"] = 1,
 				["Nashiri"] = 1,
 				["|Kq8|k"] = 2,
-				["|Kq21|k"] = 2,
-				["Gassl"] = 1,
-				["Deusdominik"] = 1,
 				["|Kq13|k"] = 2,
+				["|Kq21|k"] = 2,
+				["Deusdominik"] = 1,
+				["Gassl"] = 1,
 				["|Kq20|k"] = 2,
 				["Paladinka"] = 1,
 				["|Kq15|k"] = 2,
 				["|Kq10|k"] = 2,
 				["|Kq7|k"] = 2,
 				["|Kq6|k"] = 2,
-				["|Kq4|k"] = 2,
+				["|Kq3|k"] = 2,
 				["Saatisfyer"] = 1,
 			},
 			["guildList"] = {
-				["Hanaltar"] = 146,
-				["Letsburn"] = 105,
-				["Nicerö"] = 110,
-				["Camoora"] = 54,
+				["Hanaltar"] = 149,
+				["Letsburn"] = 106,
+				["Nicerö"] = 111,
+				["Camoora"] = 53,
 				["Jermeypaskal"] = 97,
-				["Azvaren"] = 16,
-				["Taste"] = 6,
-				["Mcjckson"] = 60,
+				["Azvaren"] = 15,
+				["Taste"] = 166,
+				["Mcjckson"] = 59,
 				["Hêckler"] = 92,
-				["Jøki"] = 8,
-				["Myjuice"] = 12,
-				["Uwegamergirl"] = 37,
-				["Bøgenbernd"] = 7,
-				["Supâgôdzillâ"] = 47,
-				["Kîngston"] = 10,
-				["Brishja"] = 20,
-				["Marydiana"] = 26,
-				["Minoton"] = 5,
-				["Hanzai"] = 57,
-				["Wîdi"] = 166,
-				["Schiggymora"] = 39,
-				["Shamir"] = 178,
+				["Jøki"] = 5,
+				["Myjuice"] = 10,
+				["Uwegamergirl"] = 36,
+				["Bøgenbernd"] = 3,
+				["Supâgôdzillâ"] = 46,
+				["Kîngston"] = 7,
+				["Brishja"] = 19,
+				["Marydiana"] = 25,
+				["Minoton"] = 157,
+				["Langrohr"] = 8,
+				["Hanzai"] = 56,
+				["Wîdi"] = 171,
+				["Schiggymora"] = 38,
+				["Shamir"] = 183,
 				["Gengarmora"] = 82,
-				["Morezza"] = 49,
-				["Uwusoulstone"] = 133,
-				["Fieseronkel"] = 75,
-				["Justicé"] = 38,
-				["Bremskyle"] = 172,
-				["Snipär"] = 48,
-				["Deusdominik"] = 184,
-				["Naio"] = 17,
-				["Türkyle"] = 43,
-				["Uwugamergirl"] = 162,
-				["Klassíc"] = 9,
-				["Pippop"] = 171,
-				["Crysês"] = 53,
-				["Slimpy"] = 159,
+				["Morezza"] = 48,
+				["Uwusoulstone"] = 136,
+				["Styleplox"] = 164,
+				["Justicé"] = 37,
+				["Bremskyle"] = 177,
+				["Snipär"] = 47,
+				["Deusdominik"] = 189,
+				["Naio"] = 16,
+				["Türkyle"] = 42,
+				["Uwugamergirl"] = 167,
+				["Klassíc"] = 6,
+				["Pippop"] = 176,
+				["Crysês"] = 52,
+				["Slimpy"] = 163,
 				["Fukban"] = 79,
 				["Hâkkî"] = 91,
-				["Hennerr"] = 176,
-				["Alsia"] = 189,
+				["Hennerr"] = 181,
+				["Alsia"] = 194,
 				["Khemval"] = 99,
-				["Wallahnyr"] = 164,
-				["Perfu"] = 114,
-				["Vaccs"] = 31,
+				["Wallahnyr"] = 169,
+				["Perfu"] = 115,
+				["Vaccs"] = 30,
 				["Graveofmaria"] = 86,
-				["Blyastik"] = 19,
-				["Domedonmaya"] = 185,
-				["Taladia"] = 29,
-				["Hêat"] = 170,
-				["Specializt"] = 187,
-				["Bubbledîne"] = 173,
-				["Xeeli"] = 168,
-				["Knisterkarl"] = 40,
+				["Blyastik"] = 18,
+				["Domedonmaya"] = 190,
+				["Taladia"] = 28,
+				["Hêat"] = 175,
+				["Specializt"] = 192,
+				["Bubbledîne"] = 178,
+				["Xeeli"] = 173,
+				["Knisterkarl"] = 39,
 				["Kentharo"] = 98,
-				["Azhmo"] = 182,
+				["Azhmo"] = 187,
 				["Exonuklease"] = 74,
-				["Ukban"] = 179,
-				["Kyriakî"] = 101,
-				["Lät"] = 153,
+				["Ukban"] = 184,
+				["Kyriakî"] = 102,
+				["Lät"] = 156,
 				["Furbios"] = 80,
-				["Widi"] = 135,
-				["Kheval"] = 151,
+				["Widi"] = 138,
+				["Butzebank"] = 174,
+				["Kheval"] = 154,
 				["Giaru"] = 83,
 				["Kholostrus"] = 100,
-				["Butzebank"] = 169,
-				["Wrathbringer"] = 136,
-				["Cálimera"] = 21,
-				["Vulvanaa"] = 35,
-				["Blinkyli"] = 1,
-				["Mîmonbaraka"] = 109,
-				["Tréalis"] = 130,
-				["Styleploxlel"] = 124,
-				["Moly"] = 50,
-				["Shavanaya"] = 119,
-				["Takuta"] = 4,
+				["Lekwa"] = 24,
+				["Frechmaxs"] = 4,
+				["Trollmitaffe"] = 132,
+				["Moly"] = 49,
+				["Wrathbringer"] = 139,
+				["Cálimera"] = 20,
+				["Vulvanaa"] = 34,
+				["Takuta"] = 128,
+				["Mîmonbaraka"] = 110,
+				["Freyaxgodx"] = 77,
+				["Styleploxlel"] = 126,
+				["Ohrfeigen"] = 112,
+				["Shavanaya"] = 121,
+				["Lesbenlisa"] = 105,
 				["Dandeen"] = 72,
-				["Darwinsgame"] = 59,
-				["Running"] = 116,
-				["Bigmæc"] = 66,
-				["Wønka"] = 167,
-				["Verbocklock"] = 33,
-				["Harva"] = 24,
+				["Darwinsgame"] = 58,
+				["Kahira"] = 60,
+				["Bigmæc"] = 65,
+				["Wønka"] = 172,
+				["Verbocklock"] = 32,
+				["Harva"] = 23,
 				["Brandow"] = 68,
-				["Ohrfeigen"] = 111,
-				["Lesbenlisa"] = 104,
-				["Kahira"] = 61,
-				["Coolhwip"] = 71,
-				["Ongbakk"] = 112,
-				["Bloodwall"] = 67,
-				["Kolotripida"] = 46,
-				["Bashnàk"] = 141,
 				["Hitohitonomi"] = 88,
-				["Ashmo"] = 181,
+				["Healrunner"] = 87,
+				["Ashmo"] = 186,
+				["Coolhwip"] = 71,
+				["Ongbakk"] = 113,
+				["Bloodwall"] = 67,
+				["Kolotripida"] = 45,
+				["Bashnàk"] = 144,
 				["Gnag"] = 84,
 				["Frighten"] = 78,
-				["Spaltkyle"] = 122,
-				["Kéksdöschen"] = 65,
 				["Gdkphunter"] = 81,
-				["Delmonte"] = 142,
-				["Zelatras"] = 64,
-				["Xeeth"] = 62,
-				["Firecat"] = 143,
-				["Wackelbacke"] = 56,
-				["Hakkî"] = 175,
-				["Meganproccs"] = 51,
-				["Leitz"] = 103,
+				["Running"] = 118,
+				["Spaltkyle"] = 124,
+				["Kéksdöschen"] = 64,
+				["Jocindyr"] = 151,
+				["Delmonte"] = 145,
+				["Zoosahaal"] = 57,
+				["Wackelbacke"] = 55,
+				["Firecat"] = 146,
+				["Meganproccs"] = 50,
+				["Rewve"] = 116,
+				["Sîrdotalôt"] = 35,
+				["Leitz"] = 104,
 				["Dolchwerfer"] = 73,
-				["Jckson"] = 96,
-				["Perakon"] = 177,
-				["Turrasq"] = 30,
-				["Dánáá"] = 23,
-				["Serferine"] = 156,
-				["Habíb"] = 174,
+				["Dánáá"] = 22,
+				["Perakon"] = 182,
 				["Firebull"] = 76,
-				["Gartenclown"] = 52,
-				["Beesportz"] = 183,
-				["Kyleriemen"] = 2,
-				["Rhukan"] = 13,
-				["Andrés"] = 180,
-				["Mostaghim"] = 27,
-				["Xandros"] = 138,
-				["Graveofjenna"] = 85,
-				["Orthøs"] = 113,
-				["Rewve"] = 3,
-				["Larasombardi"] = 102,
-				["Connielingus"] = 70,
-				["Allyfigger"] = 41,
-				["Vilro"] = 34,
-				["Vacaria"] = 134,
-				["Asdâlan"] = 140,
-				["Tolazytolvl"] = 127,
-				["Toohty"] = 128,
-				["Mcjackson"] = 11,
-				["Vanec"] = 163,
-				["Shadowpleb"] = 118,
-				["Tesfaye"] = 126,
-				["Caamo"] = 63,
+				["Tarsó"] = 13,
+				["Serferine"] = 160,
+				["Habíb"] = 179,
+				["Vaccus"] = 31,
+				["Gartenclown"] = 51,
+				["Beesportz"] = 188,
+				["Rhukan"] = 11,
 				["Iamacow"] = 94,
-				["Hampdidampdi"] = 145,
-				["Fitis"] = 144,
-				["Khalimmortus"] = 55,
-				["Vaccus"] = 32,
-				["Supâgodzillâ"] = 161,
-				["Tarsó"] = 15,
-				["Trolpriester"] = 42,
-				["Darnella"] = 22,
-				["Nawal"] = 28,
-				["Liptea"] = 152,
-				["Sîrdotalôt"] = 36,
-				["Naymira"] = 18,
+				["Andrés"] = 185,
+				["Mostaghim"] = 26,
+				["Xandros"] = 141,
+				["Graveofjenna"] = 85,
+				["Orthøs"] = 114,
+				["Allyfigger"] = 40,
+				["Shadowpleb"] = 120,
+				["Connielingus"] = 70,
+				["Mcjackson"] = 9,
+				["Vilro"] = 33,
+				["Vacaria"] = 137,
+				["Asdâlan"] = 143,
+				["Tolazytolvl"] = 130,
+				["Toohty"] = 131,
+				["Larasombardi"] = 103,
+				["Vanec"] = 168,
+				["Hakkî"] = 180,
+				["Tesfaye"] = 129,
+				["Caamo"] = 62,
+				["Kyleriemen"] = 101,
+				["Hampdidampdi"] = 148,
+				["Fitis"] = 147,
+				["Khalimmortus"] = 54,
+				["Spenny"] = 2,
+				["Supâgodzillâ"] = 165,
+				["Darnella"] = 21,
+				["Trolpriester"] = 41,
+				["Nawal"] = 27,
+				["Zelcher"] = 14,
+				["Turrasq"] = 29,
+				["Jckson"] = 96,
+				["Naymira"] = 17,
 				["Hâkki"] = 90,
-				["Bossî"] = 44,
-				["Sheepdenwal"] = 120,
-				["Jogí"] = 150,
-				["Zoosahaal"] = 58,
-				["Jodifrosta"] = 149,
-				["Slimpyi"] = 121,
-				["Schpen"] = 117,
-				["Tâste"] = 131,
-				["Rqzlp"] = 115,
-				["Onixus"] = 155,
-				["Healrunner"] = 87,
-				["Kwasimojo"] = 186,
-				["Longling"] = 106,
-				["Hennerin"] = 45,
-				["Xolem"] = 188,
-				["Shikimora"] = 157,
+				["Bossî"] = 43,
+				["Sheepdenwal"] = 122,
+				["Jogí"] = 153,
+				["Xeeth"] = 61,
+				["Jodifrosta"] = 152,
+				["Zelatras"] = 63,
+				["Schpen"] = 119,
+				["Tâste"] = 134,
+				["Rqzlp"] = 117,
+				["Onixus"] = 159,
+				["Hennerin"] = 44,
+				["Kwasimojo"] = 191,
+				["Longling"] = 107,
+				["Envií"] = 1,
+				["Xolem"] = 193,
+				["Shikimora"] = 161,
 				["Hopéless"] = 89,
+				["Schetner"] = 12,
 				["Hópéful"] = 93,
-				["Schetner"] = 14,
-				["Yukisara"] = 139,
-				["Jedsia"] = 147,
+				["Yukisara"] = 142,
+				["Jedsia"] = 150,
 				["Camoraa"] = 69,
-				["Freyaxgodx"] = 77,
-				["Spreewell"] = 123,
-				["Supágodzillá"] = 125,
-				["Morai"] = 154,
-				["Trollmitaffe"] = 129,
-				["Uséléss"] = 132,
-				["Wutzelchick"] = 137,
+				["Slimpyi"] = 123,
+				["Spreewell"] = 125,
+				["Supágodzillá"] = 127,
+				["Morai"] = 158,
 				["Jambalala"] = 95,
-				["Jocindyr"] = 148,
-				["Lekwa"] = 25,
-				["Warlockilock"] = 165,
-				["Sikkzh"] = 158,
-				["Maturitass"] = 107,
-				["Styleplox"] = 160,
-				["Mikirî"] = 108,
+				["Uséléss"] = 135,
+				["Tréalis"] = 133,
+				["Wutzelchick"] = 140,
+				["Warlockilock"] = 170,
+				["Blinkyli"] = 66,
+				["Maturitass"] = 108,
+				["Liptea"] = 155,
+				["Sikkzh"] = 162,
+				["Fieseronkel"] = 75,
+				["Mikirî"] = 109,
 			},
 		},
 		["Xolem"] = {
@@ -640,12 +645,12 @@ WIM3_Cache = {
 				["|Kq21|k"] = 2,
 				["|Kq13|k"] = 2,
 				["|Kq20|k"] = 2,
-				["Rubmaster"] = 1,
+				["Lät"] = 1,
 				["|Kq15|k"] = 2,
 				["|Kq10|k"] = 2,
 				["|Kq7|k"] = 2,
 				["|Kq6|k"] = 2,
-				["Lät"] = 1,
+				["Rubmaster"] = 1,
 				["|Kq17|k"] = 2,
 			},
 			["guildList"] = {
@@ -733,68 +738,68 @@ WIM3_Cache = {
 				["Verbocklock"] = 32,
 				["Harva"] = 23,
 				["Brandow"] = 67,
-				["Kahira"] = 60,
 				["Wackelbacke"] = 55,
 				["Meganproccs"] = 50,
+				["Trollmitaffe"] = 129,
 				["Coolhwip"] = 70,
 				["Ongbakk"] = 112,
 				["Bloodwall"] = 66,
 				["Kolotripida"] = 45,
 				["Bashnàk"] = 141,
-				["Trollmitaffe"] = 129,
 				["Turrasq"] = 29,
+				["Gartenclown"] = 51,
 				["Moly"] = 49,
-				["Firebull"] = 75,
+				["Kyleriemen"] = 100,
 				["Spaltkyle"] = 122,
 				["Kéksdöschen"] = 64,
-				["Gartenclown"] = 51,
+				["Hópéful"] = 92,
 				["Delmonte"] = 142,
-				["Kyleriemen"] = 100,
+				["Rewve"] = 2,
 				["Takuta"] = 3,
 				["Firecat"] = 143,
-				["Hópéful"] = 92,
+				["Hopéless"] = 88,
 				["Hakkî"] = 175,
 				["Ohrfeigen"] = 111,
 				["Leitz"] = 103,
 				["Dolchwerfer"] = 72,
-				["Rewve"] = 2,
-				["Perakon"] = 177,
+				["Xolem"] = 188,
 				["Larasombardi"] = 102,
-				["Vilro"] = 33,
+				["Asdâlan"] = 140,
+				["Mcjackson"] = 10,
 				["Serferine"] = 156,
 				["Habíb"] = 174,
 				["Lesbenlisa"] = 104,
-				["Xolem"] = 188,
+				["Kahira"] = 60,
 				["Beesportz"] = 183,
-				["Asdâlan"] = 140,
-				["Orthøs"] = 113,
+				["Shadowpleb"] = 118,
+				["Gnag"] = 83,
 				["Andrés"] = 180,
 				["Mostaghim"] = 26,
 				["Xandros"] = 138,
 				["Graveofjenna"] = 84,
-				["Mcjackson"] = 10,
+				["Orthøs"] = 113,
 				["Ashmo"] = 181,
-				["Vanec"] = 163,
+				["Iamacow"] = 93,
 				["Connielingus"] = 69,
-				["Shadowpleb"] = 118,
+				["Vaccus"] = 31,
 				["Frighten"] = 77,
 				["Vacaria"] = 134,
 				["Healrunner"] = 86,
 				["Tolazytolvl"] = 127,
 				["Toohty"] = 128,
-				["Iamacow"] = 93,
+				["Vanec"] = 163,
 				["Allyfigger"] = 40,
-				["Vaccus"] = 31,
+				["Xeeth"] = 61,
 				["Tesfaye"] = 126,
 				["Caamo"] = 62,
-				["Supâgodzillâ"] = 161,
+				["Tarsó"] = 14,
 				["Hampdidampdi"] = 145,
 				["Fitis"] = 144,
 				["Khalimmortus"] = 54,
-				["Tarsó"] = 14,
-				["Tréalis"] = 130,
-				["Trolpriester"] = 41,
+				["Firebull"] = 75,
+				["Supâgodzillâ"] = 161,
 				["Dánáá"] = 22,
+				["Trolpriester"] = 41,
 				["Darnella"] = 21,
 				["Nawal"] = 27,
 				["Warlockilock"] = 165,
@@ -806,20 +811,20 @@ WIM3_Cache = {
 				["Jogí"] = 150,
 				["Zoosahaal"] = 57,
 				["Jodifrosta"] = 149,
-				["Xeeth"] = 61,
+				["Tréalis"] = 130,
 				["Schpen"] = 117,
 				["Tâste"] = 131,
 				["Rqzlp"] = 115,
 				["Onixus"] = 155,
-				["Gnag"] = 83,
+				["Vilro"] = 33,
 				["Kwasimojo"] = 186,
 				["Longling"] = 106,
 				["Hennerin"] = 44,
 				["Running"] = 116,
-				["Liptea"] = 152,
 				["Shikimora"] = 157,
+				["Liptea"] = 152,
 				["Hitohitonomi"] = 87,
-				["Hopéless"] = 88,
+				["Perakon"] = 177,
 				["Yukisara"] = 139,
 				["Jedsia"] = 147,
 				["Camoraa"] = 68,
@@ -976,15 +981,15 @@ WIM3_Cache = {
 				["Hopéless"] = 90,
 				["Perakon"] = 177,
 				["Hennerin"] = 46,
-				["Liptea"] = 153,
+				["Shikimora"] = 158,
 				["Serferine"] = 157,
 				["Habíb"] = 174,
-				["Shikimora"] = 158,
+				["Liptea"] = 153,
 				["Xolem"] = 188,
 				["Beesportz"] = 183,
 				["Iamacow"] = 95,
 				["Orthøs"] = 114,
-				["Shadowpleb"] = 119,
+				["Andrés"] = 180,
 				["Mostaghim"] = 28,
 				["Xandros"] = 139,
 				["Graveofjenna"] = 86,
@@ -995,7 +1000,7 @@ WIM3_Cache = {
 				["Vilro"] = 35,
 				["Rqzlp"] = 116,
 				["Vacaria"] = 135,
-				["Healrunner"] = 88,
+				["Asdâlan"] = 141,
 				["Tolazytolvl"] = 128,
 				["Toohty"] = 129,
 				["Allyfigger"] = 42,
@@ -1008,9 +1013,9 @@ WIM3_Cache = {
 				["Fitis"] = 145,
 				["Khalimmortus"] = 56,
 				["Tréalis"] = 131,
-				["Firebull"] = 77,
+				["Supâgodzillâ"] = 162,
 				["Xeeth"] = 63,
-				["Dánáá"] = 24,
+				["Trolpriester"] = 43,
 				["Darnella"] = 23,
 				["Nawal"] = 29,
 				["Meganproccs"] = 52,
@@ -1020,17 +1025,17 @@ WIM3_Cache = {
 				["Sîrdotalôt"] = 37,
 				["Sheepdenwal"] = 121,
 				["Jogí"] = 151,
-				["Trolpriester"] = 43,
+				["Dánáá"] = 24,
 				["Jodifrosta"] = 150,
-				["Supâgodzillâ"] = 162,
+				["Firebull"] = 77,
 				["Schpen"] = 118,
 				["Tâste"] = 132,
 				["Frighten"] = 79,
 				["Onixus"] = 156,
-				["Asdâlan"] = 141,
+				["Healrunner"] = 88,
 				["Ashmo"] = 181,
 				["Longling"] = 107,
-				["Andrés"] = 180,
+				["Shadowpleb"] = 119,
 				["Kahira"] = 62,
 				["Lesbenlisa"] = 105,
 				["Larasombardi"] = 103,
@@ -1161,9 +1166,9 @@ WIM3_Cache = {
 				["Brandow"] = 63,
 				["Xeeth"] = 57,
 				["Spreewell"] = 117,
-				["Kyleriemen"] = 6,
-				["Coolhwip"] = 66,
 				["Ongbakk"] = 105,
+				["Coolhwip"] = 66,
+				["Kyleriemen"] = 6,
 				["Bloodwall"] = 4,
 				["Bossî"] = 39,
 				["Bashnàk"] = 135,
@@ -1171,7 +1176,7 @@ WIM3_Cache = {
 				["Lekwa"] = 20,
 				["Nawal"] = 23,
 				["Zoosahaal"] = 52,
-				["Iamacow"] = 88,
+				["Spaltkyle"] = 116,
 				["Kéksdöschen"] = 60,
 				["Darnella"] = 17,
 				["Delmonte"] = 136,
@@ -1199,13 +1204,13 @@ WIM3_Cache = {
 				["Xandros"] = 132,
 				["Graveofjenna"] = 81,
 				["Orthøs"] = 106,
-				["Vilro"] = 29,
+				["Asdâlan"] = 134,
 				["Liptea"] = 146,
 				["Connielingus"] = 65,
 				["Running"] = 111,
-				["Asdâlan"] = 134,
-				["Vacaria"] = 128,
 				["Healrunner"] = 82,
+				["Vacaria"] = 128,
+				["Vilro"] = 29,
 				["Tolazytolvl"] = 121,
 				["Toohty"] = 122,
 				["Caamo"] = 58,
@@ -1242,8 +1247,8 @@ WIM3_Cache = {
 				["Longling"] = 100,
 				["Uwugamergirl"] = 158,
 				["Xolem"] = 182,
-				["Lesbenlisa"] = 98,
 				["Shikimora"] = 152,
+				["Lesbenlisa"] = 98,
 				["Xeeli"] = 163,
 				["Hennerr"] = 170,
 				["Yukisara"] = 133,
@@ -1256,7 +1261,7 @@ WIM3_Cache = {
 				["Kholostrus"] = 94,
 				["Uséléss"] = 126,
 				["Hennerin"] = 40,
-				["Spaltkyle"] = 116,
+				["Iamacow"] = 88,
 				["Slimpyi"] = 115,
 				["Blinkyli"] = 62,
 				["Kheval"] = 145,
@@ -1387,7 +1392,7 @@ WIM3_Cache = {
 				["Coolhwip"] = 69,
 				["Ongbakk"] = 109,
 				["Bloodwall"] = 65,
-				["Bossî"] = 41,
+				["Kolotripida"] = 43,
 				["Bashnàk"] = 139,
 				["Gartenclown"] = 49,
 				["Trollmitaffe"] = 127,
@@ -1405,26 +1410,26 @@ WIM3_Cache = {
 				["Yukisara"] = 137,
 				["Leitz"] = 100,
 				["Dolchwerfer"] = 70,
-				["Perakon"] = 177,
 				["Larasombardi"] = 99,
+				["Perakon"] = 177,
 				["Hêckler"] = 88,
-				["Shikimora"] = 156,
+				["Lesbenlisa"] = 101,
 				["Serferine"] = 155,
 				["Habíb"] = 174,
-				["Lesbenlisa"] = 101,
+				["Shikimora"] = 156,
 				["Xolem"] = 188,
 				["Beesportz"] = 183,
 				["Hennerin"] = 42,
 				["Mcjackson"] = 8,
-				["Shadowpleb"] = 116,
+				["Andrés"] = 180,
 				["Mostaghim"] = 24,
 				["Xandros"] = 136,
 				["Graveofjenna"] = 82,
 				["Orthøs"] = 110,
 				["Ashmo"] = 181,
-				["Vilro"] = 31,
-				["Connielingus"] = 68,
 				["Healrunner"] = 84,
+				["Connielingus"] = 68,
+				["Vilro"] = 31,
 				["Rqzlp"] = 113,
 				["Vacaria"] = 132,
 				["Asdâlan"] = 138,
@@ -1435,14 +1440,14 @@ WIM3_Cache = {
 				["Zelatras"] = 61,
 				["Tesfaye"] = 124,
 				["Caamo"] = 60,
-				["Tréalis"] = 128,
+				["Supâgodzillâ"] = 160,
 				["Hampdidampdi"] = 143,
 				["Fitis"] = 142,
 				["Khalimmortus"] = 52,
-				["Supâgodzillâ"] = 160,
+				["Tréalis"] = 128,
 				["Firebull"] = 73,
 				["Xeeth"] = 59,
-				["Dánáá"] = 20,
+				["Trolpriester"] = 39,
 				["Darnella"] = 19,
 				["Nawal"] = 25,
 				["Meganproccs"] = 48,
@@ -1452,7 +1457,7 @@ WIM3_Cache = {
 				["Sîrdotalôt"] = 33,
 				["Sheepdenwal"] = 118,
 				["Jogí"] = 148,
-				["Trolpriester"] = 39,
+				["Dánáá"] = 20,
 				["Jodifrosta"] = 147,
 				["Dandeen"] = 2,
 				["Schpen"] = 115,
@@ -1462,10 +1467,10 @@ WIM3_Cache = {
 				["Vaccus"] = 29,
 				["Kwasimojo"] = 186,
 				["Longling"] = 103,
-				["Andrés"] = 180,
-				["Running"] = 114,
-				["Liptea"] = 150,
+				["Shadowpleb"] = 116,
 				["Kahira"] = 58,
+				["Liptea"] = 150,
+				["Running"] = 114,
 				["Iamacow"] = 90,
 				["Hitohitonomi"] = 85,
 				["Ohrfeigen"] = 108,
@@ -1477,7 +1482,7 @@ WIM3_Cache = {
 				["Moly"] = 47,
 				["Kyleriemen"] = 97,
 				["Uséléss"] = 130,
-				["Kolotripida"] = 43,
+				["Bossî"] = 41,
 				["Jckson"] = 92,
 				["Wackelbacke"] = 53,
 				["Lekwa"] = 22,
@@ -1781,115 +1786,7 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Hâkkî"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699050309,
-					["from"] = "Hâkkî",
-					["msg"] = "nurnoch 1 healer",
-					["inbound"] = true,
-					["convo"] = "Hâkkî",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699050311,
-					["from"] = "Hâkkî",
-					["msg"] = "1 meele",
-					["inbound"] = true,
-					["convo"] = "Hâkkî",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699050313,
-					["from"] = "Hâkkî",
-					["msg"] = "frostkd oder so",
-					["inbound"] = true,
-					["convo"] = "Hâkkî",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699050323,
-					["from"] = "Alsia",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "Hâkkî",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699050356,
-					["from"] = "Hâkkî",
-					["msg"] = "widi mitnehmen?",
-					["inbound"] = true,
-					["convo"] = "Hâkkî",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699050358,
-					["from"] = "Hâkkî",
-					["msg"] = "2ter shadow?",
-					["inbound"] = true,
-					["convo"] = "Hâkkî",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699050427,
-					["from"] = "Alsia",
-					["msg"] = "Ja kann man machen",
-					["inbound"] = false,
-					["convo"] = "Hâkkî",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699050434,
-					["from"] = "Alsia",
-					["msg"] = "Weiß nicht was da an dmg kommt",
-					["inbound"] = false,
-					["convo"] = "Hâkkî",
-				}, -- [8]
-				["info"] = {
-				},
-			},
 			["Hennerr"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699128157,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hennerr",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699128233,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hennerr",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699132161,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hennerr",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699133130,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hennerr",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699133709,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hennerr",
-				}, -- [5]
 				{
 					["type"] = 1,
 					["time"] = 1699557309,
@@ -1897,7 +1794,7 @@ WIM3_History = {
 					["msg"] = "gib a oder lead wegen auto invit",
 					["inbound"] = false,
 					["convo"] = "Hennerr",
-				}, -- [6]
+				}, -- [1]
 				{
 					["type"] = 1,
 					["time"] = 1699557355,
@@ -1905,7 +1802,7 @@ WIM3_History = {
 					["msg"] = "hast+",
 					["inbound"] = true,
 					["convo"] = "Hennerr",
-				}, -- [7]
+				}, -- [2]
 				{
 					["type"] = 1,
 					["time"] = 1699557358,
@@ -1913,7 +1810,7 @@ WIM3_History = {
 					["msg"] = "|Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
 					["inbound"] = false,
 					["convo"] = "Hennerr",
-				}, -- [8]
+				}, -- [3]
 				{
 					["type"] = 1,
 					["time"] = 1700162544,
@@ -1921,7 +1818,7 @@ WIM3_History = {
 					["msg"] = "inv",
 					["inbound"] = true,
 					["convo"] = "Hennerr",
-				}, -- [9]
+				}, -- [4]
 				{
 					["type"] = 1,
 					["time"] = 1700175654,
@@ -1929,7 +1826,7 @@ WIM3_History = {
 					["msg"] = "|Hgarrmission:weakauras|h|cFF8800FF[Alsia-Venoxis |r|cFF8800FF- Fojji - PI Range Helper]|h|r",
 					["inbound"] = false,
 					["convo"] = "Hennerr",
-				}, -- [10]
+				}, -- [5]
 				{
 					["type"] = 1,
 					["time"] = 1700177479,
@@ -1937,14 +1834,14 @@ WIM3_History = {
 					["msg"] = "kleine Kinder schreien das raus schön gesagt |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t also der rest natürlich auch",
 					["inbound"] = true,
 					["convo"] = "Hennerr",
-				}, -- [11]
+				}, -- [6]
 				["info"] = {
 				},
 			},
 			["Alsia"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699129245,
+					["time"] = 1699559497,
 					["from"] = "Alsia",
 					["msg"] = "Item Equipped: Goblinraketenpack",
 					["inbound"] = true,
@@ -1952,7 +1849,7 @@ WIM3_History = {
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1699129245,
+					["time"] = 1699559497,
 					["from"] = "Alsia",
 					["msg"] = "Item Equipped: Goblinraketenpack",
 					["inbound"] = false,
@@ -1960,7 +1857,7 @@ WIM3_History = {
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1699559497,
+					["time"] = 1699559753,
 					["from"] = "Alsia",
 					["msg"] = "Item Equipped: Goblinraketenpack",
 					["inbound"] = true,
@@ -1968,7 +1865,7 @@ WIM3_History = {
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1699559497,
+					["time"] = 1699559753,
 					["from"] = "Alsia",
 					["msg"] = "Item Equipped: Goblinraketenpack",
 					["inbound"] = false,
@@ -1976,36 +1873,20 @@ WIM3_History = {
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1699559753,
+					["time"] = 1700167793,
 					["from"] = "Alsia",
-					["msg"] = "Item Equipped: Goblinraketenpack",
+					["msg"] = "Item Equipped: Goblin Rocket Pack",
 					["inbound"] = true,
 					["convo"] = "Alsia",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1699559753,
+					["time"] = 1700167793,
 					["from"] = "Alsia",
-					["msg"] = "Item Equipped: Goblinraketenpack",
+					["msg"] = "Item Equipped: Goblin Rocket Pack",
 					["inbound"] = false,
 					["convo"] = "Alsia",
 				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1700167793,
-					["from"] = "Alsia",
-					["msg"] = "Item Equipped: Goblin Rocket Pack",
-					["inbound"] = true,
-					["convo"] = "Alsia",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1700167793,
-					["from"] = "Alsia",
-					["msg"] = "Item Equipped: Goblin Rocket Pack",
-					["inbound"] = false,
-					["convo"] = "Alsia",
-				}, -- [8]
 				["info"] = {
 				},
 			},
@@ -2184,132 +2065,12 @@ WIM3_History = {
 			["Dánáá"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699049865,
-					["from"] = "Dánáá",
-					["msg"] = "hi alles gut |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ? Machst du zufällig ein gdkp 25er ? bzw wie sieht es den eig aktuell in den gildenruns aus |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ?",
-					["inbound"] = true,
-					["convo"] = "Dánáá",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699049943,
-					["from"] = "Alsia",
-					["msg"] = "jo wir machen gerade einen 25er gdkp |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699049946,
-					["from"] = "Alsia",
-					["msg"] = "brauchen noch 2 healer",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699049951,
-					["from"] = "Alsia",
-					["msg"] = "Gildenruns laufen Do / So",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699049964,
-					["from"] = "Alsia",
-					["msg"] = "Wie ist denn Gear bei dir ?",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699049996,
-					["from"] = "Dánáá",
-					["msg"] = "aktuell bei 5k ",
-					["inbound"] = true,
-					["convo"] = "Dánáá",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699050016,
-					["from"] = "Alsia",
-					["msg"] = "Bissl knapp für icc leider",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699050061,
-					["from"] = "Dánáá",
-					["msg"] = "alles gut bin momentan dabei das gear zu farmen mit den steinen usw... ",
-					["inbound"] = true,
-					["convo"] = "Dánáá",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699050080,
-					["from"] = "Alsia",
-					["msg"] = "nice ja das geht fix",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1699050142,
-					["from"] = "Dánáá",
-					["msg"] = "Ja nur langsam kann ich keine inis mehr sehen |Helvmoji:%yre|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ",
-					["inbound"] = true,
-					["convo"] = "Dánáá",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1699050288,
-					["from"] = "Alsia",
-					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t frag mal hakki der hat ungelogen schon safe über 500 gemacht",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1699050352,
-					["from"] = "Dánáá",
-					["msg"] = "Haha ja ich hab gestern angefangen und hab echt gut gefarmt 170 triumh und um die 90 steine ... aber das gleiche ca nochmal dann hab ich alles ",
-					["inbound"] = true,
-					["convo"] = "Dánáá",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1699050446,
-					["from"] = "Alsia",
-					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t stark ja ist verrückt",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1699050466,
-					["from"] = "Alsia",
-					["msg"] = "|cff8787edSlimpy|r (marcel) hat seinen 2. warlock jetzt in 2 tagen auf 5,4k gs etwa das ist krank von frisch level 80",
-					["inbound"] = false,
-					["convo"] = "Dánáá",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1699050650,
-					["from"] = "Dánáá",
-					["msg"] = "Ja das ist echt krank .... aber gut ich mach mal weiter vll schaff es ich es ja nächste woche mit zulaufen falls noch ein hpala benötigt wird ^^",
-					["inbound"] = true,
-					["convo"] = "Dánáá",
-				}, -- [15]
-				{
-					["type"] = 1,
 					["time"] = 1700162616,
 					["from"] = "Dánáá",
 					["msg"] = "Hi ich sag es vor ab ich habe es nicht mybis zu erstellen , da es einfach zu stressig war. also zeichen würde ich heute auf loot verzichten .",
 					["inbound"] = true,
 					["convo"] = "Dánáá",
-				}, -- [16]
+				}, -- [1]
 				{
 					["type"] = 1,
 					["time"] = 1700162625,
@@ -2317,7 +2078,7 @@ WIM3_History = {
 					["msg"] = "Easy |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t ",
 					["inbound"] = false,
 					["convo"] = "Dánáá",
-				}, -- [17]
+				}, -- [2]
 				{
 					["type"] = 1,
 					["time"] = 1700162648,
@@ -2325,7 +2086,7 @@ WIM3_History = {
 					["msg"] = "|Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t Top ",
 					["inbound"] = true,
 					["convo"] = "Dánáá",
-				}, -- [18]
+				}, -- [3]
 				{
 					["type"] = 1,
 					["time"] = 1700162657,
@@ -2333,7 +2094,7 @@ WIM3_History = {
 					["msg"] = "Und sehr ehrenhaft",
 					["inbound"] = false,
 					["convo"] = "Dánáá",
-				}, -- [19]
+				}, -- [4]
 				{
 					["type"] = 1,
 					["time"] = 1700162691,
@@ -2341,7 +2102,7 @@ WIM3_History = {
 					["msg"] = "für die Gilde |Helvmoji:%7qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ",
 					["inbound"] = true,
 					["convo"] = "Dánáá",
-				}, -- [20]
+				}, -- [5]
 				{
 					["type"] = 1,
 					["time"] = 1700162706,
@@ -2349,7 +2110,7 @@ WIM3_History = {
 					["msg"] = "damit alles harmoisch bleibt |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t und wir haben ja noch genug runs ^^",
 					["inbound"] = true,
 					["convo"] = "Dánáá",
-				}, -- [21]
+				}, -- [6]
 				{
 					["type"] = 1,
 					["time"] = 1700162745,
@@ -2357,7 +2118,7 @@ WIM3_History = {
 					["msg"] = "Eben sehr cool von dir",
 					["inbound"] = false,
 					["convo"] = "Dánáá",
-				}, -- [22]
+				}, -- [7]
 				["info"] = {
 				},
 			},
@@ -2608,164 +2369,12 @@ WIM3_History = {
 			["Domedonmaya"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699128044,
-					["from"] = "Domedonmaya",
-					["msg"] = "markus macht viiiiiiel zu wenig dmg für sein gear. hab gestern mal nen starken feral gesehen und der unterschied ist enorm",
-					["inbound"] = true,
-					["convo"] = "Domedonmaya",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699128053,
-					["from"] = "Alsia",
-					["msg"] = "100%",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699128476,
-					["from"] = "Domedonmaya",
-					["msg"] = "gib sdm dann pls",
-					["inbound"] = true,
-					["convo"] = "Domedonmaya",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699129023,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699129952,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699130660,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699131376,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699131545,
-					["from"] = "Domedonmaya",
-					["msg"] = "ich brauche erst 18 sek nachdem der aktiv wird externals",
-					["inbound"] = true,
-					["convo"] = "Domedonmaya",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699132711,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1699136725,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1699137457,
-					["from"] = "Alsia",
-					["msg"] = "|cfff48cbaXeeli|r halt auch nur okay |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1699137471,
-					["from"] = "Domedonmaya",
-					["msg"] = "wjo |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t aber hey, rat down!",
-					["inbound"] = true,
-					["convo"] = "Domedonmaya",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1699137475,
-					["from"] = "Domedonmaya",
-					["msg"] = "das ist doch was",
-					["inbound"] = true,
-					["convo"] = "Domedonmaya",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1699137482,
-					["from"] = "Alsia",
-					["msg"] = "mega",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1699137517,
-					["from"] = "Domedonmaya",
-					["msg"] = "sindra müsste eig auch gehen. aber heute fehlt die zeit |Helvmoji:%6Gc|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\SlightFrown:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Domedonmaya",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1699137529,
-					["from"] = "Alsia",
-					["msg"] = "ja sindra und prof gehen beide denk ich",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1699139757,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1699140111,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1699143760,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Domedonmaya",
-				}, -- [19]
-				{
-					["type"] = 1,
 					["time"] = 1699558960,
 					["from"] = "Domedonmaya",
 					["msg"] = "ich hab ein problem. ich glaube, mein ladekabel für den laptop ist gerade fratze gegangen",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [20]
+				}, -- [1]
 				{
 					["type"] = 1,
 					["time"] = 1699558970,
@@ -2773,7 +2382,7 @@ WIM3_History = {
 					["msg"] = "f",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [21]
+				}, -- [2]
 				{
 					["type"] = 1,
 					["time"] = 1699559005,
@@ -2781,7 +2390,7 @@ WIM3_History = {
 					["msg"] = "Wenns so ist dann schreib mir in WA, hoffe es hält hast ne alternative?",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [22]
+				}, -- [3]
 				{
 					["type"] = 1,
 					["time"] = 1699559023,
@@ -2789,7 +2398,7 @@ WIM3_History = {
 					["msg"] = "nope keine alternative :x",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [23]
+				}, -- [4]
 				{
 					["type"] = 1,
 					["time"] = 1699559031,
@@ -2797,7 +2406,7 @@ WIM3_History = {
 					["msg"] = "fuck, 1 h bis zu mi r:D lohnt net",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [24]
+				}, -- [5]
 				{
 					["type"] = 1,
 					["time"] = 1699559043,
@@ -2805,7 +2414,7 @@ WIM3_History = {
 					["msg"] = "versuche es gerade zu fixen, aber sieht aus als wäre da kabel kaputt",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [25]
+				}, -- [6]
 				{
 					["type"] = 1,
 					["time"] = 1699559054,
@@ -2813,7 +2422,7 @@ WIM3_History = {
 					["msg"] = "fuck ey",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [26]
+				}, -- [7]
 				{
 					["type"] = 1,
 					["time"] = 1699559063,
@@ -2821,7 +2430,7 @@ WIM3_History = {
 					["msg"] = "Können wir pullen? oder warten",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [27]
+				}, -- [8]
 				{
 					["type"] = 1,
 					["time"] = 1699559092,
@@ -2829,7 +2438,7 @@ WIM3_History = {
 					["msg"] = "sek",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [28]
+				}, -- [9]
 				{
 					["type"] = 1,
 					["time"] = 1699559098,
@@ -2837,7 +2446,7 @@ WIM3_History = {
 					["msg"] = "ja pull",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [29]
+				}, -- [10]
 				{
 					["type"] = 1,
 					["time"] = 1699559425,
@@ -2845,7 +2454,7 @@ WIM3_History = {
 					["msg"] = "Gehts ?",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [30]
+				}, -- [11]
 				{
 					["type"] = 1,
 					["time"] = 1699559591,
@@ -2853,7 +2462,7 @@ WIM3_History = {
 					["msg"] = "das kabel liegt offen. hatte es geklebt, aber es fängt an zu stinken, wenn ich es dranmache",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [31]
+				}, -- [12]
 				{
 					["type"] = 1,
 					["time"] = 1699559596,
@@ -2861,7 +2470,7 @@ WIM3_History = {
 					["msg"] = "richtig behindert",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [32]
+				}, -- [13]
 				{
 					["type"] = 1,
 					["time"] = 1699559599,
@@ -2869,7 +2478,7 @@ WIM3_History = {
 					["msg"] = "Fuck das nicht gut",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [33]
+				}, -- [14]
 				{
 					["type"] = 1,
 					["time"] = 1699559608,
@@ -2877,7 +2486,7 @@ WIM3_History = {
 					["msg"] = "Mcahst du weiter solang geht oder sollen wir mino fragen",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [34]
+				}, -- [15]
 				{
 					["type"] = 1,
 					["time"] = 1699559613,
@@ -2885,7 +2494,7 @@ WIM3_History = {
 					["msg"] = "bzw irgendwen von der bench",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [35]
+				}, -- [16]
 				{
 					["type"] = 1,
 					["time"] = 1699559638,
@@ -2893,7 +2502,7 @@ WIM3_History = {
 					["msg"] = "Sonst porte erstmal her und wir machen ship das ist ja egal quasi",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [36]
+				}, -- [17]
 				{
 					["type"] = 1,
 					["time"] = 1699559704,
@@ -2901,7 +2510,7 @@ WIM3_History = {
 					["msg"] = "stelle mich eben hin",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [37]
+				}, -- [18]
 				{
 					["type"] = 1,
 					["time"] = 1699559707,
@@ -2909,7 +2518,7 @@ WIM3_History = {
 					["msg"] = "versuche weiter",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [38]
+				}, -- [19]
 				{
 					["type"] = 1,
 					["time"] = 1699560011,
@@ -2917,7 +2526,7 @@ WIM3_History = {
 					["msg"] = "UNd meinst es geht?",
 					["inbound"] = false,
 					["convo"] = "Domedonmaya",
-				}, -- [39]
+				}, -- [20]
 				{
 					["type"] = 1,
 					["time"] = 1699564046,
@@ -2925,7 +2534,7 @@ WIM3_History = {
 					["msg"] = "muss eben afk. sage bescheid sobald re",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [40]
+				}, -- [21]
 				{
 					["type"] = 1,
 					["time"] = 1699564052,
@@ -2933,7 +2542,7 @@ WIM3_History = {
 					["msg"] = "zur not 5 min break",
 					["inbound"] = true,
 					["convo"] = "Domedonmaya",
-				}, -- [41]
+				}, -- [22]
 				["info"] = {
 				},
 			},
@@ -3169,247 +2778,15 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Slimpyi"] = {
+			["Wîdi"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699125968,
-					["from"] = "Slimpyi",
+					["time"] = 1700162469,
+					["from"] = "Wîdi",
 					["msg"] = "inv",
 					["inbound"] = true,
-					["convo"] = "Slimpyi",
+					["convo"] = "Wîdi",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699129855,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
-					["inbound"] = false,
-					["convo"] = "Slimpyi",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699133328,
-					["from"] = "Slimpyi",
-					["msg"] = "mir bluten echt die finger ^^' fühl mich für jeden wipe irgendwie verantwortlich",
-					["inbound"] = true,
-					["convo"] = "Slimpyi",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699133335,
-					["from"] = "Alsia",
-					["msg"] = "nene ist nicht so das ist ein gruppen ding",
-					["inbound"] = false,
-					["convo"] = "Slimpyi",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699136866,
-					["from"] = "Slimpyi",
-					["msg"] = "nächste woche noch bisschen machen dann kann ich nebenbei auch weaven für dots",
-					["inbound"] = true,
-					["convo"] = "Slimpyi",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699136873,
-					["from"] = "Alsia",
-					["msg"] = "|Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
-					["inbound"] = false,
-					["convo"] = "Slimpyi",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699137470,
-					["from"] = "Slimpyi",
-					["msg"] = "morgen bekomm ich locker nochn dopamin rausch wenn ich seh was der große slimpy kann ^^",
-					["inbound"] = true,
-					["convo"] = "Slimpyi",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699137488,
-					["from"] = "Slimpyi",
-					["msg"] = "unnormal was 400-500g mittlerweile ausmachen",
-					["inbound"] = true,
-					["convo"] = "Slimpyi",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699137493,
-					["from"] = "Alsia",
-					["msg"] = "jo krass",
-					["inbound"] = false,
-					["convo"] = "Slimpyi",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1699137494,
-					["from"] = "Slimpyi",
-					["msg"] = "*gs",
-					["inbound"] = true,
-					["convo"] = "Slimpyi",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1699572687,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
-					["inbound"] = false,
-					["convo"] = "Slimpyi",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1699573032,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
-					["inbound"] = false,
-					["convo"] = "Slimpyi",
-				}, -- [12]
-				["info"] = {
-				},
-			},
-			["Gnag"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699127283,
-					["from"] = "Gnag",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Gnag",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Klassíc"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699570976,
-					["from"] = "Klassíc",
-					["msg"] = "ak10? Wenn ja, inv gerne",
-					["inbound"] = true,
-					["convo"] = "Klassíc",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699570992,
-					["from"] = "Alsia",
-					["msg"] = "pdok",
-					["inbound"] = false,
-					["convo"] = "Klassíc",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699572044,
-					["from"] = "Alsia",
-					["msg"] = "kommst mir?",
-					["inbound"] = false,
-					["convo"] = "Klassíc",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699572074,
-					["from"] = "Klassíc",
-					["msg"] = "dachte ak, hab mir verhört, sorry |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Klassíc",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699572081,
-					["from"] = "Alsia",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "Klassíc",
-				}, -- [5]
-				["info"] = {
-				},
-			},
-			["Running"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699137511,
-					["from"] = "Running",
-					["msg"] = "Hi Stream!",
-					["inbound"] = true,
-					["convo"] = "Running",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Liptea"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699557871,
-					["from"] = "Liptea",
-					["msg"] = "fürn trash kann ich doch afk meinen shadow hier rein packenoder? |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699557887,
-					["from"] = "Alsia",
-					["msg"] = "wegen mir",
-					["inbound"] = false,
-					["convo"] = "Liptea",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699557892,
-					["from"] = "Liptea",
-					["msg"] = "big",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699557903,
-					["from"] = "Liptea",
-					["msg"] = "pack ich den rein und geh fix eine rauchen",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699558976,
-					["from"] = "Liptea",
-					["msg"] = "ich mach schokadin, backup heal falls zu wenig kommt |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699558990,
-					["from"] = "Alsia",
-					["msg"] = "passt",
-					["inbound"] = false,
-					["convo"] = "Liptea",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699560113,
-					["from"] = "Liptea",
-					["msg"] = "ich mach vorne mit dmg? wenn frenzy kommt flamme und heile. wenn axel stirbt heil ich durch",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699560117,
-					["from"] = "Liptea",
-					["msg"] = "!",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699570160,
-					["from"] = "Liptea",
-					["msg"] = "im notfall soak ich spirits",
-					["inbound"] = true,
-					["convo"] = "Liptea",
-				}, -- [9]
 				["info"] = {
 				},
 			},
@@ -3454,26 +2831,6 @@ WIM3_History = {
 					["inbound"] = true,
 					["convo"] = "Rewve",
 				}, -- [5]
-				["info"] = {
-				},
-			},
-			["Jodifrosta"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699557585,
-					["from"] = "Jodifrosta",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Jodifrosta",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1700162662,
-					["from"] = "Jodifrosta",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Jodifrosta",
-				}, -- [2]
 				["info"] = {
 				},
 			},
@@ -3525,139 +2882,23 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Leitz"] = {
+			["Slimpyi"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699570835,
-					["from"] = "Leitz",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Leitz",
+					["time"] = 1699572687,
+					["from"] = "Alsia",
+					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
+					["inbound"] = false,
+					["convo"] = "Slimpyi",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1699570847,
+					["time"] = 1699573032,
 					["from"] = "Alsia",
-					["msg"] = "wie ist den nder gs vom rogue wollen echt fxi durch",
+					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
 					["inbound"] = false,
-					["convo"] = "Leitz",
+					["convo"] = "Slimpyi",
 				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699571414,
-					["from"] = "Alsia",
-					["msg"] = "?",
-					["inbound"] = false,
-					["convo"] = "Leitz",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699571418,
-					["from"] = "Leitz",
-					["msg"] = "?",
-					["inbound"] = true,
-					["convo"] = "Leitz",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699571451,
-					["from"] = "Alsia",
-					["msg"] = "Was hast du denn für GS und wie spielst du den Rogue, will einfach fir mit Mains durch weil wir den Pally von Axel durch hauen",
-					["inbound"] = false,
-					["convo"] = "Leitz",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699571480,
-					["from"] = "Leitz",
-					["msg"] = "5742",
-					["inbound"] = true,
-					["convo"] = "Leitz",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699571501,
-					["from"] = "Leitz",
-					["msg"] = "k.a mach meine 8-9k",
-					["inbound"] = true,
-					["convo"] = "Leitz",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699571504,
-					["from"] = "Leitz",
-					["msg"] = "kann aber auch rais",
-					["inbound"] = true,
-					["convo"] = "Leitz",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699571505,
-					["from"] = "Leitz",
-					["msg"] = "raus ",
-					["inbound"] = true,
-					["convo"] = "Leitz",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1699571508,
-					["from"] = "Leitz",
-					["msg"] = "mir egal",
-					["inbound"] = true,
-					["convo"] = "Leitz",
-				}, -- [10]
-				["info"] = {
-				},
-			},
-			["Vaccus"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699136617,
-					["from"] = "Vaccus",
-					["msg"] = "wie läufts bei euch",
-					["inbound"] = true,
-					["convo"] = "Vaccus",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699136617,
-					["from"] = "Alsia",
-					["msg"] = "<DBM> |cff1684d1Alsia|r ist damit beschäftigt gegen 10 Spieler (Heroisch) - Rat des Blutes zu kämpfen! (90% (0/3 Bosse getötet), 10/10 Spieler am Leben)",
-					["inbound"] = false,
-					["convo"] = "Vaccus",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699136618,
-					["from"] = "Vaccus",
-					["msg"] = "?",
-					["inbound"] = true,
-					["convo"] = "Vaccus",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699136817,
-					["from"] = "Alsia",
-					["msg"] = "<DBM> |cff1684d1Alsia|r hat 10 Spieler (Heroisch) - Rat des Blutes besiegt!",
-					["inbound"] = false,
-					["convo"] = "Vaccus",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699136817,
-					["from"] = "Vaccus",
-					["msg"] = "<DBM> |cffc41e3aVaccus|r ist damit beschäftigt gegen 10 Spieler (Heroisch) - Fauldarm zu kämpfen! (79%, 10/10 Spieler am Leben)",
-					["inbound"] = true,
-					["convo"] = "Vaccus",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699136919,
-					["from"] = "Vaccus",
-					["msg"] = "<DBM> |cffc41e3aVaccus|r war 10 Spieler (Heroisch) - Fauldarm bei 39% unterlegen.",
-					["inbound"] = true,
-					["convo"] = "Vaccus",
-				}, -- [6]
 				["info"] = {
 				},
 			},
@@ -3681,167 +2922,47 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Specializt"] = {
+			["Klassíc"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699048968,
-					["from"] = "Alsia",
-					["msg"] = "Lul |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t grp gefunden big",
-					["inbound"] = false,
-					["convo"] = "Specializt",
+					["time"] = 1699570976,
+					["from"] = "Klassíc",
+					["msg"] = "ak10? Wenn ja, inv gerne",
+					["inbound"] = true,
+					["convo"] = "Klassíc",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1699048976,
+					["time"] = 1699570992,
 					["from"] = "Alsia",
-					["msg"] = "Wie läuf senor enhance",
+					["msg"] = "pdok",
 					["inbound"] = false,
-					["convo"] = "Specializt",
+					["convo"] = "Klassíc",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1699048980,
+					["time"] = 1699572044,
 					["from"] = "Alsia",
-					["msg"] = "bin hyped auf morgen |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["msg"] = "kommst mir?",
 					["inbound"] = false,
-					["convo"] = "Specializt",
+					["convo"] = "Klassíc",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1699048987,
-					["from"] = "Specializt",
-					["msg"] = "gut, aber anstrengend",
+					["time"] = 1699572074,
+					["from"] = "Klassíc",
+					["msg"] = "dachte ak, hab mir verhört, sorry |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
 					["inbound"] = true,
-					["convo"] = "Specializt",
+					["convo"] = "Klassíc",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1699048990,
+					["time"] = 1699572081,
 					["from"] = "Alsia",
-					["msg"] = "Also unser reffen",
+					["msg"] = "kk",
 					["inbound"] = false,
-					["convo"] = "Specializt",
+					["convo"] = "Klassíc",
 				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699048993,
-					["from"] = "Alsia",
-					["msg"] = "reffen*",
-					["inbound"] = false,
-					["convo"] = "Specializt",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699048995,
-					["from"] = "Specializt",
-					["msg"] = "ja, orgen wird gut",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699049001,
-					["from"] = "Specializt",
-					["msg"] = "schade dass es heute nicht sein sollte",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699049005,
-					["from"] = "Alsia",
-					["msg"] = "Jaop",
-					["inbound"] = false,
-					["convo"] = "Specializt",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1699049012,
-					["from"] = "Alsia",
-					["msg"] = "Aber gerade erst on gekommen ohne hakki hätt ich nix",
-					["inbound"] = false,
-					["convo"] = "Specializt",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1699049046,
-					["from"] = "Specializt",
-					["msg"] = "saurfang 96 by bracket",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1699049096,
-					["from"] = "Alsia",
-					["msg"] = "big big",
-					["inbound"] = false,
-					["convo"] = "Specializt",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1699050997,
-					["from"] = "Specializt",
-					["msg"] = "und seid ihr drin?",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1699051169,
-					["from"] = "Alsia",
-					["msg"] = "Jo fehlt aber noch 1 heal",
-					["inbound"] = false,
-					["convo"] = "Specializt",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1699051179,
-					["from"] = "Specializt",
-					["msg"] = "gogogogo",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1699051185,
-					["from"] = "Alsia",
-					["msg"] = "jo ich hoffs",
-					["inbound"] = false,
-					["convo"] = "Specializt",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1699052054,
-					["from"] = "Specializt",
-					["msg"] = "11k",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1699052101,
-					["from"] = "Specializt",
-					["msg"] = "fc |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1699052404,
-					["from"] = "Specializt",
-					["msg"] = "|cffa335ee|Hitem:50028::::::::80:::::::::|h[Trauma]|h|r für 5k raus",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1699053015,
-					["from"] = "Specializt",
-					["msg"] = "immer noch nicht?",
-					["inbound"] = true,
-					["convo"] = "Specializt",
-				}, -- [20]
 				["info"] = {
 				},
 			},
@@ -4085,55 +3206,379 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Serferine"] = {
+			["Jodifrosta"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699127855,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
-					["inbound"] = false,
-					["convo"] = "Serferine",
+					["time"] = 1699557585,
+					["from"] = "Jodifrosta",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Jodifrosta",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1699128389,
-					["from"] = "Serferine",
-					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
+					["time"] = 1700162662,
+					["from"] = "Jodifrosta",
+					["msg"] = "inv",
 					["inbound"] = true,
-					["convo"] = "Serferine",
+					["convo"] = "Jodifrosta",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["Leitz"] = {
+				{
+					["type"] = 1,
+					["time"] = 1699570835,
+					["from"] = "Leitz",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Leitz",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1699570847,
+					["from"] = "Alsia",
+					["msg"] = "wie ist den nder gs vom rogue wollen echt fxi durch",
+					["inbound"] = false,
+					["convo"] = "Leitz",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1699138294,
+					["time"] = 1699571414,
 					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:6940:0|h[Hand der Aufopferung]|h|r",
+					["msg"] = "?",
 					["inbound"] = false,
-					["convo"] = "Serferine",
+					["convo"] = "Leitz",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1699139357,
-					["from"] = "Serferine",
-					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
+					["time"] = 1699571418,
+					["from"] = "Leitz",
+					["msg"] = "?",
 					["inbound"] = true,
-					["convo"] = "Serferine",
+					["convo"] = "Leitz",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1699141409,
+					["time"] = 1699571451,
 					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:1044:0|h[Hand der Freiheit]|h|r",
+					["msg"] = "Was hast du denn für GS und wie spielst du den Rogue, will einfach fir mit Mains durch weil wir den Pally von Axel durch hauen",
 					["inbound"] = false,
-					["convo"] = "Serferine",
+					["convo"] = "Leitz",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1699143809,
-					["from"] = "Serferine",
-					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
+					["time"] = 1699571480,
+					["from"] = "Leitz",
+					["msg"] = "5742",
 					["inbound"] = true,
-					["convo"] = "Serferine",
+					["convo"] = "Leitz",
 				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1699571501,
+					["from"] = "Leitz",
+					["msg"] = "k.a mach meine 8-9k",
+					["inbound"] = true,
+					["convo"] = "Leitz",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1699571504,
+					["from"] = "Leitz",
+					["msg"] = "kann aber auch rais",
+					["inbound"] = true,
+					["convo"] = "Leitz",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1699571505,
+					["from"] = "Leitz",
+					["msg"] = "raus ",
+					["inbound"] = true,
+					["convo"] = "Leitz",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1699571508,
+					["from"] = "Leitz",
+					["msg"] = "mir egal",
+					["inbound"] = true,
+					["convo"] = "Leitz",
+				}, -- [10]
+				["info"] = {
+				},
+			},
+			["Hakkî"] = {
+				{
+					["type"] = 1,
+					["time"] = 1699825159,
+					["from"] = "Hakkî",
+					["msg"] = "mein schami ist jetzt bei 6150 |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1699825302,
+					["from"] = "Alsia",
+					["msg"] = "WTF |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t was hast daniel jetzt gegeben?",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1699825302,
+					["from"] = "Hakkî",
+					["msg"] = "<DBM> |cffff7c0aHakkî|r ist damit beschäftigt gegen 10 Spieler - Blutkönigin Lana'thel zu kämpfen! (57%, 10/10 Spieler am Leben)",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1699825413,
+					["from"] = "Hakkî",
+					["msg"] = "<DBM> |cffff7c0aHakkî|r hat 10 Spieler - Blutkönigin Lana'thel besiegt!",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1699825450,
+					["from"] = "Hakkî",
+					["msg"] = "max ist so geil",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1699825513,
+					["from"] = "Alsia",
+					["msg"] = "why?",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1699825524,
+					["from"] = "Hakkî",
+					["msg"] = "haben nen hunter",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1699825528,
+					["from"] = "Hakkî",
+					["msg"] = "der sagt ersten biss verzögern",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1699825531,
+					["from"] = "Hakkî",
+					["msg"] = "falls du es nicht weißt",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1699825533,
+					["from"] = "Hakkî",
+					["msg"] = "dann weißt du es jetzt",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1699825535,
+					["from"] = "Hakkî",
+					["msg"] = "guck ich auf den",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1699825539,
+					["from"] = "Hakkî",
+					["msg"] = "ist der von Statement |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1700162328,
+					["from"] = "Hakkî",
+					["msg"] = "inv",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1700165215,
+					["from"] = "Hakkî",
+					["msg"] = "wo sieht man die ccs",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1700165339,
+					["from"] = "Hakkî",
+					["msg"] = "wo sieht man die wirbel im detailsß",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1700171463,
+					["from"] = "Hakkî",
+					["msg"] = "klassic ne 98",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1700171470,
+					["from"] = "Alsia",
+					["msg"] = "stark",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1700173153,
+					["from"] = "Hakkî",
+					["msg"] = "ehmmm ",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1700173156,
+					["from"] = "Hakkî",
+					["msg"] = "kurzer vorschlag",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1700173162,
+					["from"] = "Hakkî",
+					["msg"] = "wir haben bis dato 5 Bosse ",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1700173166,
+					["from"] = "Hakkî",
+					["msg"] = "wird für Sonntag extrem knackig",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1700173177,
+					["from"] = "Hakkî",
+					["msg"] = "wäre eig cool den noch flott u prof",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1700173181,
+					["from"] = "Hakkî",
+					["msg"] = "wegen vally hc",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1700173182,
+					["from"] = "Hakkî",
+					["msg"] = "rat blood",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1700173185,
+					["from"] = "Hakkî",
+					["msg"] = "ist alles viel zeit",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1700173190,
+					["from"] = "Alsia",
+					["msg"] = "Ja aber ich seh den machbar ehrlihc",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1700173201,
+					["from"] = "Hakkî",
+					["msg"] = "ja klar ist der machbar aber dafür wird sonntag LK nicht liegen",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1700173215,
+					["from"] = "Alsia",
+					["msg"] = "Doch wir machen halt Rat und BQ nicht hc",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1700173229,
+					["from"] = "Alsia",
+					["msg"] = "Wir schaffen ja nichmal proff bis 23:30",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1700173250,
+					["from"] = "Alsia",
+					["msg"] = "Glaub jetzt plan ändern wird nicht viel bringen sind 10 min",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1700173286,
+					["from"] = "Hakkî",
+					["msg"] = "ja ich sags dir ja nur |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ich sag dann nur ganz klar nächste Woche bei Vali nach 2 trys abfahrt u weiter",
+					["inbound"] = true,
+					["convo"] = "Hakkî",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1700173287,
+					["from"] = "Alsia",
+					["msg"] = "Also versteh was du meinst 100% aber LK schaffen wir sonntag safe",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1700173298,
+					["from"] = "Alsia",
+					["msg"] = "Ja müssen wir",
+					["inbound"] = false,
+					["convo"] = "Hakkî",
+				}, -- [33]
+				["info"] = {
+				},
+			},
+			["Serferine"] = {
 				{
 					["type"] = 1,
 					["time"] = 1699558887,
@@ -4141,7 +3586,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [7]
+				}, -- [1]
 				{
 					["type"] = 1,
 					["time"] = 1699561509,
@@ -4149,7 +3594,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [8]
+				}, -- [2]
 				{
 					["type"] = 1,
 					["time"] = 1699563416,
@@ -4157,7 +3602,7 @@ WIM3_History = {
 					["msg"] = "also wenn es wirklich bei 12 bleibt bleib ich gern",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [9]
+				}, -- [3]
 				{
 					["type"] = 1,
 					["time"] = 1699563428,
@@ -4165,7 +3610,7 @@ WIM3_History = {
 					["msg"] = "aber wenn dann noch ein try heisst und noch einer bin ich raus",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [10]
+				}, -- [4]
 				{
 					["type"] = 1,
 					["time"] = 1699563443,
@@ -4173,7 +3618,7 @@ WIM3_History = {
 					["msg"] = "passt ne 24 uhr dann ende",
 					["inbound"] = false,
 					["convo"] = "Serferine",
-				}, -- [11]
+				}, -- [5]
 				{
 					["type"] = 1,
 					["time"] = 1699563890,
@@ -4181,7 +3626,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [12]
+				}, -- [6]
 				{
 					["type"] = 1,
 					["time"] = 1699568504,
@@ -4189,7 +3634,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [13]
+				}, -- [7]
 				{
 					["type"] = 1,
 					["time"] = 1699569025,
@@ -4197,7 +3642,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [14]
+				}, -- [8]
 				{
 					["type"] = 1,
 					["time"] = 1699569548,
@@ -4205,7 +3650,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [15]
+				}, -- [9]
 				{
 					["type"] = 1,
 					["time"] = 1699569885,
@@ -4213,7 +3658,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [16]
+				}, -- [10]
 				{
 					["type"] = 1,
 					["time"] = 1700161686,
@@ -4221,7 +3666,7 @@ WIM3_History = {
 					["msg"] = "inv",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [17]
+				}, -- [11]
 				{
 					["type"] = 1,
 					["time"] = 1700163841,
@@ -4229,7 +3674,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [18]
+				}, -- [12]
 				{
 					["type"] = 1,
 					["time"] = 1700168800,
@@ -4237,7 +3682,7 @@ WIM3_History = {
 					["msg"] = "Use |cff71d5ff|Hspell:10060:0|h[Power Infusion]|h|r!",
 					["inbound"] = false,
 					["convo"] = "Serferine",
-				}, -- [19]
+				}, -- [13]
 				{
 					["type"] = 1,
 					["time"] = 1700168800,
@@ -4245,7 +3690,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:10060:0|h[Seele der Macht]|h|r is on CD for 22s",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [20]
+				}, -- [14]
 				{
 					["type"] = 1,
 					["time"] = 1700173119,
@@ -4253,7 +3698,7 @@ WIM3_History = {
 					["msg"] = "You've got |cff71d5ff|Hspell:33206:0|h[Schmerzunterdrückung]|h|r",
 					["inbound"] = true,
 					["convo"] = "Serferine",
-				}, -- [21]
+				}, -- [15]
 				["info"] = {
 				},
 			},
@@ -4273,402 +3718,6 @@ WIM3_History = {
 					["msg"] = "wenn ich Göttliches eingreifen machen soll sag es bitte auf deutsch komm bei den englsichen durcheinander",
 					["inbound"] = true,
 					["convo"] = "Shikimora",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["Hakkî"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699133436,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699139090,
-					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:10278:0|h[Hand des Schutzes]|h|r",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699139116,
-					["from"] = "Hakkî",
-					["msg"] = "der ist verliebt in diesen basti",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699139125,
-					["from"] = "Alsia",
-					["msg"] = "jo",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699825159,
-					["from"] = "Hakkî",
-					["msg"] = "mein schami ist jetzt bei 6150 |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699825302,
-					["from"] = "Alsia",
-					["msg"] = "WTF |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t was hast daniel jetzt gegeben?",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699825302,
-					["from"] = "Hakkî",
-					["msg"] = "<DBM> |cffff7c0aHakkî|r ist damit beschäftigt gegen 10 Spieler - Blutkönigin Lana'thel zu kämpfen! (57%, 10/10 Spieler am Leben)",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699825413,
-					["from"] = "Hakkî",
-					["msg"] = "<DBM> |cffff7c0aHakkî|r hat 10 Spieler - Blutkönigin Lana'thel besiegt!",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699825450,
-					["from"] = "Hakkî",
-					["msg"] = "max ist so geil",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1699825513,
-					["from"] = "Alsia",
-					["msg"] = "why?",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1699825524,
-					["from"] = "Hakkî",
-					["msg"] = "haben nen hunter",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1699825528,
-					["from"] = "Hakkî",
-					["msg"] = "der sagt ersten biss verzögern",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1699825531,
-					["from"] = "Hakkî",
-					["msg"] = "falls du es nicht weißt",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1699825533,
-					["from"] = "Hakkî",
-					["msg"] = "dann weißt du es jetzt",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1699825535,
-					["from"] = "Hakkî",
-					["msg"] = "guck ich auf den",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1699825539,
-					["from"] = "Hakkî",
-					["msg"] = "ist der von Statement |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1700162328,
-					["from"] = "Hakkî",
-					["msg"] = "inv",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1700165215,
-					["from"] = "Hakkî",
-					["msg"] = "wo sieht man die ccs",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1700165339,
-					["from"] = "Hakkî",
-					["msg"] = "wo sieht man die wirbel im detailsß",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1700171463,
-					["from"] = "Hakkî",
-					["msg"] = "klassic ne 98",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1700171470,
-					["from"] = "Alsia",
-					["msg"] = "stark",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1700173153,
-					["from"] = "Hakkî",
-					["msg"] = "ehmmm ",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1700173156,
-					["from"] = "Hakkî",
-					["msg"] = "kurzer vorschlag",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1700173162,
-					["from"] = "Hakkî",
-					["msg"] = "wir haben bis dato 5 Bosse ",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1700173166,
-					["from"] = "Hakkî",
-					["msg"] = "wird für Sonntag extrem knackig",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1700173177,
-					["from"] = "Hakkî",
-					["msg"] = "wäre eig cool den noch flott u prof",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1700173181,
-					["from"] = "Hakkî",
-					["msg"] = "wegen vally hc",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1700173182,
-					["from"] = "Hakkî",
-					["msg"] = "rat blood",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1700173185,
-					["from"] = "Hakkî",
-					["msg"] = "ist alles viel zeit",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1700173190,
-					["from"] = "Alsia",
-					["msg"] = "Ja aber ich seh den machbar ehrlihc",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1700173201,
-					["from"] = "Hakkî",
-					["msg"] = "ja klar ist der machbar aber dafür wird sonntag LK nicht liegen",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1700173215,
-					["from"] = "Alsia",
-					["msg"] = "Doch wir machen halt Rat und BQ nicht hc",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1700173229,
-					["from"] = "Alsia",
-					["msg"] = "Wir schaffen ja nichmal proff bis 23:30",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1700173250,
-					["from"] = "Alsia",
-					["msg"] = "Glaub jetzt plan ändern wird nicht viel bringen sind 10 min",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1700173286,
-					["from"] = "Hakkî",
-					["msg"] = "ja ich sags dir ja nur |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t ich sag dann nur ganz klar nächste Woche bei Vali nach 2 trys abfahrt u weiter",
-					["inbound"] = true,
-					["convo"] = "Hakkî",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1700173287,
-					["from"] = "Alsia",
-					["msg"] = "Also versteh was du meinst 100% aber LK schaffen wir sonntag safe",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1700173298,
-					["from"] = "Alsia",
-					["msg"] = "Ja müssen wir",
-					["inbound"] = false,
-					["convo"] = "Hakkî",
-				}, -- [37]
-				["info"] = {
-				},
-			},
-			["Xeeli"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699126161,
-					["from"] = "Alsia",
-					["msg"] = "Kommst dc? hast du kein PP drauf ? kanns nicht einstellen",
-					["inbound"] = false,
-					["convo"] = "Xeeli",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699134147,
-					["from"] = "Xeeli",
-					["msg"] = "ich find auch das net beide healer mit abstacken sollten",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699134156,
-					["from"] = "Xeeli",
-					["msg"] = "weil da kipt jedes mal dann nen tank^^",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1699134484,
-					["from"] = "Xeeli",
-					["msg"] = "finde wenn beide healer mit laufen beim stacken ",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1699134489,
-					["from"] = "Xeeli",
-					["msg"] = "fehlt viel heal auf tanks",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1699137152,
-					["from"] = "Xeeli",
-					["msg"] = "also das grid ballert mehr rein",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1699144730,
-					["from"] = "Xeeli",
-					["msg"] = "was lont sich noch zu boosten für die gilkde^^?",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1699144750,
-					["from"] = "Alsia",
-					["msg"] = "Joa |Helvmoji:%6qe|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t kommt drauf an kanns dir nicht sagen",
-					["inbound"] = false,
-					["convo"] = "Xeeli",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1699144763,
-					["from"] = "Xeeli",
-					["msg"] = "klingt gut^^",
-					["inbound"] = true,
-					["convo"] = "Xeeli",
-				}, -- [9]
-				["info"] = {
-				},
-			},
-			["Schetner"] = {
-				{
-					["type"] = 1,
-					["time"] = 1699558235,
-					["from"] = "Alsia",
-					["msg"] = "{rt7} RankSentinel detected |cff71d5ff|Hspell:8056:0|h[Frostschock]|h|r (Rank 1) was used, there's a newer rank at level 34. Your action bars may be outdated.",
-					["inbound"] = false,
-					["convo"] = "Schetner",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1699558247,
-					["from"] = "Schetner",
-					["msg"] = "extra wegen orbs ",
-					["inbound"] = true,
-					["convo"] = "Schetner",
 				}, -- [2]
 				["info"] = {
 				},
@@ -4741,31 +3790,23 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Vanec"] = {
+			["Schetner"] = {
 				{
 					["type"] = 1,
-					["time"] = 1699128945,
+					["time"] = 1699558235,
 					["from"] = "Alsia",
-					["msg"] = "You've got |cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r",
+					["msg"] = "{rt7} RankSentinel detected |cff71d5ff|Hspell:8056:0|h[Frostschock]|h|r (Rank 1) was used, there's a newer rank at level 34. Your action bars may be outdated.",
 					["inbound"] = false,
-					["convo"] = "Vanec",
+					["convo"] = "Schetner",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1699128945,
-					["from"] = "Vanec",
-					["msg"] = "Thanks for |cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r!",
+					["time"] = 1699558247,
+					["from"] = "Schetner",
+					["msg"] = "extra wegen orbs ",
 					["inbound"] = true,
-					["convo"] = "Vanec",
+					["convo"] = "Schetner",
 				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1699128945,
-					["from"] = "Alsia",
-					["msg"] = "|cff71d5ff|Hspell:1038:0|h[Hand der Erlösung]|h|r is on CD for 119s",
-					["inbound"] = false,
-					["convo"] = "Vanec",
-				}, -- [3]
 				["info"] = {
 				},
 			},
@@ -4829,15 +3870,79 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Wîdi"] = {
+			["Liptea"] = {
 				{
 					["type"] = 1,
-					["time"] = 1700162469,
-					["from"] = "Wîdi",
-					["msg"] = "inv",
+					["time"] = 1699557871,
+					["from"] = "Liptea",
+					["msg"] = "fürn trash kann ich doch afk meinen shadow hier rein packenoder? |Helvmoji:%4re|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Grin:16:16|t",
 					["inbound"] = true,
-					["convo"] = "Wîdi",
+					["convo"] = "Liptea",
 				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1699557887,
+					["from"] = "Alsia",
+					["msg"] = "wegen mir",
+					["inbound"] = false,
+					["convo"] = "Liptea",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1699557892,
+					["from"] = "Liptea",
+					["msg"] = "big",
+					["inbound"] = true,
+					["convo"] = "Liptea",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1699557903,
+					["from"] = "Liptea",
+					["msg"] = "pack ich den rein und geh fix eine rauchen",
+					["inbound"] = true,
+					["convo"] = "Liptea",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1699558976,
+					["from"] = "Liptea",
+					["msg"] = "ich mach schokadin, backup heal falls zu wenig kommt |Helvmoji:%8md|h|cFFffffff|r|h|TInterface\\AddOns\\ElvUI\\Core\\Media\\ChatEmojis\\Heart:16:16|t",
+					["inbound"] = true,
+					["convo"] = "Liptea",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1699558990,
+					["from"] = "Alsia",
+					["msg"] = "passt",
+					["inbound"] = false,
+					["convo"] = "Liptea",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1699560113,
+					["from"] = "Liptea",
+					["msg"] = "ich mach vorne mit dmg? wenn frenzy kommt flamme und heile. wenn axel stirbt heil ich durch",
+					["inbound"] = true,
+					["convo"] = "Liptea",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1699560117,
+					["from"] = "Liptea",
+					["msg"] = "!",
+					["inbound"] = true,
+					["convo"] = "Liptea",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1699570160,
+					["from"] = "Liptea",
+					["msg"] = "im notfall soak ich spirits",
+					["inbound"] = true,
+					["convo"] = "Liptea",
+				}, -- [9]
 				["info"] = {
 				},
 			},

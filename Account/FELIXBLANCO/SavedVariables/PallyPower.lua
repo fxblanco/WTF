@@ -13,26 +13,6 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["freeassign"] = true,
-			["buffscale"] = 0.75,
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["seal"] = 9,
-			["cBuffNeedAll"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
-			},
-			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
-			},
 			["cBuffGood"] = {
 				["r"] = 0.2,
 				["t"] = 0.6,
@@ -40,24 +20,6 @@ PallyPowerDB = {
 				["b"] = 0.2,
 			},
 			["skin"] = "ElvUI Blank",
-			["WrathTransition"] = true,
-			["display"] = {
-				["buffDuration"] = false,
-				["offsetY"] = -308.2001342773438,
-				["offsetX"] = -101.1990203857422,
-				["frameLocked"] = true,
-			},
-			["border"] = "None",
-			["enable"] = true,
-			["rf"] = true,
-		},
-		["Other"] = {
-			["cBuffGood"] = {
-				["r"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["b"] = 0.2,
-			},
 			["cBuffNeedAll"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
@@ -69,14 +31,52 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["seal"] = 9,
+			["display"] = {
+				["buffDuration"] = false,
+				["offsetX"] = -101.1990203857422,
+				["offsetY"] = -308.2001342773438,
+				["frameLocked"] = true,
+			},
+			["freeassign"] = true,
 			["enable"] = true,
-			["WrathTransition"] = true,
+			["border"] = "None",
 			["cBuffNeedSpecial"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["b"] = 0.5,
 			},
+			["WrathTransition"] = true,
+			["buffscale"] = 0.75,
+			["rf"] = true,
+		},
+		["Other"] = {
+			["cBuffNeedAll"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
+			["cBuffNeedSpecial"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
+			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["enable"] = true,
+			["WrathTransition"] = true,
 		},
 	},
 }
@@ -365,7 +365,7 @@ PallyPower_AuraAssignments = {
 	["Pabe"] = 0,
 	["Ehomera"] = 0,
 	["Cptowo"] = 0,
-	["Héimdall"] = 0,
+	["Harva"] = 5,
 	["Alasen"] = 0,
 	["Arthura"] = 0,
 	["Thorylon"] = 0,
@@ -421,7 +421,7 @@ PallyPower_AuraAssignments = {
 	["Bubbledîne"] = 5,
 	["Methhilde"] = 0,
 	["Awfultry"] = 0,
-	["Viphazz"] = 0,
+	["Gruffelo"] = 0,
 	["Výrgin"] = 0,
 	["Anuriellé"] = 0,
 	["Amayorie"] = 0,
@@ -431,7 +431,7 @@ PallyPower_AuraAssignments = {
 	["Sayo"] = 0,
 	["Banjabank"] = 0,
 	["Pendragonas"] = 0,
-	["Gruffelo"] = 0,
+	["Viphazz"] = 0,
 	["Zeolona"] = 0,
 	["Salvy"] = 0,
 	["Varnas"] = 0,
@@ -463,7 +463,7 @@ PallyPower_AuraAssignments = {
 	["Klêpzy"] = 6,
 	["Envvy"] = 0,
 	["Rakteron"] = 5,
-	["Harva"] = 5,
+	["Héimdall"] = 0,
 	["Testoschrank"] = 0,
 	["Metzuki-Gehennas"] = 1,
 	["Clauskinski"] = 3,
@@ -484,6 +484,7 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
+	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil

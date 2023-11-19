@@ -12,10 +12,10 @@ CliqueDB3 = {
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
 			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
 			["specswap"] = false,
+			["downclick"] = false,
+			["alerthidden"] = true,
+			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
