@@ -5,6 +5,9 @@ END
 VER 3 000000000000000F "buy" "134400"
 /script BuyMerchantItem(1,96)
 END
+VER 3 0000000000000016 "cancel_p" "134400"
+/cancelaura Demonic Pact
+END
 VER 3 0000000000000006 "focus" "132097"
 /focus
 END
@@ -18,14 +21,14 @@ VER 3 0000000000000014 "glove" "134400"
 #showtooltip 10
 /use 10
 /use 14
-/cast Kochendes Blut(Volk)
+/cast Blood Fury(Racial)
 END
 VER 3 0000000000000010 "lock" "134400"
 #showtooltip Zaubersperre
 /cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
 END
 VER 3 000000000000000E "PI" "135939"
-/w Longling PI PLS!
+/w Sleepychí PI PLS!
 END
 VER 3 0000000000000015 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
