@@ -357,8 +357,8 @@ ElvDB = {
 				["fontOutline"] = "OUTLINE",
 				["enableCombatRepeat"] = false,
 				["editboxHistorySize"] = 5,
-				["hideChatToggles"] = true,
 				["timeStampLocalTime"] = true,
+				["maxLines"] = 500,
 				["desaturateVoiceIcons"] = false,
 				["numScrollMessages"] = 2,
 				["throttleInterval"] = 0,
@@ -376,7 +376,7 @@ ElvDB = {
 				["tabSelector"] = "NONE",
 				["fadeTabsNoBackdrop"] = false,
 				["keywords"] = "%MYNAME%",
-				["maxLines"] = 500,
+				["hideChatToggles"] = true,
 				["panelWidth"] = 414,
 			},
 			["dbConverted"] = 13.31,
@@ -1351,10 +1351,10 @@ ElvDB = {
 					["countFontOutline"] = "OUTLINE",
 					["macroTextPosition"] = "BOTTOM",
 					["hotkeyFontOutline"] = "OUTLINE",
-					["hotkeyFontSize"] = 9,
-					["hotkeyTextYOffset"] = -1,
 					["buttonsPerRow"] = 12,
+					["hotkeyTextYOffset"] = -1,
 					["macroTextYOffset"] = 1,
+					["hotkeyFontSize"] = 9,
 					["buttonSize"] = 30,
 				},
 				["bar6"] = {
@@ -1614,13 +1614,11 @@ ElvDB = {
 				},
 				["units"] = {
 					["FRIENDLY_PLAYER"] = {
-						["health"] = {
-							["text"] = {
-								["format"] = "[luckyone:health:percent]",
-							},
-						},
 						["title"] = {
 							["enable"] = true,
+							["font"] = "Expressway",
+						},
+						["name"] = {
 							["font"] = "Expressway",
 						},
 						["markTanks"] = false,
@@ -1629,8 +1627,10 @@ ElvDB = {
 						["raidTargetIndicator"] = {
 							["size"] = 20,
 						},
-						["name"] = {
-							["font"] = "Expressway",
+						["health"] = {
+							["text"] = {
+								["format"] = "[luckyone:health:percent]",
+							},
 						},
 					},
 					["TARGET"] = {
@@ -2038,11 +2038,11 @@ ElvDB = {
 				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-1,95",
 				["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,391",
 				["ElvUF_PartyMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,360,-360",
+				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-278,300",
 				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,140",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,141",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,410",
 				["DTPanelLuckyone_MiniMap_DTMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-46,-141",
-				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,300",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,252",
 				["TooltipMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,0,102",
 				["DurabilityFrameMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-1,-184",
 				["UIErrorsFrameMover"] = "TOP,ElvUIParent,TOP,0,-117",
@@ -2050,7 +2050,7 @@ ElvDB = {
 				["BossBannerMover"] = "TOP,ElvUIParent,TOP,0,-199",
 				["ExperienceBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,416,1",
 				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,281",
-				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,252",
+				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,1,140",
 				["ElvAB_6"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,1,517",
 				["TopCenterContainerMover"] = "TOP,ElvUIParent,TOP,0,-39",
 				["VOICECHAT"] = "TOPLEFT,ElvUIParent,TOPLEFT,1,-28",
@@ -2075,9 +2075,9 @@ ElvDB = {
 				["DTPanelLuckyone_ActionBars_DTMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,1",
 				["ArenaHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-300,-210",
 				["ElvAB_10"] = "TOPLEFT,ElvUIParent,TOPLEFT,1,-429",
-				["ElvUIBankMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,1,140",
+				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,278,300",
 				["BossHeaderMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-250,-240",
-				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-278,300",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,141",
 				["ElvAB_7"] = "TOPLEFT,ElvUIParent,TOPLEFT,1,-510",
 				["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,1",
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,0,-178",
@@ -2200,22 +2200,22 @@ ElvDB = {
 						["g"] = 0,
 						["b"] = 0,
 					},
-					["tapped"] = {
-						["g"] = 0.56,
-						["r"] = 0.54,
-					},
+					["useDeadBackdrop"] = true,
 					["health"] = {
 						["r"] = 0.05,
 						["g"] = 0.05,
 						["b"] = 0.05,
 					},
 					["transparentHealth"] = true,
+					["tapped"] = {
+						["g"] = 0.56,
+						["r"] = 0.54,
+					},
 					["health_backdrop"] = {
 						["r"] = 0.54,
 						["g"] = 0.56,
 						["b"] = 0.61,
 					},
-					["useDeadBackdrop"] = true,
 					["healthMultiplier"] = 0.75,
 					["health_backdrop_dead"] = {
 						["r"] = 1,
@@ -3298,12 +3298,12 @@ ElvDB = {
 				["countTextPosition"] = "BOTTOM",
 				["microbar"] = {
 					["enabled"] = true,
-					["buttonSize"] = 18,
 					["useIcons"] = false,
+					["buttons"] = 10,
 					["buttonHeight"] = 26,
 					["buttonSpacing"] = 1,
 					["mouseover"] = true,
-					["buttons"] = 10,
+					["buttonSize"] = 18,
 				},
 				["bar2"] = {
 					["countFontSize"] = 9,
@@ -3650,12 +3650,11 @@ ElvDB = {
 						},
 					},
 					["FRIENDLY_PLAYER"] = {
-						["health"] = {
-							["text"] = {
-								["format"] = "[luckyone:health:percent]",
-							},
-						},
 						["name"] = {
+							["font"] = "Expressway",
+						},
+						["title"] = {
+							["enable"] = true,
 							["font"] = "Expressway",
 						},
 						["raidTargetIndicator"] = {
@@ -3664,9 +3663,10 @@ ElvDB = {
 						["markHealers"] = false,
 						["nameOnly"] = true,
 						["markTanks"] = false,
-						["title"] = {
-							["enable"] = true,
-							["font"] = "Expressway",
+						["health"] = {
+							["text"] = {
+								["format"] = "[luckyone:health:percent]",
+							},
 						},
 					},
 				},
@@ -3718,15 +3718,15 @@ ElvDB = {
 				["bankWidth"] = 414,
 				["countFontOutline"] = "OUTLINE",
 				["bankSize"] = 30,
-				["itemLevelFontOutline"] = "OUTLINE",
-				["upgradeIcon"] = false,
 				["transparent"] = true,
+				["upgradeIcon"] = false,
+				["moneyFormat"] = "FULL",
 				["itemInfoFont"] = "Expressway",
 				["vendorGrays"] = {
 					["enable"] = true,
 					["interval"] = 0.1,
 				},
-				["moneyFormat"] = "FULL",
+				["itemLevelFontOutline"] = "OUTLINE",
 				["specialtyColors"] = false,
 			},
 			["cooldown"] = {
@@ -3966,8 +3966,8 @@ ElvDB = {
 				["fontOutline"] = "OUTLINE",
 				["enableCombatRepeat"] = false,
 				["editboxHistorySize"] = 5,
-				["hideChatToggles"] = true,
 				["maxLines"] = 500,
+				["timeStampLocalTime"] = true,
 				["desaturateVoiceIcons"] = false,
 				["keywords"] = "%MYNAME%",
 				["numScrollMessages"] = 2,
@@ -3985,7 +3985,7 @@ ElvDB = {
 				["tabFontSize"] = 10,
 				["fadeTabsNoBackdrop"] = false,
 				["throttleInterval"] = 0,
-				["timeStampLocalTime"] = true,
+				["hideChatToggles"] = true,
 				["panelWidth"] = 414,
 			},
 			["auras"] = {
@@ -4989,10 +4989,10 @@ ElvDB = {
 					["countFontOutline"] = "OUTLINE",
 					["macroTextPosition"] = "BOTTOM",
 					["buttonSize"] = 30,
-					["macroTextYOffset"] = 1,
-					["hotkeyTextYOffset"] = -1,
 					["buttonsPerRow"] = 12,
+					["hotkeyTextYOffset"] = -1,
 					["hotkeyFontSize"] = 9,
+					["macroTextYOffset"] = 1,
 					["hotkeyFont"] = "Expressway",
 				},
 				["bar6"] = {
@@ -5251,13 +5251,11 @@ ElvDB = {
 				},
 				["units"] = {
 					["FRIENDLY_PLAYER"] = {
-						["health"] = {
-							["text"] = {
-								["format"] = "[luckyone:health:percent]",
-							},
-						},
 						["title"] = {
 							["enable"] = true,
+							["font"] = "Expressway",
+						},
+						["name"] = {
 							["font"] = "Expressway",
 						},
 						["raidTargetIndicator"] = {
@@ -5266,8 +5264,10 @@ ElvDB = {
 						["markHealers"] = false,
 						["nameOnly"] = true,
 						["markTanks"] = false,
-						["name"] = {
-							["font"] = "Expressway",
+						["health"] = {
+							["text"] = {
+								["format"] = "[luckyone:health:percent]",
+							},
 						},
 					},
 					["TARGET"] = {
@@ -5898,23 +5898,6 @@ ElvDB = {
 					},
 				},
 				["units"] = {
-					["party"] = {
-						["targetsGroup"] = {
-							["disableFocusGlow"] = false,
-							["disableMouseoverGlow"] = false,
-							["disableTargetGlow"] = false,
-						},
-						["power"] = {
-							["height"] = 13,
-						},
-						["height"] = 74,
-						["petsGroup"] = {
-							["disableFocusGlow"] = false,
-							["disableTargetGlow"] = false,
-							["disableMouseoverGlow"] = false,
-						},
-						["width"] = 231,
-					},
 					["boss"] = {
 						["infoPanel"] = {
 							["height"] = 17,
@@ -5934,6 +5917,31 @@ ElvDB = {
 							["yOffset"] = 16,
 						},
 						["width"] = 246,
+					},
+					["player"] = {
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["height"] = 22,
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+						},
+						["castbar"] = {
+							["height"] = 40,
+							["insideInfoPanel"] = false,
+							["width"] = 405,
+						},
+						["height"] = 82,
+						["healPrediction"] = {
+							["showOverAbsorbs"] = false,
+						},
+						["classbar"] = {
+							["height"] = 14,
+						},
+						["disableMouseoverGlow"] = true,
 					},
 					["raid1"] = {
 						["infoPanel"] = {
@@ -6023,30 +6031,22 @@ ElvDB = {
 							["yOffset"] = 0,
 						},
 					},
-					["player"] = {
-						["infoPanel"] = {
-							["enable"] = true,
+					["party"] = {
+						["targetsGroup"] = {
+							["disableFocusGlow"] = false,
+							["disableMouseoverGlow"] = false,
+							["disableTargetGlow"] = false,
 						},
 						["power"] = {
-							["attachTextTo"] = "InfoPanel",
-							["height"] = 22,
+							["height"] = 13,
 						},
-						["health"] = {
-							["attachTextTo"] = "InfoPanel",
+						["height"] = 74,
+						["petsGroup"] = {
+							["disableFocusGlow"] = false,
+							["disableTargetGlow"] = false,
+							["disableMouseoverGlow"] = false,
 						},
-						["castbar"] = {
-							["height"] = 40,
-							["insideInfoPanel"] = false,
-							["width"] = 405,
-						},
-						["height"] = 82,
-						["healPrediction"] = {
-							["showOverAbsorbs"] = false,
-						},
-						["classbar"] = {
-							["height"] = 14,
-						},
-						["disableMouseoverGlow"] = true,
+						["width"] = 231,
 					},
 				},
 			},
@@ -7416,7 +7416,6 @@ ElvDB = {
 					["hotkeyTextYOffset"] = -1,
 					["hotkeyFontSize"] = 9,
 					["countFontSize"] = 9,
-					["hotkeyFont"] = "Expressway",
 					["point"] = "TOPLEFT",
 					["macroFontSize"] = 9,
 					["macroFontOutline"] = "OUTLINE",
@@ -7426,6 +7425,7 @@ ElvDB = {
 					["alpha"] = 0.2,
 					["countFontOutline"] = "OUTLINE",
 					["buttonSpacing"] = 1,
+					["hotkeyFont"] = "Expressway",
 					["macroTextYOffset"] = 1,
 					["hotkeyFontOutline"] = "OUTLINE",
 					["buttons"] = 8,
@@ -7553,7 +7553,6 @@ ElvDB = {
 					["hotkeyTextYOffset"] = -1,
 					["hotkeyFontSize"] = 9,
 					["countFontSize"] = 9,
-					["hotkeyFontOutline"] = "OUTLINE",
 					["point"] = "TOPLEFT",
 					["macroFontSize"] = 9,
 					["macroFontOutline"] = "OUTLINE",
@@ -7563,6 +7562,7 @@ ElvDB = {
 					["alpha"] = 0.2,
 					["countFontOutline"] = "OUTLINE",
 					["buttonSpacing"] = 1,
+					["hotkeyFontOutline"] = "OUTLINE",
 					["macroTextYOffset"] = 1,
 					["hotkeyFont"] = "Expressway",
 					["buttonSize"] = 29,
@@ -7876,6 +7876,7 @@ ElvDB = {
 				["secondsColor"] = {
 					["b"] = 1,
 				},
+				["threshold"] = 5,
 				["fonts"] = {
 					["font"] = "Expressway",
 					["fontSize"] = 12,
@@ -7884,7 +7885,6 @@ ElvDB = {
 					["g"] = 0,
 					["b"] = 0,
 				},
-				["threshold"] = 5,
 				["hoursIndicator"] = {
 					["r"] = 0.4,
 				},

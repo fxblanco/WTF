@@ -197,12 +197,13 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
+					["key"] = "CTRL-BUTTON1",
+					["spell"] = "Hand of Protection",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136106,
-					["spell"] = "Divine Intervention",
+					["icon"] = 135964,
+					["spellSubName"] = "Rank 3",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -224,22 +225,22 @@ CliqueDB3 = {
 				}, -- [4]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand of Protection",
+					["key"] = "CTRL-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
-					["spellSubName"] = "Rank 3",
+					["icon"] = 136106,
+					["spell"] = "Divine Intervention",
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON4",
+					["key"] = "BUTTON2",
+					["spell"] = "Holy Light",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135953,
-					["spell"] = "Cleanse",
+					["icon"] = 135920,
+					["spellSubName"] = "Rank 13",
 				}, -- [6]
 				{
 					["type"] = "spell",
@@ -262,13 +263,12 @@ CliqueDB3 = {
 				}, -- [8]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Holy Light",
+					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135920,
-					["spellSubName"] = "Rank 13",
+					["icon"] = 135953,
+					["spell"] = "Cleanse",
 				}, -- [9]
 				{
 					["type"] = "spell",
