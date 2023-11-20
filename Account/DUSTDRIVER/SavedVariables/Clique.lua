@@ -4,19 +4,19 @@ CliqueDB3 = {
 	["char"] = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["specswap"] = false,
-			["downclick"] = false,
 			["fastooc"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
 			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["specswap"] = false,
 		},
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
+			["spec2_profileKey"] = "Maturitass - Venoxis",
+			["downclick"] = false,
 			["fastooc"] = false,
 			["alerthidden"] = true,
-			["downclick"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
 		},
 	},
 	["profileKeys"] = {
@@ -120,52 +120,13 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136048,
-					["spell"] = "Anregen",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["spell"] = "Wiedergeburt",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136080,
-					["spellSubName"] = "Rang 7",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spell"] = "Verjüngung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136081,
-					["spellSubName"] = "Rang 15",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Nachwachsen",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136085,
-					["spellSubName"] = "Rang 12",
-				}, -- [6]
-				{
-					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135952,
 					["spell"] = "Fluch aufheben",
-				}, -- [7]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -174,6 +135,45 @@ CliqueDB3 = {
 					},
 					["icon"] = 136067,
 					["spell"] = "Vergiftung heilen",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spell"] = "Regrowth",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136085,
+					["spellSubName"] = "Rank 12",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136048,
+					["spell"] = "Innervate",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["spell"] = "Rebirth",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136080,
+					["spellSubName"] = "Rank 7",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spell"] = "Rejuvenation",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136081,
+					["spellSubName"] = "Rank 15",
 				}, -- [8]
 			},
 		},

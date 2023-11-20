@@ -13,7 +13,12 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["buffscale"] = 0.75,
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -35,48 +40,43 @@ PallyPowerDB = {
 			["freeassign"] = true,
 			["enable"] = true,
 			["border"] = "None",
+			["WrathTransition"] = true,
+			["skin"] = "ElvUI Blank",
+			["buffscale"] = 0.75,
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["skin"] = "ElvUI Blank",
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
-			["WrathTransition"] = true,
 			["rf"] = true,
 		},
 		["Other"] = {
+			["WrathTransition"] = true,
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["WrathTransition"] = true,
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["enable"] = true,
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["cBuffGood"] = {
+				["b"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["r"] = 0.2,
+			},
+			["enable"] = true,
 		},
 	},
 }
@@ -142,15 +142,15 @@ PallyPower_Assignments = {
 		0, -- [10]
 	},
 	["Harva"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		0, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
+		2, -- [1]
+		2, -- [2]
+		0, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		0, -- [7]
+		0, -- [8]
+		2, -- [9]
 		2, -- [10]
 	},
 	["Bubbledîne"] = {
@@ -166,16 +166,16 @@ PallyPower_Assignments = {
 		2, -- [10]
 	},
 	["Shikimora"] = {
-		2, -- [1]
-		2, -- [2]
-		0, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		0, -- [7]
-		0, -- [8]
-		2, -- [9]
-		2, -- [10]
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -198,7 +198,7 @@ PallyPower_AuraAssignments = {
 	["Claisn"] = 0,
 	["Yaalol"] = 0,
 	["Holyshiad"] = 0,
-	["Bremskyle"] = 5,
+	["Bremskyle"] = 6,
 	["Invictús"] = 0,
 	["Deoka"] = 0,
 	["Uhter"] = 0,
@@ -269,7 +269,7 @@ PallyPower_AuraAssignments = {
 	["Nimuxtt"] = 0,
 	["Flottiloleh"] = 0,
 	["Arryl"] = 0,
-	["Dánáá"] = 3,
+	["Dánáá"] = 7,
 	["Gretah"] = 0,
 	["Annidina"] = 0,
 	["Holyjuice"] = 0,
@@ -358,7 +358,7 @@ PallyPower_AuraAssignments = {
 	["Clauskinski"] = 3,
 	["Metzuki-Gehennas"] = 1,
 	["Testoschrank"] = 0,
-	["Harva"] = 5,
+	["Harva"] = 6,
 	["Lakawara"] = 0,
 	["Skypro"] = 0,
 	["Palishi"] = 0,
@@ -450,7 +450,7 @@ PallyPower_AuraAssignments = {
 	["Paladana"] = 0,
 	["Beautypally"] = 0,
 	["Prokain"] = 0,
-	["Shikimora"] = 2,
+	["Shikimora"] = 6,
 	["Shorakxkx"] = 0,
 	["Kawaiiteen"] = 0,
 	["Wâshed"] = 0,

@@ -53,6 +53,7 @@ PallyPower_NormalAssignments = {
 PallyPower_AuraAssignments = {
 	["Alsia"] = 1,
 	["Spaltkyle"] = 1,
+	["Bánu"] = 1,
 	["Highlightz"] = 2,
 	["Beesportz"] = 2,
 	["Diggii"] = 1,

@@ -10,31 +10,32 @@ DataStore_CurrenciesDB = {
 			["Default.Venoxis.Maturitass"] = {
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|13|2711", -- [2]
-					"1|Emblem of Conquest|30|221", -- [3]
-					"1|Emblem of Frost|94|341", -- [4]
-					"1|Emblem of Heroism|0|101", -- [5]
-					"1|Emblem of Triumph|41|301", -- [6]
-					"1|Sidereal Essence|3|2589", -- [7]
-					"0|Miscellaneous", -- [8]
-					"1|Champion's Seal|6|241", -- [9]
-					"0|Player vs. Player", -- [10]
-					"1|Honor Points|14704|1901", -- [11]
-					"1|Stone Keeper's Shard|136|161", -- [12]
-					"1|Venture Coin|44|201", -- [13]
+					"1|Defiler's Scourgestone|15|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|105|341", -- [4]
+					"1|Emblem of Heroism|13|101", -- [5]
+					"1|Emblem of Triumph|0|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|3|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|6|241", -- [10]
+					"0|Player vs. Player", -- [11]
+					"1|Honor Points|14704|1901", -- [12]
+					"1|Stone Keeper's Shard|144|161", -- [13]
+					"1|Venture Coin|44|201", -- [14]
 				},
-				["lastUpdate"] = 1700144300,
+				["lastUpdate"] = 1700439119,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1700143903,
+				["lastUpdate"] = 1700440072,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|21|2711", -- [2]
 					"1|Emblem of Conquest|23|221", -- [3]
-					"1|Emblem of Frost|44|341", -- [4]
+					"1|Emblem of Frost|46|341", -- [4]
 					"1|Emblem of Heroism|6|101", -- [5]
 					"1|Emblem of Triumph|26|301", -- [6]
 					"1|Sidereal Essence|3|2589", -- [7]
