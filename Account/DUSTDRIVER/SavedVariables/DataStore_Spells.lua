@@ -8,7 +8,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1700439119,
+				["lastUpdate"] = 1700518482,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -194,7 +194,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1700440072,
+				["lastUpdate"] = 1700518643,
 				["Spells"] = {
 					["Waffen"] = {
 						"47502|Rang 9", -- [1]
@@ -231,21 +231,14 @@ DataStore_SpellsDB = {
 					},
 					["General"] = {
 						"6603|", -- [1]
-						"3538|Expert", -- [2]
-						"107|Passive", -- [3]
-						"54197|Passive", -- [4]
-						"20552|Racial Passive", -- [5]
-						"81|Passive", -- [6]
-						"674|Passive", -- [7]
-						"20550|Racial Passive", -- [8]
-						"51306|Grand Master", -- [9]
-						"10846|Artisan", -- [10]
-						"20222|", -- [11]
-						"20551|Racial Passive", -- [12]
-						"3127|Passive", -- [13]
-						"3018|", -- [14]
-						"2764|", -- [15]
-						"20549|Racial", -- [16]
+						"54197|Passive", -- [2]
+						"20552|Racial Passive", -- [3]
+						"81|Passive", -- [4]
+						"20550|Racial Passive", -- [5]
+						"51306|Grand Master", -- [6]
+						"20222|", -- [7]
+						"20551|Racial Passive", -- [8]
+						"20549|Racial", -- [9]
 					},
 					["Protection"] = {
 						"2687|", -- [1]

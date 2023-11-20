@@ -8,9 +8,32 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["HistoryLastUpdate"] = 1700439119,
-				["lastUpdate"] = 1700439119,
-				["HistorySize"] = 1094,
+				["lastUpdate"] = 1700518482,
+				["HistorySize"] = 1096,
+				["QuestHeaders"] = {
+					"Pit of Saron", -- [1]
+					"Tanaris", -- [2]
+					"Druid", -- [3]
+				},
+				["HistoryLastUpdate"] = 1700518584,
+				["QuestLinks"] = {
+					"|cffffff00|Hquest:24682:80|h[The Pit of Saron]|h|r", -- [1]
+					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [2]
+					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [3]
+				},
+				["Money"] = {
+					52000, -- [1]
+					10900, -- [2]
+					780, -- [3]
+				},
+				["QuestTitles"] = {
+					"The Pit of Saron", -- [1]
+					"The Thirsty Goblin", -- [2]
+					"Morthis Whisperwing", -- [3]
+				},
+				["QuestTags"] = {
+					81, -- [1]
+				},
 				["History"] = {
 					4227858432, -- [1]
 					[365] = 4236376539,
@@ -56,8 +79,10 @@ DataStore_QuestsDB = {
 					[319] = 3934344321,
 					[323] = 536871008,
 					[327] = 4709376,
+					[2462] = 2,
 					[335] = 8192,
 					[339] = 2244739073,
+					[2461] = 1,
 					[2007] = 33554432,
 					[188] = 393216,
 					[766] = 2148007936,
@@ -89,13 +114,13 @@ DataStore_QuestsDB = {
 					[386] = 1920,
 					[411] = 2655268,
 					[340] = 4264632339,
-					[192] = 523776,
-					[384] = 679907322,
 					[114] = 176300032,
 					[2002] = 2151661646,
-					[293] = 3561099427,
-					[364] = 3758030751,
+					[192] = 523776,
 					[111] = 64,
+					[384] = 679907322,
+					[364] = 3758030751,
+					[305] = 17336444,
 					[372] = 502633168,
 					[376] = 4093848545,
 					[380] = 33543006,
@@ -108,8 +133,8 @@ DataStore_QuestsDB = {
 					[408] = 4231106561,
 					[412] = 32,
 					[416] = 268443648,
+					[293] = 3561099427,
 					[420] = 3082,
-					[305] = 17336444,
 					[301] = 256,
 					[432] = 32768,
 					[309] = 68255727,
@@ -125,17 +150,24 @@ DataStore_QuestsDB = {
 					[769] = 32760,
 					[9] = 65536,
 				},
-				["QuestHeaders"] = {
-					"Pit of Saron", -- [1]
-					"Tanaris", -- [2]
-					"Druid", -- [3]
-				},
 				["HistoryBuild"] = "51943",
+				["Quests"] = {
+					5244992, -- [1]
+					3215424, -- [2]
+					4593728, -- [3]
+				},
 			},
 			["Default.Venoxis.Recombinase"] = {
-				["HistoryLastUpdate"] = 1699529505,
 				["lastUpdate"] = 1699529504,
 				["HistorySize"] = 122,
+				["HistoryBuild"] = "51943",
+				["HistoryLastUpdate"] = 1699529505,
+				["QuestHeaders"] = {
+					"Brachland", -- [1]
+					"Kral der Klingenhauer", -- [2]
+					"Orgrimmar", -- [3]
+					"Steinkrallengebirge", -- [4]
+				},
 				["History"] = {
 					256, -- [1]
 					[27] = 12399904,
@@ -173,18 +205,28 @@ DataStore_QuestsDB = {
 					[31] = 4,
 					[34] = 16,
 				},
-				["QuestHeaders"] = {
-					"Brachland", -- [1]
-					"Kral der Klingenhauer", -- [2]
-					"Orgrimmar", -- [3]
-					"Steinkrallengebirge", -- [4]
-				},
-				["HistoryBuild"] = "51943",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["HistoryLastUpdate"] = 1700439079,
 				["HistoryBuild"] = "51943",
 				["HistorySize"] = 827,
+				["QuestHeaders"] = {
+					"Pit of Saron", -- [1]
+					"Naxxramas", -- [2]
+					"Caverns of Time", -- [3]
+				},
+				["HistoryLastUpdate"] = 1700439156,
+				["Money"] = {
+					560600, -- [1]
+					296000, -- [2]
+				},
+				["QuestTitles"] = {
+					"Deliverance from the Pit", -- [1]
+					"Instructor Razuvious Must Die!", -- [2]
+				},
+				["QuestTags"] = {
+					81, -- [1]
+					62, -- [2]
+				},
 				["History"] = {
 					33554436, -- [1]
 					[33] = 33554432,
@@ -329,11 +371,10 @@ DataStore_QuestsDB = {
 					[28] = 3184518642,
 					[789] = 8388608,
 				},
-				["lastUpdate"] = 1700439078,
-				["QuestHeaders"] = {
-					"Caverns of Time", -- [1]
-					"Naxxramas", -- [2]
-					"Pit of Saron", -- [3]
+				["lastUpdate"] = 1700440072,
+				["Quests"] = {
+					5244993, -- [1]
+					5247040, -- [2]
 				},
 			},
 		},

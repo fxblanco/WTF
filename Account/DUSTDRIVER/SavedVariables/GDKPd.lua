@@ -115,5 +115,4 @@ GDKPd_PotData = {
 	["prevDist"] = 62555,
 }
 GDKPd_BalanceData = {
-	["Bloodwall"] = -6255,
 }
