@@ -11,9 +11,10 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["timerSwipe"] = true,
-			["trackNPCs"] = true,
+			["timerText"] = true,
 			["timerColors"] = false,
+			["timerSwipe"] = true,
+			["announceDRs"] = false,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -147,21 +148,20 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["categoryTextMaxLines"] = 2,
 			["border"] = {
 				["layer"] = "BORDER",
 				["edgeSize"] = 2.5,
 				["name"] = "Default",
 				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
 			},
-			["announceDRs"] = false,
+			["timerEdge"] = true,
 			["showCategoryText"] = true,
 			["timerStartAuraEnd"] = false,
 			["version"] = "1.11",
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["timerText"] = true,
-			["timerEdge"] = true,
+			["trackNPCs"] = true,
+			["categoryTextMaxLines"] = 2,
 			["categoryFont"] = {
 				["x"] = 0,
 				["size"] = 11,

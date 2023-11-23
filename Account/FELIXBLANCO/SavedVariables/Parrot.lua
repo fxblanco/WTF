@@ -144,9 +144,6 @@ ParrotDB = {
 						["Pet buff fades"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
-							["disabled"] = true,
-						},
 						["Loot money"] = {
 							["disabled"] = true,
 						},
@@ -158,6 +155,9 @@ ParrotDB = {
 						},
 						["Skill gains"] = {
 							["disabled"] = true,
+						},
+						["Loot items"] = {
+							["disabled"] = false,
 						},
 						["NPC killing blows"] = {
 							["disabled"] = true,
@@ -177,8 +177,8 @@ ParrotDB = {
 						["Buff gains"] = {
 							["disabled"] = true,
 						},
-						["Loot items"] = {
-							["disabled"] = false,
+						["Enemy debuff gains"] = {
+							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
 							["disabled"] = true,
@@ -266,8 +266,8 @@ ParrotDB = {
 						["Outgoing heals"] = 2000,
 					},
 					["Incoming"] = {
-						["Melee reflects"] = {
-							["color"] = "ff00ff",
+						["Melee blocks"] = {
+							["color"] = "3399ff",
 						},
 						["Skill dodges"] = {
 							["color"] = "3399ff",
@@ -278,8 +278,8 @@ ParrotDB = {
 						["Skill reflects"] = {
 							["color"] = "ff00ff",
 						},
-						["Melee blocks"] = {
-							["color"] = "3399ff",
+						["Melee reflects"] = {
+							["color"] = "ff00ff",
 						},
 						["Skill misses"] = {
 							["color"] = "3399ff",
@@ -293,8 +293,8 @@ ParrotDB = {
 						["Self damage absorbs"] = {
 							["tag"] = "([Skill]) A [Amount]!",
 						},
-						["Skill parries"] = {
-							["color"] = "3399ff",
+						["Skill resists"] = {
+							["color"] = "ff00ff",
 						},
 						["Melee absorbs"] = {
 							["tag"] = "A [Amount]!",
@@ -311,8 +311,8 @@ ParrotDB = {
 						["Self damage misses"] = {
 							["color"] = "3399ff",
 						},
-						["Skill resists"] = {
-							["color"] = "ff00ff",
+						["Skill parries"] = {
+							["color"] = "3399ff",
 						},
 					},
 					["hideFullOverheals"] = 3,
@@ -638,9 +638,9 @@ ParrotDB = {
 				["Cow Classic"] = {
 					["triggers"] = {
 						[1001] = {
-							["useflash"] = false,
 							["sound"] = "Sharp Punch",
 							["disabled"] = false,
+							["useflash"] = false,
 						},
 						[1003] = {
 							["disabled"] = true,
