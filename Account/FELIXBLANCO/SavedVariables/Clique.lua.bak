@@ -197,32 +197,13 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand of Protection",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135964,
-					["spellSubName"] = "Rank 3",
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135966,
-					["spell"] = "Hand of Sacrifice",
-				}, -- [3]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135967,
 					["spell"] = "Hand of Salvation",
-				}, -- [4]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON3",
@@ -231,6 +212,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 136106,
 					["spell"] = "Divine Intervention",
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["spell"] = "Hand of Protection",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135964,
+					["spellSubName"] = "Rank 3",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["spell"] = "Hand of Sacrifice",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -244,32 +244,13 @@ CliqueDB3 = {
 				}, -- [6]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Lay on Hands",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spellSubName"] = "Rank 5",
-				}, -- [7]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135949,
-					["spell"] = "Purify",
-				}, -- [8]
-				{
-					["type"] = "spell",
 					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135953,
 					["spell"] = "Cleanse",
-				}, -- [9]
+				}, -- [7]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -279,6 +260,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 135907,
 					["spellSubName"] = "Rank 9",
+				}, -- [8]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["spell"] = "Lay on Hands",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["spellSubName"] = "Rank 5",
+				}, -- [9]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135949,
+					["spell"] = "Purify",
 				}, -- [10]
 				{
 					["type"] = "spell",
