@@ -18,25 +18,10 @@ VMRT = {
 		["AutoLoad"] = {
 		},
 		["LastUpdateName"] = "Alsia-Venoxis",
-		["Strata"] = "HIGH",
-		["EnableWhenReceive"] = true,
 		["Alpha"] = 100,
-		["Width"] = 584.9623413085938,
-		["BlackLastUpdateName"] = {
-			"Alsia-Venoxis", -- [1]
-			"Alsia-Venoxis", -- [2]
-			"Alsia-Venoxis", -- [3]
-			"Alsia-Venoxis", -- [4]
-			"Alsia-Venoxis", -- [5]
-			"Alsia-Venoxis", -- [6]
-			"Alsia-Venoxis", -- [7]
-			"Alsia-Venoxis", -- [8]
-			"Alsia-Venoxis", -- [9]
-			"Alsia-Venoxis", -- [10]
-			"Alsia-Venoxis", -- [11]
-			"Alsia-Venoxis", -- [12]
-			"Alsia-Venoxis", -- [13]
-		},
+		["EnableWhenReceive"] = true,
+		["LastUpdateTime"] = 1700780872,
+		["Width"] = 585.0000610351562,
 		["Top"] = 1440.733764648438,
 		["BlackLastUpdateTime"] = {
 			1700764686, -- [1]
@@ -68,9 +53,24 @@ VMRT = {
 			"{spell:2825} Bloodlust- P3 35%\n\nPhase 2 - Ice Tomb CDs\n{spell:70157} {time:00:05,SCS:70157:1}||cffee5555Ice Tomb||r - Bremskyle Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70157} {time:00:05,SCS:70157:2}||cffee5555Ice Tomb||r - Dánáá - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70157} {time:00:05,SCS:70157:3}||cffee5555Ice Tomb||r - Bremskyle Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\n{spell:70157} {time:00:05,p2,SCS:70157:1}||cffee5555Ice Tomb 1 P3||r - Alsia Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\n{spell:70123} {time:00:05,p2,SCS:70123:1}||cffee5555Blistering Cold||r - Bremskyle - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n{spell:70123} {time:00:05,p2,SCS:70123:2}||cffee5555Blistering Cold||r - Dánáá - Divine Sacrifice {spell:64205} / Aura Mastery {spell:31821}{spell:48945} \n\nOn Call - Shikimora - Aura Mastery {spell:31821}{spell:48945}   ", -- [12]
 			"{spell:2825} Bloodlust\n1st - On Pull\n2nd - P3 after all Raging Spirits are dead\n\nInfest Cooldowns\n1 - Alsia Aura Mastery {spell:31821}{spell:48943} \n2 - Bremskyle Divine Sacrifice {spell:64205}\n3 - Dánáá Aura Mastery {spell:31821}{spell:48943} \n4 - Alsia Divine Sacrifice {spell:64205}\n5 - Bremskyle Aura Mastery {spell:31821}{spell:48943} \n6 - Dánáá Divine Sacrifice {spell:64205}\nRepeat\n\nSoul Reaper Cooldowns - P2\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 - Minoton Shield Block {spell:2565} / Minoton Shield Wall{spell:871}\n3 - Bremskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Minoton Last Stand{spell:12975}\n5 -    / Alsia Divine Protection{spell:498}\n6 - Minoton Shield Block {spell:2565} / Minoton Shield Wall{spell:871}\nRepeat\n\nPhase 3\n1 - Serferine Pain Suppression {spell:33206} / Alsia Vampiric Blood{spell:55233}\n2 - Minoton Shield Block {spell:2565} / Minoton Shield Wall{spell:871}\n3 - Bremskyle Hand of Sacrifice {spell:6940} / Alsia Hand of Salvation{spell:1038}\n4 - Shikimora Hand of Salvation {spell:1038} / Minoton Last Stand{spell:12975}\n\nVal'kyr Stuns\n{rt2} Alsia HoJ {spell:10308}\n{rt2} Shikimora Holy Wrath {spell:48817}\n{rt2} Alsia Holy Wrath {spell:48817}\n{rt2} Ukban Cheap Shot {spell:1833}\n{rt3} Shikimora HoJ {spell:10308}\n{rt3} Shikimora Holy Wrath {spell:48817}\n{rt3} Alsia Holy Wrath {spell:48817}\n{rt3}  Cheap Shot {spell:1833}\n{rt1} Bremskyle HoJ {spell:10308}\n{rt1} Shikimora Holy Wrath {spell:48817}\n{rt1} Alsia Holy Wrath {spell:48817}\n{rt1} Dánáá HoJ {spell:10308}", -- [13]
 		},
-		["Height"] = 719.3590087890625,
-		["LastUpdateTime"] = 1700780872,
+		["BlackLastUpdateName"] = {
+			"Alsia-Venoxis", -- [1]
+			"Alsia-Venoxis", -- [2]
+			"Alsia-Venoxis", -- [3]
+			"Alsia-Venoxis", -- [4]
+			"Alsia-Venoxis", -- [5]
+			"Alsia-Venoxis", -- [6]
+			"Alsia-Venoxis", -- [7]
+			"Alsia-Venoxis", -- [8]
+			"Alsia-Venoxis", -- [9]
+			"Alsia-Venoxis", -- [10]
+			"Alsia-Venoxis", -- [11]
+			"Alsia-Venoxis", -- [12]
+			"Alsia-Venoxis", -- [13]
+		},
+		["Height"] = 719,
 		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+		["Strata"] = "HIGH",
 		["BlackNames"] = {
 			"Lord Marrowgar", -- [1]
 			"Lady Deathwhisper", -- [2]
@@ -143,16 +143,16 @@ VMRT = {
 			["16190;1"] = 2,
 			["19801;1"] = 4,
 			["56222;1"] = 4,
-			["20608;1"] = 1,
 			["31884;1"] = 4,
+			["20608;1"] = 1,
 			["642;1"] = 6,
 			["6795;1"] = 4,
 			["20748;1"] = 1,
-			["47788;1"] = 3,
+			["3411;1"] = 3,
 			["9863;1"] = 4,
 			["64205;1"] = 3,
-			["3411;1"] = 3,
 			["62124;1"] = 4,
+			["47788;1"] = 3,
 			["45438;1"] = 4,
 			["10310;1"] = 3,
 			["12809;1"] = 5,
@@ -271,35 +271,36 @@ VMRT = {
 			["Zitol"] = 0,
 			["Creshy"] = 0,
 			["Figsmellbad"] = 0,
+			["Raikuo"] = 0,
 			["Anothrsoobie"] = 0,
 			["Kracktwo"] = 0,
 			["Cìb"] = 0,
 			["Candlesw"] = 0,
 			["Instathott"] = 0,
 			["Hennerr"] = 0,
-			["Nategeetwo"] = 0,
-			["Cevera"] = 0,
+			["Nategee"] = 0,
+			["Burstz"] = 0,
 			["Tengi"] = 0,
 			["Jogí"] = 0,
-			["Burstz"] = 0,
-			["Spaltkyle"] = 0,
+			["Ppx"] = 0,
 			["Harva"] = 0,
+			["Cevera"] = 0,
 			["Xxuulock"] = 0,
 			["Eristo"] = 0,
 			["Hvy"] = 0,
 			["Styleplox"] = 0,
 			["Delmonte"] = 0,
-			["Ppx"] = 0,
-			["Liptea"] = 0,
+			["Spaltkyle"] = 0,
 			["Sikkzh"] = 0,
 			["Dánáá"] = 0,
+			["Liptea"] = 0,
 			["Cöw"] = 0,
 			["Obeseidiot"] = 0,
 			["Unholycow"] = 0,
 			["Bubbledîne"] = 0,
 			["Uwugamergirl"] = 0,
 			["Shikimora"] = 0,
-			["Nategee"] = 0,
+			["Nategeetwo"] = 0,
 			["Tinydreamz"] = 0,
 			["Coochigoblin"] = 0,
 			["Cowteets"] = 0,
@@ -806,21 +807,21 @@ VMRT = {
 		},
 		["CDE"] = {
 			[12975] = true,
-			[64843] = true,
-			[642] = true,
-			[498] = true,
-			[871] = true,
 			[20748] = true,
+			[642] = true,
+			[64843] = true,
+			[871] = true,
+			[498] = true,
 			[33206] = true,
 			[29166] = true,
 			[20608] = true,
-			[10278] = true,
+			[6940] = true,
 			[31821] = true,
 			[46947] = true,
 			[64205] = true,
 			[47788] = true,
-			[6940] = true,
 			[1038] = true,
+			[10278] = true,
 		},
 		["OptFav"] = {
 		},
@@ -845,10 +846,10 @@ VMRT = {
 		["FlaskExp"] = 2,
 		["RCW_Mini"] = false,
 		["ReadyCheckFont"] = "Interface\\Addons\\Details\\fonts\\Accidental Presidency.ttf",
-		["ReadyCheckTop"] = 1114.773559570313,
-		["ReadyCheckSortClass"] = true,
 		["WeaponEnch"] = {
 		},
+		["ReadyCheckTop"] = 1114.773559570313,
+		["ReadyCheckSortClass"] = true,
 		["ReadyCheckFontSize"] = 19,
 		["ReadyCheckLeft"] = 1820.200561523438,
 	},
@@ -869,6 +870,10 @@ VMRT = {
 		},
 	},
 	["Profiles"] = {
+		["Cow Classic"] = {
+		},
+		["Alsia_Main"] = {
+		},
 		["default"] = {
 			["Note"] = {
 				["BlackNames"] = {
@@ -888,15 +893,15 @@ VMRT = {
 				["Fix"] = true,
 				["ScaleBack"] = 0,
 				["Text1"] = "{spell:69146} {time:00:05,SCC:69146:1}||cffee5555Cold Flame||r - ||cfff58cbaShikimora||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - Jocindyr {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69076} {time:00:00,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaLiptea||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - Hanaltar {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205} \n",
-				["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+				["TimerPassedHide"] = true,
 				["enabled"] = true,
-				["Alpha"] = 50,
+				["LastUpdateTime"] = 1699186678,
 				["SaveAllNew"] = true,
 				["LastUpdateName"] = "Alsia",
-				["TimerPassedHide"] = true,
+				["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 				["Top"] = 614.5972290039062,
-				["LastUpdateTime"] = 1699186678,
-				["Width"] = 232.0000305175781,
+				["Alpha"] = 50,
+				["Width"] = 231.9999542236328,
 				["BlackLastUpdateName"] = {
 					"Alsia-Venoxis", -- [1]
 					[5] = "Alsia-Venoxis",
@@ -918,7 +923,7 @@ VMRT = {
 					"{spell:69146} {time:00:05,SCC:69146:1}||cffee5555Cold Flame||r - ||cfff58cbaShikimora||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - Jocindyr {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:1}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205}\n{spell:69076} {time:00:00,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaLiptea||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - Hanaltar {spell:64843}\n{spell:69076} {time:00:02,SCS:69076:2}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:00,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaBremskyle||r {spell:64205}\n{spell:69076} {time:00:02,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAsdâlan||r {spell:31821}\n{spell:69076} {time:00:05,SCS:69076:3}||cffee5555Bone Storm||r - ||cfff58cbaAlsia||r {spell:64205} \n", -- [6]
 				},
 				["EnableWhenReceive"] = true,
-				["Height"] = 157,
+				["Height"] = 156.9999694824219,
 				["FontSize"] = 12,
 				["Scale"] = 88,
 				["DefName"] = "Lord Mark'gar",
@@ -2830,18 +2835,18 @@ VMRT = {
 					["Hanaltar"] = 0,
 					["Frape"] = 0,
 					["Omoroca"] = 0,
-					["Xhuljin"] = 0,
+					["Fugasniper"] = 0,
 					["Berghaini"] = 0,
 					["Blubberkopf"] = 0,
 					["Sbudbencer"] = 0,
 					["Raylamaya"] = 0,
 					["Suex"] = 0,
-					["Noktan"] = 0,
+					["Xhuljin"] = 0,
 					["Kroda"] = 0,
 					["Guldernikel"] = 0,
 					["Lakawara"] = 0,
-					["Fugasniper"] = 0,
-					["Jidra"] = 0,
+					["Noktan"] = 0,
+					["Kiøku"] = 0,
 					["Grutok"] = 0,
 					["Wønka"] = 0,
 					["Henneyo"] = 0,
@@ -2856,7 +2861,7 @@ VMRT = {
 					["Eîssenpai"] = 0,
 					["Kjaldor"] = 0,
 					["Xuultag"] = 0,
-					["Moroga"] = 0,
+					["Jidra"] = 0,
 					["Dekadk"] = 0,
 					["Damaze"] = 0,
 					["Hockadin"] = 0,
@@ -2890,7 +2895,7 @@ VMRT = {
 					["Hinderhald"] = 0,
 					["Deadway"] = 0,
 					["Pippop"] = 0,
-					["Merill"] = 0,
+					["Hunsela"] = 0,
 					["Alsia"] = 0,
 					["Døømdruid"] = 0,
 					["Xolem"] = 0,
@@ -2898,7 +2903,7 @@ VMRT = {
 					["Caleria"] = 0,
 					["Xeeli"] = 0,
 					["Hâkkî"] = 0,
-					["Hennerr"] = 0,
+					["Merill"] = 0,
 					["Djdave"] = 0,
 					["Mementás"] = 0,
 					["Pvau"] = 0,
@@ -2928,7 +2933,7 @@ VMRT = {
 					["Kelannî"] = 0,
 					["Supersayajín"] = 0,
 					["Gnag"] = 0,
-					["Hunsela"] = 0,
+					["Hennerr"] = 0,
 					["Ancaria"] = 0,
 					["Shikimora"] = 0,
 					["Klassíc"] = 0,
@@ -2941,7 +2946,7 @@ VMRT = {
 					["Mondowarri"] = 0,
 					["Ehlia"] = 0,
 					["Morai"] = 0,
-					["Kiøku"] = 0,
+					["Moroga"] = 0,
 					["Exonuklease"] = 0,
 					["Ukban"] = 0,
 					["Burgwart"] = 0,
@@ -3544,8 +3549,6 @@ VMRT = {
 				["ColorizeNoValorUpgrade"] = false,
 			},
 		},
-		["Alsia_Main"] = {
-		},
 		["Main_Alsia"] = {
 			["Timers"] = {
 				["specTimes"] = {
@@ -3772,10 +3775,10 @@ VMRT = {
 					["Eyecandy"] = 0,
 					["Hackfleischa"] = 0,
 					["Elyrian"] = 0,
-					["Satako"] = 0,
 					["Tréalis"] = 0,
-					["Shîzuko"] = 0,
 					["Marchiata"] = 0,
+					["Shîzuko"] = 0,
+					["Satako"] = 0,
 					["Dánáá"] = 0,
 					["Uschiqt"] = 0,
 					["Itsyu"] = 0,
@@ -4025,11 +4028,11 @@ VMRT = {
 						["blacklistGeneral"] = true,
 						["textureColorTextDefaultG"] = 1,
 						["textureColorTimeLineActiveB"] = 1,
-						["textureAnimation"] = true,
+						["textureColorTimeLineDefaultG"] = 1,
 						["textureColorBackgroundActiveG"] = 1,
 						["textureColorTimeLineDefaultB"] = 1,
 						["textureAlphaBackground"] = 0.15,
-						["frameWidth"] = 130,
+						["textureAnimation"] = true,
 						["textureClassTimeLine"] = true,
 						["textureColorBackgroundActiveR"] = 1,
 						["fontSize"] = 12,
@@ -4061,7 +4064,7 @@ VMRT = {
 						["frameAlpha"] = 100,
 						["textureColorTextDefaultB"] = 1,
 						["textureColorTimeLineActiveR"] = 1,
-						["textureColorTimeLineDefaultG"] = 1,
+						["frameWidth"] = 130,
 						["textureAlphaCooldown"] = 0.85,
 					}, -- [11]
 				},
@@ -4232,7 +4235,7 @@ VMRT = {
 					"Alsia", -- [14]
 					"Alsia", -- [15]
 				},
-				["LastUpdateTime"] = 1700516113,
+				["Alpha"] = 50,
 				["Width"] = 459.0000305175781,
 				["Top"] = 633.8636474609375,
 				["EnableWhenReceive"] = true,
@@ -4271,9 +4274,9 @@ VMRT = {
 					1700516113, -- [15]
 				},
 				["Height"] = 481,
-				["TimerPassedHide"] = true,
-				["Alpha"] = 50,
 				["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+				["LastUpdateTime"] = 1700516113,
+				["TimerPassedHide"] = true,
 			},
 			["Logging"] = {
 				["enabled"] = true,
@@ -4459,8 +4462,6 @@ VMRT = {
 				["ReadyCheckFontSize"] = 14,
 				["ReadyCheckFrame"] = true,
 			},
-		},
-		["Cow Classic"] = {
 		},
 	},
 	["Profile"] = "Cow Classic",

@@ -12,10 +12,10 @@ CliqueDB3 = {
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
 			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["alerthidden"] = true,
 			["spec2_profileKey"] = "Alsia - Venoxis",
+			["downclick"] = false,
+			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -26,11 +26,11 @@ CliqueDB3 = {
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Xolem - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Xolem - Venoxis",
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -80,41 +80,41 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spell"] = "Geringe Welle der Heilung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136043,
-					["spellSubName"] = "Rang 9",
-				}, -- [2]
-				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
+				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spell"] = "Lesser Healing Wave",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136043,
+					["spellSubName"] = "Rank 9",
 				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Welle der Heilung",
+					["spell"] = "Healing Wave",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136052,
-					["spellSubName"] = "Rang 14",
+					["spellSubName"] = "Rank 14",
 				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spell"] = "Kettenheilung",
+					["spell"] = "Chain Heal",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136042,
-					["spellSubName"] = "Rang 7",
+					["spellSubName"] = "Rank 7",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -123,7 +123,7 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 136067,
-					["spell"] = "Toxine heilen",
+					["spell"] = "Cure Toxins",
 				}, -- [6]
 			},
 		},
@@ -304,128 +304,81 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spellSubName"] = "Rank 3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 237545,
+					["spell"] = "Penance",
+				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["spellSubName"] = "Rank 3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135883,
+					["spell"] = "Binding Heal",
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON3",
+					["spellSubName"] = "Rank 3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135944,
+					["spell"] = "Prayer of Mending",
+				}, -- [4]
+				{
+					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Blitzheilung",
+					["spellSubName"] = "Rank 11",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["spellSubName"] = "Rang 11",
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Machtwort: Schild",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135940,
-					["spellSubName"] = "Rang 14",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON4",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135936,
-					["spell"] = "Schmerzunterdrückung",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["spell"] = "Erneuerung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135953,
-					["spellSubName"] = "Rang 14",
+					["spell"] = "Flash Heal",
 				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Große Heilung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135913,
-					["spellSubName"] = "Rang 9",
-				}, -- [6]
 				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON1",
+					["spellSubName"] = "Rank 9",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135913,
+					["spell"] = "Greater Heal",
 				}, -- [7]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
+					["key"] = "BUTTON2",
+					["spellSubName"] = "Rank 14",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135902,
-					["spell"] = "Furchtzauberschutz",
+					["icon"] = 135940,
+					["spell"] = "Power Word: Shield",
 				}, -- [8]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["spell"] = "Gebet der Besserung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135944,
-					["spellSubName"] = "Rang 3",
-				}, -- [9]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
-					["spell"] = "Gebet der Heilung",
+					["spellSubName"] = "Rank 7",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135943,
-					["spellSubName"] = "Rang 7",
-				}, -- [10]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["spell"] = "Magiebannung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135894,
-					["spellSubName"] = "Rang 2",
-				}, -- [11]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135939,
-					["spell"] = "Seele der Macht",
-				}, -- [12]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Verbindende Heilung",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135883,
-					["spellSubName"] = "Rang 3",
-				}, -- [13]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spell"] = "Sühne",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 237545,
-					["spellSubName"] = "Rang 3",
-				}, -- [14]
+					["spell"] = "Prayer of Healing",
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON4",
@@ -433,7 +386,54 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = 136066,
-					["spell"] = "Krankheit aufheben",
+					["spell"] = "Abolish Disease",
+				}, -- [10]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135939,
+					["spell"] = "Power Infusion",
+				}, -- [11]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["spellSubName"] = "Rank 14",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135953,
+					["spell"] = "Renew",
+				}, -- [12]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["spellSubName"] = "Rank 2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135894,
+					["spell"] = "Dispel Magic",
+				}, -- [13]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135902,
+					["spell"] = "Fear Ward",
+				}, -- [14]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135936,
+					["spell"] = "Pain Suppression",
 				}, -- [15]
 			},
 		},

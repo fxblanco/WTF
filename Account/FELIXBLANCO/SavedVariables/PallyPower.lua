@@ -19,6 +19,7 @@ PallyPowerDB = {
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
+			["skin"] = "ElvUI Blank",
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -41,14 +42,13 @@ PallyPowerDB = {
 			["enable"] = true,
 			["border"] = "None",
 			["WrathTransition"] = true,
-			["skin"] = "ElvUI Blank",
-			["buffscale"] = 0.75,
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["buffscale"] = 0.75,
 			["rf"] = true,
 		},
 		["Other"] = {
@@ -59,18 +59,18 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["enable"] = true,
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["enable"] = true,
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
