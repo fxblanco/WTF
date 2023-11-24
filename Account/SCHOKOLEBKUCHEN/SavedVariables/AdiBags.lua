@@ -17,8 +17,8 @@ AdiBagsDB = {
 						["Handwerkswaren"] = true,
 						["Glyphe"] = false,
 						["Verschiedenes"] = false,
-						["Verbrauchbar"] = true,
 						["Edelstein"] = true,
+						["Verbrauchbar"] = true,
 					},
 				},
 			},
@@ -27,15 +27,15 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
-		},
-		["ItemSets"] = {
+		["MoneyFrame"] = {
 		},
 		["DataSource"] = {
 		},
+		["ItemSets"] = {
+		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {

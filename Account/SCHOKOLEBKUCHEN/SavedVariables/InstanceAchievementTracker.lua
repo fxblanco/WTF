@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["InfoFramescale"] = 1,
-	["announceTrackedAchievements"] = false,
 	["hideCompletedAchievements"] = false,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["trackAchievementsAutomatically"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -35910,6 +35910,27 @@ AchievementTrackerDebug = {
 	"19/11/2023 2:47 [DEBUG] Asking user whether they want to track this instance", -- [35885]
 	"19/11/2023 2:47 [DEBUG] Displaying Tracking UI since it was already created", -- [35886]
 	"19/11/2023 2:47 [DEBUG] Expansion: 3", -- [35887]
+	"24/11/2023 1:4 [DEBUG] ---IAT Runtime---", -- [35888]
+	"24/11/2023 1:4 [DEBUG] Version: 4.29.0", -- [35889]
+	"24/11/2023 1:4 [DEBUG] Attempting to load from local NPC Cache classic", -- [35890]
+	"24/11/2023 1:4 [DEBUG] Generating NPC Cache Classic...", -- [35891]
+	"24/11/2023 1:4 [DEBUG] Enabling Addon", -- [35892]
+	"24/11/2023 1:4 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35893]
+	"24/11/2023 1:5 [DEBUG] Showing Minimap Icon", -- [35894]
+	"24/11/2023 1:6 [DEBUG] ---IAT Runtime---", -- [35895]
+	"24/11/2023 1:6 [DEBUG] Version: 4.29.0", -- [35896]
+	"24/11/2023 1:6 [DEBUG] Attempting to load from local NPC Cache classic", -- [35897]
+	"24/11/2023 1:6 [DEBUG] Generating NPC Cache Classic...", -- [35898]
+	"24/11/2023 1:6 [DEBUG] Enabling Addon", -- [35899]
+	"24/11/2023 1:6 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35900]
+	"24/11/2023 1:6 [DEBUG] Showing Minimap Icon", -- [35901]
+	"24/11/2023 1:8 [DEBUG] ---IAT Runtime---", -- [35902]
+	"24/11/2023 1:8 [DEBUG] Version: 4.29.0", -- [35903]
+	"24/11/2023 1:8 [DEBUG] Attempting to load from local NPC Cache classic", -- [35904]
+	"24/11/2023 1:8 [DEBUG] Generating NPC Cache Classic...", -- [35905]
+	"24/11/2023 1:8 [DEBUG] Enabling Addon", -- [35906]
+	"24/11/2023 1:8 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35907]
+	"24/11/2023 1:8 [DEBUG] Showing Minimap Icon", -- [35908]
 }
 AchievementTrackerNPCCache = {
 }
@@ -35924,7 +35945,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebeard",
 	[26746] = "Crazed Mana-Wraith",
 	[27756] = "Ruby Drake",
-	[26555] = "Scourge Hulk",
+	[26668] = "Svala Sorrowgrave",
 	[33572] = "Steelforged Defender",
 	[29713] = "Slad'ran Constrictor",
 	[26627] = "Crystal Handler",
@@ -35935,33 +35956,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotic Rift",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
-	[29305] = "Moorabi",
-	[29304] = "Slad'ran",
+	[26533] = "Mal'Ganis",
+	[27981] = "Malformed Ooze",
 	[26763] = "Anomalus",
 	[26630] = "Trollgore",
 	[26731] = "Grand Magus Telestra",
-	[26641] = "Drakkari Gutripper",
 	[26893] = "Grauf",
+	[26641] = "Drakkari Gutripper",
+	[33388] = "Dark Rune Guardian",
 	[28731] = "Watcher Silthik",
 	[33136] = "Guardian of Yogg-Saron",
-	[27975] = "Maiden of Grief",
-	[28729] = "Watcher Narjil",
+	[27658] = "Belgaristrasz",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
 	[30176] = "Ahn'kahar Guardian",
 	[23562] = "Unstoppable Abomination",
-	[27658] = "Belgaristrasz",
+	[28729] = "Watcher Narjil",
 	[28730] = "Watcher Gashra",
-	[33388] = "Dark Rune Guardian",
+	[27975] = "Maiden of Grief",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",
 	[29932] = "Eck the Ferocious",
 	[29240] = "Stormforged Lieutenant",
-	[27981] = "Malformed Ooze",
-	[26533] = "Mal'Ganis",
+	[29304] = "Slad'ran",
+	[29305] = "Moorabi",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Scrapbot",
 	[23953] = "Prince Keleseth",
-	[26668] = "Svala Sorrowgrave",
+	[26555] = "Scourge Hulk",
 }

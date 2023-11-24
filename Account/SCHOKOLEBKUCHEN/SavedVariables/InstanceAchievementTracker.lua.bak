@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
 	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["hideCompletedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -35771,6 +35771,159 @@ AchievementTrackerDebug = {
 	"18/11/2023 23:28 [DEBUG] Group Size set to: 11", -- [35746]
 	"18/11/2023 23:28 [DEBUG] Calling Detect Boss 3: 14881", -- [35747]
 	"18/11/2023 23:28 [DEBUG] Found the following boss ID: 14881", -- [35748]
+	"18/11/2023 23:28 [DEBUG] ---IAT Runtime---", -- [35749]
+	"18/11/2023 23:28 [DEBUG] Version: 4.28.0", -- [35750]
+	"18/11/2023 23:28 [DEBUG] Attempting to load from local NPC Cache classic", -- [35751]
+	"18/11/2023 23:28 [DEBUG] Generating NPC Cache Classic...", -- [35752]
+	"18/11/2023 23:28 [DEBUG] Enabling Addon", -- [35753]
+	"18/11/2023 23:28 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35754]
+	"18/11/2023 23:28 [DEBUG] Showing Minimap Icon", -- [35755]
+	"18/11/2023 23:28 [DEBUG] Player has entered instance", -- [35756]
+	"18/11/2023 23:28 [DEBUG] 631", -- [35757]
+	"18/11/2023 23:28 [DEBUG] Offical Instance Name: 631 _631", -- [35758]
+	"18/11/2023 23:28 [DEBUG] Detected Legacy 10 man Raid", -- [35759]
+	"18/11/2023 23:28 [DEBUG] New Instance Name: 631-10", -- [35760]
+	"18/11/2023 23:28 [DEBUG] Expansion: 3", -- [35761]
+	"18/11/2023 23:28 [DEBUG] Instance Type: Raids", -- [35762]
+	"18/11/2023 23:28 [DEBUG] Instance: 631-10", -- [35763]
+	"18/11/2023 23:28 [DEBUG] DifficultyID: 5", -- [35764]
+	"18/11/2023 23:28 [DEBUG] Expansion: 3", -- [35765]
+	"18/11/2023 23:28 [DEBUG] Instance Type: Raids", -- [35766]
+	"18/11/2023 23:28 [DEBUG] Instance: 631-10", -- [35767]
+	"18/11/2023 23:28 [DEBUG] Asking user whether they want to track this instance", -- [35768]
+	"18/11/2023 23:28 [DEBUG] Creating Tracking UI", -- [35769]
+	"18/11/2023 23:28 [DEBUG] InfoFrame Setup Complete", -- [35770]
+	"18/11/2023 23:28 [DEBUG] Expansion: 3", -- [35771]
+	"18/11/2023 23:49 [DEBUG] Hiding Tracking UI", -- [35772]
+	"18/11/2023 23:49 [DEBUG] Clearing Instance Variables", -- [35773]
+	"18/11/2023 23:49 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [35774]
+	"18/11/2023 23:49 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [35775]
+	"18/11/2023 23:49 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [35776]
+	"18/11/2023 23:49 [DEBUG] Clearing Instance Variables if exists", -- [35777]
+	"18/11/2023 23:49 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [35778]
+	"18/11/2023 23:49 [DEBUG] Clearing Instance Variables if exists", -- [35779]
+	"18/11/2023 23:49 [DEBUG] Clearing Instance Variables", -- [35780]
+	"18/11/2023 23:49 [DEBUG] Resetting Global Variables", -- [35781]
+	"18/11/2023 23:49 [DEBUG] InfoFrame does not need to be reset", -- [35782]
+	"18/11/2023 23:49 [DEBUG] Resetting PlayerRank", -- [35783]
+	"18/11/2023 23:49 [DEBUG] InfoFrame was not active", -- [35784]
+	"18/11/2023 23:49 [DEBUG] Hiding Tracking UI", -- [35785]
+	"18/11/2023 23:49 [DEBUG] Player has entered instance", -- [35786]
+	"18/11/2023 23:49 [DEBUG] 631", -- [35787]
+	"18/11/2023 23:49 [DEBUG] Offical Instance Name: 631 _631", -- [35788]
+	"18/11/2023 23:49 [DEBUG] Detected Legacy 10 man Raid", -- [35789]
+	"18/11/2023 23:49 [DEBUG] New Instance Name: 631-10", -- [35790]
+	"18/11/2023 23:49 [DEBUG] Expansion: 3", -- [35791]
+	"18/11/2023 23:49 [DEBUG] Instance Type: Raids", -- [35792]
+	"18/11/2023 23:49 [DEBUG] Instance: 631-10", -- [35793]
+	"18/11/2023 23:49 [DEBUG] DifficultyID: 5", -- [35794]
+	"18/11/2023 23:49 [DEBUG] Expansion: 3", -- [35795]
+	"18/11/2023 23:49 [DEBUG] Instance Type: Raids", -- [35796]
+	"18/11/2023 23:49 [DEBUG] Instance: 631-10", -- [35797]
+	"18/11/2023 23:49 [DEBUG] Asking user whether they want to track this instance", -- [35798]
+	"18/11/2023 23:49 [DEBUG] Displaying Tracking UI since it was already created", -- [35799]
+	"18/11/2023 23:49 [DEBUG] Expansion: 3", -- [35800]
+	"19/11/2023 1:41 [DEBUG] Hiding Tracking UI", -- [35801]
+	"19/11/2023 1:41 [DEBUG] Clearing Instance Variables", -- [35802]
+	"19/11/2023 1:41 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [35803]
+	"19/11/2023 1:41 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [35804]
+	"19/11/2023 1:41 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [35805]
+	"19/11/2023 1:41 [DEBUG] Clearing Instance Variables if exists", -- [35806]
+	"19/11/2023 1:41 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [35807]
+	"19/11/2023 1:41 [DEBUG] Clearing Instance Variables if exists", -- [35808]
+	"19/11/2023 1:41 [DEBUG] Clearing Instance Variables", -- [35809]
+	"19/11/2023 1:41 [DEBUG] Resetting Global Variables", -- [35810]
+	"19/11/2023 1:41 [DEBUG] InfoFrame does not need to be reset", -- [35811]
+	"19/11/2023 1:41 [DEBUG] Resetting PlayerRank", -- [35812]
+	"19/11/2023 1:41 [DEBUG] InfoFrame was not active", -- [35813]
+	"19/11/2023 1:42 [DEBUG] Hiding Tracking UI", -- [35814]
+	"19/11/2023 1:42 [DEBUG] Player has entered instance", -- [35815]
+	"19/11/2023 1:42 [DEBUG] 631", -- [35816]
+	"19/11/2023 1:42 [DEBUG] Offical Instance Name: 631 _631", -- [35817]
+	"19/11/2023 1:42 [DEBUG] Detected Legacy 10 man Raid", -- [35818]
+	"19/11/2023 1:42 [DEBUG] New Instance Name: 631-10", -- [35819]
+	"19/11/2023 1:42 [DEBUG] Expansion: 3", -- [35820]
+	"19/11/2023 1:42 [DEBUG] Instance Type: Raids", -- [35821]
+	"19/11/2023 1:42 [DEBUG] Instance: 631-10", -- [35822]
+	"19/11/2023 1:42 [DEBUG] DifficultyID: 5", -- [35823]
+	"19/11/2023 1:42 [DEBUG] Expansion: 3", -- [35824]
+	"19/11/2023 1:42 [DEBUG] Instance Type: Raids", -- [35825]
+	"19/11/2023 1:42 [DEBUG] Instance: 631-10", -- [35826]
+	"19/11/2023 1:42 [DEBUG] Asking user whether they want to track this instance", -- [35827]
+	"19/11/2023 1:42 [DEBUG] Displaying Tracking UI since it was already created", -- [35828]
+	"19/11/2023 1:42 [DEBUG] Expansion: 3", -- [35829]
+	"19/11/2023 1:55 [DEBUG] Hiding Tracking UI", -- [35830]
+	"19/11/2023 1:55 [DEBUG] Clearing Instance Variables", -- [35831]
+	"19/11/2023 1:55 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [35832]
+	"19/11/2023 1:55 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [35833]
+	"19/11/2023 1:55 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [35834]
+	"19/11/2023 1:55 [DEBUG] Clearing Instance Variables if exists", -- [35835]
+	"19/11/2023 1:55 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [35836]
+	"19/11/2023 1:55 [DEBUG] Clearing Instance Variables if exists", -- [35837]
+	"19/11/2023 1:55 [DEBUG] Clearing Instance Variables", -- [35838]
+	"19/11/2023 1:55 [DEBUG] Resetting Global Variables", -- [35839]
+	"19/11/2023 1:55 [DEBUG] InfoFrame does not need to be reset", -- [35840]
+	"19/11/2023 1:55 [DEBUG] Resetting PlayerRank", -- [35841]
+	"19/11/2023 1:55 [DEBUG] InfoFrame was not active", -- [35842]
+	"19/11/2023 1:56 [DEBUG] Hiding Tracking UI", -- [35843]
+	"19/11/2023 1:56 [DEBUG] Player has entered instance", -- [35844]
+	"19/11/2023 1:56 [DEBUG] 631", -- [35845]
+	"19/11/2023 1:56 [DEBUG] Offical Instance Name: 631 _631", -- [35846]
+	"19/11/2023 1:56 [DEBUG] Detected Legacy 10 man Raid", -- [35847]
+	"19/11/2023 1:56 [DEBUG] New Instance Name: 631-10", -- [35848]
+	"19/11/2023 1:56 [DEBUG] Expansion: 3", -- [35849]
+	"19/11/2023 1:56 [DEBUG] Instance Type: Raids", -- [35850]
+	"19/11/2023 1:56 [DEBUG] Instance: 631-10", -- [35851]
+	"19/11/2023 1:56 [DEBUG] DifficultyID: 5", -- [35852]
+	"19/11/2023 1:56 [DEBUG] Expansion: 3", -- [35853]
+	"19/11/2023 1:56 [DEBUG] Instance Type: Raids", -- [35854]
+	"19/11/2023 1:56 [DEBUG] Instance: 631-10", -- [35855]
+	"19/11/2023 1:56 [DEBUG] Asking user whether they want to track this instance", -- [35856]
+	"19/11/2023 1:56 [DEBUG] Displaying Tracking UI since it was already created", -- [35857]
+	"19/11/2023 1:56 [DEBUG] Expansion: 3", -- [35858]
+	"19/11/2023 2:46 [DEBUG] Hiding Tracking UI", -- [35859]
+	"19/11/2023 2:46 [DEBUG] Clearing Instance Variables", -- [35860]
+	"19/11/2023 2:46 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [35861]
+	"19/11/2023 2:46 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [35862]
+	"19/11/2023 2:46 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [35863]
+	"19/11/2023 2:46 [DEBUG] Clearing Instance Variables if exists", -- [35864]
+	"19/11/2023 2:46 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [35865]
+	"19/11/2023 2:46 [DEBUG] Clearing Instance Variables if exists", -- [35866]
+	"19/11/2023 2:46 [DEBUG] Clearing Instance Variables", -- [35867]
+	"19/11/2023 2:46 [DEBUG] Resetting Global Variables", -- [35868]
+	"19/11/2023 2:46 [DEBUG] InfoFrame does not need to be reset", -- [35869]
+	"19/11/2023 2:46 [DEBUG] Resetting PlayerRank", -- [35870]
+	"19/11/2023 2:46 [DEBUG] InfoFrame was not active", -- [35871]
+	"19/11/2023 2:47 [DEBUG] Hiding Tracking UI", -- [35872]
+	"19/11/2023 2:47 [DEBUG] Player has entered instance", -- [35873]
+	"19/11/2023 2:47 [DEBUG] 631", -- [35874]
+	"19/11/2023 2:47 [DEBUG] Offical Instance Name: 631 _631", -- [35875]
+	"19/11/2023 2:47 [DEBUG] Detected Legacy 10 man Raid", -- [35876]
+	"19/11/2023 2:47 [DEBUG] New Instance Name: 631-10", -- [35877]
+	"19/11/2023 2:47 [DEBUG] Expansion: 3", -- [35878]
+	"19/11/2023 2:47 [DEBUG] Instance Type: Raids", -- [35879]
+	"19/11/2023 2:47 [DEBUG] Instance: 631-10", -- [35880]
+	"19/11/2023 2:47 [DEBUG] DifficultyID: 5", -- [35881]
+	"19/11/2023 2:47 [DEBUG] Expansion: 3", -- [35882]
+	"19/11/2023 2:47 [DEBUG] Instance Type: Raids", -- [35883]
+	"19/11/2023 2:47 [DEBUG] Instance: 631-10", -- [35884]
+	"19/11/2023 2:47 [DEBUG] Asking user whether they want to track this instance", -- [35885]
+	"19/11/2023 2:47 [DEBUG] Displaying Tracking UI since it was already created", -- [35886]
+	"19/11/2023 2:47 [DEBUG] Expansion: 3", -- [35887]
+	"24/11/2023 1:4 [DEBUG] ---IAT Runtime---", -- [35888]
+	"24/11/2023 1:4 [DEBUG] Version: 4.29.0", -- [35889]
+	"24/11/2023 1:4 [DEBUG] Attempting to load from local NPC Cache classic", -- [35890]
+	"24/11/2023 1:4 [DEBUG] Generating NPC Cache Classic...", -- [35891]
+	"24/11/2023 1:4 [DEBUG] Enabling Addon", -- [35892]
+	"24/11/2023 1:4 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35893]
+	"24/11/2023 1:5 [DEBUG] Showing Minimap Icon", -- [35894]
+	"24/11/2023 1:6 [DEBUG] ---IAT Runtime---", -- [35895]
+	"24/11/2023 1:6 [DEBUG] Version: 4.29.0", -- [35896]
+	"24/11/2023 1:6 [DEBUG] Attempting to load from local NPC Cache classic", -- [35897]
+	"24/11/2023 1:6 [DEBUG] Generating NPC Cache Classic...", -- [35898]
+	"24/11/2023 1:6 [DEBUG] Enabling Addon", -- [35899]
+	"24/11/2023 1:6 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35900]
+	"24/11/2023 1:6 [DEBUG] Showing Minimap Icon", -- [35901]
 }
 AchievementTrackerNPCCache = {
 }
@@ -35785,7 +35938,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebeard",
 	[26746] = "Crazed Mana-Wraith",
 	[27756] = "Ruby Drake",
-	[26668] = "Svala Sorrowgrave",
+	[26555] = "Scourge Hulk",
 	[33572] = "Steelforged Defender",
 	[29713] = "Slad'ran Constrictor",
 	[26627] = "Crystal Handler",
@@ -35796,33 +35949,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotic Rift",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Malformed Ooze",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgore",
 	[26731] = "Grand Magus Telestra",
-	[26893] = "Grauf",
 	[26641] = "Drakkari Gutripper",
+	[26893] = "Grauf",
+	[27975] = "Maiden of Grief",
 	[33388] = "Dark Rune Guardian",
 	[28731] = "Watcher Silthik",
-	[33136] = "Guardian of Yogg-Saron",
-	[27658] = "Belgaristrasz",
+	[28729] = "Watcher Narjil",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
 	[30176] = "Ahn'kahar Guardian",
 	[23562] = "Unstoppable Abomination",
-	[28729] = "Watcher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Watcher Gashra",
-	[27975] = "Maiden of Grief",
+	[33136] = "Guardian of Yogg-Saron",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",
 	[29932] = "Eck the Ferocious",
 	[29240] = "Stormforged Lieutenant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Malformed Ooze",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Scrapbot",
 	[23953] = "Prince Keleseth",
-	[26555] = "Scourge Hulk",
+	[26668] = "Svala Sorrowgrave",
 }

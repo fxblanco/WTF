@@ -8,28 +8,20 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["HistoryBuild"] = "51943",
+				["HistoryBuild"] = "52237",
 				["HistorySize"] = 1096,
 				["Money"] = {
 					52000, -- [1]
-					10900, -- [2]
-					780, -- [3]
 				},
-				["HistoryLastUpdate"] = 1700518584,
+				["HistoryLastUpdate"] = 1700784270,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24682:80|h[The Pit of Saron]|h|r", -- [1]
-					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [2]
-					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [3]
 				},
 				["QuestHeaders"] = {
 					"Pit of Saron", -- [1]
-					"Tanaris", -- [2]
-					"Druid", -- [3]
 				},
 				["QuestTitles"] = {
 					"The Pit of Saron", -- [1]
-					"The Thirsty Goblin", -- [2]
-					"Morthis Whisperwing", -- [3]
 				},
 				["QuestTags"] = {
 					81, -- [1]
@@ -150,11 +142,9 @@ DataStore_QuestsDB = {
 					[2461] = 1,
 					[2462] = 2,
 				},
-				["lastUpdate"] = 1700518482,
+				["lastUpdate"] = 1700784065,
 				["Quests"] = {
 					5244992, -- [1]
-					3215424, -- [2]
-					4593728, -- [3]
 				},
 			},
 			["Default.Venoxis.Recombinase"] = {
@@ -207,28 +197,27 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1700518643,
+				["lastUpdate"] = 1700784007,
 				["HistorySize"] = 841,
-				["Money"] = {
-					660, -- [1]
-					560600, -- [2]
+				["QuestHeaders"] = {
+					"Caverns of Time", -- [1]
+					"Pit of Saron", -- [2]
 				},
-				["HistoryLastUpdate"] = 1700518644,
+				["HistoryLastUpdate"] = 1700784008,
 				["QuestLinks"] = {
 					"|cff808080|Hquest:10279:66|h[To The Master's Lair]|h|r", -- [1]
 					"|cffffff00|Hquest:24712:80|h[Deliverance from the Pit]|h|r", -- [2]
 				},
-				["QuestHeaders"] = {
-					"Caverns of Time", -- [1]
-					"Pit of Saron", -- [2]
+				["Money"] = {
+					660, -- [1]
+					560600, -- [2]
 				},
 				["QuestTitles"] = {
 					"To The Master's Lair", -- [1]
 					"Deliverance from the Pit", -- [2]
 				},
 				["QuestTags"] = {
-					nil, -- [1]
-					81, -- [2]
+					[2] = 81,
 				},
 				["History"] = {
 					33554436, -- [1]
@@ -377,7 +366,7 @@ DataStore_QuestsDB = {
 					[300] = 16384,
 					[151] = 2097152,
 				},
-				["HistoryBuild"] = "51943",
+				["HistoryBuild"] = "52237",
 				["Quests"] = {
 					4327488, -- [1]
 					5247041, -- [2]

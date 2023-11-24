@@ -143,9 +143,21 @@ PlaterDB = {
 			["source"] = "Toothcrawler",
 			["npcID"] = 26125,
 		},
+		[54216] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Eber",
+			["npcID"] = 29452,
+		},
+		[46604] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Mage",
+			["npcID"] = 32341,
+		},
 		[12544] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Magister Surdiel",
 			["npcID"] = 32170,
 		},
@@ -163,6 +175,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
 		},
+		[29544] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Gold Warrior",
+			["npcID"] = 32322,
+		},
 		[25228] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
@@ -176,8 +194,8 @@ PlaterDB = {
 			["npcID"] = 32321,
 		},
 		[35361] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
 			["source"] = "Grove Walker",
 			["npcID"] = 31228,
 		},
@@ -221,11 +239,49 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["encounterID"] = 848,
 		},
+		[15090] = {
+			["isChanneled"] = false,
+			["source"] = "Gold Priest",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 32325,
+		},
+		[20424] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Green Paladin",
+			["npcID"] = 32342,
+		},
+		[23600] = {
+			["isChanneled"] = false,
+			["source"] = "Green Warrior",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 32321,
+		},
+		[47996] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Unknown",
+			["npcID"] = 17252,
+		},
+		[57483] = {
+			["source"] = "Unknown",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 728,
+		},
 		[47982] = {
 			["isChanneled"] = false,
 			["source"] = "Choqua",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 416,
+		},
+		[61684] = {
+			["encounterName"] = "Deathbringer Saurfang",
+			["source"] = "Snaxxgodxx",
+			["npcID"] = 18670,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 848,
 		},
 		[34655] = {
 			["encounterName"] = "Deathbringer Saurfang",
@@ -257,6 +313,26 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
 		},
+		[11640] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Green Priest",
+			["npcID"] = 32343,
+		},
+		[53401] = {
+			["encounterName"] = "Deathbringer Saurfang",
+			["source"] = "Snaxxgodxx",
+			["npcID"] = 18670,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 848,
+		},
+		[23844] = {
+			["source"] = "Unknown",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 1860,
+		},
 		[72410] = {
 			["encounterName"] = "Deathbringer Saurfang",
 			["source"] = "Deathbringer Saurfang",
@@ -265,12 +341,32 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
 		},
+		[61353] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Dagna Flintlock",
+			["npcID"] = 29476,
+		},
 		[72172] = {
 			["encounterName"] = "Deathbringer Saurfang",
 			["source"] = "Deathbringer Saurfang",
 			["npcID"] = 37813,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 848,
+		},
+		[15043] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Mage",
+			["npcID"] = 32341,
+		},
+		[53403] = {
+			["encounterName"] = "Deathbringer Saurfang",
+			["type"] = "BUFF",
+			["source"] = "Snaxxgodxx",
+			["npcID"] = 18670,
+			["event"] = "SPELL_AURA_APPLIED",
 			["encounterID"] = 848,
 		},
 		[54261] = {
@@ -285,6 +381,30 @@ PlaterDB = {
 			["source"] = "Unknown",
 			["npcID"] = 417,
 		},
+		[33395] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Water Elemental",
+			["npcID"] = 510,
+		},
+		[29385] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Green Paladin",
+			["npcID"] = 32342,
+		},
+		[27577] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Warrior",
+			["npcID"] = 32322,
+		},
+		[12611] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Mage",
+			["npcID"] = 32341,
+		},
 		[72371] = {
 			["encounterName"] = "Deathbringer Saurfang",
 			["type"] = "BUFF",
@@ -292,6 +412,24 @@ PlaterDB = {
 			["npcID"] = 37813,
 			["event"] = "SPELL_AURA_APPLIED",
 			["encounterID"] = 848,
+		},
+		[48090] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "BUFF",
+			["source"] = "Unknown",
+			["npcID"] = 17252,
+		},
+		[8272] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Razorfen Earthbreaker",
+			["npcID"] = 4525,
+		},
+		[15532] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Mage",
+			["npcID"] = 32341,
 		},
 		[57984] = {
 			["encounterName"] = "Deathbringer Saurfang",
@@ -301,6 +439,18 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
 		},
+		[12470] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Shaman",
+			["npcID"] = 32340,
+		},
+		[20615] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Gold Warrior",
+			["npcID"] = 32322,
+		},
 		[72173] = {
 			["encounterName"] = "Deathbringer Saurfang",
 			["source"] = "Deathbringer Saurfang",
@@ -309,17 +459,43 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
 		},
+		[11974] = {
+			["isChanneled"] = false,
+			["source"] = "Gold Priest",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 32325,
+		},
 		[44415] = {
 			["isChanneled"] = false,
 			["source"] = "Gold Priest",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 32325,
 		},
+		[29386] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Green Paladin",
+			["npcID"] = 32342,
+		},
 		[47983] = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["type"] = "BUFF",
 			["source"] = "Unknown",
 			["npcID"] = 416,
+		},
+		[6713] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Warrior",
+			["npcID"] = 32322,
+		},
+		[72769] = {
+			["encounterName"] = "Deathbringer Saurfang",
+			["source"] = "Deathbringer Saurfang",
+			["npcID"] = 37813,
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["encounterID"] = 848,
 		},
 		[72737] = {
 			["encounterName"] = "Deathbringer Saurfang",
@@ -336,18 +512,22 @@ PlaterDB = {
 			["npcID"] = 17252,
 		},
 		[68054] = {
-			["source"] = "Jeeves",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 35642,
-		},
-		[72769] = {
-			["encounterName"] = "Deathbringer Saurfang",
-			["source"] = "Deathbringer Saurfang",
-			["npcID"] = 37813,
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 848,
+			["source"] = "Jeeves",
+			["npcID"] = 35642,
+		},
+		[17843] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Green Priest",
+			["npcID"] = 32343,
+		},
+		[21401] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Shaman",
+			["npcID"] = 32340,
 		},
 		[414266] = {
 			["isChanneled"] = false,
@@ -361,11 +541,11 @@ PlaterDB = {
 			["source"] = "Unknown",
 			["npcID"] = 17252,
 		},
-		[11974] = {
+		[36589] = {
 			["isChanneled"] = false,
-			["source"] = "Gold Priest",
 			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 32325,
+			["source"] = "Sinewy Wolf",
+			["npcID"] = 31233,
 		},
 		[72293] = {
 			["encounterName"] = "Deathbringer Saurfang",
@@ -374,6 +554,12 @@ PlaterDB = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
+		},
+		[15786] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Shaman",
+			["npcID"] = 32340,
 		},
 		[54508] = {
 			["event"] = "SPELL_AURA_APPLIED",
@@ -389,65 +575,17 @@ PlaterDB = {
 			["event"] = "SPELL_AURA_APPLIED",
 			["encounterID"] = 848,
 		},
-		[23600] = {
-			["isChanneled"] = false,
-			["source"] = "Green Warrior",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 32321,
-		},
-		[47996] = {
+		[49309] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Unknown",
-			["npcID"] = 17252,
+			["source"] = "Gold Shaman",
+			["npcID"] = 32340,
 		},
-		[48090] = {
-			["event"] = "SPELL_AURA_APPLIED",
-			["type"] = "BUFF",
-			["source"] = "Unknown",
-			["npcID"] = 17252,
-		},
-		[23844] = {
-			["source"] = "Unknown",
-			["type"] = "BUFF",
-			["event"] = "SPELL_AURA_APPLIED",
-			["npcID"] = 1860,
-		},
-		[61684] = {
-			["encounterName"] = "Deathbringer Saurfang",
-			["source"] = "Snaxxgodxx",
-			["npcID"] = 18670,
+		[13323] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 848,
-		},
-		[53401] = {
-			["encounterName"] = "Deathbringer Saurfang",
-			["source"] = "Snaxxgodxx",
-			["npcID"] = 18670,
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["encounterID"] = 848,
-		},
-		[32736] = {
-			["isChanneled"] = false,
-			["source"] = "Gold Warrior",
-			["event"] = "SPELL_CAST_SUCCESS",
-			["npcID"] = 32322,
-		},
-		[61353] = {
-			["isChanneled"] = false,
-			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Dagna Flintlock",
-			["npcID"] = 29476,
-		},
-		[53403] = {
-			["encounterName"] = "Deathbringer Saurfang",
-			["type"] = "BUFF",
-			["source"] = "Snaxxgodxx",
-			["npcID"] = 18670,
-			["event"] = "SPELL_AURA_APPLIED",
-			["encounterID"] = 848,
+			["source"] = "Gold Mage",
+			["npcID"] = 32341,
 		},
 		[59638] = {
 			["encounterName"] = "Deathbringer Saurfang",
@@ -457,17 +595,71 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_SUCCESS",
 			["encounterID"] = 848,
 		},
+		[35859] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Nether Vapor",
+			["npcID"] = 21002,
+		},
+		[57453] = {
+			["source"] = "Unknown",
+			["type"] = "BUFF",
+			["event"] = "SPELL_AURA_APPLIED",
+			["npcID"] = 728,
+		},
+		[62305] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Eber",
+			["npcID"] = 29452,
+		},
+		[44178] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Mage",
+			["npcID"] = 32341,
+		},
+		[3600] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Earthbind Totem",
+			["npcID"] = 2630,
+		},
+		[32736] = {
+			["isChanneled"] = false,
+			["source"] = "Gold Warrior",
+			["event"] = "SPELL_CAST_SUCCESS",
+			["npcID"] = 32322,
+		},
+		[54029] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Sunreaver Guardian Mage",
+			["npcID"] = 29255,
+		},
+		[39586] = {
+			["isChanneled"] = false,
+			["event"] = "SPELL_CAST_SUCCESS",
+			["source"] = "Gold Shaman",
+			["npcID"] = 32340,
+		},
+		[25809] = {
+			["event"] = "SPELL_AURA_APPLIED",
+			["type"] = "DEBUFF",
+			["source"] = "Viper",
+			["npcID"] = 19921,
+		},
 		[53548] = {
 			["isChanneled"] = false,
 			["source"] = "Red",
 			["event"] = "SPELL_CAST_SUCCESS",
 			["npcID"] = 23929,
 		},
-		[33395] = {
+		[7870] = {
 			["isChanneled"] = false,
 			["event"] = "SPELL_CAST_SUCCESS",
-			["source"] = "Water Elemental",
-			["npcID"] = 510,
+			["source"] = "Anwen",
+			["npcID"] = 1863,
 		},
 	},
 	["captured_casts"] = {
@@ -1925,10 +2117,12 @@ PlaterDB = {
 			["source"] = "Botin der Val'kyr",
 			["npcID"] = 37098,
 		},
-		[72960] = {
+		[68872] = {
+			["encounterName"] = "Bronjahm",
+			["source"] = "Bronjahm",
+			["encounterID"] = 829,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Sinistrer Adliger",
-			["npcID"] = 37663,
+			["npcID"] = 36497,
 		},
 		[66796] = {
 			["encounterName"] = "Bestien von Nordend",
@@ -1937,12 +2131,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 34799,
 		},
-		[68872] = {
-			["encounterName"] = "Bronjahm",
-			["source"] = "Bronjahm",
-			["encounterID"] = 829,
+		[62605] = {
+			["encounterName"] = "Thorim",
+			["source"] = "Sif",
+			["encounterID"] = 752,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 36497,
+			["npcID"] = 33196,
 		},
 		[17290] = {
 			["event"] = "SPELL_CAST_START",
@@ -2058,10 +2252,10 @@ PlaterDB = {
 			["source"] = "Diener der Todessprecher",
 			["npcID"] = 36805,
 		},
-		[64570] = {
+		[65648] = {
 			["encounterName"] = "Mimiron",
-			["source"] = "Leviathan Mk II",
-			["npcID"] = 33432,
+			["source"] = "Luftkommandoeinheit",
+			["npcID"] = 33670,
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 754,
 		},
@@ -2072,12 +2266,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 32878,
 		},
-		[64059] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Yogg-Sarons Gehirn",
-			["encounterID"] = 756,
+		[64570] = {
+			["encounterName"] = "Mimiron",
+			["source"] = "Leviathan Mk II",
+			["npcID"] = 33432,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33890,
+			["encounterID"] = 754,
 		},
 		[63775] = {
 			["source"] = "Zwielichtpyromant",
@@ -2096,12 +2290,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 846,
 		},
-		[65648] = {
-			["encounterName"] = "Mimiron",
-			["source"] = "Luftkommandoeinheit",
-			["npcID"] = 33670,
+		[64059] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Yogg-Sarons Gehirn",
+			["encounterID"] = 756,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 754,
+			["npcID"] = 33890,
 		},
 		[66798] = {
 			["event"] = "SPELL_CAST_START",
@@ -2203,12 +2397,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 854,
 		},
-		[64443] = {
-			["encounterName"] = "Algalon der Beobachter",
-			["source"] = "Algalon der Beobachter",
-			["npcID"] = 32871,
+		[72037] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Valanar",
+			["npcID"] = 37970,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 757,
+			["encounterID"] = 852,
 		},
 		[63038] = {
 			["encounterName"] = "Yogg-Saron",
@@ -2248,24 +2442,22 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 36502,
 		},
-		[72037] = {
-			["encounterName"] = "Rat des Blutes",
-			["source"] = "Prinz Valanar",
-			["npcID"] = 37970,
+		[49113] = {
+			["source"] = "Drache des Wyrmruhtempels",
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 852,
+			["npcID"] = 26925,
 		},
 		[62415] = {
 			["source"] = "Jormungarungetüm",
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 32882,
 		},
-		[62623] = {
-			["encounterName"] = "Freya",
-			["source"] = "Freya",
-			["npcID"] = 32906,
+		[64156] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Verderbertentakel",
+			["encounterID"] = 756,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 753,
+			["npcID"] = 33985,
 		},
 		[67534] = {
 			["encounterName"] = "Großchampions",
@@ -2322,24 +2514,24 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27635,
 		},
-		[63134] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Sara",
-			["encounterID"] = 756,
+		[62623] = {
+			["encounterName"] = "Freya",
+			["source"] = "Freya",
+			["npcID"] = 32906,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33134,
+			["encounterID"] = 753,
 		},
 		[69387] = {
 			["event"] = "SPELL_CAST_START",
 			["source"] = "Knecht der Todessprecher",
 			["npcID"] = 36811,
 		},
-		[64156] = {
+		[63134] = {
 			["encounterName"] = "Yogg-Saron",
-			["source"] = "Verderbertentakel",
+			["source"] = "Sara",
 			["encounterID"] = 756,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33985,
+			["npcID"] = 33134,
 		},
 		[65084] = {
 			["event"] = "SPELL_CAST_START",
@@ -2486,10 +2678,12 @@ PlaterDB = {
 			["source"] = "Dunkler Runenelementarist",
 			["npcID"] = 27962,
 		},
-		[9053] = {
+		[72040] = {
+			["encounterName"] = "Rat des Blutes",
+			["source"] = "Prinz Taldaram",
+			["npcID"] = 37973,
 			["event"] = "SPELL_CAST_START",
-			["source"] = "Nekrolyth des Blutenden Auges",
-			["npcID"] = 19422,
+			["encounterID"] = 852,
 		},
 		[59271] = {
 			["encounterName"] = "Gortok Bleichhuf",
@@ -2534,12 +2728,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 641,
 		},
-		[72040] = {
-			["encounterName"] = "Rat des Blutes",
-			["source"] = "Prinz Taldaram",
-			["npcID"] = 37973,
+		[64189] = {
+			["encounterName"] = "Yogg-Saron",
+			["source"] = "Yogg-Saron",
+			["encounterID"] = 756,
 			["event"] = "SPELL_CAST_START",
-			["encounterID"] = 852,
+			["npcID"] = 33288,
 		},
 		[65940] = {
 			["encounterName"] = "Fraktionschampions",
@@ -2615,12 +2809,10 @@ PlaterDB = {
 			["source"] = "Zauberer der Himmelsbrecher",
 			["npcID"] = 37026,
 		},
-		[64189] = {
-			["encounterName"] = "Yogg-Saron",
-			["source"] = "Yogg-Saron",
-			["encounterID"] = 756,
+		[9053] = {
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33288,
+			["source"] = "Nekrolyth des Blutenden Auges",
+			["npcID"] = 19422,
 		},
 		[15241] = {
 			["source"] = "Dunkelzauberer des Blutenden Auges",
@@ -2704,10 +2896,12 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["npcID"] = 27656,
 		},
-		[49113] = {
-			["source"] = "Drache des Wyrmruhtempels",
+		[64443] = {
+			["encounterName"] = "Algalon der Beobachter",
+			["source"] = "Algalon der Beobachter",
+			["npcID"] = 32871,
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 26925,
+			["encounterID"] = 757,
 		},
 		[63631] = {
 			["encounterName"] = "Mimiron",
@@ -2833,12 +3027,10 @@ PlaterDB = {
 			["event"] = "SPELL_CAST_START",
 			["encounterID"] = 744,
 		},
-		[62605] = {
-			["encounterName"] = "Thorim",
-			["source"] = "Sif",
-			["encounterID"] = 752,
+		[72960] = {
 			["event"] = "SPELL_CAST_START",
-			["npcID"] = 33196,
+			["source"] = "Sinistrer Adliger",
+			["npcID"] = 37663,
 		},
 		[59370] = {
 			["encounterName"] = "Drakos der Befrager",
@@ -8334,9 +8526,9 @@ PlaterDB = {
 					"Eiskronenzitadelle", -- [2]
 					"deDE", -- [3]
 				},
-				[27965] = {
-					"Dunkler Runenformer", -- [1]
-					"Hallen des Steins", -- [2]
+				[416] = {
+					"Azpit", -- [1]
+					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
 				[33430] = {
@@ -8374,8 +8566,8 @@ PlaterDB = {
 					"Naxxramas", -- [2]
 					"deDE", -- [3]
 				},
-				[416] = {
-					"Azpit", -- [1]
+				[32871] = {
+					"Algalon der Beobachter", -- [1]
 					"Ulduar", -- [2]
 					"deDE", -- [3]
 				},
@@ -9159,9 +9351,9 @@ PlaterDB = {
 					"Archavons Kammer", -- [2]
 					"deDE", -- [3]
 				},
-				[32871] = {
-					"Algalon der Beobachter", -- [1]
-					"Ulduar", -- [2]
+				[27965] = {
+					"Dunkler Runenformer", -- [1]
+					"Hallen des Steins", -- [2]
 					"deDE", -- [3]
 				},
 				[38125] = {
@@ -9685,13 +9877,13 @@ PlaterDB = {
 				["Auto Set Skull"] = 11,
 				["Cast - Quick Flash"] = 2,
 				["Add - Non Elite Trash [P]"] = 4,
-				["Cast - On Going Cast [P]"] = 2,
-				["Add - Explode on Die [P]"] = 1,
 				["Countdown"] = 11,
+				["Add - Explode on Die [P]"] = 1,
+				["Cast - Stop Casting"] = 4,
 				["Fixate by Unit Buff [P]"] = 2,
 				["Cast - Frontal Cone"] = 15,
 				["Fixate"] = 11,
-				["Cast - Stop Casting"] = 4,
+				["Cast - On Going Cast [P]"] = 2,
 				["Spiteful Affix"] = 3,
 				["Cast - Very Important"] = 15,
 				["Fixate On You"] = 11,
@@ -9701,14 +9893,14 @@ PlaterDB = {
 				["Dont Have Aura"] = 1,
 				["Players Targetting Amount"] = 4,
 				["Color Automation"] = 1,
-				["Hide Neutral Units"] = 1,
+				["Combo Points"] = 6,
 				["Cast Bar Icon Config"] = 2,
 				["Execute Range"] = 1,
-				["Combo Points"] = 6,
+				["Extra Border"] = 2,
 				["Attacking Specific Unit"] = 2,
 				["Target Color"] = 3,
 				["Aura Reorder"] = 3,
-				["Extra Border"] = 2,
+				["Hide Neutral Units"] = 1,
 			},
 			["aura2_x_offset"] = 0,
 			["saved_cvars"] = {
@@ -9732,7 +9924,7 @@ PlaterDB = {
 				["nameplateMotion"] = "1",
 				["NamePlateVerticalScale"] = "1",
 			},
-			["login_counter"] = 512,
+			["login_counter"] = 520,
 			["plate_config"] = {
 				["global_health_height"] = 12,
 				["global_health_width"] = 112,
@@ -10507,25 +10699,25 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 	["_general_logs"] = {
-		"2023-11-20 23:16:14 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [1]
-		"2023-11-20 23:14:30 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [2]
-		"2023-11-20 23:05:35 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [3]
-		"2023-11-20 23:03:17 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [4]
-		"2023-11-20 23:01:56 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [5]
-		"2023-11-20 01:12:22 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [6]
-		"2023-11-20 01:11:44 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [7]
-		"2023-11-20 01:11:04 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [8]
-		"2023-11-19 23:48:14 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [9]
-		"2023-11-16 15:18:05 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [10]
-		"2023-11-16 15:11:27 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [11]
-		"2023-11-14 00:03:26 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | deDE | Maturitass", -- [12]
-		"2023-11-13 23:14:06 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | deDE | Maturitass", -- [13]
-		"2023-11-12 23:56:32 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | deDE | Maturitass", -- [14]
-		"2023-11-12 21:51:12 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | deDE | Bloodwall", -- [15]
-		"2023-11-09 12:33:32 | INIT | Plater-v565.1-Wrath | Framework v482 | 3.4.3 | deDE | Maturitass", -- [16]
-		"2023-11-09 12:32:00 | INIT | Plater-v565.1-Wrath | Framework v482 | 3.4.3 | deDE | Bloodwall", -- [17]
-		"2023-11-09 12:31:15 | INIT | Plater-v565.1-Wrath | Framework v482 | 3.4.3 | deDE | Recombinase", -- [18]
-		"2023-11-07 00:32:38 | INIT | Plater-v565.1-Wrath | Framework v479 | 3.4.3 | deDE | Bloodwall", -- [19]
+		"2023-11-24 01:02:31 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [1]
+		"2023-11-24 01:00:50 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [2]
+		"2023-11-24 00:59:52 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [3]
+		"2023-11-24 00:56:18 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [4]
+		"2023-11-24 00:55:41 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [5]
+		"2023-11-24 00:54:30 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [6]
+		"2023-11-24 00:53:28 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [7]
+		"2023-11-20 23:17:10 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [8]
+		"2023-11-20 23:16:14 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [9]
+		"2023-11-20 23:14:30 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [10]
+		"2023-11-20 23:05:35 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [11]
+		"2023-11-20 23:03:17 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [12]
+		"2023-11-20 23:01:56 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [13]
+		"2023-11-20 01:12:22 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [14]
+		"2023-11-20 01:11:44 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [15]
+		"2023-11-20 01:11:04 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [16]
+		"2023-11-19 23:48:14 | INIT | Plater-v570-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [17]
+		"2023-11-16 15:18:05 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | enUS | Maturitass", -- [18]
+		"2023-11-16 15:11:27 | INIT | Plater-v566-Wrath | Framework v482 | 3.4.3 | enUS | Bloodwall", -- [19]
 	},
 	["_error_logs"] = {
 	},

@@ -24,8 +24,8 @@ VER 3 0000000000000014 "glove" "134400"
 /cast Blood Fury(Racial)
 END
 VER 3 0000000000000010 "lock" "134400"
-#showtooltip Zaubersperre
-/cast [@mouseover, exists, nodead] Zaubersperre; [@Target, exists, nodead] Zaubersperre
+#showtooltip Spell Lock
+/cast [@mouseover, exists, nodead] Spell Lock; [@Target, exists, nodead] Spell Lock
 END
 VER 3 000000000000000E "PI" "135939"
 /w Sleepychí PI PLS!
@@ -44,5 +44,5 @@ VER 3 0000000000000004 "target" "132089"
 /target Andre Feuerbart
 END
 VER 3 0000000000000011 "Tricks" "236283"
-/w Longling Tricks PLS!
+/w Ozlek Tricks PLS!
 END
