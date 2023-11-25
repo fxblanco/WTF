@@ -10,27 +10,28 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Maturitass"] = {
 				["Inventory"] = {
 					"|cffffffff|Hitem:48194::41398:40147:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:47988::40117::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:48197:3808:40117::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:47988::40117::::::80:::::::::|h[Collar of Unending Torment]|h|r", -- [2]
+					"|cffa335ee|Hitem:48197:3808:40117::::::80:::::::::|h[Runetotem's Shoulderpads of Triumph]|h|r", -- [3]
 					nil, -- [4]
 					"|cffffffff|Hitem:48196:3832:40117:40117:::::80:::::::::|h[]|h|r", -- [5]
 					"|cffffffff|Hitem:47460::::::::80:::::::::|h[]|h|r", -- [6]
-					"|cffffffff|Hitem:48195:3328:40117:40117:::::80:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:47445:3606:40119:40119:::::80:::::::::|h[]|h|r", -- [8]
+					"|cffa335ee|Hitem:48195:3328:40117:40117:::::80:::::::::|h[Runetotem's Legguards of Triumph]|h|r", -- [7]
+					"|cffa335ee|Hitem:47445:3606:40119:40119:::::80:::::::::|h[Icewalker Treads]|h|r", -- [8]
 					"|cffffffff|Hitem:47582:3756:40117::::::80:::::::::|h[]|h|r", -- [9]
 					"|cffffffff|Hitem:48017:3604:40117:40117:::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:47730::::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:47730::::::::80:::::::::|h[Dexterous Brightstone Ring]|h|r", -- [11]
 					"|cffa335ee|Hitem:47993::40117:40117:::::80:::::::::|h[Gormok's Band]|h|r", -- [12]
 					"|cffa335ee|Hitem:44253::::::::80:::::::::|h[Darkmoon Card: Greatness]|h|r", -- [13]
 					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [14]
 					"|cffa335ee|Hitem:48669:3605:40117::::::80:::::::::|h[Cloak of the Triumphant Combatant]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:40130:40112:::::80:::::::::|h[]|h|r", -- [16]
-					[18] = "|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r",
-					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
+					nil, -- [17]
+					"|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 245.875,
 				["overallAIL"] = 251.0625,
-				["lastUpdate"] = 1700784065,
+				["lastUpdate"] = 1700910161,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {

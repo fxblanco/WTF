@@ -25,9 +25,8 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [14]
 					"|cffa335ee|Hitem:48669:3605:40117::::::80:::::::::|h[Cloak of the Triumphant Combatant]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:40130:40112:::::80:::::::::|h[]|h|r", -- [16]
-					nil, -- [17]
-					"|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r", -- [18]
-					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
+					[18] = "|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r",
+					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
 				},
 				["averageItemLvl"] = 245.875,
 				["overallAIL"] = 251.0625,
@@ -77,7 +76,7 @@ DataStore_InventoryDB = {
 				},
 				["averageItemLvl"] = 258.6875,
 				["overallAIL"] = 260.1875,
-				["lastUpdate"] = 1700909486,
+				["lastUpdate"] = 1700911400,
 			},
 		},
 		["Guilds"] = {

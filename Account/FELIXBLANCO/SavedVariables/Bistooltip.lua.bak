@@ -55,8 +55,8 @@ BisTooltipDB = {
 		},
 		["Kwasimojo - Venoxis"] = {
 			["class_index"] = 6,
-			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
 		},
 	},
