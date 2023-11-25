@@ -210,8 +210,7 @@ VER 3 0000000000000071 "pal_bub_cancel" "INV_Misc_QuestionMark"
 /cast Gottesschild
 /cancelaura Gottesschild
 END
-VER 3 0000000000000041 "pal_cancelrf" "134400"
-#showtooltip Righteous Fury
+VER 3 0000000000000041 "pal_cancelrf" "135768"
 /cancelaura Righteous Fury
 END
 VER 3 0000000000000039 "pal_cd" "134400"

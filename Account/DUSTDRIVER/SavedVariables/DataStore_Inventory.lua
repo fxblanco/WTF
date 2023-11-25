@@ -76,7 +76,7 @@ DataStore_InventoryDB = {
 				},
 				["averageItemLvl"] = 258.6875,
 				["overallAIL"] = 260.1875,
-				["lastUpdate"] = 1700784007,
+				["lastUpdate"] = 1700906938,
 			},
 		},
 		["Guilds"] = {
