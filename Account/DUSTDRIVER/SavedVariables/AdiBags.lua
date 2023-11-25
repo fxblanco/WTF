@@ -16,15 +16,15 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
+		["Equipment"] = {
 		},
 		["ItemSets"] = {
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {

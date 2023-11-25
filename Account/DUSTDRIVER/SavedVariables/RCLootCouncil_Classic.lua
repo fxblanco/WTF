@@ -1,5 +1,11 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1330,16 +1336,33 @@ RCLootCouncilDB = {
 			"01:04:30 - Removing Column (role)", -- [1325]
 			"01:04:30 - Removing Column (corruption)", -- [1326]
 			"01:04:30 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1327]
+			"11/25/23", -- [1328]
+			"12:02:31 - Logged In", -- [1329]
+			"12:02:31 - ML initialized!", -- [1330]
+			"12:02:31 - TradeUI enabled", -- [1331]
+			"12:02:36 - Maturitass-Venoxis (2.19.3) (nil)", -- [1332]
+			"12:02:36 - ActivateSkin (bfa)", -- [1333]
+			"12:02:41 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1334]
+			"12:02:41 - GetML()", -- [1335]
+			"12:02:41 - LootMethod =  (group)", -- [1336]
+			"12:02:41 - UpdatePlayersData()", -- [1337]
+			"12:02:41 - ClassicModule enabled (0.20.1) (nil)", -- [1338]
+			"12:02:41 - DoCommsCompressFix", -- [1339]
+			"12:02:41 - Removing Column (role)", -- [1340]
+			"12:02:41 - Removing Column (corruption)", -- [1341]
+			"12:02:42 - GetPlayersGuildRank()", -- [1342]
+			"12:02:42 - Found Guild Rank: Twink", -- [1343]
+			"12:02:44 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1344]
 		},
 		["errors"] = {
 			{
+				["count"] = 9,
 				["stack"] = {
 					"[string \"@Interface/AddOns/RCLootCouncil_Classic/RCLootCouncil/core.lua\"]:1957: in function `?'\n...\n", -- [1]
 					"[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceEvent-3.0/AceEvent-3.0.lua\"]:120: in function <...UI_Libraries/Core/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>\n", -- [2]
 				},
-				["msg"] = "ML.lootQueue nil",
 				["time"] = 1700438220,
-				["count"] = 9,
+				["msg"] = "ML.lootQueue nil",
 			}, -- [1]
 		},
 		["Classic_game"] = 11,
@@ -1361,15 +1384,15 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1700784271, -- [3]
 			},
-			["Gdkphunter-Venoxis"] = {
-				"0.20.0", -- [1]
+			["Zelcher-Venoxis"] = {
+				"0.20.1", -- [1]
 				nil, -- [2]
 				1700784271, -- [3]
 			},
-			["Hâkkî-Venoxis"] = {
+			["Minoton-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700518584, -- [3]
+				1700910164, -- [3]
 			},
 			["Wønka-Venoxis"] = {
 				"0.20.1", -- [1]
@@ -1391,40 +1414,40 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1700518584, -- [3]
 			},
-			["Jøki-Venoxis"] = {
-				"0.20.1", -- [1]
-				nil, -- [2]
-				1700434114, -- [3]
-			},
-			["Slimpy-Venoxis"] = {
+			["Cowbacca-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
 				1700784271, -- [3]
+			},
+			["Xolem-Venoxis"] = {
+				"0.20.1", -- [1]
+				nil, -- [2]
+				1700435941, -- [3]
 			},
 			["Beesportz-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
 				1700434114, -- [3]
 			},
-			["Graveofjenna-Venoxis"] = {
+			["Hâkkî-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700436954, -- [3]
+				1700518584, -- [3]
 			},
 			["Maturitass-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
 				1700518554, -- [3]
 			},
-			["Liptea-Venoxis"] = {
+			["Spaltkyle-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700784271, -- [3]
+				1700517947, -- [3]
 			},
-			["Minoton-Venoxis"] = {
+			["Jøki-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700518584, -- [3]
+				1700910164, -- [3]
 			},
 			["Bigmæc-Venoxis"] = {
 				"0.20.1", -- [1]
@@ -1436,8 +1459,8 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1700518585, -- [3]
 			},
-			["Cowbacca-Venoxis"] = {
-				"0.20.1", -- [1]
+			["Gdkphunter-Venoxis"] = {
+				"0.20.0", -- [1]
 				nil, -- [2]
 				1700784271, -- [3]
 			},
@@ -1446,35 +1469,35 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1700434114, -- [3]
 			},
-			["Mikirî-Venoxis"] = {
+			["Bremskyle-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700784271, -- [3]
+				1700518586, -- [3]
 			},
 			["Kentharo-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
 				1700439121, -- [3]
 			},
+			["Liptea-Venoxis"] = {
+				"0.20.1", -- [1]
+				nil, -- [2]
+				1700784271, -- [3]
+			},
 			["Kéksdöschen-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
 				1700436212, -- [3]
 			},
-			["Bremskyle-Venoxis"] = {
+			["Mikirî-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700518586, -- [3]
+				1700784271, -- [3]
 			},
-			["Spaltkyle-Venoxis"] = {
+			["Slimpy-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700517947, -- [3]
-			},
-			["Xolem-Venoxis"] = {
-				"0.20.1", -- [1]
-				nil, -- [2]
-				1700435941, -- [3]
+				1700784271, -- [3]
 			},
 			["Jogí-Venoxis"] = {
 				"0.20.1", -- [1]
@@ -1486,21 +1509,15 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1700435941, -- [3]
 			},
-			["Zelcher-Venoxis"] = {
+			["Graveofjenna-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1700784271, -- [3]
+				1700436954, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.1",
-	},
-	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Recombinase - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {

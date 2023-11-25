@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
-	["announceTrackedAchievements"] = false,
 	["trackAchievementsAutomatically"] = false,
+	["InfoFramescale"] = 1,
+	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["announceTrackedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -35931,6 +35931,20 @@ AchievementTrackerDebug = {
 	"24/11/2023 1:8 [DEBUG] Enabling Addon", -- [35906]
 	"24/11/2023 1:8 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35907]
 	"24/11/2023 1:8 [DEBUG] Showing Minimap Icon", -- [35908]
+	"25/11/2023 12:6 [DEBUG] ---IAT Runtime---", -- [35909]
+	"25/11/2023 12:6 [DEBUG] Version: 4.29.0", -- [35910]
+	"25/11/2023 12:6 [DEBUG] Attempting to load from local NPC Cache classic", -- [35911]
+	"25/11/2023 12:6 [DEBUG] Generating NPC Cache Classic...", -- [35912]
+	"25/11/2023 12:6 [DEBUG] Enabling Addon", -- [35913]
+	"25/11/2023 12:6 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35914]
+	"25/11/2023 12:8 [DEBUG] Showing Minimap Icon", -- [35915]
+	"25/11/2023 12:9 [DEBUG] ---IAT Runtime---", -- [35916]
+	"25/11/2023 12:9 [DEBUG] Version: 4.29.0", -- [35917]
+	"25/11/2023 12:9 [DEBUG] Attempting to load from local NPC Cache classic", -- [35918]
+	"25/11/2023 12:9 [DEBUG] Generating NPC Cache Classic...", -- [35919]
+	"25/11/2023 12:9 [DEBUG] Enabling Addon", -- [35920]
+	"25/11/2023 12:9 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [35921]
+	"25/11/2023 12:9 [DEBUG] Showing Minimap Icon", -- [35922]
 }
 AchievementTrackerNPCCache = {
 }
@@ -35963,9 +35977,9 @@ AchievementTrackerNPCCacheClassic = {
 	[26731] = "Grand Magus Telestra",
 	[26893] = "Grauf",
 	[26641] = "Drakkari Gutripper",
-	[33388] = "Dark Rune Guardian",
-	[28731] = "Watcher Silthik",
 	[33136] = "Guardian of Yogg-Saron",
+	[27975] = "Maiden of Grief",
+	[33388] = "Dark Rune Guardian",
 	[27658] = "Belgaristrasz",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
@@ -35973,7 +35987,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unstoppable Abomination",
 	[28729] = "Watcher Narjil",
 	[28730] = "Watcher Gashra",
-	[27975] = "Maiden of Grief",
+	[28731] = "Watcher Silthik",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",

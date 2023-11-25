@@ -9,11 +9,17 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["Vault of Archavon 25 Player|192766156"] = "446129|1700784270|0|1",
-					["Ulduar 10 Player|192818327"] = "446129|1700784270|0|1",
-					["Vault of Archavon 10 Player|192817951"] = "446129|1700784270|0|1",
+					["Vault of Archavon 25 Player|192766156"] = "320230|1700910170|0|1",
+					["Ulduar 10 Player|192818327"] = "320230|1700910170|0|1",
+					["Vault of Archavon 10 Player|192817951"] = "320230|1700910170|0|1",
 				},
 				["BossKills"] = {
+					["Vault of Archavon 25 Player|192766156"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
 					["Ulduar 10 Player|192818327"] = {
 						"Flame Leviathan|1", -- [1]
 						"Ignis the Furnace Master|0", -- [2]
@@ -30,16 +36,6 @@ DataStore_AgendaDB = {
 						"Yogg-Saron|0", -- [13]
 						"Algalon the Observer|0", -- [14]
 					},
-					["Vault of Archavon 25 Player|192766156"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["The Forge of Souls Heroic|275075273"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
-					},
 					["Vault of Archavon 10 Player|192817951"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
@@ -47,16 +43,16 @@ DataStore_AgendaDB = {
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1700784270,
+				["lastUpdate"] = 1700910170,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["DungeonIDs"] = {
-					["Ulduar 10 Player|192820815"] = "321711|1700908690|0|1",
-					["Vault of Archavon 25 Player|192821463"] = "321711|1700908690|0|1",
-					["Vault of Archavon 10 Player|192823782"] = "321711|1700908690|0|1",
+					["Ulduar 10 Player|192820815"] = "320420|1700909979|0|1",
+					["Vault of Archavon 25 Player|192821463"] = "320420|1700909979|0|1",
+					["Vault of Archavon 10 Player|192823782"] = "320420|1700909979|0|1",
 				},
 				["BossKills"] = {
 					["Ulduar 10 Player|192820815"] = {
@@ -88,7 +84,7 @@ DataStore_AgendaDB = {
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1700908690,
+				["lastUpdate"] = 1700909979,
 			},
 		},
 	},

@@ -76,9 +76,9 @@ GDKPd_PotData = {
 		["Myjuice"] = 0,
 		["Kyleriemen"] = 0,
 		["Gdkphunter"] = -10100,
-		["Abodin"] = 0,
-		["Niebel"] = 0,
 		["Kabaam"] = 0,
+		["Niebel"] = 0,
+		["Abodin"] = 0,
 	},
 	["curPotHistory"] = {
 		{

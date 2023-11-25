@@ -21,7 +21,7 @@ DataStore_CurrenciesDB = {
 					"1|Honor Points|4034|1901", -- [12]
 					"1|Stone Keeper's Shard|697|161", -- [13]
 				},
-				["lastUpdate"] = 1700784353,
+				["lastUpdate"] = 1700910498,
 			},
 		},
 	},

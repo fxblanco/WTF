@@ -2,13 +2,8 @@
 GTFOData = {
 	["TrivialDamagePercent"] = 2,
 	["Active"] = true,
+	["UnmuteMode"] = false,
 	["SoundChannel"] = "Master",
-	["SoundOverrides"] = {
-		"", -- [1]
-		"", -- [2]
-		"", -- [3]
-		"", -- [4]
-	},
 	["IgnoreSpellList"] = {
 	},
 	["TestMode"] = false,
@@ -25,6 +20,11 @@ GTFOData = {
 		["Fatigue"] = false,
 		["Lava"] = false,
 	},
-	["UnmuteMode"] = false,
+	["SoundOverrides"] = {
+		"", -- [1]
+		"", -- [2]
+		"", -- [3]
+		"", -- [4]
+	},
 	["TrivialMode"] = false,
 }
