@@ -50,9 +50,10 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["DungeonIDs"] = {
-					["Ulduar 10 Player|192820815"] = "318999|1700911401|0|1",
-					["Vault of Archavon 25 Player|192821463"] = "318999|1700911401|0|1",
-					["Vault of Archavon 10 Player|192823782"] = "318999|1700911401|0|1",
+					["Ulduar 10 Player|192820815"] = "188351|1701042049|0|1",
+					["Vault of Archavon 25 Player|192821463"] = "188351|1701042049|0|1",
+					["The Forge of Souls Heroic|275904594"] = "15551|1701042049|0|0",
+					["Vault of Archavon 10 Player|192823782"] = "188351|1701042049|0|1",
 				},
 				["BossKills"] = {
 					["Ulduar 10 Player|192820815"] = {
@@ -77,6 +78,10 @@ DataStore_AgendaDB = {
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
+					["The Forge of Souls Heroic|275904594"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
+					},
 					["Vault of Archavon 10 Player|192823782"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
@@ -84,7 +89,7 @@ DataStore_AgendaDB = {
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1700911401,
+				["lastUpdate"] = 1701042049,
 			},
 		},
 	},

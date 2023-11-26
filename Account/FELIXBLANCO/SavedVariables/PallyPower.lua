@@ -13,62 +13,56 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["buffscale"] = 0.75,
-			["skin"] = "ElvUI Blank",
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["cBuffNeedSome"] = {
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["seal"] = 5,
-			["display"] = {
-				["buffDuration"] = false,
-				["offsetX"] = -101.1990203857422,
-				["offsetY"] = -308.2001342773438,
-				["frameLocked"] = true,
-			},
 			["freeassign"] = true,
-			["enable"] = true,
-			["border"] = "None",
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["WrathTransition"] = true,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
 			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["seal"] = 9,
+			["cBuffNeedAll"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["enable"] = true,
+			["border"] = "None",
+			["skin"] = "ElvUI Blank",
+			["WrathTransition"] = true,
+			["display"] = {
+				["buffDuration"] = false,
+				["offsetY"] = -308.2001342773438,
+				["offsetX"] = -101.1990203857422,
+				["frameLocked"] = true,
+			},
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["buffscale"] = 0.75,
 			["rf"] = true,
 		},
 		["Other"] = {
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
+			},
+			["cBuffNeedAll"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
@@ -77,20 +71,26 @@ PallyPowerDB = {
 			},
 			["enable"] = true,
 			["WrathTransition"] = true,
+			["cBuffNeedSpecial"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
 		},
 	},
 }
 PallyPower_Assignments = {
 	["Alsia"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		3, -- [4]
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
 		4, -- [5]
 		4, -- [6]
-		3, -- [7]
-		3, -- [8]
-		2, -- [9]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
 		4, -- [10]
 	},
 	["Schpen"] = {
@@ -106,28 +106,28 @@ PallyPower_Assignments = {
 		3, -- [10]
 	},
 	["Bremskyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		1, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Dánáá"] = {
 		0, -- [1]
 		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
 		1, -- [8]
 		1, -- [9]
 		0, -- [10]
+	},
+	["Dánáá"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
 	},
 	["Harva"] = {
 		2, -- [1]
@@ -222,7 +222,7 @@ PallyPower_AuraAssignments = {
 	["Claisn"] = 0,
 	["Yaalol"] = 0,
 	["Holyshiad"] = 0,
-	["Bremskyle"] = 1,
+	["Bremskyle"] = 6,
 	["Invictús"] = 0,
 	["Deoka"] = 0,
 	["Uhter"] = 0,
@@ -293,7 +293,7 @@ PallyPower_AuraAssignments = {
 	["Nimuxtt"] = 0,
 	["Flottiloleh"] = 0,
 	["Arryl"] = 0,
-	["Dánáá"] = 1,
+	["Dánáá"] = 6,
 	["Gretah"] = 0,
 	["Annidina"] = 0,
 	["Holyjuice"] = 0,
@@ -305,7 +305,7 @@ PallyPower_AuraAssignments = {
 	["Saxz"] = 0,
 	["Beaconjus"] = 0,
 	["Fuccsen"] = 0,
-	["Liptea"] = 2,
+	["Liptea"] = 6,
 	["Lettn"] = 0,
 	["Yasuli"] = 0,
 	["Turbochiggo"] = 0,
@@ -457,7 +457,7 @@ PallyPower_AuraAssignments = {
 	["Výrgin"] = 0,
 	["Sayo"] = 0,
 	["Anuriellé"] = 0,
-	["Bubbledîne"] = 5,
+	["Bubbledîne"] = 3,
 	["Peaxx"] = 0,
 	["Zeolona"] = 0,
 	["Panikmache"] = 0,
@@ -477,7 +477,7 @@ PallyPower_AuraAssignments = {
 	["Paladana"] = 0,
 	["Beautypally"] = 0,
 	["Kopax"] = 0,
-	["Shikimora"] = 5,
+	["Shikimora"] = 2,
 	["Shorakxkx"] = 0,
 	["Kawaiiteen"] = 0,
 	["Wâshed"] = 0,
@@ -511,7 +511,6 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil

@@ -23,18 +23,6 @@ PallyPower_Assignments = {
 		2, -- [9]
 		4, -- [10]
 	},
-	["Spaltkyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		1, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
 	["Beesportz"] = {
 		2, -- [1]
 		0, -- [2]
@@ -47,10 +35,20 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
+	["Spaltkyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		1, -- [4]
+		3, -- [5]
+		3, -- [6]
+		1, -- [7]
+		1, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
 }
 PallyPower_NormalAssignments = {
-	["Alsia"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["Alsia"] = 1,

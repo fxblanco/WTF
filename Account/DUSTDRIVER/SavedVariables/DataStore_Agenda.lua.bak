@@ -50,9 +50,9 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["DungeonIDs"] = {
-					["Ulduar 10 Player|192820815"] = "320420|1700909979|0|1",
-					["Vault of Archavon 25 Player|192821463"] = "320420|1700909979|0|1",
-					["Vault of Archavon 10 Player|192823782"] = "320420|1700909979|0|1",
+					["Ulduar 10 Player|192820815"] = "318999|1700911401|0|1",
+					["Vault of Archavon 25 Player|192821463"] = "318999|1700911401|0|1",
+					["Vault of Archavon 10 Player|192823782"] = "318999|1700911401|0|1",
 				},
 				["BossKills"] = {
 					["Ulduar 10 Player|192820815"] = {
@@ -84,7 +84,7 @@ DataStore_AgendaDB = {
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1700909979,
+				["lastUpdate"] = 1700911401,
 			},
 		},
 	},

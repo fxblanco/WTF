@@ -11,9 +11,9 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
+			["fastooc"] = false,
 			["alerthidden"] = true,
 			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
@@ -21,16 +21,16 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["spec2_profileKey"] = "Xolem - Venoxis",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Xolem - Venoxis",
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -80,13 +80,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
 					["spell"] = "Lesser Healing Wave",
@@ -95,17 +88,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136043,
 					["spellSubName"] = "Rank 9",
-				}, -- [3]
+				}, -- [2]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Healing Wave",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136052,
-					["spellSubName"] = "Rank 14",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -115,6 +105,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136042,
 					["spellSubName"] = "Rank 7",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["spell"] = "Healing Wave",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136052,
+					["spellSubName"] = "Rank 14",
 				}, -- [5]
 				{
 					["type"] = "spell",
