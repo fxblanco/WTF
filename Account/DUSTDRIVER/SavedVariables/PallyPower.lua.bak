@@ -49,8 +49,6 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Alsia"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["Alsia"] = 1,

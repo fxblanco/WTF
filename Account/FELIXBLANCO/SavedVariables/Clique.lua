@@ -11,9 +11,9 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
+			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
-			["fastooc"] = false,
 			["alerthidden"] = true,
 			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
@@ -21,8 +21,8 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
 			["downclick"] = false,
-			["specswap"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
