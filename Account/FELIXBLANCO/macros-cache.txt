@@ -1,78 +1,5 @@
-VER 3 000000000000003F "111_search" "134400"
-/4 LFM GDKP ICC 25 (HC 1+3)-  HC 10k NHC 5k - 1 Healer dann go!
-END
 VER 3 0000000000000043 "434" "236178"
 /castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
-END
-VER 3 0000000000000050 "Anub" "135994"
-/cancelaura Gebet der Seelenstärke
-/cancelaura Machtwort: Seelenstärke
-/cancelaura Befehlsruf
-END
-VER 3 0000000000000051 "Auslöschen" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Auslöschen(Rang 4)
-/startattack
-/petattack
-/cast Klaue
-END
-VER 3 000000000000007F "bann" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead] Magiebannung; [mod:ctrl, @mouseover, help, nodead] Krankheit heilen; Massenbannung
-END
-VER 3 0000000000000052 "Blutstoß" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Blood Strike(Rank 6)
-/startattack
-/cast Rune Strike
-END
-VER 3 0000000000000053 "Cam" "134400"
-/console cameraDistanceMaxZoomFactor 3.5
-END
-VER 3 0000000000000069 "Camera" "132092"
-/console cameraDistanceMaxZoomFactor 4
-END
-VER 3 000000000000006C "cancel" "134400"
-/cancelaura Gebet der Seelenstärke
-/cancelaura Befehlsruf
-/cancelaura Sonnenwendfestverstärkung
-END
-VER 3 000000000000006D "cancel" "134400"
-/cancelaura Zorn der Gerechtigkeit
-END
-VER 3 0000000000000080 "cd" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Schattengeist; Berserker
-END
-VER 3 0000000000000054 "cds" "135812"
-/cast Arkane Macht
-/cast Eisige Adern
-/use 13
-/use Geschwindigkeitstrank
-END
-VER 3 0000000000000055 "Corr" "136118"
-/cast Verderbnis(Rang 10)
-/petattack
-END
-VER 3 0000000000000081 "d_q" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead] Blitzheilung;Gedankenschlag
-END
-VER 3 0000000000000056 "dds" "132868"
-/cast Arkane Macht
-/cast Spiegelbild
-/cast Eisige Adern
-/use 13
-END
-VER 3 0000000000000057 "Death Strike" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Death Strike(Rank 5)
-/startattack
-/cast Rune Strike
-END
-VER 3 000000000000004F "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] Magiebannung;  [@mouseover,exists,mod:ctrl] Krankheit aufheben; [@mouseover,exists,mod:shift] Magiebannung
 END
 VER 3 000000000000006E "Decursive" "134400"
 /stopcasting
@@ -86,50 +13,12 @@ VER 3 0000000000000090 "Decursive" "134400"
 /stopcasting
 /cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Polymorph; [@mouseover,exists,mod:shift] Remove Curse
 END
-VER 3 000000000000004C "DPS" "INV_Misc_QuestionMark"
-#showtooltip Rapid Fire
-/cast Rapid Fire
-/use [combat] 13
-/use [combat] 14
-/cast call of the wild
-/cast Berserking
-END
-VER 3 0000000000000059 "Feuerbrand" "135817"
-/cast Feuerbrand(Rang 11)
-/petAttack
-END
-VER 3 000000000000005A "Fire CDS" "135903"
-/cast Mirror Image
-/cast Combustion
-/use 10
-/use potion of speed
-END
-VER 3 000000000000004E "Fire CDS" "135903"
-/cast Mirror Image
-/cast Combustion
-/use 10
-/use potion of speed
-/cast Berserking(Racial)
+VER 3 000000000000004F "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Magiebannung;  [@mouseover,exists,mod:ctrl] Krankheit aufheben; [@mouseover,exists,mod:shift] Magiebannung
 END
 VER 3 0000000000000040 "focus" "132097"
 /focus
-END
-VER 3 000000000000005B "Frost CDs" "132388"
-/cast Blood Tap
-/cast Unbreakable Armor
-/use 11
-/use 12
-/use 10
-/use 13
-/use 14
-/cast Blood Fury(Racial)
-END
-VER 3 000000000000005C "Froststoß" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Froststoß(Rang 6)
-/startattack
-/petattack
-/cast Klaue
 END
 VER 3 0000000000000024 "g_boots" "132546"
 #showtooltip
@@ -151,64 +40,15 @@ VER 3 000000000000003E "g_trinket_2" "134400"
 #showtooltip
 /use [mod:shift] 14; 13
 END
-VER 3 000000000000005D "Grip" "INV_Misc_QuestionMark"
-#showtooltip Death Grip
-/cast Death Grip
-/startattack
-/cast Rune Strike
-END
-VER 3 000000000000005E "Heal" "136146"
-#Showtooltip
-/castsequence Raise Dead, Death Pact
-END
-VER 3 0000000000000082 "hymn" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Hymne der Hoffnung; Gotteshymne
-END
-VER 3 000000000000005F "Icy touch" "INV_Misc_QuestionMark"
-#showtooltip Icy Touch
-/cast Icy Touch
-/startattack
-/cast Rune Strike
-END
-VER 3 000000000000006A "Mana Frost" "136222"
-/cancelaura Gebet der Seelenstärke
-/cancelaura Machtwort: Seelenstärke
-/cancelaura Befehlsruf
-/use Mächtiger Frostschutztrank
-END
-VER 3 000000000000006F "max" "134400"
-/console cameraDistanceMaxZoomFactor 4.5
-END
-VER 3 0000000000000083 "mc" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Gedankenbesänftigung; Gedankenkontrolle
-END
-VER 3 0000000000000060 "Metacds" "237558"
-/cast Metamorphosis
-/cast Immolation Aura(Demon)
-/use 13
-/use 14
-END
 VER 3 0000000000000034 "pal_bitte" "134400"
 #showtooltip
 /cast Divine Plea
 /cancelaura Divine Plea
 END
-VER 3 0000000000000070 "pal_bitte" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Göttliche Bitte
-/cancelaura Göttliche Bitte
-END
 VER 3 0000000000000032 "pal_bub_cancel" "134400"
 #showtooltip
 /cast Divine Shield
 /cancelaura Divine Shield
-END
-VER 3 0000000000000071 "pal_bub_cancel" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Gottesschild
-/cancelaura Gottesschild
 END
 VER 3 0000000000000041 "pal_cancelrf" "135768"
 /cancelaura Righteous Fury
@@ -217,27 +57,10 @@ VER 3 0000000000000039 "pal_cd" "134400"
 #showtooltip
 /cast Avenging Wrath
 END
-VER 3 0000000000000072 "pal_cd" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Zornige Vergeltung
-END
-VER 3 0000000000000073 "pal_cd_h" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Zornige Vergeltung; Göttliche Eingebung
-END
-VER 3 0000000000000074 "pal_ds_cancel" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Heilige Opferung
-/cancelaura Heilige Opferung
-END
 VER 3 0000000000000025 "pal_ds_cancel" "134400"
 #showtooltip
 /cast Divine Sacrifice
 /cancelaura Divine Sacrifice
-END
-VER 3 0000000000000075 "pal_h_amin4" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead] Lichtblitz;[@mouseover, help, nodead][] Heiliger Schock
 END
 VER 3 0000000000000028 "pal_prot_1button" "134400"
 /castsequence reset=6 Judgement of Wisdom,Shield of Righteousness,Holy Shield,Hammer of the Righteous,Consecration,Shield of Righteousness,Judgement of Wisdom,Hammer of the Righteous,Holy Shield,Shield of Righteousness,Consecration,Hammer of the Righteous
@@ -246,58 +69,30 @@ VER 3 000000000000001C "pal_prot_f" "134400"
 #showtooltip
 /cast [mod:shift] Exorcism; [mod:ctrl] Seal of Corruption; Holy Shield;
 END
-VER 3 0000000000000076 "pal_prot_f" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Exorzismus; [mod:ctrl] Siegel der Verderbnis; Heiliger Schild;
-END
-VER 3 0000000000000077 "pal_prot_g" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Arkaner Strom; Göttliche Eingebung
-END
-VER 3 0000000000000078 "pat_ret_f" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Exorzismus
-/cast Hand der Abrechnung
-END
-VER 3 0000000000000079 "PI" "INV_Misc_QuestionMark"
-#showtooltip
-/target Hakkî
-/cast Seele der Macht
-END
-VER 3 0000000000000061 "PI" "4352492"
-/w Serferine Pi bitte
-END
 VER 3 000000000000003A "PI" "134400"
 #showtooltip Power Infusion
 /target Hakkî
 /cast Power Infusion
 END
-VER 3 0000000000000062 "Plague" "INV_Misc_QuestionMark"
+VER 3 0000000000000080 "priest_c" "135727"
 #showtooltip
-/cast Plague Strike(Rank 6)
-/startattack
-/petattack
-/cast Rune Stike
+/cast [mod:shift] Shadowfiend;Berserking(Racial)
 END
 VER 3 000000000000003C "priest_sp_e" "134400"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [] Mind Flay
 END
-VER 3 000000000000007A "priest_sp_e" "INV_Misc_QuestionMark"
+VER 3 000000000000007B "priest_sp_fient" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:shift,@mouseover,harm,nodead] [] Gedankenschinden
-END
-VER 3 000000000000002F "priest_sp_fient" "134400"
-#showtooltip
-/cast Shadowfiend
+/cast Schattengeist
 /petaggressive
 /petattack
 /use Gewürzte Mammutleckereien
 /cast Kriechende Schatten
 END
-VER 3 000000000000007B "priest_sp_fient" "INV_Misc_QuestionMark"
+VER 3 000000000000002F "priest_sp_fient" "134400"
 #showtooltip
-/cast Schattengeist
+/cast Shadowfiend
 /petaggressive
 /petattack
 /use Gewürzte Mammutleckereien
@@ -308,107 +103,24 @@ VER 3 0000000000000063 "Pyro" "INV_Misc_QuestionMark"
 /run pFQ()
 /cast Pyroschlag
 END
-VER 3 000000000000006B "Random" "INV_Misc_QuestionMark"
-#showtooltip Seele der Macht
-/cast [@focus] Seele der Macht
-END
-VER 3 0000000000000029 "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
-END
-VER 3 0000000000000084 "s_2" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift,@mouseover,harm,nodead] [] Verschlingende Seuche
-END
-VER 3 0000000000000085 "s_3" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift,@mouseover,harm,nodead] [] Schattenwort: Schmerz
-END
-VER 3 0000000000000086 "s_4" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift,@mouseover,harm,nodead] [] Vampirberührung
-END
-VER 3 0000000000000087 "s_6" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Untote Fesseln; [mod:ctrl] Manabrand; Gedankenkontrolle
-END
-VER 3 0000000000000088 "s_e" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead] Machtwort: Schild;Gedankenschinden
-END
-VER 3 0000000000000089 "s_f" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead] Gebet der Heilung; Gedankenexplosion
-END
-VER 3 000000000000008A "s_g" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead]Furchtzauberschutz; [mod:ctrl] Kampfrausch; Psychischer Schrei
-END
-VER 3 0000000000000064 "Seelenfeuer" "INV_Misc_QuestionMark"
-#showtooltip Seelenfeuer(Rang 6)
-/cast [@pettarget,exists]Demonic Empowerment
-/cast Seelenfeuer(Rang 6)]
-END
-VER 3 000000000000008B "shadow" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Gebet des Schattenschutzes; Schattenschutz
-END
-VER 3 000000000000007C "shadow_swd+" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Schattenwort: Tod
-/use [@Cursor] Saronitbombe
-END
 VER 3 0000000000000030 "shadow_swd+" "134400"
 #showtooltip
 /cast Shadow Word: Death
 /use [@Cursor] Saronite Bomb
 END
-VER 3 0000000000000065 "Shadowbolt" "INV_Misc_QuestionMark"
-#showtooltip Schattenblitz(Rang 13)
-/cast [@pettarget,exists]Demonic Empowerment
-/cast Schattenblitz(Rang 13)
-END
-VER 3 000000000000007D "sham_e_cd" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:ctrl] Totem des Ingrimms; [mod:shift ] Kochendes Blut(Volk); Elementarbeherrschung
-END
 VER 3 0000000000000012 "sham_e_cd" "136115"
 #showtooltip
 /cast [mod:ctrl] Totem of Wrath; [mod:shift] Blood Fury; Elemental Mastery
-END
-VER 3 000000000000007E "sham_enh_r" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Totem des glühenden Magmas; Feuernova
 END
 VER 3 0000000000000037 "sham_enh_r" "134400"
 #showtooltip
 /cast [mod:shift] Magma Totem; Fire Nova
 END
-VER 3 0000000000000066 "Snap" "136197"
-/cast [@mouseover,harm,nodead][] Schattenblitz(Rang 1)
-END
-VER 3 0000000000000067 "Spread" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Pestilence
-/startattack
-/cast Rune Strike
-END
 VER 3 000000000000008C "stam" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:shift] Gebet der Seelenstärke; Machtwort: Seelenstärke
-END
-VER 3 0000000000000068 "Steady" "INV_Misc_QuestionMark"
-#showtooltip Steady Shot
-/cast Silencing Shot
-/cast Kill Command
-/cast Steady Shot
-END
-VER 3 000000000000008D "VuhDoDCShieldData" "132281"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-VER 3 000000000000008E "VuhDoDCShieldNames" "132281"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Kwa[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+/cast [mod:shift] Prayer of Fortitude;Power Word: Fortitude
 END
 VER 3 000000000000008F "wille" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:shift] Gebet der Willenskraft; Göttlicher Wille
+/cast [mod:shift] Prayer of Spirit;Divine Spirit
 END
