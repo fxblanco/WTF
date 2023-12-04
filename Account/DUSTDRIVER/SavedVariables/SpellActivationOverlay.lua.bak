@@ -338,10 +338,11 @@ SpellActivationOverlayDB = {
 		["enabled"] = true,
 	},
 	["alert"] = {
-		["enabled"] = true,
-		["opacity"] = 1,
 		["offset"] = 0,
 		["scale"] = 1,
+		["opacity"] = 1,
+		["timer"] = 1,
+		["enabled"] = true,
 	},
-	["version"] = 91,
+	["version"] = 100,
 }

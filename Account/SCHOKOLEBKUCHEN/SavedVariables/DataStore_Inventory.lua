@@ -6,7 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1701088673,
+				["lastUpdate"] = 1701645537,
 				["averageItemLvl"] = 265.8125,
 				["overallAIL"] = 266.9375,
 				["Inventory"] = {
@@ -43,11 +43,17 @@ DataStore_InventoryDB = {
 					["Andrés"] = {
 						["averageItemLvl"] = 256,
 					},
+					["Bloodwall"] = {
+						["averageItemLvl"] = 258,
+					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 244,
 					},
 					["Exonuklease"] = {
 						["averageItemLvl"] = 265,
+					},
+					["Maturitass"] = {
+						["averageItemLvl"] = 245,
 					},
 				},
 			},

@@ -1,11 +1,14 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -69,9 +72,17 @@ DataStore_MailsDB = {
 					}, -- [3]
 				},
 			},
+			["Default.Venoxis.Hâkkî"] = {
+				["lastUpdate"] = 1701646070,
+				["lastVisitDate"] = "2023/12/04 00:27",
+			},
 			["Default.Venoxis.Andrés"] = {
 				["lastUpdate"] = 1699824898,
 				["lastVisitDate"] = "2023/11/12 22:34",
+			},
+			["Default.Venoxis.Pippop"] = {
+				["lastUpdate"] = 1701646625,
+				["lastVisitDate"] = "2023/12/04 00:37",
 			},
 		},
 	},

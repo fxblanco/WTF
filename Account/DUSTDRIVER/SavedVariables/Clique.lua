@@ -4,17 +4,17 @@ CliqueDB3 = {
 	["char"] = {
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
+			["fastooc"] = false,
 			["alerthidden"] = true,
 			["downclick"] = false,
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Bloodwall - Venoxis",
 			["specswap"] = false,
 		},
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Maturitass - Venoxis",
 			["downclick"] = false,
+			["fastooc"] = false,
 			["alerthidden"] = true,
 			["specswap"] = false,
 		},
@@ -112,13 +112,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
 					["sets"] = {
@@ -126,7 +119,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135952,
 					["spell"] = "Fluch aufheben",
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -135,17 +128,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136067,
 					["spell"] = "Vergiftung heilen",
-				}, -- [4]
+				}, -- [3]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Regrowth",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136085,
-					["spellSubName"] = "Rank 12",
-				}, -- [5]
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -154,7 +144,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Innervate",
-				}, -- [6]
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
@@ -164,6 +154,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136080,
 					["spellSubName"] = "Rank 7",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spell"] = "Regrowth",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136085,
+					["spellSubName"] = "Rank 12",
 				}, -- [7]
 				{
 					["type"] = "spell",

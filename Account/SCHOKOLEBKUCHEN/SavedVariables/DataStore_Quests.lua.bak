@@ -6,7 +6,7 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1700911236,
+				["lastUpdate"] = 1701209094,
 				["HistorySize"] = 1242,
 				["Money"] = {
 					486600, -- [1]
@@ -17,7 +17,7 @@ DataStore_QuestsDB = {
 					296000, -- [6]
 					3300, -- [7]
 				},
-				["HistoryLastUpdate"] = 1700911239,
+				["HistoryLastUpdate"] = 1701209095,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
@@ -271,6 +271,9 @@ DataStore_QuestsDB = {
 					[159] = 256,
 					[46] = 2147483648,
 					[131] = 2097152,
+				},
+				["Rewards"] = {
+					[4] = "r|52006|1|1",
 				},
 				["HistoryBuild"] = "52237",
 				["Quests"] = {

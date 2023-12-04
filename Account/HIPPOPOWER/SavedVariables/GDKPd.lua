@@ -8,10 +8,13 @@ GDKPd_DB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Andrés - Transcendence"] = "Andrés - Transcendence",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
@@ -71,7 +74,11 @@ GDKPd_DB = {
 				["x"] = -227.9994049072266,
 			},
 		},
+		["Pippop - Venoxis"] = {
+		},
 		["Andrés - Transcendence"] = {
+		},
+		["Hakkî - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -100,20 +107,6 @@ GDKPd_DB = {
 				["x"] = -308.3594970703125,
 			},
 			["increment"] = 10,
-		},
-		["Khalimmortus - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 198.3747711181641,
-				["relative"] = "BOTTOMRIGHT",
-				["point"] = "BOTTOMRIGHT",
-				["x"] = -39.47518157958984,
-			},
-			["point"] = {
-				["y"] = -97.20004272460938,
-				["relative"] = "LEFT",
-				["point"] = "LEFT",
-				["x"] = 79.50005340576172,
-			},
 		},
 		["Alsia - Venoxis"] = {
 			["itemLevelPricing"] = {
@@ -152,36 +145,56 @@ GDKPd_DB = {
 			},
 			["increment"] = 20,
 		},
-		["Kwasimojo - Venoxis"] = {
-			["announceBidRaidWarning"] = true,
-			["balancepoint"] = {
-				["y"] = -131.5301666259766,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 426.3553161621094,
-			},
-			["auctionTimer"] = 17,
+		["Khalimmortus - Venoxis"] = {
 			["playerbalancepoint"] = {
-				["y"] = 76.32506561279297,
-				["x"] = -325.6748657226563,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
+				["y"] = 198.3747711181641,
+				["relative"] = "BOTTOMRIGHT",
+				["point"] = "BOTTOMRIGHT",
+				["x"] = -39.47518157958984,
 			},
+			["point"] = {
+				["y"] = -97.20004272460938,
+				["relative"] = "LEFT",
+				["point"] = "LEFT",
+				["x"] = 79.50005340576172,
+			},
+		},
+		["Hâkkî - Venoxis"] = {
+			["point"] = {
+				["y"] = 66.11331176757812,
+				["x"] = 443.7736206054688,
+			},
+		},
+		["Kwasimojo - Venoxis"] = {
 			["point"] = {
 				["y"] = -16.99997520446777,
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = -79.00001525878906,
 			},
+			["announceBidRaidWarning"] = true,
 			["auctionTimerRefresh"] = 10,
-			["startBid"] = 200,
-			["increment"] = 20,
+			["balancepoint"] = {
+				["y"] = -131.5301666259766,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 426.3553161621094,
+			},
+			["playerbalancepoint"] = {
+				["y"] = 76.32506561279297,
+				["x"] = -325.6748657226563,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["auctionTimer"] = 17,
 			["statuspoint"] = {
 				["y"] = -152.2695617675781,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
+			["startBid"] = 200,
+			["increment"] = 20,
 		},
 	},
 }

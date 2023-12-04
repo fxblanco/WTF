@@ -1,11 +1,14 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -48,20 +51,27 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1699913750,
 			},
-			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699827376,
+			["Default.Venoxis.Hakkî"] = {
+				["lastUpdate"] = 1701646303,
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Ehre|0|102", -- [2]
-					"1|Emblem der Eroberung|4|221", -- [3]
-					"1|Emblem des Frosts|14|341", -- [4]
-					"1|Emblem des Heldentums|0|101", -- [5]
-					"1|Emblem des Triumphs|4|301", -- [6]
-					"0|Spieler gegen Spieler", -- [7]
-					"1|Arenapunkte|0|1900", -- [8]
-					"1|Ehrepunkte|5262|1901", -- [9]
-					"1|Münze der Venture Co.|34|201", -- [10]
-					"1|Splitter eines Steinbewahrers|16|161", -- [11]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|12|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|16|341", -- [4]
+					"1|Emblem of Heroism|0|101", -- [5]
+					"1|Emblem of Triumph|97|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|19|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Badge of Justice|17|42", -- [10]
+					"1|Champion's Seal|29|241", -- [11]
+					"1|Epicurean's Award|1|81", -- [12]
+					"0|Player vs. Player", -- [13]
+					"1|Arena Points|0|1900", -- [14]
+					"1|Honor Points|14481|1901", -- [15]
+					"1|Stone Keeper's Shard|144|161", -- [16]
+					"1|Venture Coin|30|201", -- [17]
+					"1|Wintergrasp Mark of Honor|6|126", -- [18]
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
@@ -88,8 +98,67 @@ DataStore_CurrenciesDB = {
 				},
 				["lastUpdate"] = 1699917783,
 			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1699827376,
+				["Currencies"] = {
+					"0|Dungeon und Schlachtzug", -- [1]
+					"1|Emblem der Ehre|0|102", -- [2]
+					"1|Emblem der Eroberung|4|221", -- [3]
+					"1|Emblem des Frosts|14|341", -- [4]
+					"1|Emblem des Heldentums|0|101", -- [5]
+					"1|Emblem des Triumphs|4|301", -- [6]
+					"0|Spieler gegen Spieler", -- [7]
+					"1|Arenapunkte|0|1900", -- [8]
+					"1|Ehrepunkte|5262|1901", -- [9]
+					"1|Münze der Venture Co.|34|201", -- [10]
+					"1|Splitter eines Steinbewahrers|16|161", -- [11]
+				},
+			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228474,
+			},
+			["Default.Venoxis.Hâkkî"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|2|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|79|341", -- [4]
+					"1|Emblem of Heroism|7|101", -- [5]
+					"1|Emblem of Triumph|0|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|8|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|6|241", -- [10]
+					"1|Epicurean's Award|1|81", -- [11]
+					"0|Player vs. Player", -- [12]
+					"1|Honor Points|18566|1901", -- [13]
+					"1|Stone Keeper's Shard|183|161", -- [14]
+					"1|Venture Coin|134|201", -- [15]
+					"1|Wintergrasp Mark of Honor|8|126", -- [16]
+				},
+				["lastUpdate"] = 1701646043,
+			},
+			["Default.Venoxis.Pippop"] = {
+				["lastUpdate"] = 1701646641,
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|8|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|267|341", -- [4]
+					"1|Emblem of Heroism|17|101", -- [5]
+					"1|Emblem of Triumph|0|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|1|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|22|241", -- [10]
+					"1|Epicurean's Award|1|81", -- [11]
+					"0|Player vs. Player", -- [12]
+					"1|Arena Points|0|1900", -- [13]
+					"1|Honor Points|21418|1901", -- [14]
+					"1|Stone Keeper's Shard|122|161", -- [15]
+					"1|Venture Coin|144|201", -- [16]
+					"1|Wintergrasp Mark of Honor|39|126", -- [17]
+				},
 			},
 		},
 	},

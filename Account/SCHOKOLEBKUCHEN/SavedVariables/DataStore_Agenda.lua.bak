@@ -7,12 +7,18 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player (Heroic)|192748537"] = "319164|1700911237|0|1",
-					["Ulduar 25 Player|192766027"] = "319164|1700911237|0|1",
-					["Vault of Archavon 10 Player|192766263"] = "319164|1700911237|0|1",
-					["Vault of Archavon 25 Player|192768858"] = "319164|1700911237|0|1",
+					["Vault of Archavon 25 Player|192768858"] = "21306|1701209095|0|1",
+					["Icecrown Citadel 25 Player (Heroic)|192748537"] = "21306|1701209095|0|1",
+					["Vault of Archavon 10 Player|192766263"] = "21306|1701209095|0|1",
+					["Ulduar 25 Player|192766027"] = "21306|1701209095|0|1",
 				},
 				["BossKills"] = {
+					["Vault of Archavon 25 Player|192768858"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
 					["Icecrown Citadel 25 Player (Heroic)|192748537"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
@@ -26,6 +32,12 @@ DataStore_AgendaDB = {
 						"Valithria Dreamwalker|1", -- [10]
 						"Sindragosa|1", -- [11]
 						"The Lich King|1", -- [12]
+					},
+					["Vault of Archavon 10 Player|192766263"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
 					},
 					["Ulduar 25 Player|192766027"] = {
 						"Flame Leviathan|1", -- [1]
@@ -43,20 +55,8 @@ DataStore_AgendaDB = {
 						"Yogg-Saron|0", -- [13]
 						"Algalon the Observer|0", -- [14]
 					},
-					["Vault of Archavon 10 Player|192766263"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["Vault of Archavon 25 Player|192768858"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
 				},
-				["lastUpdate"] = 1700911237,
+				["lastUpdate"] = 1701209095,
 			},
 		},
 	},

@@ -30,9 +30,12 @@ AdiBagsDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Hâkkî - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -42,13 +45,13 @@ AdiBagsDB = {
 			},
 			["positions"] = {
 				["Bank"] = {
-					["xOffset"] = 0.9500797986984253,
-					["yOffset"] = -2.75,
+					["xOffset"] = 173.0750732421875,
+					["yOffset"] = -189.0499877929688,
 				},
 				["Backpack"] = {
-					["xOffset"] = -58.324951171875,
+					["xOffset"] = -300.921630859375,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -83.35009765625,
+					["yOffset"] = -254.296875,
 				},
 			},
 			["experiments"] = {

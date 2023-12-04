@@ -3,13 +3,13 @@ GTFOData = {
 	["IgnoreSpellList"] = {
 	},
 	["Active"] = true,
-	["SoundChannel"] = "Master",
 	["SoundOverrides"] = {
 		"", -- [1]
 		"", -- [2]
 		"", -- [3]
 		"", -- [4]
 	},
+	["UnmuteMode"] = false,
 	["TrivialDamagePercent"] = 2,
 	["Sounds"] = {
 		true, -- [1]
@@ -25,6 +25,6 @@ GTFOData = {
 		["Fatigue"] = false,
 		["Lava"] = false,
 	},
-	["UnmuteMode"] = false,
+	["SoundChannel"] = "Master",
 	["TrivialMode"] = false,
 }

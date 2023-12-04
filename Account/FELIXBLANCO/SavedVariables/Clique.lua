@@ -11,11 +11,11 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Alsia - Venoxis",
+			["specswap"] = false,
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -26,11 +26,11 @@ CliqueDB3 = {
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["spec2_profileKey"] = "Xolem - Venoxis",
-			["downclick"] = false,
 			["fastooc"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Xolem - Venoxis",
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",

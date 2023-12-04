@@ -1,12 +1,12 @@
 
 LeaMapsDB = {
-	["MapScale"] = 1.015289187431335,
+	["MapScale"] = 1.181885600090027,
 	["AutoChangeZones"] = "Off",
 	["ShowSpiritHealers"] = "Off",
 	["ShowZoneLevels"] = "On",
 	["minimapPos"] = 204,
 	["tintRed"] = 0.6,
-	["MapPosY"] = 56.95415496826172,
+	["MapPosY"] = 48.92604446411133,
 	["MapPosA"] = "TOPLEFT",
 	["RevTint"] = "On",
 	["stationaryOpacity"] = 1,
@@ -27,7 +27,7 @@ LeaMapsDB = {
 	["BattleMapOpacity"] = 1,
 	["MapPosR"] = "TOPLEFT",
 	["BattleMapY"] = 83,
-	["MapPosX"] = -5.097198486328125,
+	["MapPosX"] = -4.378706455230713,
 	["MainPanelR"] = "CENTER",
 	["UseClassIcons"] = "On",
 	["BattleMapA"] = "BOTTOMRIGHT",

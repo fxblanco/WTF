@@ -5,8 +5,11 @@ GDKPd_DB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Andrés - Transcendence"] = "Andrés - Transcendence",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -71,15 +74,13 @@ GDKPd_DB = {
 				["x"] = -227.9994049072266,
 			},
 		},
+		["Pippop - Venoxis"] = {
+		},
 		["Andrés - Transcendence"] = {
 		},
+		["Hakkî - Venoxis"] = {
+		},
 		["Andrés - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 223.5460662841797,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -308.3594970703125,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
@@ -93,12 +94,24 @@ GDKPd_DB = {
 				["relative"] = "TOPRIGHT",
 			},
 			["startBid"] = 100,
-			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -57.77770614624023,
+			},
+			["balancepoint"] = {
+				["y"] = 223.5460662841797,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -308.3594970703125,
+			},
+			["increment"] = 10,
+		},
+		["Hâkkî - Venoxis"] = {
+			["point"] = {
+				["y"] = 66.11331176757812,
+				["x"] = 443.7736206054688,
 			},
 		},
 		["Khalimmortus - Venoxis"] = {
@@ -180,8 +193,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["startBid"] = 200,
 			["increment"] = 20,
+			["startBid"] = 200,
 		},
 	},
 }

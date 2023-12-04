@@ -1,21 +1,24 @@
+VER 3 0000000000000091 "11_serach" "134400"
+/4 LFM ICC 10 8+hc - MS > OS - 1 Heal (Diszi, Druid, Schami)
+END
 VER 3 0000000000000043 "434" "236178"
 /castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
 END
-VER 3 000000000000006E "Decursive" "134400"
-/stopcasting
-/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Remove Curse; [@mouseover,exists,mod:shift] Remove Curse
-END
 VER 3 0000000000000058 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Magiebannung;  [@mouseover,exists,mod:ctrl] Krankheit aufheben; [@mouseover,exists,mod:shift] Magiebannung
+/cast [@mouseover,nomod,exists] Toxine heilen;  [@mouseover,exists,mod:ctrl] Verhexen; [@mouseover,exists,mod:shift] Toxine heilen
 END
-VER 3 0000000000000090 "Decursive" "134400"
+VER 3 0000000000000090 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Polymorph; [@mouseover,exists,mod:shift] Remove Curse
+/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
 END
 VER 3 000000000000004F "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] Magiebannung;  [@mouseover,exists,mod:ctrl] Krankheit aufheben; [@mouseover,exists,mod:shift] Magiebannung
+/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
+END
+VER 3 000000000000006E "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
 END
 VER 3 0000000000000040 "focus" "132097"
 /focus
@@ -71,7 +74,7 @@ VER 3 000000000000001C "pal_prot_f" "134400"
 END
 VER 3 000000000000003A "PI" "134400"
 #showtooltip Power Infusion
-/target Hakkî
+/target Kev
 /cast Power Infusion
 END
 VER 3 0000000000000080 "priest_c" "135727"
@@ -82,17 +85,17 @@ VER 3 000000000000003C "priest_sp_e" "134400"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [] Mind Flay
 END
-VER 3 000000000000007B "priest_sp_fient" "INV_Misc_QuestionMark"
+VER 3 000000000000002F "priest_sp_fient" "134400"
 #showtooltip
-/cast Schattengeist
+/cast Shadowfiend
 /petaggressive
 /petattack
 /use Gewürzte Mammutleckereien
 /cast Kriechende Schatten
 END
-VER 3 000000000000002F "priest_sp_fient" "134400"
+VER 3 000000000000007B "priest_sp_fient" "INV_Misc_QuestionMark"
 #showtooltip
-/cast Shadowfiend
+/cast Schattengeist
 /petaggressive
 /petattack
 /use Gewürzte Mammutleckereien

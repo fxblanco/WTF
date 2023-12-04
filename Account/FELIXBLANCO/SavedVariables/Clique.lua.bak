@@ -26,11 +26,11 @@ CliqueDB3 = {
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["spec2_profileKey"] = "Xolem - Venoxis",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["alerthidden"] = true,
+			["spec2_profileKey"] = "Xolem - Venoxis",
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -80,13 +80,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
 					["spellSubName"] = "Rank 9",
@@ -95,17 +88,14 @@ CliqueDB3 = {
 					},
 					["icon"] = 136043,
 					["spell"] = "Lesser Healing Wave",
-				}, -- [3]
+				}, -- [2]
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["spellSubName"] = "Rank 14",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136052,
-					["spell"] = "Healing Wave",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -115,6 +105,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136042,
 					["spell"] = "Chain Heal",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["spellSubName"] = "Rank 14",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136052,
+					["spell"] = "Healing Wave",
 				}, -- [5]
 				{
 					["type"] = "spell",

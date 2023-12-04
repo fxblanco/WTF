@@ -1,10 +1,13 @@
 
 DataStore_SpellsDB = {
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -90,6 +93,24 @@ DataStore_SpellsDB = {
 					"Disziplin", -- [2]
 					"Heilig", -- [3]
 					"Schattenmagie", -- [4]
+				},
+			},
+			["Default.Venoxis.Hakkî"] = {
+				["lastUpdate"] = 1701646301,
+				["Spells"] = {
+					["General"] = {
+						"6603|", -- [1]
+						"818|", -- [2]
+						"54197|Passive", -- [3]
+						"51296|Grand Master", -- [4]
+						"81|Passive", -- [5]
+					},
+				},
+				["SpellTabs"] = {
+					"General", -- [1]
+					"Balance", -- [2]
+					"Feral Combat", -- [3]
+					"Restoration", -- [4]
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
@@ -178,6 +199,25 @@ DataStore_SpellsDB = {
 					"Arkan", -- [2]
 					"Feuer", -- [3]
 					"Frost", -- [4]
+				},
+			},
+			["Default.Venoxis.Hâkkî"] = {
+				["lastUpdate"] = 1701645909,
+				["Spells"] = {
+					["General"] = {
+						"6603|", -- [1]
+						"818|", -- [2]
+						"54197|Passive", -- [3]
+						"51296|Grand Master", -- [4]
+						"81|Passive", -- [5]
+						"51306|Grand Master", -- [6]
+					},
+				},
+				["SpellTabs"] = {
+					"General", -- [1]
+					"Elemental Combat", -- [2]
+					"Enhancement", -- [3]
+					"Restoration", -- [4]
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
@@ -280,7 +320,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699913906,
+				["lastUpdate"] = 1699917783,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -357,6 +397,15 @@ DataStore_SpellsDB = {
 					"Heilig", -- [2]
 					"Schutz", -- [3]
 					"Vergeltung", -- [4]
+				},
+			},
+			["Default.Venoxis.Pippop"] = {
+				["lastUpdate"] = 1701645721,
+				["SpellTabs"] = {
+					"General", -- [1]
+					"Arcane", -- [2]
+					"Fire", -- [3]
+					"Frost", -- [4]
 				},
 			},
 		},

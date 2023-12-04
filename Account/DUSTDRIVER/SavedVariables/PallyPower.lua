@@ -47,6 +47,18 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
+	["Bremskyle"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
+	},
 }
 PallyPower_NormalAssignments = {
 }
@@ -57,9 +69,11 @@ PallyPower_AuraAssignments = {
 	["Highlightz"] = 2,
 	["Beesportz"] = 2,
 	["Diggii"] = 1,
+	["Fanga"] = 1,
 	["Psychøtin"] = 1,
-	["Tagirx"] = 1,
 	["Transhorsti"] = 6,
+	["Tagirx"] = 1,
+	["Bremskyle"] = 6,
 	["Velanya"] = 1,
 }
 PallyPower_SavedPresets = {

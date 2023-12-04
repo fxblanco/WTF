@@ -7,7 +7,7 @@ DataStore_QuestsDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["HistoryBuild"] = "52237",
-				["HistorySize"] = 1242,
+				["HistorySize"] = 1254,
 				["QuestHeaders"] = {
 					"Dalaran", -- [1]
 					"Felwood", -- [2]
@@ -15,15 +15,14 @@ DataStore_QuestsDB = {
 					"Ulduar", -- [4]
 					"Warlock", -- [5]
 				},
-				["HistoryLastUpdate"] = 1701088677,
+				["HistoryLastUpdate"] = 1701645541,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
 					"|cff808080|Hquest:5202:55|h[A Strange Red Key]|h|r", -- [3]
 					"|cffffff00|Hquest:24875:80|h[Deprogramming]|h|r", -- [4]
 					"|cffffff00|Hquest:13604:80|h[Archivum Data Disc]|h|r", -- [5]
-					"|cffffff00|Hquest:24585:80|h[Flame Leviathan Must Die!]|h|r", -- [6]
-					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [7]
+					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [6]
 				},
 				["Money"] = {
 					486600, -- [1]
@@ -31,8 +30,7 @@ DataStore_QuestsDB = {
 					4950, -- [3]
 					560600, -- [4]
 					420600, -- [5]
-					296000, -- [6]
-					3300, -- [7]
+					3300, -- [6]
 				},
 				["QuestTitles"] = {
 					"Proof of Demise: Threats to Azeroth", -- [1]
@@ -40,8 +38,7 @@ DataStore_QuestsDB = {
 					"A Strange Red Key", -- [3]
 					"Deprogramming", -- [4]
 					"Archivum Data Disc", -- [5]
-					"Flame Leviathan Must Die!", -- [6]
-					"Hot and Itchy", -- [7]
+					"Hot and Itchy", -- [6]
 				},
 				["QuestTags"] = {
 					85, -- [1]
@@ -49,7 +46,6 @@ DataStore_QuestsDB = {
 					"COMPLETED", -- [3]
 					89, -- [4]
 					88, -- [5]
-					62, -- [6]
 				},
 				["History"] = {
 					25166084, -- [1]
@@ -157,6 +153,7 @@ DataStore_QuestsDB = {
 					[397] = 151865906,
 					[413] = 13631496,
 					[54] = 2048,
+					[380] = 51119630,
 					[131] = 2097152,
 					[46] = 2147483648,
 					[159] = 256,
@@ -223,7 +220,7 @@ DataStore_QuestsDB = {
 					[153] = 131072,
 					[766] = 3424387072,
 					[45] = 13391872,
-					[380] = 51119630,
+					[769] = 32760,
 					[69] = 67108864,
 					[354] = 415170470,
 					[77] = 256,
@@ -272,15 +269,14 @@ DataStore_QuestsDB = {
 					[206] = 2106,
 					[411] = 2687016436,
 				},
-				["lastUpdate"] = 1701088673,
+				["lastUpdate"] = 1701645537,
 				["Quests"] = {
 					5244994, -- [1]
 					5244994, -- [2]
 					3608641, -- [3]
 					5249088, -- [4]
 					5251137, -- [5]
-					5251137, -- [6]
-					3418176, -- [7]
+					3418176, -- [6]
 				},
 			},
 		},

@@ -5,7 +5,10 @@ BisTooltipDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Pjanic - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
+		["Hakkî - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
+		["Hâkkî - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
@@ -32,9 +35,21 @@ BisTooltipDB = {
 			["version"] = 6.1,
 			["data_source"] = "wowtbc",
 		},
+		["Pippop - Venoxis"] = {
+			["data_source"] = "wh",
+			["version"] = 6.2,
+		},
+		["Hakkî - Venoxis"] = {
+			["version"] = 6.2,
+			["data_source"] = "wh",
+		},
 		["Andrés - Transcendence"] = {
 			["version"] = 6.1,
 			["data_source"] = "wowtbc",
+		},
+		["Hâkkî - Venoxis"] = {
+			["version"] = 6.2,
+			["data_source"] = "wh",
 		},
 		["Andrés - Venoxis"] = {
 			["class_index"] = 4,
@@ -44,6 +59,9 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["Lesbenlisa - Venoxis"] = {
+			["class_index"] = 5,
+			["spec_index"] = 3,
+			["phase_index"] = 3,
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
@@ -60,8 +78,8 @@ BisTooltipDB = {
 		},
 		["Kwasimojo - Venoxis"] = {
 			["class_index"] = 6,
-			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
 		},
 	},

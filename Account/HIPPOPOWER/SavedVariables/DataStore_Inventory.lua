@@ -1,11 +1,14 @@
 
 DataStore_InventoryDB = {
 	["profileKeys"] = {
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -61,31 +64,31 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:23705::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 			},
-			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699827372,
-				["averageItemLvl"] = 245,
-				["overallAIL"] = 251.4375,
+			["Default.Venoxis.Hakkî"] = {
 				["Inventory"] = {
-					"|cffffffff|Hitem:48363:3820:41398:40128:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffa335ee|Hitem:48030::40113::::::80:::::::::|h[Nachtbanns Amulett]|h|r", -- [2]
-					"|cffffffff|Hitem:48361:3808:40128::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:51149:3820:41285:40113:::::80:::::::::|h[Sanctified Lasherweave Cover]|h|r", -- [1]
+					"|cffffffff|Hitem:50724::40133::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffa335ee|Hitem:51147:3810:40113::::::80:::::::::|h[Sanctified Lasherweave Mantle]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:47412:3832:40159:49110:40128::::80:::::::::|h[]|h|r", -- [5]
-					"|cffa335ee|Hitem:47994::40113:40113:40113::::80:::::::::|h[Eisheulers Bindungen]|h|r", -- [6]
-					"|cffffffff|Hitem:48362:3823:40128:40128:::::80:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:45989:3606:40017:40055:::::80:::::::::|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:47577:3845:40128::::::80:::::::::|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:48364:3604:40128::::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:48007:3839:40128::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffa335ee|Hitem:48001:3840:40128::::::80:::::::::|h[Feuersturmband]|h|r", -- [12]
-					"|cffa335ee|Hitem:48020::::::::80:::::::::|h[Rache der Verlassenen]|h|r", -- [13]
-					"|cffa335ee|Hitem:45286::::::::80:::::::::|h[Pyriteinspritzung]|h|r", -- [14]
-					"|cffa335ee|Hitem:47452:3859:40113::::::80:::::::::|h[Tuch der Verschiebung]|h|r", -- [15]
-					"|cffffffff|Hitem:48050:3789:40128::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:48050:3789:40128::::::80:::::::::|h[]|h|r", -- [17]
-					"|cffa335ee|Hitem:47666::::::::80:::::::::|h[Totem des aufladenden Windes]|h|r", -- [18]
-					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Gildenwappenrock]|h|r", -- [19]
+					"|cffffffff|Hitem:51294:3832:40113:40155:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffa335ee|Hitem:50994::40155:40113:40113::::80:::::::::|h[Belt of Petrified Ivy]|h|r", -- [6]
+					"|cffa335ee|Hitem:51146:3719:40113:40155:::::80:::::::::|h[Sanctified Lasherweave Trousers]|h|r", -- [7]
+					"|cffffffff|Hitem:50062:3826:40133:40113:::::80:::::::::|h[]|h|r", -- [8]
+					"|cffa335ee|Hitem:51872:3758:40113::::::80:::::::::|h[Ether-Soaked Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:50663:3246:40113:40113:::::80:::::::::|h[Gunship Captain's Mittens]|h|r", -- [10]
+					"|cffa335ee|Hitem:50398:3840:40155::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [11]
+					"|cffffffff|Hitem:47489:3840:40155::::::80:::::::::|h[]|h|r", -- [12]
+					"|cffa335ee|Hitem:50360::::::::80:::::::::|h[Phylactery of the Nameless Lich]|h|r", -- [13]
+					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [14]
+					"|cffa335ee|Hitem:47551:3831:40113::::::80:::::::::|h[Aethas' Intensity]|h|r", -- [15]
+					"|cffa335ee|Hitem:50608:3834:40155::::::80:::::::::|h[Frozen Bonespike]|h|r", -- [16]
+					"|cffa335ee|Hitem:51922::40113::::::80:::::::::|h[Scourgelord's Baton]|h|r", -- [17]
+					"|cffa335ee|Hitem:50457::::::::80:::::::::|h[Idol of the Lunar Eclipse]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
 				},
+				["averageItemLvl"] = 269,
+				["overallAIL"] = 269.8125,
+				["lastUpdate"] = 1701646301,
 			},
 			["Default.Venoxis.Alsia"] = {
 				["lastUpdate"] = 1699917783,
@@ -113,6 +116,32 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1699827372,
+				["averageItemLvl"] = 245,
+				["overallAIL"] = 251.4375,
+				["Inventory"] = {
+					"|cffffffff|Hitem:48363:3820:41398:40128:::::80:::::::::|h[]|h|r", -- [1]
+					"|cffa335ee|Hitem:48030::40113::::::80:::::::::|h[Nachtbanns Amulett]|h|r", -- [2]
+					"|cffffffff|Hitem:48361:3808:40128::::::80:::::::::|h[]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffffff|Hitem:47412:3832:40159:49110:40128::::80:::::::::|h[]|h|r", -- [5]
+					"|cffa335ee|Hitem:47994::40113:40113:40113::::80:::::::::|h[Eisheulers Bindungen]|h|r", -- [6]
+					"|cffffffff|Hitem:48362:3823:40128:40128:::::80:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:45989:3606:40017:40055:::::80:::::::::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:47577:3845:40128::::::80:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:48364:3604:40128::::::80:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:48007:3839:40128::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:48001:3840:40128::::::80:::::::::|h[Feuersturmband]|h|r", -- [12]
+					"|cffa335ee|Hitem:48020::::::::80:::::::::|h[Rache der Verlassenen]|h|r", -- [13]
+					"|cffa335ee|Hitem:45286::::::::80:::::::::|h[Pyriteinspritzung]|h|r", -- [14]
+					"|cffa335ee|Hitem:47452:3859:40113::::::80:::::::::|h[Tuch der Verschiebung]|h|r", -- [15]
+					"|cffffffff|Hitem:48050:3789:40128::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:48050:3789:40128::::::80:::::::::|h[]|h|r", -- [17]
+					"|cffa335ee|Hitem:47666::::::::80:::::::::|h[Totem des aufladenden Windes]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Gildenwappenrock]|h|r", -- [19]
+				},
+			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228474,
 				["Inventory"] = {
@@ -135,6 +164,56 @@ DataStore_InventoryDB = {
 					[18] = "|cffffffff|Hitem:39208::::::::60:::::::::|h[]|h|r",
 				},
 			},
+			["Default.Venoxis.Hâkkî"] = {
+				["Inventory"] = {
+					"|cffffffff|Hitem:51202:3820:41285:40113:::::80:::::::::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:50658::40155::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:50845:3810:40134::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffffffff|Hitem:52019::::::::80:::::::::|h[]|h|r", -- [4]
+					"|cffffffff|Hitem:51200:3832:40113:40134:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:50992::40155:40113:40113::::80:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:51203:3721:40113:40155:::::80:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:49896:3606:40155:40155:::::80:::::::::|h[]|h|r", -- [8]
+					"|cffa335ee|Hitem:48000:2332:40155::::::80:::::::::|h[Felspark Bracers]|h|r", -- [9]
+					"|cffffffff|Hitem:51201:3604:40113::::::80:::::::::|h[]|h|r", -- [10]
+					"|cffa335ee|Hitem:50398::40155::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [11]
+					"|cffa335ee|Hitem:50664::40113::::::80:::::::::|h[Ring of Rapid Ascent]|h|r", -- [12]
+					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Flare of the Heavens]|h|r", -- [13]
+					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [14]
+					"|cffffffff|Hitem:47551:3859:40113::::::80:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:50608:3834:40134::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:50616:1128:40155::::::80:::::::::|h[]|h|r", -- [17]
+					"|cffffffff|Hitem:50458::::::::80:::::::::|h[]|h|r", -- [18]
+				},
+				["averageItemLvl"] = 266.625,
+				["overallAIL"] = 269.4375,
+				["lastUpdate"] = 1701645909,
+			},
+			["Default.Venoxis.Pippop"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51158:3820:41285:40133:::::80:::::::::|h[Sanctified Bloodmage Hood]|h|r", -- [1]
+					"|cffa335ee|Hitem:47468::40152::::::80:::::::::|h[Cry of the Val'kyr]|h|r", -- [2]
+					"|cffa335ee|Hitem:51155:3810:40152::::::80:::::::::|h[Sanctified Bloodmage Shoulderpads]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:50278:3832:40113:40113:::::80:::::::::|h[Bloodmage Robe]|h|r", -- [5]
+					"|cffa335ee|Hitem:50997::40133:40113:40113::::80:::::::::|h[Circle of Ossus]|h|r", -- [6]
+					"|cffa335ee|Hitem:51157:3719:40133:40152:::::80:::::::::|h[Sanctified Bloodmage Leggings]|h|r", -- [7]
+					"|cffa335ee|Hitem:49893:3606:40153:40153:::::80:::::::::|h[Sandals of Consecration]|h|r", -- [8]
+					"|cffa335ee|Hitem:51872:2332:40113::::::80:::::::::|h[Ether-Soaked Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:50663:3604:40152:40152:::::80:::::::::|h[Gunship Captain's Mittens]|h|r", -- [10]
+					"|cffa335ee|Hitem:49977::40152::::::80:::::::::|h[Loop of the Endless Labyrinth]|h|r", -- [11]
+					"|cffa335ee|Hitem:50398::40152::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [12]
+					"|cffa335ee|Hitem:47316::::::::80:::::::::|h[Reign of the Dead]|h|r", -- [13]
+					"|cffa335ee|Hitem:50360::::::::80:::::::::|h[Phylactery of the Nameless Lich]|h|r", -- [14]
+					"|cffa335ee|Hitem:47554:3722:40113::::::80:::::::::|h[Lady Liadrin's Conviction]|h|r", -- [15]
+					"|cffa335ee|Hitem:51932:3834:40155::::::80:::::::::|h[Frost Needle]|h|r", -- [16]
+					"|cffa335ee|Hitem:50173::::::::80:::::::::|h[Shadow Silk Spindle]|h|r", -- [17]
+					"|cffa335ee|Hitem:50684::40152::::::80:::::::::|h[Corpse-Impaling Spike]|h|r", -- [18]
+				},
+				["averageItemLvl"] = 264.5625,
+				["overallAIL"] = 266.625,
+				["lastUpdate"] = 1701646641,
+			},
 		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
@@ -142,8 +221,14 @@ DataStore_InventoryDB = {
 					["Alsia"] = {
 						["averageItemLvl"] = 262,
 					},
+					["Pippop"] = {
+						["averageItemLvl"] = 264,
+					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 244,
+					},
+					["Hâkkî"] = {
+						["averageItemLvl"] = 266,
 					},
 					["Xolem"] = {
 						["averageItemLvl"] = 245,
@@ -151,17 +236,20 @@ DataStore_InventoryDB = {
 					["Lesbenlisa"] = {
 						["averageItemLvl"] = 252,
 					},
-					["Maturitass"] = {
-						["averageItemLvl"] = 243,
-					},
-					["Andrés"] = {
-						["averageItemLvl"] = 256,
+					["Hakkî"] = {
+						["averageItemLvl"] = 269,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
+					["Maturitass"] = {
+						["averageItemLvl"] = 243,
+					},
 					["Exonuklease"] = {
 						["averageItemLvl"] = 258,
+					},
+					["Andrés"] = {
+						["averageItemLvl"] = 256,
 					},
 				},
 			},

@@ -1,15 +1,20 @@
 
 DataStore_CraftsDB = {
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
+				["lastUpdate"] = 1699916221,
+				["Prof2"] = "Schneiderei",
 				["Professions"] = {
 					["Kochkunst"] = {
 						["isSecondary"] = true,
@@ -37,11 +42,38 @@ DataStore_CraftsDB = {
 						["Rank"] = 115,
 					},
 				},
-				["Prof2"] = "Schneiderei",
-				["lastUpdate"] = 1699916221,
 				["Prof1"] = "Ingenieurskunst",
 			},
+			["Default.Venoxis.Hakkî"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 450,
+					},
+					["Leatherworking"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 450,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 300,
+						["Rank"] = 300,
+					},
+					["Enchanting"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 450,
+					},
+				},
+				["Prof2"] = "Leatherworking",
+				["lastUpdate"] = 1701646301,
+				["Prof1"] = "Enchanting",
+			},
 			["Default.Venoxis.Andrés"] = {
+				["lastUpdate"] = 1699913750,
+				["Prof2"] = "Ingenieurskunst",
 				["Professions"] = {
 					["Alchemie"] = {
 						["Categories"] = {
@@ -211,11 +243,32 @@ DataStore_CraftsDB = {
 						["Rank"] = 225,
 					},
 				},
-				["Prof2"] = "Ingenieurskunst",
-				["lastUpdate"] = 1699913750,
 				["Prof1"] = "Alchemie",
 			},
+			["Default.Venoxis.Hâkkî"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 450,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 300,
+						["Rank"] = 300,
+					},
+					["Engineering"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 421,
+					},
+				},
+				["lastUpdate"] = 1701645909,
+				["Prof1"] = "Engineering",
+			},
 			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1699827372,
+				["Prof2"] = "Verzauberkunst",
 				["Professions"] = {
 					["Reiten"] = {
 						["isSecondary"] = true,
@@ -419,11 +472,10 @@ DataStore_CraftsDB = {
 						["Rank"] = 448,
 					},
 				},
-				["Prof2"] = "Verzauberkunst",
-				["lastUpdate"] = 1699827372,
 				["Prof1"] = "Ingenieurskunst",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228474,
 				["Professions"] = {
 					["Reiten"] = {
 						["isSecondary"] = true,
@@ -436,9 +488,10 @@ DataStore_CraftsDB = {
 						["Rank"] = 270,
 					},
 				},
-				["lastUpdate"] = 1699228474,
 			},
 			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1699917783,
+				["Prof2"] = "Juwelenschleifen",
 				["Professions"] = {
 					["Kochkunst"] = {
 						["isSecondary"] = true,
@@ -932,19 +985,47 @@ DataStore_CraftsDB = {
 						["Rank"] = 85,
 					},
 				},
-				["Prof2"] = "Juwelenschleifen",
-				["lastUpdate"] = 1699913906,
 				["Prof1"] = "Ingenieurskunst",
+			},
+			["Default.Venoxis.Pippop"] = {
+				["Professions"] = {
+					["Tailoring"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 450,
+					},
+					["Cooking"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 443,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+						["MaxRank"] = 300,
+						["Rank"] = 300,
+					},
+					["Engineering"] = {
+						["isPrimary"] = true,
+						["MaxRank"] = 450,
+						["Rank"] = 425,
+					},
+				},
+				["Prof2"] = "Tailoring",
+				["lastUpdate"] = 1701645721,
+				["Prof1"] = "Engineering",
 			},
 		},
 	},
 }
 DataStore_CraftsRefDB = {
 	["profileKeys"] = {
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -1378,9 +1459,9 @@ DataStore_CraftsRefDB = {
 			[26916] = 5575425,
 			[53832] = 10215681,
 			[53864] = 10225409,
-			[39638] = 8209153,
+			[11460] = 2343425,
 			[53928] = 10236417,
-			[28019] = 5765633,
+			[39638] = 8209153,
 			[53992] = 10254337,
 			[3450] = 979201,
 			[53886] = 10229761,
@@ -1419,7 +1500,7 @@ DataStore_CraftsRefDB = {
 			[11450] = 2291457,
 			[29688] = 6034177,
 			[56199] = 10839297,
-			[11460] = 2343425,
+			[28019] = 5765633,
 			[39895] = 1840897,
 			[66566] = 10278657,
 			[61471] = 11453185,
@@ -1931,12 +2012,12 @@ DataStore_CraftsRefDB = {
 			[11467] = "8838,1|3821,1|8925,1",
 			[7857] = "10940,4|10998,1",
 			[13529] = "11083,3|11084,1",
-			[12603] = "10561,1|10560,1|10505,1",
+			[13626] = "11082,1|11083,1|11084,1",
 			[59619] = "34054,20|34055,4|34052,4|34057,6",
 			[56194] = "37701,2|36920,1",
 			[38068] = "24243,4|22452,1",
 			[60350] = "36913,8",
-			[13626] = "11082,1|11083,1|11084,1",
+			[30305] = "23445,1",
 			[3920] = "4357,1|2840,1",
 			[25124] = "10940,2|17034,1|3371,1",
 			[55399] = "41334,1",
@@ -1970,8 +2051,8 @@ DataStore_CraftsRefDB = {
 			[54213] = "36906,7|40195,3|36908,1|40411,1",
 			[60874] = "41163,10|43102,1|36860,12|35627,12|41146,3|40533,1",
 			[25620] = "6037,1|20963,2",
-			[28019] = "22445,3|22792,1|18256,1",
 			[39638] = "22785,1|22789,1|18256,1",
+			[11460] = "8836,1|8925,1",
 			[55396] = "41334,1",
 			[53928] = "36932,1",
 			[56483] = "41163,8|38425,4|36930,2|36860,4|43102,1",
@@ -2055,7 +2136,7 @@ DataStore_CraftsRefDB = {
 			[53864] = "36926,1",
 			[36525] = "7910,1|21752,1",
 			[7776] = "10939,1|10938,1",
-			[11460] = "8836,1|8925,1",
+			[28019] = "22445,3|22792,1|18256,1",
 			[53992] = "36930,1",
 			[7788] = "10940,2|10939,1|10978,1",
 			[7428] = "10938,1|10940,1",
@@ -2070,7 +2151,7 @@ DataStore_CraftsRefDB = {
 			[56514] = "36913,1|39690,1",
 			[3918] = "2835,1",
 			[7836] = "6358,2",
-			[30305] = "23445,1",
+			[12603] = "10561,1|10560,1|10505,1",
 			[3924] = "2840,2|2880,1",
 			[12619] = "10561,2|10560,1|10505,2",
 			[63743] = "6037,8",

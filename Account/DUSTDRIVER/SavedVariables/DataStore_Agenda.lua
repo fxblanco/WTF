@@ -9,92 +9,68 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["The Forge of Souls Heroic|275951072"] = "55439|1701088563|0|0",
-					["Vault of Archavon 25 Player|192766156"] = "141839|1701088563|0|1",
-					["Ulduar 10 Player|192818327"] = "141839|1701088563|0|1",
-					["Vault of Archavon 10 Player|192817951"] = "141839|1701088563|0|1",
+					["Vault of Archavon 25 Player|193190098"] = "368121|1701467079|0|1",
+					["Vault of Archavon 10 Player|193191446"] = "368121|1701467079|0|1",
+					["Trial of the Crusader 10 Player|193334831"] = "368121|1701467079|0|1",
 				},
 				["BossKills"] = {
-					["The Forge of Souls Heroic|275951072"] = {
+					["Vault of Archavon 25 Player|193190098"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
+					["The Forge of Souls Heroic|193358525"] = {
 						"Bronjahm|1", -- [1]
 						"Devourer of Souls|1", -- [2]
 					},
-					["Vault of Archavon 25 Player|192766156"] = {
+					["Vault of Archavon 10 Player|193191446"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
-					["Ulduar 10 Player|192818327"] = {
-						"Flame Leviathan|1", -- [1]
-						"Ignis the Furnace Master|0", -- [2]
-						"Razorscale|0", -- [3]
-						"XT-002 Deconstructor|0", -- [4]
-						"The Iron Council|0", -- [5]
-						"Kologarn|0", -- [6]
-						"Auriaya|0", -- [7]
-						"Hodir|0", -- [8]
-						"Thorim|0", -- [9]
-						"Freya|0", -- [10]
-						"Mimiron|0", -- [11]
-						"General Vezax|0", -- [12]
-						"Yogg-Saron|0", -- [13]
-						"Algalon the Observer|0", -- [14]
-					},
-					["Vault of Archavon 10 Player|192817951"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
+					["Trial of the Crusader 10 Player|193334831"] = {
+						"Northrend Beasts|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Faction Champions|0", -- [3]
+						"Val'kyr Twins|0", -- [4]
+						"Anub'arak|0", -- [5]
 					},
 				},
-				["lastUpdate"] = 1701088563,
+				["lastUpdate"] = 1701467079,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1701644575,
 				["DungeonIDs"] = {
-					["Ulduar 10 Player|192820815"] = "141884|1701088515|0|1",
-					["Vault of Archavon 25 Player|192821463"] = "141884|1701088515|0|1",
-					["The Forge of Souls Heroic|275949131"] = "55484|1701088515|0|0",
-					["Vault of Archavon 10 Player|192823782"] = "141884|1701088515|0|1",
+					["Vault of Archavon 10 Player|193192450"] = "190624|1701644575|0|1",
+					["Trial of the Crusader 10 Player|193200194"] = "190624|1701644575|0|1",
+					["Vault of Archavon 25 Player|193189251"] = "190624|1701644575|0|1",
 				},
 				["BossKills"] = {
-					["Ulduar 10 Player|192820815"] = {
-						"Flame Leviathan|1", -- [1]
-						"Ignis the Furnace Master|0", -- [2]
-						"Razorscale|0", -- [3]
-						"XT-002 Deconstructor|0", -- [4]
-						"The Iron Council|0", -- [5]
-						"Kologarn|0", -- [6]
-						"Auriaya|0", -- [7]
-						"Hodir|0", -- [8]
-						"Thorim|0", -- [9]
-						"Freya|0", -- [10]
-						"Mimiron|0", -- [11]
-						"General Vezax|0", -- [12]
-						"Yogg-Saron|0", -- [13]
-						"Algalon the Observer|0", -- [14]
-					},
-					["Vault of Archavon 25 Player|192821463"] = {
+					["Vault of Archavon 10 Player|193192450"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
-					["The Forge of Souls Heroic|275949131"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
+					["Trial of the Crusader 10 Player|193200194"] = {
+						"Northrend Beasts|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Faction Champions|0", -- [3]
+						"Val'kyr Twins|0", -- [4]
+						"Anub'arak|0", -- [5]
 					},
-					["Vault of Archavon 10 Player|192823782"] = {
+					["Vault of Archavon 25 Player|193189251"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1701088515,
 			},
 		},
 	},
