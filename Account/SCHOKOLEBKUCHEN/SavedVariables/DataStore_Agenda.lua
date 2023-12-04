@@ -6,7 +6,7 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1701645539,
+				["lastUpdate"] = 1701691430,
 			},
 		},
 	},

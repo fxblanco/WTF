@@ -8,7 +8,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1701467073,
+				["lastUpdate"] = 1701691814,
 				["Factions"] = {
 					[75] = -42000,
 					[46] = 8405,
@@ -64,7 +64,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701644575,
+				["lastUpdate"] = 1701691737,
 				["Factions"] = {
 					[75] = 10101,
 					[54] = 0,

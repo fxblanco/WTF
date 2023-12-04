@@ -11,8 +11,8 @@ DataStoreDB = {
 		},
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
 			},
 		},
 		["ShortToLongRealmNames"] = {

@@ -86,8 +86,8 @@ DataStore_QuestsDB = {
 					[9] = 65536,
 					[2007] = 33554432,
 					[769] = 32760,
-					[2009] = 524288,
 					[386] = 1920,
+					[2009] = 524288,
 					[363] = 4293164879,
 					[367] = 2103222,
 					[371] = 4143972353,
@@ -209,32 +209,43 @@ DataStore_QuestsDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["HistoryBuild"] = "52237",
-				["HistorySize"] = 839,
+				["HistorySize"] = 847,
 				["Money"] = {
-					560600, -- [1]
-					660, -- [2]
+					660, -- [1]
+					486600, -- [2]
+					486600, -- [3]
+					560600, -- [4]
 				},
-				["HistoryLastUpdate"] = 1701209874,
+				["HistoryLastUpdate"] = 1701691738,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:24712:80|h[Deliverance from the Pit]|h|r", -- [1]
-					"|cff808080|Hquest:10279:66|h[To The Master's Lair]|h|r", -- [2]
+					"|cff808080|Hquest:10279:66|h[To The Master's Lair]|h|r", -- [1]
+					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [2]
+					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [3]
+					"|cffffff00|Hquest:24712:80|h[Deliverance from the Pit]|h|r", -- [4]
 				},
 				["QuestHeaders"] = {
-					"Pit of Saron", -- [1]
-					"Caverns of Time", -- [2]
+					"Caverns of Time", -- [1]
+					"Dalaran", -- [2]
+					"Pit of Saron", -- [3]
 				},
 				["QuestTitles"] = {
-					"Deliverance from the Pit", -- [1]
-					"To The Master's Lair", -- [2]
+					"To The Master's Lair", -- [1]
+					"Proof of Demise: Threats to Azeroth", -- [2]
+					"Proof of Demise: Titan Rune Protocol Gamma", -- [3]
+					"Deliverance from the Pit", -- [4]
 				},
 				["QuestTags"] = {
-					81, -- [1]
+					nil, -- [1]
+					85, -- [2]
+					85, -- [3]
+					81, -- [4]
 				},
 				["History"] = {
 					33554436, -- [1]
 					[33] = 33554432,
 					[35] = 266552320,
 					[37] = 1971323268,
+					[1993] = 25165824,
 					[325] = 8,
 					[179] = 3690987521,
 					[47] = 3290349568,
@@ -243,6 +254,7 @@ DataStore_QuestsDB = {
 					[53] = 540674,
 					[219] = 32,
 					[57] = 2281701377,
+					[2199] = 1310720,
 					[2200] = 2013265920,
 					[2201] = 2050,
 					[82] = 24576,
@@ -338,14 +350,15 @@ DataStore_QuestsDB = {
 					[354] = 146735014,
 					[97] = 524288,
 					[151] = 2097152,
-					[1728] = 1,
 					[300] = 16384,
+					[1728] = 1,
 					[24] = 4227858112,
-					[131] = 2097152,
+					[28] = 3184518642,
 					[111] = 64,
 					[373] = 234935791,
 					[766] = 3423338496,
-					[381] = 811597824,
+					[25] = 12728,
+					[2049] = 100663296,
 					[154] = 33554688,
 					[389] = 2148007951,
 					[405] = 68157936,
@@ -368,18 +381,20 @@ DataStore_QuestsDB = {
 					[356] = 32,
 					[372] = 502633168,
 					[388] = 1,
-					[25] = 12728,
 					[6] = 4261412864,
 					[357] = 1082654945,
+					[131] = 2097152,
 					[452] = 496,
-					[28] = 3184518642,
 					[789] = 8388608,
-					[778] = 1024,
+					[2041] = 48,
+					[381] = 811597824,
 				},
-				["lastUpdate"] = 1701222390,
+				["lastUpdate"] = 1701691737,
 				["Quests"] = {
-					5244993, -- [1]
-					4329536, -- [2]
+					4327488, -- [1]
+					5247042, -- [2]
+					5247042, -- [3]
+					5249089, -- [4]
 				},
 			},
 		},

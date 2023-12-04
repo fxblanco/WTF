@@ -6,7 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1701645537,
+				["lastUpdate"] = 1701691429,
 				["averageItemLvl"] = 265.8125,
 				["overallAIL"] = 266.9375,
 				["Inventory"] = {
@@ -26,8 +26,9 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50348::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:47452:3722:40155::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[]|h|r", -- [16]
-					[18] = "|cffffffff|Hitem:45294::40155::::::80:::::::::|h[]|h|r",
-					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r",
+					nil, -- [17]
+					"|cffffffff|Hitem:45294::40155::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 			},
 		},
@@ -46,14 +47,14 @@ DataStore_InventoryDB = {
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
+					["Maturitass"] = {
+						["averageItemLvl"] = 245,
+					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 244,
 					},
 					["Exonuklease"] = {
 						["averageItemLvl"] = 265,
-					},
-					["Maturitass"] = {
-						["averageItemLvl"] = 245,
 					},
 				},
 			},

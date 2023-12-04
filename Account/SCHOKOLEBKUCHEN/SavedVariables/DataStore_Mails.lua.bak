@@ -6,8 +6,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1700091263,
-				["lastVisitDate"] = "2023/11/16 00:34",
+				["lastUpdate"] = 1701645562,
+				["lastVisitDate"] = "2023/12/04 00:19",
 			},
 		},
 	},

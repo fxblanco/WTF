@@ -4,10 +4,6 @@ END
 VER 3 0000000000000043 "434" "236178"
 /castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
 END
-VER 3 0000000000000058 "Decursive" "INV_MISC_QUESTIONMARK"
-/stopcasting
-/cast [@mouseover,nomod,exists] Toxine heilen;  [@mouseover,exists,mod:ctrl] Verhexen; [@mouseover,exists,mod:shift] Toxine heilen
-END
 VER 3 0000000000000090 "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
@@ -19,6 +15,10 @@ END
 VER 3 000000000000006E "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
 /cast [@mouseover,nomod,exists] Fluch aufheben;  [@mouseover,exists,mod:ctrl] Fluch aufheben; [@mouseover,exists,mod:shift] Fluch aufheben
+END
+VER 3 0000000000000058 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Toxine heilen;  [@mouseover,exists,mod:ctrl] Verhexen; [@mouseover,exists,mod:shift] Toxine heilen
 END
 VER 3 0000000000000040 "focus" "132097"
 /focus
@@ -113,7 +113,9 @@ VER 3 0000000000000030 "shadow_swd+" "134400"
 END
 VER 3 0000000000000012 "sham_e_cd" "136115"
 #showtooltip
-/cast [mod:ctrl] Totem of Wrath; [mod:shift] Blood Fury; Elemental Mastery
+/cast Elemental Mastery
+/cast Blood Fury(Racial)
+/use 10
 END
 VER 3 0000000000000037 "sham_enh_r" "134400"
 #showtooltip

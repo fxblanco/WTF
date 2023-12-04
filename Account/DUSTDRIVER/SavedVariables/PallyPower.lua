@@ -23,17 +23,17 @@ PallyPower_Assignments = {
 		2, -- [9]
 		4, -- [10]
 	},
-	["Beesportz"] = {
-		2, -- [1]
+	["Bremskyle"] = {
+		0, -- [1]
 		0, -- [2]
-		0, -- [3]
-		3, -- [4]
-		0, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		2, -- [9]
-		2, -- [10]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
 	},
 	["Spaltkyle"] = {
 		3, -- [1]
@@ -47,17 +47,17 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Bremskyle"] = {
-		0, -- [1]
+	["Beesportz"] = {
+		2, -- [1]
 		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
+		0, -- [3]
+		3, -- [4]
+		0, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		2, -- [9]
+		2, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -71,9 +71,9 @@ PallyPower_AuraAssignments = {
 	["Diggii"] = 1,
 	["Fanga"] = 1,
 	["Psychøtin"] = 1,
-	["Transhorsti"] = 6,
-	["Tagirx"] = 1,
 	["Bremskyle"] = 6,
+	["Tagirx"] = 1,
+	["Transhorsti"] = 6,
 	["Velanya"] = 1,
 }
 PallyPower_SavedPresets = {

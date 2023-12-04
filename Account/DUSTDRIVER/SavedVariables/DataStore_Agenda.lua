@@ -9,9 +9,9 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["Vault of Archavon 25 Player|193190098"] = "368121|1701467079|0|1",
-					["Vault of Archavon 10 Player|193191446"] = "368121|1701467079|0|1",
-					["Trial of the Crusader 10 Player|193334831"] = "368121|1701467079|0|1",
+					["Vault of Archavon 25 Player|193190098"] = "143386|1701691814|0|1",
+					["Vault of Archavon 10 Player|193191446"] = "143386|1701691814|0|1",
+					["Trial of the Crusader 10 Player|193334831"] = "143386|1701691814|0|1",
 				},
 				["BossKills"] = {
 					["Vault of Archavon 25 Player|193190098"] = {
@@ -19,10 +19,6 @@ DataStore_AgendaDB = {
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["The Forge of Souls Heroic|193358525"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
 					},
 					["Vault of Archavon 10 Player|193191446"] = {
 						"Archavon the Stone Watcher|0", -- [1]
@@ -38,17 +34,16 @@ DataStore_AgendaDB = {
 						"Anub'arak|0", -- [5]
 					},
 				},
-				["lastUpdate"] = 1701467079,
+				["lastUpdate"] = 1701691814,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701644575,
 				["DungeonIDs"] = {
-					["Vault of Archavon 10 Player|193192450"] = "190624|1701644575|0|1",
-					["Trial of the Crusader 10 Player|193200194"] = "190624|1701644575|0|1",
-					["Vault of Archavon 25 Player|193189251"] = "190624|1701644575|0|1",
+					["Vault of Archavon 10 Player|193192450"] = "143463|1701691737|0|1",
+					["Trial of the Crusader 10 Player|193200194"] = "143463|1701691737|0|1",
+					["Vault of Archavon 25 Player|193189251"] = "143463|1701691737|0|1",
 				},
 				["BossKills"] = {
 					["Vault of Archavon 10 Player|193192450"] = {
@@ -71,6 +66,7 @@ DataStore_AgendaDB = {
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
+				["lastUpdate"] = 1701691737,
 			},
 		},
 	},

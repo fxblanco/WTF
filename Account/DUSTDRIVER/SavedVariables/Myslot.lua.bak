@@ -9,5 +9,8 @@ MyslotExports = {
 			["name"] = "Bloodwall Tank",
 			["value"] = "",
 		}, -- [2]
+		{
+			["name"] = "Protection Warri - Felix",
+		}, -- [3]
 	},
 }

@@ -24,13 +24,13 @@ DataStore_CurrenciesDB = {
 					"1|Stone Keeper's Shard|244|161", -- [13]
 					"1|Venture Coin|44|201", -- [14]
 				},
-				["lastUpdate"] = 1701467073,
+				["lastUpdate"] = 1701691814,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701644575,
+				["lastUpdate"] = 1701691737,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|31|2711", -- [2]

@@ -15,8 +15,8 @@ DataStore_MailsDB = {
 						["sender"] = "Bloodwall",
 						["itemID"] = 27691,
 						["link"] = "|cffffffff|Hitem:27691::::::::80:::::::::|h[Recipe: Roasted Clefthoof]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1701467452,
+						["count"] = 1,
 						["icon"] = 134939,
 						["daysLeft"] = 28.6329517364502,
 					}, -- [1]
@@ -25,8 +25,8 @@ DataStore_MailsDB = {
 						["sender"] = "Bloodwall",
 						["itemID"] = 27698,
 						["link"] = "|cffffffff|Hitem:27698::::::::80:::::::::|h[Recipe: Poached Bluefish]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1701467452,
+						["count"] = 1,
 						["icon"] = 134939,
 						["daysLeft"] = 28.6329517364502,
 					}, -- [2]
@@ -35,8 +35,8 @@ DataStore_MailsDB = {
 						["sender"] = "Bloodwall",
 						["itemID"] = 27688,
 						["link"] = "|cffffffff|Hitem:27688::::::::80:::::::::|h[Recipe: Ravager Dog]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1701467452,
+						["count"] = 1,
 						["icon"] = 134939,
 						["daysLeft"] = 28.6329517364502,
 					}, -- [3]
@@ -45,8 +45,8 @@ DataStore_MailsDB = {
 						["sender"] = "Bloodwall",
 						["itemID"] = 27697,
 						["link"] = "|cffffffff|Hitem:27697::::::::80:::::::::|h[Recipe: Grilled Mudfish]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1701467452,
+						["count"] = 1,
 						["icon"] = 134939,
 						["daysLeft"] = 28.6329517364502,
 					}, -- [4]
@@ -55,8 +55,8 @@ DataStore_MailsDB = {
 						["sender"] = "Bloodwall",
 						["itemID"] = 27693,
 						["link"] = "|cffffffff|Hitem:27693::::::::80:::::::::|h[Recipe: Talbuk Steak]|h|r",
-						["count"] = 1,
 						["lastCheck"] = 1701467452,
+						["count"] = 1,
 						["icon"] = 134939,
 						["daysLeft"] = 28.6329517364502,
 					}, -- [5]

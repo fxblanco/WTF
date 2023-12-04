@@ -196,7 +196,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701222390,
+				["lastUpdate"] = 1701691737,
 				["Spells"] = {
 					["Waffen"] = {
 						"47502|Rang 9", -- [1]

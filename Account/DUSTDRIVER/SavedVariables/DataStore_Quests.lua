@@ -15,7 +15,7 @@ DataStore_QuestsDB = {
 					10900, -- [2]
 					780, -- [3]
 				},
-				["HistoryLastUpdate"] = 1701465610,
+				["HistoryLastUpdate"] = 1701691816,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [1]
 					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [2]
@@ -73,14 +73,12 @@ DataStore_QuestsDB = {
 					[410] = 1078132752,
 					[414] = 71323904,
 					[295] = 1073742852,
-					[2462] = 2,
 					[307] = 4291130672,
 					[311] = 2535389600,
 					[315] = 1073741976,
 					[319] = 3934344321,
 					[323] = 536871008,
 					[327] = 4709376,
-					[2461] = 1,
 					[335] = 8192,
 					[339] = 2244739073,
 					[9] = 65536,
@@ -151,7 +149,7 @@ DataStore_QuestsDB = {
 					[766] = 2148007936,
 					[188] = 393216,
 				},
-				["lastUpdate"] = 1701467073,
+				["lastUpdate"] = 1701691814,
 				["Quests"] = {
 					5244993, -- [1]
 					3215424, -- [2]
@@ -208,14 +206,14 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701644575,
+				["lastUpdate"] = 1701691737,
 				["HistorySize"] = 847,
 				["QuestHeaders"] = {
 					"Caverns of Time", -- [1]
 					"Dalaran", -- [2]
 					"Pit of Saron", -- [3]
 				},
-				["HistoryLastUpdate"] = 1701644576,
+				["HistoryLastUpdate"] = 1701691738,
 				["QuestLinks"] = {
 					"|cff808080|Hquest:10279:66|h[To The Master's Lair]|h|r", -- [1]
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [2]
@@ -348,8 +346,8 @@ DataStore_QuestsDB = {
 					[449] = 98304,
 					[769] = 32760,
 					[354] = 146735014,
-					[381] = 811597824,
 					[97] = 524288,
+					[381] = 811597824,
 					[2041] = 48,
 					[1728] = 1,
 					[789] = 8388608,
