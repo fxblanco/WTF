@@ -66,6 +66,14 @@ DataStore_MailsDB = {
 						["icon"] = 134604,
 						["daysLeft"] = 30,
 					}, -- [3]
+					{
+						["sender"] = "Maturitass",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:36378::::::-45:138346550:80:::::::::|h[Kraken Vambraces of the Champion]|h|r",
+						["lastCheck"] = 1701901625,
+						["icon"] = 132609,
+						["daysLeft"] = 30,
+					}, -- [4]
 				},
 				["lastVisitDate"] = "2023/11/12 23:16",
 			},

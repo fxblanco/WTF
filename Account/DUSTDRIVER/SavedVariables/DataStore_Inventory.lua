@@ -20,18 +20,17 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:47582:3756:40117::::::80:::::::::|h[]|h|r", -- [9]
 					"|cffffffff|Hitem:48017:3604:40117:40117:::::80:::::::::|h[]|h|r", -- [10]
 					"|cffffffff|Hitem:47730::::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffa335ee|Hitem:47993::40117:40117:::::80:::::::::|h[Gormok's Band]|h|r", -- [12]
-					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
-					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [14]
-					"|cffa335ee|Hitem:48669:3605:40117::::::80:::::::::|h[Cloak of the Triumphant Combatant]|h|r", -- [15]
+					"|cffffffff|Hitem:47993::40117:40117:::::80:::::::::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:45931::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:48669:3605:40117::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:49110:40112:::::80:::::::::|h[]|h|r", -- [16]
-					nil, -- [17]
-					"|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r", -- [18]
-					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
+					[18] = "|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r",
+					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
 				},
 				["averageItemLvl"] = 249.4375,
 				["overallAIL"] = 252.6875,
-				["lastUpdate"] = 1701691814,
+				["lastUpdate"] = 1701902874,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -84,7 +83,7 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 262,
+						["averageItemLvl"] = 258,
 					},
 					["Xolem"] = {
 						["averageItemLvl"] = 245,

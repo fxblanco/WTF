@@ -8,10 +8,82 @@ ParrotDB = {
 					["throttles"] = {
 						["Avoids"] = 0.1,
 						["Heals"] = 3,
-						["Killing blows"] = 0.3,
-						["Power gain/loss"] = 1,
 						["DoTs and HoTs"] = 3,
+						["Power gain/loss"] = 1,
+						["Killing blows"] = 0.3,
 					},
+					["Incoming"] = {
+						["Melee reflects"] = {
+							["color"] = "ff00ff",
+						},
+						["Skill dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Melee parries"] = {
+							["color"] = "3399ff",
+						},
+						["Skill reflects"] = {
+							["color"] = "ff00ff",
+						},
+						["Melee blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Skill misses"] = {
+							["color"] = "3399ff",
+						},
+						["Melee dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Melee misses"] = {
+							["color"] = "3399ff",
+						},
+						["Self damage absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Skill parries"] = {
+							["color"] = "3399ff",
+						},
+						["Melee absorbs"] = {
+							["tag"] = "A [Amount]!",
+						},
+						["Skill blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Skill absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee resists"] = {
+							["color"] = "ff00ff",
+						},
+						["Self damage misses"] = {
+							["color"] = "3399ff",
+						},
+						["Skill resists"] = {
+							["color"] = "ff00ff",
+						},
+					},
+					["hideFullOverheals"] = 3,
+					["modifier"] = {
+						["overheal"] = {
+							["enabled"] = false,
+						},
+						["absorb"] = {
+							["tag"] = " ([Amount] A)",
+						},
+						["overkill"] = {
+							["enabled"] = false,
+						},
+						["crit"] = {
+							["enabled"] = true,
+							["tag"] = "[Text]",
+						},
+					},
+					["dbver"] = 5,
+					["filters"] = {
+						["Incoming heals"] = 2000,
+						["Outgoing heals"] = 2000,
+					},
+					["shortenAmount"] = true,
 					["Outgoing"] = {
 						["Skill dodges"] = {
 							["color"] = "3399ff",
@@ -76,28 +148,6 @@ ParrotDB = {
 							["tag"] = "[Amount]",
 						},
 					},
-					["hideFullOverheals"] = 3,
-					["modifier"] = {
-						["overheal"] = {
-							["enabled"] = false,
-						},
-						["absorb"] = {
-							["tag"] = " ([Amount] A)",
-						},
-						["overkill"] = {
-							["enabled"] = false,
-						},
-						["crit"] = {
-							["enabled"] = true,
-							["tag"] = "[Text]",
-						},
-					},
-					["dbver"] = 5,
-					["filters"] = {
-						["Outgoing heals"] = 2000,
-						["Incoming heals"] = 2000,
-					},
-					["shortenAmount"] = true,
 					["Notification"] = {
 						["Currency gains"] = {
 							["disabled"] = true,
@@ -174,79 +224,29 @@ ParrotDB = {
 						["Loot items"] = {
 							["disabled"] = false,
 						},
-						["NPC killing blows"] = {
-							["disabled"] = true,
-						},
-						["Debuff gains"] = {
-							["disabled"] = true,
-						},
-						["Extra attacks"] = {
-							["disabled"] = true,
-						},
-						["Target buff gains"] = {
-							["disabled"] = true,
-						},
-						["Reputation losses"] = {
+						["Enemy debuff gains"] = {
 							["disabled"] = true,
 						},
 						["Buff gains"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
+						["Extra attacks"] = {
+							["disabled"] = true,
+						},
+						["Reputation losses"] = {
+							["disabled"] = true,
+						},
+						["Target buff gains"] = {
+							["disabled"] = true,
+						},
+						["Debuff gains"] = {
+							["disabled"] = true,
+						},
+						["NPC killing blows"] = {
 							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
 							["disabled"] = true,
-						},
-					},
-					["Incoming"] = {
-						["Skill parries"] = {
-							["color"] = "3399ff",
-						},
-						["Skill dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Melee parries"] = {
-							["color"] = "3399ff",
-						},
-						["Skill reflects"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill misses"] = {
-							["color"] = "3399ff",
-						},
-						["Melee dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Melee misses"] = {
-							["color"] = "3399ff",
-						},
-						["Self damage misses"] = {
-							["color"] = "3399ff",
-						},
-						["Skill resists"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee absorbs"] = {
-							["tag"] = "A [Amount]!",
-						},
-						["Skill blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Melee resists"] = {
-							["color"] = "ff00ff",
-						},
-						["Skill absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Self damage absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Melee reflects"] = {
-							["color"] = "ff00ff",
 						},
 					},
 					["hideSkillNames"] = true,
@@ -257,16 +257,13 @@ ParrotDB = {
 					["throttles"] = {
 						["Avoids"] = 0.1,
 						["Power gain/loss"] = 1,
-						["DoTs and HoTs"] = 3,
-						["Heals"] = 3,
 						["Killing blows"] = 0.3,
+						["Heals"] = 3,
+						["DoTs and HoTs"] = 3,
 					},
-					["filters"] = {
-						["Incoming heals"] = 2000,
-						["Outgoing heals"] = 2000,
-					},
+					["hideSkillNames"] = true,
 					["Incoming"] = {
-						["Melee blocks"] = {
+						["Skill parries"] = {
 							["color"] = "3399ff",
 						},
 						["Skill dodges"] = {
@@ -278,8 +275,8 @@ ParrotDB = {
 						["Skill reflects"] = {
 							["color"] = "ff00ff",
 						},
-						["Melee reflects"] = {
-							["color"] = "ff00ff",
+						["Melee blocks"] = {
+							["color"] = "3399ff",
 						},
 						["Skill misses"] = {
 							["color"] = "3399ff",
@@ -290,8 +287,8 @@ ParrotDB = {
 						["Melee misses"] = {
 							["color"] = "3399ff",
 						},
-						["Self damage absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
+						["Self damage misses"] = {
+							["color"] = "3399ff",
 						},
 						["Skill resists"] = {
 							["color"] = "ff00ff",
@@ -302,17 +299,17 @@ ParrotDB = {
 						["Skill blocks"] = {
 							["color"] = "3399ff",
 						},
-						["Skill absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
 						["Melee resists"] = {
 							["color"] = "ff00ff",
 						},
-						["Self damage misses"] = {
-							["color"] = "3399ff",
+						["Skill absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
 						},
-						["Skill parries"] = {
-							["color"] = "3399ff",
+						["Self damage absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee reflects"] = {
+							["color"] = "ff00ff",
 						},
 					},
 					["hideFullOverheals"] = 3,
@@ -332,6 +329,70 @@ ParrotDB = {
 						},
 					},
 					["dbver"] = 5,
+					["Outgoing"] = {
+						["Skill dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Heals over time"] = {
+							["disabled"] = true,
+							["tag"] = "+[Amount] ([Name])",
+						},
+						["Skill misses"] = {
+							["color"] = "3399ff",
+						},
+						["Melee dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Skill parries"] = {
+							["color"] = "3399ff",
+						},
+						["Siege damage"] = {
+							["tag"] = "[Amount]",
+						},
+						["Skill deflects"] = {
+							["color"] = "3399ff",
+						},
+						["Self damage absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Self heals over time"] = {
+							["disabled"] = true,
+						},
+						["Heals"] = {
+							["disabled"] = true,
+							["tag"] = "+[Amount] ([Name])",
+						},
+						["Melee parries"] = {
+							["color"] = "3399ff",
+						},
+						["Skill DoTs"] = {
+							["tag"] = "[Amount]",
+						},
+						["Melee blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Skill absorbs"] = {
+							["tag"] = "A [Amount]! ([Skill])",
+						},
+						["Melee misses"] = {
+							["color"] = "3399ff",
+						},
+						["Melee absorbs"] = {
+							["tag"] = "A [Amount]!",
+						},
+						["Skill blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Skill damage"] = {
+							["tag"] = "[Amount]",
+						},
+						["Self damage misses"] = {
+							["color"] = "3399ff",
+						},
+						["Reactive skills"] = {
+							["tag"] = "[Amount]",
+						},
+					},
 					["Notification"] = {
 						["Currency gains"] = {
 							["disabled"] = true,
@@ -408,96 +469,35 @@ ParrotDB = {
 						["Loot items"] = {
 							["disabled"] = false,
 						},
-						["NPC killing blows"] = {
-							["disabled"] = true,
-						},
-						["Pet buff fades"] = {
-							["disabled"] = true,
-						},
-						["Extra attacks"] = {
-							["disabled"] = true,
-						},
-						["Reputation losses"] = {
-							["disabled"] = true,
-						},
-						["Target buff gains"] = {
+						["Player killing blows"] = {
 							["disabled"] = true,
 						},
 						["Debuff gains"] = {
 							["disabled"] = true,
 						},
-						["Player killing blows"] = {
+						["Extra attacks"] = {
+							["disabled"] = true,
+						},
+						["Target buff gains"] = {
+							["disabled"] = true,
+						},
+						["Reputation losses"] = {
+							["disabled"] = true,
+						},
+						["Pet buff fades"] = {
+							["disabled"] = true,
+						},
+						["NPC killing blows"] = {
 							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
 							["disabled"] = true,
 						},
 					},
-					["Outgoing"] = {
-						["Skill dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Heals over time"] = {
-							["disabled"] = true,
-							["tag"] = "+[Amount] ([Name])",
-						},
-						["Skill misses"] = {
-							["color"] = "3399ff",
-						},
-						["Melee dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Skill parries"] = {
-							["color"] = "3399ff",
-						},
-						["Siege damage"] = {
-							["tag"] = "[Amount]",
-						},
-						["Skill deflects"] = {
-							["color"] = "3399ff",
-						},
-						["Self damage absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Self heals over time"] = {
-							["disabled"] = true,
-						},
-						["Heals"] = {
-							["disabled"] = true,
-							["tag"] = "+[Amount] ([Name])",
-						},
-						["Melee parries"] = {
-							["color"] = "3399ff",
-						},
-						["Skill DoTs"] = {
-							["tag"] = "[Amount]",
-						},
-						["Melee blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill absorbs"] = {
-							["tag"] = "A [Amount]! ([Skill])",
-						},
-						["Melee misses"] = {
-							["color"] = "3399ff",
-						},
-						["Melee absorbs"] = {
-							["tag"] = "A [Amount]!",
-						},
-						["Skill blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill damage"] = {
-							["tag"] = "[Amount]",
-						},
-						["Self damage misses"] = {
-							["color"] = "3399ff",
-						},
-						["Reactive skills"] = {
-							["tag"] = "[Amount]",
-						},
+					["filters"] = {
+						["Outgoing heals"] = 2000,
+						["Incoming heals"] = 2000,
 					},
-					["hideSkillNames"] = true,
 				},
 			},
 		},
@@ -515,21 +515,9 @@ ParrotDB = {
 							["stickyDirection"] = "UP;RIGHT",
 							["iconSide"] = "RIGHT",
 							["speed"] = 4,
-							["stickyAnimationStyle"] = "Straight",
-							["animationStyle"] = "Straight",
 							["size"] = 150,
-						},
-						["Notification"] = {
-							["direction"] = "UP;CENTER",
-							["stickySpeed"] = 2,
-							["xOffset"] = 0,
-							["yOffset"] = 646.0296020507812,
-							["stickyDirection"] = "UP;CENTER",
-							["iconSide"] = "LEFT",
-							["speed"] = 2,
-							["stickyAnimationStyle"] = "Straight",
 							["animationStyle"] = "Straight",
-							["size"] = 100,
+							["stickyAnimationStyle"] = "Straight",
 						},
 						["Outgoing"] = {
 							["direction"] = "UP;LEFT",
@@ -539,9 +527,21 @@ ParrotDB = {
 							["stickyDirection"] = "UP;LEFT",
 							["iconSide"] = "LEFT",
 							["speed"] = 4,
-							["stickyAnimationStyle"] = "Straight",
-							["animationStyle"] = "Straight",
 							["size"] = 150,
+							["animationStyle"] = "Straight",
+							["stickyAnimationStyle"] = "Straight",
+						},
+						["Notification"] = {
+							["direction"] = "UP;CENTER",
+							["stickySpeed"] = 2,
+							["xOffset"] = 0,
+							["yOffset"] = 646.0296020507812,
+							["stickyDirection"] = "UP;CENTER",
+							["iconSide"] = "LEFT",
+							["speed"] = 2,
+							["size"] = 100,
+							["animationStyle"] = "Straight",
+							["stickyAnimationStyle"] = "Straight",
 						},
 					},
 					["dbver"] = 2,
@@ -556,21 +556,9 @@ ParrotDB = {
 							["stickyDirection"] = "UP;RIGHT",
 							["iconSide"] = "RIGHT",
 							["speed"] = 4,
-							["size"] = 150,
-							["animationStyle"] = "Straight",
 							["stickyAnimationStyle"] = "Straight",
-						},
-						["Outgoing"] = {
-							["direction"] = "UP;LEFT",
-							["stickySpeed"] = 4,
-							["xOffset"] = 600,
-							["yOffset"] = -260,
-							["stickyDirection"] = "UP;LEFT",
-							["iconSide"] = "LEFT",
-							["speed"] = 4,
-							["size"] = 150,
 							["animationStyle"] = "Straight",
-							["stickyAnimationStyle"] = "Straight",
+							["size"] = 150,
 						},
 						["Notification"] = {
 							["direction"] = "UP;CENTER",
@@ -580,9 +568,21 @@ ParrotDB = {
 							["stickyDirection"] = "UP;CENTER",
 							["iconSide"] = "LEFT",
 							["speed"] = 2,
-							["size"] = 100,
-							["animationStyle"] = "Straight",
 							["stickyAnimationStyle"] = "Straight",
+							["animationStyle"] = "Straight",
+							["size"] = 100,
+						},
+						["Outgoing"] = {
+							["direction"] = "UP;LEFT",
+							["stickySpeed"] = 4,
+							["xOffset"] = 600,
+							["yOffset"] = -260,
+							["stickyDirection"] = "UP;LEFT",
+							["iconSide"] = "LEFT",
+							["speed"] = 4,
+							["stickyAnimationStyle"] = "Straight",
+							["animationStyle"] = "Straight",
+							["size"] = 150,
 						},
 					},
 					["dbver"] = 2,
@@ -594,33 +594,30 @@ ParrotDB = {
 		["Display"] = {
 			["profiles"] = {
 				["Default"] = {
-					["stickyFont"] = "Expressway",
+					["fontSize"] = 17,
 					["stickyFontOutline"] = "OUTLINE",
 					["font"] = "Expressway",
-					["fontOutline"] = "OUTLINE",
-					["stickyFontShadow"] = false,
-					["fontSize"] = 17,
 					["stickyFontSize"] = 22,
 					["fontShadow"] = false,
+					["stickyFont"] = "Expressway",
+					["fontOutline"] = "OUTLINE",
+					["stickyFontShadow"] = false,
 				},
 				["Cow Classic"] = {
-					["stickyFontShadow"] = false,
+					["fontShadow"] = false,
 					["stickyFont"] = "Expressway",
 					["stickyFontOutline"] = "OUTLINE",
 					["stickyFontSize"] = 22,
-					["font"] = "Expressway",
-					["fontSize"] = 17,
 					["fontOutline"] = "OUTLINE",
-					["fontShadow"] = false,
+					["fontSize"] = 17,
+					["font"] = "Expressway",
+					["stickyFontShadow"] = false,
 				},
 			},
 		},
 		["Triggers"] = {
 			["profiles"] = {
 				["Default"] = {
-					["triggers2"] = 0,
-					["dbver3"] = 1,
-					["dbver2"] = 0,
 					["triggers"] = {
 						[1002] = {
 							["disabled"] = true,
@@ -634,13 +631,19 @@ ParrotDB = {
 							["disabled"] = true,
 						},
 					},
+					["dbver2"] = 0,
+					["dbver3"] = 1,
+					["triggers2"] = 0,
 				},
 				["Cow Classic"] = {
+					["triggers2"] = 0,
+					["dbver2"] = 0,
+					["dbver3"] = 1,
 					["triggers"] = {
 						[1001] = {
+							["sound"] = "Sharp Punch",
 							["disabled"] = false,
 							["useflash"] = false,
-							["sound"] = "Sharp Punch",
 						},
 						[1003] = {
 							["disabled"] = true,
@@ -649,9 +652,6 @@ ParrotDB = {
 							["disabled"] = true,
 						},
 					},
-					["dbver3"] = 1,
-					["dbver2"] = 0,
-					["triggers2"] = 0,
 				},
 			},
 		},
@@ -660,28 +660,28 @@ ParrotDB = {
 		["Zimunanashim - Faerlina"] = "Default",
 		["Cöw - Classic PTR Realm 1"] = "Default",
 		["Qualamity - Faerlina"] = "Default",
-		["Cxw - Faerlina"] = "Default",
-		["Qalamity - Faerlina"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
 		["Unholycow - Classic PTR Realm 1"] = "Default",
 		["Overanalyze - Classic PTR Realm 1"] = "Cow Classic",
 		["Cowteets - Classic PTR Realm 1"] = "Default",
 		["Unholycöw - Classic PTR Realm 1"] = "Default",
-		["Cownsecrate - Classic PTR Realm 1"] = "Cow Classic",
+		["Cöww - Classic PTR Realm 1"] = "Default",
 		["Xolem - Venoxis"] = "Default",
-		["Notcow - Faerlina"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
-		["Overanalyze - Faerlina"] = "Cow Classic",
-		["Mesteak - Faerlina"] = "Default",
+		["Unholycöw - Faerlina"] = "Default",
 		["Titancow - Faerlina"] = "Default",
+		["Mesteak - Faerlina"] = "Default",
 		["Cownsecrate - Faerlina"] = "Cow Classic",
 		["Cööw - Classic PTR Realm 1"] = "Default",
 		["Notcowx - Faerlina"] = "Default",
-		["Unholycöw - Faerlina"] = "Default",
+		["Overanalyze - Faerlina"] = "Cow Classic",
 		["Andrés - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
-		["Cöww - Classic PTR Realm 1"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["Notcow - Faerlina"] = "Default",
+		["Cownsecrate - Classic PTR Realm 1"] = "Cow Classic",
+		["Qalamity - Faerlina"] = "Default",
+		["Cxw - Faerlina"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

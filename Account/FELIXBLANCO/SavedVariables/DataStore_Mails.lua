@@ -67,6 +67,14 @@ DataStore_MailsDB = {
 						["lastCheck"] = 1699917428,
 						["daysLeft"] = 30,
 					}, -- [3]
+					{
+						["sender"] = "Maturitass",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:36378::::::-45:138346550:80:::::::::|h[Kraken Vambraces of the Champion]|h|r",
+						["icon"] = 132609,
+						["lastCheck"] = 1701901625,
+						["daysLeft"] = 30,
+					}, -- [4]
 				},
 			},
 			["Default.Venoxis.Andrés"] = {

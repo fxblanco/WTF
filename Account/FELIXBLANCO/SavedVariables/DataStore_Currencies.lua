@@ -49,44 +49,45 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1699913750,
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699827376,
+				["lastUpdate"] = 1701899753,
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Ehre|0|102", -- [2]
-					"1|Emblem der Eroberung|4|221", -- [3]
-					"1|Emblem des Frosts|14|341", -- [4]
-					"1|Emblem des Heldentums|0|101", -- [5]
-					"1|Emblem des Triumphs|4|301", -- [6]
-					"0|Spieler gegen Spieler", -- [7]
-					"1|Arenapunkte|0|1900", -- [8]
-					"1|Ehrepunkte|5262|1901", -- [9]
-					"1|Münze der Venture Co.|34|201", -- [10]
-					"1|Splitter eines Steinbewahrers|16|161", -- [11]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|10|2711", -- [2]
+					"1|Emblem of Conquest|4|221", -- [3]
+					"1|Emblem of Frost|89|341", -- [4]
+					"1|Emblem of Heroism|0|101", -- [5]
+					"1|Emblem of Triumph|76|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"0|Player vs. Player", -- [8]
+					"1|Arena Points|0|1900", -- [9]
+					"1|Honor Points|6542|1901", -- [10]
+					"1|Stone Keeper's Shard|44|161", -- [11]
+					"1|Venture Coin|34|201", -- [12]
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
 				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Ehre|0|102", -- [2]
-					"1|Emblem der Eroberung|0|221", -- [3]
-					"1|Emblem des Frosts|81|341", -- [4]
-					"1|Emblem des Heldentums|11|101", -- [5]
-					"1|Emblem des Triumphs|89|301", -- [6]
-					"1|Geißelstein des Entweihers|38|2711", -- [7]
-					"1|Sternenessenz|0|2589", -- [8]
-					"0|Spieler gegen Spieler", -- [9]
-					"1|Arenapunkte|0|1900", -- [10]
-					"1|Ehrenabzeichen von Tausendwinter|3|126", -- [11]
-					"1|Ehrepunkte|1120|1901", -- [12]
-					"1|Münze der Venture Co.|34|201", -- [13]
-					"1|Splitter eines Steinbewahrers|224|161", -- [14]
-					"0|Verschiedenes", -- [15]
-					"1|Abzeichen der Gerechtigkeit|34|42", -- [16]
-					"1|Feinschmeckerpreis|3|81", -- [17]
-					"1|Juwelierssymbol von Dalaran|5|61", -- [18]
-					"1|Siegel des Champions|22|241", -- [19]
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|6|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|198|341", -- [4]
+					"1|Emblem of Heroism|8|101", -- [5]
+					"1|Emblem of Triumph|33|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|0|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Badge of Justice|34|42", -- [10]
+					"1|Champion's Seal|22|241", -- [11]
+					"1|Dalaran Jewelcrafter's Token|4|61", -- [12]
+					"1|Epicurean's Award|3|81", -- [13]
+					"0|Player vs. Player", -- [14]
+					"1|Arena Points|0|1900", -- [15]
+					"1|Honor Points|2745|1901", -- [16]
+					"1|Stone Keeper's Shard|8|161", -- [17]
+					"1|Venture Coin|34|201", -- [18]
+					"1|Wintergrasp Mark of Honor|4|126", -- [19]
 				},
-				["lastUpdate"] = 1699917783,
+				["lastUpdate"] = 1701902804,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1699228474,

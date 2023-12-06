@@ -9,44 +9,48 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["Vault of Archavon 25 Player|193190098"] = "143386|1701691814|0|1",
-					["Vault of Archavon 10 Player|193191446"] = "143386|1701691814|0|1",
-					["Trial of the Crusader 10 Player|193334831"] = "143386|1701691814|0|1",
+					["Vault of Archavon 25 Player|193637333"] = "537066|1701902934|0|1",
+					["Naxxramas 10 Player|193637204"] = "537066|1701902934|0|1",
 				},
 				["BossKills"] = {
-					["Vault of Archavon 25 Player|193190098"] = {
+					["Vault of Archavon 25 Player|193637333"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
-					["Vault of Archavon 10 Player|193191446"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["Trial of the Crusader 10 Player|193334831"] = {
-						"Northrend Beasts|1", -- [1]
-						"Lord Jaraxxus|1", -- [2]
-						"Faction Champions|0", -- [3]
-						"Val'kyr Twins|0", -- [4]
-						"Anub'arak|0", -- [5]
+					["Naxxramas 10 Player|193637204"] = {
+						"Anub'Rekhan|0", -- [1]
+						"Grand Widow Faerlina|0", -- [2]
+						"Maexxna|0", -- [3]
+						"Noth the Plaguebringer|1", -- [4]
+						"Heigan the Unclean|0", -- [5]
+						"Loatheb|0", -- [6]
+						"Instructor Razuvious|0", -- [7]
+						"Gothik the Harvester|0", -- [8]
+						"The Four Horsemen|0", -- [9]
+						"Patchwerk|0", -- [10]
+						"Grobbulus|0", -- [11]
+						"Gluth|0", -- [12]
+						"Thaddius|0", -- [13]
+						"Sapphiron|0", -- [14]
+						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["lastUpdate"] = 1701691814,
+				["lastUpdate"] = 1701902934,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["DungeonIDs"] = {
-					["Vault of Archavon 10 Player|193192450"] = "143463|1701691737|0|1",
-					["Trial of the Crusader 10 Player|193200194"] = "143463|1701691737|0|1",
-					["Vault of Archavon 25 Player|193189251"] = "143463|1701691737|0|1",
-				},
 				["BossKills"] = {
 					["Vault of Archavon 10 Player|193192450"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
+					["Vault of Archavon 25 Player|193189251"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
@@ -58,12 +62,6 @@ DataStore_AgendaDB = {
 						"Faction Champions|0", -- [3]
 						"Val'kyr Twins|0", -- [4]
 						"Anub'arak|0", -- [5]
-					},
-					["Vault of Archavon 25 Player|193189251"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
 				["lastUpdate"] = 1701691737,

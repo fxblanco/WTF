@@ -1,6 +1,6 @@
 
 HidingBarDB = {
-	["tstmp"] = 1701691347,
+	["tstmp"] = 1701902805,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
@@ -8,121 +8,121 @@ HidingBarDB = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
 					["LibDBIcon10_ItemRack"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_RXPGuides"] = {
 						["tstmp"] = 1695056424,
 					},
 					["LibDBIcon10_BisTooltipIcon"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_Gargul"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_DBM"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_Myslot"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["WIM3MinimapButton"] = {
-						["tstmp"] = 1701691282,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
-					["LibDBIcon10_TMBTooltips"] = {
-						["tstmp"] = 1701691347,
+					["LibDBIcon10_Leatrix_Maps"] = {
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_Grid2"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_PallyPower"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
-					["LibDBIcon10_Questie"] = {
-						["tstmp"] = 1699914093,
+					["AltoholicMinimapButton"] = {
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_AtlasLoot"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_MethodRaidTools"] = {
-						["tstmp"] = 1701691347,
-					},
-					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1701691347,
-					},
-					["LibDBIcon10_WeakAuras"] = {
-						["tstmp"] = 1701691347,
-					},
-					["LibDBIcon10_LoggerHeadLite"] = {
-						["tstmp"] = 1699917785,
-					},
-					["LibDBIcon10_GDKPdLDB"] = {
-						["tstmp"] = 1699914088,
-					},
-					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1701691347,
-					},
-					["Lib_GPI_Minimap_LFGBulletinBoard"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["LibDBIcon10_InstanceAchievementTracker"] = {
 						["tstmp"] = 1699913750,
 					},
-					["AltoholicMinimapButton"] = {
+					["Lib_GPI_Minimap_LFGBulletinBoard"] = {
+						["tstmp"] = 1701902805,
+					},
+					["LibDBIcon10_DetailsStreamer"] = {
+						["tstmp"] = 1701902805,
+					},
+					["LibDBIcon10_GDKPdLDB"] = {
+						["tstmp"] = 1699914088,
+					},
+					["LibDBIcon10_LoggerHeadLite"] = {
 						["tstmp"] = 1699917785,
 					},
-					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1701691347,
+					["LibDBIcon10_WeakAuras"] = {
+						["tstmp"] = 1701902805,
+					},
+					["LibDBIcon10_Questie"] = {
+						["tstmp"] = 1699914093,
+					},
+					["LibDBIcon10_Plater"] = {
+						["tstmp"] = 1701902805,
+					},
+					["LibDBIcon10_TMBTooltips"] = {
+						["tstmp"] = 1701902805,
 					},
 				},
 				["btnSettings"] = {
 					["LFGBulletinBoard"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["HidingBar"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["Grid2"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
-					["Parrot"] = {
-						["tstmp"] = 1701691347,
+					["BisTooltipIcon"] = {
+						["tstmp"] = 1701902805,
 					},
 					["DBM"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["Altoholic"] = {
-						["tstmp"] = 1699917785,
+						["tstmp"] = 1701902805,
 					},
 					["InstanceAchievementTracker"] = {
 						["tstmp"] = 1699913750,
 					},
 					["ItemRack"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 					["AtlasLoot"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
+					},
+					["WeakAuras"] = {
+						["tstmp"] = 1701902805,
+					},
+					["Parrot"] = {
+						["tstmp"] = 1701902805,
 					},
 					["BagnonLauncher"] = {
 						["tstmp"] = 1697816203,
 					},
-					["BisTooltipIcon"] = {
-						["tstmp"] = 1701691347,
-					},
-					["WeakAuras"] = {
-						["tstmp"] = 1701691347,
-					},
 					["MRT"] = {
-						["tstmp"] = 1701691347,
+						["tstmp"] = 1701902805,
 					},
 				},
 				["grabMinimap"] = true,
 				["grabMinimapAfterN"] = 1,
-				["ombGrabQueue"] = {
-				},
 				["customGrabList"] = {
+				},
+				["ombGrabQueue"] = {
 				},
 				["ignoreMBtn"] = {
 				},
@@ -176,25 +176,25 @@ HidingBarDB = {
 						["gapSize"] = 0,
 						["interceptTooltip"] = true,
 						["buttonDirection"] = {
-							["H"] = 0,
 							["V"] = 0,
+							["H"] = 0,
 						},
 						["borderOffset"] = 4,
 						["omb"] = {
-							["distanceToBar"] = 0,
+							["hide"] = true,
 							["anchor"] = "right",
 							["barDisplacement"] = 0,
 							["size"] = 31,
-							["hide"] = true,
+							["distanceToBar"] = 0,
 						},
 						["buttonSize"] = 31,
 						["frameStrata"] = 2,
 						["lineBorderSize"] = 2,
 						["fadeOpacity"] = 0.2,
 						["orientation"] = 0,
-						["borderSize"] = 16,
-						["hideHandler"] = 2,
 						["barOffset"] = 2,
+						["hideHandler"] = 2,
+						["borderSize"] = 16,
 					},
 					["name"] = "Leiste 1",
 				}, -- [1]

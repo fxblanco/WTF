@@ -1,5 +1,11 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Maturitas - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Recombinase - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1913,6 +1919,23 @@ RCLootCouncilDB = {
 			"00:10:56 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Vilro) (distri:) (GUILD)", -- [1908]
 			"00:12:32 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Vilro) (distri:) (GUILD)", -- [1909]
 			"00:12:48 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1910]
+			"12/04/23", -- [1911]
+			"13:10:02 - Logged In", -- [1912]
+			"13:10:02 - ML initialized!", -- [1913]
+			"13:10:02 - TradeUI enabled", -- [1914]
+			"13:10:07 - Maturitass-Venoxis (2.19.3) (nil)", -- [1915]
+			"13:10:07 - ActivateSkin (bfa)", -- [1916]
+			"13:10:13 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1917]
+			"13:10:13 - GetML()", -- [1918]
+			"13:10:13 - LootMethod =  (group)", -- [1919]
+			"13:10:13 - UpdatePlayersData()", -- [1920]
+			"13:10:14 - ClassicModule enabled (0.20.1) (nil)", -- [1921]
+			"13:10:14 - DoCommsCompressFix", -- [1922]
+			"13:10:14 - Removing Column (role)", -- [1923]
+			"13:10:14 - Removing Column (corruption)", -- [1924]
+			"13:10:14 - GetPlayersGuildRank()", -- [1925]
+			"13:10:14 - Found Guild Rank: Twink", -- [1926]
+			"13:10:16 - Comm received:^1^SverTest^T^N1^S0.20.1^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1927]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.1",
@@ -2008,16 +2031,6 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1701130186, -- [3]
 			},
-			["Vilro-Venoxis"] = {
-				"0.20.1", -- [1]
-				nil, -- [2]
-				1701472368, -- [3]
-			},
-			["Euterhexe-Venoxis"] = {
-				"0.20.1", -- [1]
-				nil, -- [2]
-				1701472368, -- [3]
-			},
 			["Letsburn-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
@@ -2048,10 +2061,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1701470694, -- [3]
 			},
-			["Jogí-Venoxis"] = {
+			["Styleploxlel-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1701206662, -- [3]
+				1701206663, -- [3]
 			},
 			["Bubbledîne-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -2083,10 +2096,15 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1701125800, -- [3]
 			},
-			["Beesportz-Venoxis"] = {
+			["Wønka-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1701466200, -- [3]
+				1701470531, -- [3]
+			},
+			["Vilro-Venoxis"] = {
+				"0.20.1", -- [1]
+				nil, -- [2]
+				1701472368, -- [3]
 			},
 			["Delmonte-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -2108,15 +2126,20 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1701206662, -- [3]
 			},
-			["Bigmæc-Venoxis"] = {
+			["Euterhexe-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1701467379, -- [3]
+				1701472368, -- [3]
 			},
 			["Enviì-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
 				1701472368, -- [3]
+			},
+			["Camoraa-Venoxis"] = {
+				"0.20.1", -- [1]
+				nil, -- [2]
+				1701204132, -- [3]
 			},
 			["Uwugamergirl-Venoxis"] = {
 				"0.20.1", -- [1]
@@ -2128,20 +2151,20 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1701472368, -- [3]
 			},
-			["Camoraa-Venoxis"] = {
+			["Bigmæc-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1701204132, -- [3]
+				1701467379, -- [3]
 			},
 			["Liptea-Venoxis"] = {
 				"0.14.1", -- [1]
 				nil, -- [2]
 				1701206663, -- [3]
 			},
-			["Wønka-Venoxis"] = {
+			["Beesportz-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1701470531, -- [3]
+				1701466200, -- [3]
 			},
 			["Shikimora-Venoxis"] = {
 				"0.20.0", -- [1]
@@ -2153,10 +2176,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1701470581, -- [3]
 			},
-			["Styleploxlel-Venoxis"] = {
+			["Jogí-Venoxis"] = {
 				"0.20.1", -- [1]
 				nil, -- [2]
-				1701206663, -- [3]
+				1701206662, -- [3]
 			},
 			["Kwasimojo-Venoxis"] = {
 				"0.20.1", -- [1]
@@ -2170,14 +2193,8 @@ RCLootCouncilDB = {
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.1",
-	},
-	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Recombinase - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {

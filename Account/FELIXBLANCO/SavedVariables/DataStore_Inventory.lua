@@ -62,53 +62,53 @@ DataStore_InventoryDB = {
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699827372,
+				["lastUpdate"] = 1701899750,
 				["averageItemLvl"] = 245,
-				["overallAIL"] = 251.4375,
+				["overallAIL"] = 253.8125,
 				["Inventory"] = {
 					"|cffffffff|Hitem:48363:3820:41398:40128:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffa335ee|Hitem:48030::40113::::::80:::::::::|h[Nachtbanns Amulett]|h|r", -- [2]
+					"|cffffffff|Hitem:48030::40113::::::80:::::::::|h[]|h|r", -- [2]
 					"|cffffffff|Hitem:48361:3808:40128::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
 					"|cffffffff|Hitem:47412:3832:40159:49110:40128::::80:::::::::|h[]|h|r", -- [5]
-					"|cffa335ee|Hitem:47994::40113:40113:40113::::80:::::::::|h[Eisheulers Bindungen]|h|r", -- [6]
+					"|cffa335ee|Hitem:47994::40113:40113:40113::::80:::::::::|h[Icehowl Binding]|h|r", -- [6]
 					"|cffffffff|Hitem:48362:3823:40128:40128:::::80:::::::::|h[]|h|r", -- [7]
 					"|cffffffff|Hitem:45989:3606:40017:40055:::::80:::::::::|h[]|h|r", -- [8]
 					"|cffffffff|Hitem:47577:3845:40128::::::80:::::::::|h[]|h|r", -- [9]
 					"|cffffffff|Hitem:48364:3604:40128::::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:48007:3839:40128::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffa335ee|Hitem:48001:3840:40128::::::80:::::::::|h[Feuersturmband]|h|r", -- [12]
-					"|cffa335ee|Hitem:48020::::::::80:::::::::|h[Rache der Verlassenen]|h|r", -- [13]
-					"|cffa335ee|Hitem:45286::::::::80:::::::::|h[Pyriteinspritzung]|h|r", -- [14]
-					"|cffa335ee|Hitem:47452:3859:40113::::::80:::::::::|h[Tuch der Verschiebung]|h|r", -- [15]
-					"|cffffffff|Hitem:48050:3789:40128::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffa335ee|Hitem:48007:3839:40128::::::80:::::::::|h[Planestalker Band]|h|r", -- [11]
+					"|cffffffff|Hitem:48001:3840:40128::::::80:::::::::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:48020::::::::80:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:45286::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:47452:3859:40113::::::80:::::::::|h[]|h|r", -- [15]
+					"|cffa335ee|Hitem:48013:3834:40113::::::80:::::::::|h[Sunreaver Disciple's Blade]|h|r", -- [16]
 					"|cffffffff|Hitem:48050:3789:40128::::::80:::::::::|h[]|h|r", -- [17]
-					"|cffa335ee|Hitem:47666::::::::80:::::::::|h[Totem des aufladenden Windes]|h|r", -- [18]
-					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Gildenwappenrock]|h|r", -- [19]
+					"|cffffffff|Hitem:47666::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699917783,
-				["averageItemLvl"] = 262.0625,
-				["overallAIL"] = 264.875,
+				["lastUpdate"] = 1701902804,
+				["averageItemLvl"] = 258.9375,
+				["overallAIL"] = 266.875,
 				["Inventory"] = {
 					"|cffffffff|Hitem:48649:3818:41380:40129:::::80:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:50195::40166::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:51170:3852:40141::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffffffff|Hitem:48647:3852:40119::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:51174:3297:40141:36767:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:51265:3832:42142:40129:::::80:::::::::|h[]|h|r", -- [5]
 					"|cffffffff|Hitem:50991::40141:40119:36767::::80:::::::::|h[]|h|r", -- [6]
 					"|cffffffff|Hitem:51171:3822:40166:40119:::::80:::::::::|h[]|h|r", -- [7]
 					"|cffffffff|Hitem:50190:3606:40166:36767:::::80:::::::::|h[]|h|r", -- [8]
 					"|cffffffff|Hitem:49960:3850:40166::::::80:::::::::|h[]|h|r", -- [9]
 					"|cffffffff|Hitem:51172:3860:40166::::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:50185::40141::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffa335ee|Hitem:50404::40166::::::80:::::::::|h[Äschernes Band des endlosen Mutes]|h|r", -- [12]
+					"|cffffffff|Hitem:51855::40111::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:52572::40166::::::80:::::::::|h[Ashen Band of Endless Might]|h|r", -- [12]
 					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:47451::::::::80:::::::::|h[]|h|r", -- [14]
-					"|cffffffff|Hitem:50074:3294:40166::::::80:::::::::|h[]|h|r", -- [15]
-					"|cffffffff|Hitem:51021:2673:::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:51909:1071:40119::::::80:::::::::|h[]|h|r", -- [17]
+					"|cffffffff|Hitem:42987::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:45496:3605:40129::::::80:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:51893:2673:40129::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:51909:3849:40119::::::80:::::::::|h[]|h|r", -- [17]
 					"|cffffffff|Hitem:47661::::::::80:::::::::|h[]|h|r", -- [18]
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
 				},
@@ -140,7 +140,7 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 262,
+						["averageItemLvl"] = 258,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 244,
@@ -152,13 +152,13 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 252,
 					},
 					["Maturitass"] = {
-						["averageItemLvl"] = 243,
+						["averageItemLvl"] = 249,
 					},
 					["Andrés"] = {
 						["averageItemLvl"] = 256,
 					},
 					["Bloodwall"] = {
-						["averageItemLvl"] = 258,
+						["averageItemLvl"] = 256,
 					},
 					["Exonuklease"] = {
 						["averageItemLvl"] = 258,
