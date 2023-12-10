@@ -8,31 +8,65 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1701902874,
-				["HistorySize"] = 1096,
-				["QuestHeaders"] = {
-					"Pit of Saron", -- [1]
-					"Tanaris", -- [2]
-					"Druid", -- [3]
+				["lastUpdate"] = 1702249740,
+				["HistorySize"] = 1103,
+				["Dailies"] = {
+					{
+						["id"] = 78752,
+						["timestamp"] = 1702249738,
+						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
+						["expiresIn"] = 17461,
+					}, -- [1]
+					{
+						["id"] = 78752,
+						["timestamp"] = 1702249738,
+						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
+						["expiresIn"] = 17461,
+					}, -- [2]
+					{
+						["id"] = 78753,
+						["timestamp"] = 1702249740,
+						["title"] = "Proof of Demise: Threats to Azeroth",
+						["expiresIn"] = 17459,
+					}, -- [3]
+					{
+						["id"] = 78753,
+						["timestamp"] = 1702249740,
+						["title"] = "Proof of Demise: Threats to Azeroth",
+						["expiresIn"] = 17459,
+					}, -- [4]
 				},
-				["HistoryLastUpdate"] = 1701902877,
+				["QuestHeaders"] = {
+					"Icecrown Citadel", -- [1]
+					"Pit of Saron", -- [2]
+					"Tanaris", -- [3]
+					"Druid", -- [4]
+				},
+				["HistoryLastUpdate"] = 1702248072,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [1]
-					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [2]
-					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [3]
+					"|cffffff00|Hquest:24872:80|h[Respite for a Tormented Soul]|h|r", -- [1]
+					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [2]
+					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [3]
+					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [4]
 				},
 				["Money"] = {
 					560600, -- [1]
-					10900, -- [2]
-					780, -- [3]
+					560600, -- [2]
+					10900, -- [3]
+					780, -- [4]
+				},
+				["Rewards"] = {
+					"r|52006|1|1", -- [1]
 				},
 				["QuestTitles"] = {
-					"The Path to the Citadel", -- [1]
-					"The Thirsty Goblin", -- [2]
-					"Morthis Whisperwing", -- [3]
+					"Respite for a Tormented Soul", -- [1]
+					"The Path to the Citadel", -- [2]
+					"The Thirsty Goblin", -- [3]
+					"Morthis Whisperwing", -- [4]
 				},
 				["QuestTags"] = {
-					81, -- [1]
+					88, -- [1]
+					81, -- [2]
 				},
 				["History"] = {
 					4227858432, -- [1]
@@ -72,20 +106,24 @@ DataStore_QuestsDB = {
 					[406] = 717332417,
 					[410] = 1078132752,
 					[414] = 71323904,
+					[789] = 8388608,
 					[295] = 1073742852,
+					[188] = 393216,
+					[766] = 2148007936,
 					[307] = 4291130672,
 					[311] = 2535389600,
 					[315] = 1073741976,
 					[319] = 3934344321,
 					[323] = 536871008,
 					[327] = 4709376,
+					[2461] = 1,
 					[335] = 8192,
 					[339] = 2244739073,
-					[188] = 393216,
+					[9] = 65536,
 					[2007] = 33554432,
-					[766] = 2148007936,
+					[386] = 1920,
 					[2001] = 2415919104,
-					[2009] = 524288,
+					[192] = 523776,
 					[363] = 4293164879,
 					[367] = 2103222,
 					[371] = 4143972353,
@@ -110,16 +148,16 @@ DataStore_QuestsDB = {
 					[320] = 1358901280,
 					[324] = 2147524673,
 					[328] = 36864,
-					[386] = 1920,
+					[114] = 176300032,
 					[391] = 1508312,
 					[340] = 4264632339,
-					[192] = 523776,
-					[114] = 176300032,
-					[384] = 679907322,
-					[772] = 3072,
+					[2002] = 2151661646,
 					[111] = 64,
+					[159] = 32,
+					[305] = 17336444,
+					[772] = 3072,
 					[364] = 3758030751,
-					[293] = 3561099427,
+					[384] = 679907322,
 					[372] = 502633168,
 					[376] = 4093848545,
 					[380] = 33543006,
@@ -133,7 +171,7 @@ DataStore_QuestsDB = {
 					[412] = 32,
 					[416] = 268443648,
 					[420] = 3082,
-					[305] = 17336444,
+					[293] = 3561099427,
 					[301] = 256,
 					[432] = 32768,
 					[309] = 68255727,
@@ -141,19 +179,20 @@ DataStore_QuestsDB = {
 					[317] = 4048698361,
 					[321] = 107265028,
 					[325] = 804257795,
-					[2002] = 2151661646,
+					[2009] = 524288,
 					[333] = 96,
-					[159] = 32,
+					[769] = 32760,
 					[341] = 328322,
 					[345] = 4026531841,
-					[769] = 32760,
-					[9] = 65536,
+					[2462] = 2,
+					[776] = 503350272,
 				},
 				["HistoryBuild"] = "52237",
 				["Quests"] = {
-					5244993, -- [1]
-					3215424, -- [2]
-					4593728, -- [3]
+					5244992, -- [1]
+					5247041, -- [2]
+					3217472, -- [3]
+					4595776, -- [4]
 				},
 			},
 			["Default.Venoxis.Recombinase"] = {

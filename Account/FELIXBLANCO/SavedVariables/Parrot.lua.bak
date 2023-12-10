@@ -73,9 +73,6 @@ ParrotDB = {
 						["Pet buff fades"] = {
 							["disabled"] = true,
 						},
-						["Loot items"] = {
-							["disabled"] = false,
-						},
 						["Loot money"] = {
 							["disabled"] = true,
 						},
@@ -89,6 +86,9 @@ ParrotDB = {
 							["disabled"] = true,
 						},
 						["NPC killing blows"] = {
+							["disabled"] = true,
+						},
+						["Enemy debuff gains"] = {
 							["disabled"] = true,
 						},
 						["Buff gains"] = {
@@ -106,8 +106,8 @@ ParrotDB = {
 						["Debuff gains"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
-							["disabled"] = true,
+						["Loot items"] = {
+							["disabled"] = false,
 						},
 						["Debuff stack gains"] = {
 							["disabled"] = true,
@@ -134,6 +134,57 @@ ParrotDB = {
 						["Incoming heals"] = 2000,
 						["Outgoing heals"] = 2000,
 					},
+					["Incoming"] = {
+						["Self damage misses"] = {
+							["color"] = "3399ff",
+						},
+						["Skill dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Melee parries"] = {
+							["color"] = "3399ff",
+						},
+						["Skill reflects"] = {
+							["color"] = "ff00ff",
+						},
+						["Melee reflects"] = {
+							["color"] = "ff00ff",
+						},
+						["Skill misses"] = {
+							["color"] = "3399ff",
+						},
+						["Melee dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Melee misses"] = {
+							["color"] = "3399ff",
+						},
+						["Skill resists"] = {
+							["color"] = "ff00ff",
+						},
+						["Skill parries"] = {
+							["color"] = "3399ff",
+						},
+						["Melee absorbs"] = {
+							["tag"] = "A [Amount]!",
+						},
+						["Skill blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Melee resists"] = {
+							["color"] = "ff00ff",
+						},
+						["Skill absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Self damage absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee blocks"] = {
+							["color"] = "3399ff",
+						},
+					},
+					["shortenAmount"] = true,
 					["Outgoing"] = {
 						["Skill dodges"] = {
 							["color"] = "3399ff",
@@ -196,57 +247,6 @@ ParrotDB = {
 						},
 						["Reactive skills"] = {
 							["tag"] = "[Amount]",
-						},
-					},
-					["shortenAmount"] = true,
-					["Incoming"] = {
-						["Skill dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Skill reflects"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee reflects"] = {
-							["color"] = "ff00ff",
-						},
-						["Skill misses"] = {
-							["color"] = "3399ff",
-						},
-						["Melee dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Skill parries"] = {
-							["color"] = "3399ff",
-						},
-						["Self damage absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Melee parries"] = {
-							["color"] = "3399ff",
-						},
-						["Melee blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Melee resists"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee misses"] = {
-							["color"] = "3399ff",
-						},
-						["Skill resists"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee absorbs"] = {
-							["tag"] = "A [Amount]!",
-						},
-						["Skill blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Self damage misses"] = {
-							["color"] = "3399ff",
 						},
 					},
 					["hideSkillNames"] = true,
@@ -641,9 +641,9 @@ ParrotDB = {
 					["dbver3"] = 1,
 					["triggers"] = {
 						[1001] = {
+							["sound"] = "Sharp Punch",
 							["disabled"] = false,
 							["useflash"] = false,
-							["sound"] = "Sharp Punch",
 						},
 						[1003] = {
 							["disabled"] = true,

@@ -112,13 +112,11 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135952,
-					["spell"] = "Fluch aufheben",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -130,11 +128,14 @@ CliqueDB3 = {
 					["spell"] = "Vergiftung heilen",
 				}, -- [3]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spellSubName"] = "Rank 12",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 136085,
+					["spell"] = "Regrowth",
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -157,16 +158,6 @@ CliqueDB3 = {
 				}, -- [6]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rank 12",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136085,
-					["spell"] = "Regrowth",
-				}, -- [7]
-				{
-					["type"] = "spell",
 					["key"] = "BUTTON1",
 					["spellSubName"] = "Rank 15",
 					["sets"] = {
@@ -174,6 +165,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spell"] = "Rejuvenation",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135952,
+					["spell"] = "Remove Curse",
 				}, -- [8]
 			},
 		},

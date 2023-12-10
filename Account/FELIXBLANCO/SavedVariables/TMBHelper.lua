@@ -5437,12 +5437,32 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1700180054] = {
+			"Alsia", -- [1]
+			"44159", -- [2]
+			"Arcanum of Burning Mysteries", -- [3]
+		},
+		[1702117089] = {
+			"Andrés", -- [1]
+			"44135", -- [2]
+			"Greater Inscription of the Storm", -- [3]
+		},
+		[1702117406] = {
+			"Kwasimojo", -- [1]
+			"44159", -- [2]
+			"Arcanum of Burning Mysteries", -- [3]
+		},
+		[1700180325] = {
+			"Andrés", -- [1]
+			"44159", -- [2]
+			"Arcanum of Burning Mysteries", -- [3]
+		},
 		[1698532499] = {
 			"Ihr", -- [1]
 			"44135", -- [2]
 			"Große Inschrift des Sturms", -- [3]
 		},
-		[1700180054] = {
+		[1702117307] = {
 			"Alsia", -- [1]
 			"44159", -- [2]
 			"Arcanum of Burning Mysteries", -- [3]
@@ -5451,11 +5471,6 @@ ItemListsDB = {
 			"Klass", -- [1]
 			"44096", -- [2]
 			"Battleworn Thrash Blade", -- [3]
-		},
-		[1700180325] = {
-			"Andrés", -- [1]
-			"44159", -- [2]
-			"Arcanum of Burning Mysteries", -- [3]
 		},
 	},
 	["displayPrios"] = true,

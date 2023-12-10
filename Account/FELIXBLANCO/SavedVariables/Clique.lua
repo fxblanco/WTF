@@ -11,11 +11,11 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
 			["spec2_profileKey"] = "Alsia - Venoxis",
+			["downclick"] = false,
+			["fastooc"] = false,
 			["specswap"] = false,
+			["alerthidden"] = true,
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -26,18 +26,18 @@ CliqueDB3 = {
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Xolem - Venoxis",
+			["alerthidden"] = true,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
 			["spec2_profileKey"] = "Kwasimojo - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -197,24 +197,6 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135967,
-					["spell"] = "Hand of Salvation",
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136106,
-					["spell"] = "Divine Intervention",
-				}, -- [3]
-				{
-					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
 					["spellSubName"] = "Rank 3",
 					["sets"] = {
@@ -222,7 +204,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 135964,
 					["spell"] = "Hand of Protection",
-				}, -- [4]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
@@ -231,6 +213,24 @@ CliqueDB3 = {
 					},
 					["icon"] = 135966,
 					["spell"] = "Hand of Sacrifice",
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135967,
+					["spell"] = "Hand of Salvation",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Divine Intervention",
 				}, -- [5]
 				{
 					["type"] = "spell",
@@ -244,13 +244,32 @@ CliqueDB3 = {
 				}, -- [6]
 				{
 					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["spellSubName"] = "Rank 5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["spell"] = "Lay on Hands",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135949,
+					["spell"] = "Purify",
+				}, -- [8]
+				{
+					["type"] = "spell",
 					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135953,
 					["spell"] = "Cleanse",
-				}, -- [7]
+				}, -- [9]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -260,25 +279,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 135907,
 					["spell"] = "Flash of Light",
-				}, -- [8]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spellSubName"] = "Rank 5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spell"] = "Lay on Hands",
-				}, -- [9]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135949,
-					["spell"] = "Purify",
 				}, -- [10]
 				{
 					["type"] = "spell",

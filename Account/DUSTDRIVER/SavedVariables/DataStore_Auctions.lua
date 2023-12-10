@@ -8,8 +8,8 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1701466110,
-				["lastVisitDate"] = "2023/12/01 22:28",
+				["lastUpdate"] = 1702160706,
+				["lastVisitDate"] = "2023/12/09 23:25",
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["lastAuctionsScan"] = 1699825168,

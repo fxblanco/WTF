@@ -142,4 +142,5 @@ GDKPd_PotData = {
 	["prevDist"] = 72600,
 }
 GDKPd_BalanceData = {
+	["Deusdominik"] = -1499,
 }

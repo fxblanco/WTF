@@ -9,28 +9,28 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["Inventory"] = {
-					"|cffffffff|Hitem:48194:3817:41398:40147:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:47988::40117::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:50824:3808:40117::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:45523::41380:40008:::::80:::::::::|h[Garona's Guise]|h|r", -- [1]
+					"|cffa335ee|Hitem:48011::40119::::::80:::::::::|h[Fortitude of the Infernal]|h|r", -- [2]
+					"|cffa335ee|Hitem:48197:3808:40117::::::80:::::::::|h[Runetotem's Shoulderpads of Triumph]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:50828:3832:40111:40146:::::80:::::::::|h[]|h|r", -- [5]
-					"|cffffffff|Hitem:47460::40118:40118:40118::::80:::::::::|h[]|h|r", -- [6]
-					"|cffffffff|Hitem:48195:3328:40117:40117:::::80:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:47445:3606:40111:40111:::::80:::::::::|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:47582:3756:40117::::::80:::::::::|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:48017:3604:40117:40117:::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:47730::::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffffffff|Hitem:47993::40117:40117:::::80:::::::::|h[]|h|r", -- [12]
-					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:45931::::::::80:::::::::|h[]|h|r", -- [14]
-					"|cffffffff|Hitem:48669:3605:40117::::::80:::::::::|h[]|h|r", -- [15]
-					"|cffffffff|Hitem:47463:3789:49110:40112:::::80:::::::::|h[]|h|r", -- [16]
-					[18] = "|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r",
-					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
+					"|cffa335ee|Hitem:47600:3832:40119:40119:40119::::80:::::::::|h[Knightbane Carapace]|h|r", -- [5]
+					"|cffa335ee|Hitem:45555::40002:40002:40002::::80:::::::::|h[Death-warmed Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:47420:3327:40119:40119:40119::::80:::::::::|h[Legwraps of the Broken Beast]|h|r", -- [7]
+					"|cffa335ee|Hitem:47992:3606:40117:40117:::::80:::::::::|h[Acidmaw Treads]|h|r", -- [8]
+					"|cffa335ee|Hitem:51370:3757:::::::80:::::::::|h[Wrathful Gladiator's Armwraps of Triumph]|h|r", -- [9]
+					"|cffa335ee|Hitem:41774:3860:40008::::::80:::::::::|h[Relentless Gladiator's Dragonhide Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:47731::::::::80:::::::::|h[Clutch of Fortification]|h|r", -- [11]
+					"|cffa335ee|Hitem:45874::::::::80:::::::::|h[Signet of Winter]|h|r", -- [12]
+					"|cffa335ee|Hitem:46021::::::::80:::::::::|h[Royal Seal of King Llane]|h|r", -- [13]
+					"|cffa335ee|Hitem:49118::::::::80:::::::::|h[Bubbling Brightbrew Charm]|h|r", -- [14]
+					"|cffa335ee|Hitem:47436::::::::80:::::::::|h[Pride of the Demon Lord]|h|r", -- [15]
+					"|cffa335ee|Hitem:47463:3789:49110:40112:::::80:::::::::|h[Twin's Pact]|h|r", -- [16]
+					[18] = "|cffa335ee|Hitem:45509::::::::80:::::::::|h[Idol of the Corruptor]|h|r",
+					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[Tabard of the Ebon Blade]|h|r",
 				},
-				["averageItemLvl"] = 249.4375,
-				["overallAIL"] = 252.6875,
-				["lastUpdate"] = 1701902874,
+				["averageItemLvl"] = 242.875,
+				["overallAIL"] = 253.9375,
+				["lastUpdate"] = 1702249725,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -89,16 +89,16 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 245,
 					},
 					["Andrés"] = {
-						["averageItemLvl"] = 256,
+						["averageItemLvl"] = 265,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 256,
 					},
 					["Kwasimojo"] = {
-						["averageItemLvl"] = 244,
+						["averageItemLvl"] = 257,
 					},
 					["Maturitass"] = {
-						["averageItemLvl"] = 249,
+						["averageItemLvl"] = 251,
 					},
 				},
 			},

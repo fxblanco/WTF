@@ -10,29 +10,60 @@ DataStore_QuestsDB = {
 			["Default.Venoxis.Maturitass"] = {
 				["HistoryBuild"] = "52237",
 				["HistorySize"] = 1096,
+				["Dailies"] = {
+					{
+						["id"] = 78752,
+						["timestamp"] = 1702160366,
+						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
+						["expiresIn"] = 20433,
+					}, -- [1]
+					{
+						["id"] = 78752,
+						["timestamp"] = 1702160367,
+						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
+						["expiresIn"] = 20432,
+					}, -- [2]
+					{
+						["id"] = 78753,
+						["timestamp"] = 1702160369,
+						["title"] = "Proof of Demise: Threats to Azeroth",
+						["expiresIn"] = 20430,
+					}, -- [3]
+					{
+						["id"] = 78753,
+						["timestamp"] = 1702160369,
+						["title"] = "Proof of Demise: Threats to Azeroth",
+						["expiresIn"] = 20430,
+					}, -- [4]
+				},
 				["Money"] = {
 					560600, -- [1]
-					10900, -- [2]
-					780, -- [3]
+					560600, -- [2]
+					10900, -- [3]
+					780, -- [4]
 				},
-				["HistoryLastUpdate"] = 1701691816,
+				["HistoryLastUpdate"] = 1702159727,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [1]
-					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [2]
-					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [3]
+					"|cffffff00|Hquest:24872:80|h[Respite for a Tormented Soul]|h|r", -- [1]
+					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [2]
+					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [3]
+					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [4]
 				},
 				["QuestHeaders"] = {
-					"Pit of Saron", -- [1]
-					"Tanaris", -- [2]
-					"Druid", -- [3]
+					"Icecrown Citadel", -- [1]
+					"Pit of Saron", -- [2]
+					"Tanaris", -- [3]
+					"Druid", -- [4]
 				},
 				["QuestTitles"] = {
-					"The Path to the Citadel", -- [1]
-					"The Thirsty Goblin", -- [2]
-					"Morthis Whisperwing", -- [3]
+					"Respite for a Tormented Soul", -- [1]
+					"The Path to the Citadel", -- [2]
+					"The Thirsty Goblin", -- [3]
+					"Morthis Whisperwing", -- [4]
 				},
 				["QuestTags"] = {
-					81, -- [1]
+					88, -- [1]
+					81, -- [2]
 				},
 				["History"] = {
 					4227858432, -- [1]
@@ -73,12 +104,15 @@ DataStore_QuestsDB = {
 					[410] = 1078132752,
 					[414] = 71323904,
 					[295] = 1073742852,
+					[776] = 67141632,
+					[2462] = 2,
 					[307] = 4291130672,
 					[311] = 2535389600,
 					[315] = 1073741976,
 					[319] = 3934344321,
 					[323] = 536871008,
 					[327] = 4709376,
+					[2461] = 1,
 					[335] = 8192,
 					[339] = 2244739073,
 					[9] = 65536,
@@ -111,15 +145,15 @@ DataStore_QuestsDB = {
 					[324] = 2147524673,
 					[328] = 36864,
 					[159] = 32,
-					[325] = 804257795,
-					[340] = 4264632339,
 					[391] = 1508312,
+					[340] = 4264632339,
 					[2002] = 2151661646,
-					[313] = 796638920,
+					[325] = 804257795,
 					[764] = 8192,
-					[432] = 32768,
-					[364] = 3758030751,
 					[388] = 3087007745,
+					[313] = 796638920,
+					[364] = 3758030751,
+					[420] = 3082,
 					[372] = 502633168,
 					[376] = 4093848545,
 					[380] = 33543006,
@@ -132,8 +166,8 @@ DataStore_QuestsDB = {
 					[408] = 4231106561,
 					[412] = 32,
 					[416] = 268443648,
-					[420] = 3082,
 					[293] = 3561099427,
+					[432] = 32768,
 					[301] = 256,
 					[305] = 17336444,
 					[309] = 68255727,
@@ -149,11 +183,15 @@ DataStore_QuestsDB = {
 					[766] = 2148007936,
 					[188] = 393216,
 				},
-				["lastUpdate"] = 1701691814,
+				["Rewards"] = {
+					"r|52006|1|1", -- [1]
+				},
+				["lastUpdate"] = 1702173021,
 				["Quests"] = {
-					5244993, -- [1]
-					3215424, -- [2]
-					4593728, -- [3]
+					5244992, -- [1]
+					5247041, -- [2]
+					3217472, -- [3]
+					4595776, -- [4]
 				},
 			},
 			["Default.Venoxis.Recombinase"] = {
