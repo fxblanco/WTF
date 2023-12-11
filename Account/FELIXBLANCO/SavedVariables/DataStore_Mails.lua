@@ -25,8 +25,8 @@ DataStore_MailsDB = {
 						["itemID"] = 43102,
 						["link"] = "|cff0070dd|Hitem:43102::::::::80:::::::::|h[Frozen Orb]|h|r",
 						["count"] = 1,
-						["icon"] = 135851,
 						["lastCheck"] = 1702118666,
+						["icon"] = 135851,
 						["daysLeft"] = 30,
 					}, -- [1]
 					{
@@ -34,8 +34,8 @@ DataStore_MailsDB = {
 						["itemID"] = 49908,
 						["link"] = "|cff0070dd|Hitem:49908::::::::80:::::::::|h[Primordial Saronite]|h|r",
 						["count"] = 1,
-						["icon"] = 135798,
 						["lastCheck"] = 1702118666,
+						["icon"] = 135798,
 						["daysLeft"] = 30,
 					}, -- [2]
 				},

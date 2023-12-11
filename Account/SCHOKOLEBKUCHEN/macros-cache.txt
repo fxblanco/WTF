@@ -31,7 +31,7 @@ VER 3 0000000000000010 "lock" "134400"
 /cast [@mouseover, exists, nodead] Spell Lock; [@Target, exists, nodead] Spell Lock
 END
 VER 3 000000000000000E "PI" "135939"
-/w Sleepychí PI PLS!
+/w Flpstr PI PLS!
 END
 VER 3 0000000000000015 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets

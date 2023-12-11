@@ -50,7 +50,7 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Andrés"] = {
 				["DungeonIDs"] = {
-					["Naxxramas 10 Player|193616731"] = "278375|1702161625|0|1",
+					["Naxxramas 10 Player|193616731"] = "101963|1702338039|0|1",
 				},
 				["BossKills"] = {
 					["Naxxramas 10 Player|193616731"] = {
@@ -71,7 +71,7 @@ DataStore_AgendaDB = {
 						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["lastUpdate"] = 1702161625,
+				["lastUpdate"] = 1702338039,
 			},
 			["Default.Venoxis.Xolem"] = {
 				["DungeonIDs"] = {
@@ -135,29 +135,28 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1702117477,
 			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228475,
+			},
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player (Heroic)|193680121"] = "280748|1702159252|0|1",
-					["Naxxramas 10 Player|193609192"] = "280748|1702159252|0|1",
+					["Icecrown Citadel 25 Player|193680121"] = "105640|1702334360|0|1",
+					["Naxxramas 10 Player|193609192"] = "105640|1702334360|0|1",
 				},
 				["BossKills"] = {
-					["The Forge of Souls Heroic|278406339"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
-					},
-					["Icecrown Citadel 25 Player (Heroic)|193680121"] = {
+					["Icecrown Citadel 25 Player|193680121"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
 						"Deathbringer Saurfang|1", -- [4]
 						"Festergut|1", -- [5]
 						"Rotface|1", -- [6]
-						"Professor Putricide|0", -- [7]
+						"Professor Putricide|1", -- [7]
 						"Blood Council|1", -- [8]
 						"Queen Lana'thel|1", -- [9]
 						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|0", -- [11]
-						"The Lich King|0", -- [12]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
 					},
 					["Naxxramas 10 Player|193609192"] = {
 						"Anub'Rekhan|0", -- [1]
@@ -177,10 +176,7 @@ DataStore_AgendaDB = {
 						"Kel'Thuzad|0", -- [15]
 					},
 				},
-				["lastUpdate"] = 1702159252,
-			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228475,
+				["lastUpdate"] = 1702334360,
 			},
 		},
 	},

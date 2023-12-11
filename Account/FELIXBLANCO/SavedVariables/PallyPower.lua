@@ -22,19 +22,24 @@ PallyPowerDB = {
 			},
 			["seal"] = 5,
 			["cBuffNeedAll"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
-			["enable"] = true,
-			["border"] = "None",
 			["WrathTransition"] = true,
+			["cBuffGood"] = {
+				["r"] = 0.2,
+				["t"] = 0.6,
+				["g"] = 0.2,
+				["b"] = 0.2,
+			},
+			["skin"] = "ElvUI Blank",
 			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
 			["display"] = {
 				["buffDuration"] = false,
@@ -42,21 +47,16 @@ PallyPowerDB = {
 				["offsetX"] = -101.1990203857422,
 				["frameLocked"] = true,
 			},
-			["skin"] = "ElvUI Blank",
-			["cBuffGood"] = {
-				["b"] = 0.2,
-				["t"] = 0.6,
-				["g"] = 0.2,
-				["r"] = 0.2,
-			},
+			["border"] = "None",
+			["enable"] = true,
 			["rf"] = true,
 		},
 		["Other"] = {
 			["cBuffNeedAll"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
@@ -64,19 +64,19 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["enable"] = true,
-			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
+			["WrathTransition"] = true,
 			["cBuffGood"] = {
-				["b"] = 0.2,
+				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
-				["r"] = 0.2,
+				["b"] = 0.2,
 			},
-			["WrathTransition"] = true,
+			["cBuffNeedSpecial"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
 		},
 	},
 }
@@ -117,7 +117,7 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Spaltkyle"] = {
+	["Fanga"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
@@ -153,18 +153,6 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Hitmeplease"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		4, -- [5]
-		2, -- [6]
-		0, -- [7]
-		3, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
 	["Beesportz"] = {
 		2, -- [1]
 		2, -- [2]
@@ -176,42 +164,6 @@ PallyPower_Assignments = {
 		3, -- [8]
 		2, -- [9]
 		4, -- [10]
-	},
-	["Liptea"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		3, -- [10]
-	},
-	["Bremskyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		1, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Lesbenlisa"] = {
-		2, -- [1]
-		2, -- [2]
-		1, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		2, -- [9]
-		2, -- [10]
 	},
 	["Fangà"] = {
 		3, -- [1]
@@ -237,7 +189,43 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Fanga"] = {
+	["Liptea"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		3, -- [10]
+	},
+	["Lesbenlisa"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		2, -- [9]
+		2, -- [10]
+	},
+	["Bremskyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		3, -- [6]
+		1, -- [7]
+		1, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+	["Spaltkyle"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
@@ -261,24 +249,8 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Smervsen"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		0, -- [7]
-		1, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
 }
 PallyPower_NormalAssignments = {
-	["Hitmeplease"] = {
-	},
-	["Smervsen"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["Palatrut"] = 0,
@@ -392,6 +364,7 @@ PallyPower_AuraAssignments = {
 	["Turbochiggo"] = 0,
 	["Fatbutproo"] = 0,
 	["Noxee"] = 0,
+	["Stahlbuerste"] = 3,
 	["Sempo"] = 0,
 	["Shøki"] = 0,
 	["Xythuz"] = 0,
@@ -447,61 +420,62 @@ PallyPower_AuraAssignments = {
 	["Faîlz"] = 0,
 	["Dnsbubble"] = 0,
 	["Healmydog"] = 1,
+	["Jultris"] = 0,
 	["Cancelcult"] = 0,
 	["Mankes"] = 0,
-	["Preglehoe"] = 0,
-	["Bosanyr"] = 1,
-	["Ineri"] = 1,
+	["Rasket"] = 1,
+	["Zherie"] = 5,
+	["Sïn"] = 0,
 	["Kolberg"] = 0,
 	["Hornymoon"] = 0,
 	["Yuisis"] = 0,
-	["Blendedich"] = 0,
-	["Vriternity"] = 0,
+	["Mementás"] = 1,
+	["Shalluna"] = 3,
 	["Mítschy"] = 0,
-	["Eldunarî"] = 0,
+	["Suex"] = 0,
 	["Zantoark"] = 0,
-	["Clauskinski"] = 3,
-	["Testoschrank"] = 0,
+	["Venshii"] = 0,
+	["Anomalus"] = 0,
 	["Chantris"] = 0,
 	["Grauelógs"] = 0,
 	["Metzuki-Gehennas"] = 1,
-	["Pallaxxa-Mograine"] = 2,
+	["Fanga"] = 6,
 	["Towild"] = 0,
 	["Xenapa"] = 0,
-	["Berghaini"] = 0,
-	["Klêpzy"] = 6,
+	["Envvy"] = 0,
+	["Alasen"] = 0,
 	["Eríona"] = 0,
 	["Palajazu"] = 1,
-	["Xenta"] = 0,
+	["Thorylon"] = 0,
 	["Maryilin"] = 0,
-	["Astarîon"] = 0,
-	["Bánu"] = 0,
-	["Héimdall"] = 0,
+	["Allesmitboss"] = 0,
+	["Asdâlan"] = 2,
 	["Simicolon"] = 0,
+	["Jzuzcrst"] = 0,
 	["Lakawara"] = 0,
 	["Skypro"] = 0,
 	["Palishi"] = 0,
 	["Pabe"] = 0,
 	["Ehomera"] = 0,
 	["Cptowo"] = 0,
-	["Harva"] = 5,
+	["Héimdall"] = 0,
 	["Raycin"] = 0,
 	["Arthura"] = 0,
+	["Kawaiiteen"] = 0,
 	["Kopax"] = 0,
 	["Thorschuss"] = 0,
-	["Avêss"] = 0,
 	["Shixqtx"] = 0,
 	["Alyrah"] = 0,
-	["Helyo"] = 0,
+	["Xellzs"] = 0,
 	["Sayanâ"] = 0,
 	["Vianna"] = 0,
-	["Spaltkyle"] = 6,
-	["Xellzs"] = 0,
-	["Celløphane"] = 0,
+	["Paladana"] = 0,
+	["Wokepaladin"] = 0,
 	["Hockadin"] = 6,
+	["Spaltkyle"] = 6,
 	["Freydos"] = 0,
 	["Nodmg"] = 0,
-	["Pypsi"] = 0,
+	["Lesbenlisa"] = 2,
 	["Wallenium"] = 0,
 	["Côilla"] = 0,
 	["Showbopspls"] = 0,
@@ -511,86 +485,86 @@ PallyPower_AuraAssignments = {
 	["Qlikadin"] = 0,
 	["Steliokontoz"] = 1,
 	["Flashpala"] = 3,
-	["Díaz"] = 0,
+	["Hulkadine"] = 0,
 	["Prokain"] = 0,
 	["Ragnajrjr"] = 0,
-	["Xileni"] = 0,
+	["Beesportz"] = 6,
 	["Habíb"] = 1,
 	["Lichtsegen"] = 0,
 	["Fabsen"] = 0,
-	["Beesportz"] = 6,
+	["Xileni"] = 0,
 	["Futelf"] = 0,
-	["Binsosauer"] = 0,
+	["Alsia"] = 1,
 	["Schabernak"] = 0,
 	["Lypî"] = 0,
-	["Liadrîn"] = 0,
-	["Belladina"] = 0,
-	["Palabubu"] = 0,
+	["Belf"] = 0,
+	["Hydara"] = 0,
+	["Varnas"] = 0,
 	["Jillz"] = 0,
+	["Panikmache"] = 0,
 	["Bratansnitch"] = 0,
-	["Theoreen"] = 0,
-	["Salvy"] = 0,
+	["Lufenia"] = 0,
+	["Anuriellé"] = 0,
 	["Holymemf"] = 0,
-	["Banjabank"] = 0,
-	["Pendragonas"] = 0,
+	["Bubbledîne"] = 5,
 	["Grammine"] = 0,
 	["Awfultry"] = 0,
 	["Gdkpaladin"] = 0,
 	["Everglow"] = 0,
-	["Peaxx"] = 0,
-	["Randyblamáge"] = 0,
-	["Gruffelo"] = 0,
+	["Výrgin"] = 0,
+	["Methhilde"] = 0,
+	["Amayorie"] = 0,
 	["Viphazz"] = 0,
 	["Xeeli"] = 6,
-	["Amayorie"] = 0,
-	["Methhilde"] = 0,
-	["Výrgin"] = 0,
+	["Gruffelo"] = 0,
+	["Randyblamáge"] = 0,
+	["Peaxx"] = 0,
 	["Nicebörg"] = 0,
-	["Bubbledîne"] = 5,
+	["Pendragonas"] = 0,
 	["Sayo"] = 0,
-	["Anuriellé"] = 0,
-	["Lufenia"] = 0,
-	["Panikmache"] = 0,
+	["Banjabank"] = 0,
+	["Salvy"] = 0,
+	["Theoreen"] = 0,
 	["Zeolona"] = 0,
-	["Varnas"] = 0,
-	["Hydara"] = 0,
-	["Belf"] = 0,
+	["Palabubu"] = 0,
+	["Belladina"] = 0,
+	["Liadrîn"] = 0,
 	["Futschas"] = 0,
 	["Løxar"] = 0,
-	["Alsia"] = 1,
+	["Binsosauer"] = 0,
 	["Vodar"] = 0,
 	["Entenzwerg"] = 0,
 	["Schpen"] = 6,
-	["Hulkadine"] = 0,
+	["Díaz"] = 0,
 	["Schnie"] = 5,
 	["Crycandy"] = 0,
-	["Lesbenlisa"] = 2,
+	["Pypsi"] = 0,
 	["Hitmeplease"] = 4,
-	["Paladana"] = 0,
+	["Celløphane"] = 0,
 	["Beautypally"] = 0,
-	["Wokepaladin"] = 0,
+	["Helyo"] = 0,
 	["Shikimora"] = 2,
 	["Shorakxkx"] = 0,
-	["Kawaiiteen"] = 0,
+	["Avêss"] = 0,
 	["Wâshed"] = 0,
-	["Jzuzcrst"] = 0,
+	["Harva"] = 5,
 	["Aoraky"] = 0,
-	["Asdâlan"] = 2,
-	["Allesmitboss"] = 0,
-	["Thorylon"] = 0,
-	["Alasen"] = 0,
-	["Envvy"] = 0,
-	["Fanga"] = 6,
+	["Bánu"] = 0,
+	["Astarîon"] = 0,
+	["Xenta"] = 0,
+	["Berghaini"] = 0,
+	["Klêpzy"] = 6,
+	["Pallaxxa-Mograine"] = 2,
 	["Rakteron"] = 5,
-	["Anomalus"] = 0,
-	["Venshii"] = 0,
-	["Suex"] = 0,
-	["Shalluna"] = 3,
-	["Mementás"] = 1,
-	["Sïn"] = 0,
-	["Zherie"] = 5,
+	["Clauskinski"] = 3,
+	["Testoschrank"] = 0,
+	["Eldunarî"] = 0,
+	["Vriternity"] = 0,
+	["Ineri"] = 1,
+	["Blendedich"] = 0,
+	["Bosanyr"] = 1,
 	["Wertoxdin"] = 0,
-	["Jultris"] = 0,
+	["Preglehoe"] = 0,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_Assignments"] = {

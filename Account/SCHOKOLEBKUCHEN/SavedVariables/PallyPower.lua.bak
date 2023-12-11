@@ -95,18 +95,6 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Abodin"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
-	},
 	["Alsia"] = {
 		0, -- [1]
 		0, -- [2]
@@ -167,6 +155,18 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
+	["Hópéful"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+	},
 	["Lesbenlisa"] = {
 		0, -- [1]
 		0, -- [2]
@@ -203,31 +203,7 @@ PallyPower_Assignments = {
 		3, -- [9]
 		0, -- [10]
 	},
-	["Bobladin"] = {
-		2, -- [1]
-		2, -- [2]
-		4, -- [3]
-		3, -- [4]
-		4, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
 	["Liptea"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
-	["Hópéful"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -241,8 +217,6 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Lesbenlisa"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["Holyfalk"] = 0,
@@ -331,6 +305,7 @@ PallyPower_AuraAssignments = {
 	["Gdkpaladin"] = 0,
 	["Steyo"] = 0,
 	["Bopya"] = 0,
+	["Bloodybubble"] = 6,
 	["Palalympic"] = 0,
 	["Fanga"] = 1,
 	["Abodin"] = 1,
@@ -344,25 +319,25 @@ PallyPower_AuraAssignments = {
 	["Logyna"] = 0,
 	["Scheidex"] = 0,
 	["Bânu"] = 0,
-	["Luzilord"] = 0,
-	["Entenzwerg"] = 0,
 	["Schpen"] = 5,
+	["Entenzwerg"] = 0,
+	["Luzilord"] = 0,
 	["Pypsi"] = 0,
 	["Vastria"] = 0,
 	["Saxz"] = 0,
-	["Deoka"] = 0,
-	["Hitmeplease"] = 0,
 	["Fuccsen"] = 0,
+	["Hitmeplease"] = 0,
+	["Celløphane"] = 0,
 	["Beautypally"] = 0,
-	["Liptea"] = 0,
 	["Lesbenlisa"] = 1,
+	["Shikimora"] = 0,
 	["Palîne"] = 0,
 	["Avêss"] = 0,
 	["Liadrîn"] = 0,
 	["Lettn"] = 0,
-	["Shikimora"] = 0,
+	["Liptea"] = 0,
 	["Nôirun"] = 0,
-	["Celløphane"] = 0,
+	["Deoka"] = 0,
 	["Kálí"] = 0,
 	["Dábzy"] = 0,
 	["Turbochiggo"] = 0,

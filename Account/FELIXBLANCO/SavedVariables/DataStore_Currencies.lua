@@ -10,7 +10,6 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1702248075,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|1|2711", -- [2]
@@ -27,8 +26,10 @@ DataStore_CurrenciesDB = {
 					"1|Stone Keeper's Shard|29|161", -- [13]
 					"1|Venture Coin|54|201", -- [14]
 				},
+				["lastUpdate"] = 1702248075,
 			},
 			["Default.Venoxis.Andrés"] = {
+				["lastUpdate"] = 1702338039,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|8|2711", -- [2]
@@ -46,10 +47,8 @@ DataStore_CurrenciesDB = {
 					"1|Venture Coin|124|201", -- [14]
 					"1|Wintergrasp Mark of Honor|1|126", -- [15]
 				},
-				["lastUpdate"] = 1702161625,
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1702117477,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|17|2711", -- [2]
@@ -64,13 +63,18 @@ DataStore_CurrenciesDB = {
 					"1|Stone Keeper's Shard|60|161", -- [11]
 					"1|Venture Coin|34|201", -- [12]
 				},
+				["lastUpdate"] = 1702117477,
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228474,
 			},
 			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1702329733,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|10|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|227|341", -- [4]
+					"1|Emblem of Frost|233|341", -- [4]
 					"1|Emblem of Heroism|8|101", -- [5]
 					"1|Emblem of Triumph|37|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
@@ -87,10 +91,6 @@ DataStore_CurrenciesDB = {
 					"1|Venture Coin|34|201", -- [18]
 					"1|Wintergrasp Mark of Honor|4|126", -- [19]
 				},
-				["lastUpdate"] = 1702158731,
-			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228474,
 			},
 		},
 	},
