@@ -46,14 +46,16 @@ GDKPd_DB = {
 			},
 			["auctionTimer"] = 15,
 			["playerbalancepoint"] = {
-				["y"] = -53.2750358581543,
-				["x"] = 521.0999145507812,
+				["y"] = -34.25613784790039,
+				["x"] = -628.7024536132812,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
 			},
 			["point"] = {
-				["y"] = -48.07495880126953,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 415.6498107910156,
+				["y"] = -19.01887130737305,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -576.03759765625,
 			},
 			["auctionTimerRefresh"] = 10,
 			["startBid"] = 3000,
@@ -73,10 +75,10 @@ GDKPd_PotData = {
 		["Exonuklease"] = 1955,
 		["Beesportz"] = 0,
 		["Sturmpopel"] = 0,
-		["Abodin"] = 0,
+		["Kabaam"] = 0,
 		["Kyleriemen"] = 0,
 		["Gdkphunter"] = -10100,
-		["Kabaam"] = 0,
+		["Abodin"] = 0,
 		["Niebel"] = 0,
 		["Myjuice"] = 0,
 	},
@@ -141,5 +143,7 @@ GDKPd_PotData = {
 }
 GDKPd_BalanceData = {
 	["Exonuklease"] = -21516,
+	["Crîmzon"] = 0,
+	["Crimzonhunt"] = 0,
 	["Specializt"] = 0,
 }

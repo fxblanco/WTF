@@ -256,18 +256,18 @@ AtlasLootClassicDB = {
 			[43032] = "epicurean:3",
 			[42004] = "EmblemOfConquest:58",
 			[47807] = "EmblemOfTriumph:45",
-			[40701] = "EmblemOfHeroism:35",
-			[40685] = "EmblemOfHeroism:40",
 			[45300] = "SiderealEssence:19",
+			[40685] = "EmblemOfHeroism:40",
+			[40701] = "EmblemOfHeroism:35",
 			[45827] = "EmblemOfConquest:28",
 			[45843] = "EmblemOfConquest:39",
-			[50969] = "EmblemOfFrost:95",
+			[50458] = "EmblemOfFrost:30",
 			[50474] = "EmblemOfFrost:30",
 			[40697] = "EmblemOfHeroism:40",
 			[46097] = "SiderealEssence:25",
 			[41996] = "EmblemOfHeroism:45",
 			[45144] = "EmblemOfConquest:19",
-			[50458] = "EmblemOfFrost:30",
+			[50969] = "EmblemOfFrost:95",
 			[50357] = "EmblemOfFrost:60",
 			[47701] = "EmblemOfTriumph:45",
 			[50243] = "EmblemOfFrost:95",
@@ -325,8 +325,8 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"IcecrownCitadel", -- [2]
-					4, -- [3]
-					8, -- [4]
+					nil, -- [3]
+					10, -- [4]
 					0, -- [5]
 				},
 			},

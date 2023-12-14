@@ -11,33 +11,33 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["spec2_profileKey"] = "Alsia - Venoxis",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
 			["downclick"] = false,
-			["specswap"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["specswap"] = false,
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["spec2_profileKey"] = "Xolem - Venoxis",
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
 			["spec2_profileKey"] = "Kwasimojo - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -45,6 +45,7 @@ CliqueDB3 = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -88,26 +89,6 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 9",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136043,
-					["spell"] = "Lesser Healing Wave",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["spellSubName"] = "Rank 14",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136052,
-					["spell"] = "Healing Wave",
-				}, -- [4]
-				{
-					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["spellSubName"] = "Rank 7",
 					["sets"] = {
@@ -115,16 +96,65 @@ CliqueDB3 = {
 					},
 					["icon"] = 136042,
 					["spell"] = "Chain Heal",
-				}, -- [5]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 236288,
+					["spell"] = "Cleanse Spirit",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["spellSubName"] = "Rank 9",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136043,
+					["spell"] = "Lesser Healing Wave",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spellSubName"] = "Rank 4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 252995,
+					["spell"] = "Riptide",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["spellSubName"] = "Rank 14",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136052,
+					["spell"] = "Healing Wave",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
 					["icon"] = 136067,
 					["spell"] = "Cure Toxins",
-				}, -- [6]
+				}, -- [8]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON3",
+					["spellSubName"] = "Rank 5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136089,
+					["spell"] = "Earth Shield",
+				}, -- [9]
 			},
 		},
 		["Pjanic - Venoxis"] = {
@@ -147,6 +177,25 @@ CliqueDB3 = {
 			},
 		},
 		["Andrés - Venoxis"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Alsía - Venoxis"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",

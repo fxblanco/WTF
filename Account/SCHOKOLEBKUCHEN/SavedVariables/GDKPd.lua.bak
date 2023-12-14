@@ -76,9 +76,9 @@ GDKPd_PotData = {
 		["Myjuice"] = 0,
 		["Kyleriemen"] = 0,
 		["Gdkphunter"] = -10100,
-		["Kabaam"] = 0,
-		["Niebel"] = 0,
 		["Abodin"] = 0,
+		["Niebel"] = 0,
+		["Kabaam"] = 0,
 	},
 	["curPotHistory"] = {
 		{
@@ -140,5 +140,7 @@ GDKPd_PotData = {
 	["prevDist"] = 49555,
 }
 GDKPd_BalanceData = {
+	["Crimzonhunt"] = 0,
 	["Exonuklease"] = -21516,
+	["Specializt"] = 0,
 }

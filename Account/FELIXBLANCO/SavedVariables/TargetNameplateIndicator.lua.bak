@@ -7,6 +7,7 @@ TargetNameplateIndicatorDB = {
 		["Lucho - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
 		["Andrés - Venoxis"] = "Default",
+		["Alsía - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",

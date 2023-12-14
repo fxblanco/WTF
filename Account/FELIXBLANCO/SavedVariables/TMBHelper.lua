@@ -5483,6 +5483,7 @@ ItemListsDB = {
 TMBDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
@@ -5490,6 +5491,8 @@ TMBDB = {
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
+		},
+		["Alsía - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},

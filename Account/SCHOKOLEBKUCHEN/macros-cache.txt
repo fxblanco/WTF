@@ -25,6 +25,7 @@ VER 3 0000000000000014 "glove" "134400"
 /use 10
 /use 14
 /cast Blood Fury(Racial)
+/cast Demonic Empowerment
 END
 VER 3 0000000000000010 "lock" "134400"
 #showtooltip Spell Lock
@@ -37,11 +38,15 @@ VER 3 0000000000000015 "RXPTargeting" "Ability_eyeoftheowl"
 //RestedXP Guides - current step has no configured targets
 END
 VER 3 0000000000000009 "SB Snipe R1" "135614"
-/cast [nomod,@mouseover,harm,nodead] [] Schattenblitz(Rang 1)
+/cast [@mouseover,harm,nodead] [] Schattenblitz(Rang 1)
 END
 VER 3 0000000000000012 "sb1" "134400"
 #showtooltip Schattenblitz
 /cast [@mouseover,harm,nodead] Schattenblitz(Rang 1)
+END
+VER 3 0000000000000018 "snap" "134400"
+#showtooltip Shadow Bolt
+/cast [@mouseover,harm,nodead] [] Shadow Bolt(Rank 1)
 END
 VER 3 0000000000000004 "target" "132089"
 /target Andre Feuerbart

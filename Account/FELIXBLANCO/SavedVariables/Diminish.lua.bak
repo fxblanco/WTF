@@ -1,6 +1,7 @@
 
 DiminishDB = {
 	["profileKeys"] = {
+		["Alsía-Venoxis"] = "Default",
 		["Alsia-Venoxis"] = "Default",
 		["Xolem-Venoxis"] = "Default",
 		["Andrés-Venoxis"] = "Default",

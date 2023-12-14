@@ -2,6 +2,7 @@
 DataStore_AgendaDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
@@ -10,141 +11,14 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["DungeonIDs"] = {
-					["Vault of Archavon 25 Player|193601195"] = "191924|1702248077|0|1",
-					["Vault of Archavon 10 Player|193600748"] = "191924|1702248077|0|1",
-					["Naxxramas 10 Player|193604282"] = "191924|1702248077|0|1",
-				},
-				["BossKills"] = {
-					["Vault of Archavon 25 Player|193601195"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["Vault of Archavon 10 Player|193600748"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["Naxxramas 10 Player|193604282"] = {
-						"Anub'Rekhan|0", -- [1]
-						"Grand Widow Faerlina|0", -- [2]
-						"Maexxna|0", -- [3]
-						"Noth the Plaguebringer|1", -- [4]
-						"Heigan the Unclean|0", -- [5]
-						"Loatheb|0", -- [6]
-						"Instructor Razuvious|0", -- [7]
-						"Gothik the Harvester|0", -- [8]
-						"The Four Horsemen|0", -- [9]
-						"Patchwerk|0", -- [10]
-						"Grobbulus|0", -- [11]
-						"Gluth|0", -- [12]
-						"Thaddius|0", -- [13]
-						"Sapphiron|0", -- [14]
-						"Kel'Thuzad|0", -- [15]
-					},
-				},
-				["lastUpdate"] = 1702248077,
+				["lastUpdate"] = 1702547506,
 			},
 			["Default.Venoxis.Andrés"] = {
 				["DungeonIDs"] = {
-					["Naxxramas 10 Player|193616731"] = "101963|1702338039|0|1",
+					["Icecrown Citadel 25 Player|194024270"] = "500682|1702544117|0|1",
 				},
 				["BossKills"] = {
-					["Naxxramas 10 Player|193616731"] = {
-						"Anub'Rekhan|0", -- [1]
-						"Grand Widow Faerlina|0", -- [2]
-						"Maexxna|0", -- [3]
-						"Noth the Plaguebringer|1", -- [4]
-						"Heigan the Unclean|0", -- [5]
-						"Loatheb|0", -- [6]
-						"Instructor Razuvious|0", -- [7]
-						"Gothik the Harvester|0", -- [8]
-						"The Four Horsemen|0", -- [9]
-						"Patchwerk|0", -- [10]
-						"Grobbulus|0", -- [11]
-						"Gluth|0", -- [12]
-						"Thaddius|0", -- [13]
-						"Sapphiron|0", -- [14]
-						"Kel'Thuzad|0", -- [15]
-					},
-				},
-				["lastUpdate"] = 1702338039,
-			},
-			["Default.Venoxis.Xolem"] = {
-				["DungeonIDs"] = {
-					["Trial of the Crusader 25 Player|193718716"] = "322525|1702117477|0|1",
-					["Naxxramas 10 Player|193601580"] = "322525|1702117477|0|1",
-					["Vault of Archavon 25 Player|193599456"] = "322525|1702117477|0|1",
-					["Vault of Archavon 10 Player|193603970"] = "322525|1702117477|0|1",
-					["Icecrown Citadel 10 Player (Heroic)|193664425"] = "322525|1702117477|0|1",
-				},
-				["BossKills"] = {
-					["Trial of the Crusader 25 Player|193718716"] = {
-						"Northrend Beasts|1", -- [1]
-						"Lord Jaraxxus|1", -- [2]
-						"Faction Champions|1", -- [3]
-						"Val'kyr Twins|1", -- [4]
-						"Anub'arak|1", -- [5]
-					},
-					["Naxxramas 10 Player|193601580"] = {
-						"Anub'Rekhan|0", -- [1]
-						"Grand Widow Faerlina|0", -- [2]
-						"Maexxna|0", -- [3]
-						"Noth the Plaguebringer|1", -- [4]
-						"Heigan the Unclean|0", -- [5]
-						"Loatheb|0", -- [6]
-						"Instructor Razuvious|0", -- [7]
-						"Gothik the Harvester|0", -- [8]
-						"The Four Horsemen|0", -- [9]
-						"Patchwerk|0", -- [10]
-						"Grobbulus|0", -- [11]
-						"Gluth|0", -- [12]
-						"Thaddius|0", -- [13]
-						"Sapphiron|0", -- [14]
-						"Kel'Thuzad|0", -- [15]
-					},
-					["Vault of Archavon 25 Player|193599456"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["Vault of Archavon 10 Player|193603970"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["Icecrown Citadel 10 Player (Heroic)|193664425"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|0", -- [5]
-						"Rotface|0", -- [6]
-						"Professor Putricide|0", -- [7]
-						"Blood Council|0", -- [8]
-						"Queen Lana'thel|0", -- [9]
-						"Valithria Dreamwalker|0", -- [10]
-						"Sindragosa|0", -- [11]
-						"The Lich King|0", -- [12]
-					},
-				},
-				["lastUpdate"] = 1702117477,
-			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228475,
-			},
-			["Default.Venoxis.Alsia"] = {
-				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player|193680121"] = "105640|1702334360|0|1",
-					["Naxxramas 10 Player|193609192"] = "105640|1702334360|0|1",
-				},
-				["BossKills"] = {
-					["Icecrown Citadel 25 Player|193680121"] = {
+					["Icecrown Citadel 25 Player|194024270"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -158,25 +32,31 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"The Lich King|1", -- [12]
 					},
-					["Naxxramas 10 Player|193609192"] = {
-						"Anub'Rekhan|0", -- [1]
-						"Grand Widow Faerlina|0", -- [2]
-						"Maexxna|0", -- [3]
-						"Noth the Plaguebringer|1", -- [4]
-						"Heigan the Unclean|0", -- [5]
-						"Loatheb|0", -- [6]
-						"Instructor Razuvious|0", -- [7]
-						"Gothik the Harvester|0", -- [8]
-						"The Four Horsemen|0", -- [9]
-						"Patchwerk|0", -- [10]
-						"Grobbulus|0", -- [11]
-						"Gluth|0", -- [12]
-						"Thaddius|0", -- [13]
-						"Sapphiron|0", -- [14]
-						"Kel'Thuzad|0", -- [15]
+				},
+				["lastUpdate"] = 1702544117,
+			},
+			["Default.Venoxis.Xolem"] = {
+				["DungeonIDs"] = {
+					["Vault of Archavon 25 Player|194016413"] = "497603|1702547196|0|1",
+				},
+				["BossKills"] = {
+					["Vault of Archavon 25 Player|194016413"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1702334360,
+				["lastUpdate"] = 1702547196,
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228475,
+			},
+			["Default.Venoxis.Alsía"] = {
+				["lastUpdate"] = 1702506119,
+			},
+			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1702547431,
 			},
 		},
 	},

@@ -353,12 +353,12 @@ SpellActivationOverlayDB = {
 		["ROGUE"] = {
 			["alert"] = {
 				[14251] = {
-					[0] = true,
+					[0] = "cd:off",
 				},
 			},
 			["glow"] = {
 				[14251] = {
-					[14251] = true,
+					[14251] = "cd:off",
 				},
 			},
 		},
@@ -399,5 +399,5 @@ SpellActivationOverlayDB = {
 		["timer"] = 1,
 		["enabled"] = true,
 	},
-	["version"] = 100,
+	["version"] = 112,
 }

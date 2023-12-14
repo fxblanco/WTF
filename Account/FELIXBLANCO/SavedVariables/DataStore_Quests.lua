@@ -2,6 +2,7 @@
 DataStore_QuestsDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
@@ -11,27 +12,41 @@ DataStore_QuestsDB = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
 				["HistoryBuild"] = "52237",
-				["HistorySize"] = 1522,
+				["HistorySize"] = 1504,
 				["QuestHeaders"] = {
-					"Halls of Reflection", -- [1]
-					"The Violet Hold", -- [2]
+					"Dalaran", -- [1]
+					"Halls of Reflection", -- [2]
+					"Icecrown Citadel", -- [3]
+					"The Violet Hold", -- [4]
 				},
-				["HistoryLastUpdate"] = 1702248080,
+				["HistoryLastUpdate"] = 1702547509,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [1]
-					"|cffffff00|Hquest:13159:77|h[Containment]|h|r", -- [2]
+					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
+					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
+					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [3]
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [4]
+					"|cffffff00|Hquest:13159:77|h[Containment]|h|r", -- [5]
 				},
 				["Money"] = {
-					52000, -- [1]
-					516800, -- [2]
+					486600, -- [1]
+					486600, -- [2]
+					52000, -- [3]
+					296000, -- [4]
+					516800, -- [5]
 				},
 				["QuestTitles"] = {
-					"Frostmourne", -- [1]
-					"Containment", -- [2]
+					"Proof of Demise: Threats to Azeroth", -- [1]
+					"Proof of Demise: Titan Rune Protocol Gamma", -- [2]
+					"Frostmourne", -- [3]
+					"Lord Marrowgar Must Die!", -- [4]
+					"Containment", -- [5]
 				},
 				["QuestTags"] = {
-					81, -- [1]
-					81, -- [2]
+					85, -- [1]
+					85, -- [2]
+					81, -- [3]
+					62, -- [4]
+					81, -- [5]
 				},
 				["History"] = {
 					33555457, -- [1]
@@ -85,15 +100,13 @@ DataStore_QuestsDB = {
 					[189] = 992,
 					[393] = 37834976,
 					[205] = 1114112,
-					[776] = 1585480193,
-					[163] = 67108864,
 					[229] = 33554432,
-					[45] = 2048,
+					[776] = 1585480193,
 					[245] = 2667382753,
 					[4] = 147456,
-					[83] = 131072,
+					[163] = 67108864,
 					[71] = 262144,
-					[362] = 1096810368,
+					[45] = 2048,
 					[314] = 266733700,
 					[330] = 58721280,
 					[87] = 1610629120,
@@ -103,24 +116,24 @@ DataStore_QuestsDB = {
 					[410] = 1078132864,
 					[426] = 2147503824,
 					[111] = 64,
-					[157] = 2684354560,
-					[37] = 4156510209,
+					[83] = 131072,
+					[362] = 1096810368,
 					[123] = 128,
 					[8] = 540928,
-					[315] = 1073741976,
+					[37] = 4156510209,
 					[142] = 1073741824,
 					[150] = 4,
+					[315] = 1073741976,
 					[158] = 503316480,
-					[12] = 134217728,
 					[11] = 2155610112,
 					[363] = 4293165007,
-					[379] = 1736361848,
+					[12] = 134217728,
 					[395] = 67174400,
 					[411] = 2655268,
+					[379] = 1736361848,
 					[6] = 4261412865,
 					[789] = 25165824,
 					[20] = 3223322625,
-					[23] = 16777440,
 					[246] = 6293246,
 					[16] = 1015316512,
 					[17] = 2098115,
@@ -129,7 +142,7 @@ DataStore_QuestsDB = {
 					[316] = 2860581057,
 					[21] = 3082870533,
 					[22] = 3758195198,
-					[364] = 3758030751,
+					[23] = 16777440,
 					[380] = 50337358,
 					[396] = 2147502128,
 					[26] = 1199997232,
@@ -138,10 +151,10 @@ DataStore_QuestsDB = {
 					[29] = 8,
 					[30] = 2147483648,
 					[31] = 21,
-					[301] = 69206016,
+					[364] = 3758030751,
 					[34] = 2147492065,
 					[36] = 4261612544,
-					[38] = 6962268,
+					[301] = 69206016,
 					[317] = 4048698361,
 					[42] = 3584,
 					[349] = 2278572289,
@@ -150,14 +163,14 @@ DataStore_QuestsDB = {
 					[397] = 134283264,
 					[413] = 8388608,
 					[54] = 2048,
-					[361] = 1664,
-					[7] = 19005982,
+					[38] = 6962268,
+					[159] = 341,
 					[60] = 1073741824,
-					[394] = 73728,
-					[206] = 30,
+					[361] = 1664,
+					[444] = 2560,
 					[68] = 131072,
 					[286] = 4254859265,
-					[358] = 2684356113,
+					[394] = 73728,
 					[318] = 5013540,
 					[84] = 96,
 					[350] = 520311,
@@ -166,60 +179,60 @@ DataStore_QuestsDB = {
 					[398] = 16777216,
 					[414] = 256,
 					[108] = 1879965696,
+					[94] = 67110972,
+					[358] = 2684356113,
 					[47] = 542720,
 					[164] = 39841792,
-					[156] = 184555584,
-					[202] = 1610614272,
 					[40] = 309354504,
-					[160] = 1280,
+					[202] = 1610614272,
 					[287] = 335470584,
 					[152] = 512,
+					[160] = 1280,
 					[319] = 2181038081,
-					[200] = 104898560,
 					[351] = 1780673019,
 					[184] = 33554560,
 					[383] = 2244346017,
-					[399] = 2147483648,
+					[200] = 104898560,
 					[415] = 124911616,
+					[399] = 2147483648,
 					[208] = 131104,
 					[197] = 536878080,
+					[412] = 96,
 					[307] = 4294800656,
 					[291] = 6,
-					[412] = 96,
 					[49] = 16777216,
-					[390] = 9437240,
 					[288] = 3498083073,
 					[304] = 290467939,
 					[320] = 1348472876,
-					[2049] = 100663296,
+					[39] = 29360132,
 					[352] = 3210740231,
-					[384] = 8388618,
+					[390] = 9437240,
 					[766] = 2282487808,
 					[400] = 348127232,
 					[416] = 32,
 					[432] = 32768,
+					[2049] = 100663296,
+					[384] = 8388618,
 					[204] = 134217856,
-					[294] = 3811870752,
 					[367] = 2627510,
-					[153] = 131074,
 					[129] = 64,
-					[386] = 1920,
+					[153] = 131074,
 					[289] = 20,
 					[305] = 1091078268,
 					[321] = 295940,
 					[161] = 2818572289,
 					[177] = 196608,
 					[185] = 24576,
-					[89] = 64,
+					[386] = 1920,
 					[201] = 2,
 					[401] = 4261150741,
+					[89] = 64,
 					[377] = 2942371735,
 					[25] = 99958784,
-					[353] = 2163181791,
 					[241] = 6291456,
-					[203] = 262144,
-					[769] = 32760,
+					[353] = 2163181791,
 					[96] = 12582912,
+					[203] = 262144,
 					[290] = 1006633984,
 					[306] = 838925824,
 					[322] = 704576,
@@ -230,10 +243,10 @@ DataStore_QuestsDB = {
 					[402] = 1430813200,
 					[418] = 2147483648,
 					[109] = 33554624,
+					[294] = 3811870752,
 					[409] = 1073762800,
 					[3] = 401408,
 					[333] = 96,
-					[39] = 29360132,
 					[259] = 393216,
 					[138] = 262144,
 					[146] = 2,
@@ -245,13 +258,13 @@ DataStore_QuestsDB = {
 					[772] = 3072,
 					[403] = 3093561664,
 					[419] = 512,
+					[156] = 184555584,
 					[151] = 2097152,
 					[366] = 2814411774,
-					[94] = 67110972,
 					[242] = 6265856,
-					[444] = 2560,
+					[206] = 30,
 					[773] = 320,
-					[159] = 341,
+					[7] = 19005982,
 					[292] = 268664840,
 					[308] = 3437625361,
 					[324] = 2273353729,
@@ -261,16 +274,19 @@ DataStore_QuestsDB = {
 					[388] = 3087007744,
 					[404] = 3878321681,
 					[420] = 3456,
+					[157] = 2684354560,
 					[326] = 4106,
 					[188] = 1048576,
 					[171] = 2,
-					[778] = 2016,
 					[777] = 4,
 				},
-				["lastUpdate"] = 1702248075,
+				["lastUpdate"] = 1702547505,
 				["Quests"] = {
-					5244992, -- [1]
-					5050432, -- [2]
+					5244994, -- [1]
+					5244994, -- [2]
+					5247040, -- [3]
+					5249088, -- [4]
+					5054528, -- [5]
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
@@ -279,32 +295,37 @@ DataStore_QuestsDB = {
 				["QuestHeaders"] = {
 					"Alterac Valley", -- [1]
 					"Dalaran", -- [2]
-					"Wintergrasp", -- [3]
+					"Icecrown Citadel", -- [3]
+					"Wintergrasp", -- [4]
 				},
-				["HistoryLastUpdate"] = 1702338043,
+				["HistoryLastUpdate"] = 1702544095,
 				["QuestLinks"] = {
 					"|cff808080|Hquest:11340:-1|h[Call to Arms: Alterac Valley]|h|r", -- [1]
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [2]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [3]
-					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [4]
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [4]
+					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [5]
 				},
 				["Money"] = {
 					272600, -- [1]
 					486600, -- [2]
 					486600, -- [3]
-					206300, -- [4]
+					296000, -- [4]
+					206300, -- [5]
 				},
 				["QuestTitles"] = {
 					"Call to Arms: Alterac Valley", -- [1]
 					"Proof of Demise: Threats to Azeroth", -- [2]
 					"Proof of Demise: Titan Rune Protocol Gamma", -- [3]
-					"Victory in Wintergrasp", -- [4]
+					"Lord Marrowgar Must Die!", -- [4]
+					"Victory in Wintergrasp", -- [5]
 				},
 				["QuestTags"] = {
 					41, -- [1]
 					85, -- [2]
 					85, -- [3]
-					41, -- [4]
+					62, -- [4]
+					41, -- [5]
 				},
 				["History"] = {
 					[33] = 184549376,
@@ -523,17 +544,18 @@ DataStore_QuestsDB = {
 					[9] = 256,
 					[47] = 51200,
 				},
-				["lastUpdate"] = 1702338037,
+				["lastUpdate"] = 1702544090,
 				["Quests"] = {
 					5244994, -- [1]
 					5247042, -- [2]
 					5247042, -- [3]
-					5249088, -- [4]
+					5249089, -- [4]
+					5251136, -- [5]
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1702117475,
-				["HistorySize"] = 931,
+				["lastUpdate"] = 1702546775,
+				["HistorySize"] = 919,
 				["Money"] = {
 					126800, -- [1]
 					206300, -- [2]
@@ -544,10 +566,11 @@ DataStore_QuestsDB = {
 					206300, -- [7]
 					157300, -- [8]
 					206300, -- [9]
-					313300, -- [10]
-					206300, -- [11]
+					296000, -- [10]
+					313300, -- [11]
+					206300, -- [12]
 				},
-				["HistoryLastUpdate"] = 1702117481,
+				["HistoryLastUpdate"] = 1702547196,
 				["QuestLinks"] = {
 					"|cff40c040|Hquest:12149:73|h[Mighty Magnataur]|h|r", -- [1]
 					"|cffffff00|Hquest:13078:80|h[Dahlia's Tears]|h|r", -- [2]
@@ -558,15 +581,23 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:13121:80|h[Through the Eye]|h|r", -- [7]
 					"|cffffff00|Hquest:13117:80|h[Where Are They Coming From?]|h|r", -- [8]
 					"|cffffff00|Hquest:13259:80|h[Establishing Superiority]|h|r", -- [9]
-					"|cffffff00|Hquest:13010:80|h[Krolmir, Hammer of Storms]|h|r", -- [10]
-					"|cffffff00|Hquest:13680:80|h[The Aspirant's Challenge]|h|r", -- [11]
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [10]
+					"|cffffff00|Hquest:13010:80|h[Krolmir, Hammer of Storms]|h|r", -- [11]
+					"|cffffff00|Hquest:13680:80|h[The Aspirant's Challenge]|h|r", -- [12]
 				},
 				["QuestHeaders"] = {
 					"Dragonblight", -- [1]
 					"Icecrown", -- [2]
 					"Icecrown Citadel", -- [3]
-					"The Storm Peaks", -- [4]
-					"Tournament", -- [5]
+					"Icecrown Citadel", -- [4]
+					"The Storm Peaks", -- [5]
+					"Tournament", -- [6]
+				},
+				["Rewards"] = {
+					"r|199210|1|1", -- [1]
+					[3] = "c|44386|1|1,c|44388|1|1,c|44387|1|1",
+					[9] = "c|38737|1|1,c|39036|1|1,c|39070|1|1,c|39102|1|0",
+					[11] = "c|42793|1|1,c|42806|1|1,c|42818|1|1,c|42835|1|0",
 				},
 				["QuestTitles"] = {
 					"Mighty Magnataur", -- [1]
@@ -578,8 +609,9 @@ DataStore_QuestsDB = {
 					"Through the Eye", -- [7]
 					"Where Are They Coming From?", -- [8]
 					"Establishing Superiority", -- [9]
-					"Krolmir, Hammer of Storms", -- [10]
-					"The Aspirant's Challenge", -- [11]
+					"Lord Marrowgar Must Die!", -- [10]
+					"Krolmir, Hammer of Storms", -- [11]
+					"The Aspirant's Challenge", -- [12]
 				},
 				["QuestTags"] = {
 					1, -- [1]
@@ -588,6 +620,7 @@ DataStore_QuestsDB = {
 					1, -- [4]
 					1, -- [5]
 					1, -- [6]
+					[10] = 62,
 				},
 				["History"] = {
 					nil, -- [1]
@@ -689,7 +722,6 @@ DataStore_QuestsDB = {
 					[401] = 4261168341,
 					[417] = 852623362,
 					[433] = 59440,
-					[769] = 32760,
 					[306] = 536870912,
 					[322] = 655360,
 					[354] = 415236070,
@@ -741,6 +773,7 @@ DataStore_QuestsDB = {
 					5249088, -- [9]
 					5251136, -- [10]
 					5253184, -- [11]
+					5255232, -- [12]
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
@@ -769,23 +802,89 @@ DataStore_QuestsDB = {
 					[412] = 24576,
 				},
 			},
+			["Default.Venoxis.Alsía"] = {
+				["HistoryBuild"] = "52237",
+				["HistorySize"] = 95,
+				["Money"] = {
+					296000, -- [1]
+					52000, -- [2]
+					206300, -- [3]
+				},
+				["HistoryLastUpdate"] = 1702506120,
+				["QuestLinks"] = {
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [1]
+					"|cffffff00|Hquest:24506:80|h[Inside the Frozen Citadel]|h|r", -- [2]
+					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [3]
+				},
+				["QuestHeaders"] = {
+					"Icecrown Citadel", -- [1]
+					"The Forge of Souls", -- [2]
+					"Wintergrasp", -- [3]
+				},
+				["QuestTitles"] = {
+					"Lord Marrowgar Must Die!", -- [1]
+					"Inside the Frozen Citadel", -- [2]
+					"Victory in Wintergrasp", -- [3]
+				},
+				["QuestTags"] = {
+					62, -- [1]
+					81, -- [2]
+					41, -- [3]
+				},
+				["History"] = {
+					[116] = 2,
+					[301] = 2,
+					[402] = 8192,
+					[2010] = 2147483648,
+					[263] = 3221225473,
+					[97] = 536870912,
+					[2445] = 178176,
+					[264] = 4,
+					[303] = 477261824,
+					[56] = 532414464,
+					[304] = 771770368,
+					[57] = 16384,
+					[2461] = 1,
+					[300] = 1073741825,
+					[305] = 896,
+					[324] = 1073741824,
+					[332] = 2,
+					[1996] = 67108864,
+					[2442] = 528482304,
+					[98] = 8,
+					[291] = 128,
+					[52] = 8379392,
+					[400] = 348127232,
+					[94] = 31457280,
+					[2443] = 32530560,
+					[331] = 1073741825,
+					[2005] = 129024,
+					[2462] = 2,
+				},
+				["lastUpdate"] = 1702506119,
+				["Quests"] = {
+					5244992, -- [1]
+					5247040, -- [2]
+					5249088, -- [3]
+				},
+			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1702329732,
-				["HistorySize"] = 1109,
+				["lastUpdate"] = 1702547430,
+				["HistorySize"] = 1097,
 				["QuestHeaders"] = {
 					"Icecrown Citadel", -- [1]
 					"Wintergrasp", -- [2]
 					"Jewelcrafting", -- [3]
 					"Tournament", -- [4]
 				},
-				["HistoryLastUpdate"] = 1702330597,
+				["HistoryLastUpdate"] = 1702547431,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [1]
 					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [2]
 					"|cffffff00|Hquest:13539:80|h[Toppling the Towers]|h|r", -- [3]
 					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [4]
 					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [5]
-					"|cff808080|Hquest:12959:-1|h[Shipment: Glowing Ivory Figurine]|h|r", -- [6]
+					"|cff808080|Hquest:12961:-1|h[Shipment: Intricate Bone Figurine]|h|r", -- [6]
 					"|cffffff00|Hquest:13697:80|h[The Valiant's Charge]|h|r", -- [7]
 				},
 				["Money"] = {
@@ -803,7 +902,7 @@ DataStore_QuestsDB = {
 					"Toppling the Towers", -- [3]
 					"Victory in Wintergrasp", -- [4]
 					"Warding the Walls", -- [5]
-					"Shipment: Glowing Ivory Figurine", -- [6]
+					"Shipment: Intricate Bone Figurine", -- [6]
 					"The Valiant's Charge", -- [7]
 				},
 				["QuestTags"] = {
@@ -927,7 +1026,6 @@ DataStore_QuestsDB = {
 					[401] = 4261150973,
 					[417] = 805306368,
 					[433] = 59440,
-					[769] = 32760,
 					[290] = 1006633424,
 					[322] = 128,
 					[354] = 415236070,

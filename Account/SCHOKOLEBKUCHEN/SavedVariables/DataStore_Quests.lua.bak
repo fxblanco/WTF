@@ -10,42 +10,37 @@ DataStore_QuestsDB = {
 				["HistorySize"] = 1254,
 				["QuestHeaders"] = {
 					"Dalaran", -- [1]
-					"Felwood", -- [2]
-					"Icecrown Citadel", -- [3]
-					"Ulduar", -- [4]
-					"Warlock", -- [5]
+					"Ulduar", -- [2]
+					"Felwood", -- [3]
+					"Warlock", -- [4]
 				},
-				["HistoryLastUpdate"] = 1701811939,
+				["HistoryLastUpdate"] = 1702425925,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
-					"|cff808080|Hquest:5202:55|h[A Strange Red Key]|h|r", -- [3]
-					"|cffffff00|Hquest:24875:80|h[Deprogramming]|h|r", -- [4]
-					"|cffffff00|Hquest:13604:80|h[Archivum Data Disc]|h|r", -- [5]
-					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [6]
+					"|cffffff00|Hquest:13604:80|h[Archivum Data Disc]|h|r", -- [3]
+					"|cff808080|Hquest:5202:55|h[A Strange Red Key]|h|r", -- [4]
+					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [5]
 				},
 				["Money"] = {
 					486600, -- [1]
 					486600, -- [2]
-					4950, -- [3]
-					560600, -- [4]
-					420600, -- [5]
-					3300, -- [6]
+					420600, -- [3]
+					4950, -- [4]
+					3300, -- [5]
 				},
 				["QuestTitles"] = {
 					"Proof of Demise: Threats to Azeroth", -- [1]
 					"Proof of Demise: Titan Rune Protocol Gamma", -- [2]
-					"A Strange Red Key", -- [3]
-					"Deprogramming", -- [4]
-					"Archivum Data Disc", -- [5]
-					"Hot and Itchy", -- [6]
+					"Archivum Data Disc", -- [3]
+					"A Strange Red Key", -- [4]
+					"Hot and Itchy", -- [5]
 				},
 				["QuestTags"] = {
 					85, -- [1]
 					85, -- [2]
-					"COMPLETED", -- [3]
-					89, -- [4]
-					88, -- [5]
+					88, -- [3]
+					"COMPLETED", -- [4]
 				},
 				["History"] = {
 					25166084, -- [1]
@@ -153,6 +148,7 @@ DataStore_QuestsDB = {
 					[397] = 151865906,
 					[413] = 13631496,
 					[54] = 2048,
+					[778] = 16384,
 					[380] = 51119630,
 					[131] = 2097152,
 					[46] = 2147483648,
@@ -222,18 +218,18 @@ DataStore_QuestsDB = {
 					[45] = 13391872,
 					[769] = 32760,
 					[69] = 67108864,
-					[89] = 1073741888,
-					[306] = 570482176,
+					[354] = 415170470,
+					[77] = 256,
 					[322] = 269140160,
 					[338] = 570425600,
-					[354] = 415170470,
+					[89] = 1073741888,
 					[93] = 3758096385,
 					[97] = 134217728,
 					[402] = 2135456272,
 					[418] = 2147483648,
 					[1728] = 1,
 					[105] = 8192,
-					[77] = 256,
+					[306] = 570482176,
 					[121] = 48,
 					[125] = 24576,
 					[130] = 131392,
@@ -269,14 +265,13 @@ DataStore_QuestsDB = {
 					[206] = 2106,
 					[411] = 2687016436,
 				},
-				["lastUpdate"] = 1701811933,
+				["lastUpdate"] = 1702426563,
 				["Quests"] = {
 					5244994, -- [1]
 					5244994, -- [2]
-					3608641, -- [3]
-					5249088, -- [4]
-					5251137, -- [5]
-					3418176, -- [6]
+					5247041, -- [3]
+					3610689, -- [4]
+					3416128, -- [5]
 				},
 			},
 		},

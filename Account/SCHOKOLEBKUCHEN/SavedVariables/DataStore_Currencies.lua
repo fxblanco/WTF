@@ -6,12 +6,12 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1702335953,
+				["lastUpdate"] = 1702516322,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|3|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|40|341", -- [4]
+					"1|Emblem of Frost|35|341", -- [4]
 					"1|Emblem of Heroism|7|101", -- [5]
 					"1|Emblem of Triumph|12|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]

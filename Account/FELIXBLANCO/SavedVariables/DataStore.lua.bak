@@ -2,6 +2,7 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
@@ -27,6 +28,10 @@ DataStoreDB = {
 				["guildName"] = "Old Rabbitz",
 			},
 			["Default.Venoxis.Alsia"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Alsía"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
