@@ -8,11 +8,11 @@ Details_StreamerDB = {
 		["Pippop - Venoxis"] = "Alsia - Venoxis",
 		["Hakkî - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Transcendence"] = "Alsia - Venoxis",
-		["Hâkkî - Venoxis"] = "Alsia - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Alsia - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Alsia - Venoxis",
 		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Hâkkî - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {

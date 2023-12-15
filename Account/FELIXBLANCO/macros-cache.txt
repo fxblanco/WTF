@@ -1,32 +1,32 @@
-VER 3 00000000000001A7 "111_" "134400"
+VER 3 00000000000001C2 "111_" "134400"
 /4 Suchen für ICC 25 9+ hcs Freitag 21:00 - GDKP 90/10 Shards Presold - Anmeldung mit Logs/GS/Exp unter https://discord.gg/B4Uk9Yu9Eq
 END
-VER 3 00000000000001A8 "222_" "134400"
+VER 3 00000000000001C3 "222_" "134400"
 /4 LFM ICC 10 GDKP Trinketrun (Erste 4 HC) - Alles Gesucht! Wisp mit GS/Exp
 END
-VER 3 00000000000001A9 "434" "236178"
+VER 3 00000000000001C4 "434" "236178"
 /castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
 END
-VER 3 00000000000001AA "focus" "132097"
+VER 3 00000000000001C5 "focus" "132097"
 /focus
 END
-VER 3 00000000000001AB "g_boots" "INV_Misc_QuestionMark"
+VER 3 00000000000001C6 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 8
 END
-VER 3 00000000000001AC "g_buy" "134400"
+VER 3 00000000000001C7 "g_buy" "134400"
 /script BuyMerchantItem(1,500)
 END
-VER 3 00000000000001AD "g_focus_kick" "INV_Misc_QuestionMark"
+VER 3 00000000000001C8 "g_focus_kick" "INV_Misc_QuestionMark"
 #showtooltip Windstoß
 /stopcasting
 /cast [@focus] Windstoß
 /cast Windstoß
 END
-VER 3 00000000000001AE "g_hände" "132959"
+VER 3 00000000000001C9 "g_hände" "132959"
 /use 10
 END
-VER 3 00000000000001AF "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 00000000000001CA "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END

@@ -53,10 +53,52 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1699228475,
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1702506119,
+				["DungeonIDs"] = {
+					["The Forge of Souls Heroic|279048452"] = "16049|1702596751|0|0",
+					["Pit of Saron Heroic|194143423"] = "16049|1702596751|0|0",
+					["Trial of the Crusader 10 Player (Heroic)|194142791"] = "448049|1702596751|0|1",
+				},
+				["BossKills"] = {
+					["The Forge of Souls Heroic|279048452"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
+					},
+					["Pit of Saron Heroic|194143423"] = {
+						"Forgemaster Garfrost|1", -- [1]
+						"Krick|1", -- [2]
+						"Overlrod Tyrannus|1", -- [3]
+					},
+					["Trial of the Crusader 10 Player (Heroic)|194142791"] = {
+						"Northrend Beasts|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Faction Champions|1", -- [3]
+						"Val'kyr Twins|1", -- [4]
+						"Anub'arak|1", -- [5]
+					},
+				},
+				["lastUpdate"] = 1702596751,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1702547431,
+				["DungeonIDs"] = {
+					["Icecrown Citadel 25 Player (Heroic)|194130654"] = "447928|1702596872|0|1",
+				},
+				["BossKills"] = {
+					["Icecrown Citadel 25 Player (Heroic)|194130654"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|0", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|0", -- [12]
+					},
+				},
+				["lastUpdate"] = 1702596872,
 			},
 		},
 	},

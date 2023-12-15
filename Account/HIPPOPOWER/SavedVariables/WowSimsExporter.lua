@@ -8,11 +8,11 @@ WSEDB = {
 		["Pippop - Venoxis"] = "Default",
 		["Hakkî - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
-		["Hâkkî - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
+		["Hâkkî - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 }

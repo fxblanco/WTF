@@ -13,13 +13,7 @@ ParrotDB = {
 						["Killing blows"] = 0.3,
 					},
 					["Incoming"] = {
-						["Melee blocks"] = {
-							["color"] = "3399ff",
-						},
 						["Skill dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Melee parries"] = {
 							["color"] = "3399ff",
 						},
 						["Skill reflects"] = {
@@ -34,11 +28,26 @@ ParrotDB = {
 						["Melee dodges"] = {
 							["color"] = "3399ff",
 						},
-						["Melee misses"] = {
+						["Skill parries"] = {
 							["color"] = "3399ff",
 						},
 						["Self damage absorbs"] = {
 							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee parries"] = {
+							["color"] = "3399ff",
+						},
+						["Melee blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Skill absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee resists"] = {
+							["color"] = "ff00ff",
+						},
+						["Melee misses"] = {
+							["color"] = "3399ff",
 						},
 						["Skill resists"] = {
 							["color"] = "ff00ff",
@@ -49,16 +58,7 @@ ParrotDB = {
 						["Skill blocks"] = {
 							["color"] = "3399ff",
 						},
-						["Skill absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Melee resists"] = {
-							["color"] = "ff00ff",
-						},
 						["Self damage misses"] = {
-							["color"] = "3399ff",
-						},
-						["Skill parries"] = {
 							["color"] = "3399ff",
 						},
 					},
@@ -83,7 +83,6 @@ ParrotDB = {
 						["Incoming heals"] = 2000,
 						["Outgoing heals"] = 2000,
 					},
-					["shortenAmount"] = true,
 					["Outgoing"] = {
 						["Skill dodges"] = {
 							["color"] = "3399ff",
@@ -148,6 +147,7 @@ ParrotDB = {
 							["tag"] = "[Amount]",
 						},
 					},
+					["shortenAmount"] = true,
 					["Notification"] = {
 						["Currency gains"] = {
 							["disabled"] = true,
@@ -224,8 +224,8 @@ ParrotDB = {
 						["NPC killing blows"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
-							["disabled"] = true,
+						["Loot items"] = {
+							["disabled"] = false,
 						},
 						["Buff gains"] = {
 							["disabled"] = true,
@@ -242,8 +242,8 @@ ParrotDB = {
 						["Debuff gains"] = {
 							["disabled"] = true,
 						},
-						["Loot items"] = {
-							["disabled"] = false,
+						["Enemy debuff gains"] = {
+							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
 							["disabled"] = true,
@@ -641,9 +641,9 @@ ParrotDB = {
 					["dbver3"] = 1,
 					["triggers"] = {
 						[1001] = {
+							["sound"] = "Sharp Punch",
 							["disabled"] = false,
 							["useflash"] = false,
-							["sound"] = "Sharp Punch",
 						},
 						[1003] = {
 							["disabled"] = true,

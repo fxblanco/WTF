@@ -446,7 +446,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1702507124,
+				["lastUpdate"] = 1702596750,
 				["Spells"] = {
 					["Protection"] = {
 						"48827|Rank 5", -- [1]
@@ -504,8 +504,9 @@ DataStore_SpellsDB = {
 						"107|Passive", -- [4]
 						"54197|Passive", -- [5]
 						"81|Passive", -- [6]
-						"822|Racial Passive", -- [7]
-						"3127|Passive", -- [8]
+						"4038|Expert", -- [7]
+						"822|Racial Passive", -- [8]
+						"3127|Passive", -- [9]
 					},
 					["Retribution"] = {
 						"31884|", -- [1]
@@ -529,7 +530,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1702547431,
+				["lastUpdate"] = 1702597275,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]

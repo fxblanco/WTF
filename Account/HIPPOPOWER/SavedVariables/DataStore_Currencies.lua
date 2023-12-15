@@ -1,19 +1,82 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Hâkkî"] = {
+				["lastUpdate"] = 1701646043,
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|2|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|79|341", -- [4]
+					"1|Emblem of Heroism|7|101", -- [5]
+					"1|Emblem of Triumph|0|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|8|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|6|241", -- [10]
+					"1|Epicurean's Award|1|81", -- [11]
+					"0|Player vs. Player", -- [12]
+					"1|Honor Points|18566|1901", -- [13]
+					"1|Stone Keeper's Shard|183|161", -- [14]
+					"1|Venture Coin|134|201", -- [15]
+					"1|Wintergrasp Mark of Honor|8|126", -- [16]
+				},
+			},
+			["Default.Venoxis.Lesbenlisa"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|8|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|81|341", -- [4]
+					"1|Emblem of Heroism|0|101", -- [5]
+					"1|Emblem of Triumph|92|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|0|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|15|241", -- [10]
+					"0|Player vs. Player", -- [11]
+					"1|Honor Points|9686|1901", -- [12]
+					"1|Stone Keeper's Shard|38|161", -- [13]
+					"1|Venture Coin|206|201", -- [14]
+					"1|Wintergrasp Mark of Honor|7|126", -- [15]
+				},
+				["lastUpdate"] = 1702597487,
+			},
+			["Default.Venoxis.Pippop"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|8|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|267|341", -- [4]
+					"1|Emblem of Heroism|17|101", -- [5]
+					"1|Emblem of Triumph|0|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|1|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Champion's Seal|22|241", -- [10]
+					"1|Epicurean's Award|1|81", -- [11]
+					"0|Player vs. Player", -- [12]
+					"1|Arena Points|0|1900", -- [13]
+					"1|Honor Points|21418|1901", -- [14]
+					"1|Stone Keeper's Shard|122|161", -- [15]
+					"1|Venture Coin|144|201", -- [16]
+					"1|Wintergrasp Mark of Honor|39|126", -- [17]
+				},
+				["lastUpdate"] = 1701646641,
+			},
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1699916250,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -30,51 +93,10 @@ DataStore_CurrenciesDB = {
 					"0|Verschiedenes", -- [13]
 					"1|Siegel des Champions|1|241", -- [14]
 				},
-			},
-			["Default.Venoxis.Andrés"] = {
-				["Currencies"] = {
-					"0|Dungeon und Schlachtzug", -- [1]
-					"1|Emblem der Ehre|0|102", -- [2]
-					"1|Emblem der Eroberung|0|221", -- [3]
-					"1|Emblem des Frosts|51|341", -- [4]
-					"1|Emblem des Heldentums|3|101", -- [5]
-					"1|Emblem des Triumphs|87|301", -- [6]
-					"1|Geißelstein des Entweihers|2|2711", -- [7]
-					"1|Sternenessenz|5|2589", -- [8]
-					"0|Spieler gegen Spieler", -- [9]
-					"1|Ehrenabzeichen von Tausendwinter|10|126", -- [10]
-					"1|Ehrepunkte|9655|1901", -- [11]
-					"1|Münze der Venture Co.|124|201", -- [12]
-					"1|Splitter eines Steinbewahrers|671|161", -- [13]
-					"0|Verschiedenes", -- [14]
-					"1|Siegel des Champions|11|241", -- [15]
-				},
-				["lastUpdate"] = 1699913750,
-			},
-			["Default.Venoxis.Hakkî"] = {
-				["lastUpdate"] = 1701646303,
-				["Currencies"] = {
-					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|12|2711", -- [2]
-					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|16|341", -- [4]
-					"1|Emblem of Heroism|0|101", -- [5]
-					"1|Emblem of Triumph|97|301", -- [6]
-					"1|Emblem of Valor|0|102", -- [7]
-					"1|Sidereal Essence|19|2589", -- [8]
-					"0|Miscellaneous", -- [9]
-					"1|Badge of Justice|17|42", -- [10]
-					"1|Champion's Seal|29|241", -- [11]
-					"1|Epicurean's Award|1|81", -- [12]
-					"0|Player vs. Player", -- [13]
-					"1|Arena Points|0|1900", -- [14]
-					"1|Honor Points|14481|1901", -- [15]
-					"1|Stone Keeper's Shard|144|161", -- [16]
-					"1|Venture Coin|30|201", -- [17]
-					"1|Wintergrasp Mark of Honor|6|126", -- [18]
-				},
+				["lastUpdate"] = 1699916250,
 			},
 			["Default.Venoxis.Alsia"] = {
+				["lastUpdate"] = 1699917783,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -96,10 +118,54 @@ DataStore_CurrenciesDB = {
 					"1|Juwelierssymbol von Dalaran|5|61", -- [18]
 					"1|Siegel des Champions|22|241", -- [19]
 				},
-				["lastUpdate"] = 1699917783,
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1699228474,
+			},
+			["Default.Venoxis.Hakkî"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Defiler's Scourgestone|12|2711", -- [2]
+					"1|Emblem of Conquest|0|221", -- [3]
+					"1|Emblem of Frost|16|341", -- [4]
+					"1|Emblem of Heroism|0|101", -- [5]
+					"1|Emblem of Triumph|97|301", -- [6]
+					"1|Emblem of Valor|0|102", -- [7]
+					"1|Sidereal Essence|19|2589", -- [8]
+					"0|Miscellaneous", -- [9]
+					"1|Badge of Justice|17|42", -- [10]
+					"1|Champion's Seal|29|241", -- [11]
+					"1|Epicurean's Award|1|81", -- [12]
+					"0|Player vs. Player", -- [13]
+					"1|Arena Points|0|1900", -- [14]
+					"1|Honor Points|14481|1901", -- [15]
+					"1|Stone Keeper's Shard|144|161", -- [16]
+					"1|Venture Coin|30|201", -- [17]
+					"1|Wintergrasp Mark of Honor|6|126", -- [18]
+				},
+				["lastUpdate"] = 1701646303,
+			},
+			["Default.Venoxis.Andrés"] = {
+				["lastUpdate"] = 1699913750,
+				["Currencies"] = {
+					"0|Dungeon und Schlachtzug", -- [1]
+					"1|Emblem der Ehre|0|102", -- [2]
+					"1|Emblem der Eroberung|0|221", -- [3]
+					"1|Emblem des Frosts|51|341", -- [4]
+					"1|Emblem des Heldentums|3|101", -- [5]
+					"1|Emblem des Triumphs|87|301", -- [6]
+					"1|Geißelstein des Entweihers|2|2711", -- [7]
+					"1|Sternenessenz|5|2589", -- [8]
+					"0|Spieler gegen Spieler", -- [9]
+					"1|Ehrenabzeichen von Tausendwinter|10|126", -- [10]
+					"1|Ehrepunkte|9655|1901", -- [11]
+					"1|Münze der Venture Co.|124|201", -- [12]
+					"1|Splitter eines Steinbewahrers|671|161", -- [13]
+					"0|Verschiedenes", -- [14]
+					"1|Siegel des Champions|11|241", -- [15]
+				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699827376,
 				["Currencies"] = {
 					"0|Dungeon und Schlachtzug", -- [1]
 					"1|Emblem der Ehre|0|102", -- [2]
@@ -113,52 +179,7 @@ DataStore_CurrenciesDB = {
 					"1|Münze der Venture Co.|34|201", -- [10]
 					"1|Splitter eines Steinbewahrers|16|161", -- [11]
 				},
-			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228474,
-			},
-			["Default.Venoxis.Hâkkî"] = {
-				["Currencies"] = {
-					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|2|2711", -- [2]
-					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|79|341", -- [4]
-					"1|Emblem of Heroism|7|101", -- [5]
-					"1|Emblem of Triumph|0|301", -- [6]
-					"1|Emblem of Valor|0|102", -- [7]
-					"1|Sidereal Essence|8|2589", -- [8]
-					"0|Miscellaneous", -- [9]
-					"1|Champion's Seal|6|241", -- [10]
-					"1|Epicurean's Award|1|81", -- [11]
-					"0|Player vs. Player", -- [12]
-					"1|Honor Points|18566|1901", -- [13]
-					"1|Stone Keeper's Shard|183|161", -- [14]
-					"1|Venture Coin|134|201", -- [15]
-					"1|Wintergrasp Mark of Honor|8|126", -- [16]
-				},
-				["lastUpdate"] = 1701646043,
-			},
-			["Default.Venoxis.Pippop"] = {
-				["lastUpdate"] = 1701646641,
-				["Currencies"] = {
-					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|8|2711", -- [2]
-					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|267|341", -- [4]
-					"1|Emblem of Heroism|17|101", -- [5]
-					"1|Emblem of Triumph|0|301", -- [6]
-					"1|Emblem of Valor|0|102", -- [7]
-					"1|Sidereal Essence|1|2589", -- [8]
-					"0|Miscellaneous", -- [9]
-					"1|Champion's Seal|22|241", -- [10]
-					"1|Epicurean's Award|1|81", -- [11]
-					"0|Player vs. Player", -- [12]
-					"1|Arena Points|0|1900", -- [13]
-					"1|Honor Points|21418|1901", -- [14]
-					"1|Stone Keeper's Shard|122|161", -- [15]
-					"1|Venture Coin|144|201", -- [16]
-					"1|Wintergrasp Mark of Honor|39|126", -- [17]
-				},
+				["lastUpdate"] = 1699827376,
 			},
 		},
 	},

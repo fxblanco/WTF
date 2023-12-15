@@ -53,15 +53,15 @@ BisTooltipDB = {
 		},
 		["Alsia - Venoxis"] = {
 			["class_index"] = 6,
-			["version"] = 6.2,
-			["data_source"] = "wowtbc",
 			["phase_index"] = 3,
+			["data_source"] = "wowtbc",
+			["version"] = 6.2,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["class_index"] = 6,
-			["phase_index"] = 3,
 			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+			["phase_index"] = 3,
 		},
 	},
 }

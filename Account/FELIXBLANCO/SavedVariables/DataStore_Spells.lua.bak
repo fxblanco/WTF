@@ -11,7 +11,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1702505770,
+				["lastUpdate"] = 1702547505,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -54,18 +54,11 @@ DataStore_SpellsDB = {
 					["General"] = {
 						"6603|", -- [1]
 						"818|", -- [2]
-						"20557|Racial Passive", -- [3]
-						"26297|Racial", -- [4]
-						"26290|Racial Passive", -- [5]
-						"54197|Passive", -- [6]
-						"58943|Racial Passive", -- [7]
-						"81|Passive", -- [8]
-						"51306|Grand Master", -- [9]
-						"3274|Journeyman", -- [10]
-						"20222|", -- [11]
-						"20555|Racial Passive", -- [12]
-						"5019|", -- [13]
-						"20558|Racial Passive", -- [14]
+						"54197|Passive", -- [3]
+						"81|Passive", -- [4]
+						"51306|Grand Master", -- [5]
+						"3274|Journeyman", -- [6]
+						"20222|", -- [7]
 					},
 					["Disziplin"] = {
 						"6346|", -- [1]
@@ -437,7 +430,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1702547431,
+				["lastUpdate"] = 1702592874,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -597,7 +590,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1702507124,
+				["lastUpdate"] = 1702596750,
 				["Spells"] = {
 					["Protection"] = {
 						"48827|Rank 5", -- [1]
@@ -655,8 +648,9 @@ DataStore_SpellsDB = {
 						"107|Passive", -- [4]
 						"54197|Passive", -- [5]
 						"81|Passive", -- [6]
-						"822|Racial Passive", -- [7]
-						"3127|Passive", -- [8]
+						"4038|Expert", -- [7]
+						"822|Racial Passive", -- [8]
+						"3127|Passive", -- [9]
 					},
 					["Retribution"] = {
 						"31884|", -- [1]

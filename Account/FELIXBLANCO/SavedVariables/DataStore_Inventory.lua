@@ -127,17 +127,17 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:42987::::::::80:::::::::|h[Darkmoon Card: Greatness]|h|r", -- [14]
 					"|cffa335ee|Hitem:45322::::::::80:::::::::|h[Cloak of the Iron Council]|h|r", -- [15]
 					"|cffa335ee|Hitem:45700::::::::80:::::::::|h[Stoneguard]|h|r", -- [16]
-					"|cff1eff00|Hitem:209786::::::::80:::::::::|h[Secondhand Shield]|h|r", -- [17]
+					"|cffa335ee|Hitem:48040::::::::80:::::::::|h[Pride of the Kor'kron]|h|r", -- [17]
 					"|cff1eff00|Hitem:209810::::::::80:::::::::|h[Secondhand Book of Protection]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 217.0625,
-				["overallAIL"] = 217.0625,
-				["lastUpdate"] = 1702506119,
+				["averageItemLvl"] = 220.6875,
+				["overallAIL"] = 229.25,
+				["lastUpdate"] = 1702596750,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1702547431,
-				["averageItemLvl"] = 258.9375,
-				["overallAIL"] = 266.875,
+				["lastUpdate"] = 1702597347,
+				["averageItemLvl"] = 259.75,
+				["overallAIL"] = 267.6875,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:48649:3818:41380:40129:::::80:::::::::|h[Liadrin's Faceguard of Triumph]|h|r", -- [1]
 					"|cffa335ee|Hitem:50195::40166::::::80:::::::::|h[Noose of Malachite]|h|r", -- [2]
@@ -148,7 +148,7 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:51171:3822:40166:40119:::::80:::::::::|h[Sanctified Lightsworn Legguards]|h|r", -- [7]
 					"|cffa335ee|Hitem:50190:3606:40166:36767:::::80:::::::::|h[Grinning Skull Greatboots]|h|r", -- [8]
 					"|cffa335ee|Hitem:49960:3850:40166::::::80:::::::::|h[Bracers of Dark Reckoning]|h|r", -- [9]
-					"|cffa335ee|Hitem:51172:3860:40166::::::80:::::::::|h[Sanctified Lightsworn Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:51267::::::::80:::::::::|h[Sanctified Lightsworn Handguards]|h|r", -- [10]
 					"|cffa335ee|Hitem:51855::40111::::::80:::::::::|h[Thrice Fanged Signet]|h|r", -- [11]
 					"|cffa335ee|Hitem:52572::40166::::::80:::::::::|h[Ashen Band of Endless Might]|h|r", -- [12]
 					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
@@ -165,13 +165,13 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 258,
+						["averageItemLvl"] = 264,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 257,
 					},
 					["Alsía"] = {
-						["averageItemLvl"] = 217,
+						["averageItemLvl"] = 220,
 					},
 					["Xolem"] = {
 						["averageItemLvl"] = 248,

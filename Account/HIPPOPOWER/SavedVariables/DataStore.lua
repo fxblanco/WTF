@@ -1,14 +1,15 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["Guilds"] = {
@@ -17,37 +18,41 @@ DataStoreDB = {
 			},
 		},
 		["Characters"] = {
-			["Default.Venoxis.Kwasimojo"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Old Rabbitz",
-			},
-			["Default.Venoxis.Andrés"] = {
-				["guildName"] = "Old Rabbitz",
-				["faction"] = "Horde",
-			},
-			["Default.Venoxis.Hakkî"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Old Rabbitz",
-			},
-			["Default.Venoxis.Alsia"] = {
-				["guildName"] = "Old Rabbitz",
-				["faction"] = "Horde",
-			},
-			["Default.Venoxis.Xolem"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Old Rabbitz",
-			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Old Rabbitz",
-			},
 			["Default.Venoxis.Hâkkî"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Lesbenlisa"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
 			["Default.Venoxis.Pippop"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Kwasimojo"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Alsia"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Hakkî"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Andrés"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Xolem"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {

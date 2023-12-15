@@ -8,11 +8,11 @@ TargetNameplateIndicatorDB = {
 		["Pippop - Venoxis"] = "Default",
 		["Hakkî - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
-		["Hâkkî - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
+		["Hâkkî - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -29,15 +29,6 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonRedArrow",
 				},
 			},
-			["targettarget"] = {
-				["enable"] = false,
-				["friendly"] = {
-					["enable"] = false,
-				},
-				["self"] = {
-					["enable"] = false,
-				},
-			},
 			["mouseover"] = {
 				["self"] = {
 					["enable"] = false,
@@ -49,6 +40,15 @@ TargetNameplateIndicatorDB = {
 				},
 				["hostile"] = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonGreenArrow",
+				},
+			},
+			["targettarget"] = {
+				["enable"] = false,
+				["friendly"] = {
+					["enable"] = false,
+				},
+				["self"] = {
+					["enable"] = false,
 				},
 			},
 			["focus"] = {

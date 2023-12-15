@@ -11,11 +11,18 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
+			["fastooc"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
+		},
+		["Alsía - Venoxis"] = {
+			["spec1_profileKey"] = "Alsía - Venoxis",
+			["spec2_profileKey"] = "Alsía - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -36,8 +43,8 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
 			["spec2_profileKey"] = "Kwasimojo - Venoxis",
 			["downclick"] = false,
-			["specswap"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -198,20 +205,109 @@ CliqueDB3 = {
 		["Alsía - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
 						["default"] = true,
 					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
+					["icon"] = 135968,
+					["spell"] = "Hand of Freedom",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
+					["spellSubName"] = "Rank 3",
+					["key"] = "CTRL-BUTTON1",
+					["spell"] = "Hand of Protection",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 135964,
+					["type"] = "spell",
 				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["spell"] = "Hand of Sacrifice",
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135967,
+					["spell"] = "Hand of Salvation",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Divine Intervention",
+				}, -- [5]
+				{
+					["spellSubName"] = "Rank 13",
+					["key"] = "BUTTON2",
+					["spell"] = "Holy Light",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135920,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spellSubName"] = "Rank 5",
+					["key"] = "CTRL-BUTTON2",
+					["spell"] = "Lay on Hands",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135949,
+					["spell"] = "Purify",
+				}, -- [8]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135953,
+					["spell"] = "Cleanse",
+				}, -- [9]
+				{
+					["spellSubName"] = "Rank 9",
+					["key"] = "BUTTON1",
+					["spell"] = "Flash of Light",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [10]
+				{
+					["spellSubName"] = "Rank 7",
+					["key"] = "BUTTON3",
+					["spell"] = "Holy Shock",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135972,
+					["type"] = "spell",
+				}, -- [11]
 			},
 		},
 		["Khalimmortus - Venoxis"] = {
