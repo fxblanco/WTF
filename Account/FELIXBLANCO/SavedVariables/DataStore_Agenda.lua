@@ -11,7 +11,26 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1702547506,
+				["DungeonIDs"] = {
+					["Icecrown Citadel 10 Player (Heroic)|194396285"] = "95867|1702948932|0|1",
+				},
+				["BossKills"] = {
+					["Icecrown Citadel 10 Player (Heroic)|194396285"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|0", -- [12]
+					},
+				},
+				["lastUpdate"] = 1702948932,
 			},
 			["Default.Venoxis.Andrés"] = {
 				["DungeonIDs"] = {
@@ -49,24 +68,57 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1702547196,
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1699228475,
+			["Default.Venoxis.Alsia"] = {
+				["DungeonIDs"] = {
+					["Halls of Reflection Heroic|279679290"] = "16964|1703027836|0|0",
+					["Icecrown Citadel 25 Player|194130654"] = "16964|1703027836|0|1",
+					["Icecrown Citadel 10 Player|194441443"] = "16964|1703027836|0|1",
+				},
+				["BossKills"] = {
+					["Halls of Reflection Heroic|279679290"] = {
+						"Falric|1", -- [1]
+						"Marwyn|1", -- [2]
+						"Escaped from Arthas|1", -- [3]
+					},
+					["Icecrown Citadel 25 Player|194130654"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+					["Icecrown Citadel 10 Player|194441443"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+				},
+				["lastUpdate"] = 1703027836,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["DungeonIDs"] = {
-					["The Forge of Souls Heroic|279048452"] = "16049|1702596751|0|0",
-					["Pit of Saron Heroic|194143423"] = "16049|1702596751|0|0",
-					["Trial of the Crusader 10 Player (Heroic)|194142791"] = "448049|1702596751|0|1",
+					["Trial of the Crusader 10 Player (Heroic)|194142791"] = "188785|1702856015|0|1",
 				},
 				["BossKills"] = {
-					["The Forge of Souls Heroic|279048452"] = {
+					["The Forge of Souls Heroic|279455793"] = {
 						"Bronjahm|1", -- [1]
 						"Devourer of Souls|1", -- [2]
-					},
-					["Pit of Saron Heroic|194143423"] = {
-						"Forgemaster Garfrost|1", -- [1]
-						"Krick|1", -- [2]
-						"Overlrod Tyrannus|1", -- [3]
 					},
 					["Trial of the Crusader 10 Player (Heroic)|194142791"] = {
 						"Northrend Beasts|1", -- [1]
@@ -76,29 +128,10 @@ DataStore_AgendaDB = {
 						"Anub'arak|1", -- [5]
 					},
 				},
-				["lastUpdate"] = 1702596751,
+				["lastUpdate"] = 1702856015,
 			},
-			["Default.Venoxis.Alsia"] = {
-				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player (Heroic)|194130654"] = "447928|1702596872|0|1",
-				},
-				["BossKills"] = {
-					["Icecrown Citadel 25 Player (Heroic)|194130654"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|1", -- [5]
-						"Rotface|1", -- [6]
-						"Professor Putricide|0", -- [7]
-						"Blood Council|1", -- [8]
-						"Queen Lana'thel|1", -- [9]
-						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"The Lich King|0", -- [12]
-					},
-				},
-				["lastUpdate"] = 1702596872,
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1702856351,
 			},
 		},
 	},

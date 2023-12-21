@@ -11,12 +11,12 @@ CliqueDB3 = {
 		},
 	},
 	["profileKeys"] = {
-		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
 		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["profiles"] = {
-		["Fieserdot - Venoxis"] = {
+		["Endonuclease - Venoxis"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -35,7 +35,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Endonuclease - Venoxis"] = {
+		["Fieserdot - Venoxis"] = {
 			["bindings"] = {
 				{
 					["type"] = "target",
@@ -57,10 +57,10 @@ CliqueDB3 = {
 		["Exonuklease - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]

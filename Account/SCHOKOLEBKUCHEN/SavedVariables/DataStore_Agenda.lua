@@ -7,10 +7,10 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player (Heroic)|194055827"] = "528465|1702516335|0|1",
+					["Icecrown Citadel 25 Player (Heroic)|194500464"] = "531413|1703118187|0|1",
 				},
 				["BossKills"] = {
-					["Icecrown Citadel 25 Player (Heroic)|194055827"] = {
+					["Icecrown Citadel 25 Player (Heroic)|194500464"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -25,7 +25,7 @@ DataStore_AgendaDB = {
 						"The Lich King|1", -- [12]
 					},
 				},
-				["lastUpdate"] = 1702516335,
+				["lastUpdate"] = 1703118187,
 			},
 		},
 	},

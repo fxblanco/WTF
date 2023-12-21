@@ -16,15 +16,15 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
+		["Equipment"] = {
 		},
 		["ItemSets"] = {
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
@@ -41,22 +41,22 @@ AdiBagsDB = {
 				["Masque"] = false,
 			},
 			["positions"] = {
-				["Bank"] = {
-					["xOffset"] = 1133.301513671875,
-					["yOffset"] = -163.6917724609375,
-				},
 				["Backpack"] = {
-					["xOffset"] = -863.1041259765625,
+					["xOffset"] = -86.951904296875,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -180.0167236328125,
+					["yOffset"] = -207.1865234375,
+				},
+				["Bank"] = {
+					["xOffset"] = 754.735595703125,
+					["yOffset"] = -177.2767333984375,
 				},
 			},
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
+					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
-					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 				},
 			},
 		},

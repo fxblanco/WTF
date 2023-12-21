@@ -8,7 +8,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1702173021,
+				["lastUpdate"] = 1702679517,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]

@@ -104,10 +104,10 @@ GDKPd_DB = {
 		},
 		["Alsía - Venoxis"] = {
 			["point"] = {
-				["y"] = -38.94354629516602,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -227.6607971191406,
+				["y"] = -37.07564163208008,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -319.4714965820313,
 			},
 		},
 		["Khalimmortus - Venoxis"] = {

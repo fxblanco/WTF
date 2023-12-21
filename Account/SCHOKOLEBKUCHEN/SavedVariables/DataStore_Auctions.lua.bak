@@ -6,8 +6,8 @@ DataStore_AuctionsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastVisitDate"] = "2023/12/13 01:32",
 				["lastUpdate"] = 1702427530,
+				["lastVisitDate"] = "2023/12/13 01:32",
 			},
 		},
 	},

@@ -9,28 +9,28 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:45523::41380:40008:::::80:::::::::|h[Garona's Guise]|h|r", -- [1]
-					"|cffa335ee|Hitem:48011::40119::::::80:::::::::|h[Fortitude of the Infernal]|h|r", -- [2]
-					"|cffa335ee|Hitem:48197:3808:40117::::::80:::::::::|h[Runetotem's Shoulderpads of Triumph]|h|r", -- [3]
+					"|cffa335ee|Hitem:48194:3817:41398:40147:::::80:::::::::|h[Runetotem's Headguard of Triumph]|h|r", -- [1]
+					"|cffa335ee|Hitem:47988::40117::::::80:::::::::|h[Collar of Unending Torment]|h|r", -- [2]
+					"|cffa335ee|Hitem:50824:3808:40117::::::80:::::::::|h[Lasherweave Shoulderpads]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:47600:3832:40119:40119:40119::::80:::::::::|h[Knightbane Carapace]|h|r", -- [5]
-					"|cffa335ee|Hitem:45555::40002:40002:40002::::80:::::::::|h[Death-warmed Belt]|h|r", -- [6]
-					"|cffa335ee|Hitem:47420:3327:40119:40119:40119::::80:::::::::|h[Legwraps of the Broken Beast]|h|r", -- [7]
-					"|cffa335ee|Hitem:47992:3606:40117:40117:::::80:::::::::|h[Acidmaw Treads]|h|r", -- [8]
-					"|cffa335ee|Hitem:51370:3757:::::::80:::::::::|h[Wrathful Gladiator's Armwraps of Triumph]|h|r", -- [9]
-					"|cffa335ee|Hitem:41774:3860:40008::::::80:::::::::|h[Relentless Gladiator's Dragonhide Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:47731::::::::80:::::::::|h[Clutch of Fortification]|h|r", -- [11]
-					"|cffa335ee|Hitem:45874::::::::80:::::::::|h[Signet of Winter]|h|r", -- [12]
-					"|cffa335ee|Hitem:46021::::::::80:::::::::|h[Royal Seal of King Llane]|h|r", -- [13]
-					"|cffa335ee|Hitem:49118::::::::80:::::::::|h[Bubbling Brightbrew Charm]|h|r", -- [14]
-					"|cffa335ee|Hitem:47436::::::::80:::::::::|h[Pride of the Demon Lord]|h|r", -- [15]
+					"|cffa335ee|Hitem:51141::::::::80:::::::::|h[Sanctified Lasherweave Raiment]|h|r", -- [5]
+					"|cffa335ee|Hitem:47460::40118:40118:40118::::80:::::::::|h[Belt of the Pitiless Killer]|h|r", -- [6]
+					"|cffa335ee|Hitem:48195:3328:40117:40117:::::80:::::::::|h[Runetotem's Legguards of Triumph]|h|r", -- [7]
+					"|cffa335ee|Hitem:47445:3606:40111:40111:::::80:::::::::|h[Icewalker Treads]|h|r", -- [8]
+					"|cffa335ee|Hitem:47582:3756:40117::::::80:::::::::|h[Bracers of Swift Death]|h|r", -- [9]
+					"|cffa335ee|Hitem:48017:3604:40117:40117:::::80:::::::::|h[Sunreaver Assassin's Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:47730::::::::80:::::::::|h[Dexterous Brightstone Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:47993::40117:40117:::::80:::::::::|h[Gormok's Band]|h|r", -- [12]
+					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
+					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [14]
+					"|cffa335ee|Hitem:48669:3605:40117::::::80:::::::::|h[Cloak of the Triumphant Combatant]|h|r", -- [15]
 					"|cffa335ee|Hitem:47463:3789:49110:40112:::::80:::::::::|h[Twin's Pact]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:45509::::::::80:::::::::|h[Idol of the Corruptor]|h|r",
+					[18] = "|cffa335ee|Hitem:47668::::::::80:::::::::|h[Idol of Mutilation]|h|r",
 					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[Tabard of the Ebon Blade]|h|r",
 				},
-				["averageItemLvl"] = 242.875,
+				["averageItemLvl"] = 250.25,
 				["overallAIL"] = 253.9375,
-				["lastUpdate"] = 1702249725,
+				["lastUpdate"] = 1702679517,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -55,38 +55,38 @@ DataStore_InventoryDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["Inventory"] = {
-					"|cffffffff|Hitem:49986:3878:41380:40141:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:50023::40119::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:48470:3852:40119::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:49986:3878:41380:40141:::::80:::::::::|h[Broken Ram Skull Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50023::40119::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
+					"|cffa335ee|Hitem:48470:3852:40119::::::80:::::::::|h[Hellscream's Pauldrons of Triumph]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:50850:3297:40119:40119:::::80:::::::::|h[]|h|r", -- [5]
-					"|cffffffff|Hitem:50991::40130:40119:40119::::80:::::::::|h[]|h|r", -- [6]
-					"|cffffffff|Hitem:51216:3822:40166:40119:::::80:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:47269:3606:40129::::::80:::::::::|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:47459:3850:40119::::::80:::::::::|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:50849:3860:40166::::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:48027::40119::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:50850:3297:40119:40119:::::80:::::::::|h[Ymirjar Lord's Breastplate]|h|r", -- [5]
+					"|cffa335ee|Hitem:50991::40130:40119:40119::::80:::::::::|h[Verdigris Chain Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:51216:3822:40166:40119:::::80:::::::::|h[Sanctified Ymirjar Lord's Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:47269:3606:40129::::::80:::::::::|h[Dawnbreaker Sabatons]|h|r", -- [8]
+					"|cffa335ee|Hitem:47459:3850:40119::::::80:::::::::|h[Armguards of the Shieldmaiden]|h|r", -- [9]
+					"|cffa335ee|Hitem:50849:3860:40166::::::80:::::::::|h[Ymirjar Lord's Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:48027::40119::::::80:::::::::|h[Band of the Twin Val'kyr]|h|r", -- [11]
 					"|cffa335ee|Hitem:50388::::::::80:::::::::|h[Ashen Band of Greater Courage]|h|r", -- [12]
-					"|cffffffff|Hitem:45931::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [14]
-					"|cffffffff|Hitem:47550:3294:40119::::::80:::::::::|h[]|h|r", -- [15]
-					"|cffffffff|Hitem:47427:3788:40166::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:50065:1071:::::::80:::::::::|h[]|h|r", -- [17]
-					"|cffffffff|Hitem:50444::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [13]
+					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [14]
+					"|cffa335ee|Hitem:47550:3294:40119::::::80:::::::::|h[Cairne's Endurance]|h|r", -- [15]
+					"|cffa335ee|Hitem:47427:3788:40166::::::80:::::::::|h[Blood Fury]|h|r", -- [16]
+					"|cffa335ee|Hitem:50065:1071:::::::80:::::::::|h[Icecrown Glacial Wall]|h|r", -- [17]
+					"|cffa335ee|Hitem:50444::::::::80:::::::::|h[Rowan's Rifle of Silver Bullets]|h|r", -- [18]
 				},
 				["averageItemLvl"] = 256.6875,
 				["overallAIL"] = 259.0625,
-				["lastUpdate"] = 1701691737,
+				["lastUpdate"] = 1702680663,
 			},
 		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 258,
+						["averageItemLvl"] = 259,
 					},
 					["Xolem"] = {
-						["averageItemLvl"] = 245,
+						["averageItemLvl"] = 248,
 					},
 					["Andrés"] = {
 						["averageItemLvl"] = 265,
@@ -94,11 +94,14 @@ DataStore_InventoryDB = {
 					["Bloodwall"] = {
 						["averageItemLvl"] = 256,
 					},
+					["Maturitass"] = {
+						["averageItemLvl"] = 250,
+					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 257,
 					},
-					["Maturitass"] = {
-						["averageItemLvl"] = 251,
+					["Alsía"] = {
+						["averageItemLvl"] = 220,
 					},
 				},
 			},

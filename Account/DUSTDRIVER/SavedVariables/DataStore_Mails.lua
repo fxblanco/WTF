@@ -74,8 +74,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2023/12/09 23:25",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701042136,
-				["lastVisitDate"] = "2023/11/27 00:42",
+				["lastUpdate"] = 1702680068,
+				["lastVisitDate"] = "2023/12/15 23:41",
 			},
 		},
 	},

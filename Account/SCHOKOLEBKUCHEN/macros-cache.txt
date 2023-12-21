@@ -27,6 +27,12 @@ VER 3 0000000000000014 "glove" "134400"
 /cast Blood Fury(Racial)
 /cast Demonic Empowerment
 END
+VER 3 0000000000000019 "immoaura" "134400"
+#showtooltip
+/cast Immolation Aura(Demon)
+/use Global Thermal Sapper Charge
+/use [@player] Saronite Bomb
+END
 VER 3 0000000000000010 "lock" "134400"
 #showtooltip Spell Lock
 /cast [@mouseover, exists, nodead] Spell Lock; [@Target, exists, nodead] Spell Lock

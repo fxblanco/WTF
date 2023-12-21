@@ -4,19 +4,19 @@ CliqueDB3 = {
 	["char"] = {
 		["Maturitass - Venoxis"] = {
 			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-			["downclick"] = false,
 			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["alerthidden"] = true,
+			["spec2_profileKey"] = "Maturitass - Venoxis",
 		},
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["specswap"] = false,
+			["downclick"] = false,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["alerthidden"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -112,22 +112,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136067,
-					["spell"] = "Vergiftung heilen",
-				}, -- [3]
-				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["spellSubName"] = "Rank 12",
@@ -136,26 +120,23 @@ CliqueDB3 = {
 					},
 					["icon"] = 136085,
 					["spell"] = "Regrowth",
+				}, -- [2]
+				{
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136067,
+					["spell"] = "Vergiftung heilen",
 				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136048,
-					["spell"] = "Innervate",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["spellSubName"] = "Rank 7",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136080,
-					["spell"] = "Rebirth",
-				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
@@ -165,6 +146,25 @@ CliqueDB3 = {
 					},
 					["icon"] = 136081,
 					["spell"] = "Rejuvenation",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136048,
+					["spell"] = "Innervate",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["spellSubName"] = "Rank 7",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136080,
+					["spell"] = "Rebirth",
 				}, -- [7]
 				{
 					["type"] = "spell",

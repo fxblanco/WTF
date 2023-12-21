@@ -64,16 +64,19 @@ PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
 	["Alsia"] = 1,
+	["Retardedqt"] = 6,
 	["Spaltkyle"] = 1,
+	["Lichtobjekt"] = 5,
 	["Bánu"] = 1,
 	["Highlightz"] = 2,
 	["Beesportz"] = 2,
 	["Diggii"] = 1,
+	["Mírabel"] = 6,
 	["Fanga"] = 1,
 	["Psychøtin"] = 1,
-	["Bremskyle"] = 6,
-	["Tagirx"] = 1,
 	["Transhorsti"] = 6,
+	["Tagirx"] = 1,
+	["Bremskyle"] = 6,
 	["Velanya"] = 1,
 }
 PallyPower_SavedPresets = {

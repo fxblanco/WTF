@@ -6,9 +6,9 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1702516099,
-				["averageItemLvl"] = 268.5625,
-				["overallAIL"] = 269.6875,
+				["lastUpdate"] = 1703118186,
+				["averageItemLvl"] = 269.375,
+				["overallAIL"] = 270.5,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:51208:3820:41285:40133:::::80:::::::::|h[Sanctified Dark Coven Hood]|h|r", -- [1]
 					"|cffa335ee|Hitem:50724::40133::::::80:::::::::|h[Blood Queen's Crimson Choker]|h|r", -- [2]
@@ -20,26 +20,22 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:51899:3606:40155:40133:::::80:::::::::|h[Icecrown Spire Sandals]|h|r", -- [8]
 					"|cffa335ee|Hitem:47485:2332:40133::::::80:::::::::|h[Bindings of the Ashen Saint]|h|r", -- [9]
 					"|cffa335ee|Hitem:50983:3604:40153:40153:::::80:::::::::|h[Gloves of False Gestures]|h|r", -- [10]
-					"|cffa335ee|Hitem:50170::40133::::::80:::::::::|h[Valanar's Other Signet Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50714::40133::::::80:::::::::|h[Valanar's Other Signet Ring]|h|r", -- [11]
 					"|cffa335ee|Hitem:50398::40155::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [12]
 					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Flare of the Heavens]|h|r", -- [13]
 					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [14]
 					"|cffa335ee|Hitem:50628:3722:40155::::::80:::::::::|h[Frostbinder's Shredded Cape]|h|r", -- [15]
 					"|cffa335ee|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[Dying Light]|h|r", -- [16]
-					nil, -- [17]
-					"|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r", -- [18]
-					"|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r", -- [19]
+					[18] = "|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r",
+					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r",
 				},
 			},
 		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
-					["Exonuklease"] = {
-						["averageItemLvl"] = 268,
-					},
-					["Alsía"] = {
-						["averageItemLvl"] = 217,
+					["Alsia"] = {
+						["averageItemLvl"] = 258,
 					},
 					["Xolem"] = {
 						["averageItemLvl"] = 245,
@@ -50,14 +46,17 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 245,
 					},
-					["Alsia"] = {
-						["averageItemLvl"] = 258,
-					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 257,
+					},
+					["Exonuklease"] = {
+						["averageItemLvl"] = 268,
+					},
+					["Alsía"] = {
+						["averageItemLvl"] = 217,
 					},
 				},
 			},
