@@ -62,19 +62,31 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:51838::40113::::::80:::::::::|h[]|h|r", -- [18]
 				},
 			},
-			["Default.Venoxis.Pjanic"] = {
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1704368155,
+				["averageItemLvl"] = 249.0625,
+				["overallAIL"] = 256.6875,
 				["Inventory"] = {
-					[6] = "|cffffffff|Hitem:3442::::::::20:::::::::|h[]|h|r",
-					[7] = "|cffffffff|Hitem:1768::::::::20:::::::::|h[]|h|r",
-					[15] = "|cffffffff|Hitem:5343::::::::20:::::::::|h[]|h|r",
-					[10] = "|cffffffff|Hitem:5337::::::::20:::::::::|h[]|h|r",
-					[18] = "|cffffffff|Hitem:5326::::::::20:::::::::|h[]|h|r",
-					[9] = "|cffffffff|Hitem:3375::::::::20:::::::::|h[]|h|r",
-					[8] = "|cffffffff|Hitem:1495::::::::20:::::::::|h[]|h|r",
+					"|cffa335ee|Hitem:48333:3820:41401:40155:::::80:::::::::|h[Thrall's Helm of Triumph]|h|r", -- [1]
+					"|cffffffff|Hitem:48030::40113::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffa335ee|Hitem:48330:3810:40113::::::80:::::::::|h[Thrall's Shoulderpads of Triumph]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:50835:3832:40128:40128:::::80:::::::::|h[Frost Witch's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50015::40128:40128:40128::::80:::::::::|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:51193:3721:40128:40128:::::80:::::::::|h[Sanctified Frost Witch's Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:47456:3606:40179:40128:::::80:::::::::|h[Sabatons of Tremoring Earth]|h|r", -- [8]
+					"|cffa335ee|Hitem:47441:2332:40128::::::80:::::::::|h[Wristwraps of Cloudy Omen]|h|r", -- [9]
+					"|cffa335ee|Hitem:51191:3604:40128::::::80:::::::::|h[Sanctified Frost Witch's Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:50386::::::::80:::::::::|h[Ashen Band of Greater Wisdom]|h|r", -- [11]
+					"|cffa335ee|Hitem:47733::::::::80:::::::::|h[Heartmender Circle]|h|r", -- [12]
+					"|cffa335ee|Hitem:42130::::::::80:::::::::|h[Battlemaster's Avidity]|h|r", -- [13]
+					"|cffa335ee|Hitem:40685::::::::80:::::::::|h[The Egg of Mortal Essence]|h|r", -- [14]
+					"|cffffffff|Hitem:47452:3859:40113::::::80:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:48013:3834:40113::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffa335ee|Hitem:47448:1128:40113::::::80:::::::::|h[Bastion of Resolve]|h|r", -- [17]
+					"|cffa335ee|Hitem:47665::::::::80:::::::::|h[Totem of Calming Tides]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
 				},
-				["averageItemLvl"] = 6.8125,
-				["overallAIL"] = 6.8125,
-				["lastUpdate"] = 1703190968,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["lastUpdate"] = 1704711243,
@@ -102,7 +114,7 @@ DataStore_InventoryDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1704713928,
+				["lastUpdate"] = 1704715774,
 				["averageItemLvl"] = 266.25,
 				["overallAIL"] = 270.5625,
 				["Inventory"] = {
@@ -152,31 +164,19 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 266.375,
 				["lastUpdate"] = 1704704380,
 			},
-			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1704368155,
-				["averageItemLvl"] = 249.0625,
-				["overallAIL"] = 256.6875,
+			["Default.Venoxis.Pjanic"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:48333:3820:41401:40155:::::80:::::::::|h[Thrall's Helm of Triumph]|h|r", -- [1]
-					"|cffffffff|Hitem:48030::40113::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffa335ee|Hitem:48330:3810:40113::::::80:::::::::|h[Thrall's Shoulderpads of Triumph]|h|r", -- [3]
-					nil, -- [4]
-					"|cffa335ee|Hitem:50835:3832:40128:40128:::::80:::::::::|h[Frost Witch's Tunic]|h|r", -- [5]
-					"|cffa335ee|Hitem:50015::40128:40128:40128::::80:::::::::|h[Belt of the Blood Nova]|h|r", -- [6]
-					"|cffa335ee|Hitem:51193:3721:40128:40128:::::80:::::::::|h[Sanctified Frost Witch's Legguards]|h|r", -- [7]
-					"|cffa335ee|Hitem:47456:3606:40179:40128:::::80:::::::::|h[Sabatons of Tremoring Earth]|h|r", -- [8]
-					"|cffa335ee|Hitem:47441:2332:40128::::::80:::::::::|h[Wristwraps of Cloudy Omen]|h|r", -- [9]
-					"|cffa335ee|Hitem:51191:3604:40128::::::80:::::::::|h[Sanctified Frost Witch's Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:50386::::::::80:::::::::|h[Ashen Band of Greater Wisdom]|h|r", -- [11]
-					"|cffa335ee|Hitem:47733::::::::80:::::::::|h[Heartmender Circle]|h|r", -- [12]
-					"|cffa335ee|Hitem:42130::::::::80:::::::::|h[Battlemaster's Avidity]|h|r", -- [13]
-					"|cffa335ee|Hitem:40685::::::::80:::::::::|h[The Egg of Mortal Essence]|h|r", -- [14]
-					"|cffffffff|Hitem:47452:3859:40113::::::80:::::::::|h[]|h|r", -- [15]
-					"|cffffffff|Hitem:48013:3834:40113::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffa335ee|Hitem:47448:1128:40113::::::80:::::::::|h[Bastion of Resolve]|h|r", -- [17]
-					"|cffa335ee|Hitem:47665::::::::80:::::::::|h[Totem of Calming Tides]|h|r", -- [18]
-					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
+					[6] = "|cffffffff|Hitem:3442::::::::20:::::::::|h[]|h|r",
+					[7] = "|cffffffff|Hitem:1768::::::::20:::::::::|h[]|h|r",
+					[15] = "|cffffffff|Hitem:5343::::::::20:::::::::|h[]|h|r",
+					[10] = "|cffffffff|Hitem:5337::::::::20:::::::::|h[]|h|r",
+					[8] = "|cffffffff|Hitem:1495::::::::20:::::::::|h[]|h|r",
+					[9] = "|cffffffff|Hitem:3375::::::::20:::::::::|h[]|h|r",
+					[18] = "|cffffffff|Hitem:5326::::::::20:::::::::|h[]|h|r",
 				},
+				["averageItemLvl"] = 6.8125,
+				["overallAIL"] = 6.8125,
+				["lastUpdate"] = 1703190968,
 			},
 		},
 		["Guilds"] = {
@@ -197,20 +197,20 @@ DataStore_InventoryDB = {
 					["Lesbenlisa"] = {
 						["averageItemLvl"] = 252,
 					},
-					["Khalimmortus"] = {
-						["averageItemLvl"] = 240,
+					["Exonuklease"] = {
+						["averageItemLvl"] = 269,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
-					["Andrés"] = {
-						["averageItemLvl"] = 268,
-					},
 					["Maturitass"] = {
 						["averageItemLvl"] = 255,
 					},
-					["Exonuklease"] = {
-						["averageItemLvl"] = 269,
+					["Andrés"] = {
+						["averageItemLvl"] = 268,
+					},
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 240,
 					},
 				},
 			},
