@@ -8,7 +8,6 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1704708056,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|28|2711", -- [2]
@@ -25,11 +24,13 @@ DataStore_CurrenciesDB = {
 					"1|Stone Keeper's Shard|76|161", -- [13]
 					"1|Venture Coin|44|201", -- [14]
 				},
+				["lastUpdate"] = 1704713733,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1704709566,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|7|2711", -- [2]
@@ -45,7 +46,6 @@ DataStore_CurrenciesDB = {
 					"1|Honor Points|1039|1901", -- [12]
 					"1|Stone Keeper's Shard|50|161", -- [13]
 				},
-				["lastUpdate"] = 1704709566,
 			},
 		},
 	},

@@ -98,9 +98,9 @@ SpellActivationOverlayDB = {
 				},
 				[53817] = {
 					[403] = false,
-					[1064] = false,
-					[8004] = false,
 					[421] = false,
+					[8004] = false,
+					[1064] = false,
 					[331] = false,
 					[51514] = false,
 				},
@@ -117,11 +117,11 @@ SpellActivationOverlayDB = {
 				[48107] = {
 					[0] = true,
 				},
-				[74396] = {
+				[400670] = {
 					[0] = true,
 				},
-				[48108] = {
-					[0] = true,
+				[96215] = {
+					[0] = false,
 				},
 				[57761] = {
 					[0] = true,
@@ -129,7 +129,7 @@ SpellActivationOverlayDB = {
 				[5276] = {
 					[0] = false,
 				},
-				[400670] = {
+				[74396] = {
 					[0] = true,
 				},
 				[400573] = {
@@ -142,8 +142,8 @@ SpellActivationOverlayDB = {
 				[54741] = {
 					[0] = true,
 				},
-				[96215] = {
-					[0] = false,
+				[48108] = {
+					[0] = true,
 				},
 			},
 			["glow"] = {
@@ -169,12 +169,12 @@ SpellActivationOverlayDB = {
 					[5143] = true,
 					[1449] = false,
 				},
-				[54741] = {
-					[2120] = true,
-				},
 				[74396] = {
 					[30455] = true,
 					[44572] = true,
+				},
+				[54741] = {
+					[2120] = true,
 				},
 				[400670] = {
 					[400640] = true,
@@ -209,8 +209,8 @@ SpellActivationOverlayDB = {
 				},
 				[413247] = {
 					[596] = true,
-					[2060] = true,
 					[2054] = true,
+					[2060] = true,
 					[2050] = true,
 				},
 			},
@@ -279,16 +279,16 @@ SpellActivationOverlayDB = {
 				[415320] = {
 					[415320] = true,
 				},
-				[53220] = {
-					[19434] = true,
-					[3044] = true,
-					[53209] = true,
-				},
 				[53351] = {
 					[53351] = true,
 				},
 				[1495] = {
 					[1495] = true,
+				},
+				[53220] = {
+					[19434] = true,
+					[3044] = true,
+					[53209] = true,
 				},
 			},
 		},
@@ -326,21 +326,21 @@ SpellActivationOverlayDB = {
 				[2912] = {
 					[2912] = true,
 				},
-				[414800] = {
-					[5185] = true,
+				[64823] = {
+					[2912] = true,
 				},
 				[5176] = {
 					[5176] = true,
 				},
-				[64823] = {
-					[2912] = true,
+				[414800] = {
+					[5185] = true,
 				},
 				[69369] = {
 					[339] = false,
 					[50464] = false,
 					[20484] = false,
-					[5176] = false,
 					[8936] = false,
+					[5176] = false,
 					[5185] = true,
 					[33786] = true,
 					[2637] = false,

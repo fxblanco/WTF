@@ -17,31 +17,31 @@ DataStoreDB = {
 		},
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
 			},
 			["Default.Venoxis.Andrés"] = {
+				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
-				["faction"] = "Horde",
-			},
-			["Default.Venoxis.Pjanic"] = {
-				["faction"] = "Horde",
 			},
 			["Default.Venoxis.Xolem"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Old Rabbitz",
-			},
-			["Default.Venoxis.Alsia"] = {
-				["guildName"] = "Old Rabbitz",
-				["faction"] = "Horde",
-			},
-			["Default.Venoxis.Alsía"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Alsia"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Alsía"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
+			},
+			["Default.Venoxis.Pjanic"] = {
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {

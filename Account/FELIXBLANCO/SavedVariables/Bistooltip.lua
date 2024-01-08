@@ -52,8 +52,8 @@ BisTooltipDB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["class_index"] = 5,
-			["version"] = 6.2,
 			["data_source"] = "wowtbc",
+			["version"] = 6.2,
 			["spec_index"] = 2,
 		},
 		["Alsia - Venoxis"] = {

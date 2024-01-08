@@ -2,34 +2,40 @@
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Venoxis.Lesbenlisa"] = {
-				["lastAuctionsScan"] = 1702597726,
-				["lastVisitDate"] = "2023/12/15 00:48",
-				["lastUpdate"] = 1702597726,
-				["Auctions"] = {
-					"0|45291|1||4560000|4799999|4", -- [1]
-					"0|33568|1||3553|3740|4", -- [2]
-					"0|42780|2||10057|10586|4", -- [3]
-				},
-			},
-			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1699184271,
-				["lastVisitDate"] = "2023/11/05 12:37",
+			["Default.Venoxis.Kwasimojo"] = {
+				["lastUpdate"] = 1702077676,
+				["lastVisitDate"] = "2023/12/09 00:21",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1699658243,
-				["lastVisitDate"] = "2023/11/11 00:17",
+				["lastUpdate"] = 1704454850,
+				["lastVisitDate"] = "2024/01/05 12:40",
+			},
+			["Default.Venoxis.Xolem"] = {
+				["lastAuctionsScan"] = 1703893102,
+				["lastVisitDate"] = "2023/12/30 00:38",
+				["lastUpdate"] = 1703893102,
+			},
+			["Default.Venoxis.Andrés"] = {
+				["lastAuctionsScan"] = 1704368426,
+				["lastVisitDate"] = "2024/01/04 12:39",
+				["lastUpdate"] = 1704368426,
+			},
+			["Default.Venoxis.Alsía"] = {
+				["lastUpdate"] = 1703893949,
+				["lastVisitDate"] = "2023/12/30 00:52",
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1704711418,
+				["lastVisitDate"] = "2024/01/08 11:56",
 			},
 		},
 	},

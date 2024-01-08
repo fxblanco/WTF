@@ -11,18 +11,17 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["alerthidden"] = true,
-			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Alsia - Venoxis",
-		},
-		["Lesbenlisa - Venoxis"] = {
-			["spec1_profileKey"] = "Lesbenlisa - Venoxis",
-			["fastooc"] = false,
-			["alerthidden"] = true,
 			["downclick"] = false,
-			["spec2_profileKey"] = "Lesbenlisa - Venoxis",
+			["alerthidden"] = true,
+			["specswap"] = false,
+		},
+		["Alsía - Venoxis"] = {
+			["spec1_profileKey"] = "Alsía - Venoxis",
+			["spec2_profileKey"] = "Alsía - Venoxis",
+			["downclick"] = false,
+			["fastooc"] = false,
 			["specswap"] = false,
 		},
 		["Andrés - Venoxis"] = {
@@ -32,13 +31,21 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 		},
-		["Xolem - Venoxis"] = {
-			["spec1_profileKey"] = "Xolem - Venoxis",
-			["specswap"] = false,
+		["Khalimmortus - Venoxis"] = {
+			["spec1_profileKey"] = "Khalimmortus - Venoxis",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Khalimmortus - Venoxis",
+			["specswap"] = false,
+		},
+		["Xolem - Venoxis"] = {
+			["spec1_profileKey"] = "Xolem - Venoxis",
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Xolem - Venoxis",
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -51,14 +58,11 @@ CliqueDB3 = {
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
@@ -100,26 +104,6 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 9",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136043,
-					["spell"] = "Lesser Healing Wave",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["spellSubName"] = "Rank 14",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136052,
-					["spell"] = "Healing Wave",
-				}, -- [4]
-				{
-					["type"] = "spell",
 					["key"] = "BUTTON2",
 					["spellSubName"] = "Rank 7",
 					["sets"] = {
@@ -127,84 +111,116 @@ CliqueDB3 = {
 					},
 					["icon"] = 136042,
 					["spell"] = "Chain Heal",
-				}, -- [5]
+				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136067,
-					["spell"] = "Cure Toxins",
-				}, -- [6]
-			},
-		},
-		["Lesbenlisa - Venoxis"] = {
-			["bindings"] = {
+					["icon"] = 236288,
+					["spell"] = "Cleanse Spirit",
+				}, -- [4]
 				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["spellSubName"] = "Rank 9",
 					["sets"] = {
 						["default"] = true,
 					},
+					["icon"] = 136043,
+					["spell"] = "Lesser Healing Wave",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spellSubName"] = "Rank 4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 252995,
+					["spell"] = "Riptide",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["spellSubName"] = "Rank 14",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136052,
+					["spell"] = "Healing Wave",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136067,
+					["spell"] = "Cure Toxins",
+				}, -- [8]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON3",
+					["spellSubName"] = "Rank 5",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136089,
+					["spell"] = "Earth Shield",
+				}, -- [9]
+			},
+		},
+		["Pjanic - Venoxis"] = {
+			["bindings"] = {
+				{
 					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rank 13",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135920,
-					["spell"] = "Holy Light",
-				}, -- [2]
 				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
+				}, -- [2]
+			},
+		},
+		["Andrés - Venoxis"] = {
+			["bindings"] = {
 				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135966,
-					["spell"] = "Hand of Sacrifice",
-				}, -- [4]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spellSubName"] = "Rank 3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135964,
-					["spell"] = "Hand of Protection",
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spellSubName"] = "Rank 5",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 135928,
-					["spell"] = "Lay on Hands",
-				}, -- [6]
-				{
-					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 9",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135907,
-					["spell"] = "Flash of Light",
-				}, -- [7]
+				}, -- [2]
+			},
+		},
+		["Alsía - Venoxis"] = {
+			["bindings"] = {
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135968,
+					["spell"] = "Hand of Freedom",
+				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -213,7 +229,45 @@ CliqueDB3 = {
 					},
 					["icon"] = 135967,
 					["spell"] = "Hand of Salvation",
-				}, -- [8]
+				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "CTRL-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136106,
+					["spell"] = "Divine Intervention",
+				}, -- [3]
+				{
+					["spellSubName"] = "Rank 3",
+					["key"] = "CTRL-BUTTON1",
+					["spell"] = "Hand of Protection",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135964,
+					["type"] = "spell",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135966,
+					["spell"] = "Hand of Sacrifice",
+				}, -- [5]
+				{
+					["spellSubName"] = "Rank 13",
+					["key"] = "BUTTON2",
+					["spell"] = "Holy Light",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135920,
+					["type"] = "spell",
+				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON4",
@@ -222,26 +276,55 @@ CliqueDB3 = {
 					},
 					["icon"] = 135953,
 					["spell"] = "Cleanse",
+				}, -- [7]
+				{
+					["spellSubName"] = "Rank 9",
+					["key"] = "BUTTON1",
+					["spell"] = "Flash of Light",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135907,
+					["type"] = "spell",
+				}, -- [8]
+				{
+					["spellSubName"] = "Rank 5",
+					["key"] = "CTRL-BUTTON2",
+					["spell"] = "Lay on Hands",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135928,
+					["type"] = "spell",
 				}, -- [9]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON1",
-					["spellSubName"] = "Rank 3",
+					["key"] = "BUTTON5",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135964,
-					["spell"] = "Hand of Protection",
+					["icon"] = 135949,
+					["spell"] = "Purify",
 				}, -- [10]
+				{
+					["spellSubName"] = "Rank 7",
+					["key"] = "BUTTON3",
+					["spell"] = "Holy Shock",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 135972,
+					["type"] = "spell",
+				}, -- [11]
 			},
 		},
-		["Pippop - Venoxis"] = {
+		["Khalimmortus - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -252,6 +335,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 237512,
+					["spell"] = "Unholy Frenzy",
+				}, -- [3]
 			},
 		},
 		["Alsia - Venoxis"] = {
@@ -360,101 +452,6 @@ CliqueDB3 = {
 					["icon"] = 135972,
 					["spellSubName"] = "Rank 7",
 				}, -- [11]
-			},
-		},
-		["Hakkî - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Andrés - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Pjanic - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Khalimmortus - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
-		["Hâkkî - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
 			},
 		},
 		["Kwasimojo - Venoxis"] = {

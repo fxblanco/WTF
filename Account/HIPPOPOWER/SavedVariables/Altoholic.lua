@@ -2,18 +2,17 @@
 AltoholicDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Hakkî - Venoxis"] = "Hakkî - Venoxis",
-		["Pippop - Venoxis"] = "Pippop - Venoxis",
-		["Hâkkî - Venoxis"] = "Hâkkî - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["options"] = {
-			["UI.Mail.LastExpiryWarning"] = 1702597488,
+			["UI.Tabs.Summary.CurrentMode"] = 4,
+			["UI.Mail.LastExpiryWarning"] = 1702116699,
 		},
 	},
 }

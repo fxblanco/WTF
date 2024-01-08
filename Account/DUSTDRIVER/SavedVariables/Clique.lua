@@ -2,21 +2,21 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Maturitass - Venoxis"] = {
-			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["specswap"] = false,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["alerthidden"] = true,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-		},
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
-			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["fastooc"] = false,
 			["alerthidden"] = true,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
+		},
+		["Maturitass - Venoxis"] = {
+			["spec1_profileKey"] = "Maturitass - Venoxis",
+			["fastooc"] = false,
+			["alerthidden"] = true,
+			["downclick"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Maturitass - Venoxis",
 		},
 	},
 	["profileKeys"] = {
@@ -29,10 +29,10 @@ CliqueDB3 = {
 		["Maturitas - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -48,10 +48,10 @@ CliqueDB3 = {
 		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -85,10 +85,10 @@ CliqueDB3 = {
 		["Recombinase - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -104,30 +104,13 @@ CliqueDB3 = {
 		["Maturitass - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "ALT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spellSubName"] = "Rank 12",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136085,
-					["spell"] = "Regrowth",
-				}, -- [2]
-				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [3]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
@@ -136,17 +119,44 @@ CliqueDB3 = {
 					},
 					["icon"] = 136067,
 					["spell"] = "Vergiftung heilen",
+				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["spell"] = "Regrowth",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136085,
+					["spellSubName"] = "Rank 12",
+				}, -- [3]
+				{
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
 				}, -- [4]
 				{
 					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["spell"] = "Rebirth",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136080,
+					["spellSubName"] = "Rank 7",
+				}, -- [5]
+				{
+					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 15",
+					["spell"] = "Rejuvenation",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136081,
-					["spell"] = "Rejuvenation",
-				}, -- [5]
+					["spellSubName"] = "Rank 15",
+				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -155,16 +165,6 @@ CliqueDB3 = {
 					},
 					["icon"] = 136048,
 					["spell"] = "Innervate",
-				}, -- [6]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["spellSubName"] = "Rank 7",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136080,
-					["spell"] = "Rebirth",
 				}, -- [7]
 				{
 					["type"] = "spell",

@@ -15,77 +15,10 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1704497059,
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1704703521,
-			},
-			["Default.Venoxis.Pjanic"] = {
-				["lastUpdate"] = 1703190968,
+				["lastUpdate"] = 1704715742,
 			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1704368085,
-			},
-			["Default.Venoxis.Alsia"] = {
-				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player|194988001"] = "147109|1704712089|0|1",
-					["Icecrown Citadel 10 Player (Heroic)|195102898"] = "147109|1704712089|0|1",
-				},
-				["BossKills"] = {
-					["Icecrown Citadel 25 Player|194988001"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|1", -- [5]
-						"Rotface|1", -- [6]
-						"Professor Putricide|1", -- [7]
-						"Blood Council|1", -- [8]
-						"Queen Lana'thel|1", -- [9]
-						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"The Lich King|1", -- [12]
-					},
-					["Icecrown Citadel 10 Player (Heroic)|195102898"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|1", -- [5]
-						"Rotface|1", -- [6]
-						"Professor Putricide|1", -- [7]
-						"Blood Council|1", -- [8]
-						"Queen Lana'thel|1", -- [9]
-						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"The Lich King|0", -- [12]
-					},
-				},
-				["lastUpdate"] = 1704712089,
-			},
-			["Default.Venoxis.Alsía"] = {
-				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player|195023576"] = "154818|1704704381|0|1",
-					["The Forge of Souls Heroic|281720258"] = "68418|1704704381|0|0",
-				},
-				["BossKills"] = {
-					["Icecrown Citadel 25 Player|195023576"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|1", -- [5]
-						"Rotface|1", -- [6]
-						"Professor Putricide|1", -- [7]
-						"Blood Council|1", -- [8]
-						"Queen Lana'thel|1", -- [9]
-						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"The Lich King|1", -- [12]
-					},
-					["The Forge of Souls Heroic|281720258"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
-					},
-				},
-				["lastUpdate"] = 1704704381,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["DungeonIDs"] = {
@@ -144,6 +77,73 @@ DataStore_AgendaDB = {
 					},
 				},
 				["lastUpdate"] = 1704709748,
+			},
+			["Default.Venoxis.Alsia"] = {
+				["DungeonIDs"] = {
+					["Icecrown Citadel 10 Player (Heroic)|195102898"] = "143425|1704715774|0|1",
+					["Icecrown Citadel 25 Player|194988001"] = "143425|1704715774|0|1",
+				},
+				["BossKills"] = {
+					["Icecrown Citadel 10 Player (Heroic)|195102898"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|0", -- [12]
+					},
+					["Icecrown Citadel 25 Player|194988001"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+				},
+				["lastUpdate"] = 1704715774,
+			},
+			["Default.Venoxis.Alsía"] = {
+				["DungeonIDs"] = {
+					["Icecrown Citadel 25 Player|195023576"] = "154818|1704704381|0|1",
+					["The Forge of Souls Heroic|281720258"] = "68418|1704704381|0|0",
+				},
+				["BossKills"] = {
+					["Icecrown Citadel 25 Player|195023576"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+					["The Forge of Souls Heroic|281720258"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
+					},
+				},
+				["lastUpdate"] = 1704704381,
+			},
+			["Default.Venoxis.Pjanic"] = {
+				["lastUpdate"] = 1703190968,
 			},
 		},
 	},

@@ -24,18 +24,18 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2023/12/30 00:38",
 				["lastUpdate"] = 1703893102,
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1704711418,
-				["lastVisitDate"] = "2024/01/08 11:56",
+			["Default.Venoxis.Andrés"] = {
+				["lastAuctionsScan"] = 1704368426,
+				["lastVisitDate"] = "2024/01/04 12:39",
+				["lastUpdate"] = 1704368426,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["lastUpdate"] = 1703893949,
 				["lastVisitDate"] = "2023/12/30 00:52",
 			},
-			["Default.Venoxis.Andrés"] = {
-				["lastAuctionsScan"] = 1704368426,
-				["lastVisitDate"] = "2024/01/04 12:39",
-				["lastUpdate"] = 1704368426,
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1704711418,
+				["lastVisitDate"] = "2024/01/08 11:56",
 			},
 		},
 	},

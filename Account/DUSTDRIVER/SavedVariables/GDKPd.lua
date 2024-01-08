@@ -1,49 +1,14 @@
 
 GDKPd_DB = {
+	["profileKeys"] = {
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
-	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-	},
 	["profiles"] = {
-		["Maturitass - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 177.6548461914063,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -258.3778686523438,
-			},
-			["auctionTimer"] = 15,
-			["point"] = {
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 286.0494384765625,
-			},
-			["startBid"] = 2500,
-			["auctionTimerRefresh"] = 12,
-			["balancepoint"] = {
-				["y"] = -207.146484375,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -244.8694610595703,
-			},
-			["statuspoint"] = {
-				["y"] = 152.6455535888672,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -34.81410980224609,
-			},
-			["increment"] = 500,
-		},
 		["Bloodwall - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 168.8369140625,
-				["x"] = -57.10249328613281,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
 			["playerbalancepoint"] = {
 				["y"] = 230.3377990722656,
 				["x"] = 460.6379089355469,
@@ -55,12 +20,47 @@ GDKPd_DB = {
 				["x"] = 385.0993957519531,
 			},
 			["startBid"] = 5000,
-			["increment"] = 200,
 			["statuspoint"] = {
 				["y"] = -107.518798828125,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -291.8332824707031,
+			},
+			["balancepoint"] = {
+				["y"] = 168.8369140625,
+				["x"] = -57.10249328613281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["increment"] = 200,
+		},
+		["Maturitass - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -207.146484375,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -244.8694610595703,
+			},
+			["auctionTimer"] = 15,
+			["playerbalancepoint"] = {
+				["y"] = 177.6548461914063,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -258.3778686523438,
+			},
+			["point"] = {
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 286.0494384765625,
+			},
+			["auctionTimerRefresh"] = 12,
+			["startBid"] = 2500,
+			["increment"] = 500,
+			["statuspoint"] = {
+				["y"] = 152.6455535888672,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -34.81410980224609,
 			},
 		},
 	},
@@ -82,15 +82,15 @@ GDKPd_PotData = {
 		["Eletaer"] = 0,
 		["Hópéful"] = 0,
 		["Vanec"] = 0,
-		["Lûna"] = 0,
+		["Hockasa"] = 0,
 		["Keinepepps"] = 0,
-		["Dodopaladin"] = 0,
+		["Genodk"] = 0,
 		["Dhelira"] = 0,
 		["Andrés"] = 0,
 		["Kroner"] = 0,
 		["Maturitass"] = 17460,
-		["Genodk"] = 0,
-		["Hockasa"] = 0,
+		["Dodopaladin"] = 0,
+		["Lûna"] = 0,
 		["Domedonmaya"] = -19540,
 	},
 	["curPotHistory"] = {

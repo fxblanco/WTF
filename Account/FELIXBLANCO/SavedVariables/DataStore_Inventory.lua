@@ -38,7 +38,7 @@ DataStore_InventoryDB = {
 				["lastUpdate"] = 1704497058,
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1704703358,
+				["lastUpdate"] = 1704715622,
 				["averageItemLvl"] = 268.625,
 				["overallAIL"] = 269,
 				["Inventory"] = {
@@ -47,34 +47,20 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:51155:3810:40152::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
 					"|cffffffff|Hitem:50629:3832:40113:40133:40152::::80:::::::::|h[]|h|r", -- [5]
-					"|cffa335ee|Hitem:50997::40133:40113:40113::::80:::::::::|h[Circle of Ossus]|h|r", -- [6]
+					"|cffffffff|Hitem:50997::40133:40113:40113::::80:::::::::|h[]|h|r", -- [6]
 					"|cffffffff|Hitem:51157:3719:40133:40152:::::80:::::::::|h[]|h|r", -- [7]
 					"|cffffffff|Hitem:47454:3606:40133:40113:::::80:::::::::|h[]|h|r", -- [8]
 					"|cffffffff|Hitem:47485:2332:40133::::::80:::::::::|h[]|h|r", -- [9]
 					"|cffffffff|Hitem:51159:3604:40113::::::80:::::::::|h[]|h|r", -- [10]
 					"|cffa335ee|Hitem:50398::40152::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [11]
-					"|cffa335ee|Hitem:50614::40133::::::80:::::::::|h[Loop of the Endless Labyrinth]|h|r", -- [12]
+					"|cffffffff|Hitem:50614::40133::::::80:::::::::|h[]|h|r", -- [12]
 					"|cffffffff|Hitem:47477::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Flare of the Heavens]|h|r", -- [14]
+					"|cffffffff|Hitem:45518::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffa335ee|Hitem:50628:3859:40152::::::80:::::::::|h[Frostbinder's Shredded Cape]|h|r", -- [15]
 					"|cffffffff|Hitem:50648:3854:40113:40152:40152::::80:::::::::|h[]|h|r", -- [16]
 					nil, -- [17]
 					"|cffffffff|Hitem:51838::40113::::::80:::::::::|h[]|h|r", -- [18]
 				},
-			},
-			["Default.Venoxis.Pjanic"] = {
-				["Inventory"] = {
-					[6] = "|cffffffff|Hitem:3442::::::::20:::::::::|h[]|h|r",
-					[7] = "|cffffffff|Hitem:1768::::::::20:::::::::|h[]|h|r",
-					[15] = "|cffffffff|Hitem:5343::::::::20:::::::::|h[]|h|r",
-					[10] = "|cffffffff|Hitem:5337::::::::20:::::::::|h[]|h|r",
-					[18] = "|cffffffff|Hitem:5326::::::::20:::::::::|h[]|h|r",
-					[9] = "|cffffffff|Hitem:3375::::::::20:::::::::|h[]|h|r",
-					[8] = "|cffffffff|Hitem:1495::::::::20:::::::::|h[]|h|r",
-				},
-				["averageItemLvl"] = 6.8125,
-				["overallAIL"] = 6.8125,
-				["lastUpdate"] = 1703190968,
 			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1704368155,
@@ -102,10 +88,35 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
 				},
 			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1704711243,
+				["averageItemLvl"] = 240.6875,
+				["overallAIL"] = 241.125,
+				["Inventory"] = {
+					"|cffa335ee|Hitem:40827::::::::80:::::::::|h[Furious Gladiator's Dreadplate Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:51934::::::::80:::::::::|h[Marrowgar's Scratching Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51130::::::::80:::::::::|h[Sanctified Scourgelord Pauldrons]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:40787::::::::80:::::::::|h[Furious Gladiator's Dreadplate Chestpiece]|h|r", -- [5]
+					"|cff0070dd|Hitem:38533::::::::80:::::::::|h[Girdle of Forceful Annihilation]|h|r", -- [6]
+					"|cffa335ee|Hitem:51817::::::::80:::::::::|h[Legplates of Aetheric Strife]|h|r", -- [7]
+					"|cffa335ee|Hitem:50207:3606:::::::80:::::::::|h[Black Spire Sabatons]|h|r", -- [8]
+					"|cffa335ee|Hitem:40889::::::::80:::::::::|h[Furious Gladiator's Bracers of Triumph]|h|r", -- [9]
+					"|cffa335ee|Hitem:47990::::::::80:::::::::|h[Gauntlets of Mounting Anger]|h|r", -- [10]
+					"|cffa335ee|Hitem:50388::::::::80:::::::::|h[Ashen Band of Greater Courage]|h|r", -- [11]
+					"|cffa335ee|Hitem:45874::::::::80:::::::::|h[Signet of Winter]|h|r", -- [12]
+					"|cffa335ee|Hitem:48021::::::::80:::::::::|h[Eitrigg's Oath]|h|r", -- [13]
+					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [14]
+					"|cffa335ee|Hitem:45322::::::::80:::::::::|h[Cloak of the Iron Council]|h|r", -- [15]
+					"|cffa335ee|Hitem:47520:3847:39996:39996:::::80:::::::::|h[Grievance]|h|r", -- [16]
+					nil, -- [17]
+					"|cffa335ee|Hitem:47672::::::::80:::::::::|h[Sigil of Insolence]|h|r", -- [18]
+				},
+			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1704711734,
-				["averageItemLvl"] = 269.375,
-				["overallAIL"] = 271.375,
+				["lastUpdate"] = 1704715774,
+				["averageItemLvl"] = 266.25,
+				["overallAIL"] = 270.5625,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:48649:3878:41398:40111:::::80:::::::::|h[Liadrin's Faceguard of Triumph]|h|r", -- [1]
 					"|cffa335ee|Hitem:50682::40129::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
@@ -153,37 +164,26 @@ DataStore_InventoryDB = {
 				["overallAIL"] = 266.375,
 				["lastUpdate"] = 1704704380,
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1704711243,
-				["averageItemLvl"] = 240.6875,
-				["overallAIL"] = 241.125,
+			["Default.Venoxis.Pjanic"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:40827::::::::80:::::::::|h[Furious Gladiator's Dreadplate Helm]|h|r", -- [1]
-					"|cffa335ee|Hitem:51934::::::::80:::::::::|h[Marrowgar's Scratching Choker]|h|r", -- [2]
-					"|cffa335ee|Hitem:51130::::::::80:::::::::|h[Sanctified Scourgelord Pauldrons]|h|r", -- [3]
-					nil, -- [4]
-					"|cffa335ee|Hitem:40787::::::::80:::::::::|h[Furious Gladiator's Dreadplate Chestpiece]|h|r", -- [5]
-					"|cff0070dd|Hitem:38533::::::::80:::::::::|h[Girdle of Forceful Annihilation]|h|r", -- [6]
-					"|cffa335ee|Hitem:51817::::::::80:::::::::|h[Legplates of Aetheric Strife]|h|r", -- [7]
-					"|cffa335ee|Hitem:50207:3606:::::::80:::::::::|h[Black Spire Sabatons]|h|r", -- [8]
-					"|cffa335ee|Hitem:40889::::::::80:::::::::|h[Furious Gladiator's Bracers of Triumph]|h|r", -- [9]
-					"|cffa335ee|Hitem:47990::::::::80:::::::::|h[Gauntlets of Mounting Anger]|h|r", -- [10]
-					"|cffa335ee|Hitem:50388::::::::80:::::::::|h[Ashen Band of Greater Courage]|h|r", -- [11]
-					"|cffa335ee|Hitem:45874::::::::80:::::::::|h[Signet of Winter]|h|r", -- [12]
-					"|cffa335ee|Hitem:48021::::::::80:::::::::|h[Eitrigg's Oath]|h|r", -- [13]
-					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [14]
-					"|cffa335ee|Hitem:45322::::::::80:::::::::|h[Cloak of the Iron Council]|h|r", -- [15]
-					"|cffa335ee|Hitem:47520:3847:39996:39996:::::80:::::::::|h[Grievance]|h|r", -- [16]
-					nil, -- [17]
-					"|cffa335ee|Hitem:47672::::::::80:::::::::|h[Sigil of Insolence]|h|r", -- [18]
+					[6] = "|cffffffff|Hitem:3442::::::::20:::::::::|h[]|h|r",
+					[7] = "|cffffffff|Hitem:1768::::::::20:::::::::|h[]|h|r",
+					[15] = "|cffffffff|Hitem:5343::::::::20:::::::::|h[]|h|r",
+					[10] = "|cffffffff|Hitem:5337::::::::20:::::::::|h[]|h|r",
+					[8] = "|cffffffff|Hitem:1495::::::::20:::::::::|h[]|h|r",
+					[9] = "|cffffffff|Hitem:3375::::::::20:::::::::|h[]|h|r",
+					[18] = "|cffffffff|Hitem:5326::::::::20:::::::::|h[]|h|r",
 				},
+				["averageItemLvl"] = 6.8125,
+				["overallAIL"] = 6.8125,
+				["lastUpdate"] = 1703190968,
 			},
 		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 269,
+						["averageItemLvl"] = 266,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 258,
@@ -197,20 +197,20 @@ DataStore_InventoryDB = {
 					["Lesbenlisa"] = {
 						["averageItemLvl"] = 252,
 					},
-					["Khalimmortus"] = {
-						["averageItemLvl"] = 240,
+					["Exonuklease"] = {
+						["averageItemLvl"] = 269,
 					},
 					["Bloodwall"] = {
-						["averageItemLvl"] = 257,
-					},
-					["Andrés"] = {
-						["averageItemLvl"] = 268,
+						["averageItemLvl"] = 258,
 					},
 					["Maturitass"] = {
 						["averageItemLvl"] = 255,
 					},
-					["Exonuklease"] = {
-						["averageItemLvl"] = 269,
+					["Andrés"] = {
+						["averageItemLvl"] = 268,
+					},
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 240,
 					},
 				},
 			},
