@@ -35,6 +35,18 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
+	["Habíb"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
+	},
 	["Spaltkyle"] = {
 		3, -- [1]
 		3, -- [2]
@@ -63,20 +75,24 @@ PallyPower_Assignments = {
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
-	["Alsia"] = 1,
-	["Retardedqt"] = 6,
-	["Spaltkyle"] = 1,
-	["Lichtobjekt"] = 5,
+	["Bosanyr"] = 6,
+	["Transhorsti"] = 6,
 	["Bánu"] = 1,
+	["Diggii"] = 1,
+	["Tagirx"] = 1,
+	["Retardedqt"] = 6,
+	["Fanga"] = 1,
+	["Habíb"] = 5,
+	["Kolberg"] = 0,
 	["Highlightz"] = 2,
 	["Beesportz"] = 2,
-	["Diggii"] = 1,
+	["Alsia"] = 1,
 	["Mírabel"] = 6,
-	["Fanga"] = 1,
+	["Lichtobjekt"] = 5,
 	["Psychøtin"] = 1,
-	["Transhorsti"] = 6,
-	["Tagirx"] = 1,
 	["Bremskyle"] = 6,
+	["Spaltkyle"] = 1,
+	["Xarreon"] = 5,
 	["Velanya"] = 1,
 }
 PallyPower_SavedPresets = {

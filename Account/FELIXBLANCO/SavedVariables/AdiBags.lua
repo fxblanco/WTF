@@ -31,6 +31,7 @@ AdiBagsDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
+		["Pjanic - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
@@ -46,17 +47,17 @@ AdiBagsDB = {
 					["yOffset"] = -177.2767333984375,
 				},
 				["Backpack"] = {
-					["xOffset"] = -86.951904296875,
+					["xOffset"] = -1108.535766601563,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -207.1865234375,
+					["yOffset"] = -151.4324951171875,
 				},
 			},
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
-					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
+					["Name"] = "Bag Lag Fix",
 				},
 			},
 		},

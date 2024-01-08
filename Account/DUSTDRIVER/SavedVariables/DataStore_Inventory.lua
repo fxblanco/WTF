@@ -9,28 +9,28 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:48194:3817:41398:40147:::::80:::::::::|h[Runetotem's Headguard of Triumph]|h|r", -- [1]
-					"|cffa335ee|Hitem:47988::40117::::::80:::::::::|h[Collar of Unending Torment]|h|r", -- [2]
-					"|cffa335ee|Hitem:50824:3808:40117::::::80:::::::::|h[Lasherweave Shoulderpads]|h|r", -- [3]
+					"|cffa335ee|Hitem:50713:3878:41380:40119:::::80:::::::::|h[Geistlord's Punishment Sack]|h|r", -- [1]
+					"|cffa335ee|Hitem:48011::40119::::::80:::::::::|h[Fortitude of the Infernal]|h|r", -- [2]
+					"|cffa335ee|Hitem:50824:3852:40119::::::80:::::::::|h[Lasherweave Shoulderpads]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51141::::::::80:::::::::|h[Sanctified Lasherweave Raiment]|h|r", -- [5]
-					"|cffa335ee|Hitem:47460::40118:40118:40118::::80:::::::::|h[Belt of the Pitiless Killer]|h|r", -- [6]
-					"|cffa335ee|Hitem:48195:3328:40117:40117:::::80:::::::::|h[Runetotem's Legguards of Triumph]|h|r", -- [7]
-					"|cffa335ee|Hitem:47445:3606:40111:40111:::::80:::::::::|h[Icewalker Treads]|h|r", -- [8]
-					"|cffa335ee|Hitem:47582:3756:40117::::::80:::::::::|h[Bracers of Swift Death]|h|r", -- [9]
-					"|cffa335ee|Hitem:48017:3604:40117:40117:::::80:::::::::|h[Sunreaver Assassin's Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:47730::::::::80:::::::::|h[Dexterous Brightstone Ring]|h|r", -- [11]
-					"|cffa335ee|Hitem:47993::40117:40117:::::80:::::::::|h[Gormok's Band]|h|r", -- [12]
-					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
-					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [14]
-					"|cffa335ee|Hitem:48669:3605:40117::::::80:::::::::|h[Cloak of the Triumphant Combatant]|h|r", -- [15]
+					"|cffa335ee|Hitem:51141:3832:40119:40119:::::80:::::::::|h[Sanctified Lasherweave Raiment]|h|r", -- [5]
+					"|cffa335ee|Hitem:47460::40119:40119:40119::::80:::::::::|h[Belt of the Pitiless Killer]|h|r", -- [6]
+					"|cffa335ee|Hitem:47420:3327:40119:40119:40119::::80:::::::::|h[Legwraps of the Broken Beast]|h|r", -- [7]
+					"|cffa335ee|Hitem:47445:3606:40119:40119:::::80:::::::::|h[Icewalker Treads]|h|r", -- [8]
+					"|cffa335ee|Hitem:51370:3757:::::::80:::::::::|h[Wrathful Gladiator's Armwraps of Triumph]|h|r", -- [9]
+					"|cffa335ee|Hitem:41774:3860:40008::::::80:::::::::|h[Relentless Gladiator's Dragonhide Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:47731::::::::80:::::::::|h[Clutch of Fortification]|h|r", -- [11]
+					"|cffa335ee|Hitem:50403::::::::80:::::::::|h[Ashen Band of Unmatched Courage]|h|r", -- [12]
+					"|cffa335ee|Hitem:46021::::::::80:::::::::|h[Royal Seal of King Llane]|h|r", -- [13]
+					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [14]
+					"|cffa335ee|Hitem:47436::40119::::::80:::::::::|h[Pride of the Demon Lord]|h|r", -- [15]
 					"|cffa335ee|Hitem:47463:3789:49110:40112:::::80:::::::::|h[Twin's Pact]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:47668::::::::80:::::::::|h[Idol of Mutilation]|h|r",
+					[18] = "|cffa335ee|Hitem:45509::::::::80:::::::::|h[Idol of the Corruptor]|h|r",
 					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[Tabard of the Ebon Blade]|h|r",
 				},
-				["averageItemLvl"] = 250.25,
-				["overallAIL"] = 253.9375,
-				["lastUpdate"] = 1702679517,
+				["averageItemLvl"] = 255.1875,
+				["overallAIL"] = 258.9375,
+				["lastUpdate"] = 1704708006,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -65,43 +65,49 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:47269:3606:40129::::::80:::::::::|h[Dawnbreaker Sabatons]|h|r", -- [8]
 					"|cffa335ee|Hitem:47459:3850:40119::::::80:::::::::|h[Armguards of the Shieldmaiden]|h|r", -- [9]
 					"|cffa335ee|Hitem:50849:3860:40166::::::80:::::::::|h[Ymirjar Lord's Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:48027::40119::::::80:::::::::|h[Band of the Twin Val'kyr]|h|r", -- [11]
+					"|cffa335ee|Hitem:47476::40119::::::80:::::::::|h[Band of the Traitor King]|h|r", -- [11]
 					"|cffa335ee|Hitem:50388::::::::80:::::::::|h[Ashen Band of Greater Courage]|h|r", -- [12]
-					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [13]
+					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [13]
 					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [14]
 					"|cffa335ee|Hitem:47550:3294:40119::::::80:::::::::|h[Cairne's Endurance]|h|r", -- [15]
-					"|cffa335ee|Hitem:47427:3788:40166::::::80:::::::::|h[Blood Fury]|h|r", -- [16]
+					"|cffa335ee|Hitem:51010:2673:::::::80:::::::::|h[The Facelifter]|h|r", -- [16]
 					"|cffa335ee|Hitem:50065:1071:::::::80:::::::::|h[Icecrown Glacial Wall]|h|r", -- [17]
 					"|cffa335ee|Hitem:50444::::::::80:::::::::|h[Rowan's Rifle of Silver Bullets]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 256.6875,
-				["overallAIL"] = 259.0625,
-				["lastUpdate"] = 1702680663,
+				["averageItemLvl"] = 258.6875,
+				["overallAIL"] = 261.375,
+				["lastUpdate"] = 1704709571,
 			},
 		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
-					["Alsia"] = {
-						["averageItemLvl"] = 259,
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 239,
 					},
-					["Xolem"] = {
-						["averageItemLvl"] = 248,
-					},
-					["Andrés"] = {
-						["averageItemLvl"] = 265,
-					},
-					["Bloodwall"] = {
-						["averageItemLvl"] = 256,
-					},
-					["Maturitass"] = {
-						["averageItemLvl"] = 250,
+					["Khemval"] = {
+						["averageItemLvl"] = 242,
 					},
 					["Kwasimojo"] = {
-						["averageItemLvl"] = 257,
+						["averageItemLvl"] = 258,
 					},
 					["Alsía"] = {
-						["averageItemLvl"] = 220,
+						["averageItemLvl"] = 265,
+					},
+					["Xolem"] = {
+						["averageItemLvl"] = 249,
+					},
+					["Andrés"] = {
+						["averageItemLvl"] = 268,
+					},
+					["Maturitass"] = {
+						["averageItemLvl"] = 255,
+					},
+					["Alsia"] = {
+						["averageItemLvl"] = 269,
+					},
+					["Bloodwall"] = {
+						["averageItemLvl"] = 257,
 					},
 				},
 			},

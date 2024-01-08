@@ -8,21 +8,21 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1702679517,
+				["lastUpdate"] = 1704708056,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|20|2711", -- [2]
+					"1|Defiler's Scourgestone|28|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|85|341", -- [4]
+					"1|Emblem of Frost|56|341", -- [4]
 					"1|Emblem of Heroism|6|101", -- [5]
-					"1|Emblem of Triumph|24|301", -- [6]
+					"1|Emblem of Triumph|39|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
 					"1|Sidereal Essence|3|2589", -- [8]
 					"0|Miscellaneous", -- [9]
 					"1|Champion's Seal|6|241", -- [10]
 					"0|Player vs. Player", -- [11]
-					"1|Honor Points|15664|1901", -- [12]
-					"1|Stone Keeper's Shard|44|161", -- [13]
+					"1|Honor Points|6144|1901", -- [12]
+					"1|Stone Keeper's Shard|76|161", -- [13]
 					"1|Venture Coin|44|201", -- [14]
 				},
 			},
@@ -34,18 +34,18 @@ DataStore_CurrenciesDB = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|7|2711", -- [2]
 					"1|Emblem of Conquest|23|221", -- [3]
-					"1|Emblem of Frost|181|341", -- [4]
+					"1|Emblem of Frost|71|341", -- [4]
 					"1|Emblem of Heroism|6|101", -- [5]
-					"1|Emblem of Triumph|79|301", -- [6]
+					"1|Emblem of Triumph|104|301", -- [6]
 					"1|Sidereal Essence|3|2589", -- [7]
 					"0|Miscellaneous", -- [8]
 					"1|Champion's Seal|15|241", -- [9]
 					"1|Epicurean's Award|0|81", -- [10]
 					"0|Player vs. Player", -- [11]
-					"1|Honor Points|5039|1901", -- [12]
+					"1|Honor Points|1039|1901", -- [12]
 					"1|Stone Keeper's Shard|50|161", -- [13]
 				},
-				["lastUpdate"] = 1702680663,
+				["lastUpdate"] = 1704709566,
 			},
 		},
 	},

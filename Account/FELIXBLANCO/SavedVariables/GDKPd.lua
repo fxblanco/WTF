@@ -103,14 +103,38 @@ GDKPd_DB = {
 			["increment"] = 10,
 		},
 		["Alsía - Venoxis"] = {
-			["point"] = {
-				["y"] = -37.07564163208008,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -319.4714965820313,
+			["playerbalancepoint"] = {
+				["y"] = 55.43391799926758,
+				["x"] = 364.0752868652344,
 			},
+			["point"] = {
+				["y"] = -5.000015735626221,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 573.773681640625,
+			},
+			["startBid"] = 5000,
+			["statuspoint"] = {
+				["y"] = 86.94361114501953,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -64.8211669921875,
+			},
+			["balancepoint"] = {
+				["y"] = -337.3019714355469,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 421.1328430175781,
+			},
+			["increment"] = 500,
 		},
 		["Khalimmortus - Venoxis"] = {
+			["balancepoint"] = {
+				["y"] = -69.01875305175781,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -357.347900390625,
+			},
 			["playerbalancepoint"] = {
 				["y"] = 198.3747711181641,
 				["relative"] = "BOTTOMRIGHT",
@@ -122,6 +146,14 @@ GDKPd_DB = {
 				["relative"] = "LEFT",
 				["point"] = "LEFT",
 				["x"] = 79.50005340576172,
+			},
+			["startBid"] = 2000,
+			["increment"] = 400,
+			["statuspoint"] = {
+				["y"] = -295.2457580566406,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -354.6324768066406,
 			},
 		},
 		["Alsia - Venoxis"] = {

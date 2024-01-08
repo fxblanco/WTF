@@ -4,6 +4,7 @@ DataStore_TalentsDB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -11,7 +12,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1702948932,
+				["lastUpdate"] = 1704497058,
 				["Class"] = "PRIEST",
 				["PointsSpent"] = "57,14,0",
 				["TalentTrees"] = {
@@ -58,9 +59,9 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1702544090,
+				["lastUpdate"] = 1704703358,
 				["Class"] = "MAGE",
-				["PointsSpent"] = "18,53,0",
+				["PointsSpent"] = "20,51,0",
 				["TalentTrees"] = {
 					["Fire"] = {
 						2, -- [1]
@@ -68,7 +69,7 @@ DataStore_TalentsDB = {
 						3, -- [3]
 						5, -- [4]
 						nil, -- [5]
-						2, -- [6]
+						nil, -- [6]
 						1, -- [7]
 						nil, -- [8]
 						3, -- [9]
@@ -95,69 +96,91 @@ DataStore_TalentsDB = {
 						[30] = 3,
 						[6] = 3,
 						[29] = 1,
-						[25] = 1,
+						[25] = 3,
+					},
+				},
+			},
+			["Default.Venoxis.Pjanic"] = {
+				["lastUpdate"] = 1703190968,
+				["Class"] = "WARLOCK",
+				["PointsSpent"] = "11,0,0",
+				["TalentTrees"] = {
+					["Affliction"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						2, -- [4]
+						[15] = 1,
+						[7] = 2,
+						[12] = 1,
 					},
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1702546775,
+				["lastUpdate"] = 1704368083,
 				["Class"] = "SHAMAN",
-				["PointsSpent"] = "0,13,58",
+				["PointsSpent"] = "19,52,0",
 				["TalentTrees"] = {
 					["Enhancement"] = {
 						nil, -- [1]
-						nil, -- [2]
+						5, -- [2]
 						nil, -- [3]
-						3, -- [4]
+						nil, -- [4]
 						nil, -- [5]
 						3, -- [6]
-						nil, -- [7]
+						3, -- [7]
 						5, -- [8]
-						2, -- [9]
+						3, -- [9]
+						nil, -- [10]
+						1, -- [11]
+						1, -- [12]
+						1, -- [13]
+						3, -- [14]
+						2, -- [15]
+						3, -- [16]
+						1, -- [17]
+						3, -- [18]
+						3, -- [19]
+						1, -- [20]
+						1, -- [21]
+						3, -- [22]
+						nil, -- [23]
+						5, -- [24]
+						1, -- [25]
+						3, -- [26]
+						nil, -- [27]
+						1, -- [28]
 					},
-					["Restoration"] = {
+					["Elemental"] = {
 						3, -- [1]
-						1, -- [2]
-						3, -- [3]
-						5, -- [4]
-						3, -- [5]
-						3, -- [6]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						2, -- [6]
 						nil, -- [7]
 						1, -- [8]
-						1, -- [9]
-						5, -- [10]
-						5, -- [11]
-						5, -- [12]
-						[24] = 5,
-						[25] = 1,
-						[26] = 1,
-						[15] = 3,
-						[17] = 3,
-						[18] = 2,
-						[19] = 1,
-						[21] = 2,
-						[22] = 2,
-						[23] = 3,
+						[14] = 3,
 					},
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1703027834,
+				["lastUpdate"] = 1704711690,
 				["Class"] = "PALADIN",
 				["PointsSpent"] = "0,53,18",
 				["TalentTrees"] = {
 					["Protection"] = {
 						3, -- [1]
 						nil, -- [2]
-						4, -- [3]
+						5, -- [3]
 						nil, -- [4]
-						4, -- [5]
+						1, -- [5]
 						3, -- [6]
 						1, -- [7]
 						1, -- [8]
 						nil, -- [9]
 						3, -- [10]
-						nil, -- [11]
+						2, -- [11]
 						5, -- [12]
 						nil, -- [13]
 						2, -- [14]
@@ -175,7 +198,7 @@ DataStore_TalentsDB = {
 						1, -- [26]
 					},
 					["Retribution"] = {
-						2, -- [1]
+						nil, -- [1]
 						nil, -- [2]
 						5, -- [3]
 						nil, -- [4]
@@ -183,14 +206,17 @@ DataStore_TalentsDB = {
 						3, -- [6]
 						nil, -- [7]
 						3, -- [8]
-						1, -- [9]
-						1, -- [10]
-						[14] = 3,
+						nil, -- [9]
+						2, -- [10]
+						nil, -- [11]
+						2, -- [12]
+						nil, -- [13]
+						3, -- [14]
 					},
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1702856014,
+				["lastUpdate"] = 1704704380,
 				["Class"] = "PALADIN",
 				["PointsSpent"] = "0,53,18",
 				["TalentTrees"] = {
@@ -238,42 +264,44 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1702856351,
+				["lastUpdate"] = 1704709112,
 				["Class"] = "DEATHKNIGHT",
-				["PointsSpent"] = "51,2,0",
+				["PointsSpent"] = "43,27,1",
 				["TalentTrees"] = {
+					["Unholy"] = {
+						[27] = 1,
+					},
 					["Frost"] = {
-						[19] = 2,
+						5, -- [1]
+						2, -- [2]
+						[20] = 2,
+						[7] = 2,
+						[27] = 1,
+						[18] = 3,
+						[22] = 5,
+						[19] = 3,
+						[9] = 3,
+						[26] = 1,
 					},
 					["Blood"] = {
 						nil, -- [1]
 						5, -- [2]
-						2, -- [3]
+						nil, -- [3]
 						1, -- [4]
 						3, -- [5]
 						5, -- [6]
-						nil, -- [7]
-						nil, -- [8]
-						nil, -- [9]
-						nil, -- [10]
-						3, -- [11]
-						3, -- [12]
-						1, -- [13]
-						nil, -- [14]
-						1, -- [15]
-						3, -- [16]
-						nil, -- [17]
-						nil, -- [18]
-						1, -- [19]
-						3, -- [20]
-						5, -- [21]
-						nil, -- [22]
-						1, -- [23]
-						5, -- [24]
-						3, -- [25]
-						2, -- [26]
-						2, -- [27]
-						2, -- [28]
+						[13] = 1,
+						[26] = 2,
+						[27] = 2,
+						[28] = 2,
+						[17] = 3,
+						[25] = 3,
+						[10] = 1,
+						[20] = 3,
+						[11] = 3,
+						[22] = 3,
+						[23] = 1,
+						[21] = 5,
 					},
 				},
 			},
@@ -285,6 +313,7 @@ DataStore_TalentsRefDB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -294,7 +323,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Blood,Frost,Unholy",
 			["Trees"] = {
 				["Frost"] = {
-					["background"] = "DeathKnightFrost",
 					["talents"] = {
 						"Toughness|135892|1|3|5", -- [1]
 						"Endless Winter|136223|4|4|2", -- [2]
@@ -326,14 +354,14 @@ DataStore_TalentsRefDB = {
 						"Chilblains|135864|7|1|3", -- [28]
 						"Threat of Thassarian|132148|8|1|3", -- [29]
 					},
-					["icon"] = 135773,
 					["prereqs"] = {
 						[22] = "1|1",
 						[27] = "3|1",
 					},
+					["icon"] = 135773,
+					["background"] = "DeathKnightFrost",
 				},
 				["Blut"] = {
-					["background"] = "DeathKnightBlood",
 					["talents"] = {
 						"Verbesserte Blutpräsenz|135770|7|3|2", -- [1]
 						"Klingenbewehrte Rüstung|135067|2|1|5", -- [2]
@@ -364,14 +392,14 @@ DataStore_TalentsRefDB = {
 						"Zweihandwaffen-Spezialisierung|135378|2|3|2", -- [27]
 						"Verbesserter Todesstoß|237517|8|1|2", -- [28]
 					},
-					["icon"] = 135770,
 					["prereqs"] = {
 						[5] = "3|1",
 						[7] = "3|2",
 					},
+					["icon"] = 135770,
+					["background"] = "DeathKnightBlood",
 				},
 				["Unheilig"] = {
-					["background"] = "DeathKnightUnholy",
 					["talents"] = {
 						"Virulenz|136126|1|2|3", -- [1]
 						"Morbidität|136144|2|2|3", -- [2]
@@ -405,15 +433,24 @@ DataStore_TalentsRefDB = {
 						"Entweihung|136199|6|1|2", -- [30]
 						"Verwüstung|136224|7|1|5", -- [31]
 					},
-					["icon"] = 135775,
 					["prereqs"] = {
-						[28] = "6|2",
 						[22] = "8|2",
-						[25] = "6|4",
 						[6] = "4|4",
+						[25] = "6|4",
+						[28] = "6|2",
 					},
+					["icon"] = 135775,
+					["background"] = "DeathKnightUnholy",
 				},
 				["Unholy"] = {
+					["prereqs"] = {
+						[6] = "4|4",
+						[28] = "6|2",
+						[25] = "6|4",
+						[22] = "8|2",
+					},
+					["background"] = "DeathKnightUnholy",
+					["icon"] = 135775,
 					["talents"] = {
 						"Virulence|136126|1|2|3", -- [1]
 						"Morbidity|136144|2|2|3", -- [2]
@@ -447,16 +484,14 @@ DataStore_TalentsRefDB = {
 						"Desecration|136199|6|1|2", -- [30]
 						"Desolation|136224|7|1|5", -- [31]
 					},
-					["prereqs"] = {
-						[22] = "8|2",
-						[6] = "4|4",
-						[25] = "6|4",
-						[28] = "6|2",
-					},
-					["icon"] = 135775,
-					["background"] = "DeathKnightUnholy",
 				},
 				["Blood"] = {
+					["prereqs"] = {
+						[5] = "3|1",
+						[7] = "3|2",
+					},
+					["background"] = "DeathKnightBlood",
+					["icon"] = 135770,
 					["talents"] = {
 						"Improved Blood Presence|135770|7|3|2", -- [1]
 						"Bladed Armor|135067|2|1|5", -- [2]
@@ -487,12 +522,131 @@ DataStore_TalentsRefDB = {
 						"Two-Handed Weapon Specialization|135378|2|3|2", -- [27]
 						"Improved Death Strike|237517|8|1|2", -- [28]
 					},
+				},
+			},
+		},
+		["WARLOCK"] = {
+			["Order"] = "Affliction,Demonology,Destruction",
+			["Trees"] = {
+				["Demonology"] = {
 					["prereqs"] = {
-						[5] = "3|1",
-						[7] = "3|2",
+						[7] = "3|3",
+						[21] = "6|2",
+						[10] = "4|2",
+						[12] = "3|2",
+						[14] = "4|2",
+						[22] = "8|2",
 					},
-					["icon"] = 135770,
-					["background"] = "DeathKnightBlood",
+					["background"] = "WarlockSummoning",
+					["icon"] = 136172,
+					["talents"] = {
+						"Improved Healthstone|135230|1|1|2", -- [1]
+						"Improved Imp|136218|1|2|3", -- [2]
+						"Demonic Embrace|136172|1|3|3", -- [3]
+						"Improved Health Funnel|136168|2|1|2", -- [4]
+						"Demonic Brutality|136221|2|2|3", -- [5]
+						"Fel Domination|136082|3|3|1", -- [6]
+						"Master Summoner|136164|4|3|2", -- [7]
+						"Fel Vitality|135932|2|3|3", -- [8]
+						"Improved Sayaad|136220|3|1|3", -- [9]
+						"Master Demonologist|136203|6|2|5", -- [10]
+						"Master Conjuror|132386|5|3|2", -- [11]
+						"Unholy Power|136206|4|2|5", -- [12]
+						"Demonic Knowledge|136165|7|3|3", -- [13]
+						"Mana Feed|136171|5|1|1", -- [14]
+						"Soul Link|136160|3|2|1", -- [15]
+						"Molten Core|236301|6|3|3", -- [16]
+						"Demonic Aegis|136185|3|4|3", -- [17]
+						"Summon Felguard|136216|9|2|1", -- [18]
+						"Demonic Tactics|136150|8|2|5", -- [19]
+						"Demonic Resilience|136149|7|1|3", -- [20]
+						"Demonic Empowerment|236292|7|2|1", -- [21]
+						"Improved Demonic Tactics|236299|9|1|3", -- [22]
+						"Fel Synergy|237564|1|4|2", -- [23]
+						"Nemesis|237561|9|3|3", -- [24]
+						"Demonic Pact|237562|10|2|5", -- [25]
+						"Metamorphosis|237558|11|2|1", -- [26]
+						"Decimation|135808|8|3|2", -- [27]
+					},
+				},
+				["Affliction"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[13] = "3|3",
+						[28] = "9|2",
+						[19] = "7|2",
+					},
+					["background"] = "WarlockCurses",
+					["icon"] = 136145,
+					["talents"] = {
+						"Fel Concentration|136157|3|2|3", -- [1]
+						"Nightfall|136223|4|2|2", -- [2]
+						"Improved Corruption|136118|1|3|5", -- [3]
+						"Soul Siphon|136169|2|4|2", -- [4]
+						"Suppression|136230|1|2|3", -- [5]
+						"Improved Curse of Weakness|136138|2|1|2", -- [6]
+						"Improved Life Tap|136126|2|3|2", -- [7]
+						"Grim Reach|136127|4|1|2", -- [8]
+						"Dark Pact|136141|7|3|1", -- [9]
+						"Siphon Life|136188|5|2|1", -- [10]
+						"Shadow Mastery|136195|6|2|5", -- [11]
+						"Amplify Curse|136132|3|3|1", -- [12]
+						"Curse of Exhaustion|136162|5|3|1", -- [13]
+						"Improved Drain Soul|136163|2|2|2", -- [14]
+						"Improved Curse of Agony|136139|1|1|2", -- [15]
+						"Malediction|136137|8|3|3", -- [16]
+						"Improved Howl of Terror|136147|8|1|2", -- [17]
+						"Contagion|136180|7|2|5", -- [18]
+						"Unstable Affliction|136228|9|2|1", -- [19]
+						"Shadow Embrace|136198|5|1|5", -- [20]
+						"Empowered Corruption|136118|4|4|3", -- [21]
+						"Improved Felhunter|136217|6|1|2", -- [22]
+						"Death's Embrace|237557|9|1|3", -- [23]
+						"Everlasting Affliction|236296|10|2|5", -- [24]
+						"Eradication|236295|7|1|3", -- [25]
+						"Haunt|236298|11|2|1", -- [26]
+						"Improved Fear|136183|3|1|2", -- [27]
+						"Pandemic|136227|9|3|1", -- [28]
+					},
+				},
+				["Destruction"] = {
+					["prereqs"] = {
+						[20] = "4|1",
+						[10] = "5|2",
+						[22] = "7|2",
+						[23] = "7|3",
+						[11] = "3|3",
+					},
+					["background"] = "WarlockDestruction",
+					["icon"] = 136186,
+					["talents"] = {
+						"Cataclysm|135831|2|3|3", -- [1]
+						"Bane|136146|1|3|5", -- [2]
+						"Improved Shadow Bolt|136197|1|2|5", -- [3]
+						"Improved Immolate|135817|5|2|3", -- [4]
+						"Shadowburn|136191|3|2|1", -- [5]
+						"Destructive Reach|136133|4|2|2", -- [6]
+						"Improved Searing Pain|135827|4|4|3", -- [7]
+						"Emberstorm|135826|6|3|5", -- [8]
+						"Ruin|136207|3|3|5", -- [9]
+						"Conflagrate|135807|7|2|1", -- [10]
+						"Devastation|135813|5|3|1", -- [11]
+						"Aftermath|135805|2|1|2", -- [12]
+						"Demonic Power|135809|3|1|2", -- [13]
+						"Intensity|135819|4|1|2", -- [14]
+						"Pyroclasm|135830|7|4|3", -- [15]
+						"Shadowfury|136201|9|2|1", -- [16]
+						"Shadow and Flame|136196|8|2|5", -- [17]
+						"Soul Leech|136214|7|3|3", -- [18]
+						"Nether Protection|136178|6|1|3", -- [19]
+						"Backlash|135823|5|1|3", -- [20]
+						"Molten Skin|132221|2|2|3", -- [21]
+						"Backdraft|236290|9|1|3", -- [22]
+						"Improved Soul Leech|236300|8|3|2", -- [23]
+						"Fire and Brimstone|236297|10|2|5", -- [24]
+						"Chaos Bolt|236291|11|2|1", -- [25]
+						"Empowered Imp|236294|9|3|3", -- [26]
+					},
 				},
 			},
 		},
@@ -500,14 +654,7 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Holy,Protection,Retribution",
 			["Trees"] = {
 				["Protection"] = {
-					["prereqs"] = {
-						[7] = "5|2",
-						[25] = "3|1",
-						[23] = "9|2",
-						[17] = "7|2",
-					},
 					["background"] = "PaladinProtection",
-					["icon"] = 135893,
 					["talents"] = {
 						"Redoubt|132110|8|1|3", -- [1]
 						"Improved Devotion Aura|135893|4|3|3", -- [2]
@@ -536,9 +683,15 @@ DataStore_TalentsRefDB = {
 						"Divine Guardian|253400|4|1|2", -- [25]
 						"Spiritual Attunement|135958|7|1|2", -- [26]
 					},
+					["icon"] = 135893,
+					["prereqs"] = {
+						[23] = "9|2",
+						[25] = "3|1",
+						[17] = "7|2",
+						[7] = "5|2",
+					},
 				},
 				["Vergeltung"] = {
-					["background"] = "PaladinCombat",
 					["talents"] = {
 						"Verbesserter Segen der Macht|135906|2|3|2", -- [1]
 						"Rache|132275|6|2|3", -- [2]
@@ -567,14 +720,14 @@ DataStore_TalentsRefDB = {
 						"Die Kunst des Krieges|236246|7|1|2", -- [25]
 						"Ummantelung des Lichts|236263|9|3|3", -- [26]
 					},
-					["icon"] = 135873,
 					["prereqs"] = {
 						[2] = "3|2",
 						[18] = "7|2",
 					},
+					["icon"] = 135873,
+					["background"] = "PaladinCombat",
 				},
 				["Schutz"] = {
-					["background"] = "PaladinProtection",
 					["talents"] = {
 						"Verschanzen|132110|8|1|3", -- [1]
 						"Verbesserte Aura der Hingabe|135893|4|3|3", -- [2]
@@ -603,16 +756,16 @@ DataStore_TalentsRefDB = {
 						"Heiliger Wächter|253400|4|1|2", -- [25]
 						"Einklang des Geistes|135958|7|1|2", -- [26]
 					},
-					["icon"] = 135893,
 					["prereqs"] = {
-						[23] = "9|2",
-						[25] = "3|1",
 						[17] = "7|2",
+						[25] = "3|1",
 						[7] = "5|2",
+						[23] = "9|2",
 					},
+					["icon"] = 135893,
+					["background"] = "PaladinProtection",
 				},
 				["Heilig"] = {
-					["background"] = "PaladinHoly",
 					["talents"] = {
 						"Spiritueller Fokus|135736|1|2|5", -- [1]
 						"Göttliche Gunst|135915|5|2|1", -- [2]
@@ -641,20 +794,16 @@ DataStore_TalentsRefDB = {
 						"Gesegnete Hände|236248|4|4|2", -- [25]
 						"Richturteile des Reinen|236256|9|3|5", -- [26]
 					},
-					["icon"] = 135920,
 					["prereqs"] = {
 						[24] = "7|2",
 						[2] = "3|2",
 						[12] = "5|2",
 					},
+					["icon"] = 135920,
+					["background"] = "PaladinHoly",
 				},
 				["Retribution"] = {
-					["prereqs"] = {
-						[2] = "3|2",
-						[18] = "7|2",
-					},
 					["background"] = "PaladinCombat",
-					["icon"] = 135873,
 					["talents"] = {
 						"Improved Blessing of Might|135906|2|3|2", -- [1]
 						"Vengeance|132275|6|2|3", -- [2]
@@ -683,15 +832,14 @@ DataStore_TalentsRefDB = {
 						"The Art of War|236246|7|1|2", -- [25]
 						"Sheath of Light|236263|9|3|3", -- [26]
 					},
+					["icon"] = 135873,
+					["prereqs"] = {
+						[2] = "3|2",
+						[18] = "7|2",
+					},
 				},
 				["Holy"] = {
-					["prereqs"] = {
-						[24] = "7|2",
-						[2] = "3|2",
-						[12] = "5|2",
-					},
 					["background"] = "PaladinHoly",
-					["icon"] = 135920,
 					["talents"] = {
 						"Spiritual Focus|135736|1|2|5", -- [1]
 						"Divine Favor|135915|5|2|1", -- [2]
@@ -720,6 +868,12 @@ DataStore_TalentsRefDB = {
 						"Blessed Hands|236248|4|4|2", -- [25]
 						"Judgements of the Pure|236256|9|3|5", -- [26]
 					},
+					["icon"] = 135920,
+					["prereqs"] = {
+						[24] = "7|2",
+						[2] = "3|2",
+						[12] = "5|2",
+					},
 				},
 			},
 		},
@@ -727,7 +881,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Arcane,Fire,Frost",
 			["Trees"] = {
 				["Frost"] = {
-					["background"] = "MageFrost",
 					["talents"] = {
 						"Improved Frostbolt|135846|1|2|5", -- [1]
 						"Frostbite|135842|1|1|3", -- [2]
@@ -758,16 +911,16 @@ DataStore_TalentsRefDB = {
 						"Deep Freeze|236214|11|2|1", -- [27]
 						"Shattered Barrier|236224|7|1|2", -- [28]
 					},
-					["icon"] = 135846,
 					["prereqs"] = {
-						[28] = "7|2",
 						[19] = "5|2",
-						[25] = "9|2",
 						[13] = "5|2",
+						[25] = "9|2",
+						[28] = "7|2",
 					},
+					["icon"] = 135846,
+					["background"] = "MageFrost",
 				},
 				["Arcane"] = {
-					["background"] = "MageArcane",
 					["talents"] = {
 						"Arcane Subtlety|135894|1|1|2", -- [1]
 						"Arcane Concentration|136170|2|3|5", -- [2]
@@ -800,16 +953,16 @@ DataStore_TalentsRefDB = {
 						"Focus Magic|135754|3|4|1", -- [29]
 						"Torment the Weak|236226|4|4|3", -- [30]
 					},
-					["icon"] = 135932,
 					["prereqs"] = {
 						[11] = "6|2",
 						[13] = "5|2",
 						[17] = "5|2",
 						[23] = "7|2",
 					},
+					["icon"] = 135932,
+					["background"] = "MageArcane",
 				},
 				["Arkan"] = {
-					["background"] = "MageArcane",
 					["talents"] = {
 						"Arkanes Feingefühl|135894|1|1|2", -- [1]
 						"Arkane Konzentration|136170|2|3|5", -- [2]
@@ -842,16 +995,16 @@ DataStore_TalentsRefDB = {
 						"Magie fokussieren|135754|3|4|1", -- [29]
 						"Die Schwachen quälen|236226|4|4|3", -- [30]
 					},
-					["icon"] = 135932,
 					["prereqs"] = {
 						[11] = "6|2",
 						[13] = "5|2",
 						[17] = "5|2",
 						[23] = "7|2",
 					},
+					["icon"] = 135932,
+					["background"] = "MageArcane",
 				},
 				["Fire"] = {
-					["background"] = "MageFire",
 					["talents"] = {
 						"Burning Soul|135805|3|4|2", -- [1]
 						"Molten Shields|135806|4|2|2", -- [2]
@@ -882,16 +1035,16 @@ DataStore_TalentsRefDB = {
 						"Living Bomb|236220|11|2|1", -- [27]
 						"Burning Determination|135829|2|2|2", -- [28]
 					},
-					["icon"] = 135810,
 					["prereqs"] = {
 						[14] = "5|2",
 						[10] = "3|3",
 						[22] = "7|2",
 						[24] = "9|2",
 					},
+					["icon"] = 135810,
+					["background"] = "MageFire",
 				},
 				["Feuer"] = {
-					["background"] = "MageFire",
 					["talents"] = {
 						"Brennende Seele|135805|3|4|2", -- [1]
 						"Glühende Schilde|135806|4|2|2", -- [2]
@@ -922,13 +1075,14 @@ DataStore_TalentsRefDB = {
 						"Lebende Bombe|236220|11|2|1", -- [27]
 						"Brennende Entschlossenheit|135829|2|2|2", -- [28]
 					},
-					["icon"] = 135810,
 					["prereqs"] = {
 						[14] = "5|2",
 						[10] = "3|3",
 						[24] = "9|2",
 						[22] = "7|2",
 					},
+					["icon"] = 135810,
+					["background"] = "MageFire",
 				},
 			},
 		},
@@ -965,10 +1119,10 @@ DataStore_TalentsRefDB = {
 					},
 					["background"] = "ShamanElementalCombat",
 					["prereqs"] = {
-						[19] = "7|2",
 						[2] = "3|2",
-						[7] = "5|2",
 						[10] = "3|3",
+						[7] = "5|2",
+						[19] = "7|2",
 					},
 				},
 				["Verstärk"] = {
@@ -1019,7 +1173,6 @@ DataStore_TalentsRefDB = {
 					["icon"] = 136048,
 				},
 				["Enhancement"] = {
-					["background"] = "ShamanEnhancement",
 					["talents"] = {
 						"Anticipation|136056|3|4|3", -- [1]
 						"Flurry|132152|4|2|5", -- [2]
@@ -1051,7 +1204,6 @@ DataStore_TalentsRefDB = {
 						"Lava Lash|236289|8|2|1", -- [28]
 						"Frozen Power|135776|6|4|2", -- [29]
 					},
-					["icon"] = 136051,
 					["prereqs"] = {
 						[17] = "5|2",
 						[21] = "7|3",
@@ -1059,6 +1211,8 @@ DataStore_TalentsRefDB = {
 						[28] = "7|2",
 						[2] = "2|2",
 					},
+					["icon"] = 136051,
+					["background"] = "ShamanEnhancement",
 				},
 				["Elementar"] = {
 					["talents"] = {
@@ -1089,10 +1243,10 @@ DataStore_TalentsRefDB = {
 						"Donnernde Echos|135782|8|1|2", -- [25]
 					},
 					["prereqs"] = {
-						[2] = "3|2",
 						[10] = "3|3",
-						[7] = "5|2",
 						[19] = "7|2",
+						[7] = "5|2",
+						[2] = "3|2",
 					},
 					["background"] = "ShamanElementalCombat",
 				},
@@ -1136,7 +1290,6 @@ DataStore_TalentsRefDB = {
 					["icon"] = 136048,
 				},
 				["Restoration"] = {
-					["background"] = "ShamanRestoration",
 					["talents"] = {
 						"Ancestral Healing|136109|3|4|3", -- [1]
 						"Tidal Force|135845|3|3|1", -- [2]
@@ -1165,12 +1318,13 @@ DataStore_TalentsRefDB = {
 						"Riptide|252995|11|2|1", -- [25]
 						"Cleanse Spirit|236288|7|3|1", -- [26]
 					},
-					["icon"] = 136052,
 					["prereqs"] = {
 						[21] = "9|2",
 						[26] = "6|3",
 						[8] = "4|2",
 					},
+					["icon"] = 136052,
+					["background"] = "ShamanRestoration",
 				},
 				["Wiederherstellung"] = {
 					["icon"] = 136052,
@@ -1180,43 +1334,6 @@ DataStore_TalentsRefDB = {
 		["PRIEST"] = {
 			["Order"] = "Discipline,Holy,Shadow",
 			["Trees"] = {
-				["Holy"] = {
-					["prereqs"] = {
-						[4] = "2|3",
-						[16] = "5|2",
-					},
-					["background"] = "PriestHoly",
-					["icon"] = 135920,
-					["talents"] = {
-						"Inspiration|135928|3|4|3", -- [1]
-						"Holy Specialization|135967|1|3|5", -- [2]
-						"Spiritual Guidance|135977|5|3|5", -- [3]
-						"Searing Light|135973|4|3|2", -- [4]
-						"Spiritual Healing|136057|6|3|5", -- [5]
-						"Improved Renew|135953|1|2|3", -- [6]
-						"Improved Healing|135916|4|2|3", -- [7]
-						"Healing Focus|135918|1|1|2", -- [8]
-						"Spell Warding|135976|2|2|5", -- [9]
-						"Healing Prayers|135943|5|1|2", -- [10]
-						"Desperate Prayer|135954|3|1|1", -- [11]
-						"Divine Fury|135971|2|3|5", -- [12]
-						"Spirit of Redemption|132864|5|2|1", -- [13]
-						"Holy Reach|135949|4|1|2", -- [14]
-						"Blessed Recovery|135877|3|2|3", -- [15]
-						"Lightwell|135980|7|2|1", -- [16]
-						"Blessed Resilience|135878|7|3|3", -- [17]
-						"Surge of Light|135981|6|1|2", -- [18]
-						"Empowered Healing|135913|8|2|5", -- [19]
-						"Holy Concentration|135905|7|1|3", -- [20]
-						"Circle of Healing|135887|9|2|1", -- [21]
-						"Empowered Renew|236254|9|1|3", -- [22]
-						"Test of Faith|237550|9|3|3", -- [23]
-						"Serendipity|237549|8|3|3", -- [24]
-						"Divine Providence|237541|10|2|5", -- [25]
-						"Guardian Spirit|237542|11|2|1", -- [26]
-						"Body and Soul|135982|8|1|2", -- [27]
-					},
-				},
 				["Shadow"] = {
 					["talents"] = {
 						"Shadow Weaving|136123|4|4|3", -- [1]
@@ -1258,16 +1375,49 @@ DataStore_TalentsRefDB = {
 					},
 					["background"] = "PriestShadow",
 				},
-				["Schattenmagie"] = {
-					["icon"] = 136207,
-				},
-				["Disziplin"] = {
+				["Discipline"] = {
+					["background"] = "PriestDiscipline",
+					["talents"] = {
+						"Martyrdom|136107|2|4|2", -- [1]
+						"Power Infusion|135939|7|2|1", -- [2]
+						"Mental Agility|132156|4|2|3", -- [3]
+						"Unbreakable Will|135995|1|2|5", -- [4]
+						"Improved Power Word: Shield|135940|3|3|3", -- [5]
+						"Improved Power Word: Fortitude|135987|2|3|2", -- [6]
+						"Improved Inner Fire|135926|2|2|3", -- [7]
+						"Meditation|136090|3|1|3", -- [8]
+						"Inner Focus|135863|3|2|1", -- [9]
+						"Improved Mana Burn|136170|4|4|2", -- [10]
+						"Soul Warding|135948|5|3|1", -- [11]
+						"Silent Resolve|136053|2|1|3", -- [12]
+						"Mental Strength|136031|5|2|5", -- [13]
+						"Borrowed Time|237538|10|2|5", -- [14]
+						"Absolution|135868|4|1|3", -- [15]
+						"Focused Power|136158|6|1|2", -- [16]
+						"Enlightenment|135740|6|3|3", -- [17]
+						"Improved Flash Heal|135886|7|3|3", -- [18]
+						"Pain Suppression|135936|9|2|1", -- [19]
+						"Focused Will|135737|7|1|3", -- [20]
+						"Aspiration|237537|8|3|2", -- [21]
+						"Divine Aegis|237539|9|1|3", -- [22]
+						"Rapture|237548|8|2|3", -- [23]
+						"Penance|237545|11|2|1", -- [24]
+						"Twin Disciplines|135969|1|3|5", -- [25]
+						"Grace|237543|9|3|2", -- [26]
+						"Renewed Hope|135923|8|1|2", -- [27]
+						"Reflective Shield|135940|5|1|2", -- [28]
+					},
+					["icon"] = 135987,
 					["prereqs"] = {
 						[2] = "5|2",
 						[11] = "3|3",
 					},
+				},
+				["Schattenmagie"] = {
+					["icon"] = 136207,
+				},
+				["Disziplin"] = {
 					["background"] = "PriestDiscipline",
-					["icon"] = 135987,
 					["talents"] = {
 						"Märtyrertum|136107|2|4|2", -- [1]
 						"Seele der Macht|135939|7|2|1", -- [2]
@@ -1298,17 +1448,17 @@ DataStore_TalentsRefDB = {
 						"Erneuerte Hoffnung|135923|8|1|2", -- [27]
 						"Reflektierender Schild|135940|5|1|2", -- [28]
 					},
+					["icon"] = 135987,
+					["prereqs"] = {
+						[2] = "5|2",
+						[11] = "3|3",
+					},
 				},
 				["Shadow Magic"] = {
 					["icon"] = 136207,
 				},
 				["Heilig"] = {
-					["prereqs"] = {
-						[4] = "2|3",
-						[16] = "5|2",
-					},
 					["background"] = "PriestHoly",
-					["icon"] = 135920,
 					["talents"] = {
 						"Inspiration|135928|3|4|3", -- [1]
 						"Macht des Glaubens|135967|1|3|5", -- [2]
@@ -1337,6 +1487,11 @@ DataStore_TalentsRefDB = {
 						"Göttliche Vorsehung|237541|10|2|5", -- [25]
 						"Schutzgeist|237542|11|2|1", -- [26]
 						"Körper und Geist|135982|8|1|2", -- [27]
+					},
+					["icon"] = 135920,
+					["prereqs"] = {
+						[4] = "2|3",
+						[16] = "5|2",
 					},
 				},
 				["Schatten"] = {
@@ -1380,42 +1535,41 @@ DataStore_TalentsRefDB = {
 					},
 					["background"] = "PriestShadow",
 				},
-				["Discipline"] = {
-					["prereqs"] = {
-						[2] = "5|2",
-						[11] = "3|3",
-					},
-					["background"] = "PriestDiscipline",
-					["icon"] = 135987,
+				["Holy"] = {
+					["background"] = "PriestHoly",
 					["talents"] = {
-						"Martyrdom|136107|2|4|2", -- [1]
-						"Power Infusion|135939|7|2|1", -- [2]
-						"Mental Agility|132156|4|2|3", -- [3]
-						"Unbreakable Will|135995|1|2|5", -- [4]
-						"Improved Power Word: Shield|135940|3|3|3", -- [5]
-						"Improved Power Word: Fortitude|135987|2|3|2", -- [6]
-						"Improved Inner Fire|135926|2|2|3", -- [7]
-						"Meditation|136090|3|1|3", -- [8]
-						"Inner Focus|135863|3|2|1", -- [9]
-						"Improved Mana Burn|136170|4|4|2", -- [10]
-						"Soul Warding|135948|5|3|1", -- [11]
-						"Silent Resolve|136053|2|1|3", -- [12]
-						"Mental Strength|136031|5|2|5", -- [13]
-						"Borrowed Time|237538|10|2|5", -- [14]
-						"Absolution|135868|4|1|3", -- [15]
-						"Focused Power|136158|6|1|2", -- [16]
-						"Enlightenment|135740|6|3|3", -- [17]
-						"Improved Flash Heal|135886|7|3|3", -- [18]
-						"Pain Suppression|135936|9|2|1", -- [19]
-						"Focused Will|135737|7|1|3", -- [20]
-						"Aspiration|237537|8|3|2", -- [21]
-						"Divine Aegis|237539|9|1|3", -- [22]
-						"Rapture|237548|8|2|3", -- [23]
-						"Penance|237545|11|2|1", -- [24]
-						"Twin Disciplines|135969|1|3|5", -- [25]
-						"Grace|237543|9|3|2", -- [26]
-						"Renewed Hope|135923|8|1|2", -- [27]
-						"Reflective Shield|135940|5|1|2", -- [28]
+						"Inspiration|135928|3|4|3", -- [1]
+						"Holy Specialization|135967|1|3|5", -- [2]
+						"Spiritual Guidance|135977|5|3|5", -- [3]
+						"Searing Light|135973|4|3|2", -- [4]
+						"Spiritual Healing|136057|6|3|5", -- [5]
+						"Improved Renew|135953|1|2|3", -- [6]
+						"Improved Healing|135916|4|2|3", -- [7]
+						"Healing Focus|135918|1|1|2", -- [8]
+						"Spell Warding|135976|2|2|5", -- [9]
+						"Healing Prayers|135943|5|1|2", -- [10]
+						"Desperate Prayer|135954|3|1|1", -- [11]
+						"Divine Fury|135971|2|3|5", -- [12]
+						"Spirit of Redemption|132864|5|2|1", -- [13]
+						"Holy Reach|135949|4|1|2", -- [14]
+						"Blessed Recovery|135877|3|2|3", -- [15]
+						"Lightwell|135980|7|2|1", -- [16]
+						"Blessed Resilience|135878|7|3|3", -- [17]
+						"Surge of Light|135981|6|1|2", -- [18]
+						"Empowered Healing|135913|8|2|5", -- [19]
+						"Holy Concentration|135905|7|1|3", -- [20]
+						"Circle of Healing|135887|9|2|1", -- [21]
+						"Empowered Renew|236254|9|1|3", -- [22]
+						"Test of Faith|237550|9|3|3", -- [23]
+						"Serendipity|237549|8|3|3", -- [24]
+						"Divine Providence|237541|10|2|5", -- [25]
+						"Guardian Spirit|237542|11|2|1", -- [26]
+						"Body and Soul|135982|8|1|2", -- [27]
+					},
+					["icon"] = 135920,
+					["prereqs"] = {
+						[4] = "2|3",
+						[16] = "5|2",
 					},
 				},
 			},

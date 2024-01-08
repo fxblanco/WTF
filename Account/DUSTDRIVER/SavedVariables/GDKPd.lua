@@ -15,25 +15,27 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -258.3778686523438,
 			},
+			["auctionTimer"] = 15,
 			["point"] = {
 				["relative"] = "TOP",
 				["point"] = "TOP",
 				["x"] = 286.0494384765625,
 			},
-			["startBid"] = 100,
+			["startBid"] = 2500,
+			["auctionTimerRefresh"] = 12,
+			["balancepoint"] = {
+				["y"] = -207.146484375,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -244.8694610595703,
+			},
 			["statuspoint"] = {
 				["y"] = 152.6455535888672,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -34.81410980224609,
 			},
-			["balancepoint"] = {
-				["y"] = -171.1238861083984,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -285.3945617675781,
-			},
-			["increment"] = 10,
+			["increment"] = 500,
 		},
 		["Bloodwall - Venoxis"] = {
 			["balancepoint"] = {
@@ -47,10 +49,10 @@ GDKPd_DB = {
 				["x"] = 460.6379089355469,
 			},
 			["point"] = {
-				["y"] = -25.69992065429688,
+				["y"] = -24.19888114929199,
 				["relative"] = "TOP",
 				["point"] = "TOP",
-				["x"] = 385.7752685546875,
+				["x"] = 385.0993957519531,
 			},
 			["startBid"] = 5000,
 			["increment"] = 200,
@@ -65,61 +67,200 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
-		["Muuhrrïçane"] = 0,
-		["Fanga"] = 0,
-		["Goaner"] = 0,
-		["Xahvion"] = 0,
-		["Flîpster"] = 0,
-		["Healsalbe"] = 0,
-		["Bloodwall"] = 7260,
-		["Leggawl"] = 0,
-		["Arminu"] = 0,
-		["Domedonmaya"] = 0,
+		["Taktak"] = 0,
+		["Syzsha"] = 0,
+		["Dulsberger"] = 0,
+		["Slimpy"] = 0,
+		["Rasket"] = 0,
+		["Bosax"] = 0,
+		["Rolemodelx"] = 0,
+		["Hennerr"] = 0,
+		["Rnbchilla"] = 0,
+		["Riddîck"] = 0,
+		["Pilena"] = 0,
+		["Wwrdlbrmpft"] = 0,
+		["Eletaer"] = 0,
+		["Hópéful"] = 0,
+		["Vanec"] = 0,
+		["Lûna"] = 0,
+		["Keinepepps"] = 0,
+		["Dodopaladin"] = 0,
+		["Dhelira"] = 0,
+		["Andrés"] = 0,
+		["Kroner"] = 0,
+		["Maturitass"] = 17460,
+		["Genodk"] = 0,
+		["Hockasa"] = 0,
+		["Domedonmaya"] = -19540,
 	},
 	["curPotHistory"] = {
 		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:52027::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
-			["name"] = "Leggawl",
+			["bid"] = 16500,
+			["item"] = "|cffa335ee|Hitem:50608::::::::80:::::::::|h[Frozen Bonespike]|h|r",
+			["name"] = "Eletaer",
 		}, -- [1]
 		{
-			["bid"] = 11400,
-			["item"] = "|cffa335ee|Hitem:50345::::::::80:::::::::|h[Muradin's Spyglass]|h|r",
-			["name"] = "Muuhrrïçane",
+			["bid"] = 11000,
+			["item"] = "|cffa335ee|Hitem:50614::::::::80:::::::::|h[Loop of the Endless Labyrinth]|h|r",
+			["name"] = "Andrés",
 		}, -- [2]
 		{
-			["bid"] = 8200,
-			["item"] = "|cffa335ee|Hitem:51922::::::::80:::::::::|h[Scourgelord's Baton]|h|r",
-			["name"] = "Muuhrrïçane",
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50709::::::::80:::::::::|h[Bryntroll, the Bone Arbiter]|h|r",
+			["name"] = "Rasket",
 		}, -- [3]
 		{
-			["bid"] = 4000,
-			["item"] = "|cffa335ee|Hitem:51929::::::::80:::::::::|h[Coldwraith Bracers]|h|r",
-			["name"] = "Fanga",
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50638::::::::80:::::::::|h[Zod's Repeating Longbow]|h|r",
+			["name"] = "Dulsberger",
 		}, -- [4]
-		1000, -- [5]
-		-1000, -- [6]
-		2000, -- [7]
-		2000, -- [8]
 		{
 			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:52027::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
-			["name"] = "Leggawl",
+			["item"] = "|cffa335ee|Hitem:50645::::::::80:::::::::|h[Leggings of Northern Lights]|h|r",
+			["name"] = "Dulsberger",
+		}, -- [5]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50663::::::::80:::::::::|h[Gunship Captain's Mittens]|h|r",
+			["name"] = "Lûna",
+		}, -- [6]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50654::::::::80:::::::::|h[Scourgeborne Waraxe]|h|r",
+			["name"] = "Rnbchilla",
+		}, -- [7]
+		{
+			["bid"] = 22000,
+			["item"] = "|cffa335ee|Hitem:50672::::::::80:::::::::|h[Bloodvenom Blade]|h|r",
+			["name"] = "Domedonmaya",
+		}, -- [8]
+		{
+			["bid"] = 31500,
+			["item"] = "|cffa335ee|Hitem:52030::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Dodopaladin",
 		}, -- [9]
 		{
-			["bid"] = 10000,
-			["item"] = "|cffa335ee|Hitem:51849::::::::80:::::::::|h[Cerise Coiled Ring]|h|r",
-			["name"] = "Flîpster",
+			["bid"] = 19500,
+			["item"] = "|cffa335ee|Hitem:50629::::::::80:::::::::|h[Robe of the Waking Nightmare]|h|r",
+			["name"] = "Hennerr",
 		}, -- [10]
-		2000, -- [11]
+		{
+			["bid"] = 35500,
+			["item"] = "|cffa335ee|Hitem:50364::::::::80:::::::::|h[Sindragosa's Flawless Fang]|h|r",
+			["name"] = "Dhelira",
+		}, -- [11]
+		{
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:52029::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Keinepepps",
+		}, -- [12]
+		{
+			["bid"] = 12000,
+			["item"] = "|cffa335ee|Hitem:50678::::::::80:::::::::|h[Seal of Many Mouths]|h|r",
+			["name"] = "Rnbchilla",
+		}, -- [13]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50700::::::::80:::::::::|h[Holiday's Grace]|h|r",
+			["name"] = "Rolemodelx",
+		}, -- [14]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50697::::::::80:::::::::|h[Gangrenous Leggings]|h|r",
+			["name"] = "Rnbchilla",
+		}, -- [15]
+		{
+			["bid"] = 13000,
+			["item"] = "|cffa335ee|Hitem:50685::::::::80:::::::::|h[Trauma]|h|r",
+			["name"] = "Syzsha",
+		}, -- [16]
 		{
 			["bid"] = 10000,
 			["item"] = "|cffa335ee|Hitem:52025::::::::80:::::::::|h[Vanquisher's Mark of Sanctification]|h|r",
-			["name"] = "Goaner",
-		}, -- [12]
-		10000, -- [13]
-		1000, -- [14]
-		-8000, -- [15]
+			["name"] = "Rnbchilla",
+		}, -- [17]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52027::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Rolemodelx",
+		}, -- [18]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Dulsberger",
+		}, -- [19]
+		{
+			["bid"] = 31000,
+			["item"] = "|cffa335ee|Hitem:50706::::::::80:::::::::|h[Tiny Abomination in a Jar]|h|r",
+			["name"] = "Rasket",
+		}, -- [20]
+		{
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:52029::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Keinepepps",
+		}, -- [21]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50716::::::::80:::::::::|h[Taldaram's Plated Fists]|h|r",
+			["name"] = "Dhelira",
+		}, -- [22]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50720::::::::80:::::::::|h[Incarnadine Band of Mending]|h|r",
+			["name"] = "Rolemodelx",
+		}, -- [23]
+		{
+			["bid"] = 11500,
+			["item"] = "|cffa335ee|Hitem:50725::::::::80:::::::::|h[Dying Light]|h|r",
+			["name"] = "Rolemodelx",
+		}, -- [24]
+		{
+			["bid"] = 28000,
+			["item"] = "|cffa335ee|Hitem:52030::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Taktak",
+		}, -- [25]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:52027::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Rolemodelx",
+		}, -- [26]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Dulsberger",
+		}, -- [27]
+		{
+			["bid"] = 3000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Syzsha",
+		}, -- [28]
+		500, -- [29]
+		{
+			["bid"] = 45000,
+			["item"] = "|cffffffff|Hitem:42641::::::::80:::::::::|h[Global Thermal Sapper Charge]|h|r",
+			["name"] = "Domedonmaya",
+		}, -- [30]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50427::::::::80:::::::::|h[Bloodsurge, Kel'Thuzad's Blade of Agony]|h|r",
+			["name"] = "Slimpy",
+		}, -- [31]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:49981::::::::80:::::::::|h[Fal'inrush, Defender of Quel'thalas]|h|r",
+			["name"] = "Rnbchilla",
+		}, -- [32]
+		{
+			["bid"] = 2500,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Syzsha",
+		}, -- [33]
+		{
+			["bid"] = 2500,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Pilena",
+		}, -- [34]
+		-48500, -- [35]
 	},
 	["history"] = {
 		{
@@ -138,8 +279,8 @@ GDKPd_PotData = {
 			["size"] = 10169,
 		}, -- [1]
 	},
-	["potAmount"] = 72600,
-	["prevDist"] = 72600,
+	["potAmount"] = 436500,
+	["prevDist"] = 436500,
 }
 GDKPd_BalanceData = {
 }

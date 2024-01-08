@@ -9,51 +9,44 @@ DataStore_QuestsDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["HistoryBuild"] = "52237",
-				["HistorySize"] = 1091,
-				["Money"] = {
-					486600, -- [1]
-					486600, -- [2]
-					560600, -- [3]
-					296000, -- [4]
-					560600, -- [5]
-					10900, -- [6]
-					780, -- [7]
+				["HistorySize"] = 1096,
+				["Dailies"] = {
+					{
+						["id"] = 78752,
+						["timestamp"] = 1704708053,
+						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
+						["expiresIn"] = 64746,
+					}, -- [1]
+					{
+						["id"] = 78753,
+						["timestamp"] = 1704708056,
+						["title"] = "Proof of Demise: Threats to Azeroth",
+						["expiresIn"] = 64743,
+					}, -- [2]
 				},
-				["HistoryLastUpdate"] = 1702678882,
+				["HistoryLastUpdate"] = 1704704230,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
-					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
-					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [3]
-					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [4]
-					"|cffffff00|Hquest:24872:80|h[Respite for a Tormented Soul]|h|r", -- [5]
-					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [6]
-					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [7]
+					"|cffffff00|Hquest:24507:80|h[The Path to the Citadel]|h|r", -- [1]
+					"|cff808080|Hquest:2605:49|h[The Thirsty Goblin]|h|r", -- [2]
+					"|cffffff00|Hquest:24589:80|h[Lord Jaraxxus Must Die!]|h|r", -- [3]
+					"|cff808080|Hquest:10955:70|h[Morthis Whisperwing]|h|r", -- [4]
 				},
-				["QuestHeaders"] = {
-					"Dalaran", -- [1]
-					"Pit of Saron", -- [2]
-					"Icecrown Citadel", -- [3]
-					"Tanaris", -- [4]
-					"Druid", -- [5]
-				},
-				["Rewards"] = {
-					[5] = "r|52006|1|1",
+				["lastUpdate"] = 1704708056,
+				["Money"] = {
+					560600, -- [1]
+					10900, -- [2]
+					296000, -- [3]
+					780, -- [4]
 				},
 				["QuestTitles"] = {
-					"Proof of Demise: Threats to Azeroth", -- [1]
-					"Proof of Demise: Titan Rune Protocol Gamma", -- [2]
-					"The Path to the Citadel", -- [3]
-					"Lord Marrowgar Must Die!", -- [4]
-					"Respite for a Tormented Soul", -- [5]
-					"The Thirsty Goblin", -- [6]
-					"Morthis Whisperwing", -- [7]
+					"The Path to the Citadel", -- [1]
+					"The Thirsty Goblin", -- [2]
+					"Lord Jaraxxus Must Die!", -- [3]
+					"Morthis Whisperwing", -- [4]
 				},
 				["QuestTags"] = {
-					85, -- [1]
-					85, -- [2]
-					81, -- [3]
-					62, -- [4]
-					88, -- [5]
+					81, -- [1]
+					[3] = 62,
 				},
 				["History"] = {
 					4227858432, -- [1]
@@ -93,20 +86,23 @@ DataStore_QuestsDB = {
 					[406] = 717332417,
 					[410] = 1078132752,
 					[414] = 71323904,
-					[776] = 503350272,
+					[776] = 1585479937,
 					[295] = 1073742852,
+					[188] = 393216,
+					[327] = 4709376,
 					[307] = 4291130672,
 					[311] = 2535389600,
 					[315] = 1073741976,
 					[319] = 3934344321,
 					[323] = 536871008,
-					[327] = 4709376,
-					[9] = 65536,
+					[777] = 4,
+					[766] = 2148007936,
 					[335] = 8192,
 					[339] = 2244739073,
+					[2001] = 2415919104,
 					[2007] = 33554432,
 					[333] = 96,
-					[2009] = 524288,
+					[2002] = 2151661646,
 					[325] = 804257795,
 					[363] = 4293164879,
 					[367] = 2103222,
@@ -115,12 +111,12 @@ DataStore_QuestsDB = {
 					[379] = 4152346490,
 					[383] = 3622802913,
 					[131] = 2097152,
-					[2445] = 81920,
+					[391] = 1508312,
 					[395] = 67187320,
 					[399] = 2281701376,
 					[403] = 3091464256,
 					[407] = 721328,
-					[411] = 2655268,
+					[2009] = 524288,
 					[415] = 791040,
 					[292] = 268435456,
 					[296] = 67108999,
@@ -132,21 +128,21 @@ DataStore_QuestsDB = {
 					[320] = 1358901280,
 					[324] = 2147524673,
 					[328] = 36864,
-					[192] = 523776,
-					[391] = 1508312,
+					[386] = 1920,
+					[411] = 2655268,
 					[340] = 4264632339,
 					[313] = 796638920,
-					[2002] = 2151661646,
-					[432] = 32768,
 					[159] = 32,
-					[293] = 3561099427,
+					[432] = 32768,
+					[2445] = 81920,
+					[772] = 3072,
 					[364] = 3758030751,
-					[388] = 3087007745,
+					[420] = 3082,
 					[372] = 502633168,
 					[376] = 4093848545,
 					[380] = 33543006,
 					[384] = 679907322,
-					[772] = 3072,
+					[388] = 3087007745,
 					[392] = 2684321537,
 					[396] = 2148810800,
 					[400] = 933232646,
@@ -154,7 +150,7 @@ DataStore_QuestsDB = {
 					[408] = 4231106561,
 					[412] = 32,
 					[416] = 268443648,
-					[420] = 3082,
+					[293] = 3561099427,
 					[764] = 8192,
 					[301] = 256,
 					[305] = 17336444,
@@ -163,29 +159,30 @@ DataStore_QuestsDB = {
 					[317] = 4048698361,
 					[321] = 107265028,
 					[114] = 176300032,
-					[2001] = 2415919104,
-					[789] = 8388608,
-					[386] = 1920,
+					[192] = 523776,
+					[789] = 25165824,
+					[9] = 65536,
 					[341] = 328322,
 					[345] = 4026531841,
-					[766] = 2148007936,
-					[188] = 393216,
+					[2461] = 1,
+					[2462] = 2,
 				},
-				["lastUpdate"] = 1702679517,
+				["QuestHeaders"] = {
+					"Pit of Saron", -- [1]
+					"Tanaris", -- [2]
+					"Trial of the Crusader", -- [3]
+					"Druid", -- [4]
+				},
 				["Quests"] = {
-					5244994, -- [1]
-					5244994, -- [2]
-					5247041, -- [3]
-					5249088, -- [4]
-					5249088, -- [5]
-					3219520, -- [6]
-					4597824, -- [7]
+					5244993, -- [1]
+					3215424, -- [2]
+					5249088, -- [3]
+					4595776, -- [4]
 				},
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 				["HistorySize"] = 122,
-				["HistoryBuild"] = "51943",
 				["HistoryLastUpdate"] = 1699529505,
 				["QuestHeaders"] = {
 					"Brachland", -- [1]
@@ -193,6 +190,7 @@ DataStore_QuestsDB = {
 					"Orgrimmar", -- [3]
 					"Steinkrallengebirge", -- [4]
 				},
+				["HistoryBuild"] = "51943",
 				["History"] = {
 					256, -- [1]
 					[27] = 12399904,
@@ -232,19 +230,19 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1701691737,
+				["HistoryBuild"] = "52237",
 				["HistorySize"] = 847,
-				["QuestHeaders"] = {
-					"Caverns of Time", -- [1]
-					"Dalaran", -- [2]
-					"Pit of Saron", -- [3]
-				},
-				["HistoryLastUpdate"] = 1701691738,
+				["HistoryLastUpdate"] = 1704239455,
 				["QuestLinks"] = {
 					"|cff808080|Hquest:10279:66|h[To The Master's Lair]|h|r", -- [1]
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [2]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [3]
 					"|cffffff00|Hquest:24712:80|h[Deliverance from the Pit]|h|r", -- [4]
+				},
+				["QuestHeaders"] = {
+					"Caverns of Time", -- [1]
+					"Dalaran", -- [2]
+					"Pit of Saron", -- [3]
 				},
 				["Money"] = {
 					660, -- [1]
@@ -413,7 +411,7 @@ DataStore_QuestsDB = {
 					[300] = 16384,
 					[151] = 2097152,
 				},
-				["HistoryBuild"] = "52237",
+				["lastUpdate"] = 1704239455,
 				["Quests"] = {
 					4327488, -- [1]
 					5247042, -- [2]

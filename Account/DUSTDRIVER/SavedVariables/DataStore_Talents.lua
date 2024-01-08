@@ -8,7 +8,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1702679517,
+				["lastUpdate"] = 1704708006,
 				["Class"] = "DRUID",
 				["PointsSpent"] = "0,55,16",
 				["TalentTrees"] = {
@@ -23,29 +23,27 @@ DataStore_TalentsDB = {
 						[21] = 2,
 					},
 					["Feral Combat"] = {
-						nil, -- [1]
+						3, -- [1]
 						5, -- [2]
-						5, -- [3]
-						nil, -- [4]
-						3, -- [5]
-						3, -- [6]
-						2, -- [7]
-						2, -- [8]
-						3, -- [9]
-						1, -- [10]
-						2, -- [11]
-						2, -- [12]
-						5, -- [13]
-						1, -- [14]
-						1, -- [15]
-						[26] = 3,
-						[27] = 1,
+						[15] = 1,
 						[30] = 1,
+						[9] = 3,
 						[18] = 3,
-						[19] = 3,
+						[5] = 3,
+						[10] = 1,
 						[20] = 1,
-						[21] = 1,
+						[21] = 2,
+						[11] = 2,
 						[22] = 2,
+						[6] = 3,
+						[12] = 2,
+						[13] = 5,
+						[26] = 3,
+						[7] = 2,
+						[14] = 1,
+						[28] = 3,
+						[27] = 1,
+						[29] = 3,
 						[23] = 5,
 					},
 				},
@@ -56,7 +54,7 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "0,0,0",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1702680663,
+				["lastUpdate"] = 1704709533,
 				["Class"] = "WARRIOR",
 				["PointsSpent"] = "15,5,51",
 				["TalentTrees"] = {
@@ -436,9 +434,9 @@ DataStore_TalentsRefDB = {
 						[15] = "5|2",
 						[21] = "2|3",
 						[5] = "4|3",
-						[19] = "8|2",
-						[23] = "9|2",
 						[26] = "9|2",
+						[23] = "9|2",
+						[19] = "8|2",
 					},
 					["background"] = "DruidRestoration",
 				},
@@ -536,9 +534,9 @@ DataStore_TalentsRefDB = {
 						[15] = "5|2",
 						[21] = "2|3",
 						[5] = "4|3",
-						[19] = "8|2",
-						[23] = "9|2",
 						[26] = "9|2",
+						[23] = "9|2",
+						[19] = "8|2",
 					},
 					["background"] = "DruidRestoration",
 					["icon"] = 136041,

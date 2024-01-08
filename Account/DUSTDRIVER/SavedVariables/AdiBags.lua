@@ -40,9 +40,9 @@ AdiBagsDB = {
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = -101.5252685546875,
+					["xOffset"] = -195.183837890625,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -76.5003662109375,
+					["yOffset"] = -18.8643798828125,
 				},
 			},
 			["experiments"] = {
