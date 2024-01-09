@@ -12,9 +12,9 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1704497058,
+				["lastUpdate"] = 1704835657,
 				["HistorySize"] = 1504,
-				["HistoryLastUpdate"] = 1704497062,
+				["HistoryLastUpdate"] = 1704835662,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [1]
 					"|cffffff00|Hquest:13159:77|h[Containment]|h|r", -- [2]
@@ -274,37 +274,33 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1704715622,
-				["HistorySize"] = 1168,
-				["HistoryLastUpdate"] = 1704715626,
+				["lastUpdate"] = 1704835763,
+				["HistorySize"] = 1180,
+				["HistoryLastUpdate"] = 1704835768,
 				["QuestLinks"] = {
 					"|cff808080|Hquest:11340:-1|h[Call to Arms: Alterac Valley]|h|r", -- [1]
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [2]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [3]
-					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [4]
-					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [5]
+					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [4]
 				},
 				["HistoryBuild"] = "52237",
 				["Money"] = {
 					272600, -- [1]
 					486600, -- [2]
 					486600, -- [3]
-					296000, -- [4]
-					206300, -- [5]
+					206300, -- [4]
 				},
 				["QuestTitles"] = {
 					"Call to Arms: Alterac Valley", -- [1]
 					"Proof of Demise: Threats to Azeroth", -- [2]
 					"Proof of Demise: Titan Rune Protocol Gamma", -- [3]
-					"Lord Marrowgar Must Die!", -- [4]
-					"Victory in Wintergrasp", -- [5]
+					"Victory in Wintergrasp", -- [4]
 				},
 				["QuestTags"] = {
 					41, -- [1]
 					85, -- [2]
 					85, -- [3]
-					62, -- [4]
-					41, -- [5]
+					41, -- [4]
 				},
 				["History"] = {
 					[33] = 184549376,
@@ -374,6 +370,7 @@ DataStore_QuestsDB = {
 					[379] = 4100507506,
 					[395] = 67187320,
 					[411] = 2687016948,
+					[354] = 128,
 					[777] = 14,
 					[393] = 33804536,
 					[409] = 1073758208,
@@ -474,7 +471,7 @@ DataStore_QuestsDB = {
 					[2049] = 100663296,
 					[241] = 6291456,
 					[433] = 67108864,
-					[354] = 128,
+					[769] = 32760,
 					[109] = 33554624,
 					[290] = 1006632960,
 					[306] = 838925824,
@@ -526,15 +523,13 @@ DataStore_QuestsDB = {
 				["QuestHeaders"] = {
 					"Alterac Valley", -- [1]
 					"Dalaran", -- [2]
-					"Icecrown Citadel", -- [3]
-					"Wintergrasp", -- [4]
+					"Wintergrasp", -- [3]
 				},
 				["Quests"] = {
 					5244994, -- [1]
 					5247042, -- [2]
 					5247042, -- [3]
-					5249089, -- [4]
-					5251136, -- [5]
+					5249088, -- [4]
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
@@ -773,57 +768,39 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1704709112,
-				["HistorySize"] = 607,
-				["Dailies"] = {
-					{
-						["id"] = 78752,
-						["timestamp"] = 1704703291,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 69508,
-					}, -- [1]
-					{
-						["id"] = 78753,
-						["timestamp"] = 1704703295,
-						["title"] = "Proof of Demise: Threats to Azeroth",
-						["expiresIn"] = 69504,
-					}, -- [2]
-				},
-				["HistoryLastUpdate"] = 1704704608,
+				["lastUpdate"] = 1704721008,
+				["HistorySize"] = 626,
+				["HistoryLastUpdate"] = 1704721009,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:24682:80|h[The Pit of Saron]|h|r", -- [1]
-					"|cffffff00|Hquest:12546:78|h[Reclamation]|h|r", -- [2]
-					"|cffffff00|Hquest:13185:80|h[Stop the Siege]|h|r", -- [3]
-					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [4]
-					"|cffffff00|Hquest:13159:77|h[Containment]|h|r", -- [5]
-					"|cff808080|Hquest:11339:-1|h[Call to Arms: Arathi Basin]|h|r", -- [6]
+					"|cff808080|Hquest:11339:-1|h[Call to Arms: Arathi Basin]|h|r", -- [1]
+					"|cffffff00|Hquest:24682:80|h[The Pit of Saron]|h|r", -- [2]
+					"|cffffff00|Hquest:12546:78|h[Reclamation]|h|r", -- [3]
+					"|cffffff00|Hquest:13159:77|h[Containment]|h|r", -- [4]
+					"|cffffff00|Hquest:13185:80|h[Stop the Siege]|h|r", -- [5]
+					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [6]
 				},
 				["HistoryBuild"] = "52237",
 				["QuestHeaders"] = {
-					"Pit of Saron", -- [1]
-					"Sholazar Basin", -- [2]
-					"Wintergrasp", -- [3]
+					"Arathi Basin", -- [1]
+					"Pit of Saron", -- [2]
+					"Sholazar Basin", -- [3]
 					"The Violet Hold", -- [4]
-					"Arathi Basin", -- [5]
-				},
-				["Rewards"] = {
-					[2] = "c|40290|1|1,c|40291|1|1,c|40292|1|1,c|40293|1|1,c|40295|1|1,r|199210|1|1",
-					[5] = "c|44342|1|1,c|44343|1|1,c|44344|1|1,c|44345|1|1",
+					"Wintergrasp", -- [5]
 				},
 				["QuestTitles"] = {
-					"The Pit of Saron", -- [1]
-					"Reclamation", -- [2]
-					"Stop the Siege", -- [3]
-					"Warding the Walls", -- [4]
-					"Containment", -- [5]
-					"Call to Arms: Arathi Basin", -- [6]
+					"Call to Arms: Arathi Basin", -- [1]
+					"The Pit of Saron", -- [2]
+					"Reclamation", -- [3]
+					"Containment", -- [4]
+					"Stop the Siege", -- [5]
+					"Warding the Walls", -- [6]
 				},
 				["QuestTags"] = {
-					81, -- [1]
-					nil, -- [2]
-					41, -- [3]
-					41, -- [4]
-					81, -- [5]
+					41, -- [1]
+					81, -- [2]
+					nil, -- [3]
+					81, -- [4]
+					41, -- [5]
 					41, -- [6]
 				},
 				["History"] = {
@@ -867,7 +844,7 @@ DataStore_QuestsDB = {
 					[307] = 1396704256,
 					[315] = 1073741952,
 					[319] = 2147483649,
-					[769] = 4096,
+					[769] = 32760,
 					[327] = 4590592,
 					[339] = 4980736,
 					[351] = 1746927617,
@@ -895,8 +872,9 @@ DataStore_QuestsDB = {
 					[340] = 134283264,
 					[352] = 4284482055,
 					[356] = 224,
+					[776] = 503349504,
 					[364] = 471074332,
-					[776] = 134250496,
+					[2462] = 2,
 					[372] = 268500992,
 					[376] = 4026739681,
 					[380] = 16765200,
@@ -905,48 +883,48 @@ DataStore_QuestsDB = {
 					[392] = 2147712769,
 					[396] = 3222683698,
 					[400] = 885001217,
-					[2462] = 2,
+					[2461] = 1,
 					[408] = 808554496,
 					[412] = 1073799264,
-					[2461] = 1,
+					[778] = 2016,
 					[293] = 4097970211,
 					[297] = 67108864,
 					[301] = 256,
 					[305] = 17301508,
-					[778] = 2016,
 					[766] = 2148007936,
+					[333] = 96,
 					[317] = 4048698289,
 					[321] = 295940,
 					[325] = 804257795,
 					[401] = 58,
-					[333] = 96,
+					[789] = 8388608,
 					[432] = 32768,
-					[402] = 467968,
 					[424] = 1048576,
+					[402] = 467968,
 					[349] = 2147483649,
 					[437] = 16384,
 				},
 				["Money"] = {
-					52000, -- [1]
-					398400, -- [2]
-					206300, -- [3]
-					206300, -- [4]
-					516800, -- [5]
-					272600, -- [6]
+					272600, -- [1]
+					52000, -- [2]
+					398400, -- [3]
+					516800, -- [4]
+					206300, -- [5]
+					206300, -- [6]
 				},
 				["Quests"] = {
-					5244992, -- [1]
-					5115968, -- [2]
-					5249089, -- [3]
-					5249088, -- [4]
-					5054528, -- [5]
-					5253186, -- [6]
+					5244994, -- [1]
+					5247040, -- [2]
+					5118016, -- [3]
+					5054528, -- [4]
+					5253185, -- [5]
+					5253184, -- [6]
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1704715774,
+				["lastUpdate"] = 1704749415,
 				["HistorySize"] = 1103,
-				["HistoryLastUpdate"] = 1704715774,
+				["HistoryLastUpdate"] = 1704749417,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [1]
 					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [2]
@@ -1154,32 +1132,6 @@ DataStore_QuestsDB = {
 			["Default.Venoxis.Alsía"] = {
 				["HistoryBuild"] = "52237",
 				["HistorySize"] = 132,
-				["Dailies"] = {
-					{
-						["id"] = 78752,
-						["timestamp"] = 1704704151,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 68648,
-					}, -- [1]
-					{
-						["id"] = 78752,
-						["timestamp"] = 1704704151,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 68648,
-					}, -- [2]
-					{
-						["id"] = 78753,
-						["timestamp"] = 1704704153,
-						["title"] = "Proof of Demise: Threats to Azeroth",
-						["expiresIn"] = 68646,
-					}, -- [3]
-					{
-						["id"] = 78753,
-						["timestamp"] = 1704704153,
-						["title"] = "Proof of Demise: Threats to Azeroth",
-						["expiresIn"] = 68646,
-					}, -- [4]
-				},
 				["HistoryLastUpdate"] = 1704704382,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [1]
@@ -1187,10 +1139,10 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:24588:80|h[XT-002 Deconstructor Must Die!]|h|r", -- [3]
 				},
 				["lastUpdate"] = 1704704380,
-				["Money"] = {
-					52000, -- [1]
-					313300, -- [2]
-					296000, -- [3]
+				["QuestHeaders"] = {
+					"Halls of Reflection", -- [1]
+					"Icecrown Citadel", -- [2]
+					"Ulduar", -- [3]
 				},
 				["QuestTitles"] = {
 					"Frostmourne", -- [1]
@@ -1244,10 +1196,10 @@ DataStore_QuestsDB = {
 					[2461] = 1,
 					[2462] = 2,
 				},
-				["QuestHeaders"] = {
-					"Halls of Reflection", -- [1]
-					"Icecrown Citadel", -- [2]
-					"Ulduar", -- [3]
+				["Money"] = {
+					52000, -- [1]
+					313300, -- [2]
+					296000, -- [3]
 				},
 				["Quests"] = {
 					5244992, -- [1]
@@ -1268,8 +1220,8 @@ DataStore_QuestsDB = {
 					[19] = 16384,
 					[16] = 4096,
 					[158] = 131072,
-					[28] = 3582069227,
 					[2051] = 2,
+					[261] = 16777216,
 					[14] = 3072,
 					[27] = 2225419520,
 					[48] = 24,
@@ -1283,7 +1235,7 @@ DataStore_QuestsDB = {
 					[200] = 134217728,
 					[204] = 134217728,
 					[208] = 32,
-					[261] = 16777216,
+					[28] = 3582069227,
 					[154] = 33554432,
 					[29] = 240,
 					[441] = 512,

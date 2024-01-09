@@ -25,8 +25,8 @@ DataStore_AuctionsDB = {
 				["lastUpdate"] = 1703893102,
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1704711418,
-				["lastVisitDate"] = "2024/01/08 11:56",
+				["lastVisitDate"] = "2024/01/09 23:17",
+				["lastUpdate"] = 1704838662,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["lastUpdate"] = 1703893949,

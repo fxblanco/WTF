@@ -546,8 +546,8 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2024/01/08 09:56",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1704711430,
-				["lastVisitDate"] = "2024/01/08 11:57",
+				["lastUpdate"] = 1704838669,
+				["lastVisitDate"] = "2024/01/09 23:17",
 			},
 		},
 	},

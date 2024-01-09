@@ -51,8 +51,9 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["Khalimmortus - Venoxis"] = {
-			["class_index"] = 5,
-			["spec_index"] = 2,
+			["class_index"] = 3,
+			["spec_index"] = 3,
+			["phase_index"] = 3,
 			["data_source"] = "wowtbc",
 			["version"] = 6.2,
 		},

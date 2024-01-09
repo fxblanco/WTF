@@ -12,10 +12,40 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1704497059,
+				["DungeonIDs"] = {
+					["Vault of Archavon 10 Player|195154246"] = "23542|1704835660|0|1",
+				},
+				["BossKills"] = {
+					["Vault of Archavon 10 Player|195154246"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
+				},
+				["lastUpdate"] = 1704835660,
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1704715742,
+				["DungeonIDs"] = {
+					["Icecrown Citadel 25 Player|195125720"] = "22869|1704836330|0|1",
+				},
+				["BossKills"] = {
+					["Icecrown Citadel 25 Player|195125720"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+				},
+				["lastUpdate"] = 1704836330,
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["lastUpdate"] = 1703190968,
@@ -25,8 +55,8 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Alsia"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 10 Player (Heroic)|195102898"] = "143425|1704715774|0|1",
-					["Icecrown Citadel 25 Player|194988001"] = "143425|1704715774|0|1",
+					["Icecrown Citadel 10 Player (Heroic)|195102898"] = "109785|1704749416|0|1",
+					["Icecrown Citadel 25 Player|194988001"] = "109785|1704749416|0|1",
 				},
 				["BossKills"] = {
 					["Icecrown Citadel 10 Player (Heroic)|195102898"] = {
@@ -58,12 +88,11 @@ DataStore_AgendaDB = {
 						"The Lich King|1", -- [12]
 					},
 				},
-				["lastUpdate"] = 1704715774,
+				["lastUpdate"] = 1704749416,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["DungeonIDs"] = {
 					["Icecrown Citadel 25 Player|195023576"] = "154818|1704704381|0|1",
-					["The Forge of Souls Heroic|281720258"] = "68418|1704704381|0|0",
 				},
 				["BossKills"] = {
 					["Icecrown Citadel 25 Player|195023576"] = {
@@ -89,11 +118,12 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["DungeonIDs"] = {
-					["Vault of Archavon 10 Player|195116122"] = "138191|1704721009|0|1",
-					["Icecrown Citadel 10 Player (Heroic)|195102898"] = "138191|1704721009|0|1",
-					["Vault of Archavon 25 Player|195067058"] = "138191|1704721009|0|1",
-					["The Forge of Souls Heroic|281719499"] = "51791|1704721009|0|0",
-					["Ulduar 10 Player|195115700"] = "138191|1704721009|0|1",
+					["Vault of Archavon 10 Player|195116122"] = "17098|1704842101|0|1",
+					["Icecrown Citadel 10 Player (Heroic)|195102898"] = "17098|1704842101|0|1",
+					["Trial of the Crusader 25 Player (Heroic)|195174362"] = "17098|1704842101|0|1",
+					["The Forge of Souls Heroic|281828865"] = "17098|1704842101|0|0",
+					["Vault of Archavon 25 Player|195067058"] = "17098|1704842101|0|1",
+					["Ulduar 10 Player|195115700"] = "17098|1704842101|0|1",
 				},
 				["BossKills"] = {
 					["Vault of Archavon 10 Player|195116122"] = {
@@ -116,15 +146,22 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"The Lich King|0", -- [12]
 					},
+					["Trial of the Crusader 25 Player (Heroic)|195174362"] = {
+						"Northrend Beasts|1", -- [1]
+						"Lord Jaraxxus|1", -- [2]
+						"Faction Champions|1", -- [3]
+						"Val'kyr Twins|1", -- [4]
+						"Anub'arak|1", -- [5]
+					},
+					["The Forge of Souls Heroic|281828865"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
+					},
 					["Vault of Archavon 25 Player|195067058"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["The Forge of Souls Heroic|281719499"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
 					},
 					["Ulduar 10 Player|195115700"] = {
 						"Flame Leviathan|1", -- [1]
@@ -143,7 +180,7 @@ DataStore_AgendaDB = {
 						"Algalon the Observer|0", -- [14]
 					},
 				},
-				["lastUpdate"] = 1704721009,
+				["lastUpdate"] = 1704842101,
 			},
 		},
 	},

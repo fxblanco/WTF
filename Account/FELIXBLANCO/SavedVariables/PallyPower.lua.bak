@@ -14,18 +14,12 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["freeassign"] = true,
 			["cBuffGood"] = {
 				["b"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["r"] = 0.2,
-			},
-			["skin"] = "ElvUI Blank",
-			["cBuffNeedAll"] = {
-				["b"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
@@ -33,15 +27,21 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["seal"] = 9,
-			["display"] = {
-				["buffDuration"] = false,
-				["offsetX"] = -101.1990203857422,
-				["offsetY"] = -308.2001342773438,
+			["cBuffNeedAll"] = {
+				["b"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["r"] = 0.5,
 			},
-			["freeassign"] = true,
 			["enable"] = true,
 			["border"] = "None",
+			["skin"] = "ElvUI Blank",
 			["WrathTransition"] = true,
+			["display"] = {
+				["buffDuration"] = false,
+				["offsetY"] = -308.2001342773438,
+				["offsetX"] = -101.1990203857422,
+			},
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
 				["t"] = 0.7,
@@ -52,13 +52,6 @@ PallyPowerDB = {
 			["rf"] = true,
 		},
 		["Other"] = {
-			["WrathTransition"] = true,
-			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
-				["t"] = 0.7,
-				["g"] = 0.5,
-				["b"] = 0.5,
-			},
 			["cBuffNeedAll"] = {
 				["r"] = 0.5,
 				["t"] = 0.7,
@@ -70,13 +63,20 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["enable"] = true,
+			["cBuffNeedSpecial"] = {
+				["r"] = 0.5,
+				["t"] = 0.7,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
 			["cBuffGood"] = {
 				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
 				["b"] = 0.2,
 			},
-			["enable"] = true,
+			["WrathTransition"] = true,
 		},
 	},
 }
@@ -335,6 +335,8 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
+	["Beesportz"] = {
+	},
 }
 PallyPower_AuraAssignments = {
 	["Palatrut"] = 0,
@@ -570,9 +572,9 @@ PallyPower_AuraAssignments = {
 	["Jzuzcrst"] = 0,
 	["Towild"] = 0,
 	["Xenapa"] = 0,
-	["Alsía"] = 2,
+	["Eríona"] = 0,
 	["Ivili"] = 3,
-	["Berghaini"] = 0,
+	["Alsía"] = 2,
 	["Palajazu"] = 1,
 	["Simicolon"] = 0,
 	["Maryilin"] = 0,
@@ -654,7 +656,7 @@ PallyPower_AuraAssignments = {
 	["Sqx"] = 2,
 	["Helyo"] = 0,
 	["Zeolona"] = 0,
-	["Eríona"] = 0,
+	["Berghaini"] = 0,
 	["Shixqtx"] = 0,
 	["Sérax"] = 1,
 	["Futschas"] = 0,
@@ -705,7 +707,6 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil

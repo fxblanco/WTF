@@ -9,21 +9,14 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["Vault of Archavon 25 Player|195115682"] = "145466|1704713734|0|1",
-					["The Forge of Souls Heroic|281723646"] = "59066|1704713734|0|0",
-					["Ulduar 10 Player|195115700"] = "145466|1704713734|0|1",
+					["Ulduar 10 Player|195115700"] = "16925|1704842275|0|1",
+					["Icecrown Citadel 10 Player|195137924"] = "16925|1704842275|0|1",
+					["Vault of Archavon 25 Player|195115682"] = "16925|1704842275|0|1",
+					["Vault of Archavon 10 Player|195154246"] = "16925|1704842275|0|1",
+					["The Forge of Souls Heroic|281830404"] = "16925|1704842275|0|0",
+					["Pit of Saron Heroic|281832588"] = "16925|1704842275|0|0",
 				},
 				["BossKills"] = {
-					["Vault of Archavon 25 Player|195115682"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
-					},
-					["The Forge of Souls Heroic|281723646"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
-					},
 					["Ulduar 10 Player|195115700"] = {
 						"Flame Leviathan|1", -- [1]
 						"Ignis the Furnace Master|0", -- [2]
@@ -40,14 +33,49 @@ DataStore_AgendaDB = {
 						"Yogg-Saron|0", -- [13]
 						"Algalon the Observer|0", -- [14]
 					},
+					["Icecrown Citadel 10 Player|195137924"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+					["Vault of Archavon 25 Player|195115682"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
+					["Vault of Archavon 10 Player|195154246"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
+					["The Forge of Souls Heroic|281830404"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
+					},
+					["Pit of Saron Heroic|281832588"] = {
+						"Forgemaster Garfrost|1", -- [1]
+						"Krick|1", -- [2]
+						"Overlrod Tyrannus|1", -- [3]
+					},
 				},
-				["lastUpdate"] = 1704713734,
+				["lastUpdate"] = 1704842275,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1704709533,
+				["lastUpdate"] = 1704838531,
 			},
 		},
 	},

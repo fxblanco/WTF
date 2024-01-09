@@ -12,12 +12,12 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1704497058,
+				["lastUpdate"] = 1704835659,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|5|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|2|341", -- [4]
+					"1|Emblem of Frost|4|341", -- [4]
 					"1|Emblem of Heroism|8|101", -- [5]
 					"1|Emblem of Triumph|19|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
@@ -25,7 +25,7 @@ DataStore_CurrenciesDB = {
 					"0|Miscellaneous", -- [9]
 					"1|Champion's Seal|1|241", -- [10]
 					"0|Player vs. Player", -- [11]
-					"1|Honor Points|3479|1901", -- [12]
+					"1|Honor Points|3639|1901", -- [12]
 					"1|Stone Keeper's Shard|15|161", -- [13]
 					"1|Venture Coin|54|201", -- [14]
 				},
@@ -35,9 +35,9 @@ DataStore_CurrenciesDB = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|8|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|95|341", -- [4]
+					"1|Emblem of Frost|130|341", -- [4]
 					"1|Emblem of Heroism|8|101", -- [5]
-					"1|Emblem of Triumph|0|301", -- [6]
+					"1|Emblem of Triumph|5|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
 					"1|Sidereal Essence|5|2589", -- [8]
 					"0|Miscellaneous", -- [9]
@@ -48,7 +48,7 @@ DataStore_CurrenciesDB = {
 					"1|Venture Coin|124|201", -- [14]
 					"1|Wintergrasp Mark of Honor|1|126", -- [15]
 				},
-				["lastUpdate"] = 1704715622,
+				["lastUpdate"] = 1704835765,
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["lastUpdate"] = 1703190969,
@@ -92,7 +92,7 @@ DataStore_CurrenciesDB = {
 					"1|Venture Coin|34|201", -- [18]
 					"1|Wintergrasp Mark of Honor|4|126", -- [19]
 				},
-				["lastUpdate"] = 1704715774,
+				["lastUpdate"] = 1704749415,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["Currencies"] = {
@@ -113,19 +113,19 @@ DataStore_CurrenciesDB = {
 			["Default.Venoxis.Khalimmortus"] = {
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|7|2711", -- [2]
-					"1|Emblem of Frost|9|341", -- [3]
+					"1|Defiler's Scourgestone|9|2711", -- [2]
+					"1|Emblem of Frost|14|341", -- [3]
 					"1|Emblem of Heroism|12|101", -- [4]
-					"1|Emblem of Triumph|39|301", -- [5]
+					"1|Emblem of Triumph|66|301", -- [5]
 					"0|Miscellaneous", -- [6]
 					"1|Champion's Seal|3|241", -- [7]
 					"0|Player vs. Player", -- [8]
 					"1|Honor Points|8180|1901", -- [9]
-					"1|Stone Keeper's Shard|59|161", -- [10]
+					"1|Stone Keeper's Shard|67|161", -- [10]
 					"1|Venture Coin|124|201", -- [11]
 					"1|Wintergrasp Mark of Honor|8|126", -- [12]
 				},
-				["lastUpdate"] = 1704721008,
+				["lastUpdate"] = 1704841820,
 			},
 		},
 	},

@@ -12,7 +12,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1704497058,
+				["lastUpdate"] = 1704835657,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -116,7 +116,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1704715622,
+				["lastUpdate"] = 1704835763,
 				["Spells"] = {
 					["Allgemein"] = {
 						"51304|Großmeister", -- [1]
@@ -149,10 +149,17 @@ DataStore_SpellsDB = {
 					["General"] = {
 						"6603|", -- [1]
 						"818|", -- [2]
-						"54197|Passive", -- [3]
-						"81|Passive", -- [4]
-						"51306|Grand Master", -- [5]
-						"20222|", -- [6]
+						"20557|Racial Passive", -- [3]
+						"26297|Racial", -- [4]
+						"26290|Racial Passive", -- [5]
+						"54197|Passive", -- [6]
+						"58943|Racial Passive", -- [7]
+						"81|Passive", -- [8]
+						"51306|Grand Master", -- [9]
+						"20222|", -- [10]
+						"20555|Racial Passive", -- [11]
+						"5019|", -- [12]
+						"20558|Racial Passive", -- [13]
 					},
 					["Arcane"] = {
 						"43017|Rank 7", -- [1]
@@ -438,7 +445,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1704715774,
+				["lastUpdate"] = 1704749415,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -684,7 +691,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1704721008,
+				["lastUpdate"] = 1704841977,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
