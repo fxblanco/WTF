@@ -52,10 +52,10 @@ GDKPd_DB = {
 				["relative"] = "RIGHT",
 			},
 			["point"] = {
-				["y"] = -216.9057006835938,
+				["y"] = -216.9999389648438,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -546.1885375976562,
+				["x"] = -546.0000610351562,
 			},
 			["auctionTimerRefresh"] = 10,
 			["startBid"] = 3000,
@@ -142,7 +142,5 @@ GDKPd_PotData = {
 	["prevDist"] = 49555,
 }
 GDKPd_BalanceData = {
-	["Vonti"] = 0,
-	["Crimzonhunt"] = 0,
-	["Crimzøn"] = 0,
+	["Güllegodoy"] = 0,
 }

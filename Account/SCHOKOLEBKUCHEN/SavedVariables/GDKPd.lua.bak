@@ -142,6 +142,7 @@ GDKPd_PotData = {
 	["prevDist"] = 49555,
 }
 GDKPd_BalanceData = {
+	["Khalimmortus"] = -1111,
 	["Crimzøn"] = 0,
 	["Crimzonhunt"] = 0,
 	["Vonti"] = 0,

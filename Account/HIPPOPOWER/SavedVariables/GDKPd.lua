@@ -5,6 +5,7 @@ GDKPd_DB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Andrés - Transcendence"] = "Andrés - Transcendence",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
@@ -72,6 +73,8 @@ GDKPd_DB = {
 				["x"] = -227.9994049072266,
 			},
 		},
+		["Pippop - Venoxis"] = {
+		},
 		["Andrés - Transcendence"] = {
 		},
 		["Andrés - Venoxis"] = {
@@ -129,12 +132,6 @@ GDKPd_DB = {
 			["increment"] = 500,
 		},
 		["Khalimmortus - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -69.01875305175781,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -357.347900390625,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 198.3747711181641,
 				["relative"] = "BOTTOMRIGHT",
@@ -148,13 +145,19 @@ GDKPd_DB = {
 				["x"] = 79.50005340576172,
 			},
 			["startBid"] = 2000,
-			["increment"] = 400,
 			["statuspoint"] = {
 				["y"] = -295.2457580566406,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -354.6324768066406,
 			},
+			["balancepoint"] = {
+				["y"] = -69.01875305175781,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -357.347900390625,
+			},
+			["increment"] = 400,
 		},
 		["Alsia - Venoxis"] = {
 			["itemLevelPricing"] = {

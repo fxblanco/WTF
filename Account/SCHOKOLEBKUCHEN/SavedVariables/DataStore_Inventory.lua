@@ -6,7 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1704586270,
+				["lastUpdate"] = 1705100119,
 				["averageItemLvl"] = 269.8125,
 				["overallAIL"] = 271.3125,
 				["Inventory"] = {
@@ -26,9 +26,8 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [14]
 					"|cffa335ee|Hitem:50628:3722:40155::::::80:::::::::|h[Frostbinder's Shredded Cape]|h|r", -- [15]
 					"|cffa335ee|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[Dying Light]|h|r", -- [16]
-					nil, -- [17]
-					"|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r", -- [18]
-					"|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r", -- [19]
+					[18] = "|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r",
+					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r",
 				},
 			},
 		},
@@ -36,7 +35,7 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 266,
+						["averageItemLvl"] = 267,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 258,
@@ -48,19 +47,19 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 249,
 					},
 					["Andrés"] = {
-						["averageItemLvl"] = 268,
+						["averageItemLvl"] = 269,
 					},
 					["Maturitass"] = {
 						["averageItemLvl"] = 245,
 					},
 					["Khalimmortus"] = {
-						["averageItemLvl"] = 232,
+						["averageItemLvl"] = 252,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
 					["Exonuklease"] = {
-						["averageItemLvl"] = 269,
+						["averageItemLvl"] = 270,
 					},
 				},
 			},

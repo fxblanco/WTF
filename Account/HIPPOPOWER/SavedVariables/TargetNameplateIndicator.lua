@@ -5,7 +5,9 @@ TargetNameplateIndicatorDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Pjanic - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
+		["Lesbenlisa - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
@@ -26,6 +28,15 @@ TargetNameplateIndicatorDB = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonRedArrow",
 				},
 			},
+			["targettarget"] = {
+				["enable"] = false,
+				["friendly"] = {
+					["enable"] = false,
+				},
+				["self"] = {
+					["enable"] = false,
+				},
+			},
 			["mouseover"] = {
 				["self"] = {
 					["enable"] = false,
@@ -37,15 +48,6 @@ TargetNameplateIndicatorDB = {
 				},
 				["hostile"] = {
 					["texture"] = "Interface\\AddOns\\TargetNameplateIndicator\\Textures\\NeonGreenArrow",
-				},
-			},
-			["targettarget"] = {
-				["enable"] = false,
-				["friendly"] = {
-					["enable"] = false,
-				},
-				["self"] = {
-					["enable"] = false,
 				},
 			},
 			["focus"] = {

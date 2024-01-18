@@ -3,11 +3,12 @@ LoggerHeadNDB = {
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
-		["Pjanic - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Pippop - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Pjanic - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {

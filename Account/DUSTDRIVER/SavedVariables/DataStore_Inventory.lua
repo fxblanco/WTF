@@ -31,7 +31,7 @@ DataStore_InventoryDB = {
 				},
 				["averageItemLvl"] = 256.4375,
 				["overallAIL"] = 260.0625,
-				["lastUpdate"] = 1704842275,
+				["lastUpdate"] = 1705529183,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -84,7 +84,7 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Khalimmortus"] = {
-						["averageItemLvl"] = 240,
+						["averageItemLvl"] = 242,
 					},
 					["Khemval"] = {
 						["averageItemLvl"] = 242,

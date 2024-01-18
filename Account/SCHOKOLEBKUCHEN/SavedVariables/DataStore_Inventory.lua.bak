@@ -6,8 +6,8 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1704326806,
-				["averageItemLvl"] = 269.8125,
+				["lastUpdate"] = 1704910083,
+				["averageItemLvl"] = 270.5625,
 				["overallAIL"] = 271.3125,
 				["Inventory"] = {
 					"|cffa335ee|Hitem:51208:3820:41285:40133:::::80:::::::::|h[Sanctified Dark Coven Hood]|h|r", -- [1]
@@ -22,12 +22,13 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:50663:3604:::::::80:::::::::|h[Gunship Captain's Mittens]|h|r", -- [10]
 					"|cffa335ee|Hitem:50714::40133::::::80:::::::::|h[Valanar's Other Signet Ring]|h|r", -- [11]
 					"|cffa335ee|Hitem:50398::40155::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [12]
-					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Flare of the Heavens]|h|r", -- [13]
+					"|cffa335ee|Hitem:50345::::::::80:::::::::|h[Muradin's Spyglass]|h|r", -- [13]
 					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [14]
 					"|cffa335ee|Hitem:50628:3722:40155::::::80:::::::::|h[Frostbinder's Shredded Cape]|h|r", -- [15]
 					"|cffa335ee|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[Dying Light]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r",
-					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r",
+					nil, -- [17]
+					"|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r", -- [18]
+					"|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r", -- [19]
 				},
 			},
 		},
@@ -35,19 +36,19 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 263,
+						["averageItemLvl"] = 266,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 258,
 					},
 					["Alsía"] = {
-						["averageItemLvl"] = 243,
+						["averageItemLvl"] = 265,
 					},
 					["Xolem"] = {
 						["averageItemLvl"] = 249,
 					},
 					["Andrés"] = {
-						["averageItemLvl"] = 265,
+						["averageItemLvl"] = 269,
 					},
 					["Maturitass"] = {
 						["averageItemLvl"] = 245,
@@ -59,7 +60,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 258,
 					},
 					["Khalimmortus"] = {
-						["averageItemLvl"] = 59,
+						["averageItemLvl"] = 242,
 					},
 				},
 			},

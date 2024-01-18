@@ -9,67 +9,40 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["Ulduar 10 Player|195115700"] = "16925|1704842275|0|1",
-					["Icecrown Citadel 10 Player|195137924"] = "16925|1704842275|0|1",
-					["Vault of Archavon 25 Player|195115682"] = "16925|1704842275|0|1",
-					["Vault of Archavon 10 Player|195154246"] = "16925|1704842275|0|1",
-					["The Forge of Souls Heroic|281830404"] = "16925|1704842275|0|0",
-					["Pit of Saron Heroic|281832588"] = "16925|1704842275|0|0",
+					["Vault of Archavon 25 Player|195435019"] = "539147|1705529652|0|1",
+					["Naxxramas 10 Player|195435371"] = "539147|1705529652|0|1",
+					["The Forge of Souls Heroic|282700516"] = "20747|1705529652|0|0",
 				},
 				["BossKills"] = {
-					["Ulduar 10 Player|195115700"] = {
-						"Flame Leviathan|1", -- [1]
-						"Ignis the Furnace Master|0", -- [2]
-						"Razorscale|0", -- [3]
-						"XT-002 Deconstructor|1", -- [4]
-						"The Iron Council|0", -- [5]
-						"Kologarn|0", -- [6]
-						"Auriaya|0", -- [7]
-						"Hodir|0", -- [8]
-						"Thorim|0", -- [9]
-						"Freya|0", -- [10]
-						"Mimiron|0", -- [11]
-						"General Vezax|0", -- [12]
-						"Yogg-Saron|0", -- [13]
-						"Algalon the Observer|0", -- [14]
-					},
-					["Icecrown Citadel 10 Player|195137924"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|1", -- [5]
-						"Rotface|1", -- [6]
-						"Professor Putricide|1", -- [7]
-						"Blood Council|1", -- [8]
-						"Queen Lana'thel|1", -- [9]
-						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"The Lich King|1", -- [12]
-					},
-					["Vault of Archavon 25 Player|195115682"] = {
+					["Vault of Archavon 25 Player|195435019"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
-					["Vault of Archavon 10 Player|195154246"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
+					["Naxxramas 10 Player|195435371"] = {
+						"Anub'Rekhan|1", -- [1]
+						"Grand Widow Faerlina|0", -- [2]
+						"Maexxna|0", -- [3]
+						"Noth the Plaguebringer|0", -- [4]
+						"Heigan the Unclean|0", -- [5]
+						"Loatheb|0", -- [6]
+						"Instructor Razuvious|0", -- [7]
+						"Gothik the Harvester|0", -- [8]
+						"The Four Horsemen|0", -- [9]
+						"Patchwerk|0", -- [10]
+						"Grobbulus|0", -- [11]
+						"Gluth|0", -- [12]
+						"Thaddius|0", -- [13]
+						"Sapphiron|0", -- [14]
+						"Kel'Thuzad|0", -- [15]
 					},
-					["The Forge of Souls Heroic|281830404"] = {
+					["The Forge of Souls Heroic|282700516"] = {
 						"Bronjahm|1", -- [1]
 						"Devourer of Souls|1", -- [2]
 					},
-					["Pit of Saron Heroic|281832588"] = {
-						"Forgemaster Garfrost|1", -- [1]
-						"Krick|1", -- [2]
-						"Overlrod Tyrannus|1", -- [3]
-					},
 				},
-				["lastUpdate"] = 1704842275,
+				["lastUpdate"] = 1705529652,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,

@@ -71,18 +71,6 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Bremskyle"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
-	},
 	["Fanga"] = {
 		3, -- [1]
 		3, -- [2]
@@ -94,6 +82,18 @@ PallyPower_Assignments = {
 		3, -- [8]
 		3, -- [9]
 		3, -- [10]
+	},
+	["Bremskyle"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
 	},
 	["Beesportz"] = {
 		2, -- [1]
@@ -111,12 +111,15 @@ PallyPower_Assignments = {
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
+	["Blackace"] = 1,
 	["Bosanyr"] = 6,
 	["Transhorsti"] = 6,
 	["Bánu"] = 1,
 	["Diggii"] = 1,
+	["Otway"] = 6,
 	["Avêss"] = 6,
 	["Tagirx"] = 1,
+	["Nefertâri"] = 0,
 	["Lorthasx"] = 2,
 	["Retardedqt"] = 6,
 	["Kolberg"] = 0,

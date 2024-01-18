@@ -6,16 +6,17 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1704586270,
+				["lastUpdate"] = 1705100119,
 				["HistorySize"] = 1242,
-				["HistoryLastUpdate"] = 1704585817,
+				["HistoryLastUpdate"] = 1705095929,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
 					"|cffffff00|Hquest:24872:80|h[Respite for a Tormented Soul]|h|r", -- [3]
 					"|cffffff00|Hquest:13604:80|h[Archivum Data Disc]|h|r", -- [4]
 					"|cff808080|Hquest:5202:55|h[A Strange Red Key]|h|r", -- [5]
-					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [6]
+					"|cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r", -- [6]
+					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [7]
 				},
 				["HistoryBuild"] = "52237",
 				["Money"] = {
@@ -24,7 +25,8 @@ DataStore_QuestsDB = {
 					560600, -- [3]
 					420600, -- [4]
 					4950, -- [5]
-					3300, -- [6]
+					442500, -- [6]
+					3300, -- [7]
 				},
 				["Rewards"] = {
 					[3] = "r|52006|1|1",
@@ -35,7 +37,8 @@ DataStore_QuestsDB = {
 					"Respite for a Tormented Soul", -- [3]
 					"Archivum Data Disc", -- [4]
 					"A Strange Red Key", -- [5]
-					"Hot and Itchy", -- [6]
+					"The Twilight Destroyer", -- [6]
+					"Hot and Itchy", -- [7]
 				},
 				["QuestTags"] = {
 					85, -- [1]
@@ -43,6 +46,7 @@ DataStore_QuestsDB = {
 					88, -- [3]
 					88, -- [4]
 					"COMPLETED", -- [5]
+					62, -- [6]
 				},
 				["History"] = {
 					25166084, -- [1]
@@ -82,6 +86,7 @@ DataStore_QuestsDB = {
 					[375] = 2181496354,
 					[391] = 528483142,
 					[204] = 100663424,
+					[813] = 536870912,
 					[296] = 67108998,
 					[312] = 3258222368,
 					[328] = 36864,
@@ -270,7 +275,8 @@ DataStore_QuestsDB = {
 					"Icecrown Citadel", -- [2]
 					"Ulduar", -- [3]
 					"Felwood", -- [4]
-					"Warlock", -- [5]
+					"The Ruby Sanctum", -- [5]
+					"Warlock", -- [6]
 				},
 				["Quests"] = {
 					5244994, -- [1]
@@ -278,7 +284,8 @@ DataStore_QuestsDB = {
 					5247040, -- [3]
 					5249089, -- [4]
 					3612737, -- [5]
-					3418176, -- [6]
+					5384256, -- [6]
+					3420224, -- [7]
 				},
 			},
 		},

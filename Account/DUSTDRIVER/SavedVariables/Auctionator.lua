@@ -34,8 +34,8 @@ AUCTIONATOR_CONFIG = {
 		["Bidder"] = true,
 		["Undercut Price"] = true,
 		["Items Ahead"] = false,
-		["Stack Price"] = true,
 		["Vorstehende Gegenstände"] = false,
+		["Stack Price"] = true,
 		["Unterbotener Preis"] = true,
 		["Bieter"] = true,
 		["Undercut?"] = false,
@@ -64,26 +64,26 @@ AUCTIONATOR_CONFIG = {
 	["undercut_items_ahead"] = 0,
 	["undercut_percentage"] = 0,
 	["columns_posting_history"] = {
-		["Datum"] = false,
-		["Quantity"] = false,
 		["Bid Price"] = true,
+		["Quantity"] = false,
+		["Datum"] = false,
 		["Preis/Einheit"] = false,
-		["Date"] = false,
+		["Gebotspreis"] = true,
 		["Unit Price"] = false,
 		["Menge"] = false,
-		["Gebotspreis"] = true,
+		["Date"] = false,
 	},
 	["mill_tooltips"] = false,
 	["selling_missing_favourites"] = true,
 	["selling_always_load_more"] = false,
 	["columns_buying_historical_prices"] = {
 		["Oberer Stückpreis"] = true,
-		["Unit Price"] = false,
-		["Datum"] = false,
-		["Available"] = false,
-		["Date"] = false,
 		["Preis/Einheit"] = false,
+		["Datum"] = false,
 		["Upper Unit Price"] = true,
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Available"] = false,
 		["Verfügbar"] = false,
 	},
 	["selling_post_shortcut"] = "SPACE",
@@ -110,6 +110,7 @@ AUCTIONATOR_CONFIG = {
 	["stack_size_memory"] = {
 	},
 	["selling_confirm_low_price"] = true,
+	["selling_allow_global_quantity_override"] = true,
 	["selling_groups_settings"] = {
 	},
 	["selling_ignore_item_level"] = false,
@@ -127,12 +128,12 @@ AUCTIONATOR_CONFIG = {
 	["selling_post_stack_remainder"] = false,
 	["columns_shopping_historical_prices"] = {
 		["Oberer Stückpreis"] = true,
-		["Unit Price"] = false,
-		["Datum"] = false,
-		["Available"] = false,
-		["Date"] = false,
 		["Preis/Einheit"] = false,
+		["Datum"] = false,
 		["Upper Unit Price"] = true,
+		["Date"] = false,
+		["Unit Price"] = false,
+		["Available"] = false,
 		["Verfügbar"] = false,
 	},
 	["undercut_static_value"] = 1,
@@ -646,16 +647,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 1199988,
 		},
-		["8067"] = {
+		["41611"] = {
 			["a"] = {
-				[1458] = 1760,
 			},
 			["l"] = {
 			},
+			["m"] = 276227,
 			["h"] = {
-				[1458] = 17,
 			},
-			["m"] = 17,
 		},
 		["36913"] = {
 			["a"] = {
@@ -825,23 +824,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 		},
-		["2970"] = {
+		["33568"] = {
 			["a"] = {
-				[1468] = 1,
 			},
 			["l"] = {
 			},
+			["m"] = 3982,
 			["h"] = {
-				[1468] = 6663,
 			},
-			["m"] = 6663,
 		},
-		["17683"] = {
+		["40675"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 29996,
+			["m"] = 1615499,
 			["h"] = {
 			},
 		},
@@ -856,21 +853,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 66,
 		},
-		["40675"] = {
+		["17683"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 1615499,
+			["m"] = 29996,
 			["h"] = {
 			},
 		},
-		["13491"] = {
+		["gn:6528:Spellbinder Robe:17"] = {
+			["a"] = {
+				[1468] = 1,
+			},
+			["l"] = {
+			},
+			["h"] = {
+				[1468] = 10000,
+			},
+			["m"] = 10000,
+		},
+		["38978"] = {
 			["a"] = {
 			},
 			["l"] = {
 			},
-			["m"] = 299983,
+			["m"] = 729996,
 			["h"] = {
 			},
 		},
@@ -880,15 +888,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["l"] = {
 			},
 			["m"] = 79999,
-			["h"] = {
-			},
-		},
-		["38978"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 729996,
 			["h"] = {
 			},
 		},
@@ -1006,25 +1005,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 		},
-		["gn:6528:Spellbinder Robe:17"] = {
+		["13491"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 299983,
+			["h"] = {
+			},
+		},
+		["2970"] = {
 			["a"] = {
 				[1468] = 1,
 			},
 			["l"] = {
 			},
 			["h"] = {
-				[1468] = 10000,
+				[1468] = 6663,
 			},
-			["m"] = 10000,
-		},
-		["33568"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 3982,
-			["h"] = {
-			},
+			["m"] = 6663,
 		},
 		["g:2970:16"] = {
 			["a"] = {
@@ -1091,14 +1090,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 		},
-		["41611"] = {
+		["8067"] = {
 			["a"] = {
+				[1458] = 1760,
 			},
 			["l"] = {
 			},
-			["m"] = 276227,
 			["h"] = {
+				[1458] = 17,
 			},
+			["m"] = 17,
 		},
 		["43102"] = {
 			["a"] = {
@@ -1180,12 +1181,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 }
 AUCTIONATOR_POSTING_HISTORY = {
 	["__dbversion"] = 1,
-	["2318"] = {
+	["23793"] = {
 		{
-			["price"] = 1161,
-			["quantity"] = 5,
-			["time"] = 1691883548,
+			["price"] = 111098,
+			["quantity"] = 36,
+			["time"] = 1691915023,
 		}, -- [1]
+		{
+			["price"] = 64998,
+			["quantity"] = 16,
+			["time"] = 1692310677,
+		}, -- [2]
 	},
 	["21887"] = {
 		{
@@ -1241,17 +1247,12 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1691883562,
 		}, -- [1]
 	},
-	["23793"] = {
+	["2318"] = {
 		{
-			["price"] = 111098,
-			["quantity"] = 36,
-			["time"] = 1691915023,
+			["price"] = 1161,
+			["quantity"] = 5,
+			["time"] = 1691883548,
 		}, -- [1]
-		{
-			["price"] = 64998,
-			["quantity"] = 16,
-			["time"] = 1692310677,
-		}, -- [2]
 	},
 	["49908"] = {
 		{
@@ -1267,11 +1268,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1691750404,
 		}, -- [1]
 	},
-	["38558"] = {
+	["4304"] = {
 		{
-			["price"] = 16658,
-			["quantity"] = 40,
-			["time"] = 1692310682,
+			["price"] = 6587,
+			["quantity"] = 2,
+			["time"] = 1691883553,
 		}, -- [1]
 	},
 	["38557"] = {
@@ -1281,11 +1282,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1692310695,
 		}, -- [1]
 	},
-	["4304"] = {
+	["38558"] = {
 		{
-			["price"] = 6587,
-			["quantity"] = 2,
-			["time"] = 1691883553,
+			["price"] = 16658,
+			["quantity"] = 40,
+			["time"] = 1692310682,
 		}, -- [1]
 	},
 }

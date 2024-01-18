@@ -8,40 +8,40 @@ DataStore_QuestsDB = {
 			["Default.Venoxis.Exonuklease"] = {
 				["HistoryBuild"] = "52237",
 				["HistorySize"] = 1242,
-				["HistoryLastUpdate"] = 1704318430,
+				["HistoryLastUpdate"] = 1704909924,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
-					"|cffffff00|Hquest:24872:80|h[Respite for a Tormented Soul]|h|r", -- [3]
-					"|cffffff00|Hquest:13604:80|h[Archivum Data Disc]|h|r", -- [4]
-					"|cff808080|Hquest:5202:55|h[A Strange Red Key]|h|r", -- [5]
+					"|cff808080|Hquest:5202:55|h[A Strange Red Key]|h|r", -- [3]
+					"|cffffff00|Hquest:24872:80|h[Respite for a Tormented Soul]|h|r", -- [4]
+					"|cffffff00|Hquest:13604:80|h[Archivum Data Disc]|h|r", -- [5]
 					"|cff808080|Hquest:8420:52|h[Hot and Itchy]|h|r", -- [6]
 				},
-				["lastUpdate"] = 1704326806,
+				["lastUpdate"] = 1704910083,
 				["QuestHeaders"] = {
 					"Dalaran", -- [1]
-					"Icecrown Citadel", -- [2]
-					"Ulduar", -- [3]
-					"Felwood", -- [4]
+					"Felwood", -- [2]
+					"Icecrown Citadel", -- [3]
+					"Ulduar", -- [4]
 					"Warlock", -- [5]
 				},
 				["Rewards"] = {
-					[3] = "r|52006|1|1",
+					[4] = "r|52006|1|1",
 				},
 				["QuestTitles"] = {
 					"Proof of Demise: Threats to Azeroth", -- [1]
 					"Proof of Demise: Titan Rune Protocol Gamma", -- [2]
-					"Respite for a Tormented Soul", -- [3]
-					"Archivum Data Disc", -- [4]
-					"A Strange Red Key", -- [5]
+					"A Strange Red Key", -- [3]
+					"Respite for a Tormented Soul", -- [4]
+					"Archivum Data Disc", -- [5]
 					"Hot and Itchy", -- [6]
 				},
 				["QuestTags"] = {
 					85, -- [1]
 					85, -- [2]
-					88, -- [3]
+					"COMPLETED", -- [3]
 					88, -- [4]
-					"COMPLETED", -- [5]
+					88, -- [5]
 				},
 				["History"] = {
 					25166084, -- [1]
@@ -267,17 +267,17 @@ DataStore_QuestsDB = {
 				["Money"] = {
 					486600, -- [1]
 					486600, -- [2]
-					560600, -- [3]
-					420600, -- [4]
-					4950, -- [5]
+					4950, -- [3]
+					560600, -- [4]
+					420600, -- [5]
 					3300, -- [6]
 				},
 				["Quests"] = {
 					5244994, -- [1]
 					5244994, -- [2]
-					5247040, -- [3]
-					5249089, -- [4]
-					3612737, -- [5]
+					3608641, -- [3]
+					5249088, -- [4]
+					5251137, -- [5]
 					3418176, -- [6]
 				},
 			},

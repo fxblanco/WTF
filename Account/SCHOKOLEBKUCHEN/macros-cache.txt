@@ -1,5 +1,5 @@
 VER 3 0000000000000017 "111_" "134400"
-/1 LFM ICC 10 GDKP Trinketrun (Erste 4 HC) - Alles Gesucht! Wisp mit GS/Exp
+/4 LFM ICC 25 11/12 Dienstag 22:00 - GDKP 90/10 10k min bid, Shards presold - Anmeldung & Logs https://discord.gg/s4dK8Mjq
 END
 VER 3 000000000000000D "boots" "134400"
 #showtooltip

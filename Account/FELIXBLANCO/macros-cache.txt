@@ -1,33 +1,33 @@
-VER 3 00000000000003D4 "111_" "134400"
-/1 LFM ICC25er GDKP 90/11 Mittwoch 19:30 - Shards Pre Sold! Anmeldungen mit Logs/Exp unter https://discord.gg/e4csasaC
+VER 3 000000000000043C "111_" "134400"
+/2 ICC 10 GDKP (6-8hc) - Dienstag (Heute) 22:30 - Anmeldung mit Logs unter https://discord.gg/X38D4apW - Tank, PalaHeal, DD
 END
-VER 3 00000000000003D5 "Decursive" "134400"
+VER 3 000000000000043D "Decursive" "134400"
 /stopcasting
 /cast [@mouseover,nomod,exists] Reinigung des Glaubens;  [@mouseover,exists,mod:ctrl] Reinigung des Glaubens; [@mouseover,exists,mod:shift] Reinigung des Glaubens
 END
-VER 3 00000000000003D6 "Distanz" "134231"
+VER 3 000000000000043E "Distanz" "134231"
 /console cameraDistanceMaxZoomFactor 4
 END
-VER 3 00000000000003D7 "focus" "132097"
+VER 3 000000000000043F "focus" "132097"
 /focus
 END
-VER 3 00000000000003D8 "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000440 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 8
 END
-VER 3 00000000000003D9 "g_buy" "134400"
+VER 3 0000000000000441 "g_buy" "134400"
 /script BuyMerchantItem(1,500)
 END
-VER 3 00000000000003DA "g_focus_kick" "INV_Misc_QuestionMark"
+VER 3 0000000000000442 "g_focus_kick" "INV_Misc_QuestionMark"
 #showtooltip Windstoß
 /stopcasting
 /cast [@focus] Windstoß
 /cast Windstoß
 END
-VER 3 00000000000003DB "g_hände" "132959"
+VER 3 0000000000000443 "g_hände" "132959"
 /use 10
 END
-VER 3 00000000000003DC "g_Trinket" "INV_Misc_QuestionMark"
+VER 3 0000000000000444 "g_Trinket" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END

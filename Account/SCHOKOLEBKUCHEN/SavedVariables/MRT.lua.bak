@@ -19,15 +19,15 @@ VMRT = {
 		["Fix"] = true,
 		["ScaleBack"] = 0,
 		["Text1"] = " ",
-		["TimerPassedHide"] = true,
+		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 		["enabled"] = true,
-		["LastUpdateTime"] = 1701125966,
+		["Alpha"] = 50,
 		["SaveAllNew"] = true,
 		["LastUpdateName"] = "Exonuklease-Venoxis",
-		["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
+		["TimerPassedHide"] = true,
 		["Top"] = 614.5972290039062,
-		["Alpha"] = 50,
-		["Width"] = 231.9999542236328,
+		["LastUpdateTime"] = 1701125966,
+		["Width"] = 380.0000915527344,
 		["BlackLastUpdateName"] = {
 			"Alsia-Venoxis", -- [1]
 			[5] = "Alsia-Venoxis",
@@ -52,12 +52,13 @@ VMRT = {
 			" ", -- [7]
 		},
 		["EnableWhenReceive"] = true,
-		["Height"] = 156.9999694824219,
+		["Height"] = 211.0000152587891,
 		["FontSize"] = 12,
 		["Scale"] = 88,
 		["DefName"] = "Festergut",
 	},
 	["ProfileKeys"] = {
+		["Exonuklease-Venoxis"] = "default",
 		["Alsia-Venoxis"] = "Cow Classic",
 		["Fiesercousin-Venoxis"] = "default",
 		["Andrés-Transcendence"] = "default",
@@ -594,6 +595,8 @@ VMRT = {
 				"^1113^3^1700179685^87^1^10^262.92^", -- [5]
 			},
 			["Pjanic"] = {
+			},
+			["Exonuklease"] = {
 			},
 			["Alsia"] = {
 				"^744^175^1676230830^135^0^10^234.51^Habíb", -- [1]
@@ -2121,6 +2124,7 @@ VMRT = {
 			["Goldbeer"] = 0,
 			["Deusdominik"] = 0,
 			["Thondrius"] = 0,
+			["Raindropwlkr"] = 0,
 			["Talyna"] = 0,
 			["Mervy"] = 0,
 			["Aqinutwo"] = 0,
@@ -2137,10 +2141,14 @@ VMRT = {
 			["Softcrit"] = 0,
 			["Danunax"] = 0,
 			["Kaggbratzé"] = 0,
+			["Laek"] = 0,
 			["Domedonmaya"] = 0,
+			["Busybôy"] = 0,
 			["Rouge"] = 0,
+			["Sauresesa"] = 0,
 			["Smervsen"] = 0,
 			["Wretchy"] = 0,
+			["Zheryn"] = 0,
 			["Supersayajín"] = 0,
 			["Xeeli"] = 0,
 			["Mikirî"] = 0,
@@ -2208,7 +2216,7 @@ VMRT = {
 			["Delmonte"] = 0,
 			["Stinkerartur"] = 0,
 			["Côilla"] = 0,
-			["Sauresesa"] = 0,
+			["Hawknight"] = 0,
 			["Mjölnîr"] = 0,
 			["Hakkî"] = 0,
 			["Sayaná"] = 0,
@@ -2794,6 +2802,7 @@ VMRT = {
 			["ExCD2"] = {
 				["upd4525"] = true,
 				["enabled"] = true,
+				["Left"] = 200.9044342041,
 				["gnGUIDs"] = {
 					["Pipfresh"] = 0,
 					["Grombark"] = 0,
@@ -3060,7 +3069,7 @@ VMRT = {
 					["Smervy"] = 0,
 					["Mikirî"] = 0,
 				},
-				["Left"] = 200.9044342041,
+				["SplitOpt"] = true,
 				["Save"] = {
 				},
 				["CDECol"] = {
@@ -3084,11 +3093,11 @@ VMRT = {
 					["642;1"] = 6,
 					["6795;1"] = 4,
 					["20748;1"] = 1,
-					["62124;1"] = 4,
+					["47788;1"] = 3,
 					["9863;1"] = 4,
 					["64205;1"] = 2,
-					["47788;1"] = 3,
 					["3411;1"] = 3,
+					["62124;1"] = 4,
 					["45438;1"] = 4,
 					["10310;1"] = 3,
 					["12809;1"] = 5,
@@ -3120,7 +3129,7 @@ VMRT = {
 					["29166;1"] = 4,
 					["1044;1"] = 4,
 				},
-				["SplitOpt"] = true,
+				["upd4380"] = true,
 				["Top"] = 1027.5994873047,
 				["Profiles"] = {
 					["Now"] = "default",
@@ -3159,7 +3168,7 @@ VMRT = {
 						}, -- [4]
 					}, -- [3]
 				},
-				["upd4380"] = true,
+				["lock"] = true,
 				["colSet"] = {
 					{
 						["frameGeneral"] = true,
@@ -3644,10 +3653,10 @@ VMRT = {
 				["FlaskExp"] = 2,
 				["RCW_Mini"] = false,
 				["ReadyCheckFont"] = "Interface\\Addons\\Details\\fonts\\Accidental Presidency.ttf",
+				["ReadyCheckTop"] = 1258.398681640625,
 				["ReadyCheckSortClass"] = true,
 				["WeaponEnch"] = {
 				},
-				["ReadyCheckTop"] = 1258.398681640625,
 				["ReadyCheckFontSize"] = 19,
 				["ReadyCheckLeft"] = 1937.392211914063,
 			},
@@ -3794,6 +3803,7 @@ VMRT = {
 				["pulltimer_right"] = 10,
 				["Fix"] = true,
 				["pulltimer"] = 10,
+				["ShowOnHoverAlpha"] = 0,
 				["Show"] = {
 					true, -- [1]
 					true, -- [2]
@@ -3830,8 +3840,8 @@ VMRT = {
 				},
 				["LastUpdateName"] = "Takoball-Faerlina",
 				["Strata"] = "HIGH",
+				["Alpha"] = 100,
 				["LastUpdateTime"] = 1694750218,
-				["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 				["Width"] = 560,
 				["EnableWhenReceive"] = true,
 				["Top"] = 1442.5450439453,
@@ -3878,7 +3888,7 @@ VMRT = {
 					"Cownsecrate-Faerlina", -- [11]
 					"Cownsecrate-Faerlina", -- [12]
 				},
-				["Alpha"] = 100,
+				["FontName"] = "Interface\\AddOns\\ElvUI\\Core\\Media\\Fonts\\Expressway.ttf",
 				["BlackNames"] = {
 					"-Flame Leviathan-", -- [1]
 					"-Iron Council-", -- [2]
@@ -3930,22 +3940,22 @@ VMRT = {
 					["6940;1"] = 2,
 					["2062;1"] = 4,
 					["48707;1"] = 4,
-					["5384;1"] = 4,
 					["2894;1"] = 3,
+					["5384;1"] = 4,
 					["49576;1"] = 4,
 					["16190;1"] = 2,
 					["19801;1"] = 4,
 					["56222;1"] = 4,
-					["20608;1"] = 2,
-					["3411;1"] = 3,
+					["31884;1"] = 4,
 					["642;1"] = 6,
+					["20608;1"] = 2,
 					["6795;1"] = 4,
 					["46947;1"] = 1,
-					["31884;1"] = 4,
+					["62124;1"] = 4,
 					["9863;1"] = 4,
 					["64205;1"] = 3,
-					["62124;1"] = 4,
 					["47788;1"] = 3,
+					["3411;1"] = 3,
 					["45438;1"] = 4,
 					["10310;1"] = 3,
 					["12809;1"] = 5,
@@ -4560,16 +4570,16 @@ VMRT = {
 					[34477] = true,
 					[642] = true,
 					[31821] = true,
-					[10278] = true,
+					[6940] = true,
 					[20748] = true,
 					[29166] = true,
-					[1038] = true,
+					[33206] = true,
 					[57934] = true,
 					[46947] = true,
 					[64205] = true,
 					[47788] = true,
-					[33206] = true,
-					[6940] = true,
+					[1038] = true,
+					[10278] = true,
 				},
 				["OptFav"] = {
 				},
@@ -4592,10 +4602,10 @@ VMRT = {
 				["FlaskExp"] = 2,
 				["RCW_Mini"] = true,
 				["ReadyCheckFont"] = "Interface\\Addons\\Details\\fonts\\Accidental Presidency.ttf",
+				["ReadyCheckSortClass"] = true,
 				["WeaponEnch"] = {
 				},
 				["ReadyCheckTop"] = 1236.443359375,
-				["ReadyCheckSortClass"] = true,
 				["ReadyCheckFontSize"] = 19,
 				["ReadyCheckLeft"] = 1660.1083984375,
 			},

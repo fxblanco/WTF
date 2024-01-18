@@ -8,7 +8,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1704842275,
+				["lastUpdate"] = 1705529183,
 				["Class"] = "DRUID",
 				["PointsSpent"] = "0,55,16",
 				["TalentTrees"] = {
@@ -96,8 +96,8 @@ DataStore_TalentsDB = {
 					["Arms"] = {
 						3, -- [1]
 						[3] = 2,
-						[9] = 5,
 						[7] = 3,
+						[9] = 5,
 						[18] = 2,
 					},
 				},
@@ -434,9 +434,9 @@ DataStore_TalentsRefDB = {
 						[15] = "5|2",
 						[21] = "2|3",
 						[5] = "4|3",
-						[26] = "9|2",
-						[23] = "9|2",
 						[19] = "8|2",
+						[23] = "9|2",
+						[26] = "9|2",
 					},
 					["background"] = "DruidRestoration",
 				},
@@ -534,9 +534,9 @@ DataStore_TalentsRefDB = {
 						[15] = "5|2",
 						[21] = "2|3",
 						[5] = "4|3",
-						[26] = "9|2",
-						[23] = "9|2",
 						[19] = "8|2",
+						[23] = "9|2",
+						[26] = "9|2",
 					},
 					["background"] = "DruidRestoration",
 					["icon"] = 136041,

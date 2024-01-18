@@ -275,8 +275,8 @@ AtlasLootClassicDB = {
 			[45841] = "EmblemOfConquest:39",
 			[50456] = "EmblemOfFrost:30",
 			[50983] = "EmblemOfFrost:60",
-			[50969] = "EmblemOfFrost:95",
 			[50458] = "EmblemOfFrost:30",
+			[40749] = "EmblemOfValor:40",
 			[42002] = "EmblemOfHeroism:45",
 			[50357] = "EmblemOfFrost:60",
 			[40701] = "EmblemOfHeroism:35",
@@ -294,18 +294,18 @@ AtlasLootClassicDB = {
 			[47678] = "EmblemOfTriumph:75",
 			[47671] = "EmblemOfTriumph:25",
 			[47710] = "EmblemOfTriumph:45",
-			[50968] = "EmblemOfFrost:95",
+			[40748] = "EmblemOfValor:40",
 			[47295] = "DefilersScourgestone:38",
 			[40684] = "EmblemOfHeroism:40",
 			[47263] = "DefilersScourgestone:38",
-			[50457] = "EmblemOfFrost:30",
+			[50968] = "EmblemOfFrost:95",
 			[47806] = "EmblemOfTriumph:75",
 			[47311] = "DefilersScourgestone:38",
 			[47327] = "DefilersScourgestone:30",
 			[40700] = "EmblemOfHeroism:35",
 			[45826] = "EmblemOfConquest:28",
 			[45842] = "EmblemOfConquest:39",
-			[40748] = "EmblemOfValor:40",
+			[50457] = "EmblemOfFrost:30",
 			[50984] = "EmblemOfFrost:60",
 			[47687] = "EmblemOfTriumph:75",
 			[50355] = "EmblemOfFrost:60",
@@ -337,7 +337,7 @@ AtlasLootClassicDB = {
 			[45300] = "SiderealEssence:19",
 			[45827] = "EmblemOfConquest:28",
 			[45843] = "EmblemOfConquest:39",
-			[40749] = "EmblemOfValor:40",
+			[50969] = "EmblemOfFrost:95",
 			[50474] = "EmblemOfFrost:30",
 			[50974] = "EmblemOfFrost:95",
 			[50975] = "EmblemOfFrost:95",
@@ -406,7 +406,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"IcecrownCitadel", -- [2]
-					11, -- [3]
+					nil, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},

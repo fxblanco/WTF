@@ -144,8 +144,8 @@ ParrotDB = {
 						["Pet buff fades"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
-							["disabled"] = true,
+						["Loot items"] = {
+							["disabled"] = false,
 						},
 						["Loot money"] = {
 							["disabled"] = true,
@@ -159,8 +159,8 @@ ParrotDB = {
 						["Skill gains"] = {
 							["disabled"] = true,
 						},
-						["Loot items"] = {
-							["disabled"] = false,
+						["NPC killing blows"] = {
+							["disabled"] = true,
 						},
 						["Buff gains"] = {
 							["disabled"] = true,
@@ -177,7 +177,7 @@ ParrotDB = {
 						["Debuff gains"] = {
 							["disabled"] = true,
 						},
-						["NPC killing blows"] = {
+						["Enemy debuff gains"] = {
 							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
@@ -641,9 +641,9 @@ ParrotDB = {
 					["dbver3"] = 1,
 					["triggers"] = {
 						[1001] = {
+							["disabled"] = false,
 							["useflash"] = false,
 							["sound"] = "Sharp Punch",
-							["disabled"] = false,
 						},
 						[1003] = {
 							["disabled"] = true,
