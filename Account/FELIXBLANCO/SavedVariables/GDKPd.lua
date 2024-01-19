@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -14,6 +11,9 @@ GDKPd_DB = {
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
@@ -103,40 +103,34 @@ GDKPd_DB = {
 			["increment"] = 10,
 		},
 		["Alsía - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 55.43391799926758,
-				["x"] = 364.0752868652344,
-			},
-			["auctionTimer"] = 15,
-			["point"] = {
-				["y"] = -203.3772430419922,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -418.9801330566406,
-			},
-			["startBid"] = 5000,
-			["auctionTimerRefresh"] = 10,
 			["balancepoint"] = {
 				["y"] = 253.39599609375,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -280.3668518066406,
 			},
+			["auctionTimer"] = 15,
+			["playerbalancepoint"] = {
+				["y"] = 55.43391799926758,
+				["x"] = 364.0752868652344,
+			},
+			["point"] = {
+				["y"] = -203.3772430419922,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -418.9801330566406,
+			},
+			["auctionTimerRefresh"] = 10,
+			["startBid"] = 5000,
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 86.94361114501953,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -64.8211669921875,
 			},
-			["increment"] = 500,
 		},
 		["Khalimmortus - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -69.01875305175781,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -357.347900390625,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 198.3747711181641,
 				["relative"] = "BOTTOMRIGHT",
@@ -149,21 +143,27 @@ GDKPd_DB = {
 				["x"] = 129.471923828125,
 			},
 			["startBid"] = 2000,
-			["increment"] = 400,
 			["statuspoint"] = {
 				["y"] = -295.2457580566406,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -354.6324768066406,
 			},
+			["balancepoint"] = {
+				["y"] = -69.01875305175781,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -357.347900390625,
+			},
+			["increment"] = 400,
 		},
 		["Alsia - Venoxis"] = {
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["mininc"] = 500,
-					["max"] = 0,
 					["minbid"] = 2000,
+					["max"] = 0,
+					["mininc"] = 500,
 				}, -- [1]
 			},
 			["point"] = {
@@ -222,8 +222,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["startBid"] = 200,
 			["increment"] = 20,
+			["startBid"] = 200,
 		},
 	},
 }
@@ -677,5 +677,4 @@ GDKPd_PotData = {
 	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
-	["Beesportz"] = -9360,
 }

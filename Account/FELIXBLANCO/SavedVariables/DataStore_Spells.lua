@@ -511,7 +511,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705528927,
+				["lastUpdate"] = 1705620926,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -555,12 +555,16 @@ DataStore_SpellsDB = {
 						"818|", -- [4]
 						"107|Passive", -- [5]
 						"54197|Passive", -- [6]
-						"81|Passive", -- [7]
-						"51306|Grand Master", -- [8]
-						"3274|Journeyman", -- [9]
-						"20222|", -- [10]
-						"822|Racial Passive", -- [11]
-						"3127|Passive", -- [12]
+						"51296|Grand Master", -- [7]
+						"81|Passive", -- [8]
+						"51306|Grand Master", -- [9]
+						"3274|Journeyman", -- [10]
+						"7732|Expert", -- [11]
+						"20222|", -- [12]
+						"51311|Grand Master", -- [13]
+						"822|Racial Passive", -- [14]
+						"3127|Passive", -- [15]
+						"31252|", -- [16]
 					},
 					["Holy"] = {
 						"48936|Rank 9", -- [1]
@@ -667,7 +671,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705277380,
+				["lastUpdate"] = 1705618959,
 				["Spells"] = {
 					["Protection"] = {
 						"48827|Rank 5", -- [1]
@@ -727,9 +731,8 @@ DataStore_SpellsDB = {
 						"81|Passive", -- [6]
 						"51306|Grand Master", -- [7]
 						"20222|", -- [8]
-						"51302|Grand Master", -- [9]
-						"822|Racial Passive", -- [10]
-						"3127|Passive", -- [11]
+						"822|Racial Passive", -- [9]
+						"3127|Passive", -- [10]
 					},
 					["Retribution"] = {
 						"31884|", -- [1]

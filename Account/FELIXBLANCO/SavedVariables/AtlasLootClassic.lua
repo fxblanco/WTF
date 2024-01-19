@@ -757,7 +757,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"IcecrownCitadel", -- [2]
-					7, -- [3]
+					nil, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},

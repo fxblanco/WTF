@@ -5797,10 +5797,10 @@ ItemListsDB = {
 			"44135", -- [2]
 			"Greater Inscription of the Storm", -- [3]
 		},
-		[1702117307] = {
-			"Alsia", -- [1]
-			"44159", -- [2]
-			"Arcanum of Burning Mysteries", -- [3]
+		[1703674712] = {
+			"Alsía", -- [1]
+			"44115", -- [2]
+			"Wintergrasp Commendation", -- [3]
 		},
 		[1698532499] = {
 			"Ihr", -- [1]
@@ -5822,15 +5822,15 @@ ItemListsDB = {
 			"44115", -- [2]
 			"Wintergrasp Commendation", -- [3]
 		},
-		[1703674712] = {
-			"Alsía", -- [1]
-			"44115", -- [2]
-			"Wintergrasp Commendation", -- [3]
-		},
 		[1704917668] = {
 			"Khalimmortus", -- [1]
 			"44133", -- [2]
 			"Greater Inscription of the Axe", -- [3]
+		},
+		[1702117307] = {
+			"Alsia", -- [1]
+			"44159", -- [2]
+			"Arcanum of Burning Mysteries", -- [3]
 		},
 	},
 	["displayOS"] = true,

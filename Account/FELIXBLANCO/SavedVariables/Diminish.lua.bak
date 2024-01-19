@@ -1,11 +1,11 @@
 
 DiminishDB = {
 	["profileKeys"] = {
-		["Pjanic-Venoxis"] = "Default",
 		["Alsía-Venoxis"] = "Default",
+		["Andrés-Venoxis"] = "Default",
 		["Alsia-Venoxis"] = "Default",
 		["Xolem-Venoxis"] = "Default",
-		["Andrés-Venoxis"] = "Default",
+		["Pjanic-Venoxis"] = "Default",
 		["Kwasimojo-Venoxis"] = "Default",
 		["Khalimmortus-Venoxis"] = "Default",
 	},
@@ -13,7 +13,17 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["timerSwipe"] = true,
+			["trackNPCs"] = true,
+			["timerEdge"] = true,
+			["timerText"] = true,
+			["categoryTextMaxLines"] = 2,
+			["announceDRs"] = false,
+			["border"] = {
+				["edgeSize"] = 2.5,
+				["layer"] = "BORDER",
+				["name"] = "Default",
+				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
+			},
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -147,23 +157,13 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["timerColors"] = false,
-			["announceDRs"] = false,
-			["categoryTextMaxLines"] = 2,
-			["border"] = {
-				["edgeSize"] = 2.5,
-				["layer"] = "BORDER",
-				["name"] = "Default",
-				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
-			},
-			["timerEdge"] = true,
 			["version"] = "1.11",
 			["timerStartAuraEnd"] = false,
 			["showCategoryText"] = true,
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["trackNPCs"] = true,
-			["timerText"] = true,
+			["timerSwipe"] = true,
+			["timerColors"] = false,
 			["categoryFont"] = {
 				["size"] = 11,
 				["x"] = 0,

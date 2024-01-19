@@ -87,12 +87,12 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1705528524,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705528927,
+				["lastUpdate"] = 1705620926,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|0|2711", -- [2]
 					"1|Emblem of Conquest|1|221", -- [3]
-					"1|Emblem of Frost|419|341", -- [4]
+					"1|Emblem of Frost|449|341", -- [4]
 					"1|Emblem of Heroism|0|101", -- [5]
 					"1|Emblem of Triumph|35|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
@@ -100,7 +100,7 @@ DataStore_CurrenciesDB = {
 					"0|Miscellaneous", -- [9]
 					"1|Badge of Justice|34|42", -- [10]
 					"1|Champion's Seal|22|241", -- [11]
-					"1|Dalaran Jewelcrafter's Token|3|61", -- [12]
+					"1|Dalaran Jewelcrafter's Token|4|61", -- [12]
 					"1|Epicurean's Award|4|81", -- [13]
 					"0|Player vs. Player", -- [14]
 					"1|Arena Points|0|1900", -- [15]
@@ -111,18 +111,18 @@ DataStore_CurrenciesDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705277380,
+				["lastUpdate"] = 1705618960,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|15|2711", -- [2]
+					"1|Defiler's Scourgestone|19|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|105|341", -- [4]
-					"1|Emblem of Triumph|109|301", -- [5]
+					"1|Emblem of Frost|5|341", -- [4]
+					"1|Emblem of Triumph|119|301", -- [5]
 					"0|Miscellaneous", -- [6]
 					"1|Champion's Seal|5|241", -- [7]
 					"0|Player vs. Player", -- [8]
-					"1|Honor Points|5971|1901", -- [9]
-					"1|Stone Keeper's Shard|41|161", -- [10]
+					"1|Honor Points|1971|1901", -- [9]
+					"1|Stone Keeper's Shard|49|161", -- [10]
 					"1|Wintergrasp Mark of Honor|1|126", -- [11]
 				},
 			},

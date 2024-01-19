@@ -9,10 +9,10 @@ Grid2DB = {
 					["Holypalaswe-5man"] = {
 						{
 							["maxColumns"] = 1,
-							["groupBy"] = "ASSIGNEDROLE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "1",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupBy"] = "ASSIGNEDROLE",
+							["groupFilter"] = "1",
+							["unitsPerColumn"] = 5,
 						}, -- [1]
 						{
 							["maxColumns"] = 3,
@@ -22,28 +22,28 @@ Grid2DB = {
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 						}, -- [2]
 						["meta"] = {
-							["raid"] = true,
-							["party"] = true,
-							["solo"] = true,
 							["arena"] = true,
+							["raid"] = true,
+							["solo"] = true,
+							["party"] = true,
 						},
 					},
 					["holypalaswe-10man"] = {
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["unitsPerColumn"] = 5,
-							["groupBy"] = "ASSIGNEDROLE",
-							["groupFilter"] = "1",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["unitsPerColumn"] = 5,
+							["groupFilter"] = "1",
+							["groupBy"] = "ASSIGNEDROLE",
 						}, -- [1]
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "2",
 							["groupBy"] = "ASSIGNEDROLE",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupFilter"] = "2",
+							["unitsPerColumn"] = 5,
 						}, -- [2]
 						{
 							["maxColumns"] = 3,
@@ -53,68 +53,68 @@ Grid2DB = {
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 						}, -- [3]
 						["meta"] = {
-							["raid"] = true,
-							["party"] = true,
-							["solo"] = true,
 							["arena"] = true,
+							["raid"] = true,
+							["solo"] = true,
+							["party"] = true,
 						},
 					},
 					["Holypalaswe"] = {
 						{
 							["maxColumns"] = 1,
-							["unitsPerColumn"] = 5,
-							["groupBy"] = "ASSIGNEDROLE",
-							["groupFilter"] = "1",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["unitsPerColumn"] = 5,
+							["groupFilter"] = "1",
+							["groupBy"] = "ASSIGNEDROLE",
 						}, -- [1]
 						{
 							["maxColumns"] = 1,
-							["groupBy"] = "ASSIGNEDROLE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "2",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupBy"] = "ASSIGNEDROLE",
+							["groupFilter"] = "2",
+							["unitsPerColumn"] = 5,
 						}, -- [2]
 						{
 							["maxColumns"] = 1,
-							["unitsPerColumn"] = 5,
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["groupFilter"] = "3",
 							["groupBy"] = "ASSIGNEDROLE",
+							["unitsPerColumn"] = 5,
+							["groupFilter"] = "3",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 						}, -- [3]
 						{
 							["maxColumns"] = 1,
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["groupBy"] = "ASSIGNEDROLE",
-							["groupFilter"] = "4",
 							["unitsPerColumn"] = 5,
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupFilter"] = "4",
+							["groupBy"] = "ASSIGNEDROLE",
 						}, -- [4]
 						{
 							["maxColumns"] = 1,
-							["groupBy"] = "ASSIGNEDROLE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "5",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupBy"] = "ASSIGNEDROLE",
+							["groupFilter"] = "5",
+							["unitsPerColumn"] = 5,
 						}, -- [5]
 						{
 							["maxColumns"] = 1,
-							["unitsPerColumn"] = 5,
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["groupFilter"] = "6",
 							["groupBy"] = "ASSIGNEDROLE",
+							["unitsPerColumn"] = 5,
+							["groupFilter"] = "6",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 						}, -- [6]
 						{
 							["maxColumns"] = 1,
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["groupBy"] = "ASSIGNEDROLE",
-							["groupFilter"] = "7",
 							["unitsPerColumn"] = 5,
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupFilter"] = "7",
+							["groupBy"] = "ASSIGNEDROLE",
 						}, -- [7]
 						{
 							["maxColumns"] = 1,
-							["groupBy"] = "ASSIGNEDROLE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "8",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupBy"] = "ASSIGNEDROLE",
+							["groupFilter"] = "8",
+							["unitsPerColumn"] = 5,
 						}, -- [8]
 						{
 							["maxColumns"] = 3,
@@ -122,52 +122,52 @@ Grid2DB = {
 							["unitsPerColumn"] = 4,
 						}, -- [9]
 						["meta"] = {
-							["raid"] = true,
-							["party"] = true,
-							["solo"] = true,
 							["arena"] = true,
+							["raid"] = true,
+							["solo"] = true,
+							["party"] = true,
 						},
 					},
 					["holypalaswe-25man"] = {
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "1",
 							["groupBy"] = "ASSIGNEDROLE",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupFilter"] = "1",
+							["unitsPerColumn"] = 5,
 						}, -- [1]
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "2",
 							["groupBy"] = "ASSIGNEDROLE",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupFilter"] = "2",
+							["unitsPerColumn"] = 5,
 						}, -- [2]
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["groupBy"] = "ASSIGNEDROLE",
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["groupFilter"] = "3",
 							["unitsPerColumn"] = 5,
+							["groupBy"] = "ASSIGNEDROLE",
+							["groupFilter"] = "3",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 						}, -- [3]
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["unitsPerColumn"] = 5,
-							["groupBy"] = "ASSIGNEDROLE",
-							["groupFilter"] = "4",
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["unitsPerColumn"] = 5,
+							["groupFilter"] = "4",
+							["groupBy"] = "ASSIGNEDROLE",
 						}, -- [4]
 						{
 							["maxColumns"] = 1,
 							["type"] = "player",
-							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-							["unitsPerColumn"] = 5,
-							["groupFilter"] = "5",
 							["groupBy"] = "ASSIGNEDROLE",
+							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+							["groupFilter"] = "5",
+							["unitsPerColumn"] = 5,
 						}, -- [5]
 						{
 							["maxColumns"] = 3,
@@ -177,10 +177,10 @@ Grid2DB = {
 							["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 						}, -- [6]
 						["meta"] = {
-							["raid"] = true,
-							["party"] = true,
-							["solo"] = true,
 							["arena"] = true,
+							["raid"] = true,
+							["solo"] = true,
+							["party"] = true,
 						},
 					},
 				},
@@ -969,9 +969,8 @@ Grid2DB = {
 					["frameBorderDistance"] = 0,
 				},
 				["HolypalasweFelix2"] = {
-					["frameHeaderWidths"] = {
-						["pet"] = 0.502,
-						["player"] = 0.92,
+					["frameColor"] = {
+						["a"] = 0,
 					},
 					["fontSize"] = 14,
 					["frameHeaderHeights"] = {
@@ -979,29 +978,29 @@ Grid2DB = {
 						["player"] = 0.8300000000000001,
 					},
 					["frameBorder"] = 1,
-					["barTexture"] = "Flat",
-					["frameTexture"] = "Flat",
+					["frameBorderDistance"] = 0,
 					["frameHeight"] = 54,
-					["font"] = "Expressway",
+					["barTexture"] = "Flat",
 					["frameBorderColor"] = {
 						["a"] = 1,
 					},
+					["font"] = "Expressway",
+					["frameHeaderWidths"] = {
+						["pet"] = 0.502,
+						["player"] = 0.92,
+					},
+					["orientation"] = "HORIZONTAL",
+					["frameTexture"] = "Flat",
+					["frameWidth"] = 100,
 					["frameContentColor"] = {
 						["b"] = 1,
 						["g"] = 1,
 						["r"] = 1,
 					},
-					["orientation"] = "HORIZONTAL",
-					["frameColor"] = {
-						["a"] = 0,
-					},
-					["frameWidth"] = 100,
-					["frameBorderDistance"] = 0,
 				},
 				["HolypalasweFelix"] = {
-					["frameHeaderWidths"] = {
-						["pet"] = 0.665,
-						["player"] = 0.92,
+					["frameColor"] = {
+						["a"] = 0,
 					},
 					["fontSize"] = 14,
 					["frameHeaderHeights"] = {
@@ -1009,24 +1008,25 @@ Grid2DB = {
 						["player"] = 0.8260000000000001,
 					},
 					["frameBorder"] = 1,
-					["frameBorderDistance"] = 0,
-					["frameHeight"] = 54,
 					["barTexture"] = "Flat",
+					["frameBorderColor"] = {
+						["a"] = 1,
+					},
 					["frameTexture"] = "Flat",
 					["font"] = "Expressway",
-					["frameColor"] = {
-						["a"] = 0,
+					["frameHeight"] = 54,
+					["frameHeaderWidths"] = {
+						["pet"] = 0.665,
+						["player"] = 0.92,
 					},
 					["frameContentColor"] = {
 						["r"] = 1,
 						["g"] = 1,
 						["b"] = 1,
 					},
-					["frameBorderColor"] = {
-						["a"] = 1,
-					},
-					["frameWidth"] = 100,
 					["orientation"] = "HORIZONTAL",
+					["frameWidth"] = 100,
+					["frameBorderDistance"] = 0,
 				},
 			},
 		},
@@ -1372,16 +1372,16 @@ Grid2DB = {
 					["maxIcons"] = 4,
 					["borderSize"] = 1,
 					["type"] = "icons",
-					["useStatusColor"] = true,
-					["iconSize"] = 14,
-					["maxIconsPerRow"] = 6,
-					["level"] = 6,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["useStatusColor"] = true,
+					["maxIconsPerRow"] = 6,
+					["level"] = 6,
+					["iconSize"] = 14,
 				},
 				["text-up-PET-color"] = {
 					["type"] = "text-color",
@@ -1507,17 +1507,17 @@ Grid2DB = {
 				["icons-left"] = {
 					["maxIcons"] = 3,
 					["type"] = "icons",
+					["orientation"] = "VERTICAL",
+					["reverseCooldown"] = true,
 					["iconSize"] = 16,
 					["level"] = 6,
+					["maxIconsPerRow"] = 1,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 16,
 					},
-					["maxIconsPerRow"] = 1,
-					["reverseCooldown"] = true,
-					["orientation"] = "VERTICAL",
 				},
 				["corner-top-right-color"] = {
 					["type"] = "text-color",
@@ -1804,24 +1804,19 @@ Grid2DB = {
 							37118, -- [7]
 							42783, -- [8]
 						},
-						[1184] = {
-							321828, -- [1]
-							322648, -- [2]
-							322486, -- [3]
-							322939, -- [4]
-							323043, -- [5]
-							322487, -- [6]
-							322968, -- [7]
-							322557, -- [8]
-							321968, -- [9]
-							325027, -- [10]
-							331721, -- [11]
-							325021, -- [12]
-							340208, -- [13]
-							340160, -- [14]
-							325418, -- [15]
-							326092, -- [16]
-							323250, -- [17]
+						[100533] = {
+							28796, -- [1]
+							28794, -- [2]
+							28622, -- [3]
+							28169, -- [4]
+							55550, -- [5]
+							29212, -- [6]
+							28410, -- [7]
+							27808, -- [8]
+							28786, -- [9]
+							28542, -- [10]
+							29998, -- [11]
+							28882, -- [12]
 						},
 						[100616] = {
 							56272, -- [1]
@@ -1921,37 +1916,24 @@ Grid2DB = {
 							66690, -- [1]
 							72004, -- [2]
 						},
-						[100564] = {
-							40253, -- [1]
-							39837, -- [2]
-							40239, -- [3]
-							40251, -- [4]
-							40604, -- [5]
-							40481, -- [6]
-							40508, -- [7]
-							42005, -- [8]
-							41179, -- [9]
-							41978, -- [10]
-							42023, -- [11]
-							41914, -- [12]
-							41917, -- [13]
-							40585, -- [14]
-							41032, -- [15]
-							40932, -- [16]
-							40860, -- [17]
-							41001, -- [18]
-							34654, -- [19]
-							39674, -- [20]
-							41150, -- [21]
-							41168, -- [22]
-							41485, -- [23]
-							41472, -- [24]
-							41303, -- [25]
-							41410, -- [26]
-							41376, -- [27]
-							41272, -- [28]
-							13005, -- [29]
-							3609, -- [30]
+						[1184] = {
+							321828, -- [1]
+							322648, -- [2]
+							322486, -- [3]
+							322939, -- [4]
+							323043, -- [5]
+							322487, -- [6]
+							322968, -- [7]
+							322557, -- [8]
+							321968, -- [9]
+							325027, -- [10]
+							331721, -- [11]
+							325021, -- [12]
+							340208, -- [13]
+							340160, -- [14]
+							325418, -- [15]
+							326092, -- [16]
+							323250, -- [17]
 						},
 						[1185] = {
 							323437, -- [1]
@@ -2171,19 +2153,37 @@ Grid2DB = {
 						[100249] = {
 							18431, -- [1]
 						},
-						[100533] = {
-							28796, -- [1]
-							28794, -- [2]
-							28622, -- [3]
-							28169, -- [4]
-							55550, -- [5]
-							29212, -- [6]
-							28410, -- [7]
-							27808, -- [8]
-							28786, -- [9]
-							28542, -- [10]
-							29998, -- [11]
-							28882, -- [12]
+						[100564] = {
+							40253, -- [1]
+							39837, -- [2]
+							40239, -- [3]
+							40251, -- [4]
+							40604, -- [5]
+							40481, -- [6]
+							40508, -- [7]
+							42005, -- [8]
+							41179, -- [9]
+							41978, -- [10]
+							42023, -- [11]
+							41914, -- [12]
+							41917, -- [13]
+							40585, -- [14]
+							41032, -- [15]
+							40932, -- [16]
+							40860, -- [17]
+							41001, -- [18]
+							34654, -- [19]
+							39674, -- [20]
+							41150, -- [21]
+							41168, -- [22]
+							41485, -- [23]
+							41472, -- [24]
+							41303, -- [25]
+							41410, -- [26]
+							41376, -- [27]
+							41272, -- [28]
+							13005, -- [29]
+							3609, -- [30]
 						},
 						[100532] = {
 							30115, -- [1]
@@ -3732,13 +3732,13 @@ Grid2DB = {
 					["debuffs-health-color-red"] = 100,
 					["debuff-special-DarkTouched"] = 82,
 					["debuffs-health-color-teal"] = 86,
-					["death"] = 104,
+					["buffs-health-color-yellow"] = 75,
 					["debuff-special-Instability"] = 95,
-					["debuffs-health-color-lightred"] = 80,
+					["buffs-health-color-lightred"] = 79,
 					["debuff-special-ChilledtotheBone"] = 92,
 					["debuffs-health-color-yellow"] = 78,
 					["debuff-special-Strangulate"] = 88,
-					["buffs-health-color-yellow"] = 75,
+					["debuff-special-AcidVolley"] = 87,
 					["raid-debuffs"] = 73,
 					["buffs-health-color-teal"] = 57,
 					["debuff-special-ShadowPrison"] = 91,
@@ -3746,14 +3746,14 @@ Grid2DB = {
 					["charmed"] = 103,
 					["debuff-WeakenedSoul"] = 94,
 					["debuff-special-WyvernSting"] = 81,
-					["debuff-Anubarak>PenetratingCold"] = 90,
+					["debuffs-health-color-lightred"] = 80,
 					["buffs-health-color-red"] = 102,
-					["buffs-health-color-lightred"] = 79,
+					["debuff-Anubarak>PenetratingCold"] = 90,
 					["buff-PhaseShift"] = 99,
 					["debuff-special-Sawblades"] = 89,
 					["color-staticcolor"] = 50,
 					["buff-Rejuvenation-mine"] = 97,
-					["debuff-special-AcidVolley"] = 87,
+					["death"] = 104,
 					["debuff-special-MysticBuffet"] = 93,
 					["spells-DMG Taken"] = 98,
 					["buff-PowerWord:Shield-mine"] = 96,
@@ -3761,9 +3761,9 @@ Grid2DB = {
 				},
 				["text-bottomright-2-STACKS"] = {
 					["debuff-special-DarkTouched"] = 54,
-					["debuffs-text-bottomright-stacks"] = 58,
 					["debuff-special-ShadowResonance"] = 60,
 					["buff-Revivify:Mine-mine"] = 59,
+					["debuffs-text-bottomright-stacks"] = 58,
 					["debuff-special-FlameTouched"] = 55,
 					["debuff-special-ArcaneBuffet"] = 57,
 				},
@@ -4092,9 +4092,9 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
-				["buff-BlessingOfWisdom(greater)"] = {
+				["buff-BlessingOfWisdom"] = {
 					["type"] = "buff",
-					["spellName"] = 25918,
+					["spellName"] = 25290,
 					["color1"] = {
 						["a"] = 1,
 						["r"] = 0.7,
@@ -4102,9 +4102,9 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
-				["buff-BlessingOfWisdom"] = {
+				["buff-BlessingOfMight"] = {
 					["type"] = "buff",
-					["spellName"] = 25290,
+					["spellName"] = 25291,
 					["color1"] = {
 						["a"] = 1,
 						["r"] = 0.7,
@@ -4132,9 +4132,9 @@ Grid2DB = {
 						["b"] = 1,
 					},
 				},
-				["buff-BlessingOfMight"] = {
+				["buff-BlessingOfWisdom(greater)"] = {
 					["type"] = "buff",
-					["spellName"] = 25291,
+					["spellName"] = 25918,
 					["color1"] = {
 						["a"] = 1,
 						["r"] = 0.7,
@@ -4370,16 +4370,16 @@ Grid2DB = {
 					["maxIcons"] = 4,
 					["borderSize"] = 1,
 					["fontSize"] = 13,
+					["useStatusColor"] = true,
 					["iconSize"] = 14,
+					["level"] = 6,
+					["maxIconsPerRow"] = 6,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-					["level"] = 6,
-					["maxIconsPerRow"] = 6,
-					["useStatusColor"] = true,
 				},
 				["text-up-PET-color"] = {
 					["type"] = "text-color",
@@ -4518,6 +4518,8 @@ Grid2DB = {
 				["icons-left"] = {
 					["maxIcons"] = 3,
 					["type"] = "icons",
+					["iconSize"] = 16,
+					["level"] = 6,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
@@ -4525,10 +4527,8 @@ Grid2DB = {
 						["x"] = 16,
 					},
 					["maxIconsPerRow"] = 1,
-					["orientation"] = "VERTICAL",
 					["reverseCooldown"] = true,
-					["level"] = 6,
-					["iconSize"] = 16,
+					["orientation"] = "VERTICAL",
 				},
 				["corner-top-right-color"] = {
 					["type"] = "text-color",
@@ -4947,8 +4947,6 @@ Grid2DB = {
 					},
 				},
 				["range"] = {
-					["elapsed"] = 0.1,
-					["default"] = 0.4,
 					["ranges"] = {
 						["PALADIN"] = {
 							["friendlySpellID"] = 53563,
@@ -4956,6 +4954,8 @@ Grid2DB = {
 							["hostileSpellID"] = 48825,
 						},
 					},
+					["elapsed"] = 0.1,
+					["default"] = 0.4,
 					["color1"] = {
 						["a"] = 0,
 						["g"] = 1,
@@ -5087,8 +5087,8 @@ Grid2DB = {
 					},
 				},
 				["health-current"] = {
-					["quickHealth"] = true,
 					["deadAsFullHealth"] = true,
+					["quickHealth"] = true,
 				},
 				["buff-BeaconofLight-not-mine"] = {
 					["type"] = "buff",
@@ -5164,6 +5164,22 @@ Grid2DB = {
 						["disabled"] = true,
 					},
 				},
+				["buff-Renew-mine"] = {
+					["type"] = "buff",
+					["spellName"] = 139,
+					["mine"] = 1,
+					["load"] = {
+						["playerClass"] = {
+							["PRIEST"] = true,
+						},
+					},
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
 				["color-staticcolor"] = {
 					["type"] = "color",
 					["color1"] = {
@@ -5173,19 +5189,27 @@ Grid2DB = {
 						["b"] = 0.2352941334247589,
 					},
 				},
-				["buffs-health-color-yellow"] = {
-					["type"] = "buffs",
+				["debuff-special-WoundPoison"] = {
+					["spellName"] = 13218,
+					["type"] = "debuff",
 					["color1"] = {
 						["a"] = 1,
-						["r"] = 0.392156862745098,
+						["r"] = 0.9803921568627451,
 						["g"] = 0.392156862745098,
+						["b"] = 0.392156862745098,
+					},
+					["enableStacks"] = 4,
+				},
+				["debuff-special-AcidVolley"] = {
+					["enableStacks"] = 10,
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
 						["b"] = 0,
+						["g"] = 0.392156862745098,
+						["r"] = 0.392156862745098,
 					},
-					["auras"] = {
-						"Alliance Flag", -- [1]
-						"Horde Flag", -- [2]
-						"Netherstorm Flag", -- [3]
-					},
+					["spellName"] = 29325,
 				},
 				["debuff-Curse"] = {
 					["load"] = {
@@ -5216,231 +5240,6 @@ Grid2DB = {
 						["g"] = 0.3921568989753723,
 						["b"] = 0.2352941334247589,
 					},
-				},
-				["voice"] = {
-					["load"] = {
-						["disabled"] = true,
-					},
-				},
-				["debuffs-text-bottomright-2"] = {
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 0.2,
-						["b"] = 0.2,
-					},
-					["useWhiteList"] = true,
-					["type"] = "debuffs",
-					["auras"] = {
-						"Aimed Shot", -- [1]
-						"Anti-Magic Prison", -- [2]
-						"Aura of Suffering", -- [3]
-						"Banish", -- [4]
-						"Blood Fury", -- [5]
-						"Burn", -- [6]
-						"Chains of Shadow", -- [7]
-						"Corruption: Absolute", -- [8]
-						"Curse of Caramain", -- [9]
-						"Cyclone", -- [10]
-						"Darkness", -- [11]
-						"Deathblow", -- [12]
-						"Desolation", -- [13]
-						"Dominate Mind", -- [14]
-						"Embrace of the Vampyr", -- [15]
-						"Engulfing Darkness", -- [16]
-						"Gluttonous Miasma", -- [17]
-						"Gravity Bomb", -- [18]
-						"Ice Tomb", -- [19]
-						"Icebolt", -- [20]
-						"Mortal Cleave", -- [21]
-						"Mortal Strike", -- [22]
-						"Mortal Strikes", -- [23]
-						"Mortality", -- [24]
-						"Necrotic Aura", -- [25]
-						"Necrotic Poison", -- [26]
-						"Possession", -- [27]
-						"Rune of Blood", -- [28]
-						"Shadow Spike", -- [29]
-						"Soul Strike", -- [30]
-						"Unbound Plague", -- [31]
-						"Veil of Shadow", -- [32]
-						"Withering Winds", -- [33]
-						"Wounding Strike", -- [34]
-						"Wretched Strike", -- [35]
-					},
-				},
-				["buffs-icon-center"] = {
-					["type"] = "buffs",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-					["auras"] = {
-						"Divine Intervention", -- [1]
-						"Flee", -- [2]
-						"Spirit of Redemption", -- [3]
-						"Vengeance of the Blue Flight", -- [4]
-					},
-				},
-				["target"] = {
-					["load"] = {
-						["disabled"] = true,
-					},
-				},
-				["buff-PrayerofMending-mine"] = {
-					["type"] = "buff",
-					["spellName"] = 41635,
-					["mine"] = 1,
-					["load"] = {
-						["playerClass"] = {
-							["PRIEST"] = true,
-						},
-					},
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
-				["debuff-special-ChilledtotheBone"] = {
-					["spellName"] = 70106,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.3921568989753723,
-						["g"] = 0.3921568989753723,
-						["b"] = 0,
-					},
-					["enableStacks"] = 5,
-				},
-				["debuff-Magic"] = {
-					["load"] = {
-						["playerClass"] = {
-							["PALADIN"] = true,
-							["PRIEST"] = true,
-						},
-					},
-				},
-				["buff-Berserk"] = {
-					["type"] = "buff",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-					["load"] = {
-						["unitClass"] = {
-							["DRUID"] = true,
-						},
-					},
-					["useSpellId"] = true,
-					["mine"] = false,
-					["spellName"] = 50334,
-				},
-				["rangealt"] = {
-					["ranges"] = {
-						["PALADIN"] = {
-							["range"] = 38,
-						},
-					},
-					["elapsed"] = 0.1,
-					["default"] = 0.4,
-					["range"] = "heal",
-					["color1"] = {
-						["g"] = 1,
-						["r"] = 0,
-					},
-				},
-				["buff-Rejuvenation-mine"] = {
-					["type"] = "buff",
-					["spellName"] = 774,
-					["mine"] = 1,
-					["load"] = {
-						["playerClass"] = {
-							["DRUID"] = true,
-						},
-					},
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.2352941334247589,
-						["g"] = 0.3921568989753723,
-						["b"] = 0.2352941334247589,
-					},
-				},
-				["health-low"] = {
-					["load"] = {
-						["disabled"] = true,
-					},
-				},
-				["buff-Regrowth-mine"] = {
-					["type"] = "buff",
-					["spellName"] = 8936,
-					["mine"] = 1,
-					["load"] = {
-						["playerClass"] = {
-							["DRUID"] = true,
-						},
-					},
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
-				["master-looter"] = {
-					["load"] = {
-						["disabled"] = true,
-					},
-				},
-				["direction"] = {
-					["showOnlyStickyUnits"] = true,
-					["StickyTarget"] = true,
-					["load"] = {
-						["instType"] = {
-							["none"] = true,
-						},
-					},
-					["updateRate"] = 2,
-				},
-				["buff-Revivify:Mine-mine"] = {
-					["spellName"] = 57090,
-					["type"] = "buff",
-					["mine"] = 1,
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-				},
-				["buffs-health-color-teal"] = {
-					["type"] = "buffs",
-					["auras"] = {
-						"Divine Guardian", -- [1]
-						"Storm Cloud", -- [2]
-					},
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0.4117647058823529,
-						["g"] = 0.4117647058823529,
-						["r"] = 0,
-					},
-				},
-				["debuff-special-AcidVolley"] = {
-					["enableStacks"] = 10,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0.392156862745098,
-						["r"] = 0.392156862745098,
-					},
-					["spellName"] = 29325,
 				},
 				["buffs-icons-top"] = {
 					["type"] = "buffs",
@@ -5540,6 +5339,743 @@ Grid2DB = {
 						["r"] = 1,
 					},
 				},
+				["buffs-health-color-yellow"] = {
+					["type"] = "buffs",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.392156862745098,
+						["g"] = 0.392156862745098,
+						["b"] = 0,
+					},
+					["auras"] = {
+						"Alliance Flag", -- [1]
+						"Horde Flag", -- [2]
+						"Netherstorm Flag", -- [3]
+					},
+				},
+				["buffs-icon-center"] = {
+					["type"] = "buffs",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["auras"] = {
+						"Divine Intervention", -- [1]
+						"Flee", -- [2]
+						"Spirit of Redemption", -- [3]
+						"Vengeance of the Blue Flight", -- [4]
+					},
+				},
+				["target"] = {
+					["load"] = {
+						["disabled"] = true,
+					},
+				},
+				["buff-PrayerofMending-mine"] = {
+					["type"] = "buff",
+					["spellName"] = 41635,
+					["mine"] = 1,
+					["load"] = {
+						["playerClass"] = {
+							["PRIEST"] = true,
+						},
+					},
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["raid-debuffs"] = {
+					["debuffs"] = {
+						[100534] = {
+							31347, -- [1]
+							31344, -- [2]
+							31341, -- [3]
+							31944, -- [4]
+							31972, -- [5]
+							31306, -- [6]
+							31298, -- [7]
+							31249, -- [8]
+						},
+						[100631] = {
+							70107, -- [1]
+							71665, -- [2]
+							70126, -- [3]
+							70157, -- [4]
+							70980, -- [5]
+							70450, -- [6]
+							71089, -- [7]
+							69483, -- [8]
+							71163, -- [9]
+							71127, -- [10]
+							70435, -- [11]
+							70671, -- [12]
+							70432, -- [13]
+							71257, -- [14]
+							70873, -- [15]
+							70744, -- [16]
+							70751, -- [17]
+							70633, -- [18]
+							71941, -- [19]
+							70766, -- [20]
+							69248, -- [21]
+							72219, -- [22]
+							69278, -- [23]
+							71001, -- [24]
+							71289, -- [25]
+							71204, -- [26]
+							69917, -- [27]
+							71237, -- [28]
+							71951, -- [29]
+							69674, -- [30]
+							69802, -- [31]
+							69508, -- [32]
+							30494, -- [33]
+							72133, -- [34]
+							68981, -- [35]
+							69242, -- [36]
+							69409, -- [37]
+							70541, -- [38]
+							27177, -- [39]
+							72705, -- [40]
+							69065, -- [41]
+							69075, -- [42]
+							69651, -- [43]
+							70838, -- [44]
+							71623, -- [45]
+							72151, -- [46]
+							71340, -- [47]
+							72985, -- [48]
+							70923, -- [49]
+							70215, -- [50]
+							72297, -- [51]
+							72454, -- [52]
+							70341, -- [53]
+							70342, -- [54]
+							70911, -- [55]
+							69774, -- [56]
+							72293, -- [57]
+							72385, -- [58]
+						},
+						[100509] = {
+							96, -- [1]
+							25471, -- [2]
+							25646, -- [3]
+							25656, -- [4]
+							25725, -- [5]
+							25176, -- [6]
+							25189, -- [7]
+							25183, -- [8]
+							25685, -- [9]
+						},
+						[102222] = {
+							338853, -- [1]
+							338851, -- [2]
+							327255, -- [3]
+							339278, -- [4]
+						},
+						[1183] = {
+							325552, -- [1]
+							331818, -- [2]
+							333406, -- [3]
+							329110, -- [4]
+							322358, -- [5]
+							322232, -- [6]
+							327882, -- [7]
+							320072, -- [8]
+							319120, -- [9]
+							334926, -- [10]
+							319070, -- [11]
+							328180, -- [12]
+							328986, -- [13]
+							320512, -- [14]
+							328409, -- [15]
+							328501, -- [16]
+							319898, -- [17]
+							320542, -- [18]
+							328395, -- [19]
+							324652, -- [20]
+							326242, -- [21]
+						},
+						[100548] = {
+							38234, -- [1]
+							39261, -- [2]
+							38358, -- [3]
+							37676, -- [4]
+							37640, -- [5]
+							37749, -- [6]
+							39042, -- [7]
+							39044, -- [8]
+							38049, -- [9]
+							38235, -- [10]
+							38246, -- [11]
+							38280, -- [12]
+							37284, -- [13]
+						},
+						[100550] = {
+							35410, -- [1]
+							35383, -- [2]
+							37027, -- [3]
+							36798, -- [4]
+							35318, -- [5]
+							37120, -- [6]
+							37118, -- [7]
+							42783, -- [8]
+						},
+						[1184] = {
+							321828, -- [1]
+							322648, -- [2]
+							322486, -- [3]
+							322939, -- [4]
+							323043, -- [5]
+							322487, -- [6]
+							322968, -- [7]
+							322557, -- [8]
+							321968, -- [9]
+							325027, -- [10]
+							331721, -- [11]
+							325021, -- [12]
+							340208, -- [13]
+							340160, -- [14]
+							325418, -- [15]
+							326092, -- [16]
+							323250, -- [17]
+						},
+						[100616] = {
+							56272, -- [1]
+							57407, -- [2]
+						},
+						[100649] = {
+							65812, -- [1]
+							66819, -- [2]
+							66821, -- [3]
+							66823, -- [4]
+							66869, -- [5]
+							66331, -- [6]
+							66406, -- [7]
+							66770, -- [8]
+							66689, -- [9]
+							66069, -- [10]
+							67574, -- [11]
+							66012, -- [12]
+							66532, -- [13]
+							66237, -- [14]
+							66242, -- [15]
+							66197, -- [16]
+							66283, -- [17]
+							66209, -- [18]
+							66211, -- [19]
+							66333, -- [20]
+						},
+						[100603] = {
+							63276, -- [1]
+							63322, -- [2]
+							64771, -- [3]
+							63024, -- [4]
+							63018, -- [5]
+							62589, -- [6]
+							62861, -- [7]
+							61888, -- [8]
+							62269, -- [9]
+							61903, -- [10]
+							61912, -- [11]
+							62310, -- [12]
+							63612, -- [13]
+							63615, -- [14]
+							62283, -- [15]
+							63169, -- [16]
+							63147, -- [17]
+							63134, -- [18]
+							63830, -- [19]
+							63042, -- [20]
+							64152, -- [21]
+							64153, -- [22]
+							64125, -- [23]
+							64156, -- [24]
+							64157, -- [25]
+							62042, -- [26]
+							62526, -- [27]
+							64290, -- [28]
+							63355, -- [29]
+							62055, -- [30]
+							62548, -- [31]
+							62717, -- [32]
+							64412, -- [33]
+							63666, -- [34]
+							62997, -- [35]
+							64668, -- [36]
+							62469, -- [37]
+							61969, -- [38]
+						},
+						[1182] = {
+							320596, -- [1]
+							320717, -- [2]
+							320573, -- [3]
+							324293, -- [4]
+							324381, -- [5]
+							321807, -- [6]
+							328664, -- [7]
+							327396, -- [8]
+							338357, -- [9]
+							338353, -- [10]
+							334748, -- [11]
+							338606, -- [12]
+							333485, -- [13]
+							321821, -- [14]
+							345625, -- [15]
+							334610, -- [16]
+							333477, -- [17]
+							323471, -- [18]
+							320784, -- [19]
+							320788, -- [20]
+							322274, -- [21]
+							320170, -- [22]
+							333633, -- [23]
+							320200, -- [24]
+							322548, -- [25]
+							320366, -- [26]
+						},
+						[100624] = {
+							66690, -- [1]
+							72004, -- [2]
+						},
+						[100564] = {
+							40253, -- [1]
+							39837, -- [2]
+							40239, -- [3]
+							40251, -- [4]
+							40604, -- [5]
+							40481, -- [6]
+							40508, -- [7]
+							42005, -- [8]
+							41179, -- [9]
+							41978, -- [10]
+							42023, -- [11]
+							41914, -- [12]
+							41917, -- [13]
+							40585, -- [14]
+							41032, -- [15]
+							40932, -- [16]
+							40860, -- [17]
+							41001, -- [18]
+							34654, -- [19]
+							39674, -- [20]
+							41150, -- [21]
+							41168, -- [22]
+							41485, -- [23]
+							41472, -- [24]
+							41303, -- [25]
+							41410, -- [26]
+							41376, -- [27]
+							41272, -- [28]
+							13005, -- [29]
+							3609, -- [30]
+						},
+						[1185] = {
+							323437, -- [1]
+							335338, -- [2]
+							323001, -- [3]
+							322977, -- [4]
+							325876, -- [5]
+							344993, -- [6]
+							326632, -- [7]
+							326638, -- [8]
+							326617, -- [9]
+							325700, -- [10]
+							325701, -- [11]
+							326891, -- [12]
+							326874, -- [13]
+							323650, -- [14]
+							319703, -- [15]
+							319603, -- [16]
+							344874, -- [17]
+						},
+						[100568] = {
+							43299, -- [1]
+							44955, -- [2]
+							43657, -- [3]
+							43622, -- [4]
+							43613, -- [5]
+							43501, -- [6]
+							43303, -- [7]
+							43093, -- [8]
+							43095, -- [9]
+							43150, -- [10]
+						},
+						[1187] = {
+							323406, -- [1]
+							318913, -- [2]
+							323130, -- [3]
+							320248, -- [4]
+							320180, -- [5]
+							333231, -- [6]
+							320069, -- [7]
+							326892, -- [8]
+							331606, -- [9]
+							320287, -- [10]
+							319626, -- [11]
+							319521, -- [12]
+							319539, -- [13]
+							319531, -- [14]
+							330810, -- [15]
+							333708, -- [16]
+							330784, -- [17]
+							330868, -- [18]
+							342675, -- [19]
+							333299, -- [20]
+							341949, -- [21]
+							330700, -- [22]
+							332836, -- [23]
+							330592, -- [24]
+							332708, -- [25]
+							331288, -- [26]
+							330562, -- [27]
+							330532, -- [28]
+							333845, -- [29]
+							320679, -- [30]
+							333861, -- [31]
+							330725, -- [32]
+							341291, -- [33]
+							324449, -- [34]
+							323825, -- [35]
+						},
+						[1188] = {
+							322746, -- [1]
+							323569, -- [2]
+							325725, -- [3]
+							327649, -- [4]
+							334913, -- [5]
+							320147, -- [6]
+							320008, -- [7]
+							320144, -- [8]
+							333250, -- [9]
+							333711, -- [10]
+							331847, -- [11]
+							331379, -- [12]
+							331008, -- [13]
+							1604, -- [14]
+							328987, -- [15]
+							332707, -- [16]
+							332332, -- [17]
+							332605, -- [18]
+							332678, -- [19]
+							334493, -- [20]
+							334535, -- [21]
+							321948, -- [22]
+							320232, -- [23]
+						},
+						[1189] = {
+							323845, -- [1]
+							322796, -- [2]
+							322554, -- [3]
+							321038, -- [4]
+							322429, -- [5]
+							326827, -- [6]
+							322212, -- [7]
+							326790, -- [8]
+							327814, -- [9]
+							328593, -- [10]
+							325885, -- [11]
+						},
+						[100531] = {
+							26180, -- [1]
+							26050, -- [2]
+							26615, -- [3]
+							785, -- [4]
+							26034, -- [5]
+							26036, -- [6]
+							25937, -- [7]
+							25646, -- [8]
+							26580, -- [9]
+						},
+						[100409] = {
+							19779, -- [1]
+							19780, -- [2]
+							19776, -- [3]
+							20294, -- [4]
+							19451, -- [5]
+							19714, -- [6]
+							20475, -- [7]
+							20604, -- [8]
+							20277, -- [9]
+							20553, -- [10]
+							15732, -- [11]
+						},
+						[469] = {
+							22687, -- [1]
+							22667, -- [2]
+							23023, -- [3]
+							23340, -- [4]
+							18173, -- [5]
+							23155, -- [6]
+							23169, -- [7]
+							23153, -- [8]
+							23154, -- [9]
+							23170, -- [10]
+							23128, -- [11]
+							23537, -- [12]
+							24573, -- [13]
+						},
+						[1186] = {
+							324662, -- [1]
+							327481, -- [2]
+							328331, -- [3]
+							328453, -- [4]
+							328434, -- [5]
+							323739, -- [6]
+							317963, -- [7]
+							317661, -- [8]
+							27638, -- [9]
+							327648, -- [10]
+							323195, -- [11]
+							323792, -- [12]
+							338729, -- [13]
+							324154, -- [14]
+							324205, -- [15]
+							322818, -- [16]
+							322817, -- [17]
+						},
+						[100615] = {
+							58936, -- [1]
+							57491, -- [2]
+						},
+						[100580] = {
+							46561, -- [1]
+							46562, -- [2]
+							46266, -- [3]
+							46557, -- [4]
+							46560, -- [5]
+							46543, -- [6]
+							46427, -- [7]
+							46394, -- [8]
+							45185, -- [9]
+							45230, -- [10]
+							45256, -- [11]
+							45333, -- [12]
+							46771, -- [13]
+							45442, -- [14]
+							45641, -- [15]
+							45885, -- [16]
+							45032, -- [17]
+							45855, -- [18]
+							45662, -- [19]
+							45402, -- [20]
+							45717, -- [21]
+							45866, -- [22]
+						},
+						[100309] = {
+							24314, -- [1]
+							24318, -- [2]
+							16856, -- [3]
+							24664, -- [4]
+							8269, -- [5]
+							24210, -- [6]
+							24212, -- [7]
+							24306, -- [8]
+							17172, -- [9]
+							24261, -- [10]
+							24111, -- [11]
+							24300, -- [12]
+							24109, -- [13]
+							23952, -- [14]
+							23895, -- [15]
+							23860, -- [16]
+							23865, -- [17]
+							21060, -- [18]
+							12540, -- [19]
+							24327, -- [20]
+							24328, -- [21]
+						},
+						[100249] = {
+							18431, -- [1]
+						},
+						[100533] = {
+							28796, -- [1]
+							28794, -- [2]
+							28622, -- [3]
+							28169, -- [4]
+							55550, -- [5]
+							29212, -- [6]
+							28410, -- [7]
+							27808, -- [8]
+							28786, -- [9]
+							28542, -- [10]
+							29998, -- [11]
+							28882, -- [12]
+						},
+						[100532] = {
+							30115, -- [1]
+							30053, -- [2]
+							31046, -- [3]
+							31069, -- [4]
+							31041, -- [5]
+							29538, -- [6]
+							30753, -- [7]
+							37098, -- [8]
+							30130, -- [9]
+							30129, -- [10]
+							25653, -- [11]
+							30210, -- [12]
+							29833, -- [13]
+							29522, -- [14]
+							29511, -- [15]
+							30115, -- [16]
+							37014, -- [17]
+							30522, -- [18]
+							29991, -- [19]
+							29946, -- [20]
+							29954, -- [21]
+							29951, -- [22]
+							29425, -- [23]
+							37066, -- [24]
+							34694, -- [25]
+							30843, -- [26]
+							30822, -- [27]
+							30890, -- [28]
+							30889, -- [29]
+						},
+						[100724] = {
+							74367, -- [1]
+							74502, -- [2]
+							74562, -- [3]
+							74567, -- [4]
+							74792, -- [5]
+							74795, -- [6]
+							74452, -- [7]
+						},
+					},
+					["color1"] = {
+						["b"] = 0,
+						["g"] = 0.3921568989753723,
+						["r"] = 0.3921568989753723,
+					},
+				},
+				["buff-Revivify:Mine-mine"] = {
+					["spellName"] = 57090,
+					["type"] = "buff",
+					["mine"] = 1,
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["buff-Berserk"] = {
+					["type"] = "buff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["load"] = {
+						["unitClass"] = {
+							["DRUID"] = true,
+						},
+					},
+					["useSpellId"] = true,
+					["mine"] = false,
+					["spellName"] = 50334,
+				},
+				["rangealt"] = {
+					["ranges"] = {
+						["PALADIN"] = {
+							["range"] = 38,
+						},
+					},
+					["elapsed"] = 0.1,
+					["default"] = 0.4,
+					["range"] = "heal",
+					["color1"] = {
+						["g"] = 1,
+						["r"] = 0,
+					},
+				},
+				["buff-Rejuvenation-mine"] = {
+					["type"] = "buff",
+					["spellName"] = 774,
+					["mine"] = 1,
+					["load"] = {
+						["playerClass"] = {
+							["DRUID"] = true,
+						},
+					},
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.2352941334247589,
+						["g"] = 0.3921568989753723,
+						["b"] = 0.2352941334247589,
+					},
+				},
+				["health-low"] = {
+					["load"] = {
+						["disabled"] = true,
+					},
+				},
+				["buff-Regrowth-mine"] = {
+					["type"] = "buff",
+					["spellName"] = 8936,
+					["mine"] = 1,
+					["load"] = {
+						["playerClass"] = {
+							["DRUID"] = true,
+						},
+					},
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+				},
+				["master-looter"] = {
+					["load"] = {
+						["disabled"] = true,
+					},
+				},
+				["debuff-special-ChilledtotheBone"] = {
+					["spellName"] = 70106,
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.3921568989753723,
+						["g"] = 0.3921568989753723,
+						["b"] = 0,
+					},
+					["enableStacks"] = 5,
+				},
+				["debuff-Magic"] = {
+					["load"] = {
+						["playerClass"] = {
+							["PALADIN"] = true,
+							["PRIEST"] = true,
+						},
+					},
+				},
+				["heals-incoming"] = {
+					["healTypeFlags"] = 19,
+					["includePlayerHeals"] = true,
+					["color1"] = {
+						["b"] = 0.2352941334247589,
+						["g"] = 0.2352941334247589,
+						["r"] = 0.2352941334247589,
+					},
+				},
+				["direction"] = {
+					["load"] = {
+						["instType"] = {
+							["none"] = true,
+						},
+					},
+					["showOnlyStickyUnits"] = true,
+					["StickyTarget"] = true,
+					["updateRate"] = 2,
+				},
 				["raid-assistant"] = {
 					["load"] = {
 						["disabled"] = true,
@@ -5615,22 +6151,6 @@ Grid2DB = {
 						["r"] = 0.3921568989753723,
 						["g"] = 0.3921568989753723,
 						["b"] = 0,
-					},
-				},
-				["buff-Renew-mine"] = {
-					["type"] = "buff",
-					["spellName"] = 139,
-					["mine"] = 1,
-					["load"] = {
-						["playerClass"] = {
-							["PRIEST"] = true,
-						},
-					},
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
 					},
 				},
 				["debuff-special-DarkTouched"] = {
@@ -5980,20 +6500,24 @@ Grid2DB = {
 					},
 				},
 				["raid-icon-player"] = {
-					["load"] = {
-						["disabled"] = true,
-					},
 					["color6"] = {
 						["g"] = 0.7098039388656616,
 					},
+					["load"] = {
+						["disabled"] = true,
+					},
 				},
-				["heals-incoming"] = {
-					["healTypeFlags"] = 19,
-					["includePlayerHeals"] = true,
+				["buffs-health-color-teal"] = {
+					["type"] = "buffs",
+					["auras"] = {
+						"Divine Guardian", -- [1]
+						"Storm Cloud", -- [2]
+					},
 					["color1"] = {
-						["b"] = 0.2352941334247589,
-						["g"] = 0.2352941334247589,
-						["r"] = 0.2352941334247589,
+						["a"] = 1,
+						["b"] = 0.4117647058823529,
+						["g"] = 0.4117647058823529,
+						["r"] = 0,
 					},
 				},
 				["debuff-special-WyvernSting"] = {
@@ -6102,22 +6626,6 @@ Grid2DB = {
 						16237, -- [2]
 					},
 				},
-				["debuff-special-WoundPoison"] = {
-					["spellName"] = 13218,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.9803921568627451,
-						["g"] = 0.392156862745098,
-						["b"] = 0.392156862745098,
-					},
-					["enableStacks"] = 4,
-				},
-				["manaalt"] = {
-					["load"] = {
-						["disabled"] = true,
-					},
-				},
 				["debuffs-text-bottomright-stacks"] = {
 					["auras"] = {
 					},
@@ -6130,569 +6638,61 @@ Grid2DB = {
 						["r"] = 1,
 					},
 				},
-				["raid-debuffs"] = {
-					["color1"] = {
-						["b"] = 0,
-						["g"] = 0.3921568989753723,
-						["r"] = 0.3921568989753723,
+				["manaalt"] = {
+					["load"] = {
+						["disabled"] = true,
 					},
-					["debuffs"] = {
-						[100534] = {
-							31347, -- [1]
-							31344, -- [2]
-							31341, -- [3]
-							31944, -- [4]
-							31972, -- [5]
-							31306, -- [6]
-							31298, -- [7]
-							31249, -- [8]
-						},
-						[100631] = {
-							70107, -- [1]
-							71665, -- [2]
-							70126, -- [3]
-							70157, -- [4]
-							70980, -- [5]
-							70450, -- [6]
-							71089, -- [7]
-							69483, -- [8]
-							71163, -- [9]
-							71127, -- [10]
-							70435, -- [11]
-							70671, -- [12]
-							70432, -- [13]
-							71257, -- [14]
-							70873, -- [15]
-							70744, -- [16]
-							70751, -- [17]
-							70633, -- [18]
-							71941, -- [19]
-							70766, -- [20]
-							69248, -- [21]
-							72219, -- [22]
-							69278, -- [23]
-							71001, -- [24]
-							71289, -- [25]
-							71204, -- [26]
-							69917, -- [27]
-							71237, -- [28]
-							71951, -- [29]
-							69674, -- [30]
-							69802, -- [31]
-							69508, -- [32]
-							30494, -- [33]
-							72133, -- [34]
-							68981, -- [35]
-							69242, -- [36]
-							69409, -- [37]
-							70541, -- [38]
-							27177, -- [39]
-							72705, -- [40]
-							69065, -- [41]
-							69075, -- [42]
-							69651, -- [43]
-							70838, -- [44]
-							71623, -- [45]
-							72151, -- [46]
-							71340, -- [47]
-							72985, -- [48]
-							70923, -- [49]
-							70215, -- [50]
-							72297, -- [51]
-							72454, -- [52]
-							70341, -- [53]
-							70342, -- [54]
-							70911, -- [55]
-							69774, -- [56]
-							72293, -- [57]
-							72385, -- [58]
-						},
-						[100509] = {
-							96, -- [1]
-							25471, -- [2]
-							25646, -- [3]
-							25656, -- [4]
-							25725, -- [5]
-							25176, -- [6]
-							25189, -- [7]
-							25183, -- [8]
-							25685, -- [9]
-						},
-						[102222] = {
-							338853, -- [1]
-							338851, -- [2]
-							327255, -- [3]
-							339278, -- [4]
-						},
-						[1183] = {
-							325552, -- [1]
-							331818, -- [2]
-							333406, -- [3]
-							329110, -- [4]
-							322358, -- [5]
-							322232, -- [6]
-							327882, -- [7]
-							320072, -- [8]
-							319120, -- [9]
-							334926, -- [10]
-							319070, -- [11]
-							328180, -- [12]
-							328986, -- [13]
-							320512, -- [14]
-							328409, -- [15]
-							328501, -- [16]
-							319898, -- [17]
-							320542, -- [18]
-							328395, -- [19]
-							324652, -- [20]
-							326242, -- [21]
-						},
-						[100548] = {
-							38234, -- [1]
-							39261, -- [2]
-							38358, -- [3]
-							37676, -- [4]
-							37640, -- [5]
-							37749, -- [6]
-							39042, -- [7]
-							39044, -- [8]
-							38049, -- [9]
-							38235, -- [10]
-							38246, -- [11]
-							38280, -- [12]
-							37284, -- [13]
-						},
-						[100550] = {
-							35410, -- [1]
-							35383, -- [2]
-							37027, -- [3]
-							36798, -- [4]
-							35318, -- [5]
-							37120, -- [6]
-							37118, -- [7]
-							42783, -- [8]
-						},
-						[100564] = {
-							40253, -- [1]
-							39837, -- [2]
-							40239, -- [3]
-							40251, -- [4]
-							40604, -- [5]
-							40481, -- [6]
-							40508, -- [7]
-							42005, -- [8]
-							41179, -- [9]
-							41978, -- [10]
-							42023, -- [11]
-							41914, -- [12]
-							41917, -- [13]
-							40585, -- [14]
-							41032, -- [15]
-							40932, -- [16]
-							40860, -- [17]
-							41001, -- [18]
-							34654, -- [19]
-							39674, -- [20]
-							41150, -- [21]
-							41168, -- [22]
-							41485, -- [23]
-							41472, -- [24]
-							41303, -- [25]
-							41410, -- [26]
-							41376, -- [27]
-							41272, -- [28]
-							13005, -- [29]
-							3609, -- [30]
-						},
-						[100616] = {
-							56272, -- [1]
-							57407, -- [2]
-						},
-						[100649] = {
-							65812, -- [1]
-							66819, -- [2]
-							66821, -- [3]
-							66823, -- [4]
-							66869, -- [5]
-							66331, -- [6]
-							66406, -- [7]
-							66770, -- [8]
-							66689, -- [9]
-							66069, -- [10]
-							67574, -- [11]
-							66012, -- [12]
-							66532, -- [13]
-							66237, -- [14]
-							66242, -- [15]
-							66197, -- [16]
-							66283, -- [17]
-							66209, -- [18]
-							66211, -- [19]
-							66333, -- [20]
-						},
-						[100603] = {
-							63276, -- [1]
-							63322, -- [2]
-							64771, -- [3]
-							63024, -- [4]
-							63018, -- [5]
-							62589, -- [6]
-							62861, -- [7]
-							61888, -- [8]
-							62269, -- [9]
-							61903, -- [10]
-							61912, -- [11]
-							62310, -- [12]
-							63612, -- [13]
-							63615, -- [14]
-							62283, -- [15]
-							63169, -- [16]
-							63147, -- [17]
-							63134, -- [18]
-							63830, -- [19]
-							63042, -- [20]
-							64152, -- [21]
-							64153, -- [22]
-							64125, -- [23]
-							64156, -- [24]
-							64157, -- [25]
-							62042, -- [26]
-							62526, -- [27]
-							64290, -- [28]
-							63355, -- [29]
-							62055, -- [30]
-							62548, -- [31]
-							62717, -- [32]
-							64412, -- [33]
-							63666, -- [34]
-							62997, -- [35]
-							64668, -- [36]
-							62469, -- [37]
-							61969, -- [38]
-						},
-						[1182] = {
-							320596, -- [1]
-							320717, -- [2]
-							320573, -- [3]
-							324293, -- [4]
-							324381, -- [5]
-							321807, -- [6]
-							328664, -- [7]
-							327396, -- [8]
-							338357, -- [9]
-							338353, -- [10]
-							334748, -- [11]
-							338606, -- [12]
-							333485, -- [13]
-							321821, -- [14]
-							345625, -- [15]
-							334610, -- [16]
-							333477, -- [17]
-							323471, -- [18]
-							320784, -- [19]
-							320788, -- [20]
-							322274, -- [21]
-							320170, -- [22]
-							333633, -- [23]
-							320200, -- [24]
-							322548, -- [25]
-							320366, -- [26]
-						},
-						[100624] = {
-							66690, -- [1]
-							72004, -- [2]
-						},
-						[100533] = {
-							28796, -- [1]
-							28794, -- [2]
-							28622, -- [3]
-							28169, -- [4]
-							55550, -- [5]
-							29212, -- [6]
-							28410, -- [7]
-							27808, -- [8]
-							28786, -- [9]
-							28542, -- [10]
-							29998, -- [11]
-							28882, -- [12]
-						},
-						[1185] = {
-							323437, -- [1]
-							335338, -- [2]
-							323001, -- [3]
-							322977, -- [4]
-							325876, -- [5]
-							344993, -- [6]
-							326632, -- [7]
-							326638, -- [8]
-							326617, -- [9]
-							325700, -- [10]
-							325701, -- [11]
-							326891, -- [12]
-							326874, -- [13]
-							323650, -- [14]
-							319703, -- [15]
-							319603, -- [16]
-							344874, -- [17]
-						},
-						[100568] = {
-							43299, -- [1]
-							44955, -- [2]
-							43657, -- [3]
-							43622, -- [4]
-							43613, -- [5]
-							43501, -- [6]
-							43303, -- [7]
-							43093, -- [8]
-							43095, -- [9]
-							43150, -- [10]
-						},
-						[1187] = {
-							323406, -- [1]
-							318913, -- [2]
-							323130, -- [3]
-							320248, -- [4]
-							320180, -- [5]
-							333231, -- [6]
-							320069, -- [7]
-							326892, -- [8]
-							331606, -- [9]
-							320287, -- [10]
-							319626, -- [11]
-							319521, -- [12]
-							319539, -- [13]
-							319531, -- [14]
-							330810, -- [15]
-							333708, -- [16]
-							330784, -- [17]
-							330868, -- [18]
-							342675, -- [19]
-							333299, -- [20]
-							341949, -- [21]
-							330700, -- [22]
-							332836, -- [23]
-							330592, -- [24]
-							332708, -- [25]
-							331288, -- [26]
-							330562, -- [27]
-							330532, -- [28]
-							333845, -- [29]
-							320679, -- [30]
-							333861, -- [31]
-							330725, -- [32]
-							341291, -- [33]
-							324449, -- [34]
-							323825, -- [35]
-						},
-						[1188] = {
-							322746, -- [1]
-							323569, -- [2]
-							325725, -- [3]
-							327649, -- [4]
-							334913, -- [5]
-							320147, -- [6]
-							320008, -- [7]
-							320144, -- [8]
-							333250, -- [9]
-							333711, -- [10]
-							331847, -- [11]
-							331379, -- [12]
-							331008, -- [13]
-							1604, -- [14]
-							328987, -- [15]
-							332707, -- [16]
-							332332, -- [17]
-							332605, -- [18]
-							332678, -- [19]
-							334493, -- [20]
-							334535, -- [21]
-							321948, -- [22]
-							320232, -- [23]
-						},
-						[1189] = {
-							323845, -- [1]
-							322796, -- [2]
-							322554, -- [3]
-							321038, -- [4]
-							322429, -- [5]
-							326827, -- [6]
-							322212, -- [7]
-							326790, -- [8]
-							327814, -- [9]
-							328593, -- [10]
-							325885, -- [11]
-						},
-						[100531] = {
-							26180, -- [1]
-							26050, -- [2]
-							26615, -- [3]
-							785, -- [4]
-							26034, -- [5]
-							26036, -- [6]
-							25937, -- [7]
-							25646, -- [8]
-							26580, -- [9]
-						},
-						[100409] = {
-							19779, -- [1]
-							19780, -- [2]
-							19776, -- [3]
-							20294, -- [4]
-							19451, -- [5]
-							19714, -- [6]
-							20475, -- [7]
-							20604, -- [8]
-							20277, -- [9]
-							20553, -- [10]
-							15732, -- [11]
-						},
-						[469] = {
-							22687, -- [1]
-							22667, -- [2]
-							23023, -- [3]
-							23340, -- [4]
-							18173, -- [5]
-							23155, -- [6]
-							23169, -- [7]
-							23153, -- [8]
-							23154, -- [9]
-							23170, -- [10]
-							23128, -- [11]
-							23537, -- [12]
-							24573, -- [13]
-						},
-						[1186] = {
-							324662, -- [1]
-							327481, -- [2]
-							328331, -- [3]
-							328453, -- [4]
-							328434, -- [5]
-							323739, -- [6]
-							317963, -- [7]
-							317661, -- [8]
-							27638, -- [9]
-							327648, -- [10]
-							323195, -- [11]
-							323792, -- [12]
-							338729, -- [13]
-							324154, -- [14]
-							324205, -- [15]
-							322818, -- [16]
-							322817, -- [17]
-						},
-						[100615] = {
-							58936, -- [1]
-							57491, -- [2]
-						},
-						[100580] = {
-							46561, -- [1]
-							46562, -- [2]
-							46266, -- [3]
-							46557, -- [4]
-							46560, -- [5]
-							46543, -- [6]
-							46427, -- [7]
-							46394, -- [8]
-							45185, -- [9]
-							45230, -- [10]
-							45256, -- [11]
-							45333, -- [12]
-							46771, -- [13]
-							45442, -- [14]
-							45641, -- [15]
-							45885, -- [16]
-							45032, -- [17]
-							45855, -- [18]
-							45662, -- [19]
-							45402, -- [20]
-							45717, -- [21]
-							45866, -- [22]
-						},
-						[100309] = {
-							24314, -- [1]
-							24318, -- [2]
-							16856, -- [3]
-							24664, -- [4]
-							8269, -- [5]
-							24210, -- [6]
-							24212, -- [7]
-							24306, -- [8]
-							17172, -- [9]
-							24261, -- [10]
-							24111, -- [11]
-							24300, -- [12]
-							24109, -- [13]
-							23952, -- [14]
-							23895, -- [15]
-							23860, -- [16]
-							23865, -- [17]
-							21060, -- [18]
-							12540, -- [19]
-							24327, -- [20]
-							24328, -- [21]
-						},
-						[100249] = {
-							18431, -- [1]
-						},
-						[1184] = {
-							321828, -- [1]
-							322648, -- [2]
-							322486, -- [3]
-							322939, -- [4]
-							323043, -- [5]
-							322487, -- [6]
-							322968, -- [7]
-							322557, -- [8]
-							321968, -- [9]
-							325027, -- [10]
-							331721, -- [11]
-							325021, -- [12]
-							340208, -- [13]
-							340160, -- [14]
-							325418, -- [15]
-							326092, -- [16]
-							323250, -- [17]
-						},
-						[100532] = {
-							30115, -- [1]
-							30053, -- [2]
-							31046, -- [3]
-							31069, -- [4]
-							31041, -- [5]
-							29538, -- [6]
-							30753, -- [7]
-							37098, -- [8]
-							30130, -- [9]
-							30129, -- [10]
-							25653, -- [11]
-							30210, -- [12]
-							29833, -- [13]
-							29522, -- [14]
-							29511, -- [15]
-							30115, -- [16]
-							37014, -- [17]
-							30522, -- [18]
-							29991, -- [19]
-							29946, -- [20]
-							29954, -- [21]
-							29951, -- [22]
-							29425, -- [23]
-							37066, -- [24]
-							34694, -- [25]
-							30843, -- [26]
-							30822, -- [27]
-							30890, -- [28]
-							30889, -- [29]
-						},
-						[100724] = {
-							74367, -- [1]
-							74502, -- [2]
-							74562, -- [3]
-							74567, -- [4]
-							74792, -- [5]
-							74795, -- [6]
-							74452, -- [7]
-						},
+				},
+				["debuffs-text-bottomright-2"] = {
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 0.2,
+						["b"] = 0.2,
+					},
+					["useWhiteList"] = true,
+					["type"] = "debuffs",
+					["auras"] = {
+						"Aimed Shot", -- [1]
+						"Anti-Magic Prison", -- [2]
+						"Aura of Suffering", -- [3]
+						"Banish", -- [4]
+						"Blood Fury", -- [5]
+						"Burn", -- [6]
+						"Chains of Shadow", -- [7]
+						"Corruption: Absolute", -- [8]
+						"Curse of Caramain", -- [9]
+						"Cyclone", -- [10]
+						"Darkness", -- [11]
+						"Deathblow", -- [12]
+						"Desolation", -- [13]
+						"Dominate Mind", -- [14]
+						"Embrace of the Vampyr", -- [15]
+						"Engulfing Darkness", -- [16]
+						"Gluttonous Miasma", -- [17]
+						"Gravity Bomb", -- [18]
+						"Ice Tomb", -- [19]
+						"Icebolt", -- [20]
+						"Mortal Cleave", -- [21]
+						"Mortal Strike", -- [22]
+						"Mortal Strikes", -- [23]
+						"Mortality", -- [24]
+						"Necrotic Aura", -- [25]
+						"Necrotic Poison", -- [26]
+						"Possession", -- [27]
+						"Rune of Blood", -- [28]
+						"Shadow Spike", -- [29]
+						"Soul Strike", -- [30]
+						"Unbound Plague", -- [31]
+						"Veil of Shadow", -- [32]
+						"Withering Winds", -- [33]
+						"Wounding Strike", -- [34]
+						"Wretched Strike", -- [35]
+					},
+				},
+				["voice"] = {
+					["load"] = {
+						["disabled"] = true,
 					},
 				},
 				["debuff-special-FlameTouched"] = {
@@ -6713,8 +6713,8 @@ Grid2DB = {
 				},
 			},
 			["formatting"] = {
-				["shortDurationStackFormat"] = "%.1f:%d",
 				["longDecimalFormat"] = "%.0f",
+				["shortDurationStackFormat"] = "%.1f:%d",
 			},
 			["versions"] = {
 				["Grid2"] = 14,
@@ -6750,13 +6750,13 @@ Grid2DB = {
 					["debuffs-health-color-red"] = 100,
 					["debuff-special-DarkTouched"] = 82,
 					["debuffs-health-color-teal"] = 86,
-					["debuff-special-AcidVolley"] = 87,
+					["death"] = 104,
 					["debuff-special-Instability"] = 95,
-					["debuff-Anubarak>PenetratingCold"] = 90,
+					["debuffs-health-color-lightred"] = 80,
 					["debuff-special-ChilledtotheBone"] = 92,
 					["debuffs-health-color-yellow"] = 78,
 					["debuff-special-Strangulate"] = 88,
-					["death"] = 104,
+					["buffs-health-color-yellow"] = 75,
 					["raid-debuffs"] = 73,
 					["buffs-health-color-teal"] = 57,
 					["debuff-special-ShadowPrison"] = 91,
@@ -6764,14 +6764,14 @@ Grid2DB = {
 					["charmed"] = 103,
 					["debuff-WeakenedSoul"] = 94,
 					["spells-DMG Taken"] = 98,
-					["buffs-health-color-lightred"] = 79,
+					["debuff-Anubarak>PenetratingCold"] = 90,
 					["buffs-health-color-red"] = 102,
-					["debuffs-health-color-lightred"] = 80,
+					["buffs-health-color-lightred"] = 79,
 					["buff-PhaseShift"] = 99,
 					["color-staticcolor"] = 50,
 					["debuff-special-Sawblades"] = 89,
 					["buff-Rejuvenation-mine"] = 97,
-					["buffs-health-color-yellow"] = 75,
+					["debuff-special-AcidVolley"] = 87,
 					["debuff-special-MysticBuffet"] = 93,
 					["debuff-special-WyvernSting"] = 81,
 					["buff-PowerWord:Shield-mine"] = 96,
@@ -6779,9 +6779,9 @@ Grid2DB = {
 				},
 				["text-bottomright-2-STACKS"] = {
 					["debuff-special-DarkTouched"] = 54,
-					["buff-Revivify:Mine-mine"] = 59,
 					["debuffs-text-bottomright-stacks"] = 58,
 					["debuff-special-ShadowResonance"] = 60,
+					["buff-Revivify:Mine-mine"] = 59,
 					["debuff-special-FlameTouched"] = 55,
 					["debuff-special-ArcaneBuffet"] = 57,
 				},
@@ -7075,16 +7075,16 @@ Grid2DB = {
 					["reverseCooldown"] = true,
 					["maxIcons"] = 4,
 					["borderSize"] = 1,
-					["useStatusColor"] = true,
-					["maxIconsPerRow"] = 6,
-					["iconSize"] = 14,
-					["level"] = 6,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
+					["maxIconsPerRow"] = 6,
+					["useStatusColor"] = true,
+					["level"] = 6,
+					["iconSize"] = 14,
 					["type"] = "icons",
 				},
 				["text-up-PET-color"] = {
@@ -7233,17 +7233,17 @@ Grid2DB = {
 				["icons-left"] = {
 					["maxIcons"] = 3,
 					["type"] = "icons",
+					["orientation"] = "VERTICAL",
+					["reverseCooldown"] = true,
 					["iconSize"] = 16,
 					["level"] = 6,
+					["maxIconsPerRow"] = 1,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 16,
 					},
-					["maxIconsPerRow"] = 1,
-					["reverseCooldown"] = true,
-					["orientation"] = "VERTICAL",
 				},
 				["corner-top-right-color"] = {
 					["type"] = "text-color",
@@ -8192,24 +8192,19 @@ Grid2DB = {
 							37118, -- [7]
 							42783, -- [8]
 						},
-						[1184] = {
-							321828, -- [1]
-							322648, -- [2]
-							322486, -- [3]
-							322939, -- [4]
-							323043, -- [5]
-							322487, -- [6]
-							322968, -- [7]
-							322557, -- [8]
-							321968, -- [9]
-							325027, -- [10]
-							331721, -- [11]
-							325021, -- [12]
-							340208, -- [13]
-							340160, -- [14]
-							325418, -- [15]
-							326092, -- [16]
-							323250, -- [17]
+						[100533] = {
+							28796, -- [1]
+							28794, -- [2]
+							28622, -- [3]
+							28169, -- [4]
+							55550, -- [5]
+							29212, -- [6]
+							28410, -- [7]
+							27808, -- [8]
+							28786, -- [9]
+							28542, -- [10]
+							29998, -- [11]
+							28882, -- [12]
 						},
 						[100616] = {
 							56272, -- [1]
@@ -8294,37 +8289,24 @@ Grid2DB = {
 							66690, -- [1]
 							72004, -- [2]
 						},
-						[100564] = {
-							40253, -- [1]
-							39837, -- [2]
-							40239, -- [3]
-							40251, -- [4]
-							40604, -- [5]
-							40481, -- [6]
-							40508, -- [7]
-							42005, -- [8]
-							41179, -- [9]
-							41978, -- [10]
-							42023, -- [11]
-							41914, -- [12]
-							41917, -- [13]
-							40585, -- [14]
-							41032, -- [15]
-							40932, -- [16]
-							40860, -- [17]
-							41001, -- [18]
-							34654, -- [19]
-							39674, -- [20]
-							41150, -- [21]
-							41168, -- [22]
-							41485, -- [23]
-							41472, -- [24]
-							41303, -- [25]
-							41410, -- [26]
-							41376, -- [27]
-							41272, -- [28]
-							13005, -- [29]
-							3609, -- [30]
+						[1184] = {
+							321828, -- [1]
+							322648, -- [2]
+							322486, -- [3]
+							322939, -- [4]
+							323043, -- [5]
+							322487, -- [6]
+							322968, -- [7]
+							322557, -- [8]
+							321968, -- [9]
+							325027, -- [10]
+							331721, -- [11]
+							325021, -- [12]
+							340208, -- [13]
+							340160, -- [14]
+							325418, -- [15]
+							326092, -- [16]
+							323250, -- [17]
 						},
 						[1185] = {
 							323437, -- [1]
@@ -8559,19 +8541,37 @@ Grid2DB = {
 						[100249] = {
 							18431, -- [1]
 						},
-						[100533] = {
-							28796, -- [1]
-							28794, -- [2]
-							28622, -- [3]
-							28169, -- [4]
-							55550, -- [5]
-							29212, -- [6]
-							28410, -- [7]
-							27808, -- [8]
-							28786, -- [9]
-							28542, -- [10]
-							29998, -- [11]
-							28882, -- [12]
+						[100564] = {
+							40253, -- [1]
+							39837, -- [2]
+							40239, -- [3]
+							40251, -- [4]
+							40604, -- [5]
+							40481, -- [6]
+							40508, -- [7]
+							42005, -- [8]
+							41179, -- [9]
+							41978, -- [10]
+							42023, -- [11]
+							41914, -- [12]
+							41917, -- [13]
+							40585, -- [14]
+							41032, -- [15]
+							40932, -- [16]
+							40860, -- [17]
+							41001, -- [18]
+							34654, -- [19]
+							39674, -- [20]
+							41150, -- [21]
+							41168, -- [22]
+							41485, -- [23]
+							41472, -- [24]
+							41303, -- [25]
+							41410, -- [26]
+							41376, -- [27]
+							41272, -- [28]
+							13005, -- [29]
+							3609, -- [30]
 						},
 						[100532] = {
 							30115, -- [1]
@@ -9446,9 +9446,9 @@ Grid2DB = {
 				},
 				["text-bottomright-2-STACKS"] = {
 					["debuff-special-DarkTouched"] = 54,
-					["debuffs-text-bottomright-stacks"] = 58,
 					["buff-Revivify:Mine-mine"] = 59,
 					["debuff-special-ShadowResonance"] = 60,
+					["debuffs-text-bottomright-stacks"] = 58,
 					["debuff-special-FlameTouched"] = 55,
 					["debuff-special-ArcaneBuffet"] = 57,
 				},
@@ -9495,13 +9495,13 @@ Grid2DB = {
 					["debuffs-health-color-red"] = 100,
 					["debuff-special-DarkTouched"] = 82,
 					["debuffs-health-color-teal"] = 86,
-					["death"] = 104,
+					["buffs-health-color-yellow"] = 75,
 					["debuff-special-Instability"] = 95,
 					["debuff-special-WyvernSting"] = 81,
 					["debuff-special-ChilledtotheBone"] = 92,
 					["debuff-special-MysticBuffet"] = 93,
 					["debuff-special-Strangulate"] = 88,
-					["buffs-health-color-yellow"] = 75,
+					["debuff-special-AcidVolley"] = 87,
 					["raid-debuffs"] = 73,
 					["buffs-health-color-teal"] = 57,
 					["debuff-special-ShadowPrison"] = 91,
@@ -9511,14 +9511,14 @@ Grid2DB = {
 					["spells-DMG Taken"] = 98,
 					["debuff-special-Sawblades"] = 89,
 					["debuff-special-WoundPoison"] = 85,
-					["debuff-Anubarak>PenetratingCold"] = 90,
+					["debuffs-health-color-lightred"] = 80,
 					["buff-PhaseShift"] = 99,
 					["color-staticcolor"] = 50,
-					["debuffs-health-color-lightred"] = 80,
-					["buff-Rejuvenation-mine"] = 97,
-					["debuff-special-AcidVolley"] = 87,
-					["debuffs-health-color-yellow"] = 78,
 					["buffs-health-color-lightred"] = 79,
+					["buff-Rejuvenation-mine"] = 97,
+					["death"] = 104,
+					["debuffs-health-color-yellow"] = 78,
+					["debuff-Anubarak>PenetratingCold"] = 90,
 					["buff-PowerWord:Shield-mine"] = 96,
 					["debuff-special-ArcaneBuffet"] = 84,
 				},
@@ -10453,17 +10453,17 @@ Grid2DB = {
 				["icons-left"] = {
 					["maxIcons"] = 3,
 					["type"] = "icons",
-					["orientation"] = "VERTICAL",
-					["reverseCooldown"] = true,
-					["iconSize"] = 16,
-					["level"] = 6,
-					["maxIconsPerRow"] = 1,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "TOPLEFT",
 						["point"] = "TOPLEFT",
 						["x"] = 16,
 					},
+					["maxIconsPerRow"] = 1,
+					["orientation"] = "VERTICAL",
+					["reverseCooldown"] = true,
+					["level"] = 6,
+					["iconSize"] = 16,
 				},
 				["corner-top-right-color"] = {
 					["type"] = "text-color",
@@ -10527,16 +10527,16 @@ Grid2DB = {
 					["reverseCooldown"] = true,
 					["maxIcons"] = 4,
 					["borderSize"] = 1,
+					["iconSize"] = 14,
+					["level"] = 6,
 					["location"] = {
 						["y"] = 0,
 						["relPoint"] = "BOTTOMLEFT",
 						["point"] = "BOTTOMLEFT",
 						["x"] = 0,
 					},
-					["level"] = 6,
-					["useStatusColor"] = true,
 					["maxIconsPerRow"] = 6,
-					["iconSize"] = 14,
+					["useStatusColor"] = true,
 					["fontSize"] = 13,
 				},
 			},
@@ -10758,19 +10758,37 @@ Grid2DB = {
 							37118, -- [7]
 							42783, -- [8]
 						},
-						[100533] = {
-							28796, -- [1]
-							28794, -- [2]
-							28622, -- [3]
-							28169, -- [4]
-							55550, -- [5]
-							29212, -- [6]
-							28410, -- [7]
-							27808, -- [8]
-							28786, -- [9]
-							28542, -- [10]
-							29998, -- [11]
-							28882, -- [12]
+						[100564] = {
+							40253, -- [1]
+							39837, -- [2]
+							40239, -- [3]
+							40251, -- [4]
+							40604, -- [5]
+							40481, -- [6]
+							40508, -- [7]
+							42005, -- [8]
+							41179, -- [9]
+							41978, -- [10]
+							42023, -- [11]
+							41914, -- [12]
+							41917, -- [13]
+							40585, -- [14]
+							41032, -- [15]
+							40932, -- [16]
+							40860, -- [17]
+							41001, -- [18]
+							34654, -- [19]
+							39674, -- [20]
+							41150, -- [21]
+							41168, -- [22]
+							41485, -- [23]
+							41472, -- [24]
+							41303, -- [25]
+							41410, -- [26]
+							41376, -- [27]
+							41272, -- [28]
+							13005, -- [29]
+							3609, -- [30]
 						},
 						[100616] = {
 							56272, -- [1]
@@ -10855,24 +10873,19 @@ Grid2DB = {
 							66690, -- [1]
 							72004, -- [2]
 						},
-						[1184] = {
-							321828, -- [1]
-							322648, -- [2]
-							322486, -- [3]
-							322939, -- [4]
-							323043, -- [5]
-							322487, -- [6]
-							322968, -- [7]
-							322557, -- [8]
-							321968, -- [9]
-							325027, -- [10]
-							331721, -- [11]
-							325021, -- [12]
-							340208, -- [13]
-							340160, -- [14]
-							325418, -- [15]
-							326092, -- [16]
-							323250, -- [17]
+						[100533] = {
+							28796, -- [1]
+							28794, -- [2]
+							28622, -- [3]
+							28169, -- [4]
+							55550, -- [5]
+							29212, -- [6]
+							28410, -- [7]
+							27808, -- [8]
+							28786, -- [9]
+							28542, -- [10]
+							29998, -- [11]
+							28882, -- [12]
 						},
 						[1185] = {
 							323437, -- [1]
@@ -11107,37 +11120,24 @@ Grid2DB = {
 						[100249] = {
 							18431, -- [1]
 						},
-						[100564] = {
-							40253, -- [1]
-							39837, -- [2]
-							40239, -- [3]
-							40251, -- [4]
-							40604, -- [5]
-							40481, -- [6]
-							40508, -- [7]
-							42005, -- [8]
-							41179, -- [9]
-							41978, -- [10]
-							42023, -- [11]
-							41914, -- [12]
-							41917, -- [13]
-							40585, -- [14]
-							41032, -- [15]
-							40932, -- [16]
-							40860, -- [17]
-							41001, -- [18]
-							34654, -- [19]
-							39674, -- [20]
-							41150, -- [21]
-							41168, -- [22]
-							41485, -- [23]
-							41472, -- [24]
-							41303, -- [25]
-							41410, -- [26]
-							41376, -- [27]
-							41272, -- [28]
-							13005, -- [29]
-							3609, -- [30]
+						[1184] = {
+							321828, -- [1]
+							322648, -- [2]
+							322486, -- [3]
+							322939, -- [4]
+							323043, -- [5]
+							322487, -- [6]
+							322968, -- [7]
+							322557, -- [8]
+							321968, -- [9]
+							325027, -- [10]
+							331721, -- [11]
+							325021, -- [12]
+							340208, -- [13]
+							340160, -- [14]
+							325418, -- [15]
+							326092, -- [16]
+							323250, -- [17]
 						},
 						[100532] = {
 							30115, -- [1]
@@ -11631,17 +11631,6 @@ Grid2DB = {
 						["disabled"] = true,
 					},
 				},
-				["debuff-special-WyvernSting"] = {
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0.392156862745098,
-						["r"] = 0.392156862745098,
-					},
-					["useSpellId"] = true,
-					["type"] = "debuff",
-					["spellName"] = 65877,
-				},
 				["color-staticcolor"] = {
 					["color1"] = {
 						["a"] = 1,
@@ -11650,6 +11639,26 @@ Grid2DB = {
 						["r"] = 0.2352941334247589,
 					},
 					["type"] = "color",
+				},
+				["debuff-special-AcidVolley"] = {
+					["spellName"] = 29325,
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["r"] = 0.392156862745098,
+						["g"] = 0.392156862745098,
+						["b"] = 0,
+					},
+					["enableStacks"] = 10,
+				},
+				["debuff-Curse"] = {
+					["load"] = {
+						["playerClass"] = {
+							["MAGE"] = true,
+							["DRUID"] = true,
+							["SHAMAN"] = true,
+						},
+					},
 				},
 				["debuffs-text-bottomright-stacks"] = {
 					["color1"] = {
@@ -11661,34 +11670,6 @@ Grid2DB = {
 					["useWhiteList"] = true,
 					["type"] = "debuffs",
 					["auras"] = {
-					},
-				},
-				["buffs-health-color-yellow"] = {
-					["type"] = "buffs",
-					["auras"] = {
-						"Alliance Flag", -- [1]
-						"Horde Flag", -- [2]
-						"Netherstorm Flag", -- [3]
-					},
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0,
-						["g"] = 0.392156862745098,
-						["r"] = 0.392156862745098,
-					},
-				},
-				["debuff-Curse"] = {
-					["load"] = {
-						["playerClass"] = {
-							["MAGE"] = true,
-							["DRUID"] = true,
-							["SHAMAN"] = true,
-						},
-					},
-				},
-				["offline"] = {
-					["color1"] = {
-						["a"] = 0.300000011920929,
 					},
 				},
 				["buff-PowerWord:Shield-mine"] = {
@@ -11706,6 +11687,40 @@ Grid2DB = {
 					},
 					["mine"] = 1,
 					["spellName"] = 17,
+				},
+				["buffs-health-color-yellow"] = {
+					["type"] = "buffs",
+					["auras"] = {
+						"Alliance Flag", -- [1]
+						"Horde Flag", -- [2]
+						"Netherstorm Flag", -- [3]
+					},
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0.392156862745098,
+						["r"] = 0.392156862745098,
+					},
+				},
+				["offline"] = {
+					["color1"] = {
+						["a"] = 0.300000011920929,
+					},
+				},
+				["buffs-icon-center"] = {
+					["type"] = "buffs",
+					["auras"] = {
+						"Divine Intervention", -- [1]
+						"Flee", -- [2]
+						"Spirit of Redemption", -- [3]
+						"Vengeance of the Blue Flight", -- [4]
+					},
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
 				},
 				["debuffs-text-bottomright-2"] = {
 					["auras"] = {
@@ -11770,21 +11785,6 @@ Grid2DB = {
 						["b"] = 0,
 					},
 				},
-				["buffs-icon-center"] = {
-					["type"] = "buffs",
-					["auras"] = {
-						"Divine Intervention", -- [1]
-						"Flee", -- [2]
-						"Spirit of Redemption", -- [3]
-						"Vengeance of the Blue Flight", -- [4]
-					},
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
-						["r"] = 1,
-					},
-				},
 				["debuff-special-WoundPoison"] = {
 					["enableStacks"] = 4,
 					["type"] = "debuff",
@@ -11795,27 +11795,6 @@ Grid2DB = {
 						["r"] = 0.9803921568627451,
 					},
 					["spellName"] = 13218,
-				},
-				["direction"] = {
-					["updateRate"] = 2,
-					["showOnlyStickyUnits"] = true,
-					["StickyTarget"] = true,
-					["load"] = {
-						["instType"] = {
-							["none"] = true,
-						},
-					},
-				},
-				["debuff-special-DarkTouched"] = {
-					["enableStacks"] = 8,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["b"] = 0.392156862745098,
-						["g"] = 0.392156862745098,
-						["r"] = 0.9803921568627451,
-					},
-					["spellName"] = 45347,
 				},
 				["buff-Revivify:Mine-mine"] = {
 					["color1"] = {
@@ -11859,10 +11838,15 @@ Grid2DB = {
 						["r"] = 0,
 					},
 				},
-				["dungeon-role"] = {
-					["hideDamagers"] = true,
-					["hideInCombat"] = true,
-					["useAlternateIcons"] = true,
+				["direction"] = {
+					["showOnlyStickyUnits"] = true,
+					["StickyTarget"] = true,
+					["updateRate"] = 2,
+					["load"] = {
+						["instType"] = {
+							["none"] = true,
+						},
+					},
 				},
 				["buffs-ArmorBuff"] = {
 					["auras"] = {
@@ -11907,6 +11891,31 @@ Grid2DB = {
 						["disabled"] = true,
 					},
 				},
+				["debuff-special-DarkTouched"] = {
+					["enableStacks"] = 8,
+					["type"] = "debuff",
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0.392156862745098,
+						["g"] = 0.392156862745098,
+						["r"] = 0.9803921568627451,
+					},
+					["spellName"] = 45347,
+				},
+				["dungeon-role"] = {
+					["hideDamagers"] = true,
+					["hideInCombat"] = true,
+					["useAlternateIcons"] = true,
+				},
+				["heals-incoming"] = {
+					["healTypeFlags"] = 19,
+					["includePlayerHeals"] = true,
+					["color1"] = {
+						["r"] = 0.2352941334247589,
+						["g"] = 0.2352941334247589,
+						["b"] = 0.2352941334247589,
+					},
+				},
 				["buff-PrayerofMending-mine"] = {
 					["type"] = "buff",
 					["color1"] = {
@@ -11922,26 +11931,6 @@ Grid2DB = {
 					},
 					["mine"] = 1,
 					["spellName"] = 41635,
-				},
-				["debuff-special-AcidVolley"] = {
-					["spellName"] = 29325,
-					["type"] = "debuff",
-					["color1"] = {
-						["a"] = 1,
-						["r"] = 0.392156862745098,
-						["g"] = 0.392156862745098,
-						["b"] = 0,
-					},
-					["enableStacks"] = 10,
-				},
-				["heals-incoming"] = {
-					["healTypeFlags"] = 19,
-					["includePlayerHeals"] = true,
-					["color1"] = {
-						["r"] = 0.2352941334247589,
-						["g"] = 0.2352941334247589,
-						["b"] = 0.2352941334247589,
-					},
 				},
 				["buffs-icons-top"] = {
 					["type"] = "buffs",
@@ -12128,6 +12117,17 @@ Grid2DB = {
 						["g"] = 0.3921568989753723,
 						["r"] = 0.3921568989753723,
 					},
+				},
+				["debuff-special-WyvernSting"] = {
+					["color1"] = {
+						["a"] = 1,
+						["b"] = 0,
+						["g"] = 0.392156862745098,
+						["r"] = 0.392156862745098,
+					},
+					["useSpellId"] = true,
+					["type"] = "debuff",
+					["spellName"] = 65877,
 				},
 				["buffs-health-color-lightred"] = {
 					["type"] = "buffs",
@@ -12489,11 +12489,11 @@ Grid2DB = {
 					["enableStacks"] = 4,
 				},
 				["raid-icon-player"] = {
-					["color6"] = {
-						["g"] = 0.7098039388656616,
-					},
 					["load"] = {
 						["disabled"] = true,
+					},
+					["color6"] = {
+						["g"] = 0.7098039388656616,
 					},
 				},
 				["debuff-Magic"] = {
@@ -12609,7 +12609,6 @@ Grid2DB = {
 					["spellName"] = 774,
 				},
 				["range"] = {
-					["default"] = 0.4,
 					["elapsed"] = 0.1,
 					["ranges"] = {
 						["PALADIN"] = {
@@ -12618,6 +12617,7 @@ Grid2DB = {
 							["hostileSpellID"] = 48825,
 						},
 					},
+					["default"] = 0.4,
 					["color1"] = {
 						["a"] = 0,
 						["g"] = 1,
@@ -12642,8 +12642,8 @@ Grid2DB = {
 				},
 			},
 			["formatting"] = {
-				["longDecimalFormat"] = "%.0f",
 				["shortDurationStackFormat"] = "%.1f:%d",
+				["longDecimalFormat"] = "%.0f",
 			},
 			["versions"] = {
 				["Grid2"] = 14,
@@ -12683,13 +12683,13 @@ Grid2DB = {
 					["debuffs-health-color-red"] = 100,
 					["debuff-special-DarkTouched"] = 82,
 					["debuff-special-MortalWound"] = 83,
-					["debuff-special-AcidVolley"] = 87,
+					["buffs-health-color-yellow"] = 75,
 					["debuff-special-ArcaneBuffet"] = 84,
 					["spells-DMG Taken"] = 98,
 					["debuff-special-ChilledtotheBone"] = 92,
 					["debuff-special-MysticBuffet"] = 93,
 					["debuff-special-Strangulate"] = 88,
-					["buffs-health-color-yellow"] = 75,
+					["death"] = 104,
 					["raid-debuffs"] = 73,
 					["buffs-health-color-teal"] = 57,
 					["debuff-special-ShadowPrison"] = 91,
@@ -12699,22 +12699,22 @@ Grid2DB = {
 					["debuff-special-WyvernSting"] = 81,
 					["color-staticcolor"] = 50,
 					["debuff-special-WoundPoison"] = 85,
-					["debuffs-health-color-lightred"] = 80,
+					["buffs-health-color-lightred"] = 79,
 					["buff-PhaseShift"] = 99,
 					["debuff-special-Sawblades"] = 89,
-					["buffs-health-color-lightred"] = 79,
-					["buff-Rejuvenation-mine"] = 97,
-					["death"] = 104,
-					["debuffs-health-color-yellow"] = 78,
 					["debuff-Anubarak>PenetratingCold"] = 90,
+					["buff-Rejuvenation-mine"] = 97,
+					["debuff-special-AcidVolley"] = 87,
+					["debuffs-health-color-yellow"] = 78,
+					["debuffs-health-color-lightred"] = 80,
 					["buff-PowerWord:Shield-mine"] = 96,
 					["debuff-special-Instability"] = 95,
 				},
 				["text-bottomright-2-STACKS"] = {
 					["debuff-special-DarkTouched"] = 54,
-					["debuffs-text-bottomright-stacks"] = 58,
 					["buff-Revivify:Mine-mine"] = 59,
 					["debuff-special-ShadowResonance"] = 60,
+					["debuffs-text-bottomright-stacks"] = 58,
 					["debuff-special-FlameTouched"] = 55,
 					["debuff-special-ArcaneBuffet"] = 57,
 				},

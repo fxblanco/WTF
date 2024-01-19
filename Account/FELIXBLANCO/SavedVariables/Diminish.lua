@@ -1,11 +1,11 @@
 
 DiminishDB = {
 	["profileKeys"] = {
-		["Alsía-Venoxis"] = "Default",
 		["Andrés-Venoxis"] = "Default",
+		["Pjanic-Venoxis"] = "Default",
 		["Alsia-Venoxis"] = "Default",
 		["Xolem-Venoxis"] = "Default",
-		["Pjanic-Venoxis"] = "Default",
+		["Alsía-Venoxis"] = "Default",
 		["Kwasimojo-Venoxis"] = "Default",
 		["Khalimmortus-Venoxis"] = "Default",
 	},
@@ -13,17 +13,10 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["timerColors"] = false,
 			["timerText"] = true,
-			["trackNPCs"] = true,
-			["categoryTextMaxLines"] = 2,
-			["timerEdge"] = true,
-			["border"] = {
-				["layer"] = "BORDER",
-				["edgeSize"] = 2.5,
-				["name"] = "Default",
-				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
-			},
+			["timerColors"] = false,
+			["timerSwipe"] = true,
+			["announceDRs"] = false,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -67,7 +60,7 @@ DiminishDB = {
 					["iconSize"] = 21,
 					["offsetY"] = 40,
 					["usePersonalNameplate"] = false,
-					["isEnabledForZone"] = true,
+					["isEnabledForZone"] = false,
 				},
 				["focus"] = {
 					["enabled"] = true,
@@ -89,7 +82,7 @@ DiminishDB = {
 					["iconSize"] = 22,
 					["offsetY"] = 23,
 					["timerTextSize"] = 12,
-					["isEnabledForZone"] = true,
+					["isEnabledForZone"] = false,
 				},
 				["target"] = {
 					["enabled"] = true,
@@ -111,7 +104,7 @@ DiminishDB = {
 					["iconSize"] = 22,
 					["offsetY"] = 23,
 					["timerTextSize"] = 12,
-					["isEnabledForZone"] = true,
+					["isEnabledForZone"] = false,
 				},
 				["arena"] = {
 					["enabled"] = true,
@@ -157,13 +150,20 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
+			["border"] = {
+				["layer"] = "BORDER",
+				["edgeSize"] = 2.5,
+				["name"] = "Default",
+				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
+			},
+			["timerEdge"] = true,
 			["showCategoryText"] = true,
 			["timerStartAuraEnd"] = false,
 			["version"] = "1.11",
 			["timerTextOutline"] = "NONE",
 			["colorBlind"] = false,
-			["timerSwipe"] = true,
-			["announceDRs"] = false,
+			["trackNPCs"] = true,
+			["categoryTextMaxLines"] = 2,
 			["categoryFont"] = {
 				["x"] = 0,
 				["size"] = 11,

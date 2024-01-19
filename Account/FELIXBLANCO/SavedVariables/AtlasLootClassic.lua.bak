@@ -115,7 +115,7 @@ AtlasLootClassicDB = {
 			[47734] = "EmblemOfTriumph:50",
 			[50835] = "EmblemOfFrost:95",
 			[50867] = "EmblemOfFrost:95",
-			[49908] = "DefilersScourgestone:12",
+			[49908] = "EmblemOfFrost:23",
 			[40733] = "EmblemOfValor:60",
 			[50995] = "EmblemOfFrost:60",
 			[40861] = "EmblemOfValor:30",
@@ -757,7 +757,7 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"IcecrownCitadel", -- [2]
-					7, -- [3]
+					nil, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},

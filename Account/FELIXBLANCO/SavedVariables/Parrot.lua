@@ -12,6 +12,77 @@ ParrotDB = {
 						["Power gain/loss"] = 1,
 						["Killing blows"] = 0.3,
 					},
+					["Incoming"] = {
+						["Skill dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Skill reflects"] = {
+							["color"] = "ff00ff",
+						},
+						["Melee reflects"] = {
+							["color"] = "ff00ff",
+						},
+						["Skill misses"] = {
+							["color"] = "3399ff",
+						},
+						["Melee dodges"] = {
+							["color"] = "3399ff",
+						},
+						["Skill parries"] = {
+							["color"] = "3399ff",
+						},
+						["Self damage absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee parries"] = {
+							["color"] = "3399ff",
+						},
+						["Melee blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Skill absorbs"] = {
+							["tag"] = "([Skill]) A [Amount]!",
+						},
+						["Melee resists"] = {
+							["color"] = "ff00ff",
+						},
+						["Melee misses"] = {
+							["color"] = "3399ff",
+						},
+						["Skill resists"] = {
+							["color"] = "ff00ff",
+						},
+						["Melee absorbs"] = {
+							["tag"] = "A [Amount]!",
+						},
+						["Skill blocks"] = {
+							["color"] = "3399ff",
+						},
+						["Self damage misses"] = {
+							["color"] = "3399ff",
+						},
+					},
+					["hideFullOverheals"] = 3,
+					["modifier"] = {
+						["overheal"] = {
+							["enabled"] = false,
+						},
+						["absorb"] = {
+							["tag"] = " ([Amount] A)",
+						},
+						["overkill"] = {
+							["enabled"] = false,
+						},
+						["crit"] = {
+							["enabled"] = true,
+							["tag"] = "[Text]",
+						},
+					},
+					["dbver"] = 5,
+					["filters"] = {
+						["Incoming heals"] = 2000,
+						["Outgoing heals"] = 2000,
+					},
 					["Notification"] = {
 						["Currency gains"] = {
 							["disabled"] = true,
@@ -73,9 +144,6 @@ ParrotDB = {
 						["Pet buff fades"] = {
 							["disabled"] = true,
 						},
-						["Enemy debuff gains"] = {
-							["disabled"] = true,
-						},
 						["Loot money"] = {
 							["disabled"] = true,
 						},
@@ -86,6 +154,9 @@ ParrotDB = {
 							["disabled"] = true,
 						},
 						["Skill gains"] = {
+							["disabled"] = true,
+						},
+						["NPC killing blows"] = {
 							["disabled"] = true,
 						},
 						["Loot items"] = {
@@ -106,35 +177,18 @@ ParrotDB = {
 						["Debuff gains"] = {
 							["disabled"] = true,
 						},
-						["NPC killing blows"] = {
+						["Enemy debuff gains"] = {
 							["disabled"] = true,
 						},
 						["Debuff stack gains"] = {
 							["disabled"] = true,
 						},
 					},
-					["hideFullOverheals"] = 3,
-					["modifier"] = {
-						["overheal"] = {
-							["enabled"] = false,
-						},
-						["absorb"] = {
-							["tag"] = " ([Amount] A)",
-						},
-						["overkill"] = {
-							["enabled"] = false,
-						},
-						["crit"] = {
-							["enabled"] = true,
-							["tag"] = "[Text]",
-						},
-					},
-					["dbver"] = 5,
-					["filters"] = {
-						["Incoming heals"] = 2000,
-						["Outgoing heals"] = 2000,
-					},
+					["shortenAmount"] = true,
 					["Outgoing"] = {
+						["Skill dodges"] = {
+							["color"] = "3399ff",
+						},
 						["Heals over time"] = {
 							["disabled"] = true,
 							["tag"] = "+[Amount] ([Name])",
@@ -154,24 +208,6 @@ ParrotDB = {
 						["Skill deflects"] = {
 							["color"] = "3399ff",
 						},
-						["Melee parries"] = {
-							["color"] = "3399ff",
-						},
-						["Skill DoTs"] = {
-							["tag"] = "[Amount]",
-						},
-						["Melee misses"] = {
-							["color"] = "3399ff",
-						},
-						["Melee absorbs"] = {
-							["tag"] = "A [Amount]!",
-						},
-						["Skill blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill dodges"] = {
-							["color"] = "3399ff",
-						},
 						["Self damage absorbs"] = {
 							["tag"] = "([Skill]) A [Amount]!",
 						},
@@ -182,11 +218,26 @@ ParrotDB = {
 							["disabled"] = true,
 							["tag"] = "+[Amount] ([Name])",
 						},
+						["Melee parries"] = {
+							["color"] = "3399ff",
+						},
+						["Skill DoTs"] = {
+							["tag"] = "[Amount]",
+						},
 						["Melee blocks"] = {
 							["color"] = "3399ff",
 						},
 						["Skill absorbs"] = {
 							["tag"] = "A [Amount]! ([Skill])",
+						},
+						["Melee misses"] = {
+							["color"] = "3399ff",
+						},
+						["Melee absorbs"] = {
+							["tag"] = "A [Amount]!",
+						},
+						["Skill blocks"] = {
+							["color"] = "3399ff",
 						},
 						["Skill damage"] = {
 							["tag"] = "[Amount]",
@@ -196,57 +247,6 @@ ParrotDB = {
 						},
 						["Reactive skills"] = {
 							["tag"] = "[Amount]",
-						},
-					},
-					["shortenAmount"] = true,
-					["Incoming"] = {
-						["Skill misses"] = {
-							["color"] = "3399ff",
-						},
-						["Melee dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Melee parries"] = {
-							["color"] = "3399ff",
-						},
-						["Melee resists"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee misses"] = {
-							["color"] = "3399ff",
-						},
-						["Skill resists"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee absorbs"] = {
-							["tag"] = "A [Amount]!",
-						},
-						["Skill blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill dodges"] = {
-							["color"] = "3399ff",
-						},
-						["Self damage absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Skill reflects"] = {
-							["color"] = "ff00ff",
-						},
-						["Melee blocks"] = {
-							["color"] = "3399ff",
-						},
-						["Skill absorbs"] = {
-							["tag"] = "([Skill]) A [Amount]!",
-						},
-						["Melee reflects"] = {
-							["color"] = "ff00ff",
-						},
-						["Skill parries"] = {
-							["color"] = "3399ff",
-						},
-						["Self damage misses"] = {
-							["color"] = "3399ff",
 						},
 					},
 					["hideSkillNames"] = true,
@@ -641,9 +641,9 @@ ParrotDB = {
 					["dbver3"] = 1,
 					["triggers"] = {
 						[1001] = {
+							["useflash"] = false,
 							["sound"] = "Sharp Punch",
 							["disabled"] = false,
-							["useflash"] = false,
 						},
 						[1003] = {
 							["disabled"] = true,

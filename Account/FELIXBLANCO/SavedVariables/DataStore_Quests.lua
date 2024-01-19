@@ -678,10 +678,10 @@ DataStore_QuestsDB = {
 					[317] = 4048698289,
 					[321] = 295940,
 					[325] = 804257795,
-					[432] = 32768,
 					[789] = 8388608,
-					[297] = 67108864,
 					[333] = 96,
+					[432] = 32768,
+					[297] = 67108864,
 					[766] = 2148007936,
 					[349] = 2147483649,
 					[2461] = 1,
@@ -931,44 +931,44 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705529895,
-				["HistorySize"] = 1090,
-				["HistoryLastUpdate"] = 1705528929,
+				["lastUpdate"] = 1705620926,
+				["HistorySize"] = 1102,
+				["HistoryLastUpdate"] = 1705619479,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [1]
-					"|cffffff00|Hquest:24589:80|h[Lord Jaraxxus Must Die!]|h|r", -- [2]
-					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [3]
-					"|cffffff00|Hquest:13539:80|h[Toppling the Towers]|h|r", -- [4]
-					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [5]
-					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [6]
+					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [1]
+					"|cffffff00|Hquest:13539:80|h[Toppling the Towers]|h|r", -- [2]
+					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [3]
+					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [4]
+					"|cffffff00|Hquest:24589:80|h[Lord Jaraxxus Must Die!]|h|r", -- [5]
+					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [6]
 					"|cffffff00|Hquest:13697:80|h[The Valiant's Charge]|h|r", -- [7]
 				},
 				["HistoryBuild"] = "52237",
 				["Money"] = {
-					313300, -- [1]
-					296000, -- [2]
+					206300, -- [1]
+					206300, -- [2]
 					206300, -- [3]
 					206300, -- [4]
-					206300, -- [5]
-					206300, -- [6]
+					296000, -- [5]
+					313300, -- [6]
 					206300, -- [7]
 				},
 				["QuestTitles"] = {
-					"The Sacred and the Corrupt", -- [1]
-					"Lord Jaraxxus Must Die!", -- [2]
-					"Slay them all!", -- [3]
-					"Toppling the Towers", -- [4]
-					"Victory in Wintergrasp", -- [5]
-					"Warding the Walls", -- [6]
+					"Slay them all!", -- [1]
+					"Toppling the Towers", -- [2]
+					"Victory in Wintergrasp", -- [3]
+					"Warding the Walls", -- [4]
+					"Lord Jaraxxus Must Die!", -- [5]
+					"The Sacred and the Corrupt", -- [6]
 					"The Valiant's Charge", -- [7]
 				},
 				["QuestTags"] = {
-					89, -- [1]
-					62, -- [2]
+					41, -- [1]
+					41, -- [2]
 					41, -- [3]
 					41, -- [4]
-					41, -- [5]
-					41, -- [6]
+					62, -- [5]
+					89, -- [6]
 				},
 				["History"] = {
 					[261] = 1309000928,
@@ -978,7 +978,7 @@ DataStore_QuestsDB = {
 					[357] = 3263693025,
 					[373] = 6188,
 					[776] = 4269834501,
-					[405] = 1051774974,
+					[405] = 4273000447,
 					[57] = 16384,
 					[2199] = 1310720,
 					[777] = 14,
@@ -988,7 +988,7 @@ DataStore_QuestsDB = {
 					[358] = 2684356113,
 					[94] = 31457280,
 					[390] = 9437240,
-					[406] = 3151863793,
+					[406] = 3151863807,
 					[438] = 1,
 					[114] = 176300032,
 					[263] = 3221225473,
@@ -1085,13 +1085,14 @@ DataStore_QuestsDB = {
 					[290] = 1006633424,
 					[322] = 128,
 					[354] = 415236070,
+					[1993] = 25165824,
 					[97] = 536870912,
 					[402] = 2135456272,
 					[418] = 2147483648,
-					[1993] = 25165824,
 					[131] = 2097152,
 					[374] = 1086324736,
 					[413] = 12582920,
+					[36] = 1024,
 					[98] = 8,
 					[259] = 262144,
 					[158] = 268435456,
@@ -1104,78 +1105,71 @@ DataStore_QuestsDB = {
 					[772] = 3072,
 					[403] = 4219208000,
 					[419] = 512,
-					[2212] = 14080,
 					[2211] = 245760,
-					[386] = 1920,
-					[154] = 33554432,
-					[389] = 1244104,
-					[773] = 960,
-					[291] = 130,
-					[292] = 229384,
-					[766] = 3424387072,
-					[324] = 1073741824,
 					[409] = 4030681591,
+					[154] = 33554432,
+					[766] = 3424387072,
+					[291] = 130,
+					[773] = 960,
+					[389] = 1244104,
+					[292] = 229384,
+					[386] = 1920,
+					[324] = 1073741824,
+					[2212] = 14080,
 					[356] = 224,
 					[372] = 166036992,
 					[388] = 3087007744,
 					[404] = 4156522491,
 					[420] = 269696,
 					[436] = 2048,
-					[36] = 1024,
 					[47] = 2048,
 					[27] = 65536,
 					[444] = 2048,
+					[778] = 129024,
 				},
 				["QuestHeaders"] = {
-					"Icecrown Citadel", -- [1]
+					"Wintergrasp", -- [1]
 					"Trial of the Crusader", -- [2]
-					"Wintergrasp", -- [3]
+					"Icecrown Citadel", -- [3]
 					"Tournament", -- [4]
 				},
 				["Quests"] = {
 					5244992, -- [1]
-					5247041, -- [2]
-					5249088, -- [3]
-					5249088, -- [4]
-					5249088, -- [5]
+					5244992, -- [2]
+					5244992, -- [3]
+					5244992, -- [4]
+					5247041, -- [5]
 					5249088, -- [6]
 					5251136, -- [7]
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
 				["HistoryBuild"] = "52237",
-				["HistorySize"] = 141,
-				["HistoryLastUpdate"] = 1705272126,
+				["HistorySize"] = 143,
+				["HistoryLastUpdate"] = 1705618960,
 				["QuestLinks"] = {
-					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
-					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
-					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [3]
-					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [4]
+					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [1]
+					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [2]
 				},
-				["lastUpdate"] = 1705277380,
+				["lastUpdate"] = 1705618959,
 				["QuestHeaders"] = {
-					"Dalaran", -- [1]
+					"Halls of Reflection", -- [1]
 					"Icecrown Citadel", -- [2]
-					"Halls of Reflection", -- [3]
 				},
 				["QuestTitles"] = {
-					"Proof of Demise: Threats to Azeroth", -- [1]
-					"Proof of Demise: Titan Rune Protocol Gamma", -- [2]
-					"The Sacred and the Corrupt", -- [3]
-					"Frostmourne", -- [4]
+					"Frostmourne", -- [1]
+					"The Sacred and the Corrupt", -- [2]
 				},
 				["QuestTags"] = {
-					85, -- [1]
-					85, -- [2]
-					89, -- [3]
-					81, -- [4]
+					81, -- [1]
+					89, -- [2]
 				},
 				["History"] = {
 					[2010] = 2147483648,
 					[291] = 128,
 					[2445] = 178176,
 					[773] = 320,
-					[777] = 32782,
+					[777] = 14,
 					[300] = 1073741825,
 					[301] = 2,
 					[303] = 477261824,
@@ -1190,7 +1184,7 @@ DataStore_QuestsDB = {
 					[324] = 1073741824,
 					[263] = 3221225473,
 					[772] = 3072,
-					[776] = 4269834497,
+					[776] = 4269834241,
 					[116] = 2,
 					[331] = 1073741825,
 					[332] = 2,
@@ -1199,7 +1193,9 @@ DataStore_QuestsDB = {
 					[400] = 348127232,
 					[402] = 8192,
 					[52] = 8379392,
-					[789] = 92274688,
+					[2462] = 2,
+					[2461] = 1,
+					[789] = 96468992,
 					[2443] = 32530560,
 					[264] = 4,
 					[1996] = 67108864,
@@ -1211,16 +1207,12 @@ DataStore_QuestsDB = {
 					[769] = 32760,
 				},
 				["Money"] = {
-					486600, -- [1]
-					486600, -- [2]
-					313300, -- [3]
-					52000, -- [4]
+					52000, -- [1]
+					313300, -- [2]
 				},
 				["Quests"] = {
-					5244994, -- [1]
-					5244994, -- [2]
-					5247040, -- [3]
-					5249088, -- [4]
+					5244992, -- [1]
+					5247040, -- [2]
 				},
 			},
 			["Default.Venoxis.Pjanic"] = {
@@ -1236,8 +1228,8 @@ DataStore_QuestsDB = {
 					[19] = 16384,
 					[16] = 4096,
 					[158] = 131072,
-					[261] = 16777216,
 					[28] = 3582069227,
+					[2051] = 2,
 					[14] = 3072,
 					[27] = 2225419520,
 					[48] = 24,
@@ -1251,7 +1243,7 @@ DataStore_QuestsDB = {
 					[200] = 134217728,
 					[204] = 134217728,
 					[208] = 32,
-					[2051] = 2,
+					[261] = 16777216,
 					[154] = 33554432,
 					[29] = 240,
 					[441] = 512,

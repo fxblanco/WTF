@@ -114,55 +114,55 @@ DataStore_InventoryDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705528927,
+				["lastUpdate"] = 1705620926,
 				["averageItemLvl"] = 266.25,
-				["overallAIL"] = 270.5625,
+				["overallAIL"] = 272.1875,
 				["Inventory"] = {
-					"|cffffffff|Hitem:48649:3878:41398:40111:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:50682::40129::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:48647:3852:40119::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:48649:3878:41398:40111:::::80:::::::::|h[Liadrin's Faceguard of Triumph]|h|r", -- [1]
+					"|cffa335ee|Hitem:50682::40129::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
+					"|cffa335ee|Hitem:48647:3852:40119::::::80:::::::::|h[Liadrin's Shoulderguards of Triumph]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:51265:3832:42142:40129:::::80:::::::::|h[]|h|r", -- [5]
-					"|cffffffff|Hitem:50991::40141:40119:36767::::80:::::::::|h[]|h|r", -- [6]
-					"|cffffffff|Hitem:50612:3822:40129:40119:40166::::80:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:50625:3606:40166:40119:::::80:::::::::|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:49960:3850:40166::::::80:::::::::|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:51267:3860:40166::::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:50642::42142::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:51265:3832:42142:40129:::::80:::::::::|h[Sanctified Lightsworn Chestguard]|h|r", -- [5]
+					"|cffa335ee|Hitem:50991::40141:40119:36767::::80:::::::::|h[Verdigris Chain Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:50612:3822:40129:40119:40166::::80:::::::::|h[Legguards of Lost Hope]|h|r", -- [7]
+					"|cffa335ee|Hitem:50625:3606:40166:40119:::::80:::::::::|h[Grinning Skull Greatboots]|h|r", -- [8]
+					"|cffa335ee|Hitem:49960:3850:40166::::::80:::::::::|h[Bracers of Dark Reckoning]|h|r", -- [9]
+					"|cffa335ee|Hitem:51267:3860:40166::::::80:::::::::|h[Sanctified Lightsworn Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:50642::42142::::::80:::::::::|h[Juggernaut Band]|h|r", -- [11]
 					"|cffa335ee|Hitem:52572::40166::::::80:::::::::|h[Ashen Band of Endless Might]|h|r", -- [12]
-					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [13]
-					"|cffffffff|Hitem:46038::::::::80:::::::::|h[]|h|r", -- [14]
-					"|cffffffff|Hitem:45496:3605:40129::::::80:::::::::|h[]|h|r", -- [15]
-					"|cffffffff|Hitem:50672:2673:40129::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:51909:3849:40119::::::80:::::::::|h[]|h|r", -- [17]
-					"|cffffffff|Hitem:47661::::::::80:::::::::|h[]|h|r", -- [18]
-					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
+					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
+					"|cffa335ee|Hitem:46038::::::::80:::::::::|h[Dark Matter]|h|r", -- [14]
+					"|cffa335ee|Hitem:45496:3605:40129::::::80:::::::::|h[Titanskin Cloak]|h|r", -- [15]
+					"|cffa335ee|Hitem:50672:2673:40129::::::80:::::::::|h[Bloodvenom Blade]|h|r", -- [16]
+					"|cffa335ee|Hitem:51909:3849:40119::::::80:::::::::|h[Neverending Winter]|h|r", -- [17]
+					"|cffa335ee|Hitem:47661::::::::80:::::::::|h[Libram of Valiance]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:50640::::::::80:::::::::|h[Broken Ram Skull Helm]|h|r", -- [1]
-					"|cffa335ee|Hitem:50682::::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
-					"|cffa335ee|Hitem:50660::40166:40129:::::80:::::::::|h[Boneguard Commander's Pauldrons]|h|r", -- [3]
+					"|cffffffff|Hitem:50640:3878:41398:40129:::::80:::::::::|h[]|h|r", -- [1]
+					"|cffa335ee|Hitem:50682::40141::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
+					"|cffa335ee|Hitem:50660:3852:40166:40129:::::80:::::::::|h[Boneguard Commander's Pauldrons]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51265::::::::80:::::::::|h[Sanctified Lightsworn Chestguard]|h|r", -- [5]
-					"|cffa335ee|Hitem:47444::40129:40119:40119::::80:::::::::|h[Belt of Bloodied Scars]|h|r", -- [6]
+					"|cffa335ee|Hitem:51265:3832:40141:40129:::::80:::::::::|h[Sanctified Lightsworn Chestguard]|h|r", -- [5]
+					"|cffa335ee|Hitem:50991::40141:40129:40129::::80:::::::::|h[Verdigris Chain Belt]|h|r", -- [6]
 					"|cffa335ee|Hitem:51171:3822:40166:40119:::::80:::::::::|h[Sanctified Lightsworn Legguards]|h|r", -- [7]
-					"|cffa335ee|Hitem:54564::::::::80:::::::::|h[Scion's Treads]|h|r", -- [8]
+					"|cffffffff|Hitem:54564:3606:40141:40141:::::80:::::::::|h[]|h|r", -- [8]
 					"|cffa335ee|Hitem:47571:3757:40166::::::80:::::::::|h[Saronite Swordbreakers]|h|r", -- [9]
-					"|cffa335ee|Hitem:51172::40166::::::80:::::::::|h[Sanctified Lightsworn Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:50622::40129::::::80:::::::::|h[Devium's Eternally Cold Ring]|h|r", -- [11]
-					"|cffa335ee|Hitem:52572::::::::80:::::::::|h[Ashen Band of Endless Might]|h|r", -- [12]
+					"|cffffffff|Hitem:51172:3604:40166::::::80:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:50622::40129::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:52572::40166::::::80:::::::::|h[Ashen Band of Endless Might]|h|r", -- [12]
 					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
 					"|cffa335ee|Hitem:50706::::::::80:::::::::|h[Tiny Abomination in a Jar]|h|r", -- [14]
-					"|cffa335ee|Hitem:51888:3605:40119::::::80:::::::::|h[Cloak of Many Skins]|h|r", -- [15]
+					"|cffffffff|Hitem:51888:3605:40119::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffa335ee|Hitem:51916:2673:40129::::::80:::::::::|h[Frost Giant's Cleaver]|h|r", -- [16]
-					"|cffa335ee|Hitem:50729:3849:40129::::::80:::::::::|h[Icecrown Glacial Wall]|h|r", -- [17]
+					"|cffffffff|Hitem:50729:3849:40129::::::80:::::::::|h[]|h|r", -- [17]
 					"|cffa335ee|Hitem:47661::::::::80:::::::::|h[Libram of Valiance]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 268.1875,
-				["overallAIL"] = 269,
-				["lastUpdate"] = 1705277380,
+				["averageItemLvl"] = 268.5625,
+				["overallAIL"] = 270.5625,
+				["lastUpdate"] = 1705618959,
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["Inventory"] = {
@@ -213,7 +213,7 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 269,
 					},
 					["Khalimmortus"] = {
-						["averageItemLvl"] = 255,
+						["averageItemLvl"] = 258,
 					},
 				},
 			},

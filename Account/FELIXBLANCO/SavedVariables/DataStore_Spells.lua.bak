@@ -452,7 +452,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705528927,
+				["lastUpdate"] = 1705619418,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -496,12 +496,16 @@ DataStore_SpellsDB = {
 						"818|", -- [4]
 						"107|Passive", -- [5]
 						"54197|Passive", -- [6]
-						"81|Passive", -- [7]
-						"51306|Grand Master", -- [8]
-						"3274|Journeyman", -- [9]
-						"20222|", -- [10]
-						"822|Racial Passive", -- [11]
-						"3127|Passive", -- [12]
+						"51296|Grand Master", -- [7]
+						"81|Passive", -- [8]
+						"51306|Grand Master", -- [9]
+						"3274|Journeyman", -- [10]
+						"7732|Expert", -- [11]
+						"20222|", -- [12]
+						"51311|Grand Master", -- [13]
+						"822|Racial Passive", -- [14]
+						"3127|Passive", -- [15]
+						"31252|", -- [16]
 					},
 					["Vergeltung"] = {
 						"54043|Rang 7", -- [1]
@@ -575,8 +579,7 @@ DataStore_SpellsDB = {
 						"20271|", -- [7]
 						"53408|", -- [8]
 						"54043|Rank 7", -- [9]
-						"20375|", -- [10]
-						"348704|", -- [11]
+						"348704|", -- [10]
 					},
 					["Holy"] = {
 						"48936|Rank 9", -- [1]
@@ -608,7 +611,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705277380,
+				["lastUpdate"] = 1705618959,
 				["Spells"] = {
 					["Protection"] = {
 						"48827|Rank 5", -- [1]
@@ -668,9 +671,8 @@ DataStore_SpellsDB = {
 						"81|Passive", -- [6]
 						"51306|Grand Master", -- [7]
 						"20222|", -- [8]
-						"51302|Grand Master", -- [9]
-						"822|Racial Passive", -- [10]
-						"3127|Passive", -- [11]
+						"822|Racial Passive", -- [9]
+						"3127|Passive", -- [10]
 					},
 					["Retribution"] = {
 						"31884|", -- [1]
@@ -694,7 +696,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1705530394,
+				["lastUpdate"] = 1705539365,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -719,10 +721,17 @@ DataStore_SpellsDB = {
 					},
 					["General"] = {
 						"6603|", -- [1]
-						"54197|Passive", -- [2]
-						"81|Passive", -- [3]
-						"51306|Grand Master", -- [4]
-						"3127|Passive", -- [5]
+						"20574|Racial Passive", -- [2]
+						"20572|Racial", -- [3]
+						"54197|Passive", -- [4]
+						"54562|Racial Passive", -- [5]
+						"81|Passive", -- [6]
+						"674|Passive", -- [7]
+						"51306|Grand Master", -- [8]
+						"10846|Artisan", -- [9]
+						"20573|Racial Passive", -- [10]
+						"3127|Passive", -- [11]
+						"53428|", -- [12]
 					},
 					["Unholy"] = {
 						"48707|", -- [1]

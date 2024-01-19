@@ -43,9 +43,8 @@ DataStore_AgendaDB = {
 				["DungeonIDs"] = {
 					["Icecrown Citadel 10 Player (Heroic)|195453561"] = "529230|1705539569|0|1",
 					["Naxxramas 10 Player|195423366"] = "529230|1705539569|0|1",
-					["Vault of Archavon 25 Player|195423447"] = "529230|1705539569|0|1",
 					["Vault of Archavon 10 Player|195425714"] = "529230|1705539569|0|1",
-					["The Forge of Souls Heroic|282694063"] = "10830|1705539569|0|0",
+					["Vault of Archavon 25 Player|195423447"] = "529230|1705539569|0|1",
 					["Trial of the Crusader 25 Player (Heroic)|195425851"] = "529230|1705539569|0|1",
 				},
 				["BossKills"] = {
@@ -132,18 +131,11 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1705528525,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705529511,
-			},
-			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705277381,
+				["DungeonIDs"] = {
+					["Icecrown Citadel 25 Player (Heroic)|195485777"] = "447443|1705621355|0|1",
+				},
 				["BossKills"] = {
-					["The Ruby Sanctum 10 Player (Heroic)|195349421"] = {
-						"Baltharus the Warborn|1", -- [1]
-						"Saviana Ragefire|1", -- [2]
-						"General Zarithrian|1", -- [3]
-						"Halion|1", -- [4]
-					},
-					["Icecrown Citadel 25 Player|195343621"] = {
+					["Icecrown Citadel 25 Player (Heroic)|195485777"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -157,14 +149,38 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"The Lich King|1", -- [12]
 					},
-					["Trial of the Crusader 25 Player (Heroic)|195212066"] = {
-						"Northrend Beasts|1", -- [1]
-						"Lord Jaraxxus|1", -- [2]
-						"Faction Champions|1", -- [3]
-						"Val'kyr Twins|1", -- [4]
-						"Anub'arak|1", -- [5]
+				},
+				["lastUpdate"] = 1705621355,
+			},
+			["Default.Venoxis.Alsía"] = {
+				["DungeonIDs"] = {
+					["Naxxramas 10 Player|195423202"] = "449839|1705618960|0|1",
+					["The Forge of Souls Heroic|282774749"] = "17839|1705618960|0|0",
+				},
+				["BossKills"] = {
+					["Naxxramas 10 Player|195423202"] = {
+						"Anub'Rekhan|1", -- [1]
+						"Grand Widow Faerlina|0", -- [2]
+						"Maexxna|0", -- [3]
+						"Noth the Plaguebringer|0", -- [4]
+						"Heigan the Unclean|0", -- [5]
+						"Loatheb|0", -- [6]
+						"Instructor Razuvious|0", -- [7]
+						"Gothik the Harvester|0", -- [8]
+						"The Four Horsemen|0", -- [9]
+						"Patchwerk|0", -- [10]
+						"Grobbulus|0", -- [11]
+						"Gluth|0", -- [12]
+						"Thaddius|0", -- [13]
+						"Sapphiron|0", -- [14]
+						"Kel'Thuzad|0", -- [15]
+					},
+					["The Forge of Souls Heroic|282774749"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
 					},
 				},
+				["lastUpdate"] = 1705618960,
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["lastUpdate"] = 1703190968,
