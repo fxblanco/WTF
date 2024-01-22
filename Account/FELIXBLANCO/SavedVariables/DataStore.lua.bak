@@ -27,7 +27,7 @@ DataStoreDB = {
 			["Default.Venoxis.Pjanic"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Venoxis.Xolem"] = {
+			["Default.Venoxis.Khalimmortus"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
 			},
@@ -39,7 +39,7 @@ DataStoreDB = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
-			["Default.Venoxis.Khalimmortus"] = {
+			["Default.Venoxis.Xolem"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
 			},

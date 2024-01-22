@@ -12,12 +12,124 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1705272060,
-				["lastVisitDate"] = "2024/01/14 23:41",
+				["lastUpdate"] = 1705880328,
+				["lastVisitDate"] = "2024/01/22 00:38",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705618430,
-				["lastVisitDate"] = "2024/01/18 23:53",
+				["lastUpdate"] = 1705701031,
+				["Mails"] = {
+					{
+						["lastCheck"] = 1705701031,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction successful: Saronite Ore (7)",
+						["returned"] = false,
+						["money"] = 45084,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 29.22435188293457,
+					}, -- [1]
+					{
+						["returned"] = false,
+						["sender"] = "Horde Auction House",
+						["itemID"] = 10940,
+						["link"] = "|cffffffff|Hitem:10940::::::::80:::::::::|h[Strange Dust]|h|r",
+						["lastCheck"] = 1705701031,
+						["count"] = 9,
+						["icon"] = 132858,
+						["daysLeft"] = 29.4531364440918,
+					}, -- [2]
+					{
+						["lastCheck"] = 1705701031,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction expired: Strange Dust (9)",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 29.4531364440918,
+					}, -- [3]
+					{
+						["returned"] = false,
+						["sender"] = "Horde Auction House",
+						["itemID"] = 11084,
+						["link"] = "|cff0070dd|Hitem:11084::::::::80:::::::::|h[Large Glimmering Shard]|h|r",
+						["lastCheck"] = 1705701031,
+						["count"] = 4,
+						["icon"] = 132876,
+						["daysLeft"] = 29.45319366455078,
+					}, -- [4]
+					{
+						["lastCheck"] = 1705701031,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction expired: Large Glimmering Shard (4)",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 29.45319366455078,
+					}, -- [5]
+					{
+						["lastCheck"] = 1705701031,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction expired: Small Glimmering Shard (4)",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 29.45319366455078,
+					}, -- [6]
+					{
+						["returned"] = false,
+						["sender"] = "Horde Auction House",
+						["itemID"] = 10978,
+						["link"] = "|cff0070dd|Hitem:10978::::::::80:::::::::|h[Small Glimmering Shard]|h|r",
+						["lastCheck"] = 1705701031,
+						["count"] = 4,
+						["icon"] = 132877,
+						["daysLeft"] = 29.45319366455078,
+					}, -- [7]
+					{
+						["returned"] = false,
+						["sender"] = "Horde Auction House",
+						["itemID"] = 11138,
+						["link"] = "|cff0070dd|Hitem:11138::::::::80:::::::::|h[Small Glowing Shard]|h|r",
+						["lastCheck"] = 1705701031,
+						["count"] = 6,
+						["icon"] = 132879,
+						["daysLeft"] = 29.4532527923584,
+					}, -- [8]
+					{
+						["lastCheck"] = 1705701031,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction expired: Small Glowing Shard (6)",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 29.4532527923584,
+					}, -- [9]
+					{
+						["lastCheck"] = 1705701031,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction expired: Large Glowing Shard",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["icon"] = 134939,
+						["daysLeft"] = 29.45331001281738,
+					}, -- [10]
+					{
+						["returned"] = false,
+						["sender"] = "Horde Auction House",
+						["itemID"] = 11139,
+						["link"] = "|cff0070dd|Hitem:11139::::::::80:::::::::|h[Large Glowing Shard]|h|r",
+						["lastCheck"] = 1705701031,
+						["count"] = 1,
+						["icon"] = 132878,
+						["daysLeft"] = 29.45331001281738,
+					}, -- [11]
+				},
+				["lastVisitDate"] = "2024/01/19 22:50",
 			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1704969754,
@@ -250,12 +362,23 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2024/01/08 09:47",
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705277521,
-				["lastVisitDate"] = "2024/01/15 01:12",
+				["lastUpdate"] = 1705707416,
+				["lastVisitDate"] = "2024/01/20 00:36",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1705048788,
-				["lastVisitDate"] = "2024/01/12 09:39",
+				["lastUpdate"] = 1705877113,
+				["Mails"] = {
+					{
+						["sender"] = "Kwasimojo",
+						["subject"] = "qwe",
+						["lastCheck"] = 1705880323,
+						["money"] = 2000000000,
+						["text"] = "",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["daysLeft"] = 30,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2024/01/21 23:45",
 			},
 		},
 	},

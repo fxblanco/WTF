@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
+	["announceTrackedAchievements"] = false,
 	["InfoFramescale"] = 1,
-	["hideCompletedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["hideCompletedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -36690,6 +36690,150 @@ AchievementTrackerDebug = {
 	"10/1/2024 19:8 [DEBUG] Creating Tracking UI", -- [36665]
 	"10/1/2024 19:8 [DEBUG] InfoFrame Setup Complete", -- [36666]
 	"10/1/2024 19:8 [DEBUG] Expansion: 3", -- [36667]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [36668]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.34.0", -- [36669]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [36670]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [36671]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [36672]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [36673]
+	"12/1/2024 22:45 [DEBUG] Showing Minimap Icon", -- [36674]
+	"12/1/2024 22:45 [DEBUG] Player has entered instance", -- [36675]
+	"12/1/2024 22:45 [DEBUG] 649", -- [36676]
+	"12/1/2024 22:45 [DEBUG] Offical Instance Name: 649 _649", -- [36677]
+	"12/1/2024 22:45 [DEBUG] Detected Legacy 10 man Raid", -- [36678]
+	"12/1/2024 22:45 [DEBUG] New Instance Name: 649-10", -- [36679]
+	"12/1/2024 22:45 [DEBUG] Expansion: 3", -- [36680]
+	"12/1/2024 22:45 [DEBUG] Instance Type: Raids", -- [36681]
+	"12/1/2024 22:45 [DEBUG] Instance: 649-10", -- [36682]
+	"12/1/2024 22:45 [DEBUG] DifficultyID: 5", -- [36683]
+	"12/1/2024 22:45 [DEBUG] Expansion: 3", -- [36684]
+	"12/1/2024 22:45 [DEBUG] Instance Type: Raids", -- [36685]
+	"12/1/2024 22:45 [DEBUG] Instance: 649-10", -- [36686]
+	"12/1/2024 22:45 [DEBUG] Asking user whether they want to track this instance", -- [36687]
+	"12/1/2024 22:45 [DEBUG] Creating Tracking UI", -- [36688]
+	"12/1/2024 22:45 [DEBUG] InfoFrame Setup Complete", -- [36689]
+	"12/1/2024 22:45 [DEBUG] Expansion: 3", -- [36690]
+	"12/1/2024 22:45 [DEBUG] 6", -- [36691]
+	"12/1/2024 22:45 [DEBUG] Hiding Tracking UI", -- [36692]
+	"12/1/2024 22:45 [DEBUG] Hiding Tracking UI", -- [36693]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables", -- [36694]
+	"12/1/2024 22:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [36695]
+	"12/1/2024 22:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [36696]
+	"12/1/2024 22:45 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [36697]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables if exists", -- [36698]
+	"12/1/2024 22:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [36699]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables if exists", -- [36700]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables", -- [36701]
+	"12/1/2024 22:45 [DEBUG] Resetting Global Variables", -- [36702]
+	"12/1/2024 22:45 [DEBUG] InfoFrame does not need to be reset", -- [36703]
+	"12/1/2024 22:45 [DEBUG] Resetting PlayerRank", -- [36704]
+	"12/1/2024 22:45 [DEBUG] InfoFrame was not active", -- [36705]
+	"12/1/2024 22:45 [DEBUG] Hiding Tracking UI", -- [36706]
+	"12/1/2024 22:45 [DEBUG] Player has entered instance", -- [36707]
+	"12/1/2024 22:45 [DEBUG] 649", -- [36708]
+	"12/1/2024 22:45 [DEBUG] Offical Instance Name: 649 _649", -- [36709]
+	"12/1/2024 22:45 [DEBUG] Detected Legacy 25 man raid", -- [36710]
+	"12/1/2024 22:45 [DEBUG] New Instance Name: 649-25", -- [36711]
+	"12/1/2024 22:45 [DEBUG] Expansion: 3", -- [36712]
+	"12/1/2024 22:45 [DEBUG] Instance Type: Raids", -- [36713]
+	"12/1/2024 22:45 [DEBUG] Instance: 649-25", -- [36714]
+	"12/1/2024 22:45 [DEBUG] DifficultyID: 6", -- [36715]
+	"12/1/2024 22:45 [DEBUG] Expansion: 3", -- [36716]
+	"12/1/2024 22:45 [DEBUG] Instance Type: Raids", -- [36717]
+	"12/1/2024 22:45 [DEBUG] Instance: 649-25", -- [36718]
+	"12/1/2024 22:45 [DEBUG] Asking user whether they want to track this instance", -- [36719]
+	"12/1/2024 22:45 [DEBUG] Displaying Tracking UI since it was already created", -- [36720]
+	"12/1/2024 22:45 [DEBUG] Expansion: 3", -- [36721]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables", -- [36722]
+	"12/1/2024 22:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2014: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [36723]
+	"12/1/2024 22:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2022: attempt to call method 'InstanceCleanup' (a nil value).", -- [36724]
+	"12/1/2024 22:45 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [36725]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables if exists", -- [36726]
+	"12/1/2024 22:45 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4030: attempt to call method 'clearVariables' (a nil value).", -- [36727]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables if exists", -- [36728]
+	"12/1/2024 22:45 [DEBUG] Clearing Instance Variables", -- [36729]
+	"12/1/2024 22:45 [DEBUG] Resetting Global Variables", -- [36730]
+	"12/1/2024 22:45 [DEBUG] InfoFrame does not need to be reset", -- [36731]
+	"12/1/2024 22:45 [DEBUG] Resetting PlayerRank", -- [36732]
+	"12/1/2024 22:45 [DEBUG] InfoFrame was not active", -- [36733]
+	"12/1/2024 22:45 [DEBUG] 6", -- [36734]
+	"12/1/2024 22:45 [DEBUG] Hiding Tracking UI", -- [36735]
+	"12/1/2024 22:46 [DEBUG] Hiding Tracking UI", -- [36736]
+	"12/1/2024 22:49 [DEBUG] Hiding Tracking UI", -- [36737]
+	"12/1/2024 22:53 [DEBUG] Hiding Tracking UI", -- [36738]
+	"12/1/2024 22:56 [DEBUG] Hiding Tracking UI", -- [36739]
+	"12/1/2024 22:59 [DEBUG] Player has entered instance", -- [36740]
+	"12/1/2024 22:59 [DEBUG] 724", -- [36741]
+	"12/1/2024 22:59 [DEBUG] Offical Instance Name: 724 _724", -- [36742]
+	"12/1/2024 22:59 [DEBUG] DifficultyID: 6", -- [36743]
+	"12/1/2024 22:59 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36744]
+	"12/1/2024 22:59 [DEBUG] Hiding Tracking UI", -- [36745]
+	"12/1/2024 22:59 [DEBUG] Player has entered instance", -- [36746]
+	"12/1/2024 22:59 [DEBUG] 724", -- [36747]
+	"12/1/2024 22:59 [DEBUG] Offical Instance Name: 724 _724", -- [36748]
+	"12/1/2024 22:59 [DEBUG] DifficultyID: 6", -- [36749]
+	"12/1/2024 22:59 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36750]
+	"12/1/2024 23:15 [DEBUG] Hiding Tracking UI", -- [36751]
+	"12/1/2024 23:15 [DEBUG] Hiding Tracking UI", -- [36752]
+	"12/1/2024 23:15 [DEBUG] Player has entered instance", -- [36753]
+	"12/1/2024 23:15 [DEBUG] 724", -- [36754]
+	"12/1/2024 23:15 [DEBUG] Offical Instance Name: 724 _724", -- [36755]
+	"12/1/2024 23:15 [DEBUG] DifficultyID: 6", -- [36756]
+	"12/1/2024 23:15 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36757]
+	"12/1/2024 23:15 [DEBUG] Player has entered instance", -- [36758]
+	"12/1/2024 23:15 [DEBUG] 724", -- [36759]
+	"12/1/2024 23:15 [DEBUG] Offical Instance Name: 724 _724", -- [36760]
+	"12/1/2024 23:15 [DEBUG] DifficultyID: 6", -- [36761]
+	"12/1/2024 23:15 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36762]
+	"12/1/2024 23:23 [DEBUG] Hiding Tracking UI", -- [36763]
+	"12/1/2024 23:23 [DEBUG] Hiding Tracking UI", -- [36764]
+	"12/1/2024 23:23 [DEBUG] Player has entered instance", -- [36765]
+	"12/1/2024 23:23 [DEBUG] 724", -- [36766]
+	"12/1/2024 23:23 [DEBUG] Offical Instance Name: 724 _724", -- [36767]
+	"12/1/2024 23:23 [DEBUG] DifficultyID: 6", -- [36768]
+	"12/1/2024 23:23 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36769]
+	"12/1/2024 23:23 [DEBUG] Player has entered instance", -- [36770]
+	"12/1/2024 23:23 [DEBUG] 724", -- [36771]
+	"12/1/2024 23:23 [DEBUG] Offical Instance Name: 724 _724", -- [36772]
+	"12/1/2024 23:23 [DEBUG] DifficultyID: 6", -- [36773]
+	"12/1/2024 23:23 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36774]
+	"12/1/2024 23:26 [DEBUG] Hiding Tracking UI", -- [36775]
+	"12/1/2024 23:26 [DEBUG] Hiding Tracking UI", -- [36776]
+	"12/1/2024 23:26 [DEBUG] Player has entered instance", -- [36777]
+	"12/1/2024 23:26 [DEBUG] 724", -- [36778]
+	"12/1/2024 23:26 [DEBUG] Offical Instance Name: 724 _724", -- [36779]
+	"12/1/2024 23:26 [DEBUG] DifficultyID: 6", -- [36780]
+	"12/1/2024 23:26 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36781]
+	"12/1/2024 23:26 [DEBUG] Player has entered instance", -- [36782]
+	"12/1/2024 23:26 [DEBUG] 724", -- [36783]
+	"12/1/2024 23:26 [DEBUG] Offical Instance Name: 724 _724", -- [36784]
+	"12/1/2024 23:26 [DEBUG] DifficultyID: 6", -- [36785]
+	"12/1/2024 23:26 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36786]
+	"12/1/2024 23:32 [DEBUG] Hiding Tracking UI", -- [36787]
+	"12/1/2024 23:33 [DEBUG] Player has entered instance", -- [36788]
+	"12/1/2024 23:33 [DEBUG] 724", -- [36789]
+	"12/1/2024 23:33 [DEBUG] Offical Instance Name: 724 _724", -- [36790]
+	"12/1/2024 23:33 [DEBUG] DifficultyID: 6", -- [36791]
+	"12/1/2024 23:33 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36792]
+	"12/1/2024 23:33 [DEBUG] Hiding Tracking UI", -- [36793]
+	"12/1/2024 23:33 [DEBUG] Player has entered instance", -- [36794]
+	"12/1/2024 23:33 [DEBUG] 724", -- [36795]
+	"12/1/2024 23:33 [DEBUG] Offical Instance Name: 724 _724", -- [36796]
+	"12/1/2024 23:33 [DEBUG] DifficultyID: 6", -- [36797]
+	"12/1/2024 23:33 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36798]
+	"12/1/2024 23:39 [DEBUG] Hiding Tracking UI", -- [36799]
+	"12/1/2024 23:40 [DEBUG] Hiding Tracking UI", -- [36800]
+	"12/1/2024 23:40 [DEBUG] Player has entered instance", -- [36801]
+	"12/1/2024 23:40 [DEBUG] 724", -- [36802]
+	"12/1/2024 23:40 [DEBUG] Offical Instance Name: 724 _724", -- [36803]
+	"12/1/2024 23:40 [DEBUG] DifficultyID: 6", -- [36804]
+	"12/1/2024 23:40 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36805]
+	"12/1/2024 23:40 [DEBUG] Player has entered instance", -- [36806]
+	"12/1/2024 23:40 [DEBUG] 724", -- [36807]
+	"12/1/2024 23:40 [DEBUG] Offical Instance Name: 724 _724", -- [36808]
+	"12/1/2024 23:40 [DEBUG] DifficultyID: 6", -- [36809]
+	"12/1/2024 23:40 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [36810]
+	"12/1/2024 23:55 [DEBUG] Hiding Tracking UI", -- [36811]
 }
 AchievementTrackerNPCCache = {
 }
@@ -36704,7 +36848,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebeard",
 	[26746] = "Crazed Mana-Wraith",
 	[27756] = "Ruby Drake",
-	[26668] = "Svala Sorrowgrave",
+	[26555] = "Scourge Hulk",
 	[33572] = "Steelforged Defender",
 	[29713] = "Slad'ran Constrictor",
 	[26627] = "Crystal Handler",
@@ -36715,33 +36859,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotic Rift",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Malformed Ooze",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgore",
 	[26731] = "Grand Magus Telestra",
-	[26893] = "Grauf",
 	[26641] = "Drakkari Gutripper",
-	[33136] = "Guardian of Yogg-Saron",
+	[26893] = "Grauf",
 	[27975] = "Maiden of Grief",
 	[33388] = "Dark Rune Guardian",
-	[27658] = "Belgaristrasz",
+	[28731] = "Watcher Silthik",
+	[28729] = "Watcher Narjil",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
 	[30176] = "Ahn'kahar Guardian",
 	[23562] = "Unstoppable Abomination",
-	[28729] = "Watcher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Watcher Gashra",
-	[28731] = "Watcher Silthik",
+	[33136] = "Guardian of Yogg-Saron",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",
 	[29932] = "Eck the Ferocious",
 	[29240] = "Stormforged Lieutenant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Malformed Ooze",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Scrapbot",
 	[23953] = "Prince Keleseth",
-	[26555] = "Scourge Hulk",
+	[26668] = "Svala Sorrowgrave",
 }

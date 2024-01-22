@@ -1,11 +1,11 @@
 
 DiminishDB = {
 	["profileKeys"] = {
-		["Andrés-Venoxis"] = "Default",
 		["Pjanic-Venoxis"] = "Default",
+		["Alsía-Venoxis"] = "Default",
 		["Alsia-Venoxis"] = "Default",
 		["Xolem-Venoxis"] = "Default",
-		["Alsía-Venoxis"] = "Default",
+		["Andrés-Venoxis"] = "Default",
 		["Kwasimojo-Venoxis"] = "Default",
 		["Khalimmortus-Venoxis"] = "Default",
 	},
@@ -13,10 +13,24 @@ DiminishDB = {
 		["Default"] = {
 			["categoryTextures"] = {
 			},
-			["timerText"] = true,
-			["timerColors"] = false,
+			["trackNPCs"] = true,
 			["timerSwipe"] = true,
+			["timerText"] = true,
+			["timerEdge"] = true,
 			["announceDRs"] = false,
+			["border"] = {
+				["layer"] = "BORDER",
+				["edgeSize"] = 2.5,
+				["name"] = "Default",
+				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
+			},
+			["categoryTextMaxLines"] = 2,
+			["showCategoryText"] = true,
+			["timerStartAuraEnd"] = false,
+			["version"] = "1.11",
+			["timerTextOutline"] = "NONE",
+			["colorBlind"] = false,
+			["timerColors"] = false,
 			["unitFrames"] = {
 				["nameplate"] = {
 					["enabled"] = false,
@@ -60,7 +74,7 @@ DiminishDB = {
 					["iconSize"] = 21,
 					["offsetY"] = 40,
 					["usePersonalNameplate"] = false,
-					["isEnabledForZone"] = false,
+					["isEnabledForZone"] = true,
 				},
 				["focus"] = {
 					["enabled"] = true,
@@ -82,7 +96,7 @@ DiminishDB = {
 					["iconSize"] = 22,
 					["offsetY"] = 23,
 					["timerTextSize"] = 12,
-					["isEnabledForZone"] = false,
+					["isEnabledForZone"] = true,
 				},
 				["target"] = {
 					["enabled"] = true,
@@ -104,7 +118,7 @@ DiminishDB = {
 					["iconSize"] = 22,
 					["offsetY"] = 23,
 					["timerTextSize"] = 12,
-					["isEnabledForZone"] = false,
+					["isEnabledForZone"] = true,
 				},
 				["arena"] = {
 					["enabled"] = true,
@@ -150,20 +164,6 @@ DiminishDB = {
 					["isEnabledForZone"] = false,
 				},
 			},
-			["border"] = {
-				["layer"] = "BORDER",
-				["edgeSize"] = 2.5,
-				["name"] = "Default",
-				["edgeFile"] = "Interface\\BUTTONS\\UI-Quickslot-Depress",
-			},
-			["timerEdge"] = true,
-			["showCategoryText"] = true,
-			["timerStartAuraEnd"] = false,
-			["version"] = "1.11",
-			["timerTextOutline"] = "NONE",
-			["colorBlind"] = false,
-			["trackNPCs"] = true,
-			["categoryTextMaxLines"] = 2,
 			["categoryFont"] = {
 				["x"] = 0,
 				["size"] = 11,

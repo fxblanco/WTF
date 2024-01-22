@@ -104,8 +104,10 @@ GDKPd_DB = {
 		},
 		["Alsía - Venoxis"] = {
 			["playerbalancepoint"] = {
-				["y"] = 55.43391799926758,
-				["x"] = 364.0752868652344,
+				["y"] = -11.58515071868897,
+				["x"] = -335.6138000488281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
 			},
 			["auctionTimer"] = 15,
 			["point"] = {
@@ -122,21 +124,22 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -280.3668518066406,
 			},
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 86.94361114501953,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -64.8211669921875,
 			},
-			["increment"] = 500,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["balancepoint"] = {
-				["y"] = -69.01875305175781,
+				["y"] = -12.8676643371582,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -357.347900390625,
+				["x"] = -41.27240371704102,
 			},
+			["auctionTimer"] = 10,
 			["playerbalancepoint"] = {
 				["y"] = 198.3747711181641,
 				["relative"] = "BOTTOMRIGHT",
@@ -144,17 +147,19 @@ GDKPd_DB = {
 				["x"] = -39.47518157958984,
 			},
 			["point"] = {
+				["y"] = -48.90563201904297,
 				["relative"] = "TOP",
 				["point"] = "TOP",
-				["x"] = 129.471923828125,
+				["x"] = 471.33984375,
 			},
-			["startBid"] = 2000,
-			["increment"] = 400,
+			["auctionTimerRefresh"] = 15,
+			["startBid"] = 2500,
+			["increment"] = 500,
 			["statuspoint"] = {
-				["y"] = -295.2457580566406,
+				["y"] = -169.3589782714844,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
-				["x"] = -354.6324768066406,
+				["x"] = -33.12261581420898,
 			},
 		},
 		["Alsia - Venoxis"] = {
@@ -229,8 +234,228 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Elate"] = 0,
+		["Pippop"] = -3107,
+		["Spaltkyle"] = 0,
+		["Onixus"] = 0,
+		["Sinthw"] = 0,
+		["Gnag"] = 0,
+		["Liptea"] = 21893,
+		["Gdkphunter"] = 21893,
+		["Kroda"] = 21893,
+		["Kentharo"] = 0,
+		["Khalimmortus"] = -5607,
+		["Wwrdlbrmpft"] = 21893,
+		["Vaccus"] = 0,
+		["Syzsha"] = 21893,
+		["Yuvée"] = 21893,
+		["Vaccs"] = 21893,
+		["Aorian"] = 0,
+		["Mexolx"] = 0,
+		["Taste"] = 0,
+		["Vangelies"] = 21893,
+		["Kylié"] = 21893,
+		["Uwugamergirl"] = 0,
+		["Bosaxd"] = -86107,
+		["Bumsmarie"] = 21893,
+		["Vacaria"] = 21893,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 11500,
+			["item"] = "|cffa335ee|Hitem:50608::::::::80:::::::::|h[Frozen Bonespike]|h|r",
+			["name"] = "Bosaxd",
+		}, -- [1]
+		{
+			["bid"] = 7000,
+			["item"] = "|cffa335ee|Hitem:50709::::::::80:::::::::|h[Bryntroll, the Bone Arbiter]|h|r",
+			["name"] = "Sinthw",
+		}, -- [2]
+		{
+			["bid"] = 40000,
+			["item"] = "|cffa335ee|Hitem:50613::::::::80:::::::::|h[Crushing Coldwraith Belt]|h|r",
+			["name"] = "Wwrdlbrmpft",
+		}, -- [3]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50638::::::::80:::::::::|h[Zod's Repeating Longbow]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [4]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50638::::::::80:::::::::|h[Zod's Repeating Longbow]|h|r",
+			["name"] = "Gdkphunter",
+		}, -- [5]
+		{
+			["bid"] = 70500,
+			["item"] = "|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r",
+			["name"] = "Bosaxd",
+		}, -- [6]
+		{
+			["bid"] = 11000,
+			["item"] = "|cffa335ee|Hitem:50700::::::::80:::::::::|h[Holiday's Grace]|h|r",
+			["name"] = "Vaccs",
+		}, -- [7]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50646::::::::80:::::::::|h[Cultist's Bloodsoaked Spaulders]|h|r",
+			["name"] = "Kroda",
+		}, -- [8]
+		{
+			["bid"] = 26000,
+			["item"] = "|cffa335ee|Hitem:50366::::::::80:::::::::|h[Althor's Abacus]|h|r",
+			["name"] = "Elate",
+		}, -- [9]
+		{
+			["bid"] = 9000,
+			["item"] = "|cffa335ee|Hitem:50653::::::::80:::::::::|h[Shadowvault Slayer's Cloak]|h|r",
+			["name"] = "Gnag",
+		}, -- [10]
+		2500, -- [11]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50678::::::::80:::::::::|h[Seal of Many Mouths]|h|r",
+			["name"] = "Sinthw",
+		}, -- [12]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50692::::::::80:::::::::|h[Black Bruise]|h|r",
+			["name"] = "Vacaria",
+		}, -- [13]
+		{
+			["bid"] = 21000,
+			["item"] = "|cffa335ee|Hitem:50670::::::::80:::::::::|h[Toskk's Maximized Wristguards]|h|r",
+			["name"] = "Onixus",
+		}, -- [14]
+		{
+			["bid"] = 27000,
+			["item"] = "|cffa335ee|Hitem:52030::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Vangelies",
+		}, -- [15]
+		{
+			["bid"] = 27000,
+			["item"] = "|cffa335ee|Hitem:52030::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Bumsmarie",
+		}, -- [16]
+		{
+			["bid"] = 25500,
+			["item"] = "|cffa335ee|Hitem:50631::::::::80:::::::::|h[Nightmare Ender]|h|r",
+			["name"] = "Mexolx",
+		}, -- [17]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50713::::::::80:::::::::|h[Geistlord's Punishment Sack]|h|r",
+			["name"] = "Kroda",
+		}, -- [18]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50723::::::::80:::::::::|h[Mail of Crimson Coins]|h|r",
+			["name"] = "Spaltkyle",
+		}, -- [19]
+		{
+			["bid"] = 30000,
+			["item"] = "|cffa335ee|Hitem:50707::::::::80:::::::::|h[Astrylian's Sutured Cinch]|h|r",
+			["name"] = "Onixus",
+		}, -- [20]
+		{
+			["bid"] = 15000,
+			["item"] = "|cffa335ee|Hitem:50714::::::::80:::::::::|h[Valanar's Other Signet Ring]|h|r",
+			["name"] = "Bosaxd",
+		}, -- [21]
+		-2500, -- [22]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffffffff|Hitem:6657::::::::80:::::::::|h[Savory Deviate Delight]|h|r",
+			["name"] = "Uwugamergirl",
+		}, -- [23]
+		{
+			["bid"] = 10000,
+			["item"] = "|cffa335ee|Hitem:50729::::::::80:::::::::|h[Icecrown Glacial Wall]|h|r",
+			["name"] = "Kylié",
+		}, -- [24]
+		{
+			["bid"] = 22500,
+			["item"] = "|cffa335ee|Hitem:50625::::::::80:::::::::|h[Grinning Skull Greatboots]|h|r",
+			["name"] = "Khalimmortus",
+		}, -- [25]
+		{
+			["bid"] = 25000,
+			["item"] = "|cffa335ee|Hitem:52028::::::::80:::::::::|h[Vanquisher's Mark of Sanctification]|h|r",
+			["name"] = "Pippop",
+		}, -- [26]
+		{
+			["bid"] = 37000,
+			["item"] = "|cffa335ee|Hitem:52029::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Sinthw",
+		}, -- [27]
+		{
+			["bid"] = 29000,
+			["item"] = "|cffa335ee|Hitem:50633::::::::80:::::::::|h[Sindragosa's Cruel Claw]|h|r",
+			["name"] = "Onixus",
+		}, -- [28]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52027::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Mexolx",
+		}, -- [29]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Sinthw",
+		}, -- [30]
+		{
+			["bid"] = 45000,
+			["item"] = "|cffff8000|Hitem:50274::::::::80:::::::::|h[Shadowfrost Shard]|h|r",
+			["name"] = "Taste",
+		}, -- [31]
+		{
+			["bid"] = 6000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Sinthw",
+		}, -- [32]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Elate",
+		}, -- [33]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52026::::::::80:::::::::|h[Protector's Mark of Sanctification]|h|r",
+			["name"] = "Elate",
+		}, -- [34]
+		1000, -- [35]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:52025::::::::80:::::::::|h[Vanquisher's Mark of Sanctification]|h|r",
+			["name"] = "Taste",
+		}, -- [36]
+		{
+			["bid"] = 5500,
+			["item"] = "|cffa335ee|Hitem:52025::::::::80:::::::::|h[Vanquisher's Mark of Sanctification]|h|r",
+			["name"] = "Bosaxd",
+		}, -- [37]
+		{
+			["bid"] = 5500,
+			["item"] = "|cffa335ee|Hitem:52025::::::::80:::::::::|h[Vanquisher's Mark of Sanctification]|h|r",
+			["name"] = "Bosaxd",
+		}, -- [38]
+		{
+			["bid"] = 2500,
+			["item"] = "|cffa335ee|Hitem:52027::::::::80:::::::::|h[Conqueror's Mark of Sanctification]|h|r",
+			["name"] = "Vaccs",
+		}, -- [39]
+		{
+			["bid"] = 15500,
+			["item"] = "|cffa335ee|Hitem:50428::::::::80:::::::::|h[Royal Scepter of Terenas II]|h|r",
+			["name"] = "Spaltkyle",
+		}, -- [40]
+		{
+			["bid"] = 5000,
+			["item"] = "|cffa335ee|Hitem:50070::::::::80:::::::::|h[Glorenzelg, High-Blade of the Silver Hand]|h|r",
+			["name"] = "Khalimmortus",
+		}, -- [41]
+		1337, -- [42]
+		-60000, -- [43]
 	},
 	["history"] = {
 		{
@@ -673,9 +898,10 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 0,
-	["prevDist"] = 0,
+	["potAmount"] = 547337,
+	["prevDist"] = 547337,
 }
 GDKPd_BalanceData = {
-	["Beesportz"] = -9360,
+	["Khalimmortus"] = -21893,
+	["Cornunholya"] = 0,
 }

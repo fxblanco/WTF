@@ -24,11 +24,11 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
 			},
-			["Default.Venoxis.Khalimmortus"] = {
+			["Default.Venoxis.Xolem"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
-			["Default.Venoxis.Xolem"] = {
+			["Default.Venoxis.Khalimmortus"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},

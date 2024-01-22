@@ -6,28 +6,29 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1705100119,
-				["averageItemLvl"] = 269.8125,
-				["overallAIL"] = 271.3125,
+				["lastUpdate"] = 1705698363,
+				["averageItemLvl"] = 272.1875,
+				["overallAIL"] = 272.9375,
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51208:3820:41285:40133:::::80:::::::::|h[Sanctified Dark Coven Hood]|h|r", -- [1]
+					"|cffa335ee|Hitem:51231:3820:41285:40133:::::80:::::::::|h[Sanctified Dark Coven Hood]|h|r", -- [1]
 					"|cffa335ee|Hitem:50724::40133::::::80:::::::::|h[Blood Queen's Crimson Choker]|h|r", -- [2]
-					"|cffa335ee|Hitem:51205:3810:40155::::::80:::::::::|h[Sanctified Dark Coven Shoulderpads]|h|r", -- [3]
+					"|cffa335ee|Hitem:51234:3810:::::::80:::::::::|h[Sanctified Dark Coven Shoulderpads]|h|r", -- [3]
 					nil, -- [4]
 					"|cffa335ee|Hitem:51233:1144:40113:40155:::::80:::::::::|h[Sanctified Dark Coven Robe]|h|r", -- [5]
 					"|cffa335ee|Hitem:50997::40133:40113:40113::::80:::::::::|h[Circle of Ossus]|h|r", -- [6]
 					"|cffa335ee|Hitem:51207:3872:40133:40155:::::80:::::::::|h[Sanctified Dark Coven Leggings]|h|r", -- [7]
 					"|cffa335ee|Hitem:47454:3606:40133:40113:::::80:::::::::|h[Sandals of the Mourning Widow]|h|r", -- [8]
 					"|cffa335ee|Hitem:47485:2332:40133::::::80:::::::::|h[Bindings of the Ashen Saint]|h|r", -- [9]
-					"|cffa335ee|Hitem:50663:3604:::::::80:::::::::|h[Gunship Captain's Mittens]|h|r", -- [10]
+					"|cffa335ee|Hitem:50663:3604:40133:40113:::::80:::::::::|h[Gunship Captain's Mittens]|h|r", -- [10]
 					"|cffa335ee|Hitem:50714::40133::::::80:::::::::|h[Valanar's Other Signet Ring]|h|r", -- [11]
 					"|cffa335ee|Hitem:50398::40155::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [12]
-					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Flare of the Heavens]|h|r", -- [13]
+					"|cffa335ee|Hitem:50345::::::::80:::::::::|h[Muradin's Spyglass]|h|r", -- [13]
 					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [14]
 					"|cffa335ee|Hitem:50628:3722:40155::::::80:::::::::|h[Frostbinder's Shredded Cape]|h|r", -- [15]
 					"|cffa335ee|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[Dying Light]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r",
-					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r",
+					nil, -- [17]
+					"|cffa335ee|Hitem:45294::40125::::::80:::::::::|h[Petrified Ivy Sprig]|h|r", -- [18]
+					"|cffffffff|Hitem:43157::::::::80:::::::::|h[Tabard of the Kirin Tor]|h|r", -- [19]
 				},
 			},
 		},
@@ -35,16 +36,16 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 267,
+						["averageItemLvl"] = 266,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 258,
 					},
 					["Alsía"] = {
-						["averageItemLvl"] = 265,
+						["averageItemLvl"] = 268,
 					},
 					["Xolem"] = {
-						["averageItemLvl"] = 249,
+						["averageItemLvl"] = 255,
 					},
 					["Andrés"] = {
 						["averageItemLvl"] = 269,
@@ -52,14 +53,14 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 245,
 					},
-					["Khalimmortus"] = {
-						["averageItemLvl"] = 252,
+					["Exonuklease"] = {
+						["averageItemLvl"] = 270,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
-					["Exonuklease"] = {
-						["averageItemLvl"] = 270,
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 258,
 					},
 				},
 			},

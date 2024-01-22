@@ -43,9 +43,9 @@ AdiBagsDB = {
 			},
 			["positions"] = {
 				["Backpack"] = {
-					["xOffset"] = -138.5732421875,
+					["xOffset"] = -428.384521484375,
 					["point"] = "TOPRIGHT",
-					["yOffset"] = -265.5460205078125,
+					["yOffset"] = -264.640380859375,
 				},
 				["Bank"] = {
 					["xOffset"] = -553.56689453125,
@@ -56,9 +56,9 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
+					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
-					["Percent"] = 1,
 				},
 			},
 		},
