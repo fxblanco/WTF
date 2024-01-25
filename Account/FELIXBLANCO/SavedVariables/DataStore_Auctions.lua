@@ -1,6 +1,7 @@
 
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
@@ -34,8 +35,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2024/01/19 22:46",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastVisitDate"] = "2024/01/22 00:48",
-				["lastUpdate"] = 1705880908,
+				["lastUpdate"] = 1706139205,
+				["lastVisitDate"] = "2024/01/25 00:33",
 			},
 		},
 	},

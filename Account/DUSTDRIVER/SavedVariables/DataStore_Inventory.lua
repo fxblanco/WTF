@@ -25,9 +25,8 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:45931::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:47436:3605:40119::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:49110:40112:::::80:::::::::|h[]|h|r", -- [16]
-					nil, -- [17]
-					"|cffffffff|Hitem:45509::::::::80:::::::::|h[]|h|r", -- [18]
-					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
+					[18] = "|cffffffff|Hitem:45509::::::::80:::::::::|h[]|h|r",
+					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
 				},
 				["averageItemLvl"] = 256.4375,
 				["overallAIL"] = 260.0625,
@@ -56,35 +55,36 @@ DataStore_InventoryDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["Inventory"] = {
-					"|cffffffff|Hitem:49986:3878:41380:40141:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffffffff|Hitem:50023::40119::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:48470:3852:40119::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:49986:3878:41380:40141:::::80:::::::::|h[Broken Ram Skull Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50023::40119::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
+					"|cffa335ee|Hitem:48470:3852:40119::::::80:::::::::|h[Hellscream's Pauldrons of Triumph]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:50850:3297:40119:40119:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffa335ee|Hitem:50850:3297:40119:40119:::::80:::::::::|h[Ymirjar Lord's Breastplate]|h|r", -- [5]
 					"|cffa335ee|Hitem:50991::40130:40119:40119::::80:::::::::|h[Verdigris Chain Belt]|h|r", -- [6]
 					"|cffa335ee|Hitem:51216:3822:40166:40119:::::80:::::::::|h[Sanctified Ymirjar Lord's Legguards]|h|r", -- [7]
-					"|cffffffff|Hitem:47269:3606:40129::::::80:::::::::|h[]|h|r", -- [8]
-					"|cffa335ee|Hitem:47459:3850:40119::::::80:::::::::|h[Armguards of the Shieldmaiden]|h|r", -- [9]
+					"|cffa335ee|Hitem:47269:3606:40129::::::80:::::::::|h[Dawnbreaker Sabatons]|h|r", -- [8]
+					"|cffa335ee|Hitem:47571:3850:40166::::::80:::::::::|h[Saronite Swordbreakers]|h|r", -- [9]
 					"|cffa335ee|Hitem:50849:3860:40166::::::80:::::::::|h[Ymirjar Lord's Handguards]|h|r", -- [10]
-					"|cffffffff|Hitem:47476::40119::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffa335ee|Hitem:47476::40119::::::80:::::::::|h[Band of the Traitor King]|h|r", -- [11]
 					"|cffa335ee|Hitem:50388::::::::80:::::::::|h[Ashen Band of Greater Courage]|h|r", -- [12]
 					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [13]
 					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [14]
 					"|cffa335ee|Hitem:47550:3294:40119::::::80:::::::::|h[Cairne's Endurance]|h|r", -- [15]
-					"|cffffffff|Hitem:51010:2673:::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:50065:1071:::::::80:::::::::|h[]|h|r", -- [17]
+					"|cffa335ee|Hitem:51010:2673:::::::80:::::::::|h[The Facelifter]|h|r", -- [16]
+					"|cffa335ee|Hitem:50065:1071:::::::80:::::::::|h[Icecrown Glacial Wall]|h|r", -- [17]
 					"|cffa335ee|Hitem:50444::::::::80:::::::::|h[Rowan's Rifle of Silver Bullets]|h|r", -- [18]
+					"|cffa335ee|Hitem:23705::::::::80:::::::::|h[Tabard of Flame]|h|r", -- [19]
 				},
-				["averageItemLvl"] = 258.6875,
+				["averageItemLvl"] = 257.875,
 				["overallAIL"] = 261.375,
-				["lastUpdate"] = 1704838357,
+				["lastUpdate"] = 1706140062,
 			},
 		},
 		["Guilds"] = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Khalimmortus"] = {
-						["averageItemLvl"] = 242,
+						["averageItemLvl"] = 263,
 					},
 					["Khemval"] = {
 						["averageItemLvl"] = 242,
@@ -93,10 +93,10 @@ DataStore_InventoryDB = {
 						["averageItemLvl"] = 258,
 					},
 					["Alsía"] = {
-						["averageItemLvl"] = 265,
+						["averageItemLvl"] = 270,
 					},
 					["Xolem"] = {
-						["averageItemLvl"] = 249,
+						["averageItemLvl"] = 255,
 					},
 					["Andrés"] = {
 						["averageItemLvl"] = 269,
@@ -104,11 +104,11 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 256,
 					},
+					["Bloodwall"] = {
+						["averageItemLvl"] = 257,
+					},
 					["Alsia"] = {
 						["averageItemLvl"] = 266,
-					},
-					["Bloodwall"] = {
-						["averageItemLvl"] = 258,
 					},
 				},
 			},

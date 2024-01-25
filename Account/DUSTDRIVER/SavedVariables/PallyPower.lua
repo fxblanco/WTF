@@ -1,16 +1,16 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Other",
 		["Bloodwall - Venoxis"] = "Other",
+		["Maturitass - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Other"] = {
 			["cBuffNeedAll"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.7,
@@ -20,16 +20,16 @@ PallyPowerDB = {
 			["enable"] = true,
 			["WrathTransition"] = true,
 			["cBuffGood"] = {
-				["b"] = 0.2,
+				["r"] = 0.2,
 				["t"] = 0.6,
 				["g"] = 0.2,
-				["r"] = 0.2,
+				["b"] = 0.2,
 			},
 			["cBuffNeedSpecial"] = {
-				["b"] = 0.5,
+				["r"] = 0.5,
 				["t"] = 0.7,
 				["g"] = 0.5,
-				["r"] = 0.5,
+				["b"] = 0.5,
 			},
 		},
 	},
@@ -47,19 +47,7 @@ PallyPower_Assignments = {
 		2, -- [9]
 		4, -- [10]
 	},
-	["Spaltkyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		1, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		1, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Habíb"] = {
+	["Bremskyle"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -71,19 +59,7 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Fanga"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Bremskyle"] = {
+	["Habíb"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
@@ -107,6 +83,18 @@ PallyPower_Assignments = {
 		3, -- [9]
 		2, -- [10]
 	},
+	["Spaltkyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		1, -- [4]
+		3, -- [5]
+		3, -- [6]
+		1, -- [7]
+		1, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
 }
 PallyPower_NormalAssignments = {
 }
@@ -115,26 +103,29 @@ PallyPower_AuraAssignments = {
 	["Bosanyr"] = 6,
 	["Transhorsti"] = 6,
 	["Bánu"] = 1,
+	["Bubblepete"] = 0,
 	["Diggii"] = 1,
 	["Otway"] = 6,
+	["Viallri"] = 5,
+	["Rudølf"] = 2,
 	["Avêss"] = 6,
 	["Tagirx"] = 1,
 	["Nefertâri"] = 0,
 	["Lorthasx"] = 2,
 	["Retardedqt"] = 6,
-	["Kolberg"] = 0,
-	["Beesportz"] = 1,
+	["Sacrít"] = 0,
+	["Xarreon"] = 5,
 	["Fanga"] = 1,
 	["Habíb"] = 5,
-	["Sacrít"] = 0,
+	["Kolberg"] = 0,
 	["Highlightz"] = 2,
-	["Mírabel"] = 6,
-	["Spaltkyle"] = 1,
+	["Beesportz"] = 1,
+	["Alsia"] = 1,
 	["Lichtobjekt"] = 5,
 	["Bremskyle"] = 6,
 	["Psychøtin"] = 1,
-	["Alsia"] = 1,
-	["Xarreon"] = 5,
+	["Spaltkyle"] = 1,
+	["Mírabel"] = 6,
 	["Bânu"] = 5,
 	["Velanya"] = 1,
 }

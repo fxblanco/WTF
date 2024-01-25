@@ -1,6 +1,7 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
@@ -20,15 +21,18 @@ DataStoreDB = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
+			["Default.Venoxis.Pjanic"] = {
+				["faction"] = "Horde",
+			},
 			["Default.Venoxis.Andrés"] = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
 			},
-			["Default.Venoxis.Xolem"] = {
+			["Default.Venoxis.Khalimmortus"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
-			["Default.Venoxis.Khalimmortus"] = {
+			["Default.Venoxis.Xolem"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
@@ -40,7 +44,7 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
 			},
-			["Default.Venoxis.Pjanic"] = {
+			["Default.Venoxis.Lucho"] = {
 				["faction"] = "Horde",
 			},
 		},

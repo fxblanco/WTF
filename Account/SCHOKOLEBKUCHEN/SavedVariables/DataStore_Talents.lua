@@ -6,7 +6,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1705698363,
+				["lastUpdate"] = 1706140362,
 				["Class"] = "WARLOCK",
 				["PointsSpent"] = "2,54,15",
 				["TalentTrees"] = {
@@ -62,15 +62,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Affliction,Demonology,Destruction",
 			["Trees"] = {
 				["Zerstörung"] = {
-					["prereqs"] = {
-						[20] = "4|1",
-						[10] = "5|2",
-						[22] = "7|2",
-						[23] = "7|3",
-						[11] = "3|3",
-					},
-					["background"] = "WarlockDestruction",
-					["icon"] = 136186,
 					["talents"] = {
 						"Katastrophe|135831|2|3|3", -- [1]
 						"Dunkle Macht|136146|1|3|5", -- [2]
@@ -99,8 +90,6 @@ DataStore_TalentsRefDB = {
 						"Chaosblitz|236291|11|2|1", -- [25]
 						"Machterfüllter Wichtel|236294|9|3|3", -- [26]
 					},
-				},
-				["Destruction"] = {
 					["prereqs"] = {
 						[20] = "4|1",
 						[10] = "5|2",
@@ -108,8 +97,10 @@ DataStore_TalentsRefDB = {
 						[23] = "7|3",
 						[11] = "3|3",
 					},
-					["background"] = "WarlockDestruction",
 					["icon"] = 136186,
+					["background"] = "WarlockDestruction",
+				},
+				["Destruction"] = {
 					["talents"] = {
 						"Cataclysm|135831|2|3|3", -- [1]
 						"Bane|136146|1|3|5", -- [2]
@@ -138,18 +129,17 @@ DataStore_TalentsRefDB = {
 						"Chaos Bolt|236291|11|2|1", -- [25]
 						"Empowered Imp|236294|9|3|3", -- [26]
 					},
+					["prereqs"] = {
+						[20] = "4|1",
+						[10] = "5|2",
+						[22] = "7|2",
+						[23] = "7|3",
+						[11] = "3|3",
+					},
+					["icon"] = 136186,
+					["background"] = "WarlockDestruction",
 				},
 				["Dämonologie"] = {
-					["prereqs"] = {
-						[7] = "3|3",
-						[21] = "6|2",
-						[10] = "4|2",
-						[12] = "3|2",
-						[14] = "4|2",
-						[22] = "8|2",
-					},
-					["background"] = "WarlockSummoning",
-					["icon"] = 136172,
 					["talents"] = {
 						"Verbesserter Gesundheitsstein|135230|1|1|2", -- [1]
 						"Verbesserter Wichtel|136218|1|2|3", -- [2]
@@ -179,8 +169,6 @@ DataStore_TalentsRefDB = {
 						"Metamorphose|237558|11|2|1", -- [26]
 						"Dezimierung|135808|8|3|2", -- [27]
 					},
-				},
-				["Demonology"] = {
 					["prereqs"] = {
 						[7] = "3|3",
 						[21] = "6|2",
@@ -189,8 +177,10 @@ DataStore_TalentsRefDB = {
 						[14] = "4|2",
 						[22] = "8|2",
 					},
-					["background"] = "WarlockSummoning",
 					["icon"] = 136172,
+					["background"] = "WarlockSummoning",
+				},
+				["Demonology"] = {
 					["talents"] = {
 						"Improved Healthstone|135230|1|1|2", -- [1]
 						"Improved Imp|136218|1|2|3", -- [2]
@@ -220,16 +210,18 @@ DataStore_TalentsRefDB = {
 						"Metamorphosis|237558|11|2|1", -- [26]
 						"Decimation|135808|8|3|2", -- [27]
 					},
+					["prereqs"] = {
+						[7] = "3|3",
+						[21] = "6|2",
+						[10] = "4|2",
+						[12] = "3|2",
+						[14] = "4|2",
+						[22] = "8|2",
+					},
+					["icon"] = 136172,
+					["background"] = "WarlockSummoning",
 				},
 				["Affliction"] = {
-					["prereqs"] = {
-						[11] = "5|2",
-						[13] = "3|3",
-						[28] = "9|2",
-						[19] = "7|2",
-					},
-					["background"] = "WarlockCurses",
-					["icon"] = 136145,
 					["talents"] = {
 						"Fel Concentration|136157|3|2|3", -- [1]
 						"Nightfall|136223|4|2|2", -- [2]
@@ -260,16 +252,16 @@ DataStore_TalentsRefDB = {
 						"Improved Fear|136183|3|1|2", -- [27]
 						"Pandemic|136227|9|3|1", -- [28]
 					},
-				},
-				["Gebrechen"] = {
 					["prereqs"] = {
 						[11] = "5|2",
 						[13] = "3|3",
-						[28] = "9|2",
 						[19] = "7|2",
+						[28] = "9|2",
 					},
-					["background"] = "WarlockCurses",
 					["icon"] = 136145,
+					["background"] = "WarlockCurses",
+				},
+				["Gebrechen"] = {
 					["talents"] = {
 						"Teufelskonzentration|136157|3|2|3", -- [1]
 						"Einbruch der Nacht|136223|4|2|2", -- [2]
@@ -300,6 +292,14 @@ DataStore_TalentsRefDB = {
 						"Verbesserte Furcht|136183|3|1|2", -- [27]
 						"Pandemie|136227|9|3|1", -- [28]
 					},
+					["prereqs"] = {
+						[11] = "5|2",
+						[13] = "3|3",
+						[19] = "7|2",
+						[28] = "9|2",
+					},
+					["icon"] = 136145,
+					["background"] = "WarlockCurses",
 				},
 			},
 		},

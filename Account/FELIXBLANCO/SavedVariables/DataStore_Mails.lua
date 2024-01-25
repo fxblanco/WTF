@@ -1,6 +1,7 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
@@ -136,8 +137,20 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2024/01/11 11:42",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1705880918,
-				["lastVisitDate"] = "2024/01/22 00:48",
+				["lastUpdate"] = 1706137822,
+				["Mails"] = {
+					{
+						["icon"] = 134327,
+						["sender"] = "Deusdominik",
+						["subject"] = "Gnomish Army Knife",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "Nimm endlich :D ",
+						["lastCheck"] = 1706137822,
+						["daysLeft"] = 30.3969669342041,
+					}, -- [1]
+				},
+				["lastVisitDate"] = "2024/01/25 00:10",
 			},
 			["Default.Venoxis.Alsía"] = {
 				["lastUpdate"] = 1705707416,

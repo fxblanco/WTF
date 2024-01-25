@@ -2,20 +2,20 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
-		["Maturitass - Venoxis"] = {
-			["spec1_profileKey"] = "Maturitass - Venoxis",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
-			["alerthidden"] = true,
-			["spec2_profileKey"] = "Maturitass - Venoxis",
-		},
 		["Bloodwall - Venoxis"] = {
 			["spec1_profileKey"] = "Bloodwall - Venoxis",
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["downclick"] = false,
+			["specswap"] = false,
+			["alerthidden"] = true,
+		},
+		["Maturitass - Venoxis"] = {
+			["spec1_profileKey"] = "Maturitass - Venoxis",
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Bloodwall - Venoxis",
+			["spec2_profileKey"] = "Maturitass - Venoxis",
 			["alerthidden"] = true,
 		},
 	},
@@ -29,10 +29,10 @@ CliqueDB3 = {
 		["Maturitas - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -48,10 +48,10 @@ CliqueDB3 = {
 		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -85,10 +85,10 @@ CliqueDB3 = {
 		["Recombinase - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -104,10 +104,10 @@ CliqueDB3 = {
 		["Maturitass - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "ALT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -123,12 +123,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spellSubName"] = "Rank 12",
+					["spell"] = "Regrowth",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136085,
-					["spell"] = "Regrowth",
+					["spellSubName"] = "Rank 12",
 				}, -- [3]
 				{
 					["type"] = "menu",
@@ -140,22 +140,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
-					["spellSubName"] = "Rank 7",
+					["spell"] = "Rebirth",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136080,
-					["spell"] = "Rebirth",
+					["spellSubName"] = "Rank 7",
 				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 15",
+					["spell"] = "Rejuvenation",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136081,
-					["spell"] = "Rejuvenation",
+					["spellSubName"] = "Rank 15",
 				}, -- [6]
 				{
 					["type"] = "spell",

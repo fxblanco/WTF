@@ -28,6 +28,7 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Lucho - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",

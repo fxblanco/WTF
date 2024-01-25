@@ -1,12 +1,13 @@
 
 AtlasLootClassicDB = {
 	["profileKeys"] = {
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -440,7 +441,7 @@ AtlasLootClassicDB = {
 			[50279] = "EmblemOfFrost:60",
 			[47242] = "DefilersScourgestone:20",
 			[48297] = "EmblemOfTriumph:50",
-			[47306] = "DefilersScourgestone:30",
+			[31853] = "honor:50",
 			[48361] = "EmblemOfTriumph:45",
 			[45632] = "EmblemOfConquest:58",
 			[40720] = "EmblemOfValor:25",
@@ -471,7 +472,7 @@ AtlasLootClassicDB = {
 			[45133] = "DefilersScourgestone:60",
 			[40918] = "EmblemOfHeroism:30",
 			[40905] = "EmblemOfConquest:58",
-			[47275] = "DefilersScourgestone:30",
+			[48298] = "EmblemOfTriumph:50",
 			[47307] = "DefilersScourgestone:30",
 			[48362] = "EmblemOfTriumph:75",
 			[47322] = "DefilersScourgestone:60",
@@ -491,9 +492,9 @@ AtlasLootClassicDB = {
 			[47257] = "DefilersScourgestone:30",
 			[48718] = "EmblemOfHeroism:65",
 			[45837] = "EmblemOfConquest:28",
-			[45869] = "SiderealEssence:15",
-			[40818] = "EmblemOfHeroism:45",
+			[50984] = "EmblemOfFrost:60",
 			[45933] = "SiderealEssence:15",
+			[40818] = "EmblemOfHeroism:45",
 			[47300] = "DefilersScourgestone:50",
 			[46033] = "SiderealEssence:38",
 			[47316] = "DefilersScourgestone:38",
@@ -503,8 +504,8 @@ AtlasLootClassicDB = {
 			[40705] = "EmblemOfHeroism:15",
 			[40933] = "EmblemOfTriumph:75",
 			[40934] = "EmblemOfFrost:95",
-			[47276] = "DefilersScourgestone:30",
-			[47308] = "DefilersScourgestone:38",
+			[48299] = "EmblemOfTriumph:30",
+			[48331] = "EmblemOfTriumph:45",
 			[48363] = "EmblemOfTriumph:75",
 			[46349] = "epicurean:100",
 			[46035] = "SiderealEssence:38",
@@ -514,15 +515,15 @@ AtlasLootClassicDB = {
 			[45486] = "DefilersScourgestone:60",
 			[45518] = "DefilersScourgestone:60",
 			[40321] = "EmblemOfValor:25",
-			[47660] = "EmblemOfTriumph:25",
 			[48683] = "EmblemOfHeroism:40",
+			[47660] = "EmblemOfTriumph:25",
 			[47692] = "EmblemOfTriumph:75",
 			[40928] = "EmblemOfFrost:60",
 			[45834] = "EmblemOfConquest:28",
 			[50857] = "EmblemOfFrost:95",
 			[40707] = "EmblemOfHeroism:15",
 			[40691] = "EmblemOfHeroism:40",
-			[40723] = "EmblemOfValor:25",
+			[45838] = "EmblemOfConquest:28",
 			[45870] = "SiderealEssence:38",
 			[40787] = "EmblemOfTriumph:75",
 			[43027] = "epicurean:3",
@@ -534,10 +535,10 @@ AtlasLootClassicDB = {
 			[36919] = "EmblemOfHeroism:20",
 			[48555] = "EmblemOfTriumph:75",
 			[48300] = "EmblemOfTriumph:75",
-			[47309] = "DefilersScourgestone:30",
-			[47277] = "DefilersScourgestone:30",
 			[48332] = "EmblemOfTriumph:75",
-			[48364] = "EmblemOfTriumph:45",
+			[47277] = "DefilersScourgestone:30",
+			[47309] = "DefilersScourgestone:30",
+			[45295] = "SiderealEssence:25",
 			[40637] = "EmblemOfValor:60",
 			[50474] = "EmblemOfFrost:30",
 			[45867] = "SiderealEssence:25",
@@ -550,15 +551,15 @@ AtlasLootClassicDB = {
 			[47661] = "EmblemOfTriumph:25",
 			[48716] = "EmblemOfHeroism:40",
 			[50864] = "EmblemOfFrost:95",
-			[45839] = "EmblemOfConquest:28",
-			[40820] = "EmblemOfValor:45",
-			[40852] = "EmblemOfFrost:95",
-			[40692] = "EmblemOfHeroism:40",
 			[40724] = "EmblemOfValor:25",
-			[45871] = "SiderealEssence:15",
-			[40788] = "EmblemOfTriumph:75",
 			[44912] = "cpvpWintergrasp:25",
 			[41875] = "EmblemOfFrost:60",
+			[40692] = "EmblemOfHeroism:40",
+			[45839] = "EmblemOfConquest:28",
+			[45871] = "SiderealEssence:15",
+			[40788] = "EmblemOfTriumph:75",
+			[40820] = "EmblemOfValor:45",
+			[40852] = "EmblemOfFrost:95",
 			[48685] = "EmblemOfHeroism:40",
 			[47287] = "DefilersScourgestone:50",
 			[46095] = "SiderealEssence:19",
@@ -566,14 +567,14 @@ AtlasLootClassicDB = {
 			[45848] = "EmblemOfConquest:39",
 			[40931] = "EmblemOfValor:45",
 			[48301] = "EmblemOfTriumph:45",
-			[48365] = "EmblemOfTriumph:75",
-			[47278] = "DefilersScourgestone:30",
-			[31855] = "honor:50",
 			[45296] = "SiderealEssence:15",
+			[47278] = "DefilersScourgestone:30",
+			[48333] = "EmblemOfTriumph:75",
+			[48365] = "EmblemOfTriumph:75",
 			[46042] = "SiderealEssence:19",
 			[40749] = "EmblemOfValor:40",
 			[50975] = "EmblemOfFrost:95",
-			[48333] = "EmblemOfTriumph:75",
+			[31855] = "honor:50",
 			[45456] = "SiderealEssence:15",
 			[48557] = "EmblemOfTriumph:75",
 			[40722] = "EmblemOfValor:25",
@@ -588,14 +589,14 @@ AtlasLootClassicDB = {
 			[40693] = "EmblemOfHeroism:40",
 			[45840] = "EmblemOfConquest:28",
 			[50987] = "EmblemOfFrost:60",
-			[45295] = "SiderealEssence:25",
+			[48364] = "EmblemOfTriumph:45",
 			[40821] = "EmblemOfValor:45",
 			[50978] = "EmblemOfFrost:60",
 			[41949] = "EmblemOfHeroism:45",
 			[46032] = "SiderealEssence:15",
 			[41972] = "EmblemOfFrost:60",
 			[46096] = "SiderealEssence:15",
-			[45838] = "EmblemOfConquest:28",
+			[40723] = "EmblemOfValor:25",
 			[45294] = "SiderealEssence:15",
 			[45169] = "EmblemOfConquest:19",
 			[40750] = "EmblemOfValor:40",
@@ -604,8 +605,8 @@ AtlasLootClassicDB = {
 			[48366] = "EmblemOfTriumph:50",
 			[45868] = "SiderealEssence:38",
 			[45638] = "EmblemOfConquest:58",
-			[48331] = "EmblemOfTriumph:45",
-			[48299] = "EmblemOfTriumph:30",
+			[47308] = "DefilersScourgestone:38",
+			[47276] = "DefilersScourgestone:30",
 			[40342] = "EmblemOfValor:25",
 			[48558] = "EmblemOfTriumph:50",
 			[40925] = "EmblemOfValor:30",
@@ -613,7 +614,7 @@ AtlasLootClassicDB = {
 			[48654] = "EmblemOfTriumph:50",
 			[45877] = "SiderealEssence:25",
 			[47695] = "EmblemOfTriumph:75",
-			[50984] = "EmblemOfFrost:60",
+			[45869] = "SiderealEssence:15",
 			[50977] = "EmblemOfFrost:60",
 			[50860] = "EmblemOfFrost:60",
 			[40743] = "EmblemOfValor:40",
@@ -623,7 +624,7 @@ AtlasLootClassicDB = {
 			[42985] = "EmblemOfHeroism:40",
 			[44914] = "cpvpWintergrasp:25",
 			[45831] = "EmblemOfConquest:28",
-			[48298] = "EmblemOfTriumph:50",
+			[47275] = "DefilersScourgestone:30",
 			[41941] = "EmblemOfFrost:60",
 			[45943] = "SiderealEssence:19",
 			[43028] = "epicurean:3",
@@ -638,7 +639,7 @@ AtlasLootClassicDB = {
 			[40704] = "EmblemOfHeroism:50",
 			[40937] = "EmblemOfValor:45",
 			[46087] = "cpvpWintergrasp:25",
-			[31853] = "honor:50",
+			[47306] = "DefilersScourgestone:30",
 			[48559] = "EmblemOfTriumph:30",
 			[47773] = "EmblemOfTriumph:30",
 			[40735] = "EmblemOfValor:60",
@@ -678,6 +679,17 @@ AtlasLootClassicDB = {
 		},
 	},
 	["profiles"] = {
+		["Andrés - Venoxis"] = {
+			["GUI"] = {
+				["selected"] = {
+					nil, -- [1]
+					"RubySanctum", -- [2]
+					nil, -- [3]
+					8, -- [4]
+					0, -- [5]
+				},
+			},
+		},
 		["Xolem - Venoxis"] = {
 			["GUI"] = {
 				["point"] = {
@@ -707,25 +719,32 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
+					"IcecrownCitadel", -- [2]
+					4, -- [3]
+					8, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Lucho - Venoxis"] = {
+		},
+		["Alsia - Venoxis"] = {
+			["GUI"] = {
+				["point"] = {
+					"BOTTOMRIGHT", -- [1]
+					nil, -- [2]
+					"BOTTOMRIGHT", -- [3]
+					-43.47173690795898, -- [4]
+					73.00004577636719, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
 					"RubySanctum", -- [2]
 					nil, -- [3]
 					10, -- [4]
 					0, -- [5]
 				},
 			},
-		},
-		["Andrés - Venoxis"] = {
-			["GUI"] = {
-				["selected"] = {
-					nil, -- [1]
-					"RubySanctum", -- [2]
-					nil, -- [3]
-					8, -- [4]
-					0, -- [5]
-				},
-			},
-		},
-		["Pjanic - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["GUI"] = {
@@ -739,29 +758,13 @@ AtlasLootClassicDB = {
 				["selected"] = {
 					nil, -- [1]
 					"IcecrownCitadel", -- [2]
-					4, -- [3]
+					nil, -- [3]
 					8, -- [4]
 					0, -- [5]
 				},
 			},
 		},
-		["Alsia - Venoxis"] = {
-			["GUI"] = {
-				["point"] = {
-					"BOTTOMRIGHT", -- [1]
-					nil, -- [2]
-					"BOTTOMRIGHT", -- [3]
-					-43.47173690795898, -- [4]
-					73.00004577636719, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"IcecrownCitadel", -- [2]
-					nil, -- [3]
-					10, -- [4]
-					0, -- [5]
-				},
-			},
+		["Pjanic - Venoxis"] = {
 		},
 		["Kwasimojo - Venoxis"] = {
 			["GUI"] = {

@@ -1,28 +1,14 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
+	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
 	["profiles"] = {
-		["Fieserdot - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 62.83293914794922,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -379.9540405273438,
-			},
-			["point"] = {
-				["y"] = -126.3039855957031,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -336.3038940429688,
-			},
-		},
 		["Endonuclease - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -253.7497711181641,
@@ -35,6 +21,20 @@ GDKPd_DB = {
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
 				["x"] = -455.7244873046875,
+			},
+		},
+		["Fieserdot - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 62.83293914794922,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -379.9540405273438,
+			},
+			["point"] = {
+				["y"] = -126.3039855957031,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -336.3038940429688,
 			},
 		},
 		["Exonuklease - Venoxis"] = {
@@ -75,12 +75,12 @@ GDKPd_PotData = {
 		["Exonuklease"] = 1955,
 		["Beesportz"] = 0,
 		["Sturmpopel"] = 0,
-		["Myjuice"] = 0,
+		["Kabaam"] = 0,
 		["Kyleriemen"] = 0,
 		["Gdkphunter"] = -10100,
 		["Abodin"] = 0,
 		["Niebel"] = 0,
-		["Kabaam"] = 0,
+		["Myjuice"] = 0,
 	},
 	["curPotHistory"] = {
 		{

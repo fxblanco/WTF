@@ -1,6 +1,7 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
@@ -12,10 +13,21 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1705880305,
+				["lastUpdate"] = 1706140059,
 				["Class"] = "PRIEST",
 				["PointsSpent"] = "57,14,0",
 				["TalentTrees"] = {
+					["Holy"] = {
+						3, -- [1]
+						5, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						nil, -- [7]
+						2, -- [8]
+						[11] = 1,
+					},
 					["Discipline"] = {
 						nil, -- [1]
 						1, -- [2]
@@ -45,23 +57,28 @@ DataStore_TalentsDB = {
 						2, -- [26]
 						2, -- [27]
 					},
-					["Holy"] = {
-						3, -- [1]
-						5, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						nil, -- [5]
-						3, -- [6]
-						nil, -- [7]
-						2, -- [8]
-						[11] = 1,
+				},
+			},
+			["Default.Venoxis.Pjanic"] = {
+				["lastUpdate"] = 1703190968,
+				["Class"] = "WARLOCK",
+				["PointsSpent"] = "11,0,0",
+				["TalentTrees"] = {
+					["Affliction"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						2, -- [4]
+						[7] = 2,
+						[12] = 1,
+						[15] = 1,
 					},
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1705106858,
+				["lastUpdate"] = 1706138331,
 				["Class"] = "MAGE",
-				["PointsSpent"] = "20,51,0",
+				["PointsSpent"] = "18,53,0",
 				["TalentTrees"] = {
 					["Fire"] = {
 						2, -- [1]
@@ -69,7 +86,7 @@ DataStore_TalentsDB = {
 						3, -- [3]
 						5, -- [4]
 						nil, -- [5]
-						nil, -- [6]
+						2, -- [6]
 						1, -- [7]
 						nil, -- [8]
 						3, -- [9]
@@ -96,54 +113,12 @@ DataStore_TalentsDB = {
 						[30] = 3,
 						[6] = 3,
 						[29] = 1,
-						[25] = 3,
-					},
-				},
-			},
-			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1705528521,
-				["Class"] = "SHAMAN",
-				["PointsSpent"] = "0,13,58",
-				["TalentTrees"] = {
-					["Enhancement"] = {
-						nil, -- [1]
-						nil, -- [2]
-						nil, -- [3]
-						3, -- [4]
-						nil, -- [5]
-						3, -- [6]
-						nil, -- [7]
-						5, -- [8]
-						2, -- [9]
-					},
-					["Restoration"] = {
-						3, -- [1]
-						1, -- [2]
-						3, -- [3]
-						5, -- [4]
-						3, -- [5]
-						3, -- [6]
-						nil, -- [7]
-						1, -- [8]
-						1, -- [9]
-						5, -- [10]
-						5, -- [11]
-						5, -- [12]
-						[24] = 5,
 						[25] = 1,
-						[26] = 1,
-						[15] = 3,
-						[17] = 3,
-						[18] = 2,
-						[19] = 1,
-						[21] = 2,
-						[22] = 2,
-						[23] = 3,
 					},
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1705880504,
+				["lastUpdate"] = 1706138682,
 				["Class"] = "DEATHKNIGHT",
 				["PointsSpent"] = "43,27,1",
 				["TalentTrees"] = {
@@ -153,13 +128,13 @@ DataStore_TalentsDB = {
 					["Frost"] = {
 						5, -- [1]
 						2, -- [2]
-						[7] = 2,
-						[9] = 3,
-						[18] = 3,
-						[19] = 3,
 						[20] = 2,
+						[7] = 2,
+						[19] = 3,
+						[18] = 3,
 						[22] = 5,
 						[26] = 1,
+						[9] = 3,
 						[27] = 1,
 					},
 					["Blood"] = {
@@ -169,23 +144,71 @@ DataStore_TalentsDB = {
 						1, -- [4]
 						3, -- [5]
 						5, -- [6]
-						[10] = 1,
-						[11] = 3,
 						[13] = 1,
+						[26] = 2,
+						[27] = 2,
+						[28] = 2,
 						[17] = 3,
+						[11] = 3,
+						[10] = 1,
 						[20] = 3,
 						[21] = 5,
 						[22] = 3,
 						[23] = 1,
 						[25] = 3,
-						[26] = 2,
-						[27] = 2,
-						[28] = 2,
+					},
+				},
+			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1706140329,
+				["Class"] = "SHAMAN",
+				["PointsSpent"] = "19,52,0",
+				["TalentTrees"] = {
+					["Enhancement"] = {
+						nil, -- [1]
+						5, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						3, -- [7]
+						5, -- [8]
+						3, -- [9]
+						nil, -- [10]
+						1, -- [11]
+						1, -- [12]
+						1, -- [13]
+						3, -- [14]
+						2, -- [15]
+						3, -- [16]
+						1, -- [17]
+						3, -- [18]
+						3, -- [19]
+						1, -- [20]
+						1, -- [21]
+						3, -- [22]
+						nil, -- [23]
+						5, -- [24]
+						1, -- [25]
+						3, -- [26]
+						nil, -- [27]
+						1, -- [28]
+					},
+					["Elemental"] = {
+						3, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						2, -- [6]
+						nil, -- [7]
+						1, -- [8]
+						[14] = 3,
 					},
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705870468,
+				["lastUpdate"] = 1706210718,
 				["Class"] = "PALADIN",
 				["PointsSpent"] = "0,53,18",
 				["TalentTrees"] = {
@@ -236,7 +259,7 @@ DataStore_TalentsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705712921,
+				["lastUpdate"] = 1706139564,
 				["Class"] = "PALADIN",
 				["PointsSpent"] = "0,53,18",
 				["TalentTrees"] = {
@@ -286,27 +309,16 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
-			["Default.Venoxis.Pjanic"] = {
-				["lastUpdate"] = 1703190968,
-				["Class"] = "WARLOCK",
-				["PointsSpent"] = "11,0,0",
-				["TalentTrees"] = {
-					["Affliction"] = {
-						nil, -- [1]
-						nil, -- [2]
-						5, -- [3]
-						2, -- [4]
-						[7] = 2,
-						[12] = 1,
-						[15] = 1,
-					},
-				},
+			["Default.Venoxis.Lucho"] = {
+				["lastUpdate"] = 1706140883,
+				["Class"] = "HUNTER",
 			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
@@ -1079,6 +1091,132 @@ DataStore_TalentsRefDB = {
 						"Ausgebrannt|236207|10|2|5", -- [26]
 						"Lebende Bombe|236220|11|2|1", -- [27]
 						"Brennende Entschlossenheit|135829|2|2|2", -- [28]
+					},
+				},
+			},
+		},
+		["HUNTER"] = {
+			["Order"] = "Beast Mastery,Marksmanship,Survival",
+			["Trees"] = {
+				["Marksmanship"] = {
+					["prereqs"] = {
+						[5] = "2|3",
+						[17] = "8|2",
+						[20] = "5|3",
+						[12] = "5|2",
+					},
+					["background"] = "HunterMarksmanship",
+					["icon"] = 132222,
+					["talents"] = {
+						"Improved Concussive Shot|135860|1|1|2", -- [1]
+						"Efficiency|135865|4|3|5", -- [2]
+						"Improved Hunter's Mark|132212|2|2|3", -- [3]
+						"Lethal Shots|132312|1|3|5", -- [4]
+						"Aimed Shot|135130|3|3|1", -- [5]
+						"Improved Arcane Shot|132218|3|2|3", -- [6]
+						"Barrage|132330|5|3|3", -- [7]
+						"Improved Stings|132204|4|2|3", -- [8]
+						"Mortal Shots|132271|2|3|5", -- [9]
+						"Concussive Barrage|135753|5|1|2", -- [10]
+						"Readiness|132206|5|2|1", -- [11]
+						"Trueshot Aura|132329|7|2|1", -- [12]
+						"Ranged Weapon Specialization|135615|6|4|3", -- [13]
+						"Combat Experience|132168|6|1|2", -- [14]
+						"Careful Aim|132217|2|1|3", -- [15]
+						"Master Marksman|132177|8|2|5", -- [16]
+						"Silencing Shot|132323|9|2|1", -- [17]
+						"Go for the Throat|132174|3|1|2", -- [18]
+						"Rapid Killing|132205|3|4|2", -- [19]
+						"Improved Barrage|132330|7|3|3", -- [20]
+						"Piercing Shots|236198|7|1|3", -- [21]
+						"Rapid Recuperation|236201|8|3|2", -- [22]
+						"Wild Quiver|236204|9|1|3", -- [23]
+						"Improved Steady Shot|236182|9|3|3", -- [24]
+						"Marked for Death|236173|10|2|5", -- [25]
+						"Chimera Shot|236176|11|2|1", -- [26]
+						"Focused Aim|236179|1|2|3", -- [27]
+					},
+				},
+				["Beast Mastery"] = {
+					["prereqs"] = {
+						[20] = "7|2",
+						[13] = "4|3",
+						[21] = "7|1",
+						[22] = "8|3",
+						[5] = "5|2",
+					},
+					["background"] = "HunterBeastMastery",
+					["icon"] = 132164,
+					["talents"] = {
+						"Improved Aspect of the Monkey|132159|2|2|3", -- [1]
+						"Improved Aspect of the Hawk|136076|1|2|5", -- [2]
+						"Pathfinding|132242|3|1|2", -- [3]
+						"Improved Mend Pet|132179|4|2|2", -- [4]
+						"Bestial Wrath|132127|7|2|1", -- [5]
+						"Intimidation|132111|5|2|1", -- [6]
+						"Spirit Bond|132121|5|1|2", -- [7]
+						"Endurance Training|136080|1|3|5", -- [8]
+						"Bestial Discipline|136006|5|4|2", -- [9]
+						"Ferocity|134297|4|3|5", -- [10]
+						"Thick Hide|134355|2|3|3", -- [11]
+						"Unleashed Fury|132091|3|3|5", -- [12]
+						"Frenzy|134296|6|3|5", -- [13]
+						"Focused Fire|132210|2|1|2", -- [14]
+						"Improved Revive Pet|132163|2|4|2", -- [15]
+						"Animal Handler|132158|6|1|2", -- [16]
+						"Ferocious Inspiration|132173|7|1|3", -- [17]
+						"Catlike Reflexes|132167|7|3|3", -- [18]
+						"Serpent's Swiftness|132209|8|3|5", -- [19]
+						"The Beast Within|132166|9|2|1", -- [20]
+						"Invigoration|236184|8|1|2", -- [21]
+						"Cobra Strikes|236177|9|3|3", -- [22]
+						"Aspect Mastery|236172|3|2|1", -- [23]
+						"Beast Mastery|236175|11|2|1", -- [24]
+						"Longevity|236186|9|1|3", -- [25]
+						"Kindred Spirits|236202|10|2|5", -- [26]
+					},
+				},
+				["Survival"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[8] = "3|3",
+						[18] = "6|1",
+						[22] = "7|2",
+						[26] = "9|2",
+						[27] = "3|1",
+						[25] = "7|3",
+					},
+					["background"] = "HunterSurvival",
+					["icon"] = 132215,
+					["talents"] = {
+						"Lightning Reflexes|136047|6|1|5", -- [1]
+						"Entrapment|136100|2|2|3", -- [2]
+						"Trap Mastery|132149|2|3|3", -- [3]
+						"Lock and Load|236185|4|4|3", -- [4]
+						"Survival Tactics|132293|3|4|2", -- [5]
+						"Surefooted|132219|2|1|3", -- [6]
+						"Deflection|132269|3|3|3", -- [7]
+						"Counterattack|132336|5|3|1", -- [8]
+						"Killer Instinct|135881|5|2|3", -- [9]
+						"Black Arrow|136181|9|2|1", -- [10]
+						"Wyvern Sting|135125|7|2|1", -- [11]
+						"Savage Strikes|132277|1|3|2", -- [12]
+						"Survivalist|136223|3|1|5", -- [13]
+						"Improved Tracking|236183|1|1|5", -- [14]
+						"Resourcefulness|132207|6|3|3", -- [15]
+						"Survival Instincts|132214|2|4|2", -- [16]
+						"Thrill of the Hunt|132216|7|3|3", -- [17]
+						"Expose Weakness|132295|7|1|3", -- [18]
+						"Master Tactician|132178|8|1|5", -- [19]
+						"Scatter Shot|132153|3|2|1", -- [20]
+						"Hawk Eye|132327|1|2|3", -- [21]
+						"Noxious Stings|236200|8|2|3", -- [22]
+						"Point of No Escape|236199|9|1|2", -- [23]
+						"Sniper Training|236187|9|4|3", -- [24]
+						"Hunting Party|236181|10|3|3", -- [25]
+						"Explosive Shot|236178|11|2|1", -- [26]
+						"Hunter vs. Wild|236180|5|1|3", -- [27]
+						"T.N.T.|133713|4|2|3", -- [28]
 					},
 				},
 			},

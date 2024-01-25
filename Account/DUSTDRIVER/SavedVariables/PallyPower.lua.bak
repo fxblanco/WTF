@@ -1,8 +1,8 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Other",
 		["Maturitass - Venoxis"] = "Other",
+		["Bloodwall - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Other"] = {
@@ -122,19 +122,19 @@ PallyPower_AuraAssignments = {
 	["Nefertâri"] = 0,
 	["Lorthasx"] = 2,
 	["Retardedqt"] = 6,
-	["Sacrít"] = 0,
-	["Mírabel"] = 6,
+	["Kolberg"] = 0,
+	["Beesportz"] = 1,
 	["Fanga"] = 1,
 	["Habíb"] = 5,
-	["Kolberg"] = 0,
+	["Sacrít"] = 0,
 	["Highlightz"] = 2,
-	["Xarreon"] = 5,
-	["Alsia"] = 1,
+	["Mírabel"] = 6,
+	["Spaltkyle"] = 1,
 	["Lichtobjekt"] = 5,
 	["Bremskyle"] = 6,
 	["Psychøtin"] = 1,
-	["Spaltkyle"] = 1,
-	["Beesportz"] = 1,
+	["Alsia"] = 1,
+	["Xarreon"] = 5,
 	["Bânu"] = 5,
 	["Velanya"] = 1,
 }

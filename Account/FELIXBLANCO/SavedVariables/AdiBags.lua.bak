@@ -28,12 +28,13 @@ AdiBagsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Andrés - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Pjanic - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Pjanic - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {

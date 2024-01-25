@@ -13,15 +13,15 @@ DataStoreDB = {
 		},
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["faction"] = "Horde",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {
