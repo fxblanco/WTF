@@ -103,27 +103,27 @@ GDKPd_DB = {
 			["increment"] = 10,
 		},
 		["Alsía - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 253.39599609375,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -280.3668518066406,
-			},
-			["auctionTimer"] = 15,
 			["playerbalancepoint"] = {
 				["y"] = -11.58515071868897,
 				["x"] = -335.6138000488281,
 				["point"] = "RIGHT",
 				["relative"] = "RIGHT",
 			},
+			["auctionTimer"] = 15,
 			["point"] = {
 				["y"] = -203.3772430419922,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
 				["x"] = -418.9801330566406,
 			},
-			["auctionTimerRefresh"] = 10,
 			["startBid"] = 5000,
+			["auctionTimerRefresh"] = 10,
+			["balancepoint"] = {
+				["y"] = 253.39599609375,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -280.3668518066406,
+			},
 			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 86.94361114501953,
@@ -133,34 +133,33 @@ GDKPd_DB = {
 			},
 		},
 		["Khalimmortus - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 198.3747711181641,
-				["relative"] = "BOTTOMRIGHT",
-				["point"] = "BOTTOMRIGHT",
-				["x"] = -39.47518157958984,
-			},
-			["auctionTimer"] = 10,
-			["point"] = {
-				["y"] = -48.90563201904297,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 471.33984375,
-			},
-			["startBid"] = 2500,
-			["auctionTimerRefresh"] = 15,
 			["balancepoint"] = {
 				["y"] = 230.7550048828125,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -118.2536544799805,
 			},
+			["auctionTimer"] = 10,
+			["playerbalancepoint"] = {
+				["y"] = 198.3747711181641,
+				["relative"] = "BOTTOMRIGHT",
+				["point"] = "BOTTOMRIGHT",
+				["x"] = -39.47518157958984,
+			},
+			["point"] = {
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 566.0942993164062,
+			},
+			["auctionTimerRefresh"] = 15,
+			["startBid"] = 2500,
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = -169.3589782714844,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -33.12261581420898,
 			},
-			["increment"] = 500,
 		},
 		["Alsia - Venoxis"] = {
 			["itemLevelPricing"] = {

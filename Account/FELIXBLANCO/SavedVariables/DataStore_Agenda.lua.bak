@@ -31,9 +31,10 @@ DataStore_AgendaDB = {
 			},
 			["Default.Venoxis.Andrés"] = {
 				["DungeonIDs"] = {
-					["The Ruby Sanctum 25 Player (Heroic)|195724762"] = "535269|1706138333|0|1",
-					["Vault of Archavon 25 Player|195722254"] = "535269|1706138333|0|1",
-					["Vault of Archavon 10 Player|195722463"] = "535269|1706138333|0|1",
+					["The Ruby Sanctum 25 Player (Heroic)|195724762"] = "282185|1706391414|0|1",
+					["Vault of Archavon 25 Player|195722254"] = "282185|1706391414|0|1",
+					["Vault of Archavon 10 Player|195722463"] = "282185|1706391414|0|1",
+					["Icecrown Citadel 25 Player (Heroic)|195831813"] = "282185|1706391414|0|1",
 				},
 				["BossKills"] = {
 					["The Ruby Sanctum 25 Player (Heroic)|195724762"] = {
@@ -54,21 +55,30 @@ DataStore_AgendaDB = {
 						"Koralon the Flame Watcher|0", -- [3]
 						"Toravon the Ice Watcher|1", -- [4]
 					},
+					["Icecrown Citadel 25 Player (Heroic)|195831813"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|0", -- [4]
+						"Festergut|0", -- [5]
+						"Rotface|0", -- [6]
+						"Professor Putricide|0", -- [7]
+						"Blood Council|0", -- [8]
+						"Queen Lana'thel|0", -- [9]
+						"Valithria Dreamwalker|0", -- [10]
+						"Sindragosa|0", -- [11]
+						"The Lich King|0", -- [12]
+					},
 				},
-				["lastUpdate"] = 1706138333,
+				["lastUpdate"] = 1706391414,
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1706140332,
-			},
-			["Default.Venoxis.Khalimmortus"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player (Heroic)|195725311"] = "534463|1706139137|0|1",
-					["Vault of Archavon 10 Player|195716453"] = "534463|1706139137|0|1",
-					["Vault of Archavon 25 Player|195716508"] = "534463|1706139137|0|1",
-					["Naxxramas 10 Player|195719136"] = "534463|1706139137|0|1",
+					["Icecrown Citadel 25 Player|195831813"] = "272244|1706401355|0|1",
+					["The Forge of Souls Heroic|284366878"] = "13044|1706401355|0|0",
 				},
 				["BossKills"] = {
-					["Icecrown Citadel 25 Player (Heroic)|195725311"] = {
+					["Icecrown Citadel 25 Player|195831813"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -82,12 +92,22 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"The Lich King|1", -- [12]
 					},
-					["Vault of Archavon 10 Player|195716453"] = {
-						"Archavon the Stone Watcher|0", -- [1]
-						"Emalon the Storm Watcher|0", -- [2]
-						"Koralon the Flame Watcher|0", -- [3]
-						"Toravon the Ice Watcher|1", -- [4]
+					["The Forge of Souls Heroic|284366878"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
 					},
+				},
+				["lastUpdate"] = 1706401355,
+			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["DungeonIDs"] = {
+					["Vault of Archavon 25 Player|195716508"] = "271671|1706401929|0|1",
+					["Naxxramas 10 Player|195719136"] = "271671|1706401929|0|1",
+					["Vault of Archavon 10 Player|195716453"] = "271671|1706401929|0|1",
+					["The Forge of Souls Heroic|284367526"] = "12471|1706401929|0|0",
+					["Icecrown Citadel 25 Player (Heroic)|195725311"] = "271671|1706401929|0|1",
+				},
+				["BossKills"] = {
 					["Vault of Archavon 25 Player|195716508"] = {
 						"Archavon the Stone Watcher|0", -- [1]
 						"Emalon the Storm Watcher|0", -- [2]
@@ -111,11 +131,54 @@ DataStore_AgendaDB = {
 						"Sapphiron|0", -- [14]
 						"Kel'Thuzad|0", -- [15]
 					},
+					["Vault of Archavon 10 Player|195716453"] = {
+						"Archavon the Stone Watcher|0", -- [1]
+						"Emalon the Storm Watcher|0", -- [2]
+						"Koralon the Flame Watcher|0", -- [3]
+						"Toravon the Ice Watcher|1", -- [4]
+					},
+					["The Forge of Souls Heroic|284367526"] = {
+						"Bronjahm|1", -- [1]
+						"Devourer of Souls|1", -- [2]
+					},
+					["Icecrown Citadel 25 Player (Heroic)|195725311"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
 				},
-				["lastUpdate"] = 1706139137,
+				["lastUpdate"] = 1706401929,
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1706210412,
+				["DungeonIDs"] = {
+					["Icecrown Citadel 25 Player|195759924"] = "446243|1706227358|0|1",
+				},
+				["BossKills"] = {
+					["Icecrown Citadel 25 Player|195759924"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+				},
+				["lastUpdate"] = 1706227358,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["lastUpdate"] = 1706139564,

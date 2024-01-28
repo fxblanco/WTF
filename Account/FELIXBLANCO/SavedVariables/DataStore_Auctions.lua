@@ -17,13 +17,13 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2023/12/09 00:21",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastAuctionsScan"] = 1705529993,
-				["lastVisitDate"] = "2024/01/17 23:19",
-				["lastUpdate"] = 1705529993,
+				["lastAuctionsScan"] = 1706223564,
+				["lastVisitDate"] = "2024/01/25 23:59",
+				["lastUpdate"] = 1706223571,
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1704917598,
-				["lastVisitDate"] = "2024/01/10 21:13",
+				["lastUpdate"] = 1706399815,
+				["lastVisitDate"] = "2024/01/28 00:56",
 			},
 			["Default.Venoxis.Andrés"] = {
 				["lastAuctionsScan"] = 1704368426,

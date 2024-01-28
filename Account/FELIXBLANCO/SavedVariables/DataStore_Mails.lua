@@ -17,140 +17,28 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2024/01/22 00:38",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1705701031,
-				["Mails"] = {
-					{
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction successful: Saronite Ore (7)",
-						["returned"] = false,
-						["money"] = 45084,
-						["text"] = "",
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.22435188293457,
-					}, -- [1]
-					{
-						["link"] = "|cffffffff|Hitem:10940::::::::80:::::::::|h[Strange Dust]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 10940,
-						["returned"] = false,
-						["icon"] = 132858,
-						["count"] = 9,
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.4531364440918,
-					}, -- [2]
-					{
-						["icon"] = 134939,
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Strange Dust (9)",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.4531364440918,
-					}, -- [3]
-					{
-						["link"] = "|cff0070dd|Hitem:11084::::::::80:::::::::|h[Large Glimmering Shard]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 11084,
-						["returned"] = false,
-						["icon"] = 132876,
-						["count"] = 4,
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.45319366455078,
-					}, -- [4]
-					{
-						["icon"] = 134939,
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Large Glimmering Shard (4)",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.45319366455078,
-					}, -- [5]
-					{
-						["icon"] = 134939,
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Small Glimmering Shard (4)",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.45319366455078,
-					}, -- [6]
-					{
-						["link"] = "|cff0070dd|Hitem:10978::::::::80:::::::::|h[Small Glimmering Shard]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 10978,
-						["returned"] = false,
-						["icon"] = 132877,
-						["count"] = 4,
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.45319366455078,
-					}, -- [7]
-					{
-						["link"] = "|cff0070dd|Hitem:11138::::::::80:::::::::|h[Small Glowing Shard]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 11138,
-						["returned"] = false,
-						["icon"] = 132879,
-						["count"] = 6,
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.4532527923584,
-					}, -- [8]
-					{
-						["icon"] = 134939,
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Small Glowing Shard (6)",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.4532527923584,
-					}, -- [9]
-					{
-						["icon"] = 134939,
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Large Glowing Shard",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.45331001281738,
-					}, -- [10]
-					{
-						["link"] = "|cff0070dd|Hitem:11139::::::::80:::::::::|h[Large Glowing Shard]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 11139,
-						["returned"] = false,
-						["icon"] = 132878,
-						["count"] = 1,
-						["lastCheck"] = 1705701031,
-						["daysLeft"] = 29.45331001281738,
-					}, -- [11]
-				},
-				["lastVisitDate"] = "2024/01/19 22:50",
+				["lastUpdate"] = 1706223584,
+				["lastVisitDate"] = "2024/01/25 23:59",
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1704969754,
-				["lastVisitDate"] = "2024/01/11 11:42",
+				["lastUpdate"] = 1706399825,
+				["lastVisitDate"] = "2024/01/28 00:57",
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1706137822,
+				["lastUpdate"] = 1706227041,
 				["Mails"] = {
 					{
-						["icon"] = 134327,
+						["lastCheck"] = 1706227041,
 						["sender"] = "Deusdominik",
 						["subject"] = "Gnomish Army Knife",
 						["returned"] = true,
 						["money"] = 0,
 						["text"] = "Nimm endlich :D ",
-						["lastCheck"] = 1706137822,
-						["daysLeft"] = 30.3969669342041,
+						["icon"] = 134327,
+						["daysLeft"] = 29.36478042602539,
 					}, -- [1]
 				},
-				["lastVisitDate"] = "2024/01/25 00:10",
+				["lastVisitDate"] = "2024/01/26 00:57",
 			},
 			["Default.Venoxis.Alsía"] = {
 				["lastUpdate"] = 1705707416,
