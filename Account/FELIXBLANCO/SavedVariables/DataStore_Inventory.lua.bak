@@ -1,13 +1,13 @@
 
 DataStore_InventoryDB = {
 	["profileKeys"] = {
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -44,9 +44,9 @@ DataStore_InventoryDB = {
 					[7] = "|cffffffff|Hitem:1768::::::::20:::::::::|h[]|h|r",
 					[15] = "|cffffffff|Hitem:5343::::::::20:::::::::|h[]|h|r",
 					[10] = "|cffffffff|Hitem:5337::::::::20:::::::::|h[]|h|r",
-					[8] = "|cffffffff|Hitem:1495::::::::20:::::::::|h[]|h|r",
-					[9] = "|cffffffff|Hitem:3375::::::::20:::::::::|h[]|h|r",
 					[18] = "|cffffffff|Hitem:5326::::::::20:::::::::|h[]|h|r",
+					[9] = "|cffffffff|Hitem:3375::::::::20:::::::::|h[]|h|r",
+					[8] = "|cffffffff|Hitem:1495::::::::20:::::::::|h[]|h|r",
 				},
 				["averageItemLvl"] = 6.8125,
 				["overallAIL"] = 6.8125,
@@ -77,31 +77,6 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:51838::40113::::::80:::::::::|h[Lana'thel's Bloody Nail]|h|r", -- [18]
 				},
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1706747923,
-				["averageItemLvl"] = 265,
-				["overallAIL"] = 267.75,
-				["Inventory"] = {
-					"|cffa335ee|Hitem:51133:3878:41380:40129:::::80:::::::::|h[Sanctified Scourgelord Faceguard]|h|r", -- [1]
-					"|cffa335ee|Hitem:51934::40119::::::80:::::::::|h[Marrowgar's Scratching Choker]|h|r", -- [2]
-					"|cffa335ee|Hitem:51130:3808:40141::::::80:::::::::|h[Sanctified Scourgelord Pauldrons]|h|r", -- [3]
-					nil, -- [4]
-					"|cffa335ee|Hitem:51305::40119:40119:::::80:::::::::|h[Sanctified Scourgelord Chestguard]|h|r", -- [5]
-					"|cffa335ee|Hitem:48009::40119:40119:::::80:::::::::|h[Belt of the Nether Champion]|h|r", -- [6]
-					"|cffa335ee|Hitem:47434:3822:40129:40119:40166::::80:::::::::|h[Legplates of Feverish Dedication]|h|r", -- [7]
-					"|cffa335ee|Hitem:50625:3606:40166:40119:::::80:::::::::|h[Grinning Skull Greatboots]|h|r", -- [8]
-					"|cffa335ee|Hitem:47571:3850:40166::::::80:::::::::|h[Saronite Swordbreakers]|h|r", -- [9]
-					"|cffa335ee|Hitem:51132:3860:40166::::::80:::::::::|h[Sanctified Scourgelord Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:50404::40166::::::80:::::::::|h[Ashen Band of Endless Courage]|h|r", -- [11]
-					"|cffa335ee|Hitem:51913::40119::::::80:::::::::|h[Abomination's Bloody Ring]|h|r", -- [12]
-					"|cffa335ee|Hitem:50364::::::::80:::::::::|h[Sindragosa's Flawless Fang]|h|r", -- [13]
-					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [14]
-					"|cffa335ee|Hitem:51888::::::::80:::::::::|h[Cloak of Many Skins]|h|r", -- [15]
-					"|cffa335ee|Hitem:50070:3847:40129:40129:::::80:::::::::|h[Glorenzelg, High-Blade of the Silver Hand]|h|r", -- [16]
-					nil, -- [17]
-					"|cffa335ee|Hitem:47672::::::::80:::::::::|h[Sigil of Insolence]|h|r", -- [18]
-				},
-			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1706570780,
 				["averageItemLvl"] = 260.75,
@@ -128,30 +103,55 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
 				},
 			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastUpdate"] = 1706747923,
+				["averageItemLvl"] = 265,
+				["overallAIL"] = 267.75,
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51133:3878:41380:40129:::::80:::::::::|h[Sanctified Scourgelord Faceguard]|h|r", -- [1]
+					"|cffa335ee|Hitem:51934::40119::::::80:::::::::|h[Marrowgar's Scratching Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51130:3808:40141::::::80:::::::::|h[Sanctified Scourgelord Pauldrons]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:51305::40119:40119:::::80:::::::::|h[Sanctified Scourgelord Chestguard]|h|r", -- [5]
+					"|cffa335ee|Hitem:48009::40119:40119:::::80:::::::::|h[Belt of the Nether Champion]|h|r", -- [6]
+					"|cffa335ee|Hitem:47434:3822:40129:40119:40166::::80:::::::::|h[Legplates of Feverish Dedication]|h|r", -- [7]
+					"|cffa335ee|Hitem:50625:3606:40166:40119:::::80:::::::::|h[Grinning Skull Greatboots]|h|r", -- [8]
+					"|cffa335ee|Hitem:47571:3850:40166::::::80:::::::::|h[Saronite Swordbreakers]|h|r", -- [9]
+					"|cffa335ee|Hitem:51132:3860:40166::::::80:::::::::|h[Sanctified Scourgelord Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:50404::40166::::::80:::::::::|h[Ashen Band of Endless Courage]|h|r", -- [11]
+					"|cffa335ee|Hitem:51913::40119::::::80:::::::::|h[Abomination's Bloody Ring]|h|r", -- [12]
+					"|cffa335ee|Hitem:50364::::::::80:::::::::|h[Sindragosa's Flawless Fang]|h|r", -- [13]
+					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [14]
+					"|cffa335ee|Hitem:51888::::::::80:::::::::|h[Cloak of Many Skins]|h|r", -- [15]
+					"|cffa335ee|Hitem:50070:3847:40129:40129:::::80:::::::::|h[Glorenzelg, High-Blade of the Silver Hand]|h|r", -- [16]
+					nil, -- [17]
+					"|cffa335ee|Hitem:47672::::::::80:::::::::|h[Sigil of Insolence]|h|r", -- [18]
+				},
+			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1706781354,
+				["lastUpdate"] = 1706781689,
 				["averageItemLvl"] = 269.4375,
 				["overallAIL"] = 274.625,
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51173:3878:41398:40129:::::80:::::::::|h[Sanctified Lightsworn Faceguard]|h|r", -- [1]
-					"|cffa335ee|Hitem:50682::40129::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
-					"|cffa335ee|Hitem:50660:3852:40166:40129:::::80:::::::::|h[Boneguard Commander's Pauldrons]|h|r", -- [3]
+					"|cffffffff|Hitem:51173:3878:41398:40129:::::80:::::::::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:50682::40129::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:50660:3852:40166:40129:::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51265:3832:42142:40129:::::80:::::::::|h[Sanctified Lightsworn Chestguard]|h|r", -- [5]
-					"|cffa335ee|Hitem:50991::40141:40119:36767::::80:::::::::|h[Verdigris Chain Belt]|h|r", -- [6]
-					"|cffa335ee|Hitem:50612:3822:40129:40119:40166::::80:::::::::|h[Legguards of Lost Hope]|h|r", -- [7]
-					"|cffa335ee|Hitem:50625:3606:40166:40119:::::80:::::::::|h[Grinning Skull Greatboots]|h|r", -- [8]
-					"|cffa335ee|Hitem:50611:3850:40166::::::80:::::::::|h[Bracers of Dark Reckoning]|h|r", -- [9]
-					"|cffa335ee|Hitem:51267:3860:40166::::::80:::::::::|h[Sanctified Lightsworn Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:50678::40147::::::80:::::::::|h[Seal of Many Mouths]|h|r", -- [11]
+					"|cffffffff|Hitem:51265:3832:42142:40129:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:50991::40141:40119:36767::::80:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:50612:3822:40129:40119:40166::::80:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:50625:3606:40166:40119:::::80:::::::::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:50611:3850:40166::::::80:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:51267:3860:40166::::::80:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:50678::40147::::::80:::::::::|h[]|h|r", -- [11]
 					"|cffa335ee|Hitem:52572::40166::::::80:::::::::|h[Ashen Band of Endless Might]|h|r", -- [12]
-					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
-					"|cffa335ee|Hitem:46038::::::::80:::::::::|h[Dark Matter]|h|r", -- [14]
-					"|cffa335ee|Hitem:45496:3605:40129::::::80:::::::::|h[Titanskin Cloak]|h|r", -- [15]
-					"|cffa335ee|Hitem:50672:2673:40129::::::80:::::::::|h[Bloodvenom Blade]|h|r", -- [16]
-					"|cffa335ee|Hitem:50729:3849:40129::::::80:::::::::|h[Icecrown Glacial Wall]|h|r", -- [17]
-					"|cffa335ee|Hitem:47661::::::::80:::::::::|h[Libram of Valiance]|h|r", -- [18]
-					"|cffffffff|Hitem:5976::::::::80:::::::::|h[Guild Tabard]|h|r", -- [19]
+					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:46038::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:45496:3605:40129::::::80:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:50672:2673:40129::::::80:::::::::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:50729:3849:40129::::::80:::::::::|h[]|h|r", -- [17]
+					"|cffffffff|Hitem:47661::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:5976::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
@@ -225,20 +225,20 @@ DataStore_InventoryDB = {
 					["Lesbenlisa"] = {
 						["averageItemLvl"] = 261,
 					},
-					["Exonuklease"] = {
-						["averageItemLvl"] = 272,
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 265,
 					},
 					["Bloodwall"] = {
-						["averageItemLvl"] = 257,
-					},
-					["Maturitass"] = {
 						["averageItemLvl"] = 257,
 					},
 					["Andrés"] = {
 						["averageItemLvl"] = 269,
 					},
-					["Khalimmortus"] = {
-						["averageItemLvl"] = 265,
+					["Maturitass"] = {
+						["averageItemLvl"] = 257,
+					},
+					["Exonuklease"] = {
+						["averageItemLvl"] = 272,
 					},
 				},
 			},

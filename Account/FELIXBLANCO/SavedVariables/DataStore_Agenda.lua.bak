@@ -1,13 +1,13 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -69,6 +69,25 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1706781316,
 			},
+			["Default.Venoxis.Xolem"] = {
+				["lastUpdate"] = 1706570782,
+				["BossKills"] = {
+					["Icecrown Citadel 25 Player|195831813"] = {
+						"Lord Marrowgar|1", -- [1]
+						"Lady Deathwhisper|1", -- [2]
+						"Icecrown Gunship Battle|1", -- [3]
+						"Deathbringer Saurfang|1", -- [4]
+						"Festergut|1", -- [5]
+						"Rotface|1", -- [6]
+						"Professor Putricide|1", -- [7]
+						"Blood Council|1", -- [8]
+						"Queen Lana'thel|1", -- [9]
+						"Valithria Dreamwalker|1", -- [10]
+						"Sindragosa|1", -- [11]
+						"The Lich King|1", -- [12]
+					},
+				},
+			},
 			["Default.Venoxis.Khalimmortus"] = {
 				["DungeonIDs"] = {
 					["Icecrown Citadel 10 Player (Heroic)|195983486"] = "530525|1706747923|0|1",
@@ -95,27 +114,8 @@ DataStore_AgendaDB = {
 				},
 				["lastUpdate"] = 1706747923,
 			},
-			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1706570782,
-				["BossKills"] = {
-					["Icecrown Citadel 25 Player|195831813"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|1", -- [5]
-						"Rotface|1", -- [6]
-						"Professor Putricide|1", -- [7]
-						"Blood Council|1", -- [8]
-						"Queen Lana'thel|1", -- [9]
-						"Valithria Dreamwalker|1", -- [10]
-						"Sindragosa|1", -- [11]
-						"The Lich King|1", -- [12]
-					},
-				},
-			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1706781398,
+				["lastUpdate"] = 1706785069,
 			},
 			["Default.Venoxis.Alsía"] = {
 				["lastUpdate"] = 1706570966,
