@@ -12,9 +12,9 @@ CliqueDB3 = {
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
 			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
 			["spec2_profileKey"] = "Alsia - Venoxis",
+			["downclick"] = false,
+			["specswap"] = false,
 			["alerthidden"] = true,
 		},
 		["Alsía - Venoxis"] = {
@@ -29,24 +29,24 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["spec2_profileKey"] = "Andrés - Venoxis",
+			["alerthidden"] = true,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["spec1_profileKey"] = "Khalimmortus - Venoxis",
 			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Khalimmortus - Venoxis",
 			["specswap"] = false,
+			["spec2_profileKey"] = "Khalimmortus - Venoxis",
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
 			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Xolem - Venoxis",
 			["specswap"] = false,
+			["spec2_profileKey"] = "Xolem - Venoxis",
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -71,10 +71,10 @@ CliqueDB3 = {
 		["Fiesercousin - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -90,32 +90,32 @@ CliqueDB3 = {
 		["Xolem - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "ALT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
-					["spellSubName"] = "Rank 9",
+					["spell"] = "Lesser Healing Wave",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136043,
-					["spell"] = "Lesser Healing Wave",
+					["spellSubName"] = "Rank 9",
 				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spellSubName"] = "Rank 7",
+					["spell"] = "Chain Heal",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136042,
-					["spell"] = "Chain Heal",
+					["spellSubName"] = "Rank 7",
 				}, -- [3]
 				{
 					["type"] = "menu",
@@ -127,22 +127,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
-					["spellSubName"] = "Rank 5",
+					["spell"] = "Earth Shield",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136089,
-					["spell"] = "Earth Shield",
+					["spellSubName"] = "Rank 5",
 				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
-					["spellSubName"] = "Rank 14",
+					["spell"] = "Healing Wave",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 136052,
-					["spell"] = "Healing Wave",
+					["spellSubName"] = "Rank 14",
 				}, -- [6]
 				{
 					["type"] = "spell",
@@ -156,12 +156,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 4",
+					["spell"] = "Riptide",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 252995,
-					["spell"] = "Riptide",
+					["spellSubName"] = "Rank 4",
 				}, -- [8]
 				{
 					["type"] = "spell",
@@ -188,12 +188,12 @@ CliqueDB3 = {
 				{
 					["spellSubName"] = "Rank 3",
 					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand of Protection",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135964,
-					["type"] = "spell",
+					["spell"] = "Hand of Protection",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -225,22 +225,22 @@ CliqueDB3 = {
 				{
 					["spellSubName"] = "Rank 13",
 					["key"] = "BUTTON2",
-					["spell"] = "Holy Light",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135920,
-					["type"] = "spell",
+					["spell"] = "Holy Light",
 				}, -- [6]
 				{
 					["spellSubName"] = "Rank 5",
 					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Lay on Hands",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135928,
-					["type"] = "spell",
+					["spell"] = "Lay on Hands",
 				}, -- [7]
 				{
 					["type"] = "spell",
@@ -263,32 +263,32 @@ CliqueDB3 = {
 				{
 					["spellSubName"] = "Rank 9",
 					["key"] = "BUTTON1",
-					["spell"] = "Flash of Light",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["type"] = "spell",
+					["spell"] = "Flash of Light",
 				}, -- [10]
 				{
 					["spellSubName"] = "Rank 7",
 					["key"] = "BUTTON3",
-					["spell"] = "Holy Shock",
+					["type"] = "spell",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135972,
-					["type"] = "spell",
+					["spell"] = "Holy Shock",
 				}, -- [11]
 			},
 		},
 		["Lucho - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -333,12 +333,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Hand of Protection",
+					["spellSubName"] = "Rank 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135964,
-					["spellSubName"] = "Rank 3",
+					["spell"] = "Hand of Protection",
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -352,32 +352,32 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spell"] = "Holy Light",
+					["spellSubName"] = "Rank 13",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135920,
-					["spellSubName"] = "Rank 13",
+					["spell"] = "Holy Light",
 				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Lay on Hands",
+					["spellSubName"] = "Rank 5",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135928,
-					["spellSubName"] = "Rank 5",
+					["spell"] = "Lay on Hands",
 				}, -- [7]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spell"] = "Flash of Light",
+					["spellSubName"] = "Rank 9",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["spellSubName"] = "Rank 9",
+					["spell"] = "Flash of Light",
 				}, -- [8]
 				{
 					["type"] = "spell",
@@ -400,12 +400,12 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
-					["spell"] = "Holy Shock",
+					["spellSubName"] = "Rank 7",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135972,
-					["spellSubName"] = "Rank 7",
+					["spell"] = "Holy Shock",
 				}, -- [11]
 				{
 					["macrotext"] = "/stopcasting\n/cast [@mouseover,help,nodead][help,nodead] Sacred Shield(Rank 1)",
@@ -420,10 +420,10 @@ CliqueDB3 = {
 		["Andrés - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -457,10 +457,10 @@ CliqueDB3 = {
 		["Khalimmortus - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -485,10 +485,10 @@ CliqueDB3 = {
 		["Pjanic - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -504,22 +504,22 @@ CliqueDB3 = {
 		["Kwasimojo - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "ALT-BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON1",
-					["spell"] = "Penance",
+					["spellSubName"] = "Rank 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 237545,
-					["spellSubName"] = "Rank 3",
+					["spell"] = "Penance",
 				}, -- [2]
 				{
 					["type"] = "menu",
@@ -531,62 +531,62 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON1",
-					["spell"] = "Greater Heal",
+					["spellSubName"] = "Rank 9",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135913,
-					["spellSubName"] = "Rank 9",
+					["spell"] = "Greater Heal",
 				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
-					["spell"] = "Flash Heal",
+					["spellSubName"] = "Rank 11",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135907,
-					["spellSubName"] = "Rank 11",
+					["spell"] = "Flash Heal",
 				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Binding Heal",
+					["spellSubName"] = "Rank 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135883,
-					["spellSubName"] = "Rank 3",
+					["spell"] = "Binding Heal",
 				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
-					["spell"] = "Prayer of Mending",
+					["spellSubName"] = "Rank 3",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135944,
-					["spellSubName"] = "Rank 3",
+					["spell"] = "Prayer of Mending",
 				}, -- [7]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
-					["spell"] = "Power Word: Shield",
+					["spellSubName"] = "Rank 14",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135940,
-					["spellSubName"] = "Rank 14",
+					["spell"] = "Power Word: Shield",
 				}, -- [8]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
-					["spell"] = "Renew",
+					["spellSubName"] = "Rank 14",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135953,
-					["spellSubName"] = "Rank 14",
+					["spell"] = "Renew",
 				}, -- [9]
 				{
 					["type"] = "spell",
@@ -609,22 +609,22 @@ CliqueDB3 = {
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
-					["spell"] = "Prayer of Healing",
+					["spellSubName"] = "Rank 7",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135943,
-					["spellSubName"] = "Rank 7",
+					["spell"] = "Prayer of Healing",
 				}, -- [12]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON5",
-					["spell"] = "Dispel Magic",
+					["spellSubName"] = "Rank 2",
 					["sets"] = {
 						["default"] = true,
 					},
 					["icon"] = 135894,
-					["spellSubName"] = "Rank 2",
+					["spell"] = "Dispel Magic",
 				}, -- [13]
 				{
 					["type"] = "spell",

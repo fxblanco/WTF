@@ -1,13 +1,13 @@
 
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -17,8 +17,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2023/12/09 00:21",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1706739177,
-				["lastVisitDate"] = "2024/01/31 23:12",
+				["lastVisitDate"] = "2024/02/01 14:29",
+				["lastUpdate"] = 1706794144,
 			},
 			["Default.Venoxis.Andrés"] = {
 				["lastAuctionsScan"] = 1704368426,

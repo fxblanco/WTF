@@ -51,11 +51,13 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 		},
 		["Khalimmortus - Venoxis"] = {
-			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+			["data_source"] = "wowtbc",
 			["phase_index"] = 4,
 		},
 		["Alsia - Venoxis"] = {
+			["class_index"] = 5,
+			["spec_index"] = 2,
 			["phase_index"] = 4,
 			["data_source"] = "wowtbc",
 			["version"] = 6.2,

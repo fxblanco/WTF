@@ -1,13 +1,13 @@
 
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
