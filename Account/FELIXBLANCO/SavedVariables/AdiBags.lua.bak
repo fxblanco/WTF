@@ -16,25 +16,25 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["MoneyFrame"] = {
-		},
-		["DataSource"] = {
+		["Equipment"] = {
 		},
 		["ItemSets"] = {
 		},
+		["DataSource"] = {
+		},
 		["Junk"] = {
 		},
-		["Equipment"] = {
+		["MoneyFrame"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Andrés - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
-		["Lucho - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Pjanic - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -43,23 +43,23 @@ AdiBagsDB = {
 				["Masque"] = false,
 			},
 			["positions"] = {
-				["Bank"] = {
-					["xOffset"] = -808.962646484375,
-					["point"] = "TOPRIGHT",
-					["yOffset"] = -187.2392578125,
-				},
 				["Backpack"] = {
 					["xOffset"] = -428.384521484375,
 					["point"] = "TOPRIGHT",
 					["yOffset"] = -264.640380859375,
 				},
+				["Bank"] = {
+					["xOffset"] = -808.962646484375,
+					["point"] = "TOPRIGHT",
+					["yOffset"] = -187.2392578125,
+				},
 			},
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
+					["Name"] = "Bag Lag Fix",
 					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
-					["Name"] = "Bag Lag Fix",
 				},
 			},
 		},
