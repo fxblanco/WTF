@@ -13,7 +13,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1706140059,
+				["lastUpdate"] = 1706570824,
 				["Factions"] = {
 					[31] = -12250,
 					[46] = 2765,
@@ -23,7 +23,7 @@ DataStore_ReputationsDB = {
 					[8] = 25097,
 					[39] = 13557,
 					[47] = 8895,
-					[63] = 33498,
+					[63] = 42999,
 					[20] = 9717,
 					[24] = 600,
 					[32] = 2000,
@@ -73,7 +73,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1706391407,
+				["lastUpdate"] = 1706781316,
 				["Factions"] = {
 					[27] = 15,
 					[31] = -10775,
@@ -120,9 +120,9 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1706401950,
+				["lastUpdate"] = 1706747923,
 				["Factions"] = {
-					[58] = 8045,
+					[58] = 8495,
 					[59] = 11220,
 					[60] = 6360,
 					[61] = 7720,
@@ -130,21 +130,21 @@ DataStore_ReputationsDB = {
 					[17] = 525,
 					[9] = 3881,
 					[18] = 512,
-					[70] = 22930,
-					[72] = 26204,
+					[70] = 24423,
+					[72] = 27696,
 					[74] = 1400,
 					[39] = 5932,
 					[43] = 210,
-					[47] = 10549,
+					[24] = 0,
 					[6] = 10231,
 					[46] = -1975,
-					[24] = 0,
+					[47] = 10549,
 					[19] = 512,
 					[10] = 6775,
 					[7] = 12381,
-					[69] = 39908,
-					[71] = 19979,
-					[73] = 34439,
+					[69] = 42893,
+					[71] = 21471,
+					[73] = 35931,
 					[75] = -3080,
 					[77] = 6881,
 					[8] = 6481,
@@ -153,7 +153,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1706402078,
+				["lastUpdate"] = 1706570780,
 				["Factions"] = {
 					[75] = 8201,
 					[54] = 0,
@@ -193,7 +193,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1706227358,
+				["lastUpdate"] = 1706781354,
 				["Factions"] = {
 					[75] = 10101,
 					[54] = 10,
@@ -226,8 +226,8 @@ DataStore_ReputationsDB = {
 					[72] = 42999,
 					[10] = 20630,
 					[35] = 42999,
-					[73] = 42999,
 					[37] = 453,
+					[73] = 42999,
 					[70] = 42999,
 					[53] = 10,
 					[61] = 42264,
@@ -237,7 +237,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1706139564,
+				["lastUpdate"] = 1706570966,
 				["Factions"] = {
 					[58] = 3820,
 					[61] = 0,

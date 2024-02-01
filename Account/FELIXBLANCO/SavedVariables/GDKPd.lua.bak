@@ -1,5 +1,8 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Fiesercousin - Venoxis"] = "Fiesercousin - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
@@ -11,9 +14,6 @@ GDKPd_DB = {
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Fiesercousin - Venoxis"] = {
@@ -124,13 +124,13 @@ GDKPd_DB = {
 				["point"] = "RIGHT",
 				["x"] = -280.3668518066406,
 			},
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 86.94361114501953,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -64.8211669921875,
 			},
-			["increment"] = 500,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["balancepoint"] = {
@@ -165,9 +165,9 @@ GDKPd_DB = {
 			["itemLevelPricing"] = {
 				{
 					["min"] = 235,
-					["minbid"] = 2000,
-					["max"] = 0,
 					["mininc"] = 500,
+					["max"] = 0,
+					["minbid"] = 2000,
 				}, -- [1]
 			},
 			["point"] = {
@@ -226,8 +226,8 @@ GDKPd_DB = {
 				["point"] = "TOPRIGHT",
 				["x"] = -37.39339065551758,
 			},
-			["increment"] = 20,
 			["startBid"] = 200,
+			["increment"] = 20,
 		},
 	},
 }
@@ -246,8 +246,8 @@ GDKPd_PotData = {
 		["Khalimmortus"] = -5607,
 		["Wwrdlbrmpft"] = 0,
 		["Vaccus"] = 0,
-		["Vacaria"] = 0,
-		["Bumsmarie"] = 0,
+		["Syzsha"] = 0,
+		["Yuvée"] = 0,
 		["Vaccs"] = 0,
 		["Aorian"] = 0,
 		["Mexolx"] = 0,
@@ -256,8 +256,8 @@ GDKPd_PotData = {
 		["Kylié"] = 0,
 		["Uwugamergirl"] = 0,
 		["Bosaxd"] = 0,
-		["Yuvée"] = 0,
-		["Syzsha"] = 0,
+		["Bumsmarie"] = 0,
+		["Vacaria"] = 0,
 	},
 	["curPotHistory"] = {
 		{

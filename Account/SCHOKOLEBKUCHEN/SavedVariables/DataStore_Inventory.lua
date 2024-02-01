@@ -6,13 +6,13 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706140362,
+				["lastUpdate"] = 1706571080,
 				["averageItemLvl"] = 272.1875,
 				["overallAIL"] = 272.9375,
 				["Inventory"] = {
 					"|cffffffff|Hitem:51231:3820:41285:40133:::::80:::::::::|h[]|h|r", -- [1]
 					"|cffffffff|Hitem:50724::40133::::::80:::::::::|h[]|h|r", -- [2]
-					"|cffffffff|Hitem:51234:3810:::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffffffff|Hitem:51234:3810:40155::::::80:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
 					"|cffffffff|Hitem:51233:1144:40113:40155:::::80:::::::::|h[]|h|r", -- [5]
 					"|cffffffff|Hitem:50997::40133:40113:40113::::80:::::::::|h[]|h|r", -- [6]
@@ -26,8 +26,9 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50348::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:50628:3722:40155::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[]|h|r", -- [16]
-					[18] = "|cffffffff|Hitem:45294::40125::::::80:::::::::|h[]|h|r",
-					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r",
+					nil, -- [17]
+					"|cffffffff|Hitem:45294::40125::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 			},
 		},
@@ -52,14 +53,14 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 245,
 					},
-					["Khalimmortus"] = {
-						["averageItemLvl"] = 263,
+					["Exonuklease"] = {
+						["averageItemLvl"] = 272,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
-					["Exonuklease"] = {
-						["averageItemLvl"] = 272,
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 263,
 					},
 				},
 			},

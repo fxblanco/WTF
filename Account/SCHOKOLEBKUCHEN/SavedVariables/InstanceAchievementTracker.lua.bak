@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
+	["InfoFramescale"] = 1,
 	["announceTrackedAchievements"] = false,
-	["trackAchievementsAutomatically"] = false,
+	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 127.5749206542969,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 127.5749206542969,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["trackAchievementsAutomatically"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -36841,6 +36841,13 @@ AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [36816]
 	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [36817]
 	"19/1/2024 21:27 [DEBUG] Showing Minimap Icon", -- [36818]
+	"25/1/2024 0:47 [DEBUG] ---IAT Runtime---", -- [36819]
+	"25/1/2024 0:47 [DEBUG] Version: 4.35.0", -- [36820]
+	"25/1/2024 0:47 [DEBUG] Attempting to load from local NPC Cache classic", -- [36821]
+	"25/1/2024 0:47 [DEBUG] Generating NPC Cache Classic...", -- [36822]
+	"25/1/2024 0:47 [DEBUG] Enabling Addon", -- [36823]
+	"25/1/2024 0:47 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [36824]
+	"25/1/2024 0:51 [DEBUG] Showing Minimap Icon", -- [36825]
 }
 AchievementTrackerNPCCache = {
 }
@@ -36855,7 +36862,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebeard",
 	[26746] = "Crazed Mana-Wraith",
 	[27756] = "Ruby Drake",
-	[26668] = "Svala Sorrowgrave",
+	[26555] = "Scourge Hulk",
 	[33572] = "Steelforged Defender",
 	[29713] = "Slad'ran Constrictor",
 	[26627] = "Crystal Handler",
@@ -36866,33 +36873,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26918] = "Chaotic Rift",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Malformed Ooze",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgore",
 	[26731] = "Grand Magus Telestra",
-	[26893] = "Grauf",
 	[26641] = "Drakkari Gutripper",
-	[33388] = "Dark Rune Guardian",
+	[26893] = "Grauf",
 	[28731] = "Watcher Silthik",
 	[33136] = "Guardian of Yogg-Saron",
-	[27658] = "Belgaristrasz",
+	[27975] = "Maiden of Grief",
+	[28729] = "Watcher Narjil",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
 	[30176] = "Ahn'kahar Guardian",
 	[23562] = "Unstoppable Abomination",
-	[28729] = "Watcher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Watcher Gashra",
-	[27975] = "Maiden of Grief",
+	[33388] = "Dark Rune Guardian",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",
 	[29932] = "Eck the Ferocious",
 	[29240] = "Stormforged Lieutenant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Malformed Ooze",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Scrapbot",
 	[23953] = "Prince Keleseth",
-	[26555] = "Scourge Hulk",
+	[26668] = "Svala Sorrowgrave",
 }

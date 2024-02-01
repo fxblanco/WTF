@@ -19,10 +19,10 @@ BisTooltipDB = {
 		},
 		["Xolem - Venoxis"] = {
 			["class_index"] = 8,
-			["spec_index"] = 3,
-			["phase_index"] = 4,
-			["data_source"] = "wowtbc",
 			["version"] = 6.2,
+			["spec_index"] = 3,
+			["data_source"] = "wowtbc",
+			["phase_index"] = 4,
 		},
 		["Pjanic - Venoxis"] = {
 			["data_source"] = "wh",
@@ -46,21 +46,19 @@ BisTooltipDB = {
 		["Alsía - Venoxis"] = {
 			["class_index"] = 5,
 			["version"] = 6.2,
-			["spec_index"] = 2,
+			["spec_index"] = 3,
 			["data_source"] = "wh",
 			["phase_index"] = 3,
 		},
 		["Khalimmortus - Venoxis"] = {
-			["version"] = 6.2,
 			["data_source"] = "wowtbc",
+			["version"] = 6.2,
 			["phase_index"] = 4,
 		},
 		["Alsia - Venoxis"] = {
-			["class_index"] = 5,
-			["version"] = 6.2,
-			["spec_index"] = 2,
+			["phase_index"] = 4,
 			["data_source"] = "wowtbc",
-			["phase_index"] = 3,
+			["version"] = 6.2,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["class_index"] = 6,

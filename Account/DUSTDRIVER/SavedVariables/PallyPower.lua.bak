@@ -1,8 +1,8 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Other",
 		["Bloodwall - Venoxis"] = "Other",
+		["Maturitass - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Other"] = {
@@ -47,16 +47,16 @@ PallyPower_Assignments = {
 		2, -- [9]
 		4, -- [10]
 	},
-	["Spaltkyle"] = {
+	["Bremskyle"] = {
 		3, -- [1]
 		3, -- [2]
 		1, -- [3]
-		1, -- [4]
+		3, -- [4]
 		3, -- [5]
 		3, -- [6]
 		1, -- [7]
 		1, -- [8]
-		3, -- [9]
+		1, -- [9]
 		3, -- [10]
 	},
 	["Habíb"] = {
@@ -71,29 +71,29 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Fanga"] = {
+	["Zelcher"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+	},
+	["Spaltkyle"] = {
 		3, -- [1]
 		3, -- [2]
 		1, -- [3]
-		3, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Bremskyle"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
 		1, -- [4]
-		1, -- [5]
-		1, -- [6]
+		3, -- [5]
+		3, -- [6]
 		1, -- [7]
 		1, -- [8]
-		1, -- [9]
-		0, -- [10]
+		3, -- [9]
+		3, -- [10]
 	},
 	["Beesportz"] = {
 		2, -- [1]
@@ -115,26 +115,30 @@ PallyPower_AuraAssignments = {
 	["Bosanyr"] = 6,
 	["Transhorsti"] = 6,
 	["Bánu"] = 1,
-	["Diggii"] = 1,
+	["Zelcher"] = 0,
 	["Otway"] = 6,
+	["Diggii"] = 1,
+	["Viallri"] = 5,
+	["Rudølf"] = 2,
 	["Avêss"] = 6,
+	["Bubblepete"] = 0,
 	["Tagirx"] = 1,
 	["Nefertâri"] = 0,
 	["Lorthasx"] = 2,
 	["Retardedqt"] = 6,
-	["Kolberg"] = 0,
-	["Beesportz"] = 1,
-	["Fanga"] = 1,
-	["Habíb"] = 5,
 	["Sacrít"] = 0,
+	["Beesportz"] = 1,
+	["Bremskyle"] = 1,
+	["Habíb"] = 5,
+	["Kolberg"] = 0,
 	["Highlightz"] = 2,
 	["Mírabel"] = 6,
-	["Spaltkyle"] = 1,
-	["Lichtobjekt"] = 5,
-	["Bremskyle"] = 6,
-	["Psychøtin"] = 1,
 	["Alsia"] = 1,
+	["Lichtobjekt"] = 5,
 	["Xarreon"] = 5,
+	["Psychøtin"] = 1,
+	["Fanga"] = 1,
+	["Spaltkyle"] = 1,
 	["Bânu"] = 5,
 	["Velanya"] = 1,
 }

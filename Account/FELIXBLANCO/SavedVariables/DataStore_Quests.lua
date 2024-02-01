@@ -13,9 +13,9 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1706140059,
-				["HistorySize"] = 1503,
-				["HistoryLastUpdate"] = 1706139730,
+				["lastUpdate"] = 1706570824,
+				["HistorySize"] = 1508,
+				["HistoryLastUpdate"] = 1706570829,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
@@ -28,9 +28,6 @@ DataStore_QuestsDB = {
 					486600, -- [2]
 					52000, -- [3]
 					516800, -- [4]
-				},
-				["Rewards"] = {
-					[4] = "c|44342|1|0,c|44343|1|1,c|44344|1|0,c|44345|1|0",
 				},
 				["QuestTitles"] = {
 					"Proof of Demise: Threats to Azeroth", -- [1]
@@ -99,7 +96,7 @@ DataStore_QuestsDB = {
 					[229] = 33554432,
 					[245] = 2667382753,
 					[4] = 147456,
-					[776] = 1585480193,
+					[776] = 4269834753,
 					[71] = 262144,
 					[163] = 67108864,
 					[314] = 266733700,
@@ -128,7 +125,7 @@ DataStore_QuestsDB = {
 					[158] = 503316480,
 					[379] = 1736361848,
 					[6] = 4261412865,
-					[789] = 25165824,
+					[789] = 92274688,
 					[246] = 6293246,
 					[16] = 1015316512,
 					[17] = 2098115,
@@ -273,7 +270,7 @@ DataStore_QuestsDB = {
 					[326] = 4106,
 					[188] = 1048576,
 					[171] = 2,
-					[777] = 4,
+					[777] = 14,
 				},
 				["QuestHeaders"] = {
 					"Dalaran", -- [1]
@@ -322,9 +319,9 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1706391407,
+				["lastUpdate"] = 1706781316,
 				["HistorySize"] = 1169,
-				["HistoryLastUpdate"] = 1706388439,
+				["HistoryLastUpdate"] = 1706781266,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:78753:80|h[Proof of Demise: Threats to Azeroth]|h|r", -- [1]
 					"|cffffff00|Hquest:78752:80|h[Proof of Demise: Titan Rune Protocol Gamma]|h|r", -- [2]
@@ -444,7 +441,7 @@ DataStore_QuestsDB = {
 					[789] = 92274688,
 					[31] = 1229317,
 					[32] = 6291456,
-					[135] = 8222,
+					[34] = 2147483648,
 					[36] = 3774875648,
 					[301] = 256,
 					[317] = 4048698289,
@@ -523,13 +520,13 @@ DataStore_QuestsDB = {
 					[2049] = 100663296,
 					[241] = 6291456,
 					[433] = 67108864,
-					[354] = 128,
+					[89] = 1073741824,
 					[109] = 33554624,
 					[290] = 1006632960,
 					[306] = 838925824,
 					[322] = 13287616,
 					[338] = 570425600,
-					[89] = 1073741824,
+					[354] = 128,
 					[407] = 65536,
 					[97] = 16384,
 					[402] = 14352,
@@ -567,7 +564,7 @@ DataStore_QuestsDB = {
 					[37] = 4153360384,
 					[420] = 10,
 					[38] = 4849724,
-					[34] = 2147483648,
+					[135] = 8222,
 					[189] = 32768,
 					[9] = 256,
 					[47] = 51200,
@@ -587,55 +584,32 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1706401950,
-				["HistorySize"] = 624,
-				["Dailies"] = {
-					{
-						["id"] = 78752,
-						["timestamp"] = 1706401947,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 12452,
-					}, -- [1]
-					{
-						["id"] = 78752,
-						["timestamp"] = 1706401947,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 12452,
-					}, -- [2]
-					{
-						["id"] = 78752,
-						["timestamp"] = 1706401947,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 12452,
-					}, -- [3]
-					{
-						["id"] = 78753,
-						["timestamp"] = 1706401950,
-						["title"] = "Proof of Demise: Threats to Azeroth",
-						["expiresIn"] = 12449,
-					}, -- [4]
-				},
-				["HistoryLastUpdate"] = 1706401422,
+				["lastUpdate"] = 1706747923,
+				["HistorySize"] = 614,
+				["HistoryLastUpdate"] = 1706739225,
 				["QuestLinks"] = {
 					"|cff808080|Hquest:11339:-1|h[Call to Arms: Arathi Basin]|h|r", -- [1]
 					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [2]
 					"|cffffff00|Hquest:24682:80|h[The Pit of Saron]|h|r", -- [3]
 					"|cffffff00|Hquest:12546:78|h[Reclamation]|h|r", -- [4]
 					"|cffffff00|Hquest:13159:77|h[Containment]|h|r", -- [5]
-					"|cffffff00|Hquest:13185:80|h[Stop the Siege]|h|r", -- [6]
-					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [7]
-					"|cff808080|Hquest:11357:-1|h[Masked Orphan Matron]|h|r", -- [8]
+					"|cffffff00|Hquest:24586:80|h[Razorscale Must Die!]|h|r", -- [6]
+					"|cffffff00|Hquest:13185:80|h[Stop the Siege]|h|r", -- [7]
+					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [8]
+					"|cff808080|Hquest:11357:-1|h[Masked Orphan Matron]|h|r", -- [9]
+					"|cff808080|Hquest:3861:1|h[CLUCK!]|h|r", -- [10]
 				},
 				["HistoryBuild"] = "52237",
-				["Money"] = {
-					272600, -- [1]
-					313300, -- [2]
-					52000, -- [3]
-					398400, -- [4]
-					516800, -- [5]
-					206300, -- [6]
-					206300, -- [7]
-					13200, -- [8]
+				["QuestHeaders"] = {
+					"Arathi Basin", -- [1]
+					"Icecrown Citadel", -- [2]
+					"Pit of Saron", -- [3]
+					"Sholazar Basin", -- [4]
+					"The Violet Hold", -- [5]
+					"Ulduar", -- [6]
+					"Wintergrasp", -- [7]
+					"Seasonal", -- [8]
+					"Special", -- [9]
 				},
 				["Rewards"] = {
 					[4] = "c|40290|1|1,c|40291|1|1,c|40292|1|1,c|40293|1|1,c|40295|1|1,r|199210|1|1",
@@ -647,17 +621,21 @@ DataStore_QuestsDB = {
 					"The Pit of Saron", -- [3]
 					"Reclamation", -- [4]
 					"Containment", -- [5]
-					"Stop the Siege", -- [6]
-					"Warding the Walls", -- [7]
-					"Masked Orphan Matron", -- [8]
+					"Razorscale Must Die!", -- [6]
+					"Stop the Siege", -- [7]
+					"Warding the Walls", -- [8]
+					"Masked Orphan Matron", -- [9]
+					"CLUCK!", -- [10]
 				},
 				["QuestTags"] = {
 					41, -- [1]
 					89, -- [2]
 					81, -- [3]
-					[5] = 81,
-					[6] = 41,
-					[7] = 41,
+					nil, -- [4]
+					81, -- [5]
+					62, -- [6]
+					41, -- [7]
+					41, -- [8]
 				},
 				["History"] = {
 					[353] = 2163083743,
@@ -700,7 +678,6 @@ DataStore_QuestsDB = {
 					[307] = 1396704256,
 					[315] = 1073741952,
 					[319] = 2147483649,
-					[769] = 32760,
 					[327] = 4590592,
 					[339] = 4980736,
 					[351] = 1746927617,
@@ -728,6 +705,7 @@ DataStore_QuestsDB = {
 					[352] = 4284482055,
 					[356] = 224,
 					[364] = 471074332,
+					[778] = 1024,
 					[372] = 268500992,
 					[376] = 4026739681,
 					[380] = 16765200,
@@ -736,10 +714,10 @@ DataStore_QuestsDB = {
 					[392] = 2147712769,
 					[396] = 3222683698,
 					[400] = 885001217,
-					[432] = 32768,
+					[2461] = 1,
 					[408] = 808554496,
 					[412] = 1073799264,
-					[2461] = 1,
+					[432] = 32768,
 					[293] = 4097970211,
 					[424] = 1048576,
 					[301] = 256,
@@ -749,22 +727,25 @@ DataStore_QuestsDB = {
 					[317] = 4048698289,
 					[321] = 295940,
 					[325] = 804257795,
-					[333] = 96,
 					[789] = 92274688,
+					[333] = 96,
 					[776] = 4269834497,
 					[777] = 14,
 					[766] = 2148007936,
 					[349] = 2147483649,
 					[2462] = 2,
 				},
-				["QuestHeaders"] = {
-					"Arathi Basin", -- [1]
-					"Icecrown Citadel", -- [2]
-					"Pit of Saron", -- [3]
-					"Sholazar Basin", -- [4]
-					"The Violet Hold", -- [5]
-					"Wintergrasp", -- [6]
-					"Seasonal", -- [7]
+				["Money"] = {
+					272600, -- [1]
+					313300, -- [2]
+					52000, -- [3]
+					398400, -- [4]
+					516800, -- [5]
+					296000, -- [6]
+					206300, -- [7]
+					206300, -- [8]
+					13200, -- [9]
+					0, -- [10]
 				},
 				["Quests"] = {
 					5244994, -- [1]
@@ -772,41 +753,17 @@ DataStore_QuestsDB = {
 					5249088, -- [3]
 					5120064, -- [4]
 					5056576, -- [5]
-					5255233, -- [6]
-					5255232, -- [7]
+					5255232, -- [6]
+					5257281, -- [7]
 					5257280, -- [8]
+					5259328, -- [9]
+					84032, -- [10]
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1706402078,
-				["HistorySize"] = 933,
-				["Dailies"] = {
-					{
-						["id"] = 78752,
-						["timestamp"] = 1706401380,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 13019,
-					}, -- [1]
-					{
-						["id"] = 78752,
-						["timestamp"] = 1706401381,
-						["title"] = "Proof of Demise: Titan Rune Protocol Gamma",
-						["expiresIn"] = 13018,
-					}, -- [2]
-					{
-						["id"] = 78753,
-						["timestamp"] = 1706401383,
-						["title"] = "Proof of Demise: Threats to Azeroth",
-						["expiresIn"] = 13016,
-					}, -- [3]
-					{
-						["id"] = 78753,
-						["timestamp"] = 1706401383,
-						["title"] = "Proof of Demise: Threats to Azeroth",
-						["expiresIn"] = 13016,
-					}, -- [4]
-				},
-				["HistoryLastUpdate"] = 1706402079,
+				["lastUpdate"] = 1706570780,
+				["HistorySize"] = 931,
+				["HistoryLastUpdate"] = 1706570786,
 				["QuestLinks"] = {
 					"|cff40c040|Hquest:12149:73|h[Mighty Magnataur]|h|r", -- [1]
 					"|cffffff00|Hquest:13078:80|h[Dahlia's Tears]|h|r", -- [2]
@@ -822,25 +779,13 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:13680:80|h[The Aspirant's Challenge]|h|r", -- [12]
 				},
 				["HistoryBuild"] = "52237",
-				["Money"] = {
-					126800, -- [1]
-					206300, -- [2]
-					206300, -- [3]
-					313300, -- [4]
-					239300, -- [5]
-					313300, -- [6]
-					206300, -- [7]
-					157300, -- [8]
-					206300, -- [9]
-					296000, -- [10]
-					313300, -- [11]
-					206300, -- [12]
-				},
-				["Rewards"] = {
-					"r|199210|1|1", -- [1]
-					[3] = "c|44386|1|1,c|44388|1|1,c|44387|1|1",
-					[9] = "c|38737|1|1,c|39036|1|1,c|39070|1|1,c|39102|1|0",
-					[11] = "c|42793|1|1,c|42806|1|1,c|42818|1|1,c|42835|1|0",
+				["QuestHeaders"] = {
+					"Dragonblight", -- [1]
+					"Icecrown", -- [2]
+					"Icecrown Citadel", -- [3]
+					"Naxxramas", -- [4]
+					"The Storm Peaks", -- [5]
+					"Tournament", -- [6]
 				},
 				["QuestTitles"] = {
 					"Mighty Magnataur", -- [1]
@@ -888,8 +833,6 @@ DataStore_QuestsDB = {
 					[406] = 2983993329,
 					[106] = 65536,
 					[114] = 176300032,
-					[2461] = 1,
-					[2462] = 2,
 					[295] = 1073741828,
 					[311] = 387905952,
 					[327] = 4587520,
@@ -1007,13 +950,19 @@ DataStore_QuestsDB = {
 					[2360] = 24,
 					[24] = 2284537856,
 				},
-				["QuestHeaders"] = {
-					"Dragonblight", -- [1]
-					"Icecrown", -- [2]
-					"Icecrown Citadel", -- [3]
-					"Naxxramas", -- [4]
-					"The Storm Peaks", -- [5]
-					"Tournament", -- [6]
+				["Money"] = {
+					126800, -- [1]
+					206300, -- [2]
+					206300, -- [3]
+					313300, -- [4]
+					239300, -- [5]
+					313300, -- [6]
+					206300, -- [7]
+					157300, -- [8]
+					206300, -- [9]
+					296000, -- [10]
+					313300, -- [11]
+					206300, -- [12]
 				},
 				["Quests"] = {
 					4786240, -- [1]
@@ -1031,44 +980,40 @@ DataStore_QuestsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1706227358,
+				["lastUpdate"] = 1706781354,
 				["HistorySize"] = 1090,
-				["HistoryLastUpdate"] = 1706227359,
+				["HistoryLastUpdate"] = 1706781355,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [1]
-					"|cffffff00|Hquest:24589:80|h[Lord Jaraxxus Must Die!]|h|r", -- [2]
-					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [3]
-					"|cffffff00|Hquest:13539:80|h[Toppling the Towers]|h|r", -- [4]
-					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [5]
-					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [6]
-					"|cffffff00|Hquest:13697:80|h[The Valiant's Charge]|h|r", -- [7]
+					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [2]
+					"|cffffff00|Hquest:13539:80|h[Toppling the Towers]|h|r", -- [3]
+					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [4]
+					"|cffffff00|Hquest:13192:80|h[Warding the Walls]|h|r", -- [5]
+					"|cffffff00|Hquest:13697:80|h[The Valiant's Charge]|h|r", -- [6]
 				},
 				["HistoryBuild"] = "52237",
 				["Money"] = {
 					313300, -- [1]
-					296000, -- [2]
+					206300, -- [2]
 					206300, -- [3]
 					206300, -- [4]
 					206300, -- [5]
 					206300, -- [6]
-					206300, -- [7]
 				},
 				["QuestTitles"] = {
 					"The Sacred and the Corrupt", -- [1]
-					"Lord Jaraxxus Must Die!", -- [2]
-					"Slay them all!", -- [3]
-					"Toppling the Towers", -- [4]
-					"Victory in Wintergrasp", -- [5]
-					"Warding the Walls", -- [6]
-					"The Valiant's Charge", -- [7]
+					"Slay them all!", -- [2]
+					"Toppling the Towers", -- [3]
+					"Victory in Wintergrasp", -- [4]
+					"Warding the Walls", -- [5]
+					"The Valiant's Charge", -- [6]
 				},
 				["QuestTags"] = {
 					89, -- [1]
-					62, -- [2]
+					41, -- [2]
 					41, -- [3]
 					41, -- [4]
 					41, -- [5]
-					41, -- [6]
 				},
 				["History"] = {
 					[261] = 1309000928,
@@ -1228,29 +1173,27 @@ DataStore_QuestsDB = {
 				},
 				["QuestHeaders"] = {
 					"Icecrown Citadel", -- [1]
-					"Trial of the Crusader", -- [2]
-					"Wintergrasp", -- [3]
-					"Tournament", -- [4]
+					"Wintergrasp", -- [2]
+					"Tournament", -- [3]
 				},
 				["Quests"] = {
 					5244992, -- [1]
-					5247041, -- [2]
-					5249088, -- [3]
-					5249088, -- [4]
-					5249088, -- [5]
+					5247040, -- [2]
+					5247040, -- [3]
+					5247040, -- [4]
+					5247040, -- [5]
 					5249088, -- [6]
-					5251136, -- [7]
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
 				["HistoryBuild"] = "52237",
-				["HistorySize"] = 129,
-				["HistoryLastUpdate"] = 1706139564,
+				["HistorySize"] = 135,
+				["HistoryLastUpdate"] = 1706570966,
 				["QuestLinks"] = {
 					"|cffffff00|Hquest:24713:80|h[Frostmourne]|h|r", -- [1]
 					"|cffffff00|Hquest:24545:80|h[The Sacred and the Corrupt]|h|r", -- [2]
 				},
-				["lastUpdate"] = 1706139564,
+				["lastUpdate"] = 1706570966,
 				["QuestHeaders"] = {
 					"Halls of Reflection", -- [1]
 					"Icecrown Citadel", -- [2]
@@ -1292,6 +1235,7 @@ DataStore_QuestsDB = {
 					[400] = 348127232,
 					[402] = 8192,
 					[52] = 8379392,
+					[778] = 2016,
 					[789] = 96468992,
 					[2443] = 32530560,
 					[264] = 4,

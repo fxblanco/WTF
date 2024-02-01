@@ -11,11 +11,11 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["spec2_profileKey"] = "Alsia - Venoxis",
-			["downclick"] = false,
 			["fastooc"] = false,
-			["alerthidden"] = true,
 			["specswap"] = false,
+			["downclick"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
+			["alerthidden"] = true,
 		},
 		["Alsía - Venoxis"] = {
 			["spec1_profileKey"] = "Alsía - Venoxis",
@@ -34,19 +34,19 @@ CliqueDB3 = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["spec1_profileKey"] = "Khalimmortus - Venoxis",
-			["spec2_profileKey"] = "Khalimmortus - Venoxis",
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Khalimmortus - Venoxis",
 			["specswap"] = false,
-			["alerthidden"] = true,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
+			["alerthidden"] = true,
+			["downclick"] = false,
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Xolem - Venoxis",
-			["downclick"] = false,
 			["specswap"] = false,
-			["alerthidden"] = true,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -98,13 +98,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
 					["spellSubName"] = "Rank 9",
@@ -113,7 +106,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136043,
 					["spell"] = "Lesser Healing Wave",
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON2",
@@ -123,6 +116,13 @@ CliqueDB3 = {
 					},
 					["icon"] = 136042,
 					["spell"] = "Chain Heal",
+				}, -- [3]
+				{
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
 				}, -- [4]
 				{
 					["type"] = "spell",
@@ -136,16 +136,6 @@ CliqueDB3 = {
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["spellSubName"] = "Rank 4",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 252995,
-					["spell"] = "Riptide",
-				}, -- [6]
-				{
-					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON2",
 					["spellSubName"] = "Rank 14",
 					["sets"] = {
@@ -153,7 +143,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136052,
 					["spell"] = "Healing Wave",
-				}, -- [7]
+				}, -- [6]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON5",
@@ -162,6 +152,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 136067,
 					["spell"] = "Cure Toxins",
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["spellSubName"] = "Rank 4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 252995,
+					["spell"] = "Riptide",
 				}, -- [8]
 				{
 					["type"] = "spell",
@@ -324,13 +324,12 @@ CliqueDB3 = {
 				}, -- [2]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["spell"] = "Holy Light",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135920,
-					["spellSubName"] = "Rank 13",
+					["icon"] = 135966,
+					["spell"] = "Hand of Sacrifice",
 				}, -- [3]
 				{
 					["type"] = "spell",
@@ -352,22 +351,23 @@ CliqueDB3 = {
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
+					["key"] = "BUTTON2",
+					["spell"] = "Holy Light",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135966,
-					["spell"] = "Hand of Sacrifice",
+					["icon"] = 135920,
+					["spellSubName"] = "Rank 13",
 				}, -- [6]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["spell"] = "Holy Shock",
+					["key"] = "CTRL-BUTTON2",
+					["spell"] = "Lay on Hands",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135972,
-					["spellSubName"] = "Rank 7",
+					["icon"] = 135928,
+					["spellSubName"] = "Rank 5",
 				}, -- [7]
 				{
 					["type"] = "spell",
@@ -399,13 +399,13 @@ CliqueDB3 = {
 				}, -- [10]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
-					["spell"] = "Lay on Hands",
+					["key"] = "BUTTON3",
+					["spell"] = "Holy Shock",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135928,
-					["spellSubName"] = "Rank 5",
+					["icon"] = 135972,
+					["spellSubName"] = "Rank 7",
 				}, -- [11]
 				{
 					["macrotext"] = "/stopcasting\n/cast [@mouseover,help,nodead][help,nodead] Sacred Shield(Rank 1)",

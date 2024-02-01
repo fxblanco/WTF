@@ -8,8 +8,8 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1704750616,
-				["lastVisitDate"] = "2024/01/08 22:50",
+				["lastUpdate"] = 1706643465,
+				["lastVisitDate"] = "2024/01/30 20:37",
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["lastUpdate"] = 1706140105,

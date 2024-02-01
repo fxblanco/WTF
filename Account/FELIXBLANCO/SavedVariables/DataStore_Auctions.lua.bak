@@ -17,9 +17,8 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2023/12/09 00:21",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastAuctionsScan"] = 1706223564,
-				["lastVisitDate"] = "2024/01/25 23:59",
-				["lastUpdate"] = 1706223571,
+				["lastUpdate"] = 1706739177,
+				["lastVisitDate"] = "2024/01/31 23:12",
 			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1706399815,
