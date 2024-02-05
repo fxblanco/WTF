@@ -6,7 +6,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706141374,
+				["lastUpdate"] = 1706571080,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]

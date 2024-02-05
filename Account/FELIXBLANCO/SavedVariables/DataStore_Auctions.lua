@@ -1,13 +1,13 @@
 
 DataStore_AuctionsDB = {
 	["profileKeys"] = {
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -17,25 +17,46 @@ DataStore_AuctionsDB = {
 				["lastVisitDate"] = "2023/12/09 00:21",
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastVisitDate"] = "2024/02/01 14:29",
-				["lastUpdate"] = 1706794144,
+				["lastAuctionsScan"] = 1707089524,
+				["lastVisitDate"] = "2024/02/05 00:31",
+				["lastUpdate"] = 1707089524,
+				["Auctions"] = {
+					"0|50444|1||2023538|2130039|4", -- [1]
+					"0|49908|1||3799999|3999998|4", -- [2]
+					"0|49908|1||3799999|3999998|4", -- [3]
+					"0|49908|1||3799999|3999998|4", -- [4]
+				},
 			},
 			["Default.Venoxis.Andrés"] = {
 				["lastAuctionsScan"] = 1704368426,
 				["lastVisitDate"] = "2024/01/04 12:39",
 				["lastUpdate"] = 1704368426,
 			},
+			["Default.Venoxis.Khalimmortus"] = {
+				["lastAuctionsScan"] = 1707077481,
+				["lastVisitDate"] = "2024/02/04 21:11",
+				["lastUpdate"] = 1707077481,
+				["Auctions"] = {
+					"0|7912|20||9367|9860|4", -- [1]
+					"0|7912|20||9367|9860|4", -- [2]
+					"0|7912|20||9367|9860|4", -- [3]
+					"0|7912|20||9367|9860|4", -- [4]
+					"0|7912|20||9367|9860|4", -- [5]
+					"0|7910|2||37615|39594|4", -- [6]
+					"0|12361|1||18990|19989|4", -- [7]
+					"0|12361|1||18990|19989|4", -- [8]
+					"0|12361|1||18990|19989|4", -- [9]
+					"0|1705|6||16513|17382|4", -- [10]
+					"0|36923|1||18024|18972|4", -- [11]
+				},
+			},
 			["Default.Venoxis.Xolem"] = {
 				["lastUpdate"] = 1706399815,
 				["lastVisitDate"] = "2024/01/28 00:56",
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1706139205,
-				["lastVisitDate"] = "2024/01/25 00:33",
-			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1705700790,
-				["lastVisitDate"] = "2024/01/19 22:46",
+				["lastUpdate"] = 1706911906,
+				["lastVisitDate"] = "2024/02/02 23:11",
 			},
 		},
 	},

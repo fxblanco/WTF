@@ -8,21 +8,13 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["DungeonIDs"] = {
-					["The Forge of Souls Heroic|284789957"] = "65882|1706780517|0|0",
-				},
-				["BossKills"] = {
-					["The Forge of Souls Heroic|284789957"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
-					},
-				},
-				["lastUpdate"] = 1706780517,
+				["lastUpdate"] = 1707076545,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
+				["lastUpdate"] = 1706140063,
 				["BossKills"] = {
 					["Vault of Archavon 25 Player|195739191"] = {
 						"Archavon the Stone Watcher|0", -- [1]
@@ -31,7 +23,6 @@ DataStore_AgendaDB = {
 						"Toravon the Ice Watcher|1", -- [4]
 					},
 				},
-				["lastUpdate"] = 1706140063,
 			},
 		},
 	},

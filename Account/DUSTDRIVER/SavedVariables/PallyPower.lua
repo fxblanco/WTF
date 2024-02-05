@@ -1,8 +1,8 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
-		["Maturitass - Venoxis"] = "Other",
 		["Bloodwall - Venoxis"] = "Other",
+		["Maturitass - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["Other"] = {
@@ -47,6 +47,30 @@ PallyPower_Assignments = {
 		2, -- [9]
 		4, -- [10]
 	},
+	["Beesportz"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+	},
+	["Zelcher"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+	},
 	["Spaltkyle"] = {
 		3, -- [1]
 		3, -- [2]
@@ -56,6 +80,18 @@ PallyPower_Assignments = {
 		3, -- [6]
 		1, -- [7]
 		1, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+	["Hópéful"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
 		3, -- [9]
 		3, -- [10]
 	},
@@ -83,66 +119,56 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Zelcher"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
+	["Alsía"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		3, -- [5]
+		3, -- [6]
+		4, -- [7]
+		4, -- [8]
 		3, -- [9]
-		2, -- [10]
-	},
-	["Beesportz"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		4, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		2, -- [10]
+		4, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
-	["Blackace"] = 1,
-	["Pallanamn-Mograine"] = 5,
-	["Bosanyr"] = 6,
 	["Transhorsti"] = 6,
-	["Spard-NethergardeKeep"] = 5,
 	["Bánu"] = 1,
-	["Viallri"] = 5,
+	["Alsía"] = 3,
 	["Rudølf"] = 2,
-	["Diggii"] = 1,
 	["Otway"] = 6,
-	["Spaltkyle"] = 1,
+	["Alsia"] = 1,
 	["Fanga"] = 1,
+	["Hópéful"] = 5,
+	["Sacrít"] = 0,
+	["Spard-NethergardeKeep"] = 5,
+	["Bânu"] = 5,
+	["Velanya"] = 1,
+	["Blackace"] = 1,
+	["Bosanyr"] = 6,
+	["Spaltkyle"] = 1,
+	["Diggii"] = 1,
+	["Viallri"] = 5,
 	["Avêss"] = 6,
 	["Tagirx"] = 1,
 	["Nefertâri"] = 0,
 	["Retardedqt"] = 6,
-	["Zelcher"] = 0,
-	["Xarreon"] = 5,
-	["Lichtobjekt"] = 5,
 	["Bremskyle"] = 1,
 	["Habíb"] = 5,
-	["Sacrít"] = 0,
+	["Kolberg"] = 0,
 	["Highlightz"] = 2,
 	["Beesportz"] = 1,
-	["Alsia"] = 1,
 	["Mírabel"] = 6,
-	["Kolberg"] = 0,
-	["Psychøtin"] = 1,
-	["Lorthasx"] = 2,
+	["Xarreon"] = 5,
 	["Bubblepete"] = 0,
-	["Bânu"] = 5,
-	["Velanya"] = 1,
+	["Pallanamn-Mograine"] = 5,
+	["Lichtobjekt"] = 5,
+	["Psychøtin"] = 1,
+	["Zelcher"] = 0,
+	["Lorthasx"] = 2,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

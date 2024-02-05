@@ -1,70 +1,43 @@
 
 GargulDB = {
-	["TMB"] = {
-	},
 	["BoostedRolls"] = {
-		["Aliases"] = {
-		},
 		["Points"] = {
 		},
+		["Aliases"] = {
+		},
+	},
+	["TMB"] = {
 	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1706792263,
-		["7.2.14"] = 1706792263,
-		["7.0.1"] = 1698532390,
+		["lastLoadedOn"] = 1707146471,
 		["7.0.0"] = 1698357476,
-		["7.1.1"] = 1700007103,
-		["6.2.6"] = 1696893333,
-		["7.0.2"] = 1698837704,
+		["7.0.1"] = 1698532390,
+		["7.2.9"] = 1703764242,
+		["6.2.9"] = 1698004934,
+		["5.1.1"] = 1687381795,
+		["7.2.11"] = 1705528491,
 		["7.1.0"] = 1699529322,
-		["7.2.10"] = 1704876867,
+		["7.2.14"] = 1706792263,
 		["6.2.5"] = 1695244375,
 		["7.2.5"] = 1702503719,
 		["latestVersionChangesShown"] = "7.2.4",
-		["7.2.7"] = 1702840419,
+		["6.1.0"] = 1687288287,
 		["7.2.3"] = 1701809461,
 		["5.2.0"] = 1687381795,
 		["7.2.12"] = 1705695977,
 		["7.2.0"] = 1700610194,
 		["6.2.8"] = 1697407603,
-		["7.2.1"] = 1700764177,
-		["6.2.4"] = 1694802777,
-		["7.2.8"] = 1703277632,
-		["6.1.2"] = 1687520757,
 		["7.2.2"] = 1701370705,
-		["6.1.0"] = 1687288287,
-		["7.2.11"] = 1705528491,
-		["5.1.1"] = 1687381795,
-		["6.2.9"] = 1698004934,
-		["7.2.9"] = 1703764242,
+		["6.2.4"] = 1694802777,
+		["7.2.1"] = 1700764177,
+		["6.1.2"] = 1687520757,
+		["7.2.8"] = 1703277632,
+		["7.2.10"] = 1704876867,
+		["7.2.7"] = 1702840419,
+		["7.0.2"] = 1698837704,
+		["6.2.6"] = 1696893333,
+		["7.1.1"] = 1700007103,
 		["7.2.13"] = 1706048312,
-	},
-	["LootPriority"] = {
-	},
-	["GDKP"] = {
-		["SettingsPerItem"] = {
-		},
-		["Queue"] = {
-		},
-	},
-	["AwardHistory"] = {
-		["39157062601740402554"] = {
-			["checksum"] = "39157062601740402554",
-			["Rolls"] = {
-			},
-			["OS"] = false,
-			["WL"] = false,
-			["TMB"] = false,
-			["SR"] = false,
-			["awardedTo"] = "Knishe-Venoxis",
-			["awardedBy"] = "Littlehell-Venoxis",
-			["itemID"] = 47242,
-			["itemLink"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophy of the Crusade]|h|r",
-			["timestamp"] = 1704888661,
-			["PL"] = false,
-			["GDKPCost"] = 500,
-			["received"] = true,
-		},
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -186,9 +159,9 @@ GargulDB = {
 		["UI"] = {
 			["MasterLooterDialog"] = {
 				["Position"] = {
-					["point"] = "CENTER",
-					["offsetY"] = 0,
 					["offsetX"] = 0,
+					["offsetY"] = 0,
+					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -202,9 +175,9 @@ GargulDB = {
 			},
 			["Changelog"] = {
 				["Position"] = {
-					["point"] = "CENTER",
-					["offsetY"] = 0,
 					["offsetX"] = 0,
+					["offsetY"] = 0,
+					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
 				},
 			},
@@ -231,16 +204,16 @@ GargulDB = {
 			["Gargul"] = {
 				["BidderQueue"] = {
 					["Window"] = {
-						["Position"] = {
-							["offsetX"] = -58.13306045532227,
-							["offsetY"] = 286.3211669921875,
-							["point"] = "BOTTOMRIGHT",
-							["relativePoint"] = "BOTTOMRIGHT",
-						},
 						["Dimensions"] = {
 							["height"] = 169.9999847412109,
 							["scale"] = 1,
 							["width"] = 150.0001068115234,
+						},
+						["Position"] = {
+							["point"] = "BOTTOMRIGHT",
+							["offsetY"] = 286.3211669921875,
+							["offsetX"] = -58.13306045532227,
+							["relativePoint"] = "BOTTOMRIGHT",
 						},
 					},
 				},
@@ -248,16 +221,16 @@ GargulDB = {
 					["TradeTime"] = {
 						["Overview"] = {
 							["Window"] = {
+								["Position"] = {
+									["offsetX"] = -0.6286863684654236,
+									["offsetY"] = -243.4707641601563,
+									["point"] = "TOPRIGHT",
+									["relativePoint"] = "TOPRIGHT",
+								},
 								["Dimensions"] = {
 									["height"] = 99.99998474121094,
 									["scale"] = 1,
 									["width"] = 249.9998931884766,
-								},
-								["Position"] = {
-									["point"] = "TOPRIGHT",
-									["offsetY"] = -243.4707641601563,
-									["offsetX"] = -0.6286863684654236,
-									["relativePoint"] = "TOPRIGHT",
 								},
 							},
 						},
@@ -266,31 +239,31 @@ GargulDB = {
 			},
 			["Bidder"] = {
 				["Position"] = {
-					["point"] = "RIGHT",
-					["offsetY"] = 249.0567932128906,
 					["offsetX"] = -233.0946197509766,
+					["offsetY"] = 249.0567932128906,
+					["point"] = "RIGHT",
 					["relativePoint"] = "RIGHT",
 				},
 			},
 			["Settings"] = {
 				["Position"] = {
-					["point"] = "CENTER",
-					["offsetY"] = 27.00002288818359,
 					["offsetX"] = 419.8501586914063,
+					["offsetY"] = 27.00002288818359,
+					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
 				},
 			},
 			["GDKPOverview"] = {
-				["Position"] = {
-					["point"] = "CENTER",
-					["offsetY"] = 0,
-					["offsetX"] = 0,
-					["relativePoint"] = "CENTER",
-				},
 				["Dimensions"] = {
 					["height"] = 410.0000305175781,
 					["scale"] = 1,
 					["width"] = 660.0001831054688,
+				},
+				["Position"] = {
+					["offsetX"] = 0,
+					["offsetY"] = 0,
+					["point"] = "CENTER",
+					["relativePoint"] = "CENTER",
 				},
 			},
 		},
@@ -429,12 +402,39 @@ GargulDB = {
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 	},
+	["GDKP"] = {
+		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
+		},
+	},
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
+	},
+	["LootPriority"] = {
+	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["PlusOnes"] = {
-		["Totals"] = {
+	["AwardHistory"] = {
+		["39157062601740402554"] = {
+			["checksum"] = "39157062601740402554",
+			["Rolls"] = {
+			},
+			["OS"] = false,
+			["WL"] = false,
+			["TMB"] = false,
+			["SR"] = false,
+			["awardedTo"] = "Knishe-Venoxis",
+			["received"] = true,
+			["itemID"] = 47242,
+			["GDKPCost"] = 500,
+			["PL"] = false,
+			["timestamp"] = 1704888661,
+			["itemLink"] = "|cffa335ee|Hitem:47242::::::::80:::::::::|h[Trophy of the Crusade]|h|r",
+			["awardedBy"] = "Littlehell-Venoxis",
 		},
 	},
 	["MinimapButton"] = {

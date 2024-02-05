@@ -6,7 +6,7 @@ DataStore_InventoryDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706571080,
+				["lastUpdate"] = 1706822112,
 				["averageItemLvl"] = 272.1875,
 				["overallAIL"] = 272.9375,
 				["Inventory"] = {
@@ -26,9 +26,8 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50348::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:50628:3722:40155::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:50725:3854:40153:40133:40113::::80:::::::::|h[]|h|r", -- [16]
-					nil, -- [17]
-					"|cffffffff|Hitem:45294::40125::::::80:::::::::|h[]|h|r", -- [18]
-					"|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r", -- [19]
+					[18] = "|cffffffff|Hitem:45294::40125::::::80:::::::::|h[]|h|r",
+					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r",
 				},
 			},
 		},
@@ -36,16 +35,16 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 266,
+						["averageItemLvl"] = 269,
 					},
 					["Kwasimojo"] = {
-						["averageItemLvl"] = 258,
+						["averageItemLvl"] = 259,
 					},
 					["Alsía"] = {
-						["averageItemLvl"] = 270,
+						["averageItemLvl"] = 268,
 					},
 					["Xolem"] = {
-						["averageItemLvl"] = 255,
+						["averageItemLvl"] = 260,
 					},
 					["Andrés"] = {
 						["averageItemLvl"] = 269,
@@ -53,14 +52,14 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 245,
 					},
-					["Exonuklease"] = {
-						["averageItemLvl"] = 272,
+					["Khalimmortus"] = {
+						["averageItemLvl"] = 265,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
-					["Khalimmortus"] = {
-						["averageItemLvl"] = 263,
+					["Exonuklease"] = {
+						["averageItemLvl"] = 272,
 					},
 				},
 			},

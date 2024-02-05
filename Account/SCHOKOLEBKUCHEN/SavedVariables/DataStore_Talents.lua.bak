@@ -6,47 +6,46 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706140362,
+				["lastUpdate"] = 1706571080,
 				["Class"] = "WARLOCK",
-				["PointsSpent"] = "2,54,15",
+				["PointsSpent"] = "55,0,16",
 				["TalentTrees"] = {
-					["Demonology"] = {
-						2, -- [1]
-						nil, -- [2]
-						3, -- [3]
-						nil, -- [4]
+					["Affliction"] = {
+						3, -- [1]
+						2, -- [2]
+						5, -- [3]
+						2, -- [4]
 						3, -- [5]
 						nil, -- [6]
 						nil, -- [7]
-						3, -- [8]
+						nil, -- [8]
 						nil, -- [9]
-						5, -- [10]
-						2, -- [11]
-						5, -- [12]
-						3, -- [13]
-						1, -- [14]
-						1, -- [15]
+						1, -- [10]
+						5, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						nil, -- [14]
+						2, -- [15]
 						3, -- [16]
-						3, -- [17]
-						1, -- [18]
-						5, -- [19]
-						nil, -- [20]
-						1, -- [21]
-						nil, -- [22]
-						2, -- [23]
-						3, -- [24]
-						5, -- [25]
+						nil, -- [17]
+						5, -- [18]
+						1, -- [19]
+						5, -- [20]
+						3, -- [21]
+						2, -- [22]
+						3, -- [23]
+						5, -- [24]
+						3, -- [25]
 						1, -- [26]
-						2, -- [27]
-					},
-					["Affliction"] = {
-						[5] = 2,
+						nil, -- [27]
+						1, -- [28]
 					},
 					["Destruction"] = {
 						nil, -- [1]
 						5, -- [2]
 						5, -- [3]
 						[9] = 5,
+						[14] = 1,
 					},
 				},
 			},
@@ -62,6 +61,7 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Affliction,Demonology,Destruction",
 			["Trees"] = {
 				["Zerstörung"] = {
+					["background"] = "WarlockDestruction",
 					["talents"] = {
 						"Katastrophe|135831|2|3|3", -- [1]
 						"Dunkle Macht|136146|1|3|5", -- [2]
@@ -90,6 +90,7 @@ DataStore_TalentsRefDB = {
 						"Chaosblitz|236291|11|2|1", -- [25]
 						"Machterfüllter Wichtel|236294|9|3|3", -- [26]
 					},
+					["icon"] = 136186,
 					["prereqs"] = {
 						[20] = "4|1",
 						[10] = "5|2",
@@ -97,10 +98,9 @@ DataStore_TalentsRefDB = {
 						[23] = "7|3",
 						[11] = "3|3",
 					},
-					["icon"] = 136186,
-					["background"] = "WarlockDestruction",
 				},
 				["Destruction"] = {
+					["background"] = "WarlockDestruction",
 					["talents"] = {
 						"Cataclysm|135831|2|3|3", -- [1]
 						"Bane|136146|1|3|5", -- [2]
@@ -129,6 +129,7 @@ DataStore_TalentsRefDB = {
 						"Chaos Bolt|236291|11|2|1", -- [25]
 						"Empowered Imp|236294|9|3|3", -- [26]
 					},
+					["icon"] = 136186,
 					["prereqs"] = {
 						[20] = "4|1",
 						[10] = "5|2",
@@ -136,10 +137,9 @@ DataStore_TalentsRefDB = {
 						[23] = "7|3",
 						[11] = "3|3",
 					},
-					["icon"] = 136186,
-					["background"] = "WarlockDestruction",
 				},
 				["Dämonologie"] = {
+					["background"] = "WarlockSummoning",
 					["talents"] = {
 						"Verbesserter Gesundheitsstein|135230|1|1|2", -- [1]
 						"Verbesserter Wichtel|136218|1|2|3", -- [2]
@@ -169,6 +169,7 @@ DataStore_TalentsRefDB = {
 						"Metamorphose|237558|11|2|1", -- [26]
 						"Dezimierung|135808|8|3|2", -- [27]
 					},
+					["icon"] = 136172,
 					["prereqs"] = {
 						[7] = "3|3",
 						[21] = "6|2",
@@ -177,10 +178,9 @@ DataStore_TalentsRefDB = {
 						[14] = "4|2",
 						[22] = "8|2",
 					},
-					["icon"] = 136172,
-					["background"] = "WarlockSummoning",
 				},
 				["Demonology"] = {
+					["background"] = "WarlockSummoning",
 					["talents"] = {
 						"Improved Healthstone|135230|1|1|2", -- [1]
 						"Improved Imp|136218|1|2|3", -- [2]
@@ -210,6 +210,7 @@ DataStore_TalentsRefDB = {
 						"Metamorphosis|237558|11|2|1", -- [26]
 						"Decimation|135808|8|3|2", -- [27]
 					},
+					["icon"] = 136172,
 					["prereqs"] = {
 						[7] = "3|3",
 						[21] = "6|2",
@@ -218,10 +219,9 @@ DataStore_TalentsRefDB = {
 						[14] = "4|2",
 						[22] = "8|2",
 					},
-					["icon"] = 136172,
-					["background"] = "WarlockSummoning",
 				},
 				["Affliction"] = {
+					["background"] = "WarlockCurses",
 					["talents"] = {
 						"Fel Concentration|136157|3|2|3", -- [1]
 						"Nightfall|136223|4|2|2", -- [2]
@@ -252,16 +252,16 @@ DataStore_TalentsRefDB = {
 						"Improved Fear|136183|3|1|2", -- [27]
 						"Pandemic|136227|9|3|1", -- [28]
 					},
+					["icon"] = 136145,
 					["prereqs"] = {
 						[11] = "5|2",
 						[13] = "3|3",
-						[19] = "7|2",
 						[28] = "9|2",
+						[19] = "7|2",
 					},
-					["icon"] = 136145,
-					["background"] = "WarlockCurses",
 				},
 				["Gebrechen"] = {
+					["background"] = "WarlockCurses",
 					["talents"] = {
 						"Teufelskonzentration|136157|3|2|3", -- [1]
 						"Einbruch der Nacht|136223|4|2|2", -- [2]
@@ -292,14 +292,13 @@ DataStore_TalentsRefDB = {
 						"Verbesserte Furcht|136183|3|1|2", -- [27]
 						"Pandemie|136227|9|3|1", -- [28]
 					},
+					["icon"] = 136145,
 					["prereqs"] = {
 						[11] = "5|2",
 						[13] = "3|3",
-						[19] = "7|2",
 						[28] = "9|2",
+						[19] = "7|2",
 					},
-					["icon"] = 136145,
-					["background"] = "WarlockCurses",
 				},
 			},
 		},
