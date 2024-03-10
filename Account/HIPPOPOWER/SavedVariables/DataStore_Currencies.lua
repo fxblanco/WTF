@@ -5,6 +5,7 @@ DataStore_CurrenciesDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -16,32 +17,33 @@ DataStore_CurrenciesDB = {
 			["Default.Venoxis.Lesbenlisa"] = {
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|13|2711", -- [2]
+					"1|Defiler's Scourgestone|4|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|38|341", -- [4]
+					"1|Emblem of Frost|285|341", -- [4]
 					"1|Emblem of Heroism|7|101", -- [5]
-					"1|Emblem of Triumph|2|301", -- [6]
+					"1|Emblem of Triumph|58|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
 					"1|Sidereal Essence|0|2589", -- [8]
 					"0|Miscellaneous", -- [9]
 					"1|Champion's Seal|15|241", -- [10]
-					"0|Player vs. Player", -- [11]
-					"1|Honor Points|10166|1901", -- [12]
-					"1|Stone Keeper's Shard|122|161", -- [13]
-					"1|Venture Coin|206|201", -- [14]
-					"1|Wintergrasp Mark of Honor|7|126", -- [15]
+					"1|Dalaran Jewelcrafter's Token|7|61", -- [11]
+					"0|Player vs. Player", -- [12]
+					"1|Honor Points|10462|1901", -- [13]
+					"1|Stone Keeper's Shard|198|161", -- [14]
+					"1|Venture Coin|206|201", -- [15]
+					"1|Wintergrasp Mark of Honor|7|126", -- [16]
 				},
-				["lastUpdate"] = 1705072432,
+				["lastUpdate"] = 1709420346,
 			},
 			["Default.Venoxis.Pippop"] = {
-				["lastUpdate"] = 1705067832,
+				["lastUpdate"] = 1709420285,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
-					"1|Defiler's Scourgestone|8|2711", -- [2]
+					"1|Defiler's Scourgestone|1|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|46|341", -- [4]
+					"1|Emblem of Frost|49|341", -- [4]
 					"1|Emblem of Heroism|0|101", -- [5]
-					"1|Emblem of Triumph|3|301", -- [6]
+					"1|Emblem of Triumph|41|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
 					"1|Sidereal Essence|1|2589", -- [8]
 					"0|Miscellaneous", -- [9]
@@ -50,13 +52,27 @@ DataStore_CurrenciesDB = {
 					"0|Player vs. Player", -- [12]
 					"1|Arena Points|0|1900", -- [13]
 					"1|Honor Points|3669|1901", -- [14]
-					"1|Stone Keeper's Shard|120|161", -- [15]
+					"1|Stone Keeper's Shard|196|161", -- [15]
 					"1|Venture Coin|144|201", -- [16]
 					"1|Wintergrasp Mark of Honor|6|126", -- [17]
 				},
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["lastUpdate"] = 1703190969,
+			},
+			["Default.Venoxis.Gerdgitarre"] = {
+				["Currencies"] = {
+					"0|Dungeon and Raid", -- [1]
+					"1|Emblem of Conquest|13|221", -- [2]
+					"1|Emblem of Heroism|0|101", -- [3]
+					"1|Emblem of Valor|21|102", -- [4]
+					"0|Player vs. Player", -- [5]
+					"1|Honor Points|4540|1901", -- [6]
+					"1|Stone Keeper's Shard|207|161", -- [7]
+					"1|Venture Coin|44|201", -- [8]
+					"1|Wintergrasp Mark of Honor|38|126", -- [9]
+				},
+				["lastUpdate"] = 1707780384,
 			},
 			["Default.Venoxis.Alsia"] = {
 				["Currencies"] = {

@@ -5767,6 +5767,11 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1709420368] = {
+			"Lesbenlisa", -- [1]
+			"44133", -- [2]
+			"Greater Inscription of the Axe", -- [3]
+		},
 		[1702117406] = {
 			"Kwasimojo", -- [1]
 			"44159", -- [2]
@@ -5777,17 +5782,27 @@ ItemListsDB = {
 			"44096", -- [2]
 			"Battleworn Thrash Blade", -- [3]
 		},
+		[1703674712] = {
+			"Alsía", -- [1]
+			"44115", -- [2]
+			"Wintergrasp Commendation", -- [3]
+		},
 		[1703674707] = {
 			"Alsía", -- [1]
 			"44115", -- [2]
 			"Wintergrasp Commendation", -- [3]
+		},
+		[1700180325] = {
+			"Andrés", -- [1]
+			"44159", -- [2]
+			"Arcanum of Burning Mysteries", -- [3]
 		},
 		[1705060100] = {
 			"Lesbenlisa", -- [1]
 			"44149", -- [2]
 			"Arcanum of Torment", -- [3]
 		},
-		[1703674712] = {
+		[1703674713] = {
 			"Alsía", -- [1]
 			"44115", -- [2]
 			"Wintergrasp Commendation", -- [3]
@@ -5802,35 +5817,35 @@ ItemListsDB = {
 			"44159", -- [2]
 			"Arcanum of Burning Mysteries", -- [3]
 		},
-		[1703674710] = {
-			"Alsía", -- [1]
-			"44115", -- [2]
-			"Wintergrasp Commendation", -- [3]
-		},
-		[1703674713] = {
-			"Alsía", -- [1]
-			"44115", -- [2]
-			"Wintergrasp Commendation", -- [3]
+		[1709420267] = {
+			"Pippop", -- [1]
+			"44133", -- [2]
+			"Greater Inscription of the Axe", -- [3]
 		},
 		[1703674708] = {
 			"Alsía", -- [1]
 			"44115", -- [2]
 			"Wintergrasp Commendation", -- [3]
 		},
-		[1700180054] = {
-			"Alsia", -- [1]
-			"44159", -- [2]
-			"Arcanum of Burning Mysteries", -- [3]
-		},
 		[1698532499] = {
 			"Ihr", -- [1]
 			"44135", -- [2]
 			"Große Inschrift des Sturms", -- [3]
 		},
-		[1700180325] = {
-			"Andrés", -- [1]
+		[1700180054] = {
+			"Alsia", -- [1]
 			"44159", -- [2]
 			"Arcanum of Burning Mysteries", -- [3]
+		},
+		[1709420268] = {
+			"Pippop", -- [1]
+			"44133", -- [2]
+			"Greater Inscription of the Axe", -- [3]
+		},
+		[1703674710] = {
+			"Alsía", -- [1]
+			"44115", -- [2]
+			"Wintergrasp Commendation", -- [3]
 		},
 	},
 	["displayPrios"] = true,
@@ -5846,6 +5861,7 @@ TMBDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -5860,6 +5876,8 @@ TMBDB = {
 		["Pippop - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
+		},
+		["Gerdgitarre - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},

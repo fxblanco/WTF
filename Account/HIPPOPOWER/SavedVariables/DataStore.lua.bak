@@ -5,10 +5,11 @@ DataStoreDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
@@ -29,15 +30,19 @@ DataStoreDB = {
 			["Default.Venoxis.Pjanic"] = {
 				["faction"] = "Horde",
 			},
-			["Default.Venoxis.Alsia"] = {
-				["faction"] = "Horde",
-				["guildName"] = "Old Rabbitz",
-			},
 			["Default.Venoxis.Kwasimojo"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
+			["Default.Venoxis.Alsia"] = {
+				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
+			},
 			["Default.Venoxis.Xolem"] = {
+				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Khalimmortus"] = {
 				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
@@ -49,9 +54,9 @@ DataStoreDB = {
 				["faction"] = "Horde",
 				["guildName"] = "Old Rabbitz",
 			},
-			["Default.Venoxis.Khalimmortus"] = {
-				["guildName"] = "Old Rabbitz",
+			["Default.Venoxis.Gerdgitarre"] = {
 				["faction"] = "Horde",
+				["guildName"] = "Old Rabbitz",
 			},
 		},
 		["ShortToLongRealmNames"] = {

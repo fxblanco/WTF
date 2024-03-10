@@ -9,11 +9,13 @@ GDKPd_DB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
+		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
 		["Andrés - Transcendence"] = "Andrés - Transcendence",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
@@ -74,8 +76,48 @@ GDKPd_DB = {
 			},
 		},
 		["Pippop - Venoxis"] = {
+			["point"] = {
+				["y"] = 158.8502960205078,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -383.7999572753906,
+			},
+		},
+		["Lesbenlisa - Venoxis"] = {
+			["point"] = {
+				["y"] = -13.47145652770996,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 250.3021545410156,
+			},
 		},
 		["Andrés - Transcendence"] = {
+		},
+		["Alsía - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 55.43391799926758,
+				["x"] = 364.0752868652344,
+			},
+			["point"] = {
+				["y"] = -5.000015735626221,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 573.773681640625,
+			},
+			["startBid"] = 5000,
+			["statuspoint"] = {
+				["y"] = 86.94361114501953,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -64.8211669921875,
+			},
+			["balancepoint"] = {
+				["y"] = -337.3019714355469,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 421.1328430175781,
+			},
+			["increment"] = 500,
 		},
 		["Andrés - Venoxis"] = {
 			["playerbalancepoint"] = {
@@ -104,60 +146,6 @@ GDKPd_DB = {
 				["x"] = -308.3594970703125,
 			},
 			["increment"] = 10,
-		},
-		["Alsía - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 55.43391799926758,
-				["x"] = 364.0752868652344,
-			},
-			["point"] = {
-				["y"] = -5.000015735626221,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 573.773681640625,
-			},
-			["startBid"] = 5000,
-			["statuspoint"] = {
-				["y"] = 86.94361114501953,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -64.8211669921875,
-			},
-			["balancepoint"] = {
-				["y"] = -337.3019714355469,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 421.1328430175781,
-			},
-			["increment"] = 500,
-		},
-		["Khalimmortus - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = 198.3747711181641,
-				["relative"] = "BOTTOMRIGHT",
-				["point"] = "BOTTOMRIGHT",
-				["x"] = -39.47518157958984,
-			},
-			["point"] = {
-				["y"] = -97.20004272460938,
-				["relative"] = "LEFT",
-				["point"] = "LEFT",
-				["x"] = 79.50005340576172,
-			},
-			["startBid"] = 2000,
-			["statuspoint"] = {
-				["y"] = -295.2457580566406,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -354.6324768066406,
-			},
-			["balancepoint"] = {
-				["y"] = -69.01875305175781,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -357.347900390625,
-			},
-			["increment"] = 400,
 		},
 		["Alsia - Venoxis"] = {
 			["itemLevelPricing"] = {
@@ -195,6 +183,36 @@ GDKPd_DB = {
 				["x"] = -243.3613891601563,
 			},
 			["increment"] = 20,
+		},
+		["Khalimmortus - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 198.3747711181641,
+				["relative"] = "BOTTOMRIGHT",
+				["point"] = "BOTTOMRIGHT",
+				["x"] = -39.47518157958984,
+			},
+			["point"] = {
+				["y"] = -97.20004272460938,
+				["relative"] = "LEFT",
+				["point"] = "LEFT",
+				["x"] = 79.50005340576172,
+			},
+			["startBid"] = 2000,
+			["statuspoint"] = {
+				["y"] = -295.2457580566406,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -354.6324768066406,
+			},
+			["balancepoint"] = {
+				["y"] = -69.01875305175781,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -357.347900390625,
+			},
+			["increment"] = 400,
+		},
+		["Gerdgitarre - Venoxis"] = {
 		},
 		["Kwasimojo - Venoxis"] = {
 			["point"] = {
@@ -679,4 +697,5 @@ GDKPd_PotData = {
 	["prevDist"] = 0,
 }
 GDKPd_BalanceData = {
+	["Rlxyo"] = 0,
 }

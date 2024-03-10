@@ -1,14 +1,15 @@
 
 BisTooltipDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
 		["Recombinase - Venoxis"] = "Default",
+		["Maturitas - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
 	["char"] = {
-		["Maturitas - Venoxis"] = {
-			["data_source"] = "wowtbc",
+		["Alsiadk - Venoxis"] = {
+			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
 		["Bloodwall - Venoxis"] = {
@@ -21,6 +22,10 @@ BisTooltipDB = {
 		["Recombinase - Venoxis"] = {
 			["version"] = 6.2,
 			["data_source"] = "wh",
+		},
+		["Maturitas - Venoxis"] = {
+			["data_source"] = "wowtbc",
+			["version"] = 6.2,
 		},
 		["Maturitass - Venoxis"] = {
 			["class_index"] = 2,

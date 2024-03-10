@@ -5,6 +5,7 @@ AtlasLootClassicDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -660,6 +661,8 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
+		},
+		["Gerdgitarre - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},

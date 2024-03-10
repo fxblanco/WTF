@@ -23,29 +23,32 @@ ItemListsDB = {
 			"44135", -- [2]
 			"Große Inschrift des Sturms", -- [3]
 		},
-		[1699226570] = {
-			"Ihr", -- [1]
-			"122284", -- [2]
-			"WoW-Marke", -- [3]
-		},
 		[1705698344] = {
 			"Exonuklease", -- [1]
 			"44135", -- [2]
 			"Greater Inscription of the Storm", -- [3]
 		},
+		[1699226570] = {
+			"Ihr", -- [1]
+			"122284", -- [2]
+			"WoW-Marke", -- [3]
+		},
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["profiles"] = {
+		["Endonuclease - Venoxis"] = {
+		},
 		["Exonuklease - Venoxis"] = {
 		},
 	},

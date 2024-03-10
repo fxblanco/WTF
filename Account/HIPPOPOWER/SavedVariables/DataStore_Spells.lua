@@ -5,6 +5,7 @@ DataStore_SpellsDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -14,7 +15,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Lesbenlisa"] = {
-				["lastUpdate"] = 1705072432,
+				["lastUpdate"] = 1709420346,
 				["Spells"] = {
 					["Protection"] = {
 						"20217|", -- [1]
@@ -68,8 +69,10 @@ DataStore_SpellsDB = {
 						"81|Passive", -- [6]
 						"51306|Grand Master", -- [7]
 						"20222|", -- [8]
-						"822|Racial Passive", -- [9]
-						"3127|Passive", -- [10]
+						"51311|Grand Master", -- [9]
+						"822|Racial Passive", -- [10]
+						"3127|Passive", -- [11]
+						"31252|", -- [12]
 					},
 					["Retribution"] = {
 						"31884|", -- [1]
@@ -96,7 +99,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Pippop"] = {
-				["lastUpdate"] = 1705067832,
+				["lastUpdate"] = 1709420285,
 				["Spells"] = {
 					["Fire"] = {
 						"11129|", -- [1]
@@ -197,6 +200,15 @@ DataStore_SpellsDB = {
 					"Affliction", -- [2]
 					"Demonology", -- [3]
 					"Destruction", -- [4]
+				},
+			},
+			["Default.Venoxis.Gerdgitarre"] = {
+				["lastUpdate"] = 1707780383,
+				["SpellTabs"] = {
+					"General", -- [1]
+					"Beast Mastery", -- [2]
+					"Marksmanship", -- [3]
+					"Survival", -- [4]
 				},
 			},
 			["Default.Venoxis.Alsia"] = {

@@ -5,6 +5,7 @@ DataStoreDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -27,6 +28,10 @@ DataStoreDB = {
 				["guildName"] = "Old Rabbitz",
 			},
 			["Default.Venoxis.Pjanic"] = {
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Gerdgitarre"] = {
+				["guildName"] = "Old Rabbitz",
 				["faction"] = "Horde",
 			},
 			["Default.Venoxis.Alsia"] = {

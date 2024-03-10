@@ -1,24 +1,17 @@
 
 DataStore_AgendaDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Endonuclease"] = {
+				["lastUpdate"] = 1709422236,
+			},
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706571082,
-				["DungeonIDs"] = {
-					["The Ruby Sanctum 25 Player (Heroic)|195776116"] = "102520|1706571082|0|1",
-					["Icecrown Citadel 25 Player (Heroic)|195773905"] = "102520|1706571082|0|1",
-				},
 				["BossKills"] = {
-					["The Ruby Sanctum 25 Player (Heroic)|195776116"] = {
-						"Baltharus the Warborn|1", -- [1]
-						"Saviana Ragefire|1", -- [2]
-						"General Zarithrian|1", -- [3]
-						"Halion|1", -- [4]
-					},
-					["Icecrown Citadel 25 Player (Heroic)|195773905"] = {
+					["Icecrown Citadel 25 Player|197179133"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -33,6 +26,7 @@ DataStore_AgendaDB = {
 						"The Lich King|1", -- [12]
 					},
 				},
+				["lastUpdate"] = 1708815586,
 			},
 		},
 	},

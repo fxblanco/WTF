@@ -13,27 +13,45 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1707946627] = {
+			"Maturitass", -- [1]
+			"44149", -- [2]
+			"Arcanum of Torment", -- [3]
+		},
+		[1707945674] = {
+			"Maturitass", -- [1]
+			"44115", -- [2]
+			"Wintergrasp Commendation", -- [3]
+		},
+		[1707946628] = {
+			"Maturitass", -- [1]
+			"44149", -- [2]
+			"Arcanum of Torment", -- [3]
+		},
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
+		["Maturitas - Venoxis"] = "Maturitas - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
-		["Maturitas - Venoxis"] = {
+		["Alsiadk - Venoxis"] = {
 		},
 		["Bloodwall - Venoxis"] = {
 		},
 		["Recombinase - Venoxis"] = {
+		},
+		["Maturitas - Venoxis"] = {
 		},
 		["Maturitass - Venoxis"] = {
 		},

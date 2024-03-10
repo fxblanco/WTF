@@ -1,6 +1,7 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -8,7 +9,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1707076545,
+				["lastUpdate"] = 1708460952,
 				["Class"] = "DRUID",
 				["PointsSpent"] = "0,55,16",
 				["TalentTrees"] = {
@@ -54,7 +55,7 @@ DataStore_TalentsDB = {
 				["PointsSpent"] = "0,0,0",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1706140062,
+				["lastUpdate"] = 1707945574,
 				["Class"] = "WARRIOR",
 				["PointsSpent"] = "15,5,51",
 				["TalentTrees"] = {
@@ -68,9 +69,9 @@ DataStore_TalentsDB = {
 					["Arms"] = {
 						3, -- [1]
 						[3] = 2,
-						[9] = 5,
-						[7] = 3,
 						[18] = 2,
+						[7] = 3,
+						[9] = 5,
 					},
 					["Protection"] = {
 						5, -- [1]
@@ -102,21 +103,151 @@ DataStore_TalentsDB = {
 					},
 				},
 			},
+			["Default.Venoxis.Alsiadk"] = {
+				["lastUpdate"] = 1708296254,
+				["Class"] = "DEATHKNIGHT",
+				["PointsSpent"] = "0,0,0",
+			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["global"] = {
+		["DEATHKNIGHT"] = {
+			["Order"] = "Blood,Frost,Unholy",
+			["Trees"] = {
+				["Unholy"] = {
+					["prereqs"] = {
+						[6] = "4|4",
+						[28] = "6|2",
+						[25] = "6|4",
+						[22] = "8|2",
+					},
+					["background"] = "DeathKnightUnholy",
+					["icon"] = 135775,
+					["talents"] = {
+						"Virulence|136126|1|2|3", -- [1]
+						"Morbidity|136144|2|2|3", -- [2]
+						"Ravenous Dead|237524|2|4|3", -- [3]
+						"Crypt Fever|136066|8|2|3", -- [4]
+						"Epidemic|136207|2|1|2", -- [5]
+						"Master of Ghouls|136119|6|4|1", -- [6]
+						"Corpse Explosion|132099|3|3|1", -- [7]
+						"Unholy Blight|136132|5|1|1", -- [8]
+						"Summon Gargoyle|132182|11|2|1", -- [9]
+						"Reaping|136195|6|3|3", -- [10]
+						"Wandering Plague|136127|9|1|3", -- [11]
+						"Blood-Caked Blade|132109|4|3|3", -- [12]
+						"Impurity|136196|5|2|5", -- [13]
+						"Bone Shield|132728|8|3|1", -- [14]
+						"Outbreak|136182|3|1|3", -- [15]
+						"Magic Suppression|136120|6|2|3", -- [16]
+						"Dirge|136194|5|3|2", -- [17]
+						"Improved Unholy Presence|135775|7|3|2", -- [18]
+						"Unholy Command|237532|2|3|2", -- [19]
+						"Rage of Rivendare|135564|10|2|5", -- [20]
+						"On a Pale Horse|237534|4|2|2", -- [21]
+						"Ebon Plaguebringer|132095|9|2|3", -- [22]
+						"Necrosis|135695|3|2|5", -- [23]
+						"Vicious Strikes|135774|1|1|2", -- [24]
+						"Ghoul Frenzy|132152|7|4|1", -- [25]
+						"Scourge Strike|237530|9|3|1", -- [26]
+						"Anticipation|136056|1|3|5", -- [27]
+						"Anti-Magic Zone|237510|7|2|1", -- [28]
+						"Night of the Dead|237511|4|4|2", -- [29]
+						"Desecration|136199|6|1|2", -- [30]
+						"Desolation|136224|7|1|5", -- [31]
+					},
+				},
+				["Frost"] = {
+					["prereqs"] = {
+						[22] = "1|1",
+						[27] = "3|1",
+					},
+					["background"] = "DeathKnightFrost",
+					["icon"] = 135773,
+					["talents"] = {
+						"Toughness|135892|1|3|5", -- [1]
+						"Endless Winter|136223|4|4|2", -- [2]
+						"Black Ice|136141|2|3|5", -- [3]
+						"Frost Strike|237520|9|2|1", -- [4]
+						"Unbreakable Armor|132388|8|3|1", -- [5]
+						"Deathchill|136213|5|4|1", -- [6]
+						"Chill of the Grave|135849|4|3|2", -- [7]
+						"Howling Blast|135833|11|2|1", -- [8]
+						"Frigid Dreadplate|132734|5|2|3", -- [9]
+						"Rime|135840|6|3|3", -- [10]
+						"Merciless Combat|135294|6|2|2", -- [11]
+						"Acclimation|135791|9|1|3", -- [12]
+						"Tundra Stalker|136107|10|2|5", -- [13]
+						"Hungering Cold|135152|7|2|1", -- [14]
+						"Runic Power Mastery|135728|1|2|2", -- [15]
+						"Nerves of Cold Steel|132147|2|4|3", -- [16]
+						"Improved Frost Presence|135773|7|3|2", -- [17]
+						"Glacier Rot|136083|5|3|3", -- [18]
+						"Improved Icy Touch|237526|1|1|3", -- [19]
+						"Icy Reach|135859|2|2|2", -- [20]
+						"Guile of Gorefiend|132373|9|3|3", -- [21]
+						"Icy Talons|252994|3|1|5", -- [22]
+						"Killing Machine|135305|4|2|5", -- [23]
+						"Annihilation|135609|3|3|3", -- [24]
+						"Blood of the North|135714|8|2|3", -- [25]
+						"Lichborne|136187|3|2|1", -- [26]
+						"Improved Icy Talons|252994|6|1|1", -- [27]
+						"Chilblains|135864|7|1|3", -- [28]
+						"Threat of Thassarian|132148|8|1|3", -- [29]
+					},
+				},
+				["Blood"] = {
+					["prereqs"] = {
+						[5] = "3|1",
+						[7] = "3|2",
+					},
+					["background"] = "DeathKnightBlood",
+					["icon"] = 135770,
+					["talents"] = {
+						"Improved Blood Presence|135770|7|3|2", -- [1]
+						"Bladed Armor|135067|2|1|5", -- [2]
+						"Butchery|132455|1|1|2", -- [3]
+						"Rune Tap|237529|3|1|1", -- [4]
+						"Improved Rune Tap|237529|4|1|3", -- [5]
+						"Dark Conviction|237518|3|2|5", -- [6]
+						"Bloody Vengeance|132090|6|2|3", -- [7]
+						"Subversion|237533|1|2|3", -- [8]
+						"Scent of Blood|132284|2|2|3", -- [9]
+						"Mark of Blood|132205|5|4|1", -- [10]
+						"Veteran of the Third War|136005|5|3|3", -- [11]
+						"Vendetta|237536|4|4|3", -- [12]
+						"Unholy Frenzy|237512|7|2|1", -- [13]
+						"Sudden Doom|136181|8|2|3", -- [14]
+						"Heart Strike|135675|9|2|1", -- [15]
+						"Might of Mograine|135771|9|3|3", -- [16]
+						"Will of the Necropolis|132094|9|1|3", -- [17]
+						"Bloodworms|136211|7|1|3", -- [18]
+						"Dancing Rune Weapon|135277|11|2|1", -- [19]
+						"Bloody Strikes|135772|5|1|3", -- [20]
+						"Blade Barrier|132330|1|3|5", -- [21]
+						"Spell Deflection|237531|4|3|3", -- [22]
+						"Vampiric Blood|136168|8|3|1", -- [23]
+						"Blood Gorged|136080|10|2|5", -- [24]
+						"Death Rune Mastery|135372|3|3|3", -- [25]
+						"Abomination's Might|236310|6|3|2", -- [26]
+						"Two-Handed Weapon Specialization|135378|2|3|2", -- [27]
+						"Improved Death Strike|237517|8|1|2", -- [28]
+					},
+				},
+			},
+		},
 		["WARRIOR"] = {
 			["Order"] = "Arms,Fury,Protection",
 			["Trees"] = {
 				["Waffen"] = {
-					["background"] = "WarriorArms",
 					["talents"] = {
 						"Tiefe Wunden|132090|3|4|3", -- [1]
 						"Schwert-Spezialisierung|135328|5|4|5", -- [2]
@@ -150,15 +281,15 @@ DataStore_TalentsRefDB = {
 						"Verbessertes Zerschmettern|132340|7|4|2", -- [30]
 						"Dampfwalze|132335|8|1|1", -- [31]
 					},
-					["icon"] = 132292,
 					["prereqs"] = {
 						"3|3", -- [1]
 						[14] = "5|2",
 						[23] = "7|2",
 					},
+					["icon"] = 132292,
+					["background"] = "WarriorArms",
 				},
 				["Schutz"] = {
-					["background"] = "WarriorProtection",
 					["talents"] = {
 						"Vorahnung|136056|2|3|5", -- [1]
 						"Zähigkeit|135892|3|4|5", -- [2]
@@ -188,14 +319,14 @@ DataStore_TalentsRefDB = {
 						"Schadensschild|134976|10|3|2", -- [26]
 						"Verbesserte Zauberreflexion|132361|4|1|2", -- [27]
 					},
-					["icon"] = 132341,
 					["prereqs"] = {
 						[8] = "5|2",
 						[22] = "9|2",
 					},
+					["icon"] = 132341,
+					["background"] = "WarriorProtection",
 				},
 				["Arms"] = {
-					["background"] = "WarriorArms",
 					["talents"] = {
 						"Deep Wounds|132090|3|4|3", -- [1]
 						"Sword Specialization|135328|5|4|5", -- [2]
@@ -229,15 +360,15 @@ DataStore_TalentsRefDB = {
 						"Improved Slam|132340|7|4|2", -- [30]
 						"Juggernaut|132335|8|1|1", -- [31]
 					},
-					["icon"] = 132292,
 					["prereqs"] = {
 						"3|3", -- [1]
 						[14] = "5|2",
 						[23] = "7|2",
 					},
+					["icon"] = 132292,
+					["background"] = "WarriorArms",
 				},
 				["Furor"] = {
-					["background"] = "WarriorFury",
 					["talents"] = {
 						"Gebieterische Stimme|136035|3|4|5", -- [1]
 						"Wutanfall|136224|4|3|5", -- [2]
@@ -267,15 +398,15 @@ DataStore_TalentsRefDB = {
 						"Unendlicher Furor|236310|10|2|5", -- [26]
 						"Bis an die Zähne bewaffnet|135053|1|1|3", -- [27]
 					},
-					["icon"] = 132347,
 					["prereqs"] = {
 						[11] = "5|2",
 						[20] = "7|2",
 						[23] = "7|2",
 					},
+					["icon"] = 132347,
+					["background"] = "WarriorFury",
 				},
 				["Fury"] = {
-					["background"] = "WarriorFury",
 					["talents"] = {
 						"Commanding Presence|136035|3|4|5", -- [1]
 						"Enrage|136224|4|3|5", -- [2]
@@ -305,15 +436,15 @@ DataStore_TalentsRefDB = {
 						"Unending Fury|236310|10|2|5", -- [26]
 						"Armored to the Teeth|135053|1|1|3", -- [27]
 					},
-					["icon"] = 132347,
 					["prereqs"] = {
 						[11] = "5|2",
 						[20] = "7|2",
 						[23] = "7|2",
 					},
+					["icon"] = 132347,
+					["background"] = "WarriorFury",
 				},
 				["Protection"] = {
-					["background"] = "WarriorProtection",
 					["talents"] = {
 						"Anticipation|136056|2|3|5", -- [1]
 						"Toughness|135892|3|4|5", -- [2]
@@ -343,11 +474,12 @@ DataStore_TalentsRefDB = {
 						"Damage Shield|134976|10|3|2", -- [26]
 						"Improved Spell Reflection|132361|4|1|2", -- [27]
 					},
-					["icon"] = 132341,
 					["prereqs"] = {
 						[8] = "5|2",
 						[22] = "9|2",
 					},
+					["icon"] = 132341,
+					["background"] = "WarriorProtection",
 				},
 			},
 		},
@@ -355,6 +487,16 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Balance,Feral Combat,Restoration",
 			["Trees"] = {
 				["Balance"] = {
+					["prereqs"] = {
+						[20] = "7|2",
+						[21] = "7|2",
+						[28] = "2|2",
+						[19] = "7|2",
+						[27] = "5|2",
+						[8] = "2|2",
+					},
+					["background"] = "DruidBalance",
+					["icon"] = 136096,
 					["talents"] = {
 						"Starlight Wrath|136006|1|2|5", -- [1]
 						"Improved Moonfire|136096|2|4|2", -- [2]
@@ -385,18 +527,20 @@ DataStore_TalentsRefDB = {
 						"Improved Insect Swarm|136045|5|3|3", -- [27]
 						"Nature's Splendor|136060|3|3|1", -- [28]
 					},
-					["prereqs"] = {
-						[20] = "7|2",
-						[21] = "7|2",
-						[28] = "2|2",
-						[19] = "7|2",
-						[27] = "5|2",
-						[8] = "2|2",
-					},
-					["icon"] = 136096,
-					["background"] = "DruidBalance",
 				},
 				["Feral Combat"] = {
+					["prereqs"] = {
+						[20] = "7|2",
+						[7] = "3|3",
+						[21] = "7|2",
+						[25] = "9|2",
+						[22] = "3|3",
+						[28] = "7|2",
+						[30] = "10|2",
+						[13] = "4|2",
+					},
+					["background"] = "DruidFeralCombat",
+					["icon"] = 132276,
 					["talents"] = {
 						"Thick Hide|134355|2|3|3", -- [1]
 						"Feral Aggression|132121|1|3|5", -- [2]
@@ -429,6 +573,8 @@ DataStore_TalentsRefDB = {
 						"Natural Reaction|132091|6|1|3", -- [29]
 						"Primal Gore|132140|10|3|1", -- [30]
 					},
+				},
+				["Wilder Kampf"] = {
 					["prereqs"] = {
 						[20] = "7|2",
 						[7] = "3|3",
@@ -439,10 +585,8 @@ DataStore_TalentsRefDB = {
 						[30] = "10|2",
 						[13] = "4|2",
 					},
-					["icon"] = 132276,
 					["background"] = "DruidFeralCombat",
-				},
-				["Wilder Kampf"] = {
+					["icon"] = 132276,
 					["talents"] = {
 						"Dickes Fell|134355|2|3|3", -- [1]
 						"Wilde Aggression|132121|1|3|5", -- [2]
@@ -475,18 +619,6 @@ DataStore_TalentsRefDB = {
 						"Natürliche Reaktion|132091|6|1|3", -- [29]
 						"Urtümliches Blutvergießen|132140|10|3|1", -- [30]
 					},
-					["prereqs"] = {
-						[20] = "7|2",
-						[7] = "3|3",
-						[21] = "7|2",
-						[25] = "9|2",
-						[22] = "3|3",
-						[28] = "7|2",
-						[30] = "10|2",
-						[13] = "4|2",
-					},
-					["icon"] = 132276,
-					["background"] = "DruidFeralCombat",
 				},
 				["Wiederherst"] = {
 					["talents"] = {
@@ -530,6 +662,16 @@ DataStore_TalentsRefDB = {
 					},
 				},
 				["Gleichgewicht"] = {
+					["prereqs"] = {
+						[20] = "7|2",
+						[21] = "7|2",
+						[28] = "2|2",
+						[19] = "7|2",
+						[27] = "5|2",
+						[8] = "2|2",
+					},
+					["background"] = "DruidBalance",
+					["icon"] = 136096,
 					["talents"] = {
 						"Zorniges Sternenlicht|136006|1|2|5", -- [1]
 						"Verbessertes Mondfeuer|136096|2|4|2", -- [2]
@@ -560,18 +702,19 @@ DataStore_TalentsRefDB = {
 						"Verbesserter Insektenschwarm|136045|5|3|3", -- [27]
 						"Pracht der Natur|136060|3|3|1", -- [28]
 					},
-					["prereqs"] = {
-						[20] = "7|2",
-						[21] = "7|2",
-						[28] = "2|2",
-						[19] = "7|2",
-						[27] = "5|2",
-						[8] = "2|2",
-					},
-					["icon"] = 136096,
-					["background"] = "DruidBalance",
 				},
 				["Restoration"] = {
+					["prereqs"] = {
+						[11] = "3|1",
+						[15] = "5|2",
+						[19] = "8|2",
+						[23] = "9|2",
+						[26] = "9|2",
+						[5] = "4|3",
+						[21] = "2|3",
+					},
+					["background"] = "DruidRestoration",
+					["icon"] = 136041,
 					["talents"] = {
 						"Improved Mark of the Wild|136078|1|1|2", -- [1]
 						"Furor|135881|1|3|5", -- [2]
@@ -601,17 +744,6 @@ DataStore_TalentsRefDB = {
 						"Improved Tree of Life|236157|9|3|3", -- [26]
 						"Improved Barkskin|136097|10|1|2", -- [27]
 					},
-					["prereqs"] = {
-						[11] = "3|1",
-						[15] = "5|2",
-						[19] = "8|2",
-						[23] = "9|2",
-						[26] = "9|2",
-						[5] = "4|3",
-						[21] = "2|3",
-					},
-					["icon"] = 136041,
-					["background"] = "DruidRestoration",
 				},
 				["Wiederherstellung"] = {
 					["icon"] = 136041,
@@ -622,13 +754,7 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Meucheln,Kampf,Täuschung",
 			["Trees"] = {
 				["Täuschung"] = {
-					["prereqs"] = {
-						[13] = "3|3",
-						[12] = "5|2",
-						[19] = "7|2",
-					},
 					["background"] = "RogueSubtlety",
-					["icon"] = 132320,
 					["talents"] = {
 						"Meister der Täuschung|136129|1|2|3", -- [1]
 						"Tarnung|132320|2|3|3", -- [2]
@@ -659,16 +785,15 @@ DataStore_TalentsRefDB = {
 						"Schattentanz|236279|11|2|1", -- [27]
 						"Unerbittliche Stöße|132340|1|1|5", -- [28]
 					},
+					["icon"] = 132320,
+					["prereqs"] = {
+						[13] = "3|3",
+						[12] = "5|2",
+						[19] = "7|2",
+					},
 				},
 				["Kampf"] = {
-					["prereqs"] = {
-						[21] = "7|2",
-						[2] = "1|3",
-						[15] = "2|2",
-						[17] = "5|2",
-					},
 					["background"] = "RogueCombat",
-					["icon"] = 132090,
 					["talents"] = {
 						"Präzision|132222|2|4|5", -- [1]
 						"Nahbereichsgefecht|135641|3|3|5", -- [2]
@@ -699,15 +824,16 @@ DataStore_TalentsRefDB = {
 						"Die Schwachen ausbeuten|236278|10|2|5", -- [27]
 						"Mordlust|236277|11|2|1", -- [28]
 					},
+					["icon"] = 132090,
+					["prereqs"] = {
+						[21] = "7|2",
+						[2] = "1|3",
+						[15] = "2|2",
+						[17] = "5|2",
+					},
 				},
 				["Meucheln"] = {
-					["prereqs"] = {
-						[18] = "7|2",
-						[13] = "5|2",
-						[2] = "1|3",
-					},
 					["background"] = "RogueAssassination",
-					["icon"] = 132292,
 					["talents"] = {
 						"Verbesserte Gifte|132273|4|3|5", -- [1]
 						"Tödlichkeit|132109|3|3|5", -- [2]
@@ -736,6 +862,12 @@ DataStore_TalentsRefDB = {
 						"Fokussierte Angriffe|236274|8|1|3", -- [25]
 						"In Stücke schneiden|236269|10|2|5", -- [26]
 						"Blutgier|236276|11|2|1", -- [27]
+					},
+					["icon"] = 132292,
+					["prereqs"] = {
+						[18] = "7|2",
+						[13] = "5|2",
+						[2] = "1|3",
 					},
 				},
 			},

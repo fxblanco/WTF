@@ -1,12 +1,54 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Endonuclease"] = {
+				["lastUpdate"] = 1709422236,
+				["Class"] = "ROGUE",
+				["PointsSpent"] = "7,55,0",
+				["TalentTrees"] = {
+					["Combat"] = {
+						5, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						3, -- [4]
+						3, -- [5]
+						2, -- [6]
+						nil, -- [7]
+						2, -- [8]
+						1, -- [9]
+						nil, -- [10]
+						5, -- [11]
+						nil, -- [12]
+						1, -- [13]
+						5, -- [14]
+						1, -- [15]
+						4, -- [16]
+						2, -- [17]
+						3, -- [18]
+						2, -- [19]
+						[21] = 1,
+						[22] = 3,
+						[23] = 2,
+						[25] = 2,
+						[26] = 2,
+						[27] = 5,
+						[28] = 1,
+					},
+					["Assassination"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						2, -- [4]
+					},
+				},
+			},
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706571080,
+				["lastUpdate"] = 1708815585,
 				["Class"] = "WARLOCK",
 				["PointsSpent"] = "55,0,16",
 				["TalentTrees"] = {
@@ -54,6 +96,7 @@ DataStore_TalentsDB = {
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["global"] = {
@@ -61,7 +104,6 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Affliction,Demonology,Destruction",
 			["Trees"] = {
 				["Zerstörung"] = {
-					["background"] = "WarlockDestruction",
 					["talents"] = {
 						"Katastrophe|135831|2|3|3", -- [1]
 						"Dunkle Macht|136146|1|3|5", -- [2]
@@ -90,7 +132,6 @@ DataStore_TalentsRefDB = {
 						"Chaosblitz|236291|11|2|1", -- [25]
 						"Machterfüllter Wichtel|236294|9|3|3", -- [26]
 					},
-					["icon"] = 136186,
 					["prereqs"] = {
 						[20] = "4|1",
 						[10] = "5|2",
@@ -98,9 +139,10 @@ DataStore_TalentsRefDB = {
 						[23] = "7|3",
 						[11] = "3|3",
 					},
+					["icon"] = 136186,
+					["background"] = "WarlockDestruction",
 				},
 				["Destruction"] = {
-					["background"] = "WarlockDestruction",
 					["talents"] = {
 						"Cataclysm|135831|2|3|3", -- [1]
 						"Bane|136146|1|3|5", -- [2]
@@ -129,7 +171,6 @@ DataStore_TalentsRefDB = {
 						"Chaos Bolt|236291|11|2|1", -- [25]
 						"Empowered Imp|236294|9|3|3", -- [26]
 					},
-					["icon"] = 136186,
 					["prereqs"] = {
 						[20] = "4|1",
 						[10] = "5|2",
@@ -137,9 +178,10 @@ DataStore_TalentsRefDB = {
 						[23] = "7|3",
 						[11] = "3|3",
 					},
+					["icon"] = 136186,
+					["background"] = "WarlockDestruction",
 				},
 				["Dämonologie"] = {
-					["background"] = "WarlockSummoning",
 					["talents"] = {
 						"Verbesserter Gesundheitsstein|135230|1|1|2", -- [1]
 						"Verbesserter Wichtel|136218|1|2|3", -- [2]
@@ -169,7 +211,6 @@ DataStore_TalentsRefDB = {
 						"Metamorphose|237558|11|2|1", -- [26]
 						"Dezimierung|135808|8|3|2", -- [27]
 					},
-					["icon"] = 136172,
 					["prereqs"] = {
 						[7] = "3|3",
 						[21] = "6|2",
@@ -178,9 +219,10 @@ DataStore_TalentsRefDB = {
 						[14] = "4|2",
 						[22] = "8|2",
 					},
+					["icon"] = 136172,
+					["background"] = "WarlockSummoning",
 				},
 				["Demonology"] = {
-					["background"] = "WarlockSummoning",
 					["talents"] = {
 						"Improved Healthstone|135230|1|1|2", -- [1]
 						"Improved Imp|136218|1|2|3", -- [2]
@@ -210,7 +252,6 @@ DataStore_TalentsRefDB = {
 						"Metamorphosis|237558|11|2|1", -- [26]
 						"Decimation|135808|8|3|2", -- [27]
 					},
-					["icon"] = 136172,
 					["prereqs"] = {
 						[7] = "3|3",
 						[21] = "6|2",
@@ -219,9 +260,10 @@ DataStore_TalentsRefDB = {
 						[14] = "4|2",
 						[22] = "8|2",
 					},
+					["icon"] = 136172,
+					["background"] = "WarlockSummoning",
 				},
 				["Affliction"] = {
-					["background"] = "WarlockCurses",
 					["talents"] = {
 						"Fel Concentration|136157|3|2|3", -- [1]
 						"Nightfall|136223|4|2|2", -- [2]
@@ -252,16 +294,16 @@ DataStore_TalentsRefDB = {
 						"Improved Fear|136183|3|1|2", -- [27]
 						"Pandemic|136227|9|3|1", -- [28]
 					},
-					["icon"] = 136145,
 					["prereqs"] = {
 						[11] = "5|2",
 						[13] = "3|3",
-						[28] = "9|2",
 						[19] = "7|2",
+						[28] = "9|2",
 					},
+					["icon"] = 136145,
+					["background"] = "WarlockCurses",
 				},
 				["Gebrechen"] = {
-					["background"] = "WarlockCurses",
 					["talents"] = {
 						"Teufelskonzentration|136157|3|2|3", -- [1]
 						"Einbruch der Nacht|136223|4|2|2", -- [2]
@@ -292,13 +334,136 @@ DataStore_TalentsRefDB = {
 						"Verbesserte Furcht|136183|3|1|2", -- [27]
 						"Pandemie|136227|9|3|1", -- [28]
 					},
-					["icon"] = 136145,
 					["prereqs"] = {
 						[11] = "5|2",
 						[13] = "3|3",
+						[19] = "7|2",
 						[28] = "9|2",
+					},
+					["icon"] = 136145,
+					["background"] = "WarlockCurses",
+				},
+			},
+		},
+		["ROGUE"] = {
+			["Order"] = "Assassination,Combat,Subtlety",
+			["Trees"] = {
+				["Subtlety"] = {
+					["talents"] = {
+						"Master of Deception|136129|1|2|3", -- [1]
+						"Camouflage|132320|2|3|3", -- [2]
+						"Initiative|136159|4|2|3", -- [3]
+						"Setup|136056|4|1|3", -- [4]
+						"Elusiveness|135994|3|1|2", -- [5]
+						"Opportunity|132366|1|3|2", -- [6]
+						"Dirty Tricks|132310|2|2|2", -- [7]
+						"Improved Ambush|132282|4|3|2", -- [8]
+						"Dirty Deeds|136220|5|3|2", -- [9]
+						"Preparation|136121|5|2|1", -- [10]
+						"Ghostly Strike|136136|3|2|1", -- [11]
+						"Premeditation|136183|7|2|1", -- [12]
+						"Hemorrhage|136168|5|4|1", -- [13]
+						"Serrated Blades|135315|3|3|3", -- [14]
+						"Sleight of Hand|132294|2|1|2", -- [15]
+						"Heightened Senses|132089|5|1|2", -- [16]
+						"Deadliness|135540|6|3|5", -- [17]
+						"Enveloping Shadows|132291|7|1|3", -- [18]
+						"Sinister Calling|132305|8|2|5", -- [19]
+						"Master of Subtlety|132299|6|1|3", -- [20]
+						"Shadowstep|132303|9|2|1", -- [21]
+						"Cheat Death|132285|7|3|3", -- [22]
+						"Waylay|236286|8|3|2", -- [23]
+						"Honor Among Thieves|236275|9|1|3", -- [24]
+						"Filthy Tricks|236287|9|3|2", -- [25]
+						"Slaughter from the Shadows|236280|10|2|5", -- [26]
+						"Shadow Dance|236279|11|2|1", -- [27]
+						"Relentless Strikes|132340|1|1|5", -- [28]
+					},
+					["prereqs"] = {
+						[13] = "3|3",
+						[12] = "5|2",
 						[19] = "7|2",
 					},
+					["icon"] = 132320,
+					["background"] = "RogueSubtlety",
+				},
+				["Combat"] = {
+					["talents"] = {
+						"Precision|132222|2|4|5", -- [1]
+						"Close Quarters Combat|135641|3|3|5", -- [2]
+						"Mace Specialization|133476|5|1|5", -- [3]
+						"Lightning Reflexes|136047|4|3|3", -- [4]
+						"Deflection|132269|2|2|3", -- [5]
+						"Improved Sinister Strike|136189|1|2|2", -- [6]
+						"Improved Gouge|132155|1|1|3", -- [7]
+						"Endurance|136205|3|1|2", -- [8]
+						"Adrenaline Rush|136206|7|2|1", -- [9]
+						"Improved Kick|132219|4|1|2", -- [10]
+						"Dual Wield Specialization|132147|1|3|5", -- [11]
+						"Improved Sprint|132307|4|2|2", -- [12]
+						"Blade Flurry|132350|5|2|1", -- [13]
+						"Hack and Slash|135328|5|3|5", -- [14]
+						"Riposte|132336|3|2|1", -- [15]
+						"Aggression|132275|4|4|5", -- [16]
+						"Weapon Expertise|135882|6|2|2", -- [17]
+						"Vitality|132353|7|1|3", -- [18]
+						"Blade Twisting|132283|6|3|2", -- [19]
+						"Nerves of Steel|132300|7|3|2", -- [20]
+						"Surprise Attacks|132308|9|2|1", -- [21]
+						"Combat Potency|135673|8|3|5", -- [22]
+						"Improved Slice and Dice|132306|2|1|2", -- [23]
+						"Throwing Specialization|236282|8|1|2", -- [24]
+						"Unfair Advantage|236285|9|1|2", -- [25]
+						"Savage Combat|132100|9|3|2", -- [26]
+						"Prey on the Weak|236278|10|2|5", -- [27]
+						"Killing Spree|236277|11|2|1", -- [28]
+					},
+					["prereqs"] = {
+						[21] = "7|2",
+						[2] = "1|3",
+						[15] = "2|2",
+						[17] = "5|2",
+					},
+					["icon"] = 132090,
+					["background"] = "RogueCombat",
+				},
+				["Assassination"] = {
+					["talents"] = {
+						"Improved Poisons|132273|4|3|5", -- [1]
+						"Lethality|132109|3|3|5", -- [2]
+						"Malice|132277|1|3|5", -- [3]
+						"Remorseless Attacks|132151|1|2|2", -- [4]
+						"Ruthlessness|132122|2|1|3", -- [5]
+						"Murder|136147|6|3|2", -- [6]
+						"Improved Eviscerate|132292|1|1|3", -- [7]
+						"Puncturing Wounds|132090|2|4|3", -- [8]
+						"Improved Expose Armor|132354|3|2|2", -- [9]
+						"Improved Kidney Shot|132298|5|3|3", -- [10]
+						"Cold Blood|135988|5|2|1", -- [11]
+						"Overkill|132205|7|2|1", -- [12]
+						"Seal Fate|136130|6|2|5", -- [13]
+						"Vigor|136023|3|1|1", -- [14]
+						"Vile Poisons|132293|4|2|3", -- [15]
+						"Master Poisoner|132108|9|1|3", -- [16]
+						"Find Weakness|132295|8|3|3", -- [17]
+						"Mutilate|132304|9|2|1", -- [18]
+						"Fleet Footed|132296|5|1|2", -- [19]
+						"Deadened Nerves|132286|7|3|3", -- [20]
+						"Quick Recovery|132301|5|4|2", -- [21]
+						"Deadly Brew|236270|7|1|2", -- [22]
+						"Turn the Tables|236284|9|3|3", -- [23]
+						"Blood Spatter|236268|2|2|2", -- [24]
+						"Focused Attacks|236274|8|1|3", -- [25]
+						"Cut to the Chase|236269|10|2|5", -- [26]
+						"Hunger For Blood|236276|11|2|1", -- [27]
+					},
+					["prereqs"] = {
+						[18] = "7|2",
+						[13] = "5|2",
+						[2] = "1|3",
+					},
+					["icon"] = 132292,
+					["background"] = "RogueAssassination",
 				},
 			},
 		},

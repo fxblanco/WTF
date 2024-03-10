@@ -32,6 +32,7 @@ AdiBagsDB = {
 		["Pjanic - Venoxis"] = "Default",
 		["Pippop - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Gerdgitarre - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
@@ -57,9 +58,9 @@ AdiBagsDB = {
 			["experiments"] = {
 				["Bag Lag Fix"] = {
 					["Enabled"] = false,
+					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 					["Percent"] = 1,
 					["Name"] = "Bag Lag Fix",
-					["Description"] = "This experiment will fix the lag when opening bags via per-item change draws instead of full redraws.",
 				},
 			},
 		},

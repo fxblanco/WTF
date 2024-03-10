@@ -3,7 +3,7 @@ ItemListsDB = {
 	["displayGuildNote"] = true,
 	["displayPrioNote"] = true,
 	["displayAlts"] = true,
-	["maxNames"] = 3,
+	["maxNames"] = 5,
 	["forceReceivedList"] = false,
 	["enabled"] = true,
 	["itemNotes"] = {
@@ -11,10 +11,16 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Wallahnyr",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
@@ -41,6 +47,18 @@ ItemListsDB = {
 					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 1,
+				}, -- [3]
 			},
 		},
 		[50625] = {
@@ -61,21 +79,46 @@ ItemListsDB = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 6,
-					["character_name"] = "Bubbledine",
+					["character_class"] = 10,
+					["sort_order"] = 8,
+					["character_name"] = "Tarsó",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 7,
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 		},
 		[50633] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["character_name"] = "Jøki",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [4]
 			},
 			["wishlist"] = {
 				{
@@ -87,39 +130,18 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 3,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 4,
 					["sort_order"] = 12,
 					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 2,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 2,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [5]
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["sort_order"] = 3,
 					["character_name"] = "Wønka",
 					["is_offspec"] = 0,
-				}, -- [6]
+				}, -- [3]
 			},
 		},
 		[50641] = {
@@ -132,6 +154,16 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
+		[50649] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
 		[50657] = {
 			["received"] = {
 				{
@@ -140,6 +172,28 @@ ItemListsDB = {
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50665] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 		},
 		[50673] = {
@@ -152,13 +206,12 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50681] = {
-			["wishlist"] = {
+		[50426] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 15,
-					["character_name"] = "Alsia",
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
@@ -173,6 +226,22 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
+		[50697] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 1,
+				}, -- [2]
+			},
+		},
 		[50195] = {
 			["received"] = {
 				{
@@ -183,13 +252,29 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
+		[50713] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 1,
+				}, -- [2]
+			},
+		},
 		[50721] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 7,
-					["character_name"] = "Dánáá",
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
@@ -202,102 +287,96 @@ ItemListsDB = {
 			},
 		},
 		[50729] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 2,
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 14,
 					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["sort_order"] = 2,
 					["character_name"] = "Minoton",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [2]
 			},
 		},
 		[50737] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 8,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 16,
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["sort_order"] = 7,
 					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 13,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 15,
+					["sort_order"] = 14,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 16,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
 					["sort_order"] = 13,
 					["character_name"] = "Morai",
 					["is_offspec"] = 0,
-				}, -- [6]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["sort_order"] = 14,
 					["character_name"] = "Morai",
 					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["sort_order"] = 2,
 					["character_name"] = "Onixus",
 					["is_offspec"] = 0,
-				}, -- [8]
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["sort_order"] = 1,
 					["character_name"] = "Taste",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 4,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [9]
 			},
 		},
 		[49988] = {
@@ -321,7 +400,7 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["character_name"] = "Morai",
+					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
@@ -340,16 +419,10 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 			},
 		},
 		[50060] = {
@@ -388,85 +461,56 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50363] = {
+		[50618] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 1,
-					["sort_order"] = 9,
 					["character_name"] = "Jøki",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 3,
-					["character_name"] = "Delmonte",
+					["character_class"] = 2,
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 2,
-					["character_name"] = "Domedonmaya",
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["sort_order"] = 10,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 4,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["sort_order"] = 8,
+					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 2,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 1,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 1,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 2,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [7]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 3,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [8]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 1,
-					["sort_order"] = 2,
+					["sort_order"] = 8,
 					["character_name"] = "Wønka",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [4]
 			},
 		},
 		[50626] = {
@@ -474,9 +518,21 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
+					["character_name"] = "Klassíc",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
 					["character_name"] = "Maexfresh",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [3]
 			},
 		},
 		[50642] = {
@@ -484,18 +540,21 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["character_name"] = "Alsia",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 9,
 					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 1,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Alsia",
+					["is_offspec"] = 0,
+				}, -- [3]
 			},
 		},
 		[50650] = {
@@ -506,15 +565,18 @@ ItemListsDB = {
 					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [1]
-			},
-			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 8,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
+					["character_name"] = "Liptea",
+					["is_offspec"] = 1,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 1,
+				}, -- [3]
 			},
 		},
 		[50658] = {
@@ -527,16 +589,22 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [4]
 			},
 		},
 		[50674] = {
@@ -569,119 +637,111 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 11,
-					["character_name"] = "Harva",
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 10,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 12,
-					["character_name"] = "Domedonmaya",
+					["character_class"] = 2,
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 5,
-					["character_name"] = "Liptea",
+					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
 				}, -- [4]
 			},
 		},
-		[50188] = {
+		[50698] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["character_name"] = "wîdi",
+					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
 		},
 		[50706] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 1,
-					["character_name"] = "Harva",
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 6,
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 5,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 1,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["sort_order"] = 9,
 					["character_name"] = "Onixus",
 					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 8,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [6]
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["sort_order"] = 1,
 					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [3]
 			},
 		},
 		[50714] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [5]
 			},
 		},
 		[50722] = {
@@ -705,9 +765,9 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 6,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 10,
+					["sort_order"] = 11,
+					["character_name"] = "Tarsó",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
@@ -737,6 +797,22 @@ ItemListsDB = {
 				}, -- [2]
 			},
 		},
+		[49981] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
 		[52029] = {
 			["received"] = {
 				{
@@ -753,249 +829,171 @@ ItemListsDB = {
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["character_name"] = "Minoton",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["character_name"] = "Wønka",
 					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [8]
 			},
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 7,
-					["character_name"] = "Jøki",
+					["character_class"] = 3,
+					["sort_order"] = 11,
+					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 11,
+					["sort_order"] = 12,
 					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 12,
+					["sort_order"] = 13,
 					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 13,
-					["character_name"] = "Klassíc",
+					["sort_order"] = 3,
+					["character_name"] = "Maexfresh",
 					["is_offspec"] = 0,
 				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 3,
+					["sort_order"] = 12,
 					["character_name"] = "Maexfresh",
 					["is_offspec"] = 0,
 				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 12,
+					["sort_order"] = 13,
 					["character_name"] = "Maexfresh",
 					["is_offspec"] = 0,
 				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 13,
+					["sort_order"] = 14,
 					["character_name"] = "Maexfresh",
 					["is_offspec"] = 0,
 				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 14,
-					["character_name"] = "Maexfresh",
+					["sort_order"] = 11,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 1,
-					["character_name"] = "rasputi",
+					["sort_order"] = 12,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [9]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 8,
-					["character_name"] = "Schetner",
+					["sort_order"] = 13,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [10]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 9,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [11]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 12,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [12]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 13,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [13]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 11,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [14]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 12,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [15]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 13,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [16]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 14,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [17]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 3,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [18]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["sort_order"] = 6,
 					["character_name"] = "Minoton",
 					["is_offspec"] = 0,
-				}, -- [19]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 13,
-					["character_name"] = "Minoton",
-					["is_offspec"] = 0,
-				}, -- [20]
+				}, -- [11]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["sort_order"] = 14,
 					["character_name"] = "Minoton",
 					["is_offspec"] = 0,
-				}, -- [21]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [22]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 10,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [23]
+				}, -- [12]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
 					["sort_order"] = 11,
 					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [24]
+				}, -- [13]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
 					["sort_order"] = 15,
 					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [25]
+				}, -- [14]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
 					["sort_order"] = 16,
 					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [26]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 10,
-					["character_name"] = "wîdi",
-					["is_offspec"] = 0,
-				}, -- [27]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 11,
-					["character_name"] = "wîdi",
-					["is_offspec"] = 0,
-				}, -- [28]
+				}, -- [15]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 12,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [29]
+				}, -- [16]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 13,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [30]
+				}, -- [17]
+			},
+		},
+		[49997] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 9,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [31]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 10,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [32]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 11,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [33]
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
+					["is_offspec"] = 1,
+				}, -- [1]
 			},
 		},
 		[50021] = {
@@ -1031,7 +1029,7 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
-					["sort_order"] = 20,
+					["sort_order"] = 19,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
 				}, -- [2]
@@ -1062,41 +1060,75 @@ ItemListsDB = {
 					["character_name"] = "Jøki",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 1,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 0,
+				}, -- [1]
 			},
 		},
 		[50611] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Minoton",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 11,
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 7,
 					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
 				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 0,
+				}, -- [3]
 			},
-		},
-		[50364] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 6,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50364] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 4,
 					["character_name"] = "Alsia",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 10,
+					["character_name"] = "Tarsó",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
@@ -1120,7 +1152,7 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 2,
+					["sort_order"] = 3,
 					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
 				}, -- [1]
@@ -1168,16 +1200,28 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bremskyle",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [5]
 			},
 		},
 		[50651] = {
@@ -1231,58 +1275,49 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["character_name"] = "Morai",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [5]
 			},
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 9,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 9,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 4,
-					["character_name"] = "Delmonte",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 9,
 					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["sort_order"] = 13,
 					["character_name"] = "Taste",
 					["is_offspec"] = 0,
-				}, -- [5]
+				}, -- [2]
 			},
 		},
 		[50412] = {
@@ -1305,25 +1340,40 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 1,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Vanec",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["character_name"] = "Wønka",
 					["is_offspec"] = 0,
-				}, -- [2]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 5,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [6]
 			},
 		},
 		[50428] = {
@@ -1340,15 +1390,6 @@ ItemListsDB = {
 					["character_name"] = "serferine",
 					["is_offspec"] = 0,
 				}, -- [2]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 14,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
 			},
 		},
 		[50181] = {
@@ -1385,170 +1426,131 @@ ItemListsDB = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 11,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 9,
 					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 19,
 					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 11,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 10,
-					["character_name"] = "Maexfresh",
+					["sort_order"] = 14,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 14,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 9,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 5,
 					["character_name"] = "Habíb",
 					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 12,
 					["character_name"] = "Hakkî",
 					["is_offspec"] = 0,
-				}, -- [8]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 2,
 					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 11,
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 17,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [11]
+				}, -- [9]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 12,
 					["character_name"] = "Jodifrosta",
 					["is_offspec"] = 0,
-				}, -- [12]
+				}, -- [10]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 12,
 					["character_name"] = "serferine",
 					["is_offspec"] = 0,
-				}, -- [13]
+				}, -- [11]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 7,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [14]
+				}, -- [12]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 8,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [15]
+				}, -- [13]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
-					["sort_order"] = 8,
+					["sort_order"] = 7,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [16]
+				}, -- [14]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 9,
 					["character_name"] = "Wallahnyr",
 					["is_offspec"] = 0,
-				}, -- [17]
+				}, -- [15]
 			},
 		},
-		[50707] = {
+		[50452] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 11,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 7,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 1,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 6,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 1,
 				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 11,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 10,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [5]
 			},
 		},
 		[50205] = {
@@ -1578,367 +1580,285 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["character_name"] = "Bubbledine",
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 0,
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["character_name"] = "Habíb",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [8]
 			},
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
+					["character_class"] = 5,
 					["sort_order"] = 1,
-					["character_name"] = "Dánáá",
+					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 2,
-					["character_name"] = "Dánáá",
+					["character_class"] = 5,
+					["sort_order"] = 11,
+					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 2,
-					["character_name"] = "Harva",
+					["character_class"] = 5,
+					["sort_order"] = 12,
+					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 3,
-					["character_name"] = "Harva",
+					["character_class"] = 5,
+					["sort_order"] = 13,
+					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
 				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 4,
-					["character_name"] = "Harva",
+					["sort_order"] = 9,
+					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 7,
-					["character_name"] = "Harva",
+					["sort_order"] = 10,
+					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [6]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 1,
-					["character_name"] = "Langrohr",
+					["character_class"] = 2,
+					["sort_order"] = 5,
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [7]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 11,
-					["character_name"] = "Langrohr",
+					["character_class"] = 2,
+					["sort_order"] = 6,
+					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
 				}, -- [8]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 12,
-					["character_name"] = "Langrohr",
+					["character_class"] = 8,
+					["sort_order"] = 6,
+					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [9]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 13,
-					["character_name"] = "Langrohr",
+					["character_class"] = 8,
+					["sort_order"] = 7,
+					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [10]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 9,
-					["character_name"] = "Alsia",
+					["character_class"] = 8,
+					["sort_order"] = 11,
+					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [11]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 10,
-					["character_name"] = "Alsia",
+					["character_class"] = 8,
+					["sort_order"] = 12,
+					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [12]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 1,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 7,
+					["sort_order"] = 10,
+					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [13]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 2,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 7,
+					["sort_order"] = 13,
+					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [14]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 3,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 7,
+					["sort_order"] = 6,
+					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
 				}, -- [15]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 4,
-					["character_name"] = "Asdâlan",
+					["character_class"] = 7,
+					["sort_order"] = 7,
+					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
 				}, -- [16]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 5,
-					["character_name"] = "Bubbledine",
+					["character_class"] = 7,
+					["sort_order"] = 8,
+					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
 				}, -- [17]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 1,
-					["character_name"] = "Habíb",
+					["sort_order"] = 4,
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [18]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 8,
+					["character_class"] = 2,
 					["sort_order"] = 6,
-					["character_name"] = "Hampdidampdi",
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [19]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 7,
-					["character_name"] = "Hampdidampdi",
+					["character_class"] = 2,
+					["sort_order"] = 8,
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [20]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 11,
-					["character_name"] = "Hampdidampdi",
+					["character_class"] = 2,
+					["sort_order"] = 10,
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [21]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 12,
-					["character_name"] = "Hampdidampdi",
+					["character_class"] = 7,
+					["sort_order"] = 7,
+					["character_name"] = "serferine",
 					["is_offspec"] = 0,
 				}, -- [22]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
-					["sort_order"] = 4,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [23]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 7,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [24]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 10,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [25]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 13,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [26]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 4,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [27]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 6,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [28]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 7,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [29]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 8,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [30]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 4,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [31]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 6,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [32]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 8,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [33]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 10,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [34]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 4,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [35]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 7,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [36]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
 					["sort_order"] = 9,
 					["character_name"] = "serferine",
 					["is_offspec"] = 0,
-				}, -- [37]
+				}, -- [23]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 11,
 					["character_name"] = "serferine",
 					["is_offspec"] = 0,
-				}, -- [38]
+				}, -- [24]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 3,
+					["sort_order"] = 7,
 					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
-				}, -- [39]
+				}, -- [25]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 4,
+					["sort_order"] = 8,
 					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
-				}, -- [40]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 9,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [41]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 10,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [42]
+				}, -- [26]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 14,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [43]
+				}, -- [27]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 15,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [44]
+				}, -- [28]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 16,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [45]
+				}, -- [29]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 17,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [46]
+				}, -- [30]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 15,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [31]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 16,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [47]
+				}, -- [32]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 17,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [48]
+				}, -- [33]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 18,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [49]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 19,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [50]
+				}, -- [34]
 			},
 		},
 		[50014] = {
@@ -1967,16 +1887,6 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50030] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
 		[50062] = {
 			["received"] = {
 				{
@@ -1997,9 +1907,9 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
+					["is_offspec"] = 1,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
@@ -2010,9 +1920,15 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
 					["character_name"] = "Wønka",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [4]
 			},
 		},
 		[50604] = {
@@ -2025,33 +1941,25 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [3]
 			},
 			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 5,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
 					["sort_order"] = 13,
 					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 8,
-					["character_name"] = "wîdi",
-					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [1]
 			},
 		},
 		[50612] = {
@@ -2065,19 +1973,37 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["character_name"] = "Taste",
+					["character_name"] = "Delmonte",
 					["is_offspec"] = 1,
 				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Taste",
+					["is_offspec"] = 1,
+				}, -- [4]
 			},
 		},
 		[50365] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Uwugamergirl",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
@@ -2089,204 +2015,177 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 10,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 2,
 					["character_name"] = "Hakkî",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 4,
 					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 1,
 					["character_name"] = "Hennerr",
 					["is_offspec"] = 0,
-				}, -- [5]
+				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 1,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 1,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 4,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [8]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 2,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 2,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 2,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [11]
+				}, -- [9]
 			},
 		},
 		[50628] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 5,
-					["character_name"] = "Dánáá",
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [1]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 8,
 					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 8,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 7,
-					["character_name"] = "Maexfresh",
+					["character_class"] = 2,
+					["sort_order"] = 6,
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 2,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 5,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 5,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 11,
 					["character_name"] = "Habíb",
 					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 10,
 					["character_name"] = "Hakkî",
 					["is_offspec"] = 0,
-				}, -- [8]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 5,
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 10,
 					["character_name"] = "Hennerr",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 16,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [11]
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 13,
 					["character_name"] = "Jodifrosta",
 					["is_offspec"] = 0,
-				}, -- [12]
+				}, -- [9]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 13,
 					["character_name"] = "serferine",
 					["is_offspec"] = 0,
-				}, -- [13]
+				}, -- [10]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 14,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [14]
+				}, -- [11]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 10,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [15]
+				}, -- [12]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
-					["sort_order"] = 14,
+					["sort_order"] = 13,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [16]
+				}, -- [13]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 12,
 					["character_name"] = "Uwugamergirl",
 					["is_offspec"] = 0,
-				}, -- [17]
+				}, -- [14]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 5,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [18]
+				}, -- [15]
 			},
 		},
 		[50636] = {
@@ -2297,6 +2196,12 @@ ItemListsDB = {
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
@@ -2322,19 +2227,33 @@ ItemListsDB = {
 				}, -- [3]
 			},
 		},
-		[50660] = {
-			["wishlist"] = {
+		[50652] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Klassíc",
+					["is_offspec"] = 1,
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 13,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50660] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 1,
 					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
 				}, -- [2]
@@ -2348,6 +2267,18 @@ ItemListsDB = {
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [3]
 			},
 			["wishlist"] = {
 				{
@@ -2364,13 +2295,6 @@ ItemListsDB = {
 					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 2,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [3]
 			},
 		},
 		[50421] = {
@@ -2399,6 +2323,16 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
+		[50692] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
 		[50190] = {
 			["received"] = {
 				{
@@ -2409,14 +2343,30 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50453] = {
+		[50708] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
+					["character_name"] = "Delmonte",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 15,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 12,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 		},
 		[50716] = {
@@ -2439,103 +2389,88 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["character_name"] = "Hennerr",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [3]
 			},
 			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 12,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 3,
 					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 6,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 5,
-					["character_name"] = "Maexfresh",
+					["sort_order"] = 3,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 10,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 1,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 6,
 					["character_name"] = "Habíb",
 					["is_offspec"] = 0,
-				}, -- [6]
+				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 15,
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 14,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [8]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 8,
 					["character_name"] = "Jodifrosta",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 15,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
-					["sort_order"] = 3,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [11]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 5,
+					["sort_order"] = 4,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [12]
+				}, -- [9]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 16,
 					["character_name"] = "Uwugamergirl",
 					["is_offspec"] = 0,
-				}, -- [13]
+				}, -- [10]
 			},
 		},
 		[50732] = {
@@ -2564,7 +2499,7 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
-					["sort_order"] = 15,
+					["sort_order"] = 14,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
 				}, -- [4]
@@ -2616,181 +2551,140 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50613] = {
-			["wishlist"] = {
+		[50605] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 9,
-					["character_name"] = "Dánáá",
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 1,
+				}, -- [1]
+			},
+		},
+		[50613] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Habíb",
 					["is_offspec"] = 0,
 				}, -- [1]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 6,
 					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 18,
 					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 7,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 6,
-					["character_name"] = "Maexfresh",
+					["character_class"] = 2,
+					["sort_order"] = 8,
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 9,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 11,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 8,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [7]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 3,
-					["character_name"] = "Habíb",
-					["is_offspec"] = 0,
-				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 9,
 					["character_name"] = "Hakkî",
 					["is_offspec"] = 0,
-				}, -- [9]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 9,
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 4,
 					["character_name"] = "Hennerr",
 					["is_offspec"] = 0,
-				}, -- [11]
+				}, -- [7]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
 					["sort_order"] = 12,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [12]
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 7,
 					["character_name"] = "Jodifrosta",
 					["is_offspec"] = 0,
-				}, -- [13]
+				}, -- [9]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["sort_order"] = 12,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [14]
+				}, -- [10]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["sort_order"] = 11,
 					["character_name"] = "Slimpy",
 					["is_offspec"] = 0,
-				}, -- [15]
+				}, -- [11]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 8,
-					["sort_order"] = 9,
+					["sort_order"] = 8,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [16]
+				}, -- [12]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 14,
 					["character_name"] = "Uwugamergirl",
 					["is_offspec"] = 0,
-				}, -- [17]
+				}, -- [13]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 7,
 					["character_name"] = "wîdi",
 					["is_offspec"] = 0,
-				}, -- [18]
+				}, -- [14]
 			},
 		},
-		[50366] = {
+		[50621] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 4,
-					["character_name"] = "Maexfresh",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 6,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 6,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 1,
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 8,
-					["character_name"] = "Wallahnyr",
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [5]
+				}, -- [2]
 			},
 		},
 		[50629] = {
@@ -2808,6 +2702,15 @@ ItemListsDB = {
 					["is_offspec"] = 0,
 				}, -- [2]
 			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 17,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
 		},
 		[50645] = {
 			["received"] = {
@@ -2817,90 +2720,83 @@ ItemListsDB = {
 					["character_name"] = "Jogí",
 					["is_offspec"] = 0,
 				}, -- [1]
-			},
-			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
-					["sort_order"] = 6,
 					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 			},
 		},
 		[50653] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [4]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 1,
-					["sort_order"] = 12,
 					["character_name"] = "Jøki",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 6,
-					["character_name"] = "rasputi",
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 8,
-					["character_name"] = "Asdâlan",
+					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
 				}, -- [3]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 17,
-					["character_name"] = "Onixus",
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
 				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [7]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["sort_order"] = 13,
 					["character_name"] = "Vanec",
 					["is_offspec"] = 0,
-				}, -- [5]
+				}, -- [1]
 			},
 		},
 		[50661] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 8,
 					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
@@ -2920,39 +2816,65 @@ ItemListsDB = {
 					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 12,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
-				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 18,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [2]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["sort_order"] = 4,
 					["character_name"] = "Taste",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [1]
 			},
 		},
-		[50175] = {
+		[50685] = {
 			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 7,
+					["character_name"] = "Langrohr",
+					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 2,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 		},
 		[50693] = {
@@ -2960,31 +2882,37 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 6,
 					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 6,
-					["character_name"] = "Domedonmaya",
+					["character_name"] = "Morai",
 					["is_offspec"] = 0,
 				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+		},
+		[50701] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [1]
 			},
 		},
 		[50709] = {
@@ -2992,15 +2920,9 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
 					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 			},
 		},
 		[50717] = {
@@ -3011,6 +2933,12 @@ ItemListsDB = {
 					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
@@ -3027,13 +2955,6 @@ ItemListsDB = {
 					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 7,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [3]
 			},
 		},
 		[49960] = {
@@ -3132,20 +3053,97 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
+		[50348] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [5]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 3,
+					["character_name"] = "Klassíc",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 1,
+					["character_name"] = "Hampdidampdi",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 2,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 5,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 2,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [5]
+			},
+		},
 		[50606] = {
 			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Alsia",
+					["is_offspec"] = 1,
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["character_name"] = "Liptea",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [3]
 			},
 		},
 		[50614] = {
@@ -3156,6 +3154,18 @@ ItemListsDB = {
 					["character_name"] = "Hakkî",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 1,
+				}, -- [3]
 			},
 			["wishlist"] = {
 				{
@@ -3171,16 +3181,16 @@ ItemListsDB = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 7,
-					["character_name"] = "Alsia",
+					["character_class"] = 10,
+					["sort_order"] = 9,
+					["character_name"] = "Tarsó",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 10,
-					["character_name"] = "Bubbledine",
+					["sort_order"] = 7,
+					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
@@ -3223,18 +3233,15 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 4,
 					["character_name"] = "Jogí",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 		},
 		[40191] = {
@@ -3249,12 +3256,30 @@ ItemListsDB = {
 			},
 		},
 		[50654] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
-					["sort_order"] = 16,
 					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50681] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 1,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 15,
+					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
@@ -3263,40 +3288,37 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 1,
-					["sort_order"] = 1,
 					["character_name"] = "Jøki",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 7,
-					["character_name"] = "Onixus",
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
 					["is_offspec"] = 0,
 				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["sort_order"] = 9,
 					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 4,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [1]
 			},
 		},
 		[50678] = {
@@ -3304,21 +3326,33 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
+					["character_name"] = "Alsia",
+					["is_offspec"] = 1,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 1,
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["character_name"] = "Shikimora",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [5]
 			},
 		},
 		[50686] = {
@@ -3360,7 +3394,7 @@ ItemListsDB = {
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 10,
-					["character_name"] = "Dánáá",
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
@@ -3405,23 +3439,22 @@ ItemListsDB = {
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 4,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
 		},
 		[50718] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 5,
 					["character_name"] = "Alsia",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 5,
+					["character_name"] = "Tarsó",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
@@ -3440,27 +3473,43 @@ ItemListsDB = {
 				}, -- [3]
 			},
 		},
-		[50734] = {
-			["wishlist"] = {
+		[50726] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 3,
-					["character_name"] = "Dánáá",
+					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 1,
+				}, -- [2]
+			},
+		},
+		[50734] = {
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 14,
 					["character_name"] = "Klassíc",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 7,
-					["character_name"] = "rasputi",
+					["sort_order"] = 1,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 1,
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [3]
 				{
@@ -3500,6 +3549,28 @@ ItemListsDB = {
 				}, -- [8]
 			},
 		},
+		[50173] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+		},
 		[52025] = {
 			["received"] = {
 				{
@@ -3511,92 +3582,161 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["character_name"] = "Domedonmaya",
+					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [3]
+					["is_offspec"] = 1,
+				}, -- [4]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["character_name"] = "Hennerr",
 					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [5]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 9,
 					["character_name"] = "Jodifrosta",
 					["is_offspec"] = 0,
-				}, -- [5]
+				}, -- [6]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
 					["character_name"] = "Morai",
 					["is_offspec"] = 0,
-				}, -- [6]
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [8]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [7]
+				}, -- [9]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Uwugamergirl",
 					["is_offspec"] = 0,
-				}, -- [8]
+				}, -- [10]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [9]
+					["is_offspec"] = 1,
+				}, -- [11]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Wallahnyr",
 					["is_offspec"] = 0,
-				}, -- [10]
+				}, -- [12]
 			},
 		},
-		["ID"] = 22757,
-		[50708] = {
+		[50700] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+		},
+		[50702] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 9,
+					["character_name"] = "Hampdidampdi",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["sort_order"] = 6,
+					["character_name"] = "serferine",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50620] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 2,
 					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 17,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 12,
-					["character_name"] = "Taste",
+					["character_name"] = "Morai",
 					["is_offspec"] = 0,
 				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [4]
 			},
-		},
-		[50619] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 1,
-					["character_name"] = "wîdi",
+					["character_class"] = 1,
+					["sort_order"] = 4,
+					["character_name"] = "Jøki",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 10,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50715] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
@@ -3633,1086 +3773,38 @@ ItemListsDB = {
 				}, -- [2]
 			},
 		},
-		[50427] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 3,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50173] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-		},
-		[50413] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-		},
-		[50700] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 3,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50452] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[51922] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 20,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50655] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 8,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50607] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 12,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 11,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 11,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 8,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 12,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [5]
-			},
-		},
-		[50360] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-		},
-		[50274] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 15,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 13,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 2,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50631] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 14,
-					["character_name"] = "Hampdidampdi",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50639] = {
+		[50453] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 13,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 5,
-					["character_name"] = "Jøki",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 1,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 8,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 6,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [5]
-			},
-		},
-		[50647] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 5,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 7,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 8,
-					["character_name"] = "Delmonte",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 2,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 12,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [5]
-			},
-		},
-		[50400] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 4,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50663] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-		},
-		[50702] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 9,
-					["character_name"] = "Hampdidampdi",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 6,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-		},
-		[50695] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-		},
-		[50687] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Klassíc",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 8,
-					["character_name"] = "Maexfresh",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 3,
-					["character_name"] = "rasputi",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 3,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 7,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 9,
-					["character_name"] = "wîdi",
-					["is_offspec"] = 0,
-				}, -- [5]
-			},
-		},
-		[50185] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Alsia",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50703] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 9,
-					["character_name"] = "Maexfresh",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 4,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 4,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 8,
-					["character_name"] = "Habíb",
-					["is_offspec"] = 0,
-				}, -- [4]
-			},
-		},
-		[50711] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "wîdi",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50719] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [5]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 10,
-					["character_name"] = "Langrohr",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 18,
-					["character_name"] = "Hampdidampdi",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 9,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 5,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 6,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 11,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [6]
-			},
-		},
-		[50402] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 14,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50735] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 10,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 5,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 12,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-		},
-		[49978] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Habíb",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[52026] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Klassíc",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Maexfresh",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Minoton",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "wîdi",
-					["is_offspec"] = 1,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [7]
-			},
-		},
-		[49994] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Hampdidampdi",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [2]
-			},
-		},
-		[52027] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Alsia",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Bremskyle",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Bubbledine",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [7]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["character_name"] = "serferine",
-					["is_offspec"] = 0,
-				}, -- [8]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [9]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [10]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [11]
-			},
-		},
-		[52028] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [4]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 7,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 8,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 10,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 11,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 7,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 8,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 13,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [7]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 6,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [8]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 7,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [9]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 8,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [10]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 9,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [11]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 10,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [12]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 11,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [13]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 15,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [14]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 9,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [15]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 10,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [16]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 11,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [17]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 12,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [18]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 12,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [19]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 13,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [20]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 14,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [21]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 15,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [22]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 8,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [23]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 9,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [24]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 10,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [25]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 11,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [26]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 5,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [27]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 6,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [28]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 7,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [29]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 8,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [30]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 7,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [31]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 8,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [32]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 7,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [33]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 8,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [34]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 9,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [35]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 8,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [36]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 9,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [37]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 10,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [38]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 11,
-					["character_name"] = "Vanec",
-					["is_offspec"] = 0,
-				}, -- [39]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 11,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [40]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 12,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [41]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 13,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [42]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 14,
-					["character_name"] = "Wallahnyr",
-					["is_offspec"] = 0,
-				}, -- [43]
 			},
 		},
 		[50691] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 12,
-					["character_name"] = "Alsia",
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 7,
+					["character_name"] = "Tarsó",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
-					["sort_order"] = 4,
-					["character_name"] = "Bubbledine",
+					["sort_order"] = 12,
+					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
@@ -4740,6 +3832,1074 @@ ItemListsDB = {
 					["character_name"] = "Wallahnyr",
 					["is_offspec"] = 0,
 				}, -- [2]
+			},
+		},
+		[50019] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[52028] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [6]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 2,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 3,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 9,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 8,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 13,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 8,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 10,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [8]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 11,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [9]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 15,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [10]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 9,
+					["character_name"] = "Morai",
+					["is_offspec"] = 0,
+				}, -- [11]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 10,
+					["character_name"] = "Morai",
+					["is_offspec"] = 0,
+				}, -- [12]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 11,
+					["character_name"] = "Morai",
+					["is_offspec"] = 0,
+				}, -- [13]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 12,
+					["character_name"] = "Morai",
+					["is_offspec"] = 0,
+				}, -- [14]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 12,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [15]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 13,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [16]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 14,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [17]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 15,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [18]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 8,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [19]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [20]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 10,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [21]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 11,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [22]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 7,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [23]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 8,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [24]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 7,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [25]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 8,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [26]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 8,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [27]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 9,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [28]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 8,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [29]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 9,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [30]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 10,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [31]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 11,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [32]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 11,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [33]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 12,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [34]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 13,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [35]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 14,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [36]
+			},
+		},
+		[50400] = {
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 4,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50185] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Alsia",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50607] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [6]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 11,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50360] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50623] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50631] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 14,
+					["character_name"] = "Hampdidampdi",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50639] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["sort_order"] = 5,
+					["character_name"] = "Jøki",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 8,
+					["character_name"] = "Morai",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50647] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 10,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50655] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50663] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+		},
+		[50671] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[52027] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Alsia",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bremskyle",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 1,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 1,
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 1,
+				}, -- [8]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [9]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [10]
+			},
+		},
+		[50687] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Klassíc",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 9,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 6,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 9,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+		},
+		[50695] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+		},
+		[50703] = {
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 10,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 7,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 8,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+		},
+		[50711] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50719] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [8]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [9]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 10,
+					["character_name"] = "Langrohr",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 18,
+					["character_name"] = "Hampdidampdi",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50684] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["sort_order"] = 8,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 11,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["sort_order"] = 11,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 7,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 6,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [5]
+			},
+		},
+		[50735] = {
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["sort_order"] = 5,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 12,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[49978] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[52026] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Klassíc",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 1,
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [8]
+			},
+		},
+		[49994] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Hampdidampdi",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50707] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 7,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 10,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50413] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
+		[50366] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 5,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 2,
+					["character_name"] = "Tarfu",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["sort_order"] = 1,
+					["character_name"] = "Hanaltar",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 8,
+					["character_name"] = "Wallahnyr",
+					["is_offspec"] = 0,
+				}, -- [4]
+			},
+		},
+		[50725] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["character_name"] = "serferine",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 1,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 2,
+					["character_name"] = "Langrohr",
+					["is_offspec"] = 0,
+				}, -- [1]
 			},
 		},
 		[50034] = {
@@ -4774,57 +4934,17 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50685] = {
-			["wishlist"] = {
+		[49986] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 7,
-					["character_name"] = "Langrohr",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 2,
-					["character_name"] = "Maexfresh",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 7,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 3,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 2,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [5]
-			},
-		},
-		[50698] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 5,
-					["character_name"] = "Klassíc",
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
 		},
-		[50183] = {
+		[49949] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
@@ -4832,12 +4952,16 @@ ItemListsDB = {
 					["character_name"] = "Onixus",
 					["is_offspec"] = 0,
 				}, -- [1]
+			},
+		},
+		[50178] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["character_name"] = "Ukban",
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 			},
 		},
 		[50074] = {
@@ -4850,40 +4974,117 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[51939] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 5,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50688] = {
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 8,
-					["character_name"] = "Harva",
-					["is_offspec"] = 0,
-				}, -- [1]
+		[50425] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 4,
-					["sort_order"] = 7,
 					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 1,
+				}, -- [2]
+			},
+		},
+		[50664] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Klassíc",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 9,
-					["character_name"] = "Shamir",
+					["character_class"] = 2,
+					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
 				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Hennerr",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [7]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["sort_order"] = 5,
+					["character_name"] = "Langrohr",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["sort_order"] = 4,
+					["character_name"] = "Maexfresh",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 7,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 7,
+					["sort_order"] = 15,
+					["character_name"] = "Jocindyr",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["sort_order"] = 16,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 9,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["sort_order"] = 10,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [7]
 			},
 		},
 		[50608] = {
@@ -4906,6 +5107,12 @@ ItemListsDB = {
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
 				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Uwugamergirl",
+					["is_offspec"] = 0,
+				}, -- [4]
 			},
 			["wishlist"] = {
 				{
@@ -4922,13 +5129,6 @@ ItemListsDB = {
 					["character_name"] = "Langrohr",
 					["is_offspec"] = 0,
 				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 18,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [3]
 			},
 		},
 		[50616] = {
@@ -4941,46 +5141,33 @@ ItemListsDB = {
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["character_name"] = "Bremskyle",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [2]
 			},
 			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 4,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
 					["sort_order"] = 1,
 					["character_name"] = "Maexfresh",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [1]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 3,
-					["sort_order"] = 10,
-					["character_name"] = "Vilro",
+					["sort_order"] = 8,
+					["character_name"] = "Tarfu",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 2,
 					["sort_order"] = 9,
 					["character_name"] = "Habíb",
 					["is_offspec"] = 0,
-				}, -- [4]
+				}, -- [3]
 			},
 		},
 		[50624] = {
@@ -4988,49 +5175,59 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 1,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Liptea",
+					["character_class"] = 10,
+					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
 				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 1,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
 					["character_name"] = "Taste",
 					["is_offspec"] = 0,
-				}, -- [3]
+				}, -- [5]
 			},
 		},
-		[50680] = {
-			["wishlist"] = {
+		[50632] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 6,
-					["character_name"] = "Dánáá",
+					["character_class"] = 7,
+					["character_name"] = "Hanaltar",
 					["is_offspec"] = 0,
 				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 2,
-					["character_name"] = "Habíb",
-					["is_offspec"] = 0,
-				}, -- [2]
 			},
 		},
 		[50640] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bubbledine",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 1,
 					["character_name"] = "Minoton",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
@@ -5040,13 +5237,6 @@ ItemListsDB = {
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 3,
-					["character_name"] = "Bubbledine",
-					["is_offspec"] = 0,
-				}, -- [2]
 			},
 		},
 		[50648] = {
@@ -5072,136 +5262,39 @@ ItemListsDB = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Hakkî",
+					["is_offspec"] = 1,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["character_name"] = "Onixus",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 6,
 					["character_name"] = "Ukban",
 					["is_offspec"] = 0,
-				}, -- [2]
+				}, -- [3]
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 5,
 					["character_name"] = "Vanec",
 					["is_offspec"] = 1,
-				}, -- [3]
-			},
-		},
-		[50664] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["character_name"] = "Klassíc",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Bremskyle",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
 				}, -- [4]
 			},
+		},
+		[51939] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 13,
-					["character_name"] = "Dánáá",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 5,
-					["character_name"] = "Langrohr",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 11,
-					["character_name"] = "Maexfresh",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 2,
-					["character_name"] = "Schetner",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
-					["sort_order"] = 2,
-					["character_name"] = "Vilro",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 7,
-					["character_name"] = "Habíb",
-					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 4,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [7]
-				{
-					["character_is_alt"] = 0,
 					["character_class"] = 7,
-					["sort_order"] = 15,
+					["sort_order"] = 5,
 					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
-				}, -- [8]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 16,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [9]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 6,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [10]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 9,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [11]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 11,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [12]
+				}, -- [1]
 			},
 		},
 		[50672] = {
@@ -5212,13 +5305,19 @@ ItemListsDB = {
 					["character_name"] = "Alsia",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 4,
-					["character_name"] = "Domedonmaya",
+					["character_class"] = 2,
+					["sort_order"] = 16,
+					["character_name"] = "Bubbledine",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
@@ -5244,30 +5343,41 @@ ItemListsDB = {
 				}, -- [4]
 			},
 		},
-		[50425] = {
+		[50680] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Habíb",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 11,
+					["character_name"] = "Bremskyle",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50688] = {
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
 					["character_class"] = 4,
+					["sort_order"] = 7,
 					["character_name"] = "Jogí",
 					["is_offspec"] = 0,
 				}, -- [1]
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 1,
-				}, -- [2]
-			},
-		},
-		[50178] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Vanec",
+					["character_class"] = 4,
+					["sort_order"] = 9,
+					["character_name"] = "Shamir",
 					["is_offspec"] = 0,
-				}, -- [1]
+				}, -- [2]
 			},
 		},
 		[50186] = {
@@ -5290,6 +5400,26 @@ ItemListsDB = {
 			},
 		},
 		[50704] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 9,
+					["character_name"] = "Jodifrosta",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Slimpy",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
+					["is_offspec"] = 0,
+				}, -- [3]
+			},
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
@@ -5298,20 +5428,6 @@ ItemListsDB = {
 					["character_name"] = "Hampdidampdi",
 					["is_offspec"] = 0,
 				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 4,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 4,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [3]
 			},
 		},
 		[50712] = {
@@ -5325,11 +5441,10 @@ ItemListsDB = {
 			},
 		},
 		[50720] = {
-			["wishlist"] = {
+			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 7,
-					["sort_order"] = 8,
 					["character_name"] = "serferine",
 					["is_offspec"] = 0,
 				}, -- [1]
@@ -5347,7 +5462,7 @@ ItemListsDB = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
-					["sort_order"] = 9,
+					["sort_order"] = 7,
 					["character_name"] = "Domedonmaya",
 					["is_offspec"] = 0,
 				}, -- [2]
@@ -5367,61 +5482,24 @@ ItemListsDB = {
 				}, -- [4]
 			},
 		},
-		[49949] = {
+		[50423] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["character_name"] = "Onixus",
+					["character_class"] = 9,
+					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
 		},
-		[50620] = {
+		[50418] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["character_name"] = "Delmonte",
+					["character_class"] = 8,
+					["character_name"] = "Styleplox",
 					["is_offspec"] = 0,
 				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 4,
-					["character_name"] = "Jøki",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 5,
-					["character_name"] = "Domedonmaya",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 7,
-					["character_name"] = "Morai",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 10,
-					["sort_order"] = 10,
-					["character_name"] = "Taste",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 7,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [5]
 			},
 		},
 		[49987] = {
@@ -5440,53 +5518,130 @@ ItemListsDB = {
 				}, -- [2]
 			},
 		},
-		[49986] = {
-			["received"] = {
+		[51922] = {
+			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Minoton",
+					["character_class"] = 7,
+					["sort_order"] = 20,
+					["character_name"] = "Jocindyr",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
 		},
-		[50682] = {
+		[50363] = {
 			["received"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Alsia",
+					["character_class"] = 10,
+					["character_name"] = "Morai",
 					["is_offspec"] = 0,
 				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["character_name"] = "Shamir",
+					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 5,
+					["character_name"] = "Vanec",
+					["is_offspec"] = 0,
+				}, -- [3]
 			},
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 1,
-					["sort_order"] = 8,
-					["character_name"] = "Minoton",
+					["sort_order"] = 9,
+					["character_name"] = "Jøki",
 					["is_offspec"] = 0,
 				}, -- [1]
-			},
-		},
-		[50418] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50019] = {
-			["received"] = {
 				{
 					["character_is_alt"] = 0,
 					["character_class"] = 10,
+					["sort_order"] = 3,
 					["character_name"] = "Delmonte",
 					["is_offspec"] = 0,
+				}, -- [2]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 2,
+					["character_name"] = "Domedonmaya",
+					["is_offspec"] = 0,
+				}, -- [3]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 4,
+					["sort_order"] = 2,
+					["character_name"] = "Jogí",
+					["is_offspec"] = 0,
+				}, -- [4]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 1,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [5]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 2,
+					["character_name"] = "Taste",
+					["is_offspec"] = 0,
+				}, -- [6]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["sort_order"] = 3,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [7]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["sort_order"] = 2,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [8]
+			},
+		},
+		[50188] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
 				}, -- [1]
+			},
+		},
+		[50274] = {
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["sort_order"] = 13,
+					["character_name"] = "Liptea",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Shikimora",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Wønka",
+					["is_offspec"] = 0,
+				}, -- [2]
 			},
 		},
 		[50027] = {
@@ -5499,6 +5654,57 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
+		[50175] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Bremskyle",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50682] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 1,
+					["character_name"] = "Minoton",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 2,
+					["character_name"] = "Alsia",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+			["wishlist"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 10,
+					["sort_order"] = 4,
+					["character_name"] = "Tarsó",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
+		[50183] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Onixus",
+					["is_offspec"] = 0,
+				}, -- [1]
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 6,
+					["character_name"] = "Ukban",
+					["is_offspec"] = 0,
+				}, -- [2]
+			},
+		},
 		[50356] = {
 			["wishlist"] = {
 				{
@@ -5506,80 +5712,6 @@ ItemListsDB = {
 					["character_class"] = 2,
 					["sort_order"] = 12,
 					["character_name"] = "Bubbledine",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50684] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Sikkzh",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 8,
-					["character_name"] = "Hanaltar",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 11,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 11,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 6,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 7,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 7,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [6]
-			},
-		},
-		[50621] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["character_name"] = "Ukban",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50423] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
 				}, -- [1]
 			},
@@ -5600,6 +5732,16 @@ ItemListsDB = {
 				}, -- [2]
 			},
 		},
+		[50619] = {
+			["received"] = {
+				{
+					["character_is_alt"] = 0,
+					["character_class"] = 3,
+					["character_name"] = "wîdi",
+					["is_offspec"] = 0,
+				}, -- [1]
+			},
+		},
 		[50362] = {
 			["wishlist"] = {
 				{
@@ -5611,155 +5753,16 @@ ItemListsDB = {
 				}, -- [1]
 			},
 		},
-		[50725] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
+		["ID"] = 55891,
+		[50427] = {
 			["wishlist"] = {
 				{
 					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 2,
-					["character_name"] = "Langrohr",
-					["is_offspec"] = 0,
-				}, -- [1]
-			},
-		},
-		[50348] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["character_name"] = "Hakkî",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Slimpy",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["character_name"] = "Styleplox",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 3,
+					["character_class"] = 9,
 					["sort_order"] = 3,
-					["character_name"] = "Klassíc",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 8,
-					["sort_order"] = 1,
-					["character_name"] = "Hampdidampdi",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 12,
-					["character_name"] = "Hennerr",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 7,
-					["sort_order"] = 2,
-					["character_name"] = "Jocindyr",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 2,
-					["character_name"] = "Jodifrosta",
-					["is_offspec"] = 0,
-				}, -- [5]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 9,
-					["sort_order"] = 5,
 					["character_name"] = "Sikkzh",
 					["is_offspec"] = 0,
-				}, -- [6]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 5,
-					["sort_order"] = 2,
-					["character_name"] = "Uwugamergirl",
-					["is_offspec"] = 0,
-				}, -- [7]
-			},
-		},
-		[50618] = {
-			["received"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["character_name"] = "Jøki",
-					["is_offspec"] = 0,
 				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Liptea",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["character_name"] = "Shikimora",
-					["is_offspec"] = 0,
-				}, -- [3]
-			},
-			["wishlist"] = {
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 2,
-					["sort_order"] = 13,
-					["character_name"] = "Asdâlan",
-					["is_offspec"] = 0,
-				}, -- [1]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 10,
-					["character_name"] = "Jogí",
-					["is_offspec"] = 0,
-				}, -- [2]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 6,
-					["sort_order"] = 4,
-					["character_name"] = "Onixus",
-					["is_offspec"] = 0,
-				}, -- [3]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 4,
-					["sort_order"] = 8,
-					["character_name"] = "Shamir",
-					["is_offspec"] = 0,
-				}, -- [4]
-				{
-					["character_is_alt"] = 0,
-					["character_class"] = 1,
-					["sort_order"] = 8,
-					["character_name"] = "Wønka",
-					["is_offspec"] = 0,
-				}, -- [5]
 			},
 		},
 	},
@@ -5767,6 +5770,11 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1707597136] = {
+			"Alsia", -- [1]
+			"44135", -- [2]
+			"Greater Inscription of the Storm", -- [3]
+		},
 		[1698532499] = {
 			"Ihr", -- [1]
 			"44135", -- [2]
@@ -5832,12 +5840,17 @@ ItemListsDB = {
 			"44115", -- [2]
 			"Wintergrasp Commendation", -- [3]
 		},
+		[1700180325] = {
+			"Andrés", -- [1]
+			"44159", -- [2]
+			"Arcanum of Burning Mysteries", -- [3]
+		},
 		[1700180054] = {
 			"Alsia", -- [1]
 			"44159", -- [2]
 			"Arcanum of Burning Mysteries", -- [3]
 		},
-		[1702117089] = {
+		[1707597375] = {
 			"Andrés", -- [1]
 			"44135", -- [2]
 			"Greater Inscription of the Storm", -- [3]
@@ -5857,44 +5870,44 @@ ItemListsDB = {
 			"44115", -- [2]
 			"Wintergrasp Commendation", -- [3]
 		},
-		[1700180325] = {
+		[1702117089] = {
 			"Andrés", -- [1]
-			"44159", -- [2]
-			"Arcanum of Burning Mysteries", -- [3]
+			"44135", -- [2]
+			"Greater Inscription of the Storm", -- [3]
 		},
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
 	["profileKeys"] = {
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
-		["Andrés - Venoxis"] = {
+		["Lucho - Venoxis"] = {
 		},
 		["Xolem - Venoxis"] = {
 		},
 		["Alsía - Venoxis"] = {
 		},
-		["Lucho - Venoxis"] = {
+		["Andrés - Venoxis"] = {
 		},
-		["Alsia - Venoxis"] = {
+		["Pjanic - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Pjanic - Venoxis"] = {
+		["Alsia - Venoxis"] = {
 		},
 		["Kwasimojo - Venoxis"] = {
 		},

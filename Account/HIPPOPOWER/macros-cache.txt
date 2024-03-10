@@ -1,32 +1,547 @@
-VER 3 0000000000000463 "111_" "134400"
-/4 Suchen für ICC 25 9+ hcs Freitag 21:00 - GDKP 90/10 Shards Presold - Anmeldung mit Logs/GS/Exp unter https://discord.gg/B4Uk9Yu9Eq
+VER 3 000000000000076B "111_" "INV_Misc_QuestionMark"
+#showtooltip Sternenregen
+/use 13
+/use 14
+/use Geschwindigkeitstrank
+/use 10
+/cast Sternenregen
 END
-VER 3 0000000000000464 "111_" "134400"
-/4 LFM GDKP ICC 25 (HC 1+3)-  HC 10k NHC 5k - 1 Healer dann go!
+VER 3 000000000000076C "11_serach" "INV_Misc_QuestionMark"
+#showtooltip Spurt
+/cast [nostance:2] Katzengestalt
+/cast Spurt
 END
-VER 3 0000000000000465 "434" "236178"
+VER 3 000000000000076D "434" "236178"
 /castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
 END
-VER 3 0000000000000466 "focus" "132097"
-/focus
+VER 3 000000000000076E "Anregen" "INV_Misc_QuestionMark"
+#showtooltip Anregen
+/cast [@mouseover] Anregen
 END
-VER 3 0000000000000467 "g_boots" "INV_Misc_QuestionMark"
+VER 3 000000000000076F "Anub" "135994"
+/cancelaura Gebet der Seelenstärke
+/cancelaura Machtwort: Seelenstärke
+/cancelaura Befehlsruf
+END
+VER 3 0000000000000770 "Auslöschen" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Auslöschen(Rang 4)
+/startattack
+/petattack
+/cast Klaue
+END
+VER 3 0000000000000771 "Ballern" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Einäschern
+/use 13
+/use 14
+/use Trank der Wilden Magie
+/use 10
+/cast Berserker(Volk)
+/cast Spiegelbild
+/use [@cursor] Saronitbombe
+/cast Feuerball(Rang 16)
+END
+VER 3 0000000000000772 "bann" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Magiebannung; [mod:ctrl, @mouseover, help, nodead] Krankheit heilen; Massenbannung
+END
+VER 3 0000000000000773 "Bite" "135833"
+/cast Vampiric Bite
+END
+VER 3 0000000000000774 "Blutstoß" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Blood Strike(Rank 6)
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000775 "Blühendes Leben" "INV_Misc_QuestionMark"
+#showtooltip Blühendes Leben
+/cast [@mouseover] Blühendes Leben
+END
+VER 3 0000000000000776 "boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 8
 END
-VER 3 0000000000000468 "g_buy" "134400"
+VER 3 0000000000000777 "Burst" "136010"
+/cast Kochendes Blut
+/cast Trank der wilden Magie
+/use 10
+END
+VER 3 0000000000000778 "Camera" "132092"
+/console cameraDistanceMaxZoomFactor 4
+END
+VER 3 0000000000000779 "cancel" "134400"
+/cancelaura Zorn der Gerechtigkeit
+END
+VER 3 000000000000077A "cancel" "134400"
+/cancelaura Gebet der Seelenstärke
+/cancelaura Befehlsruf
+/cancelaura Sonnenwendfestverstärkung
+END
+VER 3 000000000000077B "cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Schattengeist; Berserker
+END
+VER 3 000000000000077C "cds" "135812"
+/cast Arkane Macht
+/cast Eisige Adern
+/use 13
+/use Geschwindigkeitstrank
+END
+VER 3 000000000000077D "Corr" "136118"
+/cast Verderbnis(Rang 10)
+/petattack
+END
+VER 3 000000000000077E "d_q" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Blitzheilung;Gedankenschlag
+END
+VER 3 000000000000077F "dds" "132868"
+/cast Arkane Macht
+/cast Spiegelbild
+/cast Eisige Adern
+/use 13
+END
+VER 3 0000000000000780 "Death Strike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Death Strike(Rank 5)
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000781 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Toxine heilen;  [@mouseover,exists,mod:ctrl] Verhexen; [@mouseover,exists,mod:shift] Reinigen
+END
+VER 3 0000000000000782 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Polymorph; [@mouseover,exists,mod:shift] Remove Curse
+END
+VER 3 0000000000000783 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Dispel Magic;  [@mouseover,exists,mod:ctrl] Abolish Disease; [@mouseover,exists,mod:shift] Dispel Magic
+END
+VER 3 0000000000000784 "DPS" "INV_Misc_QuestionMark"
+#showtooltip Rapid Fire
+/cast Rapid Fire
+/use [combat] 13
+/use [combat] 14
+/cast call of the wild
+/cast Berserking
+END
+VER 3 0000000000000785 "Feuerbrand" "135817"
+/cast Feuerbrand(Rang 11)
+/petAttack
+END
+VER 3 0000000000000787 "Fire CDS" "135903"
+/cast Mirror Image
+/cast Combustion
+/use 10
+/use potion of speed
+/cast Berserking(Racial)
+END
+VER 3 0000000000000786 "Fire CDS" "135903"
+/cast Mirror Image
+/cast Combustion
+/use 10
+/use potion of speed
+END
+VER 3 0000000000000788 "focus" "132097"
+/focus
+END
+VER 3 0000000000000789 "freedom" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover,exists] Hand of Freedom; Hand of Freedom
+END
+VER 3 000000000000078A "Frost CDs" "132388"
+/cast Blood Tap
+/cast Unbreakable Armor
+/use 11
+/use 12
+/use 10
+/use 13
+/use 14
+/cast Blood Fury(Racial)
+END
+VER 3 000000000000078B "Froststoß" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Froststoß(Rang 6)
+/startattack
+/petattack
+/cast Klaue
+END
+VER 3 000000000000078C "g_buy" "134400"
 /script BuyMerchantItem(1,500)
 END
-VER 3 0000000000000469 "g_focus_kick" "INV_Misc_QuestionMark"
+VER 3 000000000000078D "g_focus_kick" "INV_Misc_QuestionMark"
 #showtooltip Windstoß
 /stopcasting
 /cast [@focus] Windstoß
 /cast Windstoß
 END
-VER 3 000000000000046A "g_hände" "132959"
+VER 3 000000000000078E "g_hände" "132959"
 /use 10
 END
-VER 3 000000000000046B "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 000000000000078F "g_Trinket" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
+END
+VER 3 0000000000000790 "Grip" "INV_Misc_QuestionMark"
+#showtooltip Death Grip
+/cast Death Grip
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000791 "h_main3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @focus] Beacon of Light;[@mouseover, help, nodead][] Beacon of Light
+END
+VER 3 0000000000000792 "h_siegel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Seal of Wisdom; [mod:ctrl] Seal of Corruption; Seal of Light;
+END
+VER 3 0000000000000793 "Heal" "136146"
+#Showtooltip
+/castsequence Raise Dead, Death Pact
+END
+VER 3 0000000000000794 "hymn" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Hymne der Hoffnung; Gotteshymne
+END
+VER 3 0000000000000795 "Icy touch" "INV_Misc_QuestionMark"
+#showtooltip Icy Touch
+/cast Icy Touch
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000796 "InstantHeal" "136041"
+/cast Schnelligkeit der Natur
+/cast [@mouseover] Heilende Berührung
+END
+VER 3 0000000000000797 "Mana Frost" "136222"
+/cancelaura Gebet der Seelenstärke
+/cancelaura Machtwort: Seelenstärke
+/cancelaura Befehlsruf
+/use Mächtiger Frostschutztrank
+END
+VER 3 0000000000000798 "Manaregg" "135955"
+#show Göttliche Bitte
+/cast Göttliche Bitte
+/cast Göttliche Eingebung
+/use Zornige Vergeltung
+END
+VER 3 000000000000079A "max" "134400"
+/console cameraDistanceMaxZoomFactor 4.5
+END
+VER 3 0000000000000799 "max" "134400"
+/console cameraDistanceMaxZoomFactor 3.5
+END
+VER 3 000000000000079B "mc" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Gedankenbesänftigung; Gedankenkontrolle
+END
+VER 3 000000000000079C "Metacds" "237558"
+/cast Metamorphosis
+/cast Immolation Aura(Demon)
+/use 13
+/use 14
+END
+VER 3 000000000000079D "Nachwachsen" "INV_Misc_QuestionMark"
+#showtooltip Nachwachsen
+/cast [@mouseover] Nachwachsen
+END
+VER 3 000000000000079E "p_purge" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast [mod:shift, @mouseover, help, nodead] Purify;[@mouseover, help, nodead] Cleanse; Cleanse
+END
+VER 3 000000000000079F "p_spot1" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, nodead] Hand of Reckoning; Hand of Reckoning
+END
+VER 3 00000000000007A1 "pal_bitte" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Göttliche Bitte
+/cancelaura Göttliche Bitte
+END
+VER 3 00000000000007A0 "pal_bitte" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Plea
+/cancelaura Divine Plea
+END
+VER 3 00000000000007A2 "pal_bub_cancel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Shield
+/cancelaura Divine Shield
+END
+VER 3 00000000000007A4 "pal_cancelrf" "135768"
+/cancelaura Righteous Fury
+END
+VER 3 00000000000007A3 "pal_cancelrf" "INV_Misc_QuestionMark"
+#showtooltip Righteous Fury
+/cancelaura Righteous Fury
+END
+VER 3 00000000000007A5 "pal_cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Zornige Vergeltung
+END
+VER 3 00000000000007A6 "pal_cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Avenging Wrath
+END
+VER 3 00000000000007A7 "pal_cd_h" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Zornige Vergeltung; Göttliche Eingebung
+END
+VER 3 00000000000007A8 "pal_ds_cancel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Sacrifice
+/cancelaura Divine Sacrifice
+END
+VER 3 00000000000007A9 "pal_h_amin4" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Lichtblitz;[@mouseover, help, nodead][] Heiliger Schock
+END
+VER 3 00000000000007AA "pal_prot_1button" "236255"
+/castsequence reset=6 Judgement of Wisdom,Shield of Righteousness,Holy Shield,Hammer of the Righteous,Consecration,Shield of Righteousness,Judgement of Wisdom,Hammer of the Righteous,Holy Shield,Shield of Righteousness,Consecration,Hammer of the Righteous
+END
+VER 3 00000000000007AB "pal_prot_f" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Exorcism; [mod:ctrl] Seal of Corruption; Holy Shield;
+END
+VER 3 00000000000007AC "pal_prot_g" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Arkaner Strom; Göttliche Eingebung
+END
+VER 3 00000000000007AD "pat_ret_f" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Exorzismus
+/cast Hand der Abrechnung
+END
+VER 3 00000000000007AE "Pflege" "INV_Misc_QuestionMark"
+#showtooltip Pflege
+/cast [@mouseover] Pflege
+END
+VER 3 00000000000007B0 "PI" "4352492"
+/w Serferine Pi bitte
+END
+VER 3 00000000000007B1 "PI" "INV_Misc_QuestionMark"
+#showtooltip Power Infusion
+/target Hakkî
+/cast Power Infusion
+END
+VER 3 00000000000007B2 "PI" "INV_Misc_QuestionMark"
+#showtooltip
+/target Hakkî
+/cast Seele der Macht
+END
+VER 3 00000000000007AF "PI" "INV_Misc_QuestionMark"
+#showtooltip Power Infusion
+/target Kev
+/cast Power Infusion
+END
+VER 3 00000000000007B3 "Plague" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Plague Strike(Rank 6)
+/startattack
+/petattack
+/cast Rune Stike
+END
+VER 3 00000000000007B4 "priest_c" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Shadowfiend;Berserking(Racial)
+END
+VER 3 00000000000007B5 "priest_sp_e" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Gedankenschinden
+END
+VER 3 00000000000007B6 "priest_sp_e" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Mind Flay
+END
+VER 3 00000000000007B8 "priest_sp_fient" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Shadowfiend
+/petaggressive
+/petattack
+/use Gewürzte Mammutleckereien
+/cast Kriechende Schatten
+END
+VER 3 00000000000007B7 "priest_sp_fient" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Schattengeist
+/petaggressive
+/petattack
+/use Gewürzte Mammutleckereien
+/cast Kriechende Schatten
+END
+VER 3 00000000000007B9 "Pyro" "INV_Misc_QuestionMark"
+#showtooltip
+/run pFQ()
+/cast Pyroschlag
+END
+VER 3 00000000000007BA "r_aoe" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Holy Wrath; Consecration
+END
+VER 3 00000000000007BB "r_hds" "INV_Misc_QuestionMark"
+#showtooltip Hand of Protection
+/stopcasting
+/cast [@mouseover, help, nodead] Hand of Protection;
+END
+VER 3 00000000000007BC "r_loh" "INV_Misc_QuestionMark"
+#showtooltip Handauflegung
+/stopcasting
+/cast [@mouseover, help, nodead] Handauflegung;
+END
+VER 3 00000000000007BD "r_loh" "INV_Misc_QuestionMark"
+#showtooltip Lay on Hands
+/stopcasting
+/cast [@mouseover, help, nodead] Lay on Hands;
+END
+VER 3 00000000000007BE "r_main2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Judgement of Light; Judgement of Wisdom
+/use 10
+END
+VER 3 00000000000007BF "r_siegel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Seal of Wisdom; [mod:ctrl] Seal of Corruption; Seal of Command;
+END
+VER 3 00000000000007C0 "r_stun" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Arcane Torrent(Racial); [mod:ctrl] Repentance; Hammer of Justice
+END
+VER 3 00000000000007C1 "Raid Sec" "INV_Misc_QuestionMark"
+#showtooltip
+/wirken Heilige Opferung
+/cancelaura Heilige Opferung
+END
+VER 3 00000000000007C2 "Random" "INV_Misc_QuestionMark"
+#showtooltip Seele der Macht
+/cast [@focus] Seele der Macht
+END
+VER 3 00000000000007C3 "Rasche Heilung" "INV_Misc_QuestionMark"
+#showtooltip Rasche Heilung
+/cast [@mouseover] Rasche Heilung
+END
+VER 3 00000000000007C4 "RXPTargeting" "132150"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 00000000000007C5 "s_2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Verschlingende Seuche
+END
+VER 3 00000000000007C6 "s_3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Schattenwort: Schmerz
+END
+VER 3 00000000000007C7 "s_4" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Vampirberührung
+END
+VER 3 00000000000007C8 "s_6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Untote Fesseln; [mod:ctrl] Manabrand; Gedankenkontrolle
+END
+VER 3 00000000000007C9 "s_e" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Machtwort: Schild;Gedankenschinden
+END
+VER 3 00000000000007CA "s_f" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Gebet der Heilung; Gedankenexplosion
+END
+VER 3 00000000000007CB "Seelenfeuer" "INV_Misc_QuestionMark"
+#showtooltip Seelenfeuer(Rang 6)
+/cast [@pettarget,exists]Demonic Empowerment
+/cast Seelenfeuer(Rang 6)]
+END
+VER 3 00000000000007CD "shadow_swd+" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Schattenwort: Tod
+/use [@Cursor] Saronitbombe
+END
+VER 3 00000000000007CC "shadow_swd+" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Shadow Word: Death
+/use [@Cursor] Saronite Bomb
+END
+VER 3 00000000000007CE "Shadowbolt" "INV_Misc_QuestionMark"
+#showtooltip Schattenblitz(Rang 13)
+/cast [@pettarget,exists]Demonic Empowerment
+/cast Schattenblitz(Rang 13)
+END
+VER 3 00000000000007D0 "sham_e_cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Totem of Wrath; [mod:shift] Blood Fury; Elemental Mastery
+END
+VER 3 00000000000007CF "sham_e_cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Totem des Ingrimms; [mod:shift ] Kochendes Blut(Volk); Elementarbeherrschung
+END
+VER 3 00000000000007D1 "sham_enh_r" "INV_Misc_QuestionMark"
+#showtooltip
+/use Kochendes Blut(Volksfähigkeit)
+END
+VER 3 00000000000007D2 "sham_enh_r" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Magma Totem; Fire Nova
+END
+VER 3 00000000000007D4 "shield" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Avenger's Shield
+END
+VER 3 00000000000007D5 "shield" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Divine Plea;[@mouseover, help, nodead] Sacred Shield; Sacred Shield
+END
+VER 3 00000000000007D3 "shield" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Schild des Rächers
+END
+VER 3 00000000000007D6 "Snap" "136197"
+/cast [@mouseover,harm,nodead][] Schattenblitz(Rang 1)
+END
+VER 3 00000000000007D7 "spott2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl, @mouseover, help, nodead] Righteous Defense; [mod:shift, @mouseover, nodead] Righteous Defense; Righteous Defense
+END
+VER 3 00000000000007D8 "Spread" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Pestilence
+/startattack
+/cast Rune Strike
+END
+VER 3 00000000000007D9 "stam" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Prayer of Fortitude;Power Word: Fortitude
+END
+VER 3 00000000000007DA "Steady" "INV_Misc_QuestionMark"
+#showtooltip Steady Shot
+/cast Silencing Shot
+/cast Kill Command
+/cast Steady Shot
+END
+VER 3 00000000000007DB "Toppen" "135964"
+#show Heiliger Schock
+/use Göttliche Gunst
+/cast Heiliger Schock
+END
+VER 3 00000000000007DC "Verjüngung" "INV_Misc_QuestionMark"
+#showtooltip Verjüngung
+/cast [@mouseover] Verjüngung
+END
+VER 3 00000000000007DD "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 00000000000007DE "VuhDoDCShieldNames" "INV_Misc_QuestionMark"
+#showtooltip Sühne
+/cast [@mouseover] Sühne
+END
+VER 3 00000000000007DF "wille" "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/cast Richturteil des Lichts
+/cast Hand der Abrechnung
 END

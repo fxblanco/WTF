@@ -1,12 +1,79 @@
 
 DataStore_SpellsDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Endonuclease"] = {
+				["lastUpdate"] = 1710028937,
+				["Spells"] = {
+					["Combat"] = {
+						"13750|", -- [1]
+						"26863|Rank 10", -- [2]
+						"13877|", -- [3]
+						"26669|Rank 2", -- [4]
+						"27448|Rank 6", -- [5]
+						"1776|", -- [6]
+						"1766|", -- [7]
+						"51690|", -- [8]
+						"14251|", -- [9]
+						"5938|", -- [10]
+						"26862|Rank 10", -- [11]
+						"11305|Rank 3", -- [12]
+					},
+					["General"] = {
+						"6603|", -- [1]
+						"20557|Racial Passive", -- [2]
+						"26297|Racial", -- [3]
+						"26290|Racial Passive", -- [4]
+						"54197|Passive", -- [5]
+						"58943|Racial Passive", -- [6]
+						"81|Passive", -- [7]
+						"674|Passive", -- [8]
+						"3127|Passive", -- [9]
+						"1804|", -- [10]
+						"20555|Racial Passive", -- [11]
+						"3018|", -- [12]
+						"2764|", -- [13]
+						"20558|Racial Passive", -- [14]
+					},
+					["Subtlety"] = {
+						"2094|", -- [1]
+						"31224|", -- [2]
+						"2836|Passive", -- [3]
+						"1842|", -- [4]
+						"1725|", -- [5]
+						"921|", -- [6]
+						"1860|Passive", -- [7]
+						"51724|Rank 4", -- [8]
+						"1784|", -- [9]
+						"26889|Rank 3", -- [10]
+					},
+					["Assassination"] = {
+						"48689|Rank 8", -- [1]
+						"1833|", -- [2]
+						"48673|Rank 2", -- [3]
+						"51722|", -- [4]
+						"32684|Rank 2", -- [5]
+						"26865|Rank 10", -- [6]
+						"8647|", -- [7]
+						"26884|Rank 8", -- [8]
+						"8643|Rank 2", -- [9]
+						"26867|Rank 7", -- [10]
+						"6774|Rank 2", -- [11]
+					},
+				},
+				["SpellTabs"] = {
+					"General", -- [1]
+					"Assassination", -- [2]
+					"Combat", -- [3]
+					"Subtlety", -- [4]
+				},
+			},
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706822112,
+				["lastUpdate"] = 1708815585,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -123,15 +190,16 @@ DataStore_SpellsDB = {
 						"11719|Rank 2", -- [4]
 						"50511|Rank 9", -- [5]
 						"47865|Rank 5", -- [6]
-						"47859|Rank 5", -- [7]
-						"47860|Rank 6", -- [8]
-						"47857|Rank 9", -- [9]
-						"5138|", -- [10]
-						"47855|Rank 6", -- [11]
-						"6215|Rank 3", -- [12]
+						"47860|Rank 6", -- [7]
+						"47857|Rank 9", -- [8]
+						"5138|", -- [9]
+						"47855|Rank 6", -- [10]
+						"6215|Rank 3", -- [11]
+						"59164|Rank 4", -- [12]
 						"17928|Rank 2", -- [13]
 						"57946|Rank 8", -- [14]
 						"47836|Rank 3", -- [15]
+						"47843|Rank 5", -- [16]
 					},
 					["Gebrechen"] = {
 						"57946|Rang 8", -- [1]

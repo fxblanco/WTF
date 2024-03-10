@@ -1,6 +1,7 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -21,6 +22,9 @@ DataStoreDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Alsiadk"] = {
 				["faction"] = "Horde",
 			},
 		},

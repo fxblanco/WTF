@@ -7,6 +7,7 @@ LoggerHeadNDB = {
 		["Pippop - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
+		["Gerdgitarre - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
 		["Pjanic - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",

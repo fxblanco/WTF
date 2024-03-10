@@ -1,6 +1,7 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["global"] = {
@@ -10,9 +11,12 @@ DataStoreDB = {
 			},
 		},
 		["Characters"] = {
-			["Default.Venoxis.Exonuklease"] = {
+			["Default.Venoxis.Endonuclease"] = {
 				["faction"] = "Horde",
+			},
+			["Default.Venoxis.Exonuklease"] = {
 				["guildName"] = "Old Rabbitz",
+				["faction"] = "Horde",
 			},
 		},
 		["ShortToLongRealmNames"] = {

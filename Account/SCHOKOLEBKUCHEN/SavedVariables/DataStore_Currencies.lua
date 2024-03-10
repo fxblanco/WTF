@@ -1,17 +1,24 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Venoxis.Endonuclease"] = {
+				["lastUpdate"] = 1710028937,
+				["Currencies"] = {
+					"0|Player vs. Player", -- [1]
+					"1|Stone Keeper's Shard|9|161", -- [2]
+				},
+			},
 			["Default.Venoxis.Exonuklease"] = {
-				["lastUpdate"] = 1706822112,
 				["Currencies"] = {
 					"0|Dungeon and Raid", -- [1]
 					"1|Defiler's Scourgestone|3|2711", -- [2]
 					"1|Emblem of Conquest|0|221", -- [3]
-					"1|Emblem of Frost|248|341", -- [4]
+					"1|Emblem of Frost|298|341", -- [4]
 					"1|Emblem of Heroism|7|101", -- [5]
 					"1|Emblem of Triumph|37|301", -- [6]
 					"1|Emblem of Valor|0|102", -- [7]
@@ -23,6 +30,7 @@ DataStore_CurrenciesDB = {
 					"1|Honor Points|4507|1901", -- [13]
 					"1|Stone Keeper's Shard|697|161", -- [14]
 				},
+				["lastUpdate"] = 1708815585,
 			},
 		},
 	},

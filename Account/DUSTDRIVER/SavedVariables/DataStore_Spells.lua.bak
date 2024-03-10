@@ -1,6 +1,7 @@
 
 DataStore_SpellsDB = {
 	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -8,7 +9,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1706911429,
+				["lastUpdate"] = 1708294995,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -196,7 +197,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1706140062,
+				["lastUpdate"] = 1707945574,
 				["Spells"] = {
 					["Waffen"] = {
 						"47502|Rang 9", -- [1]
@@ -234,22 +235,14 @@ DataStore_SpellsDB = {
 					["General"] = {
 						"6603|", -- [1]
 						"818|", -- [2]
-						"3538|Expert", -- [3]
-						"107|Passive", -- [4]
-						"54197|Passive", -- [5]
-						"51296|Grand Master", -- [6]
-						"20552|Racial Passive", -- [7]
-						"81|Passive", -- [8]
-						"674|Passive", -- [9]
-						"20550|Racial Passive", -- [10]
-						"51306|Grand Master", -- [11]
-						"10846|Artisan", -- [12]
-						"20222|", -- [13]
-						"20551|Racial Passive", -- [14]
-						"3127|Passive", -- [15]
-						"3018|", -- [16]
-						"2764|", -- [17]
-						"20549|Racial", -- [18]
+						"54197|Passive", -- [3]
+						"20552|Racial Passive", -- [4]
+						"81|Passive", -- [5]
+						"20550|Racial Passive", -- [6]
+						"51306|Grand Master", -- [7]
+						"20222|", -- [8]
+						"20551|Racial Passive", -- [9]
+						"20549|Racial", -- [10]
 					},
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -344,6 +337,21 @@ DataStore_SpellsDB = {
 					"Arms", -- [2]
 					"Fury", -- [3]
 					"Protection", -- [4]
+				},
+			},
+			["Default.Venoxis.Alsiadk"] = {
+				["lastUpdate"] = 1708296254,
+				["Spells"] = {
+					["General"] = {
+						"6603|", -- [1]
+						"81|Passive", -- [2]
+					},
+				},
+				["SpellTabs"] = {
+					"General", -- [1]
+					"Blood", -- [2]
+					"Frost", -- [3]
+					"Unholy", -- [4]
 				},
 			},
 		},

@@ -1,6 +1,7 @@
 
 DataStore_ReputationsDB = {
 	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -8,7 +9,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1707076545,
+				["lastUpdate"] = 1708460952,
 				["Factions"] = {
 					[75] = -42000,
 					[46] = 8405,
@@ -19,7 +20,7 @@ DataStore_ReputationsDB = {
 					[8] = 6258,
 					[77] = 5758,
 					[47] = 13655,
-					[63] = 41267,
+					[63] = 42999,
 					[20] = 512,
 					[24] = 2000,
 					[40] = 2135,
@@ -27,7 +28,7 @@ DataStore_ReputationsDB = {
 					[57] = 5290,
 					[17] = 525,
 					[21] = 200,
-					[58] = 12880,
+					[58] = 13380,
 					[69] = 26367,
 					[43] = 15270,
 					[59] = 17440,
@@ -64,7 +65,7 @@ DataStore_ReputationsDB = {
 				},
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1706140062,
+				["lastUpdate"] = 1707945574,
 				["Factions"] = {
 					[75] = 10101,
 					[54] = 0,
@@ -101,6 +102,17 @@ DataStore_ReputationsDB = {
 					[74] = -42000,
 					[9] = 6182,
 					[15] = 240,
+				},
+			},
+			["Default.Venoxis.Alsiadk"] = {
+				["lastUpdate"] = 1708296254,
+				["Factions"] = {
+					[6] = 3100,
+					[7] = 4000,
+					[8] = 3100,
+					[77] = 3500,
+					[9] = 500,
+					[10] = 400,
 				},
 			},
 		},

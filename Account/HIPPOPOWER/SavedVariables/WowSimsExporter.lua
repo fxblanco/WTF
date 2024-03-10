@@ -6,6 +6,7 @@ WSEDB = {
 		["Pjanic - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
 		["Pippop - Venoxis"] = "Default",
+		["Gerdgitarre - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",

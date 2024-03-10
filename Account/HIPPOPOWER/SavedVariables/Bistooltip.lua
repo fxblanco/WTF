@@ -6,6 +6,7 @@ BisTooltipDB = {
 		["Pjanic - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
 		["Pippop - Venoxis"] = "Default",
+		["Gerdgitarre - Venoxis"] = "Default",
 		["Andrés - Transcendence"] = "Default",
 		["Lesbenlisa - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
@@ -35,8 +36,15 @@ BisTooltipDB = {
 			["data_source"] = "wowtbc",
 		},
 		["Pippop - Venoxis"] = {
-			["data_source"] = "wh",
+			["class_index"] = 5,
 			["version"] = 6.2,
+			["spec_index"] = 3,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
+		},
+		["Gerdgitarre - Venoxis"] = {
+			["version"] = 6.2,
+			["data_source"] = "wh",
 		},
 		["Andrés - Transcendence"] = {
 			["version"] = 6.1,

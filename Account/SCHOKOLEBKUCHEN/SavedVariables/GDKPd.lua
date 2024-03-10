@@ -1,28 +1,14 @@
 
 GDKPd_DB = {
+	["profileKeys"] = {
+		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
-	["profileKeys"] = {
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Fieserdot - Venoxis"] = "Fieserdot - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-	},
 	["profiles"] = {
-		["Endonuclease - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = -253.7497711181641,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -61.74993515014648,
-			},
-			["point"] = {
-				["y"] = -50.07497024536133,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -455.7244873046875,
-			},
-		},
 		["Fieserdot - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 62.83293914794922,
@@ -37,28 +23,41 @@ GDKPd_DB = {
 				["x"] = -336.3038940429688,
 			},
 		},
-		["Exonuklease - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = -141.1030731201172,
-				["x"] = -412.5790405273438,
-				["point"] = "TOPRIGHT",
-				["relative"] = "TOPRIGHT",
+		["Endonuclease - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = -240.2496795654297,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -34.75053405761719,
 			},
-			["auctionTimer"] = 15,
+			["point"] = {
+				["y"] = -50.07497024536133,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -455.7244873046875,
+			},
+		},
+		["Exonuklease - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = -34.25613784790039,
 				["x"] = -628.7024536132812,
 				["point"] = "RIGHT",
 				["relative"] = "RIGHT",
 			},
+			["auctionTimer"] = 15,
 			["point"] = {
-				["y"] = -216.9999389648438,
-				["relative"] = "TOPRIGHT",
-				["point"] = "TOPRIGHT",
-				["x"] = -546.0000610351562,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 575.5475463867188,
 			},
-			["auctionTimerRefresh"] = 10,
 			["startBid"] = 3000,
+			["auctionTimerRefresh"] = 10,
+			["balancepoint"] = {
+				["y"] = -141.1030731201172,
+				["x"] = -412.5790405273438,
+				["point"] = "TOPRIGHT",
+				["relative"] = "TOPRIGHT",
+			},
 			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = -231.6395721435547,
@@ -75,12 +74,12 @@ GDKPd_PotData = {
 		["Exonuklease"] = 1955,
 		["Beesportz"] = 0,
 		["Sturmpopel"] = 0,
-		["Abodin"] = 0,
+		["Myjuice"] = 0,
 		["Kyleriemen"] = 0,
 		["Gdkphunter"] = -10100,
 		["Kabaam"] = 0,
 		["Niebel"] = 0,
-		["Myjuice"] = 0,
+		["Abodin"] = 0,
 	},
 	["curPotHistory"] = {
 		{
@@ -142,5 +141,4 @@ GDKPd_PotData = {
 	["prevDist"] = 49555,
 }
 GDKPd_BalanceData = {
-	["Güllegodoy"] = 0,
 }

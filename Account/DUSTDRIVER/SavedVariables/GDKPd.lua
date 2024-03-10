@@ -1,13 +1,26 @@
 
 GDKPd_DB = {
-	["profileKeys"] = {
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
+	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
 	["profiles"] = {
+		["Alsiadk - Venoxis"] = {
+			["playerbalancepoint"] = {
+				["y"] = 174.0755615234375,
+				["x"] = 390.3396606445313,
+			},
+			["point"] = {
+				["y"] = -304.660400390625,
+				["relative"] = "TOPRIGHT",
+				["point"] = "TOPRIGHT",
+				["x"] = -242.6033020019531,
+			},
+		},
 		["Bloodwall - Venoxis"] = {
 			["playerbalancepoint"] = {
 				["y"] = 230.3377990722656,
@@ -83,15 +96,15 @@ GDKPd_PotData = {
 		["Eletaer"] = 0,
 		["Hópéful"] = 0,
 		["Vanec"] = 0,
-		["Hockasa"] = 0,
+		["Lûna"] = 0,
 		["Keinepepps"] = 0,
-		["Genodk"] = 0,
+		["Dodopaladin"] = 0,
 		["Dhelira"] = 0,
 		["Andrés"] = 0,
 		["Kroner"] = 0,
 		["Maturitass"] = 17460,
-		["Dodopaladin"] = 0,
-		["Lûna"] = 0,
+		["Genodk"] = 0,
+		["Hockasa"] = 0,
 		["Domedonmaya"] = -19540,
 	},
 	["curPotHistory"] = {

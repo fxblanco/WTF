@@ -1,6 +1,6 @@
 
 HidingBarDB = {
-	["tstmp"] = 1705067878,
+	["tstmp"] = 1709420346,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
@@ -8,114 +8,114 @@ HidingBarDB = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
 					["LibDBIcon10_ItemRack"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_RXPGuides"] = {
-						["tstmp"] = 1705067832,
+						["tstmp"] = 1709420020,
 					},
 					["LibDBIcon10_BisTooltipIcon"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Gargul"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_DBM"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Myslot"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["WIM3MinimapButton"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_AtlasLoot"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Grid2"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_PallyPower"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_MethodRaidTools"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["AltoholicMinimapButton"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_InstanceAchievementTracker"] = {
-						["tstmp"] = 1703278871,
+						["tstmp"] = 1707780384,
 					},
 					["Lib_GPI_Minimap_LFGBulletinBoard"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_GDKPdLDB"] = {
-						["tstmp"] = 1705067832,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_LoggerHeadLite"] = {
-						["tstmp"] = 1705067832,
+						["tstmp"] = 1709420020,
 					},
 					["LibDBIcon10_WeakAuras"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["LibDBIcon10_Questie"] = {
-						["tstmp"] = 1703278872,
+						["tstmp"] = 1707780386,
 					},
 					["LibDBIcon10_TMBTooltips"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 				},
 				["btnSettings"] = {
 					["LFGBulletinBoard"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["HidingBar"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["Grid2"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["BisTooltipIcon"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["DBM"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["Altoholic"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["InstanceAchievementTracker"] = {
-						["tstmp"] = 1703278871,
+						["tstmp"] = 1707780384,
 					},
 					["ItemRack"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["AtlasLoot"] = {
-						["tstmp"] = 1705067878,
-					},
-					["WeakAuras"] = {
-						["tstmp"] = 1705067878,
-					},
-					["Parrot"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 					["BagnonLauncher"] = {
-						["tstmp"] = 1697816203,
+						["tstmp"] = 1709420346,
+					},
+					["Parrot"] = {
+						["tstmp"] = 1709420346,
+					},
+					["WeakAuras"] = {
+						["tstmp"] = 1709420346,
 					},
 					["MRT"] = {
-						["tstmp"] = 1705067878,
+						["tstmp"] = 1709420346,
 					},
 				},
 				["grabMinimap"] = true,

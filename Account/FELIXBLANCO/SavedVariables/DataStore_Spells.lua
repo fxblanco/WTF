@@ -13,7 +13,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Kwasimojo"] = {
-				["lastUpdate"] = 1706570824,
+				["lastUpdate"] = 1707694461,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -174,7 +174,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Andrés"] = {
-				["lastUpdate"] = 1707146250,
+				["lastUpdate"] = 1707605305,
 				["Spells"] = {
 					["Allgemein"] = {
 						"51304|Großmeister", -- [1]
@@ -205,12 +205,23 @@ DataStore_SpellsDB = {
 						"42914|Rank 3", -- [9]
 					},
 					["General"] = {
-						"6603|", -- [1]
-						"818|", -- [2]
-						"54197|Passive", -- [3]
-						"81|Passive", -- [4]
-						"51306|Grand Master", -- [5]
-						"20222|", -- [6]
+						"51304|Grand Master", -- [1]
+						"6603|", -- [2]
+						"818|", -- [3]
+						"20557|Racial Passive", -- [4]
+						"26297|Racial", -- [5]
+						"26290|Racial Passive", -- [6]
+						"54197|Passive", -- [7]
+						"33359|Master", -- [8]
+						"58943|Racial Passive", -- [9]
+						"81|Passive", -- [10]
+						"51306|Grand Master", -- [11]
+						"20222|", -- [12]
+						"53042|Passive", -- [13]
+						"20555|Racial Passive", -- [14]
+						"5019|", -- [15]
+						"20558|Racial Passive", -- [16]
+						"28672|", -- [17]
 					},
 					["Arcane"] = {
 						"43017|Rank 7", -- [1]
@@ -319,7 +330,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Khalimmortus"] = {
-				["lastUpdate"] = 1707142480,
+				["lastUpdate"] = 1707866758,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -397,7 +408,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Xolem"] = {
-				["lastUpdate"] = 1706570780,
+				["lastUpdate"] = 1707597208,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -495,39 +506,10 @@ DataStore_SpellsDB = {
 						"51533|", -- [27]
 					},
 					["Elemental Combat"] = {
-						"66843|", -- [1]
-						"66842|", -- [2]
-						"66844|", -- [3]
-						"49271|Rank 8", -- [4]
-						"49231|Rank 10", -- [5]
-						"2484|", -- [6]
-						"2894|", -- [7]
-						"61657|Rank 9", -- [8]
-						"49233|Rank 9", -- [9]
-						"49236|Rank 7", -- [10]
-						"51514|", -- [11]
-						"60043|Rank 2", -- [12]
-						"49238|Rank 14", -- [13]
-						"58734|Rank 7", -- [14]
-						"8012|Rank 2", -- [15]
-						"58704|Rank 10", -- [16]
-						"58582|Rank 10", -- [17]
-						"57994|", -- [18]
+						"49233|Rank 9", -- [1]
 					},
 					["Restoration"] = {
-						"49277|Rank 7", -- [1]
-						"55459|Rank 7", -- [2]
-						"8170|", -- [3]
-						"526|", -- [4]
-						"51994|Rank 6", -- [5]
-						"58757|Rank 9", -- [6]
-						"49273|Rank 14", -- [7]
-						"49276|Rank 9", -- [8]
-						"58774|Rank 8", -- [9]
-						"20608|Passive", -- [10]
-						"36936|", -- [11]
-						"8143|", -- [12]
-						"57960|Rank 9", -- [13]
+						"20608|Passive", -- [1]
 					},
 					["Wiederherstellung"] = {
 						"49277|Rang 7", -- [1]
@@ -553,7 +535,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsia"] = {
-				["lastUpdate"] = 1707146488,
+				["lastUpdate"] = 1707855609,
 				["Spells"] = {
 					["Allgemein"] = {
 						"81|Passiv", -- [1]
@@ -591,22 +573,13 @@ DataStore_SpellsDB = {
 						"25780|", -- [26]
 					},
 					["General"] = {
-						"28877|Racial Passive", -- [1]
-						"28730|Racial", -- [2]
-						"6603|", -- [3]
-						"818|", -- [4]
-						"107|Passive", -- [5]
-						"54197|Passive", -- [6]
-						"51296|Grand Master", -- [7]
-						"81|Passive", -- [8]
-						"51306|Grand Master", -- [9]
-						"3274|Journeyman", -- [10]
-						"7732|Expert", -- [11]
-						"20222|", -- [12]
-						"51311|Grand Master", -- [13]
-						"822|Racial Passive", -- [14]
-						"3127|Passive", -- [15]
-						"31252|", -- [16]
+						"6603|", -- [1]
+						"54197|Passive", -- [2]
+						"81|Passive", -- [3]
+						"51306|Grand Master", -- [4]
+						"51311|Grand Master", -- [5]
+						"3127|Passive", -- [6]
+						"31252|", -- [7]
 					},
 					["Holy"] = {
 						"48936|Rank 9", -- [1]
@@ -713,7 +686,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Venoxis.Alsía"] = {
-				["lastUpdate"] = 1706920540,
+				["lastUpdate"] = 1707521119,
 				["Spells"] = {
 					["Protection"] = {
 						"48827|Rank 5", -- [1]

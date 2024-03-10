@@ -43,6 +43,7 @@ Bagnon_Sets = {
 				"misc", -- [20]
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
+				"contain", -- [23]
 			},
 			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
@@ -53,10 +54,12 @@ Bagnon_Sets = {
 			["hiddenRules"] = {
 			},
 			["y"] = 254.6718597412109,
-			["x"] = -2.7200927734375,
+			["x"] = -2.7193603515625,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
+			["lockedSlots"] = {
+			},
 		},
 		["vault"] = {
 			["rules"] = {
@@ -85,13 +88,14 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
+			["borderColor"] = {
+			},
 			["hiddenRules"] = {
 			},
-			["borderColor"] = {
+			["lockedSlots"] = {
 			},
 		},
 		["guild"] = {
-			["y"] = 355.4999694824219,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -117,14 +121,17 @@ Bagnon_Sets = {
 				"equip/ammo", -- [22]
 			},
 			["point"] = "BOTTOMLEFT",
-			["borderColor"] = {
+			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
-			["x"] = 710.1688232421875,
 			["hiddenRules"] = {
 			},
-			["hiddenBags"] = {
+			["y"] = 355.4999694824219,
+			["x"] = 710.1688232421875,
+			["borderColor"] = {
+			},
+			["lockedSlots"] = {
 			},
 		},
 		["bank"] = {
@@ -151,6 +158,7 @@ Bagnon_Sets = {
 				"misc", -- [20]
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
+				"contain", -- [23]
 			},
 			["point"] = "TOPLEFT",
 			["hiddenBags"] = {
@@ -159,11 +167,13 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -358.027099609375,
-			["x"] = 690.7223510742188,
+			["y"] = -358.02734375,
+			["x"] = 690.7224731445312,
 			["borderColor"] = {
 			},
 			["showBags"] = true,
+			["lockedSlots"] = {
+			},
 		},
 	},
 	["keyColor"] = {
@@ -177,8 +187,10 @@ Bagnon_Sets = {
 	["version"] = "10.1.15",
 	["display"] = {
 	},
+	["enchantColor"] = {
+	},
 	["fridgeColor"] = {
 	},
-	["enchantColor"] = {
+	["latest"] = {
 	},
 }

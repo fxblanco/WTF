@@ -5,6 +5,7 @@ DataStore_AgendaDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -15,15 +16,10 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Lesbenlisa"] = {
 				["DungeonIDs"] = {
-					["The Forge of Souls Heroic|282126594"] = "45966|1705072433|0|0",
-					["Icecrown Citadel 25 Player (Heroic)|195259578"] = "391566|1705072433|0|1",
+					["Icecrown Citadel 25 Player (Heroic)|197610242"] = "277255|1709420347|0|1",
 				},
 				["BossKills"] = {
-					["The Forge of Souls Heroic|282126594"] = {
-						"Bronjahm|1", -- [1]
-						"Devourer of Souls|1", -- [2]
-					},
-					["Icecrown Citadel 25 Player (Heroic)|195259578"] = {
+					["Icecrown Citadel 25 Player (Heroic)|197610242"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -38,17 +34,14 @@ DataStore_AgendaDB = {
 						"The Lich King|1", -- [12]
 					},
 				},
-				["lastUpdate"] = 1705072433,
+				["lastUpdate"] = 1709420347,
 			},
 			["Default.Venoxis.Pippop"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 25 Player|195238879"] = "396167|1705067833|0|1",
-					["Pit of Saron Heroic|282132924"] = "50567|1705067833|0|0",
-					["Trial of the Crusader 10 Player|195192678"] = "396167|1705067833|0|1",
-					["Icecrown Citadel 10 Player (Heroic)|195193470"] = "396167|1705067833|0|1",
+					["Icecrown Citadel 25 Player (Heroic)|197571535"] = "277316|1709420285|0|1",
 				},
 				["BossKills"] = {
-					["Icecrown Citadel 25 Player|195238879"] = {
+					["Icecrown Citadel 25 Player (Heroic)|197571535"] = {
 						"Lord Marrowgar|1", -- [1]
 						"Lady Deathwhisper|1", -- [2]
 						"Icecrown Gunship Battle|1", -- [3]
@@ -62,37 +55,14 @@ DataStore_AgendaDB = {
 						"Sindragosa|1", -- [11]
 						"The Lich King|1", -- [12]
 					},
-					["Pit of Saron Heroic|282132924"] = {
-						"Forgemaster Garfrost|1", -- [1]
-						"Krick|1", -- [2]
-						"Overlrod Tyrannus|1", -- [3]
-					},
-					["Trial of the Crusader 10 Player|195192678"] = {
-						"Northrend Beasts|1", -- [1]
-						"Lord Jaraxxus|1", -- [2]
-						"Faction Champions|0", -- [3]
-						"Val'kyr Twins|0", -- [4]
-						"Anub'arak|0", -- [5]
-					},
-					["Icecrown Citadel 10 Player (Heroic)|195193470"] = {
-						"Lord Marrowgar|1", -- [1]
-						"Lady Deathwhisper|1", -- [2]
-						"Icecrown Gunship Battle|1", -- [3]
-						"Deathbringer Saurfang|1", -- [4]
-						"Festergut|0", -- [5]
-						"Rotface|0", -- [6]
-						"Professor Putricide|0", -- [7]
-						"Blood Council|0", -- [8]
-						"Queen Lana'thel|0", -- [9]
-						"Valithria Dreamwalker|0", -- [10]
-						"Sindragosa|0", -- [11]
-						"The Lich King|0", -- [12]
-					},
 				},
-				["lastUpdate"] = 1705067833,
+				["lastUpdate"] = 1709420285,
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["lastUpdate"] = 1703190968,
+			},
+			["Default.Venoxis.Gerdgitarre"] = {
+				["lastUpdate"] = 1707780384,
 			},
 			["Default.Venoxis.Alsia"] = {
 				["lastUpdate"] = 1704715774,

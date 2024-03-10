@@ -16,25 +16,25 @@ AdiBagsDB = {
 		},
 		["AdiBags_TooltipInfo"] = {
 		},
-		["Equipment"] = {
-		},
-		["ItemSets"] = {
+		["MoneyFrame"] = {
 		},
 		["DataSource"] = {
 		},
+		["ItemSets"] = {
+		},
 		["Junk"] = {
 		},
-		["MoneyFrame"] = {
+		["Equipment"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Lucho - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Pjanic - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Pjanic - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
@@ -43,15 +43,15 @@ AdiBagsDB = {
 				["Masque"] = false,
 			},
 			["positions"] = {
-				["Backpack"] = {
-					["xOffset"] = -428.384521484375,
-					["point"] = "TOPRIGHT",
-					["yOffset"] = -264.640380859375,
-				},
 				["Bank"] = {
 					["xOffset"] = -808.962646484375,
 					["point"] = "TOPRIGHT",
 					["yOffset"] = -187.2392578125,
+				},
+				["Backpack"] = {
+					["xOffset"] = -166.647216796875,
+					["point"] = "TOPRIGHT",
+					["yOffset"] = -295.9703369140625,
 				},
 			},
 			["experiments"] = {

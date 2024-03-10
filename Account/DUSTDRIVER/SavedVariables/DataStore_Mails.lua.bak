@@ -1,6 +1,7 @@
 
 DataStore_MailsDB = {
 	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Recombinase - Venoxis"] = "Recombinase - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -8,12 +9,12 @@ DataStore_MailsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["lastUpdate"] = 1706643465,
-				["lastVisitDate"] = "2024/01/30 20:37",
+				["lastUpdate"] = 1707945675,
+				["lastVisitDate"] = "2024/02/14 22:21",
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1706140105,
-				["lastVisitDate"] = "2024/01/25 00:48",
+				["lastUpdate"] = 1707945623,
+				["lastVisitDate"] = "2024/02/14 22:20",
 			},
 		},
 	},

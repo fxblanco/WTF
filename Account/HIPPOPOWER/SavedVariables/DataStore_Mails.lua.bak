@@ -5,32 +5,43 @@ DataStore_MailsDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Lesbenlisa"] = {
-				["lastUpdate"] = 1705067803,
+				["lastUpdate"] = 1709419990,
 				["Mails"] = {
 					{
 						["sender"] = "Pippop",
-						["subject"] = "qwe",
-						["lastCheck"] = 1705067850,
-						["money"] = 300000000,
-						["text"] = "",
-						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["itemID"] = 44133,
+						["link"] = "|cff00ccff|Hitem:44133::::::::80:::::::::|h[Greater Inscription of the Axe]|h|r",
+						["count"] = 1,
+						["lastCheck"] = 1709420312,
+						["icon"] = 132471,
 						["daysLeft"] = 30,
 					}, -- [1]
+					{
+						["icon"] = 135724,
+						["sender"] = "Customer Support",
+						["subject"] = "Blizzard Europe - Game Master Support",
+						["returned"] = true,
+						["money"] = 0,
+						["text"] = "Greetings Lesbenlisa,\r\n\r\nFollowing our investigation, we have located and reimbursed your missing items, and where possible, your gold as well. \r\n\r\nAn email will be sent to your registered email address with the full details of your restoration. If you have not received a response after some time, please visit your Account Management webpage at https://worldofwarcraft.com/en-gb/ to verify that your e-mail address is correct. Also check your e-mail filters to allow e-mails from our In-Game Support Staff. Please be advised we will be unable to respond via in-game e-mail.\r\n\r\nPlease note that the reimbursement may not include everything that was lost. While we strive to reimburse as much as we can, only the items and gold that we were able to identify through our investigation, will be returned. We did our best to reimburse all items with any enchants and gems they may have had. If you have an item which is missing its original enchant or gems then it is due to the fact that we were not able to verify the enchant it had or the gems that were placed in it. \r\n\r\nPlease do not hesitate to contact us by submitting an in-game help petition, should you require assistance with another matter.\r\n\r\nWe regret we are unable to reply to in-game mail.\r\n\r\n\r\n\r\nOur In-Game Knowledge Base is updated regularly with hot topics and current known issues. It's a great resource for players, with answers to many common questions. You can access the Knowledge Base by pressing the red question mark icon in your action bar.",
+						["lastCheck"] = 1709419990,
+						["daysLeft"] = 357.8513793945313,
+					}, -- [2]
 				},
-				["lastVisitDate"] = "2024/01/12 14:56",
+				["lastVisitDate"] = "2024/03/02 23:53",
 			},
 			["Default.Venoxis.Pippop"] = {
-				["lastUpdate"] = 1705067851,
-				["lastVisitDate"] = "2024/01/12 14:57",
+				["lastUpdate"] = 1709420314,
+				["lastVisitDate"] = "2024/03/02 23:58",
 			},
 			["Default.Venoxis.Kwasimojo"] = {
 				["lastUpdate"] = 1704497097,
@@ -280,16 +291,6 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.01362228393555,
 					}, -- [1]
 					{
-						["icon"] = 134939,
-						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Small Glowing Shard (6)",
-						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
-						["lastCheck"] = 1704711716,
-						["daysLeft"] = 27.01362228393555,
-					}, -- [2]
-					{
 						["link"] = "|cff0070dd|Hitem:11084::::::::80:::::::::|h[Large Glimmering Shard]|h|r",
 						["sender"] = "Horde Auction House",
 						["itemID"] = 11084,
@@ -298,11 +299,21 @@ DataStore_MailsDB = {
 						["count"] = 4,
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.01362228393555,
-					}, -- [3]
+					}, -- [2]
 					{
 						["icon"] = 134939,
 						["sender"] = "Horde Auction House",
 						["subject"] = "Auction expired: Large Glimmering Shard (4)",
+						["returned"] = false,
+						["money"] = 0,
+						["text"] = "",
+						["lastCheck"] = 1704711716,
+						["daysLeft"] = 27.01362228393555,
+					}, -- [3]
+					{
+						["icon"] = 134939,
+						["sender"] = "Horde Auction House",
+						["subject"] = "Auction expired: Small Glowing Shard (6)",
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "",
@@ -330,25 +341,15 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.01368141174316,
 					}, -- [6]
 					{
-						["link"] = "|cff0070dd|Hitem:11139::::::::80:::::::::|h[Large Glowing Shard]|h|r",
+						["icon"] = 134939,
 						["sender"] = "Horde Auction House",
-						["itemID"] = 11139,
+						["subject"] = "Auction expired: Large Glowing Shard",
 						["returned"] = false,
-						["icon"] = 132878,
-						["count"] = 1,
+						["money"] = 0,
+						["text"] = "",
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.01553153991699,
 					}, -- [7]
-					{
-						["link"] = "|cff0070dd|Hitem:10978::::::::80:::::::::|h[Small Glimmering Shard]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 10978,
-						["returned"] = false,
-						["icon"] = 132877,
-						["count"] = 4,
-						["lastCheck"] = 1704711716,
-						["daysLeft"] = 27.01553153991699,
-					}, -- [8]
 					{
 						["icon"] = 134939,
 						["sender"] = "Horde Auction House",
@@ -358,27 +359,27 @@ DataStore_MailsDB = {
 						["text"] = "",
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.01553153991699,
+					}, -- [8]
+					{
+						["link"] = "|cff0070dd|Hitem:11139::::::::80:::::::::|h[Large Glowing Shard]|h|r",
+						["sender"] = "Horde Auction House",
+						["itemID"] = 11139,
+						["returned"] = false,
+						["icon"] = 132878,
+						["count"] = 1,
+						["lastCheck"] = 1704711716,
+						["daysLeft"] = 27.01553153991699,
 					}, -- [9]
 					{
-						["icon"] = 134939,
+						["link"] = "|cff0070dd|Hitem:10978::::::::80:::::::::|h[Small Glimmering Shard]|h|r",
 						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Large Glowing Shard",
+						["itemID"] = 10978,
 						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
+						["icon"] = 132877,
+						["count"] = 4,
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.01553153991699,
 					}, -- [10]
-					{
-						["link"] = "|cffffffff|Hitem:38561::::::::80:::::::::|h[Jormungar Scale]|h|r",
-						["sender"] = "Horde Auction House",
-						["itemID"] = 38561,
-						["returned"] = false,
-						["icon"] = 134320,
-						["count"] = 4,
-						["lastCheck"] = 1704711716,
-						["daysLeft"] = 27.0157642364502,
-					}, -- [11]
 					{
 						["icon"] = 134939,
 						["sender"] = "Horde Auction House",
@@ -386,6 +387,16 @@ DataStore_MailsDB = {
 						["returned"] = false,
 						["money"] = 0,
 						["text"] = "",
+						["lastCheck"] = 1704711716,
+						["daysLeft"] = 27.0157642364502,
+					}, -- [11]
+					{
+						["link"] = "|cffffffff|Hitem:38561::::::::80:::::::::|h[Jormungar Scale]|h|r",
+						["sender"] = "Horde Auction House",
+						["itemID"] = 38561,
+						["returned"] = false,
+						["icon"] = 134320,
+						["count"] = 4,
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.0157642364502,
 					}, -- [12]
@@ -420,12 +431,12 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.0168628692627,
 					}, -- [15]
 					{
-						["icon"] = 134939,
+						["link"] = "|cff1eff00|Hitem:35623::::::::80:::::::::|h[Eternal Air]|h|r",
 						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Eternal Air (2)",
+						["itemID"] = 35623,
 						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
+						["icon"] = 237007,
+						["count"] = 2,
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.0168628692627,
 					}, -- [16]
@@ -440,22 +451,22 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.0168628692627,
 					}, -- [17]
 					{
-						["link"] = "|cff1eff00|Hitem:35623::::::::80:::::::::|h[Eternal Air]|h|r",
+						["icon"] = 134939,
 						["sender"] = "Horde Auction House",
-						["itemID"] = 35623,
+						["subject"] = "Auction expired: Eternal Air (2)",
 						["returned"] = false,
-						["icon"] = 237007,
-						["count"] = 2,
+						["money"] = 0,
+						["text"] = "",
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.0168628692627,
 					}, -- [18]
 					{
-						["link"] = "|cffffffff|Hitem:34753::::::::80:::::::::|h[Great Feast]|h|r",
+						["icon"] = 134939,
 						["sender"] = "Horde Auction House",
-						["itemID"] = 34753,
+						["subject"] = "Auction expired: Great Feast (6)",
 						["returned"] = false,
-						["icon"] = 132184,
-						["count"] = 6,
+						["money"] = 0,
+						["text"] = "",
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.01773071289063,
 					}, -- [19]
@@ -480,12 +491,12 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.01773071289063,
 					}, -- [21]
 					{
-						["icon"] = 134939,
+						["link"] = "|cffffffff|Hitem:34753::::::::80:::::::::|h[Great Feast]|h|r",
 						["sender"] = "Horde Auction House",
-						["subject"] = "Auction expired: Great Feast (6)",
+						["itemID"] = 34753,
 						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
+						["icon"] = 132184,
+						["count"] = 6,
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.01773071289063,
 					}, -- [22]
@@ -500,12 +511,12 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.03049850463867,
 					}, -- [23]
 					{
-						["link"] = "|cffffffff|Hitem:44951::::::::80:::::::::|h[Box of Bombs]|h|r",
+						["icon"] = 134327,
 						["sender"] = "Khalimmortus",
-						["itemID"] = 44951,
+						["subject"] = "Box of Bombs",
 						["returned"] = false,
-						["icon"] = 132761,
-						["count"] = 1,
+						["money"] = 0,
+						["text"] = "",
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.03049850463867,
 					}, -- [24]
@@ -530,15 +541,24 @@ DataStore_MailsDB = {
 						["daysLeft"] = 27.03049850463867,
 					}, -- [26]
 					{
-						["icon"] = 134327,
+						["link"] = "|cffffffff|Hitem:44951::::::::80:::::::::|h[Box of Bombs]|h|r",
 						["sender"] = "Khalimmortus",
-						["subject"] = "Box of Bombs",
+						["itemID"] = 44951,
 						["returned"] = false,
-						["money"] = 0,
-						["text"] = "",
+						["icon"] = 132761,
+						["count"] = 1,
 						["lastCheck"] = 1704711716,
 						["daysLeft"] = 27.03049850463867,
 					}, -- [27]
+					{
+						["sender"] = "Lesbenlisa",
+						["subject"] = "qwe",
+						["icon"] = "Interface\\Icons\\INV_Misc_Coin_01",
+						["money"] = 200000000,
+						["text"] = "",
+						["lastCheck"] = 1709419988,
+						["daysLeft"] = 30,
+					}, -- [28]
 				},
 				["lastVisitDate"] = "2024/01/08 12:01",
 			},

@@ -5,6 +5,7 @@ DataStore_InventoryDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -15,53 +16,53 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Lesbenlisa"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51162:3817:41398:40111:::::80:::::::::|h[Sanctified Lightsworn Helmet]|h|r", -- [1]
+					"|cffa335ee|Hitem:51277:3817:41398:40111:::::80:::::::::|h[Sanctified Lightsworn Helmet]|h|r", -- [1]
 					"|cffa335ee|Hitem:49989::40111::::::80:::::::::|h[Ahn'kahar Onyx Neckguard]|h|r", -- [2]
-					"|cffa335ee|Hitem:51160:3808:40111::::::80:::::::::|h[Sanctified Lightsworn Shoulderplates]|h|r", -- [3]
-					nil, -- [4]
-					"|cffa335ee|Hitem:51164:3832:40111:49110:::::80:::::::::|h[Sanctified Lightsworn Battleplate]|h|r", -- [5]
-					"|cffa335ee|Hitem:46095::40111:40111:40111::::80:::::::::|h[Soul-Devouring Cinch]|h|r", -- [6]
+					"|cffa335ee|Hitem:51279::40111::::::80:::::::::|h[Sanctified Lightsworn Shoulderplates]|h|r", -- [3]
+					"|cff1eff00|Hitem:52019::::::::80:::::::::|h[Precious's Ribbon]|h|r", -- [4]
+					"|cffa335ee|Hitem:51275:3832:42142:49110:::::80:::::::::|h[Sanctified Lightsworn Battleplate]|h|r", -- [5]
+					"|cffa335ee|Hitem:50688::40143:40111:40111::::80:::::::::|h[Nerub'ar Stalker's Cord]|h|r", -- [6]
 					"|cffa335ee|Hitem:51278:3823:40111:40111:::::80:::::::::|h[Sanctified Lightsworn Legplates]|h|r", -- [7]
 					"|cffa335ee|Hitem:49895:3606:40111:40111:::::80:::::::::|h[Footpads of Impending Death]|h|r", -- [8]
 					"|cffa335ee|Hitem:50659:3845:40142::::::80:::::::::|h[Polar Bear Claw Bracers]|h|r", -- [9]
 					"|cffa335ee|Hitem:50690:3604:40142:40111:::::80:::::::::|h[Fleshrending Gauntlets]|h|r", -- [10]
-					"|cffa335ee|Hitem:50618::40111::::::80:::::::::|h[Frostbrood Sapphire Ring]|h|r", -- [11]
-					"|cffa335ee|Hitem:50402::::::::80:::::::::|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
+					"|cffa335ee|Hitem:50402::40111::::::80:::::::::|h[Ashen Band of Endless Vengeance]|h|r", -- [11]
+					"|cffa335ee|Hitem:50678::40111::::::80:::::::::|h[Seal of Many Mouths]|h|r", -- [12]
 					"|cffa335ee|Hitem:47464::::::::80:::::::::|h[Death's Choice]|h|r", -- [13]
-					"|cffa335ee|Hitem:46038::::::::80:::::::::|h[Dark Matter]|h|r", -- [14]
-					"|cffa335ee|Hitem:50653:3605:40111::::::80:::::::::|h[Shadowvault Slayer's Cloak]|h|r", -- [15]
-					"|cffa335ee|Hitem:49888:3789:40111:40111:::::80:::::::::|h[Shadow's Edge]|h|r", -- [16]
+					"|cffa335ee|Hitem:50351::::::::80:::::::::|h[Tiny Abomination in a Jar]|h|r", -- [14]
+					"|cffa335ee|Hitem:50653:3605:42142::::::80:::::::::|h[Shadowvault Slayer's Cloak]|h|r", -- [15]
+					"|cffff8000|Hitem:49623:3789:40111:40111:40111::::80:::::::::|h[Shadowmourne]|h|r", -- [16]
 					nil, -- [17]
 					"|cffa335ee|Hitem:50455::::::::80:::::::::|h[Libram of Three Truths]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 265.375,
-				["overallAIL"] = 269,
-				["lastUpdate"] = 1705072432,
+				["averageItemLvl"] = 274.25,
+				["overallAIL"] = 276.25,
+				["lastUpdate"] = 1709420633,
 			},
 			["Default.Venoxis.Pippop"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51158:3820:41285:40133:::::80:::::::::|h[Sanctified Bloodmage Hood]|h|r", -- [1]
-					"|cffa335ee|Hitem:51894::40152::::::80:::::::::|h[Soulcleave Pendant]|h|r", -- [2]
-					"|cffa335ee|Hitem:51155:3810:40152::::::80:::::::::|h[Sanctified Bloodmage Shoulderpads]|h|r", -- [3]
-					nil, -- [4]
+					"|cffa335ee|Hitem:51281:3820:41285:40133:::::80:::::::::|h[Sanctified Bloodmage Hood]|h|r", -- [1]
+					"|cffa335ee|Hitem:50724::40133::::::80:::::::::|h[Blood Queen's Crimson Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51284:3810:40152::::::80:::::::::|h[Sanctified Bloodmage Shoulderpads]|h|r", -- [3]
+					"|cff1eff00|Hitem:52019::::::::80:::::::::|h[Precious's Ribbon]|h|r", -- [4]
 					"|cffa335ee|Hitem:50629:3832:40113:40133:40152::::80:::::::::|h[Robe of the Waking Nightmare]|h|r", -- [5]
-					"|cffa335ee|Hitem:50997::40133:40113:40113::::80:::::::::|h[Circle of Ossus]|h|r", -- [6]
-					"|cffa335ee|Hitem:51157:3719:40133:40152:::::80:::::::::|h[Sanctified Bloodmage Leggings]|h|r", -- [7]
+					"|cffa335ee|Hitem:50613::40133:40113:40113::::80:::::::::|h[Crushing Coldwraith Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:51282:3719:40133:40152:::::80:::::::::|h[Sanctified Bloodmage Leggings]|h|r", -- [7]
 					"|cffa335ee|Hitem:50699:3606:40133:40113:::::80:::::::::|h[Plague Scientist's Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:51872:2332:40113::::::80:::::::::|h[Ether-Soaked Bracers]|h|r", -- [9]
-					"|cffa335ee|Hitem:51159:3604:40133::::::80:::::::::|h[Sanctified Bloodmage Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:50714::40152::::::80:::::::::|h[Valanar's Other Signet Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50686:2332:40113::::::80:::::::::|h[Death Surgeon's Sleeves]|h|r", -- [9]
+					"|cffa335ee|Hitem:51280:3604:40133::::::80:::::::::|h[Sanctified Bloodmage Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:50614::40152::::::80:::::::::|h[Loop of the Endless Labyrinth]|h|r", -- [11]
 					"|cffa335ee|Hitem:50398::40152::::::80:::::::::|h[Ashen Band of Endless Destruction]|h|r", -- [12]
-					"|cffa335ee|Hitem:45518::::::::80:::::::::|h[Flare of the Heavens]|h|r", -- [13]
-					"|cffa335ee|Hitem:50360::::::::80:::::::::|h[Phylactery of the Nameless Lich]|h|r", -- [14]
+					"|cffa335ee|Hitem:50348::::::::80:::::::::|h[Dislodged Foreign Object]|h|r", -- [13]
+					"|cffa335ee|Hitem:50365::::::::80:::::::::|h[Phylactery of the Nameless Lich]|h|r", -- [14]
 					"|cffa335ee|Hitem:47554:3722:40113::::::80:::::::::|h[Lady Liadrin's Conviction]|h|r", -- [15]
 					"|cffa335ee|Hitem:50608:3834:40113::::::80:::::::::|h[Frozen Bonespike]|h|r", -- [16]
 					"|cffa335ee|Hitem:50719::::::::80:::::::::|h[Shadow Silk Spindle]|h|r", -- [17]
 					"|cffa335ee|Hitem:50684::40152::::::80:::::::::|h[Corpse-Impaling Spike]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 268.625,
-				["overallAIL"] = 270.25,
-				["lastUpdate"] = 1705067832,
+				["averageItemLvl"] = 276.6875,
+				["overallAIL"] = 276.6875,
+				["lastUpdate"] = 1709420320,
 			},
 			["Default.Venoxis.Pjanic"] = {
 				["Inventory"] = {
@@ -76,6 +77,31 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 6.8125,
 				["overallAIL"] = 6.8125,
 				["lastUpdate"] = 1703190968,
+			},
+			["Default.Venoxis.Gerdgitarre"] = {
+				["Inventory"] = {
+					"|cffffffff|Hitem:41157::41398:40112:::::80:::::::::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:50452::40150::::::80:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:41217::40046::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffffffff|Hitem:127::::::::80:::::::::|h[]|h|r", -- [4]
+					"|cffffffff|Hitem:41087::40046:40046:::::80:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:41236::::::::80:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:49901::40112:40150:49110::::80:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:49897::40112:40112:::::80:::::::::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:51352::::::::80:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:41143::40046::::::80:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:42119::::::::80:::::::::|h[]|h|r", -- [11]
+					"|cffffffff|Hitem:51358::::::::80:::::::::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:42134::::::::80:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:44253::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:51354::::::::80:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:40388:3828:::::::80:::::::::|h[]|h|r", -- [16]
+					[18] = "|cffffffff|Hitem:40385:3608:::::::80:::::::::|h[]|h|r",
+					[19] = "|cffffffff|Hitem:43157::::::::80:::::::::|h[]|h|r",
+				},
+				["averageItemLvl"] = 245.1875,
+				["overallAIL"] = 250.6875,
+				["lastUpdate"] = 1707780383,
 			},
 			["Default.Venoxis.Alsia"] = {
 				["lastUpdate"] = 1704715774,
@@ -235,10 +261,10 @@ DataStore_InventoryDB = {
 			["Default.Venoxis.Old Rabbitz"] = {
 				["Members"] = {
 					["Alsia"] = {
-						["averageItemLvl"] = 267,
+						["averageItemLvl"] = 266,
 					},
 					["Pippop"] = {
-						["averageItemLvl"] = 268,
+						["averageItemLvl"] = 276,
 					},
 					["Kwasimojo"] = {
 						["averageItemLvl"] = 258,
@@ -246,20 +272,23 @@ DataStore_InventoryDB = {
 					["Alsía"] = {
 						["averageItemLvl"] = 265,
 					},
+					["Gerdgitarre"] = {
+						["averageItemLvl"] = 245,
+					},
 					["Xolem"] = {
 						["averageItemLvl"] = 249,
 					},
 					["Lesbenlisa"] = {
-						["averageItemLvl"] = 261,
+						["averageItemLvl"] = 274,
 					},
 					["Khalimmortus"] = {
-						["averageItemLvl"] = 252,
+						["averageItemLvl"] = 240,
 					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 258,
 					},
 					["Andrés"] = {
-						["averageItemLvl"] = 269,
+						["averageItemLvl"] = 268,
 					},
 					["Maturitass"] = {
 						["averageItemLvl"] = 255,

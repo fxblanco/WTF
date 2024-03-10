@@ -5,6 +5,7 @@ DiminishDB = {
 		["Pippop-Venoxis"] = "Default",
 		["Alsia-Venoxis"] = "Default",
 		["Alsía-Venoxis"] = "Default",
+		["Gerdgitarre-Venoxis"] = "Default",
 		["Pjanic-Venoxis"] = "Default",
 		["Xolem-Venoxis"] = "Default",
 		["Andrés-Venoxis"] = "Default",

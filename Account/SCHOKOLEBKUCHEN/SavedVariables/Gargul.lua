@@ -1,32 +1,36 @@
 
 GargulDB = {
-	["PlusOnes"] = {
-	},
 	["BoostedRolls"] = {
-	},
-	["LoadDetails"] = {
-		["lastLoadedOn"] = 1687287982,
-		["latestVersionChangesShown"] = "6.1.0",
-		["6.1.0"] = 1687287982,
+		["Points"] = {
+		},
+		["Aliases"] = {
+		},
 	},
 	["TMB"] = {
 	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
+	["LoadDetails"] = {
+		["7.2.17"] = 1708984759,
+		["lastLoadedOn"] = 1710026198,
+		["7.3.1"] = 1710026198,
+		["6.1.0"] = 1687287982,
+		["5.1.1"] = 1708984759,
+		["5.2.0"] = 1708984759,
+		["latestVersionChangesShown"] = "7.2.4",
+		["7.3.0"] = 1709421016,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
 		["PackMule"] = {
-			["autoDisableForGroupLoot"] = true,
-			["lootGold"] = true,
+			["needWithoutAssist"] = false,
 			["autoConfirmSolo"] = false,
-			["Rules"] = {
-			},
 			["announceDisenchantedItems"] = true,
-			["autoConfirmGroup"] = false,
 			["enabledForGroupLoot"] = false,
 			["enabledForMasterLoot"] = false,
+			["autoDisableForGroupLoot"] = true,
+			["Rules"] = {
+			},
+			["lootGold"] = true,
+			["autoConfirmGroup"] = false,
 		},
 		["TradeAnnouncements"] = {
 			["enchantmentReceived"] = true,
@@ -83,14 +87,24 @@ GargulDB = {
 			["antiSnipe"] = 15,
 			["enableBidderQueue"] = true,
 			["announceNewBidInRW"] = true,
+			["MultiAuction"] = {
+				["minimumFillQuality"] = 4,
+				["time"] = 600,
+				["includeMaterials"] = false,
+				["awardNotice"] = true,
+				["includeAwarded"] = false,
+				["antiSnipe"] = 15,
+				["includeBOEs"] = true,
+			},
 			["finalCallTime"] = 10,
-			["showHistoryOnTooltip"] = true,
+			["showBidWindow"] = true,
 			["queueIsHalted"] = true,
 			["storeMinimumAndIncrementPerItem"] = true,
+			["showHistoryOnTooltip"] = true,
 			["time"] = 30,
-			["showBidWindow"] = true,
-			["invalidBidsTriggerAntiSnipe"] = true,
 			["bidderQueueHideUnusable"] = false,
+			["invalidBidsTriggerAntiSnipe"] = true,
+			["precision"] = 0,
 			["outbidSound"] = "Gargul: uh-oh",
 			["numberOfFiveSecondsToCountdown"] = 15,
 			["notifyIfBidTooLow"] = true,
@@ -111,11 +125,11 @@ GargulDB = {
 			["queuedAuctionNoBidsAction"] = "SKIP",
 			["addDropsToQueue"] = true,
 		},
-		["showMinimapButton"] = true,
 		["ExportingLoot"] = {
 			["disenchanterIdentifier"] = "_disenchanted",
 			["customFormat"] = "@ID;@DATE @TIME;@WINNER",
 			["includeDisenchantedItems"] = true,
+			["format"] = 1,
 			["showLootAssignmentReminder"] = true,
 			["includeOffspecItems"] = true,
 		},
@@ -199,6 +213,10 @@ GargulDB = {
 			["minimumQualityOfAnnouncedLoot"] = 4,
 		},
 		["RollTracking"] = {
+			["sortByTMBWishlist"] = true,
+			["sortByTMBPrio"] = true,
+			["trackAll"] = false,
+			["sortBySoftRes"] = true,
 			["Brackets"] = {
 				{
 					"MS", -- [1]
@@ -217,7 +235,6 @@ GargulDB = {
 					false, -- [6]
 				}, -- [2]
 			},
-			["trackAll"] = false,
 		},
 		["LootTradeTimers"] = {
 			["enabled"] = true,
@@ -241,11 +258,34 @@ GargulDB = {
 			["hideAwardedToSelf"] = false,
 		},
 		["showUpdateAlert"] = false,
-		["welcomeMessage"] = true,
 		["profilerEnabled"] = false,
+		["welcomeMessage"] = true,
+		["MinimapButton"] = {
+			["enabled"] = true,
+			["Actions"] = {
+				["CTRL_MIDDLECLICK"] = "DISABLED",
+				["ALT_RIGHTCLICK"] = "DISABLED",
+				["RIGHTCLICK"] = "IMPORT",
+				["CTRL_SHIFT_RIGHTCLICK"] = "DISABLED",
+				["SHIFT_RIGHTCLICK"] = "EXPORT",
+				["CTRL_RIGHTCLICK"] = "DISABLED",
+				["ALT_CLICK"] = "DISABLED",
+				["MIDDLECLICK"] = "AWARDHISTORY",
+				["SHIFT_MIDDLECLICK"] = "DISABLED",
+				["ALT_SHIFT_CLICK"] = "DISABLED",
+				["SHIFT_CLICK"] = "SOFTRES",
+				["ALT_MIDDLECLICK"] = "DISABLED",
+				["CTRL_SHIFT_MIDDLECLICK"] = "DISABLED",
+				["CTRL_SHIFT_CLICK"] = "DISABLED",
+				["ALT_SHIFT_MIDDLECLICK"] = "DISABLED",
+				["CLICK"] = "GARGUL",
+				["ALT_SHIFT_RIGHTCLICK"] = "DISABLED",
+				["CTRL_CLICK"] = "DISABLED",
+			},
+		},
 		["highlightsEnabled"] = true,
-		["highlightWishlistedItems"] = true,
 		["soundChannel"] = "SFX",
+		["highlightWishlistedItems"] = true,
 		["Rolling"] = {
 			["showRollOffWindow"] = true,
 			["closeAfterRoll"] = false,
@@ -253,25 +293,6 @@ GargulDB = {
 		},
 		["highlightSoftReservedItems"] = true,
 		["highlightHardReservedItems"] = true,
-		["SoftRes"] = {
-			["enableWhisperCommand"] = true,
-			["announceInfoWhenRolling"] = true,
-			["announceInfoInChat"] = true,
-			["enableTooltips"] = true,
-			["fixPlayerNames"] = true,
-			["hideInfoOfPeopleNotInGroup"] = true,
-		},
-		["AwardingLoot"] = {
-			["announceAwardMessagesInGuildChat"] = false,
-			["autoTradeDisenchanter"] = true,
-			["autoTradeInCombat"] = true,
-			["awardOnReceive"] = false,
-			["announceAwardMessagesInRW"] = false,
-			["autoAssignAfterAwardingAnItem"] = true,
-			["awardMessagesEnabled"] = true,
-			["autoTradeAfterAwardingAnItem"] = true,
-			["awardOnReceiveMinimumQuality"] = 4,
-		},
 		["MasterLooting"] = {
 			["announceCountdownOnce"] = false,
 			["preferredMasterLootingThreshold"] = 2,
@@ -285,6 +306,36 @@ GargulDB = {
 			["alwaysUseDefaultNote"] = false,
 			["announceMasterLooter"] = false,
 			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
+		},
+		["AwardingLoot"] = {
+			["announceAwardMessagesInGuildChat"] = false,
+			["autoTradeDisenchanter"] = true,
+			["autoTradeInCombat"] = true,
+			["awardOnReceive"] = false,
+			["announceAwardMessagesInRW"] = false,
+			["autoAssignAfterAwardingAnItem"] = true,
+			["awardMessagesEnabled"] = true,
+			["autoTradeAfterAwardingAnItem"] = true,
+			["awardOnReceiveMinimumQuality"] = 4,
+			["skipAwardConfirmationDialog"] = false,
+		},
+		["SoftRes"] = {
+			["enableWhisperCommand"] = true,
+			["announceInfoWhenRolling"] = true,
+			["announceInfoInChat"] = true,
+			["enableTooltips"] = true,
+			["fixPlayerNames"] = true,
+			["hideInfoOfPeopleNotInGroup"] = true,
+		},
+	},
+	["GDKP"] = {
+		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
+		},
+	},
+	["PlusOnes"] = {
+		["Totals"] = {
 		},
 	},
 	["LootPriority"] = {

@@ -614,10 +614,11 @@ AtlasLootClassicDB = {
 		["Pjanic - Venoxis"] = "Pjanic - Venoxis",
 		["Pippop - Venoxis"] = "Pippop - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Gerdgitarre - Venoxis"] = "Gerdgitarre - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Lesbenlisa - Venoxis"] = "Lesbenlisa - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
@@ -661,23 +662,16 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
+		["Gerdgitarre - Venoxis"] = {
+		},
 		["Andrés - Venoxis"] = {
 		},
-		["Alsía - Venoxis"] = {
+		["Lesbenlisa - Venoxis"] = {
 			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-4.263388633728027, -- [4]
-					-162.4153442382813, -- [5]
-				},
 				["selected"] = {
 					nil, -- [1]
-					"RubySanctum", -- [2]
-					nil, -- [3]
-					8, -- [4]
-					0, -- [5]
+					"IcecrownCitadel", -- [2]
+					[5] = 0,
 				},
 			},
 		},
@@ -699,12 +693,21 @@ AtlasLootClassicDB = {
 				},
 			},
 		},
-		["Lesbenlisa - Venoxis"] = {
+		["Alsía - Venoxis"] = {
 			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-4.263388633728027, -- [4]
+					-162.4153442382813, -- [5]
+				},
 				["selected"] = {
 					nil, -- [1]
-					"IcecrownCitadel", -- [2]
-					[5] = 0,
+					"RubySanctum", -- [2]
+					nil, -- [3]
+					8, -- [4]
+					0, -- [5]
 				},
 			},
 		},

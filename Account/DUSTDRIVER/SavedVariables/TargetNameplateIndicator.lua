@@ -1,9 +1,10 @@
 
 TargetNameplateIndicatorDB = {
 	["profileKeys"] = {
-		["Maturitas - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
 		["Recombinase - Venoxis"] = "Default",
+		["Maturitas - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {
