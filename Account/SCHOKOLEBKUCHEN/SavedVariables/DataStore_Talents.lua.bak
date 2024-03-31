@@ -7,7 +7,7 @@ DataStore_TalentsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Endonuclease"] = {
-				["lastUpdate"] = 1709422236,
+				["lastUpdate"] = 1710112990,
 				["Class"] = "ROGUE",
 				["PointsSpent"] = "7,55,0",
 				["TalentTrees"] = {
@@ -104,6 +104,15 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Affliction,Demonology,Destruction",
 			["Trees"] = {
 				["Zerstörung"] = {
+					["prereqs"] = {
+						[20] = "4|1",
+						[10] = "5|2",
+						[22] = "7|2",
+						[23] = "7|3",
+						[11] = "3|3",
+					},
+					["background"] = "WarlockDestruction",
+					["icon"] = 136186,
 					["talents"] = {
 						"Katastrophe|135831|2|3|3", -- [1]
 						"Dunkle Macht|136146|1|3|5", -- [2]
@@ -132,6 +141,8 @@ DataStore_TalentsRefDB = {
 						"Chaosblitz|236291|11|2|1", -- [25]
 						"Machterfüllter Wichtel|236294|9|3|3", -- [26]
 					},
+				},
+				["Destruction"] = {
 					["prereqs"] = {
 						[20] = "4|1",
 						[10] = "5|2",
@@ -139,10 +150,8 @@ DataStore_TalentsRefDB = {
 						[23] = "7|3",
 						[11] = "3|3",
 					},
-					["icon"] = 136186,
 					["background"] = "WarlockDestruction",
-				},
-				["Destruction"] = {
+					["icon"] = 136186,
 					["talents"] = {
 						"Cataclysm|135831|2|3|3", -- [1]
 						"Bane|136146|1|3|5", -- [2]
@@ -171,17 +180,18 @@ DataStore_TalentsRefDB = {
 						"Chaos Bolt|236291|11|2|1", -- [25]
 						"Empowered Imp|236294|9|3|3", -- [26]
 					},
-					["prereqs"] = {
-						[20] = "4|1",
-						[10] = "5|2",
-						[22] = "7|2",
-						[23] = "7|3",
-						[11] = "3|3",
-					},
-					["icon"] = 136186,
-					["background"] = "WarlockDestruction",
 				},
 				["Dämonologie"] = {
+					["prereqs"] = {
+						[7] = "3|3",
+						[21] = "6|2",
+						[10] = "4|2",
+						[12] = "3|2",
+						[14] = "4|2",
+						[22] = "8|2",
+					},
+					["background"] = "WarlockSummoning",
+					["icon"] = 136172,
 					["talents"] = {
 						"Verbesserter Gesundheitsstein|135230|1|1|2", -- [1]
 						"Verbesserter Wichtel|136218|1|2|3", -- [2]
@@ -211,6 +221,8 @@ DataStore_TalentsRefDB = {
 						"Metamorphose|237558|11|2|1", -- [26]
 						"Dezimierung|135808|8|3|2", -- [27]
 					},
+				},
+				["Demonology"] = {
 					["prereqs"] = {
 						[7] = "3|3",
 						[21] = "6|2",
@@ -219,10 +231,8 @@ DataStore_TalentsRefDB = {
 						[14] = "4|2",
 						[22] = "8|2",
 					},
-					["icon"] = 136172,
 					["background"] = "WarlockSummoning",
-				},
-				["Demonology"] = {
+					["icon"] = 136172,
 					["talents"] = {
 						"Improved Healthstone|135230|1|1|2", -- [1]
 						"Improved Imp|136218|1|2|3", -- [2]
@@ -252,18 +262,16 @@ DataStore_TalentsRefDB = {
 						"Metamorphosis|237558|11|2|1", -- [26]
 						"Decimation|135808|8|3|2", -- [27]
 					},
-					["prereqs"] = {
-						[7] = "3|3",
-						[21] = "6|2",
-						[10] = "4|2",
-						[12] = "3|2",
-						[14] = "4|2",
-						[22] = "8|2",
-					},
-					["icon"] = 136172,
-					["background"] = "WarlockSummoning",
 				},
 				["Affliction"] = {
+					["prereqs"] = {
+						[11] = "5|2",
+						[13] = "3|3",
+						[19] = "7|2",
+						[28] = "9|2",
+					},
+					["background"] = "WarlockCurses",
+					["icon"] = 136145,
 					["talents"] = {
 						"Fel Concentration|136157|3|2|3", -- [1]
 						"Nightfall|136223|4|2|2", -- [2]
@@ -294,16 +302,16 @@ DataStore_TalentsRefDB = {
 						"Improved Fear|136183|3|1|2", -- [27]
 						"Pandemic|136227|9|3|1", -- [28]
 					},
+				},
+				["Gebrechen"] = {
 					["prereqs"] = {
 						[11] = "5|2",
 						[13] = "3|3",
 						[19] = "7|2",
 						[28] = "9|2",
 					},
-					["icon"] = 136145,
 					["background"] = "WarlockCurses",
-				},
-				["Gebrechen"] = {
+					["icon"] = 136145,
 					["talents"] = {
 						"Teufelskonzentration|136157|3|2|3", -- [1]
 						"Einbruch der Nacht|136223|4|2|2", -- [2]
@@ -334,14 +342,6 @@ DataStore_TalentsRefDB = {
 						"Verbesserte Furcht|136183|3|1|2", -- [27]
 						"Pandemie|136227|9|3|1", -- [28]
 					},
-					["prereqs"] = {
-						[11] = "5|2",
-						[13] = "3|3",
-						[19] = "7|2",
-						[28] = "9|2",
-					},
-					["icon"] = 136145,
-					["background"] = "WarlockCurses",
 				},
 			},
 		},
@@ -349,6 +349,13 @@ DataStore_TalentsRefDB = {
 			["Order"] = "Assassination,Combat,Subtlety",
 			["Trees"] = {
 				["Subtlety"] = {
+					["prereqs"] = {
+						[13] = "3|3",
+						[12] = "5|2",
+						[19] = "7|2",
+					},
+					["background"] = "RogueSubtlety",
+					["icon"] = 132320,
 					["talents"] = {
 						"Master of Deception|136129|1|2|3", -- [1]
 						"Camouflage|132320|2|3|3", -- [2]
@@ -379,15 +386,16 @@ DataStore_TalentsRefDB = {
 						"Shadow Dance|236279|11|2|1", -- [27]
 						"Relentless Strikes|132340|1|1|5", -- [28]
 					},
-					["prereqs"] = {
-						[13] = "3|3",
-						[12] = "5|2",
-						[19] = "7|2",
-					},
-					["icon"] = 132320,
-					["background"] = "RogueSubtlety",
 				},
 				["Combat"] = {
+					["prereqs"] = {
+						[21] = "7|2",
+						[2] = "1|3",
+						[15] = "2|2",
+						[17] = "5|2",
+					},
+					["background"] = "RogueCombat",
+					["icon"] = 132090,
 					["talents"] = {
 						"Precision|132222|2|4|5", -- [1]
 						"Close Quarters Combat|135641|3|3|5", -- [2]
@@ -418,16 +426,15 @@ DataStore_TalentsRefDB = {
 						"Prey on the Weak|236278|10|2|5", -- [27]
 						"Killing Spree|236277|11|2|1", -- [28]
 					},
-					["prereqs"] = {
-						[21] = "7|2",
-						[2] = "1|3",
-						[15] = "2|2",
-						[17] = "5|2",
-					},
-					["icon"] = 132090,
-					["background"] = "RogueCombat",
 				},
 				["Assassination"] = {
+					["prereqs"] = {
+						[18] = "7|2",
+						[13] = "5|2",
+						[2] = "1|3",
+					},
+					["background"] = "RogueAssassination",
+					["icon"] = 132292,
 					["talents"] = {
 						"Improved Poisons|132273|4|3|5", -- [1]
 						"Lethality|132109|3|3|5", -- [2]
@@ -457,13 +464,6 @@ DataStore_TalentsRefDB = {
 						"Cut to the Chase|236269|10|2|5", -- [26]
 						"Hunger For Blood|236276|11|2|1", -- [27]
 					},
-					["prereqs"] = {
-						[18] = "7|2",
-						[13] = "5|2",
-						[2] = "1|3",
-					},
-					["icon"] = 132292,
-					["background"] = "RogueAssassination",
 				},
 			},
 		},

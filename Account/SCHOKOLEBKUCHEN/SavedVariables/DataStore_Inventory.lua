@@ -8,28 +8,28 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.Venoxis.Endonuclease"] = {
 				["Inventory"] = {
-					"|cff1eff00|Hitem:35864::::::::73:::::::::|h[Fizznik's Patented Earwarmer]|h|r", -- [1]
-					"|cff0070dd|Hitem:44401::::::::73:::::::::|h[Hundred Tooth Necklace]|h|r", -- [2]
-					"|cff00ccff|Hitem:44103:3793:::::::73:::::::::|h[Exceptional Stormshroud Shoulders]|h|r", -- [3]
+					"|cffffffff|Hitem:35864::::::::73:::::::::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:44401::::::::73:::::::::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:44103:3793:::::::73:::::::::|h[]|h|r", -- [3]
 					nil, -- [4]
-					"|cff00ccff|Hitem:48689::::::::73:::::::::|h[Stained Shadowcraft Tunic]|h|r", -- [5]
-					"|cff1eff00|Hitem:37382::::::::73:::::::::|h[Charred Drakehide Belt]|h|r", -- [6]
-					"|cff1eff00|Hitem:35926::::::::73:::::::::|h[Artfully Tooled Leggings]|h|r", -- [7]
-					"|cff1eff00|Hitem:37387::::::::73:::::::::|h[Charred Treads]|h|r", -- [8]
-					"|cff0070dd|Hitem:39678::::::::73:::::::::|h[Vendetta Bindings]|h|r", -- [9]
-					"|cff1eff00|Hitem:37396::::::::73:::::::::|h[Whalehunter Gloves]|h|r", -- [10]
-					"|cff1eff00|Hitem:37524::::::::73:::::::::|h[Scout's Signet Ring]|h|r", -- [11]
-					"|cff0070dd|Hitem:38218::::::::73:::::::::|h[Executioner's Band]|h|r", -- [12]
-					"|cff1eff00|Hitem:37559::::::::73:::::::::|h[Serrah's Star]|h|r", -- [13]
-					"|cff1eff00|Hitem:37557::::::::73:::::::::|h[Warsong's Fervor]|h|r", -- [14]
-					"|cff1eff00|Hitem:35897::::::::73:::::::::|h[Ice-Crusted Cape]|h|r", -- [15]
-					"|cff0070dd|Hitem:35573::::::::73:::::::::|h[Arm Blade of Augelmir]|h|r", -- [16]
-					"|cff1eff00|Hitem:37036::::::::73:::::::::|h[Fish-Eye Poker]|h|r", -- [17]
-					"|cff1eff00|Hitem:37049::::::::73:::::::::|h[Lost Marksman's Rifle]|h|r", -- [18]
+					"|cffffffff|Hitem:48689::::::::73:::::::::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:37382::::::::73:::::::::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:35926::::::::73:::::::::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:37387::::::::73:::::::::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:39678::::::::73:::::::::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:37396::::::::73:::::::::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:37524::::::::73:::::::::|h[]|h|r", -- [11]
+					"|cffffffff|Hitem:38218::::::::73:::::::::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:37559::::::::73:::::::::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:37557::::::::73:::::::::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:35897::::::::73:::::::::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:35573::::::::73:::::::::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:37036::::::::73:::::::::|h[]|h|r", -- [17]
+					"|cffffffff|Hitem:37049::::::::73:::::::::|h[]|h|r", -- [18]
 				},
 				["averageItemLvl"] = 124.5625,
 				["overallAIL"] = 126.125,
-				["lastUpdate"] = 1710028937,
+				["lastUpdate"] = 1710192199,
 			},
 			["Default.Venoxis.Exonuklease"] = {
 				["lastUpdate"] = 1708816765,

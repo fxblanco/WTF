@@ -7,8 +7,24 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Endonuclease"] = {
-				["lastUpdate"] = 1709422236,
+				["lastUpdate"] = 1710112990,
 				["Spells"] = {
+					["General"] = {
+						"6603|", -- [1]
+						"20557|Racial Passive", -- [2]
+						"26297|Racial", -- [3]
+						"26290|Racial Passive", -- [4]
+						"54197|Passive", -- [5]
+						"58943|Racial Passive", -- [6]
+						"81|Passive", -- [7]
+						"674|Passive", -- [8]
+						"3127|Passive", -- [9]
+						"1804|", -- [10]
+						"20555|Racial Passive", -- [11]
+						"3018|", -- [12]
+						"2764|", -- [13]
+						"20558|Racial Passive", -- [14]
+					},
 					["Subtlety"] = {
 						"2094|", -- [1]
 						"31224|", -- [2]
@@ -34,22 +50,6 @@ DataStore_SpellsDB = {
 						"5938|", -- [10]
 						"26862|Rank 10", -- [11]
 						"11305|Rank 3", -- [12]
-					},
-					["General"] = {
-						"6603|", -- [1]
-						"20557|Racial Passive", -- [2]
-						"26297|Racial", -- [3]
-						"26290|Racial Passive", -- [4]
-						"54197|Passive", -- [5]
-						"58943|Racial Passive", -- [6]
-						"81|Passive", -- [7]
-						"674|Passive", -- [8]
-						"3127|Passive", -- [9]
-						"1804|", -- [10]
-						"20555|Racial Passive", -- [11]
-						"3018|", -- [12]
-						"2764|", -- [13]
-						"20558|Racial Passive", -- [14]
 					},
 					["Assassination"] = {
 						"48689|Rank 8", -- [1]

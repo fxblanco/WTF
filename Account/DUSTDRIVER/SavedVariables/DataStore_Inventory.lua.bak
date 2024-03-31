@@ -26,12 +26,13 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50343::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:47436:3605:40119::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:49110:40112:::::80:::::::::|h[]|h|r", -- [16]
-					[18] = "|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r",
-					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
+					nil, -- [17]
+					"|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
 				},
 				["averageItemLvl"] = 263.75,
 				["overallAIL"] = 266.875,
-				["lastUpdate"] = 1708294995,
+				["lastUpdate"] = 1708460952,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["Inventory"] = {
@@ -125,11 +126,11 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 263,
 					},
-					["Alsia"] = {
-						["averageItemLvl"] = 270,
-					},
 					["Bloodwall"] = {
 						["averageItemLvl"] = 257,
+					},
+					["Alsia"] = {
+						["averageItemLvl"] = 270,
 					},
 				},
 			},

@@ -28,8 +28,8 @@ DataStore_InventoryDB = {
 					"|cff1eff00|Hitem:37049::::::::73:::::::::|h[Lost Marksman's Rifle]|h|r", -- [18]
 				},
 				["averageItemLvl"] = 124.5625,
-				["overallAIL"] = 124.5625,
-				["lastUpdate"] = 1709422236,
+				["overallAIL"] = 126.125,
+				["lastUpdate"] = 1710112990,
 			},
 			["Default.Venoxis.Exonuklease"] = {
 				["lastUpdate"] = 1708816765,

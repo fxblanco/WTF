@@ -26,9 +26,8 @@ DataStore_InventoryDB = {
 					"|cffffffff|Hitem:50343::::::::80:::::::::|h[]|h|r", -- [14]
 					"|cffffffff|Hitem:47436:3605:40119::::::80:::::::::|h[]|h|r", -- [15]
 					"|cffffffff|Hitem:47463:3789:49110:40112:::::80:::::::::|h[]|h|r", -- [16]
-					nil, -- [17]
-					"|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r", -- [18]
-					"|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r", -- [19]
+					[18] = "|cffffffff|Hitem:47668::::::::80:::::::::|h[]|h|r",
+					[19] = "|cffffffff|Hitem:43155::::::::80:::::::::|h[]|h|r",
 				},
 				["averageItemLvl"] = 263.75,
 				["overallAIL"] = 266.875,
@@ -57,29 +56,29 @@ DataStore_InventoryDB = {
 			},
 			["Default.Venoxis.Bloodwall"] = {
 				["Inventory"] = {
-					"|cffffffff|Hitem:49986:3878:41380:40141:::::80:::::::::|h[]|h|r", -- [1]
-					"|cffa335ee|Hitem:50023::40119::::::80:::::::::|h[Bile-Encrusted Medallion]|h|r", -- [2]
-					"|cffffffff|Hitem:48470:3852:40119::::::80:::::::::|h[]|h|r", -- [3]
+					"|cffa335ee|Hitem:48393::41398:49110:::::80:::::::::|h[Hellscream's Helmet of Triumph]|h|r", -- [1]
+					"|cffa335ee|Hitem:51867::::::::80:::::::::|h[Infected Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:45433:3808:40037::::::80:::::::::|h[Valorous Siegebreaker Shoulderplates]|h|r", -- [3]
 					nil, -- [4]
-					"|cffffffff|Hitem:50850:3297:40119:40119:::::80:::::::::|h[]|h|r", -- [5]
-					"|cffa335ee|Hitem:50991::40130:40119:40119::::80:::::::::|h[Verdigris Chain Belt]|h|r", -- [6]
-					"|cffffffff|Hitem:51216:3822:40166:40119:::::80:::::::::|h[]|h|r", -- [7]
-					"|cffffffff|Hitem:47269:3606:40129::::::80:::::::::|h[]|h|r", -- [8]
-					"|cffffffff|Hitem:47571:3850:40166::::::80:::::::::|h[]|h|r", -- [9]
-					"|cffffffff|Hitem:50849:3860:40166::::::80:::::::::|h[]|h|r", -- [10]
-					"|cffffffff|Hitem:47476::40119::::::80:::::::::|h[]|h|r", -- [11]
-					"|cffa335ee|Hitem:50388::::::::80:::::::::|h[Ashen Band of Greater Courage]|h|r", -- [12]
-					"|cffa335ee|Hitem:47451::::::::80:::::::::|h[Juggernaut's Vitality]|h|r", -- [13]
-					"|cffa335ee|Hitem:47303::::::::80:::::::::|h[Death's Choice]|h|r", -- [14]
-					"|cffa335ee|Hitem:47550:3294:40119::::::80:::::::::|h[Cairne's Endurance]|h|r", -- [15]
-					"|cffffffff|Hitem:51010:2673:::::::80:::::::::|h[]|h|r", -- [16]
-					"|cffffffff|Hitem:50065:1071:::::::80:::::::::|h[]|h|r", -- [17]
-					"|cffffffff|Hitem:50444::::::::80:::::::::|h[]|h|r", -- [18]
+					"|cffa335ee|Hitem:48391::::::::80:::::::::|h[Hellscream's Battleplate of Triumph]|h|r", -- [5]
+					"|cffa335ee|Hitem:47998::40037:39910:39910::::80:::::::::|h[Belt of the Impaler]|h|r", -- [6]
+					"|cffa335ee|Hitem:51550::::::::80:::::::::|h[Ivory-Inlaid Leggings]|h|r", -- [7]
+					"|cffa335ee|Hitem:51915::::::::80:::::::::|h[Bone Drake's Enameled Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:48008:3845:40037::::::80:::::::::|h[Armplates of the Nether Lord]|h|r", -- [9]
+					"|cffa335ee|Hitem:48392::::::::80:::::::::|h[Hellscream's Gauntlets of Triumph]|h|r", -- [10]
+					"|cffa335ee|Hitem:47993::39910:39910:::::80:::::::::|h[Gormok's Band]|h|r", -- [11]
+					"|cffa335ee|Hitem:51878::::::::80:::::::::|h[Rotface's Rupturing Ring]|h|r", -- [12]
+					"|cffa335ee|Hitem:45931::::::::80:::::::::|h[Mjolnir Runestone]|h|r", -- [13]
+					"|cffffffff|Hitem:47303::::::::80:::::::::|h[]|h|r", -- [14]
+					"|cffa335ee|Hitem:48669:3605:39910::::::80:::::::::|h[Cloak of the Triumphant Combatant]|h|r", -- [15]
+					"|cffa335ee|Hitem:51936::::::::80:::::::::|h[Citadel Enforcer's Claymore]|h|r", -- [16]
+					"|cffa335ee|Hitem:50798::::::::80:::::::::|h[Ramaladni's Blade of Culling]|h|r", -- [17]
+					"|cffa335ee|Hitem:47428::40037::::::80:::::::::|h[Death's Head Crossbow]|h|r", -- [18]
 					"|cffffffff|Hitem:23705::::::::80:::::::::|h[]|h|r", -- [19]
 				},
-				["averageItemLvl"] = 257.875,
-				["overallAIL"] = 261.375,
-				["lastUpdate"] = 1707945574,
+				["averageItemLvl"] = 250.5,
+				["overallAIL"] = 260.625,
+				["lastUpdate"] = 1711324179,
 			},
 			["Default.Venoxis.Alsiadk"] = {
 				["Inventory"] = {
@@ -126,11 +125,11 @@ DataStore_InventoryDB = {
 					["Maturitass"] = {
 						["averageItemLvl"] = 263,
 					},
-					["Bloodwall"] = {
-						["averageItemLvl"] = 257,
-					},
 					["Alsia"] = {
 						["averageItemLvl"] = 270,
+					},
+					["Bloodwall"] = {
+						["averageItemLvl"] = 257,
 					},
 				},
 			},

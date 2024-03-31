@@ -1,6 +1,6 @@
 
 HidingBarDB = {
-	["tstmp"] = 1708296451,
+	["tstmp"] = 1711323976,
 	["profiles"] = {
 		{
 			["isDefault"] = true,
@@ -8,114 +8,114 @@ HidingBarDB = {
 				["addFromDataBroker"] = true,
 				["mbtnSettings"] = {
 					["LibDBIcon10_ItemRack"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_RXPGuides"] = {
 						["tstmp"] = 1708296254,
 					},
 					["LibDBIcon10_BisTooltipIcon"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_Gargul"] = {
 						["tstmp"] = 1708296451,
 					},
 					["LibDBIcon10_DBM"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_Myslot"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["WIM3MinimapButton"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1708460953,
 					},
 					["LibDBIcon10_Details"] = {
-						["tstmp"] = 1708296451,
-					},
-					["LibDBIcon10_Leatrix_Maps"] = {
-						["tstmp"] = 1708296451,
-					},
-					["LibDBIcon10_Grid2"] = {
-						["tstmp"] = 1708296451,
-					},
-					["LibDBIcon10_PallyPower"] = {
-						["tstmp"] = 1708296451,
-					},
-					["AltoholicMinimapButton"] = {
-						["tstmp"] = 1708296254,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_AtlasLoot"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
+					},
+					["LibDBIcon10_Grid2"] = {
+						["tstmp"] = 1711323976,
+					},
+					["LibDBIcon10_PallyPower"] = {
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_MethodRaidTools"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
+					},
+					["LibDBIcon10_Leatrix_Maps"] = {
+						["tstmp"] = 1711323976,
+					},
+					["AltoholicMinimapButton"] = {
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_Plater"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_WeakAuras"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_DetailsStreamer"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_GDKPdLDB"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_LoggerHeadLite"] = {
-						["tstmp"] = 1708296254,
+						["tstmp"] = 1708460953,
 					},
 					["Lib_GPI_Minimap_LFGBulletinBoard"] = {
-						["tstmp"] = 1708296254,
-					},
-					["LibDBIcon10_Questie"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["LibDBIcon10_InstanceAchievementTracker"] = {
 						["tstmp"] = 1708296254,
 					},
+					["LibDBIcon10_Questie"] = {
+						["tstmp"] = 1711323977,
+					},
 					["LibDBIcon10_TMBTooltips"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 				},
 				["btnSettings"] = {
 					["LFGBulletinBoard"] = {
-						["tstmp"] = 1708296254,
+						["tstmp"] = 1711323976,
 					},
 					["HidingBar"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["Grid2"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["BisTooltipIcon"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["DBM"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["Altoholic"] = {
-						["tstmp"] = 1708296254,
+						["tstmp"] = 1711323976,
 					},
 					["InstanceAchievementTracker"] = {
 						["tstmp"] = 1708296254,
 					},
 					["ItemRack"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["AtlasLoot"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["BagnonLauncher"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1708460953,
 					},
 					["Parrot"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["WeakAuras"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 					["MRT"] = {
-						["tstmp"] = 1708296451,
+						["tstmp"] = 1711323976,
 					},
 				},
 				["grabMinimap"] = true,

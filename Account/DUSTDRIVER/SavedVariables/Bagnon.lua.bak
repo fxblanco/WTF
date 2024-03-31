@@ -57,9 +57,9 @@ Bagnon_Sets = {
 			["x"] = -2.7193603515625,
 			["borderColor"] = {
 			},
-			["showBags"] = true,
 			["lockedSlots"] = {
 			},
+			["showBags"] = true,
 		},
 		["vault"] = {
 			["rules"] = {
@@ -88,11 +88,11 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["borderColor"] = {
+			["lockedSlots"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["lockedSlots"] = {
+			["borderColor"] = {
 			},
 		},
 		["guild"] = {
@@ -171,9 +171,9 @@ Bagnon_Sets = {
 			["x"] = 690.7224731445312,
 			["borderColor"] = {
 			},
-			["showBags"] = true,
 			["lockedSlots"] = {
 			},
+			["showBags"] = true,
 		},
 	},
 	["keyColor"] = {
@@ -187,10 +187,10 @@ Bagnon_Sets = {
 	["version"] = "10.1.15",
 	["display"] = {
 	},
-	["enchantColor"] = {
+	["latest"] = {
 	},
 	["fridgeColor"] = {
 	},
-	["latest"] = {
+	["enchantColor"] = {
 	},
 }

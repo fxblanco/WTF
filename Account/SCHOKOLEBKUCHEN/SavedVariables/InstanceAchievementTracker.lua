@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["hideCompletedAchievements"] = false,
-	["announceTrackedAchievements"] = false,
 	["trackAchievementsAutomatically"] = false,
+	["InfoFramescale"] = 1,
+	["hideCompletedAchievements"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 127.5749206542969,
 	["trackAchievementsInBlizzardUI"] = false,
-	["InfoFramescale"] = 1,
+	["announceTrackedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [1]
@@ -37308,6 +37308,28 @@ AchievementTrackerDebug = {
 	"10/3/2024 1:2 [DEBUG] Resetting PlayerRank", -- [37283]
 	"10/3/2024 1:2 [DEBUG] InfoFrame was not active", -- [37284]
 	"10/3/2024 1:2 [DEBUG] 6", -- [37285]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [37286]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.37.0", -- [37287]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [37288]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [37289]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [37290]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [37291]
+	"11/3/2024 0:22 [DEBUG] Showing Minimap Icon", -- [37292]
+	"11/3/2024 0:22 [DEBUG] Player has entered instance", -- [37293]
+	"11/3/2024 0:22 [DEBUG] 599", -- [37294]
+	"11/3/2024 0:22 [DEBUG] Offical Instance Name: 599 _599", -- [37295]
+	"11/3/2024 0:22 [DEBUG] Expansion: 3", -- [37296]
+	"11/3/2024 0:22 [DEBUG] Instance Type: Dungeons", -- [37297]
+	"11/3/2024 0:22 [DEBUG] Instance: 599", -- [37298]
+	"11/3/2024 0:22 [DEBUG] DifficultyID: 1", -- [37299]
+	"11/3/2024 0:22 [DEBUG] Achievements cannot be earned for the following difficulty 1", -- [37300]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [37301]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.37.0", -- [37302]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [37303]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [37304]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [37305]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [37306]
+	"11/3/2024 22:22 [DEBUG] Showing Minimap Icon", -- [37307]
 }
 AchievementTrackerNPCCache = {
 }
@@ -37340,9 +37362,9 @@ AchievementTrackerNPCCacheClassic = {
 	[26731] = "Grand Magus Telestra",
 	[26893] = "Grauf",
 	[26641] = "Drakkari Gutripper",
-	[33388] = "Dark Rune Guardian",
-	[28731] = "Watcher Silthik",
 	[33136] = "Guardian of Yogg-Saron",
+	[27975] = "Maiden of Grief",
+	[33388] = "Dark Rune Guardian",
 	[27658] = "Belgaristrasz",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
@@ -37350,7 +37372,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unstoppable Abomination",
 	[28729] = "Watcher Narjil",
 	[28730] = "Watcher Gashra",
-	[27975] = "Maiden of Grief",
+	[28731] = "Watcher Silthik",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",

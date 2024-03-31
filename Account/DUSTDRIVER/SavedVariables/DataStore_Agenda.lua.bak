@@ -10,7 +10,7 @@ DataStore_AgendaDB = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
 				["DungeonIDs"] = {
-					["Icecrown Citadel 10 Player|196536795"] = "193005|1708294995|0|1",
+					["Icecrown Citadel 10 Player|196536795"] = "27047|1708460953|0|1",
 				},
 				["BossKills"] = {
 					["Icecrown Citadel 10 Player|196536795"] = {
@@ -28,7 +28,7 @@ DataStore_AgendaDB = {
 						"The Lich King|1", -- [12]
 					},
 				},
-				["lastUpdate"] = 1708294995,
+				["lastUpdate"] = 1708460953,
 			},
 			["Default.Venoxis.Recombinase"] = {
 				["lastUpdate"] = 1699529504,

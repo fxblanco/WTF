@@ -9,71 +9,8 @@ DataStore_QuestsDB = {
 			["Default.Venoxis.Endonuclease"] = {
 				["HistoryBuild"] = "53622",
 				["HistorySize"] = 172,
-				["HistoryLastUpdate"] = 1710026217,
-				["QuestLinks"] = {
-					"|cffffff00|Hquest:11721:71|h[Gammothra the Tormentor]|h|r", -- [1]
-					"|cffffff00|Hquest:11881:71|h[Load'er Up!]|h|r", -- [2]
-					"|cffffff00|Hquest:11684:71|h[Scouting the Sinkholes]|h|r", -- [3]
-					"|cffffff00|Hquest:11677:71|h[Stop the Plague]|h|r", -- [4]
-					"|cffffff00|Hquest:11890:71|h[What Are They Up To?]|h|r", -- [5]
-					"|cffffff00|Hquest:11305:71|h[A Tailor-Made Formula]|h|r", -- [6]
-					"|cffffff00|Hquest:12482:71|h[Against Nifflevar]|h|r", -- [7]
-					"|cffffff00|Hquest:11397:71|h[And You Thought Murlocs Smelled Bad!]|h|r", -- [8]
-					"|cffffff00|Hquest:11263:71|h[Dealing With Gjalerbron]|h|r", -- [9]
-					"|cffffff00|Hquest:11279:71|h[Green Eggs and Whelps]|h|r", -- [10]
-					"|cffffff00|Hquest:11351:71|h[Mastering the Runes]|h|r", -- [11]
-					"|cffffff00|Hquest:11265:71|h[Of Keys and Cages]|h|r", -- [12]
-					"|cffffff00|Hquest:11424:71|h[Shield Hill]|h|r", -- [13]
-					"|cffffff00|Hquest:11286:71|h[The Artifacts of Steel Gate]|h|r", -- [14]
-					"|cffffff00|Hquest:11423:71|h[The Enemy's Legacy]|h|r", -- [15]
-					"|cffffff00|Hquest:11365:72|h[March of the Giants]|h|r", -- [16]
-					"|cffffff00|Hquest:13095:71|h[Have They No Shame?]|h|r", -- [17]
-					"|cffffff00|Hquest:11905:71|h[Postponing the Inevitable]|h|r", -- [18]
-					"|cffffff00|Hquest:11911:71|h[Quickening]|h|r", -- [19]
-				},
-				["lastUpdate"] = 1710028937,
-				["QuestHeaders"] = {
-					"Borean Tundra", -- [1]
-					"Howling Fjord", -- [2]
-					"The Nexus", -- [3]
-				},
-				["Rewards"] = {
-					[6] = "c|35851|1|1,c|35849|1|0,c|35852|1|1,c|35856|1|1",
-					[17] = "c|43181|1|1,c|43182|1|1,c|43183|1|0,c|43184|1|0",
-					[19] = "c|42760|1|1,c|42762|1|1,c|42766|1|0,c|42767|1|0,c|42768|1|0",
-					[18] = "c|42758|1|1,c|42761|1|1,c|42763|1|0,c|42765|1|0",
-					[4] = "c|37223|1|1,c|37391|1|1,c|37427|1|0,c|37507|1|0",
-					[14] = "c|35912|1|1,c|35911|1|1,c|35936|1|1",
-					[16] = "r|199210|1|1",
-					[13] = "c|35893|1|1,c|35892|1|1,c|35894|1|0,c|35895|1|0",
-				},
-				["QuestTitles"] = {
-					"Gammothra the Tormentor", -- [1]
-					"Load'er Up!", -- [2]
-					"Scouting the Sinkholes", -- [3]
-					"Stop the Plague", -- [4]
-					"What Are They Up To?", -- [5]
-					"A Tailor-Made Formula", -- [6]
-					"Against Nifflevar", -- [7]
-					"And You Thought Murlocs Smelled Bad!", -- [8]
-					"Dealing With Gjalerbron", -- [9]
-					"Green Eggs and Whelps", -- [10]
-					"Mastering the Runes", -- [11]
-					"Of Keys and Cages", -- [12]
-					"Shield Hill", -- [13]
-					"The Artifacts of Steel Gate", -- [14]
-					"The Enemy's Legacy", -- [15]
-					"March of the Giants", -- [16]
-					"Have They No Shame?", -- [17]
-					"Postponing the Inevitable", -- [18]
-					"Quickening", -- [19]
-				},
-				["QuestTags"] = {
-					[18] = 81,
-					[16] = 1,
-					[17] = 81,
-					[19] = 81,
-				},
+				["HistoryLastUpdate"] = 1710192199,
+				["lastUpdate"] = 1710192198,
 				["History"] = {
 					[2212] = 14080,
 					[355] = 4456448,
@@ -105,48 +42,6 @@ DataStore_QuestsDB = {
 					[362] = 1095663488,
 					[2215] = 7471232,
 					[398] = 16777216,
-				},
-				["Money"] = {
-					0, -- [1]
-					47000, -- [2]
-					47000, -- [3]
-					47000, -- [4]
-					47000, -- [5]
-					0, -- [6]
-					0, -- [7]
-					47000, -- [8]
-					47000, -- [9]
-					47000, -- [10]
-					47000, -- [11]
-					47000, -- [12]
-					47000, -- [13]
-					47000, -- [14]
-					0, -- [15]
-					50000, -- [16]
-					188000, -- [17]
-					188000, -- [18]
-					188000, -- [19]
-				},
-				["Quests"] = {
-					4655168, -- [1]
-					4655168, -- [2]
-					4655168, -- [3]
-					4655168, -- [4]
-					4655168, -- [5]
-					4657216, -- [6]
-					4657216, -- [7]
-					4657216, -- [8]
-					4657216, -- [9]
-					4657216, -- [10]
-					4657216, -- [11]
-					4657216, -- [12]
-					4657216, -- [13]
-					4657216, -- [14]
-					4657216, -- [15]
-					4722752, -- [16]
-					4659264, -- [17]
-					4659264, -- [18]
-					4659264, -- [19]
 				},
 			},
 			["Default.Venoxis.Exonuklease"] = {
@@ -377,18 +272,18 @@ DataStore_QuestsDB = {
 					[153] = 131072,
 					[766] = 3424387072,
 					[69] = 67108864,
-					[89] = 1073741888,
-					[306] = 570482176,
+					[354] = 415170470,
+					[77] = 256,
 					[322] = 269140160,
 					[338] = 570425600,
-					[354] = 415170470,
+					[89] = 1073741888,
 					[93] = 3758096385,
 					[97] = 134217728,
 					[402] = 2135456272,
 					[105] = 8192,
 					[1728] = 1,
 					[418] = 2147483648,
-					[77] = 256,
+					[306] = 570482176,
 					[121] = 48,
 					[125] = 24576,
 					[130] = 131392,

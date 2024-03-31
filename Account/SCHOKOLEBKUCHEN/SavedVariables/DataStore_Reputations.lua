@@ -7,7 +7,7 @@ DataStore_ReputationsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Endonuclease"] = {
-				["lastUpdate"] = 1710028937,
+				["lastUpdate"] = 1710192198,
 				["Factions"] = {
 					[73] = 9648,
 					[77] = 3500,
@@ -61,12 +61,12 @@ DataStore_ReputationsDB = {
 					[9] = 14421,
 					[10] = 7705,
 					[19] = 5655,
-					[37] = 0,
+					[73] = 24033,
 					[77] = 9733,
 					[53] = 0,
 					[61] = 42021,
 					[74] = 1400,
-					[73] = 24033,
+					[37] = 0,
 					[18] = 4117,
 				},
 			},

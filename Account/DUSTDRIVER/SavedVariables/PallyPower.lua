@@ -60,18 +60,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		4, -- [10]
 	},
-	["Bremskyle"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		3, -- [10]
-	},
 	["Spaltkyle"] = {
 		3, -- [1]
 		3, -- [2]
@@ -82,6 +70,18 @@ PallyPower_Assignments = {
 		1, -- [7]
 		1, -- [8]
 		3, -- [9]
+		3, -- [10]
+	},
+	["Bremskyle"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
 		3, -- [10]
 	},
 	["Hópéful"] = {
@@ -156,8 +156,8 @@ PallyPower_AuraAssignments = {
 	["Spaltkyle"] = 1,
 	["Diggii"] = 1,
 	["Viallri"] = 5,
-	["Bubblepete"] = 0,
 	["Avêss"] = 6,
+	["Bubblepete"] = 0,
 	["Tagirx"] = 1,
 	["Nefertâri"] = 0,
 	["Paloladinin"] = 2,
@@ -167,16 +167,16 @@ PallyPower_AuraAssignments = {
 	["Bremskyle"] = 1,
 	["Habíb"] = 5,
 	["Kolberg"] = 0,
-	["Highlightz"] = 2,
-	["Mírabel"] = 6,
+	["Naadak"] = 6,
+	["Xarreon"] = 5,
 	["Lorthasx"] = 2,
 	["Psychøtin"] = 1,
 	["Zelcher"] = 0,
 	["Pallanamn-Mograine"] = 5,
 	["Lichtobjekt"] = 5,
 	["Bubblonaut"] = 6,
-	["Naadak"] = 6,
-	["Xarreon"] = 5,
+	["Highlightz"] = 2,
+	["Mírabel"] = 6,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

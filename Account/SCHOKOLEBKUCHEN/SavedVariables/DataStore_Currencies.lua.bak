@@ -9,9 +9,9 @@ DataStore_CurrenciesDB = {
 			["Default.Venoxis.Endonuclease"] = {
 				["Currencies"] = {
 					"0|Player vs. Player", -- [1]
-					"1|Stone Keeper's Shard|3|161", -- [2]
+					"1|Stone Keeper's Shard|9|161", -- [2]
 				},
-				["lastUpdate"] = 1709422236,
+				["lastUpdate"] = 1710112990,
 			},
 			["Default.Venoxis.Exonuklease"] = {
 				["lastUpdate"] = 1708815585,

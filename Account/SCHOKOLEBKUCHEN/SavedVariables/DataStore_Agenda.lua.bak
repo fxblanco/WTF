@@ -7,9 +7,10 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Endonuclease"] = {
-				["lastUpdate"] = 1709422236,
+				["lastUpdate"] = 1710112990,
 			},
 			["Default.Venoxis.Exonuklease"] = {
+				["lastUpdate"] = 1708815586,
 				["BossKills"] = {
 					["Icecrown Citadel 25 Player|197179133"] = {
 						"Lord Marrowgar|1", -- [1]
@@ -26,7 +27,6 @@ DataStore_AgendaDB = {
 						"The Lich King|1", -- [12]
 					},
 				},
-				["lastUpdate"] = 1708815586,
 			},
 		},
 	},

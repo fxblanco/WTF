@@ -1,22 +1,33 @@
 
 GargulDB = {
-	["BoostedRolls"] = {
-		["Points"] = {
-		},
-		["Aliases"] = {
-		},
-	},
 	["TMB"] = {
 	},
+	["BoostedRolls"] = {
+		["Aliases"] = {
+		},
+		["Points"] = {
+		},
+	},
 	["LoadDetails"] = {
-		["lastLoadedOn"] = 1708296440,
 		["5.2.0"] = 1699062178,
-		["7.1.0"] = 1699529474,
 		["6.2.4"] = 1694808720,
-		["7.0.2"] = 1699062178,
-		["5.1.1"] = 1699062178,
-		["latestVersionChangesShown"] = "7.2.4",
+		["7.4.2"] = 1711923681,
+		["7.1.0"] = 1699529474,
 		["7.2.16"] = 1708296228,
+		["5.1.1"] = 1699062178,
+		["lastLoadedOn"] = 1711923681,
+		["latestVersionChangesShown"] = "7.4.0",
+		["7.0.2"] = 1699062178,
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["SettingsPerItem"] = {
+		},
+		["Queue"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -125,29 +136,34 @@ GargulDB = {
 			["queuedAuctionNoBidsAction"] = "SKIP",
 			["addDropsToQueue"] = true,
 		},
-		["showMinimapButton"] = true,
 		["ExportingLoot"] = {
 			["disenchanterIdentifier"] = "_disenchanted",
 			["customFormat"] = "@ID;@DATE @TIME;@WINNER",
 			["includeDisenchantedItems"] = true,
+			["format"] = 1,
 			["showLootAssignmentReminder"] = true,
 			["includeOffspecItems"] = true,
 		},
 		["UI"] = {
 			["Changelog"] = {
 				["Position"] = {
-					["point"] = "CENTER",
-					["offsetY"] = 0,
 					["offsetX"] = 0,
+					["offsetY"] = 0,
+					["point"] = "CENTER",
 					["relativePoint"] = "CENTER",
 				},
 			},
-			["MasterLooterDialog"] = {
+			["GDKPOverview"] = {
 				["Position"] = {
 					["point"] = "CENTER",
 					["offsetY"] = 0,
 					["offsetX"] = 0,
 					["relativePoint"] = "CENTER",
+				},
+				["Dimensions"] = {
+					["height"] = 410.0000305175781,
+					["scale"] = 1,
+					["width"] = 660.0001831054688,
 				},
 			},
 			["PopupDialog"] = {
@@ -163,12 +179,7 @@ GargulDB = {
 				["closeOnStart"] = false,
 				["closeOnAward"] = false,
 			},
-			["GDKPOverview"] = {
-				["Dimensions"] = {
-					["height"] = 410.0000305175781,
-					["scale"] = 1,
-					["width"] = 660.0001831054688,
-				},
+			["MasterLooterDialog"] = {
 				["Position"] = {
 					["offsetX"] = 0,
 					["offsetY"] = 0,
@@ -196,16 +207,16 @@ GargulDB = {
 					["TradeTime"] = {
 						["Overview"] = {
 							["Window"] = {
+								["Position"] = {
+									["offsetX"] = 347.8423767089844,
+									["offsetY"] = 14.18389511108398,
+									["point"] = "CENTER",
+									["relativePoint"] = "CENTER",
+								},
 								["Dimensions"] = {
 									["height"] = 35.99995803833008,
 									["scale"] = 1,
 									["width"] = 249.9998931884766,
-								},
-								["Position"] = {
-									["point"] = "CENTER",
-									["offsetY"] = 14.18389511108398,
-									["offsetX"] = 347.8423767089844,
-									["relativePoint"] = "CENTER",
 								},
 							},
 						},
@@ -300,11 +311,34 @@ GargulDB = {
 			["hideAwardedToSelf"] = false,
 		},
 		["showUpdateAlert"] = false,
-		["welcomeMessage"] = true,
 		["profilerEnabled"] = false,
+		["welcomeMessage"] = true,
+		["MinimapButton"] = {
+			["enabled"] = true,
+			["Actions"] = {
+				["CTRL_MIDDLECLICK"] = "DISABLED",
+				["ALT_RIGHTCLICK"] = "DISABLED",
+				["RIGHTCLICK"] = "IMPORT",
+				["CTRL_SHIFT_RIGHTCLICK"] = "DISABLED",
+				["SHIFT_RIGHTCLICK"] = "EXPORT",
+				["CTRL_RIGHTCLICK"] = "DISABLED",
+				["ALT_CLICK"] = "DISABLED",
+				["MIDDLECLICK"] = "AWARDHISTORY",
+				["SHIFT_MIDDLECLICK"] = "DISABLED",
+				["ALT_SHIFT_CLICK"] = "DISABLED",
+				["SHIFT_CLICK"] = "SOFTRES",
+				["ALT_MIDDLECLICK"] = "DISABLED",
+				["CTRL_SHIFT_MIDDLECLICK"] = "DISABLED",
+				["CTRL_SHIFT_CLICK"] = "DISABLED",
+				["ALT_SHIFT_MIDDLECLICK"] = "DISABLED",
+				["CLICK"] = "GARGUL",
+				["ALT_SHIFT_RIGHTCLICK"] = "DISABLED",
+				["CTRL_CLICK"] = "DISABLED",
+			},
+		},
 		["highlightsEnabled"] = true,
-		["highlightWishlistedItems"] = true,
 		["soundChannel"] = "SFX",
+		["highlightWishlistedItems"] = true,
 		["Rolling"] = {
 			["showRollOffWindow"] = true,
 			["closeAfterRoll"] = false,
@@ -312,13 +346,19 @@ GargulDB = {
 		},
 		["highlightSoftReservedItems"] = true,
 		["highlightHardReservedItems"] = true,
-		["SoftRes"] = {
-			["enableWhisperCommand"] = true,
-			["announceInfoWhenRolling"] = true,
-			["announceInfoInChat"] = true,
-			["enableTooltips"] = true,
-			["fixPlayerNames"] = true,
-			["hideInfoOfPeopleNotInGroup"] = true,
+		["MasterLooting"] = {
+			["announceCountdownOnce"] = false,
+			["preferredMasterLootingThreshold"] = 2,
+			["announceMasterLooterMessage"] = "I'm using the Gargul addon to distribute loot. Download it if you don't want to miss out on rolls!",
+			["announceRollEnd"] = true,
+			["numberOfSecondsToCountdown"] = 5,
+			["doCountdown"] = true,
+			["autoOpenMasterLooterDialog"] = true,
+			["linkNormalAndHardModeItems"] = false,
+			["announceRollStart"] = true,
+			["alwaysUseDefaultNote"] = false,
+			["announceMasterLooter"] = false,
+			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
 		},
 		["AwardingLoot"] = {
 			["announceAwardMessagesInGuildChat"] = false,
@@ -332,38 +372,22 @@ GargulDB = {
 			["awardOnReceiveMinimumQuality"] = 4,
 			["skipAwardConfirmationDialog"] = false,
 		},
-		["MasterLooting"] = {
-			["announceCountdownOnce"] = false,
-			["preferredMasterLootingThreshold"] = 2,
-			["doCountdown"] = true,
-			["announceRollEnd"] = true,
-			["numberOfSecondsToCountdown"] = 5,
-			["announceMasterLooterMessage"] = "I'm using the Gargul addon to distribute loot. Download it if you don't want to miss out on rolls!",
-			["autoOpenMasterLooterDialog"] = true,
-			["linkNormalAndHardModeItems"] = false,
-			["announceRollStart"] = true,
-			["alwaysUseDefaultNote"] = false,
-			["announceMasterLooter"] = false,
-			["defaultRollOffNote"] = "/roll for MS or /roll 99 for OS",
+		["SoftRes"] = {
+			["enableWhisperCommand"] = true,
+			["announceInfoWhenRolling"] = true,
+			["announceInfoInChat"] = true,
+			["enableTooltips"] = true,
+			["fixPlayerNames"] = true,
+			["hideInfoOfPeopleNotInGroup"] = true,
 		},
-	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
-		["SettingsPerItem"] = {
-		},
-	},
-	["PlusOnes"] = {
-		["Totals"] = {
-		},
-	},
-	["LootPriority"] = {
 	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

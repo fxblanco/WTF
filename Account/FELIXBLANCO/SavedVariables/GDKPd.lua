@@ -32,10 +32,10 @@ GDKPd_DB = {
 				["x"] = -64.45061492919922,
 			},
 			["point"] = {
-				["y"] = -6.999984741210938,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -406.9999389648438,
+				["y"] = -151.9056854248047,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 592.2830810546875,
 			},
 			["startBid"] = 100,
 			["statuspoint"] = {
@@ -45,12 +45,12 @@ GDKPd_DB = {
 				["x"] = -40.1491813659668,
 			},
 			["balancepoint"] = {
-				["y"] = -145.0500793457031,
+				["y"] = -279.9934387207031,
 				["relative"] = "TOPRIGHT",
 				["point"] = "TOPRIGHT",
-				["x"] = -235.8995971679688,
+				["x"] = -390.7676696777344,
 			},
-			["increment"] = 10,
+			["increment"] = 50,
 		},
 		["Pjanic - Venoxis"] = {
 			["point"] = {
@@ -75,12 +75,6 @@ GDKPd_DB = {
 		["Andrés - Transcendence"] = {
 		},
 		["Andrés - Venoxis"] = {
-			["balancepoint"] = {
-				["y"] = 223.5460662841797,
-				["relative"] = "RIGHT",
-				["point"] = "RIGHT",
-				["x"] = -308.3594970703125,
-			},
 			["playerbalancepoint"] = {
 				["y"] = 5.45014762878418,
 				["relative"] = "RIGHT",
@@ -94,43 +88,49 @@ GDKPd_DB = {
 				["relative"] = "TOPRIGHT",
 			},
 			["startBid"] = 100,
-			["increment"] = 10,
 			["statuspoint"] = {
 				["y"] = -173.5837097167969,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -57.77770614624023,
 			},
+			["balancepoint"] = {
+				["y"] = 223.5460662841797,
+				["relative"] = "RIGHT",
+				["point"] = "RIGHT",
+				["x"] = -308.3594970703125,
+			},
+			["increment"] = 10,
 		},
 		["Alsía - Venoxis"] = {
-			["playerbalancepoint"] = {
-				["y"] = -11.58515071868897,
-				["x"] = -335.6138000488281,
-				["point"] = "RIGHT",
-				["relative"] = "RIGHT",
-			},
-			["auctionTimer"] = 15,
-			["point"] = {
-				["y"] = -251.0000610351563,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 417.2649841308594,
-			},
-			["startBid"] = 5000,
-			["auctionTimerRefresh"] = 10,
 			["balancepoint"] = {
 				["y"] = 253.39599609375,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -280.3668518066406,
 			},
+			["auctionTimer"] = 15,
+			["playerbalancepoint"] = {
+				["y"] = -11.58515071868897,
+				["x"] = -335.6138000488281,
+				["point"] = "RIGHT",
+				["relative"] = "RIGHT",
+			},
+			["point"] = {
+				["y"] = -91.60385131835938,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 589.0755004882812,
+			},
+			["auctionTimerRefresh"] = 10,
+			["startBid"] = 5000,
+			["increment"] = 500,
 			["statuspoint"] = {
 				["y"] = 86.94361114501953,
 				["relative"] = "RIGHT",
 				["point"] = "RIGHT",
 				["x"] = -64.8211669921875,
 			},
-			["increment"] = 500,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {
@@ -234,8 +234,56 @@ GDKPd_DB = {
 }
 GDKPd_PotData = {
 	["playerBalance"] = {
+		["Iamacow"] = -13523,
+		["Caricportz"] = 0,
+		["Toohty"] = 0,
+		["Nachôdip"] = 0,
+		["Cucina"] = 0,
+		["Xolem"] = 2477,
+		["Faîlz"] = 0,
+		["Legolex"] = 0,
+		["Âlphacrypt"] = 0,
+		["Domedonmaya"] = 0,
 	},
 	["curPotHistory"] = {
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:51923::::::::80:::::::::|h[Chestguard of the Frigid Noose]|h|r",
+			["name"] = "Toohty",
+		}, -- [1]
+		2000, -- [2]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:51899::::::::80:::::::::|h[Icecrown Spire Sandals]|h|r",
+			["name"] = "Iamacow",
+		}, -- [3]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:52025::::::::80:::::::::|h[Vanquisher's Mark of Sanctification]|h|r",
+			["name"] = "Iamacow",
+		}, -- [4]
+		{
+			["bid"] = 3000,
+			["item"] = "|cffa335ee|Hitem:50344::::::::80:::::::::|h[Unidentifiable Organ]|h|r",
+			["name"] = "Toohty",
+		}, -- [5]
+		2000, -- [6]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:51870::::::::80:::::::::|h[Chestguard of the Failed Experiment]|h|r",
+			["name"] = "Iamacow",
+		}, -- [7]
+		{
+			["bid"] = 4000,
+			["item"] = "|cffa335ee|Hitem:51834::::::::80:::::::::|h[Dreamhunter's Carbine]|h|r",
+			["name"] = "Iamacow",
+		}, -- [8]
+		{
+			["bid"] = 522,
+			["item"] = "|cff0070dd|Hitem:49908::::::::80:::::::::|h[Primordial Saronite]|h|r",
+			["name"] = "Nachôdip",
+		}, -- [9]
+		-2750, -- [10]
 	},
 	["history"] = {
 		{
@@ -678,8 +726,8 @@ GDKPd_PotData = {
 			["size"] = 23400,
 		}, -- [4]
 	},
-	["potAmount"] = 0,
-	["prevDist"] = 0,
+	["potAmount"] = 24772,
+	["prevDist"] = 24772,
 }
 GDKPd_BalanceData = {
 }

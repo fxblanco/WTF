@@ -7,7 +7,7 @@ DataStore_CurrenciesDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Endonuclease"] = {
-				["lastUpdate"] = 1710028937,
+				["lastUpdate"] = 1710192198,
 				["Currencies"] = {
 					"0|Player vs. Player", -- [1]
 					"1|Stone Keeper's Shard|9|161", -- [2]

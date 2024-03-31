@@ -9,9 +9,6 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Venoxis.Maturitass"] = {
-				["DungeonIDs"] = {
-					["Icecrown Citadel 10 Player|196536795"] = "27047|1708460953|0|1",
-				},
 				["BossKills"] = {
 					["Icecrown Citadel 10 Player|196536795"] = {
 						"Lord Marrowgar|1", -- [1]
@@ -34,7 +31,7 @@ DataStore_AgendaDB = {
 				["lastUpdate"] = 1699529504,
 			},
 			["Default.Venoxis.Bloodwall"] = {
-				["lastUpdate"] = 1707945574,
+				["lastUpdate"] = 1711324016,
 			},
 			["Default.Venoxis.Alsiadk"] = {
 				["lastUpdate"] = 1708296254,
