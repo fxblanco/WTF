@@ -1,0 +1,31 @@
+
+ClickedDB = {
+	["global"] = {
+		["version"] = 6,
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "SHAMAN",
+		["Alsía - Venoxis"] = "PALADIN",
+		["Andrés - Venoxis"] = "MAGE",
+		["Khalimmortus - Venoxis"] = "DEATHKNIGHT",
+		["Alsia - Venoxis"] = "PALADIN",
+		["Kwasimojo - Venoxis"] = "PRIEST",
+	},
+	["profiles"] = {
+		["DEATHKNIGHT"] = {
+			["version"] = 6,
+		},
+		["SHAMAN"] = {
+			["version"] = 6,
+		},
+		["MAGE"] = {
+			["version"] = 6,
+		},
+		["PALADIN"] = {
+			["version"] = 6,
+		},
+		["PRIEST"] = {
+			["version"] = 6,
+		},
+	},
+}

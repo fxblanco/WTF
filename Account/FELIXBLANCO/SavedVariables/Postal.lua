@@ -1,0 +1,37 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Alsia|Venoxis|Horde|80|PALADIN", -- [1]
+				"Alsía|Venoxis|Horde|80|PALADIN", -- [2]
+				"Andrés|Venoxis|Horde|80|MAGE", -- [3]
+				"Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT", -- [4]
+				"Kwasimojo|Venoxis|Horde|80|PRIEST", -- [5]
+				"Xolem|Venoxis|Horde|80|SHAMAN", -- [6]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+	},
+	["profiles"] = {
+		["Xolem - Venoxis"] = {
+		},
+		["Alsía - Venoxis"] = {
+		},
+		["Andrés - Venoxis"] = {
+		},
+		["Khalimmortus - Venoxis"] = {
+		},
+		["Alsia - Venoxis"] = {
+		},
+		["Kwasimojo - Venoxis"] = {
+		},
+	},
+}

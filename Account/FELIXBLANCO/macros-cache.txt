@@ -1,0 +1,33 @@
+VER 3 0000000000000A0C "111_" "134400"
+/4 LFM ICC 25 Fast 11/12 Hc Dienstag 21:30 - GDKP 90/10 Shards presold - Anmeldung mit Logs/Exp: https://discord.gg/rWbJDHHx
+END
+VER 3 0000000000000A0D "222_" "134400"
+/4 LFM ICC 10 GDKP Trinketrun (Erste 4 HC) - Alles Gesucht! Wisp mit GS/Exp
+END
+VER 3 0000000000000A0E "434" "236178"
+/castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
+END
+VER 3 0000000000000A0F "focus" "132097"
+/focus
+END
+VER 3 0000000000000A10 "g_boots" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift] 15; [mod:ctrl] 6; 8
+END
+VER 3 0000000000000A11 "g_buy" "134400"
+/script BuyMerchantItem(1,500)
+END
+VER 3 0000000000000A12 "g_focus_kick" "INV_Misc_QuestionMark"
+#showtooltip Windstoß
+/stopcasting
+/cast [@focus] Windstoß
+/cast Windstoß
+END
+VER 3 0000000000000A13 "g_hände" "INV_Misc_QuestionMark"
+#showtooltip
+/use 10
+END
+VER 3 0000000000000A14 "g_trinket_2" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift] 14; 13
+END
