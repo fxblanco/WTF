@@ -30,19 +30,6 @@ TomTomDB = {
 			},
 		},
 		["MerfinUI v5.22"] = {
-			["block"] = {
-				["fontsize"] = 17,
-				["position"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					0, -- [4]
-					-70, -- [5]
-				},
-				["enable"] = false,
-				["height"] = 40,
-				["width"] = 130,
-			},
 			["arrow"] = {
 				["position"] = {
 					"TOP", -- [1]
@@ -51,6 +38,19 @@ TomTomDB = {
 					0, -- [4]
 					-350, -- [5]
 				},
+			},
+			["block"] = {
+				["enable"] = false,
+				["width"] = 130,
+				["fontsize"] = 17,
+				["position"] = {
+					"TOP", -- [1]
+					nil, -- [2]
+					"TOP", -- [3]
+					0, -- [4]
+					-70, -- [5]
+				},
+				["height"] = 40,
 			},
 		},
 	},

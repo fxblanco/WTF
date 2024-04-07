@@ -79,12 +79,40 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
-			["Alsia"] = 0,
-			["Xolem"] = 0,
-			["Andrés"] = 0,
-			["Khalimmortus"] = 0,
-			["Kwasimojo"] = 0,
+			["Lysaniâ"] = 0,
+			["Mltdwn"] = 0,
 			["Alsía"] = 0,
+			["Sasemora"] = 0,
+			["Salens"] = 0,
+			["Khalimmortus"] = 0,
+			["Swatchx"] = 0,
+			["Assajones"] = 0,
+			["Zartemage"] = 0,
+			["Vanéc"] = 0,
+			["Sisha"] = 0,
+			["Naluo"] = 0,
+			["Gnag"] = 0,
+			["Toterippchen"] = 0,
+			["Xolem"] = 0,
+			["Hakkî"] = 0,
+			["Arved"] = 0,
+			["Tôngah"] = 0,
+			["Jocindyr"] = 0,
+			["Notyourboomy"] = 0,
+			["Xamita"] = 0,
+			["Bremskyle"] = 0,
+			["Alsia"] = 0,
+			["Andrés"] = 0,
+			["Eviena"] = 0,
+			["Dâemon"] = 0,
+			["Grenzjäger"] = 0,
+			["Dopeship"] = 0,
+			["Blinkyli"] = 0,
+			["Kwasimojo"] = 0,
+			["Nookeyy"] = 0,
+			["Darkraither"] = 0,
+			["Klassíc"] = 0,
+			["Niplot"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -300,8 +328,9 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
-		["Version"] = 4810,
 		["PreVersion"] = 4810,
+		["Version"] = 4810,
+		["Scale"] = 1,
 	},
 	["WhoPulled"] = {
 	},
@@ -343,7 +372,7 @@ VMRT = {
 		["BlackLastUpdateTime"] = {
 		},
 		["Top"] = 1436,
-		["Height"] = 310,
+		["Height"] = 309.9999694824219,
 		["BlackNames"] = {
 		},
 		["Strata"] = "HIGH",
@@ -356,8 +385,6 @@ VMRT = {
 	["Logging"] = {
 	},
 	["MarksBar"] = {
-		["pulltimer"] = 10,
-		["pulltimer_right"] = 10,
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
@@ -366,6 +393,12 @@ VMRT = {
 			true, -- [5]
 		},
 		["Strata"] = "HIGH",
+		["pulltimer_right"] = 10,
+		["pulltimer"] = 10,
+		["ShowOnHover"] = true,
+		["enabled"] = true,
+		["Left"] = 1505.900146484375,
+		["Top"] = 406.6996154785156,
 	},
 	["VisNote"] = {
 		["data"] = {
@@ -375,10 +408,12 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrame"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
 		["FlaskExp"] = 1,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckTop"] = 1072.499633789063,
 		["WeaponEnch"] = {
 		},
+		["ReadyCheckLeft"] = 1915.299194335938,
+		["ReadyCheckFrameTimerFade"] = 4,
 	},
 }

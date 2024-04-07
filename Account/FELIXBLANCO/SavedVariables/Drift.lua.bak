@@ -1,5 +1,12 @@
 
 DriftPoints = {
+	["SettingsPanel"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -163.5999908447266,
+		["xOfs"] = -333.9000854492188,
+	},
 }
 DriftScales = {
 }

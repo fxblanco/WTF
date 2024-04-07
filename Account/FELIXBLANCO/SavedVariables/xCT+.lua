@@ -14,68 +14,14 @@ xCTSavedDB = {
 	},
 	["profiles"] = {
 		["MerfinUI v5.22 (DPS/Tank)"] = {
-			["SpellColors"] = {
-				["1"] = {
-					["color"] = {
-						[3] = 0,
-					},
-				},
-				["8"] = {
-					["color"] = {
-						0.3, -- [1]
-						[3] = 0.3,
-					},
-				},
-				["16"] = {
-					["color"] = {
-						0.5, -- [1]
-						1, -- [2]
-						1, -- [3]
-					},
-				},
-				["2"] = {
-					["color"] = {
-						nil, -- [1]
-						0.9, -- [2]
-						0.5, -- [3]
-					},
-				},
-				["64"] = {
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-					},
-				},
-				["4"] = {
-					["color"] = {
-						nil, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-					},
-				},
-				["32"] = {
-					["color"] = {
-						0.5, -- [1]
-						0.5, -- [2]
-					},
-				},
-			},
-			["dbVersion"] = "4.6.1",
 			["megaDamage"] = {
 				["millionSymbol"] = "|cffFF0000M|r ",
 				["billionSymbol"] = "|cffFF0000G|r ",
 				["thousandSymbol"] = "|cffFF8000K|r ",
 			},
-			["spellFilter"] = {
-				["listHealing"] = {
-					["15290"] = false,
-				},
-				["listSpells"] = {
-					["15290"] = false,
-				},
-			},
 			["spells"] = {
+				["mergePet"] = true,
+				["mergeHideMergedCriticals"] = true,
 				["items"] = {
 					["Quiver"] = {
 						["Quiver"] = false,
@@ -116,9 +62,9 @@ xCTSavedDB = {
 						["Other"] = false,
 						["Reagent"] = false,
 						["Mount"] = false,
-						["Junk"] = false,
 						["Holiday"] = false,
 						["Pet"] = false,
+						["Junk"] = false,
 					},
 					["Recipe"] = {
 						["Tailoring"] = false,
@@ -204,20 +150,18 @@ xCTSavedDB = {
 						["Two-Handed Axes"] = false,
 					},
 				},
-				["mergePet"] = true,
 				["mergeDontMergeCriticals"] = false,
-				["mergeHideMergedCriticals"] = true,
 				["merge"] = {
 					[980] = {
+						["enabled"] = false,
+					},
+					[20153] = {
 						["enabled"] = false,
 					},
 					[348] = {
 						["enabled"] = false,
 					},
 					[172] = {
-						["enabled"] = false,
-					},
-					[20153] = {
 						["enabled"] = false,
 					},
 				},
@@ -227,66 +171,122 @@ xCTSavedDB = {
 					["enableFontShadow"] = false,
 					["font"] = "Expressway",
 					["enabledFrame"] = false,
-					["X"] = 5,
 					["Y"] = 226,
+					["X"] = 5,
 				},
 				["outgoing"] = {
-					["enableOutAbsorbs"] = false,
 					["fontShadowOffsetX"] = 1,
-					["insertText"] = "top",
 					["enableFontShadow"] = false,
-					["font"] = "Expressway",
+					["fontShadowOffsetY"] = -1,
 					["Width"] = 167,
+					["enableOverhealing"] = false,
+					["font"] = "Expressway",
+					["enableOutHeal"] = false,
+					["enableOutAbsorbs"] = false,
+					["fontSize"] = 17,
+					["insertText"] = "top",
 					["Y"] = -429,
 					["X"] = 345,
-					["enableHots"] = false,
-					["enableOutHeal"] = false,
 					["Height"] = 140,
-					["enableOverhealing"] = false,
-					["fontSize"] = 17,
-					["fontShadowOffsetY"] = -1,
+					["enableHots"] = false,
 				},
 				["general"] = {
 					["showLowManaHealth"] = false,
-					["showRepChanges"] = false,
-					["showDebuffs"] = false,
 					["showDispells"] = false,
-					["Y"] = 400,
-					["font"] = "Expressway",
-					["fontSize"] = 17,
-					["showHonorGains"] = false,
-					["showBuffs"] = false,
-					["showInterrupts"] = false,
 					["showPartyKills"] = false,
+					["font"] = "Expressway",
+					["showHonorGains"] = false,
+					["fontSize"] = 17,
+					["showRepChanges"] = false,
+					["showBuffs"] = false,
+					["Y"] = 400,
+					["showInterrupts"] = false,
+					["showDebuffs"] = false,
 				},
 				["power"] = {
 					["enabledFrame"] = false,
 				},
 				["procs"] = {
-					["Y"] = 71,
 					["fontSize"] = 17,
 					["enabledFrame"] = false,
+					["Y"] = 71,
 					["font"] = "Expressway",
 					["X"] = 8,
 				},
 				["healing"] = {
-					["enableRealmNames"] = false,
 					["font"] = "Expressway",
-					["enabledFrame"] = false,
-					["X"] = -403,
-					["Y"] = 213,
+					["enableRealmNames"] = false,
 					["fontSize"] = 13,
+					["enabledFrame"] = false,
+					["Y"] = 213,
+					["X"] = -403,
 				},
 				["critical"] = {
 					["secondaryFrame"] = 2,
 					["enabledFrame"] = false,
 				},
 				["damage"] = {
-					["Y"] = -417,
 					["font"] = "Expressway",
-					["enabledFrame"] = false,
-					["X"] = -412,
 					["fontSize"] = 15,
+					["enabledFrame"] = false,
+					["Y"] = -417,
+					["X"] = -412,
+				},
+			},
+			["dbVersion"] = "4.6.1",
+			["spellFilter"] = {
+				["listHealing"] = {
+					["15290"] = false,
+				},
+				["listSpells"] = {
+					["15290"] = false,
+				},
+			},
+			["SpellColors"] = {
+				["64"] = {
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+					},
+				},
+				["1"] = {
+					["color"] = {
+						[3] = 0,
+					},
+				},
+				["2"] = {
+					["color"] = {
+						nil, -- [1]
+						0.9, -- [2]
+						0.5, -- [3]
+					},
+				},
+				["4"] = {
+					["color"] = {
+						nil, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+					},
+				},
+				["8"] = {
+					["color"] = {
+						0.3, -- [1]
+						[3] = 0.3,
+					},
+				},
+				["16"] = {
+					["color"] = {
+						0.5, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+				},
+				["32"] = {
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+					},
 				},
 			},
 		},
@@ -300,14 +300,68 @@ xCTSavedDB = {
 			["dbVersion"] = "4.6.1",
 		},
 		["MerfinUI v5.22 (Healer)"] = {
+			["SpellColors"] = {
+				["1"] = {
+					["color"] = {
+						[3] = 0,
+					},
+				},
+				["8"] = {
+					["color"] = {
+						0.3, -- [1]
+						[3] = 0.3,
+					},
+				},
+				["16"] = {
+					["color"] = {
+						0.5, -- [1]
+						1, -- [2]
+						1, -- [3]
+					},
+				},
+				["2"] = {
+					["color"] = {
+						nil, -- [1]
+						0.9, -- [2]
+						0.5, -- [3]
+					},
+				},
+				["64"] = {
+					["color"] = {
+						1, -- [1]
+						0.5, -- [2]
+						1, -- [3]
+					},
+				},
+				["4"] = {
+					["color"] = {
+						nil, -- [1]
+						0.5, -- [2]
+						0, -- [3]
+					},
+				},
+				["32"] = {
+					["color"] = {
+						0.5, -- [1]
+						0.5, -- [2]
+					},
+				},
+			},
+			["dbVersion"] = "4.6.1",
 			["megaDamage"] = {
 				["thousandSymbol"] = "|cffFF8000K|r ",
 				["billionSymbol"] = "|cffFF0000G|r ",
 				["millionSymbol"] = "|cffFF0000M|r ",
 			},
+			["spellFilter"] = {
+				["listHealing"] = {
+					["15290"] = false,
+				},
+				["listSpells"] = {
+					["15290"] = false,
+				},
+			},
 			["spells"] = {
-				["mergePet"] = true,
-				["mergeHideMergedCriticals"] = true,
 				["items"] = {
 					["Quiver"] = {
 						["Quiver"] = false,
@@ -365,9 +419,9 @@ xCTSavedDB = {
 						["Other"] = false,
 						["Reagent"] = false,
 						["Mount"] = false,
-						["Holiday"] = false,
 						["Pet"] = false,
 						["Junk"] = false,
+						["Holiday"] = false,
 					},
 					["Recipe"] = {
 						["Tailoring"] = false,
@@ -436,12 +490,11 @@ xCTSavedDB = {
 						["Enchanting Bag"] = false,
 					},
 				},
+				["mergePet"] = true,
 				["mergeDontMergeCriticals"] = false,
+				["mergeHideMergedCriticals"] = true,
 				["merge"] = {
 					[980] = {
-						["enabled"] = false,
-					},
-					[20153] = {
 						["enabled"] = false,
 					},
 					[348] = {
@@ -450,43 +503,46 @@ xCTSavedDB = {
 					[172] = {
 						["enabled"] = false,
 					},
+					[20153] = {
+						["enabled"] = false,
+					},
 				},
 			},
 			["frames"] = {
 				["general"] = {
 					["showLowManaHealth"] = false,
-					["showDispells"] = false,
-					["showPartyKills"] = false,
-					["showDebuffs"] = false,
-					["font"] = "Expressway",
-					["showHonorGains"] = false,
-					["showInterrupts"] = false,
 					["showRepChanges"] = false,
 					["showBuffs"] = false,
-					["fontSize"] = 17,
+					["showDispells"] = false,
 					["Y"] = 400,
+					["font"] = "Expressway",
+					["showDebuffs"] = false,
+					["showHonorGains"] = false,
+					["showInterrupts"] = false,
+					["fontSize"] = 17,
+					["showPartyKills"] = false,
 				},
 				["outgoing"] = {
-					["fontShadowOffsetX"] = 1,
-					["enableFontShadow"] = false,
-					["fontShadowOffsetY"] = -1,
-					["Width"] = 167,
-					["enableOverhealing"] = false,
-					["font"] = "Expressway",
 					["enableOutAbsorbs"] = false,
-					["fontSize"] = 17,
-					["insertText"] = "top",
+					["fontShadowOffsetX"] = 1,
 					["Y"] = -432,
+					["insertText"] = "top",
+					["Width"] = 167,
+					["enableFontShadow"] = false,
+					["font"] = "Expressway",
 					["X"] = 834,
-					["Height"] = 140,
 					["enableHots"] = false,
+					["Height"] = 140,
+					["fontSize"] = 17,
+					["enableOverhealing"] = false,
+					["fontShadowOffsetY"] = -1,
 				},
 				["loot"] = {
 					["enableFontShadow"] = false,
 					["font"] = "Expressway",
 					["enabledFrame"] = false,
-					["Y"] = 226,
 					["X"] = 5,
+					["Y"] = 226,
 				},
 				["power"] = {
 					["enabledFrame"] = false,
@@ -496,82 +552,26 @@ xCTSavedDB = {
 					["enabledFrame"] = false,
 				},
 				["healing"] = {
-					["font"] = "Expressway",
 					["enableRealmNames"] = false,
-					["fontSize"] = 13,
+					["font"] = "Expressway",
 					["enabledFrame"] = false,
-					["Y"] = 213,
 					["X"] = -403,
+					["Y"] = 213,
+					["fontSize"] = 13,
 				},
 				["procs"] = {
+					["Y"] = 71,
 					["fontSize"] = 17,
 					["enabledFrame"] = false,
-					["Y"] = 71,
 					["X"] = 8,
 					["font"] = "Expressway",
 				},
 				["damage"] = {
-					["font"] = "Expressway",
-					["fontSize"] = 15,
-					["enabledFrame"] = false,
 					["Y"] = -417,
+					["font"] = "Expressway",
+					["enabledFrame"] = false,
 					["X"] = -412,
-				},
-			},
-			["dbVersion"] = "4.6.1",
-			["spellFilter"] = {
-				["listHealing"] = {
-					["15290"] = false,
-				},
-				["listSpells"] = {
-					["15290"] = false,
-				},
-			},
-			["SpellColors"] = {
-				["64"] = {
-					["color"] = {
-						1, -- [1]
-						0.5, -- [2]
-						1, -- [3]
-					},
-				},
-				["1"] = {
-					["color"] = {
-						[3] = 0,
-					},
-				},
-				["2"] = {
-					["color"] = {
-						nil, -- [1]
-						0.9, -- [2]
-						0.5, -- [3]
-					},
-				},
-				["4"] = {
-					["color"] = {
-						nil, -- [1]
-						0.5, -- [2]
-						0, -- [3]
-					},
-				},
-				["8"] = {
-					["color"] = {
-						0.3, -- [1]
-						[3] = 0.3,
-					},
-				},
-				["16"] = {
-					["color"] = {
-						0.5, -- [1]
-						1, -- [2]
-						1, -- [3]
-					},
-				},
-				["32"] = {
-					["color"] = {
-						0.5, -- [1]
-						0.5, -- [2]
-					},
+					["fontSize"] = 15,
 				},
 			},
 		},

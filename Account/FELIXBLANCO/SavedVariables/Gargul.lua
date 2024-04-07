@@ -6,7 +6,7 @@ GargulDB = {
 	},
 	["LoadDetails"] = {
 		["7.2.15"] = 1712354404,
-		["lastLoadedOn"] = 1712356831,
+		["lastLoadedOn"] = 1712530476,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,

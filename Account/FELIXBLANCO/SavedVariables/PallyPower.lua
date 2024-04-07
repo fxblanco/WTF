@@ -10,11 +10,16 @@ PallyPowerDB = {
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
+			["skin"] = "normTex2",
+			["display"] = {
+				["offsetX"] = -375.9988403320313,
+				["offsetY"] = -345.4999084472656,
+				["frameLocked"] = true,
+			},
 			["enable"] = true,
 			["border"] = "None",
-			["WrathTransition"] = true,
 			["hideHighGroups"] = true,
-			["skin"] = "normTex2",
+			["WrathTransition"] = true,
 			["rf"] = false,
 		},
 		["Default"] = {
@@ -28,10 +33,28 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
+	["Alsia"] = {
+		[5] = 4,
+	},
+	["Bremskyle"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		1, -- [4]
+		3, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
+	},
 }
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
+	["Alsia"] = 0,
+	["Lysaniâ"] = 1,
+	["Bremskyle"] = 4,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

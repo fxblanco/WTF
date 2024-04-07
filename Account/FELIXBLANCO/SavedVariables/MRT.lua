@@ -79,12 +79,40 @@ VMRT = {
 	["ExCD2"] = {
 		["upd4525"] = true,
 		["gnGUIDs"] = {
-			["Alsia"] = 0,
-			["Xolem"] = 0,
-			["Andrés"] = 0,
-			["Khalimmortus"] = 0,
-			["Kwasimojo"] = 0,
+			["Lysaniâ"] = 0,
+			["Mltdwn"] = 0,
 			["Alsía"] = 0,
+			["Sasemora"] = 0,
+			["Salens"] = 0,
+			["Khalimmortus"] = 0,
+			["Swatchx"] = 0,
+			["Assajones"] = 0,
+			["Zartemage"] = 0,
+			["Vanéc"] = 0,
+			["Sisha"] = 0,
+			["Naluo"] = 0,
+			["Gnag"] = 0,
+			["Toterippchen"] = 0,
+			["Xolem"] = 0,
+			["Hakkî"] = 0,
+			["Niplot"] = 0,
+			["Klassíc"] = 0,
+			["Darkraither"] = 0,
+			["Notyourboomy"] = 0,
+			["Xamita"] = 0,
+			["Bremskyle"] = 0,
+			["Kwasimojo"] = 0,
+			["Blinkyli"] = 0,
+			["Dopeship"] = 0,
+			["Dâemon"] = 0,
+			["Grenzjäger"] = 0,
+			["Eviena"] = 0,
+			["Andrés"] = 0,
+			["Alsia"] = 0,
+			["Nookeyy"] = 0,
+			["Jocindyr"] = 0,
+			["Tôngah"] = 0,
+			["Arved"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -285,14 +313,17 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrame"] = true,
 		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckTop"] = 1072.499633789063,
+		["ReadyCheckLeft"] = 1915.299194335938,
 		["WeaponEnch"] = {
 		},
 		["FlaskExp"] = 1,
 	},
 	["Addon"] = {
 		["Timer"] = 0.1,
+		["Scale"] = 1,
 		["Version"] = 4810,
 		["PreVersion"] = 4810,
 	},
@@ -340,7 +371,7 @@ VMRT = {
 			"", -- [2]
 			"", -- [3]
 		},
-		["Height"] = 310,
+		["Height"] = 309.9999694824219,
 		["Strata"] = "HIGH",
 		["BlackNames"] = {
 		},
@@ -349,9 +380,6 @@ VMRT = {
 	["Logging"] = {
 	},
 	["MarksBar"] = {
-		["pulltimer"] = 10,
-		["pulltimer_right"] = 10,
-		["Strata"] = "HIGH",
 		["Show"] = {
 			true, -- [1]
 			true, -- [2]
@@ -359,6 +387,13 @@ VMRT = {
 			true, -- [4]
 			true, -- [5]
 		},
+		["Strata"] = "HIGH",
+		["Top"] = 406.6996154785156,
+		["ShowOnHover"] = true,
+		["pulltimer"] = 10,
+		["enabled"] = true,
+		["Left"] = 1505.900146484375,
+		["pulltimer_right"] = 10,
 	},
 	["VisNote"] = {
 		["data"] = {
