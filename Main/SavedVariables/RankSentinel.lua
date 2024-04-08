@@ -4,6 +4,7 @@ RankSentinelDB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -449,6 +450,17 @@ RankSentinelDB = {
 				},
 			},
 		},
+		["Exonuklease - Venoxis"] = {
+			["dbVersion"] = "v2.5.0",
+			["isMaxRank"] = {
+				["57946-80"] = {
+					true, -- [1]
+				},
+				["47893-80"] = {
+					true, -- [1]
+				},
+			},
+		},
 		["Khalimmortus - Venoxis"] = {
 			["isMaxRank"] = {
 				["49909-80"] = {
@@ -490,7 +502,6 @@ RankSentinelDB = {
 			["dbVersion"] = "v2.5.0",
 		},
 		["Kwasimojo - Venoxis"] = {
-			["dbVersion"] = "v2.5.0",
 			["isMaxRank"] = {
 				["48113-80"] = {
 					true, -- [1]
@@ -499,6 +510,7 @@ RankSentinelDB = {
 					true, -- [1]
 				},
 			},
+			["dbVersion"] = "v2.5.0",
 		},
 	},
 }

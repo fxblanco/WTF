@@ -47,6 +47,7 @@ VMRT = {
 		["timeToKillAnalyze"] = 15,
 	},
 	["ProfileKeys"] = {
+		["Exonuklease-Venoxis"] = "default",
 		["Alsía-Venoxis"] = "default",
 		["Alsia-Venoxis"] = "default",
 		["Xolem-Venoxis"] = "default",
@@ -65,6 +66,8 @@ VMRT = {
 			["Alsia"] = {
 			},
 			["Kwasimojo"] = {
+			},
+			["Exonuklease"] = {
 			},
 			["Alsía"] = {
 			},
@@ -90,23 +93,24 @@ VMRT = {
 			["Zartemage"] = 0,
 			["Vanéc"] = 0,
 			["Sisha"] = 0,
+			["Arved"] = 0,
 			["Naluo"] = 0,
 			["Gnag"] = 0,
 			["Toterippchen"] = 0,
 			["Xolem"] = 0,
-			["Arved"] = 0,
-			["Hakkî"] = 0,
 			["Tôngah"] = 0,
+			["Hakkî"] = 0,
+			["Dopeship"] = 0,
 			["Jocindyr"] = 0,
 			["Yanikzwei"] = 0,
-			["Alsia"] = 0,
 			["Andrés"] = 0,
+			["Alsia"] = 0,
 			["Notyourboomy"] = 0,
 			["Eviena"] = 0,
 			["Bremskyle"] = 0,
 			["Grenzjäger"] = 0,
 			["Xamita"] = 0,
-			["Dopeship"] = 0,
+			["Exonuklease"] = 0,
 			["Dâemon"] = 0,
 			["Kwasimojo"] = 0,
 			["Darkraither"] = 0,
@@ -375,7 +379,7 @@ VMRT = {
 		["BlackLastUpdateTime"] = {
 		},
 		["Top"] = 1436,
-		["Height"] = 309.9999694824219,
+		["Height"] = 310,
 		["BlackNames"] = {
 		},
 		["Strata"] = "HIGH",

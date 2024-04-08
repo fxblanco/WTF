@@ -4,22 +4,18 @@ PallyPowerDB = {
 		["Xolem - Venoxis"] = "Other",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
 		["Andrés - Venoxis"] = "Other",
+		["Exonuklease - Venoxis"] = "Other",
 		["Khalimmortus - Venoxis"] = "Other",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
 		["Kwasimojo - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
-			["WrathTransition"] = true,
 			["enable"] = true,
-			["skin"] = "normTex2",
-			["display"] = {
-				["offsetY"] = -345.4999084472656,
-				["offsetX"] = -375.9988403320313,
-				["frameLocked"] = true,
-			},
-			["hideHighGroups"] = true,
 			["border"] = "None",
+			["WrathTransition"] = true,
+			["hideHighGroups"] = true,
+			["skin"] = "normTex2",
 			["rf"] = false,
 		},
 		["Default"] = {
@@ -72,6 +68,7 @@ PallyPower_SavedPresets = {
 }
 PallyPower_ChanNames = {
 	[0] = "None",
+	[5] = "lfg",
 }
 LCD_Data = nil
 LCD_GUIDAccess = nil

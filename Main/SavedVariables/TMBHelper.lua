@@ -25,11 +25,14 @@ TMBDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
 		},
 		["Kwasimojo - Venoxis"] = {
+		},
+		["Exonuklease - Venoxis"] = {
 		},
 	},
 }

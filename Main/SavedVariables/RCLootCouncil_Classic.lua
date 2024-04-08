@@ -4,6 +4,7 @@ RCLootCouncilDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
+		["Exonuklease - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
@@ -742,6 +743,73 @@ RCLootCouncilDB = {
 			"00:49:29 - Removing Column (role)", -- [729]
 			"00:49:29 - Removing Column (corruption)", -- [730]
 			"00:49:29 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Kwasimojo) (distri:) (GUILD)", -- [731]
+			"04/09/24", -- [732]
+			"00:32:04 - Logged In", -- [733]
+			"00:32:04 - ML initialized!", -- [734]
+			"00:32:04 - TradeUI enabled", -- [735]
+			"00:32:08 - Exonuklease-Venoxis (2.19.3) (nil)", -- [736]
+			"00:32:08 - ActivateSkin (bfa)", -- [737]
+			"00:32:13 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [738]
+			"00:32:13 - GetML()", -- [739]
+			"00:32:13 - LootMethod =  (group)", -- [740]
+			"00:32:13 - UpdatePlayersData()", -- [741]
+			"00:32:14 - ClassicModule enabled (0.20.2) (nil)", -- [742]
+			"00:32:14 - DoCommsCompressFix", -- [743]
+			"00:32:14 - Removing Column (role)", -- [744]
+			"00:32:14 - Removing Column (corruption)", -- [745]
+			"00:32:14 - GetPlayersGuildRank()", -- [746]
+			"00:32:14 - Found Guild Rank: OldRabbit Twink", -- [747]
+			"04/09/24", -- [748]
+			"00:32:39 - Logged In", -- [749]
+			"00:32:39 - ML initialized!", -- [750]
+			"00:32:39 - TradeUI enabled", -- [751]
+			"00:32:44 - Exonuklease-Venoxis (2.19.3) (nil)", -- [752]
+			"00:32:44 - ActivateSkin (bfa)", -- [753]
+			"00:32:49 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [754]
+			"00:32:49 - GetML()", -- [755]
+			"00:32:49 - LootMethod =  (group)", -- [756]
+			"00:32:49 - UpdatePlayersData()", -- [757]
+			"00:32:50 - ClassicModule enabled (0.20.2) (nil)", -- [758]
+			"00:32:50 - DoCommsCompressFix", -- [759]
+			"00:32:50 - Removing Column (role)", -- [760]
+			"00:32:50 - Removing Column (corruption)", -- [761]
+			"00:32:50 - GetPlayersGuildRank()", -- [762]
+			"00:32:50 - Found Guild Rank: OldRabbit Twink", -- [763]
+			"00:32:51 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [764]
+			"04/09/24", -- [765]
+			"00:33:00 - Logged In", -- [766]
+			"00:33:00 - ML initialized!", -- [767]
+			"00:33:00 - TradeUI enabled", -- [768]
+			"00:33:02 - Exonuklease-Venoxis (2.19.3) (nil)", -- [769]
+			"00:33:02 - ActivateSkin (bfa)", -- [770]
+			"00:33:06 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [771]
+			"00:33:06 - GetML()", -- [772]
+			"00:33:06 - LootMethod =  (group)", -- [773]
+			"00:33:06 - UpdatePlayersData()", -- [774]
+			"00:33:06 - GetPlayersGuildRank()", -- [775]
+			"00:33:06 - Found Guild Rank: OldRabbit Twink", -- [776]
+			"00:33:06 - ClassicModule enabled (0.20.2) (nil)", -- [777]
+			"00:33:06 - DoCommsCompressFix", -- [778]
+			"00:33:06 - Removing Column (role)", -- [779]
+			"00:33:06 - Removing Column (corruption)", -- [780]
+			"00:33:07 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [781]
+			"04/09/24", -- [782]
+			"00:33:32 - Logged In", -- [783]
+			"00:33:32 - ML initialized!", -- [784]
+			"00:33:32 - TradeUI enabled", -- [785]
+			"00:33:34 - Exonuklease-Venoxis (2.19.3) (nil)", -- [786]
+			"00:33:34 - ActivateSkin (bfa)", -- [787]
+			"00:33:38 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [788]
+			"00:33:38 - GetML()", -- [789]
+			"00:33:38 - LootMethod =  (group)", -- [790]
+			"00:33:38 - UpdatePlayersData()", -- [791]
+			"00:33:38 - GetPlayersGuildRank()", -- [792]
+			"00:33:38 - Found Guild Rank: OldRabbit Twink", -- [793]
+			"00:33:38 - ClassicModule enabled (0.20.2) (nil)", -- [794]
+			"00:33:38 - DoCommsCompressFix", -- [795]
+			"00:33:38 - Removing Column (role)", -- [796]
+			"00:33:38 - Removing Column (corruption)", -- [797]
+			"00:33:39 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Exonuklease) (distri:) (GUILD)", -- [798]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.2",
@@ -752,10 +820,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1712518968, -- [3]
 			},
-			["Decîmus-Venoxis"] = {
+			["Wønka-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712530173, -- [3]
+				1712361068, -- [3]
 			},
 			["Pippop-Venoxis"] = {
 				"0.21.0", -- [1]
@@ -787,20 +855,20 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1712497759, -- [3]
 			},
-			["Faîlz-Venoxis"] = {
+			["Decîmus-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712360949, -- [3]
+				1712530173, -- [3]
 			},
 			["Ntdote-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1712518738, -- [3]
 			},
-			["Khalimmortus-Venoxis"] = {
-				"0.20.2", -- [1]
+			["Côntrol-Venoxis"] = {
+				"0.21.0", -- [1]
 				nil, -- [2]
-				1712529549, -- [3]
+				1712361067, -- [3]
 			},
 			["Graveofmaria-Venoxis"] = {
 				"0.21.0", -- [1]
@@ -822,10 +890,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1712518968, -- [3]
 			},
-			["Yaars-Venoxis"] = {
-				"0.21.0", -- [1]
+			["Khalimmortus-Venoxis"] = {
+				"0.20.2", -- [1]
 				nil, -- [2]
-				1712497759, -- [3]
+				1712529549, -- [3]
 			},
 			["Uséléss-Venoxis"] = {
 				"0.21.0", -- [1]
@@ -882,10 +950,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1712360917, -- [3]
 			},
-			["Côntrol-Venoxis"] = {
+			["Yaars-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712361067, -- [3]
+				1712497759, -- [3]
 			},
 			["Slimpy-Venoxis"] = {
 				"0.21.0", -- [1]
@@ -897,10 +965,10 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1712518887, -- [3]
 			},
-			["Wønka-Venoxis"] = {
+			["Faîlz-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712361068, -- [3]
+				1712360949, -- [3]
 			},
 			["Vextria-Venoxis"] = {
 				"0.21.0", -- [1]
@@ -969,6 +1037,7 @@ RCLootCouncilLootDB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",

@@ -6,6 +6,7 @@ GDKPd_DB = {
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -25,6 +26,8 @@ GDKPd_DB = {
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
 			},
+		},
+		["Exonuklease - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {

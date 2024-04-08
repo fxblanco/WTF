@@ -6,9 +6,10 @@ Postal3DB = {
 				"Alsia|Venoxis|Horde|80|PALADIN", -- [1]
 				"Alsía|Venoxis|Horde|80|PALADIN", -- [2]
 				"Andrés|Venoxis|Horde|80|MAGE", -- [3]
-				"Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT", -- [4]
-				"Kwasimojo|Venoxis|Horde|80|PRIEST", -- [5]
-				"Xolem|Venoxis|Horde|80|SHAMAN", -- [6]
+				"Exonuklease|Venoxis|Horde|80|WARLOCK", -- [4]
+				"Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT", -- [5]
+				"Kwasimojo|Venoxis|Horde|80|PRIEST", -- [6]
+				"Xolem|Venoxis|Horde|80|SHAMAN", -- [7]
 			},
 		},
 	},
@@ -16,6 +17,7 @@ Postal3DB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -26,6 +28,8 @@ Postal3DB = {
 		["Alsía - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
+		},
+		["Exonuklease - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
