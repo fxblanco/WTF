@@ -141,13 +141,13 @@ NITdatabase = {
 						[198599655] = {
 							["locked"] = true,
 							["name"] = "Icecrown Citadel",
-							["resetTime"] = 1712721860,
+							["resetTime"] = 1712721659,
 							["difficultyName"] = "25 Player (Heroic)",
 						},
 						[198603335] = {
 							["locked"] = true,
 							["name"] = "The Ruby Sanctum",
-							["resetTime"] = 1712721860,
+							["resetTime"] = 1712721659,
 							["difficultyName"] = "25 Player (Heroic)",
 						},
 					},
@@ -203,7 +203,7 @@ NITdatabase = {
 							["count"] = 0,
 						},
 					},
-					["time"] = 1712530076,
+					["time"] = 1712614666,
 					["gold"] = 50004486,
 					["classLocalized"] = "Shaman",
 					["guildRankName"] = "OldRabbit Twink",
@@ -509,7 +509,7 @@ NITdatabase = {
 					["raceEnglish"] = "Troll",
 					["profSkillMax1"] = 450,
 					["race"] = "Troll",
-					["time"] = 1712613629,
+					["time"] = 1712614747,
 					["gold"] = 20292861,
 					["prof2"] = "Tailoring",
 					["quests"] = {
@@ -693,7 +693,7 @@ NITdatabase = {
 					},
 				},
 			},
-			["weeklyResetTime"] = 1712721599,
+			["weeklyResetTime"] = 1712721598,
 			["trades"] = {
 			},
 			["instances"] = {

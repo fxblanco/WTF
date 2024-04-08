@@ -52065,12 +52065,12 @@ WeakAurasOptionsSaved = {
 	["savedSnippets"] = {
 	},
 	["spellCacheAchievements"] = true,
+	["spellCacheStrings"] = true,
 	["frame"] = {
-		["xOffset"] = 1438.099792480469,
-		["yOffset"] = 1169.100341796875,
+		["xOffset"] = 1960.999450683594,
+		["yOffset"] = 1174.50048828125,
 		["height"] = 1051.099975585938,
 		["width"] = 945.2003173828125,
 	},
-	["spellCacheStrings"] = true,
 	["build"] = "53788",
 }

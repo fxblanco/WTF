@@ -46,8 +46,8 @@ TalentedDB = {
 				["TalentedFrame"] = {
 					["y"] = 188.9998016357422,
 					["x"] = 146.1003875732422,
-					["anchor"] = "LEFT",
 					["anchorTo"] = "LEFT",
+					["anchor"] = "LEFT",
 				},
 			},
 		},

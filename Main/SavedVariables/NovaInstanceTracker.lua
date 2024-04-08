@@ -140,13 +140,13 @@ NITdatabase = {
 					["savedInstances"] = {
 						[198599655] = {
 							["locked"] = true,
-							["resetTime"] = 1712721860,
+							["resetTime"] = 1712721659,
 							["name"] = "Icecrown Citadel",
 							["difficultyName"] = "25 Player (Heroic)",
 						},
 						[198603335] = {
 							["locked"] = true,
-							["resetTime"] = 1712721860,
+							["resetTime"] = 1712721659,
 							["name"] = "The Ruby Sanctum",
 							["difficultyName"] = "25 Player (Heroic)",
 						},
@@ -203,7 +203,7 @@ NITdatabase = {
 							["count"] = 8,
 						},
 					},
-					["time"] = 1712530076,
+					["time"] = 1712614666,
 					["gold"] = 50004486,
 					["quests"] = {
 					},
@@ -509,7 +509,7 @@ NITdatabase = {
 					["raceEnglish"] = "Troll",
 					["profSkillMax1"] = 450,
 					["race"] = "Troll",
-					["time"] = 1712613961,
+					["time"] = 1712614816,
 					["gold"] = 20292861,
 					[44615] = 72,
 					["classLocalized"] = "Priest",
