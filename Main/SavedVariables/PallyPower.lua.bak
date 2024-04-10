@@ -4,21 +4,19 @@ PallyPowerDB = {
 		["Xolem - Venoxis"] = "Other",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
 		["Andrés - Venoxis"] = "Other",
-		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
+		["Exonuklease - Venoxis"] = "Other",
 		["Khalimmortus - Venoxis"] = "Other",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
 		["Kwasimojo - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
-			["rf"] = false,
-			["WrathTransition"] = true,
-			["rfbuff"] = false,
 			["skin"] = "normTex2",
+			["WrathTransition"] = true,
 			["enable"] = true,
 			["hideHighGroups"] = true,
 			["border"] = "None",
-			["auras"] = false,
+			["rf"] = false,
 		},
 		["Default"] = {
 			["enable"] = true,
@@ -34,6 +32,18 @@ PallyPower_Assignments = {
 	["Alsia"] = {
 		[5] = 4,
 	},
+	["Hópéful"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		2, -- [9]
+		2, -- [10]
+	},
 	["Bremskyle"] = {
 		2, -- [1]
 		2, -- [2]
@@ -48,10 +58,13 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
+	["Hópéful"] = {
+	},
 }
 PallyPower_AuraAssignments = {
 	["Alsia"] = 0,
 	["Lysaniâ"] = 1,
+	["Hópéful"] = 3,
 	["Bremskyle"] = 4,
 }
 PallyPower_SavedPresets = {
@@ -70,7 +83,6 @@ PallyPower_SavedPresets = {
 }
 PallyPower_ChanNames = {
 	[0] = "None",
-	[5] = "lfg",
 }
 LCD_Data = nil
 LCD_GUIDAccess = nil

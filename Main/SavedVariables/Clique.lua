@@ -2,6 +2,13 @@
 CliqueDB = nil
 CliqueDB3 = {
 	["char"] = {
+		["Andrés - Venoxis"] = {
+			["spec1_profileKey"] = "Andrés - Venoxis",
+			["spec2_profileKey"] = "Andrés - Venoxis",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
 			["specswap"] = false,
@@ -10,26 +17,25 @@ CliqueDB3 = {
 			["alerthidden"] = true,
 			["spec2_profileKey"] = "Xolem - Venoxis",
 		},
-		["Andrés - Venoxis"] = {
-			["spec1_profileKey"] = "Andrés - Venoxis",
-			["spec2_profileKey"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = {
+			["spec1_profileKey"] = "Khalimmortus - Venoxis",
+			["spec2_profileKey"] = "Khalimmortus - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-		},
-		["Khalimmortus - Venoxis"] = {
 			["alerthidden"] = true,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
 			["spec2_profileKey"] = "Kwasimojo - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 	},
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -143,6 +149,25 @@ CliqueDB3 = {
 					["icon"] = 135972,
 					["type"] = "spell",
 				}, -- [11]
+			},
+		},
+		["Alsía - Venoxis"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
 			},
 		},
 		["Andrés - Venoxis"] = {

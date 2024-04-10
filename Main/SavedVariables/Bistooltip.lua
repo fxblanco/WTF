@@ -2,6 +2,7 @@
 BisTooltipDB = {
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Default",
+		["Alsía - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
@@ -10,6 +11,10 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Alsia - Venoxis"] = {
+			["data_source"] = "wh",
+			["version"] = 6.2,
+		},
+		["Alsía - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},

@@ -24,15 +24,24 @@ ItemListsDB = {
 TMBDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Alsía - Venoxis"] = {
 		},
 		["Exonuklease - Venoxis"] = {
+		},
+		["Khalimmortus - Venoxis"] = {
+		},
+		["Alsia - Venoxis"] = {
+		},
+		["Kwasimojo - Venoxis"] = {
 		},
 	},
 }

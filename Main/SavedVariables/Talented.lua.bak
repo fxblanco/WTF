@@ -45,10 +45,16 @@ TalentedDB = {
 			["always_edit"] = true,
 			["framepos"] = {
 				["TalentedFrame"] = {
-					["y"] = 103.4998550415039,
-					["x"] = 408.0003051757813,
+					["y"] = 103.4998321533203,
+					["x"] = 408.0002746582031,
 					["anchor"] = "LEFT",
 					["anchorTo"] = "LEFT",
+				},
+				["TalentedGlyphs"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
 			},
 		},

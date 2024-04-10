@@ -52064,13 +52064,13 @@ WeakAurasOptionsSaved = {
 	["version"] = "5.12.7",
 	["savedSnippets"] = {
 	},
-	["spellCacheAchievements"] = true,
-	["spellCacheStrings"] = true,
 	["frame"] = {
-		["xOffset"] = 1960.999450683594,
-		["yOffset"] = 1174.50048828125,
-		["height"] = 1051.099975585938,
+		["xOffset"] = 2254.396911621094,
 		["width"] = 945.2003173828125,
+		["height"] = 1051.099975585938,
+		["yOffset"] = 1283.400512695313,
 	},
+	["spellCacheStrings"] = true,
+	["spellCacheAchievements"] = true,
 	["build"] = "53788",
 }
