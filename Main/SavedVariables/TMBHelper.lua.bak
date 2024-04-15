@@ -13,12 +13,17 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1713088791] = {
+			"Alsia", -- [1]
+			"44152", -- [2]
+			"Arcanum of Blissful Mending", -- [3]
+		},
 	},
-	["displayOS"] = true,
-	["displayWishes"] = true,
-	["showMemberNotes"] = false,
-	["onlyRaidMembers"] = false,
 	["displayPrios"] = true,
+	["displayWishes"] = true,
+	["onlyRaidMembers"] = false,
+	["showMemberNotes"] = false,
+	["displayOS"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
@@ -26,6 +31,7 @@ TMBDB = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -36,6 +42,8 @@ TMBDB = {
 		["Alsía - Venoxis"] = {
 		},
 		["Exonuklease - Venoxis"] = {
+		},
+		["Andrés - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},

@@ -1,14 +1,5 @@
 
 TalentedDB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "MerfinUI v5.22",
-		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Andrés - Venoxis"] = "MerfinUI v5.22",
-		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
-		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
-		["Alsia - Venoxis"] = "MerfinUI v5.22",
-		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
-	},
 	["global"] = {
 		["templates"] = {
 			["HUNTER"] = {
@@ -23,21 +14,30 @@ TalentedDB = {
 			},
 			["Tenacity"] = {
 			},
-			["PALADIN"] = {
+			["Cunning"] = {
 			},
 			["WARLOCK"] = {
 			},
-			["SHAMAN"] = {
+			["Ferocity"] = {
 			},
 			["DEATHKNIGHT"] = {
 			},
 			["DRUID"] = {
 			},
-			["Ferocity"] = {
+			["SHAMAN"] = {
 			},
-			["Cunning"] = {
+			["PALADIN"] = {
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "MerfinUI v5.22",
+		["Alsía - Venoxis"] = "MerfinUI v5.22",
+		["Andrés - Venoxis"] = "MerfinUI v5.22",
+		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
+		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
+		["Alsia - Venoxis"] = "MerfinUI v5.22",
+		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
@@ -45,16 +45,16 @@ TalentedDB = {
 			["always_edit"] = true,
 			["framepos"] = {
 				["TalentedGlyphs"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
+					["y"] = -0.9000044465065002,
+					["x"] = -300.2996215820313,
+					["anchor"] = "RIGHT",
+					["anchorTo"] = "RIGHT",
 				},
 				["TalentedFrame"] = {
-					["y"] = 103.4998321533203,
-					["x"] = 408.0002746582031,
-					["anchor"] = "LEFT",
-					["anchorTo"] = "LEFT",
+					["y"] = -143.8501586914063,
+					["x"] = 83.04991912841797,
+					["anchor"] = "TOP",
+					["anchorTo"] = "TOP",
 				},
 			},
 		},
