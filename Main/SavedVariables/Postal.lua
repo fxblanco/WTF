@@ -1,5 +1,14 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -13,21 +22,17 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
 		},
 		["Alsía - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Alsia|Venoxis|Horde", -- [1]
+				},
+			},
 		},
 		["Exonuklease - Venoxis"] = {
 		},
@@ -36,7 +41,8 @@ Postal3DB = {
 		["Alsia - Venoxis"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Alsía|Venoxis|Horde", -- [1]
+					"Kwasimojo|Venoxis|Horde", -- [1]
+					"Alsía|Venoxis|Horde", -- [2]
 				},
 			},
 		},

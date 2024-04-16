@@ -1,5 +1,8 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
@@ -8,9 +11,6 @@ GDKPd_DB = {
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Alsia - Venoxis"] = {
@@ -40,8 +40,8 @@ GDKPd_DB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {
-				["point"] = "TOPLEFT",
 				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
 			},
 		},
 		["Xolem - Venoxis"] = {

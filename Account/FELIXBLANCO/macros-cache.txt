@@ -30,3 +30,6 @@ VER 3 0000000000000A5F "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
+VER 3 0000000000000A60 "RXPTargeting" "Ability_eyeoftheowl"
+//RestedXP Guides - current step has no configured targets
+END

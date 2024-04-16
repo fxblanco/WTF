@@ -19,11 +19,11 @@ ItemListsDB = {
 			"Arcanum of Blissful Mending", -- [3]
 		},
 	},
-	["displayOS"] = true,
-	["displayWishes"] = true,
-	["showMemberNotes"] = false,
-	["onlyRaidMembers"] = false,
 	["displayPrios"] = true,
+	["displayWishes"] = true,
+	["onlyRaidMembers"] = false,
+	["showMemberNotes"] = false,
+	["displayOS"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {

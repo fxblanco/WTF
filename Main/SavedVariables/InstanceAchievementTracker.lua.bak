@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["InfoFramescale"] = 1,
 	["announceTrackedAchievements"] = false,
-	["hideCompletedAchievements"] = false,
+	["InfoFramescale"] = 1,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["InfoFramey"] = 80.9998779296875,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["trackAchievementsAutomatically"] = false,
+	["hideCompletedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"14/4/2024 20:37 [DEBUG] ---IAT Runtime---", -- [1]
@@ -5064,6 +5064,91 @@ AchievementTrackerDebug = {
 	"14/4/2024 23:28 [DEBUG] InfoFrame was not active", -- [5039]
 	"14/4/2024 23:28 [DEBUG] 6", -- [5040]
 	"14/4/2024 23:28 [DEBUG] Hiding Tracking UI", -- [5041]
+	"14/4/2024 23:59 [DEBUG] ---IAT Runtime---", -- [5042]
+	"14/4/2024 23:59 [DEBUG] Version: 4.39.0", -- [5043]
+	"14/4/2024 23:59 [DEBUG] Attempting to load from local NPC Cache classic", -- [5044]
+	"14/4/2024 23:59 [DEBUG] Generating NPC Cache Classic...", -- [5045]
+	"14/4/2024 23:59 [DEBUG] Enabling Addon", -- [5046]
+	"14/4/2024 23:59 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5047]
+	"15/4/2024 0:10 [DEBUG] Showing Minimap Icon", -- [5048]
+	"15/4/2024 0:10 [DEBUG] Player has entered instance", -- [5049]
+	"15/4/2024 0:10 [DEBUG] 724", -- [5050]
+	"15/4/2024 0:10 [DEBUG] Offical Instance Name: 724 _724", -- [5051]
+	"15/4/2024 0:10 [DEBUG] DifficultyID: 6", -- [5052]
+	"15/4/2024 0:10 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [5053]
+	"15/4/2024 0:10 [DEBUG] Player has entered instance", -- [5054]
+	"15/4/2024 0:10 [DEBUG] 724", -- [5055]
+	"15/4/2024 0:10 [DEBUG] Offical Instance Name: 724 _724", -- [5056]
+	"15/4/2024 0:10 [DEBUG] DifficultyID: 6", -- [5057]
+	"15/4/2024 0:10 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [5058]
+	"15/4/2024 0:10 [DEBUG] Player has entered instance", -- [5059]
+	"15/4/2024 0:10 [DEBUG] 724", -- [5060]
+	"15/4/2024 0:10 [DEBUG] Offical Instance Name: 724 _724", -- [5061]
+	"15/4/2024 0:10 [DEBUG] DifficultyID: 6", -- [5062]
+	"15/4/2024 0:10 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [5063]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [5064]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [5065]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [5066]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [5067]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [5068]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5069]
+	"16/4/2024 11:34 [DEBUG] Showing Minimap Icon", -- [5070]
+	"16/4/2024 12:9 [DEBUG] ---IAT Runtime---", -- [5071]
+	"16/4/2024 12:9 [DEBUG] Version: 4.39.0", -- [5072]
+	"16/4/2024 12:9 [DEBUG] Attempting to load from local NPC Cache classic", -- [5073]
+	"16/4/2024 12:9 [DEBUG] Generating NPC Cache Classic...", -- [5074]
+	"16/4/2024 12:9 [DEBUG] Enabling Addon", -- [5075]
+	"16/4/2024 12:9 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5076]
+	"16/4/2024 12:9 [DEBUG] Showing Minimap Icon", -- [5077]
+	"16/4/2024 12:14 [DEBUG] ---IAT Runtime---", -- [5078]
+	"16/4/2024 12:14 [DEBUG] Version: 4.39.0", -- [5079]
+	"16/4/2024 12:14 [DEBUG] Attempting to load from local NPC Cache classic", -- [5080]
+	"16/4/2024 12:14 [DEBUG] Generating NPC Cache Classic...", -- [5081]
+	"16/4/2024 12:14 [DEBUG] Enabling Addon", -- [5082]
+	"16/4/2024 12:14 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5083]
+	"16/4/2024 12:14 [DEBUG] Showing Minimap Icon", -- [5084]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [5085]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [5086]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [5087]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [5088]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [5089]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5090]
+	"16/4/2024 12:16 [DEBUG] Showing Minimap Icon", -- [5091]
+	"16/4/2024 12:20 [DEBUG] ---IAT Runtime---", -- [5092]
+	"16/4/2024 12:20 [DEBUG] Version: 4.39.0", -- [5093]
+	"16/4/2024 12:20 [DEBUG] Attempting to load from local NPC Cache classic", -- [5094]
+	"16/4/2024 12:20 [DEBUG] Generating NPC Cache Classic...", -- [5095]
+	"16/4/2024 12:20 [DEBUG] Enabling Addon", -- [5096]
+	"16/4/2024 12:20 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5097]
+	"16/4/2024 12:21 [DEBUG] Showing Minimap Icon", -- [5098]
+	"16/4/2024 12:21 [DEBUG] ---IAT Runtime---", -- [5099]
+	"16/4/2024 12:21 [DEBUG] Version: 4.39.0", -- [5100]
+	"16/4/2024 12:21 [DEBUG] Attempting to load from local NPC Cache classic", -- [5101]
+	"16/4/2024 12:21 [DEBUG] Generating NPC Cache Classic...", -- [5102]
+	"16/4/2024 12:21 [DEBUG] Enabling Addon", -- [5103]
+	"16/4/2024 12:21 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5104]
+	"16/4/2024 12:22 [DEBUG] Showing Minimap Icon", -- [5105]
+	"16/4/2024 12:24 [DEBUG] ---IAT Runtime---", -- [5106]
+	"16/4/2024 12:24 [DEBUG] Version: 4.39.0", -- [5107]
+	"16/4/2024 12:24 [DEBUG] Attempting to load from local NPC Cache classic", -- [5108]
+	"16/4/2024 12:24 [DEBUG] Generating NPC Cache Classic...", -- [5109]
+	"16/4/2024 12:24 [DEBUG] Enabling Addon", -- [5110]
+	"16/4/2024 12:24 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5111]
+	"16/4/2024 12:23 [DEBUG] Showing Minimap Icon", -- [5112]
+	"16/4/2024 12:24 [DEBUG] ---IAT Runtime---", -- [5113]
+	"16/4/2024 12:24 [DEBUG] Version: 4.39.0", -- [5114]
+	"16/4/2024 12:24 [DEBUG] Attempting to load from local NPC Cache classic", -- [5115]
+	"16/4/2024 12:24 [DEBUG] Generating NPC Cache Classic...", -- [5116]
+	"16/4/2024 12:24 [DEBUG] Enabling Addon", -- [5117]
+	"16/4/2024 12:24 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5118]
+	"16/4/2024 12:24 [DEBUG] Showing Minimap Icon", -- [5119]
+	"16/4/2024 12:25 [DEBUG] ---IAT Runtime---", -- [5120]
+	"16/4/2024 12:25 [DEBUG] Version: 4.39.0", -- [5121]
+	"16/4/2024 12:25 [DEBUG] Attempting to load from local NPC Cache classic", -- [5122]
+	"16/4/2024 12:25 [DEBUG] Generating NPC Cache Classic...", -- [5123]
+	"16/4/2024 12:25 [DEBUG] Enabling Addon", -- [5124]
+	"16/4/2024 12:25 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5125]
+	"16/4/2024 12:25 [DEBUG] Showing Minimap Icon", -- [5126]
 }
 AchievementTrackerNPCCache = {
 }
@@ -5078,27 +5163,27 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebeard",
 	[26746] = "Crazed Mana-Wraith",
 	[27756] = "Ruby Drake",
-	[28731] = "Watcher Silthik",
 	[33572] = "Steelforged Defender",
+	[29310] = "Jedoga Shadowseeker",
 	[29713] = "Slad'ran Constrictor",
 	[26627] = "Crystal Handler",
 	[26628] = "Drakkari Scytheclaw",
 	[34035] = "Feral Defender",
 	[26693] = "Skadi the Ruthless",
-	[29310] = "Jedoga Shadowseeker",
-	[33136] = "Guardian of Yogg-Saron",
+	[26918] = "Chaotic Rift",
+	[26731] = "Grand Magus Telestra",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
 	[29305] = "Moorabi",
 	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
-	[26641] = "Drakkari Gutripper",
-	[26918] = "Chaotic Rift",
-	[26731] = "Grand Magus Telestra",
-	[26893] = "Grauf",
 	[26630] = "Trollgore",
 	[26555] = "Scourge Hulk",
+	[26641] = "Drakkari Gutripper",
+	[26893] = "Grauf",
 	[27975] = "Maiden of Grief",
+	[33388] = "Dark Rune Guardian",
+	[28731] = "Watcher Silthik",
 	[28729] = "Watcher Narjil",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
@@ -5106,7 +5191,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unstoppable Abomination",
 	[27658] = "Belgaristrasz",
 	[28730] = "Watcher Gashra",
-	[33388] = "Dark Rune Guardian",
+	[33136] = "Guardian of Yogg-Saron",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",

@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
-	["InfoFramescale"] = 1,
 	["hideCompletedAchievements"] = false,
+	["announceTrackedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
 	["announceToRaidWarning"] = true,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
 	["InfoFramey"] = 80.9998779296875,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["InfoFramescale"] = 1,
 }
 AchievementTrackerDebug = {
 	"14/4/2024 20:37 [DEBUG] ---IAT Runtime---", -- [1]
@@ -5086,6 +5086,76 @@ AchievementTrackerDebug = {
 	"15/4/2024 0:10 [DEBUG] Offical Instance Name: 724 _724", -- [5061]
 	"15/4/2024 0:10 [DEBUG] DifficultyID: 6", -- [5062]
 	"15/4/2024 0:10 [DEBUG] Achievements cannot be earned for the following difficulty 6", -- [5063]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [5064]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [5065]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [5066]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [5067]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [5068]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5069]
+	"16/4/2024 11:34 [DEBUG] Showing Minimap Icon", -- [5070]
+	"16/4/2024 12:9 [DEBUG] ---IAT Runtime---", -- [5071]
+	"16/4/2024 12:9 [DEBUG] Version: 4.39.0", -- [5072]
+	"16/4/2024 12:9 [DEBUG] Attempting to load from local NPC Cache classic", -- [5073]
+	"16/4/2024 12:9 [DEBUG] Generating NPC Cache Classic...", -- [5074]
+	"16/4/2024 12:9 [DEBUG] Enabling Addon", -- [5075]
+	"16/4/2024 12:9 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5076]
+	"16/4/2024 12:9 [DEBUG] Showing Minimap Icon", -- [5077]
+	"16/4/2024 12:14 [DEBUG] ---IAT Runtime---", -- [5078]
+	"16/4/2024 12:14 [DEBUG] Version: 4.39.0", -- [5079]
+	"16/4/2024 12:14 [DEBUG] Attempting to load from local NPC Cache classic", -- [5080]
+	"16/4/2024 12:14 [DEBUG] Generating NPC Cache Classic...", -- [5081]
+	"16/4/2024 12:14 [DEBUG] Enabling Addon", -- [5082]
+	"16/4/2024 12:14 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5083]
+	"16/4/2024 12:14 [DEBUG] Showing Minimap Icon", -- [5084]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [5085]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [5086]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [5087]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [5088]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [5089]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5090]
+	"16/4/2024 12:16 [DEBUG] Showing Minimap Icon", -- [5091]
+	"16/4/2024 12:20 [DEBUG] ---IAT Runtime---", -- [5092]
+	"16/4/2024 12:20 [DEBUG] Version: 4.39.0", -- [5093]
+	"16/4/2024 12:20 [DEBUG] Attempting to load from local NPC Cache classic", -- [5094]
+	"16/4/2024 12:20 [DEBUG] Generating NPC Cache Classic...", -- [5095]
+	"16/4/2024 12:20 [DEBUG] Enabling Addon", -- [5096]
+	"16/4/2024 12:20 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5097]
+	"16/4/2024 12:21 [DEBUG] Showing Minimap Icon", -- [5098]
+	"16/4/2024 12:21 [DEBUG] ---IAT Runtime---", -- [5099]
+	"16/4/2024 12:21 [DEBUG] Version: 4.39.0", -- [5100]
+	"16/4/2024 12:21 [DEBUG] Attempting to load from local NPC Cache classic", -- [5101]
+	"16/4/2024 12:21 [DEBUG] Generating NPC Cache Classic...", -- [5102]
+	"16/4/2024 12:21 [DEBUG] Enabling Addon", -- [5103]
+	"16/4/2024 12:21 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5104]
+	"16/4/2024 12:22 [DEBUG] Showing Minimap Icon", -- [5105]
+	"16/4/2024 12:24 [DEBUG] ---IAT Runtime---", -- [5106]
+	"16/4/2024 12:24 [DEBUG] Version: 4.39.0", -- [5107]
+	"16/4/2024 12:24 [DEBUG] Attempting to load from local NPC Cache classic", -- [5108]
+	"16/4/2024 12:24 [DEBUG] Generating NPC Cache Classic...", -- [5109]
+	"16/4/2024 12:24 [DEBUG] Enabling Addon", -- [5110]
+	"16/4/2024 12:24 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5111]
+	"16/4/2024 12:23 [DEBUG] Showing Minimap Icon", -- [5112]
+	"16/4/2024 12:24 [DEBUG] ---IAT Runtime---", -- [5113]
+	"16/4/2024 12:24 [DEBUG] Version: 4.39.0", -- [5114]
+	"16/4/2024 12:24 [DEBUG] Attempting to load from local NPC Cache classic", -- [5115]
+	"16/4/2024 12:24 [DEBUG] Generating NPC Cache Classic...", -- [5116]
+	"16/4/2024 12:24 [DEBUG] Enabling Addon", -- [5117]
+	"16/4/2024 12:24 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5118]
+	"16/4/2024 12:24 [DEBUG] Showing Minimap Icon", -- [5119]
+	"16/4/2024 12:25 [DEBUG] ---IAT Runtime---", -- [5120]
+	"16/4/2024 12:25 [DEBUG] Version: 4.39.0", -- [5121]
+	"16/4/2024 12:25 [DEBUG] Attempting to load from local NPC Cache classic", -- [5122]
+	"16/4/2024 12:25 [DEBUG] Generating NPC Cache Classic...", -- [5123]
+	"16/4/2024 12:25 [DEBUG] Enabling Addon", -- [5124]
+	"16/4/2024 12:25 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5125]
+	"16/4/2024 12:25 [DEBUG] Showing Minimap Icon", -- [5126]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [5127]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.39.0", -- [5128]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [5129]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [5130]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [5131]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [5132]
+	"16/4/2024 12:40 [DEBUG] Showing Minimap Icon", -- [5133]
 }
 AchievementTrackerNPCCache = {
 }
@@ -5107,20 +5177,20 @@ AchievementTrackerNPCCacheClassic = {
 	[26628] = "Drakkari Scytheclaw",
 	[34035] = "Feral Defender",
 	[26693] = "Skadi the Ruthless",
-	[33136] = "Guardian of Yogg-Saron",
 	[26918] = "Chaotic Rift",
+	[26731] = "Grand Magus Telestra",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
 	[26533] = "Mal'Ganis",
 	[27981] = "Malformed Ooze",
 	[26763] = "Anomalus",
-	[26731] = "Grand Magus Telestra",
-	[26893] = "Grauf",
 	[26630] = "Trollgore",
-	[26641] = "Drakkari Gutripper",
 	[26555] = "Scourge Hulk",
-	[27975] = "Maiden of Grief",
+	[26893] = "Grauf",
+	[26641] = "Drakkari Gutripper",
 	[33388] = "Dark Rune Guardian",
+	[28731] = "Watcher Silthik",
+	[33136] = "Guardian of Yogg-Saron",
 	[27658] = "Belgaristrasz",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
@@ -5128,7 +5198,7 @@ AchievementTrackerNPCCacheClassic = {
 	[23562] = "Unstoppable Abomination",
 	[28729] = "Watcher Narjil",
 	[28730] = "Watcher Gashra",
-	[28731] = "Watcher Silthik",
+	[27975] = "Maiden of Grief",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",

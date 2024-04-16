@@ -12,9 +12,9 @@ BisTooltipDB = {
 	["char"] = {
 		["Alsia - Venoxis"] = {
 			["class_index"] = 5,
-			["phase_index"] = 3,
-			["data_source"] = "wh",
 			["version"] = 6.2,
+			["data_source"] = "wh",
+			["phase_index"] = 3,
 		},
 		["Alsía - Venoxis"] = {
 			["data_source"] = "wh",

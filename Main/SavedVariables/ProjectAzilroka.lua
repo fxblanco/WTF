@@ -41,10 +41,10 @@ ProjectAzilrokaDB = {
 			["stAddonManager"] = {
 				["Enable"] = false,
 			},
-			["FasterLoot"] = {
+			["Cooldown"] = {
 				["Enable"] = false,
 			},
-			["Cooldown"] = {
+			["FasterLoot"] = {
 				["Enable"] = false,
 			},
 			["EnhancedFriendsList"] = {

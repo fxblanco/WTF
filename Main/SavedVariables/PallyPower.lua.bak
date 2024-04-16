@@ -14,10 +14,10 @@ PallyPowerDB = {
 			["auras"] = false,
 			["skin"] = "normTex2",
 			["rfbuff"] = false,
-			["enable"] = true,
-			["border"] = "None",
-			["hideHighGroups"] = true,
 			["WrathTransition"] = true,
+			["enable"] = true,
+			["hideHighGroups"] = true,
+			["border"] = "None",
 			["rf"] = false,
 		},
 		["Default"] = {
@@ -139,17 +139,29 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Beesportz"] = {
-		2, -- [1]
-		2, -- [2]
+	["Shîzuye"] = {
+		3, -- [1]
+		3, -- [2]
 		3, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
 		3, -- [7]
 		3, -- [8]
-		2, -- [9]
+		3, -- [9]
 		3, -- [10]
+	},
+	["Alsia"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		1, -- [5]
+		3, -- [6]
+		1, -- [7]
+		0, -- [8]
+		1, -- [9]
+		0, -- [10]
 	},
 	["Rothut"] = {
 		4, -- [1]
@@ -175,28 +187,20 @@ PallyPower_Assignments = {
 		1, -- [9]
 		0, -- [10]
 	},
-	["Alsia"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		1, -- [7]
+	["Beesportz"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		3, -- [7]
 		3, -- [8]
-		1, -- [9]
+		2, -- [9]
 		3, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
-	["Alsia"] = {
-		[5] = {
-			["Alsia"] = 1,
-			["Lysaniâ"] = 3,
-		},
-	},
-	["Lysaniâ"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["Zelcher"] = 2,
@@ -208,10 +212,11 @@ PallyPower_AuraAssignments = {
 	["Erapala"] = 1,
 	["Balalalala"] = 3,
 	["Lesbenlisa"] = 3,
-	["Beesportz"] = 2,
+	["Shîzuye"] = 0,
+	["Alsia"] = 3,
 	["Rothut"] = 3,
 	["Sanziji"] = 0,
-	["Alsia"] = 3,
+	["Beesportz"] = 2,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {
@@ -228,7 +233,6 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil
