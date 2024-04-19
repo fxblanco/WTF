@@ -3,22 +3,22 @@ PallyPowerDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Other",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Andrés - Venoxis"] = "Other",
 		["Exonuklease - Venoxis"] = "Other",
-		["Khalimmortus - Venoxis"] = "Other",
+		["Alsiadk - Venoxis"] = "Other",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
+		["Andrés - Venoxis"] = "Other",
+		["Khalimmortus - Venoxis"] = "Other",
+		["Maturitass - Venoxis"] = "Other",
 		["Kwasimojo - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
-			["rf"] = false,
-			["WrathTransition"] = true,
-			["rfbuff"] = false,
-			["skin"] = "normTex2",
 			["enable"] = true,
-			["hideHighGroups"] = true,
 			["border"] = "None",
-			["auras"] = false,
+			["WrathTransition"] = true,
+			["hideHighGroups"] = true,
+			["skin"] = "normTex2",
+			["rf"] = false,
 		},
 		["Default"] = {
 			["enable"] = true,
@@ -139,17 +139,29 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Beesportz"] = {
-		2, -- [1]
-		2, -- [2]
+	["Shîzuye"] = {
+		3, -- [1]
+		3, -- [2]
 		3, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
 		3, -- [7]
 		3, -- [8]
-		2, -- [9]
+		3, -- [9]
 		3, -- [10]
+	},
+	["Alsia"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		1, -- [5]
+		3, -- [6]
+		1, -- [7]
+		0, -- [8]
+		1, -- [9]
+		0, -- [10]
 	},
 	["Sanziji"] = {
 		1, -- [1]
@@ -175,28 +187,16 @@ PallyPower_Assignments = {
 		4, -- [9]
 		4, -- [10]
 	},
-	["Alsia"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		1, -- [5]
-		3, -- [6]
-		1, -- [7]
-		0, -- [8]
-		1, -- [9]
-		0, -- [10]
-	},
-	["Shîzuye"] = {
-		3, -- [1]
-		3, -- [2]
+	["Beesportz"] = {
+		2, -- [1]
+		2, -- [2]
 		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
 		3, -- [7]
 		3, -- [8]
-		3, -- [9]
+		2, -- [9]
 		3, -- [10]
 	},
 }
@@ -212,11 +212,11 @@ PallyPower_AuraAssignments = {
 	["Erapala"] = 1,
 	["Balalalala"] = 3,
 	["Lesbenlisa"] = 3,
-	["Beesportz"] = 2,
+	["Shîzuye"] = 0,
+	["Alsia"] = 3,
 	["Sanziji"] = 0,
 	["Rothut"] = 3,
-	["Alsia"] = 3,
-	["Shîzuye"] = 0,
+	["Beesportz"] = 2,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

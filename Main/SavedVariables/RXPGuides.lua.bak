@@ -546,17 +546,17 @@ RXPData = {
 		["RestedXP Horde 1-30||1-6 Durotar"] = {
 			["guideId"] = 2938702480,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["next"] = "6-10 Durotar",
-			["enabledFor"] = "Horde",
 			["defaultfor"] = "Orc/Troll",
-			["defaultFor"] = "Orc/Troll",
+			["enabledFor"] = "Horde",
 			["group"] = "RestedXP Speedrun Guide (H)",
-			["tbc"] = "",
 			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|01-06 Durotar",
-			["wotlk"] = "",
+			["defaultFor"] = "Orc/Troll",
+			["tbc"] = "",
 			["name"] = "01-06 Durotar",
-			["length"] = 40355,
+			["wotlk"] = "",
 			["version"] = 1,
+			["length"] = 40355,
+			["next"] = "6-10 Durotar",
 			["displayname"] = "1-6 Durotar",
 		},
 		["+Mining & Herbalism|Hellfire Peninsula|Mining & Herbalism6"] = {
@@ -635,17 +635,17 @@ RXPData = {
 		["RestedXP Horde 1-30||10-13 Mulgore"] = {
 			["guideId"] = 3250850536,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["defaultfor"] = "Tauren",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|10-13 Mulgore",
-			["defaultFor"] = "Tauren",
-			["tbc"] = "",
-			["version"] = 1,
-			["wotlk"] = "",
-			["name"] = "10-13 Mulgore",
-			["length"] = 6289,
 			["next"] = "13-23 The Barrens",
+			["enabledFor"] = "Horde",
+			["defaultfor"] = "Tauren",
+			["defaultFor"] = "Tauren",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["tbc"] = "",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|10-13 Mulgore",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 6289,
+			["name"] = "10-13 Mulgore",
 			["displayname"] = "10-13 Mulgore",
 		},
 		["+Mining & Herbalism|The Storm Peaks|Mining & Herbalism16"] = {
@@ -1047,17 +1047,17 @@ RXPData = {
 		["RestedXP Horde 1-30||1-6 Mulgore"] = {
 			["guideId"] = 2939161226,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["defaultfor"] = "Tauren",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|01-06 Mulgore",
-			["defaultFor"] = "Tauren",
-			["tbc"] = "",
-			["version"] = 1,
-			["wotlk"] = "",
-			["name"] = "01-06 Mulgore",
-			["length"] = 8595,
 			["next"] = "6-10 Mulgore",
+			["enabledFor"] = "Horde",
+			["defaultfor"] = "Tauren",
+			["defaultFor"] = "Tauren",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["tbc"] = "",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|01-06 Mulgore",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 8595,
+			["name"] = "01-06 Mulgore",
 			["displayname"] = "1-6 Mulgore",
 		},
 		["+Argent Tournament||J_3.2AT_Sunreavers_Daily_Quests"] = {
@@ -1100,17 +1100,16 @@ RXPData = {
 			["name"] = "Mining & Herbalism7",
 			["displayname"] = "Mining & Herbalism",
 		},
-		["+Argent Tournament||D_2_AT_Thunder Bluff"] = {
-			["guideId"] = 799543011,
-			["enabledFor"] = "Horde !Tauren",
+		["+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests"] = {
+			["guideId"] = 3551531726,
 			["group"] = "+Argent Tournament",
-			["version"] = 1,
-			["name"] = "D_2_AT_Thunder Bluff",
 			["farm"] = true,
+			["name"] = "I_3.1_AT_Crusader_Daily_Quests",
 			["wotlk"] = "",
-			["length"] = 13277,
-			["key"] = "+Argent Tournament||D_2_AT_Thunder Bluff",
-			["displayname"] = "|cFF00FF252.0|r - Thunder Bluff Champion",
+			["version"] = 1,
+			["length"] = 3019,
+			["key"] = "+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests",
+			["displayname"] = "|cFFFF57223.1|r - Crusader Daily Quests",
 		},
 		["+Northrend Farming|The Storm Peaks|Eternal Earth (Brittle Revenant)_56a"] = {
 			["guideId"] = 2989955546,
@@ -1140,19 +1139,18 @@ RXPData = {
 			["name"] = "Arcane Tome_23a",
 			["displayname"] = "Arcane Tome",
 		},
-		["+Outland Farming|Terokkar Forest|Firewing Signet_15a"] = {
-			["guideId"] = 177214368,
-			["subgroup"] = "Terokkar Forest",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Firewing Signet_15a",
+		["+Argent Tournament||F_2_AT_Silvermoon"] = {
+			["guideId"] = 96341546,
+			["next"] = "Champion Side Quests",
+			["enabledFor"] = "Horde !BloodElf",
+			["group"] = "+Argent Tournament",
+			["version"] = 1,
+			["name"] = "F_2_AT_Silvermoon",
 			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 351,
-			["name"] = "Firewing Signet_15a",
-			["displayname"] = "Firewing Signet",
+			["length"] = 13574,
+			["key"] = "+Argent Tournament||F_2_AT_Silvermoon",
+			["displayname"] = "|cFF00FF252.0|r - Silvermoon Champion",
 		},
 		["+Outland Farming|Netherstorm|Fel Armament_3a"] = {
 			["guideId"] = 2035028185,
@@ -1182,18 +1180,19 @@ RXPData = {
 			["name"] = "Worm Meat & Borean Leather_54a",
 			["displayname"] = "Worm Meat & Borean Leather",
 		},
-		["+Argent Tournament||F_2_AT_Silvermoon"] = {
-			["guideId"] = 96341546,
-			["next"] = "Champion Side Quests",
-			["enabledFor"] = "Horde !BloodElf",
-			["group"] = "+Argent Tournament",
-			["version"] = 1,
-			["name"] = "F_2_AT_Silvermoon",
+		["+Outland Farming|Terokkar Forest|Firewing Signet_15a"] = {
+			["guideId"] = 177214368,
+			["subgroup"] = "Terokkar Forest",
+			["group"] = "+Outland Farming",
+			["key"] = "+Outland Farming|Terokkar Forest|Firewing Signet_15a",
 			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
 			["wotlk"] = "",
-			["length"] = 13574,
-			["key"] = "+Argent Tournament||F_2_AT_Silvermoon",
-			["displayname"] = "|cFF00FF252.0|r - Silvermoon Champion",
+			["loop"] = "",
+			["length"] = 351,
+			["name"] = "Firewing Signet_15a",
+			["displayname"] = "Firewing Signet",
 		},
 		["+Cooking & Skinning|The Storm Peaks|Chunk o' Mammoth & Borean Leather_53a"] = {
 			["guideId"] = 3006077291,
@@ -2076,17 +2075,17 @@ RXPData = {
 		["RestedXP Horde 1-30||6-10 Mulgore"] = {
 			["guideId"] = 3094940346,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["defaultfor"] = "Tauren",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|06-10 Mulgore",
-			["defaultFor"] = "Tauren",
-			["tbc"] = "",
-			["version"] = 1,
-			["wotlk"] = "",
-			["name"] = "06-10 Mulgore",
-			["length"] = 29305,
 			["next"] = "10-12 Eversong Woods",
+			["enabledFor"] = "Horde",
+			["defaultfor"] = "Tauren",
+			["defaultFor"] = "Tauren",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["tbc"] = "",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|06-10 Mulgore",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 29305,
+			["name"] = "06-10 Mulgore",
 			["displayname"] = "6-10 Mulgore",
 		},
 		["+Northrend Farming|Grizzly Hills|Eternal Earth (Runic Battle Golem)_42a"] = {
@@ -2245,16 +2244,17 @@ RXPData = {
 			["name"] = "Mining14",
 			["displayname"] = "Mining",
 		},
-		["+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests"] = {
-			["guideId"] = 3551531726,
+		["+Argent Tournament||C_2_AT_Sen'jin"] = {
+			["guideId"] = 3674606727,
+			["enabledFor"] = "Horde !Troll",
 			["group"] = "+Argent Tournament",
-			["farm"] = true,
-			["name"] = "I_3.1_AT_Crusader_Daily_Quests",
-			["wotlk"] = "",
 			["version"] = 1,
-			["length"] = 3019,
-			["key"] = "+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests",
-			["displayname"] = "|cFFFF57223.1|r - Crusader Daily Quests",
+			["name"] = "C_2_AT_Sen'jin",
+			["farm"] = true,
+			["wotlk"] = "",
+			["length"] = 12948,
+			["key"] = "+Argent Tournament||C_2_AT_Sen'jin",
+			["displayname"] = "|cFF00FF252.0|r - Sen'jin Champion",
 		},
 		["+Mining & Herbalism|Dragonblight|Mining & Herbalism12"] = {
 			["guideId"] = 39129882,
@@ -2276,11 +2276,13 @@ RXPDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "global",
 		["Alsía - Venoxis"] = "global",
-		["Andrés - Venoxis"] = "global",
 		["Exonuklease - Venoxis"] = "global",
-		["Khalimmortus - Venoxis"] = "global",
+		["Alsiadk - Venoxis"] = "global",
 		["Alsia - Venoxis"] = "global",
+		["Andrés - Venoxis"] = "global",
+		["Khalimmortus - Venoxis"] = "global",
 		["Kwasimojo - Venoxis"] = "global",
+		["Maturitass - Venoxis"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
@@ -2291,21 +2293,23 @@ RXPSettings = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2328,11 +2332,11 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2340,9 +2344,9 @@ RXPSettings = {
 			},
 			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2352,13 +2356,194 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 			},
 		},
 		["Alsía - Venoxis"] = {
+			["hardcore"] = false,
+			["framePositions"] = {
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 124.9998931884766,
+			["frameSizes"] = {
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+			},
+		},
+		["Exonuklease - Venoxis"] = {
+			["hardcore"] = false,
+			["framePositions"] = {
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 124.9998931884766,
+			["frameSizes"] = {
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+			},
+		},
+		["Alsiadk - Venoxis"] = {
+			["xprate"] = 1.2,
+			["frameHeight"] = 124.9998931884766,
+			["hardcore"] = false,
+			["framePositions"] = {
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameSizes"] = {
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["activeTargetFrame"] = {
+					73.06678771972656, -- [1]
+					67.99999237060547, -- [2]
+				},
+			},
+		},
+		["Alsia - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
@@ -2421,11 +2606,11 @@ RXPSettings = {
 		["Andrés - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2448,39 +2633,6 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["arrowFrame"] = {
-					{
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-			},
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
-				},
-			},
-			["frameHeight"] = 124.9998931884766,
-		},
-		["Exonuklease - Venoxis"] = {
-			["hardcore"] = false,
-			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
 						"CENTER", -- [1]
@@ -2490,39 +2642,12 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["RXPFrame"] = {
-					{
-						"LEFT", -- [1]
-						"UIParent", -- [2]
-						"LEFT", -- [3]
-						0, -- [4]
-						35, -- [5]
-					}, -- [1]
-				},
-				["activeItemFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-				["arrowFrame"] = {
-					{
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
 			},
 			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2532,73 +2657,13 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 			},
 		},
 		["Khalimmortus - Venoxis"] = {
-			["hardcore"] = false,
-			["framePositions"] = {
-				["activeTargetFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-				["RXPFrame"] = {
-					{
-						"LEFT", -- [1]
-						"UIParent", -- [2]
-						"LEFT", -- [3]
-						0, -- [4]
-						35, -- [5]
-					}, -- [1]
-				},
-				["activeItemFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-				["arrowFrame"] = {
-					{
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-			},
-			["frameHeight"] = 124.9998931884766,
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
-				},
-			},
-		},
-		["Alsia - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
 				["arrowFrame"] = {
@@ -2661,11 +2726,11 @@ RXPSettings = {
 		["Kwasimojo - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2688,11 +2753,11 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2700,9 +2765,9 @@ RXPSettings = {
 			},
 			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2712,11 +2777,71 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 			},
+		},
+		["Maturitass - Venoxis"] = {
+			["hardcore"] = false,
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					73.06678771972656, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					65.89994812011719, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
+			["frameHeight"] = 124.9998931884766,
 		},
 	},
 }

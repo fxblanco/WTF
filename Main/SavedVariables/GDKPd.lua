@@ -1,24 +1,25 @@
 
 GDKPd_DB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
 	["global"] = {
 		["shownPopupAddonMsg4_2"] = true,
 	},
-	["profileKeys"] = {
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
 	["profiles"] = {
-		["Alsia - Venoxis"] = {
+		["Xolem - Venoxis"] = {
 			["point"] = {
-				["y"] = -15.00013446807861,
+				["y"] = -12.2999382019043,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 4.499999523162842,
 			},
 		},
 		["Alsía - Venoxis"] = {
@@ -29,6 +30,24 @@ GDKPd_DB = {
 				["x"] = 33.59992218017578,
 			},
 		},
+		["Exonuklease - Venoxis"] = {
+		},
+		["Alsiadk - Venoxis"] = {
+			["point"] = {
+				["y"] = -86.10002899169922,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -595.7999877929688,
+			},
+		},
+		["Alsia - Venoxis"] = {
+			["point"] = {
+				["y"] = -15.00013446807861,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 4.499999523162842,
+			},
+		},
 		["Andrés - Venoxis"] = {
 			["point"] = {
 				["y"] = -15.90004825592041,
@@ -36,17 +55,8 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 			},
 		},
-		["Exonuklease - Venoxis"] = {
-		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-			},
-		},
-		["Xolem - Venoxis"] = {
-			["point"] = {
-				["y"] = -12.2999382019043,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
 			},
@@ -58,6 +68,8 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 				["x"] = 16.20000648498535,
 			},
+		},
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

@@ -3,23 +3,16 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "MerfinUI v5.22",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Andrés - Venoxis"] = "MerfinUI v5.22",
 		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
-		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
+		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
+		["Andrés - Venoxis"] = "MerfinUI v5.22",
+		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
 		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
+		["Maturitass - Venoxis"] = "MerfinUI v5.22",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["block"] = {
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					-100, -- [5]
-				},
-			},
 			["arrow"] = {
 				["position"] = {
 					"CENTER", -- [1]
@@ -27,6 +20,15 @@ TomTomDB = {
 					"CENTER", -- [3]
 					0, -- [4]
 					0, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					-100, -- [5]
 				},
 			},
 		},
@@ -61,26 +63,32 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
 		},
 		["Alsía - Venoxis"] = {
 		},
-		["Andrés - Venoxis"] = {
-		},
 		["Exonuklease - Venoxis"] = {
 		},
-		["Khalimmortus - Venoxis"] = {
+		["Alsiadk - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
 		},
+		["Andrés - Venoxis"] = {
+		},
+		["Khalimmortus - Venoxis"] = {
+		},
 		["Kwasimojo - Venoxis"] = {
+		},
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

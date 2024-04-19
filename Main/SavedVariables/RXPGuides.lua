@@ -280,20 +280,19 @@ RXPData = {
 			["name"] = "Mining & Herbalism5",
 			["displayname"] = "Mining & Herbalism",
 		},
-		["RestedXP Horde 1-30||25-26 Stonetalon"] = {
-			["guideId"] = 3855748158,
-			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["next"] = "26-30 Ashenvale / Thousand Needles",
-			["enabledFor"] = "Horde",
-			["name"] = "25-26 Stonetalon",
-			["xprate"] = "<1.5",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|25-26 Stonetalon",
+		["+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a"] = {
+			["guideId"] = 1271404611,
+			["subgroup"] = "Zul'Drak",
+			["group"] = "+Northrend Farming",
+			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
 			["wotlk"] = "",
-			["tbc"] = "",
-			["length"] = 4520,
-			["version"] = 1,
-			["displayname"] = "25-26 Stonetalon",
+			["loop"] = "",
+			["length"] = 386,
+			["name"] = "Eternal Water (Crazed Water Spirit)_49a",
+			["displayname"] = "Eternal Water (Crazed Water Spirit)",
 		},
 		["+Outland Farming|Terokkar Forest|Netherweb Spider Silk_18a"] = {
 			["guideId"] = 2301171132,
@@ -547,17 +546,17 @@ RXPData = {
 		["RestedXP Horde 1-30||1-6 Durotar"] = {
 			["guideId"] = 2938702480,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["next"] = "6-10 Durotar",
-			["enabledFor"] = "Horde",
 			["defaultfor"] = "Orc/Troll",
-			["defaultFor"] = "Orc/Troll",
+			["enabledFor"] = "Horde",
 			["group"] = "RestedXP Speedrun Guide (H)",
-			["tbc"] = "",
 			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|01-06 Durotar",
-			["wotlk"] = "",
+			["defaultFor"] = "Orc/Troll",
+			["tbc"] = "",
 			["name"] = "01-06 Durotar",
-			["length"] = 40355,
+			["wotlk"] = "",
 			["version"] = 1,
+			["length"] = 40355,
+			["next"] = "6-10 Durotar",
 			["displayname"] = "1-6 Durotar",
 		},
 		["+Mining & Herbalism|Hellfire Peninsula|Mining & Herbalism6"] = {
@@ -636,17 +635,17 @@ RXPData = {
 		["RestedXP Horde 1-30||10-13 Mulgore"] = {
 			["guideId"] = 3250850536,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["defaultfor"] = "Tauren",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|10-13 Mulgore",
-			["defaultFor"] = "Tauren",
-			["tbc"] = "",
-			["version"] = 1,
-			["wotlk"] = "",
-			["name"] = "10-13 Mulgore",
-			["length"] = 6289,
 			["next"] = "13-23 The Barrens",
+			["enabledFor"] = "Horde",
+			["defaultfor"] = "Tauren",
+			["defaultFor"] = "Tauren",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["tbc"] = "",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|10-13 Mulgore",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 6289,
+			["name"] = "10-13 Mulgore",
 			["displayname"] = "10-13 Mulgore",
 		},
 		["+Mining & Herbalism|The Storm Peaks|Mining & Herbalism16"] = {
@@ -977,6 +976,18 @@ RXPData = {
 			["name"] = "Primal Shadow_12a",
 			["displayname"] = "Primal Shadow",
 		},
+		["+Argent Tournament||B_2_AT_Orgrimmar"] = {
+			["guideId"] = 4145352104,
+			["enabledFor"] = "Horde !Orc",
+			["group"] = "+Argent Tournament",
+			["version"] = 1,
+			["name"] = "B_2_AT_Orgrimmar",
+			["farm"] = true,
+			["wotlk"] = "",
+			["length"] = 12982,
+			["key"] = "+Argent Tournament||B_2_AT_Orgrimmar",
+			["displayname"] = "|cFF00FF252.0|r - Orgrimmar Champion",
+		},
 		["+Azeroth Farming|Winterspring|Mining & Herbalism9"] = {
 			["guideId"] = 3552711305,
 			["subgroup"] = "Winterspring",
@@ -1005,18 +1016,6 @@ RXPData = {
 			["name"] = "Primal Shadow_25a",
 			["displayname"] = "Primal Shadow",
 		},
-		["+Argent Tournament||J_3.2AT_Sunreavers_Daily_Quests"] = {
-			["guideId"] = 3933410150,
-			["enabledFor"] = "Horde",
-			["group"] = "+Argent Tournament",
-			["version"] = 1,
-			["name"] = "J_3.2AT_Sunreavers_Daily_Quests",
-			["farm"] = true,
-			["wotlk"] = "",
-			["length"] = 4619,
-			["key"] = "+Argent Tournament||J_3.2AT_Sunreavers_Daily_Quests",
-			["displayname"] = "|cFFFF57223.2|r - Sunreavers Daily Quests",
-		},
 		["RestedXP Horde 1-30||6-10 Durotar"] = {
 			["guideId"] = 3094481600,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
@@ -1030,17 +1029,6 @@ RXPData = {
 			["length"] = 27709,
 			["version"] = 1,
 			["displayname"] = "6-10 Durotar",
-		},
-		["+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests"] = {
-			["guideId"] = 3551531726,
-			["group"] = "+Argent Tournament",
-			["farm"] = true,
-			["name"] = "I_3.1_AT_Crusader_Daily_Quests",
-			["wotlk"] = "",
-			["version"] = 1,
-			["length"] = 3019,
-			["key"] = "+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests",
-			["displayname"] = "|cFFFF57223.1|r - Crusader Daily Quests",
 		},
 		["+Mining & Herbalism|Hellfire Peninsula|Mining6"] = {
 			["guideId"] = 2187071765,
@@ -1059,31 +1047,30 @@ RXPData = {
 		["RestedXP Horde 1-30||1-6 Mulgore"] = {
 			["guideId"] = 2939161226,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["defaultfor"] = "Tauren",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|01-06 Mulgore",
-			["defaultFor"] = "Tauren",
-			["tbc"] = "",
-			["version"] = 1,
-			["wotlk"] = "",
-			["name"] = "01-06 Mulgore",
-			["length"] = 8595,
 			["next"] = "6-10 Mulgore",
+			["enabledFor"] = "Horde",
+			["defaultfor"] = "Tauren",
+			["defaultFor"] = "Tauren",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["tbc"] = "",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|01-06 Mulgore",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 8595,
+			["name"] = "01-06 Mulgore",
 			["displayname"] = "1-6 Mulgore",
 		},
-		["+Argent Tournament||F_2_AT_Silvermoon"] = {
-			["guideId"] = 96341546,
-			["next"] = "Champion Side Quests",
-			["enabledFor"] = "Horde !BloodElf",
+		["+Argent Tournament||J_3.2AT_Sunreavers_Daily_Quests"] = {
+			["guideId"] = 3933410150,
+			["enabledFor"] = "Horde",
 			["group"] = "+Argent Tournament",
 			["version"] = 1,
-			["name"] = "F_2_AT_Silvermoon",
+			["name"] = "J_3.2AT_Sunreavers_Daily_Quests",
 			["farm"] = true,
 			["wotlk"] = "",
-			["length"] = 13574,
-			["key"] = "+Argent Tournament||F_2_AT_Silvermoon",
-			["displayname"] = "|cFF00FF252.0|r - Silvermoon Champion",
+			["length"] = 4619,
+			["key"] = "+Argent Tournament||J_3.2AT_Sunreavers_Daily_Quests",
+			["displayname"] = "|cFFFF57223.2|r - Sunreavers Daily Quests",
 		},
 		["+Northrend Farming|The Storm Peaks|Eternal Water (Stormrider)_60a"] = {
 			["guideId"] = 508565462,
@@ -1113,17 +1100,16 @@ RXPData = {
 			["name"] = "Mining & Herbalism7",
 			["displayname"] = "Mining & Herbalism",
 		},
-		["+Argent Tournament||D_2_AT_Thunder Bluff"] = {
-			["guideId"] = 799543011,
-			["enabledFor"] = "Horde !Tauren",
+		["+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests"] = {
+			["guideId"] = 3551531726,
 			["group"] = "+Argent Tournament",
-			["version"] = 1,
-			["name"] = "D_2_AT_Thunder Bluff",
 			["farm"] = true,
+			["name"] = "I_3.1_AT_Crusader_Daily_Quests",
 			["wotlk"] = "",
-			["length"] = 13277,
-			["key"] = "+Argent Tournament||D_2_AT_Thunder Bluff",
-			["displayname"] = "|cFF00FF252.0|r - Thunder Bluff Champion",
+			["version"] = 1,
+			["length"] = 3019,
+			["key"] = "+Argent Tournament||I_3.1_AT_Crusader_Daily_Quests",
+			["displayname"] = "|cFFFF57223.1|r - Crusader Daily Quests",
 		},
 		["+Northrend Farming|The Storm Peaks|Eternal Earth (Brittle Revenant)_56a"] = {
 			["guideId"] = 2989955546,
@@ -1153,19 +1139,18 @@ RXPData = {
 			["name"] = "Arcane Tome_23a",
 			["displayname"] = "Arcane Tome",
 		},
-		["+Outland Farming|Terokkar Forest|Firewing Signet_15a"] = {
-			["guideId"] = 177214368,
-			["subgroup"] = "Terokkar Forest",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Firewing Signet_15a",
+		["+Argent Tournament||F_2_AT_Silvermoon"] = {
+			["guideId"] = 96341546,
+			["next"] = "Champion Side Quests",
+			["enabledFor"] = "Horde !BloodElf",
+			["group"] = "+Argent Tournament",
+			["version"] = 1,
+			["name"] = "F_2_AT_Silvermoon",
 			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 351,
-			["name"] = "Firewing Signet_15a",
-			["displayname"] = "Firewing Signet",
+			["length"] = 13574,
+			["key"] = "+Argent Tournament||F_2_AT_Silvermoon",
+			["displayname"] = "|cFF00FF252.0|r - Silvermoon Champion",
 		},
 		["+Outland Farming|Netherstorm|Fel Armament_3a"] = {
 			["guideId"] = 2035028185,
@@ -1195,17 +1180,19 @@ RXPData = {
 			["name"] = "Worm Meat & Borean Leather_54a",
 			["displayname"] = "Worm Meat & Borean Leather",
 		},
-		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route"] = {
-			["guideId"] = 4005534,
-			["subgroup"] = "Faction Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route",
-			["version"] = 1,
-			["wotlk"] = "",
+		["+Outland Farming|Terokkar Forest|Firewing Signet_15a"] = {
+			["guideId"] = 177214368,
+			["subgroup"] = "Terokkar Forest",
+			["group"] = "+Outland Farming",
+			["key"] = "+Outland Farming|Terokkar Forest|Firewing Signet_15a",
 			["farm"] = true,
-			["length"] = 5928,
-			["name"] = "Ebon Blade Daily Quests Route",
-			["displayname"] = "Ebon Blade Daily Quests Route",
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 351,
+			["name"] = "Firewing Signet_15a",
+			["displayname"] = "Firewing Signet",
 		},
 		["+Cooking & Skinning|The Storm Peaks|Chunk o' Mammoth & Borean Leather_53a"] = {
 			["guideId"] = 3006077291,
@@ -1221,19 +1208,17 @@ RXPData = {
 			["name"] = "Chunk o' Mammoth & Borean Leather_53a",
 			["displayname"] = "Chunk o' Mammoth & Borean Leather",
 		},
-		["+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11"] = {
-			["guideId"] = 605754261,
-			["subgroup"] = "Sholazar Basin",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
+		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests"] = {
+			["guideId"] = 1778654388,
+			["subgroup"] = "Faction Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests",
+			["version"] = 1,
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 897,
-			["name"] = "Mining & Herbalism11",
-			["displayname"] = "Mining & Herbalism",
+			["farm"] = true,
+			["length"] = 1958,
+			["name"] = "The Kalu'ak Daily Quests",
+			["displayname"] = "The Kalu'ak Daily Quests",
 		},
 		["+Mining & Herbalism|The Storm Peaks|Mining16"] = {
 			["guideId"] = 1508183990,
@@ -1249,17 +1234,19 @@ RXPData = {
 			["name"] = "Mining16",
 			["displayname"] = "Mining",
 		},
-		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking"] = {
-			["guideId"] = 96344169,
-			["subgroup"] = "Profession Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking",
-			["version"] = 1,
-			["wotlk"] = "",
+		["+Outland Farming|Nagrand|Talbuk Venison_10a"] = {
+			["guideId"] = 1680347168,
+			["subgroup"] = "Nagrand",
+			["group"] = "+Outland Farming",
+			["key"] = "+Outland Farming|Nagrand|Talbuk Venison_10a",
 			["farm"] = true,
-			["length"] = 17102,
-			["name"] = "Cooking",
-			["displayname"] = "Cooking",
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 367,
+			["name"] = "Talbuk Venison_10a",
+			["displayname"] = "Talbuk Venison",
 		},
 		["+Outland Farming|Blades Edge Mountains|Wind Scale_4a"] = {
 			["guideId"] = 4213183275,
@@ -1303,6 +1290,18 @@ RXPData = {
 			["name"] = "Eternal Shadow (Wandering Shadow)_62a",
 			["displayname"] = "Eternal Shadow (Wandering Shadow)",
 		},
+		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking"] = {
+			["guideId"] = 96344169,
+			["subgroup"] = "Profession Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["key"] = "+RestedXP Northrend Daily Quests|Profession Daily Quests|Cooking",
+			["version"] = 1,
+			["wotlk"] = "",
+			["farm"] = true,
+			["length"] = 17102,
+			["name"] = "Cooking",
+			["displayname"] = "Cooking",
+		},
 		["+RestedXP Northrend Daily Quests|Profession Daily Quests|Jewelcrafting"] = {
 			["guideId"] = 2698320612,
 			["subgroup"] = "Profession Daily Quests",
@@ -1314,18 +1313,6 @@ RXPData = {
 			["length"] = 6722,
 			["name"] = "Jewelcrafting",
 			["displayname"] = "Jewelcrafting",
-		},
-		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests"] = {
-			["guideId"] = 1778654388,
-			["subgroup"] = "Faction Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Kalu'ak Daily Quests",
-			["version"] = 1,
-			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 1958,
-			["name"] = "The Kalu'ak Daily Quests",
-			["displayname"] = "The Kalu'ak Daily Quests",
 		},
 		["+Cooking & Skinning|Sholazar Basin|Chunk o' Mammoth & Borean Leather_37a"] = {
 			["guideId"] = 2790463828,
@@ -1352,17 +1339,17 @@ RXPData = {
 			["name"] = "Best Daily Quests Gold Per Hour Route",
 			["displayname"] = "Best Daily Quests Gold Per Hour Route",
 		},
-		["+Profession Leveling||1-450 Skinning (H)"] = {
-			["guideId"] = 682298803,
-			["group"] = "+Profession Leveling",
-			["name"] = "01-450 Skinning (H)",
-			["enabledFor"] = "Horde",
-			["key"] = "+Profession Leveling||01-450 Skinning (H)",
-			["farm"] = true,
+		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route"] = {
+			["guideId"] = 4005534,
+			["subgroup"] = "Faction Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|Ebon Blade Daily Quests Route",
+			["version"] = 1,
 			["wotlk"] = "",
-			["length"] = 10445,
-			["version"] = 0,
-			["displayname"] = "1-450 Skinning",
+			["farm"] = true,
+			["length"] = 5928,
+			["name"] = "Ebon Blade Daily Quests Route",
+			["displayname"] = "Ebon Blade Daily Quests Route",
 		},
 		["+Mining & Herbalism|Icecrown|Herbalism18"] = {
 			["guideId"] = 611716797,
@@ -1392,20 +1379,6 @@ RXPData = {
 			["name"] = "Mining10",
 			["displayname"] = "Mining",
 		},
-		["+Mining & Herbalism|Sholazar Basin|Herbalism11"] = {
-			["guideId"] = 2180845773,
-			["subgroup"] = "Sholazar Basin",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Sholazar Basin|Herbalism11",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 669,
-			["name"] = "Herbalism11",
-			["displayname"] = "Herbalism",
-		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|Icecrown Gunship Unlock Daily Quests"] = {
 			["guideId"] = 4030734775,
 			["subgroup"] = "Faction Daily Quests",
@@ -1417,6 +1390,20 @@ RXPData = {
 			["length"] = 51504,
 			["name"] = "Icecrown Gunship Unlock Daily Quests",
 			["displayname"] = "Icecrown Gunship Unlock Daily Quests",
+		},
+		["+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11"] = {
+			["guideId"] = 605754261,
+			["subgroup"] = "Sholazar Basin",
+			["group"] = "+Mining & Herbalism",
+			["key"] = "+Mining & Herbalism|Sholazar Basin|Mining & Herbalism11",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 897,
+			["name"] = "Mining & Herbalism11",
+			["displayname"] = "Mining & Herbalism",
 		},
 		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Daily Quests Route"] = {
 			["guideId"] = 3721601297,
@@ -1430,17 +1417,17 @@ RXPData = {
 			["name"] = "The Sons of Hodir Daily Quests Route",
 			["displayname"] = "The Sons of Hodir Daily Quests Route",
 		},
-		["+Profession Leveling||1-450 Herbalism (H)"] = {
-			["guideId"] = 916590089,
+		["+Profession Leveling||1-450 Skinning (H)"] = {
+			["guideId"] = 682298803,
 			["group"] = "+Profession Leveling",
-			["name"] = "01-450 Herbalism (H)",
+			["name"] = "01-450 Skinning (H)",
 			["enabledFor"] = "Horde",
-			["key"] = "+Profession Leveling||01-450 Herbalism (H)",
+			["key"] = "+Profession Leveling||01-450 Skinning (H)",
 			["farm"] = true,
 			["wotlk"] = "",
-			["length"] = 14709,
+			["length"] = 10445,
 			["version"] = 0,
-			["displayname"] = "1-450 Herbalism",
+			["displayname"] = "1-450 Skinning",
 		},
 		["+Mining & Herbalism|Zul'Drak|Mining & Herbalism15"] = {
 			["guideId"] = 2882212140,
@@ -1456,17 +1443,17 @@ RXPData = {
 			["name"] = "Mining & Herbalism15",
 			["displayname"] = "Mining & Herbalism",
 		},
-		["+Profession Leveling||1-450 Mining (H)"] = {
-			["guideId"] = 192351444,
+		["+Profession Leveling||1-450 Herbalism (H)"] = {
+			["guideId"] = 916590089,
 			["group"] = "+Profession Leveling",
-			["name"] = "01-450 Mining (H)",
+			["name"] = "01-450 Herbalism (H)",
 			["enabledFor"] = "Horde",
-			["key"] = "+Profession Leveling||01-450 Mining (H)",
+			["key"] = "+Profession Leveling||01-450 Herbalism (H)",
 			["farm"] = true,
 			["wotlk"] = "",
-			["length"] = 15416,
+			["length"] = 14709,
 			["version"] = 0,
-			["displayname"] = "1-450 Mining",
+			["displayname"] = "1-450 Herbalism",
 		},
 		["+Outland Farming|Nagrand|Primal Earth_13a"] = {
 			["guideId"] = 1121390391,
@@ -1482,19 +1469,17 @@ RXPData = {
 			["name"] = "Primal Earth_13a",
 			["displayname"] = "Primal Earth",
 		},
-		["+Outland Farming|Shadowmoon Valley|Primal Air_22a"] = {
-			["guideId"] = 3487699536,
-			["subgroup"] = "Shadowmoon Valley",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Air_22a",
+		["+Profession Leveling||1-450 Mining (H)"] = {
+			["guideId"] = 192351444,
+			["group"] = "+Profession Leveling",
+			["name"] = "01-450 Mining (H)",
+			["enabledFor"] = "Horde",
+			["key"] = "+Profession Leveling||01-450 Mining (H)",
 			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 548,
-			["name"] = "Primal Air_22a",
-			["displayname"] = "Primal Air",
+			["length"] = 15416,
+			["version"] = 0,
+			["displayname"] = "1-450 Mining",
 		},
 		["+Northrend Farming|Grizzly Hills|Eternal Air (Lightning Sentry)_43a"] = {
 			["guideId"] = 1537939643,
@@ -1509,6 +1494,20 @@ RXPData = {
 			["length"] = 436,
 			["name"] = "Eternal Air (Lightning Sentry)_43a",
 			["displayname"] = "Eternal Air (Lightning Sentry)",
+		},
+		["+Outland Farming|Netherstorm|Fel Hide_1a"] = {
+			["guideId"] = 923733788,
+			["subgroup"] = "Netherstorm",
+			["group"] = "+Outland Farming",
+			["key"] = "+Outland Farming|Netherstorm|Fel Hide_1a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 350,
+			["name"] = "Fel Hide_1a",
+			["displayname"] = "Fel Hide",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Earth_65a"] = {
 			["guideId"] = 3333952092,
@@ -1538,20 +1537,6 @@ RXPData = {
 			["name"] = "Eternal Fire_64a",
 			["displayname"] = "Eternal Fire",
 		},
-		["+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a"] = {
-			["guideId"] = 557783977,
-			["subgroup"] = "Dragonblight",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 416,
-			["name"] = "Eternal Shadow (Deathbringer Revenant)_40a",
-			["displayname"] = "Eternal Shadow (Deathbringer Revenant)",
-		},
 		["+Mining & Herbalism|Hellfire Peninsula|Herbalism6"] = {
 			["guideId"] = 3090420298,
 			["subgroup"] = "Hellfire Peninsula",
@@ -1565,6 +1550,20 @@ RXPData = {
 			["length"] = 772,
 			["name"] = "Herbalism6",
 			["displayname"] = "Herbalism",
+		},
+		["+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a"] = {
+			["guideId"] = 3193838093,
+			["subgroup"] = "Howling Fjord",
+			["group"] = "+Northrend Farming",
+			["key"] = "+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 447,
+			["name"] = "Eternal Water (Iceshard Elemental)_47a",
+			["displayname"] = "Eternal Water (Iceshard Elemental)",
 		},
 		["+Mining & Herbalism|Wintergrasp|Mining & Herbalism17"] = {
 			["guideId"] = 4070773472,
@@ -1580,20 +1579,6 @@ RXPData = {
 			["name"] = "Mining & Herbalism17",
 			["displayname"] = "Mining & Herbalism",
 		},
-		["+Mining & Herbalism|Wintergrasp|Herbalism17"] = {
-			["guideId"] = 1462177816,
-			["subgroup"] = "Wintergrasp",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Wintergrasp|Herbalism17",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 730,
-			["name"] = "Herbalism17",
-			["displayname"] = "Herbalism",
-		},
 		["+Northrend Farming|Howling Fjord|Eternal Earth (Iron Rune Sentinel)_44a"] = {
 			["guideId"] = 3118078421,
 			["subgroup"] = "Howling Fjord",
@@ -1607,6 +1592,20 @@ RXPData = {
 			["length"] = 434,
 			["name"] = "Eternal Earth (Iron Rune Sentinel)_44a",
 			["displayname"] = "Eternal Earth (Iron Rune Sentinel)",
+		},
+		["+Mining & Herbalism|Wintergrasp|Herbalism17"] = {
+			["guideId"] = 1462177816,
+			["subgroup"] = "Wintergrasp",
+			["group"] = "+Mining & Herbalism",
+			["key"] = "+Mining & Herbalism|Wintergrasp|Herbalism17",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 730,
+			["name"] = "Herbalism17",
+			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Wintergrasp|Mining17"] = {
 			["guideId"] = 658902755,
@@ -1622,20 +1621,6 @@ RXPData = {
 			["name"] = "Mining17",
 			["displayname"] = "Mining",
 		},
-		["+Mining & Herbalism|The Storm Peaks|Herbalism16"] = {
-			["guideId"] = 2353139947,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|The Storm Peaks|Herbalism16",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 675,
-			["name"] = "Herbalism16",
-			["displayname"] = "Herbalism",
-		},
 		["+Northrend Farming|Howling Fjord|Eternal Water (Ice Elemental)_46a"] = {
 			["guideId"] = 978589690,
 			["subgroup"] = "Howling Fjord",
@@ -1650,18 +1635,18 @@ RXPData = {
 			["name"] = "Eternal Water (Ice Elemental)_46a",
 			["displayname"] = "Eternal Water (Ice Elemental)",
 		},
-		["+Mining & Herbalism|Zul'Drak|Herbalism15"] = {
-			["guideId"] = 529600100,
-			["subgroup"] = "Zul'Drak",
+		["+Mining & Herbalism|The Storm Peaks|Herbalism16"] = {
+			["guideId"] = 2353139947,
+			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Zul'Drak|Herbalism15",
+			["key"] = "+Mining & Herbalism|The Storm Peaks|Herbalism16",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 743,
-			["name"] = "Herbalism15",
+			["length"] = 675,
+			["name"] = "Herbalism16",
 			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Zul'Drak|Mining15"] = {
@@ -1678,19 +1663,19 @@ RXPData = {
 			["name"] = "Mining15",
 			["displayname"] = "Mining",
 		},
-		["+Outland Farming|Terokkar Forest|Primal Water_17a"] = {
-			["guideId"] = 3471053413,
-			["subgroup"] = "Terokkar Forest",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Terokkar Forest|Primal Water_17a",
+		["+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a"] = {
+			["guideId"] = 922425334,
+			["subgroup"] = "Borean Tundra",
+			["group"] = "+Northrend Farming",
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 405,
-			["name"] = "Primal Water_17a",
-			["displayname"] = "Primal Water",
+			["length"] = 411,
+			["name"] = "Eternal Air (Enraged Tempest)_32a",
+			["displayname"] = "Eternal Air (Enraged Tempest)",
 		},
 		["+Northrend Farming|Icecrown|Frostweave Cloth (Converted Hero)_61a"] = {
 			["guideId"] = 869734438,
@@ -1706,62 +1691,61 @@ RXPData = {
 			["name"] = "Frostweave Cloth (Converted Hero)_61a",
 			["displayname"] = "Frostweave Cloth (Converted Hero)",
 		},
-		["+Outland Farming|Netherstorm|Fel Hide_1a"] = {
-			["guideId"] = 923733788,
+		["+Outland Farming|Shadowmoon Valley|Primal Air_22a"] = {
+			["guideId"] = 3487699536,
+			["subgroup"] = "Shadowmoon Valley",
+			["group"] = "+Outland Farming",
+			["key"] = "+Outland Farming|Shadowmoon Valley|Primal Air_22a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 548,
+			["name"] = "Primal Air_22a",
+			["displayname"] = "Primal Air",
+		},
+		["+Outland Farming|Terokkar Forest|Primal Water_17a"] = {
+			["guideId"] = 3471053413,
+			["subgroup"] = "Terokkar Forest",
+			["group"] = "+Outland Farming",
+			["key"] = "+Outland Farming|Terokkar Forest|Primal Water_17a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 405,
+			["name"] = "Primal Water_17a",
+			["displayname"] = "Primal Water",
+		},
+		["+Mining & Herbalism|Zul'Drak|Herbalism15"] = {
+			["guideId"] = 529600100,
+			["subgroup"] = "Zul'Drak",
+			["group"] = "+Mining & Herbalism",
+			["key"] = "+Mining & Herbalism|Zul'Drak|Herbalism15",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 743,
+			["name"] = "Herbalism15",
+			["displayname"] = "Herbalism",
+		},
+		["+Outland Farming|Netherstorm|Primal Mana_27a"] = {
+			["guideId"] = 2057965733,
 			["subgroup"] = "Netherstorm",
 			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Netherstorm|Fel Hide_1a",
+			["key"] = "+Outland Farming|Netherstorm|Primal Mana_27a",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 350,
-			["name"] = "Fel Hide_1a",
-			["displayname"] = "Fel Hide",
-		},
-		["+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4"] = {
-			["guideId"] = 1416369346,
-			["subgroup"] = "Shadowmoon Valley",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 1054,
-			["name"] = "Mining & Herbalism4",
-			["displayname"] = "Mining & Herbalism",
-		},
-		["RestedXP Horde 1-30||25-27 Ashenvale JJ"] = {
-			["guideId"] = 4244900963,
-			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["next"] = "27-28 Southern Barrens JJ",
-			["enabledFor"] = "Horde",
-			["name"] = "25-27 Ashenvale JJ",
-			["xprate"] = ">1.4999",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|25-27 Ashenvale JJ",
-			["wotlk"] = "",
-			["tbc"] = "",
-			["length"] = 79107,
-			["version"] = 1,
-			["displayname"] = "25-27 Ashenvale JJ",
-		},
-		["+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a"] = {
-			["guideId"] = 2964527564,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 468,
-			["name"] = "Eternal Fire (Seething Revenant)_55a",
-			["displayname"] = "Eternal Fire (Seething Revenant)",
+			["length"] = 347,
+			["name"] = "Primal Mana_27a",
+			["displayname"] = "Primal Mana",
 		},
 		["+Outland Farming|Nagrand|Combined Primals_7a"] = {
 			["guideId"] = 1964380330,
@@ -1807,19 +1791,7 @@ RXPData = {
 			["name"] = "Mining8",
 			["displayname"] = "Mining",
 		},
-		["+Outland Farming|Nagrand|Talbuk Venison_10a"] = {
-			["guideId"] = 1680347168,
-			["subgroup"] = "Nagrand",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Nagrand|Talbuk Venison_10a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 367,
-			["name"] = "Talbuk Venison_10a",
-			["displayname"] = "Talbuk Venison",
+		["dungeonGuides"] = {
 		},
 		["+Northrend Farming|Borean Tundra|Eternal Water (Boiling Spirit)_30a"] = {
 			["guideId"] = 1426200706,
@@ -1877,34 +1849,33 @@ RXPData = {
 			["name"] = "Eternal Earth (Lifeblood Elemental)_35a",
 			["displayname"] = "Eternal Earth (Lifeblood Elemental)",
 		},
-		["+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a"] = {
-			["guideId"] = 1271404611,
-			["subgroup"] = "Zul'Drak",
+		["+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a"] = {
+			["guideId"] = 2964527564,
+			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Crazed Water Spirit)_49a",
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Fire (Seething Revenant)_55a",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 386,
-			["name"] = "Eternal Water (Crazed Water Spirit)_49a",
-			["displayname"] = "Eternal Water (Crazed Water Spirit)",
+			["length"] = 468,
+			["name"] = "Eternal Fire (Seething Revenant)_55a",
+			["displayname"] = "Eternal Fire (Seething Revenant)",
 		},
-		["RestedXP Horde 1-30||22-25 Hillsbrad / South Barrens"] = {
-			["guideId"] = 3151565079,
-			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["next"] = "25-26 Stonetalon; 26-30 Ashenvale / Thousand Needles",
-			["enabledFor"] = "Horde",
-			["name"] = "22-25 Hillsbrad / South Barrens",
-			["xprate"] = "<1.5",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|22-25 Hillsbrad / South Barrens",
+		["+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4"] = {
+			["guideId"] = 1416369346,
+			["subgroup"] = "Shadowmoon Valley",
+			["group"] = "+Mining & Herbalism",
+			["key"] = "+Mining & Herbalism|Shadowmoon Valley|Mining & Herbalism4",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
 			["wotlk"] = "",
-			["tbc"] = "",
-			["length"] = 50771,
-			["version"] = 1,
-			["displayname"] = "22-25 Hillsbrad / South Barrens",
+			["loop"] = "",
+			["length"] = 1054,
+			["name"] = "Mining & Herbalism4",
+			["displayname"] = "Mining & Herbalism",
 		},
 		["+Azeroth Farming|Un'Goro Crater|Mining & Herbalism8"] = {
 			["guideId"] = 3810202238,
@@ -1932,6 +1903,76 @@ RXPData = {
 			["name"] = "Fishing",
 			["displayname"] = "Fishing",
 		},
+		["RestedXP Horde 1-30||22-25 Hillsbrad / South Barrens"] = {
+			["guideId"] = 3151565079,
+			["subgroup"] = "RXP Speedrun Guide 1-30",
+			["next"] = "25-26 Stonetalon; 26-30 Ashenvale / Thousand Needles",
+			["enabledFor"] = "Horde",
+			["name"] = "22-25 Hillsbrad / South Barrens",
+			["xprate"] = "<1.5",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|22-25 Hillsbrad / South Barrens",
+			["wotlk"] = "",
+			["tbc"] = "",
+			["length"] = 50771,
+			["version"] = 1,
+			["displayname"] = "22-25 Hillsbrad / South Barrens",
+		},
+		["+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a"] = {
+			["guideId"] = 2819298733,
+			["subgroup"] = "Zul'Drak",
+			["group"] = "+Northrend Farming",
+			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 382,
+			["name"] = "Eternal Water (Frozen Earth)_51a",
+			["displayname"] = "Eternal Water (Frozen Earth)",
+		},
+		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests"] = {
+			["guideId"] = 4281934190,
+			["subgroup"] = "Faction Daily Quests",
+			["group"] = "+RestedXP Northrend Daily Quests",
+			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests",
+			["version"] = 1,
+			["wotlk"] = "",
+			["farm"] = true,
+			["length"] = 26245,
+			["name"] = "The Sons of Hodir Unlock Daily Quests",
+			["displayname"] = "The Sons of Hodir Unlock Daily Quests",
+		},
+		["+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a"] = {
+			["guideId"] = 2295929173,
+			["subgroup"] = "Borean Tundra",
+			["group"] = "+Northrend Farming",
+			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
+			["wotlk"] = "",
+			["loop"] = "",
+			["length"] = 470,
+			["name"] = "Eternal Water (Frozen Elemental)_28a",
+			["displayname"] = "Eternal Water (Frozen Elemental)",
+		},
+		["RestedXP Horde 1-30||25-26 Stonetalon"] = {
+			["guideId"] = 3855748158,
+			["subgroup"] = "RXP Speedrun Guide 1-30",
+			["next"] = "26-30 Ashenvale / Thousand Needles",
+			["enabledFor"] = "Horde",
+			["name"] = "25-26 Stonetalon",
+			["xprate"] = "<1.5",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|25-26 Stonetalon",
+			["wotlk"] = "",
+			["tbc"] = "",
+			["length"] = 4520,
+			["version"] = 1,
+			["displayname"] = "25-26 Stonetalon",
+		},
 		["+Mining & Herbalism|Sholazar Basin|Mining11"] = {
 			["guideId"] = 1340805016,
 			["subgroup"] = "Sholazar Basin",
@@ -1946,34 +1987,6 @@ RXPData = {
 			["name"] = "Mining11",
 			["displayname"] = "Mining",
 		},
-		["+Mining & Herbalism|Netherstorm|Mining & Herbalism2"] = {
-			["guideId"] = 3755741871,
-			["subgroup"] = "Netherstorm",
-			["group"] = "+Mining & Herbalism",
-			["key"] = "+Mining & Herbalism|Netherstorm|Mining & Herbalism2",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 1046,
-			["name"] = "Mining & Herbalism2",
-			["displayname"] = "Mining & Herbalism",
-		},
-		["+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests"] = {
-			["guideId"] = 4281934190,
-			["subgroup"] = "Faction Daily Quests",
-			["group"] = "+RestedXP Northrend Daily Quests",
-			["key"] = "+RestedXP Northrend Daily Quests|Faction Daily Quests|The Sons of Hodir Unlock Daily Quests",
-			["version"] = 1,
-			["wotlk"] = "",
-			["farm"] = true,
-			["length"] = 26245,
-			["name"] = "The Sons of Hodir Unlock Daily Quests",
-			["displayname"] = "The Sons of Hodir Unlock Daily Quests",
-		},
-		["dungeonGuides"] = {
-		},
 		["+Mining & Herbalism|Zangarmarsh|Mining5"] = {
 			["guideId"] = 385420952,
 			["subgroup"] = "Zangarmarsh",
@@ -1987,34 +2000,6 @@ RXPData = {
 			["length"] = 595,
 			["name"] = "Mining5",
 			["displayname"] = "Mining",
-		},
-		["+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a"] = {
-			["guideId"] = 3193838093,
-			["subgroup"] = "Howling Fjord",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Howling Fjord|Eternal Water (Iceshard Elemental)_47a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 447,
-			["name"] = "Eternal Water (Iceshard Elemental)_47a",
-			["displayname"] = "Eternal Water (Iceshard Elemental)",
-		},
-		["+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a"] = {
-			["guideId"] = 3447200319,
-			["subgroup"] = "The Storm Peaks",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
-			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 430,
-			["name"] = "Eternal Water (Icebound Revenant)_59a",
-			["displayname"] = "Eternal Water (Icebound Revenant)",
 		},
 		["RestedXP Horde 1-30||22-25 Hillsbrad Foothills JJ"] = {
 			["guideId"] = 2416840752,
@@ -2031,19 +2016,19 @@ RXPData = {
 			["version"] = 1,
 			["displayname"] = "22-25 Hillsbrad Foothills JJ",
 		},
-		["+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a"] = {
-			["guideId"] = 2819298733,
-			["subgroup"] = "Zul'Drak",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Zul'Drak|Eternal Water (Frozen Earth)_51a",
+		["+Mining & Herbalism|Sholazar Basin|Herbalism11"] = {
+			["guideId"] = 2180845773,
+			["subgroup"] = "Sholazar Basin",
+			["group"] = "+Mining & Herbalism",
+			["key"] = "+Mining & Herbalism|Sholazar Basin|Herbalism11",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 382,
-			["name"] = "Eternal Water (Frozen Earth)_51a",
-			["displayname"] = "Eternal Water (Frozen Earth)",
+			["length"] = 669,
+			["name"] = "Herbalism11",
+			["displayname"] = "Herbalism",
 		},
 		["+Mining & Herbalism|Zangarmarsh|Herbalism5"] = {
 			["guideId"] = 1163726797,
@@ -2059,19 +2044,19 @@ RXPData = {
 			["name"] = "Herbalism5",
 			["displayname"] = "Herbalism",
 		},
-		["+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a"] = {
-			["guideId"] = 922425334,
-			["subgroup"] = "Borean Tundra",
+		["+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a"] = {
+			["guideId"] = 3447200319,
+			["subgroup"] = "The Storm Peaks",
 			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Air (Enraged Tempest)_32a",
+			["key"] = "+Northrend Farming|The Storm Peaks|Eternal Water (Icebound Revenant)_59a",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 411,
-			["name"] = "Eternal Air (Enraged Tempest)_32a",
-			["displayname"] = "Eternal Air (Enraged Tempest)",
+			["length"] = 430,
+			["name"] = "Eternal Water (Icebound Revenant)_59a",
+			["displayname"] = "Eternal Water (Icebound Revenant)",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Life_63a"] = {
 			["guideId"] = 3015709158,
@@ -2090,17 +2075,17 @@ RXPData = {
 		["RestedXP Horde 1-30||6-10 Mulgore"] = {
 			["guideId"] = 3094940346,
 			["subgroup"] = "RXP Speedrun Guide 1-30",
-			["defaultfor"] = "Tauren",
-			["enabledFor"] = "Horde",
-			["group"] = "RestedXP Speedrun Guide (H)",
-			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|06-10 Mulgore",
-			["defaultFor"] = "Tauren",
-			["tbc"] = "",
-			["version"] = 1,
-			["wotlk"] = "",
-			["name"] = "06-10 Mulgore",
-			["length"] = 29305,
 			["next"] = "10-12 Eversong Woods",
+			["enabledFor"] = "Horde",
+			["defaultfor"] = "Tauren",
+			["defaultFor"] = "Tauren",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["tbc"] = "",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|06-10 Mulgore",
+			["wotlk"] = "",
+			["version"] = 1,
+			["length"] = 29305,
+			["name"] = "06-10 Mulgore",
 			["displayname"] = "6-10 Mulgore",
 		},
 		["+Northrend Farming|Grizzly Hills|Eternal Earth (Runic Battle Golem)_42a"] = {
@@ -2117,19 +2102,20 @@ RXPData = {
 			["name"] = "Eternal Earth (Runic Battle Golem)_42a",
 			["displayname"] = "Eternal Earth (Runic Battle Golem)",
 		},
-		["+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a"] = {
-			["guideId"] = 2295929173,
-			["subgroup"] = "Borean Tundra",
-			["group"] = "+Northrend Farming",
-			["key"] = "+Northrend Farming|Borean Tundra|Eternal Water (Frozen Elemental)_28a",
-			["farm"] = true,
-			["hidewindow"] = "",
-			["version"] = 0,
+		["RestedXP Horde 1-30||25-27 Ashenvale JJ"] = {
+			["guideId"] = 4244900963,
+			["subgroup"] = "RXP Speedrun Guide 1-30",
+			["next"] = "27-28 Southern Barrens JJ",
+			["enabledFor"] = "Horde",
+			["name"] = "25-27 Ashenvale JJ",
+			["xprate"] = ">1.4999",
+			["group"] = "RestedXP Speedrun Guide (H)",
+			["key"] = "RestedXP Speedrun Guide (H)|RXP Speedrun Guide 1-30|25-27 Ashenvale JJ",
 			["wotlk"] = "",
-			["loop"] = "",
-			["length"] = 470,
-			["name"] = "Eternal Water (Frozen Elemental)_28a",
-			["displayname"] = "Eternal Water (Frozen Elemental)",
+			["tbc"] = "",
+			["length"] = 79107,
+			["version"] = 1,
+			["displayname"] = "25-27 Ashenvale JJ",
 		},
 		["+Outland Farming|Terokkar Forest|Warped Flesh_16a"] = {
 			["guideId"] = 3460829777,
@@ -2145,19 +2131,19 @@ RXPData = {
 			["name"] = "Warped Flesh_16a",
 			["displayname"] = "Warped Flesh",
 		},
-		["RestedXP Death Knight Start||55-58 The Scarlet Enclave"] = {
-			["guideId"] = 103486162,
-			["next"] = "RestedXP Horde 60-70\\59-61 Hellfire Peninsula",
-			["enabledFor"] = "DK",
-			["defaultFor"] = "DK",
-			["key"] = "RestedXP Death Knight Start||55-58 The Scarlet Enclave",
-			["group"] = "RestedXP Death Knight Start",
-			["version"] = 6,
+		["+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a"] = {
+			["guideId"] = 557783977,
+			["subgroup"] = "Dragonblight",
+			["group"] = "+Northrend Farming",
+			["key"] = "+Northrend Farming|Dragonblight|Eternal Shadow (Deathbringer Revenant)_40a",
+			["farm"] = true,
+			["hidewindow"] = "",
+			["version"] = 0,
 			["wotlk"] = "",
-			["defaultfor"] = "DK",
-			["length"] = 30791,
-			["name"] = "55-58 The Scarlet Enclave",
-			["displayname"] = "55-58 The Scarlet Enclave",
+			["loop"] = "",
+			["length"] = 416,
+			["name"] = "Eternal Shadow (Deathbringer Revenant)_40a",
+			["displayname"] = "Eternal Shadow (Deathbringer Revenant)",
 		},
 		["+Northrend Farming|Wintergrasp|Eternal Air_66a"] = {
 			["guideId"] = 2707689861,
@@ -2202,19 +2188,19 @@ RXPData = {
 			["version"] = 1,
 			["displayname"] = "26-30 Ashenvale / Thousand Needles",
 		},
-		["+Outland Farming|Netherstorm|Primal Mana_27a"] = {
-			["guideId"] = 2057965733,
+		["+Mining & Herbalism|Netherstorm|Mining & Herbalism2"] = {
+			["guideId"] = 3755741871,
 			["subgroup"] = "Netherstorm",
-			["group"] = "+Outland Farming",
-			["key"] = "+Outland Farming|Netherstorm|Primal Mana_27a",
+			["group"] = "+Mining & Herbalism",
+			["key"] = "+Mining & Herbalism|Netherstorm|Mining & Herbalism2",
 			["farm"] = true,
 			["hidewindow"] = "",
 			["version"] = 0,
 			["wotlk"] = "",
 			["loop"] = "",
-			["length"] = 347,
-			["name"] = "Primal Mana_27a",
-			["displayname"] = "Primal Mana",
+			["length"] = 1046,
+			["name"] = "Mining & Herbalism2",
+			["displayname"] = "Mining & Herbalism",
 		},
 		["+Northrend Farming|Borean Tundra|Eternal Water (Steam Rager)_29a"] = {
 			["guideId"] = 161421110,
@@ -2290,10 +2276,12 @@ RXPDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "global",
 		["Alsía - Venoxis"] = "global",
-		["Andrés - Venoxis"] = "global",
 		["Exonuklease - Venoxis"] = "global",
-		["Khalimmortus - Venoxis"] = "global",
+		["Alsiadk - Venoxis"] = "global",
 		["Alsia - Venoxis"] = "global",
+		["Andrés - Venoxis"] = "global",
+		["Khalimmortus - Venoxis"] = "global",
+		["Maturitass - Venoxis"] = "global",
 		["Kwasimojo - Venoxis"] = "global",
 	},
 	["profiles"] = {
@@ -2305,21 +2293,23 @@ RXPSettings = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2342,11 +2332,11 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2354,9 +2344,9 @@ RXPSettings = {
 			},
 			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2366,13 +2356,194 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 			},
 		},
 		["Alsía - Venoxis"] = {
+			["hardcore"] = false,
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 124.9998931884766,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
+		},
+		["Exonuklease - Venoxis"] = {
+			["hardcore"] = false,
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameHeight"] = 124.9998931884766,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
+		},
+		["Alsiadk - Venoxis"] = {
+			["xprate"] = 1.2,
+			["frameHeight"] = 124.9998931884766,
+			["hardcore"] = false,
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					73.06678771972656, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
+		},
+		["Alsia - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
 				["arrowFrame"] = {
@@ -2435,11 +2606,11 @@ RXPSettings = {
 		["Andrés - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2462,39 +2633,6 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["activeTargetFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-			},
-			["frameHeight"] = 124.9998931884766,
-			["frameSizes"] = {
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-			},
-		},
-		["Exonuklease - Venoxis"] = {
-			["hardcore"] = false,
-			["framePositions"] = {
 				["arrowFrame"] = {
 					{
 						"TOP", -- [1]
@@ -2504,39 +2642,12 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["RXPFrame"] = {
-					{
-						"LEFT", -- [1]
-						"UIParent", -- [2]
-						"LEFT", -- [3]
-						0, -- [4]
-						35, -- [5]
-					}, -- [1]
-				},
-				["activeItemFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-				["activeTargetFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
 			},
 			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2546,20 +2657,20 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 			},
 		},
 		["Khalimmortus - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2582,20 +2693,21 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
 				},
 			},
+			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2605,21 +2717,20 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 			},
-			["frameHeight"] = 124.9998931884766,
 		},
-		["Alsia - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2642,21 +2753,20 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
 				},
 			},
-			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2666,20 +2776,21 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 			},
+			["frameHeight"] = 124.9998931884766,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["hardcore"] = false,
 			["framePositions"] = {
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
+						"TOP", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2702,11 +2813,11 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -2714,9 +2825,9 @@ RXPSettings = {
 			},
 			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
@@ -2726,9 +2837,9 @@ RXPSettings = {
 					75.80008697509766, -- [1]
 					39.99999618530273, -- [2]
 				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
 				},
 			},
 		},

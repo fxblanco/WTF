@@ -1,5 +1,16 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Default",
+		["Alsía - Venoxis"] = "Default",
+		["Exonuklease - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1158,6 +1169,165 @@ RCLootCouncilDB = {
 			"12:53:44 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1153]
 			"12:53:44 - GetML()", -- [1154]
 			"12:53:44 - LootMethod =  (group)", -- [1155]
+			"04/17/24", -- [1156]
+			"22:00:49 - Logged In", -- [1157]
+			"22:00:49 - ML initialized!", -- [1158]
+			"22:00:49 - TradeUI enabled", -- [1159]
+			"22:00:55 - Khalimmortus-Venoxis (2.19.3) (nil)", -- [1160]
+			"22:00:55 - ActivateSkin (bfa)", -- [1161]
+			"22:00:59 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1162]
+			"22:00:59 - GetML()", -- [1163]
+			"22:00:59 - LootMethod =  (group)", -- [1164]
+			"22:00:59 - UpdatePlayersData()", -- [1165]
+			"22:00:59 - ClassicModule enabled (0.20.2) (nil)", -- [1166]
+			"22:00:59 - DoCommsCompressFix", -- [1167]
+			"22:00:59 - Removing Column (role)", -- [1168]
+			"22:00:59 - Removing Column (corruption)", -- [1169]
+			"22:01:00 - GetPlayersGuildRank()", -- [1170]
+			"22:01:00 - GetPlayersGuildRank()", -- [1171]
+			"22:01:00 - Found Guild Rank: OldRabbit Twink", -- [1172]
+			"22:01:00 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Khalimmortus) (distri:) (GUILD)", -- [1173]
+			"22:01:11 - Comm received:^1^SverTest^T^N1^S0.21.0^t^^ (from:) (Decîmus) (distri:) (GUILD)", -- [1174]
+			"22:10:09 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1175]
+			"22:10:09 - GetML()", -- [1176]
+			"22:10:09 - LootMethod =  (group)", -- [1177]
+			"04/19/24", -- [1178]
+			"23:45:40 - Logged In", -- [1179]
+			"23:45:40 - ML initialized!", -- [1180]
+			"23:45:40 - TradeUI enabled", -- [1181]
+			"23:45:49 - Xolem-Venoxis (2.19.3) (nil)", -- [1182]
+			"23:45:49 - ActivateSkin (bfa)", -- [1183]
+			"23:45:57 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1184]
+			"23:45:57 - GetML()", -- [1185]
+			"23:45:57 - LootMethod =  (group)", -- [1186]
+			"23:45:57 - UpdatePlayersData()", -- [1187]
+			"23:45:57 - ClassicModule enabled (0.20.2) (nil)", -- [1188]
+			"23:45:57 - DoCommsCompressFix", -- [1189]
+			"23:45:57 - Removing Column (role)", -- [1190]
+			"23:45:57 - Removing Column (corruption)", -- [1191]
+			"23:45:58 - GetPlayersGuildRank()", -- [1192]
+			"23:45:58 - Found Guild Rank: OldRabbit Twink", -- [1193]
+			"23:46:00 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Xolem) (distri:) (GUILD)", -- [1194]
+			"04/19/24", -- [1195]
+			"23:50:48 - Logged In", -- [1196]
+			"23:50:48 - ML initialized!", -- [1197]
+			"23:50:48 - TradeUI enabled", -- [1198]
+			"23:50:52 - Alsia-Venoxis (2.19.3) (nil)", -- [1199]
+			"23:50:52 - ActivateSkin (bfa)", -- [1200]
+			"23:50:57 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1201]
+			"23:50:57 - GetML()", -- [1202]
+			"23:50:57 - LootMethod =  (group)", -- [1203]
+			"23:50:57 - UpdatePlayersData()", -- [1204]
+			"23:50:58 - ClassicModule enabled (0.20.2) (nil)", -- [1205]
+			"23:50:58 - DoCommsCompressFix", -- [1206]
+			"23:50:58 - Removing Column (role)", -- [1207]
+			"23:50:58 - Removing Column (corruption)", -- [1208]
+			"23:50:58 - GetPlayersGuildRank()", -- [1209]
+			"23:50:58 - Found Guild Rank: Gildenmeister", -- [1210]
+			"23:50:59 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Alsia) (distri:) (GUILD)", -- [1211]
+			"04/19/24", -- [1212]
+			"23:53:14 - Logged In", -- [1213]
+			"23:53:14 - ML initialized!", -- [1214]
+			"23:53:14 - TradeUI enabled", -- [1215]
+			"23:53:18 - Alsiadk-Venoxis (2.19.3) (nil)", -- [1216]
+			"23:53:18 - ActivateSkin (bfa)", -- [1217]
+			"23:53:22 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1218]
+			"23:53:22 - GetML()", -- [1219]
+			"23:53:22 - LootMethod =  (group)", -- [1220]
+			"23:53:22 - UpdatePlayersData()", -- [1221]
+			"23:53:23 - ClassicModule enabled (0.20.2) (nil)", -- [1222]
+			"23:53:23 - DoCommsCompressFix", -- [1223]
+			"23:53:23 - Removing Column (role)", -- [1224]
+			"23:53:23 - Removing Column (corruption)", -- [1225]
+			"23:53:23 - GetPlayersGuildRank()", -- [1226]
+			"23:53:23 - Found Guild Rank: OldRabbit Twink", -- [1227]
+			"23:53:23 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Alsiadk) (distri:) (GUILD)", -- [1228]
+			"04/19/24", -- [1229]
+			"23:53:35 - Logged In", -- [1230]
+			"23:53:35 - ML initialized!", -- [1231]
+			"23:53:35 - TradeUI enabled", -- [1232]
+			"23:53:37 - Alsiadk-Venoxis (2.19.3) (nil)", -- [1233]
+			"23:53:37 - ActivateSkin (bfa)", -- [1234]
+			"23:53:41 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1235]
+			"23:53:41 - GetML()", -- [1236]
+			"23:53:41 - LootMethod =  (group)", -- [1237]
+			"23:53:41 - UpdatePlayersData()", -- [1238]
+			"23:53:41 - GetPlayersGuildRank()", -- [1239]
+			"23:53:41 - Found Guild Rank: OldRabbit Twink", -- [1240]
+			"23:53:42 - ClassicModule enabled (0.20.2) (nil)", -- [1241]
+			"23:53:42 - DoCommsCompressFix", -- [1242]
+			"23:53:42 - Removing Column (role)", -- [1243]
+			"23:53:42 - Removing Column (corruption)", -- [1244]
+			"23:53:42 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Alsiadk) (distri:) (GUILD)", -- [1245]
+			"04/19/24", -- [1246]
+			"23:54:10 - Logged In", -- [1247]
+			"23:54:10 - ML initialized!", -- [1248]
+			"23:54:10 - TradeUI enabled", -- [1249]
+			"23:54:12 - Alsiadk-Venoxis (2.19.3) (nil)", -- [1250]
+			"23:54:12 - ActivateSkin (bfa)", -- [1251]
+			"23:54:15 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1252]
+			"23:54:15 - GetML()", -- [1253]
+			"23:54:15 - LootMethod =  (group)", -- [1254]
+			"23:54:15 - UpdatePlayersData()", -- [1255]
+			"23:54:16 - GetPlayersGuildRank()", -- [1256]
+			"23:54:16 - Found Guild Rank: OldRabbit Twink", -- [1257]
+			"23:54:16 - ClassicModule enabled (0.20.2) (nil)", -- [1258]
+			"23:54:16 - DoCommsCompressFix", -- [1259]
+			"23:54:16 - Removing Column (role)", -- [1260]
+			"23:54:16 - Removing Column (corruption)", -- [1261]
+			"23:54:17 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Alsiadk) (distri:) (GUILD)", -- [1262]
+			"23:57:34 - Comm received:^1^SverTest^T^N1^S0.21.0^t^^ (from:) (Vextria) (distri:) (GUILD)", -- [1263]
+			"04/19/24", -- [1264]
+			"23:59:14 - Logged In", -- [1265]
+			"23:59:14 - ML initialized!", -- [1266]
+			"23:59:14 - TradeUI enabled", -- [1267]
+			"23:59:18 - Maturitass-Venoxis (2.19.3) (nil)", -- [1268]
+			"23:59:18 - ActivateSkin (bfa)", -- [1269]
+			"23:59:23 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1270]
+			"23:59:23 - GetML()", -- [1271]
+			"23:59:23 - LootMethod =  (group)", -- [1272]
+			"23:59:23 - UpdatePlayersData()", -- [1273]
+			"23:59:24 - ClassicModule enabled (0.20.2) (nil)", -- [1274]
+			"23:59:24 - DoCommsCompressFix", -- [1275]
+			"23:59:24 - Removing Column (role)", -- [1276]
+			"23:59:24 - Removing Column (corruption)", -- [1277]
+			"23:59:24 - GetPlayersGuildRank()", -- [1278]
+			"23:59:24 - Found Guild Rank: OldRabbit Twink", -- [1279]
+			"23:59:25 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1280]
+			"04/19/24", -- [1281]
+			"23:59:37 - Logged In", -- [1282]
+			"23:59:37 - ML initialized!", -- [1283]
+			"23:59:37 - TradeUI enabled", -- [1284]
+			"23:59:39 - Maturitass-Venoxis (2.19.3) (nil)", -- [1285]
+			"23:59:39 - ActivateSkin (bfa)", -- [1286]
+			"23:59:43 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1287]
+			"23:59:43 - GetML()", -- [1288]
+			"23:59:43 - LootMethod =  (group)", -- [1289]
+			"23:59:43 - UpdatePlayersData()", -- [1290]
+			"23:59:43 - GetPlayersGuildRank()", -- [1291]
+			"23:59:43 - Found Guild Rank: OldRabbit Twink", -- [1292]
+			"23:59:43 - ClassicModule enabled (0.20.2) (nil)", -- [1293]
+			"23:59:43 - DoCommsCompressFix", -- [1294]
+			"23:59:43 - Removing Column (role)", -- [1295]
+			"23:59:43 - Removing Column (corruption)", -- [1296]
+			"23:59:44 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1297]
+			"04/20/24", -- [1298]
+			"00:00:10 - Logged In", -- [1299]
+			"00:00:10 - ML initialized!", -- [1300]
+			"00:00:10 - TradeUI enabled", -- [1301]
+			"00:00:12 - Maturitass-Venoxis (2.19.3) (nil)", -- [1302]
+			"00:00:12 - ActivateSkin (bfa)", -- [1303]
+			"00:00:15 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1304]
+			"00:00:15 - GetML()", -- [1305]
+			"00:00:15 - LootMethod =  (group)", -- [1306]
+			"00:00:15 - UpdatePlayersData()", -- [1307]
+			"00:00:16 - GetPlayersGuildRank()", -- [1308]
+			"00:00:16 - Found Guild Rank: OldRabbit Twink", -- [1309]
+			"00:00:16 - ClassicModule enabled (0.20.2) (nil)", -- [1310]
+			"00:00:16 - DoCommsCompressFix", -- [1311]
+			"00:00:16 - Removing Column (role)", -- [1312]
+			"00:00:16 - Removing Column (corruption)", -- [1313]
+			"00:00:16 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1314]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.2",
@@ -1173,154 +1343,135 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1713086852, -- [3]
 			},
-			["Mikirî-Venoxis"] = {
+			["Hakkî-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712873855, -- [3]
-			},
-			["Uwugamergirl-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264713, -- [3]
-			},
-			["Graveofjenna-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264080, -- [3]
-			},
-			["Decîmus-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965510, -- [3]
-			},
-			["Ntdote-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712702080, -- [3]
-			},
-			["Wallahnyr-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713262623, -- [3]
-			},
-			["Kwasimojo-Venoxis"] = {
-				"0.20.2", -- [1]
-				nil, -- [2]
-				1713262623, -- [3]
-			},
-			["Xmø-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712956114, -- [3]
-			},
-			["Yaars-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713086852, -- [3]
-			},
-			["Blinkyli-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712950123, -- [3]
-			},
-			["Côntrol-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713086852, -- [3]
-			},
-			["Serferine-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965511, -- [3]
-			},
-			["Lesbenlisa-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712956113, -- [3]
-			},
-			["Zellaen-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965511, -- [3]
-			},
-			["Moly-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264713, -- [3]
-			},
-			["Vacaria-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712956113, -- [3]
-			},
-			["Gdkphunter-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712956113, -- [3]
-			},
-			["Graveofmaria-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965512, -- [3]
+				1713384071, -- [3]
 			},
 			["Faîlz-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1712965511, -- [3]
 			},
-			["Kentharo-Venoxis"] = {
+			["Zoosahaal-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712965511, -- [3]
+				1713384071, -- [3]
 			},
-			["Asamuah-Venoxis"] = {
+			["Wallahnyr-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712965511, -- [3]
+				1713262623, -- [3]
 			},
-			["Khalimmortus-Venoxis"] = {
-				"0.20.2", -- [1]
-				nil, -- [2]
-				1713264713, -- [3]
-			},
-			["Commodûs-Venoxis"] = {
+			["Xmø-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712873854, -- [3]
+				1713384071, -- [3]
 			},
 			["Klaxtor-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1713086702, -- [3]
 			},
-			["Wønka-Venoxis"] = {
+			["Yaars-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712874700, -- [3]
+				1713086852, -- [3]
 			},
-			["Wîdi-Venoxis"] = {
-				"0.21.0", -- [1]
+			["Khalimmortus-Venoxis"] = {
+				"0.20.2", -- [1]
 				nil, -- [2]
-				1712956113, -- [3]
+				1713384071, -- [3]
 			},
-			["Zelcher-Venoxis"] = {
+			["Styleploxlel-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1712950123, -- [3]
+				1713384071, -- [3]
+			},
+			["Zellaen-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965511, -- [3]
+			},
+			["Serferine-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965511, -- [3]
+			},
+			["Decîmus-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713384071, -- [3]
+			},
+			["Moly-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713264713, -- [3]
+			},
+			["Asamuah-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965511, -- [3]
+			},
+			["ûrsûs-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713563160, -- [3]
+			},
+			["Uwugamergirl-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713264713, -- [3]
+			},
+			["Shîzuye-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713384071, -- [3]
+			},
+			["Kentharo-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965511, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965512, -- [3]
+			},
+			["Alsiadk-Venoxis"] = {
+				"0.20.2", -- [1]
+				nil, -- [2]
+				1713563854, -- [3]
+			},
+			["Maxîmus-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713564016, -- [3]
+			},
+			["Côntrol-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713086852, -- [3]
+			},
+			["Graveofjenna-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713264080, -- [3]
+			},
+			["Kwasimojo-Venoxis"] = {
+				"0.20.2", -- [1]
+				nil, -- [2]
+				1713262623, -- [3]
+			},
+			["Vextria-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713564016, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.2",
-	},
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Default",
-		["Alsía - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Exonuklease - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -1378,10 +1529,12 @@ RCLootCouncilLootDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 }
