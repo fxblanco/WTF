@@ -8,7 +8,7 @@ WSEDB = {
 		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 }

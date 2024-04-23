@@ -8,8 +8,8 @@ BisTooltipDB = {
 		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["char"] = {
 		["Xolem - Venoxis"] = {
@@ -43,11 +43,11 @@ BisTooltipDB = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},

@@ -1,5 +1,16 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Default",
+		["Alsía - Venoxis"] = "Default",
+		["Exonuklease - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1300,6 +1311,23 @@ RCLootCouncilDB = {
 			"23:59:43 - Removing Column (role)", -- [1295]
 			"23:59:43 - Removing Column (corruption)", -- [1296]
 			"23:59:44 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1297]
+			"04/20/24", -- [1298]
+			"00:00:10 - Logged In", -- [1299]
+			"00:00:10 - ML initialized!", -- [1300]
+			"00:00:10 - TradeUI enabled", -- [1301]
+			"00:00:12 - Maturitass-Venoxis (2.19.3) (nil)", -- [1302]
+			"00:00:12 - ActivateSkin (bfa)", -- [1303]
+			"00:00:15 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1304]
+			"00:00:15 - GetML()", -- [1305]
+			"00:00:15 - LootMethod =  (group)", -- [1306]
+			"00:00:15 - UpdatePlayersData()", -- [1307]
+			"00:00:16 - GetPlayersGuildRank()", -- [1308]
+			"00:00:16 - Found Guild Rank: OldRabbit Twink", -- [1309]
+			"00:00:16 - ClassicModule enabled (0.20.2) (nil)", -- [1310]
+			"00:00:16 - DoCommsCompressFix", -- [1311]
+			"00:00:16 - Removing Column (role)", -- [1312]
+			"00:00:16 - Removing Column (corruption)", -- [1313]
+			"00:00:16 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Maturitass) (distri:) (GUILD)", -- [1314]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.2",
@@ -1335,13 +1363,23 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1713262623, -- [3]
 			},
+			["Xmø-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713384071, -- [3]
+			},
 			["Klaxtor-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1713086702, -- [3]
 			},
-			["Xmø-Venoxis"] = {
+			["Yaars-Venoxis"] = {
 				"0.21.0", -- [1]
+				nil, -- [2]
+				1713086852, -- [3]
+			},
+			["Khalimmortus-Venoxis"] = {
+				"0.20.2", -- [1]
 				nil, -- [2]
 				1713384071, -- [3]
 			},
@@ -1350,62 +1388,12 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1713384071, -- [3]
 			},
-			["Yaars-Venoxis"] = {
+			["Zellaen-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713086852, -- [3]
-			},
-			["Graveofjenna-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264080, -- [3]
-			},
-			["Côntrol-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713086852, -- [3]
+				1712965511, -- [3]
 			},
 			["Serferine-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965511, -- [3]
-			},
-			["Moly-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264713, -- [3]
-			},
-			["Alsiadk-Venoxis"] = {
-				"0.20.2", -- [1]
-				nil, -- [2]
-				1713563854, -- [3]
-			},
-			["Uwugamergirl-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264713, -- [3]
-			},
-			["ûrsûs-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713563160, -- [3]
-			},
-			["Graveofmaria-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965512, -- [3]
-			},
-			["Kentharo-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1712965511, -- [3]
-			},
-			["Shîzuye-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Asamuah-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1712965511, -- [3]
@@ -1415,20 +1403,60 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1713384071, -- [3]
 			},
-			["Maxîmus-Venoxis"] = {
+			["Moly-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713563984, -- [3]
+				1713264713, -- [3]
 			},
-			["Zellaen-Venoxis"] = {
+			["Asamuah-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1712965511, -- [3]
 			},
-			["Khalimmortus-Venoxis"] = {
-				"0.20.2", -- [1]
+			["ûrsûs-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713563160, -- [3]
+			},
+			["Uwugamergirl-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713264713, -- [3]
+			},
+			["Shîzuye-Venoxis"] = {
+				"0.21.0", -- [1]
 				nil, -- [2]
 				1713384071, -- [3]
+			},
+			["Kentharo-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965511, -- [3]
+			},
+			["Graveofmaria-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1712965512, -- [3]
+			},
+			["Alsiadk-Venoxis"] = {
+				"0.20.2", -- [1]
+				nil, -- [2]
+				1713563854, -- [3]
+			},
+			["Maxîmus-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713564016, -- [3]
+			},
+			["Côntrol-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713086852, -- [3]
+			},
+			["Graveofjenna-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713264080, -- [3]
 			},
 			["Kwasimojo-Venoxis"] = {
 				"0.20.2", -- [1]
@@ -1438,23 +1466,12 @@ RCLootCouncilDB = {
 			["Vextria-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713563984, -- [3]
+				1713564016, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.2",
-	},
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Default",
-		["Alsía - Venoxis"] = "Default",
-		["Exonuklease - Venoxis"] = "Default",
-		["Alsiadk - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -1517,7 +1534,7 @@ RCLootCouncilLootDB = {
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 }

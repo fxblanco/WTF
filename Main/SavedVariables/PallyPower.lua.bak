@@ -9,18 +9,16 @@ PallyPowerDB = {
 		["Andrés - Venoxis"] = "Other",
 		["Khalimmortus - Venoxis"] = "Other",
 		["Kwasimojo - Venoxis"] = "Other",
-		["Maturitass - Venoxis"] = "MerfinUI v5.22",
+		["Maturitass - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
-			["rf"] = false,
-			["WrathTransition"] = true,
-			["rfbuff"] = false,
-			["skin"] = "normTex2",
 			["enable"] = true,
-			["hideHighGroups"] = true,
 			["border"] = "None",
-			["auras"] = false,
+			["WrathTransition"] = true,
+			["hideHighGroups"] = true,
+			["skin"] = "normTex2",
+			["rf"] = false,
 		},
 		["Default"] = {
 			["enable"] = true,
@@ -44,18 +42,6 @@ PallyPower_Assignments = {
 		0, -- [8]
 		0, -- [9]
 		0, -- [10]
-	},
-	["Lysaniâ"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		3, -- [7]
-		1, -- [8]
-		3, -- [9]
-		2, -- [10]
 	},
 	["Bremskyle"] = {
 		2, -- [1]
@@ -81,18 +67,6 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Nytepala"] = {
-		2, -- [1]
-		2, -- [2]
-		2, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		2, -- [7]
-		2, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
 	["Alsía"] = {
 		3, -- [1]
 		3, -- [2]
@@ -105,30 +79,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		4, -- [10]
 	},
-	["Erapala"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Balalalala"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-	},
 	["Lesbenlisa"] = {
 		2, -- [1]
 		2, -- [2]
@@ -140,42 +90,6 @@ PallyPower_Assignments = {
 		2, -- [8]
 		2, -- [9]
 		2, -- [10]
-	},
-	["Beesportz"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		2, -- [9]
-		3, -- [10]
-	},
-	["Sanziji"] = {
-		1, -- [1]
-		1, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
-	},
-	["Rothut"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
 	},
 	["Alsia"] = {
 		3, -- [1]
@@ -215,8 +129,8 @@ PallyPower_AuraAssignments = {
 	["Balalalala"] = 3,
 	["Lesbenlisa"] = 3,
 	["Beesportz"] = 2,
-	["Sanziji"] = 0,
 	["Rothut"] = 3,
+	["Sanziji"] = 0,
 	["Alsia"] = 3,
 	["Shîzuye"] = 0,
 }
@@ -235,6 +149,7 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
+	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil
