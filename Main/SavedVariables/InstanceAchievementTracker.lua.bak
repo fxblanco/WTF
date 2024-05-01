@@ -11,16 +11,16 @@ AchievementTrackerOptions = {
 	["onlyTrackMissingAchievements"] = false,
 	["toggleSoundFailed"] = false,
 	["displayInfoFrame"] = true,
-	["trackAchievementsAutomatically"] = false,
+	["announceTrackedAchievements"] = false,
 	["InfoFramescale"] = 1,
-	["hideCompletedAchievements"] = false,
+	["trackAchievementsAutomatically"] = false,
 	["InfoFramepoint"] = "CENTER",
-	["announceToRaidWarning"] = true,
+	["InfoFramey"] = 80.9998779296875,
 	["changeMinimapIcon"] = false,
 	["toggleSound"] = false,
-	["InfoFramey"] = 80.9998779296875,
+	["announceToRaidWarning"] = true,
 	["trackAchievementsInBlizzardUI"] = false,
-	["announceTrackedAchievements"] = false,
+	["hideCompletedAchievements"] = false,
 }
 AchievementTrackerDebug = {
 	"14/4/2024 20:37 [DEBUG] ---IAT Runtime---", -- [1]
@@ -13048,8 +13048,200 @@ AchievementTrackerDebug = {
 	"26/4/2024 23:33 [DEBUG] InfoFrame does not need to be reset", -- [13023]
 	"26/4/2024 23:33 [DEBUG] Resetting PlayerRank", -- [13024]
 	"26/4/2024 23:33 [DEBUG] InfoFrame was not active", -- [13025]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [13026]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.40.0", -- [13027]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache classic", -- [13028]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache Classic...", -- [13029]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [13030]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13031]
+	"28/4/2024 22:19 [DEBUG] Showing Minimap Icon", -- [13032]
+	"28/4/2024 23:12 [DEBUG] Player has entered instance", -- [13033]
+	"28/4/2024 23:12 [DEBUG] 631", -- [13034]
+	"28/4/2024 23:12 [DEBUG] Offical Instance Name: 631 _631", -- [13035]
+	"28/4/2024 23:12 [DEBUG] Detected Legacy 10 man Raid", -- [13036]
+	"28/4/2024 23:12 [DEBUG] New Instance Name: 631-10", -- [13037]
+	"28/4/2024 23:12 [DEBUG] Expansion: 3", -- [13038]
+	"28/4/2024 23:12 [DEBUG] Instance Type: Raids", -- [13039]
+	"28/4/2024 23:12 [DEBUG] Instance: 631-10", -- [13040]
+	"28/4/2024 23:12 [DEBUG] DifficultyID: 5", -- [13041]
+	"28/4/2024 23:12 [DEBUG] Expansion: 3", -- [13042]
+	"28/4/2024 23:12 [DEBUG] Instance Type: Raids", -- [13043]
+	"28/4/2024 23:12 [DEBUG] Instance: 631-10", -- [13044]
+	"28/4/2024 23:12 [DEBUG] Asking user whether they want to track this instance", -- [13045]
+	"28/4/2024 23:12 [DEBUG] Creating Tracking UI", -- [13046]
+	"28/4/2024 23:12 [DEBUG] InfoFrame Setup Complete", -- [13047]
+	"28/4/2024 23:12 [DEBUG] Expansion: 3", -- [13048]
+	"29/4/2024 0:50 [DEBUG] Hiding Tracking UI", -- [13049]
+	"29/4/2024 0:50 [DEBUG] Clearing Instance Variables", -- [13050]
+	"29/4/2024 0:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:2018: attempt to call method 'IATInstanceCleanup' (a nil value).", -- [13051]
+	"29/4/2024 0:50 [DEBUG] Cleaning up instance events for _631", -- [13052]
+	"29/4/2024 0:50 [DEBUG] Player has left instance. Unregestering events and resetting variables", -- [13053]
+	"29/4/2024 0:50 [DEBUG] Clearing Instance Variables if exists", -- [13054]
+	"29/4/2024 0:50 [DEBUG] Function failed, error text: ...nstanceAchievementTracker/AchievementTrackerCore.lua:4034: attempt to call method 'clearVariables' (a nil value).", -- [13055]
+	"29/4/2024 0:50 [DEBUG] Clearing Instance Variables if exists", -- [13056]
+	"29/4/2024 0:50 [DEBUG] Clearing Instance Variables", -- [13057]
+	"29/4/2024 0:50 [DEBUG] Resetting Global Variables", -- [13058]
+	"29/4/2024 0:50 [DEBUG] InfoFrame does not need to be reset", -- [13059]
+	"29/4/2024 0:50 [DEBUG] Resetting PlayerRank", -- [13060]
+	"29/4/2024 0:50 [DEBUG] InfoFrame was not active", -- [13061]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [13062]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.40.0", -- [13063]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [13064]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [13065]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [13066]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13067]
+	"1/5/2024 12:36 [DEBUG] Showing Minimap Icon", -- [13068]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [13069]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.40.0", -- [13070]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [13071]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [13072]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [13073]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13074]
+	"1/5/2024 12:46 [DEBUG] Showing Minimap Icon", -- [13075]
+	"1/5/2024 12:46 [DEBUG] ---IAT Runtime---", -- [13076]
+	"1/5/2024 12:46 [DEBUG] Version: 4.40.0", -- [13077]
+	"1/5/2024 12:46 [DEBUG] Attempting to load from local NPC Cache", -- [13078]
+	"1/5/2024 12:46 [DEBUG] Generating NPC Cache...", -- [13079]
+	"1/5/2024 12:46 [DEBUG] Enabling Addon", -- [13080]
+	"1/5/2024 12:46 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13081]
+	"1/5/2024 12:46 [DEBUG] Showing Minimap Icon", -- [13082]
+	"1/5/2024 12:46 [DEBUG] ---IAT Runtime---", -- [13083]
+	"1/5/2024 12:46 [DEBUG] Version: 4.40.0", -- [13084]
+	"1/5/2024 12:46 [DEBUG] Attempting to load from local NPC Cache", -- [13085]
+	"1/5/2024 12:46 [DEBUG] Generating NPC Cache...", -- [13086]
+	"1/5/2024 12:46 [DEBUG] Enabling Addon", -- [13087]
+	"1/5/2024 12:46 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13088]
+	"1/5/2024 12:47 [DEBUG] Showing Minimap Icon", -- [13089]
 }
 AchievementTrackerNPCCache = {
+	[33134] = "Sara",
+	[54191] = "Risen Ghoul",
+	[33113] = "Flame Leviathan",
+	[43658] = "Frenzied Crocolisk",
+	[32867] = "Steelbreaker",
+	[54969] = "Mannoroth",
+	[30472] = "Olut Alegut",
+	[33768] = "Rubble",
+	[42753] = "Helix Gearbreaker",
+	[40634] = "Naz'jar Tempest Witch",
+	[45992] = "Valiona",
+	[33118] = "Ignis the Furnace Master",
+	[15687] = "Moroes",
+	[42428] = "Devout Follower",
+	[27658] = "Belgaristrasz",
+	[31125] = "Archavon the Stone Watcher",
+	[32915] = "Elder Brightleaf",
+	[32919] = "Storm Lasher",
+	[27654] = "Drakos the Interrogator",
+	[43468] = "Lady Naz'jar",
+	[41440] = "Aberration",
+	[34605] = "Swarm Scarab",
+	[52438] = "Mortaxx",
+	[55334] = "Void of the Unmaking",
+	[47739] = "\"Captain\" Cookie",
+	[29932] = "Eck the Ferocious",
+	[39665] = "Rom'ogg Bonecrusher",
+	[32930] = "Kologarn",
+	[26627] = "Crystal Handler",
+	[44606] = "Forsaken Trooper",
+	[52148] = "Jin'do the Godbreaker",
+	[49485] = "Aberration",
+	[36535] = "Corrupted Soul Fragment",
+	[52414] = "Tor-Tun",
+	[55466] = "Twilight Spark",
+	[52422] = "Kaulema the Mover",
+	[53696] = "Fandral's Flame",
+	[42778] = "Admiral Ripsnarl",
+	[33686] = "Lore Keeper of Norgannon",
+	[33388] = "Dark Rune Guardian",
+	[52442] = "Florawing Hive Queen",
+	[34057] = "Assault Bot",
+	[34035] = "Feral Defender",
+	[54105] = "Shannox",
+	[45906] = "Camel",
+	[27756] = "Ruby Drake",
+	[50561] = "Bloodthirsty Ghoul",
+	[45993] = "Theralion",
+	[49392] = "Freezing Vapor",
+	[53494] = "Baleroc",
+	[56165] = "Crystal Conductor",
+	[38135] = "Deformed Fanatic",
+	[33186] = "Razorscale",
+	[33241] = "Freya",
+	[55419] = "Captain Varo'then",
+	[51405] = "Angered Earth",
+	[33202] = "Ancient Water Spirit",
+	[4092] = "Lariia",
+	[55308] = "Warlord Zon'ozz",
+	[27657] = "Verdisa",
+	[27659] = "Eternos",
+	[33121] = "Iron Construct",
+	[52418] = "Lost Offspring of Gahz'ranka",
+	[4218] = "Denatharion",
+	[4155] = "Idriana",
+	[32857] = "Stormcaller Brundir",
+	[26641] = "Drakkari Gutripper",
+	[45057] = "Forsaken Warhorse",
+	[37949] = "Cult Adherent",
+	[15363] = "Spirit Totem",
+	[52440] = "Gub",
+	[2889] = "Stonevault Trogg",
+	[50284] = "Twilight Zealot",
+	[33524] = "Saronite Animus",
+	[34564] = "Anub'arak",
+	[32273] = "Infinite Corruptor",
+	[36330] = "Lord Godfrey",
+	[38009] = "Reanimated Fanatic",
+	[53694] = "Riplimb",
+	[32913] = "Elder Ironbranch",
+	[33552] = "Yogg-Saron",
+	[34826] = "Mistress of Pain",
+	[37890] = "Cult Fanatic",
+	[51090] = "Singing Sunflower",
+	[4167] = "Dendrythis",
+	[33572] = "Steelforged Defender",
+	[44530] = "Naz'jar Honor Guard",
+	[33993] = "Emalon the Storm Watcher",
+	[45268] = "Servant of Siamat",
+	[28860] = "Sartharion",
+	[27981] = "Malformed Ooze",
+	[52392] = "Gurubashi Master Chef",
+	[53695] = "Rageface",
+	[43404] = "Maloriak",
+	[49864] = "Twilight Fiend",
+	[50376] = "Angered Earth",
+	[35013] = "Koralon the Flame Watcher",
+	[1043] = "Lost Whelp",
+	[39984] = "Malignant Trogg",
+	[27483] = "King Dred",
+	[52936] = "Druid of the Flame",
+	[53501] = "Living Meteor",
+	[14507] = "High Priest Venoxis",
+	[33136] = "Guardian of Yogg-Saron",
+	[52571] = "Majordomo Staghelm",
+	[4223] = "Fyldan",
+	[4159] = "Me'lynn",
+	[29023] = "Jan'alai",
+	[28517] = "Halazzi",
+	[28165] = "Iron Sludge",
+	[46753] = "Al'Akir",
+	[32914] = "Elder Stonebark",
+	[36855] = "Lady Deathwhisper",
+	[23574] = "Akil'zon",
+	[28514] = "Nalorakk",
+	[38010] = "Reanimated Adherent",
+	[26628] = "Drakkari Scytheclaw",
+	[53258] = "Lord Rhyolith",
+	[55312] = "Yor'sahj the Unsleeping",
+	[47297] = "Lumbering Oaf",
+	[39987] = "Evolved Twilight Zealot",
+	[29305] = "Moorabi",
+	[27656] = "Ley-Guardian Eregos",
+	[33343] = "XS-013 Scrapbot",
+	[32927] = "Runemaster Molgeim",
+	[52675] = "Beth'tilac",
+	[52405] = "Mor'Lek the Dismantler",
+	[33244] = "Mimiron",
 }
 AchievementTrackerNPCCacheClassic = {
 	[27483] = "King Dred",
@@ -13062,7 +13254,7 @@ AchievementTrackerNPCCacheClassic = {
 	[29579] = "Brann Bronzebeard",
 	[26746] = "Crazed Mana-Wraith",
 	[27756] = "Ruby Drake",
-	[26668] = "Svala Sorrowgrave",
+	[33572] = "Steelforged Defender",
 	[29310] = "Jedoga Shadowseeker",
 	[29713] = "Slad'ran Constrictor",
 	[26627] = "Crystal Handler",
@@ -13073,33 +13265,33 @@ AchievementTrackerNPCCacheClassic = {
 	[26731] = "Grand Magus Telestra",
 	[28586] = "General Bjarngrim",
 	[16028] = "Patchwerk",
-	[26533] = "Mal'Ganis",
-	[27981] = "Malformed Ooze",
+	[29305] = "Moorabi",
+	[29304] = "Slad'ran",
 	[26763] = "Anomalus",
 	[26630] = "Trollgore",
 	[26555] = "Scourge Hulk",
-	[26893] = "Grauf",
 	[26641] = "Drakkari Gutripper",
-	[33136] = "Guardian of Yogg-Saron",
+	[26893] = "Grauf",
 	[27975] = "Maiden of Grief",
 	[33388] = "Dark Rune Guardian",
-	[27658] = "Belgaristrasz",
+	[28731] = "Watcher Silthik",
+	[28729] = "Watcher Narjil",
 	[27654] = "Drakos the Interrogator",
 	[26206] = "Keristrasza",
 	[30176] = "Ahn'kahar Guardian",
 	[23562] = "Unstoppable Abomination",
-	[28729] = "Watcher Narjil",
+	[27658] = "Belgaristrasz",
 	[28730] = "Watcher Gashra",
-	[28731] = "Watcher Silthik",
+	[33136] = "Guardian of Yogg-Saron",
 	[28165] = "Iron Sludge",
 	[30623] = "Twisted Visage",
 	[29364] = "Void Sentry",
 	[29932] = "Eck the Ferocious",
 	[29240] = "Stormforged Lieutenant",
-	[29304] = "Slad'ran",
-	[29305] = "Moorabi",
+	[27981] = "Malformed Ooze",
+	[26533] = "Mal'Ganis",
 	[29306] = "Gal'darah",
 	[33343] = "XS-013 Scrapbot",
 	[23953] = "Prince Keleseth",
-	[33572] = "Steelforged Defender",
+	[26668] = "Svala Sorrowgrave",
 }

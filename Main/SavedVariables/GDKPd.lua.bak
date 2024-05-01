@@ -1,8 +1,5 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
@@ -10,10 +7,13 @@ GDKPd_DB = {
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -56,7 +56,13 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 			},
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
+			["point"] = {
+				["y"] = -2.400072574615479,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 16.20000648498535,
+			},
 		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {
@@ -72,13 +78,7 @@ GDKPd_DB = {
 				["x"] = 314.1330261230469,
 			},
 		},
-		["Kwasimojo - Venoxis"] = {
-			["point"] = {
-				["y"] = -2.400072574615479,
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 16.20000648498535,
-			},
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

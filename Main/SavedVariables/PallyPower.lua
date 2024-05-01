@@ -1,24 +1,25 @@
 
 PallyPowerDB = {
 	["profileKeys"] = {
+		["Alsla - Venoxis"] = "Other",
 		["Xolem - Venoxis"] = "Other",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
 		["Exonuklease - Venoxis"] = "Other",
 		["Alsiadk - Venoxis"] = "Other",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
 		["Andrés - Venoxis"] = "Other",
-		["Maturitass - Venoxis"] = "Other",
+		["Kwasimojo - Venoxis"] = "Other",
 		["Khalimmortus - Venoxis"] = "Other",
 		["Lucho - Venoxis"] = "Other",
-		["Kwasimojo - Venoxis"] = "Other",
+		["Maturitass - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
+			["WrathTransition"] = true,
 			["skin"] = "normTex2",
 			["enable"] = true,
-			["border"] = "None",
 			["hideHighGroups"] = true,
-			["WrathTransition"] = true,
+			["border"] = "None",
 			["rf"] = false,
 		},
 		["Default"] = {
@@ -128,29 +129,17 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 	},
-	["Wågwåñbøøtÿx"] = {
-		2, -- [1]
-		2, -- [2]
-		1, -- [3]
-		1, -- [4]
-		2, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		2, -- [10]
-	},
-	["Alsía"] = {
-		3, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		4, -- [7]
-		4, -- [8]
-		3, -- [9]
-		4, -- [10]
+	["Zelcher"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
 	},
 	["Rothut"] = {
 		4, -- [1]
@@ -164,6 +153,18 @@ PallyPower_Assignments = {
 		4, -- [9]
 		4, -- [10]
 	},
+	["Wågwåñbøøtÿx"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		1, -- [4]
+		2, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		2, -- [10]
+	},
 	["Hazzq"] = {
 		2, -- [1]
 		2, -- [2]
@@ -176,17 +177,17 @@ PallyPower_Assignments = {
 		0, -- [9]
 		2, -- [10]
 	},
-	["Zelcher"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
+	["Alsía"] = {
+		3, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		4, -- [7]
+		4, -- [8]
+		3, -- [9]
+		4, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -210,13 +211,13 @@ PallyPower_AuraAssignments = {
 	["Bremskyle"] = 4,
 	["Hópéful"] = 1,
 	["Shîzuye"] = 0,
-	["Wågwåñbøøtÿx"] = 2,
+	["Vangelius"] = 5,
 	["Beesportz"] = 2,
 	["Zelcher"] = 2,
 	["Schicnek"] = 1,
 	["Sanziji"] = 0,
 	["Hazzq"] = 4,
-	["Vangelius"] = 5,
+	["Wågwåñbøøtÿx"] = 2,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {
@@ -233,7 +234,6 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil
