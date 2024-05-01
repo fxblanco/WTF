@@ -19,11 +19,11 @@ ItemListsDB = {
 			"Arcanum of Blissful Mending", -- [3]
 		},
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
@@ -34,9 +34,10 @@ TMBDB = {
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -51,11 +52,13 @@ TMBDB = {
 		},
 		["Andrés - Venoxis"] = {
 		},
+		["Kwasimojo - Venoxis"] = {
+		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
+		["Lucho - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

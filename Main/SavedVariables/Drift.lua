@@ -14,6 +14,13 @@ DriftPoints = {
 		["yOfs"] = -163.5999908447266,
 		["xOfs"] = -333.9000854492188,
 	},
+	["MacroFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 15.80037117004395,
+		["xOfs"] = 385.4001159667969,
+	},
 }
 DriftScales = {
 }
@@ -21,15 +28,15 @@ DriftOptions = {
 	["dragAltKeyEnabled"] = false,
 	["frameDragIsLocked"] = false,
 	["scaleAltKeyEnabled"] = false,
-	["scaleShiftKeyEnabled"] = false,
-	["bagsDisabled"] = true,
 	["objectivesDisabled"] = true,
-	["scaleCtrlKeyEnabled"] = false,
+	["bagsDisabled"] = true,
+	["scaleShiftKeyEnabled"] = false,
+	["windowsDisabled"] = false,
 	["buttonsDisabled"] = true,
 	["dragCtrlKeyEnabled"] = false,
-	["dragShiftKeyEnabled"] = false,
-	["frameScaleIsLocked"] = false,
 	["miscellaneousDisabled"] = true,
-	["windowsDisabled"] = false,
+	["frameScaleIsLocked"] = false,
+	["dragShiftKeyEnabled"] = false,
+	["scaleCtrlKeyEnabled"] = false,
 	["minimapDisabled"] = true,
 }

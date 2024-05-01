@@ -7,9 +7,10 @@ ProjectAzilrokaDB = {
 		["Alsiadk - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -43,10 +44,10 @@ ProjectAzilrokaDB = {
 			["stAddonManager"] = {
 				["Enable"] = false,
 			},
-			["FasterLoot"] = {
+			["Cooldown"] = {
 				["Enable"] = false,
 			},
-			["Cooldown"] = {
+			["FasterLoot"] = {
 				["Enable"] = false,
 			},
 			["EnhancedFriendsList"] = {

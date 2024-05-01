@@ -1,5 +1,17 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Default",
+		["Alsía - Venoxis"] = "Default",
+		["Exonuklease - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1371,11 +1383,82 @@ RCLootCouncilDB = {
 			"20:14:24 - Timer MLdb_check passed", -- [1366]
 			"20:14:24 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1367]
 			"20:14:24 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alsia) (distri:) (WHISPER)", -- [1368]
+			"04/25/24", -- [1369]
+			"22:58:01 - Logged In", -- [1370]
+			"22:58:01 - ML initialized!", -- [1371]
+			"22:58:01 - TradeUI enabled", -- [1372]
+			"22:58:05 - Alsía-Venoxis (2.19.3) (nil)", -- [1373]
+			"22:58:05 - ActivateSkin (bfa)", -- [1374]
+			"22:58:10 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1375]
+			"22:58:10 - GetML()", -- [1376]
+			"22:58:10 - LootMethod =  (group)", -- [1377]
+			"22:58:10 - UpdatePlayersData()", -- [1378]
+			"22:58:10 - ClassicModule enabled (0.20.2) (nil)", -- [1379]
+			"22:58:10 - DoCommsCompressFix", -- [1380]
+			"22:58:10 - Removing Column (role)", -- [1381]
+			"22:58:10 - Removing Column (corruption)", -- [1382]
+			"22:58:11 - GetPlayersGuildRank()", -- [1383]
+			"22:58:11 - Found Guild Rank: OldRabbit Twink", -- [1384]
+			"22:58:11 - Comm received:^1^SverTest^T^N1^S0.20.2^t^^ (from:) (Alsía) (distri:) (GUILD)", -- [1385]
+			"22:58:34 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1386]
+			"22:58:34 - GetML()", -- [1387]
+			"22:58:34 - LootMethod =  (group)", -- [1388]
+			"04/25/24", -- [1389]
+			"23:25:42 - Logged In", -- [1390]
+			"23:25:42 - ML initialized!", -- [1391]
+			"23:25:42 - TradeUI enabled", -- [1392]
+			"23:25:45 - Lucho-Venoxis (2.19.3) (nil)", -- [1393]
+			"23:25:45 - ActivateSkin (bfa)", -- [1394]
+			"23:25:49 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1395]
+			"23:25:49 - GetML()", -- [1396]
+			"23:25:49 - LootMethod =  (group)", -- [1397]
+			"23:25:49 - UpdatePlayersData()", -- [1398]
+			"23:25:50 - ClassicModule enabled (0.20.2) (nil)", -- [1399]
+			"23:25:50 - DoCommsCompressFix", -- [1400]
+			"23:25:50 - Removing Column (role)", -- [1401]
+			"23:25:50 - Removing Column (corruption)", -- [1402]
+			"04/25/24", -- [1403]
+			"23:26:12 - Logged In", -- [1404]
+			"23:26:12 - ML initialized!", -- [1405]
+			"23:26:12 - TradeUI enabled", -- [1406]
+			"23:26:13 - Lucho-Venoxis (2.19.3) (nil)", -- [1407]
+			"23:26:13 - ActivateSkin (bfa)", -- [1408]
+			"23:26:16 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1409]
+			"23:26:16 - GetML()", -- [1410]
+			"23:26:16 - LootMethod =  (group)", -- [1411]
+			"23:26:16 - UpdatePlayersData()", -- [1412]
+			"23:26:16 - LUA_WARNING (0) (Interface/AddOns/AddOnSkins/Core/ElvUI.lua:1 (null))", -- [1413]
+			"23:26:16 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/AddOnSkins/Core/ElvUI.lua:1 (null))", -- [1414]
+			"23:26:16 - ClassicModule enabled (0.20.2) (nil)", -- [1415]
+			"23:26:16 - DoCommsCompressFix", -- [1416]
+			"23:26:16 - Removing Column (role)", -- [1417]
+			"23:26:16 - Removing Column (corruption)", -- [1418]
+			"23:26:44 - Event: (LOOT_READY) (true)", -- [1419]
+			"23:26:44 - LootOpened", -- [1420]
+			"23:26:44 - Event: (LOOT_READY) (true)", -- [1421]
+			"23:26:45 - LootClosed", -- [1422]
+			"23:27:03 - Event: (LOOT_READY) (true)", -- [1423]
+			"23:27:04 - LootOpened", -- [1424]
+			"23:27:04 - LootClosed", -- [1425]
+			"23:27:39 - Event: (LOOT_READY) (true)", -- [1426]
+			"23:27:39 - LootOpened", -- [1427]
+			"23:27:39 - Event: (LOOT_READY) (true)", -- [1428]
+			"23:27:39 - LootClosed", -- [1429]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.20.2",
 		["locale"] = "enUS",
 		["verTestCandidates"] = {
+			["Onixus-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1713722894, -- [3]
+			},
+			["Tolazytolvl-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1714078692, -- [3]
+			},
 			["Vanec-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
@@ -1386,90 +1469,60 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1713722894, -- [3]
 			},
+			["Minoton-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1714078691, -- [3]
+			},
 			["Hakkî-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1713722894, -- [3]
 			},
-			["Zoosahaal-Venoxis"] = {
+			["Styleplox-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Wallahnyr-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713262623, -- [3]
-			},
-			["Xmø-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Khalimmortus-Venoxis"] = {
-				"0.20.2", -- [1]
-				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Graveofjenna-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713264080, -- [3]
-			},
-			["Onixus-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713722894, -- [3]
+				1714078693, -- [3]
 			},
 			["Alsiadk-Venoxis"] = {
 				"0.20.2", -- [1]
 				nil, -- [2]
 				1713563854, -- [3]
 			},
-			["Moly-Venoxis"] = {
+			["Wønka-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713264713, -- [3]
+				1714078691, -- [3]
 			},
 			["ûrsûs-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1713563160, -- [3]
 			},
-			["Uwugamergirl-Venoxis"] = {
+			["Taschte-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713264713, -- [3]
+				1714078692, -- [3]
+			},
+			["Maxîmus-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1714078692, -- [3]
+			},
+			["ûrsus-Venoxis"] = {
+				"0.21.0", -- [1]
+				nil, -- [2]
+				1714078692, -- [3]
 			},
 			["Kentharo-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
 				1713722894, -- [3]
 			},
-			["Shîzuye-Venoxis"] = {
+			["Graveofmaria-Venoxis"] = {
 				"0.21.0", -- [1]
 				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Decîmus-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Maxîmus-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713564016, -- [3]
-			},
-			["Styleploxlel-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1713384071, -- [3]
-			},
-			["Kwasimojo-Venoxis"] = {
-				"0.20.2", -- [1]
-				nil, -- [2]
-				1713262623, -- [3]
+				1714078692, -- [3]
 			},
 			["Vextria-Venoxis"] = {
 				"0.21.0", -- [1]
@@ -1478,19 +1531,8 @@ RCLootCouncilDB = {
 			},
 		},
 		["version"] = "2.19.3",
-		["regionID"] = 3,
 		["Classic_version"] = "0.20.2",
-	},
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Default",
-		["Alsía - Venoxis"] = "Default",
-		["Exonuklease - Venoxis"] = "Default",
-		["Alsiadk - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["regionID"] = 3,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -1552,8 +1594,9 @@ RCLootCouncilLootDB = {
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 }

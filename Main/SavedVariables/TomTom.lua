@@ -7,19 +7,20 @@ TomTomDB = {
 		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
 		["Andrés - Venoxis"] = "MerfinUI v5.22",
-		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
-		["Maturitass - Venoxis"] = "MerfinUI v5.22",
 		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
+		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
+		["Lucho - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "MerfinUI v5.22",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["block"] = {
 				["position"] = {
-					"CENTER", -- [1]
+					"TOPLEFT", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					-100, -- [5]
+					"TOPLEFT", -- [3]
+					71.60015106201172, -- [4]
+					-171.3997802734375, -- [5]
 				},
 			},
 			["arrow"] = {
@@ -67,9 +68,10 @@ TomTomWaypointsM = {
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -84,11 +86,13 @@ TomTomWaypointsM = {
 		},
 		["Andrés - Venoxis"] = {
 		},
+		["Kwasimojo - Venoxis"] = {
+		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
+		["Lucho - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }
