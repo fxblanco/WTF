@@ -17,10 +17,10 @@ PallyPowerDB = {
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
 			["skin"] = "normTex2",
-			["enable"] = true,
-			["border"] = "None",
-			["hideHighGroups"] = true,
 			["WrathTransition"] = true,
+			["enable"] = true,
+			["hideHighGroups"] = true,
+			["border"] = "None",
 			["rf"] = false,
 		},
 		["Default"] = {
@@ -168,7 +168,6 @@ PallyPower_SavedPresets = {
 	},
 }
 PallyPower_ChanNames = {
-	"Community:198368472:1", -- [1]
 	[0] = "None",
 }
 LCD_Data = nil

@@ -124,8 +124,8 @@ ReforgeLiteDB = {
 					0, -- [6]
 					0, -- [7]
 					0, -- [8]
-					["dodge"] = 0,
 					["parry"] = 0,
+					["dodge"] = 0,
 				},
 				["tankingModel"] = true,
 				["orig_stats"] = {
@@ -229,8 +229,8 @@ ReforgeLiteDB = {
 					0, -- [6]
 					0, -- [7]
 					0, -- [8]
-					["dodge"] = 0,
 					["parry"] = 0,
+					["dodge"] = 0,
 				},
 				["tankingModel"] = true,
 				["orig_stats"] = {

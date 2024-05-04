@@ -62,8 +62,6 @@ RXPSettings = {
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
-			["xprate"] = 1.1,
-			["frameHeight"] = 204.1998748779297,
 			["windowScale"] = 1.25,
 			["hardcore"] = false,
 			["framePositions"] = {
@@ -81,8 +79,8 @@ RXPSettings = {
 						"LEFT", -- [1]
 						nil, -- [2]
 						"LEFT", -- [3]
-						123.3798217773438, -- [4]
-						-156.5067901611328, -- [5]
+						3.139859676361084, -- [4]
+						-135.626708984375, -- [5]
 					}, -- [1]
 				},
 				["activeItemFrame"] = {
@@ -91,7 +89,7 @@ RXPSettings = {
 						nil, -- [2]
 						"CENTER", -- [3]
 						239.3995208740234, -- [4]
-						-44.09989929199219, -- [5]
+						-44.09990692138672, -- [5]
 					}, -- [1]
 				},
 				["activeTargetFrame"] = {
@@ -100,10 +98,11 @@ RXPSettings = {
 						nil, -- [2]
 						"CENTER", -- [3]
 						-571.5003662109375, -- [4]
-						-12.60019874572754, -- [5]
+						-12.60019779205322, -- [5]
 					}, -- [1]
 				},
 			},
+			["xprate"] = 1.1,
 			["frameSizes"] = {
 				["arrowFrame"] = {
 					31.99999618530273, -- [1]
@@ -111,7 +110,7 @@ RXPSettings = {
 				},
 				["RXPFrame"] = {
 					292.6001586914063, -- [1]
-					204.1999206542969, -- [2]
+					27.99996185302734, -- [2]
 				},
 				["activeItemFrame"] = {
 					75.8002700805664, -- [1]
@@ -122,6 +121,7 @@ RXPSettings = {
 					67.99999237060547, -- [2]
 				},
 			},
+			["frameHeight"] = 204.1999206542969,
 			["macroAnnounced"] = true,
 		},
 		["Xolem - Venoxis"] = {
@@ -428,8 +428,9 @@ RXPSettings = {
 			},
 		},
 		["Bloodwall - Venoxis"] = {
-			["hardcore"] = false,
 			["xprate"] = 1.1,
+			["frameHeight"] = 124.9998931884766,
+			["hardcore"] = false,
 			["frameSizes"] = {
 				["activeTargetFrame"] = {
 					73.06678771972656, -- [1]
@@ -448,7 +449,6 @@ RXPSettings = {
 					31.99999618530273, -- [2]
 				},
 			},
-			["frameHeight"] = 124.9998931884766,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{

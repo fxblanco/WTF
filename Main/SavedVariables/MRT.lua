@@ -156,25 +156,25 @@ VMRT = {
 			},
 			["Khalimmortus"] = {
 			},
-			["Maturitass"] = {
+			["Kwasimojo"] = {
 			},
 			["Exonuklease"] = {
 			},
 			["Alsía"] = {
 			},
-			["Kwasimojo"] = {
+			["Bloodwall"] = {
 			},
 			["Xolem"] = {
 			},
-			["Alslahunt"] = {
+			["Andrés"] = {
 			},
 			["Alsiadk"] = {
 			},
-			["Bloodwall"] = {
-			},
 			["Alsla"] = {
 			},
-			["Andrés"] = {
+			["Maturitass"] = {
+			},
+			["Alslahunt"] = {
 			},
 			["Lucho"] = {
 			},
@@ -302,11 +302,11 @@ VMRT = {
 			["Zelcher"] = 0,
 			["Oldooz"] = 0,
 			["Commodûs"] = 0,
-			["Dulsberger"] = 0,
 			["Bellaowl"] = 0,
+			["Dulsberger"] = 0,
 			["Béar"] = 0,
 			["Mehrpepps"] = 0,
-			["Ffx"] = 0,
+			["Grenzjäger"] = 0,
 			["Vanec"] = 0,
 			["Tianbao"] = 0,
 			["Gnag"] = 0,
@@ -350,7 +350,7 @@ VMRT = {
 			["Reinesgold"] = 0,
 			["Petê"] = 0,
 			["Cykagril"] = 0,
-			["Grenzjäger"] = 0,
+			["Ffx"] = 0,
 			["Vangelius"] = 0,
 			["Traubertrick"] = 0,
 			["Aorian"] = 0,
@@ -577,9 +577,9 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["ReadyCheckFrame"] = true,
 		["ReadyCheckTop"] = 1109.399658203125,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckLeft"] = 1731.701171875,
 		["WeaponEnch"] = {
 		},
@@ -624,11 +624,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4850,
-		["Scale"] = 1,
 		["PreVersion"] = 4850,
+		["IconMiniMapTop"] = -39.94675680122825,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -63.47642583901839,
-		["IconMiniMapTop"] = -39.94675680122825,
+		["Scale"] = 1,
 	},
 	["WhoPulled"] = {
 	},

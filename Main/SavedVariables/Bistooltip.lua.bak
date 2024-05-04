@@ -5,10 +5,10 @@ BisTooltipDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Alsiadk - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
@@ -32,11 +32,15 @@ BisTooltipDB = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
-		["Bloodwall - Venoxis"] = {
-			["version"] = 6.2,
+		["Maturitass - Venoxis"] = {
 			["data_source"] = "wh",
+			["version"] = 6.2,
 		},
 		["Alsiadk - Venoxis"] = {
+			["data_source"] = "wh",
+			["version"] = 6.2,
+		},
+		["Bloodwall - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
@@ -46,10 +50,6 @@ BisTooltipDB = {
 			["phase_index"] = 3,
 			["data_source"] = "wh",
 			["class_index"] = 5,
-		},
-		["Maturitass - Venoxis"] = {
-			["data_source"] = "wh",
-			["version"] = 6.2,
 		},
 		["Andrés - Venoxis"] = {
 			["data_source"] = "wh",

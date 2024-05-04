@@ -6,8 +6,8 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Alsla - Venoxis",
 			["spec2_profileKey"] = "Alsla - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
@@ -25,20 +25,15 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Alsía - Venoxis",
 			["specswap"] = false,
 		},
-		["Alsia - Venoxis"] = {
-			["spec1_profileKey"] = "Alsia - Venoxis",
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
-			["specswap"] = false,
-		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
+		},
+		["Alslahunt - Venoxis"] = {
+			["alerthidden"] = true,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["spec1_profileKey"] = "Khalimmortus - Venoxis",
@@ -48,8 +43,13 @@ CliqueDB3 = {
 			["specswap"] = false,
 			["alerthidden"] = true,
 		},
-		["Alslahunt - Venoxis"] = {
+		["Alsia - Venoxis"] = {
+			["spec1_profileKey"] = "Alsia - Venoxis",
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -64,10 +64,10 @@ CliqueDB3 = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
@@ -285,7 +285,7 @@ CliqueDB3 = {
 				}, -- [2]
 			},
 		},
-		["Bloodwall - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 			["bindings"] = {
 				{
 					["sets"] = {
@@ -311,6 +311,25 @@ CliqueDB3 = {
 					["sets"] = {
 						["default"] = true,
 					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Bloodwall - Venoxis"] = {
+			["bindings"] = {
+				{
+					["sets"] = {
+						["default"] = true,
+					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -425,25 +444,6 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [11]
-			},
-		},
-		["Maturitass - Venoxis"] = {
-			["bindings"] = {
-				{
-					["sets"] = {
-						["default"] = true,
-					},
-					["type"] = "target",
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
 			},
 		},
 		["Andrés - Venoxis"] = {

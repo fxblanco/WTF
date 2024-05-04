@@ -74129,13 +74129,13 @@ WeakAurasOptionsSaved = {
 	["version"] = "5.12.9",
 	["savedSnippets"] = {
 	},
-	["spellCacheStrings"] = true,
 	["frame"] = {
-		["xOffset"] = 2127.499206542969,
+		["xOffset"] = 2344.399597167969,
 		["width"] = 945.2003173828125,
 		["height"] = 1051.099975585938,
-		["yOffset"] = 1071.900024414063,
+		["yOffset"] = 1385.099975585938,
 	},
+	["spellCacheStrings"] = true,
 	["spellCacheAchievements"] = true,
-	["build"] = "54501",
+	["build"] = "54525",
 }

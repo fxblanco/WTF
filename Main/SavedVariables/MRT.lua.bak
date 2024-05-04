@@ -52,8 +52,8 @@ VMRT = {
 		["Alsiadk-Venoxis"] = "default",
 		["Alsía-Venoxis"] = "default",
 		["Lucho-Venoxis"] = "default",
-		["Xolem-Venoxis"] = "default",
 		["Alsia-Venoxis"] = "default",
+		["Xolem-Venoxis"] = "default",
 		["Alsla-Venoxis"] = "default",
 		["Bloodwall-Venoxis"] = "default",
 		["Alslahunt-Venoxis"] = "default",
@@ -118,27 +118,27 @@ VMRT = {
 				"^756^175^1713732966^119^0^10^277.60^Gnag", -- [52]
 				"^756^175^1713733182^456^0^10^277.68^Gnag", -- [53]
 			},
-			["Bloodwall"] = {
-			},
 			["Khalimmortus"] = {
+			},
+			["Andrés"] = {
 			},
 			["Exonuklease"] = {
 			},
 			["Alsía"] = {
 			},
-			["Alslahunt"] = {
+			["Alsla"] = {
 			},
 			["Xolem"] = {
 			},
-			["Andrés"] = {
+			["Alslahunt"] = {
 			},
 			["Alsiadk"] = {
 			},
-			["Alsla"] = {
+			["Maturitass"] = {
+			},
+			["Bloodwall"] = {
 			},
 			["Kwasimojo"] = {
-			},
-			["Maturitass"] = {
 			},
 			["Lucho"] = {
 			},
@@ -303,10 +303,10 @@ VMRT = {
 			["Traubertrick"] = 0,
 			["Commodûs"] = 0,
 			["Vangelius"] = 0,
-			["Bellaowl"] = 0,
+			["Dulsberger"] = 0,
 			["Béar"] = 0,
-			["Ffx"] = 0,
 			["Grenzjäger"] = 0,
+			["Ffx"] = 0,
 			["Vanec"] = 0,
 			["Tianbao"] = 0,
 			["Gnag"] = 0,
@@ -351,7 +351,7 @@ VMRT = {
 			["Petê"] = 0,
 			["Cykagril"] = 0,
 			["Mehrpepps"] = 0,
-			["Dulsberger"] = 0,
+			["Bellaowl"] = 0,
 			["Oldooz"] = 0,
 			["Zelcher"] = 0,
 			["Nytedk"] = 0,
@@ -579,11 +579,11 @@ VMRT = {
 		["ReadyCheckFrameOnlyRL"] = true,
 		["FlaskExp"] = 1,
 		["ReadyCheckFrame"] = true,
-		["ReadyCheckTop"] = 1109.399658203125,
+		["ReadyCheckFrameTimerFade"] = 4,
 		["WeaponEnch"] = {
 		},
 		["ReadyCheckLeft"] = 1731.701171875,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 1109.399658203125,
 	},
 	["Reminder2"] = {
 		["HistoryFrameShown"] = true,
@@ -624,11 +624,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4850,
-		["PreVersion"] = 4850,
 		["IconMiniMapTop"] = -39.94675680122825,
+		["Scale"] = 1,
 		["IconMiniMapLeft"] = -63.47642583901839,
 		["Timer"] = 0.1,
-		["Scale"] = 1,
+		["PreVersion"] = 4850,
 	},
 	["WhoPulled"] = {
 	},

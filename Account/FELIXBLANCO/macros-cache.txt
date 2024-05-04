@@ -21,7 +21,33 @@ VER 3 0000000000000AB7 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
+VER 3 0000000000000AB9 "gloryplea" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Hand of Freedom; Word of Glory
+END
+VER 3 0000000000000ABA "hammer" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Hammer of the Righteous; Crusader Strike
+/use [@player] Global Thermal Sapper Charge
+/use [@player] Saronite Bomb
+END
+VER 3 0000000000000ABB "prot_f" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Hammer of Wrath; [mod:ctrl] Exorcism; Holy Shield;
+END
+VER 3 0000000000000ABC "r" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Hand of Freedom; Hammer of Wrath
+END
+VER 3 0000000000000ABD "r_main2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Judgement
+/use 10
+END
 VER 3 0000000000000AB8 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact King Jokkum
-/targetlasttarget [dead]
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 0000000000000ABE "shield" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Divine Plea; Avenger's Shield
 END

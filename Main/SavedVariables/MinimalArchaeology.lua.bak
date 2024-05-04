@@ -129,6 +129,15 @@ MinArchDigsitesGlobalDB = {
 				["race"] = "Troll",
 				["raceId"] = 3,
 			},
+			["Lakeridge Highway Fossil Bank"] = {
+				["y"] = "67.469608783722",
+				["uiMapID"] = 1433,
+				["zone"] = "Redridge Mountains",
+				["subzone"] = "",
+				["x"] = "39.156532287598",
+				["race"] = "Fossil",
+				["raceId"] = 8,
+			},
 			["Thoradin's Wall"] = {
 				["y"] = "66.701811552048",
 				["uiMapID"] = 1424,
@@ -138,6 +147,15 @@ MinArchDigsitesGlobalDB = {
 				["race"] = "Dwarf",
 				["raceId"] = 10,
 			},
+			["Infectis Scar Fossil Field"] = {
+				["y"] = "62.22015619278",
+				["uiMapID"] = 1423,
+				["zone"] = "Eastern Plaguelands",
+				["subzone"] = "",
+				["x"] = "48.458915948868",
+				["race"] = "Fossil",
+				["raceId"] = 8,
+			},
 			["Greenwarden's Fossil Bank"] = {
 				["y"] = "52.247929573059",
 				["uiMapID"] = 1437,
@@ -146,6 +164,15 @@ MinArchDigsitesGlobalDB = {
 				["x"] = "64.501762390137",
 				["race"] = "Fossil",
 				["raceId"] = 8,
+			},
+			["Western Zul'Mamwe Digsite"] = {
+				["y"] = "70.182955265045",
+				["uiMapID"] = 1434,
+				["zone"] = "Northern Stranglethorn",
+				["subzone"] = "",
+				["x"] = "58.57926607132",
+				["race"] = "Troll",
+				["raceId"] = 3,
 			},
 			["Andorhal Fossil Bank"] = {
 				["y"] = "73.627901077271",
@@ -194,6 +221,42 @@ MinArchDigsitesGlobalDB = {
 			},
 		}, -- [2]
 		{
+			["Sha'naar Digsite"] = {
+				["y"] = "58.25771689415",
+				["uiMapID"] = 1944,
+				["zone"] = "Hellfire Peninsula",
+				["subzone"] = "",
+				["x"] = "13.971757888794",
+				["race"] = "Draenei",
+				["raceId"] = 9,
+			},
+			["Sunspring Post Digsite"] = {
+				["y"] = "42.832583189011",
+				["uiMapID"] = 1951,
+				["zone"] = "Nagrand",
+				["subzone"] = "",
+				["x"] = "31.743586063385",
+				["race"] = "Orc",
+				["raceId"] = 5,
+			},
+			["Grangol'var Village Digsite"] = {
+				["y"] = "40.111112594604",
+				["uiMapID"] = 1952,
+				["zone"] = "Terokkar Forest",
+				["subzone"] = "",
+				["x"] = "39.358025789261",
+				["race"] = "Orc",
+				["raceId"] = 5,
+			},
+			["Twin Spire Ruins Digsite"] = {
+				["y"] = "51.771283149719",
+				["uiMapID"] = 1946,
+				["zone"] = "Zangarmarsh",
+				["subzone"] = "",
+				["x"] = "47.58226275444",
+				["race"] = "Draenei",
+				["raceId"] = 9,
+			},
 		}, -- [3]
 		{
 		}, -- [4]

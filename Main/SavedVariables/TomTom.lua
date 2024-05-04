@@ -47,6 +47,8 @@ TomTomDB = {
 				},
 			},
 			["block"] = {
+				["enable"] = false,
+				["width"] = 130,
 				["fontsize"] = 17,
 				["position"] = {
 					"TOP", -- [1]
@@ -55,9 +57,7 @@ TomTomDB = {
 					0, -- [4]
 					-70, -- [5]
 				},
-				["enable"] = false,
 				["height"] = 40,
-				["width"] = 130,
 			},
 		},
 	},

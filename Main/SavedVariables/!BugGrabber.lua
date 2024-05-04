@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 167,
+	["session"] = 169,
 	["errors"] = {
 		{
 			["message"] = "Lua error in aura 'M: Easy PP - Backend': init\nWeakAuras Version: 5.12.7\nAura Version: 1.0.24\n[string \"return function() C_ChatInfo.RegisterAddonM...\"]:10: attempt to index global 'PallyPower' (a nil value)",
@@ -904,36 +904,36 @@ BugGrabberDB = {
 			["counter"] = 6,
 		}, -- [116]
 		{
-			["message"] = "Lua error in aura 'Fixed Stats 15': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.24\n[string \"return function ()\"]:7: attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)",
-			["time"] = "2024/05/01 12:36:18",
-			["locals"] = "round = <function> defined return function ():2\n(*temporary) = nil\n(*temporary) = \"attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)\"\n",
-			["stack"] = "[string \"return function ()\"]:7: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1091: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
-			["session"] = 167,
-			["counter"] = 2871,
-		}, -- [117]
-		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:23: table index is nil",
 			["time"] = "2024/05/01 12:36:18",
 			["locals"] = "SCAN_EVENT = \"WA_MERFIN_SPELL_MERGER\"\nindexToSubEvent = <table> {\n 1 = \"SPELL_DAMAGE\"\n 2 = \"SPELL_PERIODIC_DAMAGE\"\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n}\n(for control) = 2\n_ = 2\ndata = <table> {\n subEventIndex = 1\n spellId = 48466\n customIcon = \"\"\n enable = true\n duration = 3\n enableCustomIcon = false\n spellName = \"Hurricane\"\n}\nsubEvent = \"SPELL_DAMAGE\"\nspellName = nil\n_ = nil\nicon = nil\n(*temporary) = <table> {\n Swipe = <table> {\n }\n}\n(*temporary) = <table> {\n dmg = 0\n spellId = 48466\n lastCall = 0\n duration = 3\n counter = 0\n}\n(*temporary) = 3\n(*temporary) = \"table index is nil\"\n",
 			["stack"] = "[string \"return function() local SCAN_EVENT = 'WA_MERFIN_SPELL_MERGER'\"]:23: in function <[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1064: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
-			["session"] = 167,
-			["counter"] = 36,
+			["session"] = 169,
+			["counter"] = 38,
+		}, -- [117]
+		{
+			["message"] = "Interface/AddOns/GTFO/GTFO.lua:1973: attempt to call global 'GetSpecialization' (a nil value)",
+			["time"] = "2024/05/01 12:47:14",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"attempt to call global 'GetSpecialization' (a nil value)\"\n",
+			["stack"] = "[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:1973: in function `GTFO_CheckTankMode'\n[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:775: in function `GTFO_OnEvent'\n[string \"*GTFO.xml:60_OnEvent\"]:1: in function <[string \"*GTFO.xml:60_OnEvent\"]:1>",
+			["session"] = 169,
+			["counter"] = 5159,
 		}, -- [118]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function(...)\"]:2: attempt to call field 'TSU' (a nil value)",
 			["time"] = "2024/05/01 12:36:18",
 			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n}\n(*temporary) = \"STATUS\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to call field 'TSU' (a nil value)\"\n",
 			["stack"] = "[string \"return function(...)\"]:2: in function <[string \"return function(...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1069: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
-			["session"] = 167,
-			["counter"] = 5132,
+			["session"] = 169,
+			["counter"] = 5140,
 		}, -- [119]
 		{
-			["message"] = "Interface/AddOns/GTFO/GTFO.lua:1973: attempt to call global 'GetSpecialization' (a nil value)",
-			["time"] = "2024/05/01 12:47:14",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"attempt to call global 'GetSpecialization' (a nil value)\"\n",
-			["stack"] = "[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:1973: in function `GTFO_CheckTankMode'\n[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:775: in function `GTFO_OnEvent'\n[string \"*GTFO.xml:60_OnEvent\"]:1: in function <[string \"*GTFO.xml:60_OnEvent\"]:1>",
-			["session"] = 167,
-			["counter"] = 5058,
+			["message"] = "Lua error in aura 'Fixed Stats 15': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.24\n[string \"return function ()\"]:7: attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)",
+			["time"] = "2024/05/01 12:36:18",
+			["locals"] = "round = <function> defined return function ():2\n(*temporary) = nil\n(*temporary) = \"attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)\"\n",
+			["stack"] = "[string \"return function ()\"]:7: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1091: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
+			["session"] = 169,
+			["counter"] = 2961,
 		}, -- [120]
 	},
 }
