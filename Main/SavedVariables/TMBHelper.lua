@@ -33,8 +33,9 @@ TMBDB = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -50,9 +51,11 @@ TMBDB = {
 		},
 		["Alsia - Venoxis"] = {
 		},
+		["Maturitass - Venoxis"] = {
+		},
 		["Andrés - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},

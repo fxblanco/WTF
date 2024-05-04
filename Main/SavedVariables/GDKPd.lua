@@ -60,8 +60,8 @@ GDKPd_DB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {
-				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
+				["relative"] = "TOPLEFT",
 			},
 		},
 		["Lucho - Venoxis"] = {

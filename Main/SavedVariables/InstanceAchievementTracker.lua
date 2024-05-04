@@ -13119,6 +13119,34 @@ AchievementTrackerDebug = {
 	"1/5/2024 12:48 [DEBUG] Enabling Addon", -- [13094]
 	"1/5/2024 12:48 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13095]
 	"1/5/2024 12:49 [DEBUG] Showing Minimap Icon", -- [13096]
+	"0/0/1999 -1:-1 [DEBUG] ---IAT Runtime---", -- [13097]
+	"0/0/1999 -1:-1 [DEBUG] Version: 4.40.0", -- [13098]
+	"0/0/1999 -1:-1 [DEBUG] Attempting to load from local NPC Cache", -- [13099]
+	"0/0/1999 -1:-1 [DEBUG] Generating NPC Cache...", -- [13100]
+	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [13101]
+	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13102]
+	"2/5/2024 22:19 [DEBUG] Showing Minimap Icon", -- [13103]
+	"2/5/2024 22:19 [DEBUG] ---IAT Runtime---", -- [13104]
+	"2/5/2024 22:19 [DEBUG] Version: 4.40.0", -- [13105]
+	"2/5/2024 22:19 [DEBUG] Attempting to load from local NPC Cache", -- [13106]
+	"2/5/2024 22:19 [DEBUG] Generating NPC Cache...", -- [13107]
+	"2/5/2024 22:19 [DEBUG] Enabling Addon", -- [13108]
+	"2/5/2024 22:19 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13109]
+	"2/5/2024 22:25 [DEBUG] Showing Minimap Icon", -- [13110]
+	"2/5/2024 22:25 [DEBUG] ---IAT Runtime---", -- [13111]
+	"2/5/2024 22:25 [DEBUG] Version: 4.40.0", -- [13112]
+	"2/5/2024 22:25 [DEBUG] Attempting to load from local NPC Cache", -- [13113]
+	"2/5/2024 22:25 [DEBUG] Generating NPC Cache...", -- [13114]
+	"2/5/2024 22:25 [DEBUG] Enabling Addon", -- [13115]
+	"2/5/2024 22:25 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13116]
+	"2/5/2024 22:25 [DEBUG] Showing Minimap Icon", -- [13117]
+	"2/5/2024 22:26 [DEBUG] ---IAT Runtime---", -- [13118]
+	"2/5/2024 22:26 [DEBUG] Version: 4.40.0", -- [13119]
+	"2/5/2024 22:26 [DEBUG] Attempting to load from local NPC Cache", -- [13120]
+	"2/5/2024 22:26 [DEBUG] Generating NPC Cache...", -- [13121]
+	"2/5/2024 22:26 [DEBUG] Enabling Addon", -- [13122]
+	"2/5/2024 22:26 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13123]
+	"2/5/2024 22:26 [DEBUG] Showing Minimap Icon", -- [13124]
 }
 AchievementTrackerNPCCache = {
 	[33244] = "Mimiron",
@@ -13132,20 +13160,20 @@ AchievementTrackerNPCCache = {
 	[52405] = "Mor'Lek the Dismantler",
 	[40634] = "Naz'jar Tempest Witch",
 	[52675] = "Beth'tilac",
-	[32927] = "Runemaster Molgeim",
+	[55334] = "Void of the Unmaking",
 	[15687] = "Moroes",
 	[42428] = "Devout Follower",
 	[33343] = "XS-013 Scrapbot",
 	[45992] = "Valiona",
 	[32915] = "Elder Brightleaf",
 	[32919] = "Storm Lasher",
-	[55334] = "Void of the Unmaking",
-	[43468] = "Lady Naz'jar",
+	[34605] = "Swarm Scarab",
+	[32927] = "Runemaster Molgeim",
 	[41440] = "Aberration",
 	[29305] = "Moorabi",
-	[39987] = "Evolved Twilight Zealot",
-	[52422] = "Kaulema the Mover",
-	[55312] = "Yor'sahj the Unsleeping",
+	[55466] = "Twilight Spark",
+	[51405] = "Angered Earth",
+	[52438] = "Mortaxx",
 	[53258] = "Lord Rhyolith",
 	[26628] = "Drakkari Scytheclaw",
 	[38010] = "Reanimated Adherent",
@@ -13155,39 +13183,39 @@ AchievementTrackerNPCCache = {
 	[49485] = "Aberration",
 	[36535] = "Corrupted Soul Fragment",
 	[52414] = "Tor-Tun",
-	[55466] = "Twilight Spark",
+	[33241] = "Freya",
 	[33118] = "Ignis the Furnace Master",
 	[53696] = "Fandral's Flame",
 	[42778] = "Admiral Ripsnarl",
-	[33186] = "Razorscale",
-	[33134] = "Sara",
+	[47739] = "\"Captain\" Cookie",
+	[33388] = "Dark Rune Guardian",
 	[52442] = "Florawing Hive Queen",
 	[32914] = "Elder Stonebark",
 	[34035] = "Feral Defender",
 	[54105] = "Shannox",
-	[33241] = "Freya",
+	[33686] = "Lore Keeper of Norgannon",
 	[27756] = "Ruby Drake",
 	[50561] = "Bloodthirsty Ghoul",
 	[45993] = "Theralion",
-	[28165] = "Iron Sludge",
-	[53494] = "Baleroc",
-	[33686] = "Lore Keeper of Norgannon",
-	[38135] = "Deformed Fanatic",
 	[26627] = "Crystal Handler",
+	[53494] = "Baleroc",
+	[56165] = "Crystal Conductor",
+	[38135] = "Deformed Fanatic",
+	[33186] = "Razorscale",
 	[4092] = "Lariia",
 	[55419] = "Captain Varo'then",
-	[33121] = "Iron Construct",
+	[55312] = "Yor'sahj the Unsleeping",
 	[33202] = "Ancient Water Spirit",
 	[45906] = "Camel",
 	[55308] = "Warlord Zon'ozz",
 	[27657] = "Verdisa",
 	[27659] = "Eternos",
+	[52440] = "Gub",
 	[4159] = "Me'lynn",
-	[4223] = "Fyldan",
 	[4218] = "Denatharion",
 	[4155] = "Idriana",
 	[32857] = "Stormcaller Brundir",
-	[52440] = "Gub",
+	[4223] = "Fyldan",
 	[45057] = "Forsaken Warhorse",
 	[37949] = "Cult Adherent",
 	[15363] = "Spirit Totem",
@@ -13195,34 +13223,34 @@ AchievementTrackerNPCCache = {
 	[2889] = "Stonevault Trogg",
 	[50284] = "Twilight Zealot",
 	[33524] = "Saronite Animus",
-	[32913] = "Elder Ironbranch",
 	[53501] = "Living Meteor",
+	[32913] = "Elder Ironbranch",
 	[36330] = "Lord Godfrey",
-	[51090] = "Singing Sunflower",
+	[32273] = "Infinite Corruptor",
 	[27483] = "King Dred",
 	[34564] = "Anub'arak",
 	[33552] = "Yogg-Saron",
-	[32273] = "Infinite Corruptor",
-	[39984] = "Malignant Trogg",
+	[34826] = "Mistress of Pain",
+	[51090] = "Singing Sunflower",
 	[38009] = "Reanimated Fanatic",
 	[45268] = "Servant of Siamat",
 	[37890] = "Cult Fanatic",
-	[27981] = "Malformed Ooze",
+	[49864] = "Twilight Fiend",
 	[50376] = "Angered Earth",
 	[4167] = "Dendrythis",
 	[28860] = "Sartharion",
-	[49864] = "Twilight Fiend",
+	[44530] = "Naz'jar Honor Guard",
 	[52392] = "Gurubashi Master Chef",
 	[43404] = "Maloriak",
 	[53695] = "Rageface",
-	[44530] = "Naz'jar Honor Guard",
+	[27981] = "Malformed Ooze",
 	[33993] = "Emalon the Storm Watcher",
 	[35013] = "Koralon the Flame Watcher",
 	[1043] = "Lost Whelp",
 	[33572] = "Steelforged Defender",
 	[53694] = "Riplimb",
 	[52936] = "Druid of the Flame",
-	[34826] = "Mistress of Pain",
+	[39984] = "Malignant Trogg",
 	[14507] = "High Priest Venoxis",
 	[49392] = "Freezing Vapor",
 	[52571] = "Majordomo Staghelm",
@@ -13230,23 +13258,23 @@ AchievementTrackerNPCCache = {
 	[52418] = "Lost Offspring of Gahz'ranka",
 	[29023] = "Jan'alai",
 	[28517] = "Halazzi",
-	[51405] = "Angered Earth",
+	[28165] = "Iron Sludge",
 	[46753] = "Al'Akir",
 	[34057] = "Assault Bot",
 	[36855] = "Lady Deathwhisper",
 	[44606] = "Forsaken Trooper",
-	[56165] = "Crystal Conductor",
+	[33121] = "Iron Construct",
 	[32930] = "Kologarn",
 	[39665] = "Rom'ogg Bonecrusher",
 	[29932] = "Eck the Ferocious",
-	[33388] = "Dark Rune Guardian",
+	[52422] = "Kaulema the Mover",
 	[47297] = "Lumbering Oaf",
-	[47739] = "\"Captain\" Cookie",
+	[33134] = "Sara",
 	[27654] = "Drakos the Interrogator",
 	[27656] = "Ley-Guardian Eregos",
 	[27658] = "Belgaristrasz",
-	[52438] = "Mortaxx",
-	[34605] = "Swarm Scarab",
+	[43468] = "Lady Naz'jar",
+	[39987] = "Evolved Twilight Zealot",
 	[42753] = "Helix Gearbreaker",
 	[31125] = "Archavon the Stone Watcher",
 }

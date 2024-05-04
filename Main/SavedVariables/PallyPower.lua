@@ -7,11 +7,12 @@ PallyPowerDB = {
 		["Exonuklease - Venoxis"] = "Other",
 		["Alsiadk - Venoxis"] = "Other",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
+		["Maturitass - Venoxis"] = "Other",
 		["Andrés - Venoxis"] = "Other",
-		["Kwasimojo - Venoxis"] = "Other",
+		["Alslahunt - Venoxis"] = "Other",
 		["Khalimmortus - Venoxis"] = "Other",
 		["Lucho - Venoxis"] = "Other",
-		["Maturitass - Venoxis"] = "Other",
+		["Kwasimojo - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
@@ -34,7 +35,7 @@ PallyPowerDB = {
 }
 PallyPower_Assignments = {
 	["Alsia"] = {
-		3, -- [1]
+		7, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
@@ -54,6 +55,18 @@ PallyPower_Assignments = {
 		2, -- [6]
 		0, -- [7]
 		0, -- [8]
+		2, -- [9]
+		2, -- [10]
+	},
+	["Lesbenlisa"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		2, -- [7]
+		2, -- [8]
 		2, -- [9]
 		2, -- [10]
 	},
@@ -93,42 +106,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 	},
-	["Schicnek"] = {
-		2, -- [1]
-		2, -- [2]
-		0, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		0, -- [7]
-		2, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
-	["Vangelius"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-	},
-	["Lesbenlisa"] = {
-		2, -- [1]
-		2, -- [2]
-		1, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		2, -- [7]
-		2, -- [8]
-		2, -- [9]
-		2, -- [10]
-	},
 	["Zelcher"] = {
 		0, -- [1]
 		0, -- [2]
@@ -140,42 +117,6 @@ PallyPower_Assignments = {
 		0, -- [8]
 		0, -- [9]
 		0, -- [10]
-	},
-	["Rothut"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
-	},
-	["Wågwåñbøøtÿx"] = {
-		2, -- [1]
-		2, -- [2]
-		1, -- [3]
-		1, -- [4]
-		2, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		2, -- [10]
-	},
-	["Hazzq"] = {
-		2, -- [1]
-		2, -- [2]
-		0, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		2, -- [10]
 	},
 	["Alsía"] = {
 		3, -- [1]
@@ -191,13 +132,6 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Alsia"] = {
-		[5] = {
-			["Alsia"] = 4,
-		},
-	},
-	["Wågwåñbøøtÿx"] = {
-	},
 }
 PallyPower_AuraAssignments = {
 	["Lysaniâ"] = 1,
@@ -211,13 +145,13 @@ PallyPower_AuraAssignments = {
 	["Bremskyle"] = 4,
 	["Hópéful"] = 1,
 	["Shîzuye"] = 0,
-	["Vangelius"] = 5,
+	["Wågwåñbøøtÿx"] = 2,
 	["Beesportz"] = 2,
 	["Zelcher"] = 2,
 	["Schicnek"] = 1,
 	["Sanziji"] = 0,
 	["Hazzq"] = 4,
-	["Wågwåñbøøtÿx"] = 2,
+	["Vangelius"] = 5,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {
