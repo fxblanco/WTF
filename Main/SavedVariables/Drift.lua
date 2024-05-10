@@ -1,11 +1,18 @@
 
 DriftPoints = {
+	["CharacterFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -15.20003414154053,
+		["xOfs"] = 302.10009765625,
+	},
 	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 103.8999938964844,
-		["xOfs"] = 455.5003967285156,
+		["yOfs"] = 238.9001159667969,
+		["xOfs"] = -100.6994552612305,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -13,6 +20,13 @@ DriftPoints = {
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 146.3003387451172,
 		["xOfs"] = -481.7499694824219,
+	},
+	["QuestLogFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -140.9001770019531,
+		["xOfs"] = 97.1997299194336,
 	},
 	["FriendsFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -37,20 +51,22 @@ DriftPoints = {
 	},
 }
 DriftScales = {
+	["GameMenuFrame"] = 1.049999952316284,
+	["QuestLogFrame"] = 1.009999990463257,
 }
 DriftOptions = {
 	["dragAltKeyEnabled"] = false,
 	["frameDragIsLocked"] = false,
 	["scaleAltKeyEnabled"] = false,
-	["objectivesDisabled"] = true,
-	["bagsDisabled"] = true,
 	["scaleShiftKeyEnabled"] = false,
-	["windowsDisabled"] = false,
+	["bagsDisabled"] = true,
+	["objectivesDisabled"] = true,
+	["scaleCtrlKeyEnabled"] = false,
 	["buttonsDisabled"] = true,
 	["dragCtrlKeyEnabled"] = false,
-	["miscellaneousDisabled"] = true,
-	["frameScaleIsLocked"] = false,
 	["dragShiftKeyEnabled"] = false,
-	["scaleCtrlKeyEnabled"] = false,
+	["frameScaleIsLocked"] = false,
+	["miscellaneousDisabled"] = true,
+	["windowsDisabled"] = false,
 	["minimapDisabled"] = true,
 }

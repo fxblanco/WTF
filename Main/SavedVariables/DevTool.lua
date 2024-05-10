@@ -4,10 +4,11 @@ DevToolDatabase = {
 		["Alsla - Venoxis"] = "Alsla - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
@@ -16,13 +17,15 @@ DevToolDatabase = {
 		},
 		["Alsía - Venoxis"] = {
 		},
-		["Alslahunt - Venoxis"] = {
-		},
-		["Khalimmortus - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 		},
 		["Xolem - Venoxis"] = {
 		},
-		["Bloodwall - Venoxis"] = {
+		["Khalimmortus - Venoxis"] = {
+		},
+		["Alslahunt - Venoxis"] = {
+		},
+		["Alsiadk - Venoxis"] = {
 		},
 	},
 }

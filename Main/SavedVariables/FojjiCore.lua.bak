@@ -1,5 +1,5 @@
 
-FojjiTimersSavedVars = {
+FTSavedVars = {
 }
 FojjiSkipWTF = {
 	["skip"] = true,

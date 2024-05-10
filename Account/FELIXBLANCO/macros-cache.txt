@@ -1,53 +1,54 @@
-VER 3 0000000000000AB1 "111_" "134400"
+VER 3 0000000000000B05 "111_" "134400"
 /4 LFM GDKP ICC 25 (HC 1+3)-  HC 10k NHC 5k - 1 Healer dann go!
 END
-VER 3 0000000000000AB2 "434" "236178"
+VER 3 0000000000000B06 "434" "236178"
 /castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
 END
-VER 3 0000000000000AB3 "focus" "132097"
+VER 3 0000000000000B07 "focus" "132097"
 /focus
 END
-VER 3 0000000000000AB4 "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000B08 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
-/use [mod:shift] 15; [mod:ctrl] 6; 8
+/use [mod:shift] 15; [mod:ctrl] 6; 6
 END
-VER 3 0000000000000AB5 "g_buy" "134400"
+VER 3 0000000000000B09 "g_buy" "134400"
 /script BuyMerchantItem(1,500)
 END
-VER 3 0000000000000AB6 "g_hände" "132959"
+VER 3 0000000000000B0A "g_hände" "132959"
 /use 10
 END
-VER 3 0000000000000AB7 "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0B "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
-VER 3 0000000000000AB9 "gloryplea" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0C "gloryplea" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Hand of Freedom; Word of Glory
 END
-VER 3 0000000000000ABA "hammer" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0D "hammer" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Hammer of the Righteous; Crusader Strike
 /use [@player] Global Thermal Sapper Charge
 /use [@player] Saronite Bomb
 END
-VER 3 0000000000000ABB "prot_f" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0E "prot_f" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Hammer of Wrath; [mod:ctrl] Exorcism; Holy Shield;
 END
-VER 3 0000000000000ABC "r" "INV_Misc_QuestionMark"
+VER 3 0000000000000B0F "r" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift, @mouseover, help, nodead] Hand of Freedom; Hammer of Wrath
 END
-VER 3 0000000000000ABD "r_main2" "INV_Misc_QuestionMark"
+VER 3 0000000000000B10 "r_main2" "INV_Misc_QuestionMark"
 #showtooltip
 /cast Judgement
 /use 10
 END
-VER 3 0000000000000AB8 "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
+VER 3 0000000000000B11 "RXPTargeting" "132150"
+/targetexact Archmage Lan'dalock
+/targetlasttarget [dead]
 END
-VER 3 0000000000000ABE "shield" "INV_Misc_QuestionMark"
+VER 3 0000000000000B12 "shield" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Divine Plea; Avenger's Shield
 END

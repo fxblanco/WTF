@@ -1,18 +1,5 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -29,6 +16,19 @@ Postal3DB = {
 				"Xolem|Venoxis|Horde|80|SHAMAN", -- [11]
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -53,7 +53,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 			["BlackBook"] = {
@@ -62,13 +62,24 @@ Postal3DB = {
 				},
 			},
 		},
-		["Bloodwall - Venoxis"] = {
+		["Lucho - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Lucho - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Alsla|Venoxis|Horde", -- [1]
+					"Kwasimojo|Venoxis|Horde", -- [2]
+				},
+			},
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Alsiadk|Venoxis|Horde", -- [1]
+				},
+			},
 		},
 	},
 }

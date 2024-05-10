@@ -5,15 +5,15 @@ ProjectAzilrokaDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 		["Alsiadk - Venoxis"] = "Default",
 		["Bloodwall - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
+		["Alslahunt - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Alslahunt - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -47,17 +47,17 @@ ProjectAzilrokaDB = {
 			["stAddonManager"] = {
 				["Enable"] = false,
 			},
-			["Cooldown"] = {
+			["FasterLoot"] = {
 				["Enable"] = false,
 			},
-			["FasterLoot"] = {
+			["Cooldown"] = {
 				["Enable"] = false,
 			},
 			["EnhancedFriendsList"] = {
 				["Enable"] = false,
 				["DiffLevel"] = false,
-				["InfoFontSize"] = 14,
 				["NameFontSize"] = 14,
+				["InfoFontSize"] = 14,
 				["Texture"] = "Flatt",
 			},
 		},

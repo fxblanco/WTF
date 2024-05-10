@@ -47,16 +47,15 @@ PallyPower_Assignments = {
 		3, -- [10]
 	},
 	["Lysaniâ"] = {
-		2, -- [1]
-		2, -- [2]
+		0, -- [1]
+		0, -- [2]
 		0, -- [3]
-		2, -- [4]
-		2, -- [5]
-		2, -- [6]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
 		0, -- [7]
 		0, -- [8]
-		2, -- [9]
-		2, -- [10]
+		0, -- [9]
 	},
 	["Lesbenlisa"] = {
 		2, -- [1]
@@ -134,7 +133,7 @@ PallyPower_Assignments = {
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
-	["Lysaniâ"] = 1,
+	["Lysaniâ"] = 2,
 	["Nytepala"] = 1,
 	["Alsía"] = 1,
 	["Erapala"] = 1,

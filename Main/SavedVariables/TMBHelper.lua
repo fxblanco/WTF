@@ -13,17 +13,27 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
+		[1715208778] = {
+			"Alsiadk", -- [1]
+			"44136", -- [2]
+			"Greater Inscription of the Pinnacle", -- [3]
+		},
+		[1715208770] = {
+			"Alsiadk", -- [1]
+			"44133", -- [2]
+			"Greater Inscription of the Axe", -- [3]
+		},
 		[1713088791] = {
 			"Alsia", -- [1]
 			"44152", -- [2]
 			"Arcanum of Blissful Mending", -- [3]
 		},
 	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
 	["displayOS"] = true,
+	["displayWishes"] = true,
+	["showMemberNotes"] = false,
+	["onlyRaidMembers"] = false,
+	["displayPrios"] = true,
 	["onlyInRaid"] = false,
 }
 TMBDB = {
@@ -33,12 +43,12 @@ TMBDB = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -51,17 +61,17 @@ TMBDB = {
 		},
 		["Alsia - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},
-		["Bloodwall - Venoxis"] = {
+		["Lucho - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Lucho - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

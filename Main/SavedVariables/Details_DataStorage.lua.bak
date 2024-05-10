@@ -1,8 +1,10 @@
 
 DetailsDataStorage = {
+	["Data"] = {
+	},
 	[15] = {
 	},
-	["VERSION"] = 6,
+	["VERSION"] = 5,
 	["saved_encounters"] = {
 	},
 	[14] = {
