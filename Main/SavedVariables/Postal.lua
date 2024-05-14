@@ -1,34 +1,36 @@
 
 Postal3DB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
 				"Alsiadk|Venoxis|Horde|80|DEATHKNIGHT", -- [1]
 				"Alsia|Venoxis|Horde|80|PALADIN", -- [2]
-				"Alsía|Venoxis|Horde|80|PALADIN", -- [3]
-				"Andrés|Venoxis|Horde|80|MAGE", -- [4]
-				"Bloodwall|Venoxis|Horde|80|WARRIOR", -- [5]
-				"Exonuklease|Venoxis|Horde|80|WARLOCK", -- [6]
-				"Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT", -- [7]
-				"Kwasimojo|Venoxis|Horde|80|PRIEST", -- [8]
-				"Lucho|Venoxis|Horde|44|HUNTER", -- [9]
-				"Maturitass|Venoxis|Horde|80|DRUID", -- [10]
-				"Xolem|Venoxis|Horde|80|SHAMAN", -- [11]
+				"Alslahunt|Venoxis|Horde|80|HUNTER", -- [3]
+				"Alsía|Venoxis|Horde|80|PALADIN", -- [4]
+				"Andrés|Venoxis|Horde|80|MAGE", -- [5]
+				"Bloodwall|Venoxis|Horde|80|WARRIOR", -- [6]
+				"Exonuklease|Venoxis|Horde|80|WARLOCK", -- [7]
+				"Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT", -- [8]
+				"Kwasimojo|Venoxis|Horde|80|PRIEST", -- [9]
+				"Lucho|Venoxis|Horde|44|HUNTER", -- [10]
+				"Maturitass|Venoxis|Horde|80|DRUID", -- [11]
+				"Xolem|Venoxis|Horde|80|SHAMAN", -- [12]
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Xolem - Venoxis",
+		["Alsía - Venoxis"] = "Alsía - Venoxis",
+		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -37,6 +39,8 @@ Postal3DB = {
 		},
 		["Exonuklease - Venoxis"] = {
 		},
+		["Kwasimojo - Venoxis"] = {
+		},
 		["Alsiadk - Venoxis"] = {
 			["BlackBook"] = {
 				["recent"] = {
@@ -44,21 +48,9 @@ Postal3DB = {
 				},
 			},
 		},
-		["Alsia - Venoxis"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Xolem|Venoxis|Horde", -- [1]
-					"Kwasimojo|Venoxis|Horde", -- [2]
-					"Alsía|Venoxis|Horde", -- [3]
-				},
-			},
+		["Alslahunt - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Alsiadk|Venoxis|Horde", -- [1]
-				},
-			},
+		["Lucho - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 			["BlackBook"] = {
@@ -77,9 +69,21 @@ Postal3DB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Lucho - Venoxis"] = {
+		["Alsia - Venoxis"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Xolem|Venoxis|Horde", -- [1]
+					"Kwasimojo|Venoxis|Horde", -- [2]
+					"Alsía|Venoxis|Horde", -- [3]
+				},
+			},
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Alsiadk|Venoxis|Horde", -- [1]
+				},
+			},
 		},
 	},
 }

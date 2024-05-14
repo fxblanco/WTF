@@ -4,27 +4,30 @@ CliqueDB3 = {
 	["char"] = {
 		["Alsla - Venoxis"] = {
 			["spec1_profileKey"] = "Alsla - Venoxis",
-			["fastooc"] = false,
-			["alerthidden"] = true,
-			["downclick"] = false,
 			["specswap"] = false,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Alsla - Venoxis",
+			["alerthidden"] = true,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
-			["specswap"] = false,
+			["alerthidden"] = true,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 			["spec2_profileKey"] = "Xolem - Venoxis",
-			["alerthidden"] = true,
 		},
 		["Alsía - Venoxis"] = {
 			["spec1_profileKey"] = "Alsía - Venoxis",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
-			["specswap"] = false,
 			["spec2_profileKey"] = "Alsía - Venoxis",
+			["alerthidden"] = true,
+		},
+		["Alslahunt - Venoxis"] = {
+			["alerthidden"] = true,
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -32,14 +35,6 @@ CliqueDB3 = {
 			["downclick"] = false,
 			["fastooc"] = false,
 			["specswap"] = false,
-		},
-		["Alsia - Venoxis"] = {
-			["spec1_profileKey"] = "Alsia - Venoxis",
-			["alerthidden"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Khalimmortus - Venoxis"] = {
 			["spec1_profileKey"] = "Khalimmortus - Venoxis",
@@ -49,8 +44,13 @@ CliqueDB3 = {
 			["alerthidden"] = true,
 			["specswap"] = false,
 		},
-		["Alslahunt - Venoxis"] = {
+		["Alsia - Venoxis"] = {
+			["spec1_profileKey"] = "Alsia - Venoxis",
+			["spec2_profileKey"] = "Alsia - Venoxis",
+			["downclick"] = false,
+			["fastooc"] = false,
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -115,21 +115,12 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136042,
-					["spell"] = "Chain Heal",
-				}, -- [2]
-				{
 					["type"] = "menu",
 					["key"] = "ALT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [3]
+				}, -- [2]
 				{
 					["type"] = "spell",
 					["key"] = "BUTTON3",
@@ -138,16 +129,16 @@ CliqueDB3 = {
 					},
 					["icon"] = 252995,
 					["spell"] = "Riptide",
-				}, -- [4]
+				}, -- [3]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
+					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 136052,
-					["spell"] = "Healing Wave",
-				}, -- [5]
+					["icon"] = 136042,
+					["spell"] = "Chain Heal",
+				}, -- [4]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON1",
@@ -156,7 +147,7 @@ CliqueDB3 = {
 					},
 					["icon"] = 136044,
 					["spell"] = "Healing Surge",
-				}, -- [6]
+				}, -- [5]
 				{
 					["type"] = "spell",
 					["key"] = "SHIFT-BUTTON3",
@@ -165,6 +156,15 @@ CliqueDB3 = {
 					},
 					["icon"] = 136089,
 					["spell"] = "Earth Shield",
+				}, -- [6]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136052,
+					["spell"] = "Healing Wave",
 				}, -- [7]
 			},
 		},

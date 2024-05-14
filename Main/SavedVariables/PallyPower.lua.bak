@@ -7,17 +7,17 @@ PallyPowerDB = {
 		["Exonuklease - Venoxis"] = "Other",
 		["Alsiadk - Venoxis"] = "Other",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
-		["Maturitass - Venoxis"] = "Other",
-		["Andrés - Venoxis"] = "Other",
-		["Alslahunt - Venoxis"] = "Other",
-		["Khalimmortus - Venoxis"] = "Other",
-		["Lucho - Venoxis"] = "Other",
 		["Kwasimojo - Venoxis"] = "Other",
+		["Andrés - Venoxis"] = "Other",
+		["Lucho - Venoxis"] = "Other",
+		["Khalimmortus - Venoxis"] = "Other",
+		["Alslahunt - Venoxis"] = "Other",
+		["Maturitass - Venoxis"] = "Other",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
-			["WrathTransition"] = true,
 			["skin"] = "normTex2",
+			["WrathTransition"] = true,
 			["enable"] = true,
 			["hideHighGroups"] = true,
 			["border"] = "None",
@@ -93,17 +93,17 @@ PallyPower_Assignments = {
 		1, -- [9]
 		1, -- [10]
 	},
-	["Shîzuye"] = {
+	["Alsía"] = {
 		3, -- [1]
 		3, -- [2]
-		3, -- [3]
+		1, -- [3]
 		3, -- [4]
 		3, -- [5]
 		3, -- [6]
-		3, -- [7]
-		3, -- [8]
+		4, -- [7]
+		4, -- [8]
 		3, -- [9]
-		3, -- [10]
+		4, -- [10]
 	},
 	["Zelcher"] = {
 		0, -- [1]
@@ -117,17 +117,17 @@ PallyPower_Assignments = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Alsía"] = {
+	["Shîzuye"] = {
 		3, -- [1]
 		3, -- [2]
-		1, -- [3]
+		3, -- [3]
 		3, -- [4]
 		3, -- [5]
 		3, -- [6]
-		4, -- [7]
-		4, -- [8]
+		3, -- [7]
+		3, -- [8]
 		3, -- [9]
-		4, -- [10]
+		3, -- [10]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -144,13 +144,13 @@ PallyPower_AuraAssignments = {
 	["Bremskyle"] = 4,
 	["Hópéful"] = 1,
 	["Shîzuye"] = 0,
-	["Wågwåñbøøtÿx"] = 2,
+	["Vangelius"] = 5,
 	["Beesportz"] = 2,
 	["Zelcher"] = 2,
 	["Schicnek"] = 1,
 	["Sanziji"] = 0,
 	["Hazzq"] = 4,
-	["Vangelius"] = 5,
+	["Wågwåñbøøtÿx"] = 2,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {

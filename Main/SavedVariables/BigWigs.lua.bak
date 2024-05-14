@@ -15,19 +15,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["posx"] = 801,
-					["fontSize"] = 16,
-					["lock"] = false,
-					["height"] = 101,
-					["posy"] = 417,
-					["fontName"] = "Expressway",
-					["width"] = 120,
-				},
-			},
-		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
@@ -38,11 +25,11 @@ BigWigs3DB = {
 						-206, -- [4]
 					},
 					["emphOutline"] = "OUTLINE",
+					["outline"] = "OUTLINE",
+					["fontName"] = "Expressway",
+					["emphFontName"] = "Expressway",
 					["emphFontSize"] = 44,
 					["fontSize"] = 16,
-					["emphFontName"] = "Expressway",
-					["fontName"] = "Expressway",
-					["outline"] = "OUTLINE",
 				},
 			},
 		},
@@ -51,6 +38,19 @@ BigWigs3DB = {
 				["MerfinUI v5.22"] = {
 					["posx"] = 197,
 					["posy"] = 512,
+				},
+			},
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["posx"] = 801,
+					["fontSize"] = 16,
+					["lock"] = false,
+					["height"] = 101,
+					["posy"] = 417,
+					["fontName"] = "Expressway",
+					["width"] = 120,
 				},
 			},
 		},
@@ -72,10 +72,10 @@ BigWigs3DB = {
 					["fontSizeEmph"] = 14,
 					["fontName"] = "Expressway",
 					["BigWigsAnchor_height"] = 26.99997901916504,
-					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
-					["BigWigsEmphasizeAnchor_width"] = 226.0001068115234,
-					["emphasizeTime"] = 7,
 					["texture"] = "Flatt",
+					["emphasizeTime"] = 7,
+					["BigWigsEmphasizeAnchor_width"] = 226.0001068115234,
+					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
 				},
 			},
 		},

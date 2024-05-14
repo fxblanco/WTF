@@ -63,10 +63,11 @@ RXPSettings = {
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
+			["xprate"] = 1.1,
+			["enableQuestAutomation"] = false,
+			["frameHeight"] = 204.1999206542969,
 			["windowScale"] = 1.25,
 			["hardcore"] = false,
-			["enableQuestAutomation"] = false,
-			["xprate"] = 1.1,
 			["frameSizes"] = {
 				["activeTargetFrame"] = {
 					82.66667938232422, -- [1]
@@ -85,8 +86,6 @@ RXPSettings = {
 					31.99999618530273, -- [2]
 				},
 			},
-			["frameHeight"] = 204.1999206542969,
-			["macroAnnounced"] = true,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -125,11 +124,50 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
+			["macroAnnounced"] = true,
 		},
 		["Xolem - Venoxis"] = {
 			["xprate"] = 1.1,
 			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
+			["framePositions"] = {
+				["activeTargetFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+			},
 			["frameSizes"] = {
 				["activeTargetFrame"] = {
 					82.66671752929688, -- [1]
@@ -148,6 +186,11 @@ RXPSettings = {
 					31.99999618530273, -- [2]
 				},
 			},
+		},
+		["Alsía - Venoxis"] = {
+			["xprate"] = 1.1,
+			["frameHeight"] = 124.9998397827148,
+			["hardcore"] = false,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -186,65 +229,22 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
-		},
-		["Alsía - Venoxis"] = {
-			["xprate"] = 1.1,
-			["frameHeight"] = 124.9998550415039,
-			["hardcore"] = false,
 			["frameSizes"] = {
 				["activeTargetFrame"] = {
-					88.00006103515625, -- [1]
+					82.66671752929688, -- [1]
 					67.99999237060547, -- [2]
 				},
 				["RXPFrame"] = {
 					235.0000457763672, -- [1]
-					28.0000057220459, -- [2]
+					27.99999809265137, -- [2]
 				},
 				["activeItemFrame"] = {
-					76.53341674804688, -- [1]
-					39.99998474121094, -- [2]
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
 				},
 				["arrowFrame"] = {
-					31.99994659423828, -- [1]
-					31.99999809265137, -- [2]
-				},
-			},
-			["framePositions"] = {
-				["activeTargetFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-				["RXPFrame"] = {
-					{
-						"LEFT", -- [1]
-						"UIParent", -- [2]
-						"LEFT", -- [3]
-						0, -- [4]
-						35, -- [5]
-					}, -- [1]
-				},
-				["activeItemFrame"] = {
-					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
-				},
-				["arrowFrame"] = {
-					{
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						0, -- [5]
-					}, -- [1]
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
 				},
 			},
 		},
@@ -369,27 +369,7 @@ RXPSettings = {
 			},
 		},
 		["Alsiadk - Venoxis"] = {
-			["xprate"] = 1.1,
-			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
-				},
-			},
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -428,6 +408,26 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
+			["xprate"] = 1.1,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
+			["frameHeight"] = 124.9998931884766,
 		},
 		["Bloodwall - Venoxis"] = {
 			["xprate"] = 1.1,
@@ -492,7 +492,7 @@ RXPSettings = {
 		},
 		["Alsia - Venoxis"] = {
 			["xprate"] = 1.1,
-			["frameHeight"] = 192.4997711181641,
+			["frameHeight"] = 192.4997100830078,
 			["macroAnnounced"] = true,
 			["hardcore"] = false,
 			["frameSizes"] = {
@@ -502,7 +502,7 @@ RXPSettings = {
 				},
 				["RXPFrame"] = {
 					300.7000122070313, -- [1]
-					192.4997100830078, -- [2]
+					27.99999809265137, -- [2]
 				},
 				["activeItemFrame"] = {
 					75.80008697509766, -- [1]
@@ -737,6 +737,24 @@ RXPSettings = {
 			["xprate"] = 1.1,
 			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -773,24 +791,6 @@ RXPSettings = {
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
-				},
-			},
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
 				},
 			},
 		},

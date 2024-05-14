@@ -18,8 +18,8 @@ DriftPoints = {
 		["relativeTo"] = "UIParent",
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
-		["yOfs"] = 146.3003387451172,
-		["xOfs"] = -481.7499694824219,
+		["yOfs"] = 136.4003753662109,
+		["xOfs"] = -201.849853515625,
 	},
 	["QuestLogFrame"] = {
 		["relativeTo"] = "UIParent",

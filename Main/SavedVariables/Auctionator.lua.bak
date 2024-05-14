@@ -97,8 +97,8 @@ AUCTIONATOR_CONFIG = {
 		["Top?"] = true,
 	},
 	["save_last_duration_as_default"] = false,
-	["auction_mean_tooltips"] = false,
 	["crafting_info_show_cost"] = true,
+	["auction_mean_tooltips"] = false,
 	["auction_mean_days_limit"] = 21,
 	["show_selling_bid_price"] = false,
 	["selling_bag_collapsed"] = false,
@@ -1100,24 +1100,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			},
 			["m"] = 129977,
 		},
-		["35627"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["h"] = {
-			},
-			["m"] = 7306,
-		},
-		["36916"] = {
-			["a"] = {
-			},
-			["l"] = {
-			},
-			["m"] = 16983,
-			["h"] = {
-			},
-		},
 		["36907"] = {
 			["a"] = {
 				[1587] = 594,
@@ -1138,6 +1120,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["h"] = {
 			},
 			["m"] = 75497,
+		},
+		["35627"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["h"] = {
+			},
+			["m"] = 7306,
+		},
+		["36916"] = {
+			["a"] = {
+			},
+			["l"] = {
+			},
+			["m"] = 16983,
+			["h"] = {
+			},
 		},
 		["8188"] = {
 			["a"] = {
@@ -1319,13 +1319,7 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1713262019,
 		}, -- [1]
 	},
-	["41101"] = {
-		{
-			["price"] = 333331,
-			["quantity"] = 1,
-			["time"] = 1714562121,
-		}, -- [1]
-	},
+	["__dbversion"] = 1,
 	["43365"] = {
 		{
 			["price"] = 184039,
@@ -1333,31 +1327,18 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1714562128,
 		}, -- [1]
 	},
-	["__dbversion"] = 1,
+	["41101"] = {
+		{
+			["price"] = 333331,
+			["quantity"] = 1,
+			["time"] = 1714562121,
+		}, -- [1]
+	},
 	["40093"] = {
 		{
 			["price"] = 5340,
 			["quantity"] = 86,
 			["time"] = 1715208805,
-		}, -- [1]
-	},
-	["41100"] = {
-		{
-			["price"] = 41953,
-			["quantity"] = 1,
-			["time"] = 1714335833,
-		}, -- [1]
-		{
-			["price"] = 19680,
-			["quantity"] = 1,
-			["time"] = 1714562120,
-		}, -- [2]
-	},
-	["gn:48933:Wormhole Generator: Northrend:80"] = {
-		{
-			["price"] = 29999,
-			["quantity"] = 2,
-			["time"] = 1713260695,
 		}, -- [1]
 	},
 	["36919"] = {
@@ -1370,6 +1351,25 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["price"] = 2957991,
 			["quantity"] = 6,
 			["time"] = 1714562147,
+		}, -- [2]
+	},
+	["41163"] = {
+		{
+			["price"] = 79988,
+			["quantity"] = 4,
+			["time"] = 1713260779,
+		}, -- [1]
+	},
+	["41100"] = {
+		{
+			["price"] = 41953,
+			["quantity"] = 1,
+			["time"] = 1714335833,
+		}, -- [1]
+		{
+			["price"] = 19680,
+			["quantity"] = 1,
+			["time"] = 1714562120,
 		}, -- [2]
 	},
 	["45742"] = {
@@ -1405,11 +1405,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1714562131,
 		}, -- [1]
 	},
-	["41163"] = {
+	["gn:48933:Wormhole Generator: Northrend:80"] = {
 		{
-			["price"] = 79988,
-			["quantity"] = 4,
-			["time"] = 1713260779,
+			["price"] = 29999,
+			["quantity"] = 2,
+			["time"] = 1713260695,
 		}, -- [1]
 	},
 	["43869"] = {
@@ -1609,8 +1609,8 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["43955"] = 17000000,
 	["42429"] = 2240,
 	["41722"] = 34000,
-	["17037"] = 1400,
 	["42438"] = 126000,
+	["17037"] = 1400,
 	["41584"] = 15,
 	["8926"] = 500,
 	["62038"] = 10800000,

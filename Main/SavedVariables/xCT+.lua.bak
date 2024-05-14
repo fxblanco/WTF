@@ -111,11 +111,11 @@ xCTSavedDB = {
 						["Weapon Enchantment"] = false,
 						["Jewelcrafting"] = false,
 						["Meat"] = false,
-						["Materials"] = false,
+						["Explosives"] = false,
 						["Devices"] = false,
 						["Leather"] = false,
 						["Armor Enchantment"] = false,
-						["Explosives"] = false,
+						["Materials"] = false,
 						["Enchanting"] = false,
 						["Cloth"] = false,
 						["Parts"] = false,
@@ -165,10 +165,6 @@ xCTSavedDB = {
 						["Orange"] = false,
 						["Red"] = false,
 					},
-					["Projectile"] = {
-						["Bullet"] = false,
-						["Arrow"] = false,
-					},
 					["Armor"] = {
 						["Totems"] = false,
 						["Shields"] = false,
@@ -180,6 +176,10 @@ xCTSavedDB = {
 						["Plate"] = false,
 						["Sigils"] = false,
 						["Cloth"] = false,
+					},
+					["Projectile"] = {
+						["Bullet"] = false,
+						["Arrow"] = false,
 					},
 					["version"] = 1,
 					["Glyph"] = {
@@ -243,30 +243,30 @@ xCTSavedDB = {
 				["outgoing"] = {
 					["enableOutAbsorbs"] = false,
 					["fontShadowOffsetX"] = 1,
-					["insertText"] = "top",
-					["enableOverhealing"] = false,
-					["Width"] = 167,
 					["Y"] = -432,
+					["insertText"] = "top",
+					["Width"] = 167,
+					["enableFontShadow"] = false,
 					["font"] = "Expressway",
 					["X"] = 834,
 					["enableHots"] = false,
 					["Height"] = 140,
 					["fontSize"] = 17,
-					["enableFontShadow"] = false,
+					["enableOverhealing"] = false,
 					["fontShadowOffsetY"] = -1,
 				},
 				["general"] = {
-					["showLowManaHealth"] = false,
+					["showPartyKills"] = false,
 					["showRepChanges"] = false,
 					["showBuffs"] = false,
 					["showDispells"] = false,
 					["Y"] = 400,
 					["font"] = "Expressway",
-					["showDebuffs"] = false,
+					["showLowManaHealth"] = false,
 					["showHonorGains"] = false,
+					["showDebuffs"] = false,
 					["fontSize"] = 17,
 					["showInterrupts"] = false,
-					["showPartyKills"] = false,
 				},
 				["power"] = {
 					["enabledFrame"] = false,
@@ -275,8 +275,8 @@ xCTSavedDB = {
 					["Y"] = 71,
 					["fontSize"] = 17,
 					["enabledFrame"] = false,
-					["font"] = "Expressway",
 					["X"] = 8,
+					["font"] = "Expressway",
 				},
 				["healing"] = {
 					["enableRealmNames"] = false,
@@ -306,12 +306,6 @@ xCTSavedDB = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Maturitass - Venoxis"] = {
-			["dbVersion"] = "4.6.1",
-		},
-		["Alsiadk - Venoxis"] = {
-			["dbVersion"] = "4.6.1",
-		},
-		["Bloodwall - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["MerfinUI v5.22 (DPS/Tank)"] = {
@@ -348,11 +342,11 @@ xCTSavedDB = {
 						["Weapon Enchantment"] = false,
 						["Jewelcrafting"] = false,
 						["Meat"] = false,
-						["Explosives"] = false,
+						["Materials"] = false,
 						["Devices"] = false,
 						["Leather"] = false,
 						["Armor Enchantment"] = false,
-						["Materials"] = false,
+						["Explosives"] = false,
 						["Enchanting"] = false,
 						["Cloth"] = false,
 						["Parts"] = false,
@@ -402,6 +396,10 @@ xCTSavedDB = {
 						["Orange"] = false,
 						["Red"] = false,
 					},
+					["Projectile"] = {
+						["Bullet"] = false,
+						["Arrow"] = false,
+					},
 					["Armor"] = {
 						["Totems"] = false,
 						["Shields"] = false,
@@ -413,10 +411,6 @@ xCTSavedDB = {
 						["Plate"] = false,
 						["Sigils"] = false,
 						["Cloth"] = false,
-					},
-					["Projectile"] = {
-						["Bullet"] = false,
-						["Arrow"] = false,
 					},
 					["version"] = 1,
 					["Glyph"] = {
@@ -496,13 +490,13 @@ xCTSavedDB = {
 					["showPartyKills"] = false,
 					["font"] = "Expressway",
 					["showHonorGains"] = false,
-					["fontSize"] = 17,
+					["showInterrupts"] = false,
 					["showRepChanges"] = false,
 					["showBuffs"] = false,
 					["Y"] = 400,
-					["showInterrupts"] = false,
-					["showDebuffs"] = false,
 					["showLowManaHealth"] = false,
+					["showDebuffs"] = false,
+					["fontSize"] = 17,
 				},
 				["power"] = {
 					["enabledFrame"] = false,
@@ -511,8 +505,8 @@ xCTSavedDB = {
 					["fontSize"] = 17,
 					["enabledFrame"] = false,
 					["Y"] = 71,
-					["X"] = 8,
 					["font"] = "Expressway",
+					["X"] = 8,
 				},
 				["healing"] = {
 					["font"] = "Expressway",
@@ -591,7 +585,13 @@ xCTSavedDB = {
 				},
 			},
 		},
-		["Alslahunt - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
+			["dbVersion"] = "4.6.1",
+		},
+		["Alsiadk - Venoxis"] = {
+			["dbVersion"] = "4.6.1",
+		},
+		["Alsia - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Lucho - Venoxis"] = {
@@ -606,7 +606,7 @@ xCTSavedDB = {
 		["Khalimmortus - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
-		["Alsia - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Kwasimojo - Venoxis"] = {
