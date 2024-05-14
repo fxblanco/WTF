@@ -1,5 +1,112 @@
 
-BigWigs3DB = nil
+BigWigs3DB = {
+	["namespaces"] = {
+		["BigWigs_Plugins_AltPower"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["fontSize"] = 14,
+					["fontName"] = "Expressway",
+					["position"] = {
+						"BOTTOMRIGHT", -- [1]
+						"BOTTOMRIGHT", -- [2]
+						-315, -- [3]
+						327, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["emphPosition"] = {
+						"TOP", -- [1]
+						"TOP", -- [2]
+						nil, -- [3]
+						-206, -- [4]
+					},
+					["emphOutline"] = "OUTLINE",
+					["outline"] = "OUTLINE",
+					["fontName"] = "Expressway",
+					["emphFontName"] = "Expressway",
+					["emphFontSize"] = 44,
+					["fontSize"] = 16,
+				},
+			},
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["posx"] = 197,
+					["posy"] = 512,
+				},
+			},
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["posx"] = 801,
+					["fontSize"] = 16,
+					["lock"] = false,
+					["height"] = 101,
+					["posy"] = 417,
+					["fontName"] = "Expressway",
+					["width"] = 120,
+				},
+			},
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
+					["fontSize"] = 14,
+					["visibleBarLimit"] = 10,
+					["BigWigsAnchor_width"] = 229.9999389648438,
+					["BigWigsAnchor_y"] = 256,
+					["emphasizeRestart"] = false,
+					["emphasizeGrowup"] = true,
+					["BigWigsAnchor_x"] = 1240,
+					["fill"] = true,
+					["barStyle"] = "ElvUI",
+					["BigWigsEmphasizeAnchor_height"] = 30.00000190734863,
+					["growup"] = true,
+					["fontSizeEmph"] = 14,
+					["fontName"] = "Expressway",
+					["BigWigsAnchor_height"] = 26.99997901916504,
+					["texture"] = "Flatt",
+					["emphasizeTime"] = 7,
+					["BigWigsEmphasizeAnchor_width"] = 226.0001068115234,
+					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
+				},
+			},
+		},
+		["BigWigs_Plugins_Pull"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["voice"] = "English: Amy",
+				},
+			},
+		},
+		["BigWigs_Plugins_Countdown"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 46,
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
+						nil, -- [3]
+						40, -- [4]
+					},
+					["voice"] = "English: Amy",
+					["fontName"] = "Expressway",
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Alsla - Venoxis"] = "MerfinUI v5.22",
+	},
+}
 BigWigsIconDB = {
 }
 BigWigsStatsDB = nil

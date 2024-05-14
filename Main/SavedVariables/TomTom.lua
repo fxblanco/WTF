@@ -5,27 +5,18 @@ TomTomDB = {
 		["Xolem - Venoxis"] = "MerfinUI v5.22",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
 		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
-		["Maturitass - Venoxis"] = "MerfinUI v5.22",
+		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
 		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
 		["Bloodwall - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "MerfinUI v5.22",
+		["Alslahunt - Venoxis"] = "MerfinUI v5.22",
 		["Andrés - Venoxis"] = "MerfinUI v5.22",
 		["Lucho - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
-		["Alslahunt - Venoxis"] = "MerfinUI v5.22",
-		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
+		["Alsia - Venoxis"] = "MerfinUI v5.22",
+		["Maturitass - Venoxis"] = "MerfinUI v5.22",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["block"] = {
-				["position"] = {
-					"TOPLEFT", -- [1]
-					nil, -- [2]
-					"TOPLEFT", -- [3]
-					71.60015106201172, -- [4]
-					-171.3997802734375, -- [5]
-				},
-			},
 			["arrow"] = {
 				["position"] = {
 					"CENTER", -- [1]
@@ -33,6 +24,15 @@ TomTomDB = {
 					"CENTER", -- [3]
 					0, -- [4]
 					0, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOPLEFT", -- [1]
+					nil, -- [2]
+					"TOPLEFT", -- [3]
+					71.60015106201172, -- [4]
+					-171.3997802734375, -- [5]
 				},
 			},
 		},
@@ -69,15 +69,15 @@ TomTomWaypointsM = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
@@ -88,13 +88,13 @@ TomTomWaypointsM = {
 		},
 		["Exonuklease - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 		},
 		["Alsiadk - Venoxis"] = {
 		},
 		["Bloodwall - Venoxis"] = {
 		},
-		["Alsia - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},
@@ -102,9 +102,9 @@ TomTomWaypointsM = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Alslahunt - Venoxis"] = {
+		["Alsia - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }
