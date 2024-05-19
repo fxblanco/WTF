@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 230,
 	["lastSanitation"] = 3,
-	["session"] = 199,
 	["errors"] = {
 		{
 			["message"] = "Lua error in aura 'M: Easy PP - Backend': init\nWeakAuras Version: 5.12.7\nAura Version: 1.0.24\n[string \"return function() C_ChatInfo.RegisterAddonM...\"]:10: attempt to index global 'PallyPower' (a nil value)",
@@ -53,14 +53,14 @@ BugGrabberDB = {
 		}, -- [6]
 		{
 			["message"] = "Interface/AddOns/Clique/ClickCastTemplate.xml:6 Deferred XML Node object named ClickCastUnitTemplate already exists",
-			["time"] = "2024/04/06 01:48:23",
 			["session"] = 52,
+			["time"] = "2024/04/06 01:48:23",
 			["counter"] = 8,
 		}, -- [7]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/Clique/ClickCastTemplate.xml:6 Deferred XML Node object named ClickCastUnitTemplate already exists",
-			["time"] = "2024/04/06 01:48:23",
 			["session"] = 52,
+			["time"] = "2024/04/06 01:48:23",
 			["counter"] = 8,
 		}, -- [8]
 		{
@@ -81,62 +81,62 @@ BugGrabberDB = {
 		}, -- [10]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:32 Error loading Interface/AddOns/Gargul/Data/Localizations/cn.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [11]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:34 Error loading Interface/AddOns/Gargul/Data/Localizations/es.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [12]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:35 Error loading Interface/AddOns/Gargul/Data/Localizations/fr.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [13]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:36 Error loading Interface/AddOns/Gargul/Data/Localizations/it.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [14]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:37 Error loading Interface/AddOns/Gargul/Data/Localizations/ko.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [15]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:38 Error loading Interface/AddOns/Gargul/Data/Localizations/pt.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [16]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:39 Error loading Interface/AddOns/Gargul/Data/Localizations/ru.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [17]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:40 Error loading Interface/AddOns/Gargul/Data/Localizations/tw.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [18]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:41 Error loading Interface/AddOns/Gargul/Data/Localizations/chat.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [19]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:96 Error loading Interface/AddOns/Gargul/Interface/Locale.lua",
-			["time"] = "2024/04/09 21:44:58",
 			["session"] = 71,
+			["time"] = "2024/04/09 21:44:58",
 			["counter"] = 1,
 		}, -- [20]
 		{
@@ -268,21 +268,13 @@ BugGrabberDB = {
 			["counter"] = 1,
 		}, -- [36]
 		{
-			["message"] = "Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.lua:125: bad argument #1 to 'getn' (table expected, got nil)",
-			["time"] = "2024/04/14 22:38:58",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.lua\"]:125: in function `RaidClassButton_OnEnter'\n[string \"*Blizzard_RaidUI.xml:45_OnEnter\"]:1: in function <[string \"*Blizzard_RaidUI.xml:45_OnEnter\"]:1>",
-			["session"] = 123,
-			["counter"] = 4,
-		}, -- [37]
-		{
 			["message"] = "Lua error in aura 'Merfin: Mana Cooldowns - Bar [Dark Theme] 2': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function() local GetUnitName, UnitCl...\"]:1860: attempt to index field '?' (a nil value)",
 			["time"] = "2024/04/12 00:15:51",
 			["locals"] = "allstates = <table> {\n Alsia1038 = <table> {\n }\n}\nfrontend = <table> {\n OnInit = <function> defined return function() C_ChatInfo.RegisterAddonMessagePrefix('MR_CDS'):5\n SetBarClassColor = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1979\n region = Frame {\n }\n id = \"Merfin: Mana Cooldowns - Bar [Dark Theme] 2\"\n SortElements = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1987\n RoundTime = <function> defined return function() C_ChatInfo.RegisterAddonMessagePrefix('MR_CDS'):19\n GetButtonFrame = <function> defined return function() C_ChatInfo.RegisterAddonMessagePrefix('MR_CDS'):9\n config = <table> {\n }\n OnEvent = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1851\n advanced = <table> {\n }\n cds = <table> {\n }\n order = <table> {\n }\n}\nsubEvent = \"UNIT_CONDITION_ROLE\"\nuName = \"Alsia\"\n(*temporary) = nil\n(*temporary) = \"UNIT_CONDITION_ROLE\"\n(*temporary) = 0\n(*temporary) = 5\n(*temporary) = \"UNIT_\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field '?' (a nil value)\"\nsubstr = <function> defined =[C]:-1\nRemoveUnitFrames = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1696\ndb = <table> {\n roster = <table> {\n }\n}\nIsUnitEligible = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1744\nCreateUnitFrames = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1825\nUnitConditionChange = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1839\nstformat = <function> defined =[C]:-1\nCreateFrame = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1774\nRemoveFrame = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1689\nGetDurationTime = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1713\nGetExpirationTime = <function> defined return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost:1721\n",
 			["stack"] = "[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1860: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1851>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1127: in function <[string \"return function() local UnitName, UnitClass...\"]:1122>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1161: in function <[string \"return function() local UnitName, UnitClass...\"]:1132>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1270: in function <[string \"return function() local UnitName, UnitClass...\"]:1262>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1646: in function <[string \"return function() local UnitName, UnitClass...\"]:1636>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1692: in function `RegisterFrontend'\n[string \"return function(event, ...)\"]:10: in function <[string \"return function(event, ...)\"]:1>\n...\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1703: in function `OnInit'\n[string \"return function(event, ...)\"]:5: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1068: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2000: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1784: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1624>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1977: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1255: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1214>",
 			["session"] = 128,
 			["counter"] = 6,
-		}, -- [38]
+		}, -- [37]
 		{
 			["message"] = "Lua error in aura 'Merfin: Mana Cooldowns - Bar [Dark Theme]': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function() local GetUnitName, UnitCl...\"]:1779: attempt to index local 'cdData' (a nil value)",
 			["time"] = "2024/04/12 21:29:13",
@@ -290,7 +282,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1779: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1774>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1611: in function <[string \"return function() local UnitName, UnitClass...\"]:1602>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1623: in function `OnInspect'\n[string \"return function(event, ...)\"]:4: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 128,
 			["counter"] = 15,
-		}, -- [39]
+		}, -- [38]
 		{
 			["message"] = "Lua error in aura 'MRCD: Icons': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function() local GetUnitName, UnitCl...\"]:1779: attempt to index local 'cdData' (a nil value)",
 			["time"] = "2024/04/17 23:48:29",
@@ -298,7 +290,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1779: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1774>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1611: in function <[string \"return function() local UnitName, UnitClass...\"]:1602>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1623: in function `OnInspect'\n[string \"return function(event, ...)\"]:4: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 128,
 			["counter"] = 4,
-		}, -- [40]
+		}, -- [39]
 		{
 			["message"] = "Interface/AddOns/AddOnSkins/Core/ElvUI.lua:12: bad argument #1 to 'unpack' (table expected, got nil)",
 			["time"] = "2024/04/25 23:26:08",
@@ -306,7 +298,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `unpack'\n[string \"@Interface/AddOns/AddOnSkins/Core/ElvUI.lua\"]:12: in main chunk",
 			["session"] = 130,
 			["counter"] = 1,
-		}, -- [41]
+		}, -- [40]
 		{
 			["message"] = "Interface/AddOns/AddOnSkins/Core/Core.lua:236: attempt to index field 'ElvUI' (a nil value)",
 			["time"] = "2024/04/25 23:26:16",
@@ -314,19 +306,19 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/AddOnSkins/Core/Core.lua\"]:236: in function `?'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:119: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>",
 			["session"] = 130,
 			["counter"] = 1,
-		}, -- [42]
+		}, -- [41]
 		{
 			["message"] = "Interface/AddOns/AddOnSkins/Core/ElvUI.lua:1 (null)",
-			["session"] = 130,
 			["time"] = "2024/04/25 23:26:16",
+			["session"] = 130,
 			["counter"] = 1,
-		}, -- [43]
+		}, -- [42]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/AddOnSkins/Core/ElvUI.lua:1 (null)",
-			["session"] = 130,
 			["time"] = "2024/04/25 23:26:16",
+			["session"] = 130,
 			["counter"] = 1,
-		}, -- [44]
+		}, -- [43]
 		{
 			["message"] = "Lua error in aura 'Drink Button': Condition Custom Text\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function()\"]:2: Usage: UnitBuff(\"unit\", [index][, \"filter\"])",
 			["time"] = "2024/04/12 23:26:32",
@@ -334,7 +326,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `UnitBuff'\n[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:212: in function `CallCustomConditionTest'\n[string \"local newActiveConditions = {};\"]:14: in function `?'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:843: in function `RunConditions'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4663: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4628>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4772: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4492: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4465: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:728: in function <...terface/AddOns/WeakAurasOptions/WeakAurasOptions.lua:697>",
 			["session"] = 132,
 			["counter"] = 33,
-		}, -- [45]
+		}, -- [44]
 		{
 			["message"] = "Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua:379: attempt to index local 'GearScore' (a nil value)",
 			["time"] = "2024/04/11 21:23:01",
@@ -342,7 +334,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua\"]:379: in function `UpdateAverageString'\n[string \"@Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua\"]:445: in function `UpdatePageInfo'\n[string \"@Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua\"]:150: in function `?'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:119: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>",
 			["session"] = 132,
 			["counter"] = 26,
-		}, -- [46]
+		}, -- [45]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.2\n[string \"return function() local UnitName, UnitClass...\"]:1403: attempt to index local 'data' (a nil value)",
 			["time"] = "2024/04/11 21:21:19",
@@ -350,7 +342,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1403: in function <[string \"return function() local UnitName, UnitClass...\"]:1401>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1508: in function `OnCLEUF'\n[string \"return function(event, ...)\"]:14: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:817: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1105: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 132,
 			["counter"] = 47,
-		}, -- [47]
+		}, -- [46]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector-17]': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.3\n[string \"return function() local GetUnitName, UnitCl...\"]:1359: attempt to index local 'data' (a nil value)",
 			["time"] = "2024/04/11 21:21:19",
@@ -358,7 +350,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1359: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1357>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1464: in function `OnCLEUF'\n[string \"return function(event, ...)\"]:21: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:817: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1105: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 132,
 			["counter"] = 47,
-		}, -- [48]
+		}, -- [47]
 		{
 			["message"] = "Lua error in aura 'Merfin: Mana Cooldowns - Bar [Dark Theme]': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function() local UnitName, UnitClass...\"]:1880: attempt to index field '?' (a nil value)",
 			["time"] = "2024/04/11 20:41:51",
@@ -366,7 +358,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1880: in function <[string \"return function() local UnitName, UnitClass...\"]:1871>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1238: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1229>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1258: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1252>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1310: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1308>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1314: in function `OnRosterUpdate'\n[string \"return function(event, ...)\"]:28: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 133,
 			["counter"] = 28,
-		}, -- [49]
+		}, -- [48]
 		{
 			["message"] = "Lua error in aura 'MRCD: Icons': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function() local UnitName, UnitClass...\"]:1880: attempt to index field '?' (a nil value)",
 			["time"] = "2024/04/11 23:00:24",
@@ -374,7 +366,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1880: in function <[string \"return function() local UnitName, UnitClass...\"]:1871>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1238: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1229>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1258: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1252>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1310: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1308>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1314: in function `OnRosterUpdate'\n[string \"return function(event, ...)\"]:28: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 133,
 			["counter"] = 28,
-		}, -- [50]
+		}, -- [49]
 		{
 			["message"] = "Lua error in aura 'Merfin: Mana Cooldowns - Bar [Dark Theme] 2': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function() local UnitName, UnitClass...\"]:1880: attempt to index field '?' (a nil value)",
 			["time"] = "2024/04/11 20:41:51",
@@ -382,7 +374,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1880: in function <[string \"return function() local UnitName, UnitClass...\"]:1871>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1238: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1229>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1258: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1252>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1310: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1308>\n[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1314: in function `OnRosterUpdate'\n[string \"return function(event, ...)\"]:28: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 133,
 			["counter"] = 25,
-		}, -- [51]
+		}, -- [50]
 		{
 			["message"] = "Interface/AddOns/WeakAuras/GenericTrigger.lua:803: attempt to concatenate local 'orgEvent' (a nil value)",
 			["time"] = "2024/04/14 20:54:33",
@@ -390,7 +382,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:803: in function `ScanEvents'\n[string \"@Interface/AddOns/FojjiCore/FojjiSync.lua\"]:41: in function <Interface/AddOns/FojjiCore/FojjiSync.lua:25>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:19: in function <...ies/Core/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:54: in function `Fire'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceComm-3.0-12/AceComm-3.0.lua\"]:260: in function <...lvUI_Libraries/Core/Ace3/AceComm-3.0/AceComm-3.0.lua:242>",
 			["session"] = 133,
 			["counter"] = 3,
-		}, -- [52]
+		}, -- [51]
 		{
 			["message"] = "Lua error in aura 'Interrupted': Trigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.17\n[string \"return function(event, unit, ...)\"]:9: attempt to index field 'blacklist' (a nil value)",
 			["time"] = "2024/04/11 21:44:47",
@@ -398,7 +390,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, unit, ...)\"]:9: in function <[string \"return function(event, unit, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:817: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1105: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 133,
 			["counter"] = 19,
-		}, -- [53]
+		}, -- [52]
 		{
 			["message"] = "Lua error in aura 'Drink Button': Untrigger 1\nWeakAuras Version: 5.12.8\nAura Version: 1.0.1\n[string \"return function()\"]:2: attempt to call global 'UnitMana' (a nil value)",
 			["time"] = "2024/04/12 00:15:52",
@@ -406,7 +398,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:778: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 133,
 			["counter"] = 3324,
-		}, -- [54]
+		}, -- [53]
 		{
 			["message"] = "Interface/AddOns/GTFO/GTFO.lua:1967: attempt to call global 'GetSpecialization' (a nil value)",
 			["time"] = "2024/05/01 12:36:22",
@@ -414,7 +406,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:1967: in function `GTFO_CheckTankMode'\n[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:769: in function `GTFO_OnEvent'\n[string \"*GTFO.xml:60_OnEvent\"]:1: in function <[string \"*GTFO.xml:60_OnEvent\"]:1>",
 			["session"] = 134,
 			["counter"] = 9,
-		}, -- [55]
+		}, -- [54]
 		{
 			["message"] = "Interface/AddOns/Talented_SpecTabs/core.lua:36: attempt to compare string with number",
 			["time"] = "2024/05/01 12:36:38",
@@ -422,7 +414,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Talented_SpecTabs/core.lua\"]:36: in function <Interface/AddOns/Talented_SpecTabs/core.lua:22>\n[string \"@Interface/AddOns/Talented_SpecTabs/core.lua\"]:102: in function `Update'\n[string \"@Interface/AddOns/Talented_SpecTabs/core.lua\"]:146: in function `Update'\n[string \"@Interface/AddOns/Talented_SpecTabs/core.lua\"]:188: in function <Interface/AddOns/Talented_SpecTabs/core.lua:168>\n[string \"@Interface/AddOns/Talented_SpecTabs/core.lua\"]:207: in function `CreateBaseFrame'\n[string \"@Interface/AddOns/Talented/core.lua\"]:376: in function `Update'\n[string \"@Interface/AddOns/Talented/core.lua\"]:362: in function <Interface/AddOns/Talented/core.lua:359>\n[string \"=(tail call)\"]: ?\n[string \"TOGGLETALENTS\"]:1: in function <[string \"TOGGLETALENTS\"]:1>",
 			["session"] = 135,
 			["counter"] = 2,
-		}, -- [56]
+		}, -- [55]
 		{
 			["message"] = "Interface/AddOns/Talented/view.lua:69: attempt to perform arithmetic on a string value",
 			["time"] = "2024/05/01 12:36:38",
@@ -430,7 +422,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Talented/view.lua\"]:69: in function <Interface/AddOns/Talented/view.lua:66>\n[string \"@Interface/AddOns/Talented/view.lua\"]:281: in function `Update'\n[string \"@Interface/AddOns/Talented/view.lua\"]:140: in function `SetClass'\n[string \"@Interface/AddOns/Talented/view.lua\"]:163: in function `SetTemplate'\n[string \"@Interface/AddOns/Talented/core.lua\"]:276: in function `SetTemplate'\n[string \"@Interface/AddOns/Talented/core.lua\"]:379: in function `Update'\n[string \"@Interface/AddOns/Talented/core.lua\"]:362: in function <Interface/AddOns/Talented/core.lua:359>\n[string \"=(tail call)\"]: ?\n[string \"TOGGLETALENTS\"]:1: in function <[string \"TOGGLETALENTS\"]:1>",
 			["session"] = 135,
 			["counter"] = 2,
-		}, -- [57]
+		}, -- [56]
 		{
 			["message"] = "...dOns/ProjectAzilroka/Modules/EnhancedFriendsList.lua:80: attempt to call method 'SetGradientAlpha' (a nil value)",
 			["time"] = "2024/05/01 12:48:53",
@@ -438,7 +430,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/ProjectAzilroka/Modules/EnhancedFriendsList.lua\"]:80: in function `SetGradientColor'\n[string \"@Interface/AddOns/ProjectAzilroka/Modules/EnhancedFriendsList.lua\"]:203: in function <...dOns/ProjectAzilroka/Modules/EnhancedFriendsList.lua:108>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `FriendsFrame_UpdateFriendButton'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua\"]:1138: in function `FriendsFrame_UpdateFriends'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua\"]:531: in function `FriendsList_Update'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua\"]:274: in function <...izzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua:273>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:606: in function `SetUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:513: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:319: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:315>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1095: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame_Shared.lua\"]:963: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>",
 			["session"] = 138,
 			["counter"] = 35,
-		}, -- [58]
+		}, -- [57]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function(event, ...)\"]:34: attempt to call field 'OnPlayerAlive' (a nil value)",
 			["time"] = "2024/05/01 12:57:55",
@@ -446,7 +438,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:34: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 139,
 			["counter"] = 1,
-		}, -- [59]
+		}, -- [58]
 		{
 			["message"] = "Lua error in aura 'Paladin: Cast Bar': Custom Action\nWeakAuras Version: 5.12.9\nAura Version: 1.0.5\n[string \"return function() aura_env.UpdateTicks()\"]:1: attempt to call field 'UpdateTicks' (a nil value)",
 			["time"] = "2024/05/01 13:08:35",
@@ -454,7 +446,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.UpdateTicks()\"]:1: in function <[string \"return function() aura_env.UpdateTicks()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3749: in function `PerformActions'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua\"]:1066: in function `Expand'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4599: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:856: in function `ScanUnitEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1139: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1135>",
 			["session"] = 145,
 			["counter"] = 21,
-		}, -- [60]
+		}, -- [59]
 		{
 			["message"] = "Lua error in aura 'Paladin: Cast Bar': Custom Action\nWeakAuras Version: 5.12.9\nAura Version: 1.0.5\n[string \"return function() aura_env.UnscheduleTick()\"]:1: attempt to call field 'UnscheduleTick' (a nil value)",
 			["time"] = "2024/05/01 13:08:38",
@@ -462,15 +454,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.UnscheduleTick()\"]:1: in function <[string \"return function() aura_env.UnscheduleTick()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3749: in function `PerformActions'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua\"]:1015: in function `Collapse'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4799: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:856: in function `ScanUnitEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1139: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1135>",
 			["session"] = 145,
 			["counter"] = 19,
-		}, -- [61]
-		{
-			["message"] = "...aries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua:106: ElvUI not found.",
-			["time"] = "2024/05/01 12:51:40",
-			["locals"] = "(*temporary) = nil\n(*temporary) = \"ElvUI not found.\"\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua\"]:106: in function <...aries/Core/LibElvUIPlugin-1.0/LibElvUIPlugin-1.0.lua:100>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua\"]:112: in function `RegisterPlugin'\n[string \"@Interface/AddOns/ProjectAzilroka/Init.lua\"]:491: in function `?'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:119: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>",
-			["session"] = 146,
-			["counter"] = 8,
-		}, -- [62]
+		}, -- [60]
 		{
 			["message"] = "[string \"*ReputationFrame.xml:743_OnEnter\"]:1: attempt to index global 'ReputationWatchStatusBarText' (a nil value)",
 			["time"] = "2024/05/01 13:20:02",
@@ -478,7 +462,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"*ReputationFrame.xml:743_OnEnter\"]:1: in function <[string \"*ReputationFrame.xml:743_OnEnter\"]:1>",
 			["session"] = 146,
 			["counter"] = 2,
-		}, -- [63]
+		}, -- [61]
 		{
 			["message"] = "[string \"*ReputationFrame.xml:746_OnLeave\"]:2: attempt to index global 'ReputationWatchStatusBarText' (a nil value)",
 			["time"] = "2024/05/01 13:20:02",
@@ -486,7 +470,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"*ReputationFrame.xml:746_OnLeave\"]:2: in function <[string \"*ReputationFrame.xml:746_OnLeave\"]:1>",
 			["session"] = 146,
 			["counter"] = 2,
-		}, -- [64]
+		}, -- [62]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 3\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:6: attempt to call field 'OnInspect' (a nil value)",
 			["time"] = "2024/05/01 12:52:45",
@@ -494,7 +478,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:6: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 146,
 			["counter"] = 11,
-		}, -- [65]
+		}, -- [63]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function() local UnitName, UnitClass...\"]:1015: table index is nil",
 			["time"] = "2024/05/01 12:36:46",
@@ -502,7 +486,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1015: in function <[string \"return function() local UnitName, UnitClass...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:875: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 149,
 			["counter"] = 16,
-		}, -- [66]
+		}, -- [64]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:25: attempt to call field 'OnLogout' (a nil value)",
 			["time"] = "2024/05/01 12:36:46",
@@ -510,7 +494,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:25: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 149,
 			["counter"] = 16,
-		}, -- [67]
+		}, -- [65]
 		{
 			["message"] = "Lua error in aura '!MerfinUI: Range Indicator - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function() local RangeWidget = aura_...\"]:142: attempt to compare number with string",
 			["time"] = "2024/05/01 12:36:18",
@@ -518,7 +502,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local RangeWidget = aura_env\"]:142: in function <[string \"return function() local RangeWidget = aura_...\"]:138>\n[string \"return function() local RangeWidget = aura_env\"]:151: in function `SetMaxRange'\n[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1079: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 150,
 			["counter"] = 45,
-		}, -- [68]
+		}, -- [66]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function() local GetUnitName, UnitCl...\"]:1015: table index is nil",
 			["time"] = "2024/05/01 12:36:18",
@@ -526,7 +510,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = GetUnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1015: in function <[string \"return function() local GetUnitName, UnitCl...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1064: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 150,
 			["counter"] = 33,
-		}, -- [69]
+		}, -- [67]
 		{
 			["message"] = "Lua error in aura 'DK: Cast - Progress Bar': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function() local data = {}\"]:33: table index is nil",
 			["time"] = "2024/05/01 12:36:18",
@@ -534,7 +518,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local data = {}\"]:33: in function <[string \"return function() local data = {}\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1064: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 150,
 			["counter"] = 9,
-		}, -- [70]
+		}, -- [68]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 3\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:4: attempt to call field 'OnInspect' (a nil value)",
 			["time"] = "2024/05/01 12:36:22",
@@ -542,7 +526,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:4: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 16,
-		}, -- [71]
+		}, -- [69]
 		{
 			["message"] = "Lua error in aura 'DK: Cast - Progress Bar': Custom Action\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function() aura_env.UpdateTicks()\"]:1: attempt to call field 'UpdateTicks' (a nil value)",
 			["time"] = "2024/05/01 12:54:37",
@@ -550,7 +534,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.UpdateTicks()\"]:1: in function <[string \"return function() aura_env.UpdateTicks()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3749: in function `PerformActions'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua\"]:1066: in function `Expand'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4599: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:856: in function `ScanUnitEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1139: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1135>",
 			["session"] = 150,
 			["counter"] = 15,
-		}, -- [72]
+		}, -- [70]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function(event, ...)\"]:23: attempt to call field 'OnUSS' (a nil value)",
 			["time"] = "2024/05/01 12:47:14",
@@ -558,7 +542,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:23: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 78,
-		}, -- [73]
+		}, -- [71]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:16: attempt to call field 'OnUSS' (a nil value)",
 			["time"] = "2024/05/01 12:47:14",
@@ -566,7 +550,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:16: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 75,
-		}, -- [74]
+		}, -- [72]
 		{
 			["message"] = "Lua error in aura 'DK: Cast - Progress Bar': Custom Action\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function() aura_env.UnscheduleTick()\"]:1: attempt to call field 'UnscheduleTick' (a nil value)",
 			["time"] = "2024/05/01 12:54:40",
@@ -574,7 +558,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.UnscheduleTick()\"]:1: in function <[string \"return function() aura_env.UnscheduleTick()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3749: in function `PerformActions'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua\"]:1015: in function `Collapse'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4799: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:856: in function `ScanUnitEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1139: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1135>",
 			["session"] = 150,
 			["counter"] = 14,
-		}, -- [75]
+		}, -- [73]
 		{
 			["message"] = "Lua error in aura 'Reminder: Bomb': Icon Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\nUsage: local icon = C_Item.GetItemIconByID(itemInfo)",
 			["time"] = "2024/05/01 23:13:21",
@@ -582,7 +566,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `GetItemIcon'\n[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:502: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:498>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:611: in function `ActivateEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:724: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1040: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4510: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 150,
 			["counter"] = 1,
-		}, -- [76]
+		}, -- [74]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function(event, ...)\"]:25: attempt to call field 'OnUnitHealthChange' (a nil value)",
 			["time"] = "2024/05/01 12:36:22",
@@ -590,7 +574,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:25: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 97,
-		}, -- [77]
+		}, -- [75]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:18: attempt to call field 'OnUnitHealthChange' (a nil value)",
 			["time"] = "2024/05/01 12:36:22",
@@ -598,7 +582,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:18: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 88,
-		}, -- [78]
+		}, -- [76]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function(event, ...)\"]:11: attempt to call field 'OnInit' (a nil value)",
 			["time"] = "2024/05/01 12:36:18",
@@ -606,7 +590,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:11: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1069: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 150,
 			["counter"] = 16,
-		}, -- [79]
+		}, -- [77]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function(event, ...)\"]:16: attempt to call field 'RegisterFrontend' (a nil value)",
 			["time"] = "2024/05/01 12:50:04",
@@ -614,7 +598,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:16: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() C_ChatInfo.RegisterAddonMessagePrefix('MR_CDS')\"]:6: in function `OnInit'\n[string \"return function(allstates, event, ...)\"]:17: in function <[string \"return function(allstates, event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1069: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 150,
 			["counter"] = 11,
-		}, -- [80]
+		}, -- [78]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:5: attempt to call field 'OnInit' (a nil value)",
 			["time"] = "2024/05/01 23:14:09",
@@ -622,7 +606,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:5: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1069: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:170: in function <...dOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua:150>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1250: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:1245>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1846: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1845>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:1962: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1961>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1288: in function `CloseWindows'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1313: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:1303>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/AddOns/Blizzard_UIParent/Cata/UIParent.lua\"]:2187: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
 			["session"] = 150,
 			["counter"] = 3,
-		}, -- [81]
+		}, -- [79]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 2\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event)\"]:4: attempt to call field 'QueryInspect' (a nil value)",
 			["time"] = "2024/05/01 12:36:23",
@@ -630,7 +614,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event)\"]:4: in function <[string \"return function(event)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1825: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1823>",
 			["session"] = 150,
 			["counter"] = 2096,
-		}, -- [82]
+		}, -- [80]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD - Backend [LibClassicInspector]': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function(event, ...)\"]:21: attempt to call field 'OnCLEUF' (a nil value)",
 			["time"] = "2024/05/01 12:36:21",
@@ -638,7 +622,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:21: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:817: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1106: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 5999,
-		}, -- [83]
+		}, -- [81]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:14: attempt to call field 'OnCLEUF' (a nil value)",
 			["time"] = "2024/05/01 12:36:21",
@@ -646,7 +630,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:14: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:817: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1106: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 150,
 			["counter"] = 5494,
-		}, -- [84]
+		}, -- [82]
 		{
 			["message"] = "Lua error in aura 'Paladin: Cast Bar': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.5\n[string \"return function() local data = {}\"]:33: table index is nil",
 			["time"] = "2024/05/01 23:16:28",
@@ -654,7 +638,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local data = {}\"]:33: in function <[string \"return function() local data = {}\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1027: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4510: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 150,
 			["counter"] = 1,
-		}, -- [85]
+		}, -- [83]
 		{
 			["message"] = "Lua error in aura 'Shaman: Cast - Progress Bar': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.3\n[string \"return function() local data = {}\"]:33: table index is nil",
 			["time"] = "2024/05/01 23:16:51",
@@ -662,7 +646,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local data = {}\"]:33: in function <[string \"return function() local data = {}\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1027: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4510: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 150,
 			["counter"] = 1,
-		}, -- [86]
+		}, -- [84]
 		{
 			["message"] = "Lua error in aura 'Merfin: RCD v2.0 - Backend': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.2\n[string \"return function(event, ...)\"]:10: attempt to call field 'RegisterFrontend' (a nil value)",
 			["time"] = "2024/05/01 23:13:06",
@@ -670,7 +654,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(event, ...)\"]:10: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"return function() C_ChatInfo.RegisterAddonMessagePrefix('MR_CDS')\"]:6: in function <[string \"return function() C_ChatInfo.RegisterAddonM...\"]:5>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1040: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4510: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:728: in function <...terface/AddOns/WeakAurasOptions/WeakAurasOptions.lua:697>",
 			["session"] = 150,
 			["counter"] = 12,
-		}, -- [87]
+		}, -- [85]
 		{
 			["message"] = "Lua error in aura 'Drink Button': Condition Custom Text\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function()\"]:2: Usage: UnitBuff(\"unit\", [index][, \"filter\"])",
 			["time"] = "2024/05/01 23:38:50",
@@ -678,7 +662,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `UnitBuff'\n[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:212: in function `CallCustomConditionTest'\n[string \"local newActiveConditions = {};\"]:14: in function `?'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:843: in function `RunConditions'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4684: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1523: in function `Pick'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1281: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:525: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 150,
 			["counter"] = 23,
-		}, -- [88]
+		}, -- [86]
 		{
 			["message"] = "Interface/AddOns/GTFO/GTFO.lua:1997: attempt to call global 'GetSpecialization' (a nil value)",
 			["time"] = "2024/05/02 00:04:17",
@@ -686,7 +670,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:1997: in function `GTFO_CheckCasterMode'\n[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:309: in function `GTFO_OnEvent'\n[string \"*GTFO.xml:60_OnEvent\"]:1: in function <[string \"*GTFO.xml:60_OnEvent\"]:1>",
 			["session"] = 151,
 			["counter"] = 28,
-		}, -- [89]
+		}, -- [87]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Questie' tried to call the protected function 'WatchFrame:Hide()'.",
 			["time"] = "2024/05/02 21:03:47",
@@ -694,7 +678,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Questie/Modules/WatchFrameHook.lua\"]:11: in function <Interface/AddOns/Questie/Modules/WatchFrameHook.lua:6>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>",
 			["session"] = 153,
 			["counter"] = 1,
-		}, -- [90]
+		}, -- [88]
 		{
 			["message"] = "Lua error in aura 'Aura Mastery Tracker': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.63\n[string \"return function() aura_env.locName = GetSpe...\"]:9: table index is nil",
 			["time"] = "2024/05/01 12:36:18",
@@ -702,7 +686,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.locName = GetSpellInfo(31821)\"]:9: in function <[string \"return function() aura_env.locName = GetSpe...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1064: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 154,
 			["counter"] = 21,
-		}, -- [91]
+		}, -- [89]
 		{
 			["message"] = "Lua error in aura 'Druid Starfire Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -710,7 +694,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [92]
+		}, -- [90]
 		{
 			["message"] = "Lua error in aura 'Druid Wrath Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -718,7 +702,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [93]
+		}, -- [91]
 		{
 			["message"] = "Lua error in aura 'Druid Regrowth Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -726,7 +710,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [94]
+		}, -- [92]
 		{
 			["message"] = "Lua error in aura 'Druid GCD': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:9: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -734,7 +718,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:9: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [95]
+		}, -- [93]
 		{
 			["message"] = "Lua error in aura 'Mage AB Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -742,7 +726,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [96]
+		}, -- [94]
 		{
 			["message"] = "Lua error in aura 'Mage Fireball Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -750,7 +734,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [97]
+		}, -- [95]
 		{
 			["message"] = "Lua error in aura 'Mage FFB Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -758,7 +742,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [98]
+		}, -- [96]
 		{
 			["message"] = "Lua error in aura 'Mage Frostbolt Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -766,7 +750,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [99]
+		}, -- [97]
 		{
 			["message"] = "Lua error in aura 'Shaman CL Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -774,7 +758,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [100]
+		}, -- [98]
 		{
 			["message"] = "Lua error in aura 'Shaman LB Cast Time': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.17\n[string \"return function()\"]:4: attempt to perform arithmetic on local 'casttime' (a nil value)",
 			["time"] = "2024/05/02 21:18:00",
@@ -782,7 +766,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:4: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4513: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4486: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 154,
 			["counter"] = 1,
-		}, -- [101]
+		}, -- [99]
 		{
 			["message"] = "...e/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua:75: attempt to call field 'FindFlyoutActionButtons' (a nil value)",
 			["time"] = "2024/05/02 21:50:42",
@@ -790,7 +774,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua\"]:75: in function <...e/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua:74>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua\"]:988: in function <.../AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:965>\n[string \"=[C]\"]: ?",
 			["session"] = 157,
 			["counter"] = 6,
-		}, -- [102]
+		}, -- [100]
 		{
 			["message"] = "Interface/AddOns/PallyPower/PallyPower.lua:649: attempt to index field '?' (a nil value)",
 			["time"] = "2024/05/02 23:17:20",
@@ -798,7 +782,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:649: in function `PallyPowerBlessingsGrid_Update'\n[string \"*PallyPower_Wrath.xml:1537_OnUpdate\"]:1: in function <[string \"*PallyPower_Wrath.xml:1537_OnUpdate\"]:1>",
 			["session"] = 162,
 			["counter"] = 142,
-		}, -- [103]
+		}, -- [101]
 		{
 			["message"] = "Interface/AddOns/GTFO/GTFO.lua:1973: attempt to call global 'GetSpecialization' (a nil value)",
 			["time"] = "2024/05/01 12:47:14",
@@ -806,7 +790,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:1973: in function `GTFO_CheckTankMode'\n[string \"@Interface/AddOns/GTFO/GTFO.lua\"]:775: in function `GTFO_OnEvent'\n[string \"*GTFO.xml:60_OnEvent\"]:1: in function <[string \"*GTFO.xml:60_OnEvent\"]:1>",
 			["session"] = 169,
 			["counter"] = 5159,
-		}, -- [104]
+		}, -- [102]
 		{
 			["message"] = "...dOns/MinimalArchaeology/addon/components/History.lua:153: attempt to index field '?' (a nil value)",
 			["time"] = "2024/05/02 21:29:15",
@@ -814,7 +798,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/MinimalArchaeology/addon/components/History.lua\"]:153: in function <...dOns/MinimalArchaeology/addon/components/History.lua:146>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/MinimalArchaeology/addon/components/History.lua\"]:933: in function `ShowHistory'\n[string \"@Interface/AddOns/MinimalArchaeology/addon/components/History.lua\"]:942: in function `Toggle'\n[string \"@Interface/AddOns/MinimalArchaeology/addon/config/Options.lua\"]:66: in function <...e/AddOns/MinimalArchaeology/addon/config/Options.lua:65>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:45: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:43>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:836: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:658>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceGUI-3.0-41/AceGUI-3.0.lua\"]:72: in function <...ctionBarSaverReloaded/Libs/AceGUI-3.0/AceGUI-3.0.lua:70>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceGUI-3.0-41/AceGUI-3.0.lua\"]:306: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceGUI-3.0-41/widgets/AceGUIWidget-Button.lua\"]:22: in function <...aded/Libs/AceGUI-3.0/widgets/AceGUIWidget-Button.lua:19>",
 			["session"] = 170,
 			["counter"] = 2,
-		}, -- [105]
+		}, -- [103]
 		{
 			["message"] = "[string \"print(\"Total artifacts\"); for x=1,255 do lo...\"]:1: 'for' limit must be a number",
 			["time"] = "2024/05/05 01:29:45",
@@ -822,7 +806,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"print(\"Total artifacts\"); for x=1,255 do local c=GetNumArtifactsByRace(x); local a =0; for y=1,c do local t = select(10, GetArtifactInfoByRace(x, y)); a=a+t;end local rn = GetArchaeologyRaceInfo(x); if( c > 1 ) then print(rn .. \": \" .. a); end end\"]:1: in main chunk\n[string \"=[C]\"]: in function `RunScript'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:2231: in function `?'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:5001: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:4947>\n[string \"=[C]\"]: in function `ChatEdit_ParseText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:4664: in function `ChatEdit_SendText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:4700: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:4696>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1: in function <[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1>",
 			["session"] = 170,
 			["counter"] = 1,
-		}, -- [106]
+		}, -- [104]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Myslot' tried to call the protected function 'CompactRaidFrame10:Show()'.",
 			["time"] = "2024/05/05 20:44:17",
@@ -830,7 +814,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:378: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:304: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:62: in function <...AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua:59>",
 			["session"] = 174,
 			["counter"] = 1,
-		}, -- [107]
+		}, -- [105]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn '*** ForceTaint_Strong ***' tried to call the protected function 'CheckInteractDistance()'.",
 			["time"] = "2024/05/05 21:49:29",
@@ -838,7 +822,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1305: in function <[string \"return function() local UnitName, UnitClass...\"]:1302>\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1312: in function `SendInspect'\n[string \"return function() local UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost = UnitName, UnitClass, UnitExists, UnitIsConnected, UnitIsDeadOrGhost\"]:1808: in function `OnSpecChange'\n[string \"return function(event, ...)\"]:10: in function <[string \"return function(event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:719: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 174,
 			["counter"] = 1,
-		}, -- [108]
+		}, -- [106]
 		{
 			["message"] = "Interface/AddOns/MRT/RaidCheck.lua:2653: bad argument #1 to 'SetText' (Usage: self:SetText([text]))",
 			["time"] = "2024/05/05 20:47:40",
@@ -846,7 +830,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `SetText'\n[string \"@Interface/AddOns/MRT/RaidCheck.lua\"]:2653: in function `UpdateData'\n[string \"@Interface/AddOns/MRT/RaidCheck.lua\"]:2911: in function `ReadyCheckWindow'\n[string \"@Interface/AddOns/MRT/RaidCheck.lua\"]:3101: in function <Interface/AddOns/MRT/RaidCheck.lua:3091>\n[string \"=(tail call)\"]: ?",
 			["session"] = 174,
 			["counter"] = 186,
-		}, -- [109]
+		}, -- [107]
 		{
 			["message"] = "Interface/AddOns/Details/frames/window_main.lua:2126: attempt to call global 'GetTalentInfoByID' (a nil value)",
 			["time"] = "2024/05/05 20:56:28",
@@ -854,7 +838,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Details/frames/window_main.lua\"]:2126: in function <Interface/AddOns/Details/frames/window_main.lua:2068>",
 			["session"] = 174,
 			["counter"] = 32,
-		}, -- [110]
+		}, -- [108]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Myslot' tried to call the protected function 'CompactRaidFrame6:Hide()'.",
 			["time"] = "2024/05/05 22:59:57",
@@ -862,7 +846,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:383: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:304: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:198: in function <...AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua:198>",
 			["session"] = 175,
 			["counter"] = 1,
-		}, -- [111]
+		}, -- [109]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI' tried to call the protected function 'UNKNOWN()'.",
 			["time"] = "2024/04/10 00:18:08",
@@ -870,7 +854,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager_Shared.lua\"]:493: in function `CompactRaidFrameManager_UpdateContainerVisibility'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager_Shared.lua\"]:102: in function `CompactRaidFrameManager_UpdateShown'\n[string \"@Interface/FrameXML/SettingDefinitions/InterfaceOverrides.lua\"]:282: in function <...e/FrameXML/SettingDefinitions/InterfaceOverrides.lua:279>\n[string \"=[C]\"]: ?\n[string \"@Interface/SharedXML/CallbackRegistry.lua\"]:178: in function <Interface/SharedXML/CallbackRegistry.lua:177>\n[string \"=[C]\"]: ?\n[string \"@Interface/SharedXML/CallbackRegistry.lua\"]:181: in function `TriggerEvent'\n[string \"@Interface/SharedXML/CvarUtil.lua\"]:114: in function <Interface/SharedXML/CvarUtil.lua:106>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetZoom'\n[string \"@Interface/AddOns/Questie/Libs/HereBeDragons/HereBeDragons-Pins-2.0.lua\"]:334: in function <...uestie/Libs/HereBeDragons/HereBeDragons-Pins-2.0.lua:330>\n[string \"@Interface/AddOns/Questie/Libs/HereBeDragons/HereBeDragons-Pins-2.0.lua\"]:504: in function <...uestie/Libs/HereBeDragons/HereBeDragons-Pins-2.0.lua:503>\n[string \"@Interface/AddOns/Questie/Libs/HereBeDragons/HereBeDragons-Pins-2.0.lua\"]:533: in function <...uestie/Libs/HereBeDragons/HereBeDragons-Pins-2.0.lua:525>",
 			["session"] = 175,
 			["counter"] = 10,
-		}, -- [112]
+		}, -- [110]
 		{
 			["message"] = "Interface/AddOns/RXPGuides/RXPGuides.lua:168: Interface/AddOns/RXPGuides/functions.lua:5103: attempt to index local 'mapInfo' (a nil value)",
 			["time"] = "2024/05/06 00:04:35",
@@ -878,7 +862,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `error'\n[string \"@Interface/AddOns/RXPGuides/RXPGuides.lua\"]:168: in function `Call'\n[string \"@Interface/AddOns/RXPGuides/GuideWindow.lua\"]:927: in function <Interface/AddOns/RXPGuides/GuideWindow.lua:584>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n...\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/RXPGuides/RXPGuides.lua\"]:1413: in function <Interface/AddOns/RXPGuides/RXPGuides.lua:1370>",
 			["session"] = 175,
 			["counter"] = 1,
-		}, -- [113]
+		}, -- [111]
 		{
 			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'ElvUI' tried to call the protected function 'JoinWorldPVPQueue()'.",
 			["time"] = "2024/05/05 00:28:49",
@@ -886,7 +870,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `JoinWorldPVPQueue'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.lua\"]:420: in function `PVPFrame_JoinClicked'\n[string \"*PVPFrame.xml:535_OnClick\"]:1: in function <[string \"*PVPFrame.xml:535_OnClick\"]:1>",
 			["session"] = 176,
 			["counter"] = 2,
-		}, -- [114]
+		}, -- [112]
 		{
 			["message"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: CharacterFrame:SetPoint.",
 			["time"] = "2024/04/12 00:17:37",
@@ -894,7 +878,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2381: in function `UpdateUIPanelPositions'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2002: in function <Interface_Wrath/FrameXML/UIParent.lua:1991>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:3049: in function <Interface_Wrath/FrameXML/UIParent.lua:3047>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2278: in function `SetUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2127: in function `ShowUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1995: in function <Interface_Wrath/FrameXML/UIParent.lua:1991>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2806: in function `ShowUIPanel'\n[string \"@Interface_Wrath/FrameXML/CharacterFrame.lua\"]:27: in function `ToggleCharacter'\n[string \"TOGGLECHARACTER0\"]:1: in function <[string \"TOGGLECHARACTER0\"]:1>",
 			["session"] = 176,
 			["counter"] = 15,
-		}, -- [115]
+		}, -- [113]
 		{
 			["message"] = "...izzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua:823: attempt to perform arithmetic on local 'dataIndex' (a nil value)",
 			["time"] = "2024/05/06 22:00:16",
@@ -902,7 +886,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua\"]:823: in function <...izzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua:818>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:749: in function `ScrollToElementDataIndex'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:737: in function `ScrollToNearest'\n[string \"@Interface/AddOns/Auctionator/Source/Tabs/Shopping/Mixins/ListsContainer.lua\"]:120: in function `ScrollToListEnd'\n[string \"@Interface/AddOns/Auctionator/Source/Tabs/Shopping/Mixins/Main.lua\"]:228: in function `onAddToList'\n[string \"@Interface/AddOns/Auctionator/Source/Tabs/Shopping/Mixins/SearchOptions.lua\"]:10: in function <...onator/Source/Tabs/Shopping/Mixins/SearchOptions.lua:8>",
 			["session"] = 176,
 			["counter"] = 1,
-		}, -- [116]
+		}, -- [114]
 		{
 			["message"] = "Lua error in aura 'Fixed Stats 15': Custom Text Function\nWeakAuras Version: 5.12.9\nAura Version: 1.0.24\n[string \"return function ()\"]:7: attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)",
 			["time"] = "2024/05/01 12:36:18",
@@ -910,7 +894,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function ()\"]:7: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4858: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:240: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4594: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4591>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4683: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4793: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1091: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 178,
 			["counter"] = 8978,
-		}, -- [117]
+		}, -- [115]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': init\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:23: table index is nil",
 			["time"] = "2024/05/01 12:36:18",
@@ -918,7 +902,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local SCAN_EVENT = 'WA_MERFIN_SPELL_MERGER'\"]:23: in function <[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:362: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1064: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 179,
 			["counter"] = 48,
-		}, -- [118]
+		}, -- [116]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': Trigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function(...)\"]:2: attempt to call field 'TSU' (a nil value)",
 			["time"] = "2024/05/01 12:36:18",
@@ -926,7 +910,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(...)\"]:2: in function <[string \"return function(...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:643: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1069: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1414: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 179,
 			["counter"] = 36844,
-		}, -- [119]
+		}, -- [117]
 		{
 			["message"] = "Lua error in aura 'Drink Button': Untrigger 1\nWeakAuras Version: 5.12.9\nAura Version: 1.0.1\n[string \"return function()\"]:2: attempt to call global 'UnitMana' (a nil value)",
 			["time"] = "2024/05/01 13:08:39",
@@ -934,7 +918,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:778: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1111: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1096>",
 			["session"] = 179,
 			["counter"] = 269,
-		}, -- [120]
+		}, -- [118]
 		{
 			["message"] = "Interface/AddOns/Blizzard_FrameXML/GuildUtil.lua:99: attempt to index local 'formatString' (a nil value)",
 			["time"] = "2024/05/01 23:12:29",
@@ -942,7 +926,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_FrameXML/GuildUtil.lua\"]:99: in function <Interface/AddOns/Blizzard_FrameXML/GuildUtil.lua:56>\n[string \"=[C]\"]: in function `GuildNewsButton_SetNews'\n[string \"@Interface/AddOns/Blizzard_Communities/GuildNews.lua\"]:19: in function `Init'\n[string \"@Interface/AddOns/Blizzard_Communities/GuildNews.lua\"]:35: in function `initializer'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua\"]:396: in function `InvokeInitializer'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua\"]:405: in function `InvokeInitializers'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:718: in function `Update'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:258: in function `SetScrollPercentageInternal'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:184: in function `FullUpdateInternal'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:692: in function `FullUpdateInternal'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:146: in function `FullUpdate'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:663: in function <...ddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua:662>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:178: in function <...rface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua:177>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:181: in function `TriggerEvent'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua\"]:342: in function `SignalDataChangeEvent'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua\"]:322: in function `SetDataProvider'\n[string \"@Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua\"]:647: in function `SetDataProvider'\n[string \"@Interface/AddOns/Blizzard_Communities/GuildNews.lua\"]:93: in function `CommunitiesGuildNews_Update'\n[string \"@Interface/AddOns/Blizzard_Communities/GuildNews.lua\"]:62: in function <Interface/AddOns/Blizzard_Communities/GuildNews.lua:57>",
 			["session"] = 181,
 			["counter"] = 17,
-		}, -- [121]
+		}, -- [119]
 		{
 			["message"] = "Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua:506: attempt to index global 'CharacterModelFrameRotateLeftButton' (a nil value)",
 			["time"] = "2024/05/01 12:36:14",
@@ -950,7 +934,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua\"]:506: in function `CreateStatsPane'\n[string \"@Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua\"]:622: in function `CreateSlotStrings'\n[string \"@Interface/AddOns/ElvUI_WrathArmory/Core/Core.lua\"]:186: in function `ToggleItemLevelInfo'\n[string \"@Interface/AddOns/ElvUI_WrathArmory/init.lua\"]:122: in function `?'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua\"]:309: in function <...aries/Core/LibElvUIPlugin-1.0/LibElvUIPlugin-1.0.lua:305>\n[string \"=[C]\"]: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:307: in function <Interface/AddOns/ElvUI/Core/init.lua:306>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
 			["session"] = 182,
 			["counter"] = 9,
-		}, -- [122]
+		}, -- [120]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': init\nWeakAuras Version: 5.13.0\nAura Version: 1.0.1\n[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:23: table index is nil",
 			["time"] = "2024/05/08 21:33:32",
@@ -958,7 +942,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local SCAN_EVENT = 'WA_MERFIN_SPELL_MERGER'\"]:23: in function <[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1063: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 182,
 			["counter"] = 3,
-		}, -- [123]
+		}, -- [121]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': Trigger 1\nWeakAuras Version: 5.13.0\nAura Version: 1.0.1\n[string \"return function(...)\"]:2: attempt to call field 'TSU' (a nil value)",
 			["time"] = "2024/05/08 21:33:32",
@@ -966,15 +950,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(...)\"]:2: in function <[string \"return function(...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1068: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 182,
 			["counter"] = 512,
-		}, -- [124]
-		{
-			["message"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: SideDressUpFrame:SetPoint.",
-			["time"] = "2024/04/16 12:12:07",
-			["locals"] = "(*temporary) = SideDressUpFrame {\n BottomLeftCorner = Texture {\n }\n ResetButton = SideDressUpModelResetButton {\n }\n OnBackdropLoaded = <function> defined @Interface/SharedXML/Backdrop.lua:152\n DriftModifiable = true\n DriftHookSet = true\n BGBottomLeft = SideDressUpFrameBackgroundBot {\n }\n TopLeftCorner = Texture {\n }\n RightEdge = Texture {\n }\n BGTopLeft = SideDressUpFrameBackgroundTop {\n }\n template = \"Transparent\"\n ApplyBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:282\n GetBackdropBorderColor = <function> defined @Interface/SharedXML/Backdrop.lua:409\n GetBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:347\n SetBorderBlendMode = <function> defined @Interface/SharedXML/Backdrop.lua:266\n PixelSnapDisabled = true\n backdropInfo = <table> {\n }\n OnBackdropSizeChanged = <function> defined @Interface/SharedXML/Backdrop.lua:182\n HasBackdropInfo = <function> defined @Interface/SharedXML/Backdrop.lua:278\n SetPoint = <function> defined =[C]:-1\n openWidth = 1020\n closedWidth = 840\n SetScale = <function> defined =[C]:-1\n SetBackdropBorderColor = <function> defined @Interface/SharedXML/Backdrop.lua:422\n Center = Texture {\n }\n TopEdge = Texture {\n }\n parentFrame = AuctionFrame {\n }\n 0 = <userdata>\n BottomEdge = Texture {\n }\n GetBackdropColor = <function> defined @Interface/SharedXML/Backdrop.lua:390\n BottomRightCorner = Texture {\n }\n TopRightCorner = Texture {\n }\n SetupTextureCoordinates = <function> defined @Interface/SharedXML/Backdrop.lua:214\n SetupPieceVisuals = <function> defined @Interface/SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n GetEdgeSize = <function> defined @Interface/SharedXML/Backdrop.lua:188\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = AuctionFrame {\n 0 = <userdata>\n SetScale = <function> defined =[C]:-1\n backdrop = Frame {\n }\n DriftModifiable = true\n DriftHookSet = true\n type = \"list\"\n numTabs = 3\n selectedTab = 1\n SetPoint = <function> defined =[C]:-1\n}\n(*temporary) = \"TOPRIGHT\"\n(*temporary) = -2\n(*temporary) = -28\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/DressUpFrames.lua\"]:233: in function `SetUpSideDressUpFrame'\n[string \"@Interface/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.lua\"]:340: in function <...ace/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.lua:332>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2282: in function `SetUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2104: in function `ShowUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1995: in function <Interface_Wrath/FrameXML/UIParent.lua:1991>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2806: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.lua\"]:304: in function `AuctionFrame_Show'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1290: in function <Interface_Wrath/FrameXML/UIParent.lua:815>",
-			["session"] = 182,
-			["counter"] = 3,
-		}, -- [125]
+		}, -- [122]
 		{
 			["message"] = "Lua error in aura 'Fixed Stats 15': Custom Text Function\nWeakAuras Version: 5.13.0\nAura Version: 1.0.24\n[string \"return function ()\"]:7: attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)",
 			["time"] = "2024/05/08 21:33:32",
@@ -982,7 +958,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function ()\"]:7: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4859: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:241: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4595: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4592>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4684: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4650>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4794: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1090: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 182,
 			["counter"] = 729,
-		}, -- [126]
+		}, -- [123]
 		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WeakAuras' tried to call the protected function 'CheckInteractDistance()'.",
 			["time"] = "2024/05/02 22:55:34",
@@ -990,7 +966,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:566: in function `checker'\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:751: in function <...akAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua:746>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:826: in function <...akAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua:807>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"\"]:4: in function <[string \"\"]:2>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:705: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1825: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1823>",
 			["session"] = 183,
 			["counter"] = 4,
-		}, -- [127]
+		}, -- [124]
 		{
 			["message"] = "...e/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua:1257: attempt to compare number with nil",
 			["time"] = "2024/05/06 00:49:06",
@@ -998,7 +974,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua\"]:1257: in function `WatchFrameItem_UpdateCooldown'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua\"]:1272: in function `WatchFrameItem_OnEvent'\n[string \"*WatchFrame.xml:114_OnEvent\"]:1: in function <[string \"*WatchFrame.xml:114_OnEvent\"]:1>",
 			["session"] = 186,
 			["counter"] = 4,
-		}, -- [128]
+		}, -- [125]
 		{
 			["message"] = "[string \"*GuildRoster.xml:105_OnClick\"]:1: attempt to call field 'InviteUnit' (a nil value)",
 			["time"] = "2024/05/05 20:34:04",
@@ -1006,7 +982,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"*GuildRoster.xml:105_OnClick\"]:1: in function <[string \"*GuildRoster.xml:105_OnClick\"]:1>",
 			["session"] = 188,
 			["counter"] = 5,
-		}, -- [129]
+		}, -- [126]
 		{
 			["message"] = "Lua error in aura '[TEXT] Fojji - Timer Text': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.15\n[string \"return function() local rPF_Fojji = C_ChatI...\"]:31: attempt to index global 'FojjiTimersSavedVars' (a nil value)",
 			["time"] = "2024/05/12 23:32:30",
@@ -1014,31 +990,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local rPF_Fojji = C_ChatInfo.IsAddonMessagePrefixRegistered(\"FojjiTimerAddon\")\"]:31: in function <[string \"return function() local rPF_Fojji = C_ChatI...\"]:22>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:825: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
 			["session"] = 189,
 			["counter"] = 1,
-		}, -- [130]
-		{
-			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WeakAuras' tried to call the protected function 'UNKNOWN()'.",
-			["time"] = "2024/05/02 21:06:11",
-			["locals"] = "_ = Frame {\n RegisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n 0 = <userdata>\n UnregisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n SetScript = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n ADDON_ACTION_BLOCKED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n ADDON_ACTION_FORBIDDEN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n PLAYER_LOGIN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:551\n LUA_WARNING = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:566\n ADDON_LOADED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:511\n}\n",
-			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:553: in function `checker'\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:751: in function <...akAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua:746>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:826: in function <...akAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua:807>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"\"]:4: in function <[string \"\"]:2>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:705: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1825: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1823>",
-			["session"] = 189,
-			["counter"] = 5,
-		}, -- [131]
-		{
-			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI' tried to call the protected function 'WatchFrame:SetWidth()'.",
-			["time"] = "2024/05/05 21:02:20",
-			["locals"] = "Skipped (In Encounter)",
-			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua\"]:322: in function <...e/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua:320>\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua\"]:32: in function <...ddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua\"]:382: in function `Hide'\n[string \"if newstate == 1 then self:Hide() else self:Show() end\"]:1: in function <[string \"if newstate == 1 then self:Hide() else self...\"]:1>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua\"]:484: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:447>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureHandlers.lua\"]:115: in function <...nterface/AddOns/Blizzard_FrameXML/SecureHandlers.lua:110>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:114: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:95>\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:127: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:119>",
-			["session"] = 189,
-			["counter"] = 2,
-		}, -- [132]
-		{
-			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'RXPGuides' tried to call the protected function 'TargetUnit()'.",
-			["time"] = "2024/05/02 21:53:00",
-			["locals"] = "_ = Frame {\n RegisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n 0 = <userdata>\n UnregisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n SetScript = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n ADDON_ACTION_BLOCKED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n ADDON_ACTION_FORBIDDEN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n PLAYER_LOGIN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:551\n LUA_WARNING = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:566\n ADDON_LOADED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:511\n}\n",
-			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/RXPGuides/Targeting.lua\"]:509: in function <Interface/AddOns/RXPGuides/Targeting.lua:486>\n[string \"=[C]\"]: ?",
-			["session"] = 189,
-			["counter"] = 15,
-		}, -- [133]
+		}, -- [127]
 		{
 			["message"] = "Lua error in aura '[BAR] Fojji Pull Timer': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.15\n[string \"return function(allstates, event, ...)\"]:6: attempt to index global 'FojjiTimersSavedVars' (a nil value)",
 			["time"] = "2024/05/12 23:00:21",
@@ -1046,7 +998,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(allstates, event, ...)\"]:6: in function <[string \"return function(allstates, event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1068: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1858: in function `ScanForLoads'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1928: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1926>",
 			["session"] = 189,
 			["counter"] = 3,
-		}, -- [134]
+		}, -- [128]
 		{
 			["message"] = "Lua error in aura '[BAR] Fojji Break Timer': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.15\n[string \"return function(allstates, event, ...)\"]:5: attempt to index global 'FojjiTimersSavedVars' (a nil value)",
 			["time"] = "2024/05/12 23:00:21",
@@ -1054,23 +1006,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(allstates, event, ...)\"]:5: in function <[string \"return function(allstates, event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1068: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1858: in function `ScanForLoads'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1928: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1926>",
 			["session"] = 189,
 			["counter"] = 3,
-		}, -- [135]
-		{
-			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Myslot' tried to call the protected function 'CompactRaidFrame1:Show()'.",
-			["time"] = "2024/04/26 21:46:24",
-			["locals"] = "Skipped (In Encounter)",
-			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:372: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:299: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:132: in function <Interface_Wrath/FrameXML/CompactUnitFrame.lua:59>",
-			["session"] = 189,
-			["counter"] = 7,
-		}, -- [136]
-		{
-			["message"] = "Interface/AddOns/Clique/Clique.lua:1054: attempt to index field 'blacklist' (a nil value)",
-			["time"] = "2024/05/12 23:30:55",
-			["locals"] = "self = <table> {\n ProjectIsCataclysm = <function> defined @Interface/AddOns/Clique/AddonCore.lua:110\n defaults = <table> {\n }\n GetCapturedKey = <function> defined @Interface/AddOns/Clique/Utils.lua:247\n GetTalentSpecName = <function> defined @Interface/AddOns/Clique/Clique.lua:857\n OnNewProfile = <function> defined @Interface/AddOns/Clique/Clique.lua:315\n AddBinding = <function> defined @Interface/AddOns/Clique/Clique.lua:730\n TalentGroupChanged = <function> defined @Interface/AddOns/Clique/Clique.lua:881\n regqueue = <table> {\n }\n RegisterFrame = <function> defined @Interface/AddOns/Clique/Clique.lua:241\n Printf = <function> defined @Interface/AddOns/Clique/AddonCore.lua:130\n GetClickAttributes = <function> defined @Interface/AddOns/Clique/Clique.lua:424\n globutton = CliqueSABButton {\n }\n hccframes = <table> {\n }\n stopbutton = CliqueStopButton {\n }\n Wrath_BlizzBossFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:88\n RegisterModule = <function> defined @Interface/AddOns/Clique/AddonCore.lua:239\n GetSpellbookIdxFromLogical = <function> defined @Interface/AddOns/Clique/CliqueSpellbook.lua:26\n GetBindingIcon = <function> defined @Interface/AddOns/Clique/Utils.lua:141\n RegisterMessage = <function> defined @Interface/AddOns/Clique/AddonCore.lua:327\n UnregisterMessage = <function> defined @Interface/AddOns/Clique/AddonCore.lua:332\n ProjectIsWarWithin = <function> defined @Interface/AddOns/Clique/AddonCore.lua:119\n UnregisterFrame = <function> defined @Interface/AddOns/Clique/Clique.lua:281\n db = <table> {\n }\n eventFrame = CliqueEventFrame {\n }\n ProjectIsDragonflight = <function> defined @Interface/AddOns/Clique/AddonCore.lua:114\n namedbutton = CliqueNamedSidecar {\n }\n RegisterEvent = <function> defined @Interface/AddOns/Clique/AddonCore.lua:149\n ClearAttributes = <function> defined @Interface/AddOns/Clique/Clique.lua:783\n Wrath_BlizzSelfFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:46\n UpdateAttributes = <function> defined @Interface/AddOns/Clique/Clique.lua:803\n BLACKLIST_CHANGED = <function> defined @Interface/AddOns/Clique/Clique.lua:1138\n GetBindingActionText = <function> defined @Interface/AddOns/Clique/Utils.lua:176\n GetExportString = <function> defined @Interface/AddOns/Clique/ImportExport.lua:6\n UpdateGlobalButtonClicks = <function> defined @Interface/AddOns/Clique/Clique.lua:1057\n UpdateCombatWatch = <function> defined @Interface/AddOns/Clique/Clique.lua:935\n Enable = <function> defined @Interface/AddOns/Clique/Clique.lua:302\n SpellTextWithSubName = <function> defined @Interface/AddOns/Clique/Utils.lua:168\n ImportBindings = <function> defined @Interface/AddOns/Clique/Clique.lua:335\n RegisterLocale = <function> defined @Interface/AddOns/Clique/AddonCore.lua:409\n ConvertSpecialKeys = <function> defined @Interface/AddOns/Clique/Utils.lua:300\n has_ooc = false\n unregqueue = <table> {\n }\n header = CliqueHeaderFrame {\n }\n bindings = <table> {\n }\n ccframes = <table> {\n }\n BindingConflictsWithSelfCast = <function> defined @Interface/AddOns/Clique/Utils.lua:345\n IsFrameBlacklisted = <function> defined @Interface/AddOns/Clique/Clique.lua:1048\n BINDINGS_CHANGED = <function> defined @Interface/AddOns/Clique/Clique.lua:1106\n OnProfileChanged = <function> defined @Interface/AddOns/Clique/Clique.lua:342\n Wrath_BlizzPartyFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:65\n ProjectIsWrath = <function> defined @Interface/AddOns/Clique/AddonCore.lua:106\n EnteringCombat = <function> defined @Interface/AddOns/Clique/Clique.lua:962\n IntegrateBlizzardFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:20\n version = \"v3.6.3-release\"\n Initialize = <function> defined @Interface/AddOns/Clique/Clique.lua:42\n ProjectIsClassic = <function> defined @Interface/AddOns/Clique/AddonCore.lua:98\n registeredUnitFlags = false\n CheckSelfCastIssue = <function> defined @Interface/AddOns/Clique/Clique.lua:907\n optpanels = <table> {\n }\n DecodeExportString = <function> defined @Interface/AddOns/Clique/ImportExport.lua:15\n GetActiveTalentSpec",
-			["stack"] = "[string \"@Interface/AddOns/Clique/Clique.lua\"]:1054: in function `IsFrameBlacklisted'\n[string \"@Interface/AddOns/Clique/Clique.lua\"]:1077: in function `UpdateRegisteredClicks'\n[string \"@Interface/AddOns/Clique/Clique.lua\"]:270: in function `RegisterFrame'\n[string \"@Interface/AddOns/Clique/Clique.lua\"]:192: in function <Interface/AddOns/Clique/Clique.lua:188>\n[string \"@Interface/AddOns/Clique/modules/Blizzard_utils.lua\"]:49: in function `RegisterBlizzardFrame'\n[string \"@Interface/AddOns/Clique/modules/Blizzard_wrath.lua\"]:42: in function <Interface/AddOns/Clique/modules/Blizzard_wrath.lua:33>\n[string \"=[C]\"]: in function `CompactUnitFrame_SetUpFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:347: in function `CompactRaidFrameContainer_GetUnitFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:317: in function `CompactRaidFrameContainer_AddUnitFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:296: in function `CompactRaidFrameContainer_AddFlaggedUnits'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:169: in function `CompactRaidFrameContainer_LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:130: in function `CompactRaidFrameContainer_TryUpdate'\n...\n[string \"@Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua\"]:67: in function <...AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua:55>\n[string \"=[C]\"]: in function `securecallfunction'\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:274: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:272>\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:284: in function `RefreshRaidOptions'\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:327: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:323>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:178: in function <...rface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua:177>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:181: in function `TriggerEvent'\n[string \"@Interface/AddOns/Blizzard_SharedXML/CvarUtil.lua\"]:114: in function <Interface/AddOns/Blizzard_SharedXML/CvarUtil.lua:106>",
-			["session"] = 189,
-			["counter"] = 10,
-		}, -- [137]
+		}, -- [129]
 		{
 			["message"] = "Lua error in aura 'Fojji - Cata Debuff Tracker': Custom Anchor\nWeakAuras Version: 5.13.1\nAura Version: 2.0.3\nattempt to call a table value",
 			["time"] = "2024/05/14 23:42:58",
@@ -1078,7 +1014,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:5805: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:5709>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:5834: in function `AnchorFrame'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/RegionPrototype.lua\"]:765: in function `modify'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/DynamicGroup.lua\"]:1057: in function `modify'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3280: in function `SetRegion'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3083: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3037>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3202: in function `Add'\n[string \"@Interface/AddOns/WeakAurasOptions/CommonOptions.lua\"]:1597: in function <Interface/AddOns/WeakAurasOptions/CommonOptions.lua:1588>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:45: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:43>\n[string \"@Interface/AddOns/AddOnSkins/Libs/Ace3/AceConfig-3.0-3/AceConfigDialog-3.0-86/AceConfigDialog-3.0.lua\"]:836: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:658>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceGUI-3.0-41/AceGUI-3.0.lua\"]:72: in function <...ctionBarSaverReloaded/Libs/AceGUI-3.0/AceGUI-3.0.lua:70>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceGUI-3.0-41/AceGUI-3.0.lua\"]:306: in function `Fire'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasMultiLineEditBox.lua\"]:59: in function <...I-Widgets/AceGUIWidget-WeakAurasMultiLineEditBox.lua:56>",
 			["session"] = 193,
 			["counter"] = 5,
-		}, -- [138]
+		}, -- [130]
 		{
 			["message"] = "Lua error in aura 'Fixed Stats 15': Custom Text Function\nWeakAuras Version: 5.13.1\nAura Version: 1.0.24\n[string \"return function ()\"]:7: attempt to call global 'GetDodgeBlockParryChanceFromDefense' (a nil value)",
 			["time"] = "2024/05/09 20:18:49",
@@ -1086,7 +1022,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function ()\"]:7: in function <[string \"return function ()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4859: in function `RunCustomTextFunc'\n[string \"@Interface/AddOns/WeakAuras/RegionTypes/Text.lua\"]:241: in function `Update'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4595: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4592>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4684: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4650>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4794: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1090: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
 			["session"] = 193,
 			["counter"] = 4356,
-		}, -- [139]
+		}, -- [131]
 		{
 			["message"] = "Lua error in aura 'Drink Button': Condition Custom Text\nWeakAuras Version: 5.13.1\nAura Version: 1.0.1\n[string \"return function()\"]:2: Usage: UnitBuff(\"unit\", [index][, \"filter\"])",
 			["time"] = "2024/05/15 00:01:48",
@@ -1094,7 +1030,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `UnitBuff'\n[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:213: in function `CallCustomConditionTest'\n[string \"local newActiveConditions = {};\"]:14: in function `?'\n[string \"@Interface/AddOns/WeakAuras/Conditions.lua\"]:844: in function `RunConditions'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4685: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:4650>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4794: in function `UpdatedTriggerState'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4514: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1523: in function `Pick'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1281: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:525: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [140]
+		}, -- [132]
 		{
 			["message"] = "Lua error in aura 'Merfin: AC - Aura Mastery': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.8\n[string \"return function() aura_env.locName = GetSpe...\"]:9: table index is nil",
 			["time"] = "2024/05/15 00:02:46",
@@ -1102,7 +1038,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.locName = GetSpellInfo(31821)\"]:9: in function <[string \"return function() aura_env.locName = GetSpe...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [141]
+		}, -- [133]
 		{
 			["message"] = "Lua error in aura 'Mage: Hot Streak Backend': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.12\n[string \"return function() aura_env.myGUID = UnitGUI...\"]:16: table index is nil",
 			["time"] = "2024/05/15 00:04:03",
@@ -1110,7 +1046,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() aura_env.myGUID = UnitGUID(\"player\")\"]:16: in function <[string \"return function() aura_env.myGUID = UnitGUI...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [142]
+		}, -- [134]
 		{
 			["message"] = "Lua error in aura 'Mage: Cast - Progress Bar': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.12\n[string \"return function() local data = {}\"]:33: table index is nil",
 			["time"] = "2024/05/15 00:04:03",
@@ -1118,7 +1054,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local data = {}\"]:33: in function <[string \"return function() local data = {}\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [143]
+		}, -- [135]
 		{
 			["message"] = "Lua error in aura 'F: Debuff - Ignite&Damage [Target]': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.12\n[string \"return function() local ignite = GetSpellIn...\"]:21: table index is nil",
 			["time"] = "2024/05/15 00:04:03",
@@ -1126,7 +1062,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local ignite = GetSpellInfo(413843)\"]:21: in function <[string \"return function() local ignite = GetSpellIn...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [144]
+		}, -- [136]
 		{
 			["message"] = "Lua error in aura 'F: Debuff - Ignite&Damage [Focus]': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.12\n[string \"return function() local ignite = GetSpellIn...\"]:21: table index is nil",
 			["time"] = "2024/05/15 00:04:03",
@@ -1134,7 +1070,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local ignite = GetSpellInfo(413843)\"]:21: in function <[string \"return function() local ignite = GetSpellIn...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [145]
+		}, -- [137]
 		{
 			["message"] = "Lua error in aura 'Priest: Cast - Progress Bar': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.6\n[string \"return function() local data = {}\"]:33: table index is nil",
 			["time"] = "2024/05/15 00:04:05",
@@ -1142,7 +1078,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local data = {}\"]:33: in function <[string \"return function() local data = {}\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [146]
+		}, -- [138]
 		{
 			["message"] = "Lua error in aura 'Priest: Missing Stamina': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.6\n[string \"return function() local UnitIsVisible = Uni...\"]:21: table index is nil",
 			["time"] = "2024/05/15 00:04:05",
@@ -1150,7 +1086,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitIsVisible = UnitIsVisible\"]:21: in function <[string \"return function() local UnitIsVisible = Uni...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [147]
+		}, -- [139]
 		{
 			["message"] = "Lua error in aura 'Priest: Missing Spirit': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.6\n[string \"return function() local UnitIsVisible = Uni...\"]:20: table index is nil",
 			["time"] = "2024/05/15 00:04:05",
@@ -1158,7 +1094,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local UnitIsVisible = UnitIsVisible\"]:20: in function <[string \"return function() local UnitIsVisible = Uni...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [148]
+		}, -- [140]
 		{
 			["message"] = "Lua error in aura 'Priest: Missing Stamina': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.6\n[string \"return function(allstates)\"]:2: attempt to compare number with nil",
 			["time"] = "2024/05/15 00:04:05",
@@ -1166,7 +1102,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(allstates)\"]:2: in function <[string \"return function(allstates)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1039: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 3,
-		}, -- [149]
+		}, -- [141]
 		{
 			["message"] = "Lua error in aura 'Priest: Missing Spirit': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.6\n[string \"return function(allstates)\"]:2: attempt to compare number with nil",
 			["time"] = "2024/05/15 00:04:05",
@@ -1174,7 +1110,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(allstates)\"]:2: in function <[string \"return function(allstates)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1039: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 3,
-		}, -- [150]
+		}, -- [142]
 		{
 			["message"] = "Lua error in aura 'Numen Cooldown Tracker - Bar': init\nWeakAuras Version: 5.13.1\nAura Version: 2.8.4\n[string \"return function() -- List of cooldowns that...\"]:100: attempt to perform arithmetic on a nil value",
 			["time"] = "2024/05/15 00:04:47",
@@ -1182,7 +1118,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() -- List of cooldowns that are modified by talents or glyphs.\"]:100: in function <[string \"return function() -- List of cooldowns that...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [151]
+		}, -- [143]
 		{
 			["message"] = "Lua error in aura 'Numen Cooldown Tracker - Bar': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 2.8.4\n[string \"return function(states, event, ...)\"]:2: attempt to call field '?' (a nil value)",
 			["time"] = "2024/05/15 00:04:47",
@@ -1190,7 +1126,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function(states, event, ...)\"]:2: in function <[string \"return function(states, event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1039: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [152]
+		}, -- [144]
 		{
 			["message"] = "Lua error in aura 'Warlock: Cast - Progress Bar': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.7\n[string \"return function() local data = {}\"]:33: table index is nil",
 			["time"] = "2024/05/15 00:04:57",
@@ -1198,15 +1134,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"return function() local data = {}\"]:33: in function <[string \"return function() local data = {}\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4511: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4487: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1300: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1276: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:512: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
 			["session"] = 193,
 			["counter"] = 1,
-		}, -- [153]
-		{
-			["message"] = "Interface/AddOns/Postal/Postal.lua:221: attempt to index global 'MiniMapMailFrameMixin' (a nil value)",
-			["time"] = "2024/05/06 21:44:02",
-			["locals"] = "self = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:367\n EnableDefault = <function> defined @Interface/AddOns/Postal/Postal.lua:268\n About = <function> defined @Interface/AddOns/Postal/Postal.lua:560\n ProfileFunc = <function> defined @Interface/AddOns/Postal/Postal.lua:272\n EnableModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:332\n PLAYER_INTERACTION_MANAGER_FRAME_HIDE = <function> defined @Interface/AddOns/Postal/Postal.lua:108\n baseName = \"Postal\"\n IterateEmbeds = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:442\n SecureHook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:335\n RawHookScript = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:394\n OnModuleEnable_Common = <function> defined @Interface/AddOns/Postal/Postal.lua:204\n SetDefaultModulePrototype = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:409\n WOWBCClassic = false\n defaultModuleState = true\n IsEnabled = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:451\n CountItemsAndMoney = <function> defined @Interface/AddOns/Postal/Postal.lua:655\n MAIL_CLOSED = <function> defined @Interface/AddOns/Postal/Postal.lua:214\n DisableModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:350\n RegisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:90\n UnregisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:153\n hooks = <table> {\n }\n db = <table> {\n }\n keepFreeOptions = <table> {\n }\n SetEnabledState = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:424\n Hook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:273\n enabledState = true\n RegisterEvent = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:90\n GetMoneyStringPlain = <function> defined @Interface/AddOns/Postal/Postal.lua:642\n IterateModules = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:437\n WOWClassic = false\n RawHook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:312\n DisableInbox = <function> defined @Interface/AddOns/Postal/Postal.lua:594\n NewModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:235\n GetModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:210\n defaultModuleLibraries = <table> {\n }\n CreateAboutFrame = <function> defined @Interface/AddOns/Postal/Postal.lua:513\n OnProfileChanged = <function> defined @Interface/AddOns/Postal/Postal.lua:194\n GetName = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:279\n name = \"Postal\"\n orderedModules = <table> {\n }\n ToggleModule = <function> defined @Interface/AddOns/Postal/Postal.lua:255\n WOWWotLKClassic = false\n Unhook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:417\n Print = <function> defined @Interface/AddOns/Postal/Postal.lua:225\n GetMailType = <function> defined @Interface/AddOns/Postal/Postal.lua:620\n IsModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:468\n version = \"v4.1.1\"\n SendMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:59\n SecureHookScript = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:409\n Enable = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:29",
-			["stack"] = "[string \"@Interface/AddOns/Postal/Postal.lua\"]:221: in function `MAIL_CLOSED'\n[string \"@Interface/AddOns/Postal/Postal.lua\"]:110: in function `?'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:119: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>\n[string \"=[C]\"]: in function `CloseMail'\n[string \"*MailFrame.xml:847_OnHide\"]:1: in function <[string \"*MailFrame.xml:847_OnHide\"]:1>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:590: in function `SetUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:670: in function `HideUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:323: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:315>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1115: in function `HideUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1267: in function `CloseWindows'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1313: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:1303>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/AddOns/Blizzard_UIParent/Cata/UIParent.lua\"]:2187: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
-			["session"] = 195,
-			["counter"] = 3,
-		}, -- [154]
+		}, -- [145]
 		{
 			["message"] = "...lector-1.0-LMIS/LibAdvancedIconSelector-1.0-LMIS.lua:933: bad argument #1 to 'pairs' (table expected, got nil)",
 			["time"] = "2024/05/01 23:11:21",
@@ -1214,54 +1142,190 @@ BugGrabberDB = {
 			["stack"] = "[string \"=[C]\"]: in function `pairs'\n[string \"@Interface/AddOns/LargerMacroIconSelection/Libs/LibAdvancedIconSelector-1.0-LMIS/LibAdvancedIconSelector-1.0-LMIS.lua\"]:933: in function `InitialInit'\n[string \"@Interface/AddOns/LargerMacroIconSelection/Libs/LibAdvancedIconSelector-1.0-LMIS/LibAdvancedIconSelector-1.0-LMIS.lua\"]:183: in function `CreateSearch'\n[string \"@Interface/AddOns/LargerMacroIconSelection/Mainline/SearchBox.lua\"]:60: in function `InitSearch'\n[string \"@Interface/AddOns/LargerMacroIconSelection/Mainline/LargerMacroIconSelection.lua\"]:68: in function <...oIconSelection/Mainline/LargerMacroIconSelection.lua:55>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua\"]:298: in function <...terface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.lua:295>",
 			["session"] = 196,
 			["counter"] = 3,
+		}, -- [146]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'RXPGuides' tried to call the protected function 'TargetUnit()'.",
+			["time"] = "2024/05/02 21:53:00",
+			["locals"] = "_ = Frame {\n RegisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n 0 = <userdata>\n UnregisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n SetScript = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n ADDON_ACTION_BLOCKED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n ADDON_ACTION_FORBIDDEN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n PLAYER_LOGIN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:551\n LUA_WARNING = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:566\n ADDON_LOADED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:511\n}\n",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/RXPGuides/Targeting.lua\"]:509: in function <Interface/AddOns/RXPGuides/Targeting.lua:486>\n[string \"=[C]\"]: ?",
+			["session"] = 203,
+			["counter"] = 16,
+		}, -- [147]
+		{
+			["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'ElvUI' tried to call the protected function 'ClearFocus()'.",
+			["time"] = "2024/05/19 18:12:07",
+			["locals"] = "_ = Frame {\n RegisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n 0 = <userdata>\n UnregisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n SetScript = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n}\nevent = \"ADDON_ACTION_FORBIDDEN\"\nevents = <table> {\n ADDON_ACTION_BLOCKED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n ADDON_ACTION_FORBIDDEN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n PLAYER_LOGIN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:551\n LUA_WARNING = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:566\n ADDON_LOADED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:511\n}\n",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `ClearFocus'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:1467: in function `?'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:4981: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:4947>\n[string \"=[C]\"]: in function `ChatEdit_ParseText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:4664: in function `ChatEdit_SendText'\n[string \"@Interface/AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua\"]:4700: in function <.../AddOns/Blizzard_ChatFrameBase/Classic/ChatFrame.lua:4696>\n[string \"=[C]\"]: in function `ChatEdit_OnEnterPressed'\n[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1: in function <[string \"*ChatFrame.xml:120_OnEnterPressed\"]:1>",
+			["session"] = 205,
+			["counter"] = 1,
+		}, -- [148]
+		{
+			["message"] = "...ce/AddOns/ElvUI/Cata/Modules/ActionBars/TotemBar.lua:230: attempt to index field 'totemBar' (a nil value)",
+			["time"] = "2024/05/19 18:59:34",
+			["locals"] = "self = <table> {\n SetAuraCooldowns = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1593\n SetupFlyoutButton = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1498\n modules = <table> {\n }\n ApplyTextOption = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:599\n ConfigureProfessionQuality = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:769\n ShownMicroButtons = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/MicroBar.lua:280\n FadeBarBlings = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:819\n ActivateBindMode = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/Bind.lua:38\n Button_OnEnter = <function> defined return function() if not ElvUI then return end:9\n SetDefaultModulePrototype = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:409\n UpdateHelpTicketButtonAnchor = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/MicroBar.lua:382\n GetMicroCoords = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/MicroBar.lua:103\n IsEnabled = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:451\n SettingsDisplayCategory = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/Bind.lua:298\n UpdatePetBindings = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/PetBar.lua:208\n UpdateMicroBarTextures = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/MicroBar.lua:359\n CreateBarPet = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/PetBar.lua:249\n RegisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:90\n UnregisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:153\n LAB_ButtonCreated = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1659\n hooks = <table> {\n }\n ActivePages = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:232\n HandleMicroTextures = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/MicroBar.lua:140\n MultiCastSummonSpellButton_Update = <function> defined @Interface/AddOns/ElvUI/Cata/Modules/ActionBars/TotemBar.lua:60\n LAB_FlyoutUpdate = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1624\n Bar_OnLeave = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:839\n SpellBookTooltipOnUpdate = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:956\n UPDATE_SHAPESHIFT_COOLDOWN = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/StanceBar.lua:26\n FixKeybindColor = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1387\n MicroBar_PostDrag = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/MicroBar.lua:399\n LAB_FlyoutCreated = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1636\n BlizzardOptionsPanel_OnEvent = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:879\n ColorSwipeTexture = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:795\n UnregisterAllEvents = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:174\n PositionAndSizeBarShapeShift = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/StanceBar.lua:92\n UpdateFlyoutButtons = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1476\n UpdateStanceBindings = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/StanceBar.lua:224\n StyleFlyout = <function> defined @Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:1515\n Button_OnLeave = <function> defined return function() if not ElvUI then ",
+			["stack"] = "[string \"@Interface/AddOns/ElvUI/Cata/Modules/ActionBars/TotemBar.lua\"]:230: in function <...ce/AddOns/ElvUI/Cata/Modules/ActionBars/TotemBar.lua:221>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: in function `ShowMultiCastActionBar'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Cata/UIParentPanelManager.lua\"]:91: in function `FramePositionDelegate_Override_HandleExtraBars'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:955: in function `UIParentManageFramePositions'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:328: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:315>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1049: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:1047>\n[string \"=[C]\"]: in function `UIParent_ManageFramePositions'\n[string \"@Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua\"]:379: in function `BuffFrame_UpdateAllBuffAnchors'\n[string \"@Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.lua\"]:120: in function `BuffFrame_Update'\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:103: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:102>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:178: in function <...rface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua:177>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:181: in function `TriggerEvent'\n[string \"@Interface/AddOns/Blizzard_SharedXML/CvarUtil.lua\"]:114: in function <Interface/AddOns/Blizzard_SharedXML/CvarUtil.lua:106>",
+			["session"] = 213,
+			["counter"] = 1,
+		}, -- [149]
+		{
+			["message"] = "Interface/AddOns/PallyPower/PallyPower.lua:1269: table index is nil",
+			["time"] = "2024/05/19 18:59:49",
+			["locals"] = "self = <table> {\n CanControl = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1908\n NormalBuffs = <table> {\n }\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceTimer-3.0/AceTimer-3.0.lua:147\n AddRealmName = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1993\n Skins = <table> {\n }\n ParseMessage = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1696\n GetSpellID = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:3054\n SetDefaultModulePrototype = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:409\n AutoAssignAuras = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:4336\n player = \"Andrés\"\n BattleGroundTemplates = <table> {\n }\n IsEnabled = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:451\n IsAuraActive = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:4266\n ScheduleTimer = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceTimer-3.0/AceTimer-3.0.lua:94\n AssignPlayerAsClass = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1094\n GetClassID = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:2009\n AutoBuffedList = <table> {\n }\n RegisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:90\n UnregisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:153\n PerformAuraCycleBackwards = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:4238\n PerformCycleBackwards = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:991\n UpdateRoster = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:2018\n SetPButton = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:2575\n SetEnabledState = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:424\n StorePreset = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:3840\n ZONE_CHANGED_NEW_AREA = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1555\n ScanCooldowns = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1337\n GROUP_JOINED = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1573\n ReportChannels = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:805\n OnEnable = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:191\n GROUP_LEFT = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1593\n GetRFExpiration = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:2749\n OnInitialize = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:86\n UnregisterAllEvents = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:174\n isBCC = false\n Templates = <table> {\n }\n PerformAuraCycle = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:4205\n optionsFrame = Frame {\n }\n GetUnitAndSpellSmart = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:3081\n isVanilla = false\n OnProfileChanged = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:235\n GetName = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:279\n PerformCycle = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:919\n name = \"PallyPower\"\n Cooldowns = <table> {\n }\n Disable = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:314\n ScanTalents = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:1264\n Print = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceConsole-3.0/AceConsole-3.0.lua:54\n playerButtons = <table> {\n }\n Report = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:818\n MinimapIcon = <table> {\n }\n Debug = <function> defined @Interface/AddOns/PallyPower/PallyPower.lua:77\n LDB = <table> {\n }\n CONFIG_RESI",
+			["stack"] = "[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:1269: in function `ScanTalents'\n[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:195: in function <Interface/AddOns/PallyPower/PallyPower.lua:191>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
+			["session"] = 214,
+			["counter"] = 1,
+		}, -- [150]
+		{
+			["message"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: SideDressUpFrame:SetPoint.",
+			["time"] = "2024/04/16 12:12:07",
+			["locals"] = "(*temporary) = SideDressUpFrame {\n BottomLeftCorner = Texture {\n }\n ResetButton = SideDressUpModelResetButton {\n }\n OnBackdropLoaded = <function> defined @Interface/SharedXML/Backdrop.lua:152\n DriftModifiable = true\n DriftHookSet = true\n BGBottomLeft = SideDressUpFrameBackgroundBot {\n }\n TopLeftCorner = Texture {\n }\n RightEdge = Texture {\n }\n BGTopLeft = SideDressUpFrameBackgroundTop {\n }\n template = \"Transparent\"\n ApplyBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:282\n GetBackdropBorderColor = <function> defined @Interface/SharedXML/Backdrop.lua:409\n GetBackdrop = <function> defined @Interface/SharedXML/Backdrop.lua:347\n SetBorderBlendMode = <function> defined @Interface/SharedXML/Backdrop.lua:266\n PixelSnapDisabled = true\n backdropInfo = <table> {\n }\n OnBackdropSizeChanged = <function> defined @Interface/SharedXML/Backdrop.lua:182\n HasBackdropInfo = <function> defined @Interface/SharedXML/Backdrop.lua:278\n SetPoint = <function> defined =[C]:-1\n openWidth = 1020\n closedWidth = 840\n SetScale = <function> defined =[C]:-1\n SetBackdropBorderColor = <function> defined @Interface/SharedXML/Backdrop.lua:422\n Center = Texture {\n }\n TopEdge = Texture {\n }\n parentFrame = AuctionFrame {\n }\n 0 = <userdata>\n BottomEdge = Texture {\n }\n GetBackdropColor = <function> defined @Interface/SharedXML/Backdrop.lua:390\n BottomRightCorner = Texture {\n }\n TopRightCorner = Texture {\n }\n SetupTextureCoordinates = <function> defined @Interface/SharedXML/Backdrop.lua:214\n SetupPieceVisuals = <function> defined @Interface/SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n GetEdgeSize = <function> defined @Interface/SharedXML/Backdrop.lua:188\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = AuctionFrame {\n 0 = <userdata>\n SetScale = <function> defined =[C]:-1\n backdrop = Frame {\n }\n DriftModifiable = true\n DriftHookSet = true\n type = \"list\"\n numTabs = 3\n selectedTab = 1\n SetPoint = <function> defined =[C]:-1\n}\n(*temporary) = \"TOPRIGHT\"\n(*temporary) = -2\n(*temporary) = -28\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/FrameXML/DressUpFrames.lua\"]:233: in function `SetUpSideDressUpFrame'\n[string \"@Interface/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.lua\"]:340: in function <...ace/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.lua:332>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2282: in function `SetUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2104: in function `ShowUIPanel'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1995: in function <Interface_Wrath/FrameXML/UIParent.lua:1991>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:2806: in function `ShowUIPanel'\n[string \"@Interface/AddOns/Blizzard_AuctionUI/Blizzard_AuctionUI.lua\"]:304: in function `AuctionFrame_Show'\n[string \"@Interface_Wrath/FrameXML/UIParent.lua\"]:1290: in function <Interface_Wrath/FrameXML/UIParent.lua:815>",
+			["session"] = 218,
+			["counter"] = 5,
+		}, -- [151]
+		{
+			["message"] = "...aries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua:106: ElvUI not found.",
+			["time"] = "2024/05/01 12:51:40",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"ElvUI not found.\"\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua\"]:106: in function <...aries/Core/LibElvUIPlugin-1.0/LibElvUIPlugin-1.0.lua:100>\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/LibElvUIPlugin-1.0-44/LibElvUIPlugin-1.0.lua\"]:112: in function `RegisterPlugin'\n[string \"@Interface/AddOns/ProjectAzilroka/Init.lua\"]:491: in function `?'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:119: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>",
+			["session"] = 220,
+			["counter"] = 10,
+		}, -- [152]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Myslot' tried to call the protected function 'CompactRaidFrame1:Show()'.",
+			["time"] = "2024/04/26 21:46:24",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:372: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:299: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:132: in function <Interface_Wrath/FrameXML/CompactUnitFrame.lua:59>",
+			["session"] = 224,
+			["counter"] = 8,
+		}, -- [153]
+		{
+			["message"] = "Interface/AddOns/Clique/Clique.lua:1054: attempt to index field 'blacklist' (a nil value)",
+			["time"] = "2024/05/12 23:30:55",
+			["locals"] = "self = <table> {\n ProjectIsCataclysm = <function> defined @Interface/AddOns/Clique/AddonCore.lua:110\n defaults = <table> {\n }\n GetCapturedKey = <function> defined @Interface/AddOns/Clique/Utils.lua:247\n GetTalentSpecName = <function> defined @Interface/AddOns/Clique/Clique.lua:857\n OnNewProfile = <function> defined @Interface/AddOns/Clique/Clique.lua:315\n AddBinding = <function> defined @Interface/AddOns/Clique/Clique.lua:730\n TalentGroupChanged = <function> defined @Interface/AddOns/Clique/Clique.lua:881\n regqueue = <table> {\n }\n RegisterFrame = <function> defined @Interface/AddOns/Clique/Clique.lua:241\n Printf = <function> defined @Interface/AddOns/Clique/AddonCore.lua:130\n GetClickAttributes = <function> defined @Interface/AddOns/Clique/Clique.lua:424\n globutton = CliqueSABButton {\n }\n hccframes = <table> {\n }\n stopbutton = CliqueStopButton {\n }\n Wrath_BlizzBossFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:88\n RegisterModule = <function> defined @Interface/AddOns/Clique/AddonCore.lua:239\n GetSpellbookIdxFromLogical = <function> defined @Interface/AddOns/Clique/CliqueSpellbook.lua:26\n GetBindingIcon = <function> defined @Interface/AddOns/Clique/Utils.lua:141\n RegisterMessage = <function> defined @Interface/AddOns/Clique/AddonCore.lua:327\n UnregisterMessage = <function> defined @Interface/AddOns/Clique/AddonCore.lua:332\n ProjectIsWarWithin = <function> defined @Interface/AddOns/Clique/AddonCore.lua:119\n UnregisterFrame = <function> defined @Interface/AddOns/Clique/Clique.lua:281\n db = <table> {\n }\n eventFrame = CliqueEventFrame {\n }\n ProjectIsDragonflight = <function> defined @Interface/AddOns/Clique/AddonCore.lua:114\n namedbutton = CliqueNamedSidecar {\n }\n RegisterEvent = <function> defined @Interface/AddOns/Clique/AddonCore.lua:149\n ClearAttributes = <function> defined @Interface/AddOns/Clique/Clique.lua:783\n Wrath_BlizzSelfFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:46\n UpdateAttributes = <function> defined @Interface/AddOns/Clique/Clique.lua:803\n BLACKLIST_CHANGED = <function> defined @Interface/AddOns/Clique/Clique.lua:1138\n GetBindingActionText = <function> defined @Interface/AddOns/Clique/Utils.lua:176\n GetExportString = <function> defined @Interface/AddOns/Clique/ImportExport.lua:6\n UpdateGlobalButtonClicks = <function> defined @Interface/AddOns/Clique/Clique.lua:1057\n UpdateCombatWatch = <function> defined @Interface/AddOns/Clique/Clique.lua:935\n Enable = <function> defined @Interface/AddOns/Clique/Clique.lua:302\n SpellTextWithSubName = <function> defined @Interface/AddOns/Clique/Utils.lua:168\n ImportBindings = <function> defined @Interface/AddOns/Clique/Clique.lua:335\n RegisterLocale = <function> defined @Interface/AddOns/Clique/AddonCore.lua:409\n ConvertSpecialKeys = <function> defined @Interface/AddOns/Clique/Utils.lua:300\n has_ooc = false\n unregqueue = <table> {\n }\n header = CliqueHeaderFrame {\n }\n bindings = <table> {\n }\n ccframes = <table> {\n }\n BindingConflictsWithSelfCast = <function> defined @Interface/AddOns/Clique/Utils.lua:345\n IsFrameBlacklisted = <function> defined @Interface/AddOns/Clique/Clique.lua:1048\n BINDINGS_CHANGED = <function> defined @Interface/AddOns/Clique/Clique.lua:1106\n OnProfileChanged = <function> defined @Interface/AddOns/Clique/Clique.lua:342\n Wrath_BlizzPartyFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:65\n ProjectIsWrath = <function> defined @Interface/AddOns/Clique/AddonCore.lua:106\n EnteringCombat = <function> defined @Interface/AddOns/Clique/Clique.lua:962\n IntegrateBlizzardFrames = <function> defined @Interface/AddOns/Clique/modules/Blizzard_wrath.lua:20\n version = \"v3.6.3-release\"\n Initialize = <function> defined @Interface/AddOns/Clique/Clique.lua:42\n ProjectIsClassic = <function> defined @Interface/AddOns/Clique/AddonCore.lua:98\n registeredUnitFlags = false\n CheckSelfCastIssue = <function> defined @Interface/AddOns/Clique/Clique.lua:907\n optpanels = <table> {\n }\n DecodeExportString = <function> defined @Interface/AddOns/Clique/ImportExport.lua:15\n GetActiveTalentSpec",
+			["stack"] = "[string \"@Interface/AddOns/Clique/Clique.lua\"]:1054: in function `IsFrameBlacklisted'\n[string \"@Interface/AddOns/Clique/Clique.lua\"]:1077: in function `UpdateRegisteredClicks'\n[string \"@Interface/AddOns/Clique/Clique.lua\"]:270: in function `RegisterFrame'\n[string \"@Interface/AddOns/Clique/Clique.lua\"]:192: in function <Interface/AddOns/Clique/Clique.lua:188>\n[string \"@Interface/AddOns/Clique/modules/Blizzard_utils.lua\"]:49: in function `RegisterBlizzardFrame'\n[string \"@Interface/AddOns/Clique/modules/Blizzard_wrath.lua\"]:42: in function <Interface/AddOns/Clique/modules/Blizzard_wrath.lua:33>\n[string \"=[C]\"]: in function `CompactUnitFrame_SetUpFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:347: in function `CompactRaidFrameContainer_GetUnitFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:317: in function `CompactRaidFrameContainer_AddUnitFrame'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:296: in function `CompactRaidFrameContainer_AddFlaggedUnits'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:169: in function `CompactRaidFrameContainer_LayoutFrames'\n[string \"@Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.lua\"]:130: in function `CompactRaidFrameContainer_TryUpdate'\n...\n[string \"@Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua\"]:67: in function <...AddOns/Blizzard_Settings_Shared/Blizzard_Setting.lua:55>\n[string \"=[C]\"]: in function `securecallfunction'\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:274: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:272>\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:284: in function `RefreshRaidOptions'\n[string \"@Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/InterfaceOverrides.lua\"]:327: in function <...ingsDefinitions_Frame/Classic/InterfaceOverrides.lua:323>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:178: in function <...rface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua:177>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_SharedXML/CallbackRegistry.lua\"]:181: in function `TriggerEvent'\n[string \"@Interface/AddOns/Blizzard_SharedXML/CvarUtil.lua\"]:114: in function <Interface/AddOns/Blizzard_SharedXML/CvarUtil.lua:106>",
+			["session"] = 224,
+			["counter"] = 14,
+		}, -- [154]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Myslot' tried to call the protected function 'CompactRaidFrame4:Show()'.",
+			["time"] = "2024/05/19 23:40:32",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:378: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:304: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua\"]:136: in function <...AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.lua:59>",
+			["session"] = 225,
+			["counter"] = 1,
 		}, -- [155]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WeakAuras' tried to call the protected function 'UNKNOWN()'.",
+			["time"] = "2024/05/02 21:06:11",
+			["locals"] = "_ = Frame {\n RegisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n 0 = <userdata>\n UnregisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n SetScript = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n ADDON_ACTION_BLOCKED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n ADDON_ACTION_FORBIDDEN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n PLAYER_LOGIN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:551\n LUA_WARNING = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:566\n ADDON_LOADED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:511\n}\n",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:553: in function `checker'\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:751: in function <...akAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua:746>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/WeakAuras/Libs/LibRangeCheck-3.0-14/LibRangeCheck-3.0.lua\"]:826: in function <...akAuras/Libs/LibRangeCheck-3.0/LibRangeCheck-3.0.lua:807>\n[string \"=(tail call)\"]: ?\n[string \"=(tail call)\"]: ?\n[string \"\"]:4: in function <[string \"\"]:2>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:705: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:628>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:881: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:826: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1825: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1823>",
+			["session"] = 225,
+			["counter"] = 7,
+		}, -- [156]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI' tried to call the protected function 'WatchFrame:SetWidth()'.",
+			["time"] = "2024/05/05 21:02:20",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua\"]:322: in function <...e/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua:320>\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua\"]:32: in function <...ddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua\"]:382: in function `Hide'\n[string \"if newstate == 1 then self:Hide() else self:Show() end\"]:1: in function <[string \"if newstate == 1 then self:Hide() else self...\"]:1>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua\"]:484: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:447>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureHandlers.lua\"]:115: in function <...nterface/AddOns/Blizzard_FrameXML/SecureHandlers.lua:110>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:114: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:95>\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:127: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:119>",
+			["session"] = 225,
+			["counter"] = 3,
+		}, -- [157]
+		{
+			["message"] = "Usage: GetPlayerInfoByGUID(\"playerGUID\")",
+			["time"] = "2024/05/19 23:43:14",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `GetPlayerInfoByGUID'\n[string \"@Interface/AddOns/BigWigs_Plugins/Pull.lua\"]:334: in function `CANCEL_PLAYER_COUNTDOWN'\n[string \"@Interface/AddOns/BigWigs/Loader.lua\"]:1031: in function `?'\n[string \"@Interface/AddOns/BigWigs/Loader.lua\"]:1392: in function <Interface/AddOns/BigWigs/Loader.lua:1391>",
+			["session"] = 225,
+			["counter"] = 5,
+		}, -- [158]
+		{
+			["message"] = "Lua error in aura '[BAR] Fojji Pull Timer': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.19\nUsage: GetPlayerInfoByGUID(\"playerGUID\")",
+			["time"] = "2024/05/19 23:40:29",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `GetPlayerInfoByGUID'\n[string \"return function(allstates, event, ...)\"]:29: in function <[string \"return function(allstates, event, ...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:825: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
+			["session"] = 225,
+			["counter"] = 9,
+		}, -- [159]
+		{
+			["message"] = "Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.lua:125: bad argument #1 to 'getn' (table expected, got nil)",
+			["time"] = "2024/04/14 22:38:58",
+			["locals"] = "(*temporary) = nil\n(*temporary) = \"table expected, got nil\"\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.lua\"]:125: in function `RaidClassButton_OnEnter'\n[string \"*Blizzard_RaidUI.xml:45_OnEnter\"]:1: in function <[string \"*Blizzard_RaidUI.xml:45_OnEnter\"]:1>",
+			["session"] = 225,
+			["counter"] = 5,
+		}, -- [160]
 		{
 			["message"] = "Interface/AddOns/PallyPower/PallyPower.lua:3091: IsSpellInRange(): Invalid spell slot",
 			["time"] = "2024/05/01 13:08:11",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"player\"\n",
 			["stack"] = "[string \"=[C]\"]: in function `IsSpellInRange'\n[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:3091: in function `GetUnitAndSpellSmart'\n[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:3301: in function `ButtonPreClick'\n[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:2476: in function `UpdateLayout'\n[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:2196: in function `UpdateRoster'\n[string \"@Interface/AddOns/PallyPower/PallyPower.lua\"]:216: in function <Interface/AddOns/PallyPower/PallyPower.lua:191>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
-			["session"] = 196,
-			["counter"] = 319,
-		}, -- [156]
+			["session"] = 228,
+			["counter"] = 418,
+		}, -- [161]
 		{
-			["message"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: ReputationDetailFrame:SetPoint.",
-			["time"] = "2024/05/14 23:34:04",
-			["locals"] = "(*temporary) = ReputationDetailFrame {\n BottomLeftCorner = Texture {\n }\n OnBackdropLoaded = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:152\n DriftModifiable = true\n DriftHookSet = true\n TopLeftCorner = Texture {\n }\n RightEdge = Texture {\n }\n template = \"Transparent\"\n ApplyBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:282\n GetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:409\n GetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:347\n SetBorderBlendMode = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:266\n PixelSnapDisabled = true\n SetupTextureCoordinates = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:214\n OnBackdropSizeChanged = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:182\n TopRightCorner = Texture {\n }\n SetPoint = <function> defined =[C]:-1\n SetScale = <function> defined =[C]:-1\n Center = Texture {\n }\n 0 = <userdata>\n TopEdge = Texture {\n }\n GetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:390\n BottomEdge = Texture {\n }\n backdropInfo = <table> {\n }\n Border = Frame {\n }\n BottomRightCorner = Texture {\n }\n HasBackdropInfo = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:278\n SetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:422\n SetupPieceVisuals = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n GetEdgeSize = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:188\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = ReputationFrame {\n 0 = <userdata>\n DriftModifiable = true\n DriftDelegate = CharacterFrame {\n }\n}\n(*temporary) = \"TOPRIGHT\"\n(*temporary) = -30.600000\n(*temporary) = -11.700000\n",
-			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/AddOns/ElvUI/Core/General/Toolkit.lua\"]:107: in function `Point'\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Skins/Character.lua\"]:454: in function <...erface/AddOns/ElvUI/Cata/Modules/Skins/Character.lua:261>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:2146: in function <Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:2141>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1822: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1837: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1863: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:307: in function <Interface/AddOns/ElvUI/Core/init.lua:306>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
-			["session"] = 197,
-			["counter"] = 4,
-		}, -- [157]
+			["message"] = "...nterface/AddOns/ElvUI/Cata/Modules/Skins/Friends.lua:471: attempt to index field '?' (a nil value)",
+			["time"] = "2024/05/16 21:29:48",
+			["locals"] = "self = nil\nFriendsFrame = FriendsFrame {\n 0 = <userdata>\n TitleText = FriendsFrameTitleText {\n }\n PortraitFrame = FriendsFramePortraitFrame {\n }\n LeftBorder = FriendsFrameLeftBorder {\n }\n Inset = FriendsFrameInset {\n }\n guildStatus = 0\n selectedIgnore = 1\n FriendsTabHeader = FriendsTabHeader {\n }\n selectedFriend = 1\n GetTitleText = <function> defined @Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua:856\n TopLeftCorner = FriendsFrameTopLeftCorner {\n }\n Bg = FriendsFrameBg {\n }\n playerStatusFrame = 1\n selectedTab = 1\n TopBorder = FriendsFrameTopBorder {\n }\n numTabs = 3\n TopTileStreaks = FriendsFrameTopTileStreaks {\n }\n TitleBg = FriendsFrameTitleBg {\n }\n BottomBorder = FriendsFrameBottomBorder {\n }\n backdrop = Frame {\n }\n CloseButton = FriendsFrameCloseButton {\n }\n RightBorder = FriendsFrameRightBorder {\n }\n BotRightCorner = FriendsFrameBotRightCorner {\n }\n SetTitleFormatted = <function> defined @Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua:864\n portrait = FriendsFramePortrait {\n }\n BotLeftCorner = FriendsFrameBotLeftCorner {\n }\n OnLoad = <function> defined @Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua:838\n SetTitle = <function> defined @Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua:860\n TopRightCorner = FriendsFrameTopRightCorner {\n }\n}\nFriendsFrameBattlenetFrame = FriendsFrameBattlenetFrame {\n 0 = <userdata>\n UnavailableInfoFrame = Frame {\n }\n BroadcastButton = Button {\n }\n BroadcastFrame = Frame {\n }\n UnavailableInfoButton = Button {\n }\n UnavailableLabel = FontString {\n }\n Tag = FontString {\n }\n}\nFriendsFrameBroadcastInput = FriendsFrameBroadcastInput {\n 0 = <userdata>\n backdrop = Frame {\n }\n icon = Texture {\n }\n clear = FriendsFrameBroadcastInputClearButton {\n }\n}\nInfoEventButton = GuildInfoGuildEventButton {\n 0 = <userdata>\n Right = Texture {\n }\n OnBackdropLoaded = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:152\n GetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:390\n SetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:422\n Middle = Texture {\n }\n template = \"Default\"\n ApplyBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:282\n GetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:409\n FitToText = <function> defined @Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua:249\n glossTex = true\n SetBorderBlendMode = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:266\n PixelSnapDisabled = true\n isSkinned = true\n SetupTextureCoordinates = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:214\n OnBackdropSizeChanged = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:182\n HasBackdropInfo = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:278\n Center = Texture {\n }\n RightEdge = Texture {\n }\n GetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:347\n SetTextToFit = <function> defined @Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.lua:244\n GetEdgeSize = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:188\n BottomEdge = Texture {\n }\n BottomRightCorner = Texture {\n }\n TopEdge = Texture {\n }\n Text = GuildInfoGuildEventButtonText {\n }\n BottomLeftCorner = Texture {\n }\n TopRightCorner = Texture {\n }\n Left = Texture {\n }\n fitTextWidthPadding = 40\n TopLeftCorner = Texture {\n }\n backdropInfo = <table> {\n }\n SetupPieceVisuals = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n fitTextCanWidthDecrease = true\n}\n(for index) = 7\n(for limit) = 8\n(for step) = 1\ni = 7\n(*temporary) = nil\n(*temporary) = nil\n(*temporary",
+			["stack"] = "[string \"@Interface/AddOns/ElvUI/Cata/Modules/Skins/Friends.lua\"]:471: in function <...nterface/AddOns/ElvUI/Cata/Modules/Skins/Friends.lua:25>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:2146: in function <Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:2141>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1822: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1837: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1863: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:307: in function <Interface/AddOns/ElvUI/Core/init.lua:306>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
+			["session"] = 229,
+			["counter"] = 28,
+		}, -- [162]
 		{
 			["message"] = "Lua error in aura 'Drink Button': Untrigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.1\n[string \"return function()\"]:2: attempt to call global 'UnitMana' (a nil value)",
 			["time"] = "2024/05/09 23:00:15",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"player\"\n(*temporary) = \"attempt to call global 'UnitMana' (a nil value)\"\n",
 			["stack"] = "[string \"return function()\"]:2: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:777: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:880: in function `ScanEventsInternal'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:825: in function `ScanEvents'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1110: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1095>",
-			["session"] = 198,
-			["counter"] = 64,
-		}, -- [158]
+			["session"] = 229,
+			["counter"] = 2670,
+		}, -- [163]
+		{
+			["message"] = "Interface/AddOns/Postal/Postal.lua:221: attempt to index global 'MiniMapMailFrameMixin' (a nil value)",
+			["time"] = "2024/05/06 21:44:02",
+			["locals"] = "self = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:367\n EnableDefault = <function> defined @Interface/AddOns/Postal/Postal.lua:268\n About = <function> defined @Interface/AddOns/Postal/Postal.lua:560\n ProfileFunc = <function> defined @Interface/AddOns/Postal/Postal.lua:272\n EnableModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:332\n PLAYER_INTERACTION_MANAGER_FRAME_HIDE = <function> defined @Interface/AddOns/Postal/Postal.lua:108\n baseName = \"Postal\"\n IterateEmbeds = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:442\n SecureHook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:335\n RawHookScript = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:394\n OnModuleEnable_Common = <function> defined @Interface/AddOns/Postal/Postal.lua:204\n SetDefaultModulePrototype = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:409\n WOWBCClassic = false\n defaultModuleState = true\n IsEnabled = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:451\n CountItemsAndMoney = <function> defined @Interface/AddOns/Postal/Postal.lua:655\n MAIL_CLOSED = <function> defined @Interface/AddOns/Postal/Postal.lua:214\n DisableModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:350\n RegisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:90\n UnregisterMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:153\n hooks = <table> {\n }\n db = <table> {\n }\n keepFreeOptions = <table> {\n }\n SetEnabledState = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:424\n Hook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:273\n enabledState = true\n RegisterEvent = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:90\n GetMoneyStringPlain = <function> defined @Interface/AddOns/Postal/Postal.lua:642\n IterateModules = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:437\n WOWClassic = false\n RawHook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:312\n DisableInbox = <function> defined @Interface/AddOns/Postal/Postal.lua:594\n NewModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:235\n GetModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:210\n defaultModuleLibraries = <table> {\n }\n CreateAboutFrame = <function> defined @Interface/AddOns/Postal/Postal.lua:513\n OnProfileChanged = <function> defined @Interface/AddOns/Postal/Postal.lua:194\n GetName = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:279\n name = \"Postal\"\n orderedModules = <table> {\n }\n ToggleModule = <function> defined @Interface/AddOns/Postal/Postal.lua:255\n WOWWotLKClassic = false\n Unhook = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:417\n Print = <function> defined @Interface/AddOns/Postal/Postal.lua:225\n GetMailType = <function> defined @Interface/AddOns/Postal/Postal.lua:620\n IsModule = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:468\n version = \"v4.1.1\"\n SendMessage = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:59\n SecureHookScript = <function> defined @Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceHook-3.0/AceHook-3.0.lua:409\n Enable = <function> defined @Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:29",
+			["stack"] = "[string \"@Interface/AddOns/Postal/Postal.lua\"]:221: in function `MAIL_CLOSED'\n[string \"@Interface/AddOns/Postal/Postal.lua\"]:110: in function `?'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:119: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:119>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:29: in function <...ded/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:25>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/CallbackHandler-1.0-8/CallbackHandler-1.0.lua\"]:64: in function `Fire'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceEvent-3.0-4/AceEvent-3.0.lua\"]:120: in function <...nBarSaverReloaded/Libs/AceEvent-3.0/AceEvent-3.0.lua:119>\n[string \"=[C]\"]: in function `CloseMail'\n[string \"*MailFrame.xml:847_OnHide\"]:1: in function <[string \"*MailFrame.xml:847_OnHide\"]:1>\n[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:590: in function `SetUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:670: in function `HideUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:323: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:315>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1115: in function `HideUIPanel'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1267: in function `CloseWindows'\n[string \"@Interface/AddOns/Blizzard_UIParentPanelManager/Classic/UIParentPanelManager_Shared.lua\"]:1313: in function <...PanelManager/Classic/UIParentPanelManager_Shared.lua:1303>\n[string \"=[C]\"]: in function `securecall'\n[string \"@Interface/AddOns/Blizzard_UIParent/Cata/UIParent.lua\"]:2187: in function `ToggleGameMenu'\n[string \"TOGGLEGAMEMENU\"]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
+			["session"] = 229,
+			["counter"] = 55,
+		}, -- [164]
+		{
+			["message"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: ReputationDetailFrame:SetPoint.",
+			["time"] = "2024/05/14 23:34:04",
+			["locals"] = "(*temporary) = ReputationDetailFrame {\n BottomLeftCorner = Texture {\n }\n OnBackdropLoaded = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:152\n DriftModifiable = true\n DriftHookSet = true\n TopLeftCorner = Texture {\n }\n RightEdge = Texture {\n }\n template = \"Transparent\"\n ApplyBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:282\n GetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:409\n GetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:347\n SetBorderBlendMode = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:266\n PixelSnapDisabled = true\n SetupTextureCoordinates = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:214\n OnBackdropSizeChanged = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:182\n TopRightCorner = Texture {\n }\n SetPoint = <function> defined =[C]:-1\n SetScale = <function> defined =[C]:-1\n Center = Texture {\n }\n 0 = <userdata>\n TopEdge = Texture {\n }\n GetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:390\n BottomEdge = Texture {\n }\n backdropInfo = <table> {\n }\n Border = Frame {\n }\n BottomRightCorner = Texture {\n }\n HasBackdropInfo = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:278\n SetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:422\n SetupPieceVisuals = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n GetEdgeSize = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:188\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = ReputationFrame {\n 0 = <userdata>\n DriftModifiable = true\n DriftDelegate = CharacterFrame {\n }\n}\n(*temporary) = \"TOPRIGHT\"\n(*temporary) = -30.600000\n(*temporary) = -11.700000\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/AddOns/ElvUI/Core/General/Toolkit.lua\"]:107: in function `Point'\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Skins/Character.lua\"]:454: in function <...erface/AddOns/ElvUI/Cata/Modules/Skins/Character.lua:261>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:2146: in function <Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:2141>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1822: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1837: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1863: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:307: in function <Interface/AddOns/ElvUI/Core/init.lua:306>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
+			["session"] = 230,
+			["counter"] = 24,
+		}, -- [165]
+		{
+			["message"] = "Action[SetPoint] failed because[SetPoint would result in anchor family connection]: attempted from: GuildInfoFrame:SetPoint.",
+			["time"] = "2024/05/20 01:15:32",
+			["locals"] = "(*temporary) = GuildInfoFrame {\n 0 = <userdata>\n backdrop = Frame {\n }\n DriftHookSet = true\n SetScale = <function> defined =[C]:-1\n SetPoint = <function> defined =[C]:-1\n OnBackdropLoaded = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:152\n DriftModifiable = true\n Center = Texture {\n }\n GetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:390\n SetupTextureCoordinates = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:214\n OnBackdropSizeChanged = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:182\n HasBackdropInfo = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:278\n SetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:422\n RightEdge = Texture {\n }\n backdropInfo = <table> {\n }\n BottomEdge = Texture {\n }\n GetEdgeSize = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:188\n BottomLeftCorner = Texture {\n }\n BottomRightCorner = Texture {\n }\n TopEdge = Texture {\n }\n ApplyBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:294\n SetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:329\n ClearBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:282\n TopRightCorner = Texture {\n }\n GetBackdropBorderColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:409\n GetBackdrop = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:347\n TopLeftCorner = Texture {\n }\n SetupPieceVisuals = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:246\n SetBackdropColor = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:399\n LeftEdge = Texture {\n }\n SetBorderBlendMode = <function> defined @Interface/AddOns/Blizzard_SharedXML/Backdrop.lua:266\n}\n(*temporary) = \"TOPLEFT\"\n(*temporary) = GuildFrame {\n 0 = <userdata>\n hasForcedNameChange = false\n nameAlert = GuildNameChangeAlertFrame {\n }\n notesToggle = 1\n selectedGuildMember = 0\n}\n(*temporary) = \"TOPRIGHT\"\n(*temporary) = -0.900000\n(*temporary) = 5.400000\n",
+			["stack"] = "[string \"=[C]\"]: ?\n[string \"=[C]\"]: in function `SetPoint'\n[string \"@Interface/AddOns/ElvUI/Core/General/Toolkit.lua\"]:107: in function `Point'\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Skins/Friends.lua\"]:444: in function <...nterface/AddOns/ElvUI/Cata/Modules/Skins/Friends.lua:25>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:2146: in function <Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:2141>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1822: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1837: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1863: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:307: in function <Interface/AddOns/ElvUI/Core/init.lua:306>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
+			["session"] = 230,
+			["counter"] = 1,
+		}, -- [166]
 		{
 			["message"] = "Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:743: doesn't exist!",
 			["time"] = "2024/05/08 21:33:28",
 			["locals"] = "(*temporary) = nil\n(*temporary) = \"doesn't exist!\"\n",
 			["stack"] = "[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:743: in function `HandleButton'\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Skins/Stable.lua\"]:16: in function <Interface/AddOns/ElvUI/Cata/Modules/Skins/Stable.lua:10>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua\"]:2146: in function <Interface/AddOns/ElvUI/Core/Modules/Skins/Skins.lua:2141>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1822: in function `CallLoadFunc'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1837: in function `CallLoadedModule'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1863: in function `InitializeModules'\n[string \"@Interface/AddOns/ElvUI/Core/General/Core.lua\"]:1973: in function `Initialize'\n[string \"@Interface/AddOns/ElvUI/Core/init.lua\"]:307: in function <Interface/AddOns/ElvUI/Core/init.lua:306>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:70: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:65>\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:527: in function `EnableAddon'\n[string \"@Interface/AddOns/ActionBarSaverReloaded/Libs/AceAddon-3.0-13/AceAddon-3.0.lua\"]:630: in function <...nBarSaverReloaded/Libs/AceAddon-3.0/AceAddon-3.0.lua:615>",
-			["session"] = 199,
-			["counter"] = 20,
-		}, -- [159]
+			["session"] = 230,
+			["counter"] = 49,
+		}, -- [167]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': init\nWeakAuras Version: 5.13.1\nAura Version: 1.0.1\n[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:23: table index is nil",
 			["time"] = "2024/05/09 20:18:49",
 			["locals"] = "SCAN_EVENT = \"WA_MERFIN_SPELL_MERGER\"\nindexToSubEvent = <table> {\n 1 = \"SPELL_DAMAGE\"\n 2 = \"SPELL_PERIODIC_DAMAGE\"\n}\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n}\n(for control) = 2\n_ = 2\ndata = <table> {\n subEventIndex = 1\n spellId = 48466\n customIcon = \"\"\n enable = true\n duration = 3\n enableCustomIcon = false\n spellName = \"Hurricane\"\n}\nsubEvent = \"SPELL_DAMAGE\"\nspellName = nil\n_ = nil\nicon = nil\n(*temporary) = <table> {\n Swipe = <table> {\n }\n}\n(*temporary) = <table> {\n dmg = 0\n spellId = 48466\n lastCall = 0\n duration = 3\n counter = 0\n}\n(*temporary) = 3\n(*temporary) = \"table index is nil\"\n",
 			["stack"] = "[string \"return function() local SCAN_EVENT = 'WA_MERFIN_SPELL_MERGER'\"]:23: in function <[string \"return function() local SCAN_EVENT = 'WA_ME...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1063: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
-			["session"] = 199,
-			["counter"] = 17,
-		}, -- [160]
+			["session"] = 230,
+			["counter"] = 48,
+		}, -- [168]
 		{
 			["message"] = "Lua error in aura 'AoE Merger - Icon': Trigger 1\nWeakAuras Version: 5.13.1\nAura Version: 1.0.1\n[string \"return function(...)\"]:2: attempt to call field 'TSU' (a nil value)",
 			["time"] = "2024/05/09 20:18:49",
 			["locals"] = "(*temporary) = nil\n(*temporary) = <table> {\n}\n(*temporary) = \"STATUS\"\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to call field 'TSU' (a nil value)\"\n",
 			["stack"] = "[string \"return function(...)\"]:2: in function <[string \"return function(...)\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:642: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:627>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1068: in function `ScanWithFakeEvent'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1413: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2033: in function `LoadDisplays'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1815: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1649>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:2010: in function `Resume'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:1273: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:1232>",
-			["session"] = 199,
-			["counter"] = 15520,
-		}, -- [161]
+			["session"] = 230,
+			["counter"] = 40215,
+		}, -- [169]
 	},
 }

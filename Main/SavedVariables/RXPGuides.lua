@@ -20,7 +20,7 @@ RXPData = {
 		74, -- [15]
 		[0] = 94,
 	},
-	["release"] = "v4.6.11",
+	["release"] = "v4.6.9",
 	["cacheVersion"] = 24,
 	["trainGenericSpells"] = true,
 }
@@ -63,11 +63,10 @@ RXPSettings = {
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
-			["xprate"] = 1.1,
-			["enableQuestAutomation"] = false,
-			["frameHeight"] = 204.1999206542969,
 			["windowScale"] = 1.25,
 			["hardcore"] = false,
+			["enableQuestAutomation"] = false,
+			["xprate"] = 1.1,
 			["frameSizes"] = {
 				["activeTargetFrame"] = {
 					82.66667938232422, -- [1]
@@ -79,13 +78,15 @@ RXPSettings = {
 				},
 				["activeItemFrame"] = {
 					75.80008697509766, -- [1]
-					40.00008392333984, -- [2]
+					40.0001335144043, -- [2]
 				},
 				["arrowFrame"] = {
 					31.99999618530273, -- [1]
 					31.99999618530273, -- [2]
 				},
 			},
+			["frameHeight"] = 204.1999206542969,
+			["macroAnnounced"] = true,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -124,12 +125,29 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
-			["macroAnnounced"] = true,
 		},
 		["Xolem - Venoxis"] = {
 			["xprate"] = 1.1,
 			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -168,28 +186,10 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
-				},
-			},
 		},
 		["Alsía - Venoxis"] = {
 			["xprate"] = 1.1,
-			["frameHeight"] = 124.9998397827148,
+			["frameHeight"] = 124.9998016357422,
 			["hardcore"] = false,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
@@ -369,6 +369,8 @@ RXPSettings = {
 			},
 		},
 		["Alsiadk - Venoxis"] = {
+			["xprate"] = 1.1,
+			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
 			["framePositions"] = {
 				["activeTargetFrame"] = {
@@ -408,7 +410,6 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
-			["xprate"] = 1.1,
 			["frameSizes"] = {
 				["activeTargetFrame"] = {
 					82.66671752929688, -- [1]
@@ -427,7 +428,6 @@ RXPSettings = {
 					31.99999618530273, -- [2]
 				},
 			},
-			["frameHeight"] = 124.9998931884766,
 		},
 		["Bloodwall - Venoxis"] = {
 			["xprate"] = 1.1,
@@ -553,7 +553,27 @@ RXPSettings = {
 			},
 		},
 		["Andrés - Venoxis"] = {
+			["xprate"] = 1.1,
+			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -590,25 +610,6 @@ RXPSettings = {
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
-				},
-			},
-			["frameHeight"] = 124.9998931884766,
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
 				},
 			},
 		},
@@ -737,24 +738,6 @@ RXPSettings = {
 			["xprate"] = 1.1,
 			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66671752929688, -- [1]
-					67.99999237060547, -- [2]
-				},
-				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80008697509766, -- [1]
-					39.99999618530273, -- [2]
-				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
-				},
-			},
 			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
@@ -793,8 +776,28 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66671752929688, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					75.80008697509766, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
 		},
 		["Kwasimojo - Venoxis"] = {
+			["xprate"] = 1.1,
+			["frameHeight"] = 124.9998931884766,
 			["hardcore"] = false,
 			["framePositions"] = {
 				["arrowFrame"] = {
@@ -834,7 +837,6 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
-			["frameHeight"] = 124.9998931884766,
 			["frameSizes"] = {
 				["arrowFrame"] = {
 					31.99999618530273, -- [1]
