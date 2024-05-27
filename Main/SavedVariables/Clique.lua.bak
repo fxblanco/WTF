@@ -4,9 +4,9 @@ CliqueDB3 = {
 	["char"] = {
 		["Alsla - Venoxis"] = {
 			["spec1_profileKey"] = "Alsla - Venoxis",
+			["fastooc"] = false,
 			["specswap"] = false,
 			["downclick"] = false,
-			["fastooc"] = false,
 			["spec2_profileKey"] = "Alsla - Venoxis",
 			["alerthidden"] = true,
 		},
@@ -46,18 +46,18 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
 			["spec2_profileKey"] = "Kwasimojo - Venoxis",
 			["downclick"] = false,
-			["specswap"] = false,
 			["fastooc"] = false,
+			["specswap"] = false,
 		},
 	},
 	["profileKeys"] = {

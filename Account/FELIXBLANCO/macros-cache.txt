@@ -13,7 +13,8 @@ VER 3 0000000000000B1D "g_trinket_2" "INV_Misc_QuestionMark"
 /use [mod:shift] 14; 13
 END
 VER 3 0000000000000B20 "RXPTargeting" "Ability_eyeoftheowl"
-//RestedXP Guides - current step has no configured targets
+/targetexact Warlord Zaela
+/targetlasttarget [dead]
 END
 VER 3 0000000000000B1F "trap_freez" "134400"
 #showtooltip

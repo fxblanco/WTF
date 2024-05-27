@@ -14,6 +14,13 @@ DriftPoints = {
 		["yOfs"] = 193.9000701904297,
 		["xOfs"] = -478.3998413085938,
 	},
+	["PVPFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -86.66664123535156,
+		["xOfs"] = -137.1333465576172,
+	},
 	["SettingsPanel"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOPRIGHT",
@@ -23,10 +30,10 @@ DriftPoints = {
 	},
 	["GuildControlUI"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = -190.8997955322266,
-		["xOfs"] = 521,
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = -94.5998306274414,
+		["xOfs"] = 424.4998779296875,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -53,15 +60,15 @@ DriftPoints = {
 		["relativeTo"] = "UIParent",
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
-		["yOfs"] = 122.8999481201172,
-		["xOfs"] = 125.7001113891602,
+		["yOfs"] = 157.9999389648438,
+		["xOfs"] = 435.3001098632813,
 	},
 	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "CENTER",
-		["relativePoint"] = "CENTER",
-		["yOfs"] = 244.3003082275391,
-		["xOfs"] = 47.80046081542969,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -124.9999389648438,
+		["xOfs"] = -403.9995727539063,
 	},
 }
 DriftScales = {

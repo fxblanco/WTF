@@ -3,10 +3,10 @@ Postal3DB = {
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Alsiadk|Venoxis|Horde|80|DEATHKNIGHT", -- [1]
+				"Alsiadk|Venoxis|Horde|85|DEATHKNIGHT", -- [1]
 				"Alsia|Venoxis|Horde|80|PALADIN", -- [2]
 				"Alslahunt|Venoxis|Horde|80|HUNTER", -- [3]
-				"Alsla|Venoxis|Horde|80|DEATHKNIGHT", -- [4]
+				"Alsla|Venoxis|Horde|85|DEATHKNIGHT", -- [4]
 				"Alsía|Venoxis|Horde|80|PALADIN", -- [5]
 				"Andrés|Venoxis|Horde|80|MAGE", -- [6]
 				"Bloodwall|Venoxis|Horde|80|WARRIOR", -- [7]
@@ -39,7 +39,10 @@ Postal3DB = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Xolem|Venoxis|Horde", -- [1]
-					"Kwasimojo|Venoxis|Horde", -- [2]
+					"Minoton|Venoxis|Horde", -- [2]
+					"Alsiadk|Venoxis|Horde", -- [3]
+					"Alslahunt|Venoxis|Horde", -- [4]
+					"Kwasimojo|Venoxis|Horde", -- [5]
 				},
 			},
 		},
@@ -93,8 +96,8 @@ Postal3DB = {
 		["Andrés - Venoxis"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Alslahunt|Venoxis|Horde", -- [1]
-					"Alsla|Venoxis|Horde", -- [2]
+					"Alsla|Venoxis|Horde", -- [1]
+					"Alslahunt|Venoxis|Horde", -- [2]
 					"Alsia|Venoxis|Horde", -- [3]
 				},
 			},
