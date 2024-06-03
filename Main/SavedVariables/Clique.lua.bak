@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["Alsla - Venoxis"] = {
 			["spec1_profileKey"] = "Alsla - Venoxis",
-			["fastooc"] = false,
-			["specswap"] = false,
-			["downclick"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["spec2_profileKey"] = "Alsla - Venoxis",
+			["specswap"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
@@ -56,8 +56,8 @@ CliqueDB3 = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
 			["spec2_profileKey"] = "Kwasimojo - Venoxis",
 			["downclick"] = false,
-			["fastooc"] = false,
 			["specswap"] = false,
+			["fastooc"] = false,
 		},
 	},
 	["profileKeys"] = {
@@ -68,12 +68,12 @@ CliqueDB3 = {
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
@@ -362,13 +362,13 @@ CliqueDB3 = {
 				}, -- [3]
 			},
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -379,6 +379,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 132180,
+					["spell"] = "Misdirection",
+				}, -- [3]
 			},
 		},
 		["Alsia - Venoxis"] = {
@@ -578,13 +587,13 @@ CliqueDB3 = {
 				}, -- [3]
 			},
 		},
-		["Alslahunt - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -595,15 +604,6 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 132180,
-					["spell"] = "Misdirection",
-				}, -- [3]
 			},
 		},
 		["Kwasimojo - Venoxis"] = {

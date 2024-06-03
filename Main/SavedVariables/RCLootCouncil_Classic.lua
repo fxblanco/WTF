@@ -1,18 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Default",
-		["Alsía - Venoxis"] = "Default",
-		["Exonuklease - Venoxis"] = "Default",
-		["Alsiadk - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
-		["Lucho - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
-		["Alslala - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -1745,15 +1732,77 @@ RCLootCouncilDB = {
 			"23:22:58 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Blazeblué) (distri:) (GUILD)", -- [1727]
 			"23:53:29 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Uwugamergirl) (distri:) (GUILD)", -- [1728]
 			"23:57:29 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [1729]
+			"06/03/24", -- [1730]
+			"12:02:41 - Logged In", -- [1731]
+			"12:02:41 - ML initialized!", -- [1732]
+			"12:02:41 - TradeUI enabled", -- [1733]
+			"12:02:44 - Alslala-Venoxis (2.19.3) (nil)", -- [1734]
+			"12:02:44 - ActivateSkin (bfa)", -- [1735]
+			"12:02:50 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1736]
+			"12:02:50 - GetML()", -- [1737]
+			"12:02:50 - LootMethod =  (group)", -- [1738]
+			"12:02:50 - UpdatePlayersData()", -- [1739]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1740]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1741]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1742]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1743]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1744]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1745]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1746]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1747]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1748]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1749]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1750]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1751]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1752]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1753]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1754]
+			"12:02:50 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1755]
+			"12:02:50 - ClassicModule enabled (0.22.0) (nil)", -- [1756]
+			"12:02:50 - DoCommsCompressFix", -- [1757]
+			"12:02:50 - Removing Column (role)", -- [1758]
+			"12:02:50 - Removing Column (corruption)", -- [1759]
+			"12:02:51 - GetPlayersGuildRank()", -- [1760]
+			"12:02:51 - Found Guild Rank: Sugar Daddy", -- [1761]
+			"12:02:51 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Alslala) (distri:) (GUILD)", -- [1762]
+			"12:04:21 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1763]
+			"12:04:21 - GetML()", -- [1764]
+			"12:04:21 - LootMethod =  (group)", -- [1765]
+			"12:06:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1766]
+			"12:06:42 - GetML()", -- [1767]
+			"12:06:42 - LootMethod =  (group)", -- [1768]
+			"12:06:56 - Event: (PARTY_LEADER_CHANGED)", -- [1769]
+			"12:06:56 - GetML()", -- [1770]
+			"12:06:56 - LootMethod =  (group)", -- [1771]
+			"12:06:56 - NewMLCheck (Resetting council as we have a new ML!)", -- [1772]
+			"12:06:56 - Some else is ML", -- [1773]
+			"12:07:11 - Timer MLdb_check passed", -- [1774]
+			"12:08:48 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1775]
+			"12:08:48 - GetML()", -- [1776]
+			"12:08:48 - LootMethod =  (group)", -- [1777]
+			"12:08:48 - NewMLCheck (No ML Change)", -- [1778]
+			"12:09:24 - Event: (GROUP_LEFT) (1) (Party-4477-1-0000167F6757)", -- [1779]
+			"12:09:24 - GetML()", -- [1780]
+			"12:09:24 - LootMethod =  (group)", -- [1781]
 		},
 		["Classic_game"] = 14,
 		["Classic_oldVersion"] = "0.22.0",
 		["locale"] = "enUS",
 		["verTestCandidates"] = {
+			["Hêckler-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717408971, -- [3]
+			},
 			["Kholostrus-Venoxis"] = {
 				"0.22.0", -- [1]
 				nil, -- [2]
 				1717362927, -- [3]
+			},
+			["Fapisonfire-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717408971, -- [3]
 			},
 			["Uwugamergirl-Venoxis"] = {
 				"0.22.0", -- [1]
@@ -1778,7 +1827,7 @@ RCLootCouncilDB = {
 			["Wallahnyr-Venoxis"] = {
 				"0.22.0", -- [1]
 				nil, -- [2]
-				1717362269, -- [3]
+				1717408971, -- [3]
 			},
 			["Blazeblué-Venoxis"] = {
 				"0.22.0", -- [1]
@@ -1807,8 +1856,21 @@ RCLootCouncilDB = {
 			},
 		},
 		["version"] = "2.19.3",
-		["Classic_version"] = "0.22.0",
 		["regionID"] = 3,
+		["Classic_version"] = "0.22.0",
+	},
+	["profileKeys"] = {
+		["Xolem - Venoxis"] = "Default",
+		["Alsía - Venoxis"] = "Default",
+		["Exonuklease - Venoxis"] = "Default",
+		["Alsiadk - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
+		["Alslala - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Lucho - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -1869,11 +1931,11 @@ RCLootCouncilLootDB = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alslala - Venoxis"] = "Alslala - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 }

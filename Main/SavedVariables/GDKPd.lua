@@ -1,20 +1,20 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alslala - Venoxis"] = "Alslala - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Xolem - Venoxis"] = {
@@ -50,19 +50,26 @@ GDKPd_DB = {
 				["x"] = 4.499999523162842,
 			},
 		},
-		["Kwasimojo - Venoxis"] = {
-			["point"] = {
-				["y"] = -2.400072574615479,
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 16.20000648498535,
-			},
+		["Maturitass - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 			["point"] = {
 				["y"] = -15.90004825592041,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
+			},
+		},
+		["Alslala - Venoxis"] = {
+			["point"] = {
+				["y"] = -9.000197410583496,
+				["relative"] = "LEFT",
+				["point"] = "LEFT",
+			},
+		},
+		["Khalimmortus - Venoxis"] = {
+			["point"] = {
+				["point"] = "TOPLEFT",
+				["relative"] = "TOPLEFT",
 			},
 		},
 		["Lucho - Venoxis"] = {
@@ -73,20 +80,13 @@ GDKPd_DB = {
 				["x"] = 314.1330261230469,
 			},
 		},
-		["Khalimmortus - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 			["point"] = {
-				["point"] = "TOPLEFT",
+				["y"] = -2.400072574615479,
 				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 16.20000648498535,
 			},
-		},
-		["Alslala - Venoxis"] = {
-			["point"] = {
-				["y"] = -9.000197410583496,
-				["relative"] = "LEFT",
-				["point"] = "LEFT",
-			},
-		},
-		["Maturitass - Venoxis"] = {
 		},
 	},
 }

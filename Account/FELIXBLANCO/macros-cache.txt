@@ -18,8 +18,5 @@ VER 3 0000000000000B37 "prosp" "134400"
 /use Elementium Ore
 END
 VER 3 0000000000000B34 "RXPTargeting" "132150"
-/targetexact Ramkahen Prisoner
-/targetexact Neferset Overlord
-/targetexact Neferset Enforcer
-/targetlasttarget [dead]
+//RestedXP Guides - current step has no configured targets
 END

@@ -22,17 +22,17 @@ BigWigs3DB = {
 					["emphasizeRestart"] = false,
 					["emphasizeGrowup"] = true,
 					["BigWigsAnchor_x"] = 1240,
-					["fill"] = true,
+					["texture"] = "Flatt",
 					["barStyle"] = "ElvUI",
 					["BigWigsEmphasizeAnchor_height"] = 30.00000190734863,
 					["growup"] = true,
 					["fontSizeEmph"] = 14,
 					["fontName"] = "Expressway",
 					["BigWigsAnchor_height"] = 26.99997901916504,
-					["texture"] = "Flatt",
 					["emphasizeTime"] = 7,
-					["BigWigsEmphasizeAnchor_width"] = 226.0001068115234,
 					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
+					["BigWigsEmphasizeAnchor_width"] = 226.0001068115234,
+					["fill"] = true,
 				},
 				["Default"] = {
 					["BigWigsAnchor_width"] = 220.0002136230469,
@@ -43,12 +43,6 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["posx"] = 197,
-					["posy"] = 512,
-				},
-			},
 		},
 		["BigWigs_Plugins_AltPower"] = {
 			["profiles"] = {
@@ -72,18 +66,18 @@ BigWigs3DB = {
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 16,
+					["emphOutline"] = "OUTLINE",
+					["fontName"] = "Expressway",
+					["emphFontName"] = "Expressway",
+					["emphFontSize"] = 44,
 					["emphPosition"] = {
 						"TOP", -- [1]
 						"TOP", -- [2]
 						nil, -- [3]
 						-206, -- [4]
 					},
-					["emphOutline"] = "OUTLINE",
-					["outline"] = "OUTLINE",
-					["fontName"] = "Expressway",
-					["emphFontName"] = "Expressway",
-					["emphFontSize"] = 44,
-					["fontSize"] = 16,
 				},
 			},
 		},
@@ -107,25 +101,19 @@ BigWigs3DB = {
 		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["voice"] = "English: Amy",
-				},
-			},
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
 					["outline"] = "OUTLINE",
 					["fontSize"] = 46,
+					["fontName"] = "Expressway",
 					["position"] = {
 						"CENTER", -- [1]
 						"CENTER", -- [2]
 						nil, -- [3]
 						40, -- [4]
 					},
-					["voice"] = "English: Amy",
-					["fontName"] = "Expressway",
 				},
 			},
 		},

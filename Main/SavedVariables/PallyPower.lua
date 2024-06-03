@@ -146,7 +146,7 @@ PallyPower_AuraAssignments = {
 	["Hópéful"] = 1,
 	["Enerin-Gehennas"] = 2,
 	["Tóngah"] = 3,
-	["Shîzuye"] = 0,
+	["Beesportz"] = 2,
 	["Vangelius"] = 5,
 	["Wågwåñbøøtÿx"] = 2,
 	["Schicnek"] = 1,
@@ -154,7 +154,7 @@ PallyPower_AuraAssignments = {
 	["Flókii-Gehennas"] = 0,
 	["Sanziji"] = 0,
 	["Hazzq"] = 4,
-	["Beesportz"] = 2,
+	["Shîzuye"] = 0,
 }
 PallyPower_SavedPresets = {
 	["PallyPower_NormalAssignments"] = {
