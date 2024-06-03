@@ -9,8 +9,9 @@ GDKPd_DB = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -49,6 +50,8 @@ GDKPd_DB = {
 				["x"] = 4.499999523162842,
 			},
 		},
+		["Maturitass - Venoxis"] = {
+		},
 		["Andrés - Venoxis"] = {
 			["point"] = {
 				["y"] = -15.90004825592041,
@@ -56,7 +59,7 @@ GDKPd_DB = {
 				["point"] = "TOPLEFT",
 			},
 		},
-		["Maturitass - Venoxis"] = {
+		["Alslala - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["point"] = {

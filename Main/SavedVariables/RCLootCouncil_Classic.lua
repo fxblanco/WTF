@@ -6,10 +6,11 @@ RCLootCouncilDB = {
 		["Exonuklease - Venoxis"] = "Default",
 		["Alsiadk - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
-		["Andrés - Venoxis"] = "Default",
 		["Maturitass - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "Default",
+		["Andrés - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
+		["Khalimmortus - Venoxis"] = "Default",
+		["Alslala - Venoxis"] = "Default",
 		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["global"] = {
@@ -1592,60 +1593,217 @@ RCLootCouncilDB = {
 			"22:27:30 - Some else is ML", -- [1575]
 			"22:27:30 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Alsiadk) (distri:) (GUILD)", -- [1576]
 			"22:27:45 - Timer MLdb_check passed", -- [1577]
+			"06/02/24", -- [1578]
+			"23:01:24 - Logged In", -- [1579]
+			"23:01:24 - ML initialized!", -- [1580]
+			"23:01:24 - TradeUI enabled", -- [1581]
+			"23:01:29 - Alslala-Venoxis (2.19.3) (nil)", -- [1582]
+			"23:01:29 - ActivateSkin (bfa)", -- [1583]
+			"23:01:36 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [1584]
+			"23:01:36 - GetML()", -- [1585]
+			"23:01:36 - LootMethod =  (group)", -- [1586]
+			"23:01:36 - UpdatePlayersData()", -- [1587]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1588]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1589]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1590]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1591]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1592]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1593]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1594]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1595]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1596]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1597]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1598]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1599]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1600]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1601]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1602]
+			"23:01:36 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1603]
+			"23:01:36 - ClassicModule enabled (0.22.0) (nil)", -- [1604]
+			"23:01:36 - DoCommsCompressFix", -- [1605]
+			"23:01:36 - Removing Column (role)", -- [1606]
+			"23:01:36 - Removing Column (corruption)", -- [1607]
+			"23:01:37 - GetPlayersGuildRank()", -- [1608]
+			"23:01:37 - Found Guild Rank: Sugar Daddy", -- [1609]
+			"23:01:37 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Alslala) (distri:) (GUILD)", -- [1610]
+			"06/02/24", -- [1611]
+			"23:01:55 - Logged In", -- [1612]
+			"23:01:55 - ML initialized!", -- [1613]
+			"23:01:55 - TradeUI enabled", -- [1614]
+			"23:01:57 - Alslala-Venoxis (2.19.3) (nil)", -- [1615]
+			"23:01:57 - ActivateSkin (bfa)", -- [1616]
+			"23:02:03 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1617]
+			"23:02:03 - GetML()", -- [1618]
+			"23:02:03 - LootMethod =  (group)", -- [1619]
+			"23:02:03 - UpdatePlayersData()", -- [1620]
+			"23:02:03 - GetPlayersGuildRank()", -- [1621]
+			"23:02:03 - Found Guild Rank: Sugar Daddy", -- [1622]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1623]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1624]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1625]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1626]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1627]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1628]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1629]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1630]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1631]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1632]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1633]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1634]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1635]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1636]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1637]
+			"23:02:03 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1638]
+			"23:02:04 - ClassicModule enabled (0.22.0) (nil)", -- [1639]
+			"23:02:04 - DoCommsCompressFix", -- [1640]
+			"23:02:04 - Removing Column (role)", -- [1641]
+			"23:02:04 - Removing Column (corruption)", -- [1642]
+			"23:02:04 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Alslala) (distri:) (GUILD)", -- [1643]
+			"06/02/24", -- [1644]
+			"23:02:30 - Logged In", -- [1645]
+			"23:02:30 - ML initialized!", -- [1646]
+			"23:02:30 - TradeUI enabled", -- [1647]
+			"23:02:32 - Alslala-Venoxis (2.19.3) (nil)", -- [1648]
+			"23:02:32 - ActivateSkin (bfa)", -- [1649]
+			"23:02:39 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1650]
+			"23:02:39 - GetML()", -- [1651]
+			"23:02:39 - LootMethod =  (group)", -- [1652]
+			"23:02:39 - UpdatePlayersData()", -- [1653]
+			"23:02:39 - GetPlayersGuildRank()", -- [1654]
+			"23:02:39 - Found Guild Rank: Sugar Daddy", -- [1655]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1656]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1657]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1658]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1659]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1660]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1661]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1662]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1663]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1664]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1665]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1666]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1667]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1668]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1669]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1670]
+			"23:02:39 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1671]
+			"23:02:39 - ClassicModule enabled (0.22.0) (nil)", -- [1672]
+			"23:02:39 - DoCommsCompressFix", -- [1673]
+			"23:02:39 - Removing Column (role)", -- [1674]
+			"23:02:39 - Removing Column (corruption)", -- [1675]
+			"23:02:40 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Alslala) (distri:) (GUILD)", -- [1676]
+			"06/02/24", -- [1677]
+			"23:02:48 - Logged In", -- [1678]
+			"23:02:48 - ML initialized!", -- [1679]
+			"23:02:48 - TradeUI enabled", -- [1680]
+			"23:02:50 - Alslala-Venoxis (2.19.3) (nil)", -- [1681]
+			"23:02:50 - ActivateSkin (bfa)", -- [1682]
+			"23:02:55 - Event: (PLAYER_ENTERING_WORLD) (false) (true)", -- [1683]
+			"23:02:55 - GetML()", -- [1684]
+			"23:02:55 - LootMethod =  (group)", -- [1685]
+			"23:02:55 - UpdatePlayersData()", -- [1686]
+			"23:02:56 - GetPlayersGuildRank()", -- [1687]
+			"23:02:56 - Found Guild Rank: Sugar Daddy", -- [1688]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1689]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1690]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1691]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1692]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1693]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1694]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1695]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1696]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad)", -- [1697]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow)", -- [1698]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad)", -- [1699]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow)", -- [1700]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad)", -- [1701]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow)", -- [1702]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad)", -- [1703]
+			"23:02:56 - LUA_WARNING (0) (Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow)", -- [1704]
+			"23:02:56 - ClassicModule enabled (0.22.0) (nil)", -- [1705]
+			"23:02:56 - DoCommsCompressFix", -- [1706]
+			"23:02:56 - Removing Column (role)", -- [1707]
+			"23:02:56 - Removing Column (corruption)", -- [1708]
+			"23:02:56 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Alslala) (distri:) (GUILD)", -- [1709]
+			"23:03:58 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1710]
+			"23:03:58 - GetML()", -- [1711]
+			"23:03:58 - LootMethod =  (group)", -- [1712]
+			"23:04:29 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Chïca) (distri:) (GUILD)", -- [1713]
+			"23:05:18 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [1714]
+			"23:05:18 - GetML()", -- [1715]
+			"23:05:18 - LootMethod =  (group)", -- [1716]
+			"23:10:22 - Event: (PARTY_LEADER_CHANGED)", -- [1717]
+			"23:10:22 - GetML()", -- [1718]
+			"23:10:22 - LootMethod =  (group)", -- [1719]
+			"23:10:22 - Not in raid group", -- [1720]
+			"23:10:22 - NewMLCheck (Resetting council as we have a new ML!)", -- [1721]
+			"23:10:22 - Some else is ML", -- [1722]
+			"23:10:37 - Timer MLdb_check passed", -- [1723]
+			"23:10:38 - Comm received:^1^SMLdb_request^T^t^^ (from:) (Alslala) (distri:) (WHISPER)", -- [1724]
+			"23:10:38 - Comm received:^1^Scouncil_request^T^t^^ (from:) (Alslala) (distri:) (WHISPER)", -- [1725]
+			"23:15:27 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Tréalis) (distri:) (GUILD)", -- [1726]
+			"23:22:58 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Blazeblué) (distri:) (GUILD)", -- [1727]
+			"23:53:29 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Uwugamergirl) (distri:) (GUILD)", -- [1728]
+			"23:57:29 - Comm received:^1^SverTest^T^N1^S0.22.0^t^^ (from:) (Graveofmaria) (distri:) (GUILD)", -- [1729]
 		},
 		["Classic_game"] = 14,
 		["Classic_oldVersion"] = "0.22.0",
 		["locale"] = "enUS",
 		["verTestCandidates"] = {
-			["Tolazytolvl-Venoxis"] = {
-				"0.21.0", -- [1]
+			["Kholostrus-Venoxis"] = {
+				"0.22.0", -- [1]
 				nil, -- [2]
-				1714078692, -- [3]
+				1717362927, -- [3]
 			},
-			["Minoton-Venoxis"] = {
-				"0.21.0", -- [1]
+			["Uwugamergirl-Venoxis"] = {
+				"0.22.0", -- [1]
 				nil, -- [2]
-				1714078691, -- [3]
+				1717365209, -- [3]
 			},
 			["Graveofmaria-Venoxis"] = {
 				"0.22.0", -- [1]
 				nil, -- [2]
-				1714681651, -- [3]
-			},
-			["Wønka-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1714078691, -- [3]
-			},
-			["Drdôôm-Venoxis"] = {
-				"0.22.0", -- [1]
-				nil, -- [2]
-				1714681651, -- [3]
-			},
-			["Maxîmus-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1714078692, -- [3]
-			},
-			["Taschte-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1714078692, -- [3]
-			},
-			["ûrsus-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1714078692, -- [3]
-			},
-			["Styleplox-Venoxis"] = {
-				"0.21.0", -- [1]
-				nil, -- [2]
-				1714078693, -- [3]
+				1717365449, -- [3]
 			},
 			["Chïca-Venoxis"] = {
 				"0.22.0", -- [1]
 				nil, -- [2]
-				1714681651, -- [3]
+				1717362269, -- [3]
+			},
+			["Alslala-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717365449, -- [3]
+			},
+			["Wallahnyr-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717362269, -- [3]
+			},
+			["Blazeblué-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717363378, -- [3]
+			},
+			["Drdôôm-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717365449, -- [3]
+			},
+			["Jogí-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717362176, -- [3]
+			},
+			["Shamir-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717362269, -- [3]
+			},
+			["Tréalis-Venoxis"] = {
+				"0.22.0", -- [1]
+				nil, -- [2]
+				1717362927, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
@@ -1711,10 +1869,11 @@ RCLootCouncilLootDB = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 }

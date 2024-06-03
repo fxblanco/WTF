@@ -1,26 +1,32 @@
-VER 3 0000000000000B1A "focus" "132097"
+VER 3 0000000000000B30 "focus" "132097"
 /focus
 END
-VER 3 0000000000000B1B "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000B31 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 6
 END
-VER 3 0000000000000B1C "g_hände" "132959"
+VER 3 0000000000000B32 "g_hände" "132959"
 /use 10
 END
-VER 3 0000000000000B1D "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 0000000000000B33 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
-VER 3 0000000000000B20 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Warlord Zaela
+VER 3 0000000000000B37 "prosp" "134400"
+/cast Prospecting
+/use Elementium Ore
+END
+VER 3 0000000000000B34 "RXPTargeting" "132150"
+/targetexact Ramkahen Prisoner
+/targetexact Neferset Overlord
+/targetexact Neferset Enforcer
 /targetlasttarget [dead]
 END
-VER 3 0000000000000B1F "trap_freez" "134400"
+VER 3 0000000000000B35 "trap_freez" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@cursor] Freezing Trap;
 END
-VER 3 0000000000000B1E "trap_ice" "134400"
+VER 3 0000000000000B36 "trap_ice" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@cursor] Ice Trap
 END

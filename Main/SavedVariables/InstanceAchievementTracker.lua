@@ -13154,19 +13154,47 @@ AchievementTrackerDebug = {
 	"0/0/1999 -1:-1 [DEBUG] Enabling Addon", -- [13129]
 	"0/0/1999 -1:-1 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13130]
 	"19/5/2024 23:14 [DEBUG] Showing Minimap Icon", -- [13131]
+	"2/6/2024 23:0 [DEBUG] ---IAT Runtime---", -- [13132]
+	"2/6/2024 23:0 [DEBUG] Version: 4.44.0", -- [13133]
+	"2/6/2024 23:0 [DEBUG] Attempting to load from local NPC Cache classic", -- [13134]
+	"2/6/2024 23:0 [DEBUG] Generating NPC Cache Classic...", -- [13135]
+	"2/6/2024 23:0 [DEBUG] Enabling Addon", -- [13136]
+	"2/6/2024 23:0 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13137]
+	"2/6/2024 23:1 [DEBUG] Showing Minimap Icon", -- [13138]
+	"2/6/2024 23:2 [DEBUG] ---IAT Runtime---", -- [13139]
+	"2/6/2024 23:2 [DEBUG] Version: 4.44.0", -- [13140]
+	"2/6/2024 23:2 [DEBUG] Attempting to load from local NPC Cache classic", -- [13141]
+	"2/6/2024 23:2 [DEBUG] Generating NPC Cache Classic...", -- [13142]
+	"2/6/2024 23:2 [DEBUG] Enabling Addon", -- [13143]
+	"2/6/2024 23:2 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13144]
+	"2/6/2024 23:2 [DEBUG] Showing Minimap Icon", -- [13145]
+	"2/6/2024 23:2 [DEBUG] ---IAT Runtime---", -- [13146]
+	"2/6/2024 23:2 [DEBUG] Version: 4.44.0", -- [13147]
+	"2/6/2024 23:2 [DEBUG] Attempting to load from local NPC Cache classic", -- [13148]
+	"2/6/2024 23:2 [DEBUG] Generating NPC Cache Classic...", -- [13149]
+	"2/6/2024 23:2 [DEBUG] Enabling Addon", -- [13150]
+	"2/6/2024 23:2 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13151]
+	"2/6/2024 23:2 [DEBUG] Showing Minimap Icon", -- [13152]
+	"2/6/2024 23:3 [DEBUG] ---IAT Runtime---", -- [13153]
+	"2/6/2024 23:3 [DEBUG] Version: 4.44.0", -- [13154]
+	"2/6/2024 23:3 [DEBUG] Attempting to load from local NPC Cache classic", -- [13155]
+	"2/6/2024 23:3 [DEBUG] Generating NPC Cache Classic...", -- [13156]
+	"2/6/2024 23:3 [DEBUG] Enabling Addon", -- [13157]
+	"2/6/2024 23:3 [DEBUG] Registering CHAT_MSG_ADDON prefix", -- [13158]
+	"2/6/2024 23:3 [DEBUG] Showing Minimap Icon", -- [13159]
 }
 AchievementTrackerNPCCache = {
-	[31125] = "Archavon the Stone Watcher",
+	[30472] = "Olut Alegut",
 	[54191] = "Risen Ghoul",
 	[33113] = "Flame Leviathan",
 	[33244] = "Mimiron",
 	[32867] = "Steelbreaker",
 	[54969] = "Mannoroth",
-	[30472] = "Olut Alegut",
+	[39987] = "Evolved Twilight Zealot",
 	[33768] = "Rubble",
 	[42753] = "Helix Gearbreaker",
 	[40634] = "Naz'jar Tempest Witch",
-	[39987] = "Evolved Twilight Zealot",
+	[31125] = "Archavon the Stone Watcher",
 	[43468] = "Lady Naz'jar",
 	[15687] = "Moroes",
 	[42428] = "Devout Follower",
@@ -13174,23 +13202,23 @@ AchievementTrackerNPCCache = {
 	[45992] = "Valiona",
 	[32915] = "Elder Brightleaf",
 	[32919] = "Storm Lasher",
-	[29305] = "Moorabi",
+	[27654] = "Drakos the Interrogator",
 	[32927] = "Runemaster Molgeim",
 	[41440] = "Aberration",
-	[27654] = "Drakos the Interrogator",
+	[34605] = "Swarm Scarab",
+	[33121] = "Iron Construct",
 	[33134] = "Sara",
-	[33241] = "Freya",
 	[52422] = "Kaulema the Mover",
 	[29932] = "Eck the Ferocious",
 	[39665] = "Rom'ogg Bonecrusher",
 	[32930] = "Kologarn",
-	[33121] = "Iron Construct",
+	[47739] = "\"Captain\" Cookie",
 	[44606] = "Forsaken Trooper",
 	[52148] = "Jin'do the Godbreaker",
 	[49485] = "Aberration",
 	[36535] = "Corrupted Soul Fragment",
 	[52414] = "Tor-Tun",
-	[55466] = "Twilight Spark",
+	[33241] = "Freya",
 	[33118] = "Ignis the Furnace Master",
 	[53696] = "Fandral's Flame",
 	[42778] = "Admiral Ripsnarl",
@@ -13242,15 +13270,15 @@ AchievementTrackerNPCCache = {
 	[51090] = "Singing Sunflower",
 	[4167] = "Dendrythis",
 	[37890] = "Cult Fanatic",
-	[44530] = "Naz'jar Honor Guard",
+	[27981] = "Malformed Ooze",
 	[33993] = "Emalon the Storm Watcher",
 	[45268] = "Servant of Siamat",
 	[28860] = "Sartharion",
-	[27981] = "Malformed Ooze",
+	[49864] = "Twilight Fiend",
 	[52392] = "Gurubashi Master Chef",
 	[53695] = "Rageface",
 	[43404] = "Maloriak",
-	[49864] = "Twilight Fiend",
+	[44530] = "Naz'jar Honor Guard",
 	[50376] = "Angered Earth",
 	[35013] = "Koralon the Flame Watcher",
 	[1043] = "Lost Whelp",
@@ -13274,10 +13302,10 @@ AchievementTrackerNPCCache = {
 	[38010] = "Reanimated Adherent",
 	[26628] = "Drakkari Scytheclaw",
 	[53258] = "Lord Rhyolith",
-	[47739] = "\"Captain\" Cookie",
+	[55466] = "Twilight Spark",
 	[47297] = "Lumbering Oaf",
 	[51405] = "Angered Earth",
-	[34605] = "Swarm Scarab",
+	[29305] = "Moorabi",
 	[27656] = "Ley-Guardian Eregos",
 	[33343] = "XS-013 Scrapbot",
 	[55334] = "Void of the Unmaking",

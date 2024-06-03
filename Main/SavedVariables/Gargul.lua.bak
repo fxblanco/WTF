@@ -1,12 +1,12 @@
 
 GargulDB = {
-	["TMB"] = {
-	},
 	["BoostedRolls"] = {
-		["Aliases"] = {
-		},
 		["Points"] = {
 		},
+		["Aliases"] = {
+		},
+	},
+	["TMB"] = {
 	},
 	["LoadDetails"] = {
 		["7.4.5"] = 1713563130,
@@ -16,18 +16,10 @@ GargulDB = {
 		["7.4.4"] = 1712692432,
 		["7.4.7"] = 1714070149,
 		["5.1.1"] = 1712692432,
+		["7.4.12"] = 1716153266,
+		["lastLoadedOn"] = 1717362147,
 		["7.2.15"] = 1712354404,
-		["lastLoadedOn"] = 1714681578,
-	},
-	["LootPriority"] = {
-	},
-	["GDKP"] = {
-		["SettingsPerItem"] = {
-		},
-		["Queue"] = {
-		},
-	},
-	["AwardHistory"] = {
+		["7.4.16"] = 1717362078,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -332,13 +324,23 @@ GargulDB = {
 			["hideInfoOfPeopleNotInGroup"] = true,
 		},
 	},
-	["SoftRes"] = {
-	},
-	["RecentlyAwardedItems"] = {
+	["GDKP"] = {
+		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
+		},
 	},
 	["PlusOnes"] = {
 		["Totals"] = {
 		},
+	},
+	["LootPriority"] = {
+	},
+	["SoftRes"] = {
+	},
+	["RecentlyAwardedItems"] = {
+	},
+	["AwardHistory"] = {
 	},
 	["MinimapButton"] = {
 	},
