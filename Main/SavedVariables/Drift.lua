@@ -35,6 +35,13 @@ DriftPoints = {
 		["yOfs"] = -94.5998306274414,
 		["xOfs"] = 424.4998779296875,
 	},
+	["CharacterFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -231.0999298095703,
+		["xOfs"] = 302.9000244140625,
+	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "CENTER",
@@ -42,12 +49,12 @@ DriftPoints = {
 		["yOfs"] = 136.4003753662109,
 		["xOfs"] = -201.849853515625,
 	},
-	["TradeSkillFrame"] = {
+	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -139.9999847412109,
-		["xOfs"] = 381.3999938964844,
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 100,
+		["xOfs"] = 160.0000305175781,
 	},
 	["FriendsFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -56,19 +63,19 @@ DriftPoints = {
 		["yOfs"] = -125.0001220703125,
 		["xOfs"] = 370.6000366210938,
 	},
-	["CharacterFrame"] = {
+	["GossipFrame"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOPLEFT",
 		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -231.0999298095703,
-		["xOfs"] = 302.9000244140625,
+		["yOfs"] = -94,
+		["xOfs"] = 68.00001525878906,
 	},
-	["CommunitiesMover"] = {
+	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 100,
-		["xOfs"] = 160.0000305175781,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -139.9999847412109,
+		["xOfs"] = 381.3999938964844,
 	},
 }
 DriftScales = {
@@ -80,15 +87,15 @@ DriftOptions = {
 	["dragAltKeyEnabled"] = false,
 	["frameDragIsLocked"] = false,
 	["scaleAltKeyEnabled"] = false,
-	["objectivesDisabled"] = true,
-	["bagsDisabled"] = true,
 	["scaleShiftKeyEnabled"] = false,
-	["windowsDisabled"] = false,
+	["bagsDisabled"] = true,
+	["objectivesDisabled"] = true,
+	["scaleCtrlKeyEnabled"] = false,
 	["buttonsDisabled"] = true,
 	["dragCtrlKeyEnabled"] = false,
-	["miscellaneousDisabled"] = true,
-	["frameScaleIsLocked"] = false,
 	["dragShiftKeyEnabled"] = false,
-	["scaleCtrlKeyEnabled"] = false,
+	["frameScaleIsLocked"] = false,
+	["miscellaneousDisabled"] = true,
+	["windowsDisabled"] = false,
 	["minimapDisabled"] = true,
 }

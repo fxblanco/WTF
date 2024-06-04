@@ -1,22 +1,26 @@
-VER 3 0000000000000B30 "focus" "132097"
+VER 3 0000000000000B38 "focus" "132097"
 /focus
 END
-VER 3 0000000000000B31 "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000B39 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
-/use 6
-/use 15
+/use [mod:shift] 15; [mod:ctrl] 6; 6
 END
-VER 3 0000000000000B32 "g_hände" "132959"
+VER 3 0000000000000B3A "g_hände" "132959"
 /use 10
 END
-VER 3 0000000000000B33 "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 0000000000000B3B "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
-VER 3 0000000000000B37 "prosp" "134400"
-/cast Prospecting
-/use Elementium Ore
+VER 3 0000000000000B3E "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Wildhammer Raider
+/targetlasttarget [dead]
 END
-VER 3 0000000000000B34 "RXPTargeting" "132150"
-//RestedXP Guides - current step has no configured targets
+VER 3 0000000000000B3C "trap_freez" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Freezing Trap;
+END
+VER 3 0000000000000B3D "trap_ice" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Ice Trap
 END
