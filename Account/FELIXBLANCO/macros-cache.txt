@@ -13,7 +13,7 @@ VER 3 0000000000000B3B "g_trinket_2" "INV_Misc_QuestionMark"
 /use [mod:shift] 14; 13
 END
 VER 3 0000000000000B3E "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Wildhammer Raider
+/targetexact Gurgthock
 /targetlasttarget [dead]
 END
 VER 3 0000000000000B3C "trap_freez" "INV_Misc_QuestionMark"

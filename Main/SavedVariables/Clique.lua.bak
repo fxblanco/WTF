@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["Alsla - Venoxis"] = {
 			["spec1_profileKey"] = "Alsla - Venoxis",
+			["specswap"] = false,
+			["downclick"] = false,
 			["fastooc"] = false,
 			["spec2_profileKey"] = "Alsla - Venoxis",
-			["downclick"] = false,
 			["alerthidden"] = true,
-			["specswap"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
@@ -26,6 +26,14 @@ CliqueDB3 = {
 			["spec2_profileKey"] = "Alsía - Venoxis",
 			["alerthidden"] = true,
 		},
+		["Alsia - Venoxis"] = {
+			["spec1_profileKey"] = "Alsia - Venoxis",
+			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
+		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
 			["spec2_profileKey"] = "Andrés - Venoxis",
@@ -33,7 +41,12 @@ CliqueDB3 = {
 			["fastooc"] = false,
 			["specswap"] = false,
 		},
-		["Alslahunt - Venoxis"] = {
+		["Alslala - Venoxis"] = {
+			["spec1_profileKey"] = "Alslala - Venoxis",
+			["spec2_profileKey"] = "Alslala - Venoxis",
+			["downclick"] = false,
+			["fastooc"] = false,
+			["specswap"] = false,
 			["alerthidden"] = true,
 		},
 		["Khalimmortus - Venoxis"] = {
@@ -44,13 +57,8 @@ CliqueDB3 = {
 			["alerthidden"] = true,
 			["specswap"] = false,
 		},
-		["Alsia - Venoxis"] = {
-			["spec1_profileKey"] = "Alsia - Venoxis",
+		["Alslahunt - Venoxis"] = {
 			["alerthidden"] = true,
-			["downclick"] = false,
-			["fastooc"] = false,
-			["specswap"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Kwasimojo - Venoxis"] = {
 			["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -66,9 +74,9 @@ CliqueDB3 = {
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
@@ -441,13 +449,13 @@ CliqueDB3 = {
 				}, -- [15]
 			},
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["bindings"] = {
 				{
-					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
+					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -458,6 +466,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 132180,
+					["spell"] = "Misdirection",
+				}, -- [3]
 			},
 		},
 		["Alsiadk - Venoxis"] = {
@@ -488,13 +505,13 @@ CliqueDB3 = {
 				}, -- [3]
 			},
 		},
-		["Alslahunt - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["bindings"] = {
 				{
+					["type"] = "target",
 					["sets"] = {
 						["default"] = true,
 					},
-					["type"] = "target",
 					["key"] = "BUTTON1",
 					["unit"] = "mouseover",
 				}, -- [1]
@@ -505,15 +522,6 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 132180,
-					["spell"] = "Misdirection",
-				}, -- [3]
 			},
 		},
 		["Alsia - Venoxis"] = {
@@ -730,6 +738,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136143,
+					["spell"] = "Raise Ally",
+				}, -- [3]
 			},
 		},
 		["Maturitass - Venoxis"] = {

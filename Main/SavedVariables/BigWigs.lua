@@ -3,36 +3,52 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 16,
+					["emphFontName"] = "Expressway",
+					["emphFontSize"] = 44,
+					["emphPosition"] = {
+						"TOP", -- [1]
+						"TOP", -- [2]
+						nil, -- [3]
+						-206, -- [4]
+					},
+					["fontName"] = "Expressway",
+					["emphOutline"] = "OUTLINE",
+				},
+			},
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
-					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
+					["BigWigsAnchor_width"] = 229.9998626708984,
+					["fill"] = true,
+					["BigWigsEmphasizeAnchor_height"] = 29.99998474121094,
+					["growup"] = true,
+					["fontName"] = "Expressway",
+					["BigWigsAnchor_height"] = 26.99999237060547,
 					["fontSize"] = 14,
 					["visibleBarLimit"] = 10,
-					["BigWigsAnchor_width"] = 229.9999389648438,
 					["BigWigsAnchor_y"] = 256,
-					["emphasizeRestart"] = false,
 					["emphasizeGrowup"] = true,
-					["BigWigsAnchor_x"] = 1240,
 					["texture"] = "Flatt",
 					["barStyle"] = "ElvUI",
-					["BigWigsEmphasizeAnchor_height"] = 30.00000190734863,
-					["growup"] = true,
-					["fontSizeEmph"] = 14,
-					["fontName"] = "Expressway",
-					["BigWigsAnchor_height"] = 26.99997901916504,
-					["fill"] = true,
-					["BigWigsEmphasizeAnchor_width"] = 226.0001068115234,
-					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
 					["emphasizeTime"] = 7,
+					["fontSizeEmph"] = 14,
+					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
+					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
+					["emphasizeRestart"] = false,
+					["BigWigsAnchor_x"] = 1240,
+					["BigWigsEmphasizeAnchor_width"] = 226.0000610351563,
 				},
 				["Default"] = {
 					["BigWigsAnchor_width"] = 220.0002136230469,
@@ -42,46 +58,11 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
-		["LibDualSpec-1.0"] = {
-		},
 		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["posx"] = 801,
-					["fontSize"] = 16,
-					["lock"] = false,
-					["height"] = 101,
-					["posy"] = 417,
-					["fontName"] = "Expressway",
-					["width"] = 120,
-				},
-			},
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 16,
-					["emphPosition"] = {
-						"TOP", -- [1]
-						"TOP", -- [2]
-						nil, -- [3]
-						-206, -- [4]
-					},
-					["emphFontSize"] = 44,
-					["emphFontName"] = "Expressway",
-					["fontName"] = "Expressway",
-					["emphOutline"] = "OUTLINE",
-				},
-			},
 		},
 		["BigWigs_Plugins_AltPower"] = {
 			["profiles"] = {
@@ -99,6 +80,25 @@ BigWigs3DB = {
 					["expanded"] = true,
 				},
 			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["fontSize"] = 16,
+					["fontName"] = "Expressway",
+					["width"] = 120,
+					["posy"] = 417,
+					["lock"] = false,
+					["height"] = 101,
+					["posx"] = 801,
+				},
+			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
@@ -146,21 +146,21 @@ BigWigsStatsDB = {
 				["best"] = 216.8360000000002,
 			},
 			["10N"] = {
-				["best"] = 116.1180000000022,
-				["kills"] = 1,
+				["best"] = 106.0999999999985,
+				["kills"] = 2,
 			},
 		},
 		[158] = {
 			["10N"] = {
-				["kills"] = 2,
-				["wipes"] = 1,
+				["kills"] = 3,
+				["wipes"] = 2,
 				["best"] = 191.0019999999968,
 			},
 		},
 		[157] = {
 			["10N"] = {
 				["best"] = 134.9200000000019,
-				["kills"] = 2,
+				["kills"] = 3,
 			},
 			["10H"] = {
 				["wipes"] = 19,
@@ -168,8 +168,9 @@ BigWigsStatsDB = {
 		},
 		[167] = {
 			["10N"] = {
+				["kills"] = 3,
 				["best"] = 190.2940000000017,
-				["kills"] = 2,
+				["wipes"] = 1,
 			},
 		},
 	},
@@ -243,7 +244,7 @@ BigWigsStatsDB = {
 	[669] = {
 		[172] = {
 			["10N"] = {
-				["kills"] = 2,
+				["kills"] = 3,
 				["best"] = 146.3220000000001,
 				["wipes"] = 2,
 			},
@@ -251,18 +252,18 @@ BigWigsStatsDB = {
 		[169] = {
 			["10N"] = {
 				["best"] = 150.8790000000008,
-				["kills"] = 2,
+				["kills"] = 3,
 			},
 		},
 		[173] = {
 			["10N"] = {
-				["best"] = 169.9249999999956,
-				["kills"] = 2,
+				["best"] = 162.4990000000034,
+				["kills"] = 3,
 			},
 		},
 		[170] = {
 			["10N"] = {
-				["kills"] = 2,
+				["kills"] = 3,
 				["wipes"] = 1,
 				["best"] = 160.0679999999993,
 			},
@@ -272,15 +273,15 @@ BigWigsStatsDB = {
 		},
 		[174] = {
 			["10N"] = {
-				["kills"] = 2,
-				["wipes"] = 8,
+				["kills"] = 3,
+				["wipes"] = 10,
 				["best"] = 296.7860000000001,
 			},
 		},
 		[171] = {
 			["10N"] = {
 				["best"] = 194.8169999999991,
-				["kills"] = 2,
+				["kills"] = 3,
 			},
 		},
 	},
@@ -288,13 +289,13 @@ BigWigsStatsDB = {
 		[154] = {
 			["10N"] = {
 				["best"] = 169.780999999999,
-				["kills"] = 1,
+				["kills"] = 2,
 			},
 		},
 		[155] = {
 			["10N"] = {
 				["best"] = 196.4369999999981,
-				["kills"] = 1,
+				["kills"] = 2,
 			},
 		},
 	},

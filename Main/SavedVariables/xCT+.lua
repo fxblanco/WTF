@@ -12,12 +12,12 @@ xCTSavedDB = {
 		["Maturitass - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Alslala - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Alsiadk - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Alslahunt - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Alsia - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Andrés - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Khalimmortus - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
-		["Alslahunt - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Kwasimojo - Venoxis"] = "MerfinUI v5.22 (Healer)",
 	},
 	["profiles"] = {
@@ -112,11 +112,11 @@ xCTSavedDB = {
 						["Weapon Enchantment"] = false,
 						["Jewelcrafting"] = false,
 						["Meat"] = false,
-						["Materials"] = false,
+						["Explosives"] = false,
 						["Devices"] = false,
 						["Leather"] = false,
 						["Armor Enchantment"] = false,
-						["Explosives"] = false,
+						["Materials"] = false,
 						["Enchanting"] = false,
 						["Cloth"] = false,
 						["Parts"] = false,
@@ -127,9 +127,9 @@ xCTSavedDB = {
 						["Other"] = false,
 						["Reagent"] = false,
 						["Mount"] = false,
+						["Pet"] = false,
 						["Junk"] = false,
 						["Holiday"] = false,
-						["Pet"] = false,
 					},
 					["Recipe"] = {
 						["Tailoring"] = false,
@@ -166,10 +166,6 @@ xCTSavedDB = {
 						["Orange"] = false,
 						["Red"] = false,
 					},
-					["Projectile"] = {
-						["Bullet"] = false,
-						["Arrow"] = false,
-					},
 					["Armor"] = {
 						["Totems"] = false,
 						["Shields"] = false,
@@ -181,6 +177,10 @@ xCTSavedDB = {
 						["Plate"] = false,
 						["Sigils"] = false,
 						["Cloth"] = false,
+					},
+					["Projectile"] = {
+						["Bullet"] = false,
+						["Arrow"] = false,
 					},
 					["version"] = 1,
 					["Glyph"] = {
@@ -245,15 +245,15 @@ xCTSavedDB = {
 					["enableOutAbsorbs"] = false,
 					["fontShadowOffsetX"] = 1,
 					["insertText"] = "top",
-					["enableFontShadow"] = false,
+					["Y"] = -432,
 					["Width"] = 167,
-					["enableOverhealing"] = false,
+					["enableFontShadow"] = false,
 					["font"] = "Expressway",
 					["X"] = 834,
 					["enableHots"] = false,
 					["Height"] = 140,
 					["fontSize"] = 17,
-					["Y"] = -432,
+					["enableOverhealing"] = false,
 					["fontShadowOffsetY"] = -1,
 				},
 				["general"] = {
@@ -315,7 +315,7 @@ xCTSavedDB = {
 		["Alsiadk - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
-		["Alslahunt - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["MerfinUI v5.22 (DPS/Tank)"] = {
@@ -373,10 +373,10 @@ xCTSavedDB = {
 						["Devices"] = false,
 						["Leather"] = false,
 						["Armor Enchantment"] = false,
-						["Materials"] = false,
+						["Explosives"] = false,
 						["Enchanting"] = false,
 						["Cloth"] = false,
-						["Explosives"] = false,
+						["Materials"] = false,
 						["Meat"] = false,
 						["Weapon Enchantment"] = false,
 					},
@@ -384,9 +384,9 @@ xCTSavedDB = {
 						["Other"] = false,
 						["Reagent"] = false,
 						["Mount"] = false,
+						["Junk"] = false,
 						["Holiday"] = false,
 						["Pet"] = false,
-						["Junk"] = false,
 					},
 					["Recipe"] = {
 						["Tailoring"] = false,
@@ -424,10 +424,6 @@ xCTSavedDB = {
 						["Red"] = false,
 					},
 					["version"] = 1,
-					["Projectile"] = {
-						["Arrow"] = false,
-						["Bullet"] = false,
-					},
 					["Armor"] = {
 						["Totems"] = false,
 						["Shields"] = false,
@@ -439,6 +435,10 @@ xCTSavedDB = {
 						["Plate"] = false,
 						["Cloth"] = false,
 						["Sigils"] = false,
+					},
+					["Projectile"] = {
+						["Arrow"] = false,
+						["Bullet"] = false,
 					},
 					["Quest"] = {
 						["Quest"] = false,
@@ -595,7 +595,7 @@ xCTSavedDB = {
 				},
 			},
 		},
-		["Alsia - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Lucho - Venoxis"] = {
@@ -604,7 +604,7 @@ xCTSavedDB = {
 		["Andrés - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alsia - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Khalimmortus - Venoxis"] = {

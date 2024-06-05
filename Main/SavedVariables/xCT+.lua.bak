@@ -10,9 +10,9 @@ xCTSavedDB = {
 		["Alsía - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Exonuklease - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Kwasimojo - Venoxis"] = "MerfinUI v5.22 (Healer)",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Alsiadk - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Alslahunt - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
+		["Alsiadk - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Alsia - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Andrés - Venoxis"] = "MerfinUI v5.22 (DPS/Tank)",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
@@ -133,10 +133,10 @@ xCTSavedDB = {
 						["Devices"] = false,
 						["Leather"] = false,
 						["Armor Enchantment"] = false,
-						["Explosives"] = false,
+						["Materials"] = false,
 						["Enchanting"] = false,
 						["Cloth"] = false,
-						["Materials"] = false,
+						["Explosives"] = false,
 						["Meat"] = false,
 						["Weapon Enchantment"] = false,
 					},
@@ -144,9 +144,9 @@ xCTSavedDB = {
 						["Other"] = false,
 						["Reagent"] = false,
 						["Mount"] = false,
+						["Junk"] = false,
 						["Holiday"] = false,
 						["Pet"] = false,
-						["Junk"] = false,
 					},
 					["Recipe"] = {
 						["Tailoring"] = false,
@@ -184,6 +184,10 @@ xCTSavedDB = {
 						["Red"] = false,
 					},
 					["version"] = 1,
+					["Projectile"] = {
+						["Arrow"] = false,
+						["Bullet"] = false,
+					},
 					["Armor"] = {
 						["Totems"] = false,
 						["Shields"] = false,
@@ -195,10 +199,6 @@ xCTSavedDB = {
 						["Plate"] = false,
 						["Cloth"] = false,
 						["Sigils"] = false,
-					},
-					["Projectile"] = {
-						["Arrow"] = false,
-						["Bullet"] = false,
 					},
 					["Quest"] = {
 						["Quest"] = false,
@@ -251,15 +251,15 @@ xCTSavedDB = {
 					["enableOutAbsorbs"] = false,
 					["fontShadowOffsetX"] = 1,
 					["insertText"] = "top",
-					["enableOverhealing"] = false,
+					["enableFontShadow"] = false,
 					["Width"] = 167,
-					["Y"] = -432,
+					["enableOverhealing"] = false,
 					["font"] = "Expressway",
 					["fontSize"] = 17,
 					["enableHots"] = false,
 					["Height"] = 140,
 					["X"] = 834,
-					["enableFontShadow"] = false,
+					["Y"] = -432,
 					["fontShadowOffsetY"] = -1,
 				},
 				["loot"] = {
@@ -346,11 +346,11 @@ xCTSavedDB = {
 						["Weapon Enchantment"] = false,
 						["Jewelcrafting"] = false,
 						["Meat"] = false,
-						["Materials"] = false,
+						["Explosives"] = false,
 						["Devices"] = false,
 						["Leather"] = false,
 						["Armor Enchantment"] = false,
-						["Explosives"] = false,
+						["Materials"] = false,
 						["Enchanting"] = false,
 						["Cloth"] = false,
 						["Parts"] = false,
@@ -361,9 +361,9 @@ xCTSavedDB = {
 						["Other"] = false,
 						["Reagent"] = false,
 						["Mount"] = false,
+						["Holiday"] = false,
 						["Pet"] = false,
 						["Junk"] = false,
-						["Holiday"] = false,
 					},
 					["Recipe"] = {
 						["Tailoring"] = false,
@@ -400,10 +400,6 @@ xCTSavedDB = {
 						["Orange"] = false,
 						["Red"] = false,
 					},
-					["Projectile"] = {
-						["Bullet"] = false,
-						["Arrow"] = false,
-					},
 					["Armor"] = {
 						["Totems"] = false,
 						["Shields"] = false,
@@ -415,6 +411,10 @@ xCTSavedDB = {
 						["Plate"] = false,
 						["Sigils"] = false,
 						["Cloth"] = false,
+					},
+					["Projectile"] = {
+						["Bullet"] = false,
+						["Arrow"] = false,
 					},
 					["version"] = 1,
 					["Glyph"] = {
@@ -589,13 +589,13 @@ xCTSavedDB = {
 				},
 			},
 		},
-		["Alsia - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Alsiadk - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alsia - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Lucho - Venoxis"] = {
@@ -604,7 +604,7 @@ xCTSavedDB = {
 		["Andrés - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
-		["Alslahunt - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["dbVersion"] = "4.6.1",
 		},
 		["Khalimmortus - Venoxis"] = {

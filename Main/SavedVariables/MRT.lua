@@ -120,14 +120,60 @@ VMRT = {
 				"^756^175^1713733182^456^0^10^277.68^Gnag", -- [53]
 			},
 			["Alslala"] = {
+				"^1030^3^1717615012^106^1^10^350.49^", -- [1]
+				"^1032^3^1717615389^168^1^10^369.95^", -- [2]
+				"^1028^3^1717616144^74^0^10^370.27^Wønka", -- [3]
+				"^1028^3^1717616315^199^1^10^369.95^Wønka", -- [4]
+				"^1029^3^1717616846^242^0^10^370.49^Mattdamonx", -- [5]
+				"^1029^3^1717617168^235^1^10^370.49^", -- [6]
+				"^1035^3^1717617885^232^1^10^370.61^Wønka", -- [7]
+				"^1034^3^1717618306^211^1^10^370.88^", -- [8]
+				"^1024^3^1717619157^169^1^10^370.61^", -- [9]
+				"^1027^3^1717619494^156^1^10^370.61^", -- [10]
+				"^1023^3^1717620014^210^1^10^370.77^Alslala", -- [11]
+				"^1022^3^1717621009^213^1^10^370.69^Ntdøte", -- [12]
+				"^1025^3^1717621680^163^1^10^371.02^", -- [13]
+				"^1026^3^1717622095^154^0^10^371.37^Hakkî", -- [14]
+				"^1026^3^1717622407^315^0^10^371.37^Ntdøte", -- [15]
+				"^1026^3^1717624060^387^0^10^371.37^Hakkî", -- [16]
+				"^1026^3^1717624591^372^1^10^371.37^", -- [17]
 			},
 			["Khalimmortus"] = {
 			},
-			["Andrés"] = {
+			["Alslahunt"] = {
 			},
-			["Exonuklease"] = {
+			["Kwasimojo"] = {
 			},
 			["Alsía"] = {
+			},
+			["Bloodwall"] = {
+			},
+			["Xolem"] = {
+			},
+			["Andrés"] = {
+			},
+			["Alsiadk"] = {
+				"^1030^3^1717179912^117^1^10^371.34^", -- [1]
+				"^1032^3^1717180456^257^0^10^371.34^Vanéc", -- [2]
+				"^1032^3^1717180916^166^1^10^371.34^", -- [3]
+				"^1028^3^1717181724^203^0^10^371.51^Ntdøte", -- [4]
+				"^1028^3^1717182092^271^1^10^371.51^Alsiadk", -- [5]
+				"^1029^3^1717182840^261^1^10^371.51^Ntdøte", -- [6]
+				"^1024^3^1717184169^139^0^10^371.67^Absinthâ", -- [7]
+				"^1024^3^1717184499^207^1^10^371.67^Alsiadk", -- [8]
+				"^1027^3^1717184953^198^1^10^371.75^", -- [9]
+				"^1023^3^1717185390^162^1^10^371.75^Alsiadk", -- [10]
+				"^1022^3^1717186569^260^1^10^371.79^Asamuah", -- [11]
+				"^1025^3^1717187076^170^1^10^371.79^", -- [12]
+				"^1026^3^1717187525^74^0^10^371.79^Jâne", -- [13]
+				"^1026^3^1717187752^297^0^10^371.79^Ntdøte", -- [14]
+				"^1026^3^1717188186^301^0^10^371.75^Shüshkebab", -- [15]
+				"^1026^3^1717188889^179^0^10^371.75^Wønka", -- [16]
+				"^1026^3^1717189251^95^0^10^371.75^Alsiadk", -- [17]
+				"^1026^3^1717189403^42^0^10^371.75^Hennerr", -- [18]
+				"^1026^3^1717189608^312^0^10^371.75^Absinthâ", -- [19]
+				"^1026^3^1717190082^306^0^10^371.75^Jâne", -- [20]
+				"^1026^3^1717190553^296^1^10^371.75^", -- [21]
 			},
 			["Alsla"] = {
 				"^1130^175^1715281226^74^0^10^286.36^Alsla", -- [1]
@@ -176,38 +222,9 @@ VMRT = {
 				"^1035^3^1717360522^170^1^10^375.73^", -- [44]
 				"^1034^3^1717360883^197^1^10^375.73^", -- [45]
 			},
-			["Xolem"] = {
-			},
-			["Alslahunt"] = {
-			},
-			["Alsiadk"] = {
-				"^1030^3^1717179912^117^1^10^371.34^", -- [1]
-				"^1032^3^1717180456^257^0^10^371.34^Vanéc", -- [2]
-				"^1032^3^1717180916^166^1^10^371.34^", -- [3]
-				"^1028^3^1717181724^203^0^10^371.51^Ntdøte", -- [4]
-				"^1028^3^1717182092^271^1^10^371.51^Alsiadk", -- [5]
-				"^1029^3^1717182840^261^1^10^371.51^Ntdøte", -- [6]
-				"^1024^3^1717184169^139^0^10^371.67^Absinthâ", -- [7]
-				"^1024^3^1717184499^207^1^10^371.67^Alsiadk", -- [8]
-				"^1027^3^1717184953^198^1^10^371.75^", -- [9]
-				"^1023^3^1717185390^162^1^10^371.75^Alsiadk", -- [10]
-				"^1022^3^1717186569^260^1^10^371.79^Asamuah", -- [11]
-				"^1025^3^1717187076^170^1^10^371.79^", -- [12]
-				"^1026^3^1717187525^74^0^10^371.79^Jâne", -- [13]
-				"^1026^3^1717187752^297^0^10^371.79^Ntdøte", -- [14]
-				"^1026^3^1717188186^301^0^10^371.75^Shüshkebab", -- [15]
-				"^1026^3^1717188889^179^0^10^371.75^Wønka", -- [16]
-				"^1026^3^1717189251^95^0^10^371.75^Alsiadk", -- [17]
-				"^1026^3^1717189403^42^0^10^371.75^Hennerr", -- [18]
-				"^1026^3^1717189608^312^0^10^371.75^Absinthâ", -- [19]
-				"^1026^3^1717190082^306^0^10^371.75^Jâne", -- [20]
-				"^1026^3^1717190553^296^1^10^371.75^", -- [21]
-			},
 			["Maturitass"] = {
 			},
-			["Bloodwall"] = {
-			},
-			["Kwasimojo"] = {
+			["Exonuklease"] = {
 			},
 			["Lucho"] = {
 			},
@@ -273,13 +290,13 @@ VMRT = {
 			[852] = "Blood Council",
 			[1024] = "Magmaw",
 			[1121] = "The Four Horsemen",
-			[749] = "Kologarn",
+			[1109] = "Gothik the Harvester",
 			[1118] = "Patchwerk",
 			[215] = "Herald Volazj",
 			[1030] = "Halfus Wyrmbreaker",
 			[569] = "Sjonnir the Ironshaper",
 			[375] = "The Prophet Tharon'ja",
-			[1109] = "Gothik the Harvester",
+			[749] = "Kologarn",
 			[750] = "Auriaya",
 			[1110] = "Grand Widow Faerlina",
 			[567] = "Tribunal of Ages",
@@ -302,10 +319,6 @@ VMRT = {
 	},
 	["Marks"] = {
 		["list"] = {
-			"Alsla", -- [1]
-			"Lysaniâ", -- [2]
-			"Speny", -- [3]
-			[6] = "Wønka",
 		},
 	},
 	["ExCD2"] = {
@@ -423,58 +436,62 @@ VMRT = {
 			["Juft"] = 0,
 			["Juday-Golemagg"] = 0,
 			["Yácone"] = 0,
+			["Niplot"] = 0,
 			["Logitwo"] = 0,
+			["Sprill-MirageRaceway"] = 0,
 			["Tréalis"] = 0,
 			["Mynoxd-Gehennas"] = 0,
-			["Xarrøk"] = 0,
-			["Niplot"] = 0,
-			["Sprill-MirageRaceway"] = 0,
 			["Wello"] = 0,
+			["Xarrøk"] = 0,
+			["Muchaolive"] = 0,
+			["Hawty-Gehennas"] = 0,
+			["Mozil-Golemagg"] = 0,
+			["Milõs-Mandokir"] = 0,
 			["Noxhart-Golemagg"] = 0,
 			["Alsiadk"] = 0,
 			["Speny"] = 0,
 			["Xïrt-Sulfuron"] = 0,
-			["Muchaolive"] = 0,
-			["Hawty-Gehennas"] = 0,
-			["Saroki"] = 0,
-			["Mozil-Golemagg"] = 0,
-			["Milõs-Mandokir"] = 0,
 			["Grokkz-Golemagg"] = 0,
-			["Onixus"] = 0,
 			["Starokupuem-Gehennas"] = 0,
-			["Spartos"] = 0,
+			["Saroki"] = 0,
 			["Oldooz"] = 0,
 			["Eloids-Gehennas"] = 0,
+			["Zynny-Golemagg"] = 0,
+			["Onixus"] = 0,
+			["Cykagril"] = 0,
+			["Spartos"] = 0,
+			["Maczeek-Gehennas"] = 0,
+			["Loveforsale-Gehennas"] = 0,
 			["Xolem"] = 0,
 			["Lesbenlisa"] = 0,
-			["Zynny-Golemagg"] = 0,
-			["Maxîmus"] = 0,
-			["Cykagril"] = 0,
-			["Maczeek-Gehennas"] = 0,
-			["Brutarul-Golemagg"] = 0,
-			["Raschedhunt"] = 0,
-			["Fatherjimi-Gehennas"] = 0,
-			["Loveforsale-Gehennas"] = 0,
 			["Chisoko"] = 0,
+			["Maxîmus"] = 0,
 			["Ingemage-Golemagg"] = 0,
+			["Brutarul-Golemagg"] = 0,
+			["Fatherjimi-Gehennas"] = 0,
+			["Raschedhunt"] = 0,
 			["Sutururu-Golemagg"] = 0,
-			["Ñørãj-Sulfuron"] = 0,
-			["Zélø-Sulfuron"] = 0,
 			["Nýðingur-Gehennas"] = 0,
 			["Bainesham-Gehennas"] = 0,
 			["Dasshunt-Gehennas"] = 0,
-			["Grooke-Gehennas"] = 0,
 			["Umadßrô-Gehennas"] = 0,
-			["Ivca-Golemagg"] = 0,
+			["Ñørãj-Sulfuron"] = 0,
+			["Zélø-Sulfuron"] = 0,
 			["Envií"] = 0,
 			["Mõmekø-Gehennas"] = 0,
 			["Agilur-Sulfuron"] = 0,
+			["Torukmagto-MirageRaceway"] = 0,
 			["Moireblast-Gehennas"] = 0,
+			["Ivca-Golemagg"] = 0,
 			["Keknostaff-Gehennas"] = 0,
 			["Raegwyn"] = 0,
 			["Salens"] = 0,
 			["Sewiedewie-Gehennas"] = 0,
+			["Arved"] = 0,
+			["Petê"] = 0,
+			["Commodûs"] = 0,
 			["Nicksoñ-Golemagg"] = 0,
+			["Nicerö"] = 0,
 			["Alanxd-Mandokir"] = 0,
 			["Loride"] = 0,
 			["Håndløs-Gehennas"] = 0,
@@ -483,147 +500,147 @@ VMRT = {
 			["Jamsy-Gehennas"] = 0,
 			["Spénny"] = 0,
 			["Sendmefire"] = 0,
-			["Arved"] = 0,
-			["Petê"] = 0,
-			["Trobl-Firemaw"] = 0,
-			["Commodûs"] = 0,
 			["Oørs-Sulfuron"] = 0,
+			["Taste"] = 0,
+			["Trobl-Firemaw"] = 0,
+			["Ntdøte"] = 0,
+			["Infe"] = 0,
 			["Kajani"] = 0,
 			["Zarrøn"] = 0,
 			["Poisøn-Gehennas"] = 0,
-			["Rtxisoff-Gehennas"] = 0,
 			["Ðadus"] = 0,
+			["Eliothe-Sulfuron"] = 0,
 			["Catarog-Gehennas"] = 0,
-			["Infe"] = 0,
+			["Trollemand-Gehennas"] = 0,
 			["Katsul"] = 0,
-			["Ntdøte"] = 0,
+			["Jonsc"] = 0,
 			["Faight"] = 0,
 			["Bosâ"] = 0,
-			["Trollemand-Gehennas"] = 0,
-			["Taste"] = 0,
-			["Alslala"] = 0,
-			["Trâne-Lakeshire"] = 0,
-			["Frankulkê-Gehennas"] = 0,
-			["Minoton"] = 0,
-			["Sinsaint-Golemagg"] = 0,
 			["Xshamster"] = 0,
+			["Gymbow"] = 0,
+			["Alslala"] = 0,
+			["Kimikimi-Gehennas"] = 0,
 			["Pimeo-Gehennas"] = 0,
+			["Minoton"] = 0,
+			["Yorell"] = 0,
+			["Sinsaint-Golemagg"] = 0,
+			["Khalimmortus"] = 0,
 			["Schicnek"] = 0,
 			["Zweihandsai"] = 0,
-			["Styleplox"] = 0,
-			["Khalimmortus"] = 0,
-			["Sayabala"] = 0,
-			["Yorell"] = 0,
 			["Darkverus-Gehennas"] = 0,
+			["Styleplox"] = 0,
+			["Sayabala"] = 0,
+			["Shamir"] = 0,
+			["Pyzza-Sulfuron"] = 0,
 			["Nilstime"] = 0,
 			["Hoxic-Golemagg"] = 0,
 			["Notyourboomy"] = 0,
-			["Pyzza-Sulfuron"] = 0,
+			["Tesfaye"] = 0,
 			["Unhaunted-Golemagg"] = 0,
 			["Lethè-Gehennas"] = 0,
-			["Jonsc"] = 0,
+			["Deusdominik"] = 0,
 			["Anacronica-Gehennas"] = 0,
 			["Dâemon"] = 0,
-			["Deusdominik"] = 0,
-			["Lystighunter"] = 0,
 			["Bläckrow-Gehennas"] = 0,
 			["Grenzjäger"] = 0,
+			["Lystighunter"] = 0,
+			["Reygharl-Gehennas"] = 0,
 			["Alsla"] = 0,
 			["Purgatorium"] = 0,
 			["Klassíc"] = 0,
 			["Driton"] = 0,
-			["Reygharl-Gehennas"] = 0,
-			["Pippop"] = 0,
 			["Necrotics"] = 0,
+			["Pippop"] = 0,
 			["Jocindyr"] = 0,
+			["Nachomacho-Golemagg"] = 0,
 			["Nahïr-Sulfuron"] = 0,
 			["Nytedk"] = 0,
-			["Nachomacho-Golemagg"] = 0,
-			["Mîlwaukëë-Sulfuron"] = 0,
 			["Nhexuz-Gehennas"] = 0,
-			["Hâkkî"] = 0,
-			["Asamuah"] = 0,
-			["Lystigmage"] = 0,
+			["Dannitanker-Gehennas"] = 0,
 			["Shüshkebab"] = 0,
-			["Carîsma-Gehennas"] = 0,
+			["Hâkkî"] = 0,
 			["Trevilock-Gehennas"] = 0,
+			["Lystigmage"] = 0,
+			["Asamuah"] = 0,
+			["Carîsma-Gehennas"] = 0,
 			["Slyee-MirageRaceway"] = 0,
-			["Teyshtwo-Sulfuron"] = 0,
 			["Johnryy-Gehennas"] = 0,
-			["Uwugamergirl"] = 0,
-			["Holybasher"] = 0,
+			["Teyshtwo-Sulfuron"] = 0,
 			["Andrés"] = 0,
+			["Holybasher"] = 0,
+			["Drubin-Gehennas"] = 0,
 			["Wågwåñbøøtÿx"] = 0,
 			["Alsia"] = 0,
-			["Softcrit"] = 0,
 			["Grimgots-Golemagg"] = 0,
+			["Softcrit"] = 0,
 			["Gurninguk-Gehennas"] = 0,
 			["Døwnup-Gehennas"] = 0,
 			["Crownguard-Gehennas"] = 0,
 			["Dracothar"] = 0,
-			["Oispadenssia-Gehennas"] = 0,
-			["Azukari"] = 0,
 			["Domedonmaya"] = 0,
-			["Drooy-Gehennas"] = 0,
-			["Necoss-Gehennas"] = 0,
 			["Baldyrogue-Golemagg"] = 0,
-			["Àsmodai-Lakeshire"] = 0,
-			["Gnag"] = 0,
-			["Xeeli"] = 0,
-			["Jardínero-Golemagg"] = 0,
-			["Faîlz"] = 0,
+			["Azukari"] = 0,
+			["Vanéc"] = 0,
+			["Drooy-Gehennas"] = 0,
+			["Sui-Sulfuron"] = 0,
 			["Sippahh-Golemagg"] = 0,
-			["Naluro"] = 0,
+			["Àsmodai-Lakeshire"] = 0,
+			["Faîlz"] = 0,
+			["Gnag"] = 0,
+			["Jardínero-Golemagg"] = 0,
+			["Xeeli"] = 0,
 			["Hakkî"] = 0,
-			["Ntdote"] = 0,
-			["Jâne"] = 0,
+			["Naluro"] = 0,
 			["Snoppdropp-Golemagg"] = 0,
-			["Kentharo"] = 0,
-			["Pieshark-Mograine"] = 0,
-			["Rompelstilk-Gehennas"] = 0,
-			["Chïca"] = 0,
-			["Mõrder"] = 0,
-			["Bubbletor-Golemagg"] = 0,
 			["Balalalala"] = 0,
+			["Jâne"] = 0,
+			["Ntdote"] = 0,
+			["Kentharo"] = 0,
+			["Chïca"] = 0,
+			["Rompelstilk-Gehennas"] = 0,
+			["Bubbletor-Golemagg"] = 0,
+			["Mõrder"] = 0,
+			["Pieshark-Mograine"] = 0,
 			["Æwyn"] = 0,
+			["Sisha"] = 0,
 			["Bluschu-MirageRaceway"] = 0,
 			["Friheden-Gehennas"] = 0,
 			["Woraz-Golemagg"] = 0,
 			["Timestampdk-MirageRaceway"] = 0,
-			["Drh-Golemagg"] = 0,
-			["Sisha"] = 0,
 			["Glorping-Sulfuron"] = 0,
+			["Knutte-Gehennas"] = 0,
+			["Drh-Golemagg"] = 0,
 			["Vronos-Auberdine"] = 0,
 			["Hazzq"] = 0,
 			["Lucho"] = 0,
 			["Kholostrus"] = 0,
-			["Knutte-Gehennas"] = 0,
 			["Sólidus-Golemagg"] = 0,
 			["Aorian"] = 0,
 			["Takuta"] = 0,
+			["Zugzugzerg"] = 0,
 			["Deathwajpr-Golemagg"] = 0,
 			["Deadrider-Golemagg"] = 0,
 			["Alsía"] = 0,
-			["Ttw-Gehennas"] = 0,
+			["Marlboros-Golemagg"] = 0,
 			["Darntootin-Gehennas"] = 0,
 			["Läuftbeídir"] = 0,
-			["Marlboros-Golemagg"] = 0,
+			["Calisandre-Gehennas"] = 0,
 			["Znusse-Gehennas"] = 0,
 			["Scuba"] = 0,
 			["Wønka"] = 0,
 			["Scrêeps"] = 0,
-			["Ablajoy"] = 0,
+			["Reinesgold"] = 0,
 			["Lilill"] = 0,
 			["Shekahr"] = 0,
 			["Detea-Gehennas"] = 0,
-			["Shaluunya"] = 0,
-			["Calisandre-Gehennas"] = 0,
-			["Darknesinyou-Gehennas"] = 0,
 			["Swatchx"] = 0,
+			["Darknesinyou-Gehennas"] = 0,
+			["Shaluunya"] = 0,
+			["Ablajoy"] = 0,
 			["Manatria"] = 0,
 			["Nicestar"] = 0,
-			["Reinesgold"] = 0,
-			["Zugzugzerg"] = 0,
+			["Ttw-Gehennas"] = 0,
+			["Mattdamonx"] = 0,
 			["Bloodwall"] = 0,
 			["Chopgun-Gehennas"] = 0,
 			["Anachoreta-Golemagg"] = 0,
@@ -643,10 +660,10 @@ VMRT = {
 			["Rinkr-MirageRaceway"] = 0,
 			["Bergrím-Lakeshire"] = 0,
 			["Ûrsûs"] = 0,
-			["Sui-Sulfuron"] = 0,
+			["Necoss-Gehennas"] = 0,
 			["Larasombardi"] = 0,
 			["Oddsocks"] = 0,
-			["Vanéc"] = 0,
+			["Oispadenssia-Gehennas"] = 0,
 			["Taschte"] = 0,
 			["Habíb"] = 0,
 			["Tummylicker-Gehennas"] = 0,
@@ -655,10 +672,10 @@ VMRT = {
 			["Cogga-Gehennas"] = 0,
 			["Cactie-Gehennas"] = 0,
 			["Hollowayy-Gehennas"] = 0,
-			["Drubin-Gehennas"] = 0,
+			["Uwugamergirl"] = 0,
 			["Sinthâ"] = 0,
 			["Agaricius-Golemagg"] = 0,
-			["Dannitanker-Gehennas"] = 0,
+			["Mîlwaukëë-Sulfuron"] = 0,
 			["Gnomegnasher-Golemagg"] = 0,
 			["Stoffìfee"] = 0,
 			["Dalëk-Golemagg"] = 0,
@@ -679,13 +696,13 @@ VMRT = {
 			["Flafla"] = 0,
 			["Decîmus"] = 0,
 			["Canbor-Gehennas"] = 0,
-			["Shamir"] = 0,
+			["Trâne-Lakeshire"] = 0,
 			["Shîzúyè"] = 0,
-			["Kimikimi-Gehennas"] = 0,
+			["Frankulkê-Gehennas"] = 0,
 			["Mltdwn"] = 0,
 			["Lowp"] = 0,
 			["Guzler-Gehennas"] = 0,
-			["Eliothe-Sulfuron"] = 0,
+			["Rtxisoff-Gehennas"] = 0,
 			["Vqx-Gehennas"] = 0,
 			["Falzi-Golemagg"] = 0,
 			["Kalâs-Mograine"] = 0,
@@ -699,20 +716,20 @@ VMRT = {
 			["Flókii-Gehennas"] = 0,
 			["Warades-Golemagg"] = 0,
 			["Kwasimojo"] = 0,
-			["Cernos-Lakeshire"] = 0,
+			["Grooke-Gehennas"] = 0,
 			["Sigmabale-MirageRaceway"] = 0,
+			["Cernos-Lakeshire"] = 0,
 			["Bichoko-Sulfuron"] = 0,
-			["Torukmagto-MirageRaceway"] = 0,
 			["Herador-Gehennas"] = 0,
 			["Brickthebad-Gehennas"] = 0,
 			["Rothut"] = 0,
 			["Majkey-MirageRaceway"] = 0,
 			["Lysâ"] = 0,
 			["Mikirî"] = 0,
-			["Bobbybigmage-Gehennas"] = 0,
+			["Hazzh"] = 0,
 			["Emlanwarr-Gehennas"] = 0,
 			["Drdôôm"] = 0,
-			["Hazzh"] = 0,
+			["Bobbybigmage-Gehennas"] = 0,
 			["Lattedhos-Gehennas"] = 0,
 			["Rafurzel"] = 0,
 			["Tóngah"] = 0,
@@ -941,11 +958,11 @@ VMRT = {
 		["ReadyCheckFrameOnlyRL"] = true,
 		["FlaskExp"] = 1,
 		["ReadyCheckFrame"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 1109.399658203125,
 		["WeaponEnch"] = {
 		},
 		["ReadyCheckLeft"] = 1731.701171875,
-		["ReadyCheckTop"] = 1109.399658203125,
+		["ReadyCheckFrameTimerFade"] = 4,
 	},
 	["Reminder2"] = {
 		["HistoryFrameShown"] = true,
@@ -986,11 +1003,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4860,
+		["PreVersion"] = 4860,
 		["IconMiniMapTop"] = -39.94675680122825,
-		["Scale"] = 1,
 		["IconMiniMapLeft"] = -63.47642583901839,
 		["Timer"] = 0.1,
-		["PreVersion"] = 4860,
+		["Scale"] = 1,
 	},
 	["WhoPulled"] = {
 	},

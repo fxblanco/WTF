@@ -21,7 +21,7 @@ Postal3DB = {
 			["alts"] = {
 				"Alsiadk|Venoxis|Horde|85|DEATHKNIGHT", -- [1]
 				"Alsia|Venoxis|Horde|80|PALADIN", -- [2]
-				"Alslahunt|Venoxis|Horde|84|HUNTER", -- [3]
+				"Alslahunt|Venoxis|Horde|85|HUNTER", -- [3]
 				"Alslala|Venoxis|Horde|85|DEATHKNIGHT", -- [4]
 				"Alsla|Venoxis|Horde|85|DEATHKNIGHT", -- [5]
 				"Alsía|Venoxis|Horde|80|PALADIN", -- [6]
