@@ -3,45 +3,66 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["LibDualSpec-1.0"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_Pull"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["posx"] = 801,
-					["fontSize"] = 16,
-					["lock"] = false,
-					["height"] = 101,
-					["posy"] = 417,
-					["fontName"] = "Expressway",
-					["width"] = 120,
-				},
-			},
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Countdown"] = {
+		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
 					["outline"] = "OUTLINE",
-					["fontSize"] = 46,
-					["fontName"] = "Expressway",
-					["position"] = {
-						"CENTER", -- [1]
-						"CENTER", -- [2]
+					["fontSize"] = 16,
+					["emphFontName"] = "Expressway",
+					["emphFontSize"] = 44,
+					["emphPosition"] = {
+						"TOP", -- [1]
+						"TOP", -- [2]
 						nil, -- [3]
-						40, -- [4]
+						-206, -- [4]
 					},
+					["fontName"] = "Expressway",
+					["emphOutline"] = "OUTLINE",
 				},
 			},
+		},
+		["BigWigs_Plugins_Colors"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["BigWigsAnchor_width"] = 229.9998626708984,
+					["fill"] = true,
+					["BigWigsEmphasizeAnchor_height"] = 29.99998474121094,
+					["growup"] = true,
+					["fontName"] = "Expressway",
+					["BigWigsAnchor_height"] = 26.99999237060547,
+					["fontSize"] = 14,
+					["visibleBarLimit"] = 10,
+					["BigWigsAnchor_y"] = 256,
+					["emphasizeGrowup"] = true,
+					["texture"] = "Flatt",
+					["barStyle"] = "ElvUI",
+					["emphasizeTime"] = 7,
+					["fontSizeEmph"] = 14,
+					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
+					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
+					["emphasizeRestart"] = false,
+					["BigWigsAnchor_x"] = 1240,
+					["BigWigsEmphasizeAnchor_width"] = 226.0000610351563,
+				},
+				["Default"] = {
+					["BigWigsAnchor_width"] = 220.0002136230469,
+					["BigWigsEmphasizeAnchor_width"] = 319.9999389648438,
+					["BigWigsEmphasizeAnchor_height"] = 21.9999885559082,
+					["BigWigsAnchor_height"] = 16.00011825561523,
+				},
+			},
+		},
+		["BigWigs_Plugins_Wipe"] = {
+		},
+		["BigWigs_Plugins_InfoBox"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 			["profiles"] = {
@@ -60,73 +81,52 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_Colors"] = {
+		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-		},
-		["BigWigs_Plugins_Bars"] = {
+		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
-					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
-					["fontSize"] = 14,
-					["visibleBarLimit"] = 10,
-					["BigWigsAnchor_width"] = 229.9998474121094,
-					["BigWigsAnchor_y"] = 256,
-					["emphasizeRestart"] = false,
-					["emphasizeGrowup"] = true,
-					["BigWigsAnchor_x"] = 1240,
-					["emphasizeTime"] = 7,
-					["barStyle"] = "ElvUI",
-					["BigWigsEmphasizeAnchor_height"] = 29.99998283386231,
-					["growup"] = true,
-					["BigWigsEmphasizeAnchor_width"] = 226.0000305175781,
+					["fontSize"] = 16,
 					["fontName"] = "Expressway",
-					["BigWigsAnchor_height"] = 26.99998092651367,
-					["texture"] = "Flatt",
-					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
-					["fontSizeEmph"] = 14,
-					["fill"] = true,
-				},
-				["Default"] = {
-					["BigWigsAnchor_width"] = 220.0002136230469,
-					["BigWigsEmphasizeAnchor_width"] = 319.9999389648438,
-					["BigWigsEmphasizeAnchor_height"] = 21.9999885559082,
-					["BigWigsAnchor_height"] = 16.00011825561523,
+					["width"] = 120,
+					["posy"] = 417,
+					["lock"] = false,
+					["height"] = 101,
+					["posx"] = 801,
 				},
 			},
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Plugins_Pull"] = {
+		},
+		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
 					["outline"] = "OUTLINE",
-					["fontSize"] = 16,
-					["emphOutline"] = "OUTLINE",
+					["fontSize"] = 46,
 					["fontName"] = "Expressway",
-					["emphFontName"] = "Expressway",
-					["emphFontSize"] = 44,
-					["emphPosition"] = {
-						"TOP", -- [1]
-						"TOP", -- [2]
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
 						nil, -- [3]
-						-206, -- [4]
+						40, -- [4]
 					},
 				},
 			},
+		},
+	},
+	["global"] = {
+		["watchedMovies"] = {
+			[-323] = true,
 		},
 	},
 	["profileKeys"] = {
 		["Alsiadk - Venoxis"] = "Default",
 		["Alslala - Venoxis"] = "MerfinUI v5.22",
 		["Alsla - Venoxis"] = "MerfinUI v5.22",
-	},
-	["global"] = {
-		["watchedMovies"] = {
-			[-323] = true,
-		},
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {

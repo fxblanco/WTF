@@ -74132,13 +74132,13 @@ WeakAurasOptionsSaved = {
 	["version"] = "5.13.2",
 	["savedSnippets"] = {
 	},
-	["spellCacheStrings"] = true,
-	["frame"] = {
-		["xOffset"] = 2825.899017333984,
-		["width"] = 945.2000122070312,
-		["height"] = 1051.099975585938,
-		["yOffset"] = 1331.900146484375,
-	},
 	["spellCacheAchievements"] = true,
+	["frame"] = {
+		["xOffset"] = 2076.199829101563,
+		["yOffset"] = 1331.900146484375,
+		["height"] = 1051.099975585938,
+		["width"] = 945.199951171875,
+	},
+	["spellCacheStrings"] = true,
 	["build"] = "55006",
 }

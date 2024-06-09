@@ -14,6 +14,13 @@ DriftPoints = {
 		["yOfs"] = -239.1000823974609,
 		["xOfs"] = 221.6001129150391,
 	},
+	["InspectFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -142.6999359130859,
+		["xOfs"] = -178.7000579833984,
+	},
 	["PVPFrame"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOP",
@@ -37,10 +44,10 @@ DriftPoints = {
 	},
 	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -231.0999298095703,
-		["xOfs"] = 302.9000244140625,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -134.8002471923828,
+		["xOfs"] = 99.5,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -51,10 +58,10 @@ DriftPoints = {
 	},
 	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 100,
-		["xOfs"] = 160.0000305175781,
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 250.2998809814453,
+		["xOfs"] = -321.2998962402344,
 	},
 	["FriendsFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -72,10 +79,10 @@ DriftPoints = {
 	},
 	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -139.9999847412109,
-		["xOfs"] = 381.3999938964844,
+		["point"] = "TOPRIGHT",
+		["relativePoint"] = "TOPRIGHT",
+		["yOfs"] = -173.5294036865234,
+		["xOfs"] = -316.893798828125,
 	},
 }
 DriftScales = {

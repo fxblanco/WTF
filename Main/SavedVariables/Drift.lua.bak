@@ -51,10 +51,10 @@ DriftPoints = {
 	},
 	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 100,
-		["xOfs"] = 160.0000305175781,
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 250.2998809814453,
+		["xOfs"] = -321.2998962402344,
 	},
 	["FriendsFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -72,10 +72,10 @@ DriftPoints = {
 	},
 	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -231.0999298095703,
-		["xOfs"] = 302.9000244140625,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -150.1000366210938,
+		["xOfs"] = -103.8996734619141,
 	},
 }
 DriftScales = {
