@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-	["session"] = 302,
 	["lastSanitation"] = 3,
+	["session"] = 309,
 	["errors"] = {
 		{
 			["message"] = "Lua error in aura 'M: Easy PP - Backend': init\nWeakAuras Version: 5.12.7\nAura Version: 1.0.24\n[string \"return function() C_ChatInfo.RegisterAddonM...\"]:10: attempt to index global 'PallyPower' (a nil value)",
@@ -53,14 +53,14 @@ BugGrabberDB = {
 		}, -- [6]
 		{
 			["message"] = "Interface/AddOns/Clique/ClickCastTemplate.xml:6 Deferred XML Node object named ClickCastUnitTemplate already exists",
-			["session"] = 52,
 			["time"] = "2024/04/06 01:48:23",
+			["session"] = 52,
 			["counter"] = 8,
 		}, -- [7]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/Clique/ClickCastTemplate.xml:6 Deferred XML Node object named ClickCastUnitTemplate already exists",
-			["session"] = 52,
 			["time"] = "2024/04/06 01:48:23",
+			["session"] = 52,
 			["counter"] = 8,
 		}, -- [8]
 		{
@@ -81,62 +81,62 @@ BugGrabberDB = {
 		}, -- [10]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:32 Error loading Interface/AddOns/Gargul/Data/Localizations/cn.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [11]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:34 Error loading Interface/AddOns/Gargul/Data/Localizations/es.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [12]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:35 Error loading Interface/AddOns/Gargul/Data/Localizations/fr.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [13]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:36 Error loading Interface/AddOns/Gargul/Data/Localizations/it.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [14]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:37 Error loading Interface/AddOns/Gargul/Data/Localizations/ko.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [15]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:38 Error loading Interface/AddOns/Gargul/Data/Localizations/pt.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [16]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:39 Error loading Interface/AddOns/Gargul/Data/Localizations/ru.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [17]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:40 Error loading Interface/AddOns/Gargul/Data/Localizations/tw.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [18]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:41 Error loading Interface/AddOns/Gargul/Data/Localizations/chat.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [19]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:96 Error loading Interface/AddOns/Gargul/Interface/Locale.lua",
-			["session"] = 71,
 			["time"] = "2024/04/09 21:44:58",
+			["session"] = 71,
 			["counter"] = 1,
 		}, -- [20]
 		{
@@ -309,14 +309,14 @@ BugGrabberDB = {
 		}, -- [41]
 		{
 			["message"] = "Interface/AddOns/AddOnSkins/Core/ElvUI.lua:1 (null)",
-			["time"] = "2024/04/25 23:26:16",
 			["session"] = 130,
+			["time"] = "2024/04/25 23:26:16",
 			["counter"] = 1,
 		}, -- [42]
 		{
 			["message"] = "Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/AddOnSkins/Core/ElvUI.lua:1 (null)",
-			["time"] = "2024/04/25 23:26:16",
 			["session"] = 130,
+			["time"] = "2024/04/25 23:26:16",
 			["counter"] = 1,
 		}, -- [43]
 		{
@@ -1480,69 +1480,13 @@ BugGrabberDB = {
 			["counter"] = 93,
 		}, -- [188]
 		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 21,
-		}, -- [189]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 21,
-		}, -- [190]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 21,
-		}, -- [191]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 21,
-		}, -- [192]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 21,
-		}, -- [193]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 21,
-		}, -- [194]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 42,
-		}, -- [195]
-		{
-			["message"] = "Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow",
-			["session"] = 302,
-			["time"] = "2024/06/02 23:01:36",
-			["counter"] = 40,
-		}, -- [196]
-		{
 			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'Myslot' tried to call the protected function 'CompactRaidFrame1:Show()'.",
 			["time"] = "2024/04/26 21:46:24",
 			["locals"] = "Skipped (In Encounter)",
 			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `Show'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:372: in function `CompactUnitFrame_UpdateVisible'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:299: in function `CompactUnitFrame_UpdateAll'\n[string \"@Interface_Wrath/FrameXML/CompactUnitFrame.lua\"]:132: in function <Interface_Wrath/FrameXML/CompactUnitFrame.lua:59>",
 			["session"] = 302,
 			["counter"] = 15,
-		}, -- [197]
-		{
-			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI' tried to call the protected function 'WatchFrame:SetWidth()'.",
-			["time"] = "2024/05/05 21:02:20",
-			["locals"] = "Skipped (In Encounter)",
-			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua\"]:322: in function <...e/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua:320>\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua\"]:32: in function <...ddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua\"]:382: in function `Hide'\n[string \"if newstate == 1 then self:Hide() else self:Show() end\"]:1: in function <[string \"if newstate == 1 then self:Hide() else self...\"]:1>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua\"]:484: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:447>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureHandlers.lua\"]:115: in function <...nterface/AddOns/Blizzard_FrameXML/SecureHandlers.lua:110>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:114: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:95>\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:127: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:119>",
-			["session"] = 302,
-			["counter"] = 5,
-		}, -- [198]
+		}, -- [189]
 		{
 			["message"] = "...e/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua:75: attempt to call field 'FindFlyoutActionButtons' (a nil value)",
 			["time"] = "2024/05/02 21:50:42",
@@ -1550,7 +1494,7 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua\"]:75: in function <...e/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua:74>\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua\"]:988: in function <.../AddOns/ElvUI/Core/Modules/ActionBars/ActionBars.lua:965>\n[string \"=[C]\"]: ?",
 			["session"] = 302,
 			["counter"] = 7,
-		}, -- [199]
+		}, -- [190]
 		{
 			["message"] = "...ce/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.lua:579: attempt to index global 'self' (a nil value)",
 			["time"] = "2024/06/10 00:56:48",
@@ -1558,6 +1502,78 @@ BugGrabberDB = {
 			["stack"] = "[string \"@Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.lua\"]:579: in function `MoneyFrame_AccumulateAlignmentWidths'\n[string \"@Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.lua\"]:333: in function `SetTooltipMoney'\n[string \"@Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.lua\"]:2070: in function <...ns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.lua:2049>\n[string \"@Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.lua\"]:2121: in function <...ns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.lua:2115>",
 			["session"] = 302,
 			["counter"] = 1,
+		}, -- [191]
+		{
+			["message"] = "Lua error in aura '!Merfin Class Settings': init\nWeakAuras Version: 5.13.2\nAura Version: 1.0.0\n[string \"return function() -- This need to be rework...\"]:2: attempt to index global 'Merfin' (a nil value)",
+			["time"] = "2024/06/13 00:00:03",
+			["locals"] = "(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index global 'Merfin' (a nil value)\"\n",
+			["stack"] = "[string \"return function() -- This need to be reworked but it's fine for now\"]:2: in function <[string \"return function() -- This need to be rework...\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/AuraEnvironment.lua\"]:374: in function `ActivateAuraEnvironment'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1026: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4501: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4477: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3172: in function <Interface/AddOns/WeakAuras/WeakAuras.lua:3027>\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:3192: in function `Add'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/Update.lua\"]:2027: in function `ImportPhase1'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/Update.lua\"]:1640: in function `ImportImpl'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/Update.lua\"]:1609: in function <...ace/AddOns/WeakAurasOptions/OptionsFrames/Update.lua:1608>",
+			["session"] = 304,
+			["counter"] = 2,
+		}, -- [192]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:355 Frame BindPadFrameTab2: Unknown method OnLoad in element OnLoad",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 28,
+		}, -- [193]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:356 Frame BindPadFrameTab2: Unknown method OnShow in element OnShow",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 28,
+		}, -- [194]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:377 Frame BindPadFrameTab3: Unknown method OnLoad in element OnLoad",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 28,
+		}, -- [195]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:378 Frame BindPadFrameTab3: Unknown method OnShow in element OnShow",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 28,
+		}, -- [196]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:399 Frame BindPadFrameTab4: Unknown method OnLoad in element OnLoad",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 28,
+		}, -- [197]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:400 Frame BindPadFrameTab4: Unknown method OnShow in element OnShow",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 28,
+		}, -- [198]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:333 Frame BindPadFrameTab1: Unknown method OnLoad in element OnLoad",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 56,
+		}, -- [199]
+		{
+			["message"] = "Interface/AddOns/BindPad/BindPad.xml:334 Frame BindPadFrameTab1: Unknown method OnShow in element OnShow",
+			["time"] = "2024/06/02 23:01:36",
+			["session"] = 309,
+			["counter"] = 54,
 		}, -- [200]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'WeakAuras' tried to call the protected function 'Frame:SetFrameStrata()'.",
+			["time"] = "2024/06/13 00:34:52",
+			["locals"] = "_ = Frame {\n RegisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n 0 = <userdata>\n UnregisterEvent = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n SetScript = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:491\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n ADDON_ACTION_BLOCKED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n ADDON_ACTION_FORBIDDEN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:557\n PLAYER_LOGIN = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:551\n LUA_WARNING = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:566\n ADDON_LOADED = <function> defined @Interface/AddOns/!BugGrabber/BugGrabber.lua:511\n}\n",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetFrameStrata'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:5847: in function `AnchorFrame'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:5682: in function `func'\n[string \"@Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceTimer-3.0-17/AceTimer-3.0.lua\"]:57: in function <...UI_Libraries/Core/Ace3/AceTimer-3.0/AceTimer-3.0.lua:50>",
+			["session"] = 309,
+			["counter"] = 1,
+		}, -- [201]
+		{
+			["message"] = "[ADDON_ACTION_BLOCKED] AddOn 'ElvUI' tried to call the protected function 'WatchFrame:SetWidth()'.",
+			["time"] = "2024/05/05 21:02:20",
+			["locals"] = "Skipped (In Encounter)",
+			["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetWidth'\n[string \"@Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua\"]:322: in function <...e/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.lua:320>\n[string \"@Interface/AddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua\"]:32: in function <...ddOns/ElvUI/Cata/Modules/Blizzard/ObjectiveFrame.lua:29>\n[string \"=[C]\"]: in function `Hide'\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedFrames.lua\"]:382: in function `Hide'\n[string \"if newstate == 1 then self:Hide() else self:Show() end\"]:1: in function <[string \"if newstate == 1 then self:Hide() else self...\"]:1>\n[string \"=(tail call)\"]: ?\n[string \"=[C]\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/RestrictedExecution.lua\"]:484: in function <...ace/AddOns/Blizzard_FrameXML/RestrictedExecution.lua:447>\n[string \"=(tail call)\"]: ?\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureHandlers.lua\"]:115: in function <...nterface/AddOns/Blizzard_FrameXML/SecureHandlers.lua:110>\n[string \"=[C]\"]: in function `SetAttribute'\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:114: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:95>\n[string \"@Interface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua\"]:127: in function <...rface/AddOns/Blizzard_FrameXML/SecureStateDriver.lua:119>",
+			["session"] = 309,
+			["counter"] = 6,
+		}, -- [202]
 	},
 }

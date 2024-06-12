@@ -1,25 +1,22 @@
-VER 3 0000000000000B3F "focus" "132097"
+VER 3 0000000000000B51 "focus" "132097"
 /focus
 END
-VER 3 0000000000000B40 "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000B52 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 6
 END
-VER 3 0000000000000B41 "g_hände" "132959"
+VER 3 0000000000000B53 "g_hände" "132959"
 /use 10
 END
-VER 3 0000000000000B42 "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 0000000000000B54 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
-VER 3 0000000000000B43 "RXPTargeting" "132150"
+VER 3 0000000000000B55 "RXPTargeting" "132150"
 //RestedXP Guides - current step has no configured targets
 END
-VER 3 0000000000000B44 "trap_freez" "INV_Misc_QuestionMark"
-#showtooltip
+VER 3 0000000000000B56 "trap_freez" "INV_Misc_QuestionMark"
+#showtooltip Freezing Trap
+/cast Trap Launcher
 /cast [@cursor] Freezing Trap;
-END
-VER 3 0000000000000B45 "trap_ice" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@cursor] Ice Trap
 END

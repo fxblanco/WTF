@@ -42,12 +42,12 @@ DriftPoints = {
 		["yOfs"] = -94.5998306274414,
 		["xOfs"] = 424.4998779296875,
 	},
-	["CharacterFrame"] = {
+	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -134.8002471923828,
-		["xOfs"] = 99.5,
+		["point"] = "TOPRIGHT",
+		["relativePoint"] = "TOPRIGHT",
+		["yOfs"] = -173.5294036865234,
+		["xOfs"] = -316.893798828125,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -77,12 +77,12 @@ DriftPoints = {
 		["yOfs"] = -94,
 		["xOfs"] = 68.00001525878906,
 	},
-	["TradeSkillFrame"] = {
+	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOPRIGHT",
-		["relativePoint"] = "TOPRIGHT",
-		["yOfs"] = -173.5294036865234,
-		["xOfs"] = -316.893798828125,
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 239.9999237060547,
+		["xOfs"] = 528.10009765625,
 	},
 }
 DriftScales = {
@@ -94,15 +94,15 @@ DriftOptions = {
 	["dragAltKeyEnabled"] = false,
 	["frameDragIsLocked"] = false,
 	["scaleAltKeyEnabled"] = false,
-	["scaleShiftKeyEnabled"] = false,
-	["bagsDisabled"] = true,
 	["objectivesDisabled"] = true,
-	["scaleCtrlKeyEnabled"] = false,
+	["bagsDisabled"] = true,
+	["scaleShiftKeyEnabled"] = false,
+	["windowsDisabled"] = false,
 	["buttonsDisabled"] = true,
 	["dragCtrlKeyEnabled"] = false,
-	["dragShiftKeyEnabled"] = false,
-	["frameScaleIsLocked"] = false,
 	["miscellaneousDisabled"] = true,
-	["windowsDisabled"] = false,
+	["frameScaleIsLocked"] = false,
+	["dragShiftKeyEnabled"] = false,
+	["scaleCtrlKeyEnabled"] = false,
 	["minimapDisabled"] = true,
 }

@@ -14,6 +14,13 @@ DriftPoints = {
 		["yOfs"] = -239.1000823974609,
 		["xOfs"] = 221.6001129150391,
 	},
+	["InspectFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -142.6999359130859,
+		["xOfs"] = -178.7000579833984,
+	},
 	["PVPFrame"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOP",
@@ -35,12 +42,12 @@ DriftPoints = {
 		["yOfs"] = -94.5998306274414,
 		["xOfs"] = 424.4998779296875,
 	},
-	["TradeSkillFrame"] = {
+	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -139.9999847412109,
-		["xOfs"] = 381.3999938964844,
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 239.9999237060547,
+		["xOfs"] = 528.10009765625,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -70,12 +77,12 @@ DriftPoints = {
 		["yOfs"] = -94,
 		["xOfs"] = 68.00001525878906,
 	},
-	["CharacterFrame"] = {
+	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -150.1000366210938,
-		["xOfs"] = -103.8996734619141,
+		["point"] = "TOPRIGHT",
+		["relativePoint"] = "TOPRIGHT",
+		["yOfs"] = -173.5294036865234,
+		["xOfs"] = -316.893798828125,
 	},
 }
 DriftScales = {
@@ -87,15 +94,15 @@ DriftOptions = {
 	["dragAltKeyEnabled"] = false,
 	["frameDragIsLocked"] = false,
 	["scaleAltKeyEnabled"] = false,
-	["objectivesDisabled"] = true,
-	["bagsDisabled"] = true,
 	["scaleShiftKeyEnabled"] = false,
-	["windowsDisabled"] = false,
+	["bagsDisabled"] = true,
+	["objectivesDisabled"] = true,
+	["scaleCtrlKeyEnabled"] = false,
 	["buttonsDisabled"] = true,
 	["dragCtrlKeyEnabled"] = false,
-	["miscellaneousDisabled"] = true,
-	["frameScaleIsLocked"] = false,
 	["dragShiftKeyEnabled"] = false,
-	["scaleCtrlKeyEnabled"] = false,
+	["frameScaleIsLocked"] = false,
+	["miscellaneousDisabled"] = true,
+	["windowsDisabled"] = false,
 	["minimapDisabled"] = true,
 }
