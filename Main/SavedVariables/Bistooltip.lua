@@ -5,21 +5,21 @@ BisTooltipDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
-		["Alslala - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
 		["Alsiadk - Venoxis"] = "Default",
 		["Alsia - Venoxis"] = "Default",
 		["Alslahunt - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
+		["Alslala - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
 	},
 	["char"] = {
 		["Alsla - Venoxis"] = {
-			["data_source"] = "wh",
 			["version"] = 8,
+			["data_source"] = "wh",
 			["phase_index"] = 2,
 		},
 		["Xolem - Venoxis"] = {
@@ -34,13 +34,13 @@ BisTooltipDB = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 8,
+			["version"] = 6.2,
 		},
-		["Alslala - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 8,
+			["version"] = 6.2,
 		},
 		["Alsiadk - Venoxis"] = {
 			["data_source"] = "wh",
@@ -54,8 +54,9 @@ BisTooltipDB = {
 		["Alslahunt - Venoxis"] = {
 			["class_index"] = 3,
 			["version"] = 8,
-			["data_source"] = "wh",
 			["spec_index"] = 3,
+			["data_source"] = "wh",
+			["phase_index"] = 2,
 		},
 		["Andrés - Venoxis"] = {
 			["data_source"] = "wh",
@@ -67,17 +68,17 @@ BisTooltipDB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["minimapPos"] = 273.5075123040884,
-			["data_source"] = "wh",
 			["version"] = 6.2,
+			["data_source"] = "wh",
 			["phase_index"] = 3,
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alslala - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 6.2,
+			["version"] = 8,
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 6.2,
+			["version"] = 8,
 		},
 	},
 }
