@@ -5,16 +5,16 @@ Details_StreamerDB = {
 		["Xolem - Venoxis"] = "Alsia - Venoxis",
 		["Alsía - Venoxis"] = "Alsia - Venoxis",
 		["Exonuklease - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Alsia - Venoxis",
-		["Alslala - Venoxis"] = "Alsia - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
 		["Alslahunt - Venoxis"] = "Alsia - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsia - Venoxis",
+		["Bloodwall - Venoxis"] = "Alsia - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Alsia - Venoxis",
 		["Lucho - Venoxis"] = "Alsia - Venoxis",
 		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
-		["Bloodwall - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
+		["Alslala - Venoxis"] = "Alsia - Venoxis",
+		["Maturitass - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {
 		["Alsia - Venoxis"] = {
@@ -46,22 +46,6 @@ Details_StreamerDB = {
 			},
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["use_spark"] = true,
-			["author"] = "Terciob",
-			["square_amount"] = 5,
-			["enabled"] = false,
-			["arrow_size"] = 10,
-			["y"] = 1.52587890625e-05,
-			["row_spacement"] = 21,
-			["main_frame_color"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.2, -- [4]
-			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -73,6 +57,22 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["size"] = 32,
 			},
+			["author"] = "Terciob",
+			["square_amount"] = 5,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["font_size"] = 10,
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 1.52587890625e-05,
+			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,

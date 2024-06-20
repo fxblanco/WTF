@@ -1,14 +1,18 @@
-VER 3 0000000000000B65 "focus" "132097"
+VER 3 0000000000000B86 "focus" "132097"
 /focus
 END
-VER 3 0000000000000B66 "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000B87 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 6
 END
-VER 3 0000000000000B67 "g_hände" "132959"
+VER 3 0000000000000B88 "g_hände" "132959"
 /use 10
 END
-VER 3 0000000000000B68 "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 0000000000000B89 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
+END
+VER 3 0000000000000B8A "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Twilight Buzzard
+/targetlasttarget [dead]
 END
