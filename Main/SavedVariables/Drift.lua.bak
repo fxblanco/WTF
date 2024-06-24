@@ -25,8 +25,8 @@ DriftPoints = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOP",
 		["relativePoint"] = "TOP",
-		["yOfs"] = -86.66664123535156,
-		["xOfs"] = -137.1333465576172,
+		["yOfs"] = -81.26660919189453,
+		["xOfs"] = -333.333251953125,
 	},
 	["SettingsPanel"] = {
 		["relativeTo"] = "UIParent",
@@ -44,17 +44,17 @@ DriftPoints = {
 	},
 	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -144.6998291015625,
-		["xOfs"] = -434.6998901367188,
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 159.9002075195313,
+		["xOfs"] = -42.30024719238281,
 	},
 	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -118.1002655029297,
-		["xOfs"] = -46.80025100708008,
+		["point"] = "RIGHT",
+		["relativePoint"] = "RIGHT",
+		["yOfs"] = 234.0997161865234,
+		["xOfs"] = -210.4004669189453,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -86,16 +86,18 @@ DriftPoints = {
 	},
 	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOPRIGHT",
-		["relativePoint"] = "TOPRIGHT",
-		["yOfs"] = -173.5294036865234,
-		["xOfs"] = -316.893798828125,
+		["point"] = "RIGHT",
+		["relativePoint"] = "RIGHT",
+		["yOfs"] = 187.2354431152344,
+		["xOfs"] = -266.5991516113281,
 	},
 }
 DriftScales = {
 	["QuestLogFrame"] = 1.009999990463257,
-	["TradeSkillFrame"] = 1.019999980926514,
+	["CommunitiesMover"] = 0.8500001430511475,
+	["CharacterFrame"] = 1,
 	["GameMenuFrame"] = 1.049999952316284,
+	["TradeSkillFrame"] = 1.019999980926514,
 }
 DriftOptions = {
 	["dragAltKeyEnabled"] = false,
