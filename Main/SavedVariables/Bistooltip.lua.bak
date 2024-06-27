@@ -18,8 +18,8 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Alsla - Venoxis"] = {
-			["data_source"] = "wh",
 			["version"] = 8,
+			["data_source"] = "wh",
 			["phase_index"] = 2,
 		},
 		["Xolem - Venoxis"] = {
@@ -28,9 +28,9 @@ BisTooltipDB = {
 		},
 		["Alsía - Venoxis"] = {
 			["class_index"] = 5,
-			["version"] = 8,
-			["data_source"] = "wh",
 			["spec_index"] = 3,
+			["data_source"] = "wh",
+			["version"] = 8,
 		},
 		["Exonuklease - Venoxis"] = {
 			["data_source"] = "wh",
@@ -51,8 +51,8 @@ BisTooltipDB = {
 		["Alsia - Venoxis"] = {
 			["minimapPos"] = 173.254854658173,
 			["class_index"] = 5,
-			["data_source"] = "wh",
 			["version"] = 8,
+			["data_source"] = "wh",
 		},
 		["Alslahunt - Venoxis"] = {
 			["class_index"] = 3,
@@ -78,6 +78,7 @@ BisTooltipDB = {
 		["Alslala - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 8,
+			["phase_index"] = 2,
 		},
 		["Kwasimojo - Venoxis"] = {
 			["data_source"] = "wh",

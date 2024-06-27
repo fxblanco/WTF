@@ -12,3 +12,12 @@ VER 3 0000000000000B9C "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
+VER 3 0000000000000B9D "PvPTrinket" "134400"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000B9E "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Windspeaker Tamila
+/targetexact Malfurion Stormrage
+/targetlasttarget [dead]
+END
