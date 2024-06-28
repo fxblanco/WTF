@@ -18,8 +18,8 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Alsla - Venoxis"] = {
-			["version"] = 8,
 			["data_source"] = "wh",
+			["version"] = 8,
 			["phase_index"] = 2,
 		},
 		["Xolem - Venoxis"] = {

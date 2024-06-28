@@ -86,10 +86,10 @@ DriftPoints = {
 	},
 	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 239.0998840332031,
-		["xOfs"] = 187.0018615722656,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -239.2001037597656,
+		["xOfs"] = -407.8980407714844,
 	},
 }
 DriftScales = {

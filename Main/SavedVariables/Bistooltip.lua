@@ -18,9 +18,9 @@ BisTooltipDB = {
 	},
 	["char"] = {
 		["Alsla - Venoxis"] = {
+			["phase_index"] = 2,
 			["data_source"] = "wh",
 			["version"] = 8,
-			["phase_index"] = 2,
 		},
 		["Xolem - Venoxis"] = {
 			["data_source"] = "wh",
@@ -76,9 +76,9 @@ BisTooltipDB = {
 		},
 		["Alsia - Venoxis"] = {
 			["minimapPos"] = 173.254854658173,
-			["class_index"] = 5,
 			["data_source"] = "wh",
 			["version"] = 8,
+			["class_index"] = 5,
 		},
 		["Maturitass - Venoxis"] = {
 			["data_source"] = "wh",

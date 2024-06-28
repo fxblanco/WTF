@@ -4086,7 +4086,7 @@ WeakAurasOptionsSaved = {
 			["spells"] = "23169=134157,95353=134157",
 		},
 		["Defend Wyrmrest"] = {
-			["spells"] = "107576=134158,110763=367600",
+			["spells"] = "107576=134158,110763=465916",
 		},
 		["Earth-Warder"] = {
 			["spells"] = "107455=236554",
@@ -4932,7 +4932,7 @@ WeakAurasOptionsSaved = {
 			["spells"] = "103821=433442,109615=136025",
 		},
 		["Attack Wyrmrest"] = {
-			["spells"] = "107577=134154,110768=367600",
+			["spells"] = "107577=134154,110768=465916",
 		},
 		["Rising Fire Totem"] = {
 			["spells"] = "103819=135829,108374=135829",
@@ -4977,7 +4977,7 @@ WeakAurasOptionsSaved = {
 			["spells"] = "103669=348560,109888=348560",
 		},
 		["Whip Terrorfiend"] = {
-			["spells"] = "35673=367600",
+			["spells"] = "35673=465916",
 		},
 		["Breastplate of Kings"] = {
 			["spells"] = "34533=136241",
@@ -15309,7 +15309,7 @@ WeakAurasOptionsSaved = {
 			["spells"] = "77794=462651,77795=462651,77796=462651,77800=462651,96300=462651",
 		},
 		["Auto Attack"] = {
-			["spells"] = "6603=367600",
+			["spells"] = "6603=465916",
 		},
 		["Unresponsive"] = {
 			["spells"] = "86003=136175,86022=136175",
@@ -29454,7 +29454,7 @@ WeakAurasOptionsSaved = {
 			["spells"] = "45441=135732",
 		},
 		["Clayton's Test Spell"] = {
-			["spells"] = "64755=367600",
+			["spells"] = "64755=465916",
 		},
 		["Item - Death Knight T8 Tank 4P Bonus"] = {
 			["spells"] = "64748=136097",
@@ -74132,13 +74132,13 @@ WeakAurasOptionsSaved = {
 	["version"] = "5.14.1",
 	["savedSnippets"] = {
 	},
-	["spellCacheStrings"] = true,
 	["frame"] = {
-		["xOffset"] = 1833.199951171875,
+		["xOffset"] = 2207.59814453125,
 		["width"] = 945.19970703125,
 		["height"] = 1051.099975585938,
-		["yOffset"] = 1332.7998046875,
+		["yOffset"] = 1353.500244140625,
 	},
+	["spellCacheStrings"] = true,
 	["spellCacheAchievements"] = true,
-	["build"] = "55141",
+	["build"] = "55262",
 }
