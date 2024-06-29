@@ -11,8 +11,8 @@ DriftPoints = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOP",
 		["relativePoint"] = "TOP",
-		["yOfs"] = -191.4001922607422,
-		["xOfs"] = -516.6998291015625,
+		["yOfs"] = -236.4000854492188,
+		["xOfs"] = 349.9999694824219,
 	},
 	["InspectFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -46,8 +46,8 @@ DriftPoints = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOP",
 		["relativePoint"] = "TOP",
-		["yOfs"] = -239.2001037597656,
-		["xOfs"] = -407.8980407714844,
+		["yOfs"] = -88.90010070800781,
+		["xOfs"] = -412.3981628417969,
 	},
 	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",

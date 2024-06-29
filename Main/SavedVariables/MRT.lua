@@ -131,15 +131,15 @@ VMRT = {
 			[1027] = "Omnotron Defense System",
 			[1108] = "Gluth",
 			[569] = "Sjonnir the Ironshaper",
-			[213] = "Prince Taldaram",
-			[1029] = "Cho'gall",
 			[1045] = "Lady Naz'jar",
-			[215] = "Herald Volazj",
+			[1029] = "Cho'gall",
+			[213] = "Prince Taldaram",
+			[852] = "Blood Council",
 			[750] = "Auriaya",
 			[1109] = "Gothik the Harvester",
 			[749] = "Kologarn",
 			[375] = "The Prophet Tharon'ja",
-			[852] = "Blood Council",
+			[215] = "Herald Volazj",
 			[1030] = "Halfus Wyrmbreaker",
 			[754] = "Mimiron",
 			[1118] = "Patchwerk",
@@ -241,9 +241,9 @@ VMRT = {
 			},
 			["Khalimmortus"] = {
 			},
-			["Exonuklease"] = {
-			},
 			["Kwasimojo"] = {
+			},
+			["Exonuklease"] = {
 			},
 			["Alsía"] = {
 				"^1033^4^1718747578^144^0^25^344.21^Alsía", -- [1]
@@ -331,7 +331,7 @@ VMRT = {
 			},
 			["Xolem"] = {
 			},
-			["Alslahunt"] = {
+			["Andrés"] = {
 			},
 			["Alsiadk"] = {
 				"^1030^3^1717179912^117^1^10^371.34^", -- [1]
@@ -360,7 +360,7 @@ VMRT = {
 			},
 			["Bloodwall"] = {
 			},
-			["Andrés"] = {
+			["Alslahunt"] = {
 			},
 			["Lucho"] = {
 			},
@@ -393,6 +393,7 @@ VMRT = {
 			["Nicerö"] = 0,
 			["Alsía"] = 0,
 			["Twinturbo-Mandokir"] = 0,
+			["Kreyhunter"] = 0,
 			["Pbumtwist"] = 0,
 			["Smartys"] = 0,
 			["Latod"] = 0,
@@ -408,6 +409,7 @@ VMRT = {
 			["Qwipi-Gehennas"] = 0,
 			["Alslala"] = 0,
 			["Plufsig"] = 0,
+			["Hotshotdill-Gehennas"] = 0,
 			["Hakkî"] = 0,
 			["Cîleymyrus"] = 0,
 			["Serferine"] = 0,
@@ -422,40 +424,43 @@ VMRT = {
 			["Kruuxx"] = 0,
 			["Vanec"] = 0,
 			["Néifudk"] = 0,
+			["Suluqt"] = 0,
+			["Mortiferior"] = 0,
 			["Lingwing"] = 0,
-			["Neophytes"] = 0,
 			["Zîpfy-Lakeshire"] = 0,
+			["Neophytes"] = 0,
 			["Taschte"] = 0,
 			["Bremskyle"] = 0,
+			["Nodo-Mandokir"] = 0,
 			["Gerdgitarre"] = 0,
 			["Arubar"] = 0,
 			["Ewo"] = 0,
-			["Nodo-Mandokir"] = 0,
+			["Turukmaktu"] = 0,
 			["Dýth"] = 0,
 			["Dopeship"] = 0,
 			["Jondkrantz-Gehennas"] = 0,
-			["Alsia"] = 0,
 			["Pragmatisk-Golemagg"] = 0,
-			["Turukmaktu"] = 0,
-			["Røckwell"] = 0,
-			["Hêat"] = 0,
 			["Ukban"] = 0,
+			["Røckwell"] = 0,
+			["Alsia"] = 0,
+			["Hêat"] = 0,
 			["Necride-Sulfuron"] = 0,
-			["Mandoyo-Mandokir"] = 0,
-			["Hausmeisterr"] = 0,
-			["Köllschina-Lakeshire"] = 0,
-			["Hopéless"] = 0,
 			["Drdôôm"] = 0,
-			["Lesbenlisa"] = 0,
-			["Warmagepaz"] = 0,
+			["Mandoyo-Mandokir"] = 0,
+			["Köllschina-Lakeshire"] = 0,
 			["Eniray"] = 0,
-			["Bóssmann"] = 0,
+			["Hopéless"] = 0,
+			["Warmagepaz"] = 0,
+			["Widî"] = 0,
+			["Lesbenlisa"] = 0,
 			["Tdie-Golemagg"] = 0,
+			["Bóssmann"] = 0,
+			["Hausmeisterr"] = 0,
 			["Hazzey-Golemagg"] = 0,
 			["Dødsgardist-Gehennas"] = 0,
 			["Nneifu"] = 0,
 			["Barbabo"] = 0,
-			["Suluqt"] = 0,
+			["Xzoladk-Golemagg"] = 0,
 			["Dumptruck"] = 0,
 			["Minoton"] = 0,
 			["Pyretqt"] = 0,
@@ -684,9 +689,9 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
-		["ReadyCheckFrame"] = true,
 		["ReadyCheckTop"] = 1109.399658203125,
+		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckLeft"] = 1731.701171875,
 		["WeaponEnch"] = {
 		},
@@ -787,7 +792,7 @@ VMRT = {
 			"", -- [2]
 			"", -- [3]
 		},
-		["Height"] = 310,
+		["Height"] = 310.0000305175781,
 		["Strata"] = "HIGH",
 		["BlackNames"] = {
 		},
