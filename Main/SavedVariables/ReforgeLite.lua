@@ -5,6 +5,11 @@ ReforgeLiteDB = {
 	["windowY"] = 1032.200439453125,
 	["reforgeCheat"] = 5,
 	["windowX"] = 1417.800048828125,
+	["activeWindowTitle"] = {
+		0.8, -- [1]
+		0, -- [2]
+		0, -- [3]
+	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
 			["caps"] = {
@@ -486,8 +491,6 @@ ReforgeLiteDB = {
 				},
 			},
 			["targetLevel"] = 3,
-			["buffs"] = {
-			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -497,6 +500,8 @@ ReforgeLiteDB = {
 				110, -- [6]
 				180, -- [7]
 				150, -- [8]
+			},
+			["buffs"] = {
 			},
 			["itemsLocked"] = {
 			},
@@ -1407,12 +1412,17 @@ ReforgeLiteDB = {
 	},
 	["windowWidth"] = 800,
 	["itemSize"] = 24,
-	["methodWindowY"] = 1192.39892578125,
+	["openOnReforge"] = true,
 	["methodWindowX"] = 1299.900390625,
-	["activeWindowTitle"] = {
-		0.8, -- [1]
-		0, -- [2]
-		0, -- [3]
+	["classProfiles"] = {
+		["DEATHKNIGHT"] = {
+			["customPresets"] = {
+			},
+		},
+		["PALADIN"] = {
+			["customPresets"] = {
+			},
+		},
 	},
 	["inactiveWindowTitle"] = {
 		0.5, -- [1]
@@ -1421,5 +1431,5 @@ ReforgeLiteDB = {
 	},
 	["customPresets"] = {
 	},
-	["openOnReforge"] = true,
+	["methodWindowY"] = 1192.39892578125,
 }

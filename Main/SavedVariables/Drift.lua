@@ -86,17 +86,18 @@ DriftPoints = {
 	},
 	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -107.8001327514648,
-		["xOfs"] = -156.7982635498047,
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -60.10012435913086,
+		["xOfs"] = 71.8017349243164,
 	},
 }
 DriftScales = {
 	["QuestLogFrame"] = 1.009999990463257,
-	["TradeSkillFrame"] = 1.019999980926514,
-	["GameMenuFrame"] = 1.049999952316284,
 	["CommunitiesMover"] = 0.8500001430511475,
+	["WorldStateScoreFrame"] = 0.9900000095367432,
+	["GameMenuFrame"] = 1.049999952316284,
+	["TradeSkillFrame"] = 1.019999980926514,
 }
 DriftOptions = {
 	["dragAltKeyEnabled"] = false,

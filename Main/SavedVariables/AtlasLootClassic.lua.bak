@@ -880,11 +880,11 @@ AtlasLootClassicDB = {
 			[52432] = "JewelTokenCata:3",
 			[42561] = "honor:424",
 			[47729] = "EmblemOfTriumph:35",
-			[24551] = "honor:28",
+			[28645] = "honor:38",
 			[40706] = "EmblemOfHeroism:15",
 			[51531] = "honor:178",
-			[28645] = "honor:38",
 			[42945] = "EmblemOfTriumph:2175",
+			[24551] = "honor:28",
 			[47309] = "DefilersScourgestone:30",
 			[32025] = "honor:133",
 			[47290] = "DefilersScourgestone:38",
@@ -1048,7 +1048,7 @@ AtlasLootClassicDB = {
 			[40444] = "honor:76",
 			[47556] = "EmblemOfTriumph:15",
 			[51330] = "honor:555",
-			[35018] = "honor:190",
+			[47300] = "DefilersScourgestone:50",
 			[35082] = "honor:142",
 			[35146] = "honor:76",
 			[45963] = "honor:250",
@@ -1110,9 +1110,9 @@ AtlasLootClassicDB = {
 			[40841] = "honor:343",
 			[42952] = "EmblemOfTriumph:2175",
 			[45834] = "EmblemOfConquest:28",
-			[51396] = "honor:250",
+			[47302] = "DefilersScourgestone:76",
 			[51332] = "honor:555",
-			[35020] = "honor:57",
+			[51396] = "honor:250",
 			[51390] = "honor:848",
 			[35148] = "honor:76",
 			[47255] = "DefilersScourgestone:50",
@@ -1141,10 +1141,10 @@ AtlasLootClassicDB = {
 			[51449] = "honor:848",
 			[52436] = "JewelTokenCata:4",
 			[42210] = "honor:587",
-			[35021] = "honor:57",
-			[51397] = "honor:587",
-			[51333] = "honor:555",
 			[47303] = "DefilersScourgestone:38",
+			[35021] = "honor:57",
+			[51333] = "honor:555",
+			[51397] = "honor:587",
 			[42271] = "honor:250",
 			[51525] = "honor:250",
 			[52437] = "JewelTokenCata:4",
@@ -1216,7 +1216,7 @@ AtlasLootClassicDB = {
 			[28938] = "honor:19",
 			[57924] = "EmblemOfTriumph:950",
 			[50356] = "EmblemOfFrost:60",
-			[47302] = "DefilersScourgestone:76",
+			[35020] = "honor:57",
 			[18831] = "honor:50",
 			[58180] = "ValorPoints:1650",
 			[45962] = "honor:250",
@@ -1252,8 +1252,8 @@ AtlasLootClassicDB = {
 			[45835] = "EmblemOfConquest:28",
 			[58181] = "ValorPoints:1650",
 			[33681] = "honor:42",
-			[47300] = "DefilersScourgestone:50",
 			[51394] = "honor:848",
+			[35018] = "honor:190",
 			[50355] = "EmblemOfFrost:60",
 			[33937] = "honor:39",
 			[52424] = "JewelTokenCata:3",
@@ -1502,10 +1502,17 @@ AtlasLootClassicDB = {
 		},
 		["Alsia - Venoxis"] = {
 			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					0, -- [4]
+					60.29996109008789, -- [5]
+				},
 				["selected"] = {
-					"AtlasLootClassic_Collections", -- [1]
-					"TierSets", -- [2]
-					nil, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"EnchantingCata", -- [2]
+					5, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
