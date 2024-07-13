@@ -11,8 +11,8 @@ DriftPoints = {
 		["relativeTo"] = "UIParent",
 		["point"] = "TOP",
 		["relativePoint"] = "TOP",
-		["yOfs"] = -236.4000854492188,
-		["xOfs"] = 349.9999694824219,
+		["yOfs"] = -186.0000762939453,
+		["xOfs"] = -384.3999633789063,
 	},
 	["InspectFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -20,6 +20,13 @@ DriftPoints = {
 		["relativePoint"] = "TOP",
 		["yOfs"] = -171.4998931884766,
 		["xOfs"] = -315.5001831054688,
+	},
+	["DressUpFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -83.30010986328125,
+		["xOfs"] = -526.2998657226562,
 	},
 	["PVPFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -35,12 +42,12 @@ DriftPoints = {
 		["yOfs"] = -146.5,
 		["xOfs"] = -216.7999267578125,
 	},
-	["GuildControlUI"] = {
+	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "CENTER",
-		["relativePoint"] = "CENTER",
-		["yOfs"] = -94.5998306274414,
-		["xOfs"] = 424.4998779296875,
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -107.8003921508789,
+		["xOfs"] = 179.8016967773438,
 	},
 	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -49,12 +56,12 @@ DriftPoints = {
 		["yOfs"] = 187.2354431152344,
 		["xOfs"] = -266.5991516113281,
 	},
-	["CommunitiesMover"] = {
+	["FriendsFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = -112.1354827880859,
-		["xOfs"] = 129.7169036865234,
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -200.6000061035156,
+		["xOfs"] = 52.00007629394531,
 	},
 	["MacroFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -63,12 +70,12 @@ DriftPoints = {
 		["yOfs"] = 136.4003753662109,
 		["xOfs"] = -201.849853515625,
 	},
-	["FriendsFrame"] = {
+	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -200.6000061035156,
-		["xOfs"] = 52.00007629394531,
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = -112.1354827880859,
+		["xOfs"] = 129.7169036865234,
 	},
 	["TradeFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -84,12 +91,12 @@ DriftPoints = {
 		["yOfs"] = -94,
 		["xOfs"] = 68.00001525878906,
 	},
-	["CharacterFrame"] = {
+	["GuildControlUI"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 7.799736499786377,
-		["xOfs"] = 319.3015441894531,
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = -94.5998306274414,
+		["xOfs"] = 424.4998779296875,
 	},
 }
 DriftScales = {
@@ -97,7 +104,7 @@ DriftScales = {
 	["CommunitiesMover"] = 0.8500001430511475,
 	["WorldStateScoreFrame"] = 0.9900000095367432,
 	["GameMenuFrame"] = 1.049999952316284,
-	["TradeSkillFrame"] = 1.019999980926514,
+	["TradeSkillFrame"] = 0.9500000476837158,
 }
 DriftOptions = {
 	["dragAltKeyEnabled"] = false,

@@ -131,15 +131,15 @@ VMRT = {
 			[1027] = "Omnotron Defense System",
 			[1108] = "Gluth",
 			[569] = "Sjonnir the Ironshaper",
-			[213] = "Prince Taldaram",
-			[1029] = "Cho'gall",
 			[1045] = "Lady Naz'jar",
-			[215] = "Herald Volazj",
+			[1029] = "Cho'gall",
+			[213] = "Prince Taldaram",
+			[852] = "Blood Council",
 			[750] = "Auriaya",
 			[1109] = "Gothik the Harvester",
 			[749] = "Kologarn",
 			[375] = "The Prophet Tharon'ja",
-			[852] = "Blood Council",
+			[215] = "Herald Volazj",
 			[1030] = "Halfus Wyrmbreaker",
 			[754] = "Mimiron",
 			[1118] = "Patchwerk",
@@ -245,19 +245,29 @@ VMRT = {
 			},
 			["Khalimmortus"] = {
 			},
-			["Exonuklease"] = {
-			},
 			["Kwasimojo"] = {
+			},
+			["Exonuklease"] = {
 			},
 			["Alsía"] = {
 				"^1033^4^1718747578^144^0^25^344.21^Alsía", -- [1]
 				"^1033^4^1718747874^280^1^25^364.66^Lauupe", -- [2]
+				"^1032^3^1720899019^141^1^10^378.32^Vanec", -- [3]
+				"^1028^3^1720899498^160^1^10^378.32^", -- [4]
+				"^1029^3^1720899876^176^1^10^378.40^", -- [5]
+				"^1027^3^1720904340^142^1^10^378.40^", -- [6]
+				"^1023^3^1720904696^115^1^10^378.36^", -- [7]
+				"^1022^3^1720906270^152^1^10^378.11^", -- [8]
+				"^1025^3^1720906571^149^1^10^378.36^", -- [9]
+				"^1026^3^1720906880^296^1^10^378.36^Nicerö", -- [10]
+				"^1035^3^1720907843^147^1^10^378.44^", -- [11]
+				"^1034^3^1720908070^159^1^10^378.44^Blinkyli", -- [12]
 			},
-			["Maturitass"] = {
+			["Bloodwall"] = {
 			},
 			["Xolem"] = {
 			},
-			["Alslahunt"] = {
+			["Andrés"] = {
 			},
 			["Alsiadk"] = {
 				"^1030^3^1717179912^117^1^10^371.34^", -- [1]
@@ -281,8 +291,6 @@ VMRT = {
 				"^1026^3^1717189608^312^0^10^371.75^Absinthâ", -- [19]
 				"^1026^3^1717190082^306^0^10^371.75^Jâne", -- [20]
 				"^1026^3^1717190553^296^1^10^371.75^", -- [21]
-			},
-			["Bloodwall"] = {
 			},
 			["Alsla"] = {
 				"^1130^175^1715281226^74^0^10^286.36^Alsla", -- [1]
@@ -367,8 +375,16 @@ VMRT = {
 				"^1023^3^1720128108^103^1^10^382.33^Alsla", -- [80]
 				"^1026^3^1720128352^229^0^10^382.33^Ntdote", -- [81]
 				"^1026^3^1720128688^298^0^10^382.57^Ukban", -- [82]
+				"^1026^3^1720728942^238^1^10^381.46^Jocindyr", -- [83]
+				"^1028^3^1720731595^140^1^10^381.54^Widî", -- [84]
+				"^1029^3^1720733012^151^1^10^382.33^", -- [85]
+				"^1035^3^1720733553^83^0^10^382.19^Ntdote", -- [86]
+				"^1035^3^1720734899^123^1^10^382.19^Shîzuye", -- [87]
+				"^1034^3^1720735090^124^1^10^382.19^", -- [88]
 			},
-			["Andrés"] = {
+			["Maturitass"] = {
+			},
+			["Alslahunt"] = {
 			},
 			["Lucho"] = {
 			},
@@ -390,7 +406,7 @@ VMRT = {
 	},
 	["Marks"] = {
 		["list"] = {
-			[6] = "Xmø",
+			[6] = "Alsla",
 		},
 	},
 	["ExCD2"] = {
@@ -403,6 +419,7 @@ VMRT = {
 			["Latod"] = 0,
 			["Carlxvigurra-Golemagg"] = 0,
 			["Seysa"] = 0,
+			["Taste"] = 0,
 			["Hnspriest"] = 0,
 			["Mousitsa-Gehennas"] = 0,
 			["Shîzuye"] = 0,
@@ -411,6 +428,7 @@ VMRT = {
 			["Alslala"] = 0,
 			["Minoton"] = 0,
 			["Миккита-Пламегор"] = 0,
+			["Shamir"] = 0,
 			["Cîleymyrus"] = 0,
 			["Nélá"] = 0,
 			["Bremskyle"] = 0,
@@ -424,6 +442,7 @@ VMRT = {
 			["Novo"] = 0,
 			["Hennerr"] = 0,
 			["Néifudk"] = 0,
+			["Asamuah"] = 0,
 			["Lingwing"] = 0,
 			["Arubar"] = 0,
 			["Ewo"] = 0,
@@ -474,6 +493,7 @@ VMRT = {
 			["Kildan"] = 0,
 			["Каташисенсей-Пламегор"] = 0,
 			["Taschte"] = 0,
+			["Habíb"] = 0,
 			["Foxieh"] = 0,
 			["Xmø"] = 0,
 			["Schmändytwo"] = 0,
@@ -481,50 +501,59 @@ VMRT = {
 			["Donighachs-Everlook"] = 0,
 			["Nèxxar"] = 0,
 			["Yêp"] = 0,
+			["Vacaria"] = 0,
+			["Alsia"] = 0,
+			["Halalhakki"] = 0,
+			["Ntdøte"] = 0,
 			["Xyphon"] = 0,
+			["Dodoblaj-Gehennas"] = 0,
 			["Decîmus"] = 0,
-			["Neophytes"] = 0,
-			["Gerdgitarre"] = 0,
-			["Kholostrus"] = 0,
-			["Nneifu"] = 0,
+			["Tréalis"] = 0,
+			["Twinturbo-Mandokir"] = 0,
+			["Lèthè-Gehennas"] = 0,
+			["Scynera"] = 0,
+			["Guteronkel"] = 0,
+			["Iconee"] = 0,
+			["Scarfâcé"] = 0,
+			["Sneezel"] = 0,
 			["Manchamanito-Mandokir"] = 0,
 			["Mastahkilla-Gehennas"] = 0,
 			["Pyretqt"] = 0,
-			["Twinturbo-Mandokir"] = 0,
-			["Scynera"] = 0,
-			["Dodoblaj-Gehennas"] = 0,
 			["Kreyhunter"] = 0,
-			["Smartys"] = 0,
-			["Deathknéllz-Gehennas"] = 0,
-			["Scarfâcé"] = 0,
-			["Hausmeisterr"] = 0,
-			["Sneezel"] = 0,
-			["Wønka"] = 0,
-			["Köllschina-Lakeshire"] = 0,
 			["Drdôôm"] = 0,
+			["Deathknéllz-Gehennas"] = 0,
+			["Hausmeisterr"] = 0,
+			["Vanec"] = 0,
+			["Wønka"] = 0,
+			["Nneifu"] = 0,
+			["Zîpfy-Lakeshire"] = 0,
+			["Smartys"] = 0,
+			["Nicerö"] = 0,
+			["Köllschina-Lakeshire"] = 0,
+			["Pragmatisk-Golemagg"] = 0,
 			["Jolyroger"] = 0,
 			["Lesbenlisa"] = 0,
-			["Zîpfy-Lakeshire"] = 0,
-			["Kettenblitze"] = 0,
-			["Nicerö"] = 0,
-			["Hazzey-Golemagg"] = 0,
-			["Pragmatisk-Golemagg"] = 0,
-			["Muyfeo"] = 0,
-			["Barbabo"] = 0,
 			["Widî"] = 0,
-			["Dumptruck"] = 0,
+			["Muyfeo"] = 0,
+			["Kettenblitze"] = 0,
+			["Hazzey-Golemagg"] = 0,
+			["Euterhexe"] = 0,
 			["Gobfar-Gehennas"] = 0,
-			["Igera-Gehennas"] = 0,
+			["Barbabo"] = 0,
 			["Serferine"] = 0,
-			["Loovak"] = 0,
+			["Dumptruck"] = 0,
 			["Andrés"] = 0,
-			["Nezrac"] = 0,
+			["Igera-Gehennas"] = 0,
 			["Starone-Sulfuron"] = 0,
+			["Loovak"] = 0,
+			["Gerdgitarre"] = 0,
+			["Nezrac"] = 0,
+			["Blinkyli"] = 0,
 			["Deltabob-Golemagg"] = 0,
-			["Lèthè-Gehennas"] = 0,
-			["Vanec"] = 0,
-			["Alsia"] = 0,
-			["Guteronkel"] = 0,
+			["Neophytes"] = 0,
+			["Kholostrus"] = 0,
+			["Jocindyr"] = 0,
+			["Mikirî"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
@@ -740,10 +769,10 @@ VMRT = {
 	},
 	["RaidCheck"] = {
 		["ReadyCheckFrameOnlyRL"] = true,
-		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 945.5997314453125,
 		["ReadyCheckFrame"] = true,
-		["ReadyCheckTop"] = 1109.399658203125,
-		["ReadyCheckLeft"] = 1731.701171875,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckLeft"] = 1928.80126953125,
 		["WeaponEnch"] = {
 		},
 		["FlaskExp"] = 1,
@@ -787,11 +816,11 @@ VMRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4880,
-		["Scale"] = 1,
 		["PreVersion"] = 4880,
+		["IconMiniMapTop"] = -39.94675680122825,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -63.47642583901839,
-		["IconMiniMapTop"] = -39.94675680122825,
+		["Scale"] = 1,
 	},
 	["WhoPulled"] = {
 	},

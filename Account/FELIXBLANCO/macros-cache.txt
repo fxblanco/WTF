@@ -12,3 +12,7 @@ VER 3 0000000000000BA2 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
+VER 3 0000000000000BA3 "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Matoclaw
+/targetlasttarget [dead]
+END
