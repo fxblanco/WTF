@@ -5,16 +5,16 @@ BisTooltipDB = {
 		["Xolem - Venoxis"] = "Default",
 		["Alsía - Venoxis"] = "Default",
 		["Exonuklease - Venoxis"] = "Default",
-		["Maturitass - Venoxis"] = "Default",
-		["Alsia - Venoxis"] = "Default",
+		["Kwasimojo - Venoxis"] = "Default",
+		["Alslala - Venoxis"] = "Default",
 		["Alsiadk - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
+		["Alsia - Venoxis"] = "Default",
 		["Alslahunt - Venoxis"] = "Default",
 		["Andrés - Venoxis"] = "Default",
 		["Lucho - Venoxis"] = "Default",
 		["Khalimmortus - Venoxis"] = "Default",
-		["Alslala - Venoxis"] = "Default",
-		["Kwasimojo - Venoxis"] = "Default",
+		["Bloodwall - Venoxis"] = "Default",
+		["Maturitass - Venoxis"] = "Default",
 	},
 	["char"] = {
 		["Alsla - Venoxis"] = {
@@ -30,24 +30,21 @@ BisTooltipDB = {
 		},
 		["Alsía - Venoxis"] = {
 			["class_index"] = 5,
-			["spec_index"] = 2,
-			["phase_index"] = 2,
-			["data_source"] = "wh",
 			["version"] = 8,
+			["spec_index"] = 2,
+			["data_source"] = "wh",
+			["phase_index"] = 2,
 		},
 		["Exonuklease - Venoxis"] = {
 			["data_source"] = "wh",
 			["version"] = 6.2,
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 6.2,
-		},
-		["Alsia - Venoxis"] = {
-			["minimapPos"] = 173.254854658173,
 			["version"] = 8,
-			["spec_index"] = 2,
-			["class_index"] = 7,
+		},
+		["Alslala - Venoxis"] = {
+			["version"] = 8,
 			["data_source"] = "wh",
 			["phase_index"] = 2,
 		},
@@ -55,9 +52,13 @@ BisTooltipDB = {
 			["data_source"] = "wh",
 			["version"] = 8,
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alsia - Venoxis"] = {
+			["minimapPos"] = 173.254854658173,
+			["version"] = 8,
+			["spec_index"] = 2,
+			["phase_index"] = 2,
 			["data_source"] = "wh",
-			["version"] = 6.2,
+			["class_index"] = 7,
 		},
 		["Alslahunt - Venoxis"] = {
 			["class_index"] = 3,
@@ -76,18 +77,17 @@ BisTooltipDB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 			["minimapPos"] = 273.5075123040884,
-			["version"] = 6.2,
 			["data_source"] = "wh",
+			["version"] = 6.2,
 			["phase_index"] = 3,
 		},
-		["Alslala - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 8,
-			["phase_index"] = 2,
+			["version"] = 6.2,
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
 			["data_source"] = "wh",
-			["version"] = 8,
+			["version"] = 6.2,
 		},
 	},
 }

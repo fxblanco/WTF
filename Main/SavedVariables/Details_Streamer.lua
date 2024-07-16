@@ -5,16 +5,16 @@ Details_StreamerDB = {
 		["Xolem - Venoxis"] = "Alsia - Venoxis",
 		["Alsía - Venoxis"] = "Alsia - Venoxis",
 		["Exonuklease - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Alsia - Venoxis",
-		["Alslala - Venoxis"] = "Alsia - Venoxis",
+		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
+		["Alslahunt - Venoxis"] = "Alsia - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsia - Venoxis",
 		["Bloodwall - Venoxis"] = "Alsia - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Andrés - Venoxis"] = "Alsia - Venoxis",
 		["Lucho - Venoxis"] = "Alsia - Venoxis",
 		["Khalimmortus - Venoxis"] = "Alsia - Venoxis",
-		["Alslahunt - Venoxis"] = "Alsia - Venoxis",
-		["Kwasimojo - Venoxis"] = "Alsia - Venoxis",
+		["Alslala - Venoxis"] = "Alsia - Venoxis",
+		["Maturitass - Venoxis"] = "Alsia - Venoxis",
 	},
 	["profiles"] = {
 		["Alsia - Venoxis"] = {
@@ -26,38 +26,25 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
+			["scale"] = 1,
 			["arrow_anchor_y"] = 0,
-			["main_frame_size"] = {
-				299.9999694824219, -- [1]
-				500.0000915527344, -- [2]
-			},
 			["minimap"] = {
 				["minimapPos"] = 162.123876796827,
 				["radius"] = 160,
 				["hide"] = false,
 			},
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["arrow_anchor_x"] = 0,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["per_second"] = {
-				["enabled"] = false,
-				["point"] = "CENTER",
-				["scale"] = 1,
-				["font_shadow"] = true,
-				["y"] = 0,
-				["x"] = 0,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
-				["size"] = 32,
-			},
-			["author"] = "Terciob",
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
@@ -69,22 +56,35 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 1.52587890625e-05,
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 0,
+				["x"] = 0,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
 			["use_spark"] = true,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["point"] = "CENTER",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["y"] = 1.52587890625e-05,
+			["author"] = "Terciob",
+			["main_frame_locked"] = false,
+			["main_frame_size"] = {
+				299.9999694824219, -- [1]
+				500.0000915527344, -- [2]
 			},
-			["row_height"] = 20,
-			["scale"] = 1,
 		},
 	},
 }
