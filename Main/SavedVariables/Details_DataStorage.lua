@@ -2,16 +2,16 @@
 DetailsDataStorage = {
 	["normal"] = {
 	},
-	["heroic"] = {
+	["mythic"] = {
 	},
-	["saved_encounters"] = {
+	["Data"] = {
 	},
 	["VERSION"] = 7,
-	["mythic"] = {
+	["heroic"] = {
 	},
 	["mythic_plus"] = {
 	},
-	["Data"] = {
+	["saved_encounters"] = {
 	},
 	["totalkills"] = {
 	},

@@ -31,12 +31,13 @@ RXPDB = {
 		["Alsía - Venoxis"] = "global",
 		["Exonuklease - Venoxis"] = "global",
 		["Kwasimojo - Venoxis"] = "global",
-		["Alslahunt - Venoxis"] = "global",
-		["Alsiadk - Venoxis"] = "global",
+		["Alslalu - Venoxis"] = "global",
 		["Bloodwall - Venoxis"] = "global",
-		["Alsia - Venoxis"] = "global",
-		["Andrés - Venoxis"] = "global",
+		["Alsiadk - Venoxis"] = "global",
+		["Alslahunt - Venoxis"] = "global",
 		["Lucho - Venoxis"] = "global",
+		["Andrés - Venoxis"] = "global",
+		["Alsia - Venoxis"] = "global",
 		["Khalimmortus - Venoxis"] = "global",
 		["Alslala - Venoxis"] = "global",
 		["Maturitass - Venoxis"] = "global",
@@ -53,20 +54,19 @@ RXPSettings = {
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Andrés - Venoxis"] = "Andrés - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
-			["xprate"] = 1.1,
-			["frameHeight"] = 204.1999816894531,
 			["windowScale"] = 1.25,
 			["hardcore"] = false,
 			["framePositions"] = {
@@ -107,27 +107,32 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
+			["xprate"] = 1.1,
 			["frameSizes"] = {
 				["arrowFrame"] = {
-					32.00002670288086, -- [1]
-					32.00002670288086, -- [2]
+					31.9998779296875, -- [1]
+					31.99997329711914, -- [2]
 				},
 				["RXPFrame"] = {
 					292.9998474121094, -- [1]
-					28.00002861022949, -- [2]
+					28.00010681152344, -- [2]
 				},
 				["activeItemFrame"] = {
-					75.80010223388672, -- [1]
-					40.00003433227539, -- [2]
+					73.00012969970703, -- [1]
+					40.00004196166992, -- [2]
 				},
 				["activeTargetFrame"] = {
 					82.66667175292969, -- [1]
-					67.99988555908203, -- [2]
+					68.00003051757812, -- [2]
 				},
 			},
+			["frameHeight"] = 204.1999816894531,
 			["macroAnnounced"] = true,
 		},
 		["Xolem - Venoxis"] = {
+			["xprate"] = 1.25,
+			["frameHeight"] = 43.30007553100586,
+			["macroAnnounced"] = true,
 			["hardcore"] = false,
 			["framePositions"] = {
 				["arrowFrame"] = {
@@ -167,7 +172,6 @@ RXPSettings = {
 					}, -- [1]
 				},
 			},
-			["xprate"] = 1.25,
 			["frameSizes"] = {
 				["arrowFrame"] = {
 					32.00002670288086, -- [1]
@@ -186,8 +190,6 @@ RXPSettings = {
 					40.00003433227539, -- [2]
 				},
 			},
-			["frameHeight"] = 43.30007553100586,
-			["macroAnnounced"] = true,
 		},
 		["Alsía - Venoxis"] = {
 			["xprate"] = 1.1,
@@ -371,37 +373,18 @@ RXPSettings = {
 				},
 			},
 		},
-		["Alslahunt - Venoxis"] = {
-			["xprate"] = 1.1,
-			["frameHeight"] = 213.9999694824219,
+		["Alslalu - Venoxis"] = {
+			["xprate"] = 1.25,
 			["macroAnnounced"] = true,
 			["hardcore"] = false,
-			["frameSizes"] = {
-				["arrowFrame"] = {
-					32, -- [1]
-					32, -- [2]
-				},
-				["RXPFrame"] = {
-					305.0000610351563, -- [1]
-					213.9998626708984, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80001068115234, -- [1]
-					40.00004959106445, -- [2]
-				},
-				["activeTargetFrame"] = {
-					82.66666412353516, -- [1]
-					67.99991607666016, -- [2]
-				},
-			},
 			["framePositions"] = {
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"LEFT", -- [1]
 						nil, -- [2]
-						"TOP", -- [3]
-						16.00003051757813, -- [4]
-						-121.9999694824219, -- [5]
+						"LEFT", -- [3]
+						394.0000610351563, -- [4]
+						112.9999923706055, -- [5]
 					}, -- [1]
 				},
 				["RXPFrame"] = {
@@ -409,8 +392,8 @@ RXPSettings = {
 						"LEFT", -- [1]
 						nil, -- [2]
 						"LEFT", -- [3]
-						39.0000114440918, -- [4]
-						-13.50005340576172, -- [5]
+						31, -- [4]
+						241.9999694824219, -- [5]
 					}, -- [1]
 				},
 				["activeItemFrame"] = {
@@ -418,17 +401,96 @@ RXPSettings = {
 						"CENTER", -- [1]
 						nil, -- [2]
 						"CENTER", -- [3]
-						-293.9998168945313, -- [4]
-						19.00009536743164, -- [5]
+						-210, -- [4]
+						-36, -- [5]
 					}, -- [1]
 				},
+				["arrowFrame"] = {
+					{
+						"CENTER", -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						2.699793100357056, -- [4]
+						326, -- [5]
+					}, -- [1]
+				},
+			},
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					82.66667175292969, -- [1]
+					40.00004196166992, -- [2]
+				},
+				["RXPFrame"] = {
+					280, -- [1]
+					42.99991226196289, -- [2]
+				},
+				["activeItemFrame"] = {
+					73.00012969970703, -- [1]
+					39.99994277954102, -- [2]
+				},
+				["arrowFrame"] = {
+					31.9998779296875, -- [1]
+					31.9998779296875, -- [2]
+				},
+			},
+		},
+		["Bloodwall - Venoxis"] = {
+			["xprate"] = 1.1,
+			["frameHeight"] = 124.9998931884766,
+			["hardcore"] = false,
+			["frameSizes"] = {
+				["activeTargetFrame"] = {
+					73.06678771972656, -- [1]
+					67.99999237060547, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					27.99999809265137, -- [2]
+				},
+				["activeItemFrame"] = {
+					65.89994812011719, -- [1]
+					39.99999618530273, -- [2]
+				},
+				["arrowFrame"] = {
+					31.99999618530273, -- [1]
+					31.99999618530273, -- [2]
+				},
+			},
+			["framePositions"] = {
 				["activeTargetFrame"] = {
 					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
 						"LEFT", -- [1]
-						nil, -- [2]
+						"UIParent", -- [2]
 						"LEFT", -- [3]
-						375.3705749511719, -- [4]
-						171.9998474121094, -- [5]
+						0, -- [4]
+						35, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
+					{
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					}, -- [1]
+				},
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						0, -- [5]
 					}, -- [1]
 				},
 			},
@@ -494,34 +556,96 @@ RXPSettings = {
 				},
 			},
 		},
-		["Bloodwall - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["xprate"] = 1.1,
-			["frameHeight"] = 124.9998931884766,
+			["frameHeight"] = 213.9999694824219,
+			["macroAnnounced"] = true,
 			["hardcore"] = false,
 			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					73.06678771972656, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					32, -- [1]
+					32, -- [2]
 				},
 				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					27.99999809265137, -- [2]
+					305.0000610351563, -- [1]
+					213.9998626708984, -- [2]
 				},
 				["activeItemFrame"] = {
-					65.89994812011719, -- [1]
-					39.99999618530273, -- [2]
+					75.80001068115234, -- [1]
+					40.00004959106445, -- [2]
 				},
-				["arrowFrame"] = {
-					31.99999618530273, -- [1]
-					31.99999618530273, -- [2]
+				["activeTargetFrame"] = {
+					82.66666412353516, -- [1]
+					67.99991607666016, -- [2]
 				},
 			},
 			["framePositions"] = {
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						nil, -- [2]
+						"TOP", -- [3]
+						16.00003051757813, -- [4]
+						-121.9999694824219, -- [5]
+					}, -- [1]
+				},
+				["RXPFrame"] = {
+					{
+						"LEFT", -- [1]
+						nil, -- [2]
+						"LEFT", -- [3]
+						39.0000114440918, -- [4]
+						-13.50005340576172, -- [5]
+					}, -- [1]
+				},
+				["activeItemFrame"] = {
 					{
 						"CENTER", -- [1]
-						"UIParent", -- [2]
+						nil, -- [2]
 						"CENTER", -- [3]
+						-293.9998168945313, -- [4]
+						19.00009536743164, -- [5]
+					}, -- [1]
+				},
+				["activeTargetFrame"] = {
+					{
+						"LEFT", -- [1]
+						nil, -- [2]
+						"LEFT", -- [3]
+						375.3705749511719, -- [4]
+						171.9998474121094, -- [5]
+					}, -- [1]
+				},
+			},
+		},
+		["Lucho - Venoxis"] = {
+			["xprate"] = 1.7,
+			["frameHeight"] = 124.9998550415039,
+			["hardcore"] = false,
+			["frameSizes"] = {
+				["arrowFrame"] = {
+					31.99994659423828, -- [1]
+					31.99999809265137, -- [2]
+				},
+				["RXPFrame"] = {
+					235.0000457763672, -- [1]
+					28.0000057220459, -- [2]
+				},
+				["activeItemFrame"] = {
+					76.53341674804688, -- [1]
+					39.99998474121094, -- [2]
+				},
+				["activeTargetFrame"] = {
+					88.00006103515625, -- [1]
+					67.99999237060547, -- [2]
+				},
+			},
+			["framePositions"] = {
+				["arrowFrame"] = {
+					{
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
 						0, -- [4]
 						0, -- [5]
 					}, -- [1]
@@ -544,75 +668,13 @@ RXPSettings = {
 						0, -- [5]
 					}, -- [1]
 				},
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
+						"CENTER", -- [1]
 						"UIParent", -- [2]
-						"TOP", -- [3]
+						"CENTER", -- [3]
 						0, -- [4]
 						0, -- [5]
-					}, -- [1]
-				},
-			},
-		},
-		["Alsia - Venoxis"] = {
-			["xprate"] = 1.25,
-			["frameHeight"] = 192.4996643066406,
-			["macroAnnounced"] = true,
-			["hardcore"] = false,
-			["frameSizes"] = {
-				["activeTargetFrame"] = {
-					82.66667175292969, -- [1]
-					40.00003433227539, -- [2]
-				},
-				["RXPFrame"] = {
-					300.6999816894531, -- [1]
-					192.4996643066406, -- [2]
-				},
-				["activeItemFrame"] = {
-					75.80001068115234, -- [1]
-					40.00003433227539, -- [2]
-				},
-				["arrowFrame"] = {
-					32.00002670288086, -- [1]
-					32.00002670288086, -- [2]
-				},
-			},
-			["framePositions"] = {
-				["activeTargetFrame"] = {
-					{
-						"LEFT", -- [1]
-						nil, -- [2]
-						"LEFT", -- [3]
-						578.7662353515625, -- [4]
-						149.4001922607422, -- [5]
-					}, -- [1]
-				},
-				["RXPFrame"] = {
-					{
-						"LEFT", -- [1]
-						nil, -- [2]
-						"LEFT", -- [3]
-						112.4999694824219, -- [4]
-						-270.5496520996094, -- [5]
-					}, -- [1]
-				},
-				["activeItemFrame"] = {
-					{
-						"LEFT", -- [1]
-						nil, -- [2]
-						"LEFT", -- [3]
-						571.3997802734375, -- [4]
-						39.60014724731445, -- [5]
-					}, -- [1]
-				},
-				["arrowFrame"] = {
-					{
-						"TOP", -- [1]
-						nil, -- [2]
-						"TOP", -- [3]
-						-10.79995441436768, -- [4]
-						-267.2999267578125, -- [5]
 					}, -- [1]
 				},
 			},
@@ -678,63 +740,64 @@ RXPSettings = {
 				},
 			},
 		},
-		["Lucho - Venoxis"] = {
-			["xprate"] = 1.7,
-			["frameHeight"] = 124.9998550415039,
+		["Alsia - Venoxis"] = {
+			["xprate"] = 1.25,
+			["frameHeight"] = 192.4996643066406,
+			["macroAnnounced"] = true,
 			["hardcore"] = false,
 			["frameSizes"] = {
-				["arrowFrame"] = {
-					31.99994659423828, -- [1]
-					31.99999809265137, -- [2]
+				["activeTargetFrame"] = {
+					82.66667175292969, -- [1]
+					40.00003433227539, -- [2]
 				},
 				["RXPFrame"] = {
-					235.0000457763672, -- [1]
-					28.0000057220459, -- [2]
+					300.6999816894531, -- [1]
+					192.4996643066406, -- [2]
 				},
 				["activeItemFrame"] = {
-					76.53341674804688, -- [1]
-					39.99998474121094, -- [2]
+					75.80001068115234, -- [1]
+					40.00003433227539, -- [2]
 				},
-				["activeTargetFrame"] = {
-					88.00006103515625, -- [1]
-					67.99999237060547, -- [2]
+				["arrowFrame"] = {
+					32.00002670288086, -- [1]
+					32.00002670288086, -- [2]
 				},
 			},
 			["framePositions"] = {
-				["arrowFrame"] = {
+				["activeTargetFrame"] = {
 					{
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"LEFT", -- [1]
+						nil, -- [2]
+						"LEFT", -- [3]
+						578.7662353515625, -- [4]
+						149.4001922607422, -- [5]
 					}, -- [1]
 				},
 				["RXPFrame"] = {
 					{
 						"LEFT", -- [1]
-						"UIParent", -- [2]
+						nil, -- [2]
 						"LEFT", -- [3]
-						0, -- [4]
-						35, -- [5]
+						112.4999694824219, -- [4]
+						-270.5496520996094, -- [5]
 					}, -- [1]
 				},
 				["activeItemFrame"] = {
 					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"LEFT", -- [1]
+						nil, -- [2]
+						"LEFT", -- [3]
+						571.3997802734375, -- [4]
+						39.60014724731445, -- [5]
 					}, -- [1]
 				},
-				["activeTargetFrame"] = {
+				["arrowFrame"] = {
 					{
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"TOP", -- [1]
+						nil, -- [2]
+						"TOP", -- [3]
+						-10.79995441436768, -- [4]
+						-267.2999267578125, -- [5]
 					}, -- [1]
 				},
 			},

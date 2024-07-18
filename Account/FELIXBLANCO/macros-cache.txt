@@ -13,6 +13,5 @@ VER 3 0000000000000BA2 "g_trinket_2" "INV_Misc_QuestionMark"
 /use [mod:shift] 14; 13
 END
 VER 3 0000000000000BA3 "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Riverbed Crocolisk
-/targetlasttarget [dead]
+//RestedXP Guides - current step has no configured targets
 END
