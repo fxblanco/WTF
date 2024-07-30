@@ -21,19 +21,19 @@ DriftPoints = {
 		["yOfs"] = -171.4998931884766,
 		["xOfs"] = -315.5001831054688,
 	},
-	["CommunitiesMover"] = {
+	["DressUpFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOP",
+		["relativePoint"] = "TOP",
+		["yOfs"] = -83.30010986328125,
+		["xOfs"] = -526.2998657226562,
+	},
+	["CharacterFrame"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
-		["yOfs"] = -112.1354827880859,
-		["xOfs"] = 129.7169036865234,
-	},
-	["GuildControlUI"] = {
-		["relativeTo"] = "UIParent",
-		["point"] = "CENTER",
-		["relativePoint"] = "CENTER",
-		["yOfs"] = -94.5998306274414,
-		["xOfs"] = 424.4998779296875,
+		["yOfs"] = 244.1993103027344,
+		["xOfs"] = 282.8015441894531,
 	},
 	["PVPFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -49,19 +49,19 @@ DriftPoints = {
 		["yOfs"] = -146.5,
 		["xOfs"] = -216.7999267578125,
 	},
-	["CharacterFrame"] = {
-		["relativeTo"] = "UIParent",
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 244.1993103027344,
-		["xOfs"] = 282.8015441894531,
-	},
-	["TradeFrame"] = {
+	["GuildControlUI"] = {
 		["relativeTo"] = "UIParent",
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
-		["yOfs"] = -62.70001983642578,
-		["xOfs"] = -358.199951171875,
+		["yOfs"] = -94.5998306274414,
+		["xOfs"] = 424.4998779296875,
+	},
+	["FriendsFrame"] = {
+		["relativeTo"] = "UIParent",
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -200.6000061035156,
+		["xOfs"] = 52.00007629394531,
 	},
 	["TradeSkillFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -84,12 +84,12 @@ DriftPoints = {
 		["yOfs"] = -116.9998779296875,
 		["xOfs"] = 457.9998168945313,
 	},
-	["FriendsFrame"] = {
+	["TradeFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -200.6000061035156,
-		["xOfs"] = 52.00007629394531,
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = -62.70001983642578,
+		["xOfs"] = -358.199951171875,
 	},
 	["GossipFrame"] = {
 		["relativeTo"] = "UIParent",
@@ -98,12 +98,12 @@ DriftPoints = {
 		["yOfs"] = -94,
 		["xOfs"] = 68.00001525878906,
 	},
-	["DressUpFrame"] = {
+	["CommunitiesMover"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -83.30010986328125,
-		["xOfs"] = -526.2998657226562,
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = -112.1354827880859,
+		["xOfs"] = 129.7169036865234,
 	},
 }
 DriftScales = {
@@ -117,15 +117,15 @@ DriftOptions = {
 	["dragAltKeyEnabled"] = false,
 	["frameDragIsLocked"] = false,
 	["scaleAltKeyEnabled"] = false,
-	["scaleShiftKeyEnabled"] = false,
-	["bagsDisabled"] = true,
 	["objectivesDisabled"] = true,
-	["scaleCtrlKeyEnabled"] = false,
+	["bagsDisabled"] = true,
+	["scaleShiftKeyEnabled"] = false,
+	["windowsDisabled"] = false,
 	["buttonsDisabled"] = true,
 	["dragCtrlKeyEnabled"] = false,
-	["dragShiftKeyEnabled"] = false,
-	["frameScaleIsLocked"] = false,
 	["miscellaneousDisabled"] = true,
-	["windowsDisabled"] = false,
+	["frameScaleIsLocked"] = false,
+	["dragShiftKeyEnabled"] = false,
+	["scaleCtrlKeyEnabled"] = false,
 	["minimapDisabled"] = true,
 }
