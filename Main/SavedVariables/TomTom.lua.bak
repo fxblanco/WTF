@@ -4,7 +4,7 @@ TomTomDB = {
 		["Alsla - Venoxis"] = "MerfinUI v5.22",
 		["Xolem - Venoxis"] = "MerfinUI v5.22",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
+		["Exonuklease - Venoxis"] = "MerfinUI v5.27",
 		["Maturitass - Venoxis"] = "MerfinUI v5.22",
 		["Bloodwall - Venoxis"] = "Default",
 		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
@@ -18,18 +18,7 @@ TomTomDB = {
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
-			["arrow"] = {
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					-64.00003814697266, -- [4]
-					206.0001068115234, -- [5]
-				},
-			},
 			["block"] = {
-				["enable"] = false,
-				["width"] = 130,
 				["fontsize"] = 17,
 				["position"] = {
 					"TOP", -- [1]
@@ -38,26 +27,17 @@ TomTomDB = {
 					0, -- [4]
 					-70, -- [5]
 				},
+				["enable"] = false,
 				["height"] = 40,
+				["width"] = 130,
 			},
-		},
-		["Default"] = {
 			["arrow"] = {
 				["position"] = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
-				},
-			},
-			["block"] = {
-				["position"] = {
-					"TOPLEFT", -- [1]
-					nil, -- [2]
-					"TOPLEFT", -- [3]
-					71.60015106201172, -- [4]
-					-171.3997802734375, -- [5]
+					-64.00003814697266, -- [4]
+					206.0001068115234, -- [5]
 				},
 			},
 		},
@@ -83,6 +63,50 @@ TomTomDB = {
 					0, -- [4]
 					-350, -- [5]
 				},
+			},
+		},
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOPLEFT", -- [1]
+					nil, -- [2]
+					"TOPLEFT", -- [3]
+					71.60015106201172, -- [4]
+					-171.3997802734375, -- [5]
+				},
+			},
+		},
+		["MerfinUI v5.27"] = {
+			["arrow"] = {
+				["position"] = {
+					"TOP", -- [1]
+					nil, -- [2]
+					"TOP", -- [3]
+					0, -- [4]
+					-350, -- [5]
+				},
+			},
+			["block"] = {
+				["enable"] = false,
+				["width"] = 130,
+				["fontsize"] = 17,
+				["position"] = {
+					"TOP", -- [1]
+					nil, -- [2]
+					"TOP", -- [3]
+					0, -- [4]
+					-70, -- [5]
+				},
+				["height"] = 40,
 			},
 		},
 	},

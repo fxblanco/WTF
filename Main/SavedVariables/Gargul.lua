@@ -1,12 +1,12 @@
 
 GargulDB = {
+	["TMB"] = {
+	},
 	["BoostedRolls"] = {
-		["Points"] = {
-		},
 		["Aliases"] = {
 		},
-	},
-	["TMB"] = {
+		["Points"] = {
+		},
 	},
 	["LoadDetails"] = {
 		["7.4.5"] = 1713563130,
@@ -17,10 +17,21 @@ GargulDB = {
 		["7.4.4"] = 1712692432,
 		["7.4.7"] = 1714070149,
 		["7.4.16"] = 1717362078,
+		["7.5.6"] = 1721586918,
 		["5.1.1"] = 1712692432,
-		["lastLoadedOn"] = 1717613651,
+		["lastLoadedOn"] = 1721587217,
 		["7.2.15"] = 1712354404,
 		["7.4.12"] = 1716153266,
+	},
+	["LootPriority"] = {
+	},
+	["GDKP"] = {
+		["SettingsPerItem"] = {
+		},
+		["Queue"] = {
+		},
+	},
+	["AwardHistory"] = {
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -90,17 +101,20 @@ GargulDB = {
 			["announceFinalCall"] = true,
 			["antiSnipe"] = 15,
 			["enableBidderQueue"] = true,
+			["ExportAuctions"] = {
+				["includeDisenchantedItems"] = false,
+			},
 			["announceNewBidInRW"] = true,
 			["MultiAuction"] = {
-				["Filters"] = {
-				},
-				["minimumFillQuality"] = 4,
-				["time"] = 600,
 				["includeMaterials"] = false,
+				["includeBOEs"] = true,
+				["time"] = 600,
+				["minimumFillQuality"] = 4,
 				["awardNotice"] = true,
 				["includeAwarded"] = false,
 				["antiSnipe"] = 15,
-				["includeBOEs"] = true,
+				["Filters"] = {
+				},
 			},
 			["finalCallTime"] = 10,
 			["showBidWindow"] = true,
@@ -317,6 +331,7 @@ GargulDB = {
 			["autoTradeAfterAwardingAnItem"] = true,
 			["awardOnReceiveMinimumQuality"] = 4,
 			["skipAwardConfirmationDialog"] = false,
+			["notifyOfFailedTradeStart"] = true,
 		},
 		["SoftRes"] = {
 			["enableWhisperCommand"] = true,
@@ -327,23 +342,13 @@ GargulDB = {
 			["hideInfoOfPeopleNotInGroup"] = true,
 		},
 	},
-	["GDKP"] = {
-		["Queue"] = {
-		},
-		["SettingsPerItem"] = {
-		},
-	},
-	["PlusOnes"] = {
-		["Totals"] = {
-		},
-	},
-	["LootPriority"] = {
-	},
 	["SoftRes"] = {
 	},
 	["RecentlyAwardedItems"] = {
 	},
-	["AwardHistory"] = {
+	["PlusOnes"] = {
+		["Totals"] = {
+		},
 	},
 	["MinimapButton"] = {
 	},

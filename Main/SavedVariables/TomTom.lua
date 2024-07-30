@@ -4,7 +4,7 @@ TomTomDB = {
 		["Alsla - Venoxis"] = "MerfinUI v5.22",
 		["Xolem - Venoxis"] = "MerfinUI v5.22",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
+		["Exonuklease - Venoxis"] = "MerfinUI v5.27",
 		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
 		["Alslala - Venoxis"] = "MerfinUI v5.22",
 		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
@@ -25,6 +25,30 @@ TomTomDB = {
 					"CENTER", -- [3]
 					-64.00003814697266, -- [4]
 					206.0001068115234, -- [5]
+				},
+			},
+			["block"] = {
+				["fontsize"] = 17,
+				["position"] = {
+					"TOP", -- [1]
+					nil, -- [2]
+					"TOP", -- [3]
+					0, -- [4]
+					-70, -- [5]
+				},
+				["enable"] = false,
+				["height"] = 40,
+				["width"] = 130,
+			},
+		},
+		["MerfinUI v5.27"] = {
+			["arrow"] = {
+				["position"] = {
+					"TOP", -- [1]
+					nil, -- [2]
+					"TOP", -- [3]
+					0, -- [4]
+					-350, -- [5]
 				},
 			},
 			["block"] = {

@@ -1,7 +1,7 @@
 
 MerfinPlusSaved = {
 	["breakStartTime"] = 0,
-	["pullStartTime"] = 1720994152,
-	["pullExpTime"] = 1720994172,
+	["pullStartTime"] = 0,
 	["breakExpTime"] = 0,
+	["pullExpTime"] = 0,
 }

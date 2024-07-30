@@ -1,7 +1,7 @@
 
 BugSackDB = {
 	["useMaster"] = false,
-	["altwipe"] = false,
+	["altwipe"] = true,
 	["soundMedia"] = "BugSack: Fatality",
 	["fontSize"] = "GameFontHighlight",
 	["mute"] = true,

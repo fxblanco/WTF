@@ -33,7 +33,7 @@ TalentedDB = {
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "MerfinUI v5.22",
 		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Exonuklease - Venoxis"] = "MerfinUI v5.22",
+		["Exonuklease - Venoxis"] = "MerfinUI v5.27",
 		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
 		["Alsia - Venoxis"] = "MerfinUI v5.22",
 		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
@@ -62,19 +62,31 @@ TalentedDB = {
 		},
 		["Exonuklease - Venoxis"] = {
 		},
+		["Kwasimojo - Venoxis"] = {
+		},
 		["Alsiadk - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Alslala - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},
-		["Alslala - Venoxis"] = {
+		["Lucho - Venoxis"] = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Lucho - Venoxis"] = {
+		["MerfinUI v5.27"] = {
+			["offset"] = 55,
+			["always_edit"] = true,
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 103.4998550415039,
+					["x"] = 408.0003051757813,
+					["anchor"] = "LEFT",
+					["anchorTo"] = "LEFT",
+				},
+			},
 		},
 		["Maturitass - Venoxis"] = {
 		},

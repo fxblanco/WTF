@@ -3,36 +3,36 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
 				["MerfinUI v5.22"] = {
-					["BigWigsAnchor_width"] = 229.9998626708984,
-					["BigWigsEmphasizeAnchor_height"] = 29.99998283386231,
-					["growup"] = true,
-					["fontName"] = "Expressway",
-					["BigWigsAnchor_height"] = 26.99999237060547,
+					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
 					["fontSize"] = 14,
 					["visibleBarLimit"] = 10,
+					["BigWigsAnchor_width"] = 229.9998626708984,
 					["BigWigsAnchor_y"] = 256,
+					["emphasizeRestart"] = false,
 					["emphasizeGrowup"] = true,
+					["BigWigsAnchor_x"] = 1240,
 					["texture"] = "Flatt",
 					["barStyle"] = "ElvUI",
+					["BigWigsEmphasizeAnchor_height"] = 29.99998283386231,
+					["growup"] = true,
 					["fontSizeEmph"] = 14,
-					["fill"] = true,
-					["BigWigsEmphasizeAnchor_width"] = 226.0000305175781,
-					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
-					["BigWigsEmphasizeAnchor_y"] = 305.2668127959041,
-					["emphasizeRestart"] = false,
-					["BigWigsAnchor_x"] = 1240,
+					["fontName"] = "Expressway",
+					["BigWigsAnchor_height"] = 26.99999237060547,
 					["emphasizeTime"] = 7,
+					["BigWigsEmphasizeAnchor_x"] = 790.4005620559328,
+					["BigWigsEmphasizeAnchor_width"] = 226.0000305175781,
+					["fill"] = true,
 				},
 				["Default"] = {
 					["BigWigsAnchor_width"] = 220.0002136230469,
@@ -40,46 +40,44 @@ BigWigs3DB = {
 					["BigWigsEmphasizeAnchor_height"] = 21.9999885559082,
 					["BigWigsAnchor_height"] = 16.00011825561523,
 				},
-			},
-		},
-		["BigWigs_Plugins_InfoBox"] = {
-		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["fontSize"] = 16,
+				["MerfinUI v5.27"] = {
+					["fontSize"] = 13,
+					["visibleBarLimit"] = 7,
+					["expHeight"] = 29,
+					["emphasizeRestart"] = false,
+					["emphasizeGrowup"] = true,
+					["expWidth"] = 225,
+					["fill"] = true,
+					["barStyle"] = "ElvUI",
+					["growup"] = true,
+					["fontSizeEmph"] = 15,
+					["normalHeight"] = 27,
+					["expPosition"] = {
+						"BOTTOMRIGHT", -- [1]
+						"TOPRIGHT", -- [2]
+						nil, -- [3]
+						88, -- [4]
+						"ElvUF_Player", -- [5]
+					},
+					["normalWidth"] = 190,
+					["texture"] = "Flatt",
 					["fontName"] = "Expressway",
-					["width"] = 120,
-					["posy"] = 417,
-					["lock"] = false,
-					["height"] = 101,
-					["posx"] = 801,
+					["emphasizeTime"] = 7,
+					["normalPosition"] = {
+						"BOTTOMLEFT", -- [1]
+						"BOTTOMRIGHT", -- [2]
+						35, -- [3]
+						0, -- [4]
+						"ElvUF_Boss1", -- [5]
+					},
 				},
 			},
 		},
-		["BigWigs_Plugins_Statistics"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Plugins_InfoBox"] = {
 			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 16,
-					["emphFontName"] = "Expressway",
-					["emphFontSize"] = 44,
-					["emphPosition"] = {
-						"TOP", -- [1]
-						"TOP", -- [2]
-						nil, -- [3]
-						-206, -- [4]
-					},
-					["fontName"] = "Expressway",
-					["emphOutline"] = "OUTLINE",
+				["MerfinUI v5.27"] = {
+					["posx"] = 197,
+					["posy"] = 512,
 				},
 			},
 		},
@@ -98,9 +96,93 @@ BigWigs3DB = {
 				["Default"] = {
 					["expanded"] = true,
 				},
+				["MerfinUI v5.27"] = {
+					["fontSize"] = 14,
+					["fontName"] = "Expressway",
+					["position"] = {
+						"BOTTOMRIGHT", -- [1]
+						"BOTTOMRIGHT", -- [2]
+						-315, -- [3]
+						327, -- [4]
+					},
+				},
 			},
 		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 16,
+					["emphOutline"] = "OUTLINE",
+					["fontName"] = "Expressway",
+					["emphFontName"] = "Expressway",
+					["emphFontSize"] = 44,
+					["emphPosition"] = {
+						"TOP", -- [1]
+						"TOP", -- [2]
+						nil, -- [3]
+						-206, -- [4]
+					},
+				},
+				["MerfinUI v5.27"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 15,
+					["emphFontName"] = "Expressway",
+					["fontName"] = "Expressway",
+					["growUpwards"] = true,
+					["emphOutline"] = "OUTLINE",
+					["emphFontSize"] = 37,
+					["emphPosition"] = {
+						"TOP", -- [1]
+						"TOP", -- [2]
+						nil, -- [3]
+						-208, -- [4]
+					},
+					["normalPosition"] = {
+						"TOP", -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						-190, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["posx"] = 801,
+					["fontSize"] = 16,
+					["lock"] = false,
+					["height"] = 101,
+					["posy"] = 417,
+					["fontName"] = "Expressway",
+					["width"] = 120,
+				},
+				["MerfinUI v5.27"] = {
+					["posx"] = 716,
+					["fontSize"] = 16,
+					["lock"] = false,
+					["height"] = 101,
+					["posy"] = 443,
+					["fontName"] = "Expressway",
+					["width"] = 120,
+				},
+			},
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+		},
 		["BigWigs_Plugins_Pull"] = {
+			["profiles"] = {
+				["MerfinUI v5.27"] = {
+					["voice"] = "English: Amy",
+				},
+			},
 		},
 		["BigWigs_Plugins_Countdown"] = {
 			["profiles"] = {
@@ -115,18 +197,31 @@ BigWigs3DB = {
 						40, -- [4]
 					},
 				},
+				["MerfinUI v5.27"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 47,
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+					["voice"] = "English: Amy",
+					["fontName"] = "Expressway",
+				},
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Alsiadk - Venoxis"] = "Default",
-		["Alslala - Venoxis"] = "MerfinUI v5.22",
-		["Alsla - Venoxis"] = "MerfinUI v5.22",
 	},
 	["global"] = {
 		["watchedMovies"] = {
 			[-323] = true,
 		},
+	},
+	["profileKeys"] = {
+		["Alsiadk - Venoxis"] = "Default",
+		["Alsla - Venoxis"] = "MerfinUI v5.22",
+		["Alslala - Venoxis"] = "MerfinUI v5.22",
+		["Exonuklease - Venoxis"] = "MerfinUI v5.27",
 	},
 	["profiles"] = {
 		["MerfinUI v5.22"] = {
@@ -302,3 +397,4 @@ BigWigsStatsDB = {
 }
 BigWigsClassicDB = nil
 BigWigsStatsClassicDB = nil
+BigWigsBarsReset = true
