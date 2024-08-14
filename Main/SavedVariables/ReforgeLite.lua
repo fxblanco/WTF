@@ -8,9 +8,8 @@ ReforgeLiteDB = {
 		0.5, -- [2]
 		0.5, -- [3]
 	},
-	["windowX"] = 1573.101440429688,
-	["customPresets"] = {
-	},
+	["reforgeCheat"] = 5,
+	["methodWindowY"] = 1310.00048828125,
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
 			["caps"] = {
@@ -556,6 +555,9 @@ ReforgeLiteDB = {
 				},
 			},
 			["targetLevel"] = 3,
+			["buffs"] = {
+				["strength"] = true,
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -565,9 +567,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				5, -- [7]
 				3, -- [8]
-			},
-			["buffs"] = {
-				["strength"] = true,
 			},
 			["itemsLocked"] = {
 			},
@@ -738,6 +737,8 @@ ReforgeLiteDB = {
 				},
 			},
 			["targetLevel"] = 3,
+			["buffs"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				110, -- [2]
@@ -747,8 +748,6 @@ ReforgeLiteDB = {
 				50, -- [6]
 				120, -- [7]
 				200, -- [8]
-			},
-			["buffs"] = {
 			},
 			["itemsLocked"] = {
 			},
@@ -1853,7 +1852,7 @@ ReforgeLiteDB = {
 	},
 	["windowWidth"] = 800,
 	["itemSize"] = 24,
-	["methodWindowY"] = 1310.00048828125,
+	["openOnReforge"] = true,
 	["methodWindowX"] = 1500.000610351563,
 	["classProfiles"] = {
 		["HUNTER"] = {
@@ -1962,6 +1961,7 @@ ReforgeLiteDB = {
 		0, -- [2]
 		0, -- [3]
 	},
-	["openOnReforge"] = true,
-	["reforgeCheat"] = 5,
+	["customPresets"] = {
+	},
+	["windowX"] = 1573.101440429688,
 }
