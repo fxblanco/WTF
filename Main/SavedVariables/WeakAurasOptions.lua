@@ -25805,29 +25805,23 @@ WeakAurasOptionsSaved = {
 		["Aberrant Behavior"] = {
 			["achievements"] = "5310=366936",
 		},
-		["Parasite Evening"] = {
-			["achievements"] = "5306=236197",
-		},
 		["The Abyss Will Gaze Back Into You"] = {
 			["achievements"] = "5312=462324",
 		},
 		["Silence is Golden"] = {
 			["achievements"] = "5308=133706",
 		},
-		["Red Beam"] = {
-			["spells"] = "31513=135827,31515=135827,34397=135827,36295=136131,40228=135827,72594=135951",
-		},
-		["Heroic: Ascendant Council"] = {
-			["achievements"] = "5119=429378",
-		},
-		["Dusky Belt"] = {
-			["spells"] = "9206=136247",
-		},
 		["Achieve-a-tron"] = {
 			["achievements"] = "5307=415046",
 		},
+		["Red Beam"] = {
+			["spells"] = "31513=135827,31515=135827,34397=135827,36295=136131,40228=135827,72594=135951",
+		},
 		["Throne of the Four Winds"] = {
 			["achievements"] = "4851=254501",
+		},
+		["Dusky Belt"] = {
+			["spells"] = "9206=136247",
 		},
 		["Heroic: Valiona and Theralion"] = {
 			["achievements"] = "5117=429379",
@@ -25838,14 +25832,20 @@ WeakAurasOptionsSaved = {
 		["Heroic: Omnotron Defense System"] = {
 			["achievements"] = "5107=415046",
 		},
+		["Horde Reputation"] = {
+			["spells"] = "26125=132485",
+		},
+		["Heroic: Atramedes"] = {
+			["achievements"] = "5109=426494",
+		},
 		["Shroud"] = {
 			["spells"] = "52006=136177",
 		},
 		["Plant Green Seedling"] = {
 			["spells"] = "34761=136025",
 		},
-		["Horde Reputation"] = {
-			["spells"] = "26125=132485",
+		["Heroic: Maloriak"] = {
+			["achievements"] = "5108=429380",
 		},
 		["Dark Iron Boots"] = {
 			["spells"] = "24399=136192",
@@ -25853,26 +25853,26 @@ WeakAurasOptionsSaved = {
 		["Resourcefulness"] = {
 			["spells"] = "34491=132207,34492=132207,34493=132207",
 		},
-		["Heroic: Atramedes"] = {
-			["achievements"] = "5109=426494",
-		},
-		["Heroic: Maloriak"] = {
-			["achievements"] = "5108=429380",
-		},
-		["Bilgewater Buccaneer"] = {
-			["spells"] = "66606=132996,70016=132996,70065=132996",
-		},
 		["Blackwing Descent"] = {
 			["achievements"] = "4842=254649",
 		},
 		["Elementary"] = {
 			["achievements"] = "5311=429378",
 		},
-		["Toothy"] = {
-			["spells"] = "43697=132806",
+		["Bilgewater Buccaneer"] = {
+			["spells"] = "66606=132996,70016=132996,70065=132996",
 		},
 		["Heroic: Conclave of Wind"] = {
 			["achievements"] = "5122=236154",
+		},
+		["Heroic: Al'Akir"] = {
+			["achievements"] = "5123=254501",
+		},
+		["Toothy"] = {
+			["spells"] = "43697=132806",
+		},
+		["Heroic: Cho'gall"] = {
+			["achievements"] = "5120=429376",
 		},
 		["Debug Spell Reflection"] = {
 			["spells"] = "2583=135733",
@@ -25895,20 +25895,20 @@ WeakAurasOptionsSaved = {
 		["Admiral's Hat"] = {
 			["spells"] = "12022=134229,12081=132149",
 		},
-		["Heroic: Al'Akir"] = {
-			["achievements"] = "5123=254501",
+		["Full of Sound and Fury"] = {
+			["achievements"] = "5309=458971",
 		},
 		["No Static at All"] = {
 			["achievements"] = "5288=462675",
 		},
-		["Heroic: Cho'gall"] = {
-			["achievements"] = "5120=429376",
-		},
-		["Full of Sound and Fury"] = {
-			["achievements"] = "5309=458971",
-		},
 		["Defense Protocol Alpha: Ahn'kahet: The Old Kingdom"] = {
 			["achievements"] = "17291=236459",
+		},
+		["Heroic: Ascendant Council"] = {
+			["achievements"] = "5119=429378",
+		},
+		["Parasite Evening"] = {
+			["achievements"] = "5306=236197",
 		},
 		["Tap Valanar"] = {
 			["spells"] = "73164=135741,73165=135741",
@@ -77869,13 +77869,13 @@ WeakAurasOptionsSaved = {
 	["version"] = "5.15.4",
 	["savedSnippets"] = {
 	},
+	["spellCacheStrings"] = true,
 	["frame"] = {
 		["xOffset"] = 2144.402709960938,
 		["width"] = 945.199951171875,
 		["height"] = 1051.099975585938,
 		["yOffset"] = 1422.10009765625,
 	},
-	["spellCacheStrings"] = true,
 	["spellCacheAchievements"] = true,
 	["build"] = "56014",
 }

@@ -75,8 +75,8 @@ AUCTIONATOR_CONFIG = {
 		["40916"] = 1,
 		["43541"] = 1,
 		["40923"] = 1,
-		["43368"] = 1,
 		["43826"] = 1,
+		["43368"] = 1,
 		["42415"] = 1,
 		["43869"] = 1,
 		["43536"] = 1,
@@ -117,7 +117,7 @@ AUCTIONATOR_CONFIG = {
 	},
 	["save_last_duration_as_default"] = false,
 	["default_list_2"] = "",
-	["crafting_info_show_cost"] = true,
+	["auction_mean_tooltips"] = false,
 	["selling_post_stack_remainder"] = false,
 	["show_selling_bid_price"] = false,
 	["auction_duration"] = 24,
@@ -135,7 +135,7 @@ AUCTIONATOR_CONFIG = {
 	["mailbox_tooltips"] = true,
 	["prospect_tooltips"] = false,
 	["selling_bag_collapsed"] = false,
-	["auction_mean_tooltips"] = false,
+	["crafting_info_show_cost"] = true,
 	["auction_mean_days_limit"] = 21,
 	["auction_sales_preference"] = "static",
 	["gear_vendor_price_multiplier"] = 0,
@@ -9583,7 +9583,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14271"] = "¤aa€al€am\000ıah€",
 		["41346"] = "¤aa€al€am\000æ*ah€",
 		["43355"] = "¤aa€al€am\000é$ah€",
-		["52207"] = "¤aa¢d16772d16662al€am\000ØËah¢d1677\000ØËd1666\000Ğ",
+		["52207"] = "¤aa£d16772d16872d16662al€ah£d1677\000ØËd1687\000	À«d1666\000Ğam\000	À«",
 		["56219"] = "¤aa€al€am\0000ah€",
 		["gr:55407:of Agility"] = "¤aa€al€am\000B?ah€",
 		["12207"] = "¤aa€al€am(;ah€",
@@ -10984,10 +10984,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["19183"] = "¤aa€al€am*ah€",
 		["10212"] = "¤aa€al€am\000‡Áah€",
 		["31891"] = "¤aa€al€am\000[ah€",
-		["24799"] = "¤aa€al€ah€am\000l",
+		["9485"] = "¤aa€al€ah€am\0007Õ",
 		["gr:55585:of Stamina"] = "¤aa€al€am\000£¶ah€",
 		["14799"] = "¤aa€al€amõàîah€",
-		["9485"] = "¤aa€al€ah€am\0007Õ",
+		["24799"] = "¤aa€al€ah€am\000l",
 		["8485"] = "¤aa€al€am\000ıah€",
 		["gr:24957:of Stamina"] = "¤aa€al€am\000Œah€",
 		["69799"] = "¤aa¡d1674al€am\000=	\000ah¡d1674\000=	\000",
@@ -11471,7 +11471,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["37624"] = "¤aa€al€am\000\r”ah€",
 		["55982"] = "¤aa€al€ah€amÉ",
 		["gr:9789:of Power"] = "¤aa€al€am\000\"ßah€",
-		["68789"] = "¤aa¡d1683\ral€am\000˜–lah¡d1683\000˜–l",
+		["68789"] = "¤aa¢d1687d1683\ral€ah¢d1687\000Ë_d1683\000˜–lam\000Ë_",
 		["33865"] = "¤aa¡d16792al¡d1679MÆamMÆah¡d1679MÇ",
 		["8827"] = "¤aa€al€am\000¿ah€",
 		["13865"] = "¤aa€al€am\000®?ah€",
@@ -11574,8 +11574,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["16671"] = "¤aa€al€am\000˜ooah€",
 		["gr:55744:of Proficiency"] = "¤aa€al€am\000„=ah€",
 		["36671"] = "¤aa€al€am\000Iìah€",
-		["39895"] = "¤aa€al€ah€am\000y",
 		["14096"] = "¤aa€al€ah€amÃO",
+		["39895"] = "¤aa€al€ah€am\000y",
 		["49895"] = "¤aa€al€am]*ah€",
 		["43454"] = "¤aa€al€am\0001š*ah€",
 		["gr:55367:of Strength"] = "¤aa€al€am\000\n®>ah€",
@@ -11585,7 +11585,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55708:of Agility"] = "¤aa€al€am\000\rGæah€",
 		["gr:55508:of Agility"] = "¤aa€al€am\000	ah€",
 		["52190"] = "¤aa€al€am\000Vah€",
-		["10070"] = "¤aa€al€amê`ah€",
+		["gr:9794:of the Owl"] = "¤aa€al€amœ>ah€",
 		["gr:36350:of Stamina"] = "¤aa€al€ah€am\0008",
 		["gr:9292:of the Bear"] = "¤aa€al€ah€am\000È.",
 		["12190"] = "¤aa€al€am­ah€",
@@ -11749,7 +11749,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["35641"] = "¤aa€al€am\000\rÛah€",
 		["gr:36437:of Strength"] = "¤aa€al€am\000³}ah€",
 		["52096"] = "¤aa€al€am\000†–ah€",
-		["gr:55340:of Toughness"] = "¤aa€al€ah€am\000B4",
+		["62096"] = "¤aa€al€am\000\r*ah€",
 		["38920"] = "¤aa€al€am\000/s+ah€",
 		["42096"] = "¤aa€al€am\000€ah€",
 		["39088"] = "¤aa€al€am\000	šah€",
@@ -11884,14 +11884,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:36273:of Spirit"] = "¤aa€al€am\000Öóah€",
 		["48933"] = "¤aa€al€am&=ah€",
 		["gr:9913:of the Owl"] = "¤aa€al€ah€am\000¾",
-		["62112"] = "¤aa€al€am\000„wah€",
+		["gr:15493:of the Eagle"] = "¤aa€al€amıgah€",
 		["gr:36452:of Stamina"] = "¤aa€al€am\000w@ah€",
 		["20970"] = "¤aa€al€am\000\rm~ah€",
-		["gr:15493:of the Eagle"] = "¤aa€al€amıgah€",
+		["62112"] = "¤aa€al€am\000„wah€",
 		["gr:55638:of Toughness"] = "¤aa€al€am\000÷ah€",
 		["14449"] = "¤aa€al€am\000%›šah€",
 		["127"] = "¤aa€al€am\000eÆ«ah€",
-		["11970"] = "¤aa€al€ah€amN",
+		["20671"] = "¤aa€al€am\000JÄah€",
 		["727"] = "¤aa€al€amKÆah€",
 		["6390"] = "¤aa€al€amêNah€",
 		["24449"] = "¤aa€al€amN=ah€",
@@ -12090,7 +12090,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:14918:of the Bear"] = "¤aa€al€ah€am\000J¼¸",
 		["gr:36501:of Strength"] = "¤aa€al€ah€am\000B@",
 		["20384"] = "¤aa€al€ah€am\000U",
-		["gr:55565:of Intellect"] = "¤aa€al€am\000pëah€",
+		["36656"] = "¤aa€al€am\000lĞah€",
 		["gr:9946:of the Eagle"] = "¤aa€al€ah€am\000B@",
 		["16656"] = "¤aa€al€amıah€",
 		["44732"] = "¤aa€al€am\000:ûah€",
@@ -12243,18 +12243,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55772:of Retaliation"] = "¤aa€al€ah€am\000\r9",
 		["20855"] = "¤aa€al€am\000Ùlah€",
 		["40171"] = "¤aa€al€am\000~¿ah€",
-		["gr:55569:of Beast Slaying"] = "¤aa€al€am\000Èah€",
+		["20870"] = "¤aa€al€am¯¦ah€",
 		["33384"] = "¤aa€al€am\000\r?ah€",
 		["10171"] = "¤aa€al€ah€am\000&\000",
 		["68787"] = "¤aa€al€am\0004}~ah€",
-		["20870"] = "¤aa€al€am¯¦ah€",
+		["gr:55569:of Beast Slaying"] = "¤aa€al€am\000Èah€",
 		["gr:15150:of the Owl"] = "¤aa€al€am\000q­ah€",
 		["38787"] = "¤aa€al€am%®ah€",
 		["14317"] = "¤aa€al€am}x>ah€",
 		["gr:6552:of the Owl"] = "¤aa€al€amÀaah€",
 		["44676"] = "¤aa€al€am\000&ÂUah€",
 		["gr:14164:of the Whale"] = "¤aa€al€ah€amê^",
-		["gr:15223:of Stamina"] = "¤aa€al€am\000B+ah€",
+		["25069"] = "¤aa€al€am\000.ah€",
 		["9791"] = "¤aa€al€amç¢ah€",
 		["gr:15228:of Arcane Wrath"] = "¤aa€al€ah€am\000.ğ",
 		["3308"] = "¤aa€al€ah€am\000ú™",
@@ -12367,8 +12367,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["55410"] = "¤aa€al€am\000øPah€",
 		["gr:14182:of the Eagle"] = "¤aa€al€ah€amúğ€",
 		["36275"] = "¤aa€al€am\000Æ´ah€",
-		["33053"] = "¤aa€al€ah€amÁ+",
 		["23633"] = "¤aa€al€ah€am#ÃF\000",
+		["33053"] = "¤aa€al€ah€amÁ+",
 		["24171"] = "¤aa€al€am\000NHah€",
 		["14171"] = "¤aa€al€am\000Ñ\"ah€",
 		["gr:14226:of the Owl"] = "¤aa€al€am\000\n®`ah€",
@@ -12404,13 +12404,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["34053"] = "¤aa€al€amuah€",
 		["gr:25296:of Stamina"] = "¤aa€al€am\000zah€",
 		["5488"] = "¤aa€al€am\000È*ah€",
-		["37787"] = "¤aa€al€am\000„ah€",
+		["43537"] = "¤aa€al€am\000Ï«ah€",
 		["gr:35978:of Strength"] = "¤aa€al€am\000ºÔah€",
 		["8488"] = "¤aa€al€am\000âEah€",
-		["41401"] = "¤aa€al€ah€am\000“×",
+		["gr:15642:of the Monkey"] = "¤aa€al€am\000ZÇùah€",
 		["63537"] = "¤aa€al€ah€amá¶3",
 		["gr:7459:of the Bear"] = "¤aa€al€am\000$wah€",
-		["43537"] = "¤aa€al€am\000Ï«ah€",
+		["37787"] = "¤aa€al€am\000„ah€",
 		["gr:9871:of Power"] = "¤aa€al€am\000¡ah€",
 		["gr:55287:of Proficiency"] = "¤aa€al€am\000ah€",
 		["62565"] = "¤aa€al€am\000ºæah€",
@@ -12435,14 +12435,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52303"] = "¤aa€al€am\000øah€",
 		["gr:9289:of Stamina"] = "¤aa€al€ah€am\000¯",
 		["36679"] = "¤aa€al€am\000¥-ah€",
-		["gr:10157:of the Owl"] = "¤aa€al€am\000òBah€",
+		["10401"] = "¤aa€al€am}x=ah€",
 		["41475"] = "¤aa€al€am8xah€",
 		["gr:6593:of the Whale"] = "¤aa€al€ah€am=",
 		["gr:25177:of Intellect"] = "¤aa€al€am\000\n®`ah€",
 		["gr:55701:of Intellect"] = "¤aa€al€am\000©€ah€",
-		["34537"] = "¤aa€al€amêWah€",
-		["38911"] = "¤aa€al€am\000gtah€",
 		["gr:9877:of Shadow Wrath"] = "¤aa€al€ah€am‰†",
+		["38911"] = "¤aa€al€am\000gtah€",
+		["34537"] = "¤aa€al€amêWah€",
 		["gr:15143:of the Monkey"] = "¤aa€al€ah€am\000\n¢‰",
 		["gr:36191:of Strength"] = "¤aa€al€ah€am\000Ğ",
 		["22787"] = "¤aa€al€am‰öah€",
@@ -12476,8 +12476,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["9288"] = "¤aa€al€ah€am\000¡ ",
 		["gr:15260:of the Boar"] = "¤aa€al€ah€amN ",
 		["30732"] = "¤aa€al€am/¯úah€",
-		["1288"] = "¤aa€al€amfah€",
 		["gr:55561:of Stamina"] = "¤aa€al€am\000\nlah€",
+		["1288"] = "¤aa€al€amfah€",
 		["62121"] = "¤aa€al€ah€amu-",
 		["9808"] = "¤aa€al€amNah€",
 		["2259"] = "¤aa€al€amw5”\000ah€",
@@ -12511,15 +12511,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24585:of Strength"] = "¤aa€al€ah€am\000<îß",
 		["35980"] = "¤aa€al€am\000Iğah€",
 		["gr:14127:of the Eagle"] = "¤aa€al€am\000\n®`ah€",
-		["gr:44666:of Beast Slaying"] = "¤aa€al€am\000\nhah€",
+		["15980"] = "¤aa€al€am\000Ù ah€",
 		["58267"] = "¤aa€al€ah€amàœ",
 		["gr:15518:of the Eagle"] = "¤aa€al€ah€am\000’Œì",
 		["gr:44691:of Retaliation"] = "¤aa€al€ah€am\000¤#",
-		["6359"] = "¤aa€al€am†aah€",
-		["7359"] = "¤aa€al€am\000¥øah€",
 		["gr:9829:of Agility"] = "¤aa€al€am\000—\nah€",
+		["7359"] = "¤aa€al€am\000¥øah€",
+		["6359"] = "¤aa€al€am†aah€",
 		["21557"] = "¤aa€al€amèah€",
-		["43417"] = "¤aa€al€am\000_lah€",
+		["14927"] = "¤aa€al€am\000>)±ah€",
 		["21721"] = "¤aa€al€am“‡\000ah€",
 		["gr:24728:of Agility"] = "¤aa€al€am\000Ç¾ah€",
 		["9359"] = "¤aa€al€am\000Öah€",
@@ -12579,15 +12579,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:14908:of Strength"] = "¤aa€al€am\000Ã97ah€",
 		["gr:9768:of the Owl"] = "¤aa€al€amNah€",
 		["gr:14960:of Strength"] = "¤aa€al€ah€am\0006á",
-		["gr:10068:of the Owl"] = "¤aa€al€ah€am\000“ß",
-		["12717"] = "¤aa€al€am Íah€",
 		["gr:55663:of Strength"] = "¤aa€al€am\000Íah€",
+		["12717"] = "¤aa€al€am Íah€",
+		["gr:10068:of the Owl"] = "¤aa€al€ah€am\000“ß",
 		["gr:36290:of Proficiency"] = "¤aa€al€ah€am\000$í ",
 		["gr:31220:of Intellect"] = "¤aa€al€am±§Ÿah€",
 		["25403"] = "¤aa€al€am\000U ah€",
 		["gr:15258:of the Boar"] = "¤aa€al€am\000FÌöah€",
 		["gr:55285:of Spirit"] = "¤aa€al€am\000Ûtah€",
-		["55403"] = "¤aa€al€am\0006Tah€",
+		["gr:2075:of Power"] = "¤aa€al€ah€am\000jÿ",
 		["gr:15238:of the Monkey"] = "¤aa€al€ah€am\000}6",
 		["gr:6551:of the Bear"] = "¤aa€al€am\000pûah€",
 		["36161"] = "¤aa€al€am\000Ô¿ah€",
@@ -12697,7 +12697,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15305:of the Whale"] = "¤aa€al€ah€am\000†Ÿ",
 		["gr:15984:of Spirit"] = "¤aa€al€ah€am\000‚ôJ",
 		["gr:14964:of Stamina"] = "¤aa€al€ah€am\000[€",
-		["38836"] = "¤aa€al€am˜Gah€",
+		["25153"] = "¤aa€al€am\000-Æ¿ah€",
 		["15153"] = "¤aa€al€am\000Æah€",
 		["36241"] = "¤aa€al€am\000>A€ah€",
 		["3283"] = "¤aa€al€amq9ah€",
@@ -12713,7 +12713,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55578:of Intellect"] = "¤aa€al€am\000˜ah€",
 		["10632"] = "¤aa€al€ah€am\000&% ",
 		["gr:25098:of Stamina"] = "¤aa€al€ah€am\000-Æ¼",
-		["gr:14963:of the Bear"] = "¤aa€al€ah€amH§",
+		["gr:24706:of Proficiency"] = "¤aa€al€ah€am\000ˆ	",
 		["gr:9912:of the Wolf"] = "¤aa€al€am\000Ô¾ah€",
 		["gr:9911:of the Whale"] = "¤aa€al€am\000°øah€",
 		["8282"] = "¤aa€al€ah€am\000i",
@@ -12807,12 +12807,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["55336"] = "¤aa€al€am\000W,ah€",
 		["gr:10157:of Spirit"] = "¤aa€al€am\000;cah€",
 		["40206"] = "¤aa€al€am5Êah€",
-		["59597"] = "¤aa€al€am\0004ïah€",
-		["8957"] = "¤aa€al€ah€amÛ",
-		["9957"] = "¤aa€al€am\000pah€",
+		["8283"] = "¤aa€al€ah€am\000pB[",
 		["gr:15311:of Spirit"] = "¤aa€al€ah€am\000S‹",
+		["9957"] = "¤aa€al€am\000pah€",
+		["8957"] = "¤aa€al€ah€amÛ",
 		["7957"] = "¤aa€al€am\000Zjah€",
-		["gr:25212:of Stamina"] = "¤aa€al€am\0008©»ah€",
+		["gr:15112:of Spirit"] = "¤aa€al€ah€amu0",
 		["5957"] = "¤aa€al€amİah€",
 		["gr:15507:of the Tiger"] = "¤aa€al€ah€am\000üŠ",
 		["gr:9880:of the Eagle"] = "¤aa€al€amÃPah€",
@@ -12835,15 +12835,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24644"] = "¤aa€al€am\000eah€",
 		["gr:55538:of Agility"] = "¤aa€al€am\000ah€",
 		["gr:25307:of Spirit"] = "¤aa€al€ah€am\000	ë",
-		["gr:24627:of Strength"] = "¤aa€al€am\000•	ah€",
 		["14800"] = "¤aa€al€am\000	›ah€",
+		["gr:24627:of Strength"] = "¤aa€al€am\000•	ah€",
 		["24800"] = "¤aa€al€am\000V›ah€",
 		["8159"] = "¤aa€al€am\000Iğah€",
 		["gr:25096:of Strength"] = "¤aa€al€am\000.iah€",
 		["22276"] = "¤aa€al€am\000-Ÿ¢ah€",
 		["gr:15608:of the Eagle"] = "¤aa€al€am\000·ah€",
 		["41107"] = "¤aa€al€am\000àµah€",
-		["52289"] = "¤aa€al€ah€am\000}”l",
+		["41379"] = "¤aa€al€am\000\rçåah€",
 		["gr:36181:of Proficiency"] = "¤aa€al€ah€am\000©R",
 		["19709"] = "¤aa€al€am\000j†ah€",
 		["gr:31161:of Toughness"] = "¤aa€al€ah€am\000LK@",
@@ -12867,18 +12867,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["34061"] = "¤aa€al€am}x=ah€",
 		["gr:55725:of Strength"] = "¤aa€al€am\000:ah€",
 		["9483"] = "¤aa€al€am\000Öah€",
-		["gr:55621:of Spirit"] = "¤aa€al€am\000#ah€",
+		["gr:36640:of Proficiency"] = "¤aa€al€am\000+ğah€",
 		["gr:55746:of Quality"] = "¤aa€al€am\000Ğ‡ah€",
 		["52379"] = "¤aa€al€am\000„ah€",
 		["28452"] = "¤aa€al€amUah€",
-		["8483"] = "¤aa€al€amÎ¼ah€",
+		["14107"] = "¤aa€al€am\000EGah€",
 		["31289"] = "¤aa€al€am1êah€",
 		["5483"] = "¤aa€al€am\000yªah€",
-		["14107"] = "¤aa€al€am\000EGah€",
+		["8483"] = "¤aa€al€amÎ¼ah€",
 		["7483"] = "¤aa€al€amê`ah€",
 		["gr:11987:of Intellect"] = "¤aa€al€am­±ah€",
 		["1483"] = "¤aa€al€am\000\n9ah€",
-		["gr:55515:of Strength"] = "¤aa€al€am\0000Ïah€",
+		["11289"] = "¤aa€al€ah€am\000Ô¿",
 		["3483"] = "¤aa€al€am†‰ah€",
 		["gr:14947:of Agility"] = "¤aa€al€ah€am\000LXğ",
 		["gr:24675:of Stamina"] = "¤aa€al€ah€am\000±",
@@ -12889,8 +12889,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["15369"] = "¤aa€al€am\000†ah€",
 		["gr:10229:of Arcane Resistance"] = "¤aa€al€ah€am\000\r@",
 		["gr:6560:of the Gorilla"] = "¤aa€al€ah€am\000ÇÌ",
-		["gr:10263:of Defense"] = "¤aa€al€ah€am\0003l",
 		["55369"] = "¤aa€al€am\000	'¬ah€",
+		["gr:10263:of Defense"] = "¤aa€al€ah€am\0003l",
 		["gr:24800:of Strength"] = "¤aa€al€ah€am\000!Õ8",
 		["gr:10063:of Stamina"] = "¤aa€al€ah€am\000ÂÆ",
 		["gr:25117:of Stamina"] = "¤aa€al€ah€am\000\r@",
@@ -12899,7 +12899,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:25149:of Strength"] = "¤aa€al€ah€am\000EÀ",
 		["41545"] = "¤aa€al€am\000zah€",
 		["22644"] = "¤aa€al€amÃah€",
-		["gr:15970:of the Falcon"] = "¤aa€al€ah€amÃ",
+		["12644"] = "¤aa€al€amNah€",
 		["35557"] = "¤aa€al€am0»ah€",
 		["gr:25065:of Agility"] = "¤aa€al€am\000Æah€",
 		["15557"] = "¤aa€al€am\000\r@ah€",
@@ -12934,7 +12934,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15110:of the Whale"] = "¤aa€al€ah€am\000/Œ",
 		["gr:7430:of Stamina"] = "¤aa€al€amu/ah€",
 		["gr:10165:of the Eagle"] = "¤aa€al€am\000SFah€",
-		["gr:12034:of the Boar"] = "¤aa€al€ah€am\000\r@",
+		["23786"] = "¤aa€al€am\000Iéah€",
 		["69800"] = "¤aa¡d1674al€am\000+|Ğah¡d1674\000+|Ğ",
 		["gr:24695:of Spirit"] = "¤aa€al€am\000»ah€",
 		["gr:55682:of Strength"] = "¤aa€al€am\000\r»ah€",
@@ -13028,7 +13028,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:36440:of Proficiency"] = "¤aa€al€ah€am\000[`",
 		["12255"] = "¤aa€al€ah€am\000 NF",
 		["6057"] = "¤aa€al€am\000~'ah€",
-		["gr:4087:of Spirit"] = "¤aa€al€amÂæah€",
+		["9383"] = "¤aa€al€am\000nah€",
 		["4057"] = "¤aa€al€am\000˜\rah€",
 		["gr:36486:of Spirit"] = "¤aa€al€am\000`”Íah€",
 		["55545"] = "¤aa€al€am\000&% ah€",
@@ -13080,11 +13080,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55418:of Retaliation"] = "¤aa€al€am\000¶Àah€",
 		["gr:14309:of Fiery Wrath"] = "¤aa€al€ah€am\000L$0",
 		["9869"] = "¤aa€al€am\0004˜ah€",
-		["gr:24990:of Intellect"] = "¤aa€al€ah€am\000…Î:",
-		["gr:9794:of Stamina"] = "¤aa€al€amœ>ah€",
-		["gr:7474:of the Eagle"] = "¤aa€al€ah€am\000±W",
-		["gr:7455:of Strength"] = "¤aa€al€ah€am\000B?",
 		["24992"] = "¤aa€al€am\000]nah€",
+		["gr:9794:of Stamina"] = "¤aa€al€amœ>ah€",
+		["15747"] = "¤aa€al€amMõah€",
+		["gr:7455:of Strength"] = "¤aa€al€ah€am\000B?",
+		["gr:24990:of Intellect"] = "¤aa€al€ah€am\000…Î:",
 		["45747"] = "¤aa€al€amşah€",
 		["55747"] = "¤aa€al€am\000÷•ah€",
 		["40772"] = "¤aa€al€amt\\ah€",
@@ -13125,8 +13125,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["23575"] = "¤aa€al€am’ah€",
 		["gr:36024:of Stamina"] = "¤aa€al€ah€am\000P¡",
 		["37800"] = "¤aa€al€am\000<E¯ah€",
-		["37770"] = "¤aa€al€ah€am\000z?",
 		["40923"] = "¤aa€al€am\000qŸah€",
+		["37770"] = "¤aa€al€ah€am\000z?",
 		["gr:55504:of Agility"] = "¤aa€al€am\000Bah€",
 		["20554"] = "¤aa€al€am\000i?ah€",
 		["3869"] = "¤aa€al€am.àah€",
@@ -13136,8 +13136,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:25044:of Agility"] = "¤aa€al€ah€am\000Jò",
 		["gr:15986:of the Whale"] = "¤aa€al€am	4•ah€",
 		["gr:10198:of the Wolf"] = "¤aa€al€ah€am\000«",
-		["gr:4566:of Spirit"] = "¤aa€al€amÃOah€",
 		["66992"] = "¤aa€al€am\000];+ah€",
+		["gr:4566:of Spirit"] = "¤aa€al€amÃOah€",
 		["32586"] = "¤aa€al€am†Rah€",
 		["gr:36065:of Proficiency"] = "¤aa€al€am\000%ÍIah€",
 		["gr:14913:of Stamina"] = "¤aa€al€ah€am\000îGş",
@@ -13151,11 +13151,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9864:of the Bear"] = "¤aa€al€am\000\r=ah€",
 		["gr:15560:of the Whale"] = "¤aa€al€am\000w,ah€",
 		["36291"] = "¤aa€al€ah€am\000í",
-		["24770"] = "¤aa€al€ah€am\000„€",
+		["15007"] = "¤aa€al€am\000ı/ah€",
 		["gr:25000:of Agility"] = "¤aa€al€am\000äáÀah€",
 		["gr:10060:of the Whale"] = "¤aa€al€am\000³fah€",
 		["14770"] = "¤aa€al€am\000ş‹ah€",
-		["15007"] = "¤aa€al€am\000ı/ah€",
+		["24770"] = "¤aa€al€ah€am\000„€",
 		["25007"] = "¤aa€al€am\000-Íıah€",
 		["23107"] = "¤aa€al€am\000Ü8ah€",
 		["gr:36652:of Proficiency"] = "¤aa€al€am\000&,ah€",
@@ -13231,7 +13231,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55375:of Strength"] = "¤aa€al€am\000[úah€",
 		["15673"] = "¤aa€al€am\000Rïah€",
 		["gr:24987:of Intellect"] = "¤aa€al€am\000]nah€",
-		["gr:10182:of Power"] = "¤aa€al€am\000=şah€",
+		["gr:25091:of Stamina"] = "¤aa€al€am\000O¢kah€",
 		["gr:55724:of Beast Slaying"] = "¤aa€al€am\000\n®Yah€",
 		["gr:36188:of Proficiency"] = "¤aa€al€am\000Ğah€",
 		["gr:55342:of Stamina"] = "¤aa€al€ah€am\000¡ ",
@@ -13251,10 +13251,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:7443:of the Owl"] = "¤aa€al€ah€am\000Øk",
 		["gr:24864:of Agility"] = "¤aa€al€am\000@ı^ah€",
 		["gr:55347:of Proficiency"] = "¤aa€al€am\000¡ah€",
-		["56007"] = "¤aa€al€am\000hah€",
+		["gr:55564:of Strength"] = "¤aa€al€am\000põah€",
 		["36007"] = "¤aa€al€am\000Pëah€",
 		["19821"] = "¤aa€al€am\0008Wah€",
-		["gr:55564:of Strength"] = "¤aa€al€am\000põah€",
+		["56007"] = "¤aa€al€am\000hah€",
 		["gr:55368:of Agility"] = "¤aa€al€ah€am\000q§",
 		["gr:6581:of Defense"] = "¤aa€al€ah€amê`",
 		["15772"] = "¤aa€al€am\000’¡ah€",
@@ -13298,10 +13298,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["38869"] = "¤aa€al€am\000iéah€",
 		["gr:55359:of Toughness"] = "¤aa€al€am\000\n®^ah€",
 		["gr:15338:of the Eagle"] = "¤aa€al€am\000@=Iah€",
-		["37772"] = "¤aa€al€ah€am\000È-",
+		["14369"] = "¤aa€al€ah€am\000B@",
 		["61992"] = "¤aa€al€amÉÃwah€",
 		["gr:36319:of Quality"] = "¤aa€al€ah€am\000z\"",
-		["14369"] = "¤aa€al€ah€am\000B@",
+		["37772"] = "¤aa€al€ah€am\000È-",
 		["gr:14947:of the Boar"] = "¤aa€al€ah€am\000LXï",
 		["2314"] = "¤aa€al€am\000_ah€",
 		["gr:9828:of the Eagle"] = "¤aa€al€ah€am«à",
@@ -13310,15 +13310,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55602:of Agility"] = "¤aa€al€am\000&Lah€",
 		["33236"] = "¤aa€al€amÃLah€",
 		["gr:55383:of Agility"] = "¤aa€al€am\000,ah€",
-		["21992"] = "¤aa€al€am\000™YÌah€",
 		["gr:55350:of Toughness"] = "¤aa€al€ah€am\000ã\\",
+		["21992"] = "¤aa€al€am\000™YÌah€",
 		["gr:55611:of Strength"] = "¤aa€al€am\0000ah€",
-		["gr:6268:of the Whale"] = "¤aa€al€ah€am\000„Z",
+		["gr:6611:of the Whale"] = "¤aa€al€amšFah€",
 		["gr:36267:of Proficiency"] = "¤aa€al€am\000!ßàah€",
 		["gr:36383:of Proficiency"] = "¤aa€al€ah€am\0008£",
 		["8129"] = "¤aa€al€am\000†šah€",
-		["gr:36448:of Strength"] = "¤aa€al€am\000 ’ah€",
 		["45998"] = "¤aa€al€am\000LK7ah€",
+		["gr:36448:of Strength"] = "¤aa€al€am\000 ’ah€",
 		["35998"] = "¤aa€al€amşŒah€",
 		["gr:25016:of Agility"] = "¤aa€al€ah€am\000íI",
 		["44282"] = "¤aa€al€am®Sah€",
@@ -13331,8 +13331,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["60210"] = "¤aa€al€ah€amâÙ",
 		["62084"] = "¤aa€al€am\000İSşah€",
 		["gr:55283:of Toughness"] = "¤aa€al€am\000«nah€",
-		["gr:14316:of the Wolf"] = "¤aa€al€am\000eo‡ah€",
 		["gr:10263:of the Owl"] = "¤aa€al€ah€am\000&Ü",
+		["gr:14316:of the Wolf"] = "¤aa€al€am\000eo‡ah€",
 		["15626"] = "¤aa€al€ah€am\000ŞS",
 		["gr:55539:of Defense"] = "¤aa€al€am\000—ah€",
 		["gr:31159:of Proficiency"] = "¤aa€al€ah€am\000³Ä",
@@ -13381,9 +13381,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55571:of Beast Slaying"] = "¤aa€al€ah€am\000Ax",
 		["gr:15168:of the Owl"] = "¤aa€al€ah€am\000¥O",
 		["gr:55306:of Stamina"] = "¤aa€al€ah€am\000	\000¯",
-		["gr:6562:of the Owl"] = "¤aa€al€ah€am\000%",
-		["865"] = "¤aa€al€am\000	\000®ah€",
 		["765"] = "¤aa€al€ah€am	¿",
+		["865"] = "¤aa€al€am\000	\000®ah€",
+		["gr:6562:of the Owl"] = "¤aa€al€ah€am\000%",
 		["gr:15932:of Shadow Wrath"] = "¤aa€al€ah€am\000“ß",
 		["40047"] = "¤aa€al€amn?§ah€",
 		["gr:15389:of the Falcon"] = "¤aa€al€ah€am\000;0,",
@@ -13461,9 +13461,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["8201"] = "¤aa€al€amâ‡ah€",
 		["gr:9891:of the Owl"] = "¤aa€al€ah€am\000/J",
 		["44687"] = "¤aa€al€am\000-Æ¾ah€",
-		["gr:9930:of the Monkey"] = "¤aa€al€ah€am1T",
-		["gr:31232:of Agility"] = "¤aa€al€am\000/â©ah€",
 		["gr:14913:of the Gorilla"] = "¤aa€al€ah€amïj.",
+		["gr:31232:of Agility"] = "¤aa€al€am\000/â©ah€",
+		["gr:9930:of the Monkey"] = "¤aa€al€ah€am1T",
 		["52118"] = "¤aa€al€am\000\\ah€",
 		["24198"] = "¤aa€al€am\000¹©ah€",
 		["gr:25015:of Intellect"] = "¤aa€al€am\000	ah€",
@@ -13476,14 +13476,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55504:of Proficiency"] = "¤aa€al€am\000A}ah€",
 		["gr:3187:of Power"] = "¤aa€al€am\000†Ÿah€",
 		["36923"] = "¤aa€al€ah€amYÀ",
-		["gr:15683:of the Tiger"] = "¤aa€al€am\000zJtah€",
+		["gr:55674:of Proficiency"] = "¤aa€al€am\000?„ah€",
 		["gr:55732:of Retaliation"] = "¤aa€al€am\000,g.ah€",
 		["2257"] = "¤aa€al€amw5”\000ah€",
 		["8257"] = "¤aa€al€amàâah€",
-		["2369"] = "¤aa€al€amw5”\000ah€",
+		["gr:25069:of Proficiency"] = "¤aa€al€am\000B@ah€",
 		["5257"] = "¤aa€al€am»gcah€",
-		["gr:55674:of Proficiency"] = "¤aa€al€am\000?„ah€",
-		["21071"] = "¤aa€al€am¤ah€",
+		["gr:15683:of the Tiger"] = "¤aa€al€am\000zJtah€",
+		["gr:55365:of Quality"] = "¤aa€al€am\000<áïah€",
 		["6369"] = "¤aa€al€am\000Èah€",
 		["7369"] = "¤aa€al€am\000ÃËah€",
 		["4369"] = "¤aa€al€am\000ûĞah€",
@@ -13520,12 +13520,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15593:of Healing"] = "¤aa€al€ah€am\000€",
 		["62071"] = "¤aa€al€am\000]²ah€",
 		["gr:55634:of Spirit"] = "¤aa€al€am\000	'·ah€",
-		["8269"] = "¤aa€al€ah€am\000`W”",
-		["gr:15369:of the Whale"] = "¤aa€al€am\000†ah€",
-		["15613"] = "¤aa€al€am\000ô ah€",
 		["gr:15228:of Shadow Wrath"] = "¤aa€al€am\000÷ ah€",
-		["15680"] = "¤aa€al€am{»&ah€",
 		["10051"] = "¤aa€al€ah€am\000Iî",
+		["15613"] = "¤aa€al€am\000ô ah€",
+		["8269"] = "¤aa€al€ah€am\000`W”",
+		["15680"] = "¤aa€al€am{»&ah€",
+		["gr:15369:of the Whale"] = "¤aa€al€am\000†ah€",
 		["gr:15606:of the Falcon"] = "¤aa€al€ah€am\000€",
 		["52687"] = "¤aa¡d16732al€am\000\rlSah¡d1673\000\rlS",
 		["40051"] = "¤aa€al€am\000&jah€",
@@ -13546,7 +13546,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["25191"] = "¤aa€al€am\000=ÿah€",
 		["gr:7539:of the Falcon"] = "¤aa€al€am\000Iğah€",
 		["gr:24697:of Proficiency"] = "¤aa€al€am\000!¸Ìah€",
-		["5969"] = "¤aa€al€amoàÄah€",
+		["13071"] = "¤aa€al€am\000)\rĞah€",
 		["gr:15391:of the Owl"] = "¤aa€al€ah€am\0000",
 		["46821"] = "¤aa€al€am\000¶ìah€",
 		["29007"] = "¤aa€al€am\0004Nah€",
@@ -13614,8 +13614,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["40138"] = "¤aa€al€am\000~ah€",
 		["gr:6613:of Arcane Wrath"] = "¤aa€al€am\000©æah€",
 		["62655"] = "¤aa¡d1674éal¡d1674EamEah¡d1674F",
-		["gr:7459:of the Gorilla"] = "¤aa€al€ah€am\000Iï",
 		["55297"] = "¤aa€al€am\000dpah€",
+		["gr:7459:of the Gorilla"] = "¤aa€al€ah€am\000Iï",
 		["2073"] = "¤aa€al€amUíah€",
 		["gr:7357:of Healing"] = "¤aa€al€ah€amtÌ",
 		["gr:15676:of Agility"] = "¤aa€al€amèH\000ah€",
@@ -13626,16 +13626,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9774:of the Whale"] = "¤aa€al€amøØah€",
 		["15537"] = "¤aa€al€am\000‹Ó¬ah€",
 		["14426"] = "¤aa€al€ah€amÃK",
-		["gr:14966:of the Boar"] = "¤aa€al€am© ”ah€",
+		["gr:55578:of Beast Slaying"] = "¤aa€al€ah€am\000İÏ",
 		["7073"] = "¤aa€al€ah€amd",
-		["3287"] = "¤aa€al€am\000‚ùah€",
+		["55537"] = "¤aa€al€am\0004ÿah€",
 		["15417"] = "¤aa€al€am\0006ah€",
 		["4073"] = "¤aa€al€am\000doah€",
 		["52160"] = "¤aa€al€am\000\n½\"ah€",
 		["gr:36680:of Strength"] = "¤aa€al€am\000*,ah€",
 		["56503"] = "¤aa€al€am\000aPah€",
 		["4387"] = "¤aa€al€am\000\r»Ÿah€",
-		["gr:55578:of Beast Slaying"] = "¤aa€al€ah€am\000İÏ",
+		["gr:14966:of the Boar"] = "¤aa€al€am© ”ah€",
 		["36503"] = "¤aa€al€am\000¡!ah€",
 		["gr:4564:of the Gorilla"] = "¤aa€al€ah€am\000Iï",
 		["8387"] = "¤aa€al€amëZah€",
@@ -13677,8 +13677,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24585:of Proficiency"] = "¤aa€al€am\000F¼Iah€",
 		["gr:15153:of Agility"] = "¤aa€al€ah€am\000Æ",
 		["gr:15656:of Defense"] = "¤aa€al€am\000©\"ah€",
-		["gr:9810:of the Monkey"] = "¤aa€al€ah€amœ@",
 		["gr:24612:of Strength"] = "¤aa€al€ah€am\000Ü",
+		["gr:9810:of the Monkey"] = "¤aa€al€ah€amœ@",
 		["52112"] = "¤aa€al€am\000†šah€",
 		["gr:55669:of Spirit"] = "¤aa€al€am\000B6ah€",
 		["15473"] = "¤aa€al€am\000¼ôah€",
@@ -13693,8 +13693,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24654:of Stamina"] = "¤aa€al€ah€am\000B",
 		["40913"] = "¤aa€al€am\000\r¹ah€",
 		["55426"] = "¤aa€al€am\000+ğah€",
-		["gr:35970:of Proficiency"] = "¤aa€al€am\000†¢ah€",
 		["21854"] = "¤aa€al€am\000† ah€",
+		["gr:35970:of Proficiency"] = "¤aa€al€am\000†¢ah€",
 		["gr:15492:of the Eagle"] = "¤aa€al€ah€am\000<",
 		["37763"] = "¤aa€al€ah€am\000D",
 		["gr:9849:of Shadow Wrath"] = "¤aa€al€ah€am\000¥a",
@@ -13715,16 +13715,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["25053"] = "¤aa€al€am\000”ah€",
 		["15633"] = "¤aa€al€ah€am\000ô2",
 		["14862"] = "¤aa€al€amúğyah€",
-		["15053"] = "¤aa€al€am\000%9ñah€",
+		["gr:14898:of the Monkey"] = "¤aa€al€ah€am\000†€±",
 		["gr:15126:of the Eagle"] = "¤aa€al€am\0009àah€",
 		["gr:55597:of Toughness"] = "¤aa€al€ah€am\000¡ ",
-		["gr:15304:of Stamina"] = "¤aa€al€am\000êüah€",
-		["10242"] = "¤aa€al€am\000¡ ah€",
 		["55633"] = "¤aa€al€am\000¡ah€",
+		["10242"] = "¤aa€al€am\000¡ ah€",
+		["gr:15304:of Stamina"] = "¤aa€al€am\000êüah€",
 		["gr:55411:of Beast Slaying"] = "¤aa€al€am\000&L¡ah€",
-		["gr:7356:of Spirit"] = "¤aa€al€ah€am\000Z^",
-		["gr:10069:of the Bear"] = "¤aa€al€amœ@ah€",
 		["32854"] = "¤aa€al€ah€amúğ",
+		["gr:10069:of the Bear"] = "¤aa€al€amœ@ah€",
+		["gr:7356:of Spirit"] = "¤aa€al€ah€am\000Z^",
 		["62051"] = "¤aa€al€amô9Lah€",
 		["22854"] = "¤aa€al€am\000‚cah€",
 		["gr:55609:of Intellect"] = "¤aa€al€am\000Ğdah€",
@@ -13734,7 +13734,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:36267:of Strength"] = "¤aa€al€ah€am\000àw",
 		["gr:10218:of Frozen Wrath"] = "¤aa€al€ah€amÄÉD",
 		["gr:55724:of Agility"] = "¤aa€al€am\000\râšah€",
-		["20821"] = "¤aa€al€amu0ah€",
+		["4687"] = "¤aa€al€ah€am\000èÑ‡",
 		["gr:55607:of Retaliation"] = "¤aa€al€am\000‹rah€",
 		["32718"] = "¤aa€al€am\000¡Êah€",
 		["55286"] = "¤aa€al€am\000+ğah€",
@@ -13747,8 +13747,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["36053"] = "¤aa€al€am\000\r5ah€",
 		["13051"] = "¤aa€al€am\000¡ah€",
 		["60202"] = "¤aa€al€ah€am,œ",
-		["gr:9747:of the Eagle"] = "¤aa€al€ah€amì¼",
 		["gr:10108:of the Monkey"] = "¤aa€al€am\000ªyah€",
+		["gr:9747:of the Eagle"] = "¤aa€al€ah€amì¼",
 		["66952"] = "¤aa€al€am\000-íËah€",
 		["gr:15280:of the Falcon"] = "¤aa€al€am\000B?ah€",
 		["2687"] = "¤aa€al€am^^ah€",
@@ -13761,10 +13761,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24732:of Proficiency"] = "¤aa€al€am\000Ø+ah€",
 		["gr:36424:of Proficiency"] = "¤aa€al€am\000¡ ah€",
 		["gr:35994:of Proficiency"] = "¤aa€al€am\000\r@ah€",
-		["gr:55324:of Proficiency"] = "¤aa€al€am\000„ah€",
 		["gr:36658:of Strength"] = "¤aa€al€ah€am\000“ß",
-		["5787"] = "¤aa€al€am\000Ôah€",
+		["gr:55324:of Proficiency"] = "¤aa€al€am\000„ah€",
 		["gr:36217:of Proficiency"] = "¤aa€al€ah€am\000‰",
+		["5787"] = "¤aa€al€am\000Ôah€",
 		["6787"] = "¤aa€al€ah€am\000÷™",
 		["3787"] = "¤aa€al€amjÙah€",
 		["gr:9948:of the Eagle"] = "¤aa€al€am\0002éah€",
@@ -13775,7 +13775,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24648"] = "¤aa€al€ah€am\000\r@",
 		["gr:14114:of Stamina"] = "¤aa€al€ah€amK",
 		["gr:10380:of Power"] = "¤aa€al€am\000}ah€",
-		["gr:31203:of Intellect"] = "¤aa€al€ah€am\000bÚ",
+		["18359"] = "¤aa€al€am1,ıah€",
 		["55629"] = "¤aa€al€am\000\r>ah€",
 		["gr:55512:of Agility"] = "¤aa€al€am\000\n®4ah€",
 		["36430"] = "¤aa€al€ah€am\000ei",
@@ -13784,11 +13784,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["62242"] = "¤aa€al€am\000ah€",
 		["52242"] = "¤aa€al€am\000Xah€",
 		["gr:36568:of Stamina"] = "¤aa€al€ah€am\000Éí",
-		["54854"] = "¤aa€al€am\000Úõah€",
+		["7373"] = "¤aa€al€ah€amÃI",
 		["9806"] = "¤aa€al€am'ah€",
 		["31227"] = "¤aa€al€am\000\nÀah€",
-		["gr:20667:of Restoration"] = "¤aa€al€am\000‰oXah€",
 		["14854"] = "¤aa€al€am\000äá&ah€",
+		["gr:20667:of Restoration"] = "¤aa€al€am\000‰oXah€",
 		["24854"] = "¤aa€al€am\000‡Õah€",
 		["5373"] = "¤aa€al€amê%ah€",
 		["6373"] = "¤aa€al€ama9ah€",
@@ -13871,9 +13871,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24919:of Proficiency"] = "¤aa€al€am\000§+ah€",
 		["7078"] = "¤aa€al€amah€",
 		["gr:15242:of Power"] = "¤aa€al€am\000[`ah€",
-		["31242"] = "¤aa€al€am\0002ÏĞah€",
-		["gr:24875:of Agility"] = "¤aa€al€am\000Ş@ah€",
 		["gr:55459:of Agility"] = "¤aa€al€am\000¿1ah€",
+		["gr:24875:of Agility"] = "¤aa€al€am\000Ş@ah€",
+		["31242"] = "¤aa€al€am\0002ÏĞah€",
 		["62566"] = "¤aa¡d1666al¡d1666\000¬¿am\000¬¿ah¡d1666\000¬À",
 		["27854"] = "¤aa€al€amëah€",
 		["10156"] = "¤aa€al€am\000	ÀÁah€",
@@ -13886,11 +13886,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:56505:of Spirit"] = "¤aa€al€am\000åÆah€",
 		["gr:24723:of Proficiency"] = "¤aa€al€am\000W0ah€",
 		["13159"] = "¤aa€al€amÜah€",
-		["gr:7518:of the Whale"] = "¤aa€al€ah€am\000~",
+		["4069"] = "¤aa€al€am\000Tâah€",
 		["8169"] = "¤aa€al€amÛah€",
 		["gr:12005:of Strength"] = "¤aa€al€am\000œyah€",
 		["62657"] = "¤aa€al€amIah€",
-		["4069"] = "¤aa€al€am\000Tâah€",
+		["gr:7518:of the Whale"] = "¤aa€al€ah€am\000~",
 		["3069"] = "¤aa€al€amÃPah€",
 		["gr:55673:of Toughness"] = "¤aa€al€am\000É<ah€",
 		["38883"] = "¤aa€al€am\000gú*ah€",
@@ -13917,7 +13917,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["38854"] = "¤aa€al€am\000ÏŸah€",
 		["17747"] = "¤aa€al€amÛ‚ah€",
 		["14159"] = "¤aa€al€amÃPah€",
-		["68786"] = "¤aa¡d1683al€am\000Íñah¡d1683\000Íñ",
+		["68786"] = "¤aa¢d1687d1683al€ah¢d1687\000˜ƒîd1683\000Íñam\000˜ƒî",
 		["9915"] = "¤aa€al€am\000\r>ah€",
 		["62079"] = "¤aa€al€am\000Ìâah€",
 		["14847"] = "¤aa€al€am\000)Ğah€",
@@ -13941,8 +13941,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["31174"] = "¤aa€al€amb2îah€",
 		["gr:55593:of Strength"] = "¤aa€al€am\000ğ ah€",
 		["7356"] = "¤aa€al€amsûah€",
-		["31159"] = "¤aa€al€am\000¬Uah€",
 		["gr:14911:of the Eagle"] = "¤aa€al€ah€am\000&L©",
+		["31159"] = "¤aa€al€am\000¬Uah€",
 		["55576"] = "¤aa€al€am\000áah€",
 		["15507"] = "¤aa€al€amÃPah€",
 		["27657"] = "¤aa€al€am£ah€",
@@ -13980,13 +13980,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15572:of the Bear"] = "¤aa€al€am\000;ah€",
 		["38904"] = "¤aa€al€am\000Õ_ah€",
 		["67103"] = "¤aa€al€am\000T¸ah€",
-		["gr:35984:of Spirit"] = "¤aa€al€am\000ÌDah€",
+		["14657"] = "¤aa€al€am\000ªHah€",
 		["gr:15348:of Spirit"] = "¤aa€al€am\000†ah€",
 		["gr:10134:of the Whale"] = "¤aa€al€am\000˜Àah€",
 		["24657"] = "¤aa€al€ah€am\000î",
 		["52744"] = "¤aa€al€am\000	LÕah€",
 		["14189"] = "¤aa€al€am\000Óah€",
-		["10546"] = "¤aa€al€ah€am\0000®",
+		["13079"] = "¤aa€al€am\000î!ah€",
 		["10031"] = "¤aa€al€am\000o/ah€",
 		["gr:6539:of the Wolf"] = "¤aa€al€ah€am\000~",
 		["23079"] = "¤aa€al€am\000²ah€",
@@ -14012,12 +14012,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15162:of Nature's Wrath"] = "¤aa€al€am\000¼“ah€",
 		["gr:55529:of Defense"] = "¤aa€al€am\000B=ah€",
 		["gr:35965:of Toughness"] = "¤aa€al€am\000%¿ah€",
-		["13886"] = "¤aa€al€am\000zah€",
-		["15657"] = "¤aa€al€am\0006\nGah€",
 		["25657"] = "¤aa€al€am\000Tz<ah€",
+		["15657"] = "¤aa€al€am\0006\nGah€",
+		["13886"] = "¤aa€al€am\000zah€",
 		["gr:10172:of Frozen Wrath"] = "¤aa€al€ah€am\0004M",
 		["43546"] = "¤aa€al€am[ah€",
-		["gr:55574:of Intellect"] = "¤aa€al€am\000×@ah€",
+		["gr:14314:of the Monkey"] = "¤aa€al€am\000J?ah€",
 		["gr:7470:of Arcane Wrath"] = "¤aa€al€am\000­ah€",
 		["gr:55769:of Proficiency"] = "¤aa€al€am\000¿ah€",
 		["24910"] = "¤aa€al€am\000‡ah€",
@@ -14035,20 +14035,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["68744"] = "¤aa€al€am¯øah€",
 		["55565"] = "¤aa€al€am\000pëah€",
 		["gr:36049:of Stamina"] = "¤aa€al€am\000VUah€",
-		["gr:15986:of the Wolf"] = "¤aa€al€am'5ah€",
 		["40159"] = "¤aa€al€am\000\nÇah€",
+		["gr:15986:of the Wolf"] = "¤aa€al€am'5ah€",
 		["gr:55626:of Beast Slaying"] = "¤aa€al€am\000øHah€",
 		["40013"] = "¤aa€al€am\000Ø[ah€",
 		["10159"] = "¤aa€al€am\000¡ ah€",
 		["37744"] = "¤aa€al€am\000q\000ah€",
 		["gr:14980:of Power"] = "¤aa€al€amˆ ah€",
 		["19268"] = "¤aa€al€am\0008ah€",
-		["gr:15270:of the Whale"] = "¤aa€al€am\000_ah€",
 		["gr:25306:of Stamina"] = "¤aa€al€am\000Æúah€",
+		["gr:15270:of the Whale"] = "¤aa€al€am\000_ah€",
 		["16748"] = "¤aa€al€amM¼ah€",
 		["41397"] = "¤aa€al€am\000fŸah€",
-		["gr:6336:of Stamina"] = "¤aa€al€ah€am\000\rm",
 		["42546"] = "¤aa€al€am[ah€",
+		["gr:6336:of Stamina"] = "¤aa€al€ah€am\000\rm",
 		["36189"] = "¤aa€al€am\000šØah€",
 		["43657"] = "¤aa€al€amêah€",
 		["7531"] = "¤aa€al€amÃEah€",
@@ -14086,7 +14086,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["62661"] = "¤aa€al€am\0008yah€",
 		["15546"] = "¤aa€al€am\000pah€",
 		["45738"] = "¤aa€al€am\000ë¶ah€",
-		["gr:9894:of Stamina"] = "¤aa€al€amĞah€",
+		["55770"] = "¤aa€al€am\000“ßah€",
 		["45770"] = "¤aa€al€am\000Ş\000ah€",
 		["67142"] = "¤aa€al€amã¨ah€",
 		["14558"] = "¤aa€al€amÍdah€",
@@ -14130,9 +14130,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["25326"] = "¤aa€al€am\000k'üah€",
 		["gr:7492:of Healing"] = "¤aa€al€ah€am\000†˜",
 		["gr:36101:of Agility"] = "¤aa€al€ah€am\000[½",
-		["gr:3199:of the Wolf"] = "¤aa€al€amûêah€",
+		["4439"] = "¤aa€al€amt5ah€",
 		["15006"] = "¤aa€al€ah€amu0",
-		["62670"] = "¤aa€al€amƒah€",
+		["25006"] = "¤aa€al€am\000$÷ah€",
 		["gr:36386:of Stamina"] = "¤aa€al€am\000|ah€",
 		["gr:24820:of Agility"] = "¤aa€al€am\000,ah€",
 		["gr:15479:of Strength"] = "¤aa€al€am\000÷šah€",
@@ -14143,7 +14143,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24742:of Stamina"] = "¤aa€al€am\000[`ah€",
 		["gr:15432:of the Bear"] = "¤aa€al€ah€am\000'˜q",
 		["gr:55566:of Spirit"] = "¤aa€al€am\000\nÕXah€",
-		["7439"] = "¤aa€al€am\000“İah€",
+		["9428"] = "¤aa€al€amdû)ah€",
 		["gr:9285:of the Bear"] = "¤aa€al€am\000(ƒah€",
 		["gr:12022:of the Owl"] = "¤aa€al€am\000~ah€",
 		["6428"] = "¤aa€al€ah€am\000®~",
@@ -14160,11 +14160,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14474"] = "¤aa€al€amz‚Pah€",
 		["11144"] = "¤aa€al€am\000Ğpah€",
 		["gr:15572:of the Gorilla"] = "¤aa€al€am\000;œah€",
-		["gr:55458:of Intellect"] = "¤aa€al€am\000Äah€",
+		["gr:55639:of Stamina"] = "¤aa€al€ah€am\000ÿ",
 		["11164"] = "¤aa€al€am\000¡ah€",
 		["1933"] = "¤aa€al€am\rj8ah€",
 		["31871"] = "¤aa€al€ah€am\000(äÀ",
-		["gr:31248:of Spirit"] = "¤aa€al€ah€am\000-Ÿ°",
+		["gr:55401:of Retaliation"] = "¤aa€al€am\000\rmxah€",
 		["43126"] = "¤aa€al€amùûah€",
 		["gr:24784:of Proficiency"] = "¤aa€al€ah€am\000q«",
 		["gr:25139:of Stamina"] = "¤aa€al€am\000L$/ah€",
@@ -14194,7 +14194,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10201:of the Whale"] = "¤aa€al€am\000¼Mah€",
 		["4239"] = "¤aa€al€am.eah€",
 		["3239"] = "¤aa€al€am_ah€",
-		["gr:14954:of the Tiger"] = "¤aa€al€am\000ˆBĞah€",
+		["gr:35986:of Stamina"] = "¤aa€al€am\000\r@ah€",
 		["gr:55421:of Agility"] = "¤aa€al€am\000¼ah€",
 		["15752"] = "¤aa€al€am\000B9ah€",
 		["29203"] = "¤aa€al€am\000\r|$ah€",
@@ -14240,10 +14240,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9840:of the Whale"] = "¤aa€al€amÔşah€",
 		["5028"] = "¤aa€al€amJşah€",
 		["37746"] = "¤aa€al€am\000\nÇ”ah€",
-		["14759"] = "¤aa€al€amÃPah€",
+		["36596"] = "¤aa€al€am\000˜¿ah€",
 		["gr:9881:of the Eagle"] = "¤aa€al€amYWah€",
 		["40737"] = "¤aa€al€am\000R>­ah€",
-		["30737"] = "¤aa€al€am\000&%™ah€",
+		["8028"] = "¤aa€al€am\000,@ah€",
 		["gr:14213:of Spirit"] = "¤aa€al€amÃPah€",
 		["28468"] = "¤aa€al€am\000w;ah€",
 		["8256"] = "¤aa€al€am\000ah€",
@@ -14272,7 +14272,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4039"] = "¤aa€al€am\000ÙŸah€",
 		["3039"] = "¤aa€al€am\000Ô¾ah€",
 		["2039"] = "¤aa€al€am!U ah€",
-		["gr:55482:of Agility"] = "¤aa€al€ah€am\000B@",
+		["11737"] = "¤aa€al€am3ah€",
 		["gr:10196:of the Eagle"] = "¤aa€al€am\000ª.ah€",
 		["15759"] = "¤aa€al€am\000B@ah€",
 		["gr:7477:of Intellect"] = "¤aa€al€am\000æ-ah€",
@@ -14338,11 +14338,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55333:of Proficiency"] = "¤aa€al€am\000„}ah€",
 		["44670"] = "¤aa€al€am\00093Ğah€",
 		["24973"] = "¤aa€al€am\000¡ah€",
-		["gr:9961:of the Owl"] = "¤aa€al€am\000qkah€",
+		["13461"] = "¤aa€al€am\000$ÿah€",
 		["gr:10229:of the Wolf"] = "¤aa€al€am\000]pah€",
 		["33461"] = "¤aa€al€am!Ëah€",
 		["gr:36033:of Proficiency"] = "¤aa€al€am\000¤ah€",
-		["13461"] = "¤aa€al€am\000$ÿah€",
+		["gr:9961:of the Owl"] = "¤aa€al€am\000qkah€",
 		["gr:15645:of the Bear"] = "¤aa€al€am\000òş¨ah€",
 		["4265"] = "¤aa€al€amM¡ah€",
 		["12997"] = "¤aa€al€am\000=ìah€",
@@ -14475,7 +14475,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55282:of Beast Slaying"] = "¤aa€al€am\0005gàah€",
 		["42963"] = "¤aa€al€am\000 ah€",
 		["gr:10097:of Shadow Wrath"] = "¤aa€al€ah€am\000­®",
-		["41532"] = "¤aa€al€am\000fah€",
+		["40670"] = "¤aa€al€am\000Vah€",
 		["gr:35967:of Strength"] = "¤aa€al€am\000	ah€",
 		["38833"] = "¤aa€al€amizah€",
 		["gr:10201:of Stamina"] = "¤aa€al€ah€am\000¼L",
@@ -14485,8 +14485,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55665:of Intellect"] = "¤aa€al€am\000Ğ'ah€",
 		["10628"] = "¤aa€al€am\000]Vah€",
 		["22542"] = "¤aa€al€am‹÷-ah€",
-		["gr:24800:of Toughness"] = "¤aa€al€am\000V›ah€",
 		["gr:55567:of Stamina"] = "¤aa€al€ah€am\0004ü",
+		["gr:24800:of Toughness"] = "¤aa€al€am\000V›ah€",
 		["33081"] = "¤aa£d1674)d1679(d1683al£d1674\000¡d1679ç7d1683æZamæZah£d1674\000¡d1679ç8d1683æ[",
 		["gr:24962:of Proficiency"] = "¤aa€al€am\000oah€",
 		["5739"] = "¤aa€al€am\000._ah€",
@@ -14512,7 +14512,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["1728"] = "¤aa€al€am§/Qah€",
 		["gr:15392:of Arcane Wrath"] = "¤aa€al€ah€am\000=	\000",
 		["gr:24902:of Quality"] = "¤aa€al€ah€am\000úÉ",
-		["45780"] = "¤aa€al€am\000&#Éah€",
+		["gr:10133:of the Boar"] = "¤aa€al€ah€am\000 Må",
 		["52106"] = "¤aa€al€am\000Ğah€",
 		["25708"] = "¤aa€al€amah€",
 		["gr:7422:of the Bear"] = "¤aa€al€ah€am\0004œ",
@@ -14546,11 +14546,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:36423:of Spirit"] = "¤aa€al€am\000>Éah€",
 		["40043"] = "¤aa€al€am\000™ah€",
 		["gr:7474:of the Owl"] = "¤aa€al€ah€am\000a0",
-		["15156"] = "¤aa€al€ah€am\0001\000",
+		["6539"] = "¤aa€al€amNah€",
 		["11081"] = "¤aa€al€am\000‚_ah€",
 		["4539"] = "¤aa€al€am	Tah€",
 		["11611"] = "¤aa€al€am­iah€",
-		["6539"] = "¤aa€al€amNah€",
+		["15156"] = "¤aa€al€ah€am\0001\000",
 		["7539"] = "¤aa€al€am\000Iğah€",
 		["41611"] = "¤aa€al€ah€amÃ2",
 		["15727"] = "¤aa€al€am\000øCah€",
@@ -14564,16 +14564,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10085:of Agility"] = "¤aa€al€ah€am\0001’",
 		["gr:24691:of Strength"] = "¤aa€al€ah€am\000B?",
 		["5528"] = "¤aa€al€am\000B;ah€",
-		["65503"] = "¤aa€al€amNıah€",
+		["gr:15164:of the Bear"] = "¤aa€al€am\000 Y>ah€",
 		["gr:36438:of Agility"] = "¤aa€al€am\000_îah€",
 		["gr:36240:of Proficiency"] = "¤aa€al€ah€am\000“ß",
-		["gr:15164:of the Bear"] = "¤aa€al€am\000 Y>ah€",
+		["65503"] = "¤aa€al€amNıah€",
 		["24596"] = "¤aa€al€am\000¡ ah€",
 		["14596"] = "¤aa€al€ah€amÃP",
 		["24727"] = "¤aa€al€am\000ah€",
 		["gr:9953:of the Wolf"] = "¤aa€al€am\0007¶ah€",
 		["15503"] = "¤aa€al€am\000‡ah€",
-		["gr:36185:of Stamina"] = "¤aa€al€ah€am\000† ",
+		["16737"] = "¤aa€al€am\000\n®Tah€",
 		["gr:56483:of Retaliation"] = "¤aa€al€am\000­°ah€",
 		["10272"] = "¤aa€al€am\0009Ô¯ah€",
 		["1639"] = "¤aa€al€am\000_ah€",
@@ -14609,17 +14609,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10104:of Arcane Wrath"] = "¤aa€al€ah€am\000 ",
 		["gr:24793:of Proficiency"] = "¤aa€al€am\000„~ah€",
 		["41731"] = "¤aa€al€am\000®Xah€",
-		["14263"] = "¤aa€al€ah€am\000‰\n",
 		["gr:55764:of Retaliation"] = "¤aa€al€am\000\n–/ah€",
+		["14263"] = "¤aa€al€ah€am\000‰\n",
 		["15079"] = "¤aa€al€am\000W¶ah€",
-		["45603"] = "¤aa€al€am\000±Aah€",
+		["gr:25094:of Stamina"] = "¤aa€al€ah€am\000p",
 		["41489"] = "¤aa€al€am\000\r@ah€",
 		["17056"] = "¤aa€al€amçah€",
 		["44263"] = "¤aa€al€amM‘ah€",
-		["gr:25094:of Stamina"] = "¤aa€al€ah€am\000p",
+		["45603"] = "¤aa€al€am\000±Aah€",
 		["55603"] = "¤aa€al€am\000-Šah€",
 		["gr:9920:of the Whale"] = "¤aa€al€am\000ï@ah€",
-		["gr:36276:of Stamina"] = "¤aa€al€ah€am\000	Üš",
+		["8137"] = "¤aa€al€am\000Ğ‹ah€",
 		["gr:15279:of the Boar"] = "¤aa€al€am\000XAah€",
 		["6137"] = "¤aa€al€ah€am)È)R",
 		["31918"] = "¤aa€al€am\000\r”‡ah€",
@@ -14647,17 +14647,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9876:of the Owl"] = "¤aa€al€am²ah€",
 		["36081"] = "¤aa€al€am\000¿ah€",
 		["47637"] = "¤aa€al€am\000B#ah€",
-		["gr:9899:of the Tiger"] = "¤aa€al€am\000.ah€",
+		["gr:15249:of the Tiger"] = "¤aa€al€ah€am\000¥Ü",
 		["gr:55404:of Proficiency"] = "¤aa€al€am\000\r?ah€",
 		["36351"] = "¤aa€al€am\000k0ah€",
-		["gr:15249:of the Tiger"] = "¤aa€al€ah€am\000¥Ü",
+		["gr:9899:of the Tiger"] = "¤aa€al€am\000.ah€",
 		["gr:6542:of Spirit"] = "¤aa€al€am\000ª3ah€",
 		["gr:55664:of Retaliation"] = "¤aa€al€am\000\ndah€",
 		["15612"] = "¤aa€al€am\000	¦‚ah€",
 		["4237"] = "¤aa€al€am‡ah€",
 		["gr:15255:of the Whale"] = "¤aa€al€am\000ûah€",
 		["gr:11972:of Nature Resistance"] = "¤aa€al€ah€amÃP",
-		["gr:14205:of the Whale"] = "¤aa€al€am\000ª2ah€",
+		["gr:55558:of Retaliation"] = "¤aa€al€am\000fah€",
 		["gr:14230:of Frozen Wrath"] = "¤aa€al€ah€am\000I",
 		["7046"] = "¤aa€al€am:˜ah€",
 		["32062"] = "¤aa€al€amtfah€",
@@ -14685,7 +14685,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["55081"] = "¤aa€al€am\000Îpah€",
 		["gr:15660:of the Whale"] = "¤aa€al€am\000äáÀah€",
 		["37603"] = "¤aa€al€am\000jÏ¿ah€",
-		["24612"] = "¤aa€al€ah€am\000Iğ",
+		["gr:6599:of the Bear"] = "¤aa€al€amÉÃah€",
 		["gr:10084:of the Whale"] = "¤aa€al€am\000.ah€",
 		["25081"] = "¤aa€al€am\000]pah€",
 		["44739"] = "¤aa€al€am}\\ah€",
@@ -14728,7 +14728,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["36131"] = "¤aa€al€am\000VËah€",
 		["41334"] = "¤aa€al€am\000æ#ah€",
 		["gr:55707:of Quality"] = "¤aa€al€am\000šüah€",
-		["gr:55465:of Agility"] = "¤aa€al€am\000#Û­ah€",
+		["49632"] = "¤aa€al€am>¼ah€",
 		["10266"] = "¤aa€al€am\0003şah€",
 		["gr:15577:of the Boar"] = "¤aa€al€am\000~>ah€",
 		["gr:24821:of Intellect"] = "¤aa€al€am\000¡ ah€",
@@ -14740,8 +14740,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:20964:of the Tiger"] = "¤aa€al€am_´ah€",
 		["34762"] = "¤aa€al€amhah€",
 		["3371"] = "¤aa€al€am;ah€",
-		["42723"] = "¤aa€al€am\000>ah€",
 		["4263"] = "¤aa€al€amw5”\000ah€",
+		["42723"] = "¤aa€al€am\000>ah€",
 		["gr:4575:of the Owl"] = "¤aa€al€ah€am\000A_",
 		["9826"] = "¤aa€al€am\000iah€",
 		["6537"] = "¤aa€al€am\000Iğah€",
@@ -14749,7 +14749,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4537"] = "¤aa€al€amN	ah€",
 		["gr:15440:of the Gorilla"] = "¤aa€al€am\\J^ah€",
 		["gr:56513:of Retaliation"] = "¤aa€al€am\0006R;ah€",
-		["gr:55313:of Beast Slaying"] = "¤aa€al€am\000B?ah€",
+		["gr:9821:of the Eagle"] = "¤aa€al€ah€am-\n",
 		["41351"] = "¤aa€al€am\000!/ah€",
 		["gr:7445:of the Wolf"] = "¤aa€al€ah€amµ",
 		["gr:44732:of Proficiency"] = "¤aa€al€am\000:ûah€",
@@ -14797,23 +14797,23 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["27686"] = "¤aa€al€amÒ¸fah€",
 		["gr:25283:of Intellect"] = "¤aa€al€am\000	»ah€",
 		["gr:24642:of Stamina"] = "¤aa€al€am\000lĞah€",
-		["13489"] = "¤aa€al€am\000IU	ah€",
+		["56477"] = "¤aa€al€amVah€",
 		["54489"] = "¤aa€al€am\000“×ah€",
 		["804"] = "¤aa€al€ah€am\000pö",
-		["23489"] = "¤aa€al€am\000êah€",
-		["56477"] = "¤aa€al€amVah€",
-		["14723"] = "¤aa€al€am\000;ah€",
+		["56533"] = "¤aa€al€am\000Õw1ah€",
+		["13489"] = "¤aa€al€am\000IU	ah€",
+		["gr:55330:of Proficiency"] = "¤aa€al€am\000‹oah€",
 		["gr:55566:of Retaliation"] = "¤aa€al€am\000	ësah€",
 		["gr:24670:of Stamina"] = "¤aa€al€am\000Txah€",
 		["24723"] = "¤aa€al€am\000W0ah€",
-		["14562"] = "¤aa€al€ah€am\0007",
+		["43351"] = "¤aa€al€am\000%ah€",
 		["gr:55600:of Proficiency"] = "¤aa€al€am\000‡Ïah€",
 		["7337"] = "¤aa€al€am\000T¯°ah€",
-		["43351"] = "¤aa€al€am\000%ah€",
+		["14562"] = "¤aa€al€ah€am\0007",
 		["gr:55755:of Stamina"] = "¤aa€al€am\000Ğah€",
 		["42410"] = "¤aa€al€am\000øUah€",
 		["gr:36123:of Stamina"] = "¤aa€al€am\000«ah€",
-		["4337"] = "¤aa€al€am¯ah€",
+		["gr:7543:of the Falcon"] = "¤aa€al€ah€am\0004",
 		["gr:55745:of Agility"] = "¤aa€al€am\000\r?ah€",
 		["6337"] = "¤aa€al€am¼²ah€",
 		["gr:55673:of Retaliation"] = "¤aa€al€am\0000ah€",
@@ -14878,7 +14878,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["7544"] = "¤aa€al€am\0001'ah€",
 		["gr:14214:of the Whale"] = "¤aa€al€am\000„/ah€",
 		["gr:14933:of the Whale"] = "¤aa€al€am\000‰·ah€",
-		["59489"] = "¤aa€al€am\000Ñ6ah€",
+		["gr:14249:of Intellect"] = "¤aa€al€am\000ah€",
 		["gr:55416:of Stamina"] = "¤aa€al€am\000¡ ah€",
 		["40056"] = "¤aa€al€am\000\r|ah€",
 		["36036"] = "¤aa€al€am\000\"àah€",
@@ -14920,9 +14920,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24929"] = "¤aa€al€am\000óoah€",
 		["22611"] = "¤aa€al€amtÏæah€",
 		["gr:15309:of the Owl"] = "¤aa€al€amŒ©ah€",
-		["44259"] = "¤aa€al€am\000=ÿah€",
-		["gr:55724:of Strength"] = "¤aa€al€am\000ıqah€",
 		["gr:55662:of Agility"] = "¤aa€al€am\000	'¿ah€",
+		["gr:55724:of Strength"] = "¤aa€al€am\000ıqah€",
+		["44259"] = "¤aa€al€am\000=ÿah€",
 		["gr:55601:of Spirit"] = "¤aa€al€am\000È\"ah€",
 		["gr:9840:of the Bear"] = "¤aa€al€amÔÿah€",
 		["66641"] = "¤aa€al€am\000<áîah€",
@@ -14943,7 +14943,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9766:of the Whale"] = "¤aa€al€amÃMah€",
 		["gr:55641:of Intellect"] = "¤aa€al€am\000	ëah€",
 		["10562"] = "¤aa€al€amwah€",
-		["gr:15157:of Agility"] = "¤aa€al€ah€am\000ón",
+		["gr:55420:of Spirit"] = "¤aa€al€am\000ºêah€",
 		["2863"] = "¤aa€al€amah€",
 		["24636"] = "¤aa€al€ah€am\000† ",
 		["gr:7465:of the Tiger"] = "¤aa€al€ah€am\000!ßÛ",
@@ -14988,24 +14988,24 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10196:of the Monkey"] = "¤aa€al€am\000ª.ah€",
 		["55385"] = "¤aa€al€am\000“İah€",
 		["gr:15266:of the Bear"] = "¤aa€al€am\000\n*½ah€",
-		["gr:15189:of the Owl"] = "¤aa€al€am\000Y)ah€",
+		["gr:15383:of the Owl"] = "¤aa€al€ah€am\000fj",
 		["23154"] = "¤aa€al€am\000¾7ah€",
 		["33460"] = "¤aa€al€améah€",
 		["gr:9940:of Frozen Wrath"] = "¤aa€al€am\000iOah€",
 		["38992"] = "¤aa€al€am\000Iæah€",
 		["58263"] = "¤aa€al€am56ah€",
-		["gr:25322:of Strength"] = "¤aa€al€ah€am\000±{",
 		["24477"] = "¤aa€al€amŒah€",
+		["gr:25322:of Strength"] = "¤aa€al€ah€am\000±{",
 		["54477"] = "¤aa€al€am\000õáah€",
 		["gr:10113:of Defense"] = "¤aa€al€amu0ah€",
 		["gr:25103:of Proficiency"] = "¤aa€al€am\000\nÉDah€",
 		["24586"] = "¤aa€al€am\000¡ ah€",
-		["15600"] = "¤aa€al€ah€am\000€",
+		["gr:36233:of Proficiency"] = "¤aa€al€ah€am\000Å_",
 		["78263"] = "¤aa€al€ah€am%@¾?",
 		["gr:15167:of the Eagle"] = "¤aa€al€am\000ºTah€",
 		["15670"] = "¤aa€al€am\000L$/ah€",
 		["25670"] = "¤aa€al€am\000jÊah€",
-		["gr:36233:of Proficiency"] = "¤aa€al€ah€am\000Å_",
+		["15600"] = "¤aa€al€ah€am\000€",
 		["gr:55347:of Intellect"] = "¤aa€al€am\000\nah€",
 		["55670"] = "¤aa€al€am\000Õah€",
 		["gr:55597:of Intellect"] = "¤aa€al€am\000lÀah€",
@@ -15025,18 +15025,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10164:of the Boar"] = "¤aa€al€ah€am\000˜–}",
 		["40169"] = "¤aa€al€am\000‹Öah€",
 		["23477"] = "¤aa€al€amw5”\000ah€",
-		["36345"] = "¤aa€al€am\0008œ0ah€",
-		["gr:4569:of Healing"] = "¤aa€al€amê`ah€",
-		["24600"] = "¤aa€al€am\000’ah€",
 		["gr:55355:of Proficiency"] = "¤aa€al€am\0002ÏÏah€",
+		["gr:4569:of Healing"] = "¤aa€al€amê`ah€",
+		["13477"] = "¤aa€al€amN'ah€",
+		["36345"] = "¤aa€al€am\0008œ0ah€",
 		["gr:25069:of Strength"] = "¤aa€al€ah€am\000.",
 		["gr:36174:of Proficiency"] = "¤aa€al€am\0006lah€",
 		["gr:55565:of Beast Slaying"] = "¤aa€al€am\000òMah€",
-		["gr:9962:of the Falcon"] = "¤aa€al€am\000\"àah€",
-		["4563"] = "¤aa€al€amlah€",
 		["3563"] = "¤aa€al€amõüXah€",
+		["4563"] = "¤aa€al€amlah€",
+		["gr:9962:of the Falcon"] = "¤aa€al€am\000\"àah€",
 		["gr:55674:of Strength"] = "¤aa€al€am\000Èah€",
-		["36670"] = "¤aa€al€am\000† ah€",
+		["14600"] = "¤aa€al€ah€am\000† ",
 		["gr:15673:of the Monkey"] = "¤aa€al€am\000ûÎah€",
 		["gr:55395:of Toughness"] = "¤aa€al€ah€am\000<áé",
 		["6563"] = "¤aa€al€am|Kah€",
@@ -15063,8 +15063,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55755:of Beast Slaying"] = "¤aa€al€am\000B8ah€",
 		["gr:25223:of Agility"] = "¤aa€al€am\000€eøah€",
 		["gr:36181:of Agility"] = "¤aa€al€ah€am\000A ",
-		["4463"] = "¤aa€al€am\000BØæah€",
 		["gr:24663:of Proficiency"] = "¤aa€al€ah€am\000 Ú",
+		["4463"] = "¤aa€al€am\000BØæah€",
 		["gr:15272:of the Bear"] = "¤aa€al€amğÑ€ah€",
 		["gr:36272:of Intellect"] = "¤aa€al€ah€am\000«4",
 		["857"] = "¤aa€al€am\000Ğˆah€",
@@ -15089,7 +15089,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52169"] = "¤aa€al€am\000›ah€",
 		["6122"] = "¤aa€al€amw5”\000ah€",
 		["19263"] = "¤aa€al€am\000Œah€",
-		["gr:36565:of Agility"] = "¤aa€al€am\000}lah€",
+		["15477"] = "¤aa€al€amNah€",
 		["24844"] = "¤aa€al€am\000g4ah€",
 		["14844"] = "¤aa€al€ah€am{\nº",
 		["gr:24976:of Proficiency"] = "¤aa€al€am\000\rº0ah€",
@@ -15101,8 +15101,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14960"] = "¤aa€al€am\0006áah€",
 		["52721"] = "¤aa€al€am\000~ah€",
 		["32674"] = "¤aa€al€amuağah€",
-		["9763"] = "¤aa€al€amê`ah€",
 		["gr:52316:of Stamina"] = "¤aa€al€am\000ïìah€",
+		["9763"] = "¤aa€al€amê`ah€",
 		["34828"] = "¤aa€al€am\000˜–|ah€",
 		["gr:55644:of Intellect"] = "¤aa€al€am\000¤ah€",
 		["gr:24889:of Proficiency"] = "¤aa€al€am\000“íah€",
@@ -15166,22 +15166,22 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4449"] = "¤aa€al€amCÅah€",
 		["gr:55375:of Proficiency"] = "¤aa€al€am\000ô©ah€",
 		["2449"] = "¤aa€al€amëah€",
-		["gr:9767:of the Whale"] = "¤aa€al€ah€amÓª",
 		["37762"] = "¤aa€al€ah€am\000‹",
+		["gr:9767:of the Whale"] = "¤aa€al€ah€amÓª",
 		["32249"] = "¤aa€al€am\000†—ah€",
 		["12013"] = "¤aa€al€ah€am\000Iğ",
 		["15589"] = "¤aa€al€ah€am\000† ",
 		["gr:55696:of Strength"] = "¤aa€al€ah€am\000².",
-		["56545"] = "¤aa€al€amÀ)ah€",
-		["1758"] = "¤aa€al€ah€amN ",
+		["52203"] = "¤aa€al€am\000¡ah€",
+		["gr:14216:of Intellect"] = "¤aa€al€ah€am\000½e",
 		["7449"] = "¤aa€al€am	Áah€",
-		["66994"] = "¤aa€al€amO[ˆah€",
+		["23572"] = "¤aa€al€amíah€",
 		["12203"] = "¤aa€al€am[ah€",
-		["gr:15111:of the Eagle"] = "¤aa€al€am°æah€",
+		["22203"] = "¤aa€al€am\000—uah€",
 		["32203"] = "¤aa€al€amáãLah€",
 		["gr:36229:of Strength"] = "¤aa€al€am\000dòah€",
-		["gr:14216:of Intellect"] = "¤aa€al€ah€am\000½e",
-		["23572"] = "¤aa€al€amíah€",
+		["1758"] = "¤aa€al€ah€amN ",
+		["66994"] = "¤aa€al€amO[ˆah€",
 		["gr:15656:of the Owl"] = "¤aa€al€am\000-Ğ~ah€",
 		["43572"] = "¤aa€al€am ¿ah€",
 		["gr:24766:of Strength"] = "¤aa€al€am\000!ßàah€",
@@ -15207,15 +15207,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["40900"] = "¤aa€al€am\000†vah€",
 		["44669"] = "¤aa€al€am\000lÍah€",
 		["gr:15274:of the Eagle"] = "¤aa€al€am\000ÌXah€",
-		["gr:9903:of the Eagle"] = "¤aa€al€am\000İah€",
+		["gr:12020:of Stamina"] = "¤aa€al€ah€am\000È-",
 		["23203"] = "¤aa€al€am\000R ah€",
 		["24897"] = "¤aa€al€am\000ah€",
 		["gr:55453:of Stamina"] = "¤aa€al€am\000zah€",
-		["62570"] = "¤aa€al€am\000­”ah€",
-		["gr:55440:of Retaliation"] = "¤aa€al€am\000\nÕ]ah€",
-		["3858"] = "¤aa€al€amOÆah€",
-		["gr:12020:of Stamina"] = "¤aa€al€ah€am\000È-",
+		["49994"] = "¤aa€al€ah€amêr‘",
 		["14572"] = "¤aa€al€ah€am\000\r@",
+		["3858"] = "¤aa€al€amOÆah€",
+		["gr:9903:of the Eagle"] = "¤aa€al€am\000İah€",
+		["gr:55440:of Retaliation"] = "¤aa€al€am\000\nÕ]ah€",
 		["49884"] = "¤aa€al€amÃ°ah€",
 		["10384"] = "¤aa€al€am\000¦b8ah€",
 		["gr:15225:of the Tiger"] = "¤aa€al€am›Üah€",
@@ -15242,7 +15242,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:14313:of the Owl"] = "¤aa€al€am\000*ah€",
 		["gr:55339:of Proficiency"] = "¤aa€al€am\000&LŒah€",
 		["2958"] = "¤aa€al€améöah€",
-		["55572"] = "¤aa€al€am\000Aºah€",
+		["10203"] = "¤aa€al€am\000òˆah€",
 		["13897"] = "¤aa€al€am\000[?`ah€",
 		["gr:55643:of Beast Slaying"] = "¤aa€al€am\000† ah€",
 		["25669"] = "¤aa€al€am\000wah€",
@@ -15287,7 +15287,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55661:of Stamina"] = "¤aa€al€am\000	\000®ah€",
 		["55600"] = "¤aa€al€am\0003ûah€",
 		["43530"] = "¤aa€al€amw5”\000ah€",
-		["gr:15175:of Arcane Wrath"] = "¤aa€al€am\000\r?ah€",
+		["3049"] = "¤aa€al€amœ1ah€",
 		["199913"] = "¤aa€al€ah€am)S",
 		["gr:55751:of Proficiency"] = "¤aa€al€am\000öah€",
 		["gr:10272:of Defense"] = "¤aa€al€am\000A‰ah€",
@@ -15300,7 +15300,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["9264"] = "¤aa€al€am\000|¬ah€",
 		["9865"] = "¤aa€al€am\000Ÿah€",
 		["gr:55378:of Quality"] = "¤aa€al€ah€am\00042",
-		["gr:55731:of Strength"] = "¤aa€al€am\000Uah€",
+		["gr:55587:of Intellect"] = "¤aa€al€am\000Şah€",
 		["25195"] = "¤aa€al€am\000|ah€",
 		["7340"] = "¤aa€al€am\000!ßàah€",
 		["gr:55318:of Beast Slaying"] = "¤aa€al€am\000LK@ah€",
@@ -15311,7 +15311,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["3188"] = "¤aa€al€amMûn0ah€",
 		["gr:55616:of Intellect"] = "¤aa€al€am\000[]ah€",
 		["gr:24814:of Spirit"] = "¤aa€al€am\000=&ah€",
-		["44284"] = "¤aa€al€amã9ah€",
+		["gr:25199:of Stamina"] = "¤aa€al€am\000Nah€",
 		["10402"] = "¤aa€al€amöah€",
 		["gr:55481:of Strength"] = "¤aa€al€am\00040ah€",
 		["5973"] = "¤aa€al€am\000˜½ah€",
@@ -15323,8 +15323,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15112:of the Eagle"] = "¤aa€al€am\000\"Kah€",
 		["gr:19921:of the Eagle"] = "¤aa€al€am/¯ah€",
 		["gr:55324:of Agility"] = "¤aa€al€am\000¶¿ah€",
-		["gr:55351:of Proficiency"] = "¤aa€al€am\000óoah€",
 		["gr:9867:of the Bear"] = "¤aa€al€am_}ah€",
+		["gr:55351:of Proficiency"] = "¤aa€al€am\000óoah€",
 		["gr:24783:of Proficiency"] = "¤aa€al€am\000²ÿah€",
 		["gr:10233:of Arcane Wrath"] = "¤aa€al€ah€am\000L$0",
 		["gr:36437:of Toughness"] = "¤aa€al€am\000ah€",
@@ -15348,7 +15348,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4338"] = "¤aa€al€amGah€",
 		["gr:14166:of the Eagle"] = "¤aa€al€amöFah€",
 		["10196"] = "¤aa€al€am\0000ah€",
-		["gr:24682:of Proficiency"] = "¤aa€al€am\000\n‘cah€",
+		["gr:24620:of Toughness"] = "¤aa€al€am\000Ğah€",
 		["34832"] = "¤aa€al€am\000p±ah€",
 		["24832"] = "¤aa€al€am\000ğøah€",
 		["gr:36326:of Proficiency"] = "¤aa€al€am\000doah€",
@@ -15399,8 +15399,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["31143"] = "¤aa€al€am\000ºÈah€",
 		["gr:55625:of Beast Slaying"] = "¤aa€al€am\000Wlah€",
 		["gr:15494:of Agility"] = "¤aa€al€am\000\r@ah€",
-		["25284"] = "¤aa€al€amœ?ah€",
-		["55284"] = "¤aa€al€am\000Kah€",
+		["gr:55763:of Stamina"] = "¤aa€al€am\000‘Ìah€",
+		["3937"] = "¤aa€al€am\000†Ÿah€",
 		["gr:55678:of Beast Slaying"] = "¤aa€al€am\000ã^ah€",
 		["15284"] = "¤aa€al€ah€amN",
 		["10570"] = "¤aa€al€amë¶Uah€",
@@ -15430,8 +15430,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52143"] = "¤aa€al€am\000€´ah€",
 		["28284"] = "¤aa€al€am\000†šah€",
 		["44693"] = "¤aa€al€am\000-Æ¸ah€",
-		["gr:55720:of Proficiency"] = "¤aa€al€am\000	'”ah€",
 		["43263"] = "¤aa€al€am\000+=ah€",
+		["gr:55720:of Proficiency"] = "¤aa€al€am\000	'”ah€",
 		["36163"] = "¤aa€al€am\000zah€",
 		["gr:15391:of the Tiger"] = "¤aa€al€am\000¦™ah€",
 		["1718"] = "¤aa€al€am\000Iğah€",
@@ -15481,21 +15481,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["45621"] = "¤aa€al€am\000²qah€",
 		["4394"] = "¤aa€al€am\000p:ah€",
 		["25074"] = "¤aa€al€am\000w@ah€",
-		["gr:36518:of Agility"] = "¤aa€al€ah€am\000­®",
-		["62603"] = "¤aa€al€ah€am\000B?",
-		["gr:55326:of Proficiency"] = "¤aa€al€am\000¯ah€",
 		["9837"] = "¤aa€al€amÃPah€",
+		["62603"] = "¤aa€al€ah€am\000B?",
+		["gr:55552:of Agility"] = "¤aa€al€am\000¡ah€",
+		["gr:36518:of Agility"] = "¤aa€al€ah€am\000­®",
 		["gr:4089:of the Whale"] = "¤aa€al€am\000Èéah€",
 		["22603"] = "¤aa€al€amw5”\000ah€",
 		["gr:36624:of Agility"] = "¤aa€al€am\000#óÏah€",
-		["44143"] = "¤aa€al€am4çah€",
+		["31333"] = "¤aa€al€am\000MŠÂah€",
 		["24143"] = "¤aa€al€am\000\"ah€",
-		["52496"] = "¤aa€al€amùèah€",
+		["gr:55645:of Proficiency"] = "¤aa€al€am\000!ßÕah€",
 		["gr:36240:of Agility"] = "¤aa€al€ah€am\000\nû³",
 		["gr:55696:of Beast Slaying"] = "¤aa€al€am\0004Mah€",
-		["36284"] = "¤aa€al€am\000	ah€",
-		["gr:55645:of Proficiency"] = "¤aa€al€am\000!ßÕah€",
 		["41333"] = "¤aa€al€am\000OIah€",
+		["44143"] = "¤aa€al€am4çah€",
+		["36284"] = "¤aa€al€am\000	ah€",
 		["gr:55636:of Spirit"] = "¤aa€al€am\000(ğah€",
 		["gr:55434:of Strength"] = "¤aa€al€am\000Ğah€",
 		["gr:55381:of Spirit"] = "¤aa€al€am\000	NÏah€",
@@ -15512,8 +15512,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15113:of the Boar"] = "¤aa€al€am\000~<ah€",
 		["52155"] = "¤aa€al€am\0004&ah€",
 		["gr:25261:of Proficiency"] = "¤aa€al€am\000ƒ9Àah€",
-		["19284"] = "¤aa€al€am\000EÀah€",
 		["2749"] = "¤aa€al€amÃOah€",
+		["19284"] = "¤aa€al€am\000EÀah€",
 		["20833"] = "¤aa€al€am\000!kah€",
 		["7477"] = "¤aa€al€am\000†Ÿah€",
 		["9749"] = "¤aa€al€am\000\r?ah€",
@@ -15524,7 +15524,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:12032:of Regeneration"] = "¤aa€al€amÉ˜ah€",
 		["gr:55580:of Agility"] = "¤aa€al€am\000¡ah€",
 		["16717"] = "¤aa€al€am\000<Û¥ah€",
-		["gr:10064:of Healing"] = "¤aa€al€am\000˜ah€",
+		["gr:55305:of Proficiency"] = "¤aa€al€am\000	NÃah€",
 		["34113"] = "¤aa€al€am\000Ozah€",
 		["67047"] = "¤aa€al€am\000«‹ah€",
 		["25309"] = "¤aa€al€am\000!šâah€",
@@ -15567,7 +15567,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["6358"] = "¤aa€al€amuah€",
 		["gr:36664:of Proficiency"] = "¤aa€al€am\0004Nah€",
 		["39717"] = "¤aa€al€am\000˜–ah€",
-		["gr:15664:of the Bear"] = "¤aa€al€am\000äáÀah€",
+		["gr:4569:of Nature's Wrath"] = "¤aa€al€ah€am:˜",
 		["gr:55765:of Stamina"] = "¤aa€al€am\000 ³ah€",
 		["gr:10203:of Stamina"] = "¤aa€al€ah€am\000ó",
 		["36431"] = "¤aa€al€am\000	ah€",
@@ -15607,13 +15607,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["1458"] = "¤aa€al€amKm.ah€",
 		["gr:20826:of the Whale"] = "¤aa€al€am\000o˜ah€",
 		["10554"] = "¤aa€al€am]o~‘ah€",
-		["gr:36270:of Proficiency"] = "¤aa€al€ah€am\000¸›",
 		["gr:55646:of Beast Slaying"] = "¤aa€al€am\000åah€",
+		["gr:36270:of Proficiency"] = "¤aa€al€ah€am\000¸›",
 		["4294"] = "¤aa€al€amÃLah€",
 		["36603"] = "¤aa€al€am\000òah€",
 		["gr:55601:of Intellect"] = "¤aa€al€am\000û½ah€",
 		["7114"] = "¤aa€al€am\000	'½ah€",
-		["gr:55737:of Stamina"] = "¤aa€al€am\000,ah€",
+		["gr:36158:of Quality"] = "¤aa€al€am\000\r@ah€",
 		["29739"] = "¤aa€al€amj£ah€",
 		["gr:7429:of Spirit"] = "¤aa€al€am\000†ah€",
 		["25020"] = "¤aa€al€am\000B@ah€",
@@ -15623,8 +15623,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14554"] = "¤aa€al€amtah€",
 		["gr:55455:of Agility"] = "¤aa€al€am\000„~ah€",
 		["12433"] = "¤aa€al€am\000JÑah€",
-		["gr:7446:of the Falcon"] = "¤aa€al€ah€am\000Iğ",
 		["gr:10218:of Shadow Wrath"] = "¤aa€al€amÄÉGah€",
+		["gr:7446:of the Falcon"] = "¤aa€al€ah€am\000Iğ",
 		["gr:55440:of Agility"] = "¤aa€al€am\000¡ah€",
 		["24210"] = "¤aa€al€am\000B2ah€",
 		["gr:14129:of Stamina"] = "¤aa€al€amÅúah€",
@@ -15655,10 +15655,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24696"] = "¤aa€al€am\000rah€",
 		["gr:15660:of Power"] = "¤aa€al€am0%ah€",
 		["66988"] = "¤aa€al€am\000IÚah€",
-		["9253"] = "¤aa€al€am“‡\000ah€",
-		["38513"] = "¤aa€al€am/Ï‰ãah€",
 		["gr:7417:of the Boar"] = "¤aa€al€am\000† ah€",
-		["8253"] = "¤aa€al€amÍ#ah€",
+		["38513"] = "¤aa€al€am/Ï‰ãah€",
+		["9253"] = "¤aa€al€am“‡\000ah€",
+		["gr:9793:of the Owl"] = "¤aa€al€am‡nah€",
 		["24737"] = "¤aa€al€am\000–š¯ah€",
 		["24823"] = "¤aa€al€ah€am\000lĞ",
 		["gr:55587:of Spirit"] = "¤aa€al€am\000|ah€",
@@ -15683,8 +15683,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["10577"] = "¤aa€al€ah€amÃO",
 		["1211"] = "¤aa€al€amdL²Øah€",
 		["13110"] = "¤aa€al€am\000ìœah€",
-		["6553"] = "¤aa€al€am\000†ah€",
 		["gr:55594:of Agility"] = "¤aa€al€am\000iah€",
+		["6553"] = "¤aa€al€am\000†ah€",
 		["7553"] = "¤aa€al€ah€amtÇ",
 		["gr:7473:of the Eagle"] = "¤aa€al€am\000“„ah€",
 		["gr:15272:of the Boar"] = "¤aa€al€am\000Iğah€",
@@ -15699,7 +15699,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:25006:of Intellect"] = "¤aa€al€am\0001[¡ah€",
 		["6467"] = "¤aa€al€am\000&…ah€",
 		["5467"] = "¤aa€al€amÔah€",
-		["gr:8196:of the Tiger"] = "¤aa€al€am\000Dah€",
+		["gr:36137:of Proficiency"] = "¤aa€al€am\000	ah€",
 		["gr:55538:of Defense"] = "¤aa€al€ah€am\0004F",
 		["gr:9879:of Stamina"] = "¤aa€al€ah€am\000%²",
 		["gr:15248:of the Wolf"] = "¤aa€al€am\000†<ah€",
@@ -15712,25 +15712,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["27532"] = "¤aa€al€amw5”\000ah€",
 		["gr:55371:of Strength"] = "¤aa€al€am\000w$ah€",
 		["2836"] = "¤aa€al€amWah€",
-		["10262"] = "¤aa€al€am\000”_ah€",
 		["gr:12029:of the Bear"] = "¤aa€al€amN ah€",
+		["10262"] = "¤aa€al€am\000”_ah€",
 		["gr:15680:of the Wolf"] = "¤aa€al€am{»&ah€",
 		["56532"] = "¤aa€al€am}wòah€",
 		["44980"] = "¤aa€al€am\000`Hjah€",
 		["gr:52312:of Retaliation"] = "¤aa€al€am\000Ğ‰ah€",
 		["gr:25274:of Agility"] = "¤aa€al€ah€am\000“à",
-		["36513"] = "¤aa€al€am\000\"Ì\nah€",
 		["32737"] = "¤aa€al€am\000TWah€",
+		["36513"] = "¤aa€al€am\000\"Ì\nah€",
 		["gr:25022:of Intellect"] = "¤aa€al€am\000Møïah€",
 		["6053"] = "¤aa€al€am\000† ah€",
-		["56513"] = "¤aa€al€am\0006R8ah€",
+		["22823"] = "¤aa€al€am\000†œah€",
 		["gr:55716:of Proficiency"] = "¤aa€al€am\000\râzah€",
 		["3053"] = "¤aa€al€am5Ïah€",
-		["22823"] = "¤aa€al€am\000†œah€",
+		["56513"] = "¤aa€al€am\0006R8ah€",
 		["gr:9902:of Stamina"] = "¤aa€al€amì¼ah€",
 		["6567"] = "¤aa€al€am\000ãÄah€",
 		["14501"] = "¤aa€al€am\0002äôah€",
-		["gr:55589:of Proficiency"] = "¤aa€al€am\000[0ah€",
+		["4567"] = "¤aa€al€ah€amu0",
 		["gr:7540:of the Monkey"] = "¤aa€al€amtËah€",
 		["42737"] = "¤aa€al€am\000í‹ah€",
 		["40768"] = "¤aa€al€amt§ah€",
@@ -15761,8 +15761,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["33823"] = "¤aa€al€amIÇah€",
 		["55513"] = "¤aa€al€am\000	'¼ah€",
 		["4538"] = "¤aa€al€amäah€",
-		["gr:9825:of Spirit"] = "¤aa€al€am0Ïah€",
 		["gr:10177:of Healing"] = "¤aa€al€am\0004ıah€",
+		["gr:9825:of Spirit"] = "¤aa€al€am0Ïah€",
 		["gr:36469:of Stamina"] = "¤aa€al€am\000áLah€",
 		["gr:7545:of Intellect"] = "¤aa€al€am\000\nah€",
 		["62512"] = "¤aa€al€amÉah€",
@@ -15803,21 +15803,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["46324"] = "¤aa€al€am\0004Nah€",
 		["55711"] = "¤aa€al€am\000İaah€",
 		["37159"] = "¤aa€al€am#ah€",
-		["58091"] = "¤aa€al€am—=ah€",
 		["gr:55387:of Strength"] = "¤aa€al€ah€am\000 õ{",
+		["58091"] = "¤aa€al€am—=ah€",
 		["gr:15663:of the Tiger"] = "¤aa€al€ah€am\000ïğ",
-		["gr:9940:of Shadow Wrath"] = "¤aa€al€am\000Ğ‹ah€",
-		["61980"] = "¤aa€al€am\000~êah€",
-		["gr:6610:of the Whale"] = "¤aa€al€ah€am\000\n‡P",
 		["gr:25017:of Agility"] = "¤aa€al€ah€am\000\r@",
-		["39897"] = "¤aa€al€am\000	¬ah€",
-		["49897"] = "¤aa€al€amoªÚah€",
-		["32833"] = "¤aa€al€amÃLah€",
 		["gr:9810:of the Tiger"] = "¤aa€al€ah€am\000	µ",
-		["12833"] = "¤aa€al€amynah€",
 		["gr:44677:of Proficiency"] = "¤aa€al€am\000¡ah€",
-		["8153"] = "¤aa€al€ama5ah€",
+		["gr:9940:of Shadow Wrath"] = "¤aa€al€am\000Ğ‹ah€",
+		["39897"] = "¤aa€al€am\000	¬ah€",
+		["37091"] = "¤aa€al€amwah€",
+		["32833"] = "¤aa€al€amÃLah€",
+		["61980"] = "¤aa€al€am\000~êah€",
+		["12833"] = "¤aa€al€amynah€",
+		["gr:6610:of the Whale"] = "¤aa€al€ah€am\000\n‡P",
 		["28279"] = "¤aa€al€am‡ê9ah€",
+		["8153"] = "¤aa€al€ama5ah€",
 		["10063"] = "¤aa€al€amÃNah€",
 		["gr:14232:of the Whale"] = "¤aa€al€am\000EŒwah€",
 		["gr:35970:of Stamina"] = "¤aa€al€ah€am\000†¦",
@@ -15829,9 +15829,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52367"] = "¤aa€al€am\000AÊah€",
 		["gr:55301:of Proficiency"] = "¤aa€al€am\000ã`ah€",
 		["gr:55423:of Spirit"] = "¤aa€al€am\000%‰Qah€",
-		["gr:55627:of Toughness"] = "¤aa€al€am\000¡ ah€",
+		["gr:10240:of the Bear"] = "¤aa€al€am\000Ôah€",
 		["4867"] = "¤aa€al€ah€am\000í",
-		["3867"] = "¤aa€al€am\000†•ah€",
+		["36386"] = "¤aa€al€am\000|ah€",
 		["gr:24890:of Spirit"] = "¤aa€al€ah€am\000«",
 		["gr:55750:of Retaliation"] = "¤aa€al€am\000„ah€",
 		["gr:55570:of Spirit"] = "¤aa€al€am\000&% ah€",
@@ -15849,11 +15849,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14262"] = "¤aa€al€ah€am\000°í",
 		["gr:10080:of the Wolf"] = "¤aa€al€am\000†ah€",
 		["gr:15431:of Agility"] = "¤aa€al€ah€am\000Ä‡«",
-		["gr:10181:of Arcane Wrath"] = "¤aa€al€am\000\nw ah€",
+		["gr:14969:of the Bear"] = "¤aa€al€am\000[fIah€",
 		["gr:25305:of Proficiency"] = "¤aa€al€ah€am\000~?",
 		["19279"] = "¤aa€al€ah€am\000*Z",
-		["gr:14969:of the Bear"] = "¤aa€al€am\000[fIah€",
-		["gr:7456:of the Gorilla"] = "¤aa€al€am\000#´ah€",
+		["gr:10181:of Arcane Wrath"] = "¤aa€al€am\000\nw ah€",
+		["gr:15291:of the Eagle"] = "¤aa€al€ah€amÂ„",
 		["gr:14932:of the Bear"] = "¤aa€al€am\0002Ü³ah€",
 		["24654"] = "¤aa€al€ah€am\000B",
 		["9967"] = "¤aa€al€am\000iPah€",
@@ -15875,8 +15875,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["45091"] = "¤aa€al€am\000ĞÀah€",
 		["gr:25082:of Proficiency"] = "¤aa€al€am\0002¨¿ah€",
 		["25091"] = "¤aa€al€am\000O¢jah€",
-		["31263"] = "¤aa€al€ah€am\000[€",
 		["19272"] = "¤aa€al€am˜9ah€",
+		["31263"] = "¤aa€al€ah€am\000[€",
 		["55736"] = "¤aa€al€am\000\"Oah€",
 		["gr:36198:of Proficiency"] = "¤aa€al€am\000÷Ÿah€",
 		["24833"] = "¤aa€al€am\000eah€",
@@ -15926,8 +15926,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55645:of Intellect"] = "¤aa€al€am\000&ah€",
 		["44279"] = "¤aa€al€am:`ah€",
 		["36457"] = "¤aa€al€am\000iOah€",
-		["16654"] = "¤aa€al€am\näah€",
 		["43389"] = "¤aa€al€am\000=‡ah€",
+		["16654"] = "¤aa€al€am\näah€",
 		["gr:9813:of the Boar"] = "¤aa€al€amÃPah€",
 		["gr:55332:of Beast Slaying"] = "¤aa€al€am\000	'¶ah€",
 		["9838"] = "¤aa€al€am¹‹ah€",
@@ -15937,10 +15937,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["36069"] = "¤aa€al€am\000²ôah€",
 		["23494"] = "¤aa€al€am\000djah€",
 		["gr:9851:of Spirit"] = "¤aa€al€am\000\"Ïah€",
-		["55069"] = "¤aa€al€amu×ah€",
+		["gr:10367:of Stamina"] = "¤aa€al€am\000rpàah€",
 		["45097"] = "¤aa€al€am\000M!ah€",
 		["75069"] = "¤aa€al€ah€am\000“¿",
-		["55042"] = "¤aa€al€amB/õah€",
+		["gr:36164:of Stamina"] = "¤aa€al€ah€am\000W0",
 		["gr:55724:of Proficiency"] = "¤aa€al€am\000Iíah€",
 		["4300"] = "¤aa€al€am&çah€",
 		["55854"] = "¤aa€al€am\000ah€",
@@ -15953,11 +15953,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["55456"] = "¤aa€al€am\000İÅah€",
 		["44288"] = "¤aa€al€am0ah€",
 		["31138"] = "¤aa€al€am\000]”ah€",
-		["25279"] = "¤aa€al€am\000¸‡Øah€",
+		["gr:7353:of the Owl"] = "¤aa€al€ah€am\000\"à",
 		["15279"] = "¤aa€al€am\000XCah€",
 		["36389"] = "¤aa€al€am\000\n±ìah€",
 		["gr:9896:of Stamina"] = "¤aa€al€amê`ah€",
-		["gr:7353:of the Owl"] = "¤aa€al€ah€am\000\"à",
+		["25279"] = "¤aa€al€am\000¸‡Øah€",
 		["23334"] = "¤aa€al€am\000Òah€",
 		["gr:55408:of Toughness"] = "¤aa€al€am\000„€ah€",
 		["40121"] = "¤aa€al€amn?šah€",
@@ -15969,7 +15969,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9770:of Shadow Wrath"] = "¤aa€al€am\000›Èah€",
 		["gr:24629:of Stamina"] = "¤aa€al€am\000	§ah€",
 		["10328"] = "¤aa€al€am\0005ƒah€",
-		["36042"] = "¤aa€al€am\000hah€",
+		["gr:20656:of Striking"] = "¤aa€al€amæ²zah€",
 		["40177"] = "¤aa€al€amn?¦ah€",
 		["gr:55670:of Agility"] = "¤aa€al€am\000A‰ah€",
 		["gr:31218:of Agility"] = "¤aa€al€am`ah€",
@@ -16010,19 +16010,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["13934"] = "¤aa€al€am'ah€",
 		["35654"] = "¤aa€al€ah€am\000d",
 		["25654"] = "¤aa€al€am\000ah€",
-		["36577"] = "¤aa€al€am\0004Oah€",
+		["55654"] = "¤aa€al€am\000pöah€",
 		["gr:55636:of Strength"] = "¤aa€al€am\000/Nah€",
 		["10112"] = "¤aa€al€am\000\r>ah€",
 		["8178"] = "¤aa€al€amÃNah€",
 		["14457"] = "¤aa€al€am\000†ìah€",
 		["gr:15243:of Nature's Wrath"] = "¤aa€al€ah€am\000† ",
 		["gr:35966:of Stamina"] = "¤aa€al€am\000Iğah€",
-		["gr:7414:of Agility"] = "¤aa€al€am\000:kah€",
 		["14570"] = "¤aa€al€ah€am'",
+		["gr:7414:of Agility"] = "¤aa€al€am\000:kah€",
 		["55457"] = "¤aa€al€am\000“Òah€",
 		["10389"] = "¤aa€al€am\000ºK_ah€",
 		["gr:7558:of Shadow Wrath"] = "¤aa€al€am\000¿ ah€",
-		["gr:35980:of Spirit"] = "¤aa€al€ah€am\000¦°",
+		["gr:14976:of Healing"] = "¤aa€al€am'\000‹ah€",
 		["gr:24982:of Proficiency"] = "¤aa€al€ah€am\000¿Í",
 		["gr:6582:of the Gorilla"] = "¤aa€al€am\000[uah€",
 		["gr:10240:of Strength"] = "¤aa€al€am\000âÊah€",
@@ -16043,13 +16043,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["42897"] = "¤aa€al€am\0004ah€",
 		["32897"] = "¤aa€al€amïah€",
 		["55686"] = "¤aa€al€am\000zah€",
-		["gr:55479:of Proficiency"] = "¤aa€al€am\000cÀah€",
+		["gr:15224:of Healing"] = "¤aa€al€am´µah€",
 		["gr:36242:of Spirit"] = "¤aa€al€am\000‹Yah€",
 		["gr:15294:of the Monkey"] = "¤aa€al€ah€am\000­°",
 		["55445"] = "¤aa€al€am\000(J.ah€",
-		["gr:15224:of Healing"] = "¤aa€al€am´µah€",
+		["gr:55479:of Proficiency"] = "¤aa€al€am\000cÀah€",
 		["gr:55494:of Agility"] = "¤aa€al€am\000W0ah€",
-		["42457"] = "¤aa€al€am\000Åah€",
+		["gr:14164:of the Wolf"] = "¤aa€al€ah€am\0008€",
 		["10279"] = "¤aa€al€am\000xnah€",
 		["15570"] = "¤aa€al€am\000ah€",
 		["55978"] = "¤aa€al€ah€am\000† ",
@@ -16060,7 +16060,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["15686"] = "¤aa€al€am¼€\rah€",
 		["gr:55749:of Stamina"] = "¤aa€al€am\000Ğah€",
 		["gr:6536:of Shadow Wrath"] = "¤aa€al€am\000\r?ah€",
-		["9953"] = "¤aa€al€amu0ah€",
+		["29363"] = "¤aa€al€am\000ı~ah€",
 		["gr:15256:of the Tiger"] = "¤aa€al€am\000\r@ah€",
 		["gr:15114:of the Falcon"] = "¤aa€al€ah€am\000†Ÿ",
 		["gr:15213:of the Tiger"] = "¤aa€al€ah€amu0",
@@ -16077,8 +16077,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24652:of Spirit"] = "¤aa€al€am\000ºïah€",
 		["7991"] = "¤aa€al€am\000-Æ¿ah€",
 		["44445"] = "¤aa€al€am\000\r»Ÿah€",
-		["22457"] = "¤aa€al€amê]ah€",
 		["21897"] = "¤aa€al€am\000#Hah€",
+		["22457"] = "¤aa€al€amê]ah€",
 		["54445"] = "¤aa€al€am\000GÌah€",
 		["43457"] = "¤aa€al€am\000-ˆ}ah€",
 		["34758"] = "¤aa€al€am¥ah€",
@@ -16090,31 +16090,31 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["22389"] = "¤aa€al€am\000˜–zah€",
 		["8067"] = "¤aa€al€ah€am",
 		["7067"] = "¤aa€al€am\000©¼ah€",
-		["7453"] = "¤aa€al€amŸah€",
+		["23445"] = "¤aa€al€am\000{†ah€",
 		["gr:55408:of Intellect"] = "¤aa€al€am\000B?ah€",
-		["18363"] = "¤aa€al€ah€am'",
+		["4067"] = "¤aa€al€am\000“Üah€",
 		["3067"] = "¤aa€al€amzah€",
 		["2067"] = "¤aa€al€amZL%gah€",
 		["gr:18295:of Fire Resistance"] = "¤aa€al€am\000FWÊah€",
 		["gr:55769:of Strength"] = "¤aa€al€am\000\n=-ah€",
 		["2453"] = "¤aa€al€ah€amw",
-		["23445"] = "¤aa€al€am\000{†ah€",
+		["7453"] = "¤aa€al€amŸah€",
 		["33445"] = "¤aa€al€am'ah€",
 		["gr:10190:of the Eagle"] = "¤aa€al€ah€am\000Ó(",
 		["50069"] = "¤aa€al€am+5Œah€",
 		["gr:7408:of Stamina"] = "¤aa€al€amÃNah€",
 		["13445"] = "¤aa€al€am\000clah€",
-		["40897"] = "¤aa€al€am\000ŸÀah€",
-		["gr:24952:of Spirit"] = "¤aa€al€ah€am\000\r”",
 		["43445"] = "¤aa€al€am\0000Òah€",
+		["gr:24952:of Spirit"] = "¤aa€al€ah€am\000\r”",
+		["40897"] = "¤aa€al€am\000ŸÀah€",
 		["19699"] = "¤aa€al€amNah€",
 		["20897"] = "¤aa€al€amµ$=ah€",
 		["13457"] = "¤aa€al€am¯Ãah€",
-		["22279"] = "¤aa€al€am\0006_‡ah€",
+		["gr:56508:of Stamina"] = "¤aa€al€am\000\"èah€",
 		["33457"] = "¤aa€al€am!ah€",
 		["41389"] = "¤aa€al€am\000ah€",
-		["gr:56508:of Stamina"] = "¤aa€al€am\000\"èah€",
-		["gr:55430:of Agility"] = "¤aa€al€am\000\r;ah€",
+		["22279"] = "¤aa€al€am\0006_‡ah€",
+		["gr:55282:of Stamina"] = "¤aa€al€am\000LK@ah€",
 		["gr:36214:of Proficiency"] = "¤aa€al€am\000hìah€",
 		["935"] = "¤aa€al€am\000•@ah€",
 		["52775"] = "¤aa€al€am4Wah€",
@@ -16130,13 +16130,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14179"] = "¤aa€al€am\000†Ÿah€",
 		["6336"] = "¤aa€al€amõÅah€",
 		["5753"] = "¤aa€al€amjP$Äah€",
-		["22445"] = "¤aa€al€am\000Lah€",
 		["9753"] = "¤aa€al€ah€amu0",
-		["gr:15179:of Spirit"] = "¤aa€al€ah€am\000Â",
+		["22445"] = "¤aa€al€am\000Lah€",
+		["gr:15155:of the Monkey"] = "¤aa€al€ah€am\000W+",
 		["gr:55548:of Retaliation"] = "¤aa€al€ah€amÄÛ\n",
-		["22577"] = "¤aa€al€am°ah€",
-		["7753"] = "¤aa€al€am\000(Ùah€",
 		["44686"] = "¤aa€al€am\000¥ïah€",
+		["7753"] = "¤aa€al€am\000(Ùah€",
+		["22577"] = "¤aa€al€am°ah€",
 		["55435"] = "¤aa€al€am\000ÑÖah€",
 		["15579"] = "¤aa€al€amœ@ah€",
 		["gr:36333:of Strength"] = "¤aa€al€ah€am\0005Ü",
@@ -16149,8 +16149,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14559"] = "¤aa€al€am:ìah€",
 		["37796"] = "¤aa€al€am\000•ñah€",
 		["gr:15127:of the Whale"] = "¤aa€al€am\000#ah€",
-		["gr:15433:of Fire Resistance"] = "¤aa€al€am\000G9ah€",
 		["22739"] = "¤aa€al€am\000AÂah€",
+		["gr:15433:of Fire Resistance"] = "¤aa€al€am\000G9ah€",
 		["55729"] = "¤aa€al€am\000İ}ah€",
 		["2313"] = "¤aa€al€am†ah€",
 		["14686"] = "¤aa€al€ah€am\000]n",
@@ -16252,11 +16252,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["66919"] = "¤aa€al€am\000=0ah€",
 		["20513"] = "¤aa€al€am\000`tah€",
 		["10121"] = "¤aa€al€am\000O©ah€",
-		["58256"] = "¤aa€al€am&ah€",
-		["9899"] = "¤aa€al€am\000-ah€",
+		["gr:15647:of the Wolf"] = "¤aa€al€amµ$ah€",
+		["gr:55606:of Toughness"] = "¤aa€al€am\000¡ ah€",
 		["gr:31177:of Agility"] = "¤aa€al€am\000TÅ`ah€",
 		["gr:15497:of the Tiger"] = "¤aa€al€amê`ah€",
-		["gr:55606:of Toughness"] = "¤aa€al€am\000¡ ah€",
+		["9899"] = "¤aa€al€am\000-ah€",
 		["17197"] = "¤aa€al€ah€am\000ïY",
 		["gr:10099:of the Eagle"] = "¤aa€al€amÃPah€",
 		["37197"] = "¤aa€al€am\000vjah€",
@@ -16275,10 +16275,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["15245"] = "¤aa€al€am\000ÔÀah€",
 		["25245"] = "¤aa€al€am\000¡ ah€",
 		["62006"] = "¤aa€al€am1@'ah€",
-		["gr:55399:of Quality"] = "¤aa€al€am\0004ÿah€",
-		["gr:9775:of the Whale"] = "¤aa€al€am\000ûĞah€",
-		["25261"] = "¤aa€al€am\000ƒ9Àah€",
 		["15261"] = "¤aa€al€amN€ah€",
+		["gr:9775:of the Whale"] = "¤aa€al€am\000ûĞah€",
+		["10559"] = "¤aa€al€amÎah€",
+		["gr:55399:of Quality"] = "¤aa€al€am\0004ÿah€",
 		["gr:10068:of the Bear"] = "¤aa€al€am\0004œah€",
 		["55261"] = "¤aa€al€am\000­¢ah€",
 		["55659"] = "¤aa€al€am\000~>ah€",
@@ -16299,8 +16299,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["55479"] = "¤aa€al€am\000Øİah€",
 		["gr:15438:of Defense"] = "¤aa€al€am\000Ä°ah€",
 		["14909"] = "¤aa€al€am\000\n¦ah€",
-		["gr:24832:of Agility"] = "¤aa€al€am\000\r?ah€",
 		["15479"] = "¤aa€al€amN ah€",
+		["gr:24832:of Agility"] = "¤aa€al€am\000\r?ah€",
 		["14245"] = "¤aa€al€am\000j\000şah€",
 		["gr:31215:of Proficiency"] = "¤aa€al€am\000LK>ah€",
 		["32470"] = "¤aa€al€am/ah€",
@@ -16349,7 +16349,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52763"] = "¤aa€al€am\000=şah€",
 		["gr:36492:of Proficiency"] = "¤aa€al€am\0000ah€",
 		["gr:52310:of Quality"] = "¤aa€al€am\000Uah€",
-		["gr:14160:of Stamina"] = "¤aa€al€amœ@ah€",
+		["gr:24847:of Quality"] = "¤aa€al€am\000)8ah€",
 		["43372"] = "¤aa€al€am\000J_ah€",
 		["gr:10098:of the Eagle"] = "¤aa€al€ah€am\0004œ",
 		["14447"] = "¤aa€al€am\000È(ah€",
@@ -16367,8 +16367,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4061"] = "¤aa€al€am\000ópah€",
 		["4320"] = "¤aa€al€am\000ã_ah€",
 		["gr:36184:of Stamina"] = "¤aa€al€ah€am\000#?p",
-		["gr:15647:of the Monkey"] = "¤aa€al€ah€amµ$",
-		["38796"] = "¤aa€al€amw&ah€",
+		["gr:56482:of Toughness"] = "¤aa€al€ah€am\000à",
+		["12261"] = "¤aa€al€amÈ^kah€",
 		["gr:20826:of Spirit"] = "¤aa€al€am\000²ah€",
 		["gr:55383:of Proficiency"] = "¤aa€al€am\0009Æah€",
 		["38959"] = "¤aa€al€am±ah€",
@@ -16387,16 +16387,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55589:of Toughness"] = "¤aa€al€am\000\nmah€",
 		["gr:7471:of the Eagle"] = "¤aa€al€am\000ª2ah€",
 		["gr:41112:of Strength"] = "¤aa€al€am\000IÃah€",
-		["9030"] = "¤aa€al€amÂëah€",
+		["gr:15387:of Spirit"] = "¤aa€al€am\000 õ€ah€",
 		["55447"] = "¤aa€al€am\000q°ah€",
 		["39084"] = "¤aa€al€am\000	'½ah€",
 		["gr:55616:of Proficiency"] = "¤aa€al€am\000ah€",
 		["gr:9907:of the Whale"] = "¤aa€al€am\0001Qah€",
 		["gr:10277:of Strength"] = "¤aa€al€ah€am\000&°Ç",
-		["54479"] = "¤aa€al€ah€am\0004ò¥",
+		["gr:55588:of Toughness"] = "¤aa€al€am\000ô ah€",
 		["942"] = "¤aa€al€am\000{×Mah€",
 		["24479"] = "¤aa€al€am\000püah€",
-		["gr:9836:of Power"] = "¤aa€al€am\0006^ah€",
+		["24829"] = "¤aa€al€am\000\000Yah€",
 		["14829"] = "¤aa€al€am\0005gßah€",
 		["10079"] = "¤aa€al€amRlah€",
 		["15256"] = "¤aa€al€am\000,ah€",
@@ -16420,13 +16420,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["1678"] = "¤aa€al€ah€am\000jöÍ",
 		["gr:9786:of the Bear"] = "¤aa€al€ah€amtË",
 		["3199"] = "¤aa€al€amœ@ah€",
-		["gr:25312:of Stamina"] = "¤aa€al€ah€am\000•û",
+		["14423"] = "¤aa€al€am\000Èah€",
 		["gr:24642:of Quality"] = "¤aa€al€am\000¦°ah€",
 		["gr:55427:of Defense"] = "¤aa€al€am\000Ç<ah€",
 		["gr:55466:of Proficiency"] = "¤aa€al€am\000€ah€",
 		["8199"] = "¤aa€al€am\000ê¨ah€",
-		["14423"] = "¤aa€al€am\000Èah€",
-		["gr:36437:of Stamina"] = "¤aa€al€am\000	tÍah€",
+		["gr:25312:of Stamina"] = "¤aa€al€ah€am\000•û",
+		["gr:55615:of Spirit"] = "¤aa€al€am\000ºêah€",
 		["gr:55527:of Proficiency"] = "¤aa€al€am\0005g×ah€",
 		["14940"] = "¤aa€al€am\000\r@ah€",
 		["24940"] = "¤aa€al€am\000Ğah€",
@@ -16451,7 +16451,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["1299"] = "¤aa€al€amH;ùPah€",
 		["gr:36438:of Spirit"] = "¤aa€al€am\000_íah€",
 		["gr:55347:of Toughness"] = "¤aa€al€am\000!ßàah€",
-		["gr:15511:of the Bear"] = "¤aa€al€ah€amu/",
+		["2299"] = "¤aa€al€ah€amÉÃ{",
 		["gr:14244:of Spirit"] = "¤aa€al€am\000\".\000ah€",
 		["4299"] = "¤aa€al€am#úah€",
 		["gr:24604:of Strength"] = "¤aa€al€am\000£ah€",
@@ -16465,15 +16465,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10110:of Healing"] = "¤aa€al€ah€am\000ºğ",
 		["gr:10076:of the Wolf"] = "¤aa€al€ah€am\000ò~",
 		["gr:55713:of Quality"] = "¤aa€al€am\000dæah€",
-		["37779"] = "¤aa€al€am\000grah€",
 		["gr:9942:of the Whale"] = "¤aa€al€am\000Gah€",
+		["37779"] = "¤aa€al€am\000grah€",
 		["gr:55466:of Toughness"] = "¤aa€al€am\0002ö×ah€",
 		["gr:24830:of Proficiency"] = "¤aa€al€am\000Õ²ah€",
 		["14109"] = "¤aa€al€amœ@ah€",
 		["55363"] = "¤aa€al€am\000—ah€",
 		["gr:6586:of the Eagle"] = "¤aa€al€am\0001ìah€",
-		["gr:9806:of the Whale"] = "¤aa€al€am\000q°ah€",
 		["gr:14193:of the Monkey"] = "¤aa€al€amMUah€",
+		["gr:9806:of the Whale"] = "¤aa€al€am\000q°ah€",
 		["gr:11971:of Fire Resistance"] = "¤aa€al€am\000†Ÿah€",
 		["gr:15973:of the Falcon"] = "¤aa€al€am\000lËah€",
 		["13008"] = "¤aa€al€am\000†’ah€",
@@ -16492,21 +16492,21 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["32423"] = "¤aa€al€am\000_Şah€",
 		["35997"] = "¤aa€al€am\000Ğah€",
 		["66940"] = "¤aa€al€am\000˜xah€",
-		["gr:15274:of the Whale"] = "¤aa€al€ah€am\000‘",
 		["gr:14211:of the Whale"] = "¤aa€al€am\000¤Ëah€",
+		["gr:15274:of the Whale"] = "¤aa€al€ah€am\000‘",
 		["gr:55744:of Retaliation"] = "¤aa€al€am\000iMah€",
 		["gr:55499:of Strength"] = "¤aa€al€am\000„zah€",
 		["gr:55612:of Beast Slaying"] = "¤aa€al€am\000²ah€",
 		["gr:24956:of Agility"] = "¤aa€al€am\000Š;ah€",
 		["10256"] = "¤aa€al€am\000¡ah€",
 		["3927"] = "¤aa€al€amFÊah€",
-		["gr:14289:of the Wolf"] = "¤aa€al€ah€am\000~•",
+		["9939"] = "¤aa€al€am\000¬—ah€",
 		["14400"] = "¤aa€al€amÃPah€",
 		["gr:9846:of the Owl"] = "¤aa€al€am¯dah€",
 		["gr:24775:of Proficiency"] = "¤aa€al€am\000q†ah€",
 		["22846"] = "¤aa€al€am\000ëDah€",
 		["42433"] = "¤aa€al€am\000Iïah€",
-		["gr:14125:of Spirit"] = "¤aa€al€ah€amœ@",
+		["7939"] = "¤aa€al€amn‹ah€",
 		["gr:36435:of Proficiency"] = "¤aa€al€am\000åah€",
 		["10197"] = "¤aa€al€am\000~@ah€",
 		["gr:10207:of Stamina"] = "¤aa€al€ah€am\000óp",
@@ -16538,8 +16538,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["2785"] = "¤aa€al€amáˆah€",
 		["52113"] = "¤aa€al€am0Ğah€",
 		["gr:55747:of Retaliation"] = "¤aa€al€am\000AÜah€",
-		["gr:9808:of Spirit"] = "¤aa€al€am‰{ah€",
 		["gr:15634:of the Tiger"] = "¤aa€al€amNah€",
+		["gr:9808:of Spirit"] = "¤aa€al€am‰{ah€",
 		["gr:55583:of Spirit"] = "¤aa€al€am\000B'ah€",
 		["gr:15164:of the Eagle"] = "¤aa€al€ah€am\000 Y=",
 		["gr:55513:of Toughness"] = "¤aa€al€am\000!ßàah€",
@@ -16548,9 +16548,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:7415:of the Owl"] = "¤aa€al€amÃPah€",
 		["38960"] = "¤aa€al€améóah€",
 		["gr:55635:of Beast Slaying"] = "¤aa€al€am\000ãTah€",
-		["gr:24585:of Stamina"] = "¤aa€al€am\000Groah€",
-		["gr:36673:of Stamina"] = "¤aa€al€am\000„€ah€",
 		["gr:55405:of Strength"] = "¤aa€al€am\000B1ah€",
+		["gr:36673:of Stamina"] = "¤aa€al€am\000„€ah€",
+		["gr:24585:of Stamina"] = "¤aa€al€am\000Groah€",
 		["24926"] = "¤aa€al€am\000\rm}ah€",
 		["4093"] = "¤aa€al€ah€amEi",
 		["38940"] = "¤aa€al€am\0008ê,ah€",
@@ -16667,19 +16667,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55573:of Beast Slaying"] = "¤aa€al€am\000	Nah€",
 		["25140"] = "¤aa€al€am\000=œah€",
 		["19261"] = "¤aa€al€am\000¿Ìah€",
-		["1798"] = "¤aa€al€ah€am\000­­",
 		["15733"] = "¤aa€al€am\000Şxah€",
+		["1798"] = "¤aa€al€ah€am\000­­",
 		["47"] = "¤aa€al€amB*’ah€",
 		["3798"] = "¤aa€al€ah€amÃP",
 		["2798"] = "¤aa€al€am\000æ¼ah€",
-		["36413"] = "¤aa€al€am\000[`ah€",
+		["gr:2140:of Power"] = "¤aa€al€am\000†Ÿah€",
 		["gr:36277:of Strength"] = "¤aa€al€ah€am\000vP",
 		["9851"] = "¤aa€al€am\000\"Ïah€",
-		["34837"] = "¤aa€al€am0ò@Pah€",
+		["36413"] = "¤aa€al€am\000[`ah€",
 		["3851"] = "¤aa€al€am\000*†ah€",
-		["gr:10380:of the Eagle"] = "¤aa€al€am\000Ÿîah€",
+		["9898"] = "¤aa€al€am\000\r@ah€",
 		["gr:24804:of Proficiency"] = "¤aa€al€ah€am\0000M*",
-		["3417"] = "¤aa€al€amšcah€",
+		["gr:7406:of Intellect"] = "¤aa€al€amN ah€",
 		["gr:14260:of the Owl"] = "¤aa€al€am\000Ş´ah€",
 		["gr:9918:of the Monkey"] = "¤aa€al€am\000\n¶ah€",
 		["16652"] = "¤aa€al€am'Vah€",
@@ -16687,57 +16687,57 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["6417"] = "¤aa€al€amê\\ah€",
 		["24620"] = "¤aa€al€am\000Ğah€",
 		["42400"] = "¤aa€al€am&ah€",
-		["gr:7406:of Intellect"] = "¤aa€al€amN ah€",
+		["3417"] = "¤aa€al€amšcah€",
 		["28280"] = "¤aa€al€amƒı|ah€",
 		["52769"] = "¤aa€al€am\000€@ah€",
 		["55062"] = "¤aa€al€am„D¹ah€",
 		["gr:10161:of the Falcon"] = "¤aa€al€ah€am\000§",
-		["gr:6266:of Arcane Wrath"] = "¤aa€al€amu/ah€",
+		["gr:14904:of Strength"] = "¤aa€al€amÉÃ€ah€",
 		["34749"] = "¤aa€al€amNah€",
 		["14116"] = "¤aa€al€am\000ïgah€",
-		["8951"] = "¤aa€al€amah€",
+		["25400"] = "¤aa€al€am×Cah€",
 		["gr:7473:of Intellect"] = "¤aa€al€am\000¡ah€",
 		["44749"] = "¤aa€al€am\000cıah€",
 		["36652"] = "¤aa€al€am\000&,ah€",
 		["24749"] = "¤aa€al€ah€am\000\rË^",
-		["9951"] = "¤aa€al€am\000püah€",
+		["gr:20658:of Restoration"] = "¤aa€al€am\000™E*ah€",
 		["58280"] = "¤aa€al€ah€amàœ",
 		["24733"] = "¤aa€al€amNah€",
 		["gr:55661:of Proficiency"] = "¤aa€al€am\000¥óah€",
-		["25400"] = "¤aa€al€am×Cah€",
-		["gr:20658:of Restoration"] = "¤aa€al€am\000™E*ah€",
+		["8951"] = "¤aa€al€amah€",
+		["9951"] = "¤aa€al€am\000püah€",
 		["gr:15298:of Intellect"] = "¤aa€al€am\0000hah€",
 		["55400"] = "¤aa€al€am\0004Jah€",
 		["55413"] = "¤aa€al€am\000€ah€",
 		["gr:14194:of the Owl"] = "¤aa€al€am\000Éah€",
 		["25062"] = "¤aa€al€am\000ˆ	ah€",
-		["55063"] = "¤aa€al€ambYÿah€",
+		["2951"] = "¤aa€al€am\000ıÖah€",
 		["66946"] = "¤aa€al€am5~\000ah€",
 		["1951"] = "¤aa€al€am\000“Ûah€",
 		["15063"] = "¤aa€al€am\000%‚îah€",
 		["41812"] = "¤aa€al€amôah€",
 		["4951"] = "¤aa€al€amEm‡ah€",
 		["25063"] = "¤aa€al€am\000Ğ&ah€",
-		["2951"] = "¤aa€al€am\000ıÖah€",
+		["55063"] = "¤aa€al€ambYÿah€",
 		["10060"] = "¤aa€al€am:˜ah€",
-		["55769"] = "¤aa€al€am\000¿ah€",
-		["54482"] = "¤aa€al€am\000÷Ğah€",
 		["44482"] = "¤aa€al€am\000	HEah€",
+		["54482"] = "¤aa€al€am\000÷Ğah€",
+		["55769"] = "¤aa€al€am\000¿ah€",
 		["34482"] = "¤aa€al€am\0002ÜÕah€",
 		["12803"] = "¤aa€al€am„Èah€",
-		["14482"] = "¤aa€al€am\000pñah€",
+		["45769"] = "¤aa€al€am\000Ù|ah€",
 		["52127"] = "¤aa€al€am\000ah€",
 		["52774"] = "¤aa€al€am\næ8¯ah€",
-		["1998"] = "¤aa€al€amõòlah€",
+		["gr:24720:of Proficiency"] = "¤aa€al€ah€am\000lĞ",
 		["32774"] = "¤aa€al€am\000…SBah€",
 		["gr:24967:of Toughness"] = "¤aa€al€am\000Èîah€",
 		["gr:25088:of Stamina"] = "¤aa€al€am\000	'Àah€",
 		["47652"] = "¤aa€al€am\000+ah€",
 		["gr:15370:of Agility"] = "¤aa€al€ah€am\000Úæ",
-		["gr:24720:of Proficiency"] = "¤aa€al€ah€am\000lĞ",
+		["1998"] = "¤aa€al€amõòlah€",
 		["67116"] = "¤aa€al€am\000«‡ah€",
 		["18413"] = "¤aa€al€ah€am\000-Æ¿",
-		["24689"] = "¤aa€al€am\000% 1ah€",
+		["38413"] = "¤aa€al€ah€am\000AŒ",
 		["gr:14966:of the Eagle"] = "¤aa€al€amõÄÃah€",
 		["10400"] = "¤aa€al€amõàÿah€",
 		["932"] = "¤aa€al€ah€am\000YB",
@@ -16761,9 +16761,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24769"] = "¤aa€al€am\000•|ah€",
 		["gr:55459:of Beast Slaying"] = "¤aa€al€am\000”—ah€",
 		["39340"] = "¤aa€al€am†ah€",
-		["14796"] = "¤aa€al€ah€am%•Ğ",
-		["32749"] = "¤aa€al€am\000†’ah€",
 		["42749"] = "¤aa€al€am\000[ßah€",
+		["24796"] = "¤aa€al€ah€am\000È",
+		["14796"] = "¤aa€al€ah€am%•Ğ",
 		["39317"] = "¤aa€al€am1	íah€",
 		["36116"] = "¤aa€al€ah€am\000_",
 		["gr:55551:of Proficiency"] = "¤aa€al€am\000ëÀah€",
@@ -16826,10 +16826,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55733:of Stamina"] = "¤aa€al€am\000SMah€",
 		["24819"] = "¤aa€al€amÉº¶ah€",
 		["55060"] = "¤aa€al€amÄ´\000ah€",
-		["10940"] = "¤aa€al€am%^ah€",
+		["gr:55610:of Intellect"] = "¤aa€al€am\000æah€",
 		["21774"] = "¤aa€al€am\000¯Øah€",
 		["25060"] = "¤aa€al€am\000Iğah€",
-		["gr:55610:of Intellect"] = "¤aa€al€am\000æah€",
+		["10940"] = "¤aa€al€am%^ah€",
 		["45060"] = "¤aa€al€am\0006Vah€",
 		["gr:15325:of the Tiger"] = "¤aa€al€ah€am\000L$#",
 		["25689"] = "¤aa€al€ah€am\000`¥–",
@@ -16844,15 +16844,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["43244"] = "¤aa€al€am\000@õah€",
 		["12409"] = "¤aa€al€amê_ah€",
 		["36151"] = "¤aa€al€am\000¡ah€",
-		["gr:14926:of the Bear"] = "¤aa€al€amah€",
+		["gr:15616:of the Gorilla"] = "¤aa€al€am\000¨¦ah€",
 		["41400"] = "¤aa€al€am\000üah€",
 		["5117"] = "¤aa€al€am“†ÿah€",
 		["6117"] = "¤aa€al€amw5”\000ah€",
 		["gr:10160:of the Whale"] = "¤aa€al€am\0007+ah€",
 		["43256"] = "¤aa€al€am\0009¤ah€",
-		["gr:15616:of the Gorilla"] = "¤aa€al€am\000¨¦ah€",
+		["gr:14926:of the Bear"] = "¤aa€al€amah€",
 		["gr:9845:of the Eagle"] = "¤aa€al€amÃMah€",
-		["gr:11996:of the Boar"] = "¤aa€al€am\000Ì`ah€",
+		["gr:55295:of Spirit"] = "¤aa€al€ah€am\000¡ ",
 		["13116"] = "¤aa€al€am\000\\\000ah€",
 		["23116"] = "¤aa€al€am¬ah€",
 		["21151"] = "¤aa€al€amğah€",
@@ -16881,7 +16881,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["6617"] = "¤aa€al€am\000Lp\\ah€",
 		["43482"] = "¤aa€al€ah€am\000PÔ",
 		["39946"] = "¤aa€al€ah€amka",
-		["14256"] = "¤aa€al€amNxah€",
+		["40769"] = "¤aa€al€am\000¡ah€",
 		["gr:10084:of Arcane Wrath"] = "¤aa€al€am\000¡¼ah€",
 		["20769"] = "¤aa€al€amëÁşah€",
 		["68779"] = "¤aa€al€am\000!ah€",
@@ -16901,12 +16901,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["8626"] = "¤aa€al€am\000\"ïah€",
 		["gr:7440:of Spirit"] = "¤aa€al€amÃPah€",
 		["13060"] = "¤aa€al€am\000 •ah€",
-		["1717"] = "¤aa€al€am\000ôah€",
-		["gr:25284:of Stamina"] = "¤aa€al€amœ?ah€",
 		["25317"] = "¤aa€al€am\000”Ëah€",
+		["gr:25284:of Stamina"] = "¤aa€al€amœ?ah€",
+		["1717"] = "¤aa€al€am\000ôah€",
 		["55317"] = "¤aa€al€am\000Òbah€",
 		["gr:55663:of Proficiency"] = "¤aa€al€am\000Úah€",
-		["24803"] = "¤aa€al€ah€am\000ã`",
+		["4717"] = "¤aa€al€amÃPah€",
 		["gr:14219:of Spirit"] = "¤aa€al€am\000Ø¹ah€",
 		["10151"] = "¤aa€al€am\000=Şah€",
 		["gr:55353:of Proficiency"] = "¤aa€al€am\000&%<ah€",
@@ -16918,7 +16918,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:7440:of the Falcon"] = "¤aa€al€ah€am\000† ",
 		["31280"] = "¤aa€al€am\000÷˜ah€",
 		["gr:14970:of the Bear"] = "¤aa€al€am$7ah€",
-		["4717"] = "¤aa€al€amÃPah€",
+		["24803"] = "¤aa€al€ah€am\000ã`",
 		["14299"] = "¤aa€al€ah€am\0001¯C",
 		["gr:6547:of the Boar"] = "¤aa€al€ah€am\000Ğ",
 		["gr:55619:of Stamina"] = "¤aa€al€am\000Aah€",
@@ -16929,7 +16929,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52086"] = "¤aa€al€am@ah€",
 		["gr:10226:of the Tiger"] = "¤aa€al€am\000‰ah€",
 		["gr:10365:of the Tiger"] = "¤aa€al€am\000„{ah€",
-		["40769"] = "¤aa€al€am\000¡ah€",
+		["14256"] = "¤aa€al€amNxah€",
 		["gr:15373:of the Monkey"] = "¤aa€al€ah€am\000|",
 		["gr:55464:of Proficiency"] = "¤aa€al€am\000=ÿah€",
 		["5051"] = "¤aa€al€am>)ah€",
@@ -16943,7 +16943,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["36244"] = "¤aa€al€am\000úpah€",
 		["31151"] = "¤aa€al€am\000	¤±ah€",
 		["gr:10187:of the Eagle"] = "¤aa€al€am\000jÏÀah€",
-		["gr:55295:of Spirit"] = "¤aa€al€ah€am\000¡ ",
+		["gr:11996:of the Boar"] = "¤aa€al€am\000Ì`ah€",
 		["gr:55628:of Spirit"] = "¤aa€al€am\000öòah€",
 		["45625"] = "¤aa€al€am\000 øah€",
 		["gr:15660:of the Eagle"] = "¤aa€al€am\000Õxnah€",
@@ -16983,7 +16983,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["10053"] = "¤aa€al€am\000zah€",
 		["gr:3196:of the Tiger"] = "¤aa€al€ah€am§´",
 		["25166"] = "¤aa€al€ah€am\000Uğ*",
-		["24796"] = "¤aa€al€ah€am\000È",
+		["32749"] = "¤aa€al€am\000†’ah€",
 		["gr:10088:of Power"] = "¤aa€al€am\000]»ah€",
 		["25059"] = "¤aa€al€am\000€ah€",
 		["gr:55439:of Proficiency"] = "¤aa€al€am\000“µah€",
@@ -16995,25 +16995,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15260:of the Gorilla"] = "¤aa€al€ah€am\0002",
 		["2251"] = "¤aa€al€amóah€",
 		["1251"] = "¤aa€al€am	Âah€",
-		["38413"] = "¤aa€al€ah€am\000AŒ",
+		["24689"] = "¤aa€al€am\000% 1ah€",
 		["52386"] = "¤aa€al€am\000_wah€",
 		["gr:24969:of Proficiency"] = "¤aa€al€am\000¡ ah€",
-		["45769"] = "¤aa€al€am\000Ù|ah€",
-		["4251"] = "¤aa€al€am!’ah€",
-		["gr:55639:of Proficiency"] = "¤aa€al€am\000r–ah€",
+		["14482"] = "¤aa€al€am\000pñah€",
 		["14244"] = "¤aa€al€am\000\"-ÿah€",
+		["gr:55639:of Proficiency"] = "¤aa€al€am\000r–ah€",
+		["832"] = "¤aa€al€am^zah€",
 		["9251"] = "¤aa€al€am“‡\000ah€",
 		["8251"] = "¤aa€al€ah€amê`",
-		["832"] = "¤aa€al€am^zah€",
 		["38400"] = "¤aa€al€am\000\r@ah€",
+		["4251"] = "¤aa€al€am!’ah€",
 		["44470"] = "¤aa€al€am\000<ëíah€",
 		["gr:36072:of Intellect"] = "¤aa€al€ah€am\000‘Ê",
-		["gr:14904:of Strength"] = "¤aa€al€amÉÃ€ah€",
+		["gr:6266:of Arcane Wrath"] = "¤aa€al€amu/ah€",
 		["4417"] = "¤aa€al€ah€am\000“{",
 		["gr:9768:of Shadow Wrath"] = "¤aa€al€ah€amN ",
-		["9898"] = "¤aa€al€am\000\r@ah€",
-		["gr:2140:of Power"] = "¤aa€al€am\000†Ÿah€",
+		["gr:10380:of the Eagle"] = "¤aa€al€am\000Ÿîah€",
 		["gr:55362:of Proficiency"] = "¤aa€al€am\000	NÉah€",
+		["34837"] = "¤aa€al€am0ò@Pah€",
 		["6361"] = "¤aa€al€am€ah€",
 		["gr:14183:of the Owl"] = "¤aa€al€am\000	'¿ah€",
 		["31297"] = "¤aa€al€am\000(áah€",
@@ -17130,12 +17130,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["6399"] = "¤aa€al€ah€amN ",
 		["gr:56499:of Stamina"] = "¤aa€al€am\000È+ah€",
 		["4399"] = "¤aa€al€am\000\r>ah€",
-		["7939"] = "¤aa€al€amn‹ah€",
+		["gr:14125:of Spirit"] = "¤aa€al€ah€amœ@",
 		["gr:15162:of the Owl"] = "¤aa€al€am\000¼”ah€",
 		["gr:15179:of Power"] = "¤aa€al€am\000Âšah€",
 		["23118"] = "¤aa€al€am\000ÄTah€",
 		["gr:10134:of the Eagle"] = "¤aa€al€ah€am\000ïÂ",
-		["9939"] = "¤aa€al€am\000¬—ah€",
+		["gr:14289:of the Wolf"] = "¤aa€al€ah€am\000~•",
 		["gr:36694:of Proficiency"] = "¤aa€al€am\000÷›ah€",
 		["9897"] = "¤aa€al€am\000† ah€",
 		["gr:9949:of the Owl"] = "¤aa€al€am\000†šah€",
@@ -17165,7 +17165,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:25228:of Proficiency"] = "¤aa€al€ah€am\000€",
 		["15620"] = "¤aa€al€ah€am\0008",
 		["2751"] = "¤aa€al€amIah€",
-		["2299"] = "¤aa€al€ah€amÉÃ{",
+		["gr:15511:of the Bear"] = "¤aa€al€ah€amu/",
 		["55353"] = "¤aa€al€am\000&%<ah€",
 		["5751"] = "¤aa€al€am2Ğ¢;ah€",
 		["gr:55285:of Strength"] = "¤aa€al€am\000]pah€",
@@ -17177,7 +17177,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55681:of Stamina"] = "¤aa€al€am\000«Œah€",
 		["gr:55437:of Stamina"] = "¤aa€al€am\0007ßah€",
 		["67027"] = "¤aa€al€am\000%bJah€",
-		["gr:55615:of Spirit"] = "¤aa€al€am\000ºêah€",
+		["gr:36437:of Stamina"] = "¤aa€al€am\000	tÍah€",
 		["21844"] = "¤aa€al€am\000­«ah€",
 		["gr:9769:of Frozen Wrath"] = "¤aa€al€am\000W#ah€",
 		["14839"] = "¤aa€al€am\000LMah€",
@@ -17191,11 +17191,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:44669:of Proficiency"] = "¤aa€al€am\000lÍah€",
 		["16250"] = "¤aa€al€am\000\r”ah€",
 		["gr:10172:of Arcane Wrath"] = "¤aa€al€am\000L$)ah€",
-		["24829"] = "¤aa€al€am\000\000Yah€",
-		["gr:55588:of Toughness"] = "¤aa€al€am\000ô ah€",
+		["gr:9836:of Power"] = "¤aa€al€am\0006^ah€",
+		["54479"] = "¤aa€al€ah€am\0004ò¥",
 		["gr:24709:of Stamina"] = "¤aa€al€am\000şah€",
 		["gr:14897:of Power"] = "¤aa€al€ah€amõ¹ğ",
-		["gr:15387:of Spirit"] = "¤aa€al€am\000 õ€ah€",
+		["9030"] = "¤aa€al€amÂëah€",
 		["gr:36000:of Spirit"] = "¤aa€al€am\000Ğah€",
 		["gr:14109:of the Owl"] = "¤aa€al€am\000† ah€",
 		["43007"] = "¤aa€al€am\000ah€",
@@ -17205,8 +17205,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["25333"] = "¤aa€al€am\000!ßàah€",
 		["gr:24750:of Stamina"] = "¤aa€al€ah€am\000Ş²",
 		["36027"] = "¤aa€al€am\000dpah€",
-		["12261"] = "¤aa€al€amÈ^kah€",
-		["gr:56482:of Toughness"] = "¤aa€al€ah€am\000à",
+		["38796"] = "¤aa€al€amw&ah€",
+		["gr:15647:of the Monkey"] = "¤aa€al€ah€amµ$",
 		["8385"] = "¤aa€al€amJ°ah€",
 		["gr:25215:of Proficiency"] = "¤aa€al€am\000Pnah€",
 		["gr:15325:of the Eagle"] = "¤aa€al€am\000:ah€",
@@ -17217,7 +17217,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["1778"] = "¤aa€al€am\000†ah€",
 		["13026"] = "¤aa€al€am\000«ah€",
 		["36501"] = "¤aa€al€am\000B@ah€",
-		["gr:24847:of Quality"] = "¤aa€al€am\000)8ah€",
+		["gr:14160:of Stamina"] = "¤aa€al€amœ@ah€",
 		["gr:14249:of the Owl"] = "¤aa€al€am\000ah€",
 		["44436"] = "¤aa€al€am\000Î¬ah€",
 		["41185"] = "¤aa€al€am\000 ah€",
@@ -17255,7 +17255,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15626:of Agility"] = "¤aa€al€ah€am\000ŞS",
 		["15604"] = "¤aa€al€ah€am\000",
 		["45604"] = "¤aa€al€am\000^ah€",
-		["10559"] = "¤aa€al€amÎah€",
+		["25261"] = "¤aa€al€am\000ƒ9Àah€",
 		["14458"] = "¤aa€al€am\000Nüah€",
 		["15345"] = "¤aa€al€am\000\n³ah€",
 		["16206"] = "¤aa€al€am\000Räah€",
@@ -17268,7 +17268,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["55026"] = "¤aa€al€am\000\r@ah€",
 		["25026"] = "¤aa€al€am\000|¼ ah€",
 		["55707"] = "¤aa€al€am\000Ô¿ah€",
-		["gr:15647:of the Wolf"] = "¤aa€al€amµ$ah€",
+		["58256"] = "¤aa€al€am&ah€",
 		["gr:36187:of Agility"] = "¤aa€al€am\000† ah€",
 		["gr:55404:of Retaliation"] = "¤aa€al€am\000³ah€",
 		["1607"] = "¤aa€al€am\0008u ah€",
@@ -17337,7 +17337,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15584:of Spirit"] = "¤aa€al€am\000z§ah€",
 		["gr:36021:of Strength"] = "¤aa€al€am\0004üah€",
 		["gr:12040:of the Falcon"] = "¤aa€al€am\000­©ah€",
-		["gr:15155:of the Monkey"] = "¤aa€al€ah€am\000W+",
+		["gr:15179:of Spirit"] = "¤aa€al€ah€am\000Â",
 		["gr:36254:of Agility"] = "¤aa€al€am\000zah€",
 		["gr:9861:of the Tiger"] = "¤aa€al€am\000† ah€",
 		["gr:7545:of Nature's Wrath"] = "¤aa€al€am\000“àah€",
@@ -17348,14 +17348,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["15370"] = "¤aa€al€am\000Úæah€",
 		["43361"] = "¤aa€al€amœah€",
 		["gr:12012:of the Monkey"] = "¤aa€al€amÃPah€",
-		["gr:55282:of Stamina"] = "¤aa€al€am\000LK@ah€",
+		["gr:55430:of Agility"] = "¤aa€al€am\000\r;ah€",
 		["5007"] = "¤aa€al€amu0ah€",
 		["gr:9859:of the Whale"] = "¤aa€al€am\000€ah€",
 		["3231"] = "¤aa€al€amö.ah€",
 		["41127"] = "¤aa€al€am\000ÔÀah€",
 		["31127"] = "¤aa€al€am\0002œah€",
 		["gr:24706:of Strength"] = "¤aa€al€am\000\r=ah€",
-		["4067"] = "¤aa€al€am\000“Üah€",
+		["18363"] = "¤aa€al€ah€am'",
 		["gr:56513:of Intellect"] = "¤aa€al€am\000<ı%ah€",
 		["8171"] = "¤aa€al€amUah€",
 		["63304"] = "¤aa€al€am¨ah€",
@@ -17371,13 +17371,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["52309"] = "¤aa€al€am\000­¯ah€",
 		["27696"] = "¤aa€al€am\000Ö€ah€",
 		["6402"] = "¤aa€al€ah€am\000†Ÿ",
-		["29363"] = "¤aa€al€am\000ı~ah€",
+		["9953"] = "¤aa€al€amu0ah€",
 		["gr:55691:of Beast Slaying"] = "¤aa€al€am\000Ş`ah€",
 		["20659"] = "¤aa€al€amğµËah€",
 		["gr:15655:of the Whale"] = "¤aa€al€am\000LK>ah€",
 		["gr:9952:of the Falcon"] = "¤aa€al€am\000\rTah€",
 		["23117"] = "¤aa€al€am\000ĞŒah€",
-		["gr:14164:of the Wolf"] = "¤aa€al€ah€am\0008€",
+		["42457"] = "¤aa€al€am\000Åah€",
 		["gr:1207:of the Tiger"] = "¤aa€al€amNah€",
 		["36370"] = "¤aa€al€am\000\r@ah€",
 		["15577"] = "¤aa€al€amu0ah€",
@@ -17389,12 +17389,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15662:of the Monkey"] = "¤aa€al€am\000·Êah€",
 		["gr:14977:of the Bear"] = "¤aa€al€amùÎ:ah€",
 		["gr:10069:of Agility"] = "¤aa€al€améah€",
-		["gr:14976:of Healing"] = "¤aa€al€am'\000‹ah€",
+		["gr:35980:of Spirit"] = "¤aa€al€ah€am\000¦°",
 		["5788"] = "¤aa€al€am\000lah€",
 		["12977"] = "¤aa€al€am*œah€",
 		["12820"] = "¤aa€al€amah€",
 		["gr:6600:of the Wolf"] = "¤aa€al€amNah€",
-		["55654"] = "¤aa€al€am\000pöah€",
+		["36577"] = "¤aa€al€am\0004Oah€",
 		["61998"] = "¤aa€al€am\000Oah€",
 		["36210"] = "¤aa€al€am\000•Uah€",
 		["gr:24992:of Spirit"] = "¤aa€al€am\000=	\000ah€",
@@ -17418,7 +17418,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9960:of the Wolf"] = "¤aa€al€am\000«$ah€",
 		["gr:55574:of Spirit"] = "¤aa€al€am\000ğah€",
 		["gr:15155:of the Eagle"] = "¤aa€al€am\000W-ah€",
-		["gr:20656:of Striking"] = "¤aa€al€amæ²zah€",
+		["36042"] = "¤aa€al€am\000hah€",
 		["gr:36577:of Intellect"] = "¤aa€al€am\000È.ah€",
 		["gr:56505:of Toughness"] = "¤aa€al€am\000åÃah€",
 		["gr:10261:of Healing"] = "¤aa€al€am\000j¨ªah€",
@@ -17436,8 +17436,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["10370"] = "¤aa€al€am\000#¦-ah€",
 		["gr:55684:of Intellect"] = "¤aa€al€am\000&%ah€",
 		["gr:35967:of Quality"] = "¤aa€al€am\000Ü„ah€",
-		["gr:36164:of Stamina"] = "¤aa€al€ah€am\000W0",
-		["gr:10367:of Stamina"] = "¤aa€al€am\000rpàah€",
+		["55042"] = "¤aa€al€amB/õah€",
+		["55069"] = "¤aa€al€amu×ah€",
 		["gr:14333:of Healing"] = "¤aa€al€am\000Èàah€",
 		["gr:55664:of Toughness"] = "¤aa€al€am\000	ah€",
 		["44716"] = "¤aa€al€am\000[`ah€",
@@ -17479,7 +17479,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["21852"] = "¤aa€al€am\000ûÎah€",
 		["7408"] = "¤aa€al€am\000wşah€",
 		["gr:9872:of the Bear"] = "¤aa€al€amu/ah€",
-		["gr:15291:of the Eagle"] = "¤aa€al€ah€amÂ„",
+		["gr:7456:of the Gorilla"] = "¤aa€al€am\000#´ah€",
 		["gr:55380:of Proficiency"] = "¤aa€al€am\000¡ah€",
 		["23533"] = "¤aa€al€am“†ÿah€",
 		["gr:10229:of Power"] = "¤aa€al€am\000]pah€",
@@ -17489,15 +17489,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:7486:of the Eagle"] = "¤aa€al€ah€am\000\n",
 		["42093"] = "¤aa€al€am\0004uçah€",
 		["gr:15245:of the Tiger"] = "¤aa€al€am\000LK@ah€",
-		["36386"] = "¤aa€al€am\000|ah€",
-		["gr:10240:of the Bear"] = "¤aa€al€am\000Ôah€",
+		["3867"] = "¤aa€al€am\000†•ah€",
+		["gr:55627:of Toughness"] = "¤aa€al€am\000¡ ah€",
 		["10273"] = "¤aa€al€am\0002öÉah€",
 		["9290"] = "¤aa€al€am\000‡ßah€",
 		["52222"] = "¤aa€al€am\000\nÔah€",
 		["25003"] = "¤aa€al€am\0004¤‹ah€",
 		["gr:7477:of the Monkey"] = "¤aa€al€ah€am\000pî",
 		["5956"] = "¤aa€al€am\000Ô¼ah€",
-		["37091"] = "¤aa€al€amwah€",
+		["49897"] = "¤aa€al€amoªÚah€",
 		["4477"] = "¤aa€al€amI>ah€",
 		["15267"] = "¤aa€al€am\000<âÖah€",
 		["55409"] = "¤aa€al€am\0003ah€",
@@ -17547,7 +17547,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["16672"] = "¤aa€al€amğÑah€",
 		["59479"] = "¤aa€al€am\000!ßŞah€",
 		["44501"] = "¤aa€al€am1,ôah€",
-		["4567"] = "¤aa€al€ah€amu0",
+		["gr:55589:of Proficiency"] = "¤aa€al€am\000[0ah€",
 		["38803"] = "¤aa€al€am&úah€",
 		["gr:14161:of the Whale"] = "¤aa€al€am»óah€",
 		["2452"] = "¤aa€al€am'ah€",
@@ -17559,7 +17559,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:36049:of Spirit"] = "¤aa€al€am\000äah€",
 		["59232"] = "¤aa€al€ah€am\000:s",
 		["22641"] = "¤aa€al€am&9ah€",
-		["gr:36137:of Proficiency"] = "¤aa€al€am\000	ah€",
+		["gr:8196:of the Tiger"] = "¤aa€al€am\000Dah€",
 		["36415"] = "¤aa€al€am\000ah€",
 		["4278"] = "¤aa€al€amêWah€",
 		["36057"] = "¤aa€al€am\000ÂŒah€",
@@ -17578,7 +17578,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["15646"] = "¤aa€al€amÊ†¥ah€",
 		["gr:15243:of Stamina"] = "¤aa€al€amNah€",
 		["gr:36333:of Stamina"] = "¤aa€al€am\000#_ah€",
-		["gr:9793:of the Owl"] = "¤aa€al€am‡nah€",
+		["8253"] = "¤aa€al€amÍ#ah€",
 		["55328"] = "¤aa€al€am\000E·ah€",
 		["gr:15268:of the Boar"] = "¤aa€al€ah€amu0",
 		["55696"] = "¤aa€al€am\000áıah€",
@@ -17603,7 +17603,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:44685:of Agility"] = "¤aa€al€am\000øah€",
 		["1770"] = "¤aa€al€ah€am\000…¯",
 		["gr:10265:of Intellect"] = "¤aa€al€am\000«‹ah€",
-		["gr:36158:of Quality"] = "¤aa€al€am\000\r@ah€",
+		["gr:55737:of Stamina"] = "¤aa€al€am\000,ah€",
 		["gr:7542:of the Wolf"] = "¤aa€al€am\000Å±ah€",
 		["gr:9828:of the Whale"] = "¤aa€al€am\000ª3ah€",
 		["62094"] = "¤aa€al€am\000ø=ah€",
@@ -17629,7 +17629,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["5478"] = "¤aa€al€am\000²wah€",
 		["4478"] = "¤aa€al€am\000˜½{ah€",
 		["7478"] = "¤aa€al€amœ?ah€",
-		["gr:4569:of Nature's Wrath"] = "¤aa€al€ah€am:˜",
+		["gr:15664:of the Bear"] = "¤aa€al€am\000äáÀah€",
 		["gr:25119:of Agility"] = "¤aa€al€am\000}ah€",
 		["40865"] = "¤aa€al€am\000[õah€",
 		["gr:24703:of Intellect"] = "¤aa€al€am\000¢†ah€",
@@ -17648,7 +17648,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["31501"] = "¤aa€al€am\000½ƒœah€",
 		["gr:7431:of Spirit"] = "¤aa€al€am\000‹Æah€",
 		["gr:31181:of Toughness"] = "¤aa€al€am\000L>€ah€",
-		["gr:55305:of Proficiency"] = "¤aa€al€am\000	NÃah€",
+		["gr:10064:of Healing"] = "¤aa€al€am\000˜ah€",
 		["gr:24600:of Strength"] = "¤aa€al€ah€am\000’",
 		["38837"] = "¤aa€al€am\000tah€",
 		["gr:55365:of Agility"] = "¤aa€al€am\000\njah€",
@@ -17666,13 +17666,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["39691"] = "¤aa€al€amah€",
 		["38962"] = "¤aa€al€am²ah€",
 		["gr:36671:of Proficiency"] = "¤aa€al€am\000Iğah€",
-		["31333"] = "¤aa€al€am\000MŠÂah€",
+		["52496"] = "¤aa€al€amùèah€",
 		["gr:10230:of the Falcon"] = "¤aa€al€am\000(Ãah€",
 		["gr:10205:of the Whale"] = "¤aa€al€ah€am\000ë*",
 		["gr:15014:of Healing"] = "¤aa€al€ah€am\000\r@",
 		["49227"] = "¤aa€al€am\000/ah€",
 		["53063"] = "¤aa€al€amÃPah€",
-		["gr:55552:of Agility"] = "¤aa€al€am\000¡ah€",
+		["gr:55326:of Proficiency"] = "¤aa€al€am\000¯ah€",
 		["gr:15674:of Stamina"] = "¤aa€al€ah€am\000˜“˜",
 		["10501"] = "¤aa€al€ah€am\000=ÿ",
 		["13063"] = "¤aa€al€am\000¯ah€",
@@ -17722,8 +17722,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4055"] = "¤aa€al€am\000	å˜ah€",
 		["40669"] = "¤aa€al€am\000	'¼ah€",
 		["gr:36017:of Spirit"] = "¤aa€al€am\000duah€",
-		["3937"] = "¤aa€al€am\000†Ÿah€",
-		["gr:55763:of Stamina"] = "¤aa€al€am\000‘Ìah€",
+		["55284"] = "¤aa€al€am\000Kah€",
+		["25284"] = "¤aa€al€amœ?ah€",
 		["55052"] = "¤aa€al€am\000rIËah€",
 		["gr:55553:of Agility"] = "¤aa€al€am\000\\§ah€",
 		["20674"] = "¤aa€al€amÛ[ah€",
@@ -17753,7 +17753,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["16710"] = "¤aa€al€am\000LK6ah€",
 		["22541"] = "¤aa€al€am\000D‹ÿah€",
 		["gr:14160:of Spirit"] = "¤aa€al€am\000†<ah€",
-		["gr:24620:of Toughness"] = "¤aa€al€am\000Ğah€",
+		["gr:24682:of Proficiency"] = "¤aa€al€am\000\n‘cah€",
 		["gr:55537:of Proficiency"] = "¤aa€al€am\0004ÿah€",
 		["24220"] = "¤aa€al€am\000Œ/ah€",
 		["gr:9878:of the Whale"] = "¤aa€al€am\000O€ah€",
@@ -17780,13 +17780,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14866"] = "¤aa€al€am\000‹ah€",
 		["19710"] = "¤aa€al€am“†ÿah€",
 		["33451"] = "¤aa€al€am\000«ah€",
-		["gr:25199:of Stamina"] = "¤aa€al€am\000Nah€",
+		["44284"] = "¤aa€al€amã9ah€",
 		["56552"] = "¤aa€al€am\000ôz\"ah€",
 		["gr:24872:of Proficiency"] = "¤aa€al€am\000­1ah€",
 		["gr:14976:of Power"] = "¤aa€al€am\000ÙXah€",
 		["gr:55366:of Quality"] = "¤aa€al€am\000ä_ah€",
 		["55582"] = "¤aa€al€am\000æ/ah€",
-		["gr:55587:of Intellect"] = "¤aa€al€am\000Şah€",
+		["gr:55731:of Strength"] = "¤aa€al€am\000Uah€",
 		["55351"] = "¤aa€al€am\000óoah€",
 		["3340"] = "¤aa€al€ah€am*ø",
 		["15582"] = "¤aa€al€ah€am1î",
@@ -17796,7 +17796,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["1076"] = "¤aa€al€amG,<ah€",
 		["27660"] = "¤aa€al€am( ah€",
 		["20960"] = "¤aa€al€amâeah€",
-		["3049"] = "¤aa€al€amœ1ah€",
+		["gr:15175:of Arcane Wrath"] = "¤aa€al€am\000\r?ah€",
 		["43592"] = "¤aa€al€am\000t¶hah€",
 		["gr:9868:of Strength"] = "¤aa€al€am\000Ğah€",
 		["gr:24625:of Spirit"] = "¤aa€al€ah€am\000Ğ",
@@ -17824,7 +17824,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24582"] = "¤aa€al€am\000\r?ah€",
 		["6440"] = "¤aa€al€am\000E”}ah€",
 		["15669"] = "¤aa€al€am$-%ah€",
-		["10203"] = "¤aa€al€am\000òˆah€",
+		["55572"] = "¤aa€al€am\000Aºah€",
 		["gr:24727:of Strength"] = "¤aa€al€am\000W\"ah€",
 		["43674"] = "¤aa€al€am\000	'ºah€",
 		["45768"] = "¤aa€al€am\000¼=ah€",
@@ -17843,7 +17843,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["43344"] = "¤aa€al€am\000&Š	ah€",
 		["gr:55596:of Proficiency"] = "¤aa€al€am\000	'¾ah€",
 		["56508"] = "¤aa€al€am\000\"åah€",
-		["49994"] = "¤aa€al€ah€amêr‘",
+		["62570"] = "¤aa€al€am\000­”ah€",
 		["5637"] = "¤aa€al€amu'ah€",
 		["gr:14314:of the Eagle"] = "¤aa€al€ah€am\000J>",
 		["gr:10177:of the Eagle"] = "¤aa€al€am\000¡ùah€",
@@ -17864,10 +17864,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["8747"] = "¤aa€al€ah€amÃP",
 		["55589"] = "¤aa€al€am\000[%ah€",
 		["61986"] = "¤aa€al€am\000£Ÿah€",
-		["22203"] = "¤aa€al€am\000—uah€",
+		["gr:15111:of the Eagle"] = "¤aa€al€am°æah€",
 		["gr:36516:of Agility"] = "¤aa€al€am\000u›ah€",
 		["gr:55770:of Retaliation"] = "¤aa€al€ah€am\000dp",
-		["52203"] = "¤aa€al€am\000¡ah€",
+		["56545"] = "¤aa€al€amÀ)ah€",
 		["36005"] = "¤aa€al€am\000N;ah€",
 		["gr:14972:of the Eagle"] = "¤aa€al€am®¤±ah€",
 		["769"] = "¤aa€al€am&£ah€",
@@ -17916,7 +17916,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24843"] = "¤aa€al€ah€am\000Œ¬",
 		["1447"] = "¤aa€al€am\000&L«ah€",
 		["2447"] = "¤aa€al€ah€am†",
-		["15477"] = "¤aa€al€amNah€",
+		["gr:36565:of Agility"] = "¤aa€al€am\000}lah€",
 		["55313"] = "¤aa€al€am\0005\000ah€",
 		["6547"] = "¤aa€al€am\000¥ah€",
 		["6037"] = "¤aa€al€am\rŒah€",
@@ -17947,11 +17947,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:7445:of the Whale"] = "¤aa€al€amNah€",
 		["41347"] = "¤aa€al€am\000\n¼»ah€",
 		["41245"] = "¤aa€al€am\000@ah€",
-		["14600"] = "¤aa€al€ah€am\000† ",
+		["36670"] = "¤aa€al€am\000† ah€",
 		["gr:55413:of Stamina"] = "¤aa€al€am\000©__ah€",
 		["gr:15493:of the Boar"] = "¤aa€al€ah€amıi",
 		["14840"] = "¤aa€al€am\000LK3ah€",
-		["13477"] = "¤aa€al€amN'ah€",
+		["24600"] = "¤aa€al€am\000’ah€",
 		["gr:14908:of the Monkey"] = "¤aa€al€am\000_&ah€",
 		["13084"] = "¤aa€al€am\000…½ah€",
 		["gr:24751:of Strength"] = "¤aa€al€am\000B@ah€",
@@ -17969,7 +17969,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["10178"] = "¤aa€al€am\000•–Ÿah€",
 		["2287"] = "¤aa€al€am\n-ah€",
 		["gr:24596:of Spirit"] = "¤aa€al€ah€am\000¡ ",
-		["gr:15383:of the Owl"] = "¤aa€al€ah€am\000fj",
+		["gr:15189:of the Owl"] = "¤aa€al€am\000Y)ah€",
 		["36686"] = "¤aa€al€am\0005ah€",
 		["gr:15389:of the Owl"] = "¤aa€al€ah€am\000;0,",
 		["27694"] = "¤aa€al€am\000Kah€",
@@ -17991,7 +17991,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["12019"] = "¤aa€al€am\000qÌah€",
 		["5574"] = "¤aa€al€amu0ah€",
 		["gr:55635:of Toughness"] = "¤aa€al€am\000ı ah€",
-		["gr:55420:of Spirit"] = "¤aa€al€am\000ºêah€",
+		["gr:15157:of Agility"] = "¤aa€al€ah€am\000ón",
 		["gr:15493:of the Bear"] = "¤aa€al€ah€am\000† ",
 		["36269"] = "¤aa€al€am\000“àah€",
 		["17344"] = "¤aa€al€am\000a“ah€",
@@ -18027,7 +18027,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["12042"] = "¤aa€al€amœ=ah€",
 		["gr:24818:of Spirit"] = "¤aa€al€ah€am\000B>",
 		["gr:15151:of the Falcon"] = "¤aa€al€ah€am>€",
-		["gr:14249:of Intellect"] = "¤aa€al€am\000ah€",
+		["59489"] = "¤aa€al€am\000Ñ6ah€",
 		["gr:15640:of Intellect"] = "¤aa€al€am\000õÜah€",
 		["gr:25068:of Quality"] = "¤aa€al€ah€am\000á",
 		["14344"] = "¤aa€al€amÀ ah€",
@@ -18060,12 +18060,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["40671"] = "¤aa€al€am\0004Aïah€",
 		["62519"] = "¤aa€al€am\000KPah€",
 		["gr:11989:of the Owl"] = "¤aa€al€am\000†ah€",
-		["gr:7543:of the Falcon"] = "¤aa€al€ah€am\0004",
+		["4337"] = "¤aa€al€am¯ah€",
 		["36387"] = "¤aa€al€am\000ûÎah€",
 		["gr:55340:of Strength"] = "¤aa€al€ah€am\000AÙ",
 		["15344"] = "¤aa€al€amÃPah€",
-		["56533"] = "¤aa€al€am\000Õw1ah€",
-		["gr:55330:of Proficiency"] = "¤aa€al€am\000‹oah€",
+		["23489"] = "¤aa€al€am\000êah€",
+		["14723"] = "¤aa€al€am\000;ah€",
 		["gr:12047:of Agility"] = "¤aa€al€amN ah€",
 		["56502"] = "¤aa€al€am\000\r“Æah€",
 		["22838"] = "¤aa€al€amuah€",
@@ -18094,7 +18094,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["39900"] = "¤aa€al€am	èah€",
 		["25143"] = "¤aa€al€am\000q°ah€",
 		["gr:9771:of the Eagle"] = "¤aa€al€ah€am\000yp",
-		["gr:9821:of the Eagle"] = "¤aa€al€ah€am-\n",
+		["gr:55313:of Beast Slaying"] = "¤aa€al€am\000B?ah€",
 		["gr:10263:of the Monkey"] = "¤aa€al€am\000&Üah€",
 		["gr:6336:of Strength"] = "¤aa€al€ah€amş",
 		["gr:10170:of the Boar"] = "¤aa€al€ah€amúğ€",
@@ -18106,7 +18106,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55718:of Stamina"] = "¤aa€al€am\000`ah€",
 		["gr:36054:of Stamina"] = "¤aa€al€am\000äah€",
 		["gr:6558:of Defense"] = "¤aa€al€am\000¼6ah€",
-		["49632"] = "¤aa€al€am>¼ah€",
+		["gr:55465:of Agility"] = "¤aa€al€am\000#Û­ah€",
 		["23507"] = "¤aa€al€am\0004¿ah€",
 		["gr:7534:of Spirit"] = "¤aa€al€am\000¢Ğah€",
 		["gr:55375:of Agility"] = "¤aa€al€am\000\r<ah€",
@@ -18131,7 +18131,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:19921:of Stamina"] = "¤aa€al€am/¯¬ah€",
 		["gr:55747:of Beast Slaying"] = "¤aa€al€am\000÷•ah€",
 		["gr:55702:of Strength"] = "¤aa€al€ah€am\000qš",
-		["gr:6599:of the Bear"] = "¤aa€al€amÉÃah€",
+		["24612"] = "¤aa€al€ah€am\000Iğ",
 		["gr:55549:of Toughness"] = "¤aa€al€am\000\n]ah€",
 		["43245"] = "¤aa€al€am\000‚lah€",
 		["gr:9832:of the Tiger"] = "¤aa€al€am\000W\\ah€",
@@ -18145,7 +18145,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["3855"] = "¤aa€al€am\0004,eah€",
 		["gr:15537:of the Bear"] = "¤aa€al€am\000‹Ó¬ah€",
 		["44215"] = "¤aa€al€am\000ôah€",
-		["gr:55558:of Retaliation"] = "¤aa€al€am\000fah€",
+		["gr:14205:of the Whale"] = "¤aa€al€am\000ª2ah€",
 		["55612"] = "¤aa€al€am\000~ah€",
 		["gr:4564:of the Bear"] = "¤aa€al€ah€amUA",
 		["gr:6587:of Arcane Wrath"] = "¤aa€al€ah€am\000à}",
@@ -18158,7 +18158,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:44691:of Proficiency"] = "¤aa€al€am\000q­ah€",
 		["gr:15171:of the Monkey"] = "¤aa€al€am\000!ßàah€",
 		["39968"] = "¤aa€al€ah€am±d",
-		["8137"] = "¤aa€al€am\000Ğ‹ah€",
+		["gr:36276:of Stamina"] = "¤aa€al€ah€am\000	Üš",
 		["5472"] = "¤aa€al€am\000{ah€",
 		["gr:55551:of Agility"] = "¤aa€al€am\000yGah€",
 		["gr:24706:of Toughness"] = "¤aa€al€am\000¨ah€",
@@ -18179,7 +18179,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["2955"] = "¤aa€al€ambah€",
 		["gr:55394:of Toughness"] = "¤aa€al€am\000\r»Œah€",
 		["gr:9822:of Stamina"] = "¤aa€al€am\000½·ah€",
-		["16737"] = "¤aa€al€am\000\n®Tah€",
+		["gr:36185:of Stamina"] = "¤aa€al€ah€am\000† ",
 		["17200"] = "¤aa€al€am\000\000ah€",
 		["24687"] = "¤aa€al€am\000¶ah€",
 		["gr:15676:of the Owl"] = "¤aa€al€amºÛjah€",
@@ -18209,7 +18209,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10270:of the Monkey"] = "¤aa€al€am\000çûah€",
 		["3206"] = "¤aa€al€am\000¡ ah€",
 		["24996"] = "¤aa€al€am\000ã`ah€",
-		["gr:10133:of the Boar"] = "¤aa€al€ah€am\000 Må",
+		["45780"] = "¤aa€al€am\000&#Éah€",
 		["8271"] = "¤aa€al€am\000$¯æah€",
 		["gr:31198:of Strength"] = "¤aa€al€am\000,¥Ìah€",
 		["gr:11979:of Shadow Resistance"] = "¤aa€al€am\000BÕ`ah€",
@@ -18225,7 +18225,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["18518"] = "¤aa€al€am\000rpİah€",
 		["45092"] = "¤aa€al€am\000Dªah€",
 		["50444"] = "¤aa€al€am\000™˜ah€",
-		["40670"] = "¤aa€al€am\000Vah€",
+		["41532"] = "¤aa€al€am\000fah€",
 		["gr:10187:of the Wolf"] = "¤aa€al€ah€am\000LK9",
 		["35566"] = "¤aa€al€am\000æ'ah€",
 		["gr:15113:of the Tiger"] = "¤aa€al€am\000Aƒah€",
@@ -18337,7 +18337,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["10629"] = "¤aa€al€amKT\000ah€",
 		["9779"] = "¤aa€al€am\000Jah€",
 		["21845"] = "¤aa€al€am\000+¤ah€",
-		["11737"] = "¤aa€al€am3ah€",
+		["gr:55482:of Agility"] = "¤aa€al€ah€am\000B@",
 		["14141"] = "¤aa€al€am\000ïÜah€",
 		["gr:9428:of Stamina"] = "¤aa€al€amùMƒah€",
 		["44973"] = "¤aa€al€am\000jÅ‹ah€",
@@ -18349,8 +18349,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55502:of Defense"] = "¤aa€al€am\000$Øah€",
 		["gr:12527:of the Tiger"] = "¤aa€al€am\000CËhah€",
 		["15010"] = "¤aa€al€amu/ah€",
-		["8028"] = "¤aa€al€am\000,@ah€",
-		["36596"] = "¤aa€al€am\000˜¿ah€",
+		["30737"] = "¤aa€al€am\000&%™ah€",
+		["14759"] = "¤aa€al€amÃPah€",
 		["10314"] = "¤aa€al€am-¢ah€",
 		["23348"] = "¤aa€al€amw5”\000ah€",
 		["18647"] = "¤aa€al€am\000ƒ:ah€",
@@ -18379,7 +18379,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:14966:of the Bear"] = "¤aa€al€ah€amÄ¾Ñ",
 		["gr:14970:of Power"] = "¤aa€al€amÇxah€",
 		["24977"] = "¤aa€al€am\000-Æ\\ah€",
-		["gr:35986:of Stamina"] = "¤aa€al€am\000\r@ah€",
+		["gr:14954:of the Tiger"] = "¤aa€al€am\000ˆBĞah€",
 		["20826"] = "¤aa€al€am\000İĞah€",
 		["20863"] = "¤aa€al€am¼ah€",
 		["13943"] = "¤aa€al€am\000lLah€",
@@ -18394,10 +18394,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55746:of Strength"] = "¤aa€al€am\000‚@ah€",
 		["gr:15686:of the Wolf"] = "¤aa€al€amõá\000ah€",
 		["gr:36039:of Intellect"] = "¤aa€al€am\000æ0ah€",
-		["gr:55401:of Retaliation"] = "¤aa€al€am\000\rmxah€",
+		["gr:31248:of Spirit"] = "¤aa€al€ah€am\000-Ÿ°",
 		["gr:28543:of Proficiency"] = "¤aa€al€am\000ïğah€",
 		["24740"] = "¤aa€al€am\000	‰pah€",
-		["gr:55639:of Stamina"] = "¤aa€al€ah€am\000ÿ",
+		["gr:55458:of Intellect"] = "¤aa€al€am\000Äah€",
 		["gr:55656:of Spirit"] = "¤aa€al€am\000~{ah€",
 		["gr:9881:of the Owl"] = "¤aa€al€amê_ah€",
 		["gr:15253:of Strength"] = "¤aa€al€am\000B?ah€",
@@ -18410,15 +18410,15 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9815:of the Boar"] = "¤aa€al€am\000NØah€",
 		["gr:12043:of the Wolf"] = "¤aa€al€am\000	ëah€",
 		["42752"] = "¤aa€al€am\000*Crah€",
-		["9428"] = "¤aa€al€amdû)ah€",
+		["7439"] = "¤aa€al€am\000“İah€",
 		["gr:10168:of Defense"] = "¤aa€al€ah€am\000]n",
 		["gr:36162:of Intellect"] = "¤aa€al€am\000B@ah€",
 		["41785"] = "¤aa€al€am\000\"Ê¹ah€",
 		["13757"] = "¤aa€al€amu/ah€",
 		["25130"] = "¤aa€al€am\000eiah€",
 		["3679"] = "¤aa€al€am\000¡\nah€",
-		["4439"] = "¤aa€al€amt5ah€",
-		["25006"] = "¤aa€al€am\000$÷ah€",
+		["gr:3199:of the Wolf"] = "¤aa€al€amûêah€",
+		["62670"] = "¤aa€al€amƒah€",
 		["16647"] = "¤aa€al€am€ah€",
 		["55641"] = "¤aa€al€am\000	ëah€",
 		["gr:15683:of the Falcon"] = "¤aa€al€am\000zJtah€",
@@ -18441,7 +18441,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55602:of Toughness"] = "¤aa€al€am\000© ah€",
 		["4668"] = "¤aa€al€ah€amÃP",
 		["7431"] = "¤aa€al€amÃLah€",
-		["55770"] = "¤aa€al€am\000“ßah€",
+		["gr:9894:of Stamina"] = "¤aa€al€amĞah€",
 		["15640"] = "¤aa€al€am\000õÜah€",
 		["gr:36442:of Spirit"] = "¤aa€al€ah€am\000­°",
 		["gr:24866:of Proficiency"] = "¤aa€al€am\000;Ïah€",
@@ -18477,7 +18477,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["36913"] = "¤aa€al€ah€am\000@?",
 		["42337"] = "¤aa€al€am\000~ah€",
 		["20752"] = "¤aa€al€am…ah€",
-		["gr:14314:of the Monkey"] = "¤aa€al€am\000J?ah€",
+		["gr:55574:of Intellect"] = "¤aa€al€am\000×@ah€",
 		["3612"] = "¤aa€al€am\000­¯ah€",
 		["31270"] = "¤aa€al€am\000 Æîah€",
 		["2479"] = "¤aa€al€amw5”\000ah€",
@@ -18493,10 +18493,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:15154:of the Monkey"] = "¤aa€al€am\0007Óah€",
 		["32679"] = "¤aa€al€amvÒàah€",
 		["6569"] = "¤aa€al€am\000­©ah€",
-		["13079"] = "¤aa€al€am\000î!ah€",
+		["10546"] = "¤aa€al€ah€am\0000®",
 		["55657"] = "¤aa€al€am\000	(\"ah€",
 		["20546"] = "¤aa€al€am\000åÍah€",
-		["14657"] = "¤aa€al€am\000ªHah€",
+		["gr:35984:of Spirit"] = "¤aa€al€am\000ÌDah€",
 		["gr:9944:of the Whale"] = "¤aa€al€am\000İah€",
 		["2312"] = "¤aa€al€am¥•ah€",
 		["40092"] = "¤aa€al€amn?§ah€",
@@ -18612,11 +18612,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9877:of Healing"] = "¤aa€al€ah€am‰†",
 		["gr:7530:of the Tiger"] = "¤aa€al€ah€am\000Ï",
 		["gr:15393:of the Monkey"] = "¤aa€al€am\000K¯\000ah€",
-		["7373"] = "¤aa€al€ah€amÃI",
+		["54854"] = "¤aa€al€am\000Úõah€",
 		["gr:10060:of Frozen Wrath"] = "¤aa€al€ah€am\000† ",
 		["gr:10240:of the Whale"] = "¤aa€al€am\000iJah€",
 		["37921"] = "¤aa€al€amah€",
-		["18359"] = "¤aa€al€am1,ıah€",
+		["gr:31203:of Intellect"] = "¤aa€al€ah€am\000bÚ",
 		["38409"] = "¤aa€al€am\000ïah€",
 		["gr:10288:of the Owl"] = "¤aa€al€ah€am\000“à",
 		["37117"] = "¤aa€al€ah€am\000+ï",
@@ -18636,7 +18636,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["41096"] = "¤aa€al€am\000	zah€",
 		["gr:10101:of Fiery Wrath"] = "¤aa€al€ah€am\000m",
 		["52091"] = "¤aa€al€am%0ah€",
-		["4687"] = "¤aa€al€ah€am\000èÑ‡",
+		["20821"] = "¤aa€al€amu0ah€",
 		["gr:55621:of Stamina"] = "¤aa€al€am\000¡ah€",
 		["14160"] = "¤aa€al€amNah€",
 		["16046"] = "¤aa€al€am\000_…ah€",
@@ -18645,7 +18645,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55446:of Proficiency"] = "¤aa€al€ah€am\000ã`",
 		["gr:55690:of Intellect"] = "¤aa€al€am\000Ç·ah€",
 		["gr:55404:of Toughness"] = "¤aa€al€am\000dnah€",
-		["gr:14898:of the Monkey"] = "¤aa€al€ah€am\000†€±",
+		["15053"] = "¤aa€al€am\000%9ñah€",
 		["gr:6615:of Healing"] = "¤aa€al€ah€am\000¤4",
 		["34366"] = "¤aa€al€amµË2ah€",
 		["36147"] = "¤aa€al€am\000[_ah€",
@@ -18697,7 +18697,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55602:of Intellect"] = "¤aa€al€am\000’åah€",
 		["67141"] = "¤aa€al€am[ÿah€",
 		["gr:24614:of Stamina"] = "¤aa€al€am\000Gúah€",
-		["55537"] = "¤aa€al€am\0004ÿah€",
+		["3287"] = "¤aa€al€am\000‚ùah€",
 		["gr:44677:of Retaliation"] = "¤aa€al€ah€am\000¡ ",
 		["gr:15222:of Stamina"] = "¤aa€al€amMµah€",
 		["34850"] = "¤aa€al€am\000œùah€",
@@ -18748,7 +18748,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["37797"] = "¤aa€al€am\000ûªah€",
 		["15191"] = "¤aa€al€am\000Bëah€",
 		["37365"] = "¤aa€al€ah€am\000_",
-		["13071"] = "¤aa€al€am\000)\rĞah€",
+		["5969"] = "¤aa€al€amoàÄah€",
 		["gr:25070:of Intellect"] = "¤aa€al€ah€am\000!öÍ",
 		["833"] = "¤aa€al€am\000#ßÛah€",
 		["16248"] = "¤aa€al€am&çah€",
@@ -18781,10 +18781,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["37889"] = "¤aa€al€ah€am\000ãU",
 		["gr:24713:of Strength"] = "¤aa€al€ah€am\000\r@",
 		["gr:36428:of Intellect"] = "¤aa€al€ah€am\000†—",
-		["gr:55365:of Quality"] = "¤aa€al€am\000<áïah€",
+		["21071"] = "¤aa€al€am¤ah€",
 		["gr:6553:of the Whale"] = "¤aa€al€am\000‚oah€",
 		["gr:10163:of the Falcon"] = "¤aa€al€am\0004‹úah€",
-		["gr:25069:of Proficiency"] = "¤aa€al€am\000B@ah€",
+		["2369"] = "¤aa€al€amw5”\000ah€",
 		["25054"] = "¤aa€al€am\000‚pah€",
 		["gr:14912:of the Tiger"] = "¤aa€al€amÉÃ€ah€",
 		["gr:55594:of Intellect"] = "¤aa€al€am\000fËah€",
@@ -18886,7 +18886,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:25013:of Proficiency"] = "¤aa€al€ah€am\000ŞŠ",
 		["52322"] = "¤aa€al€ah€amõàœ",
 		["gr:9902:of the Owl"] = "¤aa€al€ah€amì¼",
-		["gr:6611:of the Whale"] = "¤aa€al€amšFah€",
+		["gr:6268:of the Whale"] = "¤aa€al€ah€am\000„Z",
 		["14282"] = "¤aa€al€amÃPah€",
 		["24962"] = "¤aa€al€am\000oah€",
 		["gr:55356:of Proficiency"] = "¤aa€al€ah€am\000¡ ",
@@ -18941,7 +18941,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:14973:of the Gorilla"] = "¤aa€al€ah€am\000ùÇ¯",
 		["gr:15520:of the Boar"] = "¤aa€al€ah€am\000†;",
 		["gr:10144:of the Eagle"] = "¤aa€al€am\000Üah€",
-		["gr:25091:of Stamina"] = "¤aa€al€am\000O¢kah€",
+		["gr:10182:of Power"] = "¤aa€al€am\000=şah€",
 		["gr:10208:of Strength"] = "¤aa€al€am\000\r» ah€",
 		["gr:35972:of Strength"] = "¤aa€al€ah€am\000‡é",
 		["21025"] = "¤aa€al€am•[öah€",
@@ -19034,7 +19034,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["22797"] = "¤aa€al€ah€amU ",
 		["24598"] = "¤aa€al€ah€am\000V",
 		["gr:36684:of Spirit"] = "¤aa€al€am\0005\000ah€",
-		["15747"] = "¤aa€al€amMõah€",
+		["gr:7474:of the Eagle"] = "¤aa€al€ah€am\000±W",
 		["1179"] = "¤aa€al€amÀah€",
 		["gr:10265:of the Monkey"] = "¤aa€al€am\000«Œah€",
 		["gr:36424:of Spirit"] = "¤aa€al€ah€am\000\r>",
@@ -19061,7 +19061,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["44315"] = "¤aa€al€amùah€",
 		["42647"] = "¤aa€al€am\000-ÅÅah€",
 		["gr:24686:of Strength"] = "¤aa€al€ah€am\000",
-		["9383"] = "¤aa€al€am\000nah€",
+		["gr:4087:of Spirit"] = "¤aa€al€amÂæah€",
 		["gr:24783:of Agility"] = "¤aa€al€ah€am\000µD",
 		["gr:25002:of Proficiency"] = "¤aa€al€ah€amn",
 		["gr:25286:of Stamina"] = "¤aa€al€ah€am\000\r=",
@@ -19114,7 +19114,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["9850"] = "¤aa€al€am\000nah€",
 		["gr:9802:of the Owl"] = "¤aa€al€ah€am\000L:",
 		["gr:55642:of Retaliation"] = "¤aa€al€am\000«…ah€",
-		["23786"] = "¤aa€al€am\000Iéah€",
+		["gr:12034:of the Boar"] = "¤aa€al€ah€am\000\r@",
 		["13028"] = "¤aa€al€am\000ah€",
 		["10122"] = "¤aa€al€am\000Ñğah€",
 		["15745"] = "¤aa€al€am\000âåğah€",
@@ -19130,7 +19130,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["24889"] = "¤aa€al€am\000“íah€",
 		["gr:15362:of Spirit"] = "¤aa€al€am\000\rm€ah€",
 		["gr:36317:of Proficiency"] = "¤aa€al€ah€am\000Ñ@",
-		["12644"] = "¤aa€al€amNah€",
+		["gr:15970:of the Falcon"] = "¤aa€al€ah€amÃ",
 		["2079"] = "¤aa€al€amœ:ah€",
 		["2850"] = "¤aa€al€am\000	™İah€",
 		["3850"] = "¤aa€al€am\000Ğßah€",
@@ -19143,11 +19143,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["9950"] = "¤aa€al€am\000+ah€",
 		["8950"] = "¤aa€al€am÷ah€",
 		["gr:15155:of the Owl"] = "¤aa€al€ah€am\000W*",
-		["11289"] = "¤aa€al€ah€am\000Ô¿",
+		["gr:55515:of Strength"] = "¤aa€al€am\0000Ïah€",
 		["gr:14168:of Fiery Wrath"] = "¤aa€al€ah€amÃP",
 		["41377"] = "¤aa€al€am\000’ùah€",
 		["12028"] = "¤aa€al€ah€amN ",
-		["gr:36640:of Proficiency"] = "¤aa€al€am\000+ğah€",
+		["gr:55621:of Spirit"] = "¤aa€al€am\000#ah€",
 		["19057"] = "¤aa€al€ah€am\000§ØÀ",
 		["gr:55572:of Spirit"] = "¤aa€al€am\000„zah€",
 		["gr:7541:of the Monkey"] = "¤aa€al€ah€am\000İ",
@@ -19161,7 +19161,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["4786"] = "¤aa€al€ah€am\000&L•",
 		["gr:55461:of Agility"] = "¤aa€al€am\000ah€",
 		["24681"] = "¤aa€al€ah€am\000\rçÒ",
-		["41379"] = "¤aa€al€am\000\rçåah€",
+		["52289"] = "¤aa€al€ah€am\000}”l",
 		["44084"] = "¤aa€al€am\000<šah€",
 		["gr:7414:of the Owl"] = "¤aa€al€am\000öah€",
 		["gr:7554:of the Whale"] = "¤aa€al€am½¥ah€",
@@ -19177,8 +19177,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:24792:of Quality"] = "¤aa€al€ah€am\000",
 		["gr:12025:of the Owl"] = "¤aa€al€ah€am\000`ª",
 		["gr:15432:of the Eagle"] = "¤aa€al€am\000[´ah€",
-		["gr:15112:of Spirit"] = "¤aa€al€ah€amu0",
-		["8283"] = "¤aa€al€ah€am\000pB[",
+		["gr:25212:of Stamina"] = "¤aa€al€am\0008©»ah€",
+		["59597"] = "¤aa€al€am\0004ïah€",
 		["67385"] = "¤aa€al€ah€am\000„z",
 		["gr:866:of Stamina"] = "¤aa€al€ah€am\000[`",
 		["gr:14255:of Healing"] = "¤aa€al€am\000­«ah€",
@@ -19237,14 +19237,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:9786:of the Boar"] = "¤aa€al€ah€am\000B@",
 		["21779"] = "¤aa€al€am\000Ë÷ah€",
 		["gr:15269:of Strength"] = "¤aa€al€ah€am\000-¤\"",
-		["gr:24706:of Proficiency"] = "¤aa€al€ah€am\000ˆ	",
+		["gr:14963:of the Bear"] = "¤aa€al€ah€amH§",
 		["14439"] = "¤aa€al€ah€am\000Cü",
 		["40034"] = "¤aa€al€am\000nah€",
 		["gr:55313:of Stamina"] = "¤aa€al€am\000„ah€",
 		["gr:10120:of the Whale"] = "¤aa€al€am\000_ah€",
 		["gr:55488:of Agility"] = "¤aa€al€am\000B@ah€",
 		["15547"] = "¤aa€al€am\000ª·ah€",
-		["25153"] = "¤aa€al€am\000-Æ¿ah€",
+		["38836"] = "¤aa€al€am˜Gah€",
 		["12999"] = "¤aa€al€am\000\r@ah€",
 		["45672"] = "¤aa€al€ah€amE;Ë",
 		["15226"] = "¤aa€al€amœ?ah€",
@@ -19308,7 +19308,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:10104:of the Eagle"] = "¤aa€al€ah€am\000L$.",
 		["58278"] = "¤aa€al€ah€am\000‘",
 		["14241"] = "¤aa€al€am\000–š°ah€",
-		["gr:2075:of Power"] = "¤aa€al€ah€am\000jÿ",
+		["55403"] = "¤aa€al€am\0006Tah€",
 		["27945"] = "¤aa€al€amR­pah€",
 		["gr:31238:of Toughness"] = "¤aa€al€am\000•?ah€",
 		["gr:6565:of the Owl"] = "¤aa€al€ah€amN",
@@ -19344,11 +19344,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:2078:of Stamina"] = "¤aa€al€ah€am\000Ù",
 		["3782"] = "¤aa€al€ah€amÃO",
 		["gr:25046:of Intellect"] = "¤aa€al€ah€am\000„€",
-		["14927"] = "¤aa€al€am\000>)±ah€",
+		["43417"] = "¤aa€al€am\000_lah€",
 		["gr:9796:of Intellect"] = "¤aa€al€ah€am\000	'Z",
 		["5643"] = "¤aa€al€am\000†Ÿah€",
 		["10409"] = "¤aa€al€ah€am\000\rğ",
-		["15980"] = "¤aa€al€am\000Ù ah€",
+		["gr:44666:of Beast Slaying"] = "¤aa€al€am\000\nhah€",
 		["gr:10377:of the Bear"] = "¤aa€al€ah€amu0",
 		["14133"] = "¤aa€al€ah€am\000+w",
 		["gr:55312:of Toughness"] = "¤aa€al€ah€am\000Æ$",
@@ -19387,7 +19387,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["14166"] = "¤aa€al€amQ”ah€",
 		["21945"] = "¤aa€al€ah€am›",
 		["gr:20964:of Eluding"] = "¤aa€al€am\0007ˆah€",
-		["10401"] = "¤aa€al€am}x=ah€",
+		["gr:10157:of the Owl"] = "¤aa€al€am\000òBah€",
 		["52756"] = "¤aa€al€am\000Ü+ah€",
 		["36133"] = "¤aa€al€ah€am\000¡",
 		["gr:15212:of the Monkey"] = "¤aa€al€ah€amÃP",
@@ -19403,7 +19403,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:25113:of Proficiency"] = "¤aa€al€am\0000Öah€",
 		["gr:10092:of Stamina"] = "¤aa€al€ah€am\000Ó·",
 		["2409"] = "¤aa€al€amáah€",
-		["gr:15642:of the Monkey"] = "¤aa€al€am\000ZÇùah€",
+		["41401"] = "¤aa€al€ah€am\000“×",
 		["gr:55642:of Spirit"] = "¤aa€al€ah€am\000s",
 		["43987"] = "¤aa€al€am\000\"\"ah€",
 		["39978"] = "¤aa€al€amÃDah€",
@@ -19486,7 +19486,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["31153"] = "¤aa€al€am\000Lr7ah€",
 		["21153"] = "¤aa€al€am\000†•ah€",
 		["gr:25029:of Intellect"] = "¤aa€al€ah€am\000\"î",
-		["25069"] = "¤aa€al€am\000.ah€",
+		["gr:15223:of Stamina"] = "¤aa€al€am\000B+ah€",
 		["gr:15635:of the Eagle"] = "¤aa€al€am\000)2Şah€",
 		["44437"] = "¤aa€al€am\000-Æ¾ah€",
 		["22529"] = "¤aa€al€am\000†Ÿah€",
@@ -19593,7 +19593,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:55438:of Retaliation"] = "¤aa€al€am\000B;ah€",
 		["gr:55405:of Spirit"] = "¤aa€al€am\000,ah€",
 		["gr:14957:of Stamina"] = "¤aa€al€ah€am\000\nj",
-		["36656"] = "¤aa€al€am\000lĞah€",
+		["gr:55565:of Intellect"] = "¤aa€al€am\000pëah€",
 		["gr:55313:of Intellect"] = "¤aa€al€ah€am\000:",
 		["gr:24795:of Spirit"] = "¤aa€al€am\000¡ ah€",
 		["2020"] = "¤aa€al€amIÿ×ah€",
@@ -19700,7 +19700,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["22449"] = "¤aa€al€amNah€",
 		["gr:24945:of Intellect"] = "¤aa€al€ah€amúï«",
 		["10153"] = "¤aa€al€am\000„€ah€",
-		["20671"] = "¤aa€al€am\000JÄah€",
+		["11970"] = "¤aa€al€ah€amN",
 		["gr:4562:of the Wolf"] = "¤aa€al€ah€am\000S·",
 		["40153"] = "¤aa€al€am\000ah€",
 		["24790"] = "¤aa€al€am\000\n—Òah€",
@@ -19770,7 +19770,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["3327"] = "¤aa€al€amYßë2ah€",
 		["36906"] = "¤aa€al€ah€amï",
 		["gr:24959:of Spirit"] = "¤aa€al€am\000¾ah€",
-		["62096"] = "¤aa€al€am\000\r*ah€",
+		["gr:55340:of Toughness"] = "¤aa€al€ah€am\000B4",
 		["36115"] = "¤aa€al€am\000†ah€",
 		["54497"] = "¤aa€al€am\000‹eah€",
 		["23763"] = "¤aa€al€ah€am\000ÒQh",
@@ -19854,7 +19854,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["gr:56495:of Strength"] = "¤aa€al€am\000—ıah€",
 		["gr:25063:of Intellect"] = "¤aa€al€ah€am\000Ğ&",
 		["gr:55417:of Proficiency"] = "¤aa€al€am\000¼bah€",
-		["gr:9794:of the Owl"] = "¤aa€al€amœ>ah€",
+		["10070"] = "¤aa€al€amê`ah€",
 		["55040"] = "¤aa€al€am\000Åùah€",
 		["7990"] = "¤aa€al€am‰ah€",
 		["gr:15116:of Stamina"] = "¤aa€al€am\000oah€",
@@ -20300,11 +20300,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716932282,
 		}, -- [1]
 	},
-	["36927"] = {
+	["21114"] = {
 		{
-			["price"] = 38312,
-			["quantity"] = 23,
-			["time"] = 1716932305,
+			["price"] = 1491,
+			["quantity"] = 2,
+			["time"] = 1719265612,
 		}, -- [1]
 	},
 	["43385"] = {
@@ -20326,12 +20326,27 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716932260,
 		}, -- [2]
 	},
-	["42253"] = {
+	["36920"] = {
 		{
-			["price"] = 10369,
-			["quantity"] = 7,
-			["time"] = 1716138370,
+			["price"] = 18499,
+			["quantity"] = 2,
+			["time"] = 1716136158,
 		}, -- [1]
+		{
+			["price"] = 18398,
+			["quantity"] = 1,
+			["time"] = 1716138398,
+		}, -- [2]
+		{
+			["price"] = 21896,
+			["quantity"] = 1,
+			["time"] = 1717414522,
+		}, -- [3]
+		{
+			["price"] = 32999,
+			["quantity"] = 2,
+			["time"] = 1719265595,
+		}, -- [4]
 	},
 	["24479"] = {
 		{
@@ -20364,27 +20379,12 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1714562134,
 		}, -- [2]
 	},
-	["36920"] = {
+	["42253"] = {
 		{
-			["price"] = 18499,
-			["quantity"] = 2,
-			["time"] = 1716136158,
+			["price"] = 10369,
+			["quantity"] = 7,
+			["time"] = 1716138370,
 		}, -- [1]
-		{
-			["price"] = 18398,
-			["quantity"] = 1,
-			["time"] = 1716138398,
-		}, -- [2]
-		{
-			["price"] = 21896,
-			["quantity"] = 1,
-			["time"] = 1717414522,
-		}, -- [3]
-		{
-			["price"] = 32999,
-			["quantity"] = 2,
-			["time"] = 1719265595,
-		}, -- [4]
 	},
 	["36919"] = {
 		{
@@ -20465,13 +20465,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138945,
 		}, -- [1]
 	},
-	["62566"] = {
-		{
-			["price"] = 109759,
-			["quantity"] = 1,
-			["time"] = 1721861281,
-		}, -- [1]
-	},
 	["41536"] = {
 		{
 			["price"] = 9398,
@@ -20483,6 +20476,13 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["quantity"] = 1,
 			["time"] = 1721592981,
 		}, -- [2]
+	},
+	["62566"] = {
+		{
+			["price"] = 109759,
+			["quantity"] = 1,
+			["time"] = 1721861281,
+		}, -- [1]
 	},
 	["37705"] = {
 		{
@@ -20521,19 +20521,39 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1718318507,
 		}, -- [7]
 	},
-	["21151"] = {
+	["42400"] = {
 		{
-			["price"] = 496,
-			["quantity"] = 3,
-			["time"] = 1719265610,
+			["price"] = 68312,
+			["quantity"] = 2,
+			["time"] = 1716138312,
 		}, -- [1]
 	},
-	["43118"] = {
+	["52325"] = {
 		{
-			["price"] = 60487,
-			["quantity"] = 4,
-			["time"] = 1716134967,
+			["price"] = 249906,
+			["quantity"] = 14,
+			["time"] = 1717145783,
 		}, -- [1]
+		{
+			["price"] = 146988,
+			["quantity"] = 19,
+			["time"] = 1717400435,
+		}, -- [2]
+		{
+			["price"] = 99988,
+			["quantity"] = 17,
+			["time"] = 1717410640,
+		}, -- [3]
+		{
+			["price"] = 137922,
+			["quantity"] = 4,
+			["time"] = 1717413819,
+		}, -- [4]
+		{
+			["price"] = 78653,
+			["quantity"] = 4,
+			["time"] = 1718318521,
+		}, -- [5]
 	},
 	["36860"] = {
 		{
@@ -20569,11 +20589,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1722545061,
 		}, -- [2]
 	},
-	["59595"] = {
+	["64396"] = {
 		{
-			["price"] = 38698,
-			["quantity"] = 4,
-			["time"] = 1717973372,
+			["price"] = 194493,
+			["quantity"] = 1,
+			["time"] = 1716843627,
 		}, -- [1]
 	},
 	["43103"] = {
@@ -20590,11 +20610,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1717973359,
 		}, -- [1]
 	},
-	["43541"] = {
+	["3860"] = {
 		{
-			["price"] = 277339,
-			["quantity"] = 2,
-			["time"] = 1716134915,
+			["price"] = 12495,
+			["quantity"] = 6,
+			["time"] = 1716134925,
 		}, -- [1]
 	},
 	["9088"] = {
@@ -20609,18 +20629,18 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1717414497,
 		}, -- [2]
 	},
-	["37703"] = {
+	["36903"] = {
 		{
-			["price"] = 7993,
-			["quantity"] = 1,
-			["time"] = 1716932245,
+			["price"] = 999,
+			["quantity"] = 2,
+			["time"] = 1716138339,
 		}, -- [1]
 	},
-	["36906"] = {
+	["43118"] = {
 		{
-			["price"] = 2993,
-			["quantity"] = 45,
-			["time"] = 1716932267,
+			["price"] = 60487,
+			["quantity"] = 4,
+			["time"] = 1716134967,
 		}, -- [1]
 	},
 	["52219"] = {
@@ -20651,18 +20671,33 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138346,
 		}, -- [1]
 	},
-	["3860"] = {
+	["58480"] = {
 		{
-			["price"] = 12495,
-			["quantity"] = 6,
-			["time"] = 1716134925,
-		}, -- [1]
-	},
-	["43536"] = {
-		{
-			["price"] = 98273,
+			["price"] = 32569898,
 			["quantity"] = 2,
-			["time"] = 1716134913,
+			["time"] = 1716671674,
+		}, -- [1]
+		{
+			["price"] = 29477678,
+			["quantity"] = 1,
+			["time"] = 1716764256,
+		}, -- [2]
+		{
+			["price"] = 23339954,
+			["quantity"] = 1,
+			["time"] = 1716843860,
+		}, -- [3]
+		{
+			["price"] = 9779976,
+			["quantity"] = 1,
+			["time"] = 1717410634,
+		}, -- [4]
+	},
+	["36930"] = {
+		{
+			["price"] = 34392,
+			["quantity"] = 26,
+			["time"] = 1716932293,
 		}, -- [1]
 	},
 	["7910"] = {
@@ -20691,41 +20726,6 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1721861291,
 		}, -- [1]
 	},
-	["22797"] = {
-		{
-			["price"] = 109974,
-			["quantity"] = 2,
-			["time"] = 1713088131,
-		}, -- [1]
-	},
-	["36909"] = {
-		{
-			["price"] = 14451,
-			["quantity"] = 14,
-			["time"] = 1716138348,
-		}, -- [1]
-	},
-	["47651"] = {
-		{
-			["price"] = 507077,
-			["quantity"] = 1,
-			["time"] = 1716137747,
-		}, -- [1]
-	},
-	["36903"] = {
-		{
-			["price"] = 999,
-			["quantity"] = 2,
-			["time"] = 1716138339,
-		}, -- [1]
-	},
-	["40923"] = {
-		{
-			["price"] = 170808,
-			["quantity"] = 2,
-			["time"] = 1716134835,
-		}, -- [1]
-	},
 	["46376"] = {
 		{
 			["price"] = 18884,
@@ -20743,6 +20743,41 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138540,
 		}, -- [3]
 	},
+	["36909"] = {
+		{
+			["price"] = 14451,
+			["quantity"] = 14,
+			["time"] = 1716138348,
+		}, -- [1]
+	},
+	["47651"] = {
+		{
+			["price"] = 507077,
+			["quantity"] = 1,
+			["time"] = 1716137747,
+		}, -- [1]
+	},
+	["43541"] = {
+		{
+			["price"] = 277339,
+			["quantity"] = 2,
+			["time"] = 1716134915,
+		}, -- [1]
+	},
+	["40923"] = {
+		{
+			["price"] = 170808,
+			["quantity"] = 2,
+			["time"] = 1716134835,
+		}, -- [1]
+	},
+	["43009"] = {
+		{
+			["price"] = 52997,
+			["quantity"] = 14,
+			["time"] = 1716138372,
+		}, -- [1]
+	},
 	["58092"] = {
 		{
 			["price"] = 107510,
@@ -20755,11 +20790,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716931706,
 		}, -- [2]
 	},
-	["43009"] = {
+	["43010"] = {
 		{
-			["price"] = 52997,
-			["quantity"] = 14,
-			["time"] = 1716138372,
+			["price"] = 2353,
+			["quantity"] = 6,
+			["time"] = 1716138562,
 		}, -- [1]
 	},
 	["36926"] = {
@@ -20793,11 +20828,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716137725,
 		}, -- [1]
 	},
-	["42415"] = {
+	["17057"] = {
 		{
-			["price"] = 138269,
-			["quantity"] = 2,
-			["time"] = 1716134909,
+			["price"] = 188,
+			["quantity"] = 3,
+			["time"] = 1719265615,
 		}, -- [1]
 	},
 	["40123"] = {
@@ -20814,11 +20849,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1717973290,
 		}, -- [1]
 	},
-	["36930"] = {
+	["43536"] = {
 		{
-			["price"] = 34392,
-			["quantity"] = 26,
-			["time"] = 1716932293,
+			["price"] = 98273,
+			["quantity"] = 2,
+			["time"] = 1716134913,
 		}, -- [1]
 	},
 	["36912"] = {
@@ -20868,11 +20903,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138283,
 		}, -- [1]
 	},
-	["36924"] = {
+	["22797"] = {
 		{
-			["price"] = 32194,
-			["quantity"] = 3,
-			["time"] = 1716932288,
+			["price"] = 109974,
+			["quantity"] = 2,
+			["time"] = 1713088131,
 		}, -- [1]
 	},
 	["39341"] = {
@@ -20920,17 +20955,12 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716136148,
 		}, -- [2]
 	},
-	["50168"] = {
+	["43117"] = {
 		{
-			["price"] = 259996,
-			["quantity"] = 1,
-			["time"] = 1716134986,
+			["price"] = 11397,
+			["quantity"] = 8,
+			["time"] = 1716134964,
 		}, -- [1]
-		{
-			["price"] = 99977,
-			["quantity"] = 1,
-			["time"] = 1719353331,
-		}, -- [2]
 	},
 	["41517"] = {
 		{
@@ -20939,11 +20969,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716137719,
 		}, -- [1]
 	},
-	["43543"] = {
+	["29425"] = {
 		{
-			["price"] = 35492,
+			["price"] = 475,
 			["quantity"] = 1,
-			["time"] = 1716134917,
+			["time"] = 1716138404,
 		}, -- [1]
 	},
 	["41533"] = {
@@ -20989,11 +21019,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716134848,
 		}, -- [1]
 	},
-	["35557"] = {
+	["62655"] = {
 		{
-			["price"] = 12475,
-			["quantity"] = 2,
-			["time"] = 1719353351,
+			["price"] = 7493,
+			["quantity"] = 55,
+			["time"] = 1722545910,
 		}, -- [1]
 	},
 	["44923"] = {
@@ -21003,11 +21033,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716137734,
 		}, -- [1]
 	},
-	["17057"] = {
+	["42415"] = {
 		{
-			["price"] = 188,
-			["quantity"] = 3,
-			["time"] = 1719265615,
+			["price"] = 138269,
+			["quantity"] = 2,
+			["time"] = 1716134909,
 		}, -- [1]
 	},
 	["62553"] = {
@@ -21147,11 +21177,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1721592951,
 		}, -- [2]
 	},
-	["29425"] = {
+	["43543"] = {
 		{
-			["price"] = 475,
+			["price"] = 35492,
 			["quantity"] = 1,
-			["time"] = 1716138404,
+			["time"] = 1716134917,
 		}, -- [1]
 	},
 	["60838"] = {
@@ -21161,12 +21191,17 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1719353361,
 		}, -- [1]
 	},
-	["57191"] = {
+	["69797"] = {
 		{
-			["price"] = 103220,
-			["quantity"] = 10,
-			["time"] = 1716843875,
+			["price"] = 4969596,
+			["quantity"] = 1,
+			["time"] = 1722980841,
 		}, -- [1]
+		{
+			["price"] = 2999898,
+			["quantity"] = 1,
+			["time"] = 1723327282,
+		}, -- [2]
 	},
 	["52762"] = {
 		{
@@ -21267,16 +21302,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1723327422,
 		}, -- [3]
 	},
-	["41092"] = {
+	["41101"] = {
 		{
-			["price"] = 9993,
-			["quantity"] = 2,
-			["time"] = 1716134865,
+			["price"] = 333331,
+			["quantity"] = 1,
+			["time"] = 1714562121,
 		}, -- [1]
 		{
-			["price"] = 34910,
-			["quantity"] = 1,
-			["time"] = 1717410607,
+			["price"] = 109980,
+			["quantity"] = 2,
+			["time"] = 1716136137,
 		}, -- [2]
 	},
 	["35627"] = {
@@ -21305,11 +21340,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1717968740,
 		}, -- [2]
 	},
-	["43120"] = {
+	["43424"] = {
 		{
-			["price"] = 37676,
-			["quantity"] = 20,
-			["time"] = 1716134982,
+			["price"] = 21493,
+			["quantity"] = 2,
+			["time"] = 1716134858,
 		}, -- [1]
 	},
 	["39690"] = {
@@ -21449,11 +21484,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716932237,
 		}, -- [4]
 	},
-	["62561"] = {
+	["24245"] = {
 		{
-			["price"] = 109985,
-			["quantity"] = 1,
-			["time"] = 1721861276,
+			["price"] = 33322,
+			["quantity"] = 13,
+			["time"] = 1716138405,
 		}, -- [1]
 	},
 	["67749"] = {
@@ -21482,17 +21517,12 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716134841,
 		}, -- [1]
 	},
-	["38374"] = {
+	["43552"] = {
 		{
-			["price"] = 2101900,
+			["price"] = 9994,
 			["quantity"] = 1,
-			["time"] = 1717408250,
+			["time"] = 1716134918,
 		}, -- [1]
-		{
-			["price"] = 2099679,
-			["quantity"] = 1,
-			["time"] = 1717494928,
-		}, -- [2]
 	},
 	["49908"] = {
 		{
@@ -21511,11 +21541,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716932223,
 		}, -- [3]
 	},
-	["60211"] = {
+	["37701"] = {
 		{
-			["price"] = 115009991,
-			["quantity"] = 1,
-			["time"] = 1719524895,
+			["price"] = 3766,
+			["quantity"] = 7,
+			["time"] = 1716932250,
 		}, -- [1]
 	},
 	["52757"] = {
@@ -21544,16 +21574,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716137085,
 		}, -- [2]
 	},
-	["41101"] = {
+	["41092"] = {
 		{
-			["price"] = 333331,
-			["quantity"] = 1,
-			["time"] = 1714562121,
+			["price"] = 9993,
+			["quantity"] = 2,
+			["time"] = 1716134865,
 		}, -- [1]
 		{
-			["price"] = 109980,
-			["quantity"] = 2,
-			["time"] = 1716136137,
+			["price"] = 34910,
+			["quantity"] = 1,
+			["time"] = 1717410607,
 		}, -- [2]
 	},
 	["60224"] = {
@@ -21639,11 +21669,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138343,
 		}, -- [1]
 	},
-	["43424"] = {
+	["43120"] = {
 		{
-			["price"] = 21493,
-			["quantity"] = 2,
-			["time"] = 1716134858,
+			["price"] = 37676,
+			["quantity"] = 20,
+			["time"] = 1716134982,
 		}, -- [1]
 	},
 	["53070"] = {
@@ -21686,11 +21716,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716134958,
 		}, -- [1]
 	},
-	["24245"] = {
+	["62561"] = {
 		{
-			["price"] = 33322,
-			["quantity"] = 13,
-			["time"] = 1716138405,
+			["price"] = 109985,
+			["quantity"] = 1,
+			["time"] = 1721861276,
 		}, -- [1]
 	},
 	["41108"] = {
@@ -21700,23 +21730,23 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716134874,
 		}, -- [1]
 	},
-	["62783"] = {
+	["58091"] = {
 		{
-			["price"] = 3829,
-			["quantity"] = 1,
-			["time"] = 1717410675,
+			["price"] = 449982,
+			["quantity"] = 5,
+			["time"] = 1716843883,
 		}, -- [1]
 		{
-			["price"] = 1980,
-			["quantity"] = 10,
-			["time"] = 1719265590,
+			["price"] = 179894,
+			["quantity"] = 5,
+			["time"] = 1716931702,
 		}, -- [2]
 	},
-	["37701"] = {
+	["60211"] = {
 		{
-			["price"] = 3766,
-			["quantity"] = 7,
-			["time"] = 1716932250,
+			["price"] = 115009991,
+			["quantity"] = 1,
+			["time"] = 1719524895,
 		}, -- [1]
 	},
 	["43146"] = {
@@ -21790,16 +21820,16 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1717400444,
 		}, -- [1]
 	},
-	["58091"] = {
+	["62783"] = {
 		{
-			["price"] = 449982,
-			["quantity"] = 5,
-			["time"] = 1716843883,
+			["price"] = 3829,
+			["quantity"] = 1,
+			["time"] = 1717410675,
 		}, -- [1]
 		{
-			["price"] = 179894,
-			["quantity"] = 5,
-			["time"] = 1716931702,
+			["price"] = 1980,
+			["quantity"] = 10,
+			["time"] = 1719265590,
 		}, -- [2]
 	},
 	["62601"] = {
@@ -21840,11 +21870,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1717414530,
 		}, -- [2]
 	},
-	["59461"] = {
+	["43546"] = {
 		{
-			["price"] = 114999992,
+			["price"] = 69445,
 			["quantity"] = 1,
-			["time"] = 1723327285,
+			["time"] = 1716134890,
 		}, -- [1]
 	},
 	["42545"] = {
@@ -22081,11 +22111,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716134882,
 		}, -- [1]
 	},
-	["62239"] = {
+	["43116"] = {
 		{
-			["price"] = 149991,
-			["quantity"] = 38,
-			["time"] = 1717411044,
+			["price"] = 298393,
+			["quantity"] = 1,
+			["time"] = 1716134961,
 		}, -- [1]
 	},
 	["43126"] = {
@@ -22095,11 +22125,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716134980,
 		}, -- [1]
 	},
-	["43546"] = {
+	["59461"] = {
 		{
-			["price"] = 69445,
+			["price"] = 114999992,
 			["quantity"] = 1,
-			["time"] = 1716134890,
+			["time"] = 1723327285,
 		}, -- [1]
 	},
 	["40212"] = {
@@ -22212,11 +22242,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716932197,
 		}, -- [3]
 	},
-	["43116"] = {
+	["62239"] = {
 		{
-			["price"] = 298393,
-			["quantity"] = 1,
-			["time"] = 1716134961,
+			["price"] = 149991,
+			["quantity"] = 38,
+			["time"] = 1717411044,
 		}, -- [1]
 	},
 	["23445"] = {
@@ -22226,12 +22256,17 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716932161,
 		}, -- [1]
 	},
-	["43552"] = {
+	["38374"] = {
 		{
-			["price"] = 9994,
+			["price"] = 2101900,
 			["quantity"] = 1,
-			["time"] = 1716134918,
+			["time"] = 1717408250,
 		}, -- [1]
+		{
+			["price"] = 2099679,
+			["quantity"] = 1,
+			["time"] = 1717494928,
+		}, -- [2]
 	},
 	["48933"] = {
 		{
@@ -22389,17 +22424,12 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1722983259,
 		}, -- [5]
 	},
-	["69797"] = {
+	["57191"] = {
 		{
-			["price"] = 4969596,
-			["quantity"] = 1,
-			["time"] = 1722980841,
+			["price"] = 103220,
+			["quantity"] = 10,
+			["time"] = 1716843875,
 		}, -- [1]
-		{
-			["price"] = 2999898,
-			["quantity"] = 1,
-			["time"] = 1723327282,
-		}, -- [2]
 	},
 	["21877"] = {
 		{
@@ -22415,11 +22445,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1720129155,
 		}, -- [1]
 	},
-	["43010"] = {
+	["37703"] = {
 		{
-			["price"] = 2353,
-			["quantity"] = 6,
-			["time"] = 1716138562,
+			["price"] = 7993,
+			["quantity"] = 1,
+			["time"] = 1716932245,
 		}, -- [1]
 	},
 	["53010"] = {
@@ -22471,11 +22501,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1718318510,
 		}, -- [4]
 	},
-	["62655"] = {
+	["35557"] = {
 		{
-			["price"] = 7493,
-			["quantity"] = 55,
-			["time"] = 1722545910,
+			["price"] = 12475,
+			["quantity"] = 2,
+			["time"] = 1719353351,
 		}, -- [1]
 	},
 	["24478"] = {
@@ -22485,12 +22515,17 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138391,
 		}, -- [1]
 	},
-	["43117"] = {
+	["50168"] = {
 		{
-			["price"] = 11397,
-			["quantity"] = 8,
-			["time"] = 1716134964,
+			["price"] = 259996,
+			["quantity"] = 1,
+			["time"] = 1716134986,
 		}, -- [1]
+		{
+			["price"] = 99977,
+			["quantity"] = 1,
+			["time"] = 1719353331,
+		}, -- [2]
 	},
 	["62591"] = {
 		{
@@ -22535,27 +22570,12 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1719265597,
 		}, -- [3]
 	},
-	["58480"] = {
+	["41099"] = {
 		{
-			["price"] = 32569898,
-			["quantity"] = 2,
-			["time"] = 1716671674,
+			["price"] = 82241,
+			["quantity"] = 1,
+			["time"] = 1714562118,
 		}, -- [1]
-		{
-			["price"] = 29477678,
-			["quantity"] = 1,
-			["time"] = 1716764256,
-		}, -- [2]
-		{
-			["price"] = 23339954,
-			["quantity"] = 1,
-			["time"] = 1716843860,
-		}, -- [3]
-		{
-			["price"] = 9779976,
-			["quantity"] = 1,
-			["time"] = 1717410634,
-		}, -- [4]
 	},
 	["41098"] = {
 		{
@@ -22583,39 +22603,19 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1713260695,
 		}, -- [1]
 	},
-	["41099"] = {
+	["36924"] = {
 		{
-			["price"] = 82241,
-			["quantity"] = 1,
-			["time"] = 1714562118,
+			["price"] = 32194,
+			["quantity"] = 3,
+			["time"] = 1716932288,
 		}, -- [1]
 	},
-	["52325"] = {
+	["36906"] = {
 		{
-			["price"] = 249906,
-			["quantity"] = 14,
-			["time"] = 1717145783,
+			["price"] = 2993,
+			["quantity"] = 45,
+			["time"] = 1716932267,
 		}, -- [1]
-		{
-			["price"] = 146988,
-			["quantity"] = 19,
-			["time"] = 1717400435,
-		}, -- [2]
-		{
-			["price"] = 99988,
-			["quantity"] = 17,
-			["time"] = 1717410640,
-		}, -- [3]
-		{
-			["price"] = 137922,
-			["quantity"] = 4,
-			["time"] = 1717413819,
-		}, -- [4]
-		{
-			["price"] = 78653,
-			["quantity"] = 4,
-			["time"] = 1718318521,
-		}, -- [5]
 	},
 	["62562"] = {
 		{
@@ -22624,11 +22624,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1719265604,
 		}, -- [1]
 	},
-	["64396"] = {
+	["59595"] = {
 		{
-			["price"] = 194493,
-			["quantity"] = 1,
-			["time"] = 1716843627,
+			["price"] = 38698,
+			["quantity"] = 4,
+			["time"] = 1717973372,
 		}, -- [1]
 	},
 	["22577"] = {
@@ -22638,11 +22638,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138467,
 		}, -- [1]
 	},
-	["42400"] = {
+	["21151"] = {
 		{
-			["price"] = 68312,
-			["quantity"] = 2,
-			["time"] = 1716138312,
+			["price"] = 496,
+			["quantity"] = 3,
+			["time"] = 1719265610,
 		}, -- [1]
 	},
 	["62791"] = {
@@ -22690,11 +22690,11 @@ AUCTIONATOR_POSTING_HISTORY = {
 			["time"] = 1716138549,
 		}, -- [1]
 	},
-	["21114"] = {
+	["36927"] = {
 		{
-			["price"] = 1491,
-			["quantity"] = 2,
-			["time"] = 1719265612,
+			["price"] = 38312,
+			["quantity"] = 23,
+			["time"] = 1716932305,
 		}, -- [1]
 	},
 }
@@ -22831,7 +22831,7 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["33444"] = 1530,
 	["42430"] = 1190,
 	["17348"] = 700,
-	["38426"] = 27000,
+	["65907"] = 7000,
 	["2493"] = 561,
 	["226460"] = 562500,
 	["852"] = 1391,
@@ -22876,161 +22876,161 @@ AUCTIONATOR_VENDOR_PRICE_CACHE = {
 	["3023"] = 3583,
 	["44203"] = 202300,
 	["62441"] = 380780,
-	["6532"] = 225,
+	["17029"] = 1000,
 	["854"] = 2418,
 	["62447"] = 160303,
 	["17021"] = 700,
-	["67107"] = 13500000,
 	["10922"] = 800,
-	["31781"] = 8000,
-	["35954"] = 1080,
-	["17038"] = 2000,
-	["65907"] = 7000,
-	["8927"] = 700,
-	["61937"] = 13500000,
+	["2901"] = 61,
+	["44205"] = 570699,
+	["62347"] = 525000,
+	["38426"] = 27000,
 	["62445"] = 269115,
+	["8927"] = 700,
+	["8984"] = 200,
+	["35952"] = 2880,
 	["40036"] = 105,
-	["3770"] = 70,
-	["62448"] = 441310,
 	["43955"] = 17000000,
-	["44617"] = 1400,
+	["31853"] = 3400,
+	["31781"] = 8000,
+	["44188"] = 174138,
 	["226459"] = 562500,
-	["25873"] = 60,
+	["44570"] = 45,
 	["63207"] = 2700000,
 	["40533"] = 40000,
-	["20844"] = 300,
+	["17038"] = 2000,
 	["61935"] = 13500000,
 	["21835"] = 1500,
-	["35951"] = 2880,
-	["44196"] = 119541,
+	["44234"] = 140000000,
+	["3770"] = 70,
 	["18567"] = 22500,
 	["2519"] = 0.24,
-	["44205"] = 570699,
-	["42436"] = 63000,
+	["62448"] = 441310,
+	["67107"] = 13500000,
 	["20815"] = 560,
-	["40042"] = 1050,
-	["39354"] = 14,
-	["18841"] = 850,
 	["52188"] = 10500,
-	["2494"] = 322,
+	["42185"] = 42500,
+	["44617"] = 1400,
+	["25873"] = 60,
+	["20844"] = 300,
 	["62450"] = 378976,
-	["62440"] = 160303,
-	["5976"] = 8000,
+	["39354"] = 14,
+	["4599"] = 280,
 	["27856"] = 896,
 	["2207"] = 1913,
 	["63125"] = 27000000,
-	["117"] = 3.6,
-	["2901"] = 61,
-	["31776"] = 8000,
 	["44120"] = 175849,
-	["62382"] = 467437,
 	["44618"] = 7000,
-	["6947"] = 25,
-	["74921"] = 2800,
+	["31776"] = 8000,
+	["40042"] = 1050,
+	["18841"] = 850,
+	["2494"] = 322,
+	["64670"] = 640,
+	["20824"] = 17500,
 	["22147"] = 5000,
-	["2139"] = 46,
+	["44196"] = 119541,
 	["4538"] = 80,
 	["62348"] = 149616,
 	["19301"] = 980,
-	["31853"] = 3400,
-	["2132"] = 82,
-	["22148"] = 1500,
-	["62352"] = 149616,
-	["62350"] = 149616,
-	["44573"] = 1350,
-	["17035"] = 400,
+	["62440"] = 160303,
+	["117"] = 3.6,
+	["17034"] = 180,
+	["6947"] = 25,
+	["29008"] = 60,
+	["74921"] = 2800,
+	["2139"] = 46,
 	["8953"] = 640,
 	["65435"] = 1350000,
-	["69887"] = 13500000,
+	["44717"] = 21000,
 	["17352"] = 350,
 	["1197"] = 2134,
-	["39505"] = 600,
-	["17034"] = 180,
-	["44717"] = 21000,
+	["5441"] = 950,
+	["30746"] = 70000,
+	["44573"] = 1350,
+	["17035"] = 400,
+	["69887"] = 13500000,
+	["33445"] = 1980,
+	["2132"] = 82,
+	["10647"] = 1600,
 	["44199"] = 643715,
+	["44605"] = 5000,
 	["65364"] = 4500000,
 	["44122"] = 301859,
-	["42185"] = 42500,
-	["10647"] = 1600,
+	["4539"] = 160,
 	["43156"] = 8500,
 	["41561"] = 14000,
-	["33445"] = 1980,
+	["39505"] = 600,
 	["44226"] = 5250000,
-	["4539"] = 160,
+	["5956"] = 14,
 	["2516"] = 0.05,
 	["17351"] = 700,
-	["35952"] = 2880,
-	["44605"] = 5000,
-	["5956"] = 14,
-	["29008"] = 60,
+	["17020"] = 900,
 	["24004"] = 8000,
 	["1196"] = 1771,
-	["63251"] = 4666.6,
 	["35947"] = 2880,
+	["25532"] = 700000,
 	["6950"] = 150,
-	["17020"] = 900,
 	["62446"] = 225124,
 	["17037"] = 1400,
 	["18839"] = 850,
-	["44234"] = 140000000,
 	["64400"] = 1350000,
-	["25532"] = 700000,
-	["44570"] = 45,
-	["4599"] = 280,
+	["62350"] = 149616,
+	["62352"] = 149616,
+	["22148"] = 1500,
 	["4399"] = 160,
 	["10920"] = 150,
 	["40035"] = 35,
-	["30746"] = 70000,
-	["5441"] = 950,
 	["5565"] = 5000,
+	["42436"] = 63000,
+	["44614"] = 7000,
 	["29007"] = 24,
 	["62367"] = 1200000,
-	["44614"] = 7000,
+	["2480"] = 58,
 	["25477"] = 700000,
 	["8529"] = 490,
-	["20824"] = 17500,
-	["8984"] = 200,
 	["2511"] = 1258,
+	["5976"] = 8000,
+	["35951"] = 2880,
 	["35221"] = 8000,
-	["31773"] = 8000,
+	["3466"] = 1500,
 	["58269"] = 2800,
 	["226462"] = 562500,
-	["2480"] = 58,
-	["64670"] = 640,
 	["62385"] = 563135,
-	["44073"] = 300562,
 	["42439"] = 11900,
 	["2491"] = 387,
-	["3466"] = 1500,
+	["44073"] = 300562,
 	["17026"] = 1000,
 	["43230"] = 4000,
-	["32445"] = 8000,
+	["35954"] = 1080,
+	["31773"] = 8000,
 	["62351"] = 149616,
-	["17029"] = 1000,
+	["32445"] = 8000,
+	["61937"] = 13500000,
+	["6532"] = 225,
 	["19318"] = 700,
 	["42429"] = 2240,
 	["1194"] = 83,
 	["42438"] = 126000,
-	["62347"] = 525000,
+	["63251"] = 4666.6,
 	["62438"] = 475509,
 	["8926"] = 500,
-	["44188"] = 174138,
+	["62382"] = 467437,
 	["68766"] = 1125000,
 }
 AUCTIONATOR_RECENT_SEARCHES = {
-	"\"Reckless Ember Topaz\"", -- [1]
-	"Bracer - Mighty in", -- [2]
-	"\"Purified Demonseye\"", -- [3]
-	"\"Ember Shadowspirit Diamond\"", -- [4]
-	"volatile blast", -- [5]
-	"Draconic mind", -- [6]
-	"Chest - Stamina", -- [7]
-	"\"Guardian's Demonseye\"", -- [8]
-	"Bracer - Major Stam", -- [9]
-	"\"Amani Armguards\"", -- [10]
-	"\"Bracers of Hidden Purpose\"", -- [11]
-	"\"Powerful Ghostly Spellthread\"", -- [12]
-	"\"Brilliant Inferno Ruby\"", -- [13]
+	"\"Brilliant Inferno Ruby\"", -- [1]
+	"\"Reckless Ember Topaz\"", -- [2]
+	"Bracer - Mighty in", -- [3]
+	"\"Purified Demonseye\"", -- [4]
+	"\"Ember Shadowspirit Diamond\"", -- [5]
+	"volatile blast", -- [6]
+	"Draconic mind", -- [7]
+	"Chest - Stamina", -- [8]
+	"\"Guardian's Demonseye\"", -- [9]
+	"Bracer - Major Stam", -- [10]
+	"\"Amani Armguards\"", -- [11]
+	"\"Bracers of Hidden Purpose\"", -- [12]
+	"\"Powerful Ghostly Spellthread\"", -- [13]
 	"\"Ebonsteel Belt Buckle\"", -- [14]
 	"Peerless st", -- [15]
 	"Cloak - Greater in", -- [16]

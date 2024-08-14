@@ -123,6 +123,7 @@ DriftPoints = {
 DriftScales = {
 	["QuestLogFrame"] = 1.009999990463257,
 	["CommunitiesMover"] = 0.8500001430511475,
+	["CharacterFrame"] = 0.940000057220459,
 	["WorldStateScoreFrame"] = 0.9900000095367432,
 	["SpellBookFrame"] = 0.8600001335144043,
 	["GameMenuFrame"] = 1.049999952316284,

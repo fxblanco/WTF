@@ -9,13 +9,14 @@ GDKPd_DB = {
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
+		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
@@ -46,14 +47,6 @@ GDKPd_DB = {
 		},
 		["Maturitass - Venoxis"] = {
 		},
-		["Alsiadk - Venoxis"] = {
-			["point"] = {
-				["y"] = -86.10002899169922,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -595.7999877929688,
-			},
-		},
 		["Alslahunt - Venoxis"] = {
 			["point"] = {
 				["y"] = -55.99998092651367,
@@ -62,12 +55,27 @@ GDKPd_DB = {
 				["x"] = 376.9998168945313,
 			},
 		},
+		["Alsiadk - Venoxis"] = {
+			["point"] = {
+				["y"] = -86.10002899169922,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -595.7999877929688,
+			},
+		},
 		["Alsia - Venoxis"] = {
 			["point"] = {
-				["y"] = -44.00012588500977,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 508.4999389648438,
+				["x"] = 311,
+			},
+		},
+		["Lucho - Venoxis"] = {
+			["point"] = {
+				["y"] = -186.0000305175781,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = 314.1330261230469,
 			},
 		},
 		["Andrés - Venoxis"] = {
@@ -90,13 +98,7 @@ GDKPd_DB = {
 				["relative"] = "TOPLEFT",
 			},
 		},
-		["Lucho - Venoxis"] = {
-			["point"] = {
-				["y"] = -186.0000305175781,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = 314.1330261230469,
-			},
+		["Alslalu - Venoxis"] = {
 		},
 		["Kwasimojo - Venoxis"] = {
 			["point"] = {
