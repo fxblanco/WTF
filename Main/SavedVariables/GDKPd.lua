@@ -1,23 +1,23 @@
 
 GDKPd_DB = {
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
-	},
 	["profileKeys"] = {
 		["Alsla - Venoxis"] = "Alsla - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+	},
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
@@ -45,15 +45,15 @@ GDKPd_DB = {
 		},
 		["Exonuklease - Venoxis"] = {
 		},
-		["Maturitass - Venoxis"] = {
-		},
-		["Alslahunt - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
 			["point"] = {
-				["y"] = -55.99998092651367,
+				["y"] = -2.400072574615479,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 376.9998168945313,
+				["x"] = 16.20000648498535,
 			},
+		},
+		["Alslalu - Venoxis"] = {
 		},
 		["Alsiadk - Venoxis"] = {
 			["point"] = {
@@ -63,11 +63,12 @@ GDKPd_DB = {
 				["x"] = -595.7999877929688,
 			},
 		},
-		["Alsia - Venoxis"] = {
+		["Alslahunt - Venoxis"] = {
 			["point"] = {
+				["y"] = -55.99998092651367,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 311,
+				["x"] = 376.9998168945313,
 			},
 		},
 		["Lucho - Venoxis"] = {
@@ -98,15 +99,14 @@ GDKPd_DB = {
 				["relative"] = "TOPLEFT",
 			},
 		},
-		["Alslalu - Venoxis"] = {
-		},
-		["Kwasimojo - Venoxis"] = {
+		["Alsia - Venoxis"] = {
 			["point"] = {
-				["y"] = -2.400072574615479,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 16.20000648498535,
+				["x"] = 311,
 			},
+		},
+		["Maturitass - Venoxis"] = {
 		},
 	},
 }

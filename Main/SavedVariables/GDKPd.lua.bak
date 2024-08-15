@@ -1,23 +1,23 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Alsla - Venoxis"] = "Alsla - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
+		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
@@ -45,12 +45,14 @@ GDKPd_DB = {
 		},
 		["Exonuklease - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
+		},
+		["Alslahunt - Venoxis"] = {
 			["point"] = {
-				["y"] = -2.400072574615479,
+				["y"] = -55.99998092651367,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 16.20000648498535,
+				["x"] = 376.9998168945313,
 			},
 		},
 		["Alsiadk - Venoxis"] = {
@@ -60,8 +62,6 @@ GDKPd_DB = {
 				["point"] = "TOP",
 				["x"] = -595.7999877929688,
 			},
-		},
-		["Alslalu - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
 			["point"] = {
@@ -98,15 +98,15 @@ GDKPd_DB = {
 				["relative"] = "TOPLEFT",
 			},
 		},
-		["Alslahunt - Venoxis"] = {
+		["Alslalu - Venoxis"] = {
+		},
+		["Kwasimojo - Venoxis"] = {
 			["point"] = {
-				["y"] = -55.99998092651367,
+				["y"] = -2.400072574615479,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 376.9998168945313,
+				["x"] = 16.20000648498535,
 			},
-		},
-		["Maturitass - Venoxis"] = {
 		},
 	},
 }
