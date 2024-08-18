@@ -114,20 +114,21 @@ DriftPoints = {
 	},
 	["SpellBookFrame"] = {
 		["relativeTo"] = "UIParent",
-		["point"] = "TOP",
-		["relativePoint"] = "TOP",
-		["yOfs"] = -209.0231018066406,
-		["xOfs"] = -498.5348510742188,
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -143.5811767578125,
+		["xOfs"] = 94.20964813232422,
 	},
 }
 DriftScales = {
 	["QuestLogFrame"] = 1.009999990463257,
 	["CommunitiesMover"] = 0.8500001430511475,
 	["TradeSkillFrame"] = 0.9500000476837158,
+	["CharacterFrame"] = 0.9300000667572021,
 	["WorldStateScoreFrame"] = 0.9900000095367432,
-	["SpellBookFrame"] = 0.8600001335144043,
+	["SpellBookFrame"] = 1,
 	["GameMenuFrame"] = 1.049999952316284,
-	["CharacterFrame"] = 0.940000057220459,
+	["MerchantFrame"] = 1.009999990463257,
 }
 DriftOptions = {
 	["dragAltKeyEnabled"] = false,

@@ -4,11 +4,11 @@ CliqueDB3 = {
 	["char"] = {
 		["Alsla - Venoxis"] = {
 			["spec1_profileKey"] = "Alsla - Venoxis",
-			["specswap"] = false,
+			["spec2_profileKey"] = "Alsla - Venoxis",
 			["downclick"] = false,
 			["fastooc"] = false,
-			["spec2_profileKey"] = "Alsla - Venoxis",
 			["alerthidden"] = true,
+			["specswap"] = false,
 		},
 		["Xolem - Venoxis"] = {
 			["spec1_profileKey"] = "Xolem - Venoxis",
@@ -20,11 +20,11 @@ CliqueDB3 = {
 		},
 		["Alsía - Venoxis"] = {
 			["spec1_profileKey"] = "Alsía - Venoxis",
-			["spec2_profileKey"] = "Alsía - Venoxis",
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["spec2_profileKey"] = "Alsía - Venoxis",
 			["alerthidden"] = true,
-			["specswap"] = false,
 		},
 		["Alslalu - Venoxis"] = {
 			["spec1_profileKey"] = "Alslalu - Venoxis",
@@ -36,11 +36,11 @@ CliqueDB3 = {
 		},
 		["Alsia - Venoxis"] = {
 			["spec1_profileKey"] = "Alsia - Venoxis",
-			["fastooc"] = false,
-			["spec2_profileKey"] = "Alsia - Venoxis",
-			["downclick"] = false,
 			["alerthidden"] = true,
+			["downclick"] = false,
+			["fastooc"] = false,
 			["specswap"] = false,
+			["spec2_profileKey"] = "Alsia - Venoxis",
 		},
 		["Andrés - Venoxis"] = {
 			["spec1_profileKey"] = "Andrés - Venoxis",
@@ -51,11 +51,11 @@ CliqueDB3 = {
 		},
 		["Alslala - Venoxis"] = {
 			["spec1_profileKey"] = "Alslala - Venoxis",
-			["alerthidden"] = true,
+			["specswap"] = false,
 			["downclick"] = false,
 			["fastooc"] = false,
+			["alerthidden"] = true,
 			["spec2_profileKey"] = "Alslala - Venoxis",
-			["specswap"] = false,
 		},
 		["Khalimmortus - Venoxis"] = {
 			["spec1_profileKey"] = "Khalimmortus - Venoxis",
@@ -87,9 +87,9 @@ CliqueDB3 = {
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
@@ -204,12 +204,12 @@ CliqueDB3 = {
 				}, -- [1]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
+					["key"] = "SHIFT-BUTTON1",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135966,
-					["spell"] = "Hand of Sacrifice",
+					["icon"] = 135967,
+					["spell"] = "Hand of Salvation",
 				}, -- [2]
 				{
 					["type"] = "spell",
@@ -231,21 +231,21 @@ CliqueDB3 = {
 				}, -- [4]
 				{
 					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
+					["key"] = "SHIFT-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135967,
-					["spell"] = "Hand of Salvation",
+					["icon"] = 135966,
+					["spell"] = "Hand of Sacrifice",
 				}, -- [5]
 				{
 					["type"] = "spell",
-					["key"] = "BUTTON4",
+					["key"] = "CTRL-BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135953,
-					["spell"] = "Cleanse",
+					["icon"] = 135928,
+					["spell"] = "Lay on Hands",
 				}, -- [6]
 				{
 					["type"] = "spell",
@@ -267,12 +267,12 @@ CliqueDB3 = {
 				}, -- [8]
 				{
 					["type"] = "spell",
-					["key"] = "CTRL-BUTTON2",
+					["key"] = "BUTTON4",
 					["sets"] = {
 						["default"] = true,
 					},
-					["icon"] = 135928,
-					["spell"] = "Lay on Hands",
+					["icon"] = 135953,
+					["spell"] = "Cleanse",
 				}, -- [9]
 				{
 					["type"] = "spell",
@@ -449,98 +449,6 @@ CliqueDB3 = {
 				}, -- [15]
 			},
 		},
-		["Alslalu - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "ALT-BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136043,
-					["spell"] = "Greater Healing Wave",
-				}, -- [2]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136089,
-					["spell"] = "Earth Shield",
-				}, -- [3]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136052,
-					["spell"] = "Healing Wave",
-				}, -- [4]
-				{
-					["type"] = "menu",
-					["key"] = "ALT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [5]
-				{
-					["type"] = "spell",
-					["key"] = "SHIFT-BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136044,
-					["spell"] = "Healing Surge",
-				}, -- [6]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON1",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 136042,
-					["spell"] = "Chain Heal",
-				}, -- [7]
-				{
-					["type"] = "spell",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = 252995,
-					["spell"] = "Riptide",
-				}, -- [8]
-			},
-		},
-		["Bloodwall - Venoxis"] = {
-			["bindings"] = {
-				{
-					["type"] = "target",
-					["sets"] = {
-						["default"] = true,
-					},
-					["key"] = "BUTTON1",
-					["unit"] = "mouseover",
-				}, -- [1]
-				{
-					["type"] = "menu",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-				}, -- [2]
-			},
-		},
 		["Alsiadk - Venoxis"] = {
 			["bindings"] = {
 				{
@@ -567,6 +475,98 @@ CliqueDB3 = {
 					["icon"] = 136143,
 					["spell"] = "Raise Ally",
 				}, -- [3]
+			},
+		},
+		["Bloodwall - Venoxis"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "menu",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [2]
+			},
+		},
+		["Alslalu - Venoxis"] = {
+			["bindings"] = {
+				{
+					["type"] = "target",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "ALT-BUTTON1",
+					["unit"] = "mouseover",
+				}, -- [1]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136089,
+					["spell"] = "Earth Shield",
+				}, -- [2]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136052,
+					["spell"] = "Healing Wave",
+				}, -- [3]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136043,
+					["spell"] = "Greater Healing Wave",
+				}, -- [4]
+				{
+					["type"] = "spell",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136044,
+					["spell"] = "Healing Surge",
+				}, -- [5]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136042,
+					["spell"] = "Chain Heal",
+				}, -- [6]
+				{
+					["type"] = "menu",
+					["key"] = "ALT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+				}, -- [7]
+				{
+					["type"] = "spell",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 252995,
+					["spell"] = "Riptide",
+				}, -- [8]
 			},
 		},
 		["Alslahunt - Venoxis"] = {
@@ -809,12 +809,74 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
+					["spell"] = "Innervate",
+					["key"] = "SHIFT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136048,
+					["type"] = "spell",
+				}, -- [2]
+				{
+					["spell"] = "Rebirth",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136080,
+					["type"] = "spell",
+				}, -- [3]
+				{
 					["type"] = "menu",
 					["key"] = "BUTTON2",
 					["sets"] = {
 						["default"] = true,
 					},
-				}, -- [2]
+				}, -- [4]
+				{
+					["spell"] = "Regrowth",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136085,
+					["type"] = "spell",
+				}, -- [5]
+				{
+					["spell"] = "Healing Touch",
+					["key"] = "BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136041,
+					["type"] = "spell",
+				}, -- [6]
+				{
+					["spell"] = "Rejuvenation",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 136081,
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["type"] = "target",
+					["key"] = "ALT-BUTTON1",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = 132331,
+					["unit"] = "mouseover",
+				}, -- [8]
+				{
+					["type"] = "menu",
+					["sets"] = {
+						["default"] = true,
+					},
+					["key"] = "ALT-BUTTON2",
+					["icon"] = 132212,
+				}, -- [9]
 			},
 		},
 	},

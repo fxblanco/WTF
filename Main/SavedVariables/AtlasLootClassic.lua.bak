@@ -1081,9 +1081,9 @@ AtlasLootClassicDB = {
 			[47291] = "DefilersScourgestone:30",
 			[42950] = "EmblemOfTriumph:2175",
 			[47253] = "DefilersScourgestone:30",
-			[35018] = "honor:190",
+			[47300] = "DefilersScourgestone:50",
 			[51330] = "honor:555",
-			[51394] = "honor:848",
+			[35018] = "honor:190",
 			[35082] = "honor:142",
 			[35146] = "honor:76",
 			[47556] = "EmblemOfTriumph:15",
@@ -1145,9 +1145,9 @@ AtlasLootClassicDB = {
 			[40841] = "honor:343",
 			[42952] = "EmblemOfTriumph:2175",
 			[58150] = "EmblemOfTriumph:2200",
-			[35020] = "honor:57",
+			[51396] = "honor:250",
 			[51332] = "honor:555",
-			[47302] = "DefilersScourgestone:76",
+			[35020] = "honor:57",
 			[42270] = "honor:250",
 			[35148] = "honor:76",
 			[51451] = "honor:178",
@@ -1177,9 +1177,9 @@ AtlasLootClassicDB = {
 			[47688] = "EmblemOfTriumph:75",
 			[28312] = "honor:47",
 			[42947] = "EmblemOfTriumph:3500",
-			[51397] = "honor:587",
+			[47303] = "DefilersScourgestone:38",
 			[51333] = "honor:555",
-			[35021] = "honor:57",
+			[51397] = "honor:587",
 			[40742] = "EmblemOfValor:40",
 			[51525] = "honor:250",
 			[35102] = "honor:142",
@@ -1214,7 +1214,7 @@ AtlasLootClassicDB = {
 			[64672] = "ValorPoints:700",
 			[47320] = "DefilersScourgestone:30",
 			[64732] = "honor:1250",
-			[47303] = "DefilersScourgestone:38",
+			[35021] = "honor:57",
 			[27882] = "honor:47",
 			[40679] = "EmblemOfHeroism:25",
 			[57923] = "EmblemOfTriumph:950",
@@ -1235,7 +1235,7 @@ AtlasLootClassicDB = {
 			[48517] = "honor:848",
 			[42571] = "honor:424",
 			[47268] = "DefilersScourgestone:38",
-			[51396] = "honor:250",
+			[47302] = "DefilersScourgestone:76",
 			[40716] = "EmblemOfHeroism:15",
 			[40780] = "EmblemOfHeroism:45",
 			[47263] = "DefilersScourgestone:38",
@@ -1271,7 +1271,7 @@ AtlasLootClassicDB = {
 			[34576] = "honor:39",
 			[40781] = "honor:343",
 			[40845] = "honor:343",
-			[47300] = "DefilersScourgestone:50",
+			[51394] = "honor:848",
 			[64713] = "honor:1250",
 			[35327] = "honor:39",
 			[47242] = "DefilersScourgestone:20",
@@ -1541,9 +1541,6 @@ AtlasLootClassicDB = {
 		["Alsiadk - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
-			["minimap"] = {
-				["minimapPos"] = 170.5926604935662,
-			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -1554,11 +1551,14 @@ AtlasLootClassicDB = {
 				},
 				["selected"] = {
 					nil, -- [1]
-					"TheBastionOfTwilight", -- [2]
-					nil, -- [3]
+					"ZulGurub", -- [2]
+					2, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 170.5926604935662,
 			},
 		},
 		["Alslalu - Venoxis"] = {

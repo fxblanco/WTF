@@ -1,31 +1,31 @@
 
 GDKPd_DB = {
+	["global"] = {
+		["shownPopupAddonMsg4_2"] = true,
+	},
 	["profileKeys"] = {
 		["Alsla - Venoxis"] = "Alsla - Venoxis",
 		["Xolem - Venoxis"] = "Xolem - Venoxis",
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
-	["global"] = {
-		["shownPopupAddonMsg4_2"] = true,
+		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
 			["point"] = {
-				["y"] = -248.9999542236328,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -459,
+				["y"] = -28.99991416931152,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 480.0000610351563,
 			},
 		},
 		["Xolem - Venoxis"] = {
@@ -45,22 +45,21 @@ GDKPd_DB = {
 		},
 		["Exonuklease - Venoxis"] = {
 		},
-		["Kwasimojo - Venoxis"] = {
+		["Maturitass - Venoxis"] = {
+		},
+		["Alsia - Venoxis"] = {
 			["point"] = {
-				["y"] = -2.400072574615479,
 				["relative"] = "TOPLEFT",
 				["point"] = "TOPLEFT",
-				["x"] = 16.20000648498535,
+				["x"] = 311,
 			},
 		},
 		["Alslalu - Venoxis"] = {
-		},
-		["Alsiadk - Venoxis"] = {
 			["point"] = {
-				["y"] = -86.10002899169922,
-				["relative"] = "TOP",
-				["point"] = "TOP",
-				["x"] = -595.7999877929688,
+				["y"] = -32.00007247924805,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 416.0001831054688,
 			},
 		},
 		["Alslahunt - Venoxis"] = {
@@ -99,14 +98,21 @@ GDKPd_DB = {
 				["relative"] = "TOPLEFT",
 			},
 		},
-		["Alsia - Venoxis"] = {
+		["Alsiadk - Venoxis"] = {
 			["point"] = {
-				["relative"] = "TOPLEFT",
-				["point"] = "TOPLEFT",
-				["x"] = 311,
+				["y"] = -86.10002899169922,
+				["relative"] = "TOP",
+				["point"] = "TOP",
+				["x"] = -595.7999877929688,
 			},
 		},
-		["Maturitass - Venoxis"] = {
+		["Kwasimojo - Venoxis"] = {
+			["point"] = {
+				["y"] = -2.400072574615479,
+				["relative"] = "TOPLEFT",
+				["point"] = "TOPLEFT",
+				["x"] = 16.20000648498535,
+			},
 		},
 	},
 }

@@ -1,39 +1,30 @@
 
 GargulDB = {
-	["TMB"] = {
-	},
 	["BoostedRolls"] = {
-		["Aliases"] = {
-		},
 		["Points"] = {
 		},
+		["Aliases"] = {
+		},
+	},
+	["TMB"] = {
 	},
 	["LoadDetails"] = {
 		["7.4.5"] = 1713563130,
 		["5.2.0"] = 1712692432,
 		["7.4.6"] = 1713722796,
+		["7.5.9"] = 1722641863,
 		["7.5.10"] = 1723061579,
 		["7.4.8"] = 1714559755,
 		["7.5.0"] = 1717612813,
 		["7.4.4"] = 1712692432,
-		["7.4.16"] = 1717362078,
+		["7.2.15"] = 1712354404,
 		["7.4.7"] = 1714070149,
-		["5.1.1"] = 1712692432,
+		["lastLoadedOn"] = 1724021652,
 		["7.5.6"] = 1721586918,
 		["7.4.12"] = 1716153266,
-		["lastLoadedOn"] = 1723757647,
-		["7.2.15"] = 1712354404,
-		["7.5.9"] = 1722641863,
-	},
-	["LootPriority"] = {
-	},
-	["GDKP"] = {
-		["SettingsPerItem"] = {
-		},
-		["Queue"] = {
-		},
-	},
-	["AwardHistory"] = {
+		["5.1.1"] = 1712692432,
+		["7.5.11"] = 1724006620,
+		["7.4.16"] = 1717362078,
 	},
 	["Settings"] = {
 		["autoOpenCommandHelp"] = true,
@@ -173,9 +164,9 @@ GargulDB = {
 			},
 			["Bidder"] = {
 				["Position"] = {
-					["point"] = "LEFT",
-					["offsetY"] = -236.9996643066406,
 					["offsetX"] = 594.0000610351562,
+					["offsetY"] = -236.9996643066406,
+					["point"] = "LEFT",
 					["relativePoint"] = "LEFT",
 				},
 			},
@@ -197,16 +188,16 @@ GargulDB = {
 			["Gargul"] = {
 				["BidderQueue"] = {
 					["Window"] = {
+						["Position"] = {
+							["offsetX"] = 432.0010375976563,
+							["offsetY"] = 311.0003356933594,
+							["point"] = "LEFT",
+							["relativePoint"] = "LEFT",
+						},
 						["Dimensions"] = {
 							["height"] = 169.9999847412109,
 							["scale"] = 1,
 							["width"] = 149.9999694824219,
-						},
-						["Position"] = {
-							["point"] = "LEFT",
-							["offsetY"] = 311.0003356933594,
-							["offsetX"] = 432.0010375976563,
-							["relativePoint"] = "LEFT",
 						},
 					},
 				},
@@ -371,13 +362,23 @@ GargulDB = {
 			["hideInfoOfPeopleNotInGroup"] = true,
 		},
 	},
-	["SoftRes"] = {
-	},
-	["RecentlyAwardedItems"] = {
+	["GDKP"] = {
+		["Queue"] = {
+		},
+		["SettingsPerItem"] = {
+		},
 	},
 	["PlusOnes"] = {
 		["Totals"] = {
 		},
+	},
+	["LootPriority"] = {
+	},
+	["SoftRes"] = {
+	},
+	["RecentlyAwardedItems"] = {
+	},
+	["AwardHistory"] = {
 	},
 	["MinimapButton"] = {
 	},
