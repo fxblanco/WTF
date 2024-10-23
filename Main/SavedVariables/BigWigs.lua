@@ -3,13 +3,70 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_BossBlock"] = {
+		},
+		["BigWigs_Plugins_Sounds"] = {
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Countdown"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 46,
+					["fontName"] = "Expressway",
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
+						nil, -- [3]
+						40, -- [4]
+					},
+				},
+				["MerfinUI v5.27"] = {
+					["outline"] = "OUTLINE",
+					["fontSize"] = 47,
+					["fontName"] = "Expressway",
+					["position"] = {
+						"CENTER", -- [1]
+						"CENTER", -- [2]
+						nil, -- [3]
+						0, -- [4]
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_AltPower"] = {
+			["profiles"] = {
+				["MerfinUI v5.22"] = {
+					["fontSize"] = 14,
+					["fontName"] = "Expressway",
+					["position"] = {
+						"BOTTOMRIGHT", -- [1]
+						"BOTTOMRIGHT", -- [2]
+						-315, -- [3]
+						327, -- [4]
+					},
+				},
+				["Default"] = {
+					["expanded"] = true,
+				},
+				["MerfinUI v5.27"] = {
+					["fontSize"] = 14,
+					["fontName"] = "Expressway",
+					["position"] = {
+						"BOTTOMRIGHT", -- [1]
+						"BOTTOMRIGHT", -- [2]
+						-315, -- [3]
+						327, -- [4]
+					},
+				},
+			},
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
 		},
-		["LibDualSpec-1.0"] = {
+		["BigWigs_Plugins_InfoBox"] = {
 		},
 		["BigWigs_Plugins_Bars"] = {
 			["profiles"] = {
@@ -51,7 +108,6 @@ BigWigs3DB = {
 					["barStyle"] = "ElvUI",
 					["growup"] = true,
 					["fontSizeEmph"] = 15,
-					["normalHeight"] = 27,
 					["expPosition"] = {
 						"BOTTOMRIGHT", -- [1]
 						"TOPRIGHT", -- [2]
@@ -59,10 +115,11 @@ BigWigs3DB = {
 						88, -- [4]
 						"ElvUF_Player", -- [5]
 					},
-					["normalWidth"] = 190,
 					["texture"] = "Flatt",
 					["fontName"] = "Expressway",
 					["emphasizeTime"] = 7,
+					["normalHeight"] = 27,
+					["normalWidth"] = 190,
 					["normalPosition"] = {
 						"BOTTOMLEFT", -- [1]
 						"BOTTOMRIGHT", -- [2]
@@ -73,42 +130,11 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_InfoBox"] = {
-			["profiles"] = {
-				["MerfinUI v5.27"] = {
-					["posx"] = 197,
-					["posy"] = 512,
-				},
-			},
+		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_AltPower"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["fontSize"] = 14,
-					["fontName"] = "Expressway",
-					["position"] = {
-						"BOTTOMRIGHT", -- [1]
-						"BOTTOMRIGHT", -- [2]
-						-315, -- [3]
-						327, -- [4]
-					},
-				},
-				["Default"] = {
-					["expanded"] = true,
-				},
-				["MerfinUI v5.27"] = {
-					["fontSize"] = 14,
-					["fontName"] = "Expressway",
-					["position"] = {
-						"BOTTOMRIGHT", -- [1]
-						"BOTTOMRIGHT", -- [2]
-						-315, -- [3]
-						327, -- [4]
-					},
-				},
-			},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
-		["BigWigs_Plugins_Sounds"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -130,16 +156,16 @@ BigWigs3DB = {
 					["outline"] = "OUTLINE",
 					["fontSize"] = 15,
 					["emphFontName"] = "Expressway",
-					["fontName"] = "Expressway",
+					["emphFontSize"] = 37,
 					["growUpwards"] = true,
 					["emphOutline"] = "OUTLINE",
-					["emphFontSize"] = 37,
 					["emphPosition"] = {
 						"TOP", -- [1]
 						"TOP", -- [2]
 						nil, -- [3]
 						-208, -- [4]
 					},
+					["fontName"] = "Expressway",
 					["normalPosition"] = {
 						"TOP", -- [1]
 						nil, -- [2]
@@ -148,10 +174,6 @@ BigWigs3DB = {
 					},
 				},
 			},
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -175,41 +197,9 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
 		["BigWigs_Plugins_Pull"] = {
-			["profiles"] = {
-				["MerfinUI v5.27"] = {
-					["voice"] = "English: Amy",
-				},
-			},
 		},
-		["BigWigs_Plugins_Countdown"] = {
-			["profiles"] = {
-				["MerfinUI v5.22"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 46,
-					["fontName"] = "Expressway",
-					["position"] = {
-						"CENTER", -- [1]
-						"CENTER", -- [2]
-						nil, -- [3]
-						40, -- [4]
-					},
-				},
-				["MerfinUI v5.27"] = {
-					["outline"] = "OUTLINE",
-					["fontSize"] = 47,
-					["position"] = {
-						"CENTER", -- [1]
-						"CENTER", -- [2]
-						nil, -- [3]
-						0, -- [4]
-					},
-					["voice"] = "English: Amy",
-					["fontName"] = "Expressway",
-				},
-			},
+		["BigWigs_Plugins_Nameplates"] = {
 		},
 	},
 	["global"] = {
@@ -228,6 +218,8 @@ BigWigs3DB = {
 		},
 		["Default"] = {
 		},
+		["MerfinUI v5.27"] = {
+		},
 	},
 }
 BigWigsIconDB = {
@@ -235,34 +227,34 @@ BigWigsIconDB = {
 BigWigsStatsDB = {
 	[671] = {
 		[156] = {
-			["10H"] = {
+			["H10"] = {
 				["kills"] = 1,
 				["wipes"] = 20,
 				["best"] = 216.8360000000002,
 			},
-			["10N"] = {
+			["N10"] = {
 				["best"] = 106.0999999999985,
 				["kills"] = 2,
 			},
 		},
 		[158] = {
-			["10N"] = {
+			["N10"] = {
 				["kills"] = 3,
 				["wipes"] = 2,
 				["best"] = 191.0019999999968,
 			},
 		},
 		[157] = {
-			["10N"] = {
+			["H10"] = {
+				["wipes"] = 19,
+			},
+			["N10"] = {
 				["best"] = 134.9200000000019,
 				["kills"] = 3,
 			},
-			["10H"] = {
-				["wipes"] = 19,
-			},
 		},
 		[167] = {
-			["10N"] = {
+			["N10"] = {
 				["kills"] = 3,
 				["best"] = 190.2940000000017,
 				["wipes"] = 1,
@@ -271,66 +263,66 @@ BigWigsStatsDB = {
 	},
 	[631] = {
 		[1636] = {
-			["10H"] = {
+			["H10"] = {
 				["wipes"] = 6,
 			},
 		},
 		[1625] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 43.31399999995483,
 				["kills"] = 1,
 			},
 		},
 		[1629] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 65.48600000003353,
 				["kills"] = 1,
 			},
 		},
 		[1633] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 98.17099999997299,
 				["kills"] = 1,
 			},
 		},
 		[1626] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 103.3949999999604,
 				["kills"] = 1,
 			},
 		},
 		[1630] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 42.19000000000233,
 				["kills"] = 1,
 			},
 		},
 		[1634] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 193.3640000000014,
 				["kills"] = 1,
 			},
 		},
 		[1631] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 70.02000000001863,
 				["kills"] = 1,
 			},
 		},
 		[1635] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 67.06199999997625,
 				["kills"] = 1,
 			},
 		},
 		[1624] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 45.87099999998463,
 				["kills"] = 1,
 			},
 		},
 		[1628] = {
-			["10H"] = {
+			["H10"] = {
 				["best"] = 56.64599999994971,
 				["kills"] = 1,
 			},
@@ -338,43 +330,43 @@ BigWigsStatsDB = {
 	},
 	[669] = {
 		[172] = {
-			["10N"] = {
+			["N10"] = {
 				["kills"] = 3,
 				["best"] = 146.3220000000001,
 				["wipes"] = 2,
 			},
 		},
 		[169] = {
-			["10N"] = {
+			["N10"] = {
 				["best"] = 150.8790000000008,
 				["kills"] = 3,
 			},
 		},
 		[173] = {
-			["10N"] = {
+			["N10"] = {
 				["best"] = 162.4990000000034,
 				["kills"] = 3,
 			},
 		},
 		[170] = {
-			["10N"] = {
+			["H10"] = {
+				["wipes"] = 12,
+			},
+			["N10"] = {
 				["kills"] = 3,
 				["wipes"] = 1,
 				["best"] = 160.0679999999993,
 			},
-			["10H"] = {
-				["wipes"] = 12,
-			},
 		},
 		[174] = {
-			["10N"] = {
+			["N10"] = {
 				["kills"] = 3,
 				["wipes"] = 10,
 				["best"] = 296.7860000000001,
 			},
 		},
 		[171] = {
-			["10N"] = {
+			["N10"] = {
 				["best"] = 194.8169999999991,
 				["kills"] = 3,
 			},
@@ -382,19 +374,16 @@ BigWigsStatsDB = {
 	},
 	[754] = {
 		[154] = {
-			["10N"] = {
+			["N10"] = {
 				["best"] = 169.780999999999,
 				["kills"] = 2,
 			},
 		},
 		[155] = {
-			["10N"] = {
+			["N10"] = {
 				["best"] = 196.4369999999981,
 				["kills"] = 2,
 			},
 		},
 	},
 }
-BigWigsClassicDB = nil
-BigWigsStatsClassicDB = nil
-BigWigsBarsReset = true

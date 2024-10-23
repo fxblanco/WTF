@@ -13,20 +13,30 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
-		[1715208778] = {
-			"Alsiadk", -- [1]
-			"44136", -- [2]
-			"Greater Inscription of the Pinnacle", -- [3]
+		[1713088791] = {
+			"Alsia", -- [1]
+			"44152", -- [2]
+			"Arcanum of Blissful Mending", -- [3]
 		},
 		[1715208770] = {
 			"Alsiadk", -- [1]
 			"44133", -- [2]
 			"Greater Inscription of the Axe", -- [3]
 		},
-		[1713088791] = {
-			"Alsia", -- [1]
-			"44152", -- [2]
-			"Arcanum of Blissful Mending", -- [3]
+		[1715208778] = {
+			"Alsiadk", -- [1]
+			"44136", -- [2]
+			"Greater Inscription of the Pinnacle", -- [3]
+		},
+		[1729379813] = {
+			"Exonuklease", -- [1]
+			"68765", -- [2]
+			"Arcanum of Hyjal", -- [3]
+		},
+		[1729379814] = {
+			"Exonuklease", -- [1]
+			"68765", -- [2]
+			"Arcanum of Hyjal", -- [3]
 		},
 	},
 	["displayOS"] = true,
@@ -42,13 +52,14 @@ TMBDB = {
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+		["Alslala - Venoxis"] = "Alslala - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Alslala - Venoxis"] = "Alslala - Venoxis",
+		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 		["Andrés - Venoxis"] = "Andrés - Venoxis",
 		["Lucho - Venoxis"] = "Lucho - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 	},
 	["profiles"] = {
@@ -60,11 +71,13 @@ TMBDB = {
 		},
 		["Kwasimojo - Venoxis"] = {
 		},
+		["Alslala - Venoxis"] = {
+		},
 		["Alsiadk - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
 		},
-		["Alslala - Venoxis"] = {
+		["Bloodwall - Venoxis"] = {
 		},
 		["Andrés - Venoxis"] = {
 		},
@@ -72,7 +85,7 @@ TMBDB = {
 		},
 		["Khalimmortus - Venoxis"] = {
 		},
-		["Bloodwall - Venoxis"] = {
+		["Endonuclease - Venoxis"] = {
 		},
 		["Maturitass - Venoxis"] = {
 		},

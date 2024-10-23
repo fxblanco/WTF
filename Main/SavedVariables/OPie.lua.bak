@@ -10,6 +10,9 @@ OPie_SavedData = {
 		},
 	},
 	["PersistentStorage"] = {
+		["AutoQuestWhitelist"] = {
+			[55122] = true,
+		},
 		["RingKeeper"] = {
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 3,

@@ -1,18 +1,21 @@
-VER 3 0000000000000B9F "focus" "132097"
+VER 3 0000000000000016 "_1_" "134400"
+/1 Stammgruppe sucht für 10er Heroic Raid Sonntag 20:30 - 1 DD (Hunter, Arms, Ret, Demo) & 1 OT oder Heal (Feral, HPally, BDK) - Stammplatz für FL möglich /w
+END
+VER 3 0000000000000011 "focus" "132097"
 /focus
 END
-VER 3 0000000000000BA0 "g_boots" "INV_Misc_QuestionMark"
+VER 3 0000000000000012 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 6
 END
-VER 3 0000000000000BA1 "g_hände" "132959"
+VER 3 0000000000000013 "g_hände" "132959"
 /use 10
 END
-VER 3 0000000000000BA2 "g_trinket_2" "INV_Misc_QuestionMark"
+VER 3 0000000000000014 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
-VER 3 0000000000000BA3 "RXPTargeting" "Ability_eyeoftheowl"
+VER 3 0000000000000015 "RXPTargeting" "132150"
 /targetexact Twilight Earthbinder
 /targetexact Twilight Shadowmender
 /targetexact Twilight Stalker

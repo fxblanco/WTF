@@ -8,9 +8,10 @@ DevToolDatabase = {
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 		["Alslala - Venoxis"] = "Alslala - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 	},
 	["profiles"] = {
 		["Alsla - Venoxis"] = {
@@ -27,11 +28,13 @@ DevToolDatabase = {
 		},
 		["Alslala - Venoxis"] = {
 		},
-		["Khalimmortus - Venoxis"] = {
-		},
 		["Bloodwall - Venoxis"] = {
 		},
+		["Khalimmortus - Venoxis"] = {
+		},
 		["Alsia - Venoxis"] = {
+		},
+		["Endonuclease - Venoxis"] = {
 		},
 	},
 }

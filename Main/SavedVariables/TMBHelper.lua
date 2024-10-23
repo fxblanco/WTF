@@ -13,20 +13,30 @@ ItemListsDB = {
 	["hideReceivedPrios"] = false,
 	["displayRank"] = true,
 	["lootTableTest"] = {
-		[1715208778] = {
-			"Alsiadk", -- [1]
-			"44136", -- [2]
-			"Greater Inscription of the Pinnacle", -- [3]
+		[1713088791] = {
+			"Alsia", -- [1]
+			"44152", -- [2]
+			"Arcanum of Blissful Mending", -- [3]
 		},
 		[1715208770] = {
 			"Alsiadk", -- [1]
 			"44133", -- [2]
 			"Greater Inscription of the Axe", -- [3]
 		},
-		[1713088791] = {
-			"Alsia", -- [1]
-			"44152", -- [2]
-			"Arcanum of Blissful Mending", -- [3]
+		[1715208778] = {
+			"Alsiadk", -- [1]
+			"44136", -- [2]
+			"Greater Inscription of the Pinnacle", -- [3]
+		},
+		[1729379813] = {
+			"Exonuklease", -- [1]
+			"68765", -- [2]
+			"Arcanum of Hyjal", -- [3]
+		},
+		[1729379814] = {
+			"Exonuklease", -- [1]
+			"68765", -- [2]
+			"Arcanum of Hyjal", -- [3]
 		},
 	},
 	["displayPrios"] = true,
@@ -42,6 +52,7 @@ TMBDB = {
 		["Alsía - Venoxis"] = "Alsía - Venoxis",
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
@@ -59,6 +70,8 @@ TMBDB = {
 		["Exonuklease - Venoxis"] = {
 		},
 		["Maturitass - Venoxis"] = {
+		},
+		["Endonuclease - Venoxis"] = {
 		},
 		["Alsiadk - Venoxis"] = {
 		},

@@ -7,6 +7,7 @@ DevToolDatabase = {
 		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 		["Alsia - Venoxis"] = "Alsia - Venoxis",
 		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
@@ -24,6 +25,8 @@ DevToolDatabase = {
 		["Alsiadk - Venoxis"] = {
 		},
 		["Alslahunt - Venoxis"] = {
+		},
+		["Endonuclease - Venoxis"] = {
 		},
 		["Alsia - Venoxis"] = {
 		},
