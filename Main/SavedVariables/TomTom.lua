@@ -1,166 +1,166 @@
 
 TomTomDB = {
-	["profileKeys"] = {
-		["Alsla - Venoxis"] = "MerfinUI v5.22",
-		["Xolem - Venoxis"] = "MerfinUI v5.22",
-		["Alsía - Venoxis"] = "MerfinUI v5.22",
-		["Exonuklease - Venoxis"] = "MerfinUI v5.27",
-		["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
-		["Endonuclease - Venoxis"] = "Default",
-		["Bloodwall - Venoxis"] = "Default",
-		["Alsiadk - Venoxis"] = "MerfinUI v5.22",
-		["Alsia - Venoxis"] = "MerfinUI v5.26",
-		["Alslahunt - Venoxis"] = "MerfinUI v5.22",
-		["Andrés - Venoxis"] = "MerfinUI v5.22",
-		["Lucho - Venoxis"] = "Default",
-		["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
-		["Alslala - Venoxis"] = "MerfinUI v5.22",
-		["Maturitass - Venoxis"] = "MerfinUI v5.22",
-	},
-	["profiles"] = {
-		["MerfinUI v5.22"] = {
-			["arrow"] = {
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					-64.00003814697266, -- [4]
-					206.0001068115234, -- [5]
-				},
-			},
-			["block"] = {
-				["fontsize"] = 17,
-				["position"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					0, -- [4]
-					-70, -- [5]
-				},
-				["enable"] = false,
-				["height"] = 40,
-				["width"] = 130,
-			},
-		},
-		["MerfinUI v5.27"] = {
-			["arrow"] = {
-				["position"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					0, -- [4]
-					-350, -- [5]
-				},
-			},
-			["block"] = {
-				["enable"] = false,
-				["width"] = 130,
-				["fontsize"] = 17,
-				["position"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					0, -- [4]
-					-70, -- [5]
-				},
-				["height"] = 40,
-			},
-		},
-		["Default"] = {
-			["arrow"] = {
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
-				},
-			},
-			["block"] = {
-				["position"] = {
-					"TOPLEFT", -- [1]
-					nil, -- [2]
-					"TOPLEFT", -- [3]
-					71.60015106201172, -- [4]
-					-171.3997802734375, -- [5]
-				},
-			},
-		},
-		["MerfinUI v5.26"] = {
-			["arrow"] = {
-				["position"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					0, -- [4]
-					-350, -- [5]
-				},
-			},
-			["block"] = {
-				["fontsize"] = 17,
-				["position"] = {
-					"TOP", -- [1]
-					nil, -- [2]
-					"TOP", -- [3]
-					0, -- [4]
-					-70, -- [5]
-				},
-				["enable"] = false,
-				["height"] = 40,
-				["width"] = 130,
-			},
-		},
-	},
+["profileKeys"] = {
+["Alsla - Venoxis"] = "MerfinUI v5.22",
+["Xolem - Venoxis"] = "MerfinUI v5.22",
+["Alsía - Venoxis"] = "MerfinUI v5.22",
+["Exonuklease - Venoxis"] = "MerfinUI v5.27",
+["Maturitass - Venoxis"] = "MerfinUI v5.22",
+["Alslala - Venoxis"] = "MerfinUI v5.22",
+["Alsia - Venoxis"] = "MerfinUI v5.26",
+["Alsiadk - Venoxis"] = "MerfinUI v5.22",
+["Bloodwall - Venoxis"] = "Default",
+["Lucho - Venoxis"] = "Default",
+["Andrés - Venoxis"] = "MerfinUI v5.22",
+["Alslahunt - Venoxis"] = "MerfinUI v5.22",
+["Khalimmortus - Venoxis"] = "MerfinUI v5.22",
+["Endonuclease - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "MerfinUI v5.22",
+},
+["profiles"] = {
+["MerfinUI v5.22"] = {
+["block"] = {
+["fontsize"] = 17,
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-70,
+},
+["enable"] = false,
+["height"] = 40,
+["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+-64.00003814697266,
+206.0001068115234,
+},
+},
+},
+["MerfinUI v5.26"] = {
+["block"] = {
+["fontsize"] = 17,
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-70,
+},
+["enable"] = false,
+["height"] = 40,
+["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
+},
+},
+["Default"] = {
+["block"] = {
+["position"] = {
+"TOPLEFT",
+nil,
+"TOPLEFT",
+71.60015106201172,
+-171.3997802734375,
+},
+},
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+0,
+},
+},
+},
+["MerfinUI v5.27"] = {
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
+},
+["block"] = {
+["enable"] = false,
+["width"] = 130,
+["fontsize"] = 17,
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-70,
+},
+["height"] = 40,
+},
+},
+},
 }
 TomTomWaypoints = nil
 TomTomWaypointsM = {
-	["profileKeys"] = {
-		["Alsla - Venoxis"] = "Alsla - Venoxis",
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslala - Venoxis"] = "Alslala - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-	},
-	["profiles"] = {
-		["Alsla - Venoxis"] = {
-		},
-		["Xolem - Venoxis"] = {
-		},
-		["Alsía - Venoxis"] = {
-		},
-		["Exonuklease - Venoxis"] = {
-		},
-		["Kwasimojo - Venoxis"] = {
-		},
-		["Endonuclease - Venoxis"] = {
-		},
-		["Bloodwall - Venoxis"] = {
-		},
-		["Alsiadk - Venoxis"] = {
-		},
-		["Alsia - Venoxis"] = {
-		},
-		["Alslahunt - Venoxis"] = {
-		},
-		["Andrés - Venoxis"] = {
-		},
-		["Lucho - Venoxis"] = {
-		},
-		["Khalimmortus - Venoxis"] = {
-		},
-		["Alslala - Venoxis"] = {
-		},
-		["Maturitass - Venoxis"] = {
-		},
-	},
+["profileKeys"] = {
+["Alsla - Venoxis"] = "Alsla - Venoxis",
+["Xolem - Venoxis"] = "Xolem - Venoxis",
+["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+["Alslala - Venoxis"] = "Alslala - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+["Lucho - Venoxis"] = "Lucho - Venoxis",
+["Andrés - Venoxis"] = "Andrés - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+},
+["profiles"] = {
+["Alsla - Venoxis"] = {
+},
+["Xolem - Venoxis"] = {
+},
+["Alsía - Venoxis"] = {
+},
+["Exonuklease - Venoxis"] = {
+},
+["Maturitass - Venoxis"] = {
+},
+["Alslala - Venoxis"] = {
+},
+["Alsia - Venoxis"] = {
+},
+["Alsiadk - Venoxis"] = {
+},
+["Bloodwall - Venoxis"] = {
+},
+["Lucho - Venoxis"] = {
+},
+["Andrés - Venoxis"] = {
+},
+["Alslahunt - Venoxis"] = {
+},
+["Khalimmortus - Venoxis"] = {
+},
+["Endonuclease - Venoxis"] = {
+},
+["Kwasimojo - Venoxis"] = {
+},
+},
 }

@@ -1,5 +1,5 @@
 
 LargerMacroIconSelectionDB = {
-	["height"] = 10,
-	["width"] = 10,
+["height"] = 10,
+["width"] = 10,
 }

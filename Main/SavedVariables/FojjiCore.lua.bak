@@ -2,5 +2,5 @@
 FTSavedVars = {
 }
 FojjiSkipWTF = {
-	["skip"] = true,
+["skip"] = true,
 }

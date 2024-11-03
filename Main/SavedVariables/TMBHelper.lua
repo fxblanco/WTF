@@ -1,93 +1,93 @@
 
 ItemListsDB = {
-	["displayGuildNote"] = true,
-	["displayPrioNote"] = true,
-	["displayAlts"] = true,
-	["maxNames"] = 3,
-	["forceReceivedList"] = false,
-	["enabled"] = true,
-	["itemNotes"] = {
-		["ID"] = 0,
-	},
-	["hideReceivedWishes"] = false,
-	["hideReceivedPrios"] = false,
-	["displayRank"] = true,
-	["lootTableTest"] = {
-		[1713088791] = {
-			"Alsia", -- [1]
-			"44152", -- [2]
-			"Arcanum of Blissful Mending", -- [3]
-		},
-		[1715208770] = {
-			"Alsiadk", -- [1]
-			"44133", -- [2]
-			"Greater Inscription of the Axe", -- [3]
-		},
-		[1715208778] = {
-			"Alsiadk", -- [1]
-			"44136", -- [2]
-			"Greater Inscription of the Pinnacle", -- [3]
-		},
-		[1729379813] = {
-			"Exonuklease", -- [1]
-			"68765", -- [2]
-			"Arcanum of Hyjal", -- [3]
-		},
-		[1729379814] = {
-			"Exonuklease", -- [1]
-			"68765", -- [2]
-			"Arcanum of Hyjal", -- [3]
-		},
-	},
-	["displayPrios"] = true,
-	["displayWishes"] = true,
-	["onlyRaidMembers"] = false,
-	["showMemberNotes"] = false,
-	["displayOS"] = true,
-	["onlyInRaid"] = false,
+["displayGuildNote"] = true,
+["displayPrioNote"] = true,
+["displayAlts"] = true,
+["maxNames"] = 3,
+["forceReceivedList"] = false,
+["enabled"] = true,
+["itemNotes"] = {
+["ID"] = 0,
+},
+["hideReceivedWishes"] = false,
+["hideReceivedPrios"] = false,
+["displayRank"] = true,
+["lootTableTest"] = {
+[1713088791] = {
+"Alsia",
+"44152",
+"Arcanum of Blissful Mending",
+},
+[1715208770] = {
+"Alsiadk",
+"44133",
+"Greater Inscription of the Axe",
+},
+[1715208778] = {
+"Alsiadk",
+"44136",
+"Greater Inscription of the Pinnacle",
+},
+[1729379813] = {
+"Exonuklease",
+"68765",
+"Arcanum of Hyjal",
+},
+[1729379814] = {
+"Exonuklease",
+"68765",
+"Arcanum of Hyjal",
+},
+},
+["displayOS"] = true,
+["displayWishes"] = true,
+["showMemberNotes"] = false,
+["onlyRaidMembers"] = false,
+["displayPrios"] = true,
+["onlyInRaid"] = false,
 }
 TMBDB = {
-	["profileKeys"] = {
-		["Xolem - Venoxis"] = "Xolem - Venoxis",
-		["Alsía - Venoxis"] = "Alsía - Venoxis",
-		["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-		["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-		["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-		["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-		["Alsia - Venoxis"] = "Alsia - Venoxis",
-		["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-		["Andrés - Venoxis"] = "Andrés - Venoxis",
-		["Lucho - Venoxis"] = "Lucho - Venoxis",
-		["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-		["Alslala - Venoxis"] = "Alslala - Venoxis",
-		["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-	},
-	["profiles"] = {
-		["Xolem - Venoxis"] = {
-		},
-		["Alsía - Venoxis"] = {
-		},
-		["Exonuklease - Venoxis"] = {
-		},
-		["Maturitass - Venoxis"] = {
-		},
-		["Endonuclease - Venoxis"] = {
-		},
-		["Alsiadk - Venoxis"] = {
-		},
-		["Alsia - Venoxis"] = {
-		},
-		["Bloodwall - Venoxis"] = {
-		},
-		["Andrés - Venoxis"] = {
-		},
-		["Lucho - Venoxis"] = {
-		},
-		["Khalimmortus - Venoxis"] = {
-		},
-		["Alslala - Venoxis"] = {
-		},
-		["Kwasimojo - Venoxis"] = {
-		},
-	},
+["profileKeys"] = {
+["Xolem - Venoxis"] = "Xolem - Venoxis",
+["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alslala - Venoxis"] = "Alslala - Venoxis",
+["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+["Andrés - Venoxis"] = "Andrés - Venoxis",
+["Lucho - Venoxis"] = "Lucho - Venoxis",
+["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Maturitass - Venoxis"] = "Maturitass - Venoxis",
+},
+["profiles"] = {
+["Xolem - Venoxis"] = {
+},
+["Alsía - Venoxis"] = {
+},
+["Exonuklease - Venoxis"] = {
+},
+["Kwasimojo - Venoxis"] = {
+},
+["Alslala - Venoxis"] = {
+},
+["Alsiadk - Venoxis"] = {
+},
+["Alsia - Venoxis"] = {
+},
+["Bloodwall - Venoxis"] = {
+},
+["Andrés - Venoxis"] = {
+},
+["Lucho - Venoxis"] = {
+},
+["Khalimmortus - Venoxis"] = {
+},
+["Endonuclease - Venoxis"] = {
+},
+["Maturitass - Venoxis"] = {
+},
+},
 }
