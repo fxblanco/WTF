@@ -10,7 +10,7 @@ GargulDB = {
 },
 ["LoadDetails"] = {
 ["7.4.5"] = 1713563130,
-["lastLoadedOn"] = 1730673269,
+["lastLoadedOn"] = 1730677284,
 ["7.4.6"] = 1713722796,
 ["7.5.13"] = 1725818287,
 ["7.4.8"] = 1714559755,
@@ -186,21 +186,21 @@ GargulDB = {
 ["itemLink"] = "|cffa335ee|Hitem:65054::::::::85:::::::::|h[Mantle of Roaring Flames]|h|r",
 ["received"] = true,
 },
-["33558371111303814311"] = {
-["checksum"] = "33558371111303814311",
+["78975882113038143110"] = {
+["checksum"] = "78975882113038143110",
 ["Rolls"] = {
 },
 ["OS"] = false,
 ["WL"] = false,
 ["TMB"] = false,
 ["SR"] = false,
-["awardedBy"] = "Loride-Venoxis",
-["itemID"] = 65374,
-["received"] = true,
-["timestamp"] = 1730230251,
-["PL"] = false,
-["itemLink"] = "|cffa335ee|Hitem:65374::::::-230:750060064:85:::::::::|h[Gale Rouser Belt of the Feverflare]|h|r",
+["awardedBy"] = "Seleria-Venoxis",
+["itemID"] = 65125,
 ["awardedTo"] = "||de||",
+["PL"] = false,
+["timestamp"] = 1729278867,
+["itemLink"] = "|cffa335ee|Hitem:65125::::::::85:::::::::|h[Kilt of the Forgotten Battle]|h|r",
+["received"] = true,
 },
 ["38099383801303814311"] = {
 ["checksum"] = "38099383801303814311",
@@ -250,21 +250,21 @@ GargulDB = {
 ["itemLink"] = "|cffa335ee|Hitem:65024::::::::85:::::::::|h[Crul'korak, the Lightning's Arc]|h|r",
 ["received"] = true,
 },
-["42973113013038143110"] = {
-["checksum"] = "42973113013038143110",
+["33558371111303814311"] = {
+["checksum"] = "33558371111303814311",
 ["Rolls"] = {
 },
 ["OS"] = false,
 ["WL"] = false,
 ["TMB"] = false,
 ["SR"] = false,
-["awardedBy"] = "Seleria-Venoxis",
-["itemID"] = 65041,
-["awardedTo"] = "||de||",
-["PL"] = false,
-["timestamp"] = 1729282279,
-["itemLink"] = "|cffa335ee|Hitem:65041::::::::85:::::::::|h[Incineratus]|h|r",
+["awardedBy"] = "Loride-Venoxis",
+["itemID"] = 65374,
 ["received"] = true,
+["timestamp"] = 1730230251,
+["PL"] = false,
+["itemLink"] = "|cffa335ee|Hitem:65374::::::-230:750060064:85:::::::::|h[Gale Rouser Belt of the Feverflare]|h|r",
+["awardedTo"] = "||de||",
 },
 ["22764386631303814311"] = {
 ["checksum"] = "22764386631303814311",
@@ -426,8 +426,8 @@ GargulDB = {
 ["itemLink"] = "|cffa335ee|Hitem:65002::::::::85:::::::::|h[Crown of the Forlorn Vanquisher]|h|r",
 ["received"] = true,
 },
-["24219161613038143110"] = {
-["checksum"] = "24219161613038143110",
+["91676865113038143110"] = {
+["checksum"] = "91676865113038143110",
 ["Rolls"] = {
 },
 ["OS"] = false,
@@ -435,11 +435,11 @@ GargulDB = {
 ["TMB"] = false,
 ["SR"] = false,
 ["awardedBy"] = "Seleria-Venoxis",
-["itemID"] = 65019,
+["itemID"] = 65002,
 ["awardedTo"] = "||de||",
 ["PL"] = false,
-["timestamp"] = 1729284643,
-["itemLink"] = "|cffa335ee|Hitem:65019::::::::85:::::::::|h[Shadowblaze Robes]|h|r",
+["timestamp"] = 1729280471,
+["itemLink"] = "|cffa335ee|Hitem:65002::::::::85:::::::::|h[Crown of the Forlorn Vanquisher]|h|r",
 ["received"] = true,
 },
 ["22771975741303814311"] = {
@@ -554,6 +554,22 @@ GargulDB = {
 ["itemLink"] = "|cffa335ee|Hitem:65368::::::-235:29229600:85:::::::::|h[Star Chaser Belt of the Windstorm]|h|r",
 ["awardedTo"] = "||de||",
 },
+["24219161613038143110"] = {
+["checksum"] = "24219161613038143110",
+["Rolls"] = {
+},
+["OS"] = false,
+["WL"] = false,
+["TMB"] = false,
+["SR"] = false,
+["awardedBy"] = "Seleria-Venoxis",
+["itemID"] = 65019,
+["awardedTo"] = "||de||",
+["PL"] = false,
+["timestamp"] = 1729284643,
+["itemLink"] = "|cffa335ee|Hitem:65019::::::::85:::::::::|h[Shadowblaze Robes]|h|r",
+["received"] = true,
+},
 ["28204506651303814311"] = {
 ["checksum"] = "28204506651303814311",
 ["Rolls"] = {
@@ -568,22 +584,6 @@ GargulDB = {
 ["PL"] = false,
 ["timestamp"] = 1729282360,
 ["itemLink"] = "|cffa335ee|Hitem:65076::::::::85:::::::::|h[Security Measure Alpha]|h|r",
-["received"] = true,
-},
-["91676865113038143110"] = {
-["checksum"] = "91676865113038143110",
-["Rolls"] = {
-},
-["OS"] = false,
-["WL"] = false,
-["TMB"] = false,
-["SR"] = false,
-["awardedBy"] = "Seleria-Venoxis",
-["itemID"] = 65002,
-["awardedTo"] = "||de||",
-["PL"] = false,
-["timestamp"] = 1729280471,
-["itemLink"] = "|cffa335ee|Hitem:65002::::::::85:::::::::|h[Crown of the Forlorn Vanquisher]|h|r",
 ["received"] = true,
 },
 ["65136264130381431100"] = {
@@ -956,8 +956,8 @@ GargulDB = {
 ["itemLink"] = "|cffa335ee|Hitem:65069::::::::85:::::::::|h[Quickstep Galoshes]|h|r",
 ["received"] = true,
 },
-["78975882113038143110"] = {
-["checksum"] = "78975882113038143110",
+["42973113013038143110"] = {
+["checksum"] = "42973113013038143110",
 ["Rolls"] = {
 },
 ["OS"] = false,
@@ -965,11 +965,11 @@ GargulDB = {
 ["TMB"] = false,
 ["SR"] = false,
 ["awardedBy"] = "Seleria-Venoxis",
-["itemID"] = 65125,
+["itemID"] = 65041,
 ["awardedTo"] = "||de||",
 ["PL"] = false,
-["timestamp"] = 1729278867,
-["itemLink"] = "|cffa335ee|Hitem:65125::::::::85:::::::::|h[Kilt of the Forgotten Battle]|h|r",
+["timestamp"] = 1729282279,
+["itemLink"] = "|cffa335ee|Hitem:65041::::::::85:::::::::|h[Incineratus]|h|r",
 ["received"] = true,
 },
 ["24420803431303814311"] = {
@@ -1160,13 +1160,13 @@ GargulDB = {
 ["BidderQueue"] = {
 ["Window"] = {
 ["Dimensions"] = {
-["height"] = 308.9997253417969,
+["height"] = 308.999755859375,
 ["scale"] = 1,
-["width"] = 275.9999694824219,
+["width"] = 275.9999389648438,
 },
 ["Position"] = {
 ["point"] = "TOPLEFT",
-["offsetY"] = -164.9998779296875,
+["offsetY"] = -164.9998931884766,
 ["offsetX"] = 206.0011901855469,
 ["relativePoint"] = "TOPLEFT",
 },

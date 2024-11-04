@@ -77930,13 +77930,13 @@ WeakAurasOptionsSaved = {
 ["version"] = "5.17.4",
 ["savedSnippets"] = {
 },
-["frame"] = {
-["xOffset"] = 2405.400512695313,
-["width"] = 945.199951171875,
-["height"] = 1051.099975585938,
-["yOffset"] = 1374.099365234375,
-},
-["spellCacheStrings"] = true,
 ["spellCacheAchievements"] = true,
+["spellCacheStrings"] = true,
+["frame"] = {
+["xOffset"] = 2486.46630859375,
+["yOffset"] = 1534.098999023438,
+["height"] = 1051.099975585938,
+["width"] = 945.19970703125,
+},
 ["build"] = "57294",
 }

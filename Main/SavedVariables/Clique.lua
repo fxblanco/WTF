@@ -640,14 +640,6 @@ CliqueDB3 = {
 ["spell"] = "Hand of Freedom",
 },
 {
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][] Divine Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON2",
@@ -665,21 +657,20 @@ CliqueDB3 = {
 ["spell"] = "Divine Intervention",
 },
 {
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
 ["type"] = "macro",
 ["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["type"] = "spell",
-["key"] = "CTRL-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135928,
-["spell"] = "Lay on Hands",
 },
 {
 ["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
@@ -696,6 +687,15 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["type"] = "spell",
+["key"] = "CTRL-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135928,
+["spell"] = "Lay on Hands",
 },
 {
 ["spell"] = "Hand of Salvation",
