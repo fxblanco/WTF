@@ -25749,8 +25749,8 @@ WeakAurasOptionsSaved = {
 ["Electric Charge"] = {
 ["spells"] = "89202=252174",
 },
-["Heroic: Majordomo Fandral Staghelm"] = {
-["achievements"] = "5804=512827",
+["Sated"] = {
+["spells"] = "57724=136090,109891=136090,402663=136090",
 },
 ["Possessed Arrows"] = {
 ["spells"] = "42329=135809",
@@ -25758,8 +25758,8 @@ WeakAurasOptionsSaved = {
 ["Dan's Test Mount Passenger"] = {
 ["spells"] = "62063=134060",
 },
-["Create Suntouched Heartblood"] = {
-["spells"] = "52967=134816",
+["Double Dragon"] = {
+["achievements"] = "4852=429379",
 },
 ["Bull Rush"] = {
 ["spells"] = "4083=132368",
@@ -25767,26 +25767,26 @@ WeakAurasOptionsSaved = {
 ["Increase Spell Dam 15"] = {
 ["spells"] = "27918=136244",
 },
-["Heroic: Alysrazor"] = {
-["achievements"] = "5809=512826",
+["Aberrant Behavior"] = {
+["achievements"] = "5310=366936",
 },
-["Heroic: Lord Rhyolith"] = {
-["achievements"] = "5808=524350",
+["The Abyss Will Gaze Back Into You"] = {
+["achievements"] = "5312=462324",
 },
 ["Relentlessness"] = {
 ["spells"] = "37601=135921",
 },
-["Heroic: Beth'tilac"] = {
-["achievements"] = "5807=524349",
+["Silence is Golden"] = {
+["achievements"] = "5308=133706",
 },
-["Formidable"] = {
-["spells"] = "71187=132091",
+["Create Suntouched Heartblood"] = {
+["spells"] = "52967=134816",
 },
 ["Bomb Condition: Excellent"] = {
 ["spells"] = "65831=133009,65898=133009",
 },
-["Sated"] = {
-["spells"] = "57724=136090,109891=136090,402663=136090",
+["Heroic: Alysrazor"] = {
+["achievements"] = "5809=512826",
 },
 ["Fel Iron Plate Boots"] = {
 ["spells"] = "29548=136192",
@@ -25800,26 +25800,26 @@ WeakAurasOptionsSaved = {
 ["Improved Starfire"] = {
 ["spells"] = "34292=136096",
 },
-["Double Dragon"] = {
-["achievements"] = "4852=429379",
+["Heroic: Beth'tilac"] = {
+["achievements"] = "5807=524349",
 },
-["Aberrant Behavior"] = {
-["achievements"] = "5310=366936",
+["Heroic: Majordomo Fandral Staghelm"] = {
+["achievements"] = "5804=512827",
 },
-["The Abyss Will Gaze Back Into You"] = {
-["achievements"] = "5312=462324",
+["Formidable"] = {
+["spells"] = "71187=132091",
 },
 ["Execution Sentence"] = {
 ["spells"] = "80727=236281,80728=236281,80729=136193,80738=136193",
 },
-["Silence is Golden"] = {
-["achievements"] = "5308=133706",
+["Throne of the Four Winds"] = {
+["achievements"] = "4851=254501",
 },
 ["Enchant Chest - Minor Mana"] = {
 ["spells"] = "7443=135913",
 },
-["Throne of the Four Winds"] = {
-["achievements"] = "4851=254501",
+["Heroic: Valiona and Theralion"] = {
+["achievements"] = "5117=429379",
 },
 ["Replenishment"] = {
 ["spells"] = "57669=237551",
@@ -25833,9 +25833,6 @@ WeakAurasOptionsSaved = {
 ["Careful Aim"] = {
 ["spells"] = "34482=132217,34483=132217",
 },
-["Heroic: Valiona and Theralion"] = {
-["achievements"] = "5117=429379",
-},
 ["The Bastion of Twilight"] = {
 ["achievements"] = "4850=425950",
 },
@@ -25845,26 +25842,26 @@ WeakAurasOptionsSaved = {
 ["Horde Reputation"] = {
 ["spells"] = "26125=132485",
 },
+["Heroic: Atramedes"] = {
+["achievements"] = "5109=426494",
+},
 ["Arcane Binding"] = {
 ["spells"] = "99295=135834",
 },
 ["Mooncloth Boots"] = {
 ["spells"] = "19435=132149,19437=136021",
 },
-["Heroic: Atramedes"] = {
-["achievements"] = "5109=426494",
-},
 ["Heroic: Maloriak"] = {
 ["achievements"] = "5108=429380",
+},
+["Blackwing Descent"] = {
+["achievements"] = "4842=254649",
 },
 ["Stone Drake Dismount Me Ping Aura"] = {
 ["spells"] = "93804=136196",
 },
 ["The 'Unbeatable?' Pterodactyl: BEATEN."] = {
 ["achievements"] = "5860=132200",
-},
-["Blackwing Descent"] = {
-["achievements"] = "4842=254649",
 },
 ["Elementary"] = {
 ["achievements"] = "5311=429378",
@@ -25875,17 +25872,17 @@ WeakAurasOptionsSaved = {
 ["Heroic: Al'Akir"] = {
 ["achievements"] = "5123=254501",
 },
-["Red Beam"] = {
-["spells"] = "31513=135827,31515=135827,34397=135827,36295=136131,40228=135827,72594=135951",
-},
 ["Heroic: Cho'gall"] = {
 ["achievements"] = "5120=429376",
 },
-["Dusky Belt"] = {
-["spells"] = "9206=136247",
+["Red Beam"] = {
+["spells"] = "31513=135827,31515=135827,34397=135827,36295=136131,40228=135827,72594=135951",
 },
 ["Full of Sound and Fury"] = {
 ["achievements"] = "5309=458971",
+},
+["Dusky Belt"] = {
+["spells"] = "9206=136247",
 },
 ["The Faceroller"] = {
 ["achievements"] = "3803=132326",
@@ -25899,14 +25896,17 @@ WeakAurasOptionsSaved = {
 ["The Only Escape"] = {
 ["achievements"] = "5300=133802",
 },
+["Achieve-a-tron"] = {
+["achievements"] = "5307=415046",
+},
 ["Shroud"] = {
 ["spells"] = "52006=136177",
 },
 ["Plant Green Seedling"] = {
 ["spells"] = "34761=136025",
 },
-["Achieve-a-tron"] = {
-["achievements"] = "5307=415046",
+["Heroic: Lord Rhyolith"] = {
+["achievements"] = "5808=524350",
 },
 ["Dark Iron Boots"] = {
 ["spells"] = "24399=136192",
@@ -26538,17 +26538,17 @@ WeakAurasOptionsSaved = {
 ["Activated"] = {
 ["spells"] = "78740=132488",
 },
-["Nuts"] = {
-["spells"] = "100970=133944",
+["Heroic: The Stonecore"] = {
+["achievements"] = "5063=409595",
 },
-["Protocol Inferno: Grim Batol"] = {
-["achievements"] = "41143=409596",
+["To the Ground!"] = {
+["achievements"] = "5504=135961",
 },
 ["Altered Cauldron Toxin"] = {
 ["spells"] = "17650=135903",
 },
-["Hat of Wintry Doom"] = {
-["spells"] = "56018=136249",
+["LK Arena 6 Gladiator's Idol of Resolve"] = {
+["spells"] = "60701=136030",
 },
 ["Sample Ley Line Field"] = {
 ["spells"] = "45191=134075",
@@ -26562,8 +26562,8 @@ WeakAurasOptionsSaved = {
 ["Swift Shot"] = {
 ["spells"] = "34181=136181",
 },
-["Heroic: The Stonecore"] = {
-["achievements"] = "5063=409595",
+["Heroic: Lost City of the Tol'vir"] = {
+["achievements"] = "5066=409598",
 },
 ["Brushfire Burned Area Visualization"] = {
 ["spells"] = "80102=136201",
@@ -26577,14 +26577,14 @@ WeakAurasOptionsSaved = {
 ["Ebon Netherscale Bracers"] = {
 ["spells"] = "35577=136247",
 },
-["To the Ground!"] = {
-["achievements"] = "5504=135961",
+["Heroic: Grim Batol"] = {
+["achievements"] = "5062=409596",
 },
-["LK Arena 6 Gladiator's Idol of Resolve"] = {
-["spells"] = "60701=136030",
+["Prototype Prodigy"] = {
+["achievements"] = "5368=133015",
 },
-["Heroic: Lost City of the Tol'vir"] = {
-["achievements"] = "5066=409598",
+["I'm on a Diet"] = {
+["achievements"] = "5370=237329",
 },
 ["Damage Reduction: Frost"] = {
 ["spells"] = "34334=135851",
@@ -26601,14 +26601,14 @@ WeakAurasOptionsSaved = {
 ["Teleport to Baleroc"] = {
 ["spells"] = "108884=136222",
 },
-["Heroic: Grim Batol"] = {
-["achievements"] = "5062=409596",
+["Baelog's Warcry"] = {
+["spells"] = "87277=136012,87280=136012,87285=136012",
 },
-["Prototype Prodigy"] = {
-["achievements"] = "5368=133015",
+["Shadow Fog"] = {
+["spells"] = "102054=136129",
 },
-["I'm on a Diet"] = {
-["achievements"] = "5370=237329",
+["Heroic: Halls of Origination"] = {
+["achievements"] = "5065=409597",
 },
 ["Shatter Chest"] = {
 ["spells"] = "62501=135846,62502=135846,65272=135846",
@@ -26631,8 +26631,8 @@ WeakAurasOptionsSaved = {
 ["Romulo's Poison"] = {
 ["spells"] = "34586=135934,34587=135990",
 },
-["Baelog's Warcry"] = {
-["spells"] = "87277=136012,87280=136012,87285=136012",
+["Too Hot to Handle"] = {
+["achievements"] = "5283=462728",
 },
 ["Redeemed Soul Wristguards"] = {
 ["spells"] = "40004=136247",
@@ -26643,14 +26643,14 @@ WeakAurasOptionsSaved = {
 ["Summon Hookshot Vehicle (Ground)"] = {
 ["spells"] = "73969=135593",
 },
-["Shadow Fog"] = {
-["spells"] = "102054=136129",
+["Heroic: Blackrock Caverns"] = {
+["achievements"] = "5060=409594",
 },
-["Heroic: Halls of Origination"] = {
-["achievements"] = "5065=409597",
+["Ready for Raiding"] = {
+["achievements"] = "5366=135789",
 },
-["Too Hot to Handle"] = {
-["achievements"] = "5283=462728",
+["Bear-ly Made It"] = {
+["achievements"] = "5858=446127",
 },
 ["Teleport to Mast Room"] = {
 ["spells"] = "95770=135743",
@@ -26667,23 +26667,23 @@ WeakAurasOptionsSaved = {
 ["Pyroblast"] = {
 ["spells"] = "11366=135808,17273=135808,17274=135808,20228=135808,24995=135817,29459=135808,29978=135812,31263=135808,33975=135808,36277=135808,36819=135812,38535=135808,41578=135808,56591=135808,64698=135808,70516=135810,99850=135808,101381=135808,101809=135808",
 },
-["Heroic: Blackrock Caverns"] = {
-["achievements"] = "5060=409594",
+["Heroic: Zul'Gurub"] = {
+["achievements"] = "5768=512828",
 },
-["Ready for Raiding"] = {
-["achievements"] = "5366=135789",
+["Heroic: Zul'Aman"] = {
+["achievements"] = "5769=515994",
 },
 ["Stormcloth Vest"] = {
 ["spells"] = "12068=132149",
 },
-["Bear-ly Made It"] = {
-["achievements"] = "5858=446127",
+["Protocol Inferno: Lost City of the Tol'vir"] = {
+["achievements"] = "41145=409598",
 },
 ["Unholy Light"] = {
 ["spells"] = "58153=135920",
 },
-["Heroic: Zul'Gurub"] = {
-["achievements"] = "5768=512828",
+["Summon Fleet Master Seahorn"] = {
+["spells"] = "96584=132276",
 },
 ["Heartbreak"] = {
 ["spells"] = "64193=135767,65737=135767",
@@ -26709,11 +26709,11 @@ WeakAurasOptionsSaved = {
 ["Can Eat - Cranberries"] = {
 ["spells"] = "61798=133958",
 },
-["Heroic: Zul'Aman"] = {
-["achievements"] = "5769=515994",
+["Pardon Denied"] = {
+["achievements"] = "5503=236281",
 },
-["Protocol Inferno: Lost City of the Tol'vir"] = {
-["achievements"] = "41145=409598",
+["Create Sapta"] = {
+["spells"] = "9200=133951",
 },
 ["Summon Southsea Burnmaster"] = {
 ["spells"] = "86118=134140,86119=134140,86120=134140,86178=134140,86179=134140",
@@ -26730,14 +26730,14 @@ WeakAurasOptionsSaved = {
 ["Fireball Trigger"] = {
 ["spells"] = "75865=132200",
 },
-["Summon Fleet Master Seahorn"] = {
-["spells"] = "96584=132276",
+["Protocol Inferno: Grim Batol"] = {
+["achievements"] = "41143=409596",
 },
-["Pardon Denied"] = {
-["achievements"] = "5503=236281",
+["Hat of Wintry Doom"] = {
+["spells"] = "56018=136249",
 },
-["Create Sapta"] = {
-["spells"] = "9200=133951",
+["Nuts"] = {
+["spells"] = "100970=133944",
 },
 ["Super Invis"] = {
 ["spells"] = "8149=135994,51913=135994",
@@ -29882,17 +29882,14 @@ WeakAurasOptionsSaved = {
 ["Throw Passenger"] = {
 ["spells"] = "47792=132345,62324=252175",
 },
-["Cataclysmically Epic"] = {
-["achievements"] = "5372=132885",
-},
 ["Plasma"] = {
 ["spells"] = "54582=136133,54583=136133",
 },
-["Direct Hit!"] = {
-["spells"] = "47328=135805",
-},
 ["Going Down?"] = {
 ["achievements"] = "964=237570",
+},
+["Direct Hit!"] = {
+["spells"] = "47328=135805",
 },
 ["Dual Talent Specialization"] = {
 ["achievements"] = "2716=236544",
@@ -29900,17 +29897,20 @@ WeakAurasOptionsSaved = {
 ["Icy Energy"] = {
 ["spells"] = "24405=135845",
 },
+["Greedy"] = {
+["achievements"] = "558=133787",
+},
 ["Spirit Particles (red, big)"] = {
 ["spells"] = "31309=135864",
 },
-["Greedy"] = {
-["achievements"] = "558=133787",
+["Epic"] = {
+["achievements"] = "556=132885",
 },
 ["Smothering Submerge"] = {
 ["spells"] = "98248=136100",
 },
-["Epic"] = {
-["achievements"] = "556=132885",
+["Safe Deposit"] = {
+["achievements"] = "546=132594",
 },
 ["Shadowflame"] = {
 ["spells"] = "37378=136196,47897=236302,47960=236302,51337=136201,51338=135817,63938=237171,77676=135808,77718=136201,79921=136196,80081=136196,80270=136196,80272=136196,85490=236302,85800=136201,95365=136196,95369=136196,95370=136196,95505=136196,96848=425957,96849=136201,99156=425951",
@@ -29924,8 +29924,8 @@ WeakAurasOptionsSaved = {
 ["Throw Skull"] = {
 ["spells"] = "42350=132384,42351=133730",
 },
-["Safe Deposit"] = {
-["achievements"] = "546=132594",
+["Shave and a Haircut"] = {
+["achievements"] = "545=133801",
 },
 ["Polymorph"] = {
 ["spells"] = "118=136071,13323=136071,14621=136071,15534=136071,27760=136071,28271=132199,28272=135997,28285=135997,29124=136071,29848=136071,30838=136071,34639=136065,36840=136071,38245=136071,38896=136071,41334=136071,43309=136071,46280=136071,56600=237171,58537=136071,61025=136040,61305=236547,61721=319458,61780=236708,65801=136071,66043=136071,71319=236708,76826=136071",
@@ -29933,38 +29933,38 @@ WeakAurasOptionsSaved = {
 ["Cry of the Dead"] = {
 ["spells"] = "32938=136222",
 },
-["Shave and a Haircut"] = {
-["achievements"] = "545=133801",
-},
 ["Fester Blood"] = {
 ["spells"] = "82299=136195",
-},
-["Manual of Clouds"] = {
-["spells"] = "59494=132918",
 },
 ["Filling Up The Barn"] = {
 ["achievements"] = "2142=132259",
 },
-["Create Tabard of Summer Flames"] = {
-["spells"] = "62769=135016",
+["Manual of Clouds"] = {
+["spells"] = "59494=132918",
 },
 ["Plenty of Pets"] = {
 ["achievements"] = "15=132599",
 },
+["Create Tabard of Summer Flames"] = {
+["spells"] = "62769=135016",
+},
 ["Level 85"] = {
 ["achievements"] = "4826=409544",
 },
-["Exhaustion Removal"] = {
-["spells"] = "70996=135767",
-},
 ["Luck of the Draw"] = {
 ["spells"] = "72221=237284",
+},
+["Exhaustion Removal"] = {
+["spells"] = "70996=135767",
 },
 ["Cataclysmically Superior"] = {
 ["achievements"] = "5373=135865",
 },
 ["Got My Mind On My Money"] = {
 ["achievements"] = "1181=133784,5455=133784",
+},
+["Cataclysmically Epic"] = {
+["achievements"] = "5372=132885",
 },
 ["Sic 'Em!"] = {
 ["spells"] = "83340=461121,83356=461121,83359=461121,89388=461121",
@@ -77927,16 +77927,16 @@ WeakAurasOptionsSaved = {
 },
 ["locale"] = "enUS",
 ["needsRebuild"] = false,
-["version"] = "5.17.4",
+["version"] = "5.17.5",
 ["savedSnippets"] = {
 },
-["spellCacheAchievements"] = true,
 ["spellCacheStrings"] = true,
 ["frame"] = {
-["xOffset"] = 2486.46630859375,
-["yOffset"] = 1534.098999023438,
-["height"] = 1051.099975585938,
+["xOffset"] = 2280.600341796875,
 ["width"] = 945.19970703125,
+["height"] = 1051.099975585938,
+["yOffset"] = 1496.966552734375,
 },
-["build"] = "57294",
+["spellCacheAchievements"] = true,
+["build"] = "57564",
 }

@@ -15,6 +15,12 @@ VER 3 0000000000000014 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
+VER 3 0000000000000017 "petatt" "134400"
+/petattack
+END
+VER 3 0000000000000018 "petfoll" "134400"
+/petfollow
+END
 VER 3 0000000000000015 "RXPTargeting" "132150"
 /targetexact Twilight Earthbinder
 /targetexact Twilight Shadowmender

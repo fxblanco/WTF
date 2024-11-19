@@ -5,23 +5,23 @@ BisTooltipDB = {
 ["Xolem - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
-["Kwasimojo - Venoxis"] = "Default",
-["Alslala - Venoxis"] = "Default",
+["Maturitass - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
 ["Lucho - Venoxis"] = "Default",
+["Bloodwall - Venoxis"] = "Default",
 ["Alsiadk - Venoxis"] = "Default",
-["Alslalu - Venoxis"] = "Default",
 ["Alsia - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Andrés - Venoxis"] = "Default",
-["Bloodwall - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
 ["Khalimmortus - Venoxis"] = "Default",
-["Endonuclease - Venoxis"] = "Default",
-["Maturitass - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
 },
 ["char"] = {
 ["Alsla - Venoxis"] = {
-["data_source"] = "wh",
 ["version"] = 8,
+["data_source"] = "wh",
 ["phase_index"] = 2,
 },
 ["Xolem - Venoxis"] = {
@@ -42,33 +42,30 @@ BisTooltipDB = {
 ["data_source"] = "wh",
 ["phase_index"] = 2,
 },
-["Kwasimojo - Venoxis"] = {
+["Maturitass - Venoxis"] = {
 ["data_source"] = "wh",
 ["version"] = 8,
 },
-["Alslala - Venoxis"] = {
-["data_source"] = "wh",
+["Endonuclease - Venoxis"] = {
 ["version"] = 8,
-["phase_index"] = 2,
+["data_source"] = "wh",
 },
 ["Lucho - Venoxis"] = {
 ["data_source"] = "wh",
 ["version"] = 6.2,
 },
+["Bloodwall - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
 ["Alsiadk - Venoxis"] = {
 ["data_source"] = "wh",
 ["version"] = 8,
 },
-["Alslalu - Venoxis"] = {
-["class_index"] = 8,
-["version"] = 8,
-["data_source"] = "wh",
-["phase_index"] = 2,
-},
 ["Alsia - Venoxis"] = {
 ["minimapPos"] = 173.254854658173,
-["phase_index"] = 2,
-["class_index"] = 5,
+["spec_index"] = 3,
+["class_index"] = 3,
 ["data_source"] = "wh",
 ["version"] = 8,
 },
@@ -83,21 +80,24 @@ BisTooltipDB = {
 ["data_source"] = "wh",
 ["version"] = 8,
 },
-["Bloodwall - Venoxis"] = {
-["data_source"] = "wh",
+["Alslalu - Venoxis"] = {
+["class_index"] = 3,
 ["version"] = 8,
+["data_source"] = "wh",
+["phase_index"] = 2,
 },
 ["Khalimmortus - Venoxis"] = {
 ["minimapPos"] = 273.5075123040884,
-["data_source"] = "wh",
 ["version"] = 6.2,
+["data_source"] = "wh",
 ["phase_index"] = 3,
 },
-["Endonuclease - Venoxis"] = {
+["Alslala - Venoxis"] = {
 ["version"] = 8,
 ["data_source"] = "wh",
+["phase_index"] = 2,
 },
-["Maturitass - Venoxis"] = {
+["Kwasimojo - Venoxis"] = {
 ["data_source"] = "wh",
 ["version"] = 8,
 },
