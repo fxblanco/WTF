@@ -2,6 +2,224 @@
 ReforgeLiteDB = {
 ["char"] = {
 ["Alsla - Venoxis"] = {
+["method"] = {
+["items"] = {
+{
+["dst"] = 4,
+["src"] = 7,
+["reforge"] = 46,
+["amount"] = 78,
+},
+{
+["dst"] = 6,
+["src"] = 2,
+["reforge"] = 12,
+["amount"] = 55,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["reforge"] = 53,
+["amount"] = 57,
+},
+{
+["dst"] = 4,
+["src"] = 7,
+["reforge"] = 46,
+["amount"] = 86,
+},
+{
+["dst"] = 6,
+["src"] = 3,
+["reforge"] = 19,
+["amount"] = 57,
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["reforge"] = 53,
+["amount"] = 68,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 64,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 102,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 76,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 45,
+},
+{
+["dst"] = 6,
+["src"] = 3,
+["reforge"] = 19,
+["amount"] = 57,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 7,
+["reforge"] = 46,
+["amount"] = 145,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 102,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 28,
+},
+},
+["stats"] = {
+61,
+295,
+1457,
+959,
+177,
+1538,
+1008,
+1788,
+},
+},
+["weights"] = {
+nil,
+nil,
+nil,
+220,
+50,
+150,
+210,
+130,
+},
+["storedMethod"] = {
+["items"] = {
+{
+["dst"] = 4,
+["src"] = 7,
+["amount"] = 78,
+["reforge"] = 46,
+},
+{
+["dst"] = 6,
+["src"] = 2,
+["amount"] = 55,
+["reforge"] = 12,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["amount"] = 57,
+["reforge"] = 53,
+},
+{
+["dst"] = 4,
+["src"] = 7,
+["amount"] = 86,
+["reforge"] = 46,
+},
+{
+["dst"] = 6,
+["src"] = 3,
+["amount"] = 57,
+["reforge"] = 19,
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["amount"] = 68,
+["reforge"] = 53,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["amount"] = 64,
+["reforge"] = 10,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 102,
+["reforge"] = 55,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 76,
+["reforge"] = 55,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["amount"] = 45,
+["reforge"] = 32,
+},
+{
+["dst"] = 6,
+["src"] = 3,
+["amount"] = 57,
+["reforge"] = 19,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 7,
+["amount"] = 145,
+["reforge"] = 46,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 102,
+["reforge"] = 55,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["amount"] = 28,
+["reforge"] = 32,
+},
+},
+["stats"] = {
+61,
+295,
+1457,
+959,
+177,
+1538,
+1008,
+1788,
+},
+},
 ["caps"] = {
 {
 ["stat"] = 4,
@@ -30,224 +248,6 @@ ReforgeLiteDB = {
 },
 },
 },
-},
-["storedMethod"] = {
-["items"] = {
-{
-["dst"] = 4,
-["src"] = 7,
-["reforge"] = 46,
-["amount"] = 78,
-},
-{
-["dst"] = 6,
-["src"] = 2,
-["reforge"] = 12,
-["amount"] = 55,
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 8,
-["reforge"] = 53,
-["amount"] = 57,
-},
-{
-["dst"] = 4,
-["src"] = 7,
-["reforge"] = 46,
-["amount"] = 86,
-},
-{
-["dst"] = 6,
-["src"] = 3,
-["reforge"] = 19,
-["amount"] = 57,
-},
-{
-["dst"] = 4,
-["src"] = 8,
-["reforge"] = 53,
-["amount"] = 68,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["reforge"] = 10,
-["amount"] = 64,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 102,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 76,
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["reforge"] = 32,
-["amount"] = 45,
-},
-{
-["dst"] = 6,
-["src"] = 3,
-["reforge"] = 19,
-["amount"] = 57,
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 7,
-["reforge"] = 46,
-["amount"] = 145,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 102,
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["reforge"] = 32,
-["amount"] = 28,
-},
-},
-["stats"] = {
-61,
-295,
-1457,
-959,
-177,
-1538,
-1008,
-1788,
-},
-},
-["method"] = {
-["items"] = {
-{
-["dst"] = 4,
-["src"] = 7,
-["amount"] = 78,
-["reforge"] = 46,
-},
-{
-["dst"] = 6,
-["src"] = 2,
-["amount"] = 55,
-["reforge"] = 12,
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 8,
-["amount"] = 57,
-["reforge"] = 53,
-},
-{
-["dst"] = 4,
-["src"] = 7,
-["amount"] = 86,
-["reforge"] = 46,
-},
-{
-["dst"] = 6,
-["src"] = 3,
-["amount"] = 57,
-["reforge"] = 19,
-},
-{
-["dst"] = 4,
-["src"] = 8,
-["amount"] = 68,
-["reforge"] = 53,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 64,
-["reforge"] = 10,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 102,
-["reforge"] = 55,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 76,
-["reforge"] = 55,
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["amount"] = 45,
-["reforge"] = 32,
-},
-{
-["dst"] = 6,
-["src"] = 3,
-["amount"] = 57,
-["reforge"] = 19,
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 7,
-["amount"] = 145,
-["reforge"] = 46,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 102,
-["reforge"] = 55,
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["amount"] = 28,
-["reforge"] = 32,
-},
-},
-["stats"] = {
-61,
-295,
-1457,
-959,
-177,
-1538,
-1008,
-1788,
-},
-},
-["weights"] = {
-nil,
-nil,
-nil,
-220,
-50,
-150,
-210,
-130,
 },
 ["itemsLocked"] = {
 false,
@@ -282,8 +282,6 @@ false,
 },
 },
 ["targetLevel"] = 3,
-["buffs"] = {
-},
 ["weights"] = {
 0,
 0,
@@ -293,6 +291,8 @@ false,
 0,
 0,
 0,
+},
+["buffs"] = {
 },
 ["itemsLocked"] = {
 },
@@ -328,8 +328,6 @@ false,
 },
 },
 },
-["buffs"] = {
-},
 ["weights"] = {
 0,
 0,
@@ -339,6 +337,8 @@ false,
 0,
 0,
 0,
+},
+["buffs"] = {
 },
 ["itemsLocked"] = {
 },
@@ -373,88 +373,88 @@ nil,
 {
 ["dst"] = 6,
 ["src"] = 8,
-["reforge"] = 55,
 ["amount"] = 110,
+["reforge"] = 55,
 },
 {
 ["dst"] = 4,
 ["src"] = 8,
-["reforge"] = 53,
 ["amount"] = 61,
+["reforge"] = 53,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 33,
 ["amount"] = 84,
+["reforge"] = 33,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["reforge"] = 32,
 ["amount"] = 98,
+["reforge"] = 32,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["reforge"] = 26,
 ["amount"] = 47,
+["reforge"] = 26,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["reforge"] = 32,
 ["amount"] = 83,
+["reforge"] = 32,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 33,
 ["amount"] = 106,
+["reforge"] = 33,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 33,
 ["amount"] = 67,
+["reforge"] = 33,
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["reforge"] = 32,
 ["amount"] = 57,
+["reforge"] = 32,
 },
 {
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 33,
 ["amount"] = 145,
+["reforge"] = 33,
 },
 {
 ["dst"] = 4,
 ["src"] = 8,
-["reforge"] = 53,
 ["amount"] = 128,
+["reforge"] = 53,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 33,
 ["amount"] = 47,
+["reforge"] = 33,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["reforge"] = 32,
 ["amount"] = 24,
+["reforge"] = 32,
 },
 },
 ["stats"] = {
@@ -473,88 +473,88 @@ nil,
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 110,
 ["reforge"] = 55,
+["amount"] = 110,
 },
 {
 ["dst"] = 4,
 ["src"] = 8,
-["amount"] = 61,
 ["reforge"] = 53,
+["amount"] = 61,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["amount"] = 84,
 ["reforge"] = 33,
+["amount"] = 84,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["amount"] = 98,
 ["reforge"] = 32,
+["amount"] = 98,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["amount"] = 47,
 ["reforge"] = 26,
+["amount"] = 47,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
+["reforge"] = 32,
 ["amount"] = 83,
-["reforge"] = 32,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
+["reforge"] = 33,
 ["amount"] = 106,
-["reforge"] = 33,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["amount"] = 67,
 ["reforge"] = 33,
+["amount"] = 67,
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["amount"] = 57,
 ["reforge"] = 32,
+["amount"] = 57,
 },
 {
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["amount"] = 145,
 ["reforge"] = 33,
+["amount"] = 145,
 },
 {
 ["dst"] = 4,
 ["src"] = 8,
-["amount"] = 128,
 ["reforge"] = 53,
+["amount"] = 128,
 },
 {
 ["dst"] = 6,
 ["src"] = 5,
-["amount"] = 47,
 ["reforge"] = 33,
+["amount"] = 47,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 5,
-["amount"] = 24,
 ["reforge"] = 32,
+["amount"] = 24,
 },
 },
 ["stats"] = {
@@ -601,62 +601,62 @@ nil,
 {
 ["dst"] = 7,
 ["src"] = 4,
-["reforge"] = 27,
 ["amount"] = 50,
+["reforge"] = 27,
 },
 {
 ["dst"] = 7,
 ["src"] = 3,
-["reforge"] = 20,
 ["amount"] = 51,
+["reforge"] = 20,
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
-["reforge"] = 10,
 ["amount"] = 50,
+["reforge"] = 10,
 },
 {
 ["dst"] = 8,
 ["src"] = 3,
-["reforge"] = 21,
 ["amount"] = 112,
+["reforge"] = 21,
 },
 {
 ["dst"] = 8,
 ["src"] = 7,
-["reforge"] = 49,
 ["amount"] = 47,
+["reforge"] = 49,
 },
 {
 ["dst"] = 7,
 ["src"] = 2,
-["reforge"] = 13,
 ["amount"] = 52,
+["reforge"] = 13,
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
-["reforge"] = 10,
 ["amount"] = 55,
+["reforge"] = 10,
 },
 {
 ["dst"] = 7,
 ["src"] = 4,
-["reforge"] = 27,
 ["amount"] = 75,
+["reforge"] = 27,
 },
 {
 ["dst"] = 8,
 ["src"] = 5,
-["reforge"] = 35,
 ["amount"] = 56,
+["reforge"] = 35,
 },
 {
 ["dst"] = 7,
 ["src"] = 4,
-["reforge"] = 27,
 ["amount"] = 34,
+["reforge"] = 27,
 },
 {
 },
@@ -667,16 +667,16 @@ nil,
 {
 ["dst"] = 4,
 ["src"] = 6,
-["reforge"] = 39,
 ["amount"] = 64,
+["reforge"] = 39,
 },
 {
 },
 {
 ["dst"] = 7,
 ["src"] = 4,
-["reforge"] = 27,
 ["amount"] = 25,
+["reforge"] = 27,
 },
 },
 ["stats"] = {
@@ -691,101 +691,7 @@ nil,
 },
 },
 ["targetLevel"] = 3,
-["method"] = {
-["items"] = {
-{
-},
-{
-["dst"] = 7,
-["src"] = 4,
-["amount"] = 50,
-["reforge"] = 27,
-},
-{
-["dst"] = 7,
-["src"] = 3,
-["amount"] = 51,
-["reforge"] = 20,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 50,
-["reforge"] = 10,
-},
-{
-["dst"] = 8,
-["src"] = 3,
-["amount"] = 112,
-["reforge"] = 21,
-},
-{
-["dst"] = 8,
-["src"] = 7,
-["amount"] = 47,
-["reforge"] = 49,
-},
-{
-["dst"] = 7,
-["src"] = 2,
-["amount"] = 52,
-["reforge"] = 13,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 55,
-["reforge"] = 10,
-},
-{
-["dst"] = 7,
-["src"] = 4,
-["amount"] = 75,
-["reforge"] = 27,
-},
-{
-["dst"] = 8,
-["src"] = 5,
-["amount"] = 56,
-["reforge"] = 35,
-},
-{
-["dst"] = 7,
-["src"] = 4,
-["amount"] = 34,
-["reforge"] = 27,
-},
-{
-},
-{
-},
-{
-},
-{
-["dst"] = 4,
-["src"] = 6,
-["amount"] = 64,
-["reforge"] = 39,
-},
-{
-},
-{
-["dst"] = 7,
-["src"] = 4,
-["amount"] = 25,
-["reforge"] = 27,
-},
-},
-["stats"] = {
-65,
-284,
-1125,
-960,
-105,
-117,
-457,
-2835,
-},
+["buffs"] = {
 },
 ["weights"] = {
 0,
@@ -799,7 +705,101 @@ nil,
 },
 ["itemsLocked"] = {
 },
-["buffs"] = {
+["method"] = {
+["items"] = {
+{
+},
+{
+["dst"] = 7,
+["src"] = 4,
+["reforge"] = 27,
+["amount"] = 50,
+},
+{
+["dst"] = 7,
+["src"] = 3,
+["reforge"] = 20,
+["amount"] = 51,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 50,
+},
+{
+["dst"] = 8,
+["src"] = 3,
+["reforge"] = 21,
+["amount"] = 112,
+},
+{
+["dst"] = 8,
+["src"] = 7,
+["reforge"] = 49,
+["amount"] = 47,
+},
+{
+["dst"] = 7,
+["src"] = 2,
+["reforge"] = 13,
+["amount"] = 52,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 55,
+},
+{
+["dst"] = 7,
+["src"] = 4,
+["reforge"] = 27,
+["amount"] = 75,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 56,
+},
+{
+["dst"] = 7,
+["src"] = 4,
+["reforge"] = 27,
+["amount"] = 34,
+},
+{
+},
+{
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 6,
+["reforge"] = 39,
+["amount"] = 64,
+},
+{
+},
+{
+["dst"] = 7,
+["src"] = 4,
+["reforge"] = 27,
+["amount"] = 25,
+},
+},
+["stats"] = {
+65,
+284,
+1125,
+960,
+105,
+117,
+457,
+2835,
+},
 },
 },
 ["Bloodwall - Venoxis"] = {
@@ -830,8 +830,6 @@ nil,
 },
 ["targetLevel"] = 3,
 ["darkIntent"] = false,
-["buffs"] = {
-},
 ["weights"] = {
 0,
 0,
@@ -841,6 +839,8 @@ nil,
 0,
 0,
 0,
+},
+["buffs"] = {
 },
 ["itemsLocked"] = {
 },
@@ -875,74 +875,74 @@ nil,
 {
 ["dst"] = 6,
 ["src"] = 8,
-["reforge"] = 55,
 ["amount"] = 78,
+["reforge"] = 55,
 },
 {
 ["dst"] = 5,
 ["src"] = 8,
-["reforge"] = 54,
 ["amount"] = 57,
+["reforge"] = 54,
 },
 {
 ["dst"] = 5,
 ["src"] = 8,
-["reforge"] = 54,
 ["amount"] = 76,
+["reforge"] = 54,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["reforge"] = 26,
 ["amount"] = 67,
+["reforge"] = 26,
 },
 {
 ["dst"] = 5,
 ["src"] = 8,
+["amount"] = 102,
 ["reforge"] = 54,
-["amount"] = 102,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["reforge"] = 26,
 ["amount"] = 57,
+["reforge"] = 26,
 },
 {
 ["dst"] = 4,
 ["src"] = 6,
-["reforge"] = 39,
 ["amount"] = 68,
+["reforge"] = 39,
 },
 {
 ["dst"] = 4,
 ["src"] = 6,
-["reforge"] = 39,
 ["amount"] = 76,
+["reforge"] = 39,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["reforge"] = 55,
 ["amount"] = 93,
+["reforge"] = 55,
 },
 {
 ["dst"] = 5,
 ["src"] = 6,
-["reforge"] = 40,
 ["amount"] = 76,
+["reforge"] = 40,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["reforge"] = 55,
 ["amount"] = 57,
+["reforge"] = 55,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["reforge"] = 26,
 ["amount"] = 48,
+["reforge"] = 26,
 },
 {
 },
@@ -951,16 +951,16 @@ nil,
 {
 ["dst"] = 4,
 ["src"] = 8,
-["reforge"] = 53,
 ["amount"] = 102,
+["reforge"] = 53,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 6,
-["reforge"] = 39,
 ["amount"] = 32,
+["reforge"] = 39,
 },
 },
 ["stats"] = {
@@ -979,74 +979,74 @@ nil,
 {
 ["dst"] = 6,
 ["src"] = 8,
+["reforge"] = 55,
 ["amount"] = 78,
-["reforge"] = 55,
 },
 {
 ["dst"] = 5,
 ["src"] = 8,
+["reforge"] = 54,
 ["amount"] = 57,
-["reforge"] = 54,
 },
 {
 ["dst"] = 5,
 ["src"] = 8,
-["amount"] = 76,
 ["reforge"] = 54,
+["amount"] = 76,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
+["reforge"] = 26,
 ["amount"] = 67,
-["reforge"] = 26,
 },
 {
 ["dst"] = 5,
 ["src"] = 8,
-["amount"] = 102,
 ["reforge"] = 54,
+["amount"] = 102,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["amount"] = 57,
 ["reforge"] = 26,
+["amount"] = 57,
 },
 {
 ["dst"] = 4,
 ["src"] = 6,
+["reforge"] = 39,
 ["amount"] = 68,
-["reforge"] = 39,
 },
 {
 ["dst"] = 4,
 ["src"] = 6,
-["amount"] = 76,
 ["reforge"] = 39,
+["amount"] = 76,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 93,
 ["reforge"] = 55,
+["amount"] = 93,
 },
 {
 ["dst"] = 5,
 ["src"] = 6,
-["amount"] = 76,
 ["reforge"] = 40,
+["amount"] = 76,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 57,
 ["reforge"] = 55,
+["amount"] = 57,
 },
 {
 ["dst"] = 6,
 ["src"] = 4,
-["amount"] = 48,
 ["reforge"] = 26,
+["amount"] = 48,
 },
 {
 },
@@ -1055,16 +1055,16 @@ nil,
 {
 ["dst"] = 4,
 ["src"] = 8,
-["amount"] = 102,
 ["reforge"] = 53,
+["amount"] = 102,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 6,
-["amount"] = 32,
 ["reforge"] = 39,
+["amount"] = 32,
 },
 },
 ["stats"] = {
@@ -1079,68 +1079,309 @@ nil,
 },
 },
 },
-["Alsia - Venoxis"] = {
+["Alsía - Venoxis"] = {
+["caps"] = {
+{
+["stat"] = 7,
+["points"] = {
+{
+["value"] = 481,
+["preset"] = 5,
+["after"] = 3,
+},
+{
+["value"] = 1382,
+["preset"] = 6,
+["method"] = 2,
+["after"] = 0,
+},
+},
+},
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 961,
+["preset"] = 2,
+["method"] = 2,
+},
+},
+},
+},
+["storedMethod"] = {
+["items"] = {
+{
+["dst"] = 7,
+["src"] = 3,
+["amount"] = 91,
+["reforge"] = 20,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["amount"] = 50,
+["reforge"] = 10,
+},
+{
+["dst"] = 7,
+["src"] = 3,
+["amount"] = 51,
+["reforge"] = 20,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["amount"] = 50,
+["reforge"] = 10,
+},
+{
+["dst"] = 7,
+["src"] = 3,
+["amount"] = 67,
+["reforge"] = 20,
+},
+{
+["dst"] = 7,
+["src"] = 6,
+["amount"] = 57,
+["reforge"] = 41,
+},
+{
+["dst"] = 4,
+["src"] = 3,
+["amount"] = 59,
+["reforge"] = 17,
+},
+{
+["dst"] = 7,
+["src"] = 2,
+["amount"] = 67,
+["reforge"] = 13,
+},
+{
+["dst"] = 7,
+["src"] = 8,
+["amount"] = 91,
+["reforge"] = 56,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["amount"] = 67,
+["reforge"] = 32,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["amount"] = 56,
+["reforge"] = 32,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["amount"] = 50,
+["reforge"] = 10,
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["amount"] = 128,
+["reforge"] = 53,
+},
+{
+},
+{
+["dst"] = 7,
+["src"] = 8,
+["amount"] = 38,
+["reforge"] = 56,
+},
+{
+["dst"] = 4,
+["src"] = 3,
+["amount"] = 45,
+["reforge"] = 17,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["amount"] = 28,
+["reforge"] = 10,
+},
+},
+["stats"] = {
+112,
+466,
+1563,
+961,
+198,
+376,
+482,
+2176,
+},
+},
 ["method"] = {
 ["items"] = {
 {
-["dst"] = 6,
+["dst"] = 7,
+["src"] = 3,
+["reforge"] = 20,
+["amount"] = 91,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 50,
+},
+{
+["dst"] = 7,
+["src"] = 3,
+["reforge"] = 20,
+["amount"] = 51,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 50,
+},
+{
+["dst"] = 7,
+["src"] = 3,
+["reforge"] = 20,
+["amount"] = 67,
+},
+{
+["dst"] = 7,
+["src"] = 6,
+["reforge"] = 41,
+["amount"] = 57,
+},
+{
+["dst"] = 4,
+["src"] = 3,
+["reforge"] = 17,
+["amount"] = 59,
+},
+{
+["dst"] = 7,
+["src"] = 2,
+["reforge"] = 13,
+["amount"] = 67,
+},
+{
+["dst"] = 7,
+["src"] = 8,
+["reforge"] = 56,
+["amount"] = 91,
+},
+{
+["dst"] = 4,
 ["src"] = 5,
-["reforge"] = 33,
-["amount"] = 78,
+["reforge"] = 32,
+["amount"] = 67,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 56,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 50,
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["reforge"] = 53,
+["amount"] = 128,
+},
+{
+},
+{
+["dst"] = 7,
+["src"] = 8,
+["reforge"] = 56,
+["amount"] = 38,
+},
+{
+["dst"] = 4,
+["src"] = 3,
+["reforge"] = 17,
+["amount"] = 45,
+},
+{
+["dst"] = 4,
+["src"] = 2,
+["reforge"] = 10,
+["amount"] = 28,
+},
+},
+["stats"] = {
+112,
+466,
+1563,
+961,
+198,
+376,
+482,
+2176,
+},
+},
+["weights"] = {
+nil,
+nil,
+nil,
+4,
+nil,
+nil,
+5,
+2,
+},
+["buffs"] = {
+["strength"] = true,
+},
+},
+["Alslalu - Venoxis"] = {
+["weights"] = {
+130,
+nil,
+nil,
+nil,
+100,
+100,
+nil,
+100,
+},
+["method"] = {
+["items"] = {
+{
+},
+{
+},
+{
+},
+{
 },
 {
 ["dst"] = 1,
-["src"] = 8,
-["reforge"] = 50,
-["amount"] = 57,
+["src"] = 6,
+["amount"] = 102,
+["reforge"] = 36,
 },
 {
-["dst"] = 6,
-["src"] = 5,
-["reforge"] = 33,
-["amount"] = 76,
+},
+{
 },
 {
 ["dst"] = 1,
-["src"] = 8,
-["reforge"] = 50,
-["amount"] = 61,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 86,
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 68,
-},
-{
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 68,
-},
-{
-["dst"] = 1,
-["src"] = 8,
-["reforge"] = 50,
-["amount"] = 57,
-},
-{
-["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 33,
-["amount"] = 57,
+["amount"] = 72,
+["reforge"] = 29,
 },
 {
 },
@@ -1149,96 +1390,54 @@ nil,
 {
 },
 {
-["dst"] = 6,
-["src"] = 5,
-["reforge"] = 33,
-["amount"] = 57,
+},
+{
+},
+{
+},
+{
+},
+{
 },
 {
 },
 },
 ["stats"] = {
-2606,
+2464,
 0,
-7,
-1247,
-451,
-1788,
 0,
-646,
+0,
+960,
+1097,
+0,
+727,
 },
-},
-["weights"] = {
-160,
-nil,
-nil,
-nil,
-80,
-200,
-nil,
-120,
 },
 ["storedMethod"] = {
 ["items"] = {
 {
-["dst"] = 6,
-["src"] = 5,
-["amount"] = 78,
-["reforge"] = 33,
+},
+{
+},
+{
+},
+{
 },
 {
 ["dst"] = 1,
-["src"] = 8,
-["amount"] = 57,
-["reforge"] = 50,
+["src"] = 6,
+["reforge"] = 36,
+["amount"] = 102,
 },
 {
-["dst"] = 6,
-["src"] = 5,
-["amount"] = 76,
-["reforge"] = 33,
+},
+{
 },
 {
 ["dst"] = 1,
-["src"] = 8,
-["amount"] = 61,
-["reforge"] = 50,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 86,
-["reforge"] = 55,
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 68,
-["reforge"] = 55,
-},
-{
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 68,
-["reforge"] = 55,
-},
-{
-["dst"] = 1,
-["src"] = 8,
-["amount"] = 57,
-["reforge"] = 50,
-},
-{
-["dst"] = 6,
 ["src"] = 5,
-["amount"] = 57,
-["reforge"] = 33,
+["reforge"] = 29,
+["amount"] = 72,
 },
 {
 },
@@ -1247,23 +1446,27 @@ nil,
 {
 },
 {
-["dst"] = 6,
-["src"] = 5,
-["amount"] = 57,
-["reforge"] = 33,
+},
+{
+},
+{
+},
+{
+},
+{
 },
 {
 },
 },
 ["stats"] = {
-2606,
+2464,
 0,
-7,
-1247,
-451,
-1788,
 0,
-646,
+0,
+960,
+1097,
+0,
+727,
 },
 },
 },
@@ -1274,88 +1477,88 @@ nil,
 {
 ["dst"] = 4,
 ["src"] = 7,
+["reforge"] = 46,
 ["amount"] = 78,
-["reforge"] = 46,
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
+["reforge"] = 10,
 ["amount"] = 55,
-["reforge"] = 10,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
-["amount"] = 57,
 ["reforge"] = 10,
+["amount"] = 57,
 },
 {
 ["dst"] = 4,
 ["src"] = 7,
-["amount"] = 86,
 ["reforge"] = 46,
+["amount"] = 86,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 8,
-["amount"] = 68,
 ["reforge"] = 53,
+["amount"] = 68,
 },
 {
 ["dst"] = 6,
 ["src"] = 2,
-["amount"] = 55,
 ["reforge"] = 12,
+["amount"] = 55,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 102,
 ["reforge"] = 55,
+["amount"] = 102,
 },
 {
 ["dst"] = 6,
 ["src"] = 2,
+["reforge"] = 12,
 ["amount"] = 74,
-["reforge"] = 12,
 },
 {
 ["dst"] = 6,
 ["src"] = 2,
-["amount"] = 57,
 ["reforge"] = 12,
+["amount"] = 57,
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
-["amount"] = 86,
 ["reforge"] = 10,
+["amount"] = 86,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 128,
 ["reforge"] = 55,
+["amount"] = 128,
 },
 {
 },
 {
 ["dst"] = 6,
 ["src"] = 7,
+["reforge"] = 48,
 ["amount"] = 102,
-["reforge"] = 48,
 },
 {
 },
 {
 ["dst"] = 6,
 ["src"] = 7,
-["amount"] = 28,
 ["reforge"] = 48,
+["amount"] = 28,
 },
 },
 ["stats"] = {
@@ -1385,88 +1588,88 @@ nil,
 {
 ["dst"] = 4,
 ["src"] = 7,
+["reforge"] = 46,
 ["amount"] = 78,
-["reforge"] = 46,
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
+["reforge"] = 10,
 ["amount"] = 55,
-["reforge"] = 10,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
-["amount"] = 57,
 ["reforge"] = 10,
+["amount"] = 57,
 },
 {
 ["dst"] = 4,
 ["src"] = 7,
-["amount"] = 86,
 ["reforge"] = 46,
+["amount"] = 86,
 },
 {
 },
 {
 ["dst"] = 4,
 ["src"] = 8,
-["amount"] = 68,
 ["reforge"] = 53,
+["amount"] = 68,
 },
 {
 ["dst"] = 6,
 ["src"] = 2,
-["amount"] = 55,
 ["reforge"] = 12,
+["amount"] = 55,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 102,
 ["reforge"] = 55,
+["amount"] = 102,
 },
 {
 ["dst"] = 6,
 ["src"] = 2,
+["reforge"] = 12,
 ["amount"] = 74,
-["reforge"] = 12,
 },
 {
 ["dst"] = 6,
 ["src"] = 2,
-["amount"] = 57,
 ["reforge"] = 12,
+["amount"] = 57,
 },
 {
 ["dst"] = 4,
 ["src"] = 2,
-["amount"] = 86,
 ["reforge"] = 10,
+["amount"] = 86,
 },
 {
 ["dst"] = 6,
 ["src"] = 8,
-["amount"] = 128,
 ["reforge"] = 55,
+["amount"] = 128,
 },
 {
 },
 {
 ["dst"] = 6,
 ["src"] = 7,
-["amount"] = 102,
 ["reforge"] = 48,
+["amount"] = 102,
 },
 {
 },
 {
 ["dst"] = 7,
 ["src"] = 2,
-["amount"] = 0,
 ["reforge"] = 13,
+["amount"] = 0,
 },
 },
 ["stats"] = {
@@ -1519,42 +1722,78 @@ nil,
 ["Settings"] = true,
 },
 },
-["Alslalu - Venoxis"] = {
+["Alsia - Venoxis"] = {
 ["weights"] = {
-130,
+160,
 nil,
 nil,
 nil,
-100,
-100,
+80,
+200,
 nil,
-100,
+120,
 },
 ["method"] = {
 ["items"] = {
 {
-},
-{
-},
-{
-},
-{
-},
-{
-["dst"] = 1,
-["src"] = 6,
-["reforge"] = 36,
-["amount"] = 102,
-},
-{
-},
-{
-},
-{
-["dst"] = 1,
+["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 29,
-["amount"] = 72,
+["amount"] = 78,
+["reforge"] = 33,
+},
+{
+["dst"] = 1,
+["src"] = 8,
+["amount"] = 57,
+["reforge"] = 50,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["amount"] = 76,
+["reforge"] = 33,
+},
+{
+["dst"] = 1,
+["src"] = 8,
+["amount"] = 61,
+["reforge"] = 50,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 86,
+["reforge"] = 55,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 68,
+["reforge"] = 55,
+},
+{
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 68,
+["reforge"] = 55,
+},
+{
+["dst"] = 1,
+["src"] = 8,
+["amount"] = 57,
+["reforge"] = 50,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["amount"] = 57,
+["reforge"] = 33,
 },
 {
 },
@@ -1563,351 +1802,112 @@ nil,
 {
 },
 {
-},
-{
-},
-{
-},
-{
-},
-{
+["dst"] = 6,
+["src"] = 5,
+["amount"] = 57,
+["reforge"] = 33,
 },
 {
 },
 },
 ["stats"] = {
-2464,
+2606,
 0,
+7,
+1247,
+451,
+1788,
 0,
-0,
-960,
-1097,
-0,
-727,
+646,
 },
 },
 ["storedMethod"] = {
 ["items"] = {
 {
-},
-{
-},
-{
-},
-{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 78,
 },
 {
 ["dst"] = 1,
-["src"] = 6,
-["amount"] = 102,
-["reforge"] = 36,
+["src"] = 8,
+["reforge"] = 50,
+["amount"] = 57,
 },
 {
-},
-{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 76,
 },
 {
 ["dst"] = 1,
-["src"] = 5,
-["amount"] = 72,
-["reforge"] = 29,
+["src"] = 8,
+["reforge"] = 50,
+["amount"] = 61,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 86,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 68,
 },
 {
 },
 {
 },
 {
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 68,
 },
 {
-},
-{
-},
-{
-},
-{
-},
-{
-},
-{
-},
-},
-["stats"] = {
-2464,
-0,
-0,
-0,
-960,
-1097,
-0,
-727,
-},
-},
-},
-["Alsía - Venoxis"] = {
-["caps"] = {
-{
-["stat"] = 7,
-["points"] = {
-{
-["value"] = 481,
-["preset"] = 5,
-["after"] = 3,
-},
-{
-["value"] = 1382,
-["preset"] = 6,
-["method"] = 2,
-["after"] = 0,
-},
-},
-},
-{
-["stat"] = 4,
-["points"] = {
-{
-["value"] = 961,
-["preset"] = 2,
-["method"] = 2,
-},
-},
-},
-},
-["storedMethod"] = {
-["items"] = {
-{
-["dst"] = 7,
-["src"] = 3,
-["reforge"] = 20,
-["amount"] = 91,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["reforge"] = 10,
-["amount"] = 50,
-},
-{
-["dst"] = 7,
-["src"] = 3,
-["reforge"] = 20,
-["amount"] = 51,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["reforge"] = 10,
-["amount"] = 50,
-},
-{
-["dst"] = 7,
-["src"] = 3,
-["reforge"] = 20,
-["amount"] = 67,
-},
-{
-["dst"] = 7,
-["src"] = 6,
-["reforge"] = 41,
+["dst"] = 1,
+["src"] = 8,
+["reforge"] = 50,
 ["amount"] = 57,
 },
 {
-["dst"] = 4,
-["src"] = 3,
-["reforge"] = 17,
-["amount"] = 59,
-},
-{
-["dst"] = 7,
-["src"] = 2,
-["reforge"] = 13,
-["amount"] = 67,
-},
-{
-["dst"] = 7,
-["src"] = 8,
-["reforge"] = 56,
-["amount"] = 91,
-},
-{
-["dst"] = 4,
+["dst"] = 6,
 ["src"] = 5,
-["reforge"] = 32,
-["amount"] = 67,
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["reforge"] = 32,
-["amount"] = 56,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["reforge"] = 10,
-["amount"] = 50,
-},
-{
-["dst"] = 4,
-["src"] = 8,
-["reforge"] = 53,
-["amount"] = 128,
-},
-{
-},
-{
-["dst"] = 7,
-["src"] = 8,
-["reforge"] = 56,
-["amount"] = 38,
-},
-{
-["dst"] = 4,
-["src"] = 3,
-["reforge"] = 17,
-["amount"] = 45,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["reforge"] = 10,
-["amount"] = 28,
-},
-},
-["stats"] = {
-112,
-466,
-1563,
-961,
-198,
-376,
-482,
-2176,
-},
-},
-["method"] = {
-["items"] = {
-{
-["dst"] = 7,
-["src"] = 3,
-["amount"] = 91,
-["reforge"] = 20,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 50,
-["reforge"] = 10,
-},
-{
-["dst"] = 7,
-["src"] = 3,
-["amount"] = 51,
-["reforge"] = 20,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 50,
-["reforge"] = 10,
-},
-{
-["dst"] = 7,
-["src"] = 3,
-["amount"] = 67,
-["reforge"] = 20,
-},
-{
-["dst"] = 7,
-["src"] = 6,
+["reforge"] = 33,
 ["amount"] = 57,
-["reforge"] = 41,
 },
 {
-["dst"] = 4,
-["src"] = 3,
-["amount"] = 59,
-["reforge"] = 17,
 },
 {
-["dst"] = 7,
-["src"] = 2,
-["amount"] = 67,
-["reforge"] = 13,
 },
 {
-["dst"] = 7,
-["src"] = 8,
-["amount"] = 91,
-["reforge"] = 56,
 },
 {
-["dst"] = 4,
+["dst"] = 6,
 ["src"] = 5,
-["amount"] = 67,
-["reforge"] = 32,
+["reforge"] = 33,
+["amount"] = 57,
 },
 {
-["dst"] = 4,
-["src"] = 5,
-["amount"] = 56,
-["reforge"] = 32,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 50,
-["reforge"] = 10,
-},
-{
-["dst"] = 4,
-["src"] = 8,
-["amount"] = 128,
-["reforge"] = 53,
-},
-{
-},
-{
-["dst"] = 7,
-["src"] = 8,
-["amount"] = 38,
-["reforge"] = 56,
-},
-{
-["dst"] = 4,
-["src"] = 3,
-["amount"] = 45,
-["reforge"] = 17,
-},
-{
-["dst"] = 4,
-["src"] = 2,
-["amount"] = 28,
-["reforge"] = 10,
 },
 },
 ["stats"] = {
-112,
-466,
-1563,
-961,
-198,
-376,
-482,
-2176,
+2606,
+0,
+7,
+1247,
+451,
+1788,
+0,
+646,
 },
-},
-["weights"] = {
-nil,
-nil,
-nil,
-4,
-nil,
-nil,
-5,
-2,
-},
-["buffs"] = {
-["strength"] = true,
 },
 },
 ["Maturitass - Venoxis"] = {
@@ -1938,8 +1938,6 @@ nil,
 },
 ["targetLevel"] = 3,
 ["darkIntent"] = false,
-["buffs"] = {
-},
 ["weights"] = {
 0,
 0,
@@ -1949,6 +1947,8 @@ nil,
 0,
 0,
 0,
+},
+["buffs"] = {
 },
 ["itemsLocked"] = {
 },
@@ -1964,21 +1964,11 @@ nil,
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
-["global"] = {
-["windowHeight"] = 566,
-["activeWindowTitle"] = {
-0.8,
-},
-["windowY"] = 713.2000732421875,
-["windowX"] = 1296.101806640625,
-["windowWidth"] = 819.0003662109375,
-["methodWindowY"] = 1310.00048828125,
-["methodWindowX"] = 1500.000610351563,
-["speed"] = 62500,
+["customPresets"] = {
 },
 ["reforgeCheat"] = 5,
 ["class"] = {
@@ -2041,47 +2031,6 @@ nil,
 ["customPresets"] = {
 },
 },
-["PALADIN"] = {
-["customPresets"] = {
-["Ret PvP"] = {
-["caps"] = {
-{
-["stat"] = 4,
-["points"] = {
-{
-["value"] = 600,
-["preset"] = 1,
-["method"] = 1,
-["after"] = 0,
-},
-},
-},
-{
-["stat"] = 7,
-["points"] = {
-{
-["value"] = 301,
-["preset"] = 1,
-["method"] = 1,
-["after"] = 0,
-},
-},
-},
-},
-["weights"] = {
-0,
-0,
-0,
-200,
-150,
-110,
-180,
-150,
-},
-["name"] = "Ret PvP",
-},
-},
-},
 ["HUNTER"] = {
 ["customPresets"] = {
 ["SV"] = {
@@ -2123,7 +2072,58 @@ nil,
 },
 },
 },
-},
+["PALADIN"] = {
 ["customPresets"] = {
+["Ret PvP"] = {
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 600,
+["preset"] = 1,
+["method"] = 1,
+["after"] = 0,
+},
+},
+},
+{
+["stat"] = 7,
+["points"] = {
+{
+["value"] = 301,
+["preset"] = 1,
+["method"] = 1,
+["after"] = 0,
+},
+},
+},
+},
+["weights"] = {
+0,
+0,
+0,
+200,
+150,
+110,
+180,
+150,
+},
+["name"] = "Ret PvP",
+},
+},
+},
+},
+["global"] = {
+["windowHeight"] = 566,
+["activeWindowTitle"] = {
+0.8,
+},
+["windowY"] = 713.2000732421875,
+["windowX"] = 1296.101806640625,
+["windowWidth"] = 819.0003662109375,
+["methodWindowY"] = 1310.00048828125,
+["methodWindowX"] = 1500.000610351563,
+["speed"] = 62500,
 },
 }
