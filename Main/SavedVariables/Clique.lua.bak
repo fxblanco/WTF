@@ -4,11 +4,14 @@ CliqueDB3 = {
 ["char"] = {
 ["Alsla - Venoxis"] = {
 ["spec1_profileKey"] = "Alsla - Venoxis",
-["spec2_profileKey"] = "Alsla - Venoxis",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["alerthidden"] = true,
+["spec2_profileKey"] = "Alsla - Venoxis",
+["specswap"] = false,
 },
 ["Xolem - Venoxis"] = {
 ["spec1_profileKey"] = "Xolem - Venoxis",
@@ -23,9 +26,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Alsía - Venoxis",
-["downclick"] = false,
 ["specswap"] = false,
 ["alerthidden"] = true,
 },
@@ -44,11 +47,11 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
+["alerthidden"] = true,
+["downclick"] = false,
 ["spec2_profileKey"] = "Alslalu - Venoxis",
 ["specswap"] = false,
-["alerthidden"] = true,
 },
 ["Alsia - Venoxis"] = {
 ["spec1_profileKey"] = "Alsia - Venoxis",
@@ -57,9 +60,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alsia - Venoxis",
 ["specswap"] = false,
 ["alerthidden"] = true,
+["spec2_profileKey"] = "Alsia - Venoxis",
 },
 ["Andrés - Venoxis"] = {
 ["spec1_profileKey"] = "Andrés - Venoxis",
@@ -91,9 +94,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["alerthidden"] = true,
 ["spec2_profileKey"] = "Alslahunt - Venoxis",
 ["specswap"] = false,
+["alerthidden"] = true,
 },
 ["Kwasimojo - Venoxis"] = {
 ["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -111,12 +114,12 @@ CliqueDB3 = {
 ["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 ["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
@@ -436,12 +439,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["icon"] = 132212,
-["type"] = "menu",
 ["key"] = "ALT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
+["icon"] = 132212,
+["type"] = "menu",
 },
 },
 },
@@ -483,6 +486,98 @@ CliqueDB3 = {
 },
 },
 },
+["Bloodwall - Venoxis"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Alslalu - Venoxis"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "ALT-BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "spell",
+["key"] = "SHIFT-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136089,
+["spell"] = "Earth Shield",
+},
+{
+["type"] = "spell",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
+["spell"] = "Healing Surge",
+},
+{
+["type"] = "spell",
+["key"] = "BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136042,
+["spell"] = "Chain Heal",
+},
+{
+["type"] = "spell",
+["key"] = "BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
+["spell"] = "Riptide",
+},
+{
+["spell"] = "Greater Healing Wave",
+["key"] = "BUTTON2",
+["type"] = "spell",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+},
+{
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "SHIFT-BUTTON2",
+["type"] = "spell",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136052,
+},
+},
+},
 ["Alslahunt - Venoxis"] = {
 ["bindings"] = {
 {
@@ -508,53 +603,6 @@ CliqueDB3 = {
 },
 ["icon"] = 132180,
 ["spell"] = "Misdirection",
-},
-},
-},
-["Alsiadk - Venoxis"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["type"] = "spell",
-["key"] = "SHIFT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136143,
-["spell"] = "Raise Ally",
-},
-},
-},
-["Bloodwall - Venoxis"] = {
-["bindings"] = {
-{
-["sets"] = {
-["default"] = true,
-},
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
 },
 },
 },
@@ -684,15 +732,22 @@ CliqueDB3 = {
 },
 },
 },
-["Alslalu - Venoxis"] = {
+["Alsiadk - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
-["key"] = "ALT-BUTTON1",
+["key"] = "BUTTON1",
 ["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 {
 ["type"] = "spell",
@@ -700,60 +755,8 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136043,
-["spell"] = "Greater Healing Wave",
-},
-{
-["type"] = "spell",
-["key"] = "SHIFT-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136089,
-["spell"] = "Earth Shield",
-},
-{
-["type"] = "spell",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136052,
-["spell"] = "Healing Wave",
-},
-{
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["type"] = "spell",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
-["spell"] = "Healing Surge",
-},
-{
-["type"] = "spell",
-["key"] = "BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136042,
-["spell"] = "Chain Heal",
-},
-{
-["type"] = "spell",
-["key"] = "BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 252995,
-["spell"] = "Riptide",
+["icon"] = 136143,
+["spell"] = "Raise Ally",
 },
 },
 },

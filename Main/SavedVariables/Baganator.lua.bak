@@ -142,18 +142,7 @@ BAGANATOR_CONFIG = {
 ["sort_ignore_slots_at_end"] = false,
 ["currencies_tracked_imported"] = {
 },
-["recent_characters_main_view"] = {
-"Alsla-Venoxis",
-"Alsia-Venoxis",
-"Andrés-Venoxis",
-"Alslahunt-Venoxis",
-"Alslalu-Venoxis",
-"Exonuklease-Venoxis",
-"Alsía-Venoxis",
-"Maturitass-Venoxis",
-"Alslala-Venoxis",
-"Kwasimojo-Venoxis",
-},
+["debug_keywords"] = false,
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
 {
@@ -218,6 +207,9 @@ BAGANATOR_CONFIG = {
 {
 ["currencyID"] = 395,
 },
+{
+["currencyID"] = 396,
+},
 },
 ["Andrés-Venoxis"] = {
 {
@@ -264,7 +256,18 @@ BAGANATOR_CONFIG = {
 ["sort_ignore_slots_count_2"] = {
 ["Alsía-Venoxis"] = 0,
 },
-["debug_keywords"] = false,
+["recent_characters_main_view"] = {
+"Alslalu-Venoxis",
+"Alsia-Venoxis",
+"Exonuklease-Venoxis",
+"Alslahunt-Venoxis",
+"Alsla-Venoxis",
+"Andrés-Venoxis",
+"Alsía-Venoxis",
+"Maturitass-Venoxis",
+"Alslala-Venoxis",
+"Kwasimojo-Venoxis",
+},
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrame",

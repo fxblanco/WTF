@@ -136,19 +136,19 @@ BAGANATOR_CONFIG = {
 ["bag_view_width"] = 12,
 ["icon_equipment_set_border"] = true,
 ["sort_ignore_slots_at_end"] = false,
-["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
-"Alsla-Venoxis",
 "Alsia-Venoxis",
-"Andrés-Venoxis",
-"Alslahunt-Venoxis",
 "Alslalu-Venoxis",
 "Exonuklease-Venoxis",
+"Alslahunt-Venoxis",
+"Alsla-Venoxis",
+"Andrés-Venoxis",
 "Alsía-Venoxis",
 "Maturitass-Venoxis",
 "Alslala-Venoxis",
 "Kwasimojo-Venoxis",
 },
+["debug_keywords"] = false,
 ["sort_ignore_slots_count_2"] = {
 ["Alsía-Venoxis"] = 0,
 },
@@ -237,6 +237,9 @@ BAGANATOR_CONFIG = {
 ["Alslahunt-Venoxis"] = {
 {
 ["currencyID"] = 395,
+},
+{
+["currencyID"] = 396,
 },
 },
 ["Andrés-Venoxis"] = {

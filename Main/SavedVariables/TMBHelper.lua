@@ -39,11 +39,11 @@ ItemListsDB = {
 "Arcanum of Hyjal",
 },
 },
-["displayPrios"] = true,
-["displayWishes"] = true,
-["onlyRaidMembers"] = false,
-["showMemberNotes"] = false,
 ["displayOS"] = true,
+["displayWishes"] = true,
+["showMemberNotes"] = false,
+["onlyRaidMembers"] = false,
+["displayPrios"] = true,
 ["onlyInRaid"] = false,
 }
 TMBDB = {
@@ -51,16 +51,16 @@ TMBDB = {
 ["Xolem - Venoxis"] = "Xolem - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-["Maturitass - Venoxis"] = "Maturitass - Venoxis",
-["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-["Alslala - Venoxis"] = "Alslala - Venoxis",
-["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 },
 ["profiles"] = {
 ["Xolem - Venoxis"] = {
@@ -69,9 +69,9 @@ TMBDB = {
 },
 ["Exonuklease - Venoxis"] = {
 },
-["Maturitass - Venoxis"] = {
+["Kwasimojo - Venoxis"] = {
 },
-["Endonuclease - Venoxis"] = {
+["Alslala - Venoxis"] = {
 },
 ["Alsiadk - Venoxis"] = {
 },
@@ -85,9 +85,9 @@ TMBDB = {
 },
 ["Khalimmortus - Venoxis"] = {
 },
-["Alslala - Venoxis"] = {
+["Endonuclease - Venoxis"] = {
 },
-["Kwasimojo - Venoxis"] = {
+["Maturitass - Venoxis"] = {
 },
 },
 }
