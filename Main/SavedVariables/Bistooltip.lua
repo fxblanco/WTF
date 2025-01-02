@@ -20,10 +20,10 @@ BisTooltipDB = {
 },
 ["char"] = {
 ["Alsla - Venoxis"] = {
-["class_index"] = 10,
+["spec_index"] = 3,
+["phase_index"] = 2,
 ["data_source"] = "wh",
 ["version"] = 8,
-["phase_index"] = 2,
 },
 ["Xolem - Venoxis"] = {
 ["data_source"] = "wh",
@@ -31,10 +31,8 @@ BisTooltipDB = {
 },
 ["Alsía - Venoxis"] = {
 ["class_index"] = 5,
-["version"] = 8,
-["spec_index"] = 3,
 ["data_source"] = "wh",
-["phase_index"] = 2,
+["version"] = 8,
 },
 ["Exonuklease - Venoxis"] = {
 ["class_index"] = 10,
@@ -63,21 +61,20 @@ BisTooltipDB = {
 ["Alslalu - Venoxis"] = {
 ["class_index"] = 8,
 ["version"] = 8,
-["spec_index"] = 3,
 ["data_source"] = "wh",
 ["phase_index"] = 2,
 },
 ["Alsia - Venoxis"] = {
-["class_index"] = 5,
-["phase_index"] = 2,
 ["minimapPos"] = 173.254854658173,
-["data_source"] = "wh",
 ["version"] = 8,
+["phase_index"] = 2,
+["data_source"] = "wh",
+["class_index"] = 5,
 },
 ["Alslahunt - Venoxis"] = {
 ["class_index"] = 3,
-["data_source"] = "wh",
 ["version"] = 8,
+["data_source"] = "wh",
 ["phase_index"] = 2,
 },
 ["Andrés - Venoxis"] = {

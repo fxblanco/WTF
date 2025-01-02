@@ -199,10 +199,10 @@ Grid2DB = {
 ["Holypalaswe-5man"] = {
 {
 ["maxColumns"] = 1,
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["groupBy"] = "ASSIGNEDROLE",
-["groupFilter"] = "1",
 ["unitsPerColumn"] = 5,
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+["groupFilter"] = "1",
+["groupBy"] = "ASSIGNEDROLE",
 },
 {
 ["maxColumns"] = 3,
@@ -212,28 +212,28 @@ Grid2DB = {
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 ["meta"] = {
-["arena"] = true,
-["raid"] = true,
-["solo"] = true,
 ["party"] = true,
+["arena"] = true,
+["solo"] = true,
+["raid"] = true,
 },
 },
 ["holypalaswe-10man"] = {
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["unitsPerColumn"] = 5,
-["groupFilter"] = "1",
 ["groupBy"] = "ASSIGNEDROLE",
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+["groupFilter"] = "1",
+["unitsPerColumn"] = 5,
 },
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
-["groupBy"] = "ASSIGNEDROLE",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["groupFilter"] = "2",
 ["unitsPerColumn"] = 5,
+["groupBy"] = "ASSIGNEDROLE",
+["groupFilter"] = "2",
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 {
 ["maxColumns"] = 3,
@@ -243,68 +243,68 @@ Grid2DB = {
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 ["meta"] = {
-["arena"] = true,
-["raid"] = true,
-["solo"] = true,
 ["party"] = true,
+["arena"] = true,
+["solo"] = true,
+["raid"] = true,
 },
 },
 ["Holypalaswe"] = {
 {
 ["maxColumns"] = 1,
+["groupBy"] = "ASSIGNEDROLE",
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["unitsPerColumn"] = 5,
 ["groupFilter"] = "1",
-["groupBy"] = "ASSIGNEDROLE",
+["unitsPerColumn"] = 5,
 },
 {
 ["maxColumns"] = 1,
+["unitsPerColumn"] = 5,
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["groupBy"] = "ASSIGNEDROLE",
 ["groupFilter"] = "2",
-["unitsPerColumn"] = 5,
+["groupBy"] = "ASSIGNEDROLE",
 },
 {
 ["maxColumns"] = 1,
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["groupBy"] = "ASSIGNEDROLE",
-["unitsPerColumn"] = 5,
 ["groupFilter"] = "3",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+["unitsPerColumn"] = 5,
 },
 {
 ["maxColumns"] = 1,
+["groupBy"] = "ASSIGNEDROLE",
 ["unitsPerColumn"] = 5,
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["groupFilter"] = "4",
-["groupBy"] = "ASSIGNEDROLE",
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 {
 ["maxColumns"] = 1,
+["unitsPerColumn"] = 5,
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["groupBy"] = "ASSIGNEDROLE",
 ["groupFilter"] = "5",
-["unitsPerColumn"] = 5,
+["groupBy"] = "ASSIGNEDROLE",
 },
 {
 ["maxColumns"] = 1,
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["groupBy"] = "ASSIGNEDROLE",
-["unitsPerColumn"] = 5,
 ["groupFilter"] = "6",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+["unitsPerColumn"] = 5,
 },
 {
 ["maxColumns"] = 1,
+["groupBy"] = "ASSIGNEDROLE",
 ["unitsPerColumn"] = 5,
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["groupFilter"] = "7",
-["groupBy"] = "ASSIGNEDROLE",
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 {
 ["maxColumns"] = 1,
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["groupBy"] = "ASSIGNEDROLE",
-["groupFilter"] = "8",
 ["unitsPerColumn"] = 5,
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+["groupFilter"] = "8",
+["groupBy"] = "ASSIGNEDROLE",
 },
 {
 ["maxColumns"] = 3,
@@ -312,52 +312,52 @@ Grid2DB = {
 ["unitsPerColumn"] = 3,
 },
 ["meta"] = {
-["arena"] = true,
-["raid"] = true,
-["solo"] = true,
 ["party"] = true,
+["arena"] = true,
+["solo"] = true,
+["raid"] = true,
 },
 },
 ["holypalaswe-25man"] = {
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
+["unitsPerColumn"] = 5,
 ["groupBy"] = "ASSIGNEDROLE",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["groupFilter"] = "1",
-["unitsPerColumn"] = 5,
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
+["unitsPerColumn"] = 5,
 ["groupBy"] = "ASSIGNEDROLE",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["groupFilter"] = "2",
-["unitsPerColumn"] = 5,
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 ["unitsPerColumn"] = 5,
-["groupBy"] = "ASSIGNEDROLE",
 ["groupFilter"] = "3",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
+["groupBy"] = "ASSIGNEDROLE",
 },
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
+["groupBy"] = "ASSIGNEDROLE",
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["unitsPerColumn"] = 5,
 ["groupFilter"] = "4",
-["groupBy"] = "ASSIGNEDROLE",
+["unitsPerColumn"] = 5,
 },
 {
 ["maxColumns"] = 1,
 ["type"] = "player",
-["groupBy"] = "ASSIGNEDROLE",
-["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
-["groupFilter"] = "5",
 ["unitsPerColumn"] = 5,
+["groupBy"] = "ASSIGNEDROLE",
+["groupFilter"] = "5",
+["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 {
 ["maxColumns"] = 4,
@@ -367,10 +367,10 @@ Grid2DB = {
 ["groupingOrder"] = "TANK,HEALER,DAMAGER,NONE",
 },
 ["meta"] = {
-["arena"] = true,
-["raid"] = true,
-["solo"] = true,
 ["party"] = true,
+["arena"] = true,
+["solo"] = true,
+["raid"] = true,
 },
 },
 },
@@ -822,8 +822,8 @@ Grid2DB = {
 },
 ["holypalaswe-10man"] = {
 "BOTTOM",
--0.3738593785337798,
-135.5199606868737,
+-0.1454519235689986,
+135.2751049483513,
 },
 ["Holypalaswe-5man10001"] = {
 "BOTTOM",
@@ -837,8 +837,8 @@ Grid2DB = {
 },
 ["holypalaswe-10man3"] = {
 "BOTTOMLEFT",
-803.2474032946047,
-140.8067422851746,
+711.2405371742752,
+92.85491767726944,
 },
 ["holypalaswe-25man"] = {
 "BOTTOM",
@@ -1114,8 +1114,8 @@ Grid2DB = {
 ["Grid2Frame"] = {
 ["profiles"] = {
 ["Holypalaswe"] = {
-["frameColor"] = {
-["a"] = 0,
+["frameHeaderWidths"] = {
+["pet"] = 0.613,
 },
 ["fontSize"] = 14,
 ["frameHeaderHeights"] = {
@@ -1123,22 +1123,22 @@ Grid2DB = {
 },
 ["frameBorder"] = 1,
 ["barTexture"] = "Flat",
-["frameTexture"] = "Flat",
-["frameHeight"] = 49,
 ["frameBorderColor"] = {
 ["a"] = 1,
 },
+["frameHeight"] = 49,
+["frameTexture"] = "Flat",
 ["font"] = "Friz Quadrata TT",
-["frameHeaderWidths"] = {
-["pet"] = 0.613,
-},
-["iconSize"] = 10,
 ["frameContentColor"] = {
 ["b"] = 1,
 ["g"] = 1,
 ["r"] = 1,
 },
 ["orientation"] = "HORIZONTAL",
+["iconSize"] = 10,
+["frameColor"] = {
+["a"] = 0,
+},
 ["frameWidth"] = 97,
 ["frameBorderDistance"] = 0,
 },
@@ -1151,54 +1151,54 @@ Grid2DB = {
 ["pet"] = 0.672,
 },
 ["frameBorder"] = 1,
+["iconSize"] = 10,
+["frameBorderDistance"] = 0,
+["frameHeight"] = 49,
 ["barTexture"] = "Flat",
 ["frameBorderColor"] = {
 ["a"] = 1,
 },
-["frameTexture"] = "Flat",
-["frameHeight"] = 49,
 ["font"] = "Friz Quadrata TT",
+["frameHeaderWidths"] = {
+["pet"] = 0.613,
+},
 ["orientation"] = "HORIZONTAL",
+["frameTexture"] = "Flat",
+["frameWidth"] = 97,
 ["frameContentColor"] = {
 ["b"] = 1,
 ["g"] = 1,
 ["r"] = 1,
 },
-["iconSize"] = 10,
-["frameHeaderWidths"] = {
-["pet"] = 0.613,
-},
-["frameWidth"] = 97,
-["frameBorderDistance"] = 0,
 },
 ["Holypalaswe3"] = {
-["frameColor"] = {
-["a"] = 0,
+["frameHeaderWidths"] = {
+["pet"] = 0.613,
 },
 ["fontSize"] = 14,
 ["frameHeaderHeights"] = {
 ["pet"] = 0.672,
 },
 ["frameBorder"] = 1,
-["iconSize"] = 10,
-["frameBorderDistance"] = 0,
-["frameHeight"] = 49,
 ["barTexture"] = "Flat",
+["frameTexture"] = "Flat",
 ["frameBorderColor"] = {
 ["a"] = 1,
 },
+["frameHeight"] = 49,
 ["font"] = "Friz Quadrata TT",
-["frameHeaderWidths"] = {
-["pet"] = 0.613,
+["frameColor"] = {
+["a"] = 0,
 },
+["iconSize"] = 10,
+["orientation"] = "HORIZONTAL",
 ["frameContentColor"] = {
 ["r"] = 1,
 ["g"] = 1,
 ["b"] = 1,
 },
-["orientation"] = "HORIZONTAL",
 ["frameWidth"] = 97,
-["frameTexture"] = "Flat",
+["frameBorderDistance"] = 0,
 },
 ["Holypalaswe_DPS"] = {
 ["frameHeaderWidths"] = {
@@ -1400,26 +1400,6 @@ Grid2DB = {
 ["corner-top-right-color"] = {
 ["type"] = "text-color",
 },
-["icons-bottomleft"] = {
-["fontOffsetX"] = 2,
-["fontSize"] = 9,
-["fontOffsetY"] = -1,
-["iconSpacing"] = 0,
-["reverseCooldown"] = true,
-["maxIcons"] = 4,
-["borderSize"] = 1,
-["useStatusColor"] = true,
-["level"] = 6,
-["iconSize"] = 13,
-["maxIconsPerRow"] = 6,
-["location"] = {
-["y"] = 0,
-["relPoint"] = "BOTTOMLEFT",
-["point"] = "BOTTOMLEFT",
-["x"] = 0,
-},
-["type"] = "icons",
-},
 ["icon-top"] = {
 ["type"] = "icon",
 ["level"] = 8,
@@ -1435,6 +1415,26 @@ Grid2DB = {
 },
 ["text-up-PET-color"] = {
 ["type"] = "text-color",
+},
+["icons-bottomleft"] = {
+["fontOffsetX"] = 2,
+["fontSize"] = 9,
+["fontOffsetY"] = -1,
+["iconSpacing"] = 0,
+["reverseCooldown"] = true,
+["maxIcons"] = 4,
+["borderSize"] = 1,
+["location"] = {
+["y"] = 0,
+["relPoint"] = "BOTTOMLEFT",
+["point"] = "BOTTOMLEFT",
+["x"] = 0,
+},
+["level"] = 6,
+["useStatusColor"] = true,
+["maxIconsPerRow"] = 6,
+["iconSize"] = 13,
+["type"] = "icons",
 },
 ["icon-center"] = {
 ["type"] = "icon",
@@ -1552,17 +1552,17 @@ Grid2DB = {
 ["icons-left"] = {
 ["maxIcons"] = 3,
 ["type"] = "icons",
+["orientation"] = "VERTICAL",
+["reverseCooldown"] = true,
 ["iconSize"] = 15,
 ["level"] = 6,
+["maxIconsPerRow"] = 1,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "TOPLEFT",
 ["point"] = "TOPLEFT",
 ["x"] = 14,
 },
-["maxIconsPerRow"] = 1,
-["reverseCooldown"] = true,
-["orientation"] = "VERTICAL",
 },
 ["heals-color"] = {
 ["type"] = "bar-color",
@@ -1721,6 +1721,11 @@ Grid2DB = {
 },
 },
 ["raid-debuffs"] = {
+["color1"] = {
+["b"] = 0,
+["g"] = 0.3921568989753723,
+["r"] = 0.3921568989753723,
+},
 ["debuffs"] = {
 [100509] = {
 96,
@@ -2476,11 +2481,6 @@ Grid2DB = {
 323825,
 },
 },
-["color1"] = {
-["b"] = 0,
-["g"] = 0.3921568989753723,
-["r"] = 0.3921568989753723,
-},
 },
 ["threat"] = {
 ["load"] = {
@@ -2641,7 +2641,6 @@ Grid2DB = {
 },
 ["range"] = {
 ["elapsed"] = 0.1,
-["default"] = 0.4,
 ["ranges"] = {
 ["PALADIN"] = {
 ["friendlySpellID"] = 53563,
@@ -2649,6 +2648,7 @@ Grid2DB = {
 ["hostileSpellID"] = 879,
 },
 },
+["default"] = 0.4,
 ["color1"] = {
 ["a"] = 0,
 ["g"] = 1,
@@ -2701,8 +2701,8 @@ Grid2DB = {
 },
 },
 ["health-current"] = {
-["deadAsFullHealth"] = true,
 ["quickHealth"] = true,
+["deadAsFullHealth"] = true,
 },
 ["buff-BeaconofLight-not-mine"] = {
 ["type"] = "buff",
@@ -2799,13 +2799,16 @@ Grid2DB = {
 ["resurrection"] = {
 ["onlyReviving"] = true,
 },
-["debuff-Curse"] = {
+["debuff-Disease"] = {
 ["load"] = {
 ["playerClass"] = {
-["MAGE"] = true,
-["DRUID"] = true,
-["SHAMAN"] = true,
+["PRIEST"] = true,
+["PALADIN"] = true,
 },
+},
+["color1"] = {
+["g"] = 0.4000000357627869,
+["r"] = 0.6000000238418579,
 },
 },
 ["banzai"] = {
@@ -2913,6 +2916,61 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
+["debuffs-health-color-yellow"] = {
+["auras"] = {
+93325,
+2094,
+10,
+87023,
+79589,
+44294,
+5782,
+66007,
+39048,
+84643,
+59256,
+5246,
+15753,
+118,
+70410,
+8122,
+20066,
+94794,
+15487,
+47476,
+82403,
+94549,
+},
+["useWhiteList"] = true,
+["type"] = "debuffs",
+["color1"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 0.3921568989753723,
+["r"] = 0.3921568989753723,
+},
+},
+["buff-Regrowth-mine"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["load"] = {
+["playerClass"] = {
+["DRUID"] = true,
+},
+},
+["mine"] = 1,
+["spellName"] = 8936,
+},
+["master-looter"] = {
+["load"] = {
+["disabled"] = true,
+},
+},
 ["debuffs-icon-center"] = {
 ["useWhiteList"] = true,
 ["auras"] = {
@@ -2949,37 +3007,6 @@ Grid2DB = {
 ["g"] = 0.2,
 ["r"] = 1,
 },
-},
-["buff-Regrowth-mine"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-["load"] = {
-["playerClass"] = {
-["DRUID"] = true,
-},
-},
-["mine"] = 1,
-["spellName"] = 8936,
-},
-["master-looter"] = {
-["load"] = {
-["disabled"] = true,
-},
-},
-["direction"] = {
-["showOnlyStickyUnits"] = true,
-["StickyTarget"] = true,
-["load"] = {
-["instType"] = {
-["none"] = true,
-},
-},
-["updateRate"] = 1,
 },
 ["debuff-Sinestra>Wrack"] = {
 ["color2"] = {
@@ -3135,16 +3162,16 @@ Grid2DB = {
 ["r"] = 0.3921568989753723,
 },
 },
-["debuff-Disease"] = {
-["load"] = {
-["playerClass"] = {
-["PRIEST"] = true,
-["PALADIN"] = true,
-},
-},
+["debuffs-text-bottomright-stacks"] = {
 ["color1"] = {
-["g"] = 0.4000000357627869,
-["r"] = 0.6000000238418579,
+["a"] = 1,
+["r"] = 1,
+["g"] = 0.2,
+["b"] = 0.2,
+},
+["useWhiteList"] = true,
+["type"] = "debuffs",
+["auras"] = {
 },
 },
 ["buffs-health-color-lightred"] = {
@@ -3572,18 +3599,6 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["debuffs-text-bottomright-stacks"] = {
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 0.2,
-["b"] = 0.2,
-},
-["useWhiteList"] = true,
-["type"] = "debuffs",
-["auras"] = {
-},
-},
 ["debuffs-icons-bottomleft-ignored"] = {
 ["type"] = "debuffs",
 ["auras"] = {
@@ -3633,6 +3648,11 @@ Grid2DB = {
 ["hideInCombat"] = true,
 ["useAlternateIcons"] = true,
 },
+["shields-overflow"] = {
+["load"] = {
+["disabled"] = true,
+},
+},
 ["buffs-ArmorBuff"] = {
 ["auras"] = {
 14892,
@@ -3655,10 +3675,15 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["shields-overflow"] = {
+["direction"] = {
+["showOnlyStickyUnits"] = true,
+["StickyTarget"] = true,
 ["load"] = {
-["disabled"] = true,
+["instType"] = {
+["none"] = true,
 },
+},
+["updateRate"] = 1,
 },
 ["manaalt"] = {
 ["load"] = {
@@ -3675,43 +3700,18 @@ Grid2DB = {
 ["b"] = 0.2,
 },
 },
-["debuffs-health-color-yellow"] = {
-["auras"] = {
-93325,
-2094,
-10,
-87023,
-79589,
-44294,
-5782,
-66007,
-39048,
-84643,
-59256,
-5246,
-15753,
-118,
-70410,
-8122,
-20066,
-94794,
-15487,
-47476,
-82403,
-94549,
-},
-["useWhiteList"] = true,
-["type"] = "debuffs",
-["color1"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 0.3921568989753723,
-["r"] = 0.3921568989753723,
-},
-},
 ["voice"] = {
 ["load"] = {
 ["disabled"] = true,
+},
+},
+["debuff-Curse"] = {
+["load"] = {
+["playerClass"] = {
+["MAGE"] = true,
+["DRUID"] = true,
+["SHAMAN"] = true,
+},
 },
 },
 ["lowmana"] = {
@@ -3885,10 +3885,10 @@ Grid2DB = {
 ["debuff-The>WindChill"] = 179,
 ["debuff-Poison"] = 159,
 ["debuff-special>CrepuscularVeil"] = 175,
-["debuff-special>VampiricTouch"] = 176,
-["raid-debuffs"] = 155,
 ["debuff-special>UnstableAffliction"] = 177,
+["raid-debuffs"] = 155,
 ["debuff-Curse"] = 160,
+["debuff-special>VampiricTouch"] = 176,
 },
 ["text-up-color"] = {
 ["classcolor"] = 50,
@@ -4121,16 +4121,6 @@ Grid2DB = {
 },
 ["spellName"] = 25771,
 },
-["buff-BlessingOfWisdom(greater)"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 0.7,
-},
-["spellName"] = 25918,
-},
 ["buff-BlessingOfWisdom"] = {
 ["type"] = "buff",
 ["color1"] = {
@@ -4140,6 +4130,16 @@ Grid2DB = {
 ["r"] = 0.7,
 },
 ["spellName"] = 25290,
+},
+["buff-BlessingOfMight"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 0.7,
+},
+["spellName"] = 25291,
 },
 ["buff-BlessingOfKings"] = {
 ["type"] = "buff",
@@ -4161,7 +4161,7 @@ Grid2DB = {
 },
 ["spellName"] = 25898,
 },
-["buff-BlessingOfMight"] = {
+["buff-BlessingOfWisdom(greater)"] = {
 ["type"] = "buff",
 ["color1"] = {
 ["a"] = 1,
@@ -4169,7 +4169,7 @@ Grid2DB = {
 ["g"] = 1,
 ["r"] = 0.7,
 },
-["spellName"] = 25291,
+["spellName"] = 25918,
 },
 ["buff-BlessingOfMight(greater)"] = {
 ["type"] = "buff",
@@ -5001,16 +5001,16 @@ Grid2DB = {
 ["reverseCooldown"] = true,
 ["maxIcons"] = 4,
 ["borderSize"] = 1,
+["iconSize"] = 13,
+["maxIconsPerRow"] = 6,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "BOTTOMLEFT",
 ["point"] = "BOTTOMLEFT",
 ["x"] = 0,
 },
-["maxIconsPerRow"] = 6,
-["useStatusColor"] = true,
 ["level"] = 6,
-["iconSize"] = 13,
+["useStatusColor"] = true,
 ["fontSize"] = 9,
 },
 ["icon-top"] = {
@@ -5029,17 +5029,17 @@ Grid2DB = {
 ["icons-left"] = {
 ["maxIcons"] = 3,
 ["type"] = "icons",
-["orientation"] = "VERTICAL",
-["reverseCooldown"] = true,
-["iconSize"] = 15,
-["level"] = 6,
-["maxIconsPerRow"] = 1,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "TOPLEFT",
 ["point"] = "TOPLEFT",
 ["x"] = 14,
 },
+["maxIconsPerRow"] = 1,
+["orientation"] = "VERTICAL",
+["reverseCooldown"] = true,
+["level"] = 6,
+["iconSize"] = 15,
 },
 ["text-bottomright-2-STACKS-color"] = {
 ["type"] = "text-color",
@@ -5326,11 +5326,6 @@ Grid2DB = {
 ["useAlternateIcons"] = true,
 },
 ["raid-debuffs"] = {
-["color1"] = {
-["b"] = 0,
-["g"] = 0.3921568989753723,
-["r"] = 0.3921568989753723,
-},
 ["debuffs"] = {
 [100509] = {
 96,
@@ -6080,6 +6075,11 @@ Grid2DB = {
 43150,
 },
 },
+["color1"] = {
+["b"] = 0,
+["g"] = 0.3921568989753723,
+["r"] = 0.3921568989753723,
+},
 },
 ["threat"] = {
 ["load"] = {
@@ -6270,7 +6270,6 @@ Grid2DB = {
 ["spellName"] = 13218,
 },
 ["range"] = {
-["elapsed"] = 0.1,
 ["ranges"] = {
 ["PALADIN"] = {
 ["friendlySpellID"] = 53563,
@@ -6278,6 +6277,7 @@ Grid2DB = {
 ["hostileSpellID"] = 879,
 },
 },
+["elapsed"] = 0.1,
 ["default"] = 0.4,
 ["color1"] = {
 ["a"] = 0,
@@ -6319,8 +6319,8 @@ Grid2DB = {
 },
 },
 ["health-current"] = {
-["quickHealth"] = true,
 ["deadAsFullHealth"] = true,
+["quickHealth"] = true,
 },
 ["buff-BeaconofLight-not-mine"] = {
 ["type"] = "buff",
@@ -6349,6 +6349,19 @@ Grid2DB = {
 ["b"] = 0.1019607843137255,
 },
 },
+["buffs-icon-center"] = {
+["type"] = "buffs",
+["auras"] = {
+5024,
+27827,
+},
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+},
 ["buff-HolyRadiance-mine"] = {
 ["type"] = "buff",
 ["color1"] = {
@@ -6370,6 +6383,11 @@ Grid2DB = {
 ["disabled"] = true,
 },
 },
+["target"] = {
+["load"] = {
+["disabled"] = true,
+},
+},
 ["color-staticcolor"] = {
 ["color1"] = {
 ["a"] = 1,
@@ -6378,6 +6396,47 @@ Grid2DB = {
 ["r"] = 0.2352941334247589,
 },
 ["type"] = "color",
+},
+["shields-overflow"] = {
+["color1"] = {
+["b"] = 0,
+["r"] = 0,
+},
+},
+["buffs-health-color-yellow"] = {
+["type"] = "buffs",
+["auras"] = {
+23335,
+23333,
+34976,
+},
+["color1"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 0.392156862745098,
+["r"] = 0.392156862745098,
+},
+},
+["buff-PowerWord:Shield"] = {
+["type"] = "buff",
+["color1"] = {
+["a"] = 1,
+["b"] = 0.4117647409439087,
+["g"] = 0.4117647409439087,
+["r"] = 0,
+},
+["load"] = {
+["playerClass"] = {
+["PRIEST"] = true,
+},
+},
+["mine"] = false,
+["spellName"] = 17,
+},
+["offline"] = {
+["color1"] = {
+["a"] = 0.300000011920929,
+},
 },
 ["debuffs-icons-bottomleft-ignored"] = {
 ["auras"] = {
@@ -6424,93 +6483,14 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["buffs-health-color-yellow"] = {
-["type"] = "buffs",
-["auras"] = {
-23335,
-23333,
-34976,
-},
-["color1"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 0.392156862745098,
-["r"] = 0.392156862745098,
-},
-},
-["buff-PowerWord:Shield"] = {
-["type"] = "buff",
-["color1"] = {
-["a"] = 1,
-["b"] = 0.4117647409439087,
-["g"] = 0.4117647409439087,
-["r"] = 0,
-},
-["load"] = {
-["playerClass"] = {
-["PRIEST"] = true,
-},
-},
-["mine"] = false,
-["spellName"] = 17,
-},
-["debuffs-text-bottomright-stacks"] = {
+["debuff-special>UnstableAffliction"] = {
+["type"] = "debuff",
+["spellName"] = 30108,
 ["color1"] = {
 ["a"] = 1,
 ["r"] = 1,
 ["g"] = 0.2,
 ["b"] = 0.2,
-},
-["useWhiteList"] = true,
-["type"] = "debuffs",
-["auras"] = {
-},
-},
-["debuffs-icon-center"] = {
-["useWhiteList"] = true,
-["auras"] = {
-93325,
-2094,
-10,
-87023,
-79589,
-44294,
-5782,
-66007,
-39048,
-84643,
-59256,
-5246,
-15753,
-118,
-70410,
-8122,
-20066,
-94794,
-15487,
-47476,
-78993,
-76577,
-82403,
-94549,
-99947,
-97151,
-101166,
-100048,
-99838,
-},
-["type"] = "debuffs",
-["debuffTypeColorize"] = true,
-["color1"] = {
-["a"] = 1,
-["b"] = 0.2,
-["g"] = 0.2,
-["r"] = 1,
-},
-},
-["target"] = {
-["load"] = {
-["disabled"] = true,
 },
 },
 ["debuff-special>Eruption"] = {
@@ -6525,35 +6505,43 @@ Grid2DB = {
 },
 ["spellName"] = 98492,
 },
-["buffs-icon-center"] = {
-["type"] = "buffs",
-["auras"] = {
-5024,
-27827,
-},
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-},
-["buff-Riptide-mine"] = {
-["type"] = "buff",
-["spellName"] = 61295,
-["mine"] = 1,
-["useSpellId"] = true,
+["direction"] = {
 ["load"] = {
-["playerClass"] = {
-["SHAMAN"] = true,
+["instType"] = {
+["none"] = true,
 },
 },
-["color1"] = {
+["showOnlyStickyUnits"] = true,
+["StickyTarget"] = true,
+["updateRate"] = 1,
+},
+["debuff-Sinestra>Wrack"] = {
+["color2"] = {
 ["a"] = 1,
-["r"] = 0,
+["r"] = 1,
 ["g"] = 1,
 ["b"] = 0,
 },
+["type"] = "debuff",
+["color3"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 0,
+["b"] = 0,
+},
+["color1"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 1,
+["r"] = 0,
+},
+["colorCount"] = 3,
+["colorThresholdElapsed"] = true,
+["colorThreshold"] = {
+15,
+24,
+},
+["spellName"] = 89435,
 },
 ["banzai"] = {
 ["useBlackList"] = true,
@@ -6561,16 +6549,34 @@ Grid2DB = {
 },
 ["updateRate"] = 0.1,
 },
-["debuff-special>GravityCore"] = {
+["buffs-icons-top"] = {
+["type"] = "buffs",
 ["color1"] = {
 ["a"] = 1,
-["b"] = 0,
-["g"] = 0.3921568989753723,
-["r"] = 0.3921568989753723,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
 },
-["useSpellId"] = true,
-["type"] = "debuff",
-["spellName"] = 92075,
+["auras"] = {
+51474,
+51052,
+45182,
+47585,
+64205,
+5277,
+1966,
+45438,
+29166,
+59672,
+30299,
+1719,
+46949,
+30823,
+2565,
+1856,
+55694,
+3411,
+},
 },
 ["debuff-Magic"] = {
 ["load"] = {
@@ -6612,34 +6618,8 @@ Grid2DB = {
 ["disabled"] = true,
 },
 },
-["buffs-icons-top"] = {
-["type"] = "buffs",
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
-["auras"] = {
-51474,
-51052,
-45182,
-47585,
-64205,
-5277,
-1966,
-45438,
-29166,
-59672,
-30299,
-1719,
-46949,
-30823,
-2565,
-1856,
-55694,
-3411,
-},
+["resurrection"] = {
+["onlyReviving"] = true,
 },
 ["buff-Regrowth-mine"] = {
 ["type"] = "buff",
@@ -6697,59 +6677,29 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["direction"] = {
-["showOnlyStickyUnits"] = true,
-["StickyTarget"] = true,
+["buffs-Healer-OS"] = {
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+["type"] = "buffs",
 ["load"] = {
-["instType"] = {
-["none"] = true,
+["unitRole"] = {
+["HEALER"] = true,
 },
 },
-["updateRate"] = 1,
+["auras"] = {
+16166,
+16278,
+53817,
+24858,
+52610,
+20154,
+31801,
+15473,
 },
-["heals-incoming"] = {
-["healTypeFlags"] = 19,
-["includePlayerHeals"] = true,
-["color1"] = {
-["a"] = 0.5,
-["b"] = 0.2352941334247589,
-["g"] = 0.2352941334247589,
-["r"] = 0.2352941334247589,
-},
-},
-["resurrection"] = {
-["onlyReviving"] = true,
-},
-["debuff-Sinestra>Wrack"] = {
-["color2"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 0,
-},
-["type"] = "debuff",
-["color3"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 0,
-["b"] = 0,
-},
-["color1"] = {
-["a"] = 1,
-["b"] = 0,
-["g"] = 1,
-["r"] = 0,
-},
-["colorCount"] = 3,
-["colorThresholdElapsed"] = true,
-["colorThreshold"] = {
-15,
-24,
-},
-["spellName"] = 89435,
-},
-["banzai-threat"] = {
-["updateRate"] = 0.1,
 },
 ["buffs-health-color-teal"] = {
 ["type"] = "buffs",
@@ -6760,6 +6710,36 @@ Grid2DB = {
 ["b"] = 0.4117647409439087,
 },
 ["auras"] = {
+},
+},
+["buff-Riptide-mine"] = {
+["type"] = "buff",
+["spellName"] = 61295,
+["mine"] = 1,
+["useSpellId"] = true,
+["load"] = {
+["playerClass"] = {
+["SHAMAN"] = true,
+},
+},
+["color1"] = {
+["a"] = 1,
+["r"] = 0,
+["g"] = 1,
+["b"] = 0,
+},
+},
+["banzai-threat"] = {
+["updateRate"] = 0.1,
+},
+["heals-incoming"] = {
+["healTypeFlags"] = 19,
+["includePlayerHeals"] = true,
+["color1"] = {
+["a"] = 0.5,
+["b"] = 0.2352941334247589,
+["g"] = 0.2352941334247589,
+["r"] = 0.2352941334247589,
 },
 },
 ["spells-DMG Taken"] = {
@@ -6838,11 +6818,6 @@ Grid2DB = {
 ["b"] = 0,
 ["g"] = 0.3921568989753723,
 ["r"] = 0.3921568989753723,
-},
-},
-["offline"] = {
-["color1"] = {
-["a"] = 0.300000011920929,
 },
 },
 ["buffs-health-color-lightred"] = {
@@ -7246,11 +7221,11 @@ Grid2DB = {
 ["spellName"] = 89435,
 },
 ["raid-icon-player"] = {
-["load"] = {
-["disabled"] = true,
-},
 ["color6"] = {
 ["g"] = 0.7098039388656616,
+},
+["load"] = {
+["disabled"] = true,
 },
 },
 ["shields"] = {
@@ -7294,41 +7269,69 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["debuff-Poison"] = {
-["load"] = {
-["playerClass"] = {
-["DRUID"] = true,
-["PALADIN"] = true,
+["debuff-special>GravityCore"] = {
+["color1"] = {
+["a"] = 1,
+["b"] = 0,
+["g"] = 0.3921568989753723,
+["r"] = 0.3921568989753723,
 },
+["useSpellId"] = true,
+["type"] = "debuff",
+["spellName"] = 92075,
 },
-},
-["voice"] = {
-["load"] = {
-["disabled"] = true,
-},
-},
-["buffs-Healer-OS"] = {
+["debuffs-text-bottomright-stacks"] = {
 ["color1"] = {
 ["a"] = 1,
 ["r"] = 1,
-["g"] = 1,
-["b"] = 1,
+["g"] = 0.2,
+["b"] = 0.2,
 },
-["type"] = "buffs",
-["load"] = {
-["unitRole"] = {
-["HEALER"] = true,
-},
-},
+["useWhiteList"] = true,
+["type"] = "debuffs",
 ["auras"] = {
-16166,
-16278,
-53817,
-24858,
-52610,
-20154,
-31801,
-15473,
+},
+},
+["debuffs-icon-center"] = {
+["useWhiteList"] = true,
+["auras"] = {
+93325,
+2094,
+10,
+87023,
+79589,
+44294,
+5782,
+66007,
+39048,
+84643,
+59256,
+5246,
+15753,
+118,
+70410,
+8122,
+20066,
+94794,
+15487,
+47476,
+78993,
+76577,
+82403,
+94549,
+99947,
+97151,
+101166,
+100048,
+99838,
+},
+["type"] = "debuffs",
+["debuffTypeColorize"] = true,
+["color1"] = {
+["a"] = 1,
+["b"] = 0.2,
+["g"] = 0.2,
+["r"] = 1,
 },
 },
 ["buffs-ArmorBuff"] = {
@@ -7353,12 +7356,11 @@ Grid2DB = {
 ["r"] = 1,
 },
 },
-["debuff-Curse"] = {
+["debuff-Poison"] = {
 ["load"] = {
 ["playerClass"] = {
-["MAGE"] = true,
 ["DRUID"] = true,
-["SHAMAN"] = true,
+["PALADIN"] = true,
 },
 },
 },
@@ -7377,20 +7379,18 @@ Grid2DB = {
 ["b"] = 0.2,
 },
 },
-["debuff-special>UnstableAffliction"] = {
-["type"] = "debuff",
-["spellName"] = 30108,
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 0.2,
-["b"] = 0.2,
+["debuff-Curse"] = {
+["load"] = {
+["playerClass"] = {
+["MAGE"] = true,
+["DRUID"] = true,
+["SHAMAN"] = true,
 },
 },
-["shields-overflow"] = {
-["color1"] = {
-["b"] = 0,
-["r"] = 0,
+},
+["voice"] = {
+["load"] = {
+["disabled"] = true,
 },
 },
 ["lowmana"] = {
@@ -8094,16 +8094,16 @@ Grid2DB = {
 ["reverseCooldown"] = true,
 ["maxIcons"] = 4,
 ["borderSize"] = 1,
-["useStatusColor"] = true,
-["maxIconsPerRow"] = 6,
-["iconSize"] = 13,
-["level"] = 6,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "BOTTOMLEFT",
 ["point"] = "BOTTOMLEFT",
 ["x"] = 0,
 },
+["maxIconsPerRow"] = 6,
+["useStatusColor"] = true,
+["level"] = 6,
+["iconSize"] = 13,
 ["type"] = "icons",
 },
 ["text-bottomright-2-STACKS-color"] = {
@@ -8269,17 +8269,17 @@ Grid2DB = {
 ["icons-left"] = {
 ["maxIcons"] = 3,
 ["type"] = "icons",
+["orientation"] = "VERTICAL",
+["reverseCooldown"] = true,
 ["iconSize"] = 15,
 ["level"] = 6,
+["maxIconsPerRow"] = 1,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "TOPLEFT",
 ["point"] = "TOPLEFT",
 ["x"] = 14,
 },
-["maxIconsPerRow"] = 1,
-["reverseCooldown"] = true,
-["orientation"] = "VERTICAL",
 },
 ["text-up-color"] = {
 ["type"] = "text-color",
@@ -12092,9 +12092,9 @@ Grid2DB = {
 ["b"] = 0,
 },
 },
-["buff-BlessingOfWisdom"] = {
+["buff-BlessingOfMight"] = {
 ["type"] = "buff",
-["spellName"] = 25290,
+["spellName"] = 25291,
 ["color1"] = {
 ["a"] = 1,
 ["r"] = 0.7,
@@ -12102,9 +12102,9 @@ Grid2DB = {
 ["b"] = 1,
 },
 },
-["buff-BlessingOfMight"] = {
+["buff-BlessingOfWisdom(greater)"] = {
 ["type"] = "buff",
-["spellName"] = 25291,
+["spellName"] = 25918,
 ["color1"] = {
 ["a"] = 1,
 ["r"] = 0.7,
@@ -12132,9 +12132,9 @@ Grid2DB = {
 ["b"] = 1,
 },
 },
-["buff-BlessingOfWisdom(greater)"] = {
+["buff-BlessingOfWisdom"] = {
 ["type"] = "buff",
-["spellName"] = 25918,
+["spellName"] = 25290,
 ["color1"] = {
 ["a"] = 1,
 ["r"] = 0.7,
@@ -12571,6 +12571,8 @@ Grid2DB = {
 ["icons-left"] = {
 ["maxIcons"] = 3,
 ["type"] = "icons",
+["iconSize"] = 15,
+["level"] = 6,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "TOPLEFT",
@@ -12578,10 +12580,8 @@ Grid2DB = {
 ["x"] = 14,
 },
 ["maxIconsPerRow"] = 1,
-["orientation"] = "VERTICAL",
 ["reverseCooldown"] = true,
-["level"] = 6,
-["iconSize"] = 15,
+["orientation"] = "VERTICAL",
 },
 ["text-bottomright-duration-color"] = {
 ["type"] = "text-color",
@@ -12595,16 +12595,16 @@ Grid2DB = {
 ["maxIcons"] = 4,
 ["borderSize"] = 1,
 ["fontSize"] = 9,
+["useStatusColor"] = true,
 ["iconSize"] = 13,
+["level"] = 6,
+["maxIconsPerRow"] = 6,
 ["location"] = {
 ["y"] = 0,
 ["relPoint"] = "BOTTOMLEFT",
 ["point"] = "BOTTOMLEFT",
 ["x"] = 0,
 },
-["level"] = 6,
-["maxIconsPerRow"] = 6,
-["useStatusColor"] = true,
 },
 ["text-bottomright"] = {
 ["type"] = "text",
@@ -13955,21 +13955,6 @@ Grid2DB = {
 39288,
 },
 },
-["buffs-icon-left"] = {
-["type"] = "buffs",
-["auras"] = {
-23335,
-23333,
-34976,
-8611,
-},
-["color1"] = {
-["a"] = 1,
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-},
 ["health-current"] = {
 ["deadAsFullHealth"] = true,
 ["quickHealth"] = true,
@@ -13999,20 +13984,6 @@ Grid2DB = {
 ["color1"] = {
 ["r"] = 0,
 ["b"] = 0,
-},
-},
-["debuffs-icon-left"] = {
-["useWhiteList"] = true,
-["auras"] = {
-82125,
-},
-["type"] = "debuffs",
-["debuffTypeColorize"] = true,
-["color1"] = {
-["a"] = 1,
-["b"] = 0.2,
-["g"] = 0.2,
-["r"] = 1,
 },
 },
 ["debuff-special>GravityCore"] = {
@@ -14149,7 +14120,6 @@ Grid2DB = {
 },
 },
 ["range"] = {
-["default"] = 0.4,
 ["elapsed"] = 0.1,
 ["ranges"] = {
 ["PALADIN"] = {
@@ -14158,6 +14128,7 @@ Grid2DB = {
 ["hostileSpellID"] = 879,
 },
 },
+["default"] = 0.4,
 ["color1"] = {
 ["a"] = 0,
 ["g"] = 1,
@@ -14217,9 +14188,6 @@ Grid2DB = {
 ["onlyReviving"] = true,
 },
 ["debuff-Magic"] = {
-["debuffFilter"] = {
-["Sunfire"] = true,
-},
 ["load"] = {
 ["playerClass"] = {
 ["SHAMAN"] = true,
@@ -14227,6 +14195,9 @@ Grid2DB = {
 ["PALADIN"] = true,
 ["PRIEST"] = true,
 },
+},
+["debuffFilter"] = {
+["Sunfire"] = true,
 },
 },
 ["debuff-AlAkir>AcidRain"] = {
@@ -14255,13 +14226,13 @@ Grid2DB = {
 },
 },
 ["direction"] = {
+["showOnlyStickyUnits"] = true,
+["StickyTarget"] = true,
 ["load"] = {
 ["instType"] = {
 ["none"] = true,
 },
 },
-["showOnlyStickyUnits"] = true,
-["StickyTarget"] = true,
 ["updateRate"] = 1,
 },
 ["target"] = {
@@ -14299,8 +14270,19 @@ Grid2DB = {
 },
 },
 },
-["banzai-threat"] = {
-["updateRate"] = 0.1,
+["debuffs-icon-left"] = {
+["useWhiteList"] = true,
+["auras"] = {
+82125,
+},
+["type"] = "debuffs",
+["debuffTypeColorize"] = true,
+["color1"] = {
+["a"] = 1,
+["b"] = 0.2,
+["g"] = 0.2,
+["r"] = 1,
+},
 },
 ["buffs-health-color-teal"] = {
 ["type"] = "buffs",
@@ -14311,6 +14293,22 @@ Grid2DB = {
 ["b"] = 0.4117647409439087,
 ["g"] = 0.4117647409439087,
 ["r"] = 0,
+},
+},
+["buff-Lifebloom-mine"] = {
+["type"] = "buff",
+["spellName"] = 33763,
+["mine"] = 1,
+["load"] = {
+["playerClass"] = {
+["DRUID"] = true,
+},
+},
+["color1"] = {
+["a"] = 1,
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
 },
 },
 ["heals-incoming"] = {
@@ -14427,6 +14425,21 @@ Grid2DB = {
 ["r"] = 0.3921568989753723,
 ["g"] = 0.3921568989753723,
 ["b"] = 0,
+},
+},
+["buffs-icon-left"] = {
+["type"] = "buffs",
+["auras"] = {
+23335,
+23333,
+34976,
+8611,
+},
+["color1"] = {
+["a"] = 1,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 },
 ["buffs-health-color-lightred"] = {
@@ -14862,11 +14875,11 @@ Grid2DB = {
 },
 },
 ["raid-icon-player"] = {
-["color6"] = {
-["g"] = 0.7098039388656616,
-},
 ["load"] = {
 ["disabled"] = true,
+},
+["color6"] = {
+["g"] = 0.7098039388656616,
 },
 },
 ["shields"] = {
@@ -14878,21 +14891,8 @@ Grid2DB = {
 ["r"] = 0,
 },
 },
-["buff-Lifebloom-mine"] = {
-["type"] = "buff",
-["spellName"] = 33763,
-["mine"] = 1,
-["load"] = {
-["playerClass"] = {
-["DRUID"] = true,
-},
-},
-["color1"] = {
-["a"] = 1,
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
+["banzai-threat"] = {
+["updateRate"] = 0.1,
 },
 ["raid-assistant"] = {
 ["load"] = {
@@ -15470,6 +15470,16 @@ Grid2DB = {
 ["b"] = 1,
 },
 },
+["buff-PowerWordShield"] = {
+["type"] = "buff",
+["spellName"] = 10901,
+["color1"] = {
+["a"] = 1,
+["r"] = 0,
+["g"] = 1,
+["b"] = 1,
+},
+},
 ["debuff-WeakenedSoul"] = {
 ["type"] = "debuff",
 ["spellName"] = 6788,
@@ -15487,16 +15497,6 @@ Grid2DB = {
 ["color1"] = {
 ["a"] = 1,
 ["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
-},
-["buff-PowerWordShield"] = {
-["type"] = "buff",
-["spellName"] = 10901,
-["color1"] = {
-["a"] = 1,
-["r"] = 0,
 ["g"] = 1,
 ["b"] = 1,
 },

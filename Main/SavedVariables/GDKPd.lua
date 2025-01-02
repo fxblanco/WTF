@@ -49,6 +49,12 @@ GDKPd_DB = {
 },
 },
 ["Exonuklease - Venoxis"] = {
+["point"] = {
+["y"] = -132.9767913818359,
+["relative"] = "TOP",
+["point"] = "TOP",
+["x"] = 678.2561645507812,
+},
 },
 ["Kwasimojo - Venoxis"] = {
 ["point"] = {

@@ -49,6 +49,12 @@ GDKPd_DB = {
 },
 },
 ["Exonuklease - Venoxis"] = {
+["point"] = {
+["y"] = -132.9767913818359,
+["relative"] = "TOP",
+["point"] = "TOP",
+["x"] = 678.2561645507812,
+},
 },
 ["Maturitass - Venoxis"] = {
 },
@@ -74,13 +80,13 @@ GDKPd_DB = {
 },
 },
 ["Alslahunt - Venoxis"] = {
-["movable"] = false,
 ["playerbalancepoint"] = {
 ["y"] = -44.9091796875,
 ["relative"] = "RIGHT",
 ["point"] = "RIGHT",
 ["x"] = -50.22747039794922,
 },
+["movable"] = false,
 ["point"] = {
 ["y"] = 371.8600463867188,
 ["relative"] = "RIGHT",
