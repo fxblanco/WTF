@@ -73,6 +73,7 @@ Postal3DB = {
 ["Exonuklease - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Alsla|Venoxis|Horde",
 "Alslalu|Venoxis|Horde",
 "Alsia|Venoxis|Horde",
 "Alslalu-Venoxis|Venoxis|Horde",

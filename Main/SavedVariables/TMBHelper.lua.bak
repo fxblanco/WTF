@@ -23,6 +23,11 @@ ItemListsDB = {
 "44133",
 "Greater Inscription of the Axe",
 },
+[1736032386] = {
+"Exonuklease",
+"62343",
+"Greater Inscription of Charged Lodestone",
+},
 [1715208778] = {
 "Alsiadk",
 "44136",

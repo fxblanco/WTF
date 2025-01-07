@@ -132,14 +132,15 @@ BAGANATOR_CONFIG = {
 ["category_horizontal_spacing_2"] = 0.4,
 ["category_default_import"] = 3,
 ["debug_categories"] = false,
-["bag_empty_space_at_top"] = false,
+["icon_mark_unusable"] = false,
 ["currency_headers_collapsed"] = {
 },
+["bag_empty_space_at_top"] = false,
 ["sort_start_at_bottom"] = true,
+["icon_equipment_set_border"] = true,
 ["saved_searches"] = {
 },
 ["category_migration"] = 4,
-["icon_equipment_set_border"] = true,
 ["category_modifications"] = {
 },
 ["warband_bank_view_width"] = 14,
@@ -155,12 +156,12 @@ BAGANATOR_CONFIG = {
 ["icon_text_quality_colors"] = true,
 ["sort_ignore_slots_at_end"] = false,
 ["icon_text_font_size"] = 14,
-["view_alpha"] = 0.93,
+["currencies_tracked_imported"] = {
+},
 ["sort_ignore_slots_count_2"] = {
 ["Alsía-Venoxis"] = 0,
 },
-["disabled_skins"] = {
-},
+["view_alpha"] = 0.93,
 ["bag_view_width"] = 12,
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
@@ -259,16 +260,17 @@ BAGANATOR_CONFIG = {
 ["show_buttons_on_alt"] = true,
 ["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
-"Alsla-Venoxis",
-"Alslahunt-Venoxis",
-"Alsia-Venoxis",
 "Alsía-Venoxis",
-"Exonuklease-Venoxis",
+"Alsla-Venoxis",
+"Alsia-Venoxis",
+"Alslahunt-Venoxis",
 "Alslalu-Venoxis",
+"Exonuklease-Venoxis",
 "Andrés-Venoxis",
 "Maturitass-Venoxis",
 "Alslala-Venoxis",
 "Kwasimojo-Venoxis",
+"Lucho-Venoxis",
 },
 ["sort_ignore_bank_slots_count"] = {
 ["Alsía-Venoxis"] = 0,
@@ -305,7 +307,7 @@ BAGANATOR_CONFIG = {
 20,
 0,
 },
-["currencies_tracked_imported"] = {
+["disabled_skins"] = {
 },
 ["show_sort_button_2"] = true,
 ["bag_icon_size"] = 37,

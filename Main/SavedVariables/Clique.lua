@@ -7,11 +7,11 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["fastooc"] = false,
-["specswap"] = false,
 ["downclick"] = false,
+["fastooc"] = false,
 ["spec2_profileKey"] = "Alsla - Venoxis",
 ["alerthidden"] = true,
+["specswap"] = false,
 },
 ["Xolem - Venoxis"] = {
 ["spec1_profileKey"] = "Xolem - Venoxis",
@@ -28,9 +28,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["specswap"] = false,
 ["spec2_profileKey"] = "Alsía - Venoxis",
 ["alerthidden"] = true,
-["specswap"] = false,
 },
 ["Exonuklease - Venoxis"] = {
 ["spec1_profileKey"] = "Exonuklease - Venoxis",
@@ -39,8 +39,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Exonuklease - Venoxis",
+["specswap"] = false,
 },
 ["Alslalu - Venoxis"] = {
 ["spec1_profileKey"] = "Alslalu - Venoxis",
@@ -49,9 +49,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["spec2_profileKey"] = "Alslalu - Venoxis",
 ["alerthidden"] = true,
 ["specswap"] = false,
-["spec2_profileKey"] = "Alslalu - Venoxis",
 },
 ["Alsia - Venoxis"] = {
 ["spec1_profileKey"] = "Alsia - Venoxis",
@@ -92,11 +92,11 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
+["spec2_profileKey"] = "Alslahunt - Venoxis",
+["downclick"] = false,
 ["alerthidden"] = true,
 ["specswap"] = false,
-["spec2_profileKey"] = "Alslahunt - Venoxis",
 },
 ["Kwasimojo - Venoxis"] = {
 ["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -531,15 +531,6 @@ CliqueDB3 = {
 },
 {
 ["type"] = "spell",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
-["spell"] = "Healing Surge",
-},
-{
-["type"] = "spell",
 ["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
@@ -558,19 +549,21 @@ CliqueDB3 = {
 },
 {
 ["type"] = "spell",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
+["spell"] = "Healing Surge",
+},
+{
+["type"] = "spell",
 ["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 252995,
 ["spell"] = "Riptide",
-},
-{
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
 },
 {
 ["spell"] = "Healing Wave",
@@ -589,6 +582,13 @@ CliqueDB3 = {
 },
 ["icon"] = 136043,
 ["type"] = "spell",
+},
+{
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 {
 ["spell"] = "Unleash Elements",

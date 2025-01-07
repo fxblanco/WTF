@@ -141,8 +141,10 @@ BAGANATOR_CONFIG = {
 },
 ["recent_timeout"] = 15,
 ["bag_view_show_bag_slots"] = false,
-["category_migration"] = 4,
 ["lock_frames"] = false,
+["saved_searches"] = {
+},
+["category_migration"] = 4,
 ["category_modifications"] = {
 },
 ["warband_bank_view_width"] = 14,
@@ -150,72 +152,16 @@ BAGANATOR_CONFIG = {
 },
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
-["guild_view_position"] = {
-"LEFT",
-20,
-0,
-},
-["icon_text_quality_colors"] = true,
 ["category_group_empty_slots"] = true,
-["icon_text_font_size"] = 14,
+["icon_text_quality_colors"] = true,
 ["bag_icon_size"] = 37,
-["bag_view_width"] = 12,
-["disabled_skins"] = {
-},
-["sort_ignore_slots_count_2"] = {
-["Alsía-Venoxis"] = 0,
-},
+["icon_text_font_size"] = 14,
 ["currencies_tracked_imported"] = {
 },
-["show_buttons_on_alt"] = true,
-["recent_characters_main_view"] = {
-"Alslahunt-Venoxis",
-"Alsla-Venoxis",
-"Alsia-Venoxis",
-"Alsía-Venoxis",
-"Exonuklease-Venoxis",
-"Alslalu-Venoxis",
-"Andrés-Venoxis",
-"Maturitass-Venoxis",
-"Alslala-Venoxis",
-"Kwasimojo-Venoxis",
+["view_alpha"] = 0.93,
+["disabled_skins"] = {
 },
-["skins"] = {
-["elvui"] = {
-["use_bag_font"] = false,
-},
-["blizzard"] = {
-["no_frame_borders"] = false,
-["view_transparency"] = 0,
-["empty_slot_background"] = false,
-},
-["dark"] = {
-["view_transparency"] = 0.3,
-["square_icons"] = false,
-["empty_slot_background"] = false,
-},
-},
-["sort_ignore_bank_slots_count"] = {
-["Alsía-Venoxis"] = 0,
-},
-["auto_sort_on_open"] = false,
-["guild_current_tab"] = 0,
-["upgrade_plugin"] = "none",
-["guild_bank_sort_method"] = "unset",
-["setting_anchors"] = false,
-["guild_view_dialog_position"] = {
-"BOTTOM",
-"Baganator_GuildViewFrame",
-"TOP",
-0,
-0,
-},
-["debug_keywords"] = false,
-["bank_only_view_position"] = {
-"LEFT",
-20,
-0,
-},
+["bag_view_width"] = 12,
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
 {
@@ -310,9 +256,66 @@ BAGANATOR_CONFIG = {
 },
 },
 },
+["recent_characters_main_view"] = {
+"Alsía-Venoxis",
+"Alsla-Venoxis",
+"Alsia-Venoxis",
+"Alslahunt-Venoxis",
+"Alslalu-Venoxis",
+"Exonuklease-Venoxis",
+"Andrés-Venoxis",
+"Maturitass-Venoxis",
+"Alslala-Venoxis",
+"Kwasimojo-Venoxis",
+"Lucho-Venoxis",
+},
+["skins"] = {
+["elvui"] = {
+["use_bag_font"] = false,
+},
+["blizzard"] = {
+["no_frame_borders"] = false,
+["view_transparency"] = 0,
+["empty_slot_background"] = false,
+},
+["dark"] = {
+["view_transparency"] = 0.3,
+["square_icons"] = false,
+["empty_slot_background"] = false,
+},
+},
+["debug_keywords"] = false,
+["guild_current_tab"] = 0,
+["auto_sort_on_open"] = false,
+["upgrade_plugin"] = "none",
+["guild_bank_sort_method"] = "unset",
+["setting_anchors"] = false,
+["sort_ignore_bank_slots_count"] = {
+["Alsía-Venoxis"] = 0,
+},
+["guild_view_dialog_position"] = {
+"BOTTOM",
+"Baganator_GuildViewFrame",
+"TOP",
+0,
+0,
+},
+["show_buttons_on_alt"] = true,
+["bank_only_view_position"] = {
+"LEFT",
+20,
+0,
+},
+["sort_ignore_slots_count_2"] = {
+["Alsía-Venoxis"] = 0,
+},
 ["show_sort_button_2"] = true,
-["view_alpha"] = 0.93,
 ["sort_ignore_slots_at_end"] = false,
+["guild_view_position"] = {
+"LEFT",
+20,
+0,
+},
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrameelvui",
@@ -321,11 +324,10 @@ BAGANATOR_CONFIG = {
 0,
 },
 ["icon_equipment_set_border"] = true,
-["saved_searches"] = {
-},
 ["sort_start_at_bottom"] = true,
+["bag_empty_space_at_top"] = false,
 ["currency_headers_collapsed"] = {
 },
-["bag_empty_space_at_top"] = false,
+["icon_mark_unusable"] = false,
 }
 BAGANATOR_DATA = nil
