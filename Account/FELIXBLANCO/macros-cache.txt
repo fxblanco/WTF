@@ -1,5 +1,5 @@
 VER 3 0000000000000016 "_1_" "134400"
-/5 10er HC Stamm Sucht für Sonntag 20:30 6/7 HC 1 DD (Owl, Ret, SP, Demo) /w oder https://discord.gg/ckNJ9vnB
+/6 10er HC Stamm Sucht für Sonntag 20:30 7/7 HC 1 Ele u. 1 Rnd DD (Owl, Ret, Demo) /w oder https://discord.gg/6G43Kfa7
 END
 VER 3 0000000000000019 "blue" "134400"
 /wm [@cursor] 2

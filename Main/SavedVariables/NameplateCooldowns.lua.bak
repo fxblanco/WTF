@@ -7147,7 +7147,6 @@ NameplateCooldownsAceDB = {
 },
 },
 ["Alsia - Venoxis"] = {
-["MigrationVersion"] = 7,
 ["SpellCDs"] = {
 [62618] = {
 ["enabled"] = true,
@@ -7858,8 +7857,10 @@ NameplateCooldownsAceDB = {
 ["enabled"] = true,
 },
 },
+["MigrationVersion"] = 7,
 },
 ["Alsía - Venoxis"] = {
+["MigrationVersion"] = 7,
 ["SpellCDs"] = {
 [62618] = {
 ["enabled"] = true,
@@ -8570,7 +8571,6 @@ NameplateCooldownsAceDB = {
 ["enabled"] = true,
 },
 },
-["MigrationVersion"] = 7,
 },
 ["Maturitass - Venoxis"] = {
 ["MigrationVersion"] = 7,
