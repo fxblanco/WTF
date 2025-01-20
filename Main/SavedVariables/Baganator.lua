@@ -17,13 +17,13 @@ BAGANATOR_CONFIG = {
 ["default_special_empty"] = true,
 ["default_consumable"] = true,
 ["default_tradegoods"] = true,
-["default_weapon"] = true,
-["default_key"] = true,
+["default_gem"] = true,
+["default_questitem"] = true,
 ["default_auto_equipment_sets"] = true,
 ["default_container"] = true,
 ["default_reagent"] = true,
-["default_questitem"] = true,
-["default_gem"] = true,
+["default_key"] = true,
+["default_weapon"] = true,
 },
 ["show_search_box"] = true,
 ["debug_categories_search"] = false,
@@ -36,7 +36,7 @@ BAGANATOR_CONFIG = {
 ["tradeskill"] = false,
 ["void_storage"] = false,
 ["guild_bank"] = false,
-["forge_of_bonds"] = false,
+["trade_partner"] = false,
 ["merchant"] = true,
 ["item_upgrade"] = true,
 ["character_panel"] = false,
@@ -44,7 +44,7 @@ BAGANATOR_CONFIG = {
 ["item_interaction"] = true,
 ["mail"] = false,
 ["sockets"] = false,
-["trade_partner"] = false,
+["forge_of_bonds"] = false,
 ["bank"] = true,
 },
 ["icon_corners_auto_insert_applied"] = {
@@ -135,41 +135,85 @@ BAGANATOR_CONFIG = {
 ["category_horizontal_spacing_2"] = 0.4,
 ["category_default_import"] = 3,
 ["debug_categories"] = false,
-["icon_context_fading"] = true,
-["custom_categories"] = {
+["icon_mark_unusable"] = false,
+["currency_headers_collapsed"] = {
 },
-["bag_view_position"] = {
-"BOTTOMRIGHT",
--4.324462890625,
-4.628226757049561,
-},
-["recent_timeout"] = 15,
-["lock_frames"] = false,
+["bag_empty_space_at_top"] = false,
+["sort_start_at_bottom"] = true,
+["icon_equipment_set_border"] = true,
 ["bag_view_show_bag_slots"] = false,
 ["saved_searches"] = {
 },
-["category_migration"] = 4,
-["category_modifications"] = {
-},
-["warband_bank_view_width"] = 14,
 ["guild_view_position"] = {
 "LEFT",
 20,
 0,
 },
+["category_modifications"] = {
+},
+["warband_bank_view_width"] = 14,
+["category_section_toggled"] = {
+},
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
-["category_group_empty_slots"] = true,
+["sort_ignore_slots_at_end"] = false,
 ["icon_text_quality_colors"] = true,
 ["bag_icon_size"] = 37,
 ["icon_text_font_size"] = 14,
-["currencies_tracked_imported"] = {
+["view_alpha"] = 0.93,
+["bag_view_width"] = 12,
+["disabled_skins"] = {
 },
 ["sort_ignore_slots_count_2"] = {
 ["Alsía-Venoxis"] = 0,
 },
-["view_alpha"] = 0.93,
-["bag_view_width"] = 12,
+["show_buttons_on_alt"] = true,
+["sort_ignore_bank_slots_count"] = {
+["Alsía-Venoxis"] = 0,
+},
+["debug_keywords"] = false,
+["recent_characters_main_view"] = {
+"Alslahunt-Venoxis",
+"Alsia-Venoxis",
+"Exonuklease-Venoxis",
+"Endonuclease-Venoxis",
+"Alsla-Venoxis",
+"Alsía-Venoxis",
+"Alslalu-Venoxis",
+"Andrés-Venoxis",
+"Maturitass-Venoxis",
+"Alslala-Venoxis",
+"Kwasimojo-Venoxis",
+"Lucho-Venoxis",
+},
+["setting_anchors"] = false,
+["auto_sort_on_open"] = false,
+["guild_bank_sort_method"] = "unset",
+["upgrade_plugin"] = "none",
+["guild_current_tab"] = 0,
+["skins"] = {
+["elvui"] = {
+["use_bag_font"] = false,
+},
+["blizzard"] = {
+["no_frame_borders"] = false,
+["view_transparency"] = 0,
+["empty_slot_background"] = false,
+},
+["dark"] = {
+["view_transparency"] = 0.3,
+["square_icons"] = false,
+["no_frame_borders"] = false,
+["empty_slot_background"] = false,
+},
+},
+["guild_view_dialog_position"] = {
+"BOTTOM",
+"Baganator_GuildViewFrame",
+"TOP",
+0,
+0,
+},
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
 {
@@ -266,64 +310,16 @@ BAGANATOR_CONFIG = {
 ["Endonuclease-Venoxis"] = {
 },
 },
-["sort_ignore_bank_slots_count"] = {
-["Alsía-Venoxis"] = 0,
-},
-["recent_characters_main_view"] = {
-"Endonuclease-Venoxis",
-"Alsia-Venoxis",
-"Alsla-Venoxis",
-"Alsía-Venoxis",
-"Alslahunt-Venoxis",
-"Exonuklease-Venoxis",
-"Alslalu-Venoxis",
-"Andrés-Venoxis",
-"Maturitass-Venoxis",
-"Alslala-Venoxis",
-"Kwasimojo-Venoxis",
-"Lucho-Venoxis",
-},
-["skins"] = {
-["elvui"] = {
-["use_bag_font"] = false,
-},
-["blizzard"] = {
-["no_frame_borders"] = false,
-["view_transparency"] = 0,
-["empty_slot_background"] = false,
-},
-["dark"] = {
-["view_transparency"] = 0.3,
-["square_icons"] = false,
-["no_frame_borders"] = false,
-["empty_slot_background"] = false,
-},
-},
-["guild_current_tab"] = 0,
-["auto_sort_on_open"] = false,
-["upgrade_plugin"] = "none",
-["guild_bank_sort_method"] = "unset",
-["setting_anchors"] = false,
-["debug_keywords"] = false,
-["guild_view_dialog_position"] = {
-"BOTTOM",
-"Baganator_GuildViewFrame",
-"TOP",
-0,
-0,
-},
-["show_buttons_on_alt"] = true,
 ["bank_only_view_position"] = {
 "LEFT",
 20,
 0,
 },
-["disabled_skins"] = {
+["currencies_tracked_imported"] = {
 },
 ["show_sort_button_2"] = true,
-["sort_ignore_slots_at_end"] = false,
-["category_section_toggled"] = {
-},
+["category_group_empty_slots"] = true,
+["category_migration"] = 4,
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrameelvui",
@@ -331,11 +327,15 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["icon_equipment_set_border"] = true,
-["sort_start_at_bottom"] = true,
-["bag_empty_space_at_top"] = false,
-["currency_headers_collapsed"] = {
+["lock_frames"] = false,
+["recent_timeout"] = 15,
+["bag_view_position"] = {
+"BOTTOMRIGHT",
+-4.324462890625,
+4.628226757049561,
 },
-["icon_mark_unusable"] = false,
+["custom_categories"] = {
+},
+["icon_context_fading"] = true,
 }
 BAGANATOR_DATA = nil

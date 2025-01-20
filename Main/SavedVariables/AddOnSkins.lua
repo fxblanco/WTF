@@ -5,18 +5,18 @@ AddOnSkinsDB = {
 ["Xolem - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
-["Maturitass - Venoxis"] = "Default",
-["Endonuclease - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
 ["Lucho - Venoxis"] = "Default",
-["Bloodwall - Venoxis"] = "Default",
 ["Alslalu - Venoxis"] = "Default",
+["Alsiadk - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Alsia - Venoxis"] = "Default",
 ["Andrés - Venoxis"] = "Default",
-["Alsiadk - Venoxis"] = "Default",
+["Bloodwall - Venoxis"] = "Default",
 ["Khalimmortus - Venoxis"] = "Default",
-["Alslala - Venoxis"] = "Default",
-["Kwasimojo - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
+["Maturitass - Venoxis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -28,7 +28,7 @@ AddOnSkinsDB = {
 }
 AddOnSkinsDS = {
 [4.68] = {
-["Clique"] = true,
 ["MinimalArchaeology"] = true,
+["Clique"] = true,
 },
 }

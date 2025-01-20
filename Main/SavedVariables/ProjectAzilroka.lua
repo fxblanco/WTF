@@ -5,18 +5,18 @@ ProjectAzilrokaDB = {
 ["Xolem - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
-["Maturitass - Venoxis"] = "Default",
-["Endonuclease - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
 ["Lucho - Venoxis"] = "Default",
-["Bloodwall - Venoxis"] = "Default",
 ["Alslalu - Venoxis"] = "Default",
+["Alsiadk - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Alsia - Venoxis"] = "Default",
 ["Andrés - Venoxis"] = "Default",
-["Alsiadk - Venoxis"] = "Default",
+["Bloodwall - Venoxis"] = "Default",
 ["Khalimmortus - Venoxis"] = "Default",
-["Alslala - Venoxis"] = "Default",
-["Kwasimojo - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
+["Maturitass - Venoxis"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -28,11 +28,10 @@ ProjectAzilrokaDB = {
 ["Enable"] = false,
 },
 ["SquareMinimapButtons"] = {
-["ButtonSpacing"] = 1,
+["ButtonSpacing"] = 0,
 ["ReverseDirection"] = true,
-["MoveMail"] = false,
 ["Backdrop"] = false,
-["BarMouseOver"] = true,
+["MoveMail"] = false,
 ["ButtonsPerRow"] = 11,
 },
 ["DragonOverlay"] = {
@@ -50,17 +49,17 @@ ProjectAzilrokaDB = {
 ["stAddonManager"] = {
 ["Enable"] = false,
 },
-["Cooldown"] = {
+["FasterLoot"] = {
 ["Enable"] = false,
 },
-["FasterLoot"] = {
+["Cooldown"] = {
 ["Enable"] = false,
 },
 ["EnhancedFriendsList"] = {
 ["Enable"] = false,
 ["DiffLevel"] = false,
-["NameFontSize"] = 14,
 ["InfoFontSize"] = 14,
+["NameFontSize"] = 14,
 ["Texture"] = "Merfin Main Texture",
 },
 },
