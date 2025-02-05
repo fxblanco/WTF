@@ -173,13 +173,13 @@ BAGANATOR_CONFIG = {
 },
 ["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
+"Alsla-Venoxis",
 "Alslahunt-Venoxis",
+"Alsía-Venoxis",
 "Alsia-Venoxis",
+"Alslalu-Venoxis",
 "Exonuklease-Venoxis",
 "Endonuclease-Venoxis",
-"Alsla-Venoxis",
-"Alsía-Venoxis",
-"Alslalu-Venoxis",
 "Andrés-Venoxis",
 "Maturitass-Venoxis",
 "Alslala-Venoxis",
@@ -331,8 +331,8 @@ BAGANATOR_CONFIG = {
 ["recent_timeout"] = 15,
 ["bag_view_position"] = {
 "BOTTOMRIGHT",
--4.324462890625,
-4.628226757049561,
+-3.207275390625,
+28.07034683227539,
 },
 ["custom_categories"] = {
 },

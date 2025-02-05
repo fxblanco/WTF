@@ -7,9 +7,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
 ["specswap"] = false,
+["downclick"] = false,
 ["spec2_profileKey"] = "Alsla - Venoxis",
 ["alerthidden"] = true,
 },
@@ -28,9 +28,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["alerthidden"] = true,
 ["specswap"] = false,
 ["spec2_profileKey"] = "Alsía - Venoxis",
-["alerthidden"] = true,
 },
 ["Exonuklease - Venoxis"] = {
 ["spec1_profileKey"] = "Exonuklease - Venoxis",
@@ -49,9 +49,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["specswap"] = false,
 ["spec2_profileKey"] = "Alslalu - Venoxis",
 ["alerthidden"] = true,
-["specswap"] = false,
 },
 ["Alsia - Venoxis"] = {
 ["spec1_profileKey"] = "Alsia - Venoxis",
@@ -60,9 +60,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["spec2_profileKey"] = "Alsia - Venoxis",
 ["alerthidden"] = true,
 ["specswap"] = false,
-["spec2_profileKey"] = "Alsia - Venoxis",
 },
 ["Andrés - Venoxis"] = {
 ["spec1_profileKey"] = "Andrés - Venoxis",
@@ -92,9 +92,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Alslahunt - Venoxis",
-["downclick"] = false,
 ["alerthidden"] = true,
 ["specswap"] = false,
 },
@@ -238,15 +238,6 @@ CliqueDB3 = {
 ["spell"] = "Hand of Freedom",
 },
 {
-["type"] = "spell",
-["key"] = "CTRL-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136106,
-["spell"] = "Divine Intervention",
-},
-{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON2",
@@ -263,17 +254,18 @@ CliqueDB3 = {
 },
 },
 {
-["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON3",
+["type"] = "spell",
+["key"] = "CTRL-BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
+["icon"] = 136106,
+["spell"] = "Divine Intervention",
 },
 {
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
+["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
 ["type"] = "macro",
-["key"] = "BUTTON1",
+["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
@@ -291,6 +283,14 @@ CliqueDB3 = {
 ["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
 },
@@ -355,22 +355,6 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Binding Heal",
-["key"] = "CTRL-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135883,
-["type"] = "spell",
-},
-{
 ["spell"] = "Prayer of Mending",
 ["key"] = "BUTTON3",
 ["sets"] = {
@@ -389,30 +373,28 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Binding Heal",
+["key"] = "CTRL-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135883,
+["type"] = "spell",
+},
+{
 ["spell"] = "Flash Heal",
 ["key"] = "SHIFT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 135907,
-["type"] = "spell",
-},
-{
-["spell"] = "Greater Heal",
-["key"] = "CTRL-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135913,
-["type"] = "spell",
-},
-{
-["spell"] = "Penance",
-["key"] = "BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 237545,
 ["type"] = "spell",
 },
 {
@@ -431,6 +413,24 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 135953,
+["type"] = "spell",
+},
+{
+["spell"] = "Greater Heal",
+["key"] = "CTRL-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135913,
+["type"] = "spell",
+},
+{
+["spell"] = "Penance",
+["key"] = "BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 237545,
 ["type"] = "spell",
 },
 {
@@ -641,14 +641,6 @@ CliqueDB3 = {
 ["spell"] = "Hand of Freedom",
 },
 {
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
-["type"] = "macro",
-["key"] = "SHIFT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][] Divine Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "BUTTON2",
@@ -666,21 +658,20 @@ CliqueDB3 = {
 ["spell"] = "Divine Intervention",
 },
 {
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
+["type"] = "macro",
+["key"] = "SHIFT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
 ["type"] = "macro",
 ["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["type"] = "spell",
-["key"] = "CTRL-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135928,
-["spell"] = "Lay on Hands",
 },
 {
 ["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
@@ -697,6 +688,15 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["type"] = "spell",
+["key"] = "CTRL-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135928,
+["spell"] = "Lay on Hands",
 },
 {
 ["spell"] = "Hand of Salvation",

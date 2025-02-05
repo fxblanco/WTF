@@ -1,0 +1,477 @@
+
+NAGDB = {
+["namespaces"] = {
+["KeybindManager"] = {
+["profiles"] = {
+["Alslalu - Venoxis"] = {
+["version"] = 1,
+},
+["Alsia - Venoxis"] = {
+["version"] = 1,
+},
+["Alsía - Venoxis"] = {
+["version"] = 1,
+},
+["Lucho - Venoxis"] = {
+["version"] = 1,
+},
+["Alslahunt - Venoxis"] = {
+["version"] = 1,
+},
+["Alsla - Venoxis"] = {
+["version"] = 1,
+},
+["Kwasimojo - Venoxis"] = {
+["version"] = 1,
+},
+},
+},
+},
+["profileKeys"] = {
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Lucho - Venoxis"] = "Lucho - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alsla - Venoxis"] = "Alsla - Venoxis",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+},
+["global"] = {
+["migrations"] = {
+["3.3.0"] = true,
+["3.3.0-rc.1"] = true,
+},
+["version"] = {
+["minor"] = 5,
+["patch"] = 2,
+["major"] = 3,
+},
+["keys"] = {
+["k6"] = "Nj09NTcwM2VjYTI9PTE3NDA2OTgwMzI9PWRsRUlGblllMUkwTkZUOXM",
+["k0"] = "MD09Njg1YjgxOGQ9PTE3NDA2OTgwMzI9PWthN3dTV1BPdGFpVFVjNHU",
+},
+["lastSentSpam"] = 18699.787,
+},
+["profiles"] = {
+["Alslalu - Venoxis"] = {
+["rotations"] = {
+["SHAMAN"] = {
+[262] = {
+},
+[261] = {
+["Cataclysm Elemental - by @Mysto/@Jiw"] = {
+["talents"] = {
+},
+["glyphs"] = {
+},
+["burstTrackers"] = {
+{
+["spellId"] = 16166,
+["auraId"] = {
+16166,
+},
+},
+{
+["spellId"] = 2825,
+["auraId"] = {
+2825,
+},
+},
+},
+["itemSwap"] = {
+},
+["macros"] = {
+},
+["spellLocations"] = {
+["BELOW"] = {
+8071,
+3599,
+5394,
+3738,
+8190,
+},
+["RIGHT"] = {
+},
+["AOE"] = {
+421,
+61882,
+},
+["ABOVE"] = {
+},
+["LEFT"] = {
+16166,
+2894,
+33697,
+79206,
+2825,
+26297,
+},
+},
+["prePull"] = {
+{
+8024,
+-7,
+},
+{
+324,
+-5,
+},
+{
+66842,
+-3,
+},
+{
+"defaultBattlePotion",
+-1.5,
+},
+{
+403,
+-1.5,
+},
+},
+["enabled"] = true,
+["rotationString"] = "        NAG:AutocastOtherCooldowns()\n        or ((not NAG:IsActive(324)) and NAG:Cast(324))\n        or ((not NAG:IsActive(8024)) and NAG:Cast(8024))\n        or (((not NAG:IsActive(2894)) and (NAG:TotemRemainingTime(NAG.Types.TotemType.Fire) <= 3.0)) and NAG:Cast(3599))\n        or (((not NAG:IsActive(3738)) and (not NAG:IsActive(49868))) and NAG:Cast(3738))\n        or (NAG:IsReady(33697) and NAG:Cast(33697))\n        or (NAG:IsReady(26297) and NAG:Cast(26297))\n        or (NAG:IsReady(16166) and NAG:Cast(16166))\n        or (NAG:IsReady(82174) and NAG:Cast(82174))\n        or (NAG:IsReady(NAG.db.profile.defaultBattlePotion) and NAG:Cast(NAG.db.profile.defaultBattlePotion))\n        or (NAG:IsReady(2825) and NAG:Cast(2825))\n        or ((((NAG:DotRemainingTime(8050) <= 1.0) or (not NAG:DotIsActive(8050))) and NAG:IsReady(8050)) and NAG:Cast(8050))\n        or ((NAG:IsPlayerMoving() and (not NAG:IsKnown(101052)) and (NAG:DotRemainingTime(8050) <= 10.0)) and NAG:Cast(8050))\n        --or ((NAG:IsPlayerMoving() and (not NAG:IsKnown(101052)) and (NAG:DotRemainingTime(8050) > 10.0)) and NAG:Cast(8042))\n        or (((NAG:DotRemainingTime(8050) >= 3.0) and ((NAG:TimeToReady(51505) <= 1.0) or NAG:IsReady(51505))) and NAG:Cast(51505))\n        or (((NAG:AuraNumStacks(324) >= 8.0) and (NAG:DotRemainingTime(8050) >= 5.0) and NAG:IsReady(8042)) and NAG:Cast(8042))\n        or (((((NAG:CurrentManaPercent() <= 30.0) and (NAG:TimeRemainingPercent() >= 50.0)) or ((NAG:CurrentManaPercent() <= 20.0) and (NAG:TimeRemainingPercent() >= 35.0)) or ((NAG:CurrentManaPercent() <= 10.0) and (NAG:TimeRemainingPercent() >= 20.0)) or ((NAG:CurrentManaPercent() <= 5.0) and (NAG:TimeRemainingPercent() >= 10.0)) or (NAG:CurrentManaPercent() <= 3.0)) and NAG:IsReady(51490)) and NAG:Cast(51490))\n        or NAG:Cast(403)\n",
+["experimental"] = false,
+["spells"] = {
+},
+["consumes"] = {
+},
+["equipment"] = {
+},
+["default"] = true,
+["customVariables"] = {
+},
+["items"] = {
+},
+["auras"] = {
+},
+["guitarHeroBar"] = {
+},
+["resourceBar"] = {
+},
+},
+},
+},
+},
+["selectedRotation"] = {
+["SHAMAN"] = {
+[261] = "Cataclysm Elemental - by @Mysto/@Jiw",
+},
+},
+},
+["Alsia - Venoxis"] = {
+["rotations"] = {
+["PALADIN"] = {
+[831] = {
+},
+[855] = {
+["Paladin Retribution - AoK by surveillant @ Ebon Hold"] = {
+["talents"] = {
+},
+["glyphs"] = {
+},
+["burstTrackers"] = {
+},
+["itemSwap"] = {
+},
+["macros"] = {
+},
+["spellLocations"] = {
+["BELOW"] = {
+},
+["RIGHT"] = {
+},
+["AOE"] = {
+},
+["ABOVE"] = {
+},
+["LEFT"] = {
+86150,
+633,
+1022,
+853,
+6940,
+31884,
+498,
+31801,
+85696,
+31821,
+31842,
+1044,
+1038,
+31850,
+20925,
+70940,
+642,
+31884,
+20154,
+},
+},
+["prePull"] = {
+{
+"defaultBattlePotion",
+-0.1,
+},
+{
+86150,
+-0.1,
+},
+{
+2825,
+0,
+},
+{
+20271,
+0,
+},
+},
+["enabled"] = true,
+["rotationString"] = "    NAG:AutocastOtherCooldowns()\n    or     (((not NAG:IsActive(31801)) and (NAG:NumberTargets() <= 3.0)) and NAG:Cast(31801))\n    or     (((NAG:NumberTargets() >= 4.0) and (not NAG:IsActive(20154))) and NAG:Cast(20154))\n    or     (((not NAG:IsActive(31801)) and (not NAG:IsActive(20154))) and NAG:Cast(31801))\n    or     ((NAG:IsActive(31884) or (NAG:TimeToReady(31884) >= 55.0) or NAG:IsKnown(69002)) and NAG:Cast(69002))\n    or     (((not NAG:IsKnown(69113)) and (not NAG:IsKnown(68972)) and NAG:IsActive(31884) and ((NAG:CurrentHolyPower() == 3.0) or NAG:IsActive(90174) or NAG:IsActive(85696))) and NAG:Cast(31884))\n    or     (((NAG:IsKnown(69113) or NAG:IsKnown(68972)) and NAG:IsActive(85696) and (NAG:TimeToReady(85696) < 116.0) and ((not NAG:TierSetEquipped(12, 4)) or (NAG:AuraNumStacks(96923) == 5.0) or (NAG:AuraRemainingTime(85696) < 16.0)) and (((NAG:CurrentHolyPower() < 3.0) and NAG:CanCast(35395)) or ((NAG:CurrentHolyPower() == 3.0) or NAG:AuraIsActiveWithReactionTime(90174)))) and NAG:Cast(69113))\n    or     (((NAG:IsKnown(69113) or NAG:IsKnown(68972)) and NAG:IsActive(85696) and (NAG:TimeToReady(85696) < 116.0) and ((not NAG:TierSetEquipped(12, 4)) or (NAG:AuraNumStacks(96923) == 5.0) or (NAG:AuraRemainingTime(85696) < 16.0)) and (((NAG:CurrentHolyPower() < 3.0) and NAG:CanCast(35395)) or ((NAG:CurrentHolyPower() == 3.0) or NAG:AuraIsActiveWithReactionTime(90174)))) and NAG:Cast(68972))\n    or     (((NAG:IsKnown(69113) or NAG:IsKnown(68972)) and NAG:IsActive(85696) and (NAG:TimeToReady(85696) < 116.0) and ((not NAG:TierSetEquipped(12, 4)) or (NAG:AuraNumStacks(96923) == 5.0) or (NAG:AuraRemainingTime(85696) < 16.0)) and (((NAG:CurrentHolyPower() < 3.0) and NAG:CanCast(35395)) or ((NAG:CurrentHolyPower() == 3.0) or NAG:AuraIsActiveWithReactionTime(90174)))) and NAG:Cast(31884))\n    or     ((((NAG:NumStatBuffCooldowns(1, -1, -1) >= 1.0) and (NAG:IsActive(31884) or ((not NAG:IsActive(85696)) and (NAG:TimeToReady(85696) > 35.0)) or (NAG:IsActive(85696) and (NAG:TimeToReady(85696) < 116.0)))) or ((NAG:NumStatBuffCooldowns(1, -1, -1) == 0.0) and (NAG:IsActive(31884) or ((not NAG:IsActive(85696)) and (NAG:TimeToReady(85696) > 55.0))) and (not NAG:IsKnown(69113)) and (not NAG:IsKnown(68972))) or ((NAG:IsKnown(69113) or NAG:IsKnown(68972)) and (NAG:IsActive(85696) or (NAG:TimeToReady(85696) > 55.0) or ((NAG:IsReady(85696) or (NAG:TimeToReady(85696) <= 5.0)) and (NAG:AuraIsActiveWithReactionTime(90174) or (NAG:CurrentHolyPower() >= 2.0)))))) and NAG:Cast(82174))\n    or     (((not NAG:IsActive(85696)) and NAG:IsReady(85696) and ((NAG:AuraIsInactiveWithReactionTime(90174) and (NAG:CurrentHolyPower() < 2.0)) or (NAG:AuraIsActiveWithReactionTime(90174) and (NAG:CurrentHolyPower() == 2.0)))) and NAG:Cast(35395))\n    or     (((not NAG:IsActive(53657)) and ((not NAG:IsKnown(105767)) or (NAG:IsKnown(105767) and NAG:AuraIsInactiveWithReactionTime(90174) and (NAG:CurrentHolyPower() < 3.0)))) and NAG:Cast(20271))\n    or     ((NAG:CurrentMana() < 16000.0) and NAG:Cast(28730))\n    or     ((((NAG:AuraRemainingTime(85696) < 34.0) and NAG:TierSetEquipped(12, 4) and NAG:IsActive(85696)) or ((not NAG:TierSetEquipped(12, 4)) and ((NAG:TimeToReady(85696) <= 10.0) or (NAG:TimeToReady(85696) >= NAG:TimeRemaining())))) and NAG:Cast(86150))\n    or     ((NAG:IsActive(31884) and NAG:IsActive(85696)) and NAG:Cast(58146))\n    or     ((((not NAG:TierSetEquipped(12, 4)) and (NAG:AuraRemainingTime(84963) >= 20.0)) and (NAG:IsActive(90174) or (NAG:CurrentHolyPower() == 3.0))) and NAG:Cast(85696))\n    or     (((not NAG:TierSetEquipped(12, 4)) and (NAG:AuraRemainingTime(84963) >= 20.0) and NAG:IsActive(85696)) and NAG:Cast(31884))\n    or     (((NAG:TierSetEquipped(12, 4) or (not NAG:IsActive(84963)) or (NAG:AuraRemainingTime(84963) < 20.0)) and (NAG:IsActive(90174) or (NAG:CurrentHolyPower() == 3.0))) and NAG:Cast(85696))\n    or     ((NAG:IsActive(85696) and ((NAG:TierSetEquipped(12, 4) and (NAG:AuraRemainingTime(85696) < 34.0)) or ((not NAG:TierSetEquipped(12, 4)) and (NAG:AuraRemainingTime(85696) < 19.0)))) and NAG:Cast(31884))\n    or     (((NAG:CurrentHolyPower() == 3.0) or NAG:IsActive(90174)) and NAG:Cast(85696))\n    or     (((NAG:CurrentHolyPower() < 3.0) and (NAG:NumberTargets() >= 4.0) and NAG:IsActive(20154)) and NAG:Cast(53385))\n    or     ((NAG:CurrentHolyPower() < 3.0) and NAG:Cast(35395))\n    or     ((((not NAG:IsActive(84963)) or (NAG:AuraRemainingTime(84963) < 1.5)) and (NAG:TimeRemaining() > 6.0) and (NAG:TimeCurrent() >= 12.0) and NAG:IsReady(85696) and ((NAG:CurrentHolyPower() >= 1.0) or NAG:IsActive(90174))) and NAG:Cast(84963))\n    or     ((((not NAG:IsActive(84963)) or (NAG:AuraRemainingTime(84963) < 1.5)) and (not NAG:IsReady(85696)) and (NAG:TimeRemaining() > 6.0) and (not NAG:CanCast(85696)) and ((NAG:CurrentHolyPower() >= 1.0) or NAG:IsActive(90174))) and NAG:Cast(84963))\n    or     (((NAG:TimeCurrent() < 12.0) and ((NAG:CurrentHolyPower() == 3.0) or NAG:IsActive(90174)) and (NAG:AuraRemainingTime(84963) < 1.5)) and NAG:Cast(84963))\n    or     ((NAG:IsKnown(105767) and NAG:AuraIsInactiveWithReactionTime(90174) and (not NAG:IsActive(85696)) and (NAG:CurrentHolyPower() < 3.0)) and NAG:Cast(20271))\n    or     ((NAG:AuraIsActiveWithReactionTime(90174) or ((NAG:CurrentHolyPower() == 3.0) and (((not NAG:IsKnown(54934)) and NAG:IsActive(85696)) or (NAG:TimeToReady(35395) <= 1.25) or NAG:IsActive(96929)))) and NAG:Cast(85256))\n    or     ((NAG:IsKnown(105767) and (not NAG:IsActive(85696)) and (NAG:CurrentHolyPower() < 3.0)) and NAG:Cast(20271))\n    or     (NAG:AuraIsActiveWithReactionTime(59578) and NAG:Cast(879))\n    or     (((NAG:CurrentHolyPower() == 3.0) and (NAG:TimeToReady(35395) > 1.25)) and NAG:Cast(85256))\n    or     ((NAG:IsExecutePhase(20) or NAG:IsActive(31884)) and NAG:Cast(24275))\n    or     (((not NAG:IsKnown(105767)) or (NAG:IsKnown(105767) and NAG:IsActive(85696) and (NAG:CurrentHolyPower() < 3.0))) and NAG:Cast(20271))\n    or     NAG:Cast(2812)\n    or     ((NAG:CurrentMana() > 16000.0) and NAG:Cast(26573))\n    or     ((((not NAG:IsActive(2825)) or (NAG:TimeToReady(35395) >= 1.5)) and (NAG:CurrentManaPercent() < 85.0)) and NAG:Cast(54428))\n    or     (((NAG:TimeToReady(35395) <= NAG:TimeToReady(20271)) and (NAG:TimeToReady(35395) <= NAG:TimeToReady(2812))) and NAG:Cast(35395))\n    or     (((NAG:TimeToReady(20271) < NAG:TimeToReady(35395)) and (NAG:TimeToReady(20271) < NAG:TimeToReady(2812))) and NAG:Cast(20271))\n    or     (NAG:CastPlaceholder(35395))\n",
+["experimental"] = false,
+["spells"] = {
+879,
+2812,
+2825,
+20154,
+20271,
+24275,
+26573,
+28730,
+31801,
+31884,
+35395,
+53385,
+53657,
+54428,
+54934,
+58146,
+59578,
+68972,
+69002,
+69113,
+82174,
+84963,
+85256,
+85696,
+86150,
+90174,
+96923,
+96929,
+99116,
+105767,
+},
+["consumes"] = {
+},
+["equipment"] = {
+},
+["default"] = true,
+["customVariables"] = {
+},
+["items"] = {
+68972,
+69113,
+},
+["auras"] = {
+},
+["guitarHeroBar"] = {
+},
+["resourceBar"] = {
+},
+},
+},
+},
+},
+["selectedRotation"] = {
+["PALADIN"] = {
+[855] = "Paladin Retribution - AoK by surveillant @ Ebon Hold",
+},
+},
+},
+["Alsía - Venoxis"] = {
+["rotations"] = {
+["PALADIN"] = {
+[831] = {
+},
+},
+},
+["selectedRotation"] = {
+["PALADIN"] = {
+},
+},
+},
+["Lucho - Venoxis"] = {
+["rotations"] = {
+["HUNTER"] = {
+[809] = {
+["Cataclysm Survival - by @Bicarbxd"] = {
+["talents"] = {
+},
+["glyphs"] = {
+},
+["burstTrackers"] = {
+},
+["itemSwap"] = {
+},
+["macros"] = {
+},
+["spellLocations"] = {
+["BELOW"] = {
+},
+["RIGHT"] = {
+},
+["ABOVE"] = {
+},
+["AOE"] = {
+2643,
+},
+["LEFT"] = {
+53434,
+3045,
+},
+},
+["prePull"] = {
+{
+13812,
+-25,
+},
+{
+"defaultBattlePotion",
+-1.4,
+},
+{
+77767,
+-1.4,
+},
+},
+["enabled"] = true,
+["rotationString"] = "        NAG:SpellCastSequence()\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (NAG:IsReady(82174) and NAG:Cast(82174))\n        or ((NAG:IsExecutePhase(20)) and NAG:Cast(58145))\n        or ((not (NAG:IsActive(1978) or NAG:IsActive(88453))) and NAG:Cast(1978))\n        or ((NAG:IsActive(53301) and (NAG:CurrentFocus() >= 95.0) and (NAG:IsActive(3674) or NAG:IsActive(13812))) and NAG:Cast(3044))\n        or (((not NAG:IsActive(53301)) or (NAG:DotRemainingTime(53301) < (NAG:TravelTime(53301) + 1.0))) and NAG:Cast(53301))\n        or (NAG:IsExecutePhase(20) and NAG:Cast(53351))\n        or ((NAG:IsActive(53301) and (NAG:DotRemainingTime(53301) >= (NAG:TravelTime(53301) + 1.0)) and NAG:CanCast(53301) and (NAG:DotRemainingTime(53301) <= (NAG:TravelTime(53301) + 1.05))) and NAG:Wait(0.051))\n        or ((NAG:IsReady(3674) and (not NAG:IsReady(53301))) and NAG:Cast(3674))\n        or (((NAG:TimeToReady(53301) < 0.25) and (NAG:CurrentFocus() > 44.0)) and NAG:Cast(53301))\n        or ((NAG:CurrentFocus() >= 80.0) and NAG:Cast(3044))\n        or (((NAG:CurrentFocus() >= 40.0) and (NAG:TimeRemaining() <= 8) and (NAG:TimeToReady(53301) >= 3)) and NAG:Cast(3044))\n        or NAG:Cast(77767)\n\n",
+["experimental"] = false,
+["spells"] = {
+},
+["consumes"] = {
+},
+["equipment"] = {
+},
+["default"] = true,
+["resourceBar"] = {
+},
+["guitarHeroBar"] = {
+},
+["auras"] = {
+},
+["items"] = {
+},
+["customVariables"] = {
+},
+},
+},
+},
+},
+["selectedRotation"] = {
+["HUNTER"] = {
+[809] = "Cataclysm Survival - by @Bicarbxd",
+},
+},
+},
+["Alslahunt - Venoxis"] = {
+["rotations"] = {
+["HUNTER"] = {
+[809] = {
+["Cataclysm Survival - by @Bicarbxd"] = {
+["talents"] = {
+},
+["glyphs"] = {
+},
+["burstTrackers"] = {
+},
+["itemSwap"] = {
+},
+["macros"] = {
+},
+["spellLocations"] = {
+["BELOW"] = {
+},
+["RIGHT"] = {
+},
+["AOE"] = {
+2643,
+},
+["ABOVE"] = {
+},
+["LEFT"] = {
+53434,
+3045,
+},
+},
+["prePull"] = {
+{
+13812,
+-25,
+},
+{
+"defaultBattlePotion",
+-1.4,
+},
+{
+77767,
+-1.4,
+},
+},
+["enabled"] = true,
+["rotationString"] = "        NAG:SpellCastSequence()\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (NAG:IsReady(82174) and NAG:Cast(82174))\n        or ((NAG:IsExecutePhase(20)) and NAG:Cast(58145))\n        or ((not (NAG:IsActive(1978) or NAG:IsActive(88453))) and NAG:Cast(1978))\n        or ((NAG:IsActive(53301) and (NAG:CurrentFocus() >= 95.0) and (NAG:IsActive(3674) or NAG:IsActive(13812))) and NAG:Cast(3044))\n        or (((not NAG:IsActive(53301)) or (NAG:DotRemainingTime(53301) < (NAG:TravelTime(53301) + 1.0))) and NAG:Cast(53301))\n        or (NAG:IsExecutePhase(20) and NAG:Cast(53351))\n        or ((NAG:IsActive(53301) and (NAG:DotRemainingTime(53301) >= (NAG:TravelTime(53301) + 1.0)) and NAG:CanCast(53301) and (NAG:DotRemainingTime(53301) <= (NAG:TravelTime(53301) + 1.05))) and NAG:Wait(0.051))\n        or ((NAG:IsReady(3674) and (not NAG:IsReady(53301))) and NAG:Cast(3674))\n        or (((NAG:TimeToReady(53301) < 0.25) and (NAG:CurrentFocus() > 44.0)) and NAG:Cast(53301))\n        or ((NAG:CurrentFocus() >= 80.0) and NAG:Cast(3044))\n        or (((NAG:CurrentFocus() >= 40.0) and (NAG:TimeRemaining() <= 8) and (NAG:TimeToReady(53301) >= 3)) and NAG:Cast(3044))\n        or NAG:Cast(77767)\n\n",
+["experimental"] = false,
+["spells"] = {
+},
+["consumes"] = {
+},
+["equipment"] = {
+},
+["default"] = true,
+["customVariables"] = {
+},
+["items"] = {
+},
+["auras"] = {
+},
+["guitarHeroBar"] = {
+},
+["resourceBar"] = {
+},
+},
+},
+},
+},
+["selectedRotation"] = {
+["HUNTER"] = {
+[809] = "Cataclysm Survival - by @Bicarbxd",
+},
+},
+},
+["Alsla - Venoxis"] = {
+["rotations"] = {
+["DEATHKNIGHT"] = {
+[398] = {
+},
+[400] = {
+},
+},
+},
+["selectedRotation"] = {
+["DEATHKNIGHT"] = {
+},
+},
+},
+["Kwasimojo - Venoxis"] = {
+["rotations"] = {
+["PRIEST"] = {
+[760] = {
+},
+},
+},
+["selectedRotation"] = {
+["PRIEST"] = {
+},
+},
+},
+},
+}

@@ -17,7 +17,6 @@ NameplateCooldownsAceDB = {
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
-["MigrationVersion"] = 7,
 ["SpellCDs"] = {
 [62618] = {
 ["enabled"] = true,
@@ -728,6 +727,7 @@ NameplateCooldownsAceDB = {
 ["enabled"] = true,
 },
 },
+["MigrationVersion"] = 7,
 },
 ["Alslala - Venoxis"] = {
 ["MigrationVersion"] = 7,
@@ -4295,6 +4295,7 @@ NameplateCooldownsAceDB = {
 },
 },
 ["Alslahunt - Venoxis"] = {
+["MigrationVersion"] = 7,
 ["SpellCDs"] = {
 [62618] = {
 ["enabled"] = true,
@@ -5005,7 +5006,6 @@ NameplateCooldownsAceDB = {
 ["enabled"] = true,
 },
 },
-["MigrationVersion"] = 7,
 },
 ["Alsia - Venoxis"] = {
 ["MigrationVersion"] = 7,

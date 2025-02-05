@@ -18,6 +18,10 @@ VER 3 0000000000000014 "g_trinket_2" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 14; 13
 END
+VER 3 000000000000001A "pet_attack" "134400"
+/petattack [nomod]
+/petattack [mod:shift, @mouseover,harm][]
+END
 VER 3 0000000000000017 "petatt" "134400"
 /petattack
 END
