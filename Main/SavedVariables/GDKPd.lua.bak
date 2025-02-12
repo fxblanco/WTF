@@ -50,10 +50,10 @@ GDKPd_DB = {
 },
 ["Exonuklease - Venoxis"] = {
 ["point"] = {
-["y"] = -140.8138580322266,
-["relative"] = "TOP",
-["point"] = "TOP",
-["x"] = 667.953369140625,
+["y"] = -186.7672729492188,
+["relative"] = "TOPRIGHT",
+["point"] = "TOPRIGHT",
+["x"] = -603.0232543945312,
 },
 },
 ["Maturitass - Venoxis"] = {

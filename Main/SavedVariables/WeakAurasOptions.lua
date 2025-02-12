@@ -26328,8 +26328,8 @@ WeakAurasOptionsSaved = {
 ["Form of the Moonstalker (no invis)"] = {
 ["spells"] = "10849=132156",
 },
-["Dragonmaw Clan"] = {
-["achievements"] = "4886=456565",
+["Therazane"] = {
+["achievements"] = "4883=456572",
 },
 ["Summon Thorn Flayer"] = {
 ["spells"] = "34682=136052,34685=136052,34687=136052,34690=136052",
@@ -26925,17 +26925,17 @@ WeakAurasOptionsSaved = {
 ["Honed Cobalt Cleaver"] = {
 ["spells"] = "55174=136241",
 },
-["Avengers of Hyjal"] = {
-["achievements"] = "5827=512609",
-},
 ["Alliance Submarine Camera Tracking Beam"] = {
 ["spells"] = "81860=136131",
+},
+["Hellscream's Reach"] = {
+["achievements"] = "5376=456571",
 },
 ["QAEnchant Weapon +22 Intellect"] = {
 ["spells"] = "26793=135913",
 },
-["Hellscream's Reach"] = {
-["achievements"] = "5376=456571",
+["Dragonmaw Clan"] = {
+["achievements"] = "4886=456565",
 },
 ["Crimson Fury"] = {
 ["spells"] = "16843=135818,16844=135818",
@@ -26946,14 +26946,14 @@ WeakAurasOptionsSaved = {
 ["Shadowblast"] = {
 ["spells"] = "107787=136197,109867=136197,109868=136197",
 },
-["Therazane"] = {
-["achievements"] = "4883=456572",
+["Ramkahen"] = {
+["achievements"] = "4884=456574",
 },
 ["Cleanse Magic"] = {
 ["spells"] = "55598=135894",
 },
-["Ramkahen"] = {
-["achievements"] = "4884=456574",
+["Avengers of Hyjal"] = {
+["achievements"] = "5827=512609",
 },
 ["Fire and Brimstone"] = {
 ["spells"] = "47266=236297,47267=236297,47268=236297,47269=236297,47270=236297",
@@ -77352,7 +77352,7 @@ WeakAurasOptionsSaved = {
 ["spells"] = "61008=136241",
 },
 ["Impaling Slam"] = {
-["spells"] = "75056=236289,75057=133490",
+["spells"] = "75056=133490,75057=133490",
 },
 ["Improved Searing Pain"] = {
 ["spells"] = "17927=135827,17929=135827",
@@ -77930,16 +77930,16 @@ WeakAurasOptionsSaved = {
 },
 ["locale"] = "enUS",
 ["needsRebuild"] = false,
-["version"] = "5.18.1",
+["version"] = "5.19.1",
 ["savedSnippets"] = {
 },
+["spellCacheAchievements"] = true,
+["spellCacheStrings"] = true,
 ["frame"] = {
 ["xOffset"] = 2383.958679199219,
-["width"] = 945.1998291015625,
-["height"] = 1051.099975585938,
 ["yOffset"] = 1425.488525390625,
+["height"] = 1051.099975585938,
+["width"] = 945.1998291015625,
 },
-["spellCacheStrings"] = true,
-["spellCacheAchievements"] = true,
 ["build"] = "58558",
 }

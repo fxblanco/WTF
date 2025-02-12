@@ -33,12 +33,12 @@ RXPDB = {
 ["Kwasimojo - Venoxis"] = "global",
 ["Alslala - Venoxis"] = "global",
 ["Lucho - Venoxis"] = "global",
-["Alsiadk - Venoxis"] = "global",
 ["Alslalu - Venoxis"] = "global",
-["Bloodwall - Venoxis"] = "global",
+["Alsiadk - Venoxis"] = "global",
+["Alslahunt - Venoxis"] = "global",
 ["Alsia - Venoxis"] = "global",
 ["Andrés - Venoxis"] = "global",
-["Alslahunt - Venoxis"] = "global",
+["Bloodwall - Venoxis"] = "global",
 ["Khalimmortus - Venoxis"] = "global",
 ["Endonuclease - Venoxis"] = "global",
 ["Maturitass - Venoxis"] = "global",
@@ -57,12 +57,12 @@ RXPSettings = {
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 ["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
-["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -383,7 +383,27 @@ nil,
 },
 },
 ["Alslala - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 125.0000457763672,
 ["hardcore"] = false,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+73.06647491455078,
+68.00010681152344,
+},
+["RXPFrame"] = {
+234.9999847412109,
+27.99995803833008,
+},
+["activeItemFrame"] = {
+66.88352966308594,
+39.99998474121094,
+},
+["arrowFrame"] = {
+31.99985694885254,
+31.99996566772461,
+},
+},
 ["framePositions"] = {
 ["activeTargetFrame"] = {
 {
@@ -422,26 +442,6 @@ nil,
 },
 },
 },
-["xprate"] = 1.1,
-["frameSizes"] = {
-["activeTargetFrame"] = {
-83.20004272460938,
-67.99999237060547,
-},
-["RXPFrame"] = {
-234.9999847412109,
-27.99984741210938,
-},
-["activeItemFrame"] = {
-68.00004577636719,
-39.99999237060547,
-},
-["arrowFrame"] = {
-32.00003433227539,
-32.00003433227539,
-},
-},
-["frameHeight"] = 125.0000457763672,
 },
 ["Lucho - Venoxis"] = {
 ["xprate"] = 1.7,
@@ -482,67 +482,6 @@ nil,
 "LEFT",
 0,
 35,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-},
-},
-["Alsiadk - Venoxis"] = {
-["xprate"] = 1.1,
-["frameHeight"] = 124.999870300293,
-["hardcore"] = false,
-["frameSizes"] = {
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
-},
-["RXPFrame"] = {
-235.0000762939453,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-73.00001525878906,
-39.99999237060547,
-},
-["activeTargetFrame"] = {
-83.25920104980469,
-67.9999771118164,
-},
-},
-["framePositions"] = {
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
 },
 },
 ["activeItemFrame"] = {
@@ -626,34 +565,34 @@ nil,
 },
 },
 },
-["Bloodwall - Venoxis"] = {
+["Alsiadk - Venoxis"] = {
 ["xprate"] = 1.1,
-["frameHeight"] = 124.9998931884766,
+["frameHeight"] = 124.999870300293,
 ["hardcore"] = false,
 ["frameSizes"] = {
-["activeTargetFrame"] = {
-73.06678771972656,
-67.99999237060547,
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
 },
 ["RXPFrame"] = {
-235.0000457763672,
-27.99999809265137,
+235.0000762939453,
+28.00003051757813,
 },
 ["activeItemFrame"] = {
-65.89994812011719,
-39.99999618530273,
+73.00001525878906,
+39.99999237060547,
 },
-["arrowFrame"] = {
-31.99999618530273,
-31.99999618530273,
+["activeTargetFrame"] = {
+83.25920104980469,
+67.9999771118164,
 },
 },
 ["framePositions"] = {
-["activeTargetFrame"] = {
+["arrowFrame"] = {
 {
-"CENTER",
+"TOP",
 "UIParent",
-"CENTER",
+"TOP",
 0,
 0,
 },
@@ -664,7 +603,7 @@ nil,
 "UIParent",
 "LEFT",
 0,
-35,
+35.00000381469727,
 },
 },
 ["activeItemFrame"] = {
@@ -676,13 +615,75 @@ nil,
 0,
 },
 },
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Alslahunt - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 213.9997406005859,
+["macroAnnounced"] = true,
+["hardcore"] = false,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.9998779296875,
+31.99997329711914,
+},
+["RXPFrame"] = {
+305.0000610351563,
+213.9997406005859,
+},
+["activeItemFrame"] = {
+72.00011444091797,
+40.00004196166992,
+},
+["activeTargetFrame"] = {
+83.20001220703125,
+68.00003051757812,
+},
+},
+["framePositions"] = {
 ["arrowFrame"] = {
 {
 "TOP",
-"UIParent",
+nil,
 "TOP",
+16.00003051757813,
+-121.9999618530273,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+nil,
+"LEFT",
 0,
-0,
+-183.5001220703125,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-293.9998168945313,
+19.00004959106445,
+},
+},
+["activeTargetFrame"] = {
+{
+"LEFT",
+nil,
+"LEFT",
+375.3705749511719,
+171.9998474121094,
 },
 },
 },
@@ -810,64 +811,63 @@ nil,
 },
 },
 },
-["Alslahunt - Venoxis"] = {
+["Bloodwall - Venoxis"] = {
 ["xprate"] = 1.1,
-["frameHeight"] = 213.9997406005859,
-["macroAnnounced"] = true,
+["frameHeight"] = 124.9998931884766,
 ["hardcore"] = false,
 ["frameSizes"] = {
-["arrowFrame"] = {
-31.9998779296875,
-31.99997329711914,
+["activeTargetFrame"] = {
+73.06678771972656,
+67.99999237060547,
 },
 ["RXPFrame"] = {
-305.0000610351563,
-213.9997406005859,
+235.0000457763672,
+27.99999809265137,
 },
 ["activeItemFrame"] = {
-72.00011444091797,
-40.00004196166992,
+65.89994812011719,
+39.99999618530273,
 },
-["activeTargetFrame"] = {
-83.20001220703125,
-68.00003051757812,
+["arrowFrame"] = {
+31.99999618530273,
+31.99999618530273,
 },
 },
 ["framePositions"] = {
-["arrowFrame"] = {
+["activeTargetFrame"] = {
 {
-"TOP",
-nil,
-"TOP",
-16.00003051757813,
--121.9999618530273,
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
 },
 },
 ["RXPFrame"] = {
 {
 "LEFT",
-nil,
+"UIParent",
 "LEFT",
 0,
--183.5001220703125,
+35,
 },
 },
 ["activeItemFrame"] = {
 {
 "CENTER",
-nil,
+"UIParent",
 "CENTER",
--293.9998168945313,
-19.00004959106445,
+0,
+0,
 },
 },
-["activeTargetFrame"] = {
+["arrowFrame"] = {
 {
-"LEFT",
-nil,
-"LEFT",
-375.3705749511719,
-171.9998474121094,
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
 },
 },
 },
@@ -933,26 +933,45 @@ nil,
 },
 },
 ["Endonuclease - Venoxis"] = {
-["xprate"] = 1.1,
-["frameHeight"] = 124.9999847412109,
 ["hardcore"] = false,
+["xprate"] = 1.75,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+82.66649627685547,
+39.99998474121094,
+},
+["RXPFrame"] = {
+423.6510620117188,
+257.8372802734375,
+},
+["activeItemFrame"] = {
+74.69763946533203,
+39.99998474121094,
+},
+["arrowFrame"] = {
+31.99985694885254,
+31.99996566772461,
+},
+},
+["frameHeight"] = 257.8372802734375,
+["macroAnnounced"] = true,
 ["framePositions"] = {
 ["activeTargetFrame"] = {
 {
 "CENTER",
-"UIParent",
+nil,
 "CENTER",
-0,
-0,
+-494.5115966796875,
+-33.4884033203125,
 },
 },
 ["RXPFrame"] = {
 {
 "LEFT",
-"UIParent",
+nil,
 "LEFT",
-0,
-35,
+262.3255615234375,
+-33.6513671875,
 },
 },
 ["activeItemFrame"] = {
@@ -972,24 +991,6 @@ nil,
 0,
 0,
 },
-},
-},
-["frameSizes"] = {
-["activeTargetFrame"] = {
-73.06663513183594,
-67.9999771118164,
-},
-["RXPFrame"] = {
-234.9999847412109,
-27.99999046325684,
-},
-["activeItemFrame"] = {
-64.99996948242188,
-39.99999237060547,
-},
-["arrowFrame"] = {
-31.9998779296875,
-31.99997329711914,
 },
 },
 },

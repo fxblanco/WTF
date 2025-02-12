@@ -11,7 +11,7 @@ Postal3DB = {
 "Alsía|Venoxis|Horde|80|PALADIN",
 "Andrés|Venoxis|Horde|80|MAGE",
 "Bloodwall|Venoxis|Horde|80|WARRIOR",
-"Endonuclease|Venoxis|Horde|74|ROGUE",
+"Endonuclease|Venoxis|Horde|80|ROGUE",
 "Exonuklease|Venoxis|Horde|85|WARLOCK",
 "Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT",
 "Kwasimojo|Venoxis|Horde|80|PRIEST",
