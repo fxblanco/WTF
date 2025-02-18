@@ -28,11 +28,10 @@ ProjectAzilrokaDB = {
 ["Enable"] = false,
 },
 ["SquareMinimapButtons"] = {
-["ButtonSpacing"] = 0,
+["ButtonSpacing"] = -1,
 ["ReverseDirection"] = true,
 ["Backdrop"] = false,
 ["MoveMail"] = false,
-["ButtonsPerRow"] = 11,
 },
 ["DragonOverlay"] = {
 ["Enable"] = false,

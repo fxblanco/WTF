@@ -9,9 +9,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["alerthidden"] = true,
 ["spec2_profileKey"] = "Alsla - Venoxis",
 ["specswap"] = false,
-["alerthidden"] = true,
 },
 ["Xolem - Venoxis"] = {
 ["spec1_profileKey"] = "Xolem - Venoxis",
@@ -38,9 +38,9 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
+["specswap"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Exonuklease - Venoxis",
-["specswap"] = false,
 },
 ["Alslalu - Venoxis"] = {
 ["spec1_profileKey"] = "Alslalu - Venoxis",
@@ -58,11 +58,11 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["fastooc"] = false,
-["alerthidden"] = true,
 ["downclick"] = false,
-["spec2_profileKey"] = "Alsia - Venoxis",
+["fastooc"] = false,
 ["specswap"] = false,
+["alerthidden"] = true,
+["spec2_profileKey"] = "Alsia - Venoxis",
 },
 ["Andrés - Venoxis"] = {
 ["spec1_profileKey"] = "Andrés - Venoxis",
@@ -94,9 +94,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["alerthidden"] = true,
 ["spec2_profileKey"] = "Alslahunt - Venoxis",
 ["specswap"] = false,
-["alerthidden"] = true,
 },
 ["Kwasimojo - Venoxis"] = {
 ["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -238,14 +238,6 @@ CliqueDB3 = {
 ["spell"] = "Hand of Freedom",
 },
 {
-["macrotext"] = "/startattack\n/use [@mouseover,help][] Divine Light\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
 ["type"] = "spell",
 ["key"] = "CTRL-BUTTON3",
 ["sets"] = {
@@ -263,17 +255,17 @@ CliqueDB3 = {
 },
 },
 {
-["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
+["macrotext"] = "/startattack\n/use [@mouseover,help][] Divine Light\n/startattack",
 ["type"] = "macro",
-["key"] = "BUTTON3",
+["key"] = "BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
 },
 {
-["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
+["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
 ["type"] = "macro",
-["key"] = "SHIFT-BUTTON1",
+["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
@@ -294,6 +286,14 @@ CliqueDB3 = {
 },
 ["icon"] = 135928,
 ["spell"] = "Lay on Hands",
+},
+{
+["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
+["type"] = "macro",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
 },
 {
 ["spell"] = "Hand of Salvation",
@@ -550,6 +550,15 @@ CliqueDB3 = {
 ["spell"] = "Hand of Freedom",
 },
 {
+["type"] = "spell",
+["key"] = "CTRL-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136106,
+["spell"] = "Divine Intervention",
+},
+{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON2",
@@ -566,18 +575,17 @@ CliqueDB3 = {
 },
 },
 {
-["type"] = "spell",
-["key"] = "CTRL-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136106,
-["spell"] = "Divine Intervention",
-},
-{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
 ["type"] = "macro",
 ["key"] = "BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
 },
@@ -595,14 +603,6 @@ CliqueDB3 = {
 ["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
 },
@@ -676,6 +676,15 @@ CliqueDB3 = {
 },
 {
 ["type"] = "spell",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
+["spell"] = "Healing Surge",
+},
+{
+["type"] = "spell",
 ["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
@@ -694,21 +703,19 @@ CliqueDB3 = {
 },
 {
 ["type"] = "spell",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
-["spell"] = "Healing Surge",
-},
-{
-["type"] = "spell",
 ["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 252995,
 ["spell"] = "Riptide",
+},
+{
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
 },
 {
 ["spell"] = "Healing Wave",
@@ -727,13 +734,6 @@ CliqueDB3 = {
 },
 ["icon"] = 136043,
 ["type"] = "spell",
-},
-{
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
 },
 {
 ["spell"] = "Unleash Elements",
@@ -813,6 +813,22 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Binding Heal",
+["key"] = "CTRL-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135883,
+["type"] = "spell",
+},
+{
 ["spell"] = "Prayer of Mending",
 ["key"] = "BUTTON3",
 ["sets"] = {
@@ -831,46 +847,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Binding Heal",
-["key"] = "CTRL-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135883,
-["type"] = "spell",
-},
-{
 ["spell"] = "Flash Heal",
 ["key"] = "SHIFT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 135907,
-["type"] = "spell",
-},
-{
-["spell"] = "Prayer of Healing",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135943,
-["type"] = "spell",
-},
-{
-["spell"] = "Renew",
-["key"] = "SHIFT-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135953,
 ["type"] = "spell",
 },
 {
@@ -889,6 +871,24 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 237545,
+["type"] = "spell",
+},
+{
+["spell"] = "Prayer of Healing",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135943,
+["type"] = "spell",
+},
+{
+["spell"] = "Renew",
+["key"] = "SHIFT-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135953,
 ["type"] = "spell",
 },
 {

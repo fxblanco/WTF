@@ -11,13 +11,13 @@ GDKPd_DB = {
 ["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
-["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
 ["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
 ["profiles"] = {
@@ -60,8 +60,8 @@ GDKPd_DB = {
 },
 ["Endonuclease - Venoxis"] = {
 ["point"] = {
-["y"] = -84.00040435791016,
-["x"] = 528.999755859375,
+["y"] = -82.88367462158203,
+["x"] = 523.418701171875,
 },
 },
 ["Alsia - Venoxis"] = {
@@ -71,12 +71,12 @@ GDKPd_DB = {
 ["x"] = 311,
 },
 },
-["Alsiadk - Venoxis"] = {
+["Alslalu - Venoxis"] = {
 ["point"] = {
-["y"] = -86.10002899169922,
+["y"] = -5.333442211151123,
 ["relative"] = "TOP",
 ["point"] = "TOP",
-["x"] = -595.7999877929688,
+["x"] = -665.9998779296875,
 },
 },
 ["Alslahunt - Venoxis"] = {
@@ -122,12 +122,12 @@ GDKPd_DB = {
 ["relative"] = "TOPLEFT",
 },
 },
-["Alslalu - Venoxis"] = {
+["Alsiadk - Venoxis"] = {
 ["point"] = {
-["y"] = -5.333442211151123,
+["y"] = -86.10002899169922,
 ["relative"] = "TOP",
 ["point"] = "TOP",
-["x"] = -665.9998779296875,
+["x"] = -595.7999877929688,
 },
 },
 ["Kwasimojo - Venoxis"] = {

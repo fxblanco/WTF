@@ -161,7 +161,11 @@ BAGANATOR_CONFIG = {
 ["category_modifications"] = {
 },
 ["warband_bank_view_width"] = 14,
-["sort_ignore_slots_at_end"] = false,
+["guild_view_position"] = {
+"LEFT",
+20,
+0,
+},
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
 ["category_group_empty_slots"] = true,
@@ -259,13 +263,7 @@ BAGANATOR_CONFIG = {
 },
 ["Kwasimojo-Venoxis"] = {
 {
-["currencyID"] = 221,
-},
-{
-["currencyID"] = 301,
-},
-{
-["currencyID"] = 2589,
+["currencyID"] = 395,
 },
 },
 ["Endonuclease-Venoxis"] = {
@@ -274,25 +272,20 @@ BAGANATOR_CONFIG = {
 ["sort_ignore_bank_slots_count"] = {
 ["Alsía-Venoxis"] = 0,
 },
-["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
-"Alsia-Venoxis",
-"Alsla-Venoxis",
 "Exonuklease-Venoxis",
+"Kwasimojo-Venoxis",
+"Alsla-Venoxis",
+"Alslahunt-Venoxis",
+"Alsia-Venoxis",
+"Alslalu-Venoxis",
 "Alsía-Venoxis",
 "Endonuclease-Venoxis",
-"Kwasimojo-Venoxis",
-"Alslalu-Venoxis",
-"Alslahunt-Venoxis",
 "Andrés-Venoxis",
 "Maturitass-Venoxis",
 "Alslala-Venoxis",
 "Lucho-Venoxis",
 },
-["guild_current_tab"] = 0,
-["auto_sort_on_open"] = false,
-["upgrade_plugin"] = "none",
-["guild_bank_sort_method"] = "unset",
 ["skins"] = {
 ["elvui"] = {
 ["use_bag_font"] = false,
@@ -309,6 +302,11 @@ BAGANATOR_CONFIG = {
 ["empty_slot_background"] = false,
 },
 },
+["guild_current_tab"] = 0,
+["auto_sort_on_open"] = false,
+["upgrade_plugin"] = "none",
+["guild_bank_sort_method"] = "unset",
+["debug_keywords"] = false,
 ["setting_anchors"] = false,
 ["guild_view_dialog_position"] = {
 "BOTTOM",
@@ -326,12 +324,8 @@ BAGANATOR_CONFIG = {
 ["currencies_tracked_imported"] = {
 },
 ["show_sort_button_2"] = true,
+["sort_ignore_slots_at_end"] = false,
 ["category_section_toggled"] = {
-},
-["guild_view_position"] = {
-"LEFT",
-20,
-0,
 },
 ["currency_panel_position"] = {
 "RIGHT",

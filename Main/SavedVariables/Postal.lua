@@ -11,7 +11,7 @@ Postal3DB = {
 "Alsía|Venoxis|Horde|80|PALADIN",
 "Andrés|Venoxis|Horde|80|MAGE",
 "Bloodwall|Venoxis|Horde|80|WARRIOR",
-"Endonuclease|Venoxis|Horde|80|ROGUE",
+"Endonuclease|Venoxis|Horde|81|ROGUE",
 "Exonuklease|Venoxis|Horde|85|WARLOCK",
 "Khalimmortus|Venoxis|Horde|80|DEATHKNIGHT",
 "Kwasimojo|Venoxis|Horde|80|PRIEST",
@@ -73,6 +73,7 @@ Postal3DB = {
 ["Exonuklease - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Kwasimojo|Venoxis|Horde",
 "Alslalu|Venoxis|Horde",
 "Alsla|Venoxis|Horde",
 "Alsia|Venoxis|Horde",

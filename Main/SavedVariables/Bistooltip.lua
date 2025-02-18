@@ -31,16 +31,16 @@ BisTooltipDB = {
 },
 ["Alsía - Venoxis"] = {
 ["class_index"] = 5,
-["data_source"] = "wh",
 ["version"] = 8,
+["data_source"] = "wh",
 ["phase_index"] = 2,
 },
 ["Exonuklease - Venoxis"] = {
 ["class_index"] = 10,
-["version"] = 8,
 ["spec_index"] = 2,
-["data_source"] = "wh",
 ["phase_index"] = 2,
+["data_source"] = "wh",
+["version"] = 8,
 },
 ["Maturitass - Venoxis"] = {
 ["data_source"] = "wh",
@@ -63,10 +63,11 @@ BisTooltipDB = {
 ["version"] = 8,
 },
 ["Alsia - Venoxis"] = {
-["phase_index"] = 2,
-["minimapPos"] = 173.254854658173,
-["data_source"] = "wh",
+["class_index"] = 5,
 ["version"] = 8,
+["phase_index"] = 2,
+["data_source"] = "wh",
+["minimapPos"] = 173.254854658173,
 },
 ["Alslahunt - Venoxis"] = {
 ["class_index"] = 3,
