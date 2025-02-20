@@ -20,6 +20,7 @@ AddOnSkinsDB = {
 },
 ["profiles"] = {
 ["Default"] = {
+["Auctionator"] = false,
 ["ColorPickerPlus"] = false,
 ["Clique"] = false,
 },
@@ -27,6 +28,7 @@ AddOnSkinsDB = {
 }
 AddOnSkinsDS = {
 [4.73] = {
+["Auctionator"] = true,
 ["Clique"] = true,
 },
 }

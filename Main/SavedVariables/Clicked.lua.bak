@@ -1,5 +1,8 @@
 
 ClickedDB = {
+	["global"] = {
+		["version"] = 6,
+	},
 	["profileKeys"] = {
 		["Xolem - Venoxis"] = "SHAMAN",
 		["Alsía - Venoxis"] = "PALADIN",
@@ -7,9 +10,6 @@ ClickedDB = {
 		["Khalimmortus - Venoxis"] = "DEATHKNIGHT",
 		["Alsia - Venoxis"] = "PALADIN",
 		["Kwasimojo - Venoxis"] = "PRIEST",
-	},
-	["global"] = {
-		["version"] = 6,
 	},
 	["profiles"] = {
 		["DEATHKNIGHT"] = {
@@ -23,42 +23,26 @@ ClickedDB = {
 			["version"] = 6,
 			["bindings"] = {
 				{
-					["scope"] = 1,
+					["type"] = "SPELL",
 					["identifier"] = "1-binding-1",
 					["action"] = {
 						["macroValue"] = "",
+						["macroName"] = "Run custom macro",
 						["cancelForm"] = false,
-						["spellValue"] = "",
 						["targetUnitAfterCast"] = false,
 						["auraName"] = "",
 						["itemValue"] = "",
-						["startPetAttack"] = false,
+						["macroIcon"] = "Interface\\ICONS\\INV_Misc_QuestionMark",
 						["cancelQueuedSpell"] = false,
 						["convertValueToId"] = true,
 						["executionOrder"] = 1,
 						["interrupt"] = false,
 						["startAutoAttack"] = false,
-						["macroIcon"] = "Interface\\ICONS\\INV_Misc_QuestionMark",
-						["macroName"] = "Run custom macro",
+						["startPetAttack"] = false,
+						["spellValue"] = "",
 					},
 					["keybind"] = "",
-					["integrations"] = {
-					},
-					["targets"] = {
-						["hovercastEnabled"] = false,
-						["regularEnabled"] = true,
-						["hovercast"] = {
-							["vitals"] = "ANY",
-							["hostility"] = "ANY",
-						},
-						["regular"] = {
-							{
-								["vitals"] = "ANY",
-								["hostility"] = "ANY",
-								["unit"] = "DEFAULT",
-							}, -- [1]
-						},
-					},
+					["scope"] = 1,
 					["load"] = {
 						["playerNameRealm"] = {
 							["value"] = "Andrés",
@@ -113,16 +97,20 @@ ClickedDB = {
 							["value"] = "",
 							["selected"] = false,
 						},
-						["flying"] = {
+						["stealth"] = {
 							["value"] = true,
 							["selected"] = false,
 						},
-						["flyable"] = {
-							["value"] = true,
-							["selected"] = false,
+						["form"] = {
+							["single"] = 1,
+							["selected"] = 0,
+							["negated"] = false,
+							["multiple"] = {
+								1, -- [1]
+							},
 						},
-						["warMode"] = {
-							["value"] = true,
+						["spellKnown"] = {
+							["value"] = "",
 							["selected"] = false,
 						},
 						["talent"] = {
@@ -146,6 +134,7 @@ ClickedDB = {
 							["selected"] = false,
 						},
 						["pvpTalent"] = {
+							["selected"] = false,
 							["entries"] = {
 								{
 									["operation"] = "AND",
@@ -153,7 +142,6 @@ ClickedDB = {
 									["value"] = "",
 								}, -- [1]
 							},
-							["selected"] = false,
 						},
 						["channeling"] = {
 							["value"] = "",
@@ -172,24 +160,36 @@ ClickedDB = {
 							["value"] = true,
 							["selected"] = false,
 						},
-						["spellKnown"] = {
-							["value"] = "",
+						["warMode"] = {
+							["value"] = true,
 							["selected"] = false,
 						},
-						["form"] = {
-							["single"] = 1,
-							["selected"] = 0,
-							["negated"] = false,
-							["multiple"] = {
-								1, -- [1]
-							},
+						["flyable"] = {
+							["value"] = true,
+							["selected"] = false,
 						},
-						["stealth"] = {
+						["flying"] = {
 							["value"] = true,
 							["selected"] = false,
 						},
 					},
-					["type"] = "SPELL",
+					["targets"] = {
+						["regular"] = {
+							{
+								["vitals"] = "ANY",
+								["unit"] = "DEFAULT",
+								["hostility"] = "ANY",
+							}, -- [1]
+						},
+						["regularEnabled"] = true,
+						["hovercast"] = {
+							["hostility"] = "ANY",
+							["vitals"] = "ANY",
+						},
+						["hovercastEnabled"] = false,
+					},
+					["integrations"] = {
+					},
 				}, -- [1]
 			},
 		},

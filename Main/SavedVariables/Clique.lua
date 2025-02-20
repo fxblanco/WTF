@@ -39,8 +39,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Exonuklease - Venoxis",
+["specswap"] = false,
 },
 ["Alslalu - Venoxis"] = {
 ["spec1_profileKey"] = "Alslalu - Venoxis",
@@ -48,10 +48,10 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["fastooc"] = false,
-["alerthidden"] = true,
-["downclick"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Alslalu - Venoxis",
+["downclick"] = false,
+["alerthidden"] = true,
+["specswap"] = false,
 },
 ["Alsia - Venoxis"] = {
 ["spec1_profileKey"] = "Alsia - Venoxis",
@@ -531,6 +531,15 @@ CliqueDB3 = {
 },
 {
 ["type"] = "spell",
+["key"] = "SHIFT-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136089,
+["spell"] = "Earth Shield",
+},
+{
+["type"] = "spell",
 ["key"] = "SHIFT-BUTTON1",
 ["sets"] = {
 ["default"] = true,
@@ -549,21 +558,21 @@ CliqueDB3 = {
 },
 {
 ["type"] = "spell",
-["key"] = "SHIFT-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136089,
-["spell"] = "Earth Shield",
-},
-{
-["type"] = "spell",
 ["key"] = "BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 252995,
 ["spell"] = "Riptide",
+},
+{
+["spell"] = "Greater Healing Wave",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
 },
 {
 ["type"] = "menu",
@@ -579,15 +588,6 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 136052,
-["type"] = "spell",
-},
-{
-["spell"] = "Greater Healing Wave",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
 ["type"] = "spell",
 },
 {

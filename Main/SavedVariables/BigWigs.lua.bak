@@ -3,11 +3,19 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
+["BigWigs_Bosses_Baron Ashbury"] = {
+},
 ["BigWigs_Plugins_BossBlock"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
+},
+["BigWigs_Bosses_Lord Godfrey"] = {
+},
+["BigWigs_Bosses_Lord Walden"] = {
+},
+["BigWigs_Bosses_Commander Springvale"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 ["profiles"] = {
@@ -20,6 +28,17 @@ BigWigs3DB = {
 "CENTER",
 nil,
 40,
+},
+},
+["MerfinUI v5.27"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 47,
+["fontName"] = "Expressway",
+["position"] = {
+"CENTER",
+"CENTER",
+nil,
+0,
 },
 },
 ["MerfinUI (1600) v7.24"] = {
@@ -35,17 +54,6 @@ nil,
 ["fontName"] = "Expressway",
 },
 ["MerfinUI (1600) v7.19"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 47,
-["fontName"] = "Expressway",
-["position"] = {
-"CENTER",
-"CENTER",
-nil,
-0,
-},
-},
-["MerfinUI v5.27"] = {
 ["outline"] = "OUTLINE",
 ["fontSize"] = 47,
 ["fontName"] = "Expressway",
@@ -105,9 +113,21 @@ nil,
 },
 },
 },
+["BigWigs_Bosses_Baron Silverlaine"] = {
+},
 ["BigWigs_Plugins_Colors"] = {
 ["profiles"] = {
 ["MerfinUI (1600) v7.19"] = {
+["barBackground"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.2000000178813934,
+0.2000000178813934,
+0.2000000178813934,
+0.7019608020782471,
+},
+},
+},
 ["barEmphasized"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
@@ -122,16 +142,6 @@ nil,
 0.1294117718935013,
 0.5882353186607361,
 0.9529412388801575,
-},
-},
-},
-["barBackground"] = {
-["BigWigs_Plugins_Colors"] = {
-["default"] = {
-0.2000000178813934,
-0.2000000178813934,
-0.2000000178813934,
-0.7019608020782471,
 },
 },
 },
@@ -147,6 +157,14 @@ nil,
 },
 },
 ["MerfinUI (1600) v7.24"] = {
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+nil,
+0.5960784554481506,
+},
+},
+},
 ["barBackground"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
@@ -163,14 +181,6 @@ nil,
 0.1294117718935013,
 0.5882353186607361,
 0.9529412388801575,
-},
-},
-},
-["barEmphasized"] = {
-["BigWigs_Plugins_Colors"] = {
-["default"] = {
-nil,
-0.5960784554481506,
 },
 },
 },
@@ -247,13 +257,13 @@ nil,
 },
 },
 ["Default"] = {
+["normalWidth"] = 264,
 ["expPosition"] = {
 "RIGHT",
 "RIGHT",
 -366,
 -249,
 },
-["normalWidth"] = 264,
 ["normalHeight"] = 27,
 ["normalPosition"] = {
 "RIGHT",
@@ -357,7 +367,7 @@ nil,
 },
 },
 },
-["LibDualSpec-1.0"] = {
+["BigWigs_Plugins_AutoReply"] = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
 },
@@ -372,6 +382,15 @@ nil,
 ["fontName"] = "Expressway",
 ["width"] = 120,
 },
+["MerfinUI v5.27"] = {
+["posx"] = 716,
+["fontSize"] = 16,
+["lock"] = false,
+["height"] = 101,
+["posy"] = 443,
+["fontName"] = "Expressway",
+["width"] = 120,
+},
 ["MerfinUI (1600) v7.24"] = {
 ["posx"] = 716,
 ["fontSize"] = 16,
@@ -382,15 +401,6 @@ nil,
 ["width"] = 120,
 },
 ["MerfinUI (1600) v7.19"] = {
-["posx"] = 716,
-["fontSize"] = 16,
-["lock"] = false,
-["height"] = 101,
-["posy"] = 443,
-["fontName"] = "Expressway",
-["width"] = 120,
-},
-["MerfinUI v5.27"] = {
 ["posx"] = 716,
 ["fontSize"] = 16,
 ["lock"] = false,
@@ -417,6 +427,27 @@ nil,
 ["fontName"] = "Expressway",
 ["emphOutline"] = "OUTLINE",
 },
+["MerfinUI v5.27"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 15,
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 37,
+["growUpwards"] = true,
+["emphOutline"] = "OUTLINE",
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-208,
+},
+["fontName"] = "Expressway",
+["normalPosition"] = {
+"TOP",
+nil,
+nil,
+-190,
+},
+},
 ["MerfinUI (1600) v7.24"] = {
 ["outline"] = "OUTLINE",
 ["fontSize"] = 15,
@@ -459,28 +490,9 @@ nil,
 -190,
 },
 },
-["MerfinUI v5.27"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 15,
-["emphFontName"] = "Expressway",
-["emphFontSize"] = 37,
-["growUpwards"] = true,
-["emphOutline"] = "OUTLINE",
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--208,
-},
-["fontName"] = "Expressway",
-["normalPosition"] = {
-"TOP",
-nil,
-nil,
--190,
 },
 },
-},
+["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
 ["profiles"] = {
@@ -488,8 +500,6 @@ nil,
 ["voice"] = "English: Amy",
 },
 },
-},
-["BigWigs_Plugins_AutoReply"] = {
 },
 },
 ["global"] = {

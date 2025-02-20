@@ -5,11 +5,21 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_BossBlock"] = {
 },
+["BigWigs_Bosses_Rajh"] = {
+},
 ["BigWigs_Plugins_Sounds"] = {
 },
-["BigWigs_Bosses_Lockmaw"] = {
+["BigWigs_Bosses_High Priestess Azil"] = {
+},
+["BigWigs_Bosses_Ozruk"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
+},
+["BigWigs_Bosses_Slabhide"] = {
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Bosses_Corborus"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 ["profiles"] = {
@@ -60,56 +70,19 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_AltPower"] = {
-["profiles"] = {
-["MerfinUI (1600) v7.19"] = {
-["fontSize"] = 14,
-["fontName"] = "Expressway",
-["position"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
--315,
-327,
-},
-},
-["Default"] = {
-["expanded"] = true,
-},
-["MerfinUI v5.27"] = {
-["fontSize"] = 14,
-["fontName"] = "Expressway",
-["position"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
--315,
-327,
-},
-},
-["MerfinUI (1600) v7.24"] = {
-["fontSize"] = 14,
-["fontName"] = "Expressway",
-["position"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
--315,
-327,
-},
-},
-["MerfinUI v5.22"] = {
-["fontSize"] = 14,
-["fontName"] = "Expressway",
-["position"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
--315,
-327,
-},
-},
-},
+["BigWigs_Bosses_Anraphet"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 ["profiles"] = {
 ["MerfinUI (1600) v7.19"] = {
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+nil,
+0.5960784554481506,
+},
+},
+},
 ["barColor"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
@@ -126,14 +99,6 @@ nil,
 0.2000000178813934,
 0.2000000178813934,
 0.7019608020782471,
-},
-},
-},
-["barEmphasized"] = {
-["BigWigs_Plugins_Colors"] = {
-["default"] = {
-nil,
-0.5960784554481506,
 },
 },
 },
@@ -149,6 +114,16 @@ nil,
 },
 },
 ["MerfinUI (1600) v7.24"] = {
+["barBackground"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.2000000178813934,
+0.2000000178813934,
+0.2000000178813934,
+0.7019608020782471,
+},
+},
+},
 ["barColor"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
@@ -163,16 +138,6 @@ nil,
 ["default"] = {
 nil,
 0.5960784554481506,
-},
-},
-},
-["barBackground"] = {
-["BigWigs_Plugins_Colors"] = {
-["default"] = {
-0.2000000178813934,
-0.2000000178813934,
-0.2000000178813934,
-0.7019608020782471,
 },
 },
 },
@@ -191,25 +156,86 @@ nil,
 },
 ["BigWigs_Plugins_Wipe"] = {
 },
-["BigWigs_Plugins_Nameplates"] = {
+["LibDualSpec-1.0"] = {
+},
+["BigWigs_Plugins_Messages"] = {
 ["profiles"] = {
 ["MerfinUI (1600) v7.19"] = {
-["iconFontSize"] = 8,
-["iconExpireGlowType"] = "proc",
-["iconZoom"] = 0.3,
-["iconHeight"] = 20,
-["iconFontName"] = "Expressway",
-["iconWidth"] = 20,
-["iconOffsetX"] = -3,
+["outline"] = "OUTLINE",
+["fontSize"] = 15,
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 37,
+["growUpwards"] = true,
+["emphOutline"] = "OUTLINE",
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-208,
+},
+["fontName"] = "Expressway",
+["normalPosition"] = {
+"TOP",
+nil,
+nil,
+-190,
+},
+},
+["MerfinUI v5.27"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 15,
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 37,
+["growUpwards"] = true,
+["emphOutline"] = "OUTLINE",
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-208,
+},
+["fontName"] = "Expressway",
+["normalPosition"] = {
+"TOP",
+nil,
+nil,
+-190,
+},
 },
 ["MerfinUI (1600) v7.24"] = {
-["iconFontSize"] = 8,
-["iconExpireGlowType"] = "proc",
-["iconZoom"] = 0.3,
-["iconHeight"] = 20,
-["iconFontName"] = "Expressway",
-["iconOffsetX"] = -3,
-["iconWidth"] = 20,
+["outline"] = "OUTLINE",
+["fontSize"] = 15,
+["emphFontName"] = "Expressway",
+["fontName"] = "Expressway",
+["growUpwards"] = true,
+["emphOutline"] = "OUTLINE",
+["emphFontSize"] = 37,
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-208,
+},
+["normalPosition"] = {
+"TOP",
+nil,
+nil,
+-190,
+},
+},
+["MerfinUI v5.22"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 16,
+["emphOutline"] = "OUTLINE",
+["fontName"] = "Expressway",
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 44,
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-206,
+},
 },
 },
 },
@@ -351,96 +377,17 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_High Prophet Barim"] = {
-},
-["BigWigs_Bosses_Siamat"] = {
-},
-["BigWigs_Plugins_Messages"] = {
-["profiles"] = {
-["MerfinUI (1600) v7.19"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 15,
-["emphFontName"] = "Expressway",
-["emphFontSize"] = 37,
-["growUpwards"] = true,
-["emphOutline"] = "OUTLINE",
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--208,
-},
-["fontName"] = "Expressway",
-["normalPosition"] = {
-"TOP",
-nil,
-nil,
--190,
-},
-},
-["MerfinUI v5.27"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 15,
-["emphFontName"] = "Expressway",
-["emphFontSize"] = 37,
-["growUpwards"] = true,
-["emphOutline"] = "OUTLINE",
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--208,
-},
-["fontName"] = "Expressway",
-["normalPosition"] = {
-"TOP",
-nil,
-nil,
--190,
-},
-},
-["MerfinUI (1600) v7.24"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 15,
-["emphFontName"] = "Expressway",
-["fontName"] = "Expressway",
-["growUpwards"] = true,
-["emphOutline"] = "OUTLINE",
-["emphFontSize"] = 37,
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--208,
-},
-["normalPosition"] = {
-"TOP",
-nil,
-nil,
--190,
-},
-},
-["MerfinUI v5.22"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 16,
-["emphOutline"] = "OUTLINE",
-["fontName"] = "Expressway",
-["emphFontName"] = "Expressway",
-["emphFontSize"] = 44,
-["emphPosition"] = {
-"TOP",
-"TOP",
-nil,
--206,
-},
-},
-},
+["BigWigs_Bosses_Temple Guardian Anhuur"] = {
 },
 ["BigWigs_Plugins_AutoReply"] = {
 },
-["LibDualSpec-1.0"] = {
+["BigWigs_Plugins_InfoBox"] = {
+["profiles"] = {
+["MerfinUI (1600) v7.24"] = {
+["posx"] = 197,
+["posy"] = 512,
 },
-["BigWigs_Bosses_General Husam"] = {
+},
 },
 ["BigWigs_Plugins_Proximity"] = {
 ["profiles"] = {
@@ -482,7 +429,27 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Raid Icons"] = {
+["BigWigs_Plugins_Nameplates"] = {
+["profiles"] = {
+["MerfinUI (1600) v7.19"] = {
+["iconFontSize"] = 8,
+["iconExpireGlowType"] = "proc",
+["iconZoom"] = 0.3,
+["iconHeight"] = 20,
+["iconFontName"] = "Expressway",
+["iconWidth"] = 20,
+["iconOffsetX"] = -3,
+},
+["MerfinUI (1600) v7.24"] = {
+["iconFontSize"] = 8,
+["iconExpireGlowType"] = "proc",
+["iconZoom"] = 0.3,
+["iconHeight"] = 20,
+["iconFontName"] = "Expressway",
+["iconOffsetX"] = -3,
+["iconWidth"] = 20,
+},
+},
 },
 ["BigWigs_Plugins_Pull"] = {
 ["profiles"] = {
@@ -491,11 +458,50 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_InfoBox"] = {
+["BigWigs_Plugins_AltPower"] = {
 ["profiles"] = {
+["MerfinUI (1600) v7.19"] = {
+["fontSize"] = 14,
+["fontName"] = "Expressway",
+["position"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+-315,
+327,
+},
+},
+["Default"] = {
+["expanded"] = true,
+},
+["MerfinUI v5.27"] = {
+["fontSize"] = 14,
+["fontName"] = "Expressway",
+["position"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+-315,
+327,
+},
+},
 ["MerfinUI (1600) v7.24"] = {
-["posx"] = 197,
-["posy"] = 512,
+["fontSize"] = 14,
+["fontName"] = "Expressway",
+["position"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+-315,
+327,
+},
+},
+["MerfinUI v5.22"] = {
+["fontSize"] = 14,
+["fontName"] = "Expressway",
+["position"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+-315,
+327,
+},
 },
 },
 },

@@ -293,6 +293,16 @@ false,
 },
 },
 ["Alsía - Venoxis"] = {
+["weights"] = {
+160,
+nil,
+nil,
+nil,
+80,
+200,
+nil,
+120,
+},
 ["storedMethod"] = {
 ["items"] = {
 {
@@ -380,9 +390,6 @@ false,
 0,
 614,
 },
-},
-["buffs"] = {
-["strength"] = true,
 },
 ["method"] = {
 ["items"] = {
@@ -472,39 +479,11 @@ false,
 614,
 },
 },
-["weights"] = {
-160,
-nil,
-nil,
-nil,
-80,
-200,
-nil,
-120,
+["buffs"] = {
+["strength"] = true,
 },
 },
 ["Exonuklease - Venoxis"] = {
-["caps"] = {
-{
-["stat"] = 4,
-["points"] = {
-{
-["value"] = 1742,
-["preset"] = 3,
-},
-},
-},
-},
-["weights"] = {
-nil,
-nil,
-nil,
-200,
-120,
-160,
-nil,
-140,
-},
 ["method"] = {
 ["items"] = {
 {
@@ -605,6 +584,16 @@ nil,
 2468,
 },
 },
+["weights"] = {
+nil,
+nil,
+nil,
+200,
+120,
+160,
+nil,
+140,
+},
 ["storedMethod"] = {
 ["items"] = {
 {
@@ -695,6 +684,17 @@ nil,
 2855,
 0,
 1481,
+},
+},
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 1742,
+["preset"] = 3,
+},
+},
 },
 },
 },
@@ -1189,6 +1189,36 @@ nil,
 },
 },
 ["Alsia - Venoxis"] = {
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 961,
+["preset"] = 2,
+},
+},
+},
+{
+["stat"] = 7,
+["points"] = {
+{
+["value"] = 781,
+["preset"] = 5,
+},
+},
+},
+},
+["weights"] = {
+nil,
+nil,
+nil,
+200,
+135,
+110,
+180,
+150,
+},
 ["method"] = {
 ["items"] = {
 {
@@ -1289,16 +1319,6 @@ nil,
 727,
 },
 },
-["weights"] = {
-nil,
-nil,
-nil,
-200,
-135,
-110,
-180,
-150,
-},
 ["storedMethod"] = {
 ["items"] = {
 {
@@ -1397,26 +1417,6 @@ nil,
 1288,
 0,
 727,
-},
-},
-["caps"] = {
-{
-["stat"] = 4,
-["points"] = {
-{
-["value"] = 961,
-["preset"] = 2,
-},
-},
-},
-{
-["stat"] = 7,
-["points"] = {
-{
-["value"] = 781,
-["preset"] = 5,
-},
-},
 },
 },
 },

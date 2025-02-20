@@ -293,6 +293,9 @@ false,
 },
 },
 ["Alsía - Venoxis"] = {
+["buffs"] = {
+["strength"] = true,
+},
 ["weights"] = {
 160,
 nil,
@@ -302,94 +305,6 @@ nil,
 200,
 nil,
 120,
-},
-["storedMethod"] = {
-["items"] = {
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 60,
-["reforge"] = 55,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 64,
-["reforge"] = 55,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 54,
-["reforge"] = 55,
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 69,
-["reforge"] = 55,
-},
-{
-["dst"] = 6,
-["src"] = 5,
-["amount"] = 80,
-["reforge"] = 33,
-},
-{
-["dst"] = 1,
-["src"] = 5,
-["amount"] = 83,
-["reforge"] = 29,
-},
-{
-},
-{
-["dst"] = 1,
-["src"] = 5,
-["amount"] = 59,
-["reforge"] = 29,
-},
-{
-["dst"] = 6,
-["src"] = 5,
-["amount"] = 57,
-["reforge"] = 33,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 50,
-["reforge"] = 55,
-},
-{
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["amount"] = 41,
-["reforge"] = 55,
-},
-{
-},
-{
-},
-},
-["stats"] = {
-2999,
-0,
-5,
-1443,
-459,
-1877,
-0,
-614,
-},
 },
 ["method"] = {
 ["items"] = {
@@ -479,8 +394,93 @@ nil,
 614,
 },
 },
-["buffs"] = {
-["strength"] = true,
+["storedMethod"] = {
+["items"] = {
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 60,
+["reforge"] = 55,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 64,
+["reforge"] = 55,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 54,
+["reforge"] = 55,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 69,
+["reforge"] = 55,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["amount"] = 80,
+["reforge"] = 33,
+},
+{
+["dst"] = 1,
+["src"] = 5,
+["amount"] = 83,
+["reforge"] = 29,
+},
+{
+},
+{
+["dst"] = 1,
+["src"] = 5,
+["amount"] = 59,
+["reforge"] = 29,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["amount"] = 57,
+["reforge"] = 33,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 50,
+["reforge"] = 55,
+},
+{
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["amount"] = 41,
+["reforge"] = 55,
+},
+{
+},
+{
+},
+},
+["stats"] = {
+2999,
+0,
+5,
+1443,
+459,
+1877,
+0,
+614,
+},
 },
 },
 ["Exonuklease - Venoxis"] = {
