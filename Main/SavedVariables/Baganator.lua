@@ -161,10 +161,7 @@ BAGANATOR_CONFIG = {
 ["category_modifications"] = {
 },
 ["warband_bank_view_width"] = 14,
-["guild_view_position"] = {
-"LEFT",
-20,
-0,
+["category_section_toggled"] = {
 },
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
@@ -173,12 +170,11 @@ BAGANATOR_CONFIG = {
 ["bag_icon_size"] = 37,
 ["icon_text_font_size"] = 14,
 ["show_buttons_on_alt"] = true,
-["bag_view_width"] = 12,
-["disabled_skins"] = {
-},
 ["sort_ignore_slots_count_2"] = {
 ["Alsía-Venoxis"] = 0,
 },
+["view_alpha"] = 0.93,
+["bag_view_width"] = 12,
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
 {
@@ -196,10 +192,10 @@ BAGANATOR_CONFIG = {
 ["currencyID"] = 396,
 },
 {
-["currencyID"] = 3148,
+["currencyID"] = 395,
 },
 {
-["currencyID"] = 395,
+["currencyID"] = 3281,
 },
 },
 ["Alsia-Venoxis"] = {
@@ -210,7 +206,7 @@ BAGANATOR_CONFIG = {
 ["currencyID"] = 396,
 },
 {
-["currencyID"] = 3148,
+["currencyID"] = 3281,
 },
 },
 ["Alsía-Venoxis"] = {
@@ -272,20 +268,6 @@ BAGANATOR_CONFIG = {
 ["sort_ignore_bank_slots_count"] = {
 ["Alsía-Venoxis"] = 0,
 },
-["recent_characters_main_view"] = {
-"Exonuklease-Venoxis",
-"Kwasimojo-Venoxis",
-"Alsla-Venoxis",
-"Alslahunt-Venoxis",
-"Alsia-Venoxis",
-"Alslalu-Venoxis",
-"Alsía-Venoxis",
-"Endonuclease-Venoxis",
-"Andrés-Venoxis",
-"Maturitass-Venoxis",
-"Alslala-Venoxis",
-"Lucho-Venoxis",
-},
 ["skins"] = {
 ["elvui"] = {
 ["use_bag_font"] = false,
@@ -302,11 +284,25 @@ BAGANATOR_CONFIG = {
 ["empty_slot_background"] = false,
 },
 },
+["debug_keywords"] = false,
 ["guild_current_tab"] = 0,
 ["auto_sort_on_open"] = false,
 ["upgrade_plugin"] = "none",
 ["guild_bank_sort_method"] = "unset",
-["debug_keywords"] = false,
+["recent_characters_main_view"] = {
+"Exonuklease-Venoxis",
+"Alsia-Venoxis",
+"Kwasimojo-Venoxis",
+"Alsla-Venoxis",
+"Alslahunt-Venoxis",
+"Alslalu-Venoxis",
+"Alsía-Venoxis",
+"Endonuclease-Venoxis",
+"Andrés-Venoxis",
+"Maturitass-Venoxis",
+"Alslala-Venoxis",
+"Lucho-Venoxis",
+},
 ["setting_anchors"] = false,
 ["guild_view_dialog_position"] = {
 "BOTTOM",
@@ -315,7 +311,8 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["view_alpha"] = 0.93,
+["disabled_skins"] = {
+},
 ["bank_only_view_position"] = {
 "LEFT",
 20,
@@ -324,9 +321,12 @@ BAGANATOR_CONFIG = {
 ["currencies_tracked_imported"] = {
 },
 ["show_sort_button_2"] = true,
-["sort_ignore_slots_at_end"] = false,
-["category_section_toggled"] = {
+["guild_view_position"] = {
+"LEFT",
+20,
+0,
 },
+["sort_ignore_slots_at_end"] = false,
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrameelvui",

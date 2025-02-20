@@ -3,7 +3,7 @@ OneRing_Config = nil
 OPie_SavedData = {
 ["CharProfiles"] = {
 },
-["_GameVersion"] = "4.4.1",
+["_GameVersion"] = "4.4.2",
 ["_OPieVersion"] = "Zeta 4 (4.119)",
 ["ProfileStorage"] = {
 ["default"] = {

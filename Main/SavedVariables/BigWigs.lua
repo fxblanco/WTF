@@ -86,16 +86,6 @@ nil,
 ["BigWigs_Plugins_Colors"] = {
 ["profiles"] = {
 ["MerfinUI (1600) v7.19"] = {
-["barBackground"] = {
-["BigWigs_Plugins_Colors"] = {
-["default"] = {
-0.2000000178813934,
-0.2000000178813934,
-0.2000000178813934,
-0.7019608020782471,
-},
-},
-},
 ["barEmphasized"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
@@ -110,6 +100,16 @@ nil,
 0.1294117718935013,
 0.5882353186607361,
 0.9529412388801575,
+},
+},
+},
+["barBackground"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.2000000178813934,
+0.2000000178813934,
+0.2000000178813934,
+0.7019608020782471,
 },
 },
 },
@@ -172,16 +172,10 @@ nil,
 ["emphasizeRestart"] = false,
 ["emphasizeGrowup"] = true,
 ["expWidth"] = 229,
-["emphasizeTime"] = 10,
+["fill"] = true,
 ["barStyle"] = "ElvUI",
 ["growup"] = true,
 ["fontSizeEmph"] = 14,
-["fontName"] = "Expressway",
-["fill"] = true,
-["visibleBarLimitEmph"] = 4,
-["normalHeight"] = 27,
-["normalWidth"] = 184,
-["texture"] = "Merfin Main Texture",
 ["expPosition"] = {
 "BOTTOMLEFT",
 "TOPLEFT",
@@ -189,6 +183,12 @@ nil,
 75,
 "ElvUF_Target",
 },
+["emphasizeTime"] = 10,
+["visibleBarLimitEmph"] = 4,
+["normalHeight"] = 27,
+["normalWidth"] = 184,
+["texture"] = "Merfin Main Texture",
+["fontName"] = "Expressway",
 ["normalPosition"] = {
 "BOTTOMLEFT",
 "TOPLEFT",
@@ -198,14 +198,14 @@ nil,
 },
 },
 ["Default"] = {
-["normalHeight"] = 27,
-["normalWidth"] = 264,
 ["expPosition"] = {
 "RIGHT",
 "RIGHT",
 -366,
 -249,
 },
+["normalWidth"] = 264,
+["normalHeight"] = 27,
 ["normalPosition"] = {
 "RIGHT",
 "RIGHT",
@@ -248,9 +248,40 @@ nil,
 },
 ["BigWigs_Plugins_InfoBox"] = {
 },
-["BigWigs_Plugins_Raid Icons"] = {
-},
 ["BigWigs_Plugins_AutoReply"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+["profiles"] = {
+["MerfinUI v5.22"] = {
+["posx"] = 801,
+["fontSize"] = 16,
+["lock"] = false,
+["height"] = 101,
+["posy"] = 417,
+["fontName"] = "Expressway",
+["width"] = 120,
+},
+["MerfinUI (1600) v7.19"] = {
+["posx"] = 716,
+["fontSize"] = 16,
+["lock"] = false,
+["height"] = 101,
+["posy"] = 443,
+["fontName"] = "Expressway",
+["width"] = 120,
+},
+["MerfinUI v5.27"] = {
+["posx"] = 716,
+["fontSize"] = 16,
+["lock"] = false,
+["height"] = 101,
+["posy"] = 443,
+["fontName"] = "Expressway",
+["width"] = 120,
+},
+},
+},
+["BigWigs_Plugins_Raid Icons"] = {
 },
 ["BigWigs_Plugins_Messages"] = {
 ["profiles"] = {
@@ -312,40 +343,9 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Proximity"] = {
-["profiles"] = {
-["MerfinUI v5.22"] = {
-["posx"] = 801,
-["fontSize"] = 16,
-["lock"] = false,
-["height"] = 101,
-["posy"] = 417,
-["fontName"] = "Expressway",
-["width"] = 120,
-},
-["MerfinUI (1600) v7.19"] = {
-["posx"] = 716,
-["fontSize"] = 16,
-["lock"] = false,
-["height"] = 101,
-["posy"] = 443,
-["fontName"] = "Expressway",
-["width"] = 120,
-},
-["MerfinUI v5.27"] = {
-["posx"] = 716,
-["fontSize"] = 16,
-["lock"] = false,
-["height"] = 101,
-["posy"] = 443,
-["fontName"] = "Expressway",
-["width"] = 120,
-},
-},
+["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Pull"] = {
-},
-["LibDualSpec-1.0"] = {
 },
 },
 ["global"] = {

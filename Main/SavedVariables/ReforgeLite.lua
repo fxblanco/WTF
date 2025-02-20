@@ -293,9 +293,6 @@ false,
 },
 },
 ["Alsía - Venoxis"] = {
-["buffs"] = {
-["strength"] = true,
-},
 ["weights"] = {
 160,
 nil,
@@ -305,6 +302,94 @@ nil,
 200,
 nil,
 120,
+},
+["storedMethod"] = {
+["items"] = {
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 60,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 64,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 54,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 69,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 80,
+},
+{
+["dst"] = 1,
+["src"] = 5,
+["reforge"] = 29,
+["amount"] = 83,
+},
+{
+},
+{
+["dst"] = 1,
+["src"] = 5,
+["reforge"] = 29,
+["amount"] = 59,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 57,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 50,
+},
+{
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 41,
+},
+{
+},
+{
+},
+},
+["stats"] = {
+2999,
+0,
+5,
+1443,
+459,
+1877,
+0,
+614,
+},
 },
 ["method"] = {
 ["items"] = {
@@ -394,93 +479,8 @@ nil,
 614,
 },
 },
-["storedMethod"] = {
-["items"] = {
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 60,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 64,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 54,
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 69,
-},
-{
-["dst"] = 6,
-["src"] = 5,
-["reforge"] = 33,
-["amount"] = 80,
-},
-{
-["dst"] = 1,
-["src"] = 5,
-["reforge"] = 29,
-["amount"] = 83,
-},
-{
-},
-{
-["dst"] = 1,
-["src"] = 5,
-["reforge"] = 29,
-["amount"] = 59,
-},
-{
-["dst"] = 6,
-["src"] = 5,
-["reforge"] = 33,
-["amount"] = 57,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 50,
-},
-{
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 41,
-},
-{
-},
-{
-},
-},
-["stats"] = {
-2999,
-0,
-5,
-1443,
-459,
-1877,
-0,
-614,
-},
+["buffs"] = {
+["strength"] = true,
 },
 },
 ["Exonuklease - Venoxis"] = {
@@ -916,6 +916,10 @@ nil,
 2835,
 },
 },
+["buffs"] = {
+},
+["itemsLocked"] = {
+},
 ["weights"] = {
 0,
 110,
@@ -925,10 +929,6 @@ nil,
 50,
 120,
 200,
-},
-["itemsLocked"] = {
-},
-["buffs"] = {
 },
 },
 ["Bloodwall - Venoxis"] = {

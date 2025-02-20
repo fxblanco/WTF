@@ -7,7 +7,13 @@ BigWigs3DB = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
+["BigWigs_Bosses_Commander Ulthok"] = {
+},
 ["BigWigs_Plugins_Statistics"] = {
+},
+["BigWigs_Bosses_Throne of the Tides Trash"] = {
+},
+["BigWigs_Bosses_Lady Naz'jar"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 ["profiles"] = {
@@ -86,15 +92,6 @@ nil,
 ["BigWigs_Plugins_Colors"] = {
 ["profiles"] = {
 ["MerfinUI (1600) v7.19"] = {
-["barColor"] = {
-["BigWigs_Plugins_Colors"] = {
-["default"] = {
-0.1294117718935013,
-0.5882353186607361,
-0.9529412388801575,
-},
-},
-},
 ["barBackground"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
@@ -105,11 +102,12 @@ nil,
 },
 },
 },
-["barEmphasized"] = {
+["barColor"] = {
 ["BigWigs_Plugins_Colors"] = {
 ["default"] = {
-nil,
-0.5960784554481506,
+0.1294117718935013,
+0.5882353186607361,
+0.9529412388801575,
 },
 },
 },
@@ -123,6 +121,14 @@ nil,
 },
 },
 },
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+nil,
+0.5960784554481506,
+},
+},
+},
 },
 },
 },
@@ -131,11 +137,11 @@ nil,
 ["BigWigs_Plugins_Nameplates"] = {
 ["profiles"] = {
 ["MerfinUI (1600) v7.19"] = {
+["iconFontName"] = "Expressway",
 ["iconFontSize"] = 8,
+["iconHeight"] = 20,
 ["iconExpireGlowType"] = "proc",
 ["iconZoom"] = 0.3,
-["iconHeight"] = 20,
-["iconFontName"] = "Expressway",
 ["iconWidth"] = 20,
 ["iconOffsetX"] = -3,
 },
@@ -172,13 +178,11 @@ nil,
 ["emphasizeRestart"] = false,
 ["emphasizeGrowup"] = true,
 ["expWidth"] = 229,
+["fill"] = true,
 ["emphasizeTime"] = 10,
 ["barStyle"] = "ElvUI",
 ["growup"] = true,
 ["fontSizeEmph"] = 14,
-["fontName"] = "Expressway",
-["fill"] = true,
-["visibleBarLimitEmph"] = 4,
 ["expPosition"] = {
 "BOTTOMLEFT",
 "TOPLEFT",
@@ -186,6 +190,8 @@ nil,
 75,
 "ElvUF_Target",
 },
+["fontName"] = "Expressway",
+["visibleBarLimitEmph"] = 4,
 ["texture"] = "Merfin Main Texture",
 ["normalWidth"] = 184,
 ["normalHeight"] = 27,
@@ -198,14 +204,14 @@ nil,
 },
 },
 ["Default"] = {
+["normalHeight"] = 27,
+["normalWidth"] = 264,
 ["expPosition"] = {
 "RIGHT",
 "RIGHT",
 -366,
 -249,
 },
-["normalWidth"] = 264,
-["normalHeight"] = 27,
 ["normalPosition"] = {
 "RIGHT",
 "RIGHT",
@@ -246,6 +252,10 @@ nil,
 },
 },
 },
+["BigWigs_Plugins_InfoBox"] = {
+},
+["BigWigs_Bosses_Mindbender Ghur'sha"] = {
+},
 ["LibDualSpec-1.0"] = {
 },
 ["BigWigs_Plugins_Raid Icons"] = {
@@ -271,8 +281,6 @@ nil,
 ["fontSize"] = 15,
 ["emphFontName"] = "Expressway",
 ["emphFontSize"] = 37,
-["growUpwards"] = true,
-["emphOutline"] = "OUTLINE",
 ["emphPosition"] = {
 "TOP",
 "TOP",
@@ -280,6 +288,8 @@ nil,
 -208,
 },
 ["fontName"] = "Expressway",
+["growUpwards"] = true,
+["emphOutline"] = "OUTLINE",
 ["normalPosition"] = {
 "TOP",
 nil,
@@ -322,13 +332,13 @@ nil,
 ["width"] = 120,
 },
 ["MerfinUI (1600) v7.19"] = {
-["posx"] = 716,
 ["fontSize"] = 16,
-["lock"] = false,
-["height"] = 101,
-["posy"] = 443,
 ["fontName"] = "Expressway",
 ["width"] = 120,
+["posy"] = 443,
+["lock"] = false,
+["height"] = 101,
+["posx"] = 716,
 },
 ["MerfinUI v5.27"] = {
 ["posx"] = 716,
@@ -345,7 +355,7 @@ nil,
 },
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_InfoBox"] = {
+["BigWigs_Bosses_Ozumat"] = {
 },
 },
 ["profileKeys"] = {
