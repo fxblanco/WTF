@@ -21,10 +21,10 @@ NAGDB = {
 ["Endonuclease - Venoxis"] = {
 ["version"] = 1,
 },
-["Lucho - Venoxis"] = {
+["Alsia - Venoxis"] = {
 ["version"] = 1,
 },
-["Alsia - Venoxis"] = {
+["Lucho - Venoxis"] = {
 ["version"] = 1,
 },
 ["Kwasimojo - Venoxis"] = {
@@ -32,17 +32,6 @@ NAGDB = {
 },
 },
 },
-},
-["profileKeys"] = {
-["Alsla - Venoxis"] = "Alsla - Venoxis",
-["Alsía - Venoxis"] = "Alsía - Venoxis",
-["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-["Lucho - Venoxis"] = "Lucho - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
-["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
 ["global"] = {
 ["lastSentSpam"] = 268475.563,
@@ -55,6 +44,17 @@ NAGDB = {
 ["3.3.0"] = true,
 ["3.3.0-rc.1"] = true,
 },
+},
+["profileKeys"] = {
+["Alsla - Venoxis"] = "Alsla - Venoxis",
+["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Lucho - Venoxis"] = "Lucho - Venoxis",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
@@ -130,12 +130,12 @@ NAGDB = {
 89751,
 1949,
 },
+["AOE"] = {
+},
 ["ABOVE"] = {
 1454,
 28176,
 80398,
-},
-["AOE"] = {
 },
 ["LEFT"] = {
 77801,
@@ -190,15 +190,15 @@ NAGDB = {
 ["equipment"] = {
 },
 ["default"] = true,
-["resourceBar"] = {
-},
-["guitarHeroBar"] = {
-},
-["auras"] = {
+["customVariables"] = {
 },
 ["items"] = {
 },
-["customVariables"] = {
+["auras"] = {
+},
+["guitarHeroBar"] = {
+},
+["resourceBar"] = {
 },
 },
 },
@@ -249,11 +249,11 @@ NAGDB = {
 },
 ["RIGHT"] = {
 },
+["ABOVE"] = {
+},
 ["AOE"] = {
 421,
 61882,
-},
-["ABOVE"] = {
 },
 ["LEFT"] = {
 16166,
@@ -296,15 +296,15 @@ NAGDB = {
 ["equipment"] = {
 },
 ["default"] = true,
-["customVariables"] = {
-},
-["items"] = {
-},
-["auras"] = {
+["resourceBar"] = {
 },
 ["guitarHeroBar"] = {
 },
-["resourceBar"] = {
+["auras"] = {
+},
+["items"] = {
+},
+["customVariables"] = {
 },
 },
 },
@@ -336,10 +336,10 @@ NAGDB = {
 },
 ["RIGHT"] = {
 },
+["ABOVE"] = {
+},
 ["AOE"] = {
 2643,
-},
-["ABOVE"] = {
 },
 ["LEFT"] = {
 53434,
@@ -370,15 +370,15 @@ NAGDB = {
 ["equipment"] = {
 },
 ["default"] = true,
-["customVariables"] = {
-},
-["items"] = {
-},
-["auras"] = {
+["resourceBar"] = {
 },
 ["guitarHeroBar"] = {
 },
-["resourceBar"] = {
+["auras"] = {
+},
+["items"] = {
+},
+["customVariables"] = {
 },
 },
 },
@@ -410,12 +410,12 @@ NAGDB = {
 },
 ["RIGHT"] = {
 },
-["ABOVE"] = {
-57934,
-},
 ["AOE"] = {
 51723,
 13877,
+},
+["ABOVE"] = {
+57934,
 },
 ["LEFT"] = {
 79140,
@@ -474,15 +474,15 @@ NAGDB = {
 ["equipment"] = {
 },
 ["default"] = true,
-["resourceBar"] = {
-},
-["guitarHeroBar"] = {
-},
-["auras"] = {
+["customVariables"] = {
 },
 ["items"] = {
 },
-["customVariables"] = {
+["auras"] = {
+},
+["guitarHeroBar"] = {
+},
+["resourceBar"] = {
 },
 },
 },
@@ -491,80 +491,6 @@ NAGDB = {
 ["selectedRotation"] = {
 ["ROGUE"] = {
 [181] = "Cataclysm Combat - by @Bicarbxd",
-},
-},
-},
-["Lucho - Venoxis"] = {
-["rotations"] = {
-["HUNTER"] = {
-[809] = {
-["Cataclysm Survival - by @Bicarbxd"] = {
-["talents"] = {
-},
-["glyphs"] = {
-},
-["burstTrackers"] = {
-},
-["itemSwap"] = {
-},
-["macros"] = {
-},
-["spellLocations"] = {
-["BELOW"] = {
-},
-["RIGHT"] = {
-},
-["ABOVE"] = {
-},
-["AOE"] = {
-2643,
-},
-["LEFT"] = {
-53434,
-3045,
-},
-},
-["prePull"] = {
-{
-13812,
--25,
-},
-{
-"defaultBattlePotion",
--1.4,
-},
-{
-77767,
--1.4,
-},
-},
-["enabled"] = true,
-["rotationString"] = "        NAG:SpellCastSequence()\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (NAG:IsReady(82174) and NAG:Cast(82174))\n        or ((NAG:IsExecutePhase(20)) and NAG:Cast(58145))\n        or ((not (NAG:IsActive(1978) or NAG:IsActive(88453))) and NAG:Cast(1978))\n        or ((NAG:IsActive(53301) and (NAG:CurrentFocus() >= 95.0) and (NAG:IsActive(3674) or NAG:IsActive(13812))) and NAG:Cast(3044))\n        or (((not NAG:IsActive(53301)) or (NAG:DotRemainingTime(53301) < (NAG:TravelTime(53301) + 1.0))) and NAG:Cast(53301))\n        or (NAG:IsExecutePhase(20) and NAG:Cast(53351))\n        or ((NAG:IsActive(53301) and (NAG:DotRemainingTime(53301) >= (NAG:TravelTime(53301) + 1.0)) and NAG:CanCast(53301) and (NAG:DotRemainingTime(53301) <= (NAG:TravelTime(53301) + 1.05))) and NAG:Wait(0.051))\n        or ((NAG:IsReady(3674) and (not NAG:IsReady(53301))) and NAG:Cast(3674))\n        or (((NAG:TimeToReady(53301) < 0.25) and (NAG:CurrentFocus() > 44.0)) and NAG:Cast(53301))\n        or ((NAG:CurrentFocus() >= 80.0) and NAG:Cast(3044))\n        or (((NAG:CurrentFocus() >= 40.0) and (NAG:TimeRemaining() <= 8) and (NAG:TimeToReady(53301) >= 3)) and NAG:Cast(3044))\n        or NAG:Cast(77767)\n\n",
-["experimental"] = false,
-["spells"] = {
-},
-["consumes"] = {
-},
-["equipment"] = {
-},
-["default"] = true,
-["resourceBar"] = {
-},
-["guitarHeroBar"] = {
-},
-["auras"] = {
-},
-["items"] = {
-},
-["customVariables"] = {
-},
-},
-},
-},
-},
-["selectedRotation"] = {
-["HUNTER"] = {
-[809] = "Cataclysm Survival - by @Bicarbxd",
 },
 },
 },
@@ -590,9 +516,9 @@ NAGDB = {
 },
 ["RIGHT"] = {
 },
-["AOE"] = {
-},
 ["ABOVE"] = {
+},
+["AOE"] = {
 },
 ["LEFT"] = {
 86150,
@@ -674,11 +600,85 @@ NAGDB = {
 ["equipment"] = {
 },
 ["default"] = true,
-["customVariables"] = {
+["resourceBar"] = {
+},
+["guitarHeroBar"] = {
+},
+["auras"] = {
 },
 ["items"] = {
 68972,
 69113,
+},
+["customVariables"] = {
+},
+},
+},
+},
+},
+["selectedRotation"] = {
+["PALADIN"] = {
+[855] = "Paladin Retribution - AoK by surveillant @ Ebon Hold",
+},
+},
+},
+["Lucho - Venoxis"] = {
+["rotations"] = {
+["HUNTER"] = {
+[809] = {
+["Cataclysm Survival - by @Bicarbxd"] = {
+["talents"] = {
+},
+["glyphs"] = {
+},
+["burstTrackers"] = {
+},
+["itemSwap"] = {
+},
+["macros"] = {
+},
+["spellLocations"] = {
+["BELOW"] = {
+},
+["RIGHT"] = {
+},
+["AOE"] = {
+2643,
+},
+["ABOVE"] = {
+},
+["LEFT"] = {
+53434,
+3045,
+},
+},
+["prePull"] = {
+{
+13812,
+-25,
+},
+{
+"defaultBattlePotion",
+-1.4,
+},
+{
+77767,
+-1.4,
+},
+},
+["enabled"] = true,
+["rotationString"] = "        NAG:SpellCastSequence()\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (((NAG:RemainingTime(2825) <= 4) and NAG:IsActive(2825)) and NAG:Cast(3045))\n        or (NAG:IsReady(82174) and NAG:Cast(82174))\n        or ((NAG:IsExecutePhase(20)) and NAG:Cast(58145))\n        or ((not (NAG:IsActive(1978) or NAG:IsActive(88453))) and NAG:Cast(1978))\n        or ((NAG:IsActive(53301) and (NAG:CurrentFocus() >= 95.0) and (NAG:IsActive(3674) or NAG:IsActive(13812))) and NAG:Cast(3044))\n        or (((not NAG:IsActive(53301)) or (NAG:DotRemainingTime(53301) < (NAG:TravelTime(53301) + 1.0))) and NAG:Cast(53301))\n        or (NAG:IsExecutePhase(20) and NAG:Cast(53351))\n        or ((NAG:IsActive(53301) and (NAG:DotRemainingTime(53301) >= (NAG:TravelTime(53301) + 1.0)) and NAG:CanCast(53301) and (NAG:DotRemainingTime(53301) <= (NAG:TravelTime(53301) + 1.05))) and NAG:Wait(0.051))\n        or ((NAG:IsReady(3674) and (not NAG:IsReady(53301))) and NAG:Cast(3674))\n        or (((NAG:TimeToReady(53301) < 0.25) and (NAG:CurrentFocus() > 44.0)) and NAG:Cast(53301))\n        or ((NAG:CurrentFocus() >= 80.0) and NAG:Cast(3044))\n        or (((NAG:CurrentFocus() >= 40.0) and (NAG:TimeRemaining() <= 8) and (NAG:TimeToReady(53301) >= 3)) and NAG:Cast(3044))\n        or NAG:Cast(77767)\n\n",
+["experimental"] = false,
+["spells"] = {
+},
+["consumes"] = {
+},
+["equipment"] = {
+},
+["default"] = true,
+["customVariables"] = {
+},
+["items"] = {
 },
 ["auras"] = {
 },
@@ -691,8 +691,8 @@ NAGDB = {
 },
 },
 ["selectedRotation"] = {
-["PALADIN"] = {
-[855] = "Paladin Retribution - AoK by surveillant @ Ebon Hold",
+["HUNTER"] = {
+[809] = "Cataclysm Survival - by @Bicarbxd",
 },
 },
 },

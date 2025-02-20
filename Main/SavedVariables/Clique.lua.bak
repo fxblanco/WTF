@@ -39,17 +39,17 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Exonuklease - Venoxis",
+["specswap"] = false,
 },
 ["Alslalu - Venoxis"] = {
 ["spec1_profileKey"] = "Alslalu - Venoxis",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["alerthidden"] = true,
-["downclick"] = false,
 ["spec2_profileKey"] = "Alslalu - Venoxis",
 ["specswap"] = false,
 },
@@ -58,11 +58,11 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["alerthidden"] = true,
+["downclick"] = false,
 ["spec2_profileKey"] = "Alsia - Venoxis",
+["specswap"] = false,
 },
 ["Andrés - Venoxis"] = {
 ["spec1_profileKey"] = "Andrés - Venoxis",
@@ -604,6 +604,15 @@ CliqueDB3 = {
 ["spell"] = "Hand of Freedom",
 },
 {
+["type"] = "spell",
+["key"] = "CTRL-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136106,
+["spell"] = "Divine Intervention",
+},
+{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON2",
@@ -620,18 +629,17 @@ CliqueDB3 = {
 },
 },
 {
-["type"] = "spell",
-["key"] = "CTRL-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136106,
-["spell"] = "Divine Intervention",
-},
-{
 ["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
 ["type"] = "macro",
 ["key"] = "BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
 },
@@ -649,14 +657,6 @@ CliqueDB3 = {
 ["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
 ["type"] = "macro",
 ["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON1",
 ["sets"] = {
 ["default"] = true,
 },

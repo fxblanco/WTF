@@ -293,18 +293,96 @@ false,
 },
 },
 ["Alsía - Venoxis"] = {
+["storedMethod"] = {
+["items"] = {
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 60,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 64,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 54,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 69,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 80,
+},
+{
+["dst"] = 1,
+["src"] = 5,
+["reforge"] = 29,
+["amount"] = 83,
+},
+{
+},
+{
+["dst"] = 1,
+["src"] = 5,
+["reforge"] = 29,
+["amount"] = 59,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 57,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 50,
+},
+{
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 41,
+},
+{
+},
+{
+},
+},
+["stats"] = {
+2999,
+0,
+5,
+1443,
+459,
+1877,
+0,
+614,
+},
+},
 ["buffs"] = {
 ["strength"] = true,
-},
-["weights"] = {
-160,
-nil,
-nil,
-nil,
-80,
-200,
-nil,
-120,
 },
 ["method"] = {
 ["items"] = {
@@ -394,93 +472,15 @@ nil,
 614,
 },
 },
-["storedMethod"] = {
-["items"] = {
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 60,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 64,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 54,
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 69,
-},
-{
-["dst"] = 6,
-["src"] = 5,
-["reforge"] = 33,
-["amount"] = 80,
-},
-{
-["dst"] = 1,
-["src"] = 5,
-["reforge"] = 29,
-["amount"] = 83,
-},
-{
-},
-{
-["dst"] = 1,
-["src"] = 5,
-["reforge"] = 29,
-["amount"] = 59,
-},
-{
-["dst"] = 6,
-["src"] = 5,
-["reforge"] = 33,
-["amount"] = 57,
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 50,
-},
-{
-},
-{
-},
-{
-["dst"] = 6,
-["src"] = 8,
-["reforge"] = 55,
-["amount"] = 41,
-},
-{
-},
-{
-},
-},
-["stats"] = {
-2999,
-0,
-5,
-1443,
-459,
-1877,
-0,
-614,
-},
+["weights"] = {
+160,
+nil,
+nil,
+nil,
+80,
+200,
+nil,
+120,
 },
 },
 ["Exonuklease - Venoxis"] = {
@@ -1189,36 +1189,6 @@ nil,
 },
 },
 ["Alsia - Venoxis"] = {
-["caps"] = {
-{
-["stat"] = 4,
-["points"] = {
-{
-["value"] = 961,
-["preset"] = 2,
-},
-},
-},
-{
-["stat"] = 7,
-["points"] = {
-{
-["value"] = 781,
-["preset"] = 5,
-},
-},
-},
-},
-["weights"] = {
-nil,
-nil,
-nil,
-200,
-135,
-110,
-180,
-150,
-},
 ["method"] = {
 ["items"] = {
 {
@@ -1319,6 +1289,16 @@ nil,
 727,
 },
 },
+["weights"] = {
+nil,
+nil,
+nil,
+200,
+135,
+110,
+180,
+150,
+},
 ["storedMethod"] = {
 ["items"] = {
 {
@@ -1417,6 +1397,26 @@ nil,
 1288,
 0,
 727,
+},
+},
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 961,
+["preset"] = 2,
+},
+},
+},
+{
+["stat"] = 7,
+["points"] = {
+{
+["value"] = 781,
+["preset"] = 5,
+},
+},
 },
 },
 },
@@ -1673,6 +1673,16 @@ nil,
 },
 },
 ["Alslalu - Venoxis"] = {
+["weights"] = {
+130,
+nil,
+nil,
+nil,
+100,
+100,
+nil,
+100,
+},
 ["method"] = {
 ["items"] = {
 {
@@ -1724,16 +1734,6 @@ nil,
 0,
 1167,
 },
-},
-["weights"] = {
-130,
-nil,
-nil,
-nil,
-100,
-100,
-nil,
-100,
 },
 ["storedMethod"] = {
 ["items"] = {

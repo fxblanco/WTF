@@ -30,8 +30,9 @@ ProjectAzilrokaDB = {
 ["SquareMinimapButtons"] = {
 ["ButtonSpacing"] = -1,
 ["ReverseDirection"] = true,
-["Backdrop"] = false,
 ["MoveMail"] = false,
+["Backdrop"] = false,
+["BarMouseOver"] = true,
 },
 ["DragonOverlay"] = {
 ["Enable"] = false,
@@ -55,9 +56,9 @@ ProjectAzilrokaDB = {
 ["Enable"] = false,
 },
 ["EnhancedFriendsList"] = {
+["NameFontSize"] = 14,
 ["Enable"] = false,
 ["DiffLevel"] = false,
-["NameFontSize"] = 14,
 ["InfoFontSize"] = 14,
 ["Texture"] = "Merfin Main Texture",
 },
