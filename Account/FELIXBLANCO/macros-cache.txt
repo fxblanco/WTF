@@ -4,6 +4,9 @@ END
 VER 3 0000000000000019 "blue" "134400"
 /wm [@cursor] 2
 END
+VER 3 000000000000001B "BTN" "134400"
+/click ExtraActionButton1
+END
 VER 3 0000000000000011 "focus" "132097"
 /focus
 END

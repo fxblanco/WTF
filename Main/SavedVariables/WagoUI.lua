@@ -3,25 +3,25 @@ WagoUIDB = {
 ["introEnabled"] = false,
 ["debug"] = false,
 ["anchorTo"] = "CENTER",
+["anchorFrom"] = "CENTER",
 ["classColoredCharacters"] = {
 },
-["anchorFrom"] = "CENTER",
 ["minimap"] = {
 ["compartmentHide"] = false,
 ["hide"] = false,
 },
-["introState"] = {
-["currentPage"] = "WelcomePage",
+["latestSeenReleasenotes"] = {
 },
 ["config"] = {
 },
-["latestSeenReleasenotes"] = {
+["introImportState"] = {
 },
 ["autoStart"] = false,
 ["xoffset"] = 0,
 ["importedProfiles"] = {
 },
-["introImportState"] = {
+["introState"] = {
+["currentPage"] = "WelcomePage",
 },
 ["yoffset"] = 0,
 }
