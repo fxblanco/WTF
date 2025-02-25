@@ -1,10 +1,11 @@
 
 ElvDB = {
 ["profileKeys"] = {
-["Alslalu - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.24",
+["Alsla - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.24",
 ["Alsia - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.24",
 ["Alsía - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.24",
 ["Exonuklease - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.24",
+["Alslalu - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.24",
 },
 ["DisabledAddOns"] = {
 },
@@ -869,8 +870,8 @@ ElvDB = {
 ["enable"] = false,
 ["anchorPoint"] = "TOPRIGHT",
 },
-["classbar"] = {
-["enable"] = false,
+["CombatIcon"] = {
+["size"] = 23,
 },
 ["threatStyle"] = "NONE",
 ["customTexts"] = {
@@ -932,7 +933,7 @@ ElvDB = {
 ["aurabar"] = {
 ["enable"] = false,
 },
-["RestIcon"] = {
+["partyIndicator"] = {
 ["enable"] = false,
 },
 ["castbar"] = {
@@ -958,7 +959,7 @@ ElvDB = {
 },
 },
 ["width"] = 260,
-["partyIndicator"] = {
+["RestIcon"] = {
 ["enable"] = false,
 },
 ["health"] = {
@@ -973,8 +974,8 @@ ElvDB = {
 ["EnergyManaRegen"] = true,
 ["height"] = 8,
 },
-["CombatIcon"] = {
-["size"] = 23,
+["classbar"] = {
+["enable"] = false,
 },
 },
 ["raid1"] = {
@@ -1612,10 +1613,10 @@ nil,
 ["alpha"] = 0.85,
 ["countFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "Expressway",
-["showGrid"] = false,
+["macrotext"] = true,
 ["macroTextYOffset"] = 2,
 ["hotkeyFontSize"] = 12,
-["macrotext"] = true,
+["showGrid"] = false,
 },
 ["bar8"] = {
 ["macroFont"] = "Expressway",
@@ -1798,10 +1799,10 @@ nil,
 ["alpha"] = 0.85,
 ["countFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "Expressway",
-["showGrid"] = false,
+["macrotext"] = true,
 ["macroTextYOffset"] = 2,
 ["hotkeyFontSize"] = 12,
-["macrotext"] = true,
+["showGrid"] = false,
 },
 ["fontSize"] = 12,
 ["extraActionButton"] = {
@@ -1832,12 +1833,12 @@ nil,
 ["hotkeyFontOutline"] = "OUTLINE",
 ["enabled"] = false,
 ["macroFont"] = "Expressway",
-["backdrop"] = false,
+["mouseover"] = true,
 ["macroTextPosition"] = "BOTTOM",
-["hotkeyFontSize"] = 12,
+["buttonsPerRow"] = 12,
 ["visibility"] = "",
 ["countFontSize"] = 12,
-["mouseover"] = true,
+["backdrop"] = false,
 ["macroFontSize"] = 12,
 ["macroFontOutline"] = "OUTLINE",
 ["countFont"] = "Expressway",
@@ -1849,7 +1850,7 @@ nil,
 ["showGrid"] = false,
 ["macroTextYOffset"] = 2,
 ["macrotext"] = true,
-["buttonsPerRow"] = 12,
+["hotkeyFontSize"] = 12,
 },
 },
 ["cooldown"] = {
@@ -1887,18 +1888,18 @@ nil,
 },
 ["gold"] = {
 ["Venoxis"] = {
-["Alsia"] = 43365624,
+["Alsia"] = 44383397,
 ["Alslala"] = 16428317,
 ["Alslalu"] = 723019947,
 ["Kwasimojo"] = 14063647,
 ["Alsía"] = 3215237,
-["Exonuklease"] = 583924889,
+["Exonuklease"] = 588438185,
 ["Maturitass"] = 3210989,
 ["Alslahunt"] = 311984152,
 ["Endonuclease"] = 22705075,
 ["Bloodwall"] = 733683,
 ["Andrés"] = 4562497,
-["Alsla"] = 1180566764,
+["Alsla"] = 1077464272,
 ["Lucho"] = 356269,
 },
 },
@@ -1994,6 +1995,12 @@ nil,
 ["settings"] = {
 ["Currencies"] = {
 ["tooltipData"] = {
+{
+nil,
+nil,
+nil,
+true,
+},
 [13] = {
 nil,
 nil,
@@ -2078,12 +2085,12 @@ ElvPrivateDB = {
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 ["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
-["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Maturitass - Venoxis"] = "Maturitass - Venoxis",
@@ -2162,25 +2169,25 @@ ElvPrivateDB = {
 },
 ["Exonuklease - Venoxis"] = {
 ["general"] = {
-["chatBubbleFontSize"] = 10,
 ["nameplateLargeFont"] = "Expressway",
-["chatBubbles"] = "backdrop_noborder",
-["chatBubbleName"] = true,
+["glossTex"] = "Flatt",
 ["totemBar"] = true,
 ["normTex"] = "Flatt",
-["nameplateLargeFontSize"] = 14,
 ["chatBubbleFont"] = "Expressway",
+["chatBubbleFontSize"] = 10,
 ["nameplateFont"] = "Expressway",
-["glossTex"] = "Flatt",
-},
-["nameplates"] = {
-["enable"] = false,
+["chatBubbles"] = "backdrop_noborder",
+["chatBubbleName"] = true,
+["nameplateLargeFontSize"] = 14,
 },
 ["bags"] = {
 ["enable"] = false,
 },
 ["MUI"] = {
 ["install_version"] = "7.16",
+},
+["nameplates"] = {
+["enable"] = false,
 },
 ["install_complete"] = 2.42,
 },
@@ -2232,6 +2239,27 @@ ElvPrivateDB = {
 ["install_version"] = "7.02",
 },
 },
+["Alsiadk - Venoxis"] = {
+["nameplates"] = {
+["enable"] = false,
+},
+["install_complete"] = 2.42,
+["general"] = {
+["chatBubbleFontSize"] = 10,
+["nameplateLargeFont"] = "Expressway",
+["chatBubbles"] = "backdrop_noborder",
+["chatBubbleName"] = true,
+["totemBar"] = true,
+["normTex"] = "Flatt",
+["nameplateLargeFontSize"] = 14,
+["chatBubbleFont"] = "Expressway",
+["nameplateFont"] = "Expressway",
+["glossTex"] = "Flatt",
+},
+["MUI"] = {
+["install_version"] = "5.22",
+},
+},
 ["Alslalu - Venoxis"] = {
 ["general"] = {
 ["totemTracker"] = false,
@@ -2257,51 +2285,8 @@ ElvPrivateDB = {
 ["install_version"] = "5.28",
 },
 },
-["Alsiadk - Venoxis"] = {
-["nameplates"] = {
-["enable"] = false,
-},
-["install_complete"] = 2.42,
-["general"] = {
-["chatBubbleFontSize"] = 10,
-["nameplateLargeFont"] = "Expressway",
-["chatBubbles"] = "backdrop_noborder",
-["chatBubbleName"] = true,
-["totemBar"] = true,
-["normTex"] = "Flatt",
-["nameplateLargeFontSize"] = 14,
-["chatBubbleFont"] = "Expressway",
-["nameplateFont"] = "Expressway",
-["glossTex"] = "Flatt",
-},
-["MUI"] = {
-["install_version"] = "5.22",
-},
-},
-["Alsia - Venoxis"] = {
-["general"] = {
-["nameplateLargeFont"] = "Expressway",
-["glossTex"] = "Merfin Main Texture",
-["totemBar"] = false,
-["normTex"] = "Merfin Main Texture",
-["chatBubbleFont"] = "Expressway",
-["totemTracker"] = false,
-["chatBubbleFontSize"] = 10,
-["nameplateFont"] = "Expressway",
-["chatBubbles"] = "backdrop_noborder",
-["chatBubbleName"] = true,
-["nameplateLargeFontSize"] = 9,
-},
-["bags"] = {
-["enable"] = false,
-},
-["MUI"] = {
-["install_version"] = "7.24",
-},
-["nameplates"] = {
-["enable"] = false,
-},
-["install_complete"] = 2.42,
+["Bloodwall - Venoxis"] = {
+["install_complete"] = 13.62,
 },
 ["Alslahunt - Venoxis"] = {
 ["general"] = {
@@ -2348,8 +2333,30 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 2.42,
 },
-["Bloodwall - Venoxis"] = {
-["install_complete"] = 13.62,
+["Alsia - Venoxis"] = {
+["general"] = {
+["totemTracker"] = false,
+["nameplateLargeFont"] = "Expressway",
+["chatBubbles"] = "backdrop_noborder",
+["chatBubbleName"] = true,
+["totemBar"] = false,
+["normTex"] = "Merfin Main Texture",
+["nameplateLargeFontSize"] = 9,
+["nameplateFont"] = "Expressway",
+["chatBubbleFont"] = "Expressway",
+["chatBubbleFontSize"] = 10,
+["glossTex"] = "Merfin Main Texture",
+},
+["nameplates"] = {
+["enable"] = false,
+},
+["bags"] = {
+["enable"] = false,
+},
+["MUI"] = {
+["install_version"] = "7.24",
+},
+["install_complete"] = 2.42,
 },
 ["Khalimmortus - Venoxis"] = {
 ["nameplates"] = {

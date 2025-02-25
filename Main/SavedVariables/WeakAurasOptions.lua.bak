@@ -3943,7 +3943,7 @@ WeakAurasOptionsSaved = {
 ["spells"] = "16591=136187,16593=135992,16595=136162",
 },
 ["Attack Wyrmrest"] = {
-["spells"] = "107577=134154,110768=511044",
+["spells"] = "107577=134154,110768=535248",
 },
 ["Enriched Terocone Juice"] = {
 ["spells"] = "41031=134062,42207=134062",
@@ -9432,7 +9432,7 @@ WeakAurasOptionsSaved = {
 ["spells"] = "77794=462651,77795=462651,77796=462651,77800=462651,96300=462651",
 },
 ["Auto Attack"] = {
-["spells"] = "6603=511044",
+["spells"] = "6603=535248",
 },
 ["Tricks and Treats of Outland"] = {
 ["achievements"] = "968=133985",
@@ -11037,7 +11037,7 @@ WeakAurasOptionsSaved = {
 ["spells"] = "46668=135813",
 },
 ["Clayton's Test Spell"] = {
-["spells"] = "64755=511044",
+["spells"] = "64755=535248",
 },
 ["Twin Peaks Perfection"] = {
 ["achievements"] = "5215=236397",
@@ -25629,8 +25629,8 @@ WeakAurasOptionsSaved = {
 ["Peanut"] = {
 ["spells"] = "40634=132505",
 },
-["Siege of Wyrmrest Temple"] = {
-["achievements"] = "6106=236699",
+["A Poke in the Eye (10 player)"] = {
+["achievements"] = "1869=236507",
 },
 ["Holding Hands"] = {
 ["achievements"] = "6175=464077",
@@ -25725,8 +25725,8 @@ WeakAurasOptionsSaved = {
 ["Silence is Golden"] = {
 ["achievements"] = "5308=133706",
 },
-["Heroic: Morchok"] = {
-["achievements"] = "6109=574789",
+["Light's Embrace"] = {
+["spells"] = "93215=135886,95216=135893",
 },
 ["Minutes to Midnight"] = {
 ["achievements"] = "6084=136223",
@@ -25743,17 +25743,17 @@ WeakAurasOptionsSaved = {
 ["Tribal Leatherworking"] = {
 ["spells"] = "10660=136069,10661=136247",
 },
-["Light's Embrace"] = {
-["spells"] = "93215=135886,95216=135893",
+["Destroyer's End"] = {
+["achievements"] = "6177=575535",
 },
-["A Poke in the Eye (10 player)"] = {
-["achievements"] = "1869=236507",
+["Throne of the Four Winds"] = {
+["achievements"] = "4851=254501",
 },
 ["Electric Charge"] = {
 ["spells"] = "89202=252174",
 },
-["Destroyer's End"] = {
-["achievements"] = "6177=575535",
+["Heroic: Valiona and Theralion"] = {
+["achievements"] = "5117=429379",
 },
 ["Possessed Arrows"] = {
 ["spells"] = "42329=135809",
@@ -25761,8 +25761,8 @@ WeakAurasOptionsSaved = {
 ["Dan's Test Mount Passenger"] = {
 ["spells"] = "62063=134060",
 },
-["Throne of the Four Winds"] = {
-["achievements"] = "4851=254501",
+["The Bastion of Twilight"] = {
+["achievements"] = "4850=425950",
 },
 ["Bull Rush"] = {
 ["spells"] = "4083=132368",
@@ -25770,26 +25770,26 @@ WeakAurasOptionsSaved = {
 ["Increase Spell Dam 15"] = {
 ["spells"] = "27918=136244",
 },
-["Heroic: Valiona and Theralion"] = {
-["achievements"] = "5117=429379",
-},
-["The Bastion of Twilight"] = {
-["achievements"] = "4850=425950",
-},
-["Relentlessness"] = {
-["spells"] = "37601=135921",
-},
 ["Heroic: Omnotron Defense System"] = {
 ["achievements"] = "5107=415046",
 },
 ["Horde Reputation"] = {
 ["spells"] = "26125=132485",
 },
-["Bomb Condition: Excellent"] = {
-["spells"] = "65831=133009,65898=133009",
+["Relentlessness"] = {
+["spells"] = "37601=135921",
 },
 ["Heroic: Atramedes"] = {
 ["achievements"] = "5109=426494",
+},
+["Heroic: Maloriak"] = {
+["achievements"] = "5108=429380",
+},
+["Bomb Condition: Excellent"] = {
+["spells"] = "65831=133009,65898=133009",
+},
+["Blackwing Descent"] = {
+["achievements"] = "4842=254649",
 },
 ["Fel Iron Plate Boots"] = {
 ["spells"] = "29548=136192",
@@ -25803,26 +25803,26 @@ WeakAurasOptionsSaved = {
 ["Improved Starfire"] = {
 ["spells"] = "34292=136096",
 },
-["Heroic: Maloriak"] = {
-["achievements"] = "5108=429380",
-},
-["Blackwing Descent"] = {
-["achievements"] = "4842=254649",
-},
 ["Elementary"] = {
 ["achievements"] = "5311=429378",
-},
-["Execution Sentence"] = {
-["spells"] = "80727=236281,80728=236281,80729=136193,80738=136193",
 },
 ["Heroic: Conclave of Wind"] = {
 ["achievements"] = "5122=236154",
 },
+["Heroic: Al'Akir"] = {
+["achievements"] = "5123=254501",
+},
+["Execution Sentence"] = {
+["spells"] = "80727=236281,80728=236281,80729=136193,80738=136193",
+},
+["Heroic: Cho'gall"] = {
+["achievements"] = "5120=429376",
+},
 ["Enchant Chest - Minor Mana"] = {
 ["spells"] = "7443=135913",
 },
-["Heroic: Al'Akir"] = {
-["achievements"] = "5123=254501",
+["Full of Sound and Fury"] = {
+["achievements"] = "5309=458971",
 },
 ["Replenishment"] = {
 ["spells"] = "57669=237551",
@@ -25836,23 +25836,11 @@ WeakAurasOptionsSaved = {
 ["Careful Aim"] = {
 ["spells"] = "34482=132217,34483=132217",
 },
-["Heroic: Cho'gall"] = {
-["achievements"] = "5120=429376",
-},
-["Full of Sound and Fury"] = {
-["achievements"] = "5309=458971",
-},
 ["The Incredible Hulk"] = {
 ["achievements"] = "2043=136219",
 },
 ["Heroic: Ascendant Council"] = {
 ["achievements"] = "5119=429378",
-},
-["Arcane Binding"] = {
-["spells"] = "99295=135834",
-},
-["Mooncloth Boots"] = {
-["spells"] = "19435=132149,19437=136021",
 },
 ["Parasite Evening"] = {
 ["achievements"] = "5306=236197",
@@ -25860,11 +25848,11 @@ WeakAurasOptionsSaved = {
 ["The Only Escape"] = {
 ["achievements"] = "5300=133802",
 },
-["Stone Drake Dismount Me Ping Aura"] = {
-["spells"] = "93804=136196",
+["Arcane Binding"] = {
+["spells"] = "99295=135834",
 },
-["The 'Unbeatable?' Pterodactyl: BEATEN."] = {
-["achievements"] = "5860=132200",
+["Mooncloth Boots"] = {
+["spells"] = "19435=132149,19437=136021",
 },
 ["Achieve-a-tron"] = {
 ["achievements"] = "5307=415046",
@@ -25872,29 +25860,41 @@ WeakAurasOptionsSaved = {
 ["Heroic: Lord Rhyolith"] = {
 ["achievements"] = "5808=524350",
 },
+["Stone Drake Dismount Me Ping Aura"] = {
+["spells"] = "93804=136196",
+},
+["The 'Unbeatable?' Pterodactyl: BEATEN."] = {
+["achievements"] = "5860=132200",
+},
 ["Heroic: Alysrazor"] = {
 ["achievements"] = "5809=512826",
 },
 ["Heroic: Beth'tilac"] = {
 ["achievements"] = "5807=524349",
 },
-["Red Beam"] = {
-["spells"] = "31513=135827,31515=135827,34397=135827,36295=136131,40228=135827,72594=135951",
-},
 ["Formidable"] = {
 ["spells"] = "71187=132091",
-},
-["Dusky Belt"] = {
-["spells"] = "9206=136247",
 },
 ["Heroic: Majordomo Fandral Staghelm"] = {
 ["achievements"] = "5804=512827",
 },
+["Red Beam"] = {
+["spells"] = "31513=135827,31515=135827,34397=135827,36295=136131,40228=135827,72594=135951",
+},
 ["Blood Rejek's Sword"] = {
 ["spells"] = "52981=135284,52992=135284",
 },
+["Dusky Belt"] = {
+["spells"] = "9206=136247",
+},
 ["Heroic: Ragnaros"] = {
 ["achievements"] = "5803=512617",
+},
+["Heroic: Morchok"] = {
+["achievements"] = "6109=574789",
+},
+["Siege of Wyrmrest Temple"] = {
+["achievements"] = "6106=236699",
 },
 ["Summon Zuni (Lvl 4)"] = {
 ["spells"] = "73131=135732",
@@ -32727,7 +32727,7 @@ WeakAurasOptionsSaved = {
 ["spells"] = "107679=132337",
 },
 ["Defend Wyrmrest"] = {
-["spells"] = "107576=134158,110763=511044",
+["spells"] = "107576=134158,110763=535248",
 },
 ["Slow"] = {
 ["spells"] = "246=136091,6146=136091,10371=132306,11436=136091,13747=136091,18972=136091,19137=136091,22356=136039,24415=136091,25603=136091,29990=136091,31589=136091,31741=136091,32921=136091,32922=136091,35032=136091,36843=136091,38663=136091,63860=237171,79880=136091,89728=236168,110907=136091",
@@ -44193,7 +44193,7 @@ WeakAurasOptionsSaved = {
 ["spells"] = "90412=463481",
 },
 ["Whip Terrorfiend"] = {
-["spells"] = "35673=511044",
+["spells"] = "35673=535248",
 },
 ["Broiled Mountain Trout"] = {
 ["spells"] = "88012=133971",
@@ -77933,13 +77933,13 @@ WeakAurasOptionsSaved = {
 ["version"] = "5.19.2",
 ["savedSnippets"] = {
 },
-["spellCacheAchievements"] = true,
-["spellCacheStrings"] = true,
 ["frame"] = {
 ["xOffset"] = 2442.827819824219,
-["yOffset"] = 1748.571655273438,
-["height"] = 1051.099975585938,
 ["width"] = 945.1998291015625,
+["height"] = 1051.099975585938,
+["yOffset"] = 1748.571655273438,
 },
+["spellCacheStrings"] = true,
+["spellCacheAchievements"] = true,
 ["build"] = "59297",
 }

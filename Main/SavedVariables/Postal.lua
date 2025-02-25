@@ -75,8 +75,8 @@ Postal3DB = {
 ["recent"] = {
 "Alslalu|Venoxis|Horde",
 "Kwasimojo|Venoxis|Horde",
-"Alsla|Venoxis|Horde",
 "Alsia|Venoxis|Horde",
+"Alsla|Venoxis|Horde",
 "Alslalu-Venoxis|Venoxis|Horde",
 },
 },

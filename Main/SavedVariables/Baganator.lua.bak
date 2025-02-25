@@ -165,10 +165,12 @@ BAGANATOR_CONFIG = {
 },
 ["icon_text_font_size"] = 14,
 ["show_buttons_on_alt"] = true,
-["view_alpha"] = 0.93,
 ["disabled_skins"] = {
 },
-["bag_view_width"] = 12,
+["view_alpha"] = 0.93,
+["sort_ignore_slots_count_2"] = {
+["Alsía-Venoxis"] = 0,
+},
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
 {
@@ -235,7 +237,7 @@ BAGANATOR_CONFIG = {
 ["currencyID"] = 396,
 },
 {
-["currencyID"] = 3148,
+["currencyID"] = 3281,
 },
 },
 ["Alslahunt-Venoxis"] = {
@@ -265,12 +267,12 @@ BAGANATOR_CONFIG = {
 ["setting_anchors"] = false,
 ["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
+"Exonuklease-Venoxis",
 "Alsia-Venoxis",
 "Alsía-Venoxis",
-"Alslalu-Venoxis",
-"Exonuklease-Venoxis",
-"Kwasimojo-Venoxis",
 "Alsla-Venoxis",
+"Alslalu-Venoxis",
+"Kwasimojo-Venoxis",
 "Alslahunt-Venoxis",
 "Endonuclease-Venoxis",
 "Andrés-Venoxis",
@@ -308,9 +310,7 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["sort_ignore_slots_count_2"] = {
-["Alsía-Venoxis"] = 0,
-},
+["bag_view_width"] = 12,
 ["bank_only_view_position"] = {
 "LEFT",
 20,

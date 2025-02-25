@@ -3,17 +3,11 @@ BigWigs3DB = {
 ["namespaces"] = {
 ["BigWigs_Plugins_Victory"] = {
 },
-["BigWigs_Bosses_Alysrazor"] = {
-},
 ["BigWigs_Plugins_BossBlock"] = {
-},
-["BigWigs_Bosses_Majordomo Staghelm"] = {
 },
 ["BigWigs_Plugins_Sounds"] = {
 },
 ["BigWigs_Plugins_Statistics"] = {
-},
-["BigWigs_Bosses_Beth'tilac"] = {
 },
 ["BigWigs_Plugins_Countdown"] = {
 ["profiles"] = {
@@ -46,8 +40,6 @@ nil,
 },
 },
 },
-},
-["BigWigs_Bosses_Ragnaros"] = {
 },
 ["BigWigs_Plugins_Colors"] = {
 ["profiles"] = {
@@ -102,8 +94,8 @@ nil,
 ["iconZoom"] = 0.3,
 ["iconHeight"] = 20,
 ["iconFontName"] = "Expressway",
-["iconOffsetX"] = -3,
 ["iconWidth"] = 20,
+["iconOffsetX"] = -3,
 },
 },
 },
@@ -113,17 +105,17 @@ nil,
 ["normalWidth"] = 278,
 ["growup"] = true,
 ["monochrome"] = true,
-["normalHeight"] = 32,
-["expHeight"] = 27,
-["emphasizeGrowup"] = true,
-["expWidth"] = 261,
-["fontName"] = "Numen",
 ["expPosition"] = {
 nil,
 nil,
 699,
 -360,
 },
+["expHeight"] = 27,
+["emphasizeGrowup"] = true,
+["expWidth"] = 261,
+["normalHeight"] = 32,
+["fontName"] = "Numen",
 ["normalPosition"] = {
 "RIGHT",
 "RIGHT",
@@ -146,9 +138,6 @@ nil,
 ["fontName"] = "Expressway",
 ["fill"] = true,
 ["visibleBarLimitEmph"] = 4,
-["normalWidth"] = 200,
-["normalHeight"] = 23,
-["emphasizeTime"] = 10,
 ["expPosition"] = {
 "BOTTOMLEFT",
 "TOPLEFT",
@@ -156,6 +145,9 @@ nil,
 75,
 "ElvUF_Target",
 },
+["emphasizeTime"] = 10,
+["normalHeight"] = 23,
+["normalWidth"] = 200,
 ["normalPosition"] = {
 "BOTTOMLEFT",
 "TOPLEFT",
@@ -165,14 +157,14 @@ nil,
 },
 },
 ["Default"] = {
-["normalWidth"] = 264,
-["normalHeight"] = 27,
 ["expPosition"] = {
 "RIGHT",
 "RIGHT",
 -366,
 -249,
 },
+["normalWidth"] = 264,
+["normalHeight"] = 27,
 ["normalPosition"] = {
 "RIGHT",
 "RIGHT",
@@ -184,15 +176,22 @@ nil,
 },
 ["BigWigs_Plugins_Raid Icons"] = {
 },
-["BigWigs_Bosses_Shannox"] = {
-},
-["BigWigs_Bosses_Lord Rhyolith"] = {
-},
-["LibDualSpec-1.0"] = {
-},
 ["BigWigs_Plugins_AutoReply"] = {
 },
 ["BigWigs_Plugins_InfoBox"] = {
+},
+["BigWigs_Plugins_Proximity"] = {
+["profiles"] = {
+["MerfinUI (1600) v7.24"] = {
+["posx"] = 716,
+["fontSize"] = 16,
+["lock"] = false,
+["height"] = 101,
+["posy"] = 443,
+["fontName"] = "Expressway",
+["width"] = 120,
+},
+},
 },
 ["BigWigs_Plugins_Messages"] = {
 ["profiles"] = {
@@ -228,23 +227,18 @@ nil,
 },
 },
 },
-["BigWigs_Bosses_Baleroc"] = {
-},
 ["BigWigs_Plugins_Pull"] = {
 },
-["BigWigs_Plugins_Proximity"] = {
-["profiles"] = {
-["MerfinUI (1600) v7.24"] = {
-["posx"] = 716,
-["fontSize"] = 16,
-["lock"] = false,
-["height"] = 101,
-["posy"] = 443,
-["fontName"] = "Expressway",
-["width"] = 120,
+["LibDualSpec-1.0"] = {
 },
 },
-},
+["profileKeys"] = {
+["Alsiadk - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Alsía - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Holypalaswe",
+["Kwasimojo - Venoxis"] = "Default",
 },
 ["global"] = {
 ["watchedMovies"] = {
@@ -255,14 +249,6 @@ nil,
 [76] = true,
 [75] = true,
 },
-},
-["profileKeys"] = {
-["Alsiadk - Venoxis"] = "Default",
-["Alslahunt - Venoxis"] = "Default",
-["Alsía - Venoxis"] = "Default",
-["Alslalu - Venoxis"] = "Default",
-["Alsia - Venoxis"] = "Holypalaswe",
-["Kwasimojo - Venoxis"] = "Default",
 },
 ["profiles"] = {
 ["Holypalaswe"] = {
@@ -311,13 +297,13 @@ BigWigsStatsDB = {
 },
 },
 [170] = {
-["H10"] = {
-["wipes"] = 12,
-},
 ["N10"] = {
 ["kills"] = 3,
 ["wipes"] = 1,
 ["best"] = 160.0679999999993,
+},
+["H10"] = {
+["wipes"] = 12,
 },
 },
 [174] = {
@@ -336,14 +322,14 @@ BigWigsStatsDB = {
 },
 [671] = {
 [156] = {
+["N10"] = {
+["best"] = 106.0999999999985,
+["kills"] = 2,
+},
 ["H10"] = {
 ["kills"] = 1,
 ["wipes"] = 20,
 ["best"] = 216.8360000000002,
-},
-["N10"] = {
-["best"] = 106.0999999999985,
-["kills"] = 2,
 },
 },
 [158] = {
@@ -354,12 +340,12 @@ BigWigsStatsDB = {
 },
 },
 [157] = {
-["H10"] = {
-["wipes"] = 19,
-},
 ["N10"] = {
 ["best"] = 134.9200000000019,
 ["kills"] = 3,
+},
+["H10"] = {
+["wipes"] = 19,
 },
 },
 [167] = {
@@ -437,63 +423,205 @@ BigWigsStatsDB = {
 },
 },
 },
+[720] = {
+[196] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/13",
+["bestDate"] = "2025/02/13",
+["best"] = 279.7329999999929,
+["fkDuration"] = 279.7329999999929,
+},
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 92.05300000007264,
+["best"] = 92.05300000007264,
+["bestDate"] = "2025/02/24",
+["fkDate"] = "2025/02/24",
+},
+["H10"] = {
+["kills"] = 2,
+["fkDuration"] = 242.1979999999994,
+["wipes"] = 2,
+["fkWipes"] = 1,
+["best"] = 242.1979999999994,
+["bestDate"] = "2025/02/16",
+["fkDate"] = "2025/02/16",
+},
+},
+[193] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/13",
+["bestDate"] = "2025/02/13",
+["best"] = 192.7960000000021,
+["wipes"] = 1,
+["fkDuration"] = 192.7960000000021,
+},
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 112.7669999999926,
+["best"] = 112.7669999999926,
+["bestDate"] = "2025/02/24",
+["fkDate"] = "2025/02/24",
+},
+["H10"] = {
+["kills"] = 2,
+["fkDuration"] = 169.6310000000003,
+["wipes"] = 1,
+["best"] = 169.6310000000003,
+["bestDate"] = "2025/02/16",
+["fkDate"] = "2025/02/16",
+},
+},
+[197] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/14",
+["bestDate"] = "2025/02/14",
+["best"] = 387.375,
+["fkDuration"] = 387.375,
+},
+["H10"] = {
+["kills"] = 3,
+["fkDuration"] = 238.1449999999995,
+["best"] = 197.280999999959,
+["bestDate"] = "2025/02/24",
+["fkDate"] = "2025/02/16",
+},
+},
+[194] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/13",
+["bestDate"] = "2025/02/17",
+["best"] = 342.351999999999,
+["fkDuration"] = 350.5669999999955,
+},
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 199.5379999999423,
+["best"] = 199.5379999999423,
+["bestDate"] = "2025/02/24",
+["fkDate"] = "2025/02/24",
+},
+["H10"] = {
+["kills"] = 2,
+["fkDuration"] = 310.6999999999998,
+["best"] = 302.244999999999,
+["bestDate"] = "2025/02/16",
+["fkDate"] = "2025/02/16",
+},
+},
+[198] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/14",
+["bestDate"] = "2025/02/14",
+["fkWipes"] = 1,
+["best"] = 742.1009999999951,
+["wipes"] = 1,
+["fkDuration"] = 742.1009999999951,
+},
+["N10"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/17",
+["bestDate"] = "2025/02/24",
+["fkWipes"] = 3,
+["best"] = 190.7900000000373,
+["wipes"] = 3,
+["fkDuration"] = 336.4890000000014,
+},
+["H10"] = {
+["kills"] = 1,
+["fkDuration"] = 559.8630000000003,
+["wipes"] = 6,
+["best"] = 559.8630000000003,
+["bestDate"] = "2025/02/16",
+["fkDate"] = "2025/02/16",
+},
+},
+[195] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/13",
+["bestDate"] = "2025/02/13",
+["best"] = 149.1750000000029,
+["fkDuration"] = 149.1750000000029,
+},
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 55.52500000002328,
+["wipes"] = 1,
+["fkWipes"] = 1,
+["best"] = 55.52500000002328,
+["bestDate"] = "2025/02/24",
+["fkDate"] = "2025/02/24",
+},
+["H10"] = {
+["kills"] = 2,
+["fkDuration"] = 122.3680000000004,
+["best"] = 122.3680000000004,
+["bestDate"] = "2025/02/16",
+["fkDate"] = "2025/02/16",
+},
+},
+[192] = {
+["H25"] = {
+["kills"] = 2,
+["fkDate"] = "2025/02/13",
+["bestDate"] = "2025/02/13",
+["best"] = 352.2010000000009,
+["wipes"] = 1,
+["fkDuration"] = 352.2010000000009,
+},
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 259.810999999987,
+["best"] = 259.810999999987,
+["bestDate"] = "2025/02/23",
+["fkDate"] = "2025/02/23",
+},
+["H10"] = {
+["kills"] = 2,
+["fkDuration"] = 335.0369999999998,
+["best"] = 335.0369999999998,
+["bestDate"] = "2025/02/16",
+["fkDate"] = "2025/02/16",
+},
+},
+},
 [967] = {
 [325] = {
 ["H10"] = {
 ["kills"] = 1,
-["fkDuration"] = 501.3360000000102,
-["wipes"] = 1,
+["fkDate"] = "2025/02/23",
+["bestDate"] = "2025/02/23",
 ["fkWipes"] = 1,
 ["best"] = 501.3360000000102,
-["bestDate"] = "2025/02/23",
-["fkDate"] = "2025/02/23",
+["wipes"] = 1,
+["fkDuration"] = 501.3360000000102,
 },
 },
 [333] = {
 ["N10"] = {
 ["kills"] = 1,
-["fkDate"] = "2025/02/23",
-["bestDate"] = "2025/02/23",
+["fkDuration"] = 633.1550000000279,
+["wipes"] = 1,
 ["fkWipes"] = 1,
 ["best"] = 633.1550000000279,
-["wipes"] = 1,
-["fkDuration"] = 633.1550000000279,
-},
-},
-[318] = {
-["N10"] = {
-["kills"] = 1,
-["fkDate"] = "2025/02/23",
 ["bestDate"] = "2025/02/23",
-["best"] = 491.2979999999516,
-["fkDuration"] = 491.2979999999516,
-},
-},
-[331] = {
-["N10"] = {
-["kills"] = 1,
 ["fkDate"] = "2025/02/23",
-["bestDate"] = "2025/02/23",
-["best"] = 231.1380000000354,
-["fkDuration"] = 231.1380000000354,
 },
 },
-[332] = {
-["N10"] = {
-["kills"] = 1,
-["fkDate"] = "2025/02/23",
-["bestDate"] = "2025/02/23",
-["best"] = 293.8260000000009,
-["fkDuration"] = 293.8260000000009,
-},
-},
-[311] = {
+[317] = {
 ["H10"] = {
+["wipes"] = 7,
+},
+["N10"] = {
 ["kills"] = 1,
-["fkDuration"] = 211.4789999999339,
-["wipes"] = 5,
-["fkWipes"] = 5,
-["best"] = 211.4789999999339,
+["fkDuration"] = 147.6540000000969,
+["best"] = 147.6540000000969,
 ["bestDate"] = "2025/02/23",
 ["fkDate"] = "2025/02/23",
 },
@@ -501,192 +629,50 @@ BigWigsStatsDB = {
 [324] = {
 ["N10"] = {
 ["kills"] = 1,
-["fkDuration"] = 190.8260000000009,
-["wipes"] = 1,
+["fkDate"] = "2025/02/23",
+["bestDate"] = "2025/02/23",
 ["fkWipes"] = 1,
 ["best"] = 190.8260000000009,
+["wipes"] = 1,
+["fkDuration"] = 190.8260000000009,
+},
+},
+[311] = {
+["H10"] = {
+["kills"] = 1,
+["fkDate"] = "2025/02/23",
+["bestDate"] = "2025/02/23",
+["fkWipes"] = 5,
+["best"] = 211.4789999999339,
+["wipes"] = 5,
+["fkDuration"] = 211.4789999999339,
+},
+},
+[332] = {
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 293.8260000000009,
+["best"] = 293.8260000000009,
 ["bestDate"] = "2025/02/23",
 ["fkDate"] = "2025/02/23",
 },
 },
-[317] = {
+[331] = {
 ["N10"] = {
 ["kills"] = 1,
-["fkDate"] = "2025/02/23",
-["bestDate"] = "2025/02/23",
-["best"] = 147.6540000000969,
-["fkDuration"] = 147.6540000000969,
-},
-["H10"] = {
-["wipes"] = 7,
-},
-},
-},
-[720] = {
-[196] = {
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 279.7329999999929,
-["best"] = 279.7329999999929,
-["bestDate"] = "2025/02/13",
-["fkDate"] = "2025/02/13",
-},
-["N10"] = {
-["kills"] = 1,
-["bestDate"] = "2025/02/24",
-["fkDate"] = "2025/02/24",
-["best"] = 92.05300000007264,
-["fkDuration"] = 92.05300000007264,
-},
-["H10"] = {
-["kills"] = 2,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/16",
-["fkWipes"] = 1,
-["best"] = 242.1979999999994,
-["wipes"] = 2,
-["fkDuration"] = 242.1979999999994,
-},
-},
-[193] = {
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 192.7960000000021,
-["wipes"] = 1,
-["best"] = 192.7960000000021,
-["bestDate"] = "2025/02/13",
-["fkDate"] = "2025/02/13",
-},
-["N10"] = {
-["kills"] = 1,
-["bestDate"] = "2025/02/24",
-["fkDate"] = "2025/02/24",
-["best"] = 112.7669999999926,
-["fkDuration"] = 112.7669999999926,
-},
-["H10"] = {
-["kills"] = 2,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/16",
-["best"] = 169.6310000000003,
-["wipes"] = 1,
-["fkDuration"] = 169.6310000000003,
-},
-},
-[197] = {
-["H10"] = {
-["kills"] = 3,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/24",
-["best"] = 197.280999999959,
-["fkDuration"] = 238.1449999999995,
-},
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 387.375,
-["best"] = 387.375,
-["bestDate"] = "2025/02/14",
-["fkDate"] = "2025/02/14",
-},
-},
-[194] = {
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 350.5669999999955,
-["best"] = 342.351999999999,
-["bestDate"] = "2025/02/17",
-["fkDate"] = "2025/02/13",
-},
-["N10"] = {
-["kills"] = 1,
-["bestDate"] = "2025/02/24",
-["fkDate"] = "2025/02/24",
-["best"] = 199.5379999999423,
-["fkDuration"] = 199.5379999999423,
-},
-["H10"] = {
-["kills"] = 2,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/16",
-["best"] = 302.244999999999,
-["fkDuration"] = 310.6999999999998,
-},
-},
-[198] = {
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 742.1009999999951,
-["wipes"] = 1,
-["fkWipes"] = 1,
-["best"] = 742.1009999999951,
-["bestDate"] = "2025/02/14",
-["fkDate"] = "2025/02/14",
-},
-["N10"] = {
-["kills"] = 2,
-["fkDuration"] = 336.4890000000014,
-["wipes"] = 3,
-["fkWipes"] = 3,
-["best"] = 190.7900000000373,
-["bestDate"] = "2025/02/24",
-["fkDate"] = "2025/02/17",
-},
-["H10"] = {
-["kills"] = 1,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/16",
-["best"] = 559.8630000000003,
-["wipes"] = 6,
-["fkDuration"] = 559.8630000000003,
-},
-},
-[195] = {
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 149.1750000000029,
-["best"] = 149.1750000000029,
-["bestDate"] = "2025/02/13",
-["fkDate"] = "2025/02/13",
-},
-["N10"] = {
-["kills"] = 1,
-["bestDate"] = "2025/02/24",
-["best"] = 55.52500000002328,
-["fkWipes"] = 1,
-["fkDate"] = "2025/02/24",
-["wipes"] = 1,
-["fkDuration"] = 55.52500000002328,
-},
-["H10"] = {
-["kills"] = 2,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/16",
-["best"] = 122.3680000000004,
-["fkDuration"] = 122.3680000000004,
-},
-},
-[192] = {
-["H25"] = {
-["kills"] = 2,
-["fkDuration"] = 352.2010000000009,
-["wipes"] = 1,
-["best"] = 352.2010000000009,
-["bestDate"] = "2025/02/13",
-["fkDate"] = "2025/02/13",
-},
-["N10"] = {
-["kills"] = 1,
+["fkDuration"] = 231.1380000000354,
+["best"] = 231.1380000000354,
 ["bestDate"] = "2025/02/23",
 ["fkDate"] = "2025/02/23",
-["best"] = 259.810999999987,
-["fkDuration"] = 259.810999999987,
 },
-["H10"] = {
-["kills"] = 2,
-["fkDate"] = "2025/02/16",
-["bestDate"] = "2025/02/16",
-["best"] = 335.0369999999998,
-["fkDuration"] = 335.0369999999998,
+},
+[318] = {
+["N10"] = {
+["kills"] = 1,
+["fkDuration"] = 491.2979999999516,
+["best"] = 491.2979999999516,
+["bestDate"] = "2025/02/23",
+["fkDate"] = "2025/02/23",
 },
 },
 },
