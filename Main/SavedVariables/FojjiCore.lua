@@ -1,6 +1,6 @@
 
 FTSavedVars = {
-["pullEndTime"] = 711368.762,
+["pullEndTime"] = 1129928.565,
 }
 FojjiSkipWTF = {
 ["skip"] = true,

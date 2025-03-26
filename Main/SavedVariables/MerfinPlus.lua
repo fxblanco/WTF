@@ -1,7 +1,30 @@
 
 MerfinPlusSaved = {
-["breakStartTime"] = 0,
-["pullStartTime"] = 1740443357,
-["pullExpTime"] = 1740443372,
 ["breakExpTime"] = 0,
+["pullExpTime"] = 1740443372,
+["profileKeys"] = {
+["Alsla - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
+["Exonuklease - Venoxis"] = "Default",
+["Serferine - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
+["Hópéful - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Alsía - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
+},
+["pullStartTime"] = 1740443357,
+["breakStartTime"] = 0,
+["profiles"] = {
+["Default"] = {
+["breakSenderName"] = "Alsia",
+["pullTotalTime"] = 20,
+["pullSenderName"] = "Hópéful",
+["breakTotalTime"] = 180,
+["pullExpTime"] = 1742945374,
+["pullStartTime"] = 1742945354,
+},
+},
 }

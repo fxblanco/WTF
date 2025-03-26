@@ -5,13 +5,15 @@ DevToolDatabase = {
 ["Xolem - Venoxis"] = "Xolem - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+["Serferine - Venoxis"] = "Serferine - Venoxis",
 ["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Alslala - Venoxis"] = "Alslala - Venoxis",
+["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
-["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
-["Alslala - Venoxis"] = "Alslala - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Hópéful - Venoxis"] = "Hópéful - Venoxis",
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
@@ -22,19 +24,23 @@ DevToolDatabase = {
 },
 ["Exonuklease - Venoxis"] = {
 },
+["Serferine - Venoxis"] = {
+},
 ["Alsiadk - Venoxis"] = {
 },
 ["Alslahunt - Venoxis"] = {
 },
-["Endonuclease - Venoxis"] = {
+["Alslala - Venoxis"] = {
+},
+["Bloodwall - Venoxis"] = {
 },
 ["Alsia - Venoxis"] = {
 },
 ["Khalimmortus - Venoxis"] = {
 },
-["Bloodwall - Venoxis"] = {
+["Endonuclease - Venoxis"] = {
 },
-["Alslala - Venoxis"] = {
+["Hópéful - Venoxis"] = {
 },
 },
 }

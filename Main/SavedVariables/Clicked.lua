@@ -1,6 +1,10 @@
 
 ClickedDB = {
+["global"] = {
+["version"] = 12,
+},
 ["profileKeys"] = {
+["Alslala - Venoxis"] = "DEATHKNIGHT",
 ["Xolem - Venoxis"] = "SHAMAN",
 ["Alsía - Venoxis"] = "PALADIN",
 ["Andrés - Venoxis"] = "MAGE",
@@ -9,12 +13,9 @@ ClickedDB = {
 ["Alsia - Venoxis"] = "PALADIN",
 ["Kwasimojo - Venoxis"] = "PRIEST",
 },
-["global"] = {
-["version"] = 12,
-},
 ["profiles"] = {
 ["DEATHKNIGHT"] = {
-["version"] = 6,
+["version"] = 12,
 },
 ["WARLOCK"] = {
 ["version"] = 12,
@@ -27,41 +28,26 @@ ClickedDB = {
 ["version"] = 6,
 ["bindings"] = {
 {
-["integrations"] = {
-},
+["identifier"] = "1-binding-1",
 ["type"] = "SPELL",
 ["action"] = {
 ["macroValue"] = "",
+["macroName"] = "Run custom macro",
 ["spellValue"] = "",
-["cancelForm"] = false,
 ["targetUnitAfterCast"] = false,
 ["auraName"] = "",
 ["itemValue"] = "",
-["startPetAttack"] = false,
+["macroIcon"] = "Interface\\ICONS\\INV_Misc_QuestionMark",
 ["cancelQueuedSpell"] = false,
 ["convertValueToId"] = true,
 ["executionOrder"] = 1,
 ["interrupt"] = false,
 ["startAutoAttack"] = false,
-["macroIcon"] = "Interface\\ICONS\\INV_Misc_QuestionMark",
-["macroName"] = "Run custom macro",
+["startPetAttack"] = false,
+["cancelForm"] = false,
 },
 ["keybind"] = "",
-["scope"] = 1,
-["targets"] = {
-["hovercastEnabled"] = false,
-["regularEnabled"] = true,
-["hovercast"] = {
-["vitals"] = "ANY",
-["hostility"] = "ANY",
-},
-["regular"] = {
-{
-["vitals"] = "ANY",
-["hostility"] = "ANY",
-["unit"] = "DEFAULT",
-},
-},
+["integrations"] = {
 },
 ["load"] = {
 ["playerNameRealm"] = {
@@ -117,15 +103,12 @@ ClickedDB = {
 ["value"] = "",
 ["selected"] = false,
 },
-["flying"] = {
-["value"] = true,
+["spellKnown"] = {
+["value"] = "",
 ["selected"] = false,
 },
-["flyable"] = {
-["value"] = true,
-["selected"] = false,
-},
-["warMode"] = {
+["never"] = false,
+["stealth"] = {
 ["value"] = true,
 ["selected"] = false,
 },
@@ -157,6 +140,7 @@ ClickedDB = {
 ["selected"] = false,
 },
 ["pvpTalent"] = {
+["selected"] = false,
 ["entries"] = {
 {
 ["operation"] = "AND",
@@ -164,7 +148,6 @@ ClickedDB = {
 ["value"] = "",
 },
 },
-["selected"] = false,
 },
 ["channeling"] = {
 ["value"] = "",
@@ -183,17 +166,35 @@ ClickedDB = {
 ["value"] = true,
 ["selected"] = false,
 },
-["stealth"] = {
+["warMode"] = {
 ["value"] = true,
 ["selected"] = false,
 },
-["never"] = false,
-["spellKnown"] = {
-["value"] = "",
+["flyable"] = {
+["value"] = true,
+["selected"] = false,
+},
+["flying"] = {
+["value"] = true,
 ["selected"] = false,
 },
 },
-["identifier"] = "1-binding-1",
+["targets"] = {
+["regular"] = {
+{
+["vitals"] = "ANY",
+["unit"] = "DEFAULT",
+["hostility"] = "ANY",
+},
+},
+["regularEnabled"] = true,
+["hovercast"] = {
+["hostility"] = "ANY",
+["vitals"] = "ANY",
+},
+["hovercastEnabled"] = false,
+},
+["scope"] = 1,
 },
 },
 },
