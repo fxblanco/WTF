@@ -1,0 +1,49 @@
+VER 3 0000000000000016 "_1_" "134400"
+/4 LFM DS 10 1-2 HC - 22:30 GO - 1 DD (Demo/Owl pref)
+END
+VER 3 000000000000001D "alga" "134400"
+/tar Hideous Ama
+END
+VER 3 0000000000000019 "blue" "134400"
+/wm [@cursor] 2
+END
+VER 3 000000000000001B "BTN" "134400"
+/click ExtraActionButton1
+END
+VER 3 0000000000000011 "focus" "132097"
+/focus
+END
+VER 3 0000000000000012 "g_boots" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift] 15; [mod:ctrl] 6; 6
+END
+VER 3 0000000000000013 "g_hände" "132959"
+/use 10
+END
+VER 3 0000000000000014 "g_trinket_2" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift] 14; 13
+END
+VER 3 000000000000001A "pet_attack" "134400"
+/petattack [nomod]
+/petattack [mod:shift, @mouseover,harm][]
+END
+VER 3 0000000000000017 "petatt" "134400"
+/petattack
+END
+VER 3 0000000000000018 "petfoll" "134400"
+/petfollow
+END
+VER 3 0000000000000015 "RXPTargeting" "132150"
+/targetexact Twilight Earthbinder
+/targetexact Twilight Shadowmender
+/targetexact Twilight Stalker
+/targetexact Bound Groundshaker
+/targetexact Twilight Cryomagus
+/targetexact Twilight Guardsman
+/targetexact Twilight Sentinel
+/targetlasttarget [dead]
+END
+VER 3 000000000000001C "sit" "134400"
+/sit
+END

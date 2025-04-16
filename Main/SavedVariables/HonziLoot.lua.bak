@@ -1,0 +1,2 @@
+
+HonziLootPrefs = nil

@@ -1,0 +1,125 @@
+
+BisTooltipDB = {
+["profileKeys"] = {
+["Endonuclease - Venoxis"] = "Default",
+["Exonuklease - Venoxis"] = "Default",
+["Serferine - Venoxis"] = "Default",
+["Alsiadk - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
+["Khalimmortus - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
+["Alsla - Venoxis"] = "Default",
+["Xolem - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
+["Lucho - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
+["Hópéful - Venoxis"] = "Default",
+["Alsía - Venoxis"] = "Default",
+["Andrés - Venoxis"] = "Default",
+["Alslalock - Venoxis"] = "Default",
+["Bloodwall - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Maturitass - Venoxis"] = "Default",
+},
+["char"] = {
+["Endonuclease - Venoxis"] = {
+["class_index"] = 7,
+["version"] = 8,
+["spec_index"] = 3,
+["data_source"] = "wh",
+["phase_index"] = 2,
+},
+["Exonuklease - Venoxis"] = {
+["class_index"] = 7,
+["version"] = 8,
+["data_source"] = "wh",
+["phase_index"] = 2,
+},
+["Serferine - Venoxis"] = {
+["version"] = 8,
+["data_source"] = "wh",
+},
+["Alsiadk - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Alsia - Venoxis"] = {
+["class_index"] = 5,
+["phase_index"] = 2,
+["minimapPos"] = 173.254854658173,
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Khalimmortus - Venoxis"] = {
+["minimapPos"] = 273.5075123040884,
+["data_source"] = "wh",
+["version"] = 6.2,
+["phase_index"] = 3,
+},
+["Kwasimojo - Venoxis"] = {
+["class_index"] = 6,
+["version"] = 8,
+["data_source"] = "wh",
+["phase_index"] = 2,
+},
+["Alsla - Venoxis"] = {
+["phase_index"] = 2,
+["version"] = 8,
+["data_source"] = "wh",
+["spec_index"] = 3,
+},
+["Xolem - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Alslala - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+["phase_index"] = 2,
+},
+["Lucho - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Alslalu - Venoxis"] = {
+["class_index"] = 8,
+["version"] = 8,
+["spec_index"] = 3,
+["data_source"] = "wh",
+["phase_index"] = 2,
+},
+["Hópéful - Venoxis"] = {
+["class_index"] = 5,
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Alsía - Venoxis"] = {
+["class_index"] = 8,
+["version"] = 8,
+["spec_index"] = 3,
+["data_source"] = "wh",
+["phase_index"] = 2,
+},
+["Andrés - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Alslalock - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Bloodwall - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Alslahunt - Venoxis"] = {
+["class_index"] = 6,
+["data_source"] = "wh",
+["version"] = 8,
+},
+["Maturitass - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 8,
+},
+},
+}
