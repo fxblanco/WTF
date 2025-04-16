@@ -7,19 +7,22 @@ NAGDB = {
 ["Alsía - Venoxis"] = {
 ["defaultBattlePotion"] = 58146,
 },
+["Exonuklease - Venoxis"] = {
+["defaultBattlePotion"] = 58091,
+},
 ["Serferine - Venoxis"] = {
 ["defaultBattlePotion"] = 58091,
 },
 ["Alslalu - Venoxis"] = {
 ["defaultBattlePotion"] = 58091,
 },
-["Alsia - Venoxis"] = {
-["defaultBattlePotion"] = 58146,
+["Alslahunt - Venoxis"] = {
+["defaultBattlePotion"] = 58145,
 },
 ["Hopéless - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
 },
-["Alslahunt - Venoxis"] = {
+["Endonuclease - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
 },
 ["Alslala - Venoxis"] = {
@@ -31,7 +34,10 @@ NAGDB = {
 },
 ["global"] = {
 ["enableEncounterTimer"] = true,
-["version"] = 40100,
+["keysMigrated"] = true,
+["fakeTimeRemaining"] = 157.1999999999534,
+["combatMetricsBaseline"] = false,
+["version"] = 40202,
 },
 ["namespaces"] = {
 ["HUNTER"] = {
@@ -44,6 +50,10 @@ NAGDB = {
 },
 ["GlowManager"] = {
 },
+["TrinketRegistrationManager"] = {
+},
+["OverlayManager"] = {
+},
 ["DRUID"] = {
 },
 ["KeybindManager"] = {
@@ -51,25 +61,41 @@ NAGDB = {
 ["version"] = 3,
 },
 },
+["DEATHKNIGHT"] = {
+},
+["APLParserManager"] = {
+},
 ["ThrottleManager"] = {
+},
+["ROGUE"] = {
 },
 ["PullTimerManager"] = {
 },
-["ImportExport"] = {
-},
-["PRIEST"] = {
-},
 ["RotationManager"] = {
-},
-["APLEditor"] = {
 },
 ["APLMonitor"] = {
 },
-["EncounterStopwatch"] = {
+["PRIEST"] = {
+},
+["CLEUDebugger"] = {
 },
 ["PALADIN"] = {
 },
-["CLEUDebugger"] = {
+["WARLOCK"] = {
+},
+["EncounterStopwatch"] = {
+["char"] = {
+["Exonuklease - Venoxis"] = {
+["position"] = {
+["y"] = 13.71450901031494,
+["x"] = 714.2860717773438,
+},
+},
+},
+},
+["APLEditor"] = {
+},
+["ImportExport"] = {
 },
 ["ResourceBarManager"] = {
 },
@@ -79,13 +105,16 @@ NAGDB = {
 ["profileKeys"] = {
 ["Alsla - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
+["Exonuklease - Venoxis"] = "Default",
 ["Serferine - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
 ["Alslalu - Venoxis"] = "Default",
 ["Hópéful - Venoxis"] = "Default",
-["Hopéless - Venoxis"] = "Default",
 ["Alsia - Venoxis"] = "Default",
-["Alslala - Venoxis"] = "Default",
+["Hopéless - Venoxis"] = "Default",
+["Alslalock - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
 ["Kwasimojo - Venoxis"] = "Default",
 },
 ["profiles"] = {

@@ -10,7 +10,7 @@ GargulDB = {
 },
 ["LoadDetails"] = {
 ["7.6.1"] = 1727905301,
-["lastLoadedOn"] = 1742946438,
+["lastLoadedOn"] = 1744747953,
 ["7.5.13"] = 1725818287,
 ["7.5.15"] = 1727128246,
 ["7.4.7"] = 1714070149,
@@ -23,6 +23,8 @@ GargulDB = {
 ["7.6.4"] = 1731536250,
 ["7.5.12"] = 1725054511,
 ["7.6.9"] = 1735329139,
+["7.6.21"] = 1743962003,
+["7.6.22"] = 1744568362,
 ["7.6.20"] = 1741893026,
 ["5.1.1"] = 1712692432,
 ["7.2.15"] = 1712354404,
@@ -246,8 +248,6 @@ GargulDB = {
 },
 ["24811915422496392117"] = {
 ["checksum"] = "24811915422496392117",
-["Rolls"] = {
-},
 ["OS"] = false,
 ["WL"] = false,
 ["winnerClass"] = 2,
@@ -378,8 +378,6 @@ GargulDB = {
 },
 ["35947752793556835663"] = {
 ["checksum"] = "35947752793556835663",
-["Rolls"] = {
-},
 ["OS"] = false,
 ["WL"] = false,
 ["winnerClass"] = 4,
@@ -2190,12 +2188,12 @@ GargulDB = {
 ["noMessages"] = false,
 ["BoostedRolls"] = {
 ["defaultPoints"] = 100,
-["fixedRolls"] = false,
+["identifier"] = "BR",
 ["defaultStep"] = 10,
+["system"] = 0,
 ["automaticallyShareData"] = true,
 ["reserveThreshold"] = 180,
 ["enableWhisperCommand"] = true,
-["identifier"] = "BR",
 ["defaultCost"] = 10,
 ["priority"] = 1,
 ["enabled"] = false,

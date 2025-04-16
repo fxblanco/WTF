@@ -17,13 +17,13 @@ BAGANATOR_CONFIG = {
 ["default_special_empty"] = true,
 ["default_consumable"] = true,
 ["default_tradegoods"] = true,
-["default_gem"] = true,
-["default_questitem"] = true,
+["default_weapon"] = true,
+["default_key"] = true,
 ["default_auto_equipment_sets"] = true,
 ["default_container"] = true,
 ["default_reagent"] = true,
-["default_key"] = true,
-["default_weapon"] = true,
+["default_questitem"] = true,
+["default_gem"] = true,
 },
 ["show_search_box"] = true,
 ["debug_categories_search"] = false,
@@ -36,7 +36,7 @@ BAGANATOR_CONFIG = {
 ["tradeskill"] = false,
 ["void_storage"] = false,
 ["guild_bank"] = false,
-["trade_partner"] = false,
+["forge_of_bonds"] = false,
 ["merchant"] = true,
 ["item_upgrade"] = true,
 ["character_panel"] = false,
@@ -44,7 +44,7 @@ BAGANATOR_CONFIG = {
 ["item_interaction"] = true,
 ["mail"] = false,
 ["sockets"] = false,
-["forge_of_bonds"] = false,
+["trade_partner"] = false,
 ["bank"] = true,
 },
 ["icon_corners_auto_insert_applied"] = {
@@ -123,10 +123,12 @@ BAGANATOR_CONFIG = {
 30,
 -235,
 },
+["migrated_sort_method"] = true,
 ["debug_timers"] = false,
 ["seen_welcome"] = 1,
 ["hide_special_container"] = {
 },
+["category_sort_method"] = "type",
 ["character_select_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrameelvui",
@@ -134,41 +136,52 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["category_group_empty_slots"] = true,
+["category_sections"] = {
+["1"] = {
+["name"] = "EQUIPMENT",
+},
+["2"] = {
+["name"] = "CRAFTING",
+},
+},
 ["category_horizontal_spacing_2"] = 0.4,
-["icon_mark_unusable"] = false,
+["custom_categories"] = {
+},
 ["category_default_import"] = 3,
 ["debug_categories"] = false,
-["currency_headers_collapsed"] = {
+["icon_context_fading"] = true,
+["bag_view_position"] = {
+"BOTTOMRIGHT",
+-3.207275390625,
+28.07034683227539,
 },
-["bag_empty_space_at_top"] = false,
+["lock_frames"] = false,
 ["sort_start_at_bottom"] = true,
-["icon_equipment_set_border"] = true,
-["recent_timeout"] = 15,
-["category_section_toggled"] = {
-},
+["bag_view_show_bag_slots"] = false,
+["category_migration"] = 5,
 ["saved_searches"] = {
 },
-["sort_ignore_slots_at_end"] = false,
-["category_modifications"] = {
-},
-["warband_bank_view_width"] = 14,
 ["guild_view_position"] = {
 "LEFT",
 20,
 0,
 },
+["category_modifications"] = {
+},
+["warband_bank_view_width"] = 14,
+["category_section_toggled"] = {
+},
 ["add_to_category_buttons_2"] = "drag",
 ["view_type"] = "unset",
 ["bank_current_tab"] = 1,
 ["icon_text_quality_colors"] = true,
-["currencies_tracked_imported"] = {
-},
+["bag_icon_size"] = 37,
 ["icon_text_font_size"] = 14,
 ["show_buttons_on_alt"] = true,
-["view_alpha"] = 0.93,
-["disabled_skins"] = {
+["sort_ignore_slots_count_2"] = {
+["Alsía-Venoxis"] = 0,
 },
+["view_alpha"] = 0.93,
 ["bag_view_width"] = 12,
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
@@ -272,26 +285,9 @@ BAGANATOR_CONFIG = {
 ["Endonuclease-Venoxis"] = {
 },
 },
-["setting_anchors"] = false,
-["debug_keywords"] = false,
-["recent_characters_main_view"] = {
-"Alslala-Venoxis",
-"Exonuklease-Venoxis",
-"Alsia-Venoxis",
-"Alsía-Venoxis",
-"Alsla-Venoxis",
-"Alslalu-Venoxis",
-"Kwasimojo-Venoxis",
-"Alslahunt-Venoxis",
-"Endonuclease-Venoxis",
-"Andrés-Venoxis",
-"Maturitass-Venoxis",
-"Lucho-Venoxis",
+["sort_ignore_bank_slots_count"] = {
+["Alsía-Venoxis"] = 0,
 },
-["guild_bank_sort_method"] = "unset",
-["auto_sort_on_open"] = false,
-["upgrade_plugin"] = "none",
-["guild_current_tab"] = 0,
 ["skins"] = {
 ["elvui"] = {
 ["use_bag_font"] = false,
@@ -308,9 +304,28 @@ BAGANATOR_CONFIG = {
 ["empty_slot_background"] = false,
 },
 },
-["sort_ignore_bank_slots_count"] = {
-["Alsía-Venoxis"] = 0,
+["debug_keywords"] = false,
+["guild_current_tab"] = 0,
+["auto_sort_on_open"] = false,
+["upgrade_plugin"] = "none",
+["guild_bank_sort_method"] = "unset",
+["recent_characters_main_view"] = {
+"Alslala-Venoxis",
+"Exonuklease-Venoxis",
+"Alsia-Venoxis",
+"Alsía-Venoxis",
+"Alsla-Venoxis",
+"Alslalu-Venoxis",
+"Kwasimojo-Venoxis",
+"Alslahunt-Venoxis",
+"Endonuclease-Venoxis",
+"Andrés-Venoxis",
+"Maturitass-Venoxis",
+"Lucho-Venoxis",
+"Hópéful-Venoxis",
+"Serferine-Venoxis",
 },
+["setting_anchors"] = false,
 ["guild_view_dialog_position"] = {
 "BOTTOM",
 "Baganator_GuildViewFrame",
@@ -318,18 +333,18 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["sort_ignore_slots_count_2"] = {
-["Alsía-Venoxis"] = 0,
+["disabled_skins"] = {
 },
 ["bank_only_view_position"] = {
 "LEFT",
 20,
 0,
 },
-["bag_icon_size"] = 37,
+["currencies_tracked_imported"] = {
+},
 ["show_sort_button_2"] = true,
-["category_migration"] = 5,
-["bag_view_show_bag_slots"] = false,
+["sort_ignore_slots_at_end"] = false,
+["recent_timeout"] = 15,
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrameelvui",
@@ -337,22 +352,11 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["lock_frames"] = false,
-["bag_view_position"] = {
-"BOTTOMRIGHT",
--3.207275390625,
-28.07034683227539,
+["icon_equipment_set_border"] = true,
+["bag_empty_space_at_top"] = false,
+["icon_mark_unusable"] = false,
+["currency_headers_collapsed"] = {
 },
-["icon_context_fading"] = true,
-["custom_categories"] = {
-},
-["category_sections"] = {
-["1"] = {
-["name"] = "EQUIPMENT",
-},
-["2"] = {
-["name"] = "CRAFTING",
-},
-},
+["category_group_empty_slots"] = true,
 }
 BAGANATOR_DATA = nil

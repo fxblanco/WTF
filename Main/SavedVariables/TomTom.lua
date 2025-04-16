@@ -89,15 +89,6 @@ nil,
 },
 },
 ["MerfinUI v7.16"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -110,22 +101,18 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.02"] = {
-["block"] = {
-["fontsize"] = 17,
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--70,
-},
-["enable"] = false,
-["height"] = 40,
-["width"] = 130,
-},
 ["arrow"] = {
 ["position"] = {
 "TOP",
@@ -134,6 +121,19 @@ nil,
 0,
 -350,
 },
+},
+["block"] = {
+["enable"] = false,
+["width"] = 130,
+["fontsize"] = 17,
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-70,
+},
+["height"] = 40,
 },
 },
 ["MerfinUI v5.26"] = {

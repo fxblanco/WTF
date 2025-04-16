@@ -23,6 +23,11 @@ ItemListsDB = {
 "44149",
 "Arcanum of Torment",
 },
+[1742589065] = {
+"Endonuclease",
+"62346",
+"Greater Inscription of Shattered Crystal",
+},
 [1742588569] = {
 "Exonuklease",
 "62346",
@@ -38,10 +43,10 @@ ItemListsDB = {
 "62343",
 "Greater Inscription of Charged Lodestone",
 },
-[1742588571] = {
-"Exonuklease",
-"62346",
-"Greater Inscription of Shattered Crystal",
+[1713088791] = {
+"Alsia",
+"44152",
+"Arcanum of Blissful Mending",
 },
 [1715208770] = {
 "Alsiadk",
@@ -58,15 +63,25 @@ ItemListsDB = {
 "44136",
 "Greater Inscription of the Pinnacle",
 },
-[1742589065] = {
+[1743882835] = {
 "Endonuclease",
+"68766",
+"Arcanum of the Ramkahen",
+},
+[1742589066] = {
+"Endonuclease",
+"44149",
+"Arcanum of Torment",
+},
+[1742588924] = {
+"Exonuklease",
+"44149",
+"Arcanum of Torment",
+},
+[1742588571] = {
+"Exonuklease",
 "62346",
 "Greater Inscription of Shattered Crystal",
-},
-[1713088791] = {
-"Alsia",
-"44152",
-"Arcanum of Blissful Mending",
 },
 [1742937535] = {
 "Serferine",
@@ -77,16 +92,6 @@ ItemListsDB = {
 "Exonuklease",
 "62343",
 "Greater Inscription of Charged Lodestone",
-},
-[1742588924] = {
-"Exonuklease",
-"44149",
-"Arcanum of Torment",
-},
-[1742589066] = {
-"Endonuclease",
-"44149",
-"Arcanum of Torment",
 },
 },
 ["displayPrios"] = true,

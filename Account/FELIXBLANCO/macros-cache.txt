@@ -1,6 +1,9 @@
 VER 3 0000000000000016 "_1_" "134400"
 /4 LFM DS 10 1-2 HC - 22:30 GO - 1 DD (Demo/Owl pref)
 END
+VER 3 000000000000001D "alga" "134400"
+/tar Hideous Ama
+END
 VER 3 0000000000000019 "blue" "134400"
 /wm [@cursor] 2
 END

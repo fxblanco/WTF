@@ -46,10 +46,10 @@ Postal3DB = {
 ["Endonuclease - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Alslalu|Venoxis|Horde",
 "Alsia|Venoxis|Horde",
 "Alsla|Venoxis|Horde",
 "Kwasimojo|Venoxis|Horde",
-"Alslalu|Venoxis|Horde",
 "Exonuklease|Venoxis|Horde",
 },
 },
@@ -57,13 +57,13 @@ Postal3DB = {
 ["Exonuklease - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Endonuclease|Venoxis|Horde",
+"Alsía|Venoxis|Horde",
+"Alslalu|Venoxis|Horde",
 "Kwasimojo|Venoxis|Horde",
 "Alsla|Venoxis|Horde",
-"Endonuclease|Venoxis|Horde",
 "Alsia|Venoxis|Horde",
-"Alsía|Venoxis|Horde",
 "Kolean|Venoxis|Horde",
-"Alslalu|Venoxis|Horde",
 "Alslalu-Venoxis|Venoxis|Horde",
 },
 },
