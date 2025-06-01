@@ -1,0 +1,82 @@
+VER 3 0000000001000003 "AbPoi" "INV_Misc_QuestionMark"
+#showtooltip Abolish Poison
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] Abolish Poison
+END
+VER 3 0000000001000004 "Cancel" "INV_Misc_QuestionMark"
+#showtooltip Tree of Life
+/cancelaura Tree of Life
+/cancelform
+/cast Tree of Life
+END
+VER 3 0000000001000005 "CRoar" "INV_Misc_QuestionMark"
+#showtooltip Challenging Roar
+/cancelform
+/cast Dire Bear Form
+/cast Enrage
+/cast Challenging Roar
+END
+VER 3 0000000001000006 "Cyc" "INV_Misc_QuestionMark"
+#showtooltip Cyclone
+/stopcasting
+/cast [@mouseover, exists, harm] Cyclone
+END
+VER 3 0000000001000007 "Dash" "INV_Misc_QuestionMark"
+#showtooltip Dash
+/cancelform
+/cast Cat Form
+/cast Dash
+END
+VER 3 0000000001000008 "Enrage" "INV_Misc_QuestionMark"
+#showtooltip Enrage
+/cancelform
+/cast Dire Bear Form
+/cast Enrage
+END
+VER 3 0000000001000009 "Healing Touch" "INV_Misc_QuestionMark"
+#showtooltip healing touch
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]healing touch
+END
+VER 3 000000000100000A "Innvervate" "INV_Misc_QuestionMark"
+#showtooltip innervate
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]innervate
+END
+VER 3 000000000100000B "Life Bloom" "INV_Misc_QuestionMark"
+#showtooltip lifebloom
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]lifebloom
+END
+VER 3 000000000100000C "Nourish" "INV_Misc_QuestionMark"
+#showtooltip nourish
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]nourish
+END
+VER 3 000000000100000D "Quick" "INV_Misc_QuestionMark"
+#showtooltip nature's swiftness
+/cast nature's swiftness
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]healing touch
+END
+VER 3 000000000100000E "Rebirth" "INV_Misc_QuestionMark"
+#showtooltip Rebirth
+/cast [@mouseover,help]Rebirth
+END
+VER 3 000000000100000F "Regrowth" "INV_Misc_QuestionMark"
+#showtooltip regrowth
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]Regrowth
+END
+VER 3 0000000001000010 "Reju" "INV_Misc_QuestionMark"
+#showtooltip rejuvenation
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] rejuvenation
+END
+VER 3 0000000001000011 "Remove Curse" "INV_Misc_QuestionMark"
+#showtooltip remove curse
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] remove curse
+END
+VER 3 0000000001000012 "Shrd" "INV_Misc_QuestionMark"
+#showtooltip Shred
+/cast Shred
+/use [@player] Saronite Bomb
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+R1EM1DR1MR2SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+NLarWidXmøEut[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Kyl[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

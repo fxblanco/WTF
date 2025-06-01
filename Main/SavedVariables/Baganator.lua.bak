@@ -1,5 +1,42 @@
 
 BAGANATOR_CONFIG = {
+["CharacterSpecific"] = {
+["sort_ignore_bank_slots_count"] = {
+},
+["currencies_tracked_imported"] = {
+},
+["currencies_tracked"] = {
+["Kyleriemen-Venoxis"] = {
+{
+["currencyID"] = 81,
+},
+{
+["currencyID"] = 301,
+},
+{
+["currencyID"] = 2711,
+},
+},
+["Bremskyle-Venoxis"] = {
+{
+["currencyID"] = 1901,
+},
+{
+["currencyID"] = 3148,
+},
+},
+["Spaltkyle-Venoxis"] = {
+{
+["currencyID"] = 1901,
+},
+},
+},
+["sort_ignore_slots_count_2"] = {
+},
+},
+["Version"] = 1,
+["Profiles"] = {
+["DEFAULT"] = {
 ["guild_view_width"] = 14,
 ["empty_slot_background"] = false,
 ["junk_plugin"] = "dejunk",
@@ -123,9 +160,12 @@ BAGANATOR_CONFIG = {
 30,
 -235,
 },
+["category_group_empty_slots"] = true,
 ["debug_timers"] = false,
 ["seen_welcome"] = 1,
 ["hide_special_container"] = {
+},
+["currency_headers_collapsed"] = {
 },
 ["character_select_position"] = {
 "RIGHT",
@@ -134,17 +174,21 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["category_group_empty_slots"] = true,
-["category_horizontal_spacing_2"] = 0.4,
 ["icon_mark_unusable"] = false,
+["category_horizontal_spacing_2"] = 0.4,
+["bag_empty_space_at_top"] = false,
 ["category_default_import"] = 3,
 ["debug_categories"] = false,
-["currency_headers_collapsed"] = {
-},
-["bag_empty_space_at_top"] = false,
-["sort_start_at_bottom"] = true,
 ["icon_equipment_set_border"] = true,
+["bag_view_position"] = {
+"BOTTOMRIGHT",
+-3.207275390625,
+28.07034683227539,
+},
 ["recent_timeout"] = 15,
+["bag_view_show_bag_slots"] = false,
+["currencies_tracked_imported"] = {
+},
 ["category_section_toggled"] = {
 },
 ["saved_searches"] = {
@@ -162,14 +206,59 @@ BAGANATOR_CONFIG = {
 ["view_type"] = "unset",
 ["bank_current_tab"] = 1,
 ["icon_text_quality_colors"] = true,
-["currencies_tracked_imported"] = {
-},
-["icon_text_font_size"] = 14,
 ["show_buttons_on_alt"] = true,
-["view_alpha"] = 0.93,
+["icon_text_font_size"] = 14,
 ["disabled_skins"] = {
 },
+["sort_ignore_slots_count_2"] = {
+["Alsía-Venoxis"] = 0,
+},
+["view_alpha"] = 0.93,
 ["bag_view_width"] = 12,
+["guild_bank_sort_method"] = "unset",
+["upgrade_plugin"] = "none",
+["skins"] = {
+["elvui"] = {
+["use_bag_font"] = false,
+},
+["blizzard"] = {
+["no_frame_borders"] = false,
+["view_transparency"] = 0,
+["empty_slot_background"] = false,
+},
+["dark"] = {
+["view_transparency"] = 0.3,
+["square_icons"] = false,
+["no_frame_borders"] = false,
+["empty_slot_background"] = false,
+},
+},
+["debug_keywords"] = false,
+["guild_current_tab"] = 0,
+["auto_sort_on_open"] = false,
+["recent_characters_main_view"] = {
+"Bremskyle-Venoxis",
+"Spaltkyle-Venoxis",
+"Kyleriemen-Venoxis",
+"Alslala-Venoxis",
+"Exonuklease-Venoxis",
+"Alsia-Venoxis",
+"Alsía-Venoxis",
+"Alsla-Venoxis",
+"Alslalu-Venoxis",
+"Kwasimojo-Venoxis",
+"Alslahunt-Venoxis",
+"Endonuclease-Venoxis",
+"Andrés-Venoxis",
+"Maturitass-Venoxis",
+"Lucho-Venoxis",
+"Hópéful-Venoxis",
+"Serferine-Venoxis",
+"Alslalock-Venoxis",
+},
+["sort_ignore_bank_slots_count"] = {
+["Alsía-Venoxis"] = 0,
+},
 ["currencies_tracked"] = {
 ["Maturitass-Venoxis"] = {
 {
@@ -273,44 +362,6 @@ BAGANATOR_CONFIG = {
 },
 },
 ["setting_anchors"] = false,
-["debug_keywords"] = false,
-["recent_characters_main_view"] = {
-"Alslala-Venoxis",
-"Exonuklease-Venoxis",
-"Alsia-Venoxis",
-"Alsía-Venoxis",
-"Alsla-Venoxis",
-"Alslalu-Venoxis",
-"Kwasimojo-Venoxis",
-"Alslahunt-Venoxis",
-"Endonuclease-Venoxis",
-"Andrés-Venoxis",
-"Maturitass-Venoxis",
-"Lucho-Venoxis",
-},
-["guild_bank_sort_method"] = "unset",
-["auto_sort_on_open"] = false,
-["upgrade_plugin"] = "none",
-["guild_current_tab"] = 0,
-["skins"] = {
-["elvui"] = {
-["use_bag_font"] = false,
-},
-["blizzard"] = {
-["no_frame_borders"] = false,
-["view_transparency"] = 0,
-["empty_slot_background"] = false,
-},
-["dark"] = {
-["view_transparency"] = 0.3,
-["square_icons"] = false,
-["no_frame_borders"] = false,
-["empty_slot_background"] = false,
-},
-},
-["sort_ignore_bank_slots_count"] = {
-["Alsía-Venoxis"] = 0,
-},
 ["guild_view_dialog_position"] = {
 "BOTTOM",
 "Baganator_GuildViewFrame",
@@ -318,18 +369,16 @@ BAGANATOR_CONFIG = {
 0,
 0,
 },
-["sort_ignore_slots_count_2"] = {
-["Alsía-Venoxis"] = 0,
-},
+["bag_icon_size"] = 37,
 ["bank_only_view_position"] = {
 "LEFT",
 20,
 0,
 },
-["bag_icon_size"] = 37,
-["show_sort_button_2"] = true,
 ["category_migration"] = 5,
-["bag_view_show_bag_slots"] = false,
+["show_sort_button_2"] = true,
+["sort_start_at_bottom"] = true,
+["icon_context_fading"] = true,
 ["currency_panel_position"] = {
 "RIGHT",
 "Baganator_CategoryViewBackpackViewFrameelvui",
@@ -338,20 +387,18 @@ BAGANATOR_CONFIG = {
 0,
 },
 ["lock_frames"] = false,
-["bag_view_position"] = {
-"BOTTOMRIGHT",
--3.207275390625,
-28.07034683227539,
-},
-["icon_context_fading"] = true,
-["custom_categories"] = {
-},
+["category_sort_method"] = "type",
 ["category_sections"] = {
 ["1"] = {
 ["name"] = "EQUIPMENT",
 },
 ["2"] = {
 ["name"] = "CRAFTING",
+},
+},
+["custom_categories"] = {
+},
+["migrated_sort_method"] = true,
 },
 },
 }

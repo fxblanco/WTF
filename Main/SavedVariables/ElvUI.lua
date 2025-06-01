@@ -5,13 +5,16 @@ ElvDB = {
 ["Alsía - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
 ["Exonuklease - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
 ["Serferine - Venoxis"] = "Default",
-["Alslalu - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
+["Endonuclease - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
 ["Alsia - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
 ["Alslahunt - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
+["Alslalu - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
 ["Hópéful - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
-["Alslalock - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
+["Kyleriemen - Venoxis"] = "Default",
 ["Alslala - Venoxis"] = "Default",
-["Endonuclease - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
+["Alslalock - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
+["Spaltkyle - Venoxis"] = "Default",
+["Bremskyle - Venoxis"] = "Default",
 ["Kwasimojo - Venoxis"] = "MerfinUI (DPS/Tank) (1600) v7.28",
 },
 ["DisabledAddOns"] = {
@@ -23,19 +26,22 @@ ElvDB = {
 },
 ["class"] = {
 ["Venoxis"] = {
-["Alsia"] = "PALADIN",
 ["Alslala"] = "DEATHKNIGHT",
-["Alslalu"] = "SHAMAN",
+["Spaltkyle"] = "PALADIN",
 ["Kwasimojo"] = "PRIEST",
-["Exonuklease"] = "WARLOCK",
 ["Alsía"] = "PALADIN",
 ["Alslalock"] = "WARLOCK",
-["Alslahunt"] = "HUNTER",
+["Alsia"] = "PALADIN",
+["Alslalu"] = "SHAMAN",
+["Exonuklease"] = "WARLOCK",
+["Bremskyle"] = "PALADIN",
 ["Andrés"] = "MAGE",
-["Endonuclease"] = "ROGUE",
-["Maturitass"] = "DRUID",
-["Bloodwall"] = "WARRIOR",
 ["Alsla"] = "DEATHKNIGHT",
+["Alslahunt"] = "HUNTER",
+["Endonuclease"] = "ROGUE",
+["Bloodwall"] = "WARRIOR",
+["Maturitass"] = "DRUID",
+["Kyleriemen"] = "DRUID",
 ["Lucho"] = "HUNTER",
 },
 },
@@ -682,7 +688,10 @@ ElvDB = {
 },
 ["verticalSpacing"] = -1,
 ["growthDirection"] = "RIGHT_UP",
-["groupBy"] = "ROLE",
+["buffIndicator"] = {
+["countFontSize"] = 13,
+["enable"] = false,
+},
 ["readycheckIcon"] = {
 ["attachTo"] = "CENTER",
 ["yOffset"] = 13,
@@ -763,10 +772,7 @@ ElvDB = {
 ["enable"] = false,
 ["yOffset"] = 3,
 },
-["buffIndicator"] = {
-["countFontSize"] = 13,
-["enable"] = false,
-},
+["groupBy"] = "ROLE",
 },
 ["focustarget"] = {
 ["colorOverride"] = "FORCE_ON",
@@ -879,8 +885,8 @@ ElvDB = {
 ["enable"] = false,
 ["anchorPoint"] = "TOPRIGHT",
 },
-["CombatIcon"] = {
-["size"] = 23,
+["classbar"] = {
+["enable"] = false,
 },
 ["threatStyle"] = "NONE",
 ["customTexts"] = {
@@ -942,7 +948,7 @@ ElvDB = {
 ["aurabar"] = {
 ["enable"] = false,
 },
-["partyIndicator"] = {
+["RestIcon"] = {
 ["enable"] = false,
 },
 ["castbar"] = {
@@ -968,6 +974,13 @@ ElvDB = {
 },
 },
 ["width"] = 260,
+["CombatIcon"] = {
+["size"] = 23,
+},
+["health"] = {
+["text_format"] = "",
+},
+["colorOverride"] = "FORCE_ON",
 ["power"] = {
 ["detachFromFrame"] = true,
 ["text_format"] = "",
@@ -976,14 +989,7 @@ ElvDB = {
 ["EnergyManaRegen"] = true,
 ["height"] = 8,
 },
-["health"] = {
-["text_format"] = "",
-},
-["colorOverride"] = "FORCE_ON",
-["RestIcon"] = {
-["enable"] = false,
-},
-["classbar"] = {
+["partyIndicator"] = {
 ["enable"] = false,
 },
 },
@@ -996,7 +1002,10 @@ ElvDB = {
 ["verticalSpacing"] = -1,
 ["numGroups"] = 2,
 ["growthDirection"] = "RIGHT_UP",
-["groupBy"] = "ROLE",
+["buffIndicator"] = {
+["countFontSize"] = 13,
+["enable"] = false,
+},
 ["readycheckIcon"] = {
 ["attachTo"] = "CENTER",
 ["size"] = 20,
@@ -1071,6 +1080,10 @@ ElvDB = {
 ["height"] = 4,
 },
 ["width"] = 95,
+["raidRoleIcons"] = {
+["enable"] = false,
+["yOffset"] = 3,
+},
 ["customName"] = "Raid-10",
 ["health"] = {
 ["position"] = "LEFT",
@@ -1078,14 +1091,7 @@ ElvDB = {
 ["yOffset"] = 0,
 },
 ["orientation"] = "LEFT",
-["raidRoleIcons"] = {
-["enable"] = false,
-["yOffset"] = 3,
-},
-["buffIndicator"] = {
-["countFontSize"] = 13,
-["enable"] = false,
-},
+["groupBy"] = "ROLE",
 },
 ["raidpet"] = {
 ["verticalSpacing"] = -1,
@@ -1139,7 +1145,7 @@ ElvDB = {
 ["perrow"] = 7,
 ["xOffset"] = -5,
 },
-["health"] = {
+["name"] = {
 ["text_format"] = "",
 },
 ["colorOverride"] = "FORCE_ON",
@@ -1188,7 +1194,7 @@ ElvDB = {
 },
 },
 ["width"] = 220,
-["name"] = {
+["health"] = {
 ["text_format"] = "",
 },
 ["height"] = 50,
@@ -1294,7 +1300,10 @@ ElvDB = {
 ["verticalSpacing"] = -1,
 ["numGroups"] = 5,
 ["growthDirection"] = "RIGHT_UP",
-["groupBy"] = "ROLE",
+["buffIndicator"] = {
+["countFontSize"] = 13,
+["enable"] = false,
+},
 ["readycheckIcon"] = {
 ["attachTo"] = "CENTER",
 ["size"] = 20,
@@ -1367,6 +1376,7 @@ ElvDB = {
 ["height"] = 4,
 },
 ["width"] = 95,
+["colorOverride"] = "FORCE_ON",
 ["customName"] = "Raid-40",
 ["health"] = {
 ["position"] = "LEFT",
@@ -1374,11 +1384,7 @@ ElvDB = {
 ["yOffset"] = 0,
 },
 ["orientation"] = "LEFT",
-["colorOverride"] = "FORCE_ON",
-["buffIndicator"] = {
-["countFontSize"] = 13,
-["enable"] = false,
-},
+["groupBy"] = "ROLE",
 },
 ["target"] = {
 ["debuffs"] = {
@@ -1455,18 +1461,6 @@ ElvDB = {
 ["aurabar"] = {
 ["enable"] = false,
 },
-["power"] = {
-["text_format"] = "",
-["height"] = 7,
-},
-["raidRoleIcons"] = {
-["enable"] = false,
-},
-["width"] = 260,
-["fader"] = {
-["enable"] = false,
-["range"] = false,
-},
 ["castbar"] = {
 ["customTextFont"] = {
 ["enable"] = true,
@@ -1491,10 +1485,22 @@ ElvDB = {
 ["r"] = 1,
 },
 },
+["raidRoleIcons"] = {
+["enable"] = false,
+},
+["width"] = 260,
 ["health"] = {
 ["text_format"] = "",
 },
+["fader"] = {
+["enable"] = false,
+["range"] = false,
+},
 ["smartAuraPosition"] = "FLUID_BUFFS_ON_DEBUFFS",
+["power"] = {
+["text_format"] = "",
+["height"] = 7,
+},
 },
 },
 ["statusbar"] = "Merfin Main Texture",
@@ -1613,19 +1619,19 @@ nil,
 ["buttonsPerRow"] = 12,
 ["visibility"] = "",
 ["countFontSize"] = 12,
-["buttons"] = 12,
+["showGrid"] = false,
 ["buttonSpacing"] = -1,
 ["macroFontOutline"] = "OUTLINE",
 ["countFont"] = "Merfin Font 1",
-["buttonSize"] = 36,
+["buttons"] = 12,
 ["macroFontSize"] = 12,
 ["alpha"] = 0.85,
 ["countFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "Merfin Font 1",
 ["macrotext"] = true,
 ["macroTextYOffset"] = 2,
+["buttonSize"] = 36,
 ["hotkeyFontSize"] = 12,
-["showGrid"] = false,
 },
 ["bar8"] = {
 ["macroFont"] = "Merfin Font 1",
@@ -1684,12 +1690,12 @@ nil,
 ["countFontOutline"] = "OUTLINE",
 ["buttonSpacing"] = -1,
 ["hotkeyFont"] = "Merfin Font 1",
-["showGrid"] = false,
-["macroTextYOffset"] = 2,
-["macrotext"] = true,
 ["paging"] = {
 ["WARLOCK"] = "",
 },
+["macroTextYOffset"] = 2,
+["macrotext"] = true,
+["showGrid"] = false,
 },
 ["macroTextPosition"] = "BOTTOMLEFT",
 ["font"] = "Merfin Font 1",
@@ -1765,10 +1771,10 @@ nil,
 ["buttonSpacing"] = 1,
 ["backdropSpacing"] = 0,
 ["enabled"] = true,
-["buttons"] = 12,
-["mouseover"] = true,
 ["useIcons"] = false,
+["mouseover"] = true,
 ["buttonSize"] = 19,
+["buttons"] = 12,
 ["alpha"] = 0.85,
 },
 ["bar2"] = {
@@ -1799,19 +1805,19 @@ nil,
 ["buttonsPerRow"] = 12,
 ["visibility"] = "",
 ["countFontSize"] = 12,
-["buttons"] = 12,
+["showGrid"] = false,
 ["buttonSpacing"] = -1,
 ["macroFontOutline"] = "OUTLINE",
 ["countFont"] = "Merfin Font 1",
-["buttonSize"] = 36,
+["buttons"] = 12,
 ["macroFontSize"] = 12,
 ["alpha"] = 0.85,
 ["countFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "Merfin Font 1",
 ["macrotext"] = true,
 ["macroTextYOffset"] = 2,
+["buttonSize"] = 36,
 ["hotkeyFontSize"] = 12,
-["showGrid"] = false,
 },
 ["fontSize"] = 12,
 ["extraActionButton"] = {
@@ -1826,12 +1832,12 @@ nil,
 ["stanceBar"] = {
 ["buttonSpacing"] = -1,
 ["alpha"] = 0.85,
-["hotkeyFontOutline"] = "OUTLINE",
+["hotkeyFont"] = "Merfin Font 1",
 ["buttonSize"] = 36,
 ["mouseover"] = true,
 ["style"] = "classic",
 ["hotkeyFontSize"] = 12,
-["hotkeyFont"] = "Merfin Font 1",
+["hotkeyFontOutline"] = "OUTLINE",
 },
 ["cooldown"] = {
 ["fonts"] = {
@@ -1844,10 +1850,10 @@ nil,
 ["macroFont"] = "Merfin Font 1",
 ["mouseover"] = true,
 ["macroTextPosition"] = "BOTTOM",
-["hotkeyFontSize"] = 12,
+["buttonsPerRow"] = 12,
 ["visibility"] = "",
 ["countFontSize"] = 12,
-["backdrop"] = false,
+["showGrid"] = false,
 ["macroFontSize"] = 12,
 ["macroFontOutline"] = "OUTLINE",
 ["countFont"] = "Merfin Font 1",
@@ -1856,10 +1862,10 @@ nil,
 ["countFontOutline"] = "OUTLINE",
 ["buttonSpacing"] = -1,
 ["hotkeyFont"] = "Merfin Font 1",
-["showGrid"] = false,
-["macroTextYOffset"] = 2,
 ["macrotext"] = true,
-["buttonsPerRow"] = 12,
+["macroTextYOffset"] = 2,
+["hotkeyFontSize"] = 12,
+["backdrop"] = false,
 },
 },
 ["cooldown"] = {
@@ -1897,19 +1903,22 @@ nil,
 },
 ["gold"] = {
 ["Venoxis"] = {
-["Alsia"] = 84611080,
 ["Alslala"] = 28541781,
-["Alslalu"] = 1814934,
-["Kwasimojo"] = 117901865,
-["Exonuklease"] = 16323947,
-["Alsía"] = 401401285,
-["Alslalock"] = 500000,
-["Alslahunt"] = 136854413,
+["Spaltkyle"] = 30341750,
+["Kwasimojo"] = 8208795,
+["Alsía"] = 16031737,
+["Alslalock"] = 310880,
+["Alsia"] = 19548974,
+["Alslalu"] = 689113,
+["Exonuklease"] = 11692459,
+["Bremskyle"] = 51291594,
 ["Andrés"] = 4562497,
-["Endonuclease"] = 55708555,
-["Maturitass"] = 3210989,
+["Alsla"] = 242212394,
+["Alslahunt"] = 5721428,
+["Endonuclease"] = 4008806,
 ["Bloodwall"] = 733683,
-["Alsla"] = 58968882,
+["Maturitass"] = 3210989,
+["Kyleriemen"] = 7481746,
 ["Lucho"] = 356269,
 },
 },
@@ -1938,19 +1947,22 @@ nil,
 },
 ["faction"] = {
 ["Venoxis"] = {
-["Alsia"] = "Horde",
 ["Alslala"] = "Horde",
-["Alslalu"] = "Horde",
+["Spaltkyle"] = "Horde",
 ["Kwasimojo"] = "Horde",
-["Exonuklease"] = "Horde",
 ["Alsía"] = "Horde",
 ["Alslalock"] = "Horde",
-["Alslahunt"] = "Horde",
+["Alsia"] = "Horde",
+["Alslalu"] = "Horde",
+["Exonuklease"] = "Horde",
+["Bremskyle"] = "Horde",
 ["Andrés"] = "Horde",
-["Endonuclease"] = "Horde",
-["Maturitass"] = "Horde",
-["Bloodwall"] = "Horde",
 ["Alsla"] = "Horde",
+["Alslahunt"] = "Horde",
+["Endonuclease"] = "Horde",
+["Bloodwall"] = "Horde",
+["Maturitass"] = "Horde",
+["Kyleriemen"] = "Horde",
 ["Lucho"] = "Horde",
 },
 },
@@ -2055,19 +2067,9 @@ nil,
 nil,
 true,
 },
-{
 nil,
 nil,
 nil,
-true,
-},
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
 nil,
 {
 nil,
@@ -2106,16 +2108,6 @@ true,
 },
 },
 },
-["nameplates"] = {
-["filters"] = {
-["ElvUI_NonTarget"] = {
-},
-["ElvUI_Target"] = {
-},
-["ElvUI_Boss"] = {
-},
-},
-},
 },
 }
 ElvPrivateDB = {
@@ -2125,51 +2117,54 @@ ElvPrivateDB = {
 ["Serferine - Venoxis"] = "Serferine - Venoxis",
 ["Alsiadk - Venoxis"] = "Alsiadk - Venoxis",
 ["Bloodwall - Venoxis"] = "Bloodwall - Venoxis",
+["Kyleriemen - Venoxis"] = "Kyleriemen - Venoxis",
 ["Khalimmortus - Venoxis"] = "Khalimmortus - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 ["Alsla - Venoxis"] = "Alsla - Venoxis",
 ["Xolem - Venoxis"] = "Xolem - Venoxis",
 ["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Spaltkyle - Venoxis"] = "Spaltkyle - Venoxis",
 ["Hópéful - Venoxis"] = "Hópéful - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Bremskyle - Venoxis"] = "Bremskyle - Venoxis",
 ["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 },
 ["profiles"] = {
 ["Endonuclease - Venoxis"] = {
+["install_complete"] = 13.77,
 ["MUI"] = {
 ["install_version"] = "7.02",
 },
-["install_complete"] = 13.77,
 },
 ["Exonuklease - Venoxis"] = {
 ["general"] = {
-["chatBubbleFontSize"] = 10,
 ["nameplateLargeFont"] = "Expressway",
-["chatBubbles"] = "backdrop_noborder",
-["chatBubbleName"] = true,
+["glossTex"] = "Flatt",
 ["totemBar"] = true,
 ["normTex"] = "Flatt",
-["nameplateLargeFontSize"] = 14,
 ["chatBubbleFont"] = "Expressway",
+["chatBubbleFontSize"] = 10,
 ["nameplateFont"] = "Expressway",
-["glossTex"] = "Flatt",
-},
-["nameplates"] = {
-["enable"] = false,
+["chatBubbles"] = "backdrop_noborder",
+["chatBubbleName"] = true,
+["nameplateLargeFontSize"] = 14,
 },
 ["bags"] = {
 ["bagBar"] = true,
 },
-["install_complete"] = 2.42,
 ["MUI"] = {
 ["install_version"] = "7.16",
 },
+["nameplates"] = {
+["enable"] = false,
+},
+["install_complete"] = 2.42,
 },
 ["Serferine - Venoxis"] = {
 ["install_complete"] = 13.83,
@@ -2197,6 +2192,9 @@ ElvPrivateDB = {
 },
 ["Bloodwall - Venoxis"] = {
 ["install_complete"] = 13.62,
+},
+["Kyleriemen - Venoxis"] = {
+["install_complete"] = 13.88,
 },
 ["Khalimmortus - Venoxis"] = {
 ["nameplates"] = {
@@ -2249,11 +2247,11 @@ ElvPrivateDB = {
 ["totemBar"] = false,
 ["normTex"] = "Flatt",
 ["nameplateLargeFontSize"] = 9,
-["glossTex"] = "Flatt",
-["nameplateFont"] = "SFUIDisplayCondensed-Semibold",
-["chatBubbleFont"] = "SFUIDisplayCondensed-Semibold",
-["chatBubbleName"] = true,
 ["dmgfont"] = "SFUIDisplayCondensed-Semibold",
+["chatBubbleName"] = true,
+["chatBubbleFont"] = "SFUIDisplayCondensed-Semibold",
+["nameplateFont"] = "SFUIDisplayCondensed-Semibold",
+["glossTex"] = "Flatt",
 },
 ["nameplates"] = {
 ["enable"] = false,
@@ -2261,10 +2259,10 @@ ElvPrivateDB = {
 ["bags"] = {
 ["bagBar"] = true,
 },
-["install_complete"] = 2.42,
 ["MUI"] = {
 ["install_version"] = "7.16",
 },
+["install_complete"] = 2.42,
 },
 ["Xolem - Venoxis"] = {
 ["nameplates"] = {
@@ -2314,6 +2312,15 @@ ElvPrivateDB = {
 ["install_version"] = "7.02",
 },
 },
+["Spaltkyle - Venoxis"] = {
+["install_complete"] = 13.88,
+},
+["Hópéful - Venoxis"] = {
+["MUI"] = {
+["install_version"] = "7.24",
+},
+["install_complete"] = 13.83,
+},
 ["Alslalu - Venoxis"] = {
 ["general"] = {
 ["totemTracker"] = false,
@@ -2339,12 +2346,6 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 2.42,
 },
-["Hópéful - Venoxis"] = {
-["MUI"] = {
-["install_version"] = "7.24",
-},
-["install_complete"] = 13.83,
-},
 ["Alsía - Venoxis"] = {
 ["general"] = {
 ["chatBubbleFontSize"] = 10,
@@ -2367,6 +2368,30 @@ ElvPrivateDB = {
 ["install_complete"] = 2.42,
 ["MUI"] = {
 ["install_version"] = "6.0",
+},
+},
+["Alsia - Venoxis"] = {
+["nameplates"] = {
+["enable"] = false,
+},
+["install_complete"] = 2.42,
+["general"] = {
+["totemTracker"] = false,
+["nameplateLargeFont"] = "Merfin Font 1",
+["chatBubbles"] = "backdrop_noborder",
+["namefont"] = "Merfin Font 1",
+["totemBar"] = false,
+["glossTex"] = "Merfin Main Texture",
+["normTex"] = "Merfin Main Texture",
+["nameplateLargeFontSize"] = 9,
+["nameplateFont"] = "Merfin Font 1",
+["chatBubbleFontSize"] = 10,
+["chatBubbleFont"] = "Merfin Font 1",
+["chatBubbleName"] = true,
+["dmgfont"] = "Merfin Font 1",
+},
+["MUI"] = {
+["install_version"] = "7.28",
 },
 },
 ["Andrés - Venoxis"] = {
@@ -2396,30 +2421,6 @@ ElvPrivateDB = {
 },
 ["install_complete"] = 13.88,
 },
-["Alsia - Venoxis"] = {
-["nameplates"] = {
-["enable"] = false,
-},
-["MUI"] = {
-["install_version"] = "7.28",
-},
-["general"] = {
-["totemTracker"] = false,
-["nameplateLargeFont"] = "Merfin Font 1",
-["chatBubbles"] = "backdrop_noborder",
-["namefont"] = "Merfin Font 1",
-["totemBar"] = false,
-["dmgfont"] = "Merfin Font 1",
-["normTex"] = "Merfin Main Texture",
-["nameplateLargeFontSize"] = 9,
-["chatBubbleName"] = true,
-["chatBubbleFontSize"] = 10,
-["chatBubbleFont"] = "Merfin Font 1",
-["nameplateFont"] = "Merfin Font 1",
-["glossTex"] = "Merfin Main Texture",
-},
-["install_complete"] = 2.42,
-},
 ["Alslahunt - Venoxis"] = {
 ["general"] = {
 ["chatBubbleFontSize"] = 10,
@@ -2443,6 +2444,9 @@ ElvPrivateDB = {
 ["MUI"] = {
 ["install_version"] = "6.0",
 },
+},
+["Bremskyle - Venoxis"] = {
+["install_complete"] = 13.88,
 },
 ["Maturitass - Venoxis"] = {
 ["nameplates"] = {

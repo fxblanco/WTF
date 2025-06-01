@@ -1,0 +1,324 @@
+VER 3 000000000000000A " " "INV_Misc_QuestionMark"
+#showtooltip Bear Form
+/cancelaura Leader of the Pack
+/stopattack
+/cancelform
+/cast Bear Form
+/startattack
+END
+VER 3 0000000000000009 " " "INV_Misc_QuestionMark"
+#showtooltip Bear Form
+/cancelaura Leader of the Pack
+/stopattack
+/cancelform
+/cast Dire Bear Form
+/startattack
+END
+VER 3 0000000000000008 " " "INV_Misc_QuestionMark"
+#showtooltip Cat Form
+/cancelaura Leader of the Pack
+/stopattack
+/cancelform
+/cast Cat Form
+/startattack
+END
+VER 3 0000000000000018 "/console cameraD" "136103"
+/console cameraDistanceMaxZoomFactor 4
+END
+VER 3 0000000000000019 "434" "236178"
+/castsequence reset=2/target Explosive Shot,Explosive Shot(Rank 3)
+END
+VER 3 000000000000001A "Anub" "135994"
+/cancelaura Gebet der Seelenstärke
+/cancelaura Machtwort: Seelenstärke
+/cancelaura Befehlsruf
+END
+VER 3 000000000000001B "Auslöschen" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Auslöschen(Rang 4)
+/startattack
+/petattack
+/cast Klaue
+END
+VER 3 000000000000001C "Blutstoß" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Blood Strike(Rank 6)
+/startattack
+/cast Rune Strike
+END
+VER 3 000000000000000B "Cancel" "INV_Misc_QuestionMark"
+#showtooltip Hand of Protection
+/cancelaura Hand of Protection
+END
+VER 3 0000000000000043 "cancel" "135885"
+/cancelaura Gottesschild
+END
+VER 3 000000000000001E "cds" "136115"
+/cast Elemental mastery
+/use Berserking
+END
+VER 3 000000000000001D "cds" "135812"
+/cast Arkane Macht
+/cast Eisige Adern
+/use 13
+/use Geschwindigkeitstrank
+END
+VER 3 0000000000000003 "chicken" "134400"
+/console cameraDistanceMaxZoomFactor 4
+END
+VER 3 000000000000001F "Corr" "136118"
+/cast Verderbnis(Rang 10)
+/petattack
+END
+VER 3 0000000000000020 "dds" "132868"
+/cast Arkane Macht
+/cast Spiegelbild
+/cast Eisige Adern
+/use 13
+END
+VER 3 0000000000000021 "Death Strike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Death Strike(Rank 5)
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000005 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse;  [@mouseover,exists,mod:ctrl] Cleanse; [@mouseover,exists,mod:shift] Cleanse
+END
+VER 3 0000000000000022 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse;  [@mouseover,exists,mod:ctrl] Cleanse; [@mouseover,exists,mod:shift] Cleanse
+END
+VER 3 0000000000000041 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Cleanse Spirit;  [@mouseover,exists,mod:ctrl] Purge; [@mouseover,exists,mod:shift] Hex
+END
+VER 3 0000000000000042 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Reinigung des Glaubens;  [@mouseover,exists,mod:ctrl] Reinigung des Glaubens; [@mouseover,exists,mod:shift] Reinigung des Glaubens
+END
+VER 3 0000000000000023 "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Curse;  [@mouseover,exists,mod:ctrl] Polymorph; [@mouseover,exists,mod:shift] Remove Curse
+END
+VER 3 0000000000000024 "DPS" "INV_Misc_QuestionMark"
+#showtooltip Rapid Fire
+/cast Rapid Fire
+/use 13
+/use 14
+/cast call of the wild
+/use Berserkink
+/cast Kill command
+END
+VER 3 0000000000000025 "DPS CD" "463284"
+/cast Demon soul
+/use 10
+/use Volcanic potion
+END
+VER 3 0000000000000026 "explo trap" "135826"
+/cast Trap Launcher
+/cast Explosive Trap
+END
+VER 3 0000000000000027 "Felhunter" "136216"
+/cast Soulburn
+/cast Summon Felguard
+END
+VER 3 0000000000000028 "Feuerbrand" "135817"
+/cast Feuerbrand(Rang 11)
+/petAttack
+END
+VER 3 0000000000000029 "Fire CDS" "135903"
+/cast Spiegelbild
+/use 10
+/use vulkanischer Trank
+/cast Berserking(Racial)
+END
+VER 3 000000000000000C "Frenzy" "134400"
+/use Berserk
+/whisper Khalimmortus Frenzy
+END
+VER 3 000000000000002A "Frost CDs" "132388"
+/cast Blood Tap
+/cast Unbreakable Armor
+/use 11
+/use 12
+/use 10
+/use 13
+/use 14
+/cast Blood Fury(Racial)
+END
+VER 3 000000000000002B "Froststoß" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Froststoß(Rang 6)
+/startattack
+/petattack
+/cast Klaue
+END
+VER 3 000000000000002C "Geizig" "135807"
+/cast Mirror Image
+/cast Combustion
+/use 10
+END
+VER 3 000000000000002D "gold" "135833"
+/cast Prospecting
+/use Elementium Ore
+END
+VER 3 000000000000002E "Grip" "INV_Misc_QuestionMark"
+#showtooltip Death Grip
+/cast Death Grip
+/startattack
+/cast Rune Strike
+END
+VER 3 000000000000002F "Hand" "132163"
+/use 10
+END
+VER 3 0000000000000030 "Heal" "136146"
+#Showtooltip
+/castsequence Raise Dead, Death Pact
+END
+VER 3 0000000000000031 "Heart" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Heart strike
+/startattack
+/petattack
+/cast Rune Stike
+END
+VER 3 000000000000000D "hyst" "132278"
+/w khalimmortus frenzy
+END
+VER 3 0000000000000032 "Icy touch" "INV_Misc_QuestionMark"
+#showtooltip Icy Touch
+/cast Icy Touch
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000033 "kick " "136018"
+/Stopcasting
+/cast Wind shear
+END
+VER 3 0000000000000034 "kick " "136018"
+/Stopcasting
+/cast Wind Shear
+END
+VER 3 0000000000000035 "Metacds" "237558"
+/cast Demon soul
+/cast Metamorphosis
+/cast Immolation Aura
+/use 13
+/use 14
+/use 10
+END
+VER 3 0000000000000036 "Pet rufen" "136217"
+/cast Soulburn
+/cast Summon Felhunter
+END
+VER 3 0000000000000037 "PI" "4352492"
+/w Healsalbe Pi bitte
+END
+VER 3 0000000000000038 "Plague" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Plague Strike
+/startattack
+/petattack
+/cast Rune Stike
+END
+VER 3 0000000000000039 "Pull" "413579"
+/pull 17
+END
+VER 3 000000000000003A "Pyro" "INV_Misc_QuestionMark"
+#showtooltip
+/run pFQ()
+/cast Pyroschlag
+END
+VER 3 0000000000000004 "Raidsec" "253400"
+#showtooltip
+/wirken Heilige Opferung
+/cancelaura Heilige Opferung
+END
+VER 3 000000000000003B "Rdycheck" "134400"
+/readycheck
+END
+VER 3 000000000000000E "Reju" "INV_Misc_QuestionMark"
+#showtooltip rejuvenation
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]rejuvenation
+END
+VER 3 000000000000000F "RXPTargeting" "132150"
+//RestedXP Guides - current step has no configured targets
+END
+VER 3 0000000000000001 "Schleichen" "132089"
+#showtooltip Prowl
+/cancelaura [stance:1] Bear Form; [stance:2] Aquatic Form
+/cast [nostance:3] Cat Form(Shapeshift); [nostealth, nocombat] 
+/cast Prowl
+END
+VER 3 000000000000003C "Seelenfeuer" "INV_Misc_QuestionMark"
+#showtooltip Seelenfeuer(Rang 6)
+/cast [@pettarget,exists]Demonic Empowerment
+/cast Seelenfeuer(Rang 6)]
+END
+VER 3 000000000000003D "Shadowbolt" "INV_Misc_QuestionMark"
+#showtooltip Shadow bolt
+/petattack
+/cast Shadow bolt
+END
+VER 3 0000000000000010 "Skip" "INV_Misc_QuestionMark"
+#showtooltip Gnomish Cloaking Device
+/use 8
+/use Gnomish Cloaking Device
+END
+VER 3 000000000000003E "Snap" "136197"
+/cast [@mouseover,harm,nodead][] Schattenblitz(Rang 1)
+END
+VER 3 0000000000000011 "spirit" "134400"
+/target raging spirit
+END
+VER 3 0000000000000002 "spontan" "136041"
+#showtooltip
+/cancelform
+/cast Nature's Swiftness
+/cast Healing Touch(Rank 13)
+END
+VER 3 000000000000003F "Spread" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Pestilence
+/startattack
+/cast Rune Strike
+END
+VER 3 0000000000000040 "Steady" "INV_Misc_QuestionMark"
+#showtooltip Steady Shot
+/cast Silencing Shot
+/cast Kill Command
+/cast Steady Shot
+END
+VER 3 0000000000000007 "Sternenregen" "236168"
+#showtooltip Sternenregen
+/use 13
+/use 14
+/use Geschwindigkeitstrank
+/use 10
+/cast Sternenregen
+END
+VER 3 0000000000000012 "Swift" "INV_Misc_QuestionMark"
+#showtooltip swiftmend
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]swiftmend
+END
+VER 3 0000000000000006 "targert" "133156"
+/target Gerhard
+END
+VER 3 0000000000000015 "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000014 "VuhDoDCShieldData" "132281"
+P1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000016 "VuhDoDCShieldNames" "132281"
+NHak[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Spa[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000017 "VuhDoDCShieldNames" "132281"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bre[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000013 "Wild Growth" "INV_Misc_QuestionMark"
+#showtooltip wild growth
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player]wild growth
+END

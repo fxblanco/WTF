@@ -1,0 +1,89 @@
+VER 3 0000000001000001 "1" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Soulburn; [mod:shift] Demon Leap; Life Tap
+END
+VER 3 0000000001000002 "agoniy" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Agony
+END
+VER 3 0000000001000003 "brunst" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Immolate
+END
+VER 3 0000000001000004 "circle" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl;@mouseover,exists]Spell Lock; [mod:shift] Demonic Circle: Summon; Demonic Circle: Teleport
+END
+VER 3 0000000001000005 "corruption" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Corruption
+END
+VER 3 0000000001000015 "DEST_F" "134400"
+#showtooltip
+/cast [mod:shift] Shadowflame;Rain of Fire
+/use 10
+END
+VER 3 0000000001000006 "dm" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Devour Magic
+END
+VER 3 0000000001000007 "doom" "INV_Misc_QuestionMark"
+#showtooltip Bane of Doom
+/use 10
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Doom
+END
+VER 3 0000000001000008 "drain" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift]Drain Life; [@mouseover,exists][] Drain Soul
+END
+VER 3 0000000001000009 "elemts" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Curse of the Elements
+END
+VER 3 000000000100000A "f" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Immolation Aura; [nomod] Shadowflame
+/cast [mod:ctrl, pet:felguard] Felstorm;
+/use 10
+END
+VER 3 000000000100000B "ff" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Fel Flame
+END
+VER 3 000000000100000C "g" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Death Coil; [mod:shift] Fear; [mod:alt] Howl of Terror; Fel Flame
+END
+VER 3 000000000100000D "guldan" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Hand of Gul'dan
+END
+VER 3 000000000100000E "kick" "134400"
+/cast [@mouseover,exists][] Spell Lock
+END
+VER 3 000000000100000F "leap" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Demon Leap
+/cast Immolation Aura (Demon)
+END
+VER 3 0000000001000010 "lock" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Spell Lock
+END
+VER 3 0000000001000011 "sb" "INV_Misc_QuestionMark"
+#showtooltip Shadow Bolt
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Shadow Bolt
+/cast Shadow Bite
+END
+VER 3 0000000001000012 "sf" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift]Drain Life; [@mouseover,exists][] Soul Fire
+END
+VER 3 0000000001000013 "ua" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:crtl,@focus,harm,nodead] [mod:shift,@mouseover,harm,nodead] [] Unstable Affliction
+END
+VER 3 0000000001000014 "verb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Incinerate
+END

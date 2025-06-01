@@ -13,11 +13,17 @@ NAGDB = {
 ["Serferine - Venoxis"] = {
 ["defaultBattlePotion"] = 58091,
 },
+["Alslala - Venoxis"] = {
+["defaultBattlePotion"] = 58146,
+},
 ["Alslalu - Venoxis"] = {
 ["defaultBattlePotion"] = 58091,
 },
 ["Alslahunt - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
+},
+["Kyleriemen - Venoxis"] = {
+["defaultBattlePotion"] = 58091,
 },
 ["Hopéless - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
@@ -25,7 +31,10 @@ NAGDB = {
 ["Alsia - Venoxis"] = {
 ["defaultBattlePotion"] = 58146,
 },
-["Alslala - Venoxis"] = {
+["Endonuclease - Venoxis"] = {
+["defaultBattlePotion"] = 58145,
+},
+["Bremskyle - Venoxis"] = {
 ["defaultBattlePotion"] = 58146,
 },
 ["Kwasimojo - Venoxis"] = {
@@ -35,7 +44,7 @@ NAGDB = {
 ["global"] = {
 ["enableEncounterTimer"] = true,
 ["keysMigrated"] = true,
-["fakeTimeRemaining"] = 160.7109999999957,
+["fakeTimeRemaining"] = 157.1999999999534,
 ["combatMetricsBaseline"] = false,
 ["version"] = 40202,
 },
@@ -77,9 +86,9 @@ NAGDB = {
 },
 ["PRIEST"] = {
 },
-["CLEUDebugger"] = {
-},
 ["PALADIN"] = {
+},
+["CLEUDebugger"] = {
 },
 ["WARLOCK"] = {
 },
@@ -104,17 +113,20 @@ NAGDB = {
 },
 ["profileKeys"] = {
 ["Alsla - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
 ["Serferine - Venoxis"] = "Default",
 ["Endonuclease - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
 ["Alslalu - Venoxis"] = "Default",
 ["Hópéful - Venoxis"] = "Default",
-["Alsia - Venoxis"] = "Default",
+["Kyleriemen - Venoxis"] = "Default",
 ["Hopéless - Venoxis"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
-["Alslahunt - Venoxis"] = "Default",
-["Alslala - Venoxis"] = "Default",
+["Spaltkyle - Venoxis"] = "Default",
+["Bremskyle - Venoxis"] = "Default",
 ["Kwasimojo - Venoxis"] = "Default",
 },
 ["profiles"] = {

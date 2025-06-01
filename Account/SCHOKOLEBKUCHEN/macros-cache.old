@@ -1,0 +1,109 @@
+VER 3 000000000000000D "_1_" "134400"
+/1 LFM 10er FL 2+ HC - Dienstag 22:30 - 1 Tank 1 DD (meele Pref) - Stammplatzt möglich /w oder https://discord.gg/JSTDUy8G
+END
+VER 3 0000000000000018 "_sit" "134400"
+/sit
+END
+VER 3 000000000000000F "aeo" "134400"
+#showtooltip
+/cast [mod:shift] Seed of Corruption;Shadowflame
+END
+VER 3 0000000000000017 "amalg" "134400"
+/tar Hideous Amal
+END
+VER 3 0000000000000015 "BTN" "134400"
+/click ExtraActionButton1
+END
+VER 3 0000000000000008 "CD_DSFury" "134400"
+#showtooltip
+/cast Demon Soul
+/cast Blood Fury(Racial)
+/use 13
+/use 14
+/use 10
+END
+VER 3 0000000000000003 "Doomguard" "134400"
+#showtooltip Summon Doomguard
+/cast Soulburn
+/cast [@cursor] Summon Doomguard
+END
+VER 3 0000000000000011 "focus" "134400"
+/focus
+END
+VER 3 000000000000000E "haunt" "134400"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Haunt
+END
+VER 3 0000000000000006 "Hellfire" "134400"
+#showtooltip Hellfire
+/cast [nochanneling] Hellfire
+/cancelaura [channeling] Hellfire
+END
+VER 3 0000000000000004 "Infernal" "134400"
+#showtooltip
+/cast [@cursor] Summon Infernal
+END
+VER 3 000000000000000A "META" "134400"
+#showtooltip Metamorphosis
+/cast Blood Fury(Racial)
+/use 13
+/use 14
+/use 10
+/use Moonwell Chalice
+/cast Demon Soul
+/cast Soulburn
+/cast Metamorphosis
+END
+VER 3 000000000000000B "pet_att" "134400"
+/petattack
+/petattack [mod:shift,@mouseover, harm, exists]
+END
+VER 3 000000000000000C "pet_Follow" "134400"
+/petfollow
+END
+VER 3 0000000000000002 "PRE META" "134400"
+#showtooltip Metamorphosis
+/cast Blood Fury(Racial)
+/use Volcanic Potion
+/use 10
+/use 13
+/use 14
+/cast [pet:felguard] Demon Soul 
+/cast !Metamorphosis
+/equipset Demo
+END
+VER 3 0000000000000001 "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Bloodsnarl Scavenger
+/targetlasttarget [dead]
+END
+VER 3 0000000000000014 "shater" "134400"
+#showtooltip
+/cast [mod:ctrl] Death Coil; [mod:shift] Soul Link; [mod:alt] Howl of Terror; Soulshatter
+END
+VER 3 0000000000000016 "Spine" "134400"
+/target boss2
+/use [@boss2,exists] Metamorphosis
+/use [@boss2,exists] Demon Soul
+/use [@boss2,exists] Blood Fury
+/use [@boss2,exists] Bottled Wishes
+/use [@boss2,exists] 10
+/use [@boss2,exists] Immolate
+/petattack [@boss2,exists] 
+END
+VER 3 0000000000000010 "ss" "134400"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Soul Swap
+END
+VER 3 0000000000000005 "Summon" "134400"
+#showtooltip
+/cast [nopet:felguard] Summon Felguard 
+/cast [pet:felguard] Demon Soul 
+/use [pet:felguard] 10
+/use [pet:felguard] 13 
+/use [pet:felguard] 14
+/cast [pet:felguard] Soulburn 
+/cast [pet:felguard] Summon Felhunter
+END
+VER 3 0000000000000012 "test" "134400"
+/use 10
+END

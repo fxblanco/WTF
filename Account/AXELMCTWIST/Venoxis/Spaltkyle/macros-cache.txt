@@ -1,0 +1,60 @@
+VER 3 0000000001000005 "BCanc" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Shield
+/cancelaura Divine Shield
+END
+VER 3 0000000001000006 "CS" "INV_Misc_QuestionMark"
+#showtooltip Crusader Strike
+/cancelaura Blessing on Protection
+/use Crusader Strike
+/use Hand of Reckoning
+/use [@player] Saronite bomb
+END
+VER 3 0000000001000007 "CSac" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Sacrifice
+/cancelaura Divine Sacrifice
+END
+VER 3 0000000001000008 "DS" "INV_Misc_QuestionMark"
+#showtooltip Divine Storm
+/cancelaura Blessing on Protection
+/use Divine Storm
+/use Hand of Reckoning
+/use [@player] Saronite bomb
+END
+VER 3 0000000001000009 "Free" "INV_Misc_QuestionMark"
+#showtooltip Hand of Freedom
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] Hand of Freedom
+END
+VER 3 000000000100000A "Hop" "INV_Misc_QuestionMark"
+#showtooltip Hand of Protection
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] Hand of Protection
+END
+VER 3 000000000100000B "RD" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, nodead] Righteous Defense
+END
+VER 3 000000000100000C "Sac" "INV_Misc_QuestionMark"
+#showtooltip Hand of Sacrifice
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] Hand of Sacrifice
+END
+VER 3 000000000100000D "Salv" "INV_Misc_QuestionMark"
+#showtooltip Hand of Salvation
+/use [@mouseover,exists,noharm,nodead][@target,exists,noharm,nodead][@player] Hand of Salvation
+END
+VER 3 000000000100000E "Taunt" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, nodead] Hand of Reckoning
+END
+VER 3 0000000001000003 "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+NHak[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Spa[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000004 "VuhDoDCShieldNames" "132281"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bre[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

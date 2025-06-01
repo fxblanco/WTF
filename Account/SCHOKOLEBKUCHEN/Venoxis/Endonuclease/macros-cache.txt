@@ -1,0 +1,69 @@
+VER 3 0000000001000003 "1" "132320"
+#showtooltip
+/cast [mod:shift] Vanish; Stealth
+END
+VER 3 0000000001000006 "2" "134400"
+#showtooltip
+/cast [mod:shift] Expose Armor; [mod:ctrl] Evasion; Slice and Dice
+END
+VER 3 0000000001000004 "<" "134400"
+#showtooltip
+/cast [mod:shift] Cloak of Shadows; [mod:ctrl] Evasion; Feint
+END
+VER 3 0000000001000010 "AMB" "134400"
+#showtooltip Ambush
+/cast Shadowmeld
+/cast Premeditation
+/cast Ambush
+END
+VER 3 000000000100000F "BST" "134400"
+#showtooltip Backstab
+/startattack
+/cast Backstab
+END
+VER 3 000000000100000A "C" "134400"
+#showtooltip
+/cast Adrenaline Rush
+/cast Berserking
+END
+VER 3 0000000001000008 "COMBAT_CD" "134400"
+#showtooltip
+/cast [mod:shift] Adrenaline Rush; [mod:ctrl] Combat Readiness; Killing Spree
+END
+VER 3 000000000100000E "DANCE" "134400"
+#showtooltip Shadow Dance
+/cast Shadow Dance
+/cast Blood Fury
+/cast Berserking
+/use 10
+/use [@player] Saronite Bomb
+END
+VER 3 0000000001000009 "G" "134400"
+#showtooltip
+/cast [mod:shift] Kidney Shot; [mod:ctrl, @mousover] Blind; Redirect
+END
+VER 3 0000000001000007 "R" "134400"
+#showtooltip
+/cast [mod:shift]; [mod:ctrl] Evasion; Blade Flurry
+END
+VER 3 000000000100000D "SND" "134400"
+#showtooltip
+/cast Slice And Dice
+/use Potion of the Tol'vir
+/equipset Normal
+/cast Sprint
+/use 10
+/cast Stealth
+/cast Premeditation
+END
+VER 3 000000000100000C "tar" "134400"
+/target boss2
+/use [@boss2,exists] Redirect
+/use [@boss2,exists] 14
+/use [@boss2,exists] Berserking
+/use [@boss2,exists] Adrenaline Rush
+END
+VER 3 000000000100000B "tricks" "134400"
+#showtooltip
+/cast [@focus] Tricks of the Trade
+END

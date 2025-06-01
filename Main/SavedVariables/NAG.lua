@@ -13,19 +13,31 @@ NAGDB = {
 ["Serferine - Venoxis"] = {
 ["defaultBattlePotion"] = 58091,
 },
+["Spaltkyle - Venoxis"] = {
+["defaultBattlePotion"] = 58146,
+},
+["Alslala - Venoxis"] = {
+["defaultBattlePotion"] = 58146,
+},
 ["Alslalu - Venoxis"] = {
 ["defaultBattlePotion"] = 58091,
 },
 ["Alslahunt - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
 },
+["Kyleriemen - Venoxis"] = {
+["defaultBattlePotion"] = 58091,
+},
 ["Hopéless - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
+},
+["Alsia - Venoxis"] = {
+["defaultBattlePotion"] = 58146,
 },
 ["Endonuclease - Venoxis"] = {
 ["defaultBattlePotion"] = 58145,
 },
-["Alslala - Venoxis"] = {
+["Bremskyle - Venoxis"] = {
 ["defaultBattlePotion"] = 58146,
 },
 ["Kwasimojo - Venoxis"] = {
@@ -71,17 +83,13 @@ NAGDB = {
 },
 ["PullTimerManager"] = {
 },
-["RotationManager"] = {
+["ImportExport"] = {
 },
 ["APLMonitor"] = {
 },
 ["PRIEST"] = {
 },
-["CLEUDebugger"] = {
-},
-["PALADIN"] = {
-},
-["WARLOCK"] = {
+["APLEditor"] = {
 },
 ["EncounterStopwatch"] = {
 ["char"] = {
@@ -93,9 +101,13 @@ NAGDB = {
 },
 },
 },
-["APLEditor"] = {
+["WARLOCK"] = {
 },
-["ImportExport"] = {
+["CLEUDebugger"] = {
+},
+["PALADIN"] = {
+},
+["RotationManager"] = {
 },
 ["ResourceBarManager"] = {
 },
@@ -105,16 +117,19 @@ NAGDB = {
 ["profileKeys"] = {
 ["Alsla - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
 ["Serferine - Venoxis"] = "Default",
 ["Endonuclease - Venoxis"] = "Default",
-["Alslalu - Venoxis"] = "Default",
+["Spaltkyle - Venoxis"] = "Default",
 ["Hópéful - Venoxis"] = "Default",
-["Alsia - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Kyleriemen - Venoxis"] = "Default",
 ["Hopéless - Venoxis"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
-["Alslahunt - Venoxis"] = "Default",
-["Alslala - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
+["Bremskyle - Venoxis"] = "Default",
 ["Kwasimojo - Venoxis"] = "Default",
 },
 ["profiles"] = {
