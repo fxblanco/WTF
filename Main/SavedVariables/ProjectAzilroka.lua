@@ -13,14 +13,15 @@ ProjectAzilrokaDB = {
 ["Xolem - Venoxis"] = "Default",
 ["Alslala - Venoxis"] = "Default",
 ["Lucho - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
 ["Spaltkyle - Venoxis"] = "Default",
 ["Hópéful - Venoxis"] = "Default",
-["Alslalu - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Andrés - Venoxis"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
-["Alsia - Venoxis"] = "Default",
+["Invisibilia - Venoxis"] = "Default",
 ["Bremskyle - Venoxis"] = "Default",
 ["Maturitass - Venoxis"] = "Default",
 },
@@ -55,10 +56,10 @@ ProjectAzilrokaDB = {
 ["stAddonManager"] = {
 ["Enable"] = false,
 },
-["FasterLoot"] = {
+["Cooldown"] = {
 ["Enable"] = false,
 },
-["Cooldown"] = {
+["FasterLoot"] = {
 ["Enable"] = false,
 },
 ["EnhancedFriendsList"] = {

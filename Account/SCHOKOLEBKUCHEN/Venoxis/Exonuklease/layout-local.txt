@@ -20,6 +20,13 @@ X: 0
 Y: 0
 W: 610
 H: 438
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -208
+Y: -285
+W: 920
+H: 600
 Frame: DevToolFrame
 FrameLevel: 1
 Anchor: CENTER

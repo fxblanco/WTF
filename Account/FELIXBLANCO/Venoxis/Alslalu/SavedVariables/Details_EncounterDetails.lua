@@ -1,23 +1,85 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[111] = {
+[106] = {
 },
-[115] = {
+[122] = {
 },
-[97] = {
+[148] = {
+},
+[149] = {
+},
+[150] = {
+},
+[183] = {
 },
 [109] = {
 },
+[185] = {
+},
+[155] = {
+},
+[157] = {
+},
+[127] = {
+},
+[160] = {
+},
 [113] = {
+},
+[193] = {
+},
+[131] = {
+},
+[164] = {
+},
+[196] = {
+},
+[115] = {
+},
+[198] = {
+},
+[136] = {
+},
+[168] = {
 },
 [117] = {
 },
-[91] = {
+[138] = {
 },
-[102] = {
+[170] = {
 },
-[106] = {
+[202] = {
+},
+[140] = {
+},
+[172] = {
+},
+[204] = {
+},
+[189] = {
+},
+[142] = {
+},
+[174] = {
+},
+[206] = {
+},
+[175] = {
+},
+[144] = {
+},
+[176] = {
+},
+[208] = {
+},
+[179] = {
+},
+[146] = {
+},
+[178] = {
+},
+[111] = {
 },
 },
 ["encounter_spells"] = {
@@ -562,6 +624,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Resonating Crystal",
 },
+[105847] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Burning Tendons",
+},
 [105369] = {
 ["school"] = 8,
 ["type"] = "DEBUFF",
@@ -652,6 +724,13 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 },
+[91776] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Risen Ghoul",
+},
 [106375] = {
 ["school"] = 32,
 ["token"] = {
@@ -690,12 +769,29 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hideous Amalgamation",
 },
-[54049] = {
-["school"] = 32,
+[81281] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Fungal Growth II",
+},
+[107029] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Greefun",
+["source"] = "Mutated Corruption",
+},
+[110137] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Warmaster Blackhorn",
 },
 [104543] = {
 ["school"] = 1,
@@ -713,6 +809,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hideous Amalgamation",
 },
+[3600] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Earthbind Totem",
+},
 [106376] = {
 ["school"] = 34,
 ["type"] = "BUFF",
@@ -722,20 +826,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[110137] = {
+[52586] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Tentacle of the Old Ones",
+},
+[16827] = {
 ["school"] = 1,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Warmaster Blackhorn",
-},
-[109102] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_HEAL"] = true,
-},
-["source"] = "Congealing Blood",
+["source"] = "Sting",
 },
 [104894] = {
 ["school"] = 1,
@@ -746,22 +851,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Dark Globule",
 },
-[110628] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Elementium Bolt",
-},
-[50461] = {
+[105416] = {
 ["school"] = 32,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Anti-Magic Zone",
+["source"] = "Yor'sahj the Unsleeping",
+},
+[57984] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Greater Fire Elemental",
 },
 [110297] = {
 ["school"] = 32,
@@ -819,21 +922,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Goriona",
 },
-[3110] = {
+[105723] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Jublop",
-},
-[108813] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Corrupting Parasite",
+["source"] = "Elementium Bolt",
+},
+[104898] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Acidic Globule",
 },
 [106400] = {
 ["school"] = 1,
@@ -853,22 +957,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[103851] = {
-["school"] = 1,
-["type"] = "BUFF",
+[106371] = {
+["school"] = 34,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Kohcrom",
-},
-[105408] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Arm Tentacle",
+["source"] = "Ultraxion",
 },
 [105219] = {
 ["school"] = 1,
@@ -878,42 +973,51 @@ EncounterDetailsDB = {
 },
 ["source"] = "Corrupted Blood",
 },
-[103327] = {
-["school"] = 32,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Ultraxion",
-},
-[59638] = {
+[55095] = {
 ["school"] = 16,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Mirror Image",
+["source"] = "Rune Weapon",
 },
-[48210] = {
-["school"] = 32,
-["token"] = {
-["SPELL_HEAL"] = true,
-},
-["source"] = "Morchok",
-},
-[106005] = {
-["school"] = 4,
-["type"] = "DEBUFF",
+[107850] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Hideous Amalgamation",
-},
-[103527] = {
-["school"] = 32,
-["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
+["source"] = "Hagara the Stormbinder",
+},
+[105312] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Frozen Binding Crystal",
+},
+[104031] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
 ["source"] = "Void of the Unmaking",
+},
+[110212] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Goriona",
+},
+[34655] = {
+["school"] = 8,
+["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Viper",
 },
 [108051] = {
 ["school"] = 32,
@@ -922,23 +1026,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Goriona",
 },
-[98021] = {
-["school"] = 8,
+[105248] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[81280] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_HEAL"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Spirit Link Totem",
-},
-[110214] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Goriona",
+["source"] = "Bloodworm",
 },
 [107589] = {
 ["school"] = 32,
@@ -988,36 +1090,36 @@ EncounterDetailsDB = {
 },
 ["source"] = "Flail of Go'rath",
 },
-[106794] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Elementium Fragment",
-},
-[104896] = {
+[103176] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Shadowed Globule",
+["source"] = "Morchok",
 },
-[109247] = {
-["school"] = 1,
+[31707] = {
+["school"] = 16,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Twilight Sapper",
+["source"] = "Water Elemental",
 },
-[106523] = {
+[88082] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Deathwing",
+["source"] = "Mirror Image",
+},
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Glowing Globule",
 },
 [103414] = {
 ["school"] = 1,
@@ -1030,33 +1132,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[108221] = {
+[109247] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Glowing Globule",
+["source"] = "Twilight Sapper",
 },
-[104451] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[109541] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[106730] = {
+[108220] = {
 ["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Terror",
+["source"] = "Shadowed Globule",
 },
 [107558] = {
 ["school"] = 32,
@@ -1096,13 +1193,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Frozen Binding Crystal",
 },
-[6307] = {
-["school"] = 32,
+[106372] = {
+["school"] = 34,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Jublop",
+["source"] = "Ultraxion",
+},
+[108419] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Acidic Globule",
 },
 [104849] = {
 ["school"] = 32,
@@ -1115,14 +1221,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Yor'sahj the Unsleeping",
 },
-[108419] = {
-["school"] = 8,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Acidic Globule",
-},
 [109325] = {
 ["school"] = 16,
 ["type"] = "DEBUFF",
@@ -1131,14 +1229,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[106372] = {
-["school"] = 34,
+[6307] = {
+["school"] = 32,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Ultraxion",
+["source"] = "Jublop",
 },
 [104897] = {
 ["school"] = 1,
@@ -1149,107 +1246,114 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crimson Globule",
 },
-[108220] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Shadowed Globule",
-},
-[109541] = {
+[108221] = {
 ["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Hagara the Stormbinder",
-},
-[1604] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Glowing Globule",
 },
-[103176] = {
+[110214] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Goriona",
+},
+[106730] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Elementium Terror",
+},
+[104451] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[104896] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Shadowed Globule",
 },
-[81280] = {
-["school"] = 32,
-["token"] = {
-["SPELL_HEAL"] = true,
-},
-["source"] = "Bloodworm",
-},
-[105248] = {
+[106523] = {
 ["school"] = 4,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Corrupted Blood",
-},
-[34655] = {
-["school"] = 8,
-["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Viper",
-},
-[88082] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Mirror Image",
-},
-[110212] = {
-["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Goriona",
+["source"] = "Deathwing",
 },
-[105312] = {
+[106794] = {
 ["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Frozen Binding Crystal",
-},
-[104031] = {
-["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Void of the Unmaking",
+["source"] = "Elementium Fragment",
 },
-[55095] = {
-["school"] = 16,
+[98021] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Rune Weapon",
+["source"] = "Spirit Link Totem",
 },
-[107850] = {
-["school"] = 1,
+[106005] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[103527] = {
+["school"] = 32,
+["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Void of the Unmaking",
+},
+[59638] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Mirror Image",
+},
+[48210] = {
+["school"] = 32,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Morchok",
+},
+[103327] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ultraxion",
 },
 [103846] = {
 ["school"] = 1,
@@ -1260,22 +1364,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[106371] = {
-["school"] = 34,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Ultraxion",
-},
-[104898] = {
+[103851] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Acidic Globule",
+["source"] = "Kohcrom",
+},
+[105408] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Arm Tentacle",
 },
 [106444] = {
 ["school"] = 1,
@@ -1286,28 +1390,29 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mutated Corruption",
 },
-[105723] = {
+[109102] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
+},
+["source"] = "Congealing Blood",
+},
+[108813] = {
 ["school"] = 4,
 ["token"] = {
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Bolt",
+["source"] = "Corrupting Parasite",
 },
-[57984] = {
+[3110] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Greater Fire Elemental",
-},
-[105416] = {
-["school"] = 32,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Yor'sahj the Unsleeping",
+["source"] = "Jublop",
 },
 [107018] = {
 ["school"] = 4,
@@ -1317,515 +1422,643 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathwing",
 },
-[16827] = {
-["school"] = 1,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Sting",
-},
-[52586] = {
+[50461] = {
 ["school"] = 32,
-["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Tentacle of the Old Ones",
-},
-[3600] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Earthbind Totem",
+["source"] = "Anti-Magic Zone",
 },
-[107029] = {
+[110628] = {
 ["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Elementium Bolt",
+},
+[54049] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Greefun",
+},
+[109396] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Mutated Corruption",
+["source"] = "Claw of Go'rath",
 },
 },
 ["emotes"] = {
 {
 {
-5.159999999974389,
+4.84899999992922,
 "|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
 "Deathwing",
 1,
 },
 {
-15,
+14.81900000013411,
 "|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF04FC32|Hspell:107018|h[Ysera]|h|r!",
 "Deathwing",
 1,
 },
 {
-15,
+14.81900000013411,
 "I will bring you closer to the Emerald Dream. Seek safety there when the fight becomes too intense.",
 "Ysera",
 7,
 },
 {
-19.34599999996135,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Arm Tentacle",
-1,
-},
-{
-45.27700000000186,
+45.33199999993667,
 "|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
 "Deathwing",
 1,
 },
 {
-45.27700000000186,
-"There is no shelter from my fury.",
+45.33199999993667,
+"Your armor means nothing, your faith even less.",
 "Deathwing",
 7,
 },
 {
-61.4769999999553,
+59.8179999999702,
 "|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
 "Deathwing",
 1,
 },
 {
-79.42199999996228,
+70.88000000012107,
 "|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
 "Arm Tentacle",
 1,
 },
 {
-127.9789999999921,
+78.93999999994412,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+106.563000000082,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+119.9299999999348,
+"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
+"Deathwing",
+1,
+},
+{
+119.9299999999348,
+"Deathwing is conjuring the final Cataclysm; even the Emerald Dream trembles. If we are to stop the spell, we must attack him together.",
+"Ysera",
+7,
+},
+{
+137.3870000001043,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+153.6629999999423,
 "|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
 "Deathwing",
 1,
 },
 {
-138.0219999999972,
+163.6659999999683,
 "|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFFFF0000|Hspell:107018|h[Alexstrasza]|h|r!",
 "Deathwing",
 1,
 },
 {
-138.0219999999972,
+163.6659999999683,
 "I will cleanse whatever corruption I can; my fire will not harm you.",
 "Alexstrasza",
 7,
 },
 {
-161.9400000000023,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Wing Tentacle",
-1,
-},
-{
-185.0569999999716,
+210.6959999999963,
 "|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
 "Deathwing",
 1,
 },
 {
-185.0569999999716,
-"The sea will swallow your smoldering remains.",
-"Deathwing",
-7,
-},
-{
-201.070000000007,
-"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
-"Deathwing",
-1,
-},
-{
-226.7149999999674,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Wing Tentacle",
-1,
-},
-{
-261.0399999999791,
-"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
-"Deathwing",
-1,
-},
-{
-261.0399999999791,
-"No! Such power! Deathwing's summoning of the final Cataclysm will destroy all life on Azeroth. Quickly, we must interrupt him!",
-"Alexstrasza",
-7,
-},
-{
-269.5760000000009,
-"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
-"Deathwing",
-1,
-},
-{
-279.6209999999846,
-"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFFFFFF00|Hspell:107018|h[Nozdormu]|h|r!",
-"Deathwing",
-1,
-},
-{
-279.6209999999846,
-"I will slow the Destroyer's attacks when I can.",
-"Nozdormu",
-7,
-},
-{
-285.0179999999818,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Arm Tentacle",
-1,
-},
-{
-327.4419999999809,
-"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
-"Deathwing",
-1,
-},
-{
-327.4419999999809,
-"The sea will swallow your smoldering remains.",
-"Deathwing",
-7,
-},
-{
-343.2390000000014,
-"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
-"Deathwing",
-1,
-},
-{
-369.0869999999995,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Arm Tentacle",
-1,
-},
-{
-403.4959999999846,
-"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
-"Deathwing",
-1,
-},
-{
-403.4959999999846,
-"Hurry, heroes. In mere moments Deathwing's Cataclysm will complete what he begun and end the world. Join me in the attack, now!",
-"Nozdormu",
-7,
-},
-{
-416.1889999999548,
-"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
-"Deathwing",
-1,
-},
-{
-426.1809999999823,
-"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF5858FA|Hspell:107018|h[Kalecgos]|h|r!",
-"Deathwing",
-1,
-},
-{
-426.1809999999823,
-"I will charge you with arcane energy to blast your foes.",
-"Kalecgos",
-7,
-},
-{
-473.2440000000061,
-"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
-"Deathwing",
-1,
-},
-{
-473.2440000000061,
-"The sea will swallow your smoldering remains.",
-"Deathwing",
-7,
-},
-{
-489.429999999993,
-"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
-"Deathwing",
-1,
-},
-{
-501.9489999999641,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Wing Tentacle",
-1,
-},
-{
-544.0969999999506,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Wing Tentacle",
-1,
-},
-{
-549.3389999999781,
-"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
-"Deathwing",
-1,
-},
-{
-549.3389999999781,
-"The Destroyer is gathering all his might for a blow that will split the world. Attack him, now! We must stop the final Cataclysm!",
-"Kalecgos",
-7,
-},
-{
-570.3960000000079,
-"I AM DEATHWING, THE DESTROYER, THE END OF ALL THINGS, INEVITABLE, INDOMITABLE; I AM THE CATACLYSM!",
-"Deathwing",
-7,
-},
-{
-570.3960000000079,
-"|TInterface\\Icons\\inv_stave_2h_deathwingraiddw_d_01.blp:20|t%s falls forward, get to |cFF04FC32Ysera's|r platform!",
-"Deathwing",
-1,
-},
-{
-586.1900000000023,
-"Such rage I have never seen...",
-"Ysera",
-7,
-},
-{
-600.9830000000075,
-"These champions are our only hope for exposing Deathwing's weakness. Together, we can prevail.",
-"Thrall",
-7,
-},
-{
-603.9039999999804,
-"",
-"Alexstrasza",
-1,
-},
-{
-634.9229999999516,
-"",
-"Alexstrasza",
-1,
-},
-{
-659.9009999999544,
-"",
-"Alexstrasza",
-1,
-},
-["boss"] = "Madness of Deathwing",
-},
-{
-{
-5.614999999990687,
-"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
-"Deathwing",
-1,
-},
-{
-15.55999999999767,
-"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF04FC32|Hspell:107018|h[Ysera]|h|r!",
-"Deathwing",
-1,
-},
-{
-15.55999999999767,
-"I will bring you closer to the Emerald Dream. Seek safety there when the fight becomes too intense.",
-"Ysera",
-7,
-},
-{
-18.57600000000093,
-"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
-"Arm Tentacle",
-1,
-},
-{
-44.46100000001025,
-"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
-"Deathwing",
-1,
-},
-{
-44.46100000001025,
+210.6959999999963,
 "There is no shelter from my fury.",
 "Deathwing",
 7,
 },
 {
-56.5910000000149,
-"%s begins to impale the Aspect! Stop it!",
-"Mutated Corruption",
+223.2849999999162,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
 1,
 },
 {
-60.625,
+226.8940000000875,
 "|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
 "Deathwing",
+1,
+},
+{
+249.2090000000317,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+286.8929999999236,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
+"Deathwing",
+1,
+},
+{
+296.9099999999162,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF5858FA|Hspell:107018|h[Kalecgos]|h|r!",
+"Deathwing",
+1,
+},
+{
+296.9099999999162,
+"I will charge you with arcane energy to blast your foes.",
+"Kalecgos",
+7,
+},
+{
+345.2730000000447,
+"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
+"Deathwing",
+1,
+},
+{
+345.2730000000447,
+"The sea will swallow your smoldering remains.",
+"Deathwing",
+7,
+},
+{
+361.4259999999777,
+"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
+"Deathwing",
+1,
+},
+{
+364.3000000000466,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+395.1550000000279,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+421.3959999999497,
+"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
+"Deathwing",
+1,
+},
+{
+421.3959999999497,
+"The Destroyer is gathering all his might for a blow that will split the world. Attack him, now! We must stop the final Cataclysm!",
+"Kalecgos",
+7,
+},
+{
+424.9490000000224,
+"I AM DEATHWING, THE DESTROYER, THE END OF ALL THINGS, INEVITABLE, INDOMITABLE; I AM THE CATACLYSM!",
+"Deathwing",
+7,
+},
+{
+424.9490000000224,
+"|TInterface\\Icons\\inv_stave_2h_deathwingraiddw_d_01.blp:20|t%s falls forward, get to |cFF04FC32Ysera's|r platform!",
+"Deathwing",
+1,
+},
+{
+440.4769999999553,
+"Press the attack, heroes.",
+"Nozdormu",
+7,
+},
+{
+447.1400000001304,
+"",
+"Alexstrasza",
+1,
+},
+{
+456.6440000000875,
+"Aspects! Aid the heroes as best you can.",
+"Thrall",
+7,
+},
+{
+475.1219999999739,
+"",
+"Alexstrasza",
+1,
+},
+{
+496.1410000000615,
+"",
+"Alexstrasza",
 1,
 },
 ["boss"] = "Madness of Deathwing",
 },
 {
 {
-3.027999999991152,
+2.652000000001863,
 "The plates! He's coming apart! Tear up the plates and we've got a shot at bringing him down!",
 "Sky Captain Swayze",
 7,
 },
 {
-15.17299999995157,
+11.47100000013597,
 "Don't worry about me. Stop the Destroyer! Enshu-falah-nah, dorini.",
 "Sky Captain Swayze",
 7,
 },
 {
-22.17999999999302,
+16.58199999993667,
 "%s feels players on his left side.\r\nHe's about to roll left!",
 "Deathwing",
 1,
 },
 {
-27.14899999997579,
+21.58100000000559,
 "%s rolls left!",
 "Deathwing",
 1,
 },
 {
-37.83399999997346,
+41.53799999994226,
+"You are less than dust, fit only to be brushed from my back.",
+"Deathwing",
+7,
+},
+{
+77.15500000002794,
 "Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
 "Deathwing",
 7,
 },
 {
-68.65099999995437,
+112.7609999999404,
 "Cling while you can, \"heroes.\" You and your world are doomed.",
 "Deathwing",
 7,
 },
 {
-101.0689999999595,
-"Ha! I had not realized you fools were still there.",
-"Deathwing",
-7,
-},
-{
-113.6289999999572,
+132.1510000000708,
 "|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
 "Hideous Amalgamation",
 1,
 },
 {
-133.4879999999539,
-"Your efforts are insignificant. I carry you to your deaths.",
+148.3959999999497,
+"Ha! I had not realized you fools were still there.",
 "Deathwing",
 7,
 },
 {
-153.1589999999851,
+179.1620000000112,
+"You are less than dust, fit only to be brushed from my back.",
+"Deathwing",
+7,
+},
+{
+202.9720000000671,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+209.9569999999367,
+"Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
+"Deathwing",
+7,
+},
+{
+221.6130000001285,
+"%s feels players on his left side.\r\nHe's about to roll left!",
+"Deathwing",
+1,
+},
+{
+226.5830000001006,
+"%s rolls left!",
+"Deathwing",
+1,
+},
+{
+243.4680000001099,
+"You are less than dust, fit only to be brushed from my back.",
+"Deathwing",
+7,
+},
+{
+274.185999999987,
+"Cling while you can, \"heroes.\" You and your world are doomed.",
+"Deathwing",
+7,
+},
+{
+283.5039999999572,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+306.4850000001025,
+"Ha! I had not realized you fools were still there.",
+"Deathwing",
+7,
+},
+{
+343.7320000000764,
+"You are less than dust, fit only to be brushed from my back.",
+"Deathwing",
+7,
+},
+{
+354.2550000001211,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+378.5879999999888,
 "%s feels players on his right side.\r\nHe's about to roll right!",
 "Deathwing",
 1,
 },
 {
-158.1900000000023,
+379.2950000001583,
+"Cling while you can, \"heroes.\" You and your world are doomed.",
+"Deathwing",
+7,
+},
+{
+383.5849999999628,
 "%s rolls right!",
 "Deathwing",
 1,
 },
 {
-172.3090000000084,
-"Cling while you can, \"heroes.\" You and your world are doomed.",
+413.2509999999311,
+"You are less than dust, fit only to be brushed from my back.",
 "Deathwing",
 7,
 },
 {
-211.0949999999721,
+444.0109999999404,
 "Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
 "Deathwing",
 7,
 },
 {
-218.804999999993,
+464.280999999959,
 "|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
 "Hideous Amalgamation",
 1,
 },
 {
-251.61599999998,
-"Cling while you can, \"heroes.\" You and your world are doomed.",
-"Deathwing",
-7,
-},
-{
-290.4619999999995,
-"Your efforts are insignificant. I carry you to your deaths.",
-"Deathwing",
-7,
-},
-{
-303.7569999999832,
-"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
-"Hideous Amalgamation",
-1,
-},
-{
-332.1649999999791,
-"%s feels players on his left side.\r\nHe's about to roll left!",
-"Deathwing",
-1,
-},
-{
-337.1389999999665,
-"%s rolls left!",
-"Deathwing",
-1,
-},
-{
-358.4539999999688,
-"Ha! I had not realized you fools were still there.",
-"Deathwing",
-7,
-},
-{
-392.0129999999772,
-"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
-"Hideous Amalgamation",
-1,
-},
-{
-398.7149999999674,
-"Your efforts are insignificant. I carry you to your deaths.",
-"Deathwing",
-7,
-},
-{
-437.7859999999637,
-"Ha! I had not realized you fools were still there.",
-"Deathwing",
-7,
-},
-{
-469.3119999999763,
-"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
-"Hideous Amalgamation",
-1,
-},
-{
-470.1389999999665,
+476.469000000041,
 "Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
 "Deathwing",
 7,
 },
 ["boss"] = "Spine of Deathwing",
+},
+{
+{
+3.815999999875203,
+"Hah! I was hoping you'd make it this far. You'd best be ready for a real fight.",
+"Warmaster Blackhorn",
+7,
+},
+{
+11.41699999989942,
+"Our engines are damaged!  We're sitting ducks up here!",
+"Sky Captain Swayze",
+7,
+},
+{
+18.00199999986216,
+"You won't get near the Master. Dragonriders, attack!",
+"Warmaster Blackhorn",
+7,
+},
+{
+26.08899999991991,
+"All hands to battle stations; get those monsters away from the ship!",
+"Sky Captain Swayze",
+7,
+},
+{
+45.71799999987707,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+45.71799999987707,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+55.69599999999628,
+"|Tinterface\\icons\\spell_fire_twilightrainoffire.blp:0|t%s fires a |cFF9900CC|Hspell:110153|h[Broadside]|h|r at the Skyfire!",
+"Goriona",
+1,
+},
+{
+58.47099999990314,
+"|Tinterface\\icons\\spell_fire_ragnaros_lavabolt.blp:0|tStructural damage to the Skyfire triggers a sudden |cFFFF0000|Hspell:110095|h[Deck Fire]|h|r!",
+"The Skyfire",
+1,
+},
+{
+68.18699999991804,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+80.72399999992922,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+80.72399999992922,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+108.2539999999572,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+115.7289999998175,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+115.7289999998175,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+116.4769999999553,
+"|Tinterface\\icons\\spell_fire_ragnaros_lavabolt.blp:0|tStructural damage to the Skyfire triggers a sudden |cFFFF0000|Hspell:110095|h[Deck Fire]|h|r!",
+"The Skyfire",
+1,
+},
+{
+125.7039999999106,
+"|Tinterface\\icons\\spell_fire_twilightrainoffire.blp:0|t%s fires a |cFF9900CC|Hspell:110153|h[Broadside]|h|r at the Skyfire!",
+"Goriona",
+1,
+},
+{
+148.2609999999404,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+150.7129999999888,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+150.7129999999888,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+176.497999999905,
+"|Tinterface\\icons\\spell_fire_ragnaros_lavabolt.blp:0|tStructural damage to the Skyfire triggers a sudden |cFFFF0000|Hspell:110095|h[Deck Fire]|h|r!",
+"The Skyfire",
+1,
+},
+{
+182.6629999999423,
+"%s snaps its tether with a mighty effort, breaking free!",
+"Twilight Assault Drake",
+3,
+},
+{
+185.6969999999274,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+185.6969999999274,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+186.4969999999739,
+"The Skyfire can't take much more of this!",
+"Sky Captain Swayze",
+7,
+},
+{
+187.1299999998882,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+195.6979999998584,
+"|Tinterface\\icons\\spell_fire_twilightrainoffire.blp:0|t%s fires a |cFF9900CC|Hspell:110153|h[Broadside]|h|r at the Skyfire!",
+"Goriona",
+1,
+},
+{
+200.1280000000261,
+"Concentrate everything on the armored drake!",
+"Sky Captain Swayze",
+7,
+},
+{
+212.6339999998454,
+"Looks like I'm doing this myself. Good!",
+"Warmaster Blackhorn",
+7,
+},
+{
+229.2029999999795,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+{
+253.4469999999274,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+{
+258.3319999999367,
+"%s siphons vitality from Goriona and attacks with renewed vigor!",
+"Warmaster Blackhorn",
+1,
+},
+{
+268.0840000000317,
+"%s siphons vitality from Goriona and attacks with renewed vigor!",
+"Warmaster Blackhorn",
+1,
+},
+{
+276.1459999999497,
+"%s siphons vitality from Goriona and attacks with renewed vigor!",
+"Warmaster Blackhorn",
+1,
+},
+{
+277.3669999998529,
+"%s screeches in pain and retreats into the swirling clouds.",
+"Goriona",
+1,
+},
+{
+279.4020000000019,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+["boss"] = "Warmaster Blackhorn",
 },
 },
 }

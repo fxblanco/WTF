@@ -56,6 +56,16 @@ VER 3 0000000000000025 "Hellfire" "INV_Misc_QuestionMark"
 /cast [nochanneling] Hellfire
 /cancelaura [channeling] Hellfire
 END
+VER 3 0000000000000030 "HUNTER_Spine" "134400"
+/target boss2
+/use [@boss2,exists] Berserking
+/use [@boss2,exists] Bottled Wishes
+/use [@boss2,exists] 10
+/use [@boss2,exists] 13
+/use [@boss2,exists] Call of the wild
+/use [@boss2,exists] Black Arrow
+/petattack [@boss2,exists]
+END
 VER 3 0000000000000026 "IA" "INV_Misc_QuestionMark"
 #showtooltip
 /cast Immolation Aura
@@ -104,7 +114,8 @@ VER 3 000000000000002A "PRE META" "INV_Misc_QuestionMark"
 /equipset Demo
 END
 VER 3 000000000000002B "RXPTargeting" "132150"
-/targetexact Bloodsnarl Scavenger
+/targetexact Hovel Shadowcaster
+/targetexact Hovel Brute
 /targetlasttarget [dead]
 END
 VER 3 0000000000000015 "RXPTargeting" "132150"

@@ -1,0 +1,5 @@
+VER 3 0000000001000001 "goucheheal" "135907"
+#showtooltip Solarplexus
+/cast Solarplexus
+/cast Leinenverband
+END

@@ -12,6 +12,7 @@ OPie_SavedData = {
 ["PersistentStorage"] = {
 ["AutoQuestWhitelist"] = {
 [55122] = true,
+[53107] = true,
 },
 ["RingKeeper"] = {
 ["OPieFlagStore"] = {

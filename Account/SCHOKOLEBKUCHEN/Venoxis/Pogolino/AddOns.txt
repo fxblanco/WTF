@@ -1,4 +1,4 @@
-DBM-Core: enabled
+DBM-Core: disabled
 DBM-GUI: enabled
 DBM-StatusBarTimers: enabled
 DBM-VPVEM: enabled
@@ -7,7 +7,7 @@ DBM-Raids-Cata: enabled
 DBM-Raids-Vanilla: enabled
 DBM-Outlands: enabled
 DBM-Cataclysm: enabled
-DBM-Azeroth: enabled
+DBM-Azeroth: disabled
 AddOnSkins: enabled
 ArchonTooltip: disabled
 ArchonTooltipDB_EU: disabled
@@ -64,7 +64,7 @@ Grid2RaidDebuffs: enabled
 Grid2RaidDebuffsOptions: enabled
 GTFO: enabled
 InstanceAchievementTracker: disabled
-ItemRack: enabled
+ItemRack: disabled
 ItemRackOptions: enabled
 LargerMacroIconSelection: enabled
 LargerMacroIconSelectionData: enabled
@@ -87,7 +87,7 @@ OPie: enabled
 Plater: enabled
 Postal: enabled
 ProjectAzilroka: enabled
-Questie: enabled
+Questie: disabled
 ReforgeLite: enabled
 RXPGuides: disabled
 RXP Leveling: disabled

@@ -9,8 +9,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["alerthidden"] = true,
 ["specswap"] = false,
+["alerthidden"] = true,
 ["spec2_profileKey"] = "Alsla - Venoxis",
 },
 ["Xolem - Venoxis"] = {
@@ -18,8 +18,8 @@ CliqueDB3 = {
 ["spec2_profileKey"] = "Xolem - Venoxis",
 ["downclick"] = false,
 ["fastooc"] = false,
-["alerthidden"] = true,
 ["specswap"] = false,
+["alerthidden"] = true,
 },
 ["Alsía - Venoxis"] = {
 ["spec1_profileKey"] = "Alsía - Venoxis",
@@ -28,8 +28,8 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alsía - Venoxis",
 ["alerthidden"] = true,
+["spec2_profileKey"] = "Alsía - Venoxis",
 ["specswap"] = false,
 },
 ["Exonuklease - Venoxis"] = {
@@ -38,29 +38,8 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
-["specswap"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Exonuklease - Venoxis",
-},
-["Endonuclease - Venoxis"] = {
-["spec1_profileKey"] = "Endonuclease - Venoxis",
-["blizzframes"] = {
-["statusBarFix"] = false,
-},
-["downclick"] = false,
-["fastooc"] = false,
-["spec2_profileKey"] = "Endonuclease - Venoxis",
-["specswap"] = false,
-},
-["Alslalu - Venoxis"] = {
-["spec1_profileKey"] = "Alslalu - Venoxis",
-["blizzframes"] = {
-["statusBarFix"] = false,
-},
-["downclick"] = false,
-["fastooc"] = false,
-["spec2_profileKey"] = "Alslalu - Venoxis",
-["alerthidden"] = true,
 ["specswap"] = false,
 },
 ["Alslahunt - Venoxis"] = {
@@ -70,8 +49,29 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alslahunt - Venoxis",
 ["alerthidden"] = true,
+["spec2_profileKey"] = "Alslahunt - Venoxis",
+["specswap"] = false,
+},
+["Endonuclease - Venoxis"] = {
+["spec1_profileKey"] = "Endonuclease - Venoxis",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Endonuclease - Venoxis",
+},
+["Alslalu - Venoxis"] = {
+["spec1_profileKey"] = "Alslalu - Venoxis",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["alerthidden"] = true,
+["spec2_profileKey"] = "Alslalu - Venoxis",
 ["specswap"] = false,
 },
 ["Hópéful - Venoxis"] = {
@@ -81,30 +81,7 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
 ["spec2_profileKey"] = "Hópéful - Venoxis",
-},
-["Andrés - Venoxis"] = {
-["spec1_profileKey"] = "Andrés - Venoxis",
-["spec2_profileKey"] = "Andrés - Venoxis",
-["downclick"] = false,
-["fastooc"] = false,
-["specswap"] = false,
-},
-["Alslala - Venoxis"] = {
-["spec1_profileKey"] = "Alslala - Venoxis",
-["specswap"] = false,
-["downclick"] = false,
-["fastooc"] = false,
-["alerthidden"] = true,
-["spec2_profileKey"] = "Alslala - Venoxis",
-},
-["Khalimmortus - Venoxis"] = {
-["spec1_profileKey"] = "Khalimmortus - Venoxis",
-["spec2_profileKey"] = "Khalimmortus - Venoxis",
-["downclick"] = false,
-["fastooc"] = false,
-["alerthidden"] = true,
 ["specswap"] = false,
 },
 ["Alsia - Venoxis"] = {
@@ -114,9 +91,32 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alsia - Venoxis",
 ["alerthidden"] = true,
+["spec2_profileKey"] = "Alsia - Venoxis",
 ["specswap"] = false,
+},
+["Andrés - Venoxis"] = {
+["spec1_profileKey"] = "Andrés - Venoxis",
+["spec2_profileKey"] = "Andrés - Venoxis",
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+},
+["Khalimmortus - Venoxis"] = {
+["spec1_profileKey"] = "Khalimmortus - Venoxis",
+["spec2_profileKey"] = "Khalimmortus - Venoxis",
+["downclick"] = false,
+["fastooc"] = false,
+["specswap"] = false,
+["alerthidden"] = true,
+},
+["Alslala - Venoxis"] = {
+["spec1_profileKey"] = "Alslala - Venoxis",
+["specswap"] = false,
+["downclick"] = false,
+["fastooc"] = false,
+["spec2_profileKey"] = "Alslala - Venoxis",
+["alerthidden"] = true,
 },
 ["Kwasimojo - Venoxis"] = {
 ["spec1_profileKey"] = "Kwasimojo - Venoxis",
@@ -139,14 +139,15 @@ CliqueDB3 = {
 ["Xolem - Venoxis"] = "Xolem - Venoxis",
 ["Alslala - Venoxis"] = "Alslala - Venoxis",
 ["Lucho - Venoxis"] = "Lucho - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Spaltkyle - Venoxis"] = "Spaltkyle - Venoxis",
 ["Hópéful - Venoxis"] = "Hópéful - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Andrés - Venoxis"] = "Andrés - Venoxis",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Invisibilia - Venoxis"] = "Invisibilia - Venoxis",
 ["Bremskyle - Venoxis"] = "Bremskyle - Venoxis",
 ["Maturitass - Venoxis"] = "Maturitass - Venoxis",
 },
@@ -154,10 +155,10 @@ CliqueDB3 = {
 ["Endonuclease - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -182,10 +183,10 @@ CliqueDB3 = {
 ["Exonuklease - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -220,10 +221,10 @@ CliqueDB3 = {
 ["Serferine - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -239,10 +240,10 @@ CliqueDB3 = {
 ["Alsiadk - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -267,10 +268,10 @@ CliqueDB3 = {
 ["Bloodwall - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -286,10 +287,10 @@ CliqueDB3 = {
 ["Kyleriemen - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -305,10 +306,10 @@ CliqueDB3 = {
 ["Khalimmortus - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -333,10 +334,10 @@ CliqueDB3 = {
 ["Kwasimojo - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "ALT-BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -433,10 +434,10 @@ CliqueDB3 = {
 ["Alsla - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -470,10 +471,10 @@ CliqueDB3 = {
 ["Xolem - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "ALT-BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -534,10 +535,10 @@ CliqueDB3 = {
 ["Alslala - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -562,10 +563,10 @@ CliqueDB3 = {
 ["Lucho - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -578,13 +579,95 @@ CliqueDB3 = {
 },
 },
 },
-["Spaltkyle - Venoxis"] = {
+["Alslalu - Venoxis"] = {
 ["bindings"] = {
 {
 ["sets"] = {
 ["default"] = true,
 },
 ["type"] = "target",
+["key"] = "ALT-BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "spell",
+["key"] = "BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136042,
+["spell"] = "Chain Heal",
+},
+{
+["type"] = "spell",
+["key"] = "SHIFT-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136089,
+["spell"] = "Earth Shield",
+},
+{
+["type"] = "spell",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
+["spell"] = "Healing Surge",
+},
+{
+["type"] = "spell",
+["key"] = "BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
+["spell"] = "Riptide",
+},
+{
+["spell"] = "Healing Wave",
+["key"] = "SHIFT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136052,
+["type"] = "spell",
+},
+{
+["spell"] = "Greater Healing Wave",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
+},
+{
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Unleash Elements",
+["key"] = "CTRL-BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 237581,
+["type"] = "spell",
+},
+},
+},
+["Spaltkyle - Venoxis"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -677,84 +760,82 @@ CliqueDB3 = {
 },
 },
 },
-["Alslalu - Venoxis"] = {
+["Alsia - Venoxis"] = {
 ["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "ALT-BUTTON1",
-["unit"] = "mouseover",
-},
 {
 ["type"] = "spell",
 ["key"] = "SHIFT-BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 136089,
-["spell"] = "Earth Shield",
+["icon"] = 135968,
+["spell"] = "Hand of Freedom",
 },
 {
 ["type"] = "spell",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
-["spell"] = "Healing Surge",
-},
-{
-["type"] = "spell",
-["key"] = "BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136042,
-["spell"] = "Chain Heal",
-},
-{
-["type"] = "spell",
-["key"] = "BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 252995,
-["spell"] = "Riptide",
-},
-{
-["spell"] = "Greater Healing Wave",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
-},
-{
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Healing Wave",
-["key"] = "SHIFT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136052,
-["type"] = "spell",
-},
-{
-["spell"] = "Unleash Elements",
 ["key"] = "CTRL-BUTTON3",
 ["sets"] = {
 ["default"] = true,
 },
-["icon"] = 237581,
+["icon"] = 136106,
+["spell"] = "Divine Intervention",
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
+["type"] = "macro",
+["key"] = "SHIFT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][] Divine Light\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
+["type"] = "macro",
+["key"] = "BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["type"] = "spell",
+["key"] = "CTRL-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135928,
+["spell"] = "Lay on Hands",
+},
+{
+["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
+["type"] = "macro",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+},
+{
+["spell"] = "Hand of Salvation",
+["key"] = "CTRL-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 135967,
 ["type"] = "spell",
 },
 },
@@ -842,10 +923,10 @@ CliqueDB3 = {
 ["Alslahunt - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -870,10 +951,10 @@ CliqueDB3 = {
 ["Andrés - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -916,6 +997,25 @@ CliqueDB3 = {
 ["Alslalock - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Invisibilia - Venoxis"] = {
+["bindings"] = {
+{
 ["sets"] = {
 ["default"] = true,
 },
@@ -932,93 +1032,13 @@ CliqueDB3 = {
 },
 },
 },
-["Alsia - Venoxis"] = {
-["bindings"] = {
-{
-["type"] = "spell",
-["key"] = "SHIFT-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135968,
-["spell"] = "Hand of Freedom",
-},
-{
-["type"] = "spell",
-["key"] = "CTRL-BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136106,
-["spell"] = "Divine Intervention",
-},
-{
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Light\n/startattack",
-["type"] = "macro",
-["key"] = "SHIFT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["macrotext"] = "/startattack\n/use [@mouseover,help][] Divine Light\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["macrotext"] = "/startattack\n/use [@mouseover,help][] Holy Shock\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["macrotext"] = "/startattack\n/use [@mouseover,help][]Holy Radiance\n/startattack",
-["type"] = "macro",
-["key"] = "BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["type"] = "spell",
-["key"] = "CTRL-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135928,
-["spell"] = "Lay on Hands",
-},
-{
-["macrotext"] = "#showtooltip Flash of LIght\n/startattack\n/use [@mouseover,help][]Flash of Light\n/startattack",
-["type"] = "macro",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-},
-{
-["spell"] = "Hand of Salvation",
-["key"] = "CTRL-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 135967,
-["type"] = "spell",
-},
-},
-},
 ["Bremskyle - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -1034,10 +1054,10 @@ CliqueDB3 = {
 ["Maturitass - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -1103,12 +1123,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["icon"] = 132212,
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "menu",
-["icon"] = 132212,
-["key"] = "ALT-BUTTON2",
 },
 },
 },

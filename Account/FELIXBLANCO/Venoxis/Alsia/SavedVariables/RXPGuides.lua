@@ -14,6 +14,7 @@ RXPCData = {
 ["guideMetaData"] = {
 ["RXP Cataclysm 1-80 (H)||1-6 Darkspear Isle"] = {
 ["guideId"] = 373296465,
+["mop"] = "",
 ["next"] = "6-10 Durotar",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -23,7 +24,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||01-06 Darkspear Isle",
 ["defaultfor"] = "Troll",
 ["version"] = 1,
-["length"] = 30186,
+["length"] = 33084,
 ["name"] = "01-06 Darkspear Isle",
 ["displayname"] = "1-6 Darkspear Isle",
 },
@@ -70,6 +71,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||6-11 The Lost Isles"] = {
 ["guideId"] = 494996795,
+["mop"] = "",
 ["next"] = "10-22 Azshara",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -79,7 +81,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||06-11 The Lost Isles",
 ["defaultfor"] = "Goblin",
 ["version"] = 1,
-["length"] = 45846,
+["length"] = 45956,
 ["name"] = "06-11 The Lost Isles",
 ["displayname"] = "6-11 The Lost Isles",
 },
@@ -269,6 +271,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||6-10 Durotar"] = {
 ["guideId"] = 3404204824,
+["mop"] = "",
 ["next"] = "10-22 Azshara",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -278,7 +281,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||06-10 Durotar",
 ["defaultfor"] = "Orc/Troll",
 ["version"] = 1,
-["length"] = 49946,
+["length"] = 50220,
 ["name"] = "06-10 Durotar",
 ["displayname"] = "6-10 Durotar",
 },
@@ -606,6 +609,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||1-6 Valley of Trials"] = {
 ["guideId"] = 810683896,
+["mop"] = "",
 ["next"] = "6-10 Durotar",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -615,7 +619,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||01-06 Valley of Trials",
 ["defaultfor"] = "Orc",
 ["version"] = 1,
-["length"] = 15382,
+["length"] = 16375,
 ["name"] = "01-06 Valley of Trials",
 ["displayname"] = "1-6 Valley of Trials",
 },
@@ -692,6 +696,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||1-6 Tirisfal Glades"] = {
 ["guideId"] = 605490613,
+["mop"] = "",
 ["next"] = "6-10 Eversong Woods",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -701,7 +706,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||01-06 Tirisfal Glades",
 ["defaultfor"] = "Undead",
 ["version"] = 1,
-["length"] = 22939,
+["length"] = 24117,
 ["name"] = "01-06 Tirisfal Glades",
 ["displayname"] = "1-6 Tirisfal Glades",
 },
@@ -721,6 +726,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||10-22 Azshara"] = {
 ["guideId"] = 3562408751,
+["mop"] = "",
 ["next"] = "22-27 Ashenvale",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -728,7 +734,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||10-22 Azshara",
 ["group"] = "RXP Cataclysm 1-80 (H)",
 ["subweight"] = "10000",
-["length"] = 106958,
+["length"] = 107158,
 ["version"] = 1,
 ["displayname"] = "10-22 Azshara",
 },
@@ -948,6 +954,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||1-6 Mulgore"] = {
 ["guideId"] = 3243117282,
+["mop"] = "",
 ["next"] = "6-10 Mulgore",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -957,7 +964,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||01-06 Mulgore",
 ["defaultfor"] = "Tauren",
 ["version"] = 1,
-["length"] = 10765,
+["length"] = 11825,
 ["name"] = "01-06 Mulgore",
 ["displayname"] = "1-6 Mulgore",
 },
@@ -976,6 +983,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||6-10 Mulgore"] = {
 ["guideId"] = 3404663570,
+["mop"] = "",
 ["next"] = "10-22 Azshara",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -985,7 +993,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||06-10 Mulgore",
 ["defaultfor"] = "Tauren",
 ["version"] = 1,
-["length"] = 36165,
+["length"] = 36295,
 ["name"] = "06-10 Mulgore",
 ["displayname"] = "6-10 Mulgore",
 },
@@ -1071,6 +1079,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||6-10 Eversong Woods"] = {
 ["guideId"] = 572198316,
+["mop"] = "",
 ["next"] = "10-22 Azshara",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -1080,7 +1089,7 @@ RXPCData = {
 ["name"] = "06-10 Eversong Woods",
 ["subweight"] = "10000",
 ["defaultfor"] = "BloodElf/Undead",
-["length"] = 34364,
+["length"] = 34543,
 ["version"] = 1,
 ["displayname"] = "6-10 Eversong Woods",
 },
@@ -1112,6 +1121,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||22-27 Ashenvale"] = {
 ["guideId"] = 3960278020,
+["mop"] = "",
 ["next"] = "27-31 Northern Stranglethorn",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -1119,7 +1129,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||22-27 Ashenvale",
 ["group"] = "RXP Cataclysm 1-80 (H)",
 ["subweight"] = "10000",
-["length"] = 62873,
+["length"] = 62932,
 ["version"] = 1,
 ["displayname"] = "22-27 Ashenvale",
 },
@@ -1203,6 +1213,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||1-6 Sunstrider Isle"] = {
 ["guideId"] = 649399783,
+["mop"] = "",
 ["next"] = "6-10 Eversong Woods",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -1212,7 +1223,7 @@ RXPCData = {
 ["name"] = "01-06 Sunstrider Isle",
 ["subweight"] = "10000",
 ["defaultfor"] = "BloodElf",
-["length"] = 17667,
+["length"] = 18791,
 ["version"] = 1,
 ["displayname"] = "1-6 Sunstrider Isle",
 },
@@ -1236,6 +1247,7 @@ RXPCData = {
 },
 ["RXP Cataclysm 1-80 (H)||1-6 Kezan"] = {
 ["guideId"] = 2881620480,
+["mop"] = "",
 ["next"] = "6-11 The Lost Isles",
 ["enabledFor"] = "Horde",
 ["cata"] = "",
@@ -1245,7 +1257,7 @@ RXPCData = {
 ["key"] = "RXP Cataclysm 1-80 (H)||01-06 Kezan",
 ["defaultfor"] = "Goblin",
 ["version"] = 1,
-["length"] = 23116,
+["length"] = 23588,
 ["name"] = "01-06 Kezan",
 ["displayname"] = "1-6 Kezan",
 },
@@ -2180,7 +2192,7 @@ RXPCTrackingData = {
 ["levels"] = {
 [85] = {
 ["groupExperience"] = 0,
-["deaths"] = 0,
+["deaths"] = 1,
 ["mobs"] = {
 },
 ["timestamp"] = {

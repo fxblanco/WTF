@@ -1,4 +1,4 @@
 
 FTSavedVars = {
-["pullEndTime"] = 600374.545,
+["pullEndTime"] = 1640915.779,
 }

@@ -1,11 +1,59 @@
 
 WagoUICreatorDB = {
-["WagoUI_CreatorFrame"] = {
-["scale"] = 1,
-},
+["yoffset"] = -34.19990921020508,
 ["debug"] = false,
 ["anchorTo"] = "CENTER",
-["disabledModules"] = {
+["profileKeys"] = {
+["NameplateSCT"] = {
+},
+["Plater"] = {
+},
+["BugSack"] = {
+},
+["Grid2"] = {
+},
+["Echo Raid Tools"] = {
+},
+["OmniCD Spell Editor"] = {
+},
+["Additional Addons"] = {
+},
+["SexyMap"] = {
+},
+["WarpDeplete"] = {
+},
+["ShadowedUnitFrames"] = {
+},
+["ElvUI Private Profile"] = {
+},
+["WeakAuras"] = {
+},
+["Kui Nameplates"] = {
+},
+["Quartz"] = {
+},
+["ElvUI Aura Filters"] = {
+},
+["ElvUI Account Settings"] = {
+},
+["Details"] = {
+},
+["ElvUI Style Filters"] = {
+},
+["Bartender4"] = {
+},
+["ElvUI"] = {
+},
+["OmniCC"] = {
+},
+["Cell"] = {
+},
+["OmniCD"] = {
+},
+["TipTac Reborn"] = {
+},
+["BigWigs"] = {
+},
 },
 ["profileRemovals"] = {
 },
@@ -53,17 +101,16 @@ WagoUICreatorDB = {
 },
 ["OmniCC"] = {
 },
-["BigWigs"] = {
-},
-["TipTac Reborn"] = {
+["Cell"] = {
 },
 ["OmniCD"] = {
 },
-["Cell"] = {
+["TipTac Reborn"] = {
+},
+["BigWigs"] = {
 },
 },
-["creatorUI"] = {
-},
+["autoStart"] = false,
 ["config"] = {
 },
 ["exportOptions"] = {
@@ -71,60 +118,13 @@ WagoUICreatorDB = {
 ["purgeWago"] = true,
 },
 },
-["autoStart"] = false,
+["creatorUI"] = {
+},
 ["xoffset"] = 244.7999114990234,
 ["hasLoggedInEver"] = true,
-["profileKeys"] = {
-["NameplateSCT"] = {
+["disabledModules"] = {
 },
-["Plater"] = {
+["WagoUI_CreatorFrame"] = {
+["scale"] = 1,
 },
-["BugSack"] = {
-},
-["Grid2"] = {
-},
-["Echo Raid Tools"] = {
-},
-["OmniCD Spell Editor"] = {
-},
-["Additional Addons"] = {
-},
-["SexyMap"] = {
-},
-["WarpDeplete"] = {
-},
-["ShadowedUnitFrames"] = {
-},
-["ElvUI Private Profile"] = {
-},
-["WeakAuras"] = {
-},
-["Kui Nameplates"] = {
-},
-["Quartz"] = {
-},
-["ElvUI Aura Filters"] = {
-},
-["ElvUI Account Settings"] = {
-},
-["Details"] = {
-},
-["ElvUI Style Filters"] = {
-},
-["Bartender4"] = {
-},
-["ElvUI"] = {
-},
-["OmniCC"] = {
-},
-["BigWigs"] = {
-},
-["TipTac Reborn"] = {
-},
-["OmniCD"] = {
-},
-["Cell"] = {
-},
-},
-["yoffset"] = -34.19990921020508,
 }

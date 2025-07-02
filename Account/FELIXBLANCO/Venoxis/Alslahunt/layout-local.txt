@@ -6,6 +6,13 @@ X: 0
 Y: 0
 W: 365
 H: 240
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: RIGHT
+X: -318
+Y: -151
+W: 920
+H: 600
 Frame: WorldMapFrame
 FrameLevel: 1
 Anchor: TOPLEFT
