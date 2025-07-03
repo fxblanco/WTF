@@ -1,41 +1,41 @@
-VER 3 0000000001000047 "3" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [nostance:1] Aspect of the Hawk
-/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Arcane Shot
-END
-VER 3 0000000001000046 "3" "INV_Misc_QuestionMark"
+VER 3 0100000001000046 "3" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:2] Aspect of the Fox
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Cobra Shot
 END
-VER 3 0000000001000048 "4" "INV_Misc_QuestionMark"
+VER 3 0100000001000047 "3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nostance:1] Aspect of the Hawk
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Arcane Shot
+END
+VER 3 0100000001000048 "4" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift] Trap Launcher
 /cast [mod:shift, @cursor] Explosive Trap; [nomod] Multi-Shot
 END
-VER 3 0000000001000058 "5" "134400"
+VER 3 0100000001000058 "5" "134400"
 #showtooltip 
 /cast [nostance:1] Aspect of the Hawk
 /cast [nomod] Scatter Shot; [mod:shift] Raptor Strike; [mod: ctrl] Wyvern Sting
 END
-VER 3 000000000100004A "6" "INV_Misc_QuestionMark"
+VER 3 010000000100004A "6" "INV_Misc_QuestionMark"
 #showtooltip Ice Trap
 /cast Trap Launcher
 /cast [@cursor] Ice Trap
 END
-VER 3 0000000001000057 "^" "134400"
+VER 3 0100000001000057 "^" "134400"
 #showtooltip
 /cast [mod:ctrl] Deterrence; [mod:shift] Freezing Trap; Snake Trap
 END
-VER 3 000000000100004B "apect" "INV_Misc_QuestionMark"
+VER 3 010000000100004B "apect" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] !Aspect of the Fox; !Aspect of the Hawk
 END
-VER 3 0000000001000059 "cancel_det" "134400"
+VER 3 0100000001000059 "cancel_det" "134400"
 /cancelaura Deterrence
 END
-VER 3 000000000100004C "cd" "INV_Misc_QuestionMark"
+VER 3 010000000100004C "cd" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nomod] Rapid Fire
 /cast [mod:shift] Berserking(Racial)
@@ -44,48 +44,48 @@ VER 3 000000000100004C "cd" "INV_Misc_QuestionMark"
 /use 13
 /use 14
 END
-VER 3 000000000100005B "deterr" "134400"
+VER 3 010000000100005B "deterr" "134400"
 #showtooltip
 /cast Deterrence
 /cancelaura Deterrence
 END
-VER 3 0000000001000049 "distr_shot" "135736"
+VER 3 0100000001000049 "distr_shot" "135736"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Distracting Shot
 END
-VER 3 000000000100004D "e" "INV_Misc_QuestionMark"
+VER 3 010000000100004D "e" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Cobra Shot
 /cancelaura Blessing of Protection
 END
-VER 3 000000000100004E "f" "INV_Misc_QuestionMark"
+VER 3 010000000100004E "f" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] Deterrence; [mod:shift] Widow Venom; Disengage
 END
-VER 3 000000000100004F "g" "INV_Misc_QuestionMark"
+VER 3 010000000100004F "g" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nomod,@mousover] Misdirection; [mod:shift] Hunter's Mark
 END
-VER 3 0000000001000050 "q" "INV_Misc_QuestionMark"
+VER 3 0100000001000050 "q" "INV_Misc_QuestionMark"
 #showtooltip
 /use 10
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Explosive Shot
 END
-VER 3 0000000001000051 "r" "INV_Misc_QuestionMark"
+VER 3 0100000001000051 "r" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Black Arrow
 /petattack
 END
-VER 3 0000000001000052 "SM5" "INV_Misc_QuestionMark"
+VER 3 0100000001000052 "SM5" "INV_Misc_QuestionMark"
 #showtooltip
 /cast Camouflage
 /cancelaura Camouflage
 END
-VER 3 000000000100005A "spine" "134400"
+VER 3 010000000100005A "spine" "134400"
 #show Rapid Fire
 /target boss2
 /use [target=boss2,exists] Rapid Fire
@@ -95,17 +95,17 @@ VER 3 000000000100005A "spine" "134400"
 /use [target=boss2,exists] 10
 /use [target=boss2,exists] Explosive Shot 
 END
-VER 3 0000000001000053 "t" "INV_Misc_QuestionMark"
+VER 3 0100000001000053 "t" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Serpent Sting
 END
-VER 3 0000000001000056 "tranq_shot" "134400"
+VER 3 0100000001000056 "tranq_shot" "134400"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Tranquilizing Shot
 END
-VER 3 0000000001000054 "x" "INV_Misc_QuestionMark"
+VER 3 0100000001000054 "x" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Kill Shot

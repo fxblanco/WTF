@@ -1,85 +1,128 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[106] = {
-},
-[122] = {
-},
-[148] = {
-},
-[149] = {
-},
-[150] = {
-},
-[183] = {
-},
-[109] = {
-},
-[185] = {
-},
-[155] = {
-},
-[157] = {
-},
-[127] = {
-},
-[160] = {
-},
-[113] = {
-},
 [193] = {
 },
-[131] = {
+[178] = {
 },
-[164] = {
-},
-[196] = {
-},
-[115] = {
-},
-[198] = {
-},
-[136] = {
-},
-[168] = {
-},
-[117] = {
-},
-[138] = {
-},
-[170] = {
-},
-[202] = {
-},
-[140] = {
-},
-[172] = {
-},
-[204] = {
-},
-[189] = {
-},
-[142] = {
+[106] = {
 },
 [174] = {
 },
-[206] = {
+[122] = {
 },
-[175] = {
-},
-[144] = {
-},
-[176] = {
-},
-[208] = {
+[136] = {
 },
 [179] = {
 },
 [146] = {
 },
-[178] = {
+[142] = {
+},
+[198] = {
+},
+[202] = {
+},
+[206] = {
+},
+[210] = {
+["Raid Damage Done"] = {
+9559,
+0,
+0,
+9465,
+0,
+8686,
+0,
+25192,
+20337,
+0,
+11700,
+124,
+0,
+0,
+0,
+0,
+2559,
+0,
+685,
+0,
+637,
+20558,
+39590,
+273,
+25245,
+8609,
+17301,
+3634,
+300,
+0,
+32750,
+559,
+15848,
+9283,
+16278,
+2796,
+136,
+24667,
+316,
+2796,
+0,
+12437,
+3260,
+0,
+2796,
+0,
+0,
+2796,
+0,
+2796,
+["max_value"] = 39590,
+["__time"] = 1751495824,
+},
+},
+[109] = {
 },
 [111] = {
+},
+[113] = {
+},
+[115] = {
+},
+[117] = {
+},
+[183] = {
+},
+[176] = {
+},
+[211] = {
+["Raid Damage Done"] = {
+2796,
+["max_value"] = 2796,
+["__time"] = 1751495837,
+},
+},
+[131] = {
+},
+[127] = {
+},
+[140] = {
+},
+[196] = {
+},
+[138] = {
+},
+[204] = {
+},
+[208] = {
+},
+[175] = {
+},
+[185] = {
+},
+[189] = {
+},
+[144] = {
 },
 },
 ["encounter_spells"] = {
@@ -769,22 +812,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hideous Amalgamation",
 },
-[81281] = {
-["school"] = 8,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Fungal Growth II",
-},
-[107029] = {
-["school"] = 1,
+[109396] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Mutated Corruption",
+["source"] = "Claw of Go'rath",
+},
+[54049] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Greefun",
 },
 [110137] = {
 ["school"] = 1,
@@ -809,13 +851,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hideous Amalgamation",
 },
-[3600] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[110628] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Earthbind Totem",
+["source"] = "Elementium Bolt",
 },
 [106376] = {
 ["school"] = 34,
@@ -826,14 +869,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[52586] = {
+[50461] = {
 ["school"] = 32,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Tentacle of the Old Ones",
+["source"] = "Anti-Magic Zone",
 },
 [16827] = {
 ["school"] = 1,
@@ -851,20 +893,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Dark Globule",
 },
-[105416] = {
-["school"] = 32,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Yor'sahj the Unsleeping",
-},
-[57984] = {
+[3110] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Greater Fire Elemental",
+["source"] = "Jublop",
+},
+[108813] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Corrupting Parasite",
 },
 [110297] = {
 ["school"] = 32,
@@ -882,13 +925,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[54424] = {
-["school"] = 32,
-["type"] = "BUFF",
+[109102] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Greefun",
+["source"] = "Congealing Blood",
 },
 [25228] = {
 ["school"] = 32,
@@ -907,12 +950,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Fragment",
 },
-[110632] = {
-["school"] = 4,
+[54424] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Elementium Bolt",
+["source"] = "Greefun",
 },
 [107588] = {
 ["school"] = 1,
@@ -930,23 +974,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Bolt",
 },
-[104898] = {
+[105408] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Arm Tentacle",
+},
+[103851] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Acidic Globule",
-},
-[106400] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Mutated Corruption",
+["source"] = "Kohcrom",
 },
 [106377] = {
 ["school"] = 34,
@@ -965,59 +1008,58 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[105219] = {
-["school"] = 1,
+[103327] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Corrupted Blood",
+["source"] = "Ultraxion",
 },
-[55095] = {
+[48210] = {
+["school"] = 32,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Morchok",
+},
+[59638] = {
 ["school"] = 16,
 ["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Rune Weapon",
-},
-[107850] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Mirror Image",
 },
-[105312] = {
-["school"] = 1,
+[103527] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Void of the Unmaking",
+},
+[106005] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Frozen Binding Crystal",
+["source"] = "Hideous Amalgamation",
 },
-[104031] = {
-["school"] = 32,
+[98021] = {
+["school"] = 8,
+["token"] = {
+["SPELL_HEAL"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Spirit Link Totem",
+},
+[106794] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Void of the Unmaking",
-},
-[110212] = {
-["school"] = 32,
-["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Goriona",
-},
-[34655] = {
-["school"] = 8,
-["token"] = {
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Viper",
+["source"] = "Elementium Fragment",
 },
 [108051] = {
 ["school"] = 32,
@@ -1026,21 +1068,23 @@ EncounterDetailsDB = {
 },
 ["source"] = "Goriona",
 },
-[105248] = {
+[106523] = {
 ["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Deathwing",
+},
+[104896] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Corrupted Blood",
-},
-[81280] = {
-["school"] = 32,
-["token"] = {
-["SPELL_HEAL"] = true,
-},
-["source"] = "Bloodworm",
+["source"] = "Shadowed Globule",
 },
 [107589] = {
 ["school"] = 32,
@@ -1090,14 +1134,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Flail of Go'rath",
 },
-[103176] = {
-["school"] = 1,
-["type"] = "BUFF",
+[104451] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Hagara the Stormbinder",
 },
 [31707] = {
 ["school"] = 16,
@@ -1113,13 +1157,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mirror Image",
 },
-[1604] = {
-["school"] = 1,
+[106730] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Glowing Globule",
+["source"] = "Elementium Terror",
 },
 [103414] = {
 ["school"] = 1,
@@ -1132,19 +1178,24 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[109247] = {
-["school"] = 1,
+[110214] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Twilight Sapper",
+["source"] = "Goriona",
 },
-[109541] = {
+[108221] = {
 ["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Glowing Globule",
 },
 [108220] = {
 ["school"] = 32,
@@ -1175,14 +1226,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Resonating Crystal",
 },
-[105563] = {
-["school"] = 4,
-["type"] = "DEBUFF",
+[6307] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Spawner",
+["source"] = "Jublop",
 },
 [105311] = {
 ["school"] = 1,
@@ -1193,22 +1243,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Frozen Binding Crystal",
 },
-[106372] = {
-["school"] = 34,
-["type"] = "BUFF",
+[109325] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Ultraxion",
-},
-[108419] = {
-["school"] = 8,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Acidic Globule",
+["source"] = "Hagara the Stormbinder",
 },
 [104849] = {
 ["school"] = 32,
@@ -1221,21 +1262,31 @@ EncounterDetailsDB = {
 },
 ["source"] = "Yor'sahj the Unsleeping",
 },
-[109325] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[108419] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Acidic Globule",
 },
-[6307] = {
-["school"] = 32,
+[106372] = {
+["school"] = 34,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Jublop",
+["source"] = "Ultraxion",
+},
+[105563] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Spawner",
 },
 [104897] = {
 ["school"] = 1,
@@ -1246,114 +1297,106 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crimson Globule",
 },
-[108221] = {
+[109541] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Glowing Globule",
-},
-[110214] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Goriona",
-},
-[106730] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Elementium Terror",
-},
-[104451] = {
-["school"] = 16,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[104896] = {
+[109247] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Twilight Sapper",
+},
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Glowing Globule",
+},
+[103176] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Shadowed Globule",
+["source"] = "Morchok",
 },
-[106523] = {
+[81280] = {
+["school"] = 32,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Bloodworm",
+},
+[105248] = {
 ["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[34655] = {
+["school"] = 8,
+["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Viper",
+},
+[110212] = {
+["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Deathwing",
+["source"] = "Goriona",
 },
-[106794] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Elementium Fragment",
-},
-[98021] = {
-["school"] = 8,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-["SPELL_HEAL"] = true,
-},
-["source"] = "Spirit Link Totem",
-},
-[106005] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Hideous Amalgamation",
-},
-[103527] = {
+[104031] = {
 ["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "Void of the Unmaking",
 },
-[59638] = {
+[105312] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Frozen Binding Crystal",
+},
+[107850] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[55095] = {
 ["school"] = 16,
 ["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Rune Weapon",
+},
+[105219] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Mirror Image",
-},
-[48210] = {
-["school"] = 32,
-["token"] = {
-["SPELL_HEAL"] = true,
-},
-["source"] = "Morchok",
-},
-[103327] = {
-["school"] = 32,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Ultraxion",
+["source"] = "Corrupted Blood",
 },
 [103846] = {
 ["school"] = 1,
@@ -1364,22 +1407,23 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[103851] = {
+[106400] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Mutated Corruption",
+},
+[104898] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Kohcrom",
-},
-[105408] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Arm Tentacle",
+["source"] = "Acidic Globule",
 },
 [106444] = {
 ["school"] = 1,
@@ -1390,29 +1434,27 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mutated Corruption",
 },
-[109102] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_HEAL"] = true,
-},
-["source"] = "Congealing Blood",
-},
-[108813] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Corrupting Parasite",
-},
-[3110] = {
+[110632] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Jublop",
+["source"] = "Elementium Bolt",
+},
+[57984] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Greater Fire Elemental",
+},
+[105416] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Yor'sahj the Unsleeping",
 },
 [107018] = {
 ["school"] = 4,
@@ -1422,38 +1464,39 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathwing",
 },
-[50461] = {
+[52586] = {
 ["school"] = 32,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Tentacle of the Old Ones",
+},
+[3600] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Anti-Magic Zone",
+["source"] = "Earthbind Totem",
 },
-[110628] = {
+[107029] = {
 ["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Elementium Bolt",
-},
-[54049] = {
-["school"] = 32,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Greefun",
-},
-[109396] = {
-["school"] = 32,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Claw of Go'rath",
+["source"] = "Mutated Corruption",
+},
+[81281] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Fungal Growth II",
 },
 },
 ["emotes"] = {

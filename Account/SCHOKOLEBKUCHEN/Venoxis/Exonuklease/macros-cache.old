@@ -23,7 +23,8 @@ VER 3 000000000100001E "dm" "134400"
 /cast Devour Magic
 END
 VER 3 0000000001000005 "doom" "134400"
-#showtooltip
+#showtooltip Bane of Doom
+/use 10
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Doom
 END
 VER 3 000000000100000B "drain" "134400"

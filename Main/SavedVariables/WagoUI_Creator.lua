@@ -1,59 +1,11 @@
 
 WagoUICreatorDB = {
-["yoffset"] = -34.19990921020508,
+["WagoUI_CreatorFrame"] = {
+["scale"] = 1,
+},
 ["debug"] = false,
 ["anchorTo"] = "CENTER",
-["profileKeys"] = {
-["NameplateSCT"] = {
-},
-["Plater"] = {
-},
-["BugSack"] = {
-},
-["Grid2"] = {
-},
-["Echo Raid Tools"] = {
-},
-["OmniCD Spell Editor"] = {
-},
-["Additional Addons"] = {
-},
-["SexyMap"] = {
-},
-["WarpDeplete"] = {
-},
-["ShadowedUnitFrames"] = {
-},
-["ElvUI Private Profile"] = {
-},
-["WeakAuras"] = {
-},
-["Kui Nameplates"] = {
-},
-["Quartz"] = {
-},
-["ElvUI Aura Filters"] = {
-},
-["ElvUI Account Settings"] = {
-},
-["Details"] = {
-},
-["ElvUI Style Filters"] = {
-},
-["Bartender4"] = {
-},
-["ElvUI"] = {
-},
-["OmniCC"] = {
-},
-["Cell"] = {
-},
-["OmniCD"] = {
-},
-["TipTac Reborn"] = {
-},
-["BigWigs"] = {
-},
+["disabledModules"] = {
 },
 ["profileRemovals"] = {
 },
@@ -61,19 +13,23 @@ WagoUICreatorDB = {
 ["profiles"] = {
 ["NameplateSCT"] = {
 },
-["Plater"] = {
+["NameplateAuras"] = {
 },
 ["BugSack"] = {
 },
 ["Grid2"] = {
 },
-["Echo Raid Tools"] = {
+["Unhalted Unit Frames"] = {
 },
 ["OmniCD Spell Editor"] = {
 },
 ["Additional Addons"] = {
 },
 ["SexyMap"] = {
+},
+["OmniCD"] = {
+},
+["ElvUI Account Settings"] = {
 },
 ["WarpDeplete"] = {
 },
@@ -85,32 +41,41 @@ WagoUICreatorDB = {
 },
 ["Kui Nameplates"] = {
 },
-["Quartz"] = {
+["Cell Unit Frames"] = {
 },
 ["ElvUI Aura Filters"] = {
 },
-["ElvUI Account Settings"] = {
-},
-["Details"] = {
-},
 ["ElvUI Style Filters"] = {
-},
-["Bartender4"] = {
-},
-["ElvUI"] = {
-},
-["OmniCC"] = {
-},
-["Cell"] = {
-},
-["OmniCD"] = {
-},
-["TipTac Reborn"] = {
 },
 ["BigWigs"] = {
 },
+["Details"] = {
 },
-["autoStart"] = false,
+["TipTac Reborn"] = {
+},
+["Bartender4"] = {
+},
+["Cell"] = {
+},
+["ElvUI"] = {
+},
+["BlizzHUDTweaks"] = {
+},
+["Quartz"] = {
+},
+["OmniCC"] = {
+},
+["OmniBar"] = {
+},
+["HidingBar"] = {
+},
+["Plater"] = {
+},
+["Echo Raid Tools"] = {
+},
+},
+["creatorUI"] = {
+},
 ["config"] = {
 },
 ["exportOptions"] = {
@@ -118,13 +83,72 @@ WagoUICreatorDB = {
 ["purgeWago"] = true,
 },
 },
-["creatorUI"] = {
-},
-["xoffset"] = 244.7999114990234,
+["autoStart"] = false,
+["xoffset"] = 0,
 ["hasLoggedInEver"] = true,
-["disabledModules"] = {
+["profileKeys"] = {
+["NameplateSCT"] = {
 },
-["WagoUI_CreatorFrame"] = {
-["scale"] = 1,
+["NameplateAuras"] = {
 },
+["BugSack"] = {
+},
+["Grid2"] = {
+},
+["Unhalted Unit Frames"] = {
+},
+["OmniCD Spell Editor"] = {
+},
+["Additional Addons"] = {
+},
+["SexyMap"] = {
+},
+["OmniCD"] = {
+},
+["ElvUI Account Settings"] = {
+},
+["WarpDeplete"] = {
+},
+["ShadowedUnitFrames"] = {
+},
+["ElvUI Private Profile"] = {
+},
+["WeakAuras"] = {
+},
+["Kui Nameplates"] = {
+},
+["Cell Unit Frames"] = {
+},
+["ElvUI Aura Filters"] = {
+},
+["ElvUI Style Filters"] = {
+},
+["BigWigs"] = {
+},
+["Details"] = {
+},
+["TipTac Reborn"] = {
+},
+["Bartender4"] = {
+},
+["Cell"] = {
+},
+["ElvUI"] = {
+},
+["BlizzHUDTweaks"] = {
+},
+["Quartz"] = {
+},
+["OmniCC"] = {
+},
+["OmniBar"] = {
+},
+["HidingBar"] = {
+},
+["Plater"] = {
+},
+["Echo Raid Tools"] = {
+},
+},
+["yoffset"] = 0,
 }

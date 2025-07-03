@@ -1,9 +1,344 @@
 
 Blizzard_Console_SavedVars = {
 ["version"] = 3,
-["height"] = 300,
 ["messageHistory"] = {
 {
+"Time played:",
+0,
+},
+{
+"Total: 34d 1h 50m 33s",
+0,
+},
+{
+"Level: 7d 21h 58m 2s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 34d 1h 50m 55s",
+0,
+},
+{
+"Level: 7d 21h 58m 24s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"charselect\"",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004000",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000084000",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000023",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000084080",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000084480",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000008c480",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000008c480",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000023",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 7/2/2025 (Wed) 23:37",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 34d 1h 53m 14s",
+0,
+},
+{
+"Level: 7d 22h 0m 43s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 34d 1h 53m 43s",
+0,
+},
+{
+"Level: 7d 22h 1m 12s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 34d 1h 54m 45s",
+0,
+},
+{
+"Level: 7d 22h 2m 14s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"charselect\"",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000025",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006010",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006014",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000027",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000601c",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000609c",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000609d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e09d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004e09d",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000004e09d",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000027",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 7/2/2025 (Wed) 23:39",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 3d 21h 46m 24s",
+0,
+},
+{
+"Level: 2d 13h 30m 51s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 3d 21h 46m 39s",
+0,
+},
+{
+"Level: 2d 13h 31m 6s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 3d 21h 47m 9s",
+0,
+},
+{
+"Level: 2d 13h 31m 36s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
+0,
+},
+{
 "Sorting particles normally.",
 0,
 },
@@ -64,6 +399,10 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
 "Use trigger on BeginDrawComplete enabled.",
 4,
 },
@@ -76,15 +415,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Water detail changed to 2",
+"Water detail changed to 3",
 0,
 },
 {
-"Ripple detail changed to 1",
+"Ripple detail changed to 2",
 0,
 },
 {
-"Reflection mode changed to 0",
+"Reflection mode changed to 3",
 0,
 },
 {
@@ -100,11 +439,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Spell Clutter set to dynamic",
+"Spell Clutter disabled",
 0,
 },
 {
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
 0,
 },
 {
@@ -112,11 +451,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Soft shadows changed to 0.",
+"Soft shadows changed to 1.",
 0,
 },
 {
 "Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
 0,
 },
 {
@@ -140,7 +483,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"SSAO mode set to 3",
+"SSAO mode set to 4",
 0,
 },
 {
@@ -248,75 +591,127 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+"Screen invalid. Changing from=\"none\" to=\"login\"",
 0,
 },
 {
-"[GlueLogin] [F] Resetting",
+"Switching to screen=\"AccountLogin\"",
 0,
 },
 {
-"[IBN_Login] [F] Initializing",
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
 0,
 },
 {
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+"Resetting",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Initializing",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Logon complete.",
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
 0,
 },
 {
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751146926\" expirationTime=\"1751161326\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting realm list ticket",
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
 0,
 },
 {
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
 0,
 },
 {
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
+"Received bnet account state code=\"ERROR_OK (0)\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
 0,
 },
 {
-"[GlueLogin] [F] Realm list ready.",
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
 0,
 },
 {
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+"Updated game account list, not saving.",
 0,
 },
 {
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
+"Logon complete.",
+0,
+},
+{
+"Reconnect token saved;  creationTime=\"1751492538\" expirationTime=\"1751506938\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Requesting realm list ticket",
+0,
+},
+{
+"Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting last played chars numSubRegions=\"2\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"37-4-50\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"1\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"Received last played char code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" lastPlayedTime=\"1751491800\" numRegions=\"2\" numRegionsWithData=\"2\" realmEntry=\"{\"wowRealmAddress\":721747977,\"cfgTimezonesID\":21,\"populationState\":2,\"cfgCategoriesID\":9,\"version\":{\"versionMajor\":5,\"versionBuild\":61496,\"versionMinor\":5,\"versionRevision\":0},\"cfgRealmsID\":4477,\"flags\":0,\"name\":\"Venoxis\",\"cfgConfigsID\":2,\"cfgContentSetID\":0,\"cfgLanguagesID\":5}\"",
+0,
+},
+{
+"Realm list ready.",
+0,
+},
+{
+"Found most recently played char. Joining realm. lastPlayedRegion=\"43-4-89\" realmAddress=\"721747977\" lastActiveTime=\"1751491800\"",
+0,
+},
+{
+"Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+0,
+},
+{
+"OnRealmJoin code=\"ERROR_OK (0)\"",
 0,
 },
 {
@@ -324,31 +719,39 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
+"Received AuthedToWoW result=\"ERROR_OK (0)\"",
 0,
 },
 {
-"Got new connection 2",
+"Screen invalid. Changing from=\"login\" to=\"charselect\"",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
+"Switching to screen=\"CharacterSelect\"",
 0,
 },
 {
-"[GlueLogin] [F] Disconnecting from authentication server.",
+"Connected to Back. Disconnecting from Front.",
 0,
 },
 {
-"[IBN_BackInterface] [F] Session with Battle.net established.",
+"Front disconnecting connectionId=\"1\"",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+"Disconnecting from authentication server.",
 0,
 },
 {
-"[GlueLogin] [F] Disconnected from authentication server.",
+"Session with Battle.net established.",
+0,
+},
+{
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Disconnected from authentication server.",
 0,
 },
 {
@@ -360,120 +763,8 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000880",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008a1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008a5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004050",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008b5",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004070",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008fd",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 6/28/2025 (Sat) 23:46",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: ShowObjUsage\n",
-0,
+"Game table failed consistency check: BattlePetXP. rows: 100, expectedRows: 100, columns: 2, expectedColumns: 10\n",
+3,
 },
 {
 "Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
@@ -492,11 +783,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000880",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008a1",
+"Proficiency in item class 4 set to 0x0000000021",
 0,
 },
 {
@@ -504,319 +791,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x00000008a5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004050",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008b5",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004070",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008fd",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 6/29/2025 (Sun) 0:05",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: ShowObjUsage\n",
-0,
-},
-{
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000880",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008a1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008a5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004050",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008b5",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004070",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008fd",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000104070",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00001040f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00001041f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00001041f1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00001041f3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00001041f3",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 6/29/2025 (Sun) 0:12",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: ShowObjUsage\n",
-0,
-},
-{
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c00",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c21",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c25",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004050",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c35",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004070",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c3d",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c3f",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000c3f",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 6/29/2025 (Sun) 0:14",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Attempted to register existing command: ShowObjUsage\n",
-0,
-},
-{
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000a00",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000a21",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000a25",
+"Proficiency in item class 4 set to 0x0000000025",
 0,
 },
 {
@@ -824,7 +799,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a65",
+"Proficiency in item class 4 set to 0x0000000065",
 0,
 },
 {
@@ -832,11 +807,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a6d",
+"Proficiency in item class 4 set to 0x000000006d",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a6f",
+"Proficiency in item class 4 set to 0x000000006f",
 0,
 },
 {
@@ -860,7 +835,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a6f",
+"Proficiency in item class 4 set to 0x000000006f",
 0,
 },
 {
@@ -868,7 +843,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Time set to 6/29/2025 (Sun) 0:15",
+"Time set to 7/2/2025 (Wed) 23:41",
 0,
 },
 {
@@ -876,7 +851,39 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"-------------------------------------------------- Previous Session --------------------------------------------------",
+"Time played:",
+0,
+},
+{
+"Total: 23d 9h 33m 36s",
+0,
+},
+{
+"Level: 5d 4h 52m 34s",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 23d 9h 38m 36s",
+0,
+},
+{
+"Level: 5d 4h 57m 34s",
 0,
 },
 {
@@ -884,351 +891,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Sorting particles normally.",
+"Screen invalid. Changing from=\"none\" to=\"charselect\"",
 0,
 },
 {
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751224088\" expirationTime=\"1751238488\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
-0,
-},
-{
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net established.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-00000017DF40] [WowAccount-0-000000AC3B7D] Initialized with 5 entitlements.",
+"Switching to screen=\"CharacterSelect\"",
 0,
 },
 {
@@ -1245,6 +912,10 @@ Blizzard_Console_SavedVars = {
 },
 {
 "Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000010",
 0,
 },
 {
@@ -1252,1679 +923,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000004000",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084000",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084080",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084480",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000008c480",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000008c480",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 6/29/2025 (Sun) 21:10",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer aborted (reason: 30)",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"Disconnecting for reason 14",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net destroyed.",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from WoW previouslyConnected=\"false\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751236472\" expirationTime=\"1751250872\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
-0,
-},
-{
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
-0,
-},
-{
-"Got new connection 2",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net established.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"Disconnecting for reason 14",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net destroyed.",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from WoW previouslyConnected=\"false\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751306446\" expirationTime=\"1751320846\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
-0,
-},
-{
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net established.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000880",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008a1",
-0,
-},
-{
 "Proficiency in item class 2 set to 0x0000004010",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x00000008a5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004050",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008b5",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008f5",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004070",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008fd",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000040f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f0",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f1",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x00000041f3",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x00000008ff",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 6/30/2025 (Mon) 20:01",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer aborted (reason: 30)",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Skill 810 increased from 55 to 56",
-0,
-},
-{
-"Weather changed to 2, intensity 1.000000\n",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Skill 810 increased from 56 to 57",
-0,
-},
-{
-"World transfer pending...",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"World transfer aborted (reason: 30)",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
-0,
-},
-{
-"Disconnecting for reason 14",
-0,
-},
-{
-"NetClient::HandleDisconnect()\n",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net destroyed.",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from WoW previouslyConnected=\"false\"",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Sorting particles normally.",
-0,
-},
-{
-"Multithreaded rendering enabled.",
-0,
-},
-{
-"Multithreaded BeginDraw enabled.",
-0,
-},
-{
-"Multithread shadows changed to 1.",
-0,
-},
-{
-"Multithreaded prepass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded opaque pass enabled.",
-0,
-},
-{
-"Multithreaded alpha M2 pass enabled.",
-0,
-},
-{
-"Multithreaded opaque WMO pass enabled.",
-0,
-},
-{
-"Multithreaded terrain pass enabled.",
-0,
-},
-{
-"Multithreaded volumetric fog enabled.",
-0,
-},
-{
-"Multithreaded Refraction Pass enabled.",
-0,
-},
-{
-"Multithreaded miscellaneous passes enabled.",
-0,
-},
-{
-"Multithreaded decal passes disabled.",
-0,
-},
-{
-"Multithreaded outline passes enabled.",
-0,
-},
-{
-"Use trigger on BeginDrawComplete enabled.",
-4,
-},
-{
-"Multithreaded alpha pass enabled.",
-0,
-},
-{
-"Multithreaded daynight update enabled.",
-0,
-},
-{
-"Water detail changed to 2",
-0,
-},
-{
-"Ripple detail changed to 1",
-0,
-},
-{
-"Reflection mode changed to 0",
-0,
-},
-{
-"Reflection downscale changed to 0",
-0,
-},
-{
-"Sunshafts quality changed to 2",
-0,
-},
-{
-"Projected textures enabled.",
-0,
-},
-{
-"Spell Clutter set to dynamic",
-0,
-},
-{
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
-0,
-},
-{
-"Shadow texture size changed to 2048.",
-0,
-},
-{
-"Soft shadows changed to 0.",
-0,
-},
-{
-"Shadow cascade blending changed to 1",
-0,
-},
-{
-"Shadow RT mode changed to 0 (Disabled)",
-0,
-},
-{
-"maxLightCount must be in range 0 to 32.",
-0,
-},
-{
-"CVar 'maxLightCount' failed validation for its initial value.",
-0,
-},
-{
-"Clustered shading enabled.",
-0,
-},
-{
-"Not forcing clustered shading.",
-0,
-},
-{
-"SSAO mode set to 3",
-0,
-},
-{
-"SSAO type set to 0",
-0,
-},
-{
-"SkyCloudLOD set to 0",
-0,
-},
-{
-"Texture filtering mode updated.",
-0,
-},
-{
-"Terrain mip level changed to 0.",
-0,
-},
-{
-"Render scale changed to 1",
-0,
-},
-{
-"Resample quality changed to 3",
-0,
-},
-{
-"MSAA disabled",
-0,
-},
-{
-"MSAA for alpha-test enabled.",
-0,
-},
-{
-"VALAR mode changed to 0",
-0,
-},
-{
-"lodObjectSizeScale cannot be changed.",
-0,
-},
-{
-"dynamicLod enabled",
-0,
-},
-{
-"World preload object sort enabled.",
-0,
-},
-{
-"World load object sort enabled.",
-0,
-},
-{
-"World preload non critical enabled.",
-0,
-},
-{
-"World preload high res textures enabled.",
-0,
-},
-{
-"FFX: Color Blind Test Mode Disabled",
-0,
-},
-{
-"Error display disabled",
-0,
-},
-{
-"Error display shown",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Displaying errors through fatal errors",
-0,
-},
-{
-"Now filtering: all messages",
-0,
-},
-{
-"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
-0,
-},
-{
-"ChromaEffects disabled",
-0,
-},
-{
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Resetting",
-0,
-},
-{
-"[IBN_Login] [F] Initializing",
-0,
-},
-{
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for server response.",
-0,
-},
-{
-"[GlueLogin] [F] Logon complete.",
-0,
-},
-{
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751311598\" expirationTime=\"1751325998\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Requesting realm list ticket",
-0,
-},
-{
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[GlueLogin] [F] Waiting for realm list.",
-0,
-},
-{
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
-0,
-},
-{
-"[GlueLogin] [F] Realm list ready.",
-0,
-},
-{
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
-0,
-},
-{
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
-0,
-},
-{
-"NetClient::HandleConnect()\n",
-0,
-},
-{
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnecting from authentication server.",
-0,
-},
-{
-"[IBN_BackInterface] [F] Session with Battle.net established.",
-0,
-},
-{
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
-0,
-},
-{
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000000010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000a00",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000a21",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004010",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000a25",
+"Proficiency in item class 4 set to 0x0000000025",
 0,
 },
 {
@@ -2932,7 +935,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a65",
+"Proficiency in item class 4 set to 0x0000000065",
 0,
 },
 {
@@ -2940,11 +943,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a6d",
+"Proficiency in item class 4 set to 0x000000006d",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a6f",
+"Proficiency in item class 4 set to 0x000000006f",
 0,
 },
 {
@@ -2968,7 +971,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000a6f",
+"Proficiency in item class 4 set to 0x000000006f",
 0,
 },
 {
@@ -2976,7 +979,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Time set to 6/30/2025 (Mon) 21:27",
+"Time set to 7/2/2025 (Wed) 23:49",
 0,
 },
 {
@@ -2984,7 +987,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Fatal error while logging in result=\"( code=\" (325)\" localizedMessage=\"\" debugMessage=\"\")\"",
+"Time played:",
+0,
+},
+{
+"Total: 23d 9h 38m 54s",
+0,
+},
+{
+"Level: 5d 4h 57m 52s",
 0,
 },
 {
@@ -2992,7 +1003,19 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Screen invalid. Changing from=\"none\" to=\"charselect\"",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
+0,
+},
+{
 "-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
 0,
 },
 {
@@ -3056,6 +1079,10 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
 "Use trigger on BeginDrawComplete enabled.",
 4,
 },
@@ -3068,15 +1095,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Water detail changed to 2",
+"Water detail changed to 3",
 0,
 },
 {
-"Ripple detail changed to 1",
+"Ripple detail changed to 2",
 0,
 },
 {
-"Reflection mode changed to 0",
+"Reflection mode changed to 3",
 0,
 },
 {
@@ -3092,11 +1119,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Spell Clutter set to dynamic",
+"Spell Clutter disabled",
 0,
 },
 {
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
 0,
 },
 {
@@ -3104,11 +1131,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Soft shadows changed to 0.",
+"Soft shadows changed to 1.",
 0,
 },
 {
 "Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
 0,
 },
 {
@@ -3132,7 +1163,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"SSAO mode set to 3",
+"SSAO mode set to 4",
 0,
 },
 {
@@ -3240,235 +1271,231 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+"Screen invalid. Changing from=\"none\" to=\"login\"",
 0,
 },
 {
-"[GlueLogin] [F] Resetting",
+"Switching to screen=\"AccountLogin\"",
 0,
 },
 {
-"[IBN_Login] [F] Initializing",
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
 0,
 },
 {
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+"Resetting",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Initializing",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Logon complete.",
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
 0,
 },
 {
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751318615\" expirationTime=\"1751333015\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting realm list ticket",
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
 0,
 },
 {
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"Received bnet account state code=\"ERROR_OK (0)\"",
 0,
 },
 {
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
 0,
 },
 {
-"[GlueLogin] [F] Realm list ready.",
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
 0,
 },
 {
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+"Updated game account list, not saving.",
 0,
 },
 {
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
+"Logon complete.",
 0,
 },
 {
-"NetClient::HandleConnect()\n",
+"Reconnect token saved;  creationTime=\"1751493745\" expirationTime=\"1751508145\"",
 0,
 },
 {
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
+"Waiting for realm list.",
 0,
 },
 {
-"Got new connection 2",
+"Requesting realm list ticket",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
+"Received realm list ticket code=\"ERROR_GAME_UTILITY_SERVER_NO_SERVER (34200)\"",
 0,
 },
 {
-"[GlueLogin] [F] Disconnecting from authentication server.",
+"Fatal error while logging in result=\"( code=\"ERROR_GAME_UTILITY_SERVER_NO_SERVER (34200)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"[IBN_BackInterface] [F] Session with Battle.net established.",
+"Clearing last error",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+"Front disconnecting connectionId=\"1\"",
 0,
 },
 {
-"[GlueLogin] [F] Disconnected from authentication server.",
+"Disconnecting from authentication server.",
 0,
 },
 {
-"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"NetClient::HandleDisconnect()\n",
+"Disconnected from authentication server.",
 0,
 },
 {
-"[IBN_BackInterface] [F] Session with Battle.net destroyed.",
+"Destroying isInitialized=\"true\"",
 0,
 },
 {
-"[GlueLogin] [F] Disconnected from WoW previouslyConnected=\"true\"",
+"Clearing last error",
 0,
 },
 {
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
 0,
 },
 {
-"[GlueLogin] [F] Resetting",
+"Resetting",
 0,
 },
 {
-"[IBN_Login] [F] Destroying isInitialized=\"true\"",
+"Initializing",
 0,
 },
 {
-"[IBN_Login] [F] Initializing",
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
 0,
 },
 {
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Front connected connectionId=\"2\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"[GlueLogin] [F] Logon complete.",
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
 0,
 },
 {
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751322903\" expirationTime=\"1751337303\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting realm list ticket",
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
 0,
 },
 {
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
+"Received bnet account state code=\"ERROR_OK (0)\"",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
 0,
 },
 {
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
+"Updated game account list, not saving.",
 0,
 },
 {
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
+"Logon complete.",
 0,
 },
 {
-"[GlueLogin] [F] Realm list ready.",
+"Reconnect token saved;  creationTime=\"1751493748\" expirationTime=\"1751508148\"",
 0,
 },
 {
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+"Waiting for realm list.",
 0,
 },
 {
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
+"Requesting realm list ticket",
 0,
 },
 {
-"NetClient::HandleConnect()\n",
+"Received realm list ticket code=\"ERROR_GAME_UTILITY_SERVER_NO_SERVER (34200)\"",
 0,
 },
 {
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
+"Fatal error while logging in result=\"( code=\"ERROR_GAME_UTILITY_SERVER_NO_SERVER (34200)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"Got new connection 2",
+"Clearing last error",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnecting connectionId=\"2\"",
+"Front disconnecting connectionId=\"2\"",
 0,
 },
 {
-"[GlueLogin] [F] Disconnecting from authentication server.",
+"Disconnecting from authentication server.",
 0,
 },
 {
-"[IBN_BackInterface] [F] Session with Battle.net established.",
+"Front disconnected connectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnected connectionId=\"2\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+"Disconnected from authentication server.",
 0,
 },
 {
-"[GlueLogin] [F] Disconnected from authentication server.",
-0,
-},
-{
-"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
+"Destroying isInitialized=\"true\"",
 0,
 },
 {
@@ -3476,103 +1503,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Got new connection 3",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000021",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000004000",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084000",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084080",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x0000084480",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000008c480",
-0,
-},
-{
-"Proficiency in item class 2 set to 0x000008c480",
-0,
-},
-{
-"Proficiency in item class 4 set to 0x0000000023",
-0,
-},
-{
-"Weather changed to 1, intensity 0.000000\n",
-0,
-},
-{
-"Time set to 7/1/2025 (Tue) 0:38",
-0,
-},
-{
-"Gamespeed set from 0.017 to 0.017",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 0d 1h 49m 25s",
-0,
-},
-{
-"Level: 0d 1h 49m 25s",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
-0,
-},
-{
-"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 0d 1h 57m 0s",
-0,
-},
-{
-"Level: 0d 1h 57m 0s",
-0,
-},
-{
-"-------------------------------------------------- Previous Session --------------------------------------------------",
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
 0,
 },
 {
@@ -3636,6 +1567,10 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
 "Use trigger on BeginDrawComplete enabled.",
 4,
 },
@@ -3648,15 +1583,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Water detail changed to 2",
+"Water detail changed to 3",
 0,
 },
 {
-"Ripple detail changed to 1",
+"Ripple detail changed to 2",
 0,
 },
 {
-"Reflection mode changed to 0",
+"Reflection mode changed to 3",
 0,
 },
 {
@@ -3672,11 +1607,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Spell Clutter set to dynamic",
+"Spell Clutter disabled",
 0,
 },
 {
-"Shadow mode changed to 3 - 3 band dynamic shadows on units and terrain, 2048",
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
 0,
 },
 {
@@ -3684,11 +1619,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Soft shadows changed to 0.",
+"Soft shadows changed to 1.",
 0,
 },
 {
 "Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
 0,
 },
 {
@@ -3712,7 +1651,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"SSAO mode set to 3",
+"SSAO mode set to 4",
 0,
 },
 {
@@ -3820,75 +1759,1003 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+"Screen invalid. Changing from=\"none\" to=\"login\"",
 0,
 },
 {
-"[GlueLogin] [F] Resetting",
+"Switching to screen=\"AccountLogin\"",
 0,
 },
 {
-"[IBN_Login] [F] Initializing",
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
 0,
 },
 {
-"[IBN_Login] [F] Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+"Resetting",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Initializing",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for server response.",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Logon complete.",
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
 0,
 },
 {
-"[GlueLogin] [F] Reconnect token saved;  creationTime=\"1751402416\" expirationTime=\"1751416816\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting realm list ticket",
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
 0,
 },
 {
-"[IBN_Login] [F] Received realm list ticket code=\"ERROR_OK (0)\"",
+"Waiting for server response.",
 0,
 },
 {
-"[GlueLogin] [F] Waiting for realm list.",
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
 0,
 },
 {
-"[IBN_Login] [F] Received sub region list code=\"ERROR_OK (0)\"",
+"Received bnet account state code=\"ERROR_OK (0)\"",
 0,
 },
 {
-"[IBN_Login] [F] Requesting last played chars numSubRegions=\"2\"",
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
 0,
 },
 {
-"[GlueLogin] [F] Realm list ready.",
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
 0,
 },
 {
-"[IBN_Login] [F] Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+"Updated game account list, not saving.",
 0,
 },
 {
-"[IBN_Login] [F] OnRealmJoin code=\"ERROR_OK (0)\"",
+"Logon complete.",
+0,
+},
+{
+"Reconnect token saved;  creationTime=\"1751494058\" expirationTime=\"1751508458\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Requesting realm list ticket",
+0,
+},
+{
+"Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting last played chars numSubRegions=\"2\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"37-4-50\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"1\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"43-4-89\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"2\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"No most recently played char. Requesting realm lists. numSubRegions=\"2\"",
+0,
+},
+{
+"Received a realm list code=\"ERROR_OK (0)\" subRegion=\"37-4-50\" totalSubRegions=\"2\" subRegionsHasData=\"1\" numRealms=\"0\"",
+0,
+},
+{
+"Received a realm list code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" totalSubRegions=\"2\" subRegionsHasData=\"2\" numRealms=\"25\"",
+0,
+},
+{
+"Realm list ready.",
+0,
+},
+{
+"Screen invalid. Changing from=\"login\" to=\"realmlist\"",
+0,
+},
+{
+"Switching to screen=\"RealmListUI\"",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting realm lists numSubRegions=\"2\"",
+0,
+},
+{
+"Received a realm list code=\"ERROR_OK (0)\" subRegion=\"37-4-50\" totalSubRegions=\"2\" subRegionsHasData=\"1\" numRealms=\"0\"",
+0,
+},
+{
+"Received a realm list code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" totalSubRegions=\"2\" subRegionsHasData=\"2\" numRealms=\"25\"",
+0,
+},
+{
+"Refreshing realm list.",
+0,
+},
+{
+"Explicitly disconnecting from realm server",
+0,
+},
+{
+"Front disconnecting connectionId=\"1\"",
+0,
+},
+{
+"Disconnecting from authentication server.",
+0,
+},
+{
+"CancelWoWConnection",
+0,
+},
+{
+"Screen invalid. Changing from=\"realmlist\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Disconnected from authentication server.",
+0,
+},
+{
+"Destroying isInitialized=\"true\"",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Use trigger on BeginDrawComplete enabled.",
+4,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 3",
+0,
+},
+{
+"Ripple detail changed to 2",
+0,
+},
+{
+"Reflection mode changed to 3",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter disabled",
+0,
+},
+{
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 1.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 4",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+0,
+},
+{
+"Resetting",
+0,
+},
+{
+"Initializing",
+0,
+},
+{
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
+0,
+},
+{
+"Received bnet account state code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
+0,
+},
+{
+"Updated game account list, not saving.",
+0,
+},
+{
+"Logon complete.",
+0,
+},
+{
+"Reconnect token saved;  creationTime=\"1751494233\" expirationTime=\"1751508633\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Requesting realm list ticket",
+0,
+},
+{
+"Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting last played chars numSubRegions=\"2\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"37-4-50\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"1\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"43-4-89\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"2\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"No most recently played char. Requesting realm lists. numSubRegions=\"2\"",
+0,
+},
+{
+"Received a realm list code=\"ERROR_OK (0)\" subRegion=\"37-4-50\" totalSubRegions=\"2\" subRegionsHasData=\"1\" numRealms=\"0\"",
+0,
+},
+{
+"Received a realm list code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" totalSubRegions=\"2\" subRegionsHasData=\"2\" numRealms=\"25\"",
+0,
+},
+{
+"Realm list ready.",
+0,
+},
+{
+"Screen invalid. Changing from=\"login\" to=\"realmlist\"",
+0,
+},
+{
+"Switching to screen=\"RealmListUI\"",
+0,
+},
+{
+"Explicitly disconnecting from realm server",
+0,
+},
+{
+"Front disconnecting connectionId=\"1\"",
+0,
+},
+{
+"Disconnecting from authentication server.",
+0,
+},
+{
+"CancelWoWConnection",
+0,
+},
+{
+"Screen invalid. Changing from=\"realmlist\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Disconnected from authentication server.",
+0,
+},
+{
+"Destroying isInitialized=\"true\"",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Use trigger on BeginDrawComplete enabled.",
+4,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 3",
+0,
+},
+{
+"Ripple detail changed to 2",
+0,
+},
+{
+"Reflection mode changed to 3",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter disabled",
+0,
+},
+{
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 1.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 4",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+0,
+},
+{
+"Resetting",
+0,
+},
+{
+"Initializing",
+0,
+},
+{
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
+0,
+},
+{
+"Received bnet account state code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
+0,
+},
+{
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
+0,
+},
+{
+"Updated game account list, not saving.",
+0,
+},
+{
+"Logon complete.",
+0,
+},
+{
+"Reconnect token saved;  creationTime=\"1751494444\" expirationTime=\"1751508844\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Requesting realm list ticket",
+0,
+},
+{
+"Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting last played chars numSubRegions=\"2\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"37-4-50\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"1\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"Received last played char code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" lastPlayedTime=\"1751493513\" numRegions=\"2\" numRegionsWithData=\"2\" realmEntry=\"{\"wowRealmAddress\":721747977,\"cfgTimezonesID\":21,\"populationState\":2,\"cfgCategoriesID\":9,\"version\":{\"versionMajor\":5,\"versionBuild\":61496,\"versionMinor\":5,\"versionRevision\":0},\"cfgRealmsID\":4477,\"flags\":0,\"name\":\"Venoxis\",\"cfgConfigsID\":2,\"cfgContentSetID\":0,\"cfgLanguagesID\":5}\"",
+0,
+},
+{
+"Realm list ready.",
+0,
+},
+{
+"Found most recently played char. Joining realm. lastPlayedRegion=\"43-4-89\" realmAddress=\"721747977\" lastActiveTime=\"1751493513\"",
+0,
+},
+{
+"Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+0,
+},
+{
+"OnRealmJoin code=\"ERROR_OK (0)\"",
 0,
 },
 {
@@ -3896,35 +2763,203 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Received AuthedToWoW result=\"ERROR_OK (0)\"",
+"Received AuthedToWoW result=\"ERROR_OK (0)\"",
 0,
 },
 {
-"Got new connection 2",
+"Screen invalid. Changing from=\"login\" to=\"charselect\"",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnecting connectionId=\"1\"",
+"Switching to screen=\"CharacterSelect\"",
 0,
 },
 {
-"[GlueLogin] [F] Disconnecting from authentication server.",
+"Connected to Back. Disconnecting from Front.",
 0,
 },
 {
-"[IBN_BackInterface] [F] Session with Battle.net established.",
+"Front disconnecting connectionId=\"1\"",
 0,
 },
 {
-"[IBN_Login] [F] Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+"Disconnecting from authentication server.",
 0,
 },
 {
-"[GlueLogin] [F] Disconnected from authentication server.",
+"Session with Battle.net established.",
+0,
+},
+{
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Disconnected from authentication server.",
 0,
 },
 {
 "[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Game table failed consistency check: BattlePetXP. rows: 100, expectedRows: 100, columns: 2, expectedColumns: 10\n",
+3,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000025",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000065",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006030",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006d",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006031",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006431",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 7/3/2025 (Thu) 0:13",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 23d 9h 47m 31s",
+0,
+},
+{
+"Level: 5d 5h 6m 29s",
+0,
+},
+{
+"Skill 810 increased from 30 to 31",
+0,
+},
+{
+"Skill 810 increased from 31 to 32",
+0,
+},
+{
+"Skill 810 increased from 32 to 33",
+0,
+},
+{
+"Skill 810 increased from 33 to 34",
+0,
+},
+{
+"Skill 810 increased from 34 to 35",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 23d 10h 10m 40s",
+0,
+},
+{
+"Level: 5d 5h 29m 38s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"charselect\"",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
 0,
 },
 {
@@ -3944,39 +2979,63 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
 "Proficiency in item class 4 set to 0x0000000021",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000004000",
+"Proficiency in item class 2 set to 0x0000004010",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000084000",
+"Proficiency in item class 4 set to 0x0000000025",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000023",
+"Proficiency in item class 2 set to 0x0000006010",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000084080",
+"Proficiency in item class 4 set to 0x0000000065",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000084480",
+"Proficiency in item class 2 set to 0x0000006030",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x000008c480",
+"Proficiency in item class 4 set to 0x000000006d",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x000008c480",
+"Proficiency in item class 4 set to 0x000000006f",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000023",
+"Proficiency in item class 2 set to 0x0000006031",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006431",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
 0,
 },
 {
@@ -3984,7 +3043,7 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Time set to 7/1/2025 (Tue) 22:41",
+"Time set to 7/3/2025 (Thu) 0:45",
 0,
 },
 {
@@ -3996,11 +3055,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Total: 0d 2h 18m 8s",
+"Total: 23d 10h 19m 28s",
 0,
 },
 {
-"Level: 0d 2h 18m 8s",
+"Level: 5d 5h 38m 26s",
 0,
 },
 {
@@ -4008,7 +3067,19 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"[GlueLogin] [F] Explicitly disconnecting from realm server",
+"Screen invalid. Changing from=\"none\" to=\"charselect\"",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
+0,
+},
+{
+"Explicitly disconnecting from realm server",
+0,
+},
+{
+"CancelWoWConnection",
 0,
 },
 {
@@ -4016,20 +3087,1005 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Screen invalid. Changing from=\"charselect\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
 "NetClient::HandleDisconnect()\n",
 0,
 },
 {
-"[IBN_BackInterface] [F] Session with Battle.net destroyed.",
+"Session with Battle.net destroyed.",
 0,
 },
 {
-"[GlueLogin] [F] Disconnected from WoW previouslyConnected=\"false\"",
+"Disconnected from WoW previouslyConnected=\"false\"",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Use trigger on BeginDrawComplete enabled.",
+4,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 3",
+0,
+},
+{
+"Ripple detail changed to 2",
+0,
+},
+{
+"Reflection mode changed to 3",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter disabled",
+0,
+},
+{
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 1.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 4",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+0,
+},
+{
+"Resetting",
+0,
+},
+{
+"Initializing",
+0,
+},
+{
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Received bnet account state code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
+0,
+},
+{
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
+0,
+},
+{
+"Updated game account list, not saving.",
+0,
+},
+{
+"Logon complete.",
+0,
+},
+{
+"Reconnect token saved;  creationTime=\"1751496751\" expirationTime=\"1751511151\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Requesting realm list ticket",
+0,
+},
+{
+"Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting last played chars numSubRegions=\"2\"",
+0,
+},
+{
+"Received last played char code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" lastPlayedTime=\"1751496606\" numRegions=\"2\" numRegionsWithData=\"1\" realmEntry=\"{\"wowRealmAddress\":721747977,\"cfgTimezonesID\":21,\"populationState\":2,\"cfgCategoriesID\":9,\"version\":{\"versionMajor\":5,\"versionBuild\":61496,\"versionMinor\":5,\"versionRevision\":0},\"cfgRealmsID\":4477,\"flags\":0,\"name\":\"Venoxis\",\"cfgConfigsID\":2,\"cfgContentSetID\":0,\"cfgLanguagesID\":5}\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"37-4-50\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"2\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"Realm list ready.",
+0,
+},
+{
+"Found most recently played char. Joining realm. lastPlayedRegion=\"43-4-89\" realmAddress=\"721747977\" lastActiveTime=\"1751496606\"",
+0,
+},
+{
+"Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+0,
+},
+{
+"OnRealmJoin code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"Received AuthedToWoW result=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Screen invalid. Changing from=\"login\" to=\"charselect\"",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
+0,
+},
+{
+"Connected to Back. Disconnecting from Front.",
+0,
+},
+{
+"Front disconnecting connectionId=\"1\"",
+0,
+},
+{
+"Disconnecting from authentication server.",
+0,
+},
+{
+"Session with Battle.net established.",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
+0,
+},
+{
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Disconnected from authentication server.",
+0,
+},
+{
+"Explicitly disconnecting from realm server",
+0,
+},
+{
+"CancelWoWConnection",
+0,
+},
+{
+"Disconnecting for reason 14",
+0,
+},
+{
+"Screen invalid. Changing from=\"charselect\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"NetClient::HandleDisconnect()\n",
+0,
+},
+{
+"Session with Battle.net destroyed.",
+0,
+},
+{
+"Disconnected from WoW previouslyConnected=\"false\"",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Starting up hasFrontInterface=\"false\" hasBackInterface=\"false\"",
+0,
+},
+{
+"Sorting particles normally.",
+0,
+},
+{
+"Multithreaded rendering enabled.",
+0,
+},
+{
+"Multithreaded BeginDraw enabled.",
+0,
+},
+{
+"Multithread shadows changed to 1.",
+0,
+},
+{
+"Multithreaded prepass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded opaque pass enabled.",
+0,
+},
+{
+"Multithreaded alpha M2 pass enabled.",
+0,
+},
+{
+"Multithreaded opaque WMO pass enabled.",
+0,
+},
+{
+"Multithreaded terrain pass enabled.",
+0,
+},
+{
+"Multithreaded volumetric fog enabled.",
+0,
+},
+{
+"Multithreaded Refraction Pass enabled.",
+0,
+},
+{
+"Multithreaded miscellaneous passes enabled.",
+0,
+},
+{
+"Multithreaded decal passes disabled.",
+0,
+},
+{
+"Multithreaded outline passes enabled.",
+0,
+},
+{
+"Multithreaded lightshaft passes enabled.",
+0,
+},
+{
+"Use trigger on BeginDrawComplete enabled.",
+4,
+},
+{
+"Multithreaded alpha pass enabled.",
+0,
+},
+{
+"Multithreaded daynight update enabled.",
+0,
+},
+{
+"Water detail changed to 3",
+0,
+},
+{
+"Ripple detail changed to 2",
+0,
+},
+{
+"Reflection mode changed to 3",
+0,
+},
+{
+"Reflection downscale changed to 0",
+0,
+},
+{
+"Sunshafts quality changed to 2",
+0,
+},
+{
+"Projected textures enabled.",
+0,
+},
+{
+"Spell Clutter disabled",
+0,
+},
+{
+"Shadow mode changed to 4 - 4 band dynamic shadows on units and terrain, 2048",
+0,
+},
+{
+"Shadow texture size changed to 2048.",
+0,
+},
+{
+"Soft shadows changed to 1.",
+0,
+},
+{
+"Shadow cascade blending changed to 1",
+0,
+},
+{
+"Number of shadow cascades changed to 4",
+0,
+},
+{
+"Shadow RT mode changed to 0 (Disabled)",
+0,
+},
+{
+"maxLightCount must be in range 0 to 32.",
+0,
+},
+{
+"CVar 'maxLightCount' failed validation for its initial value.",
+0,
+},
+{
+"Clustered shading enabled.",
+0,
+},
+{
+"Not forcing clustered shading.",
+0,
+},
+{
+"SSAO mode set to 4",
+0,
+},
+{
+"SSAO type set to 0",
+0,
+},
+{
+"SkyCloudLOD set to 0",
+0,
+},
+{
+"Texture filtering mode updated.",
+0,
+},
+{
+"Terrain mip level changed to 0.",
+0,
+},
+{
+"Render scale changed to 1",
+0,
+},
+{
+"Resample quality changed to 3",
+0,
+},
+{
+"MSAA disabled",
+0,
+},
+{
+"MSAA for alpha-test enabled.",
+0,
+},
+{
+"VALAR mode changed to 0",
+0,
+},
+{
+"lodObjectSizeScale cannot be changed.",
+0,
+},
+{
+"dynamicLod enabled",
+0,
+},
+{
+"World preload object sort enabled.",
+0,
+},
+{
+"World load object sort enabled.",
+0,
+},
+{
+"World preload non critical enabled.",
+0,
+},
+{
+"World preload high res textures enabled.",
+0,
+},
+{
+"FFX: Color Blind Test Mode Disabled",
+0,
+},
+{
+"Error display disabled",
+0,
+},
+{
+"Error display shown",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Displaying errors through fatal errors",
+0,
+},
+{
+"Now filtering: all messages",
+0,
+},
+{
+"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.",
+0,
+},
+{
+"ChromaEffects disabled",
+0,
+},
+{
+"Screen invalid. Changing from=\"none\" to=\"login\"",
+0,
+},
+{
+"Switching to screen=\"AccountLogin\"",
+0,
+},
+{
+"Starting login launcherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"",
+0,
+},
+{
+"Resetting",
+0,
+},
+{
+"Initializing",
+0,
+},
+{
+"Attempting logon host=\"eu.actual.battle.net\" port=\"1119\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Front connected connectionId=\"1\" program=\"WoW\" platform=\"Wn64\" locale=\"enUS\" version=\"\" usedToken=\"true\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"OnSendLogon result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Logon complete result=\"( code=\"ERROR_OK (0)\" localizedMessage=\"\" debugMessage=\"\")\" numGameAccounts=\"2\"",
+0,
+},
+{
+"Waiting for server response.",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"WoW1\" numGameAccounts=\"2\" numGameAccountNames=\"0\"",
+0,
+},
+{
+"Received bnet account state code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Received game account name code=\"ERROR_OK (0)\" name=\"FELIXBLANCO\" numGameAccounts=\"2\" numGameAccountNames=\"1\"",
+0,
+},
+{
+"Received web credentials  code=\"ERROR_OK (0)\" gotCredentials=\"true\"",
+0,
+},
+{
+"Updated game account list, not saving.",
+0,
+},
+{
+"Logon complete.",
+0,
+},
+{
+"Reconnect token saved;  creationTime=\"1751529542\" expirationTime=\"1751543942\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Requesting realm list ticket",
+0,
+},
+{
+"Received realm list ticket code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Waiting for realm list.",
+0,
+},
+{
+"Received sub region list code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Requesting last played chars numSubRegions=\"2\"",
+0,
+},
+{
+"Received last played char code=\" (309)\" subRegion=\"37-4-50\" lastPlayedTime=\"0\" numRegions=\"2\" numRegionsWithData=\"1\" realmEntry=\"{\"wowRealmAddress\":0,\"cfgTimezonesID\":0,\"populationState\":0,\"cfgCategoriesID\":0,\"version\":{\"versionMajor\":0,\"versionBuild\":0,\"versionMinor\":0,\"versionRevision\":0},\"cfgRealmsID\":0,\"flags\":0,\"name\":\"\",\"cfgConfigsID\":0,\"cfgContentSetID\":0,\"cfgLanguagesID\":0}\"",
+0,
+},
+{
+"Received last played char code=\"ERROR_OK (0)\" subRegion=\"43-4-89\" lastPlayedTime=\"1751496606\" numRegions=\"2\" numRegionsWithData=\"2\" realmEntry=\"{\"wowRealmAddress\":721747977,\"cfgTimezonesID\":21,\"populationState\":2,\"cfgCategoriesID\":9,\"version\":{\"versionMajor\":5,\"versionBuild\":61496,\"versionMinor\":5,\"versionRevision\":0},\"cfgRealmsID\":4477,\"flags\":0,\"name\":\"Venoxis\",\"cfgConfigsID\":2,\"cfgContentSetID\":0,\"cfgLanguagesID\":5}\"",
+0,
+},
+{
+"Realm list ready.",
+0,
+},
+{
+"Found most recently played char. Joining realm. lastPlayedRegion=\"43-4-89\" realmAddress=\"721747977\" lastActiveTime=\"1751496606\"",
+0,
+},
+{
+"Joining realm subRegion=\"43-4-89\" realmAddress=\"43-5-9\"",
+0,
+},
+{
+"OnRealmJoin code=\"ERROR_OK (0)\"",
+0,
+},
+{
+"NetClient::HandleConnect()\n",
+0,
+},
+{
+"Received AuthedToWoW result=\"ERROR_OK (0)\"",
+0,
+},
+{
+"Screen invalid. Changing from=\"login\" to=\"charselect\"",
+0,
+},
+{
+"Switching to screen=\"CharacterSelect\"",
+0,
+},
+{
+"Connected to Back. Disconnecting from Front.",
+0,
+},
+{
+"Front disconnecting connectionId=\"1\"",
+0,
+},
+{
+"Disconnecting from authentication server.",
+0,
+},
+{
+"Got new connection 2",
+0,
+},
+{
+"Session with Battle.net established.",
+0,
+},
+{
+"Front disconnected connectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"",
+0,
+},
+{
+"Disconnected from authentication server.",
+0,
+},
+{
+"[WowEntitlements] [BNetAccount-0-000003075748] [WowAccount-0-000000C4E4E2] Initialized with 27 entitlements.",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Game table failed consistency check: BattlePetXP. rows: 100, expectedRows: 100, columns: 2, expectedColumns: 10\n",
+3,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004000",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000084000",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000023",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000084080",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000084480",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000008c480",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000008c480",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000023",
+0,
+},
+{
+"Weather changed to 1, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 7/3/2025 (Thu) 9:59",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 0d 3h 2m 50s",
+0,
+},
+{
+"Level: 0d 3h 2m 50s",
 0,
 },
 },
-["isShown"] = false,
+["height"] = 300,
 ["fontHeight"] = 14,
+["isShown"] = false,
 ["commandHistory"] = {
 },
 }

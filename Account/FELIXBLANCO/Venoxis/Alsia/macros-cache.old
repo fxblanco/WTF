@@ -95,6 +95,10 @@ VER 3 00000000010004D8 "RET_CD" "134400"
 /use 13
 /use 14
 END
+VER 3 00000000010004DA "RET_f" "134400"
+#showtooltip
+/cast [mod:shift] Divine Storm; Exorcism
+END
 VER 3 00000000010004D9 "RET_PrefightGura" "134400"
 #showtooltip Guardian of Ancient Kings
 /use Golemblood Potion

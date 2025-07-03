@@ -52,6 +52,7 @@ VER 3 000000000100000D "SND" "134400"
 /use Potion of the Tol'vir
 /equipset Normal
 /cast Sprint
+/use 10
 /cast Stealth
 /cast Premeditation
 END

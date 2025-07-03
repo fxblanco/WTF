@@ -3,10 +3,16 @@ VER 3 00000000010004A8 "1button_prot" "INV_Misc_QuestionMark"
 /cast Divine Shield
 /cancelaura Divine Shield
 END
+VER 3 00000000010004BF "1Spec" "134400"
+/run SetActiveTalentGroup(1)
+END
 VER 3 00000000010004A9 "2" "133192"
 /startattack
 /use [@mouseover,help][]Word of Glory
 /startattack
+END
+VER 3 00000000010004C0 "2Spec" "134400"
+/run SetActiveTalentGroup(2)
 END
 VER 3 00000000010004AA "3" "INV_Misc_QuestionMark"
 #showtooltip

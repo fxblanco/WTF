@@ -1,12 +1,12 @@
-VER 3 0000000001000046 "3" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [nostance:2] Aspect of the Fox
-/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Cobra Shot
-END
 VER 3 0000000001000047 "3" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Arcane Shot
+END
+VER 3 0000000001000046 "3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nostance:2] Aspect of the Fox
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Cobra Shot
 END
 VER 3 0000000001000048 "4" "INV_Misc_QuestionMark"
 #showtooltip
@@ -44,6 +44,11 @@ VER 3 000000000100004C "cd" "INV_Misc_QuestionMark"
 /use 13
 /use 14
 END
+VER 3 000000000100005B "deterr" "134400"
+#showtooltip
+/cast Deterrence
+/cancelaura Deterrence
+END
 VER 3 0000000001000049 "distr_shot" "135736"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
@@ -73,6 +78,7 @@ VER 3 0000000001000051 "r" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nostance:1] Aspect of the Hawk
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Black Arrow
+/petattack
 END
 VER 3 0000000001000052 "SM5" "INV_Misc_QuestionMark"
 #showtooltip

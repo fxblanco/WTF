@@ -1,84 +1,84 @@
-VER 3 000000000100001A "1" "134400"
+VER 3 010000000100001A "1" "134400"
 #showtooltip
 /cast [mod:ctrl] Soulburn; [mod:shift] Demon Leap; Life Tap
 END
-VER 3 0000000001000018 "agoniy" "136139"
+VER 3 0100000001000018 "agoniy" "136139"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Agony
 END
-VER 3 0000000001000008 "brunst" "134400"
+VER 3 0100000001000008 "brunst" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Immolate
 END
-VER 3 0000000001000011 "circle" "134400"
+VER 3 0100000001000011 "circle" "134400"
 #showtooltip
 /cast [mod:ctrl;@mouseover,exists]Spell Lock; [mod:shift] Demonic Circle: Summon; Demonic Circle: Teleport
 END
-VER 3 0000000001000003 "corruption" "134400"
+VER 3 0100000001000003 "corruption" "134400"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Corruption
 END
-VER 3 000000000100001E "dm" "134400"
+VER 3 010000000100001E "dm" "134400"
 #showtooltip
 /cast Devour Magic
 END
-VER 3 0000000001000005 "doom" "134400"
+VER 3 0100000001000005 "doom" "134400"
 #showtooltip Bane of Doom
 /use 10
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Doom
 END
-VER 3 000000000100000B "drain" "134400"
+VER 3 010000000100000B "drain" "134400"
 #showtooltip
 /cast [mod:shift]Drain Life; [@mouseover,exists][] Drain Soul
 END
-VER 3 0000000001000012 "elemts" "134400"
+VER 3 0100000001000012 "elemts" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Curse of the Elements
 END
-VER 3 000000000100000F "f" "134400"
+VER 3 010000000100000F "f" "134400"
 #showtooltip
 /cast [mod:shift] Immolation Aura; [nomod] Shadowflame
 /cast [mod:ctrl, pet:felguard] Felstorm;
 /use 10
 END
-VER 3 000000000100001B "ff" "134400"
+VER 3 010000000100001B "ff" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Fel Flame
 END
-VER 3 000000000100000E "g" "134400"
+VER 3 010000000100000E "g" "134400"
 #showtooltip
 /cast [mod:ctrl] Death Coil; [mod:shift] Fear; [mod:alt] Howl of Terror; Fel Flame
 END
-VER 3 0000000001000017 "guldan" "134400"
+VER 3 0100000001000017 "guldan" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Hand of Gul'dan
 END
-VER 3 000000000100001D "kick" "134400"
+VER 3 010000000100001D "kick" "134400"
 /cast [@mouseover,exists][] Spell Lock
 END
-VER 3 0000000001000019 "leap" "134400"
+VER 3 0100000001000019 "leap" "134400"
 #showtooltip
 /cast Demon Leap
 /cast Immolation Aura (Demon)
 END
-VER 3 000000000100001F "lock" "134400"
+VER 3 010000000100001F "lock" "134400"
 #showtooltip
 /cast Spell Lock
 END
-VER 3 0000000001000006 "sb" "134400"
+VER 3 0100000001000006 "sb" "134400"
 #showtooltip Shadow Bolt
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Shadow Bolt
 /cast Shadow Bite
 END
-VER 3 0000000001000009 "sf" "134400"
+VER 3 0100000001000009 "sf" "134400"
 #showtooltip
 /cast [mod:shift]Drain Life; [@mouseover,exists][] Soul Fire
 END
-VER 3 000000000100001C "ua" "134400"
+VER 3 010000000100001C "ua" "134400"
 #showtooltip
 /cast [mod:crtl,@focus,harm,nodead] [mod:shift,@mouseover,harm,nodead] [] Unstable Affliction
 END
-VER 3 0000000001000016 "verb" "134400"
+VER 3 0100000001000016 "verb" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Incinerate
 END

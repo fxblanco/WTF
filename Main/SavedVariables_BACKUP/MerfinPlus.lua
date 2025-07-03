@@ -1,0 +1,35 @@
+
+MerfinPlusSaved = {
+["breakExpTime"] = 0,
+["pullExpTime"] = 1740443372,
+["profileKeys"] = {
+["Alsla - Venoxis"] = "Default",
+["Alslala - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
+["Exonuklease - Venoxis"] = "Default",
+["Serferine - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
+["Hópéful - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
+["Spaltkyle - Venoxis"] = "Default",
+["Kyleriemen - Venoxis"] = "Default",
+["Alsía - Venoxis"] = "Default",
+["Alslalock - Venoxis"] = "Default",
+["Invisibilia - Venoxis"] = "Default",
+["Bremskyle - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
+},
+["pullStartTime"] = 1740443357,
+["breakStartTime"] = 0,
+["profiles"] = {
+["Default"] = {
+["breakSenderName"] = "Mandau",
+["pullTotalTime"] = 45,
+["pullSenderName"] = "Frenchdog",
+["breakTotalTime"] = 120,
+["pullExpTime"] = 1751310035,
+["pullStartTime"] = 1751309990,
+},
+},
+}

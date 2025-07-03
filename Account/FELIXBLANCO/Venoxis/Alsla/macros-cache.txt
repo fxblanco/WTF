@@ -1,35 +1,35 @@
-VER 3 00000000010003B4 "1" "INV_Misc_QuestionMark"
+VER 3 01000000010003B4 "1" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] ; [mod:shift]  Rune Tap; Outbreak
 /use 13
 END
-VER 3 00000000010003B5 "5" "INV_Misc_QuestionMark"
+VER 3 01000000010003B5 "5" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Dark Command
 END
-VER 3 00000000010003B6 "<" "INV_Misc_QuestionMark"
+VER 3 01000000010003B6 "<" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] ; [mod:shift]  Horn of Winter; Bone Shield
 END
-VER 3 00000000010003B7 "cd" "INV_Misc_QuestionMark"
+VER 3 01000000010003B7 "cd" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 10
 /cast [mod:shift] Blood Fury(Racial)
 /cast [mod:shift] Dancing Rune Weapon; Empower Rune Weapon
 END
-VER 3 00000000010003B8 "chain" "INV_Misc_QuestionMark"
+VER 3 01000000010003B8 "chain" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Chains of Ice
 END
-VER 3 00000000010003B9 "def" "INV_Misc_QuestionMark"
+VER 3 01000000010003B9 "def" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:ctrl] 14; [mod:shift] Blood Tap; Anti-Magic Shell
 END
-VER 3 00000000010003BA "dnd_bomb" "INV_Misc_QuestionMark"
+VER 3 01000000010003BA "dnd_bomb" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift, @cursor] Death and Decay; Blood Boil
 END
-VER 3 00000000010003BB "DS" "INV_Misc_QuestionMark"
+VER 3 01000000010003BB "DS" "INV_Misc_QuestionMark"
 #showtooltip Death Strike
 /startattack
 /cancelaura Hand of Protection
@@ -38,21 +38,21 @@ VER 3 00000000010003BB "DS" "INV_Misc_QuestionMark"
 /use Global Thermal Sapper Charge
 /use [@player] Saronite Bomb
 END
-VER 3 00000000010003C9 "focus_grip" "134400"
+VER 3 01000000010003C9 "focus_grip" "134400"
 #showtooltip
 /cast [mod:shift,@focus,harm,nodead] [mod:ctrl,@focus,exists] [] Death Grip
 END
-VER 3 00000000010003CB "garry" "134400"
+VER 3 01000000010003CB "garry" "134400"
 #showtooltip
 /use Golemblood Potion
 /cast Summon Gargoyle
 /cast [@Alsla] Unholy Frenzy
 END
-VER 3 00000000010003BC "grip" "INV_Misc_QuestionMark"
+VER 3 01000000010003BC "grip" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Death Grip
 END
-VER 3 00000000010003BD "HASTE" "INV_Misc_QuestionMark"
+VER 3 01000000010003BD "HASTE" "INV_Misc_QuestionMark"
 #showtooltip Potion of Speed
 /use 10
 /use 13
@@ -60,48 +60,48 @@ VER 3 00000000010003BD "HASTE" "INV_Misc_QuestionMark"
 /cast Berserking(Racial)
 /use Potion of Speed
 END
-VER 3 00000000010003BE "it" "INV_Misc_QuestionMark"
+VER 3 01000000010003BE "it" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Icy Touch
 END
-VER 3 00000000010003BF "kick" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@focus,exists] [] Mind Freeze
-END
-VER 3 00000000010003C0 "kick" "INV_Misc_QuestionMark"
+VER 3 01000000010003C0 "kick" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Mind Freeze
 END
-VER 3 00000000010003C1 "r" "INV_Misc_QuestionMark"
+VER 3 01000000010003BF "kick" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus,exists] [] Mind Freeze
+END
+VER 3 01000000010003C1 "r" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] Death Coil; [mod:shift] Pestilence; Rune Strike
 END
-VER 3 00000000010003C2 "strang" "INV_Misc_QuestionMark"
+VER 3 01000000010003C2 "strang" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Strangulate
 END
-VER 3 00000000010003C4 "uh_1" "134400"
+VER 3 01000000010003C4 "uh_1" "134400"
 #showtooltip
 /cast [mod:ctrl]; [mod:shift] Dark Transformation; Outbreak
 /use 13
 /use 10
 END
-VER 3 00000000010003C5 "uh_<" "134400"
+VER 3 01000000010003C5 "uh_<" "134400"
 #showtooltip
 /cast [mod:ctrl] ; [mod:shift]  Horn of Winter; Anti-Magic Zone
 END
-VER 3 00000000010003C7 "uh_cd" "134400"
+VER 3 01000000010003C7 "uh_cd" "134400"
 #showtooltip
 /use [mod:shift] 10
 /cast [mod:shift] Blood Fury(Racial)
 /cast [mod:shift] Summon Gargoyle
 /cast [mod:shift, @Alsla] Unholy Frenzy;[mod:ctrl] Blood Fury(Racial); [nomod] Empower Rune Weapon
 END
-VER 3 00000000010003CA "UH_dnd" "134400"
+VER 3 01000000010003CA "UH_dnd" "134400"
 #showtooltip
 /cast [mod:shift, @player] Death and Decay; Blood Boil
 END
-VER 3 00000000010003C8 "uh_e" "134400"
+VER 3 01000000010003C8 "uh_e" "134400"
 #showtooltip Scourge Strike
 /startattack
 /cancelaura Hand of Protection
@@ -110,11 +110,11 @@ VER 3 00000000010003C8 "uh_e" "134400"
 /use [@player] Saronite Bomb
 /use 10
 END
-VER 3 00000000010003C6 "uh_f" "134400"
+VER 3 01000000010003C6 "uh_f" "134400"
 #showtooltip
 /cast [mod:ctrl] Death Coil; [mod:shift] Pestilence; Death Coil
 END
-VER 3 00000000010003C3 "z" "134400"
+VER 3 01000000010003C3 "z" "134400"
 #showtooltip
 /use [mod:ctrl] ; [mod:shift] Army of the Dead; Golemblood Potion
 END

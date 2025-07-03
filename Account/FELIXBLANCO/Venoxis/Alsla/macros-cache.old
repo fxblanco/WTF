@@ -1,6 +1,7 @@
 VER 3 00000000010003B4 "1" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] ; [mod:shift]  Rune Tap; Outbreak
+/use 13
 END
 VER 3 00000000010003B5 "5" "INV_Misc_QuestionMark"
 #showtooltip
@@ -63,13 +64,13 @@ VER 3 00000000010003BE "it" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Icy Touch
 END
-VER 3 00000000010003C0 "kick" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Mind Freeze
-END
 VER 3 00000000010003BF "kick" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@focus,exists] [] Mind Freeze
+END
+VER 3 00000000010003C0 "kick" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Mind Freeze
 END
 VER 3 00000000010003C1 "r" "INV_Misc_QuestionMark"
 #showtooltip
@@ -82,6 +83,8 @@ END
 VER 3 00000000010003C4 "uh_1" "134400"
 #showtooltip
 /cast [mod:ctrl]; [mod:shift] Dark Transformation; Outbreak
+/use 13
+/use 10
 END
 VER 3 00000000010003C5 "uh_<" "134400"
 #showtooltip

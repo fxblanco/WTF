@@ -20,7 +20,7 @@ VER 3 0000000001000005 "corruption" "INV_Misc_QuestionMark"
 END
 VER 3 0000000001000015 "DEST_F" "134400"
 #showtooltip
-/cast [mod:shift] Rain of Fire; Shadowflame
+/cast [mod:shift] Shadowflame;Rain of Fire
 /use 10
 END
 VER 3 0000000001000006 "dm" "INV_Misc_QuestionMark"
