@@ -942,6 +942,21 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crimson Globule",
 },
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[48210] = {
+["school"] = 32,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Morchok",
+},
 [106730] = {
 ["school"] = 32,
 ["type"] = "DEBUFF",
@@ -951,21 +966,6 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Elementium Terror",
-},
-[48210] = {
-["school"] = 32,
-["token"] = {
-["SPELL_HEAL"] = true,
-},
-["source"] = "Morchok",
-},
-[1604] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Corrupted Blood",
 },
 [103176] = {
 ["school"] = 1,
@@ -985,14 +985,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[105248] = {
+[106523] = {
 ["school"] = 4,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Corrupted Blood",
+["source"] = "Deathwing",
 },
 [106794] = {
 ["school"] = 1,
@@ -1027,12 +1025,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Void of the Unmaking",
 },
-[106523] = {
+[105248] = {
 ["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Deathwing",
+["source"] = "Corrupted Blood",
 },
 [55095] = {
 ["school"] = 16,

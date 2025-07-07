@@ -34,7 +34,7 @@ VMRT = {
 "",
 },
 ["Scale"] = 100,
-["Height"] = 298,
+["Height"] = 297.9999694824219,
 ["BlackLastUpdateName"] = {
 },
 ["Outline"] = true,
@@ -96,15 +96,39 @@ VMRT = {
 ["ExCD2"] = {
 ["upd4525"] = true,
 ["gnGUIDs"] = {
-["Alsia"] = 65,
-["Alslalu"] = 263,
-["Exonuklease"] = 265,
+["Commodûs"] = 265,
+["Oldchícken"] = 256,
 ["Alsía"] = 65,
-["Alslahunt"] = 255,
+["Hanziji"] = 65,
+["Alslalock"] = 265,
+["Krakser-Golemagg"] = 102,
+["Mandau"] = 250,
+["Alsia"] = 65,
+["Youdonkey"] = 252,
+["Lagazz-Sulfuron"] = 268,
+["Krosios"] = 255,
+["Pym"] = 264,
 ["Endonuclease"] = 261,
-["Alsla"] = 252,
-["Alslalock"] = 267,
+["Ogflikz"] = 261,
+["Kwinsch"] = 259,
 ["Kwasimojo"] = 256,
+["Armorgeddon"] = 250,
+["Ostblockolga"] = 255,
+["Davoodo"] = 64,
+["Xmæ"] = 63,
+["Alslalu"] = 263,
+["Ursoid-Golemagg"] = 105,
+["Almanhakki"] = 102,
+["Exonuklease"] = 265,
+["Mankez"] = 71,
+["Rayqt"] = 71,
+["Alsla"] = 252,
+["Alslahunt"] = 255,
+["Quynsh"] = 256,
+["Febrosa"] = 262,
+["Lichqueenliz-Golemagg"] = 258,
+["Monkmcbonk"] = 270,
+["Frenchdog"] = 250,
 },
 ["NoRaid"] = true,
 ["CDECol"] = {
@@ -305,17 +329,21 @@ VMRT = {
 ["FontSize"] = 50,
 ["disabled"] = {
 },
-["lastArchiveCheck"] = 1751529585,
-["v32"] = true,
+["lastArchiveCheck"] = 1751839492,
+["HistoryBlacklist"] = {
+},
 ["locked"] = {
 },
 ["ttsVoiceRate"] = 0,
-["enabled"] = true,
+["HistoryEnabled"] = true,
 ["ttsVoiceVolume"] = 75,
-["FrameStrata"] = "HIGH",
+["DataProfiles"] = {
+["Default"] = {
+},
+},
 ["lockedSounds"] = {
 },
-["removed"] = {
+["pre_v43"] = {
 },
 ["Glow"] = {
 ["PixelGlow"] = {
@@ -348,7 +376,8 @@ VMRT = {
 },
 ["data"] = {
 },
-["ttsVoice"] = 1,
+["SyncPlayers"] = {
+},
 ["DataProfileKeys"] = {
 },
 ["FontSizeBig"] = 75,
@@ -356,36 +385,34 @@ VMRT = {
 },
 ["defEnabled"] = {
 },
-["pre_v43"] = {
-},
-["DataProfiles"] = {
-["Default"] = {
-},
-},
-["v29"] = true,
+["FrameStrata"] = "HIGH",
 ["ForcedDataProfile"] = "Default",
-["HistoryEnabled"] = true,
-["SyncPlayers"] = {
-},
-["HistoryBlacklist"] = {
-},
-["OutlineType"] = "OUTLINE",
-["Version"] = 57.8,
+["lastEncounterID"] = 1299,
+["v29"] = true,
+["enabled"] = true,
 ["HistoryMaxPulls"] = 2,
 ["FontSizeSmall"] = 25,
 ["DataProfile"] = "Default",
+["OutlineType"] = "OUTLINE",
+["Version"] = 57.8,
+["v32"] = true,
+["ttsVoice"] = 1,
+["TimelineFilter"] = {
+},
 ["disableSounds"] = {
 },
-["TimelineFilter"] = {
+["removed"] = {
 },
 },
 ["RaidCheck"] = {
 ["ReadyCheckFrameOnlyRL"] = true,
-["ReadyCheckFrame"] = true,
-["ReadyCheckFrameTimerFade"] = 4,
 ["WeaponEnch"] = {
 },
+["ReadyCheckFrame"] = true,
+["ReadyCheckTop"] = 1085.487548828125,
 ["FlaskExp"] = 1,
+["ReadyCheckLeft"] = 1712.275390625,
+["ReadyCheckFrameTimerFade"] = 4,
 },
 ["WASync"] = {
 },

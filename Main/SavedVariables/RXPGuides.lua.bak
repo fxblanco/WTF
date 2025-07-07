@@ -4,11 +4,11 @@ RXPData = {
 ["defaultProfile"] = false,
 ["cacheVersion"] = 26,
 ["trainGenericSpells"] = true,
+["release"] = "v4.7.7",
 ["realmData"] = {
 ["Venoxis"] = {
 },
 },
-["release"] = "v4.7.7",
 }
 RXPDB = {
 ["profileKeys"] = {
@@ -38,6 +38,313 @@ RXPSettings = {
 ["profiles"] = {
 ["Alslalu - Venoxis"] = {
 ["hardcore"] = false,
+["xprate"] = 1.1,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99995803833008,
+31.99995803833008,
+},
+["RXPFrame"] = {
+235,
+28.0001392364502,
+},
+["activeItemFrame"] = {
+70.31446838378906,
+39.99990463256836,
+},
+["activeTargetFrame"] = {
+80.5333480834961,
+68,
+},
+},
+["frameHeight"] = 124.9998779296875,
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Alsia - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 125.0000152587891,
+["hardcore"] = false,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
+},
+["RXPFrame"] = {
+235,
+28.00003051757813,
+},
+["activeItemFrame"] = {
+71.33333587646484,
+39.99999237060547,
+},
+["activeTargetFrame"] = {
+71.28886413574219,
+67.9999771118164,
+},
+},
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Alsía - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 125.0000152587891,
+["hardcore"] = false,
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
+},
+["RXPFrame"] = {
+235,
+28.00003051757813,
+},
+["activeItemFrame"] = {
+71.33333587646484,
+39.99999237060547,
+},
+["activeTargetFrame"] = {
+71.28886413574219,
+67.9999771118164,
+},
+},
+},
+["Alslalock - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 125.0000152587891,
+["hardcore"] = false,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99995803833008,
+31.99995803833008,
+},
+["RXPFrame"] = {
+235,
+28.0001392364502,
+},
+["activeItemFrame"] = {
+70.31446838378906,
+39.99990463256836,
+},
+["activeTargetFrame"] = {
+71.28887176513672,
+68,
+},
+},
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Alslahunt - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 124.9998397827148,
+["hardcore"] = false,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99995803833008,
+31.99995803833008,
+},
+["RXPFrame"] = {
+235,
+28.0001392364502,
+},
+["activeItemFrame"] = {
+70.31446838378906,
+39.99990463256836,
+},
+["activeTargetFrame"] = {
+71.28887176513672,
+68,
+},
+},
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Alsla - Venoxis"] = {
+["xprate"] = 1.1,
+["frameHeight"] = 125.0000152587891,
+["hardcore"] = false,
 ["framePositions"] = {
 ["activeTargetFrame"] = {
 {
@@ -76,10 +383,9 @@ RXPSettings = {
 },
 },
 },
-["xprate"] = 1.1,
 ["frameSizes"] = {
 ["activeTargetFrame"] = {
-80.5333480834961,
+71.28887176513672,
 68,
 },
 ["RXPFrame"] = {
@@ -95,323 +401,17 @@ RXPSettings = {
 31.99995803833008,
 },
 },
-["frameHeight"] = 124.9998779296875,
-},
-["Alsia - Venoxis"] = {
-["xprate"] = 1.1,
-["frameHeight"] = 125.0000152587891,
-["hardcore"] = false,
-["frameSizes"] = {
-["activeTargetFrame"] = {
-71.28886413574219,
-67.9999771118164,
-},
-["RXPFrame"] = {
-235,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-71.33333587646484,
-39.99999237060547,
-},
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
-},
-},
-["framePositions"] = {
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-},
-},
-["Alsía - Venoxis"] = {
-["xprate"] = 1.1,
-["frameHeight"] = 125.0000152587891,
-["hardcore"] = false,
-["framePositions"] = {
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-},
-["frameSizes"] = {
-["activeTargetFrame"] = {
-71.28886413574219,
-67.9999771118164,
-},
-["RXPFrame"] = {
-235,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-71.33333587646484,
-39.99999237060547,
-},
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
-},
-},
-},
-["Alslalock - Venoxis"] = {
-["xprate"] = 1.25,
-["frameHeight"] = 125.0000152587891,
-["hardcore"] = false,
-["framePositions"] = {
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-},
-["frameSizes"] = {
-["activeTargetFrame"] = {
-71.28886413574219,
-67.9999771118164,
-},
-["RXPFrame"] = {
-235,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-71.33333587646484,
-39.99999237060547,
-},
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
-},
-},
-},
-["Alslahunt - Venoxis"] = {
-["xprate"] = 1.1,
-["frameHeight"] = 124.9999160766602,
-["hardcore"] = false,
-["frameSizes"] = {
-["activeTargetFrame"] = {
-71.28886413574219,
-67.9999771118164,
-},
-["RXPFrame"] = {
-235,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-71.33333587646484,
-39.99999237060547,
-},
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
-},
-},
-["framePositions"] = {
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-},
-},
-["Alsla - Venoxis"] = {
-["xprate"] = 1.1,
-["frameHeight"] = 125.0000152587891,
-["hardcore"] = false,
-["frameSizes"] = {
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
-},
-["RXPFrame"] = {
-235,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-71.33333587646484,
-39.99999237060547,
-},
-["activeTargetFrame"] = {
-71.28886413574219,
-67.9999771118164,
-},
-},
-["framePositions"] = {
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-},
 },
 ["Kwasimojo - Venoxis"] = {
 ["xprate"] = 1.1,
 ["frameHeight"] = 125.0000152587891,
 ["hardcore"] = false,
 ["framePositions"] = {
-["arrowFrame"] = {
+["activeTargetFrame"] = {
 {
-"TOP",
+"CENTER",
 "UIParent",
-"TOP",
+"CENTER",
 0,
 0,
 },
@@ -434,20 +434,20 @@ RXPSettings = {
 0,
 },
 },
-["activeTargetFrame"] = {
+["arrowFrame"] = {
 {
-"CENTER",
+"TOP",
 "UIParent",
-"CENTER",
+"TOP",
 0,
 0,
 },
 },
 },
 ["frameSizes"] = {
-["arrowFrame"] = {
-31.99988555908203,
-31.99997329711914,
+["activeTargetFrame"] = {
+71.28886413574219,
+67.9999771118164,
 },
 ["RXPFrame"] = {
 235,
@@ -457,9 +457,9 @@ RXPSettings = {
 71.33333587646484,
 39.99999237060547,
 },
-["activeTargetFrame"] = {
-71.28886413574219,
-67.9999771118164,
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
 },
 },
 },

@@ -1,9 +1,36 @@
 
 CliqueDB = nil
 CliqueDB3 = {
+["char"] = {
+["Alslalock - Venoxis"] = {
+["spec1_profileKey"] = "Alslalock - Venoxis",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["fastooc"] = false,
+["spec3_profileKey"] = "Alslalock - Venoxis",
+["downclick"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Alslalock - Venoxis",
+},
+["Alslahunt - Venoxis"] = {
+["spec1_profileKey"] = "Alslahunt - Venoxis",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["spec3_profileKey"] = "Alslahunt - Venoxis",
+["spec2_profileKey"] = "Alslahunt - Venoxis",
+["specswap"] = false,
+},
+},
 ["profileKeys"] = {
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alsla - Venoxis"] = "Alsla - Venoxis",
 },
 ["profiles"] = {
 ["Alslalu - Venoxis"] = {
@@ -15,6 +42,15 @@ CliqueDB3 = {
 ["type"] = "target",
 ["key"] = "ALT-BUTTON1",
 ["unit"] = "mouseover",
+},
+{
+["spell"] = "Greater Healing Wave",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
 },
 {
 ["spell"] = "Chain Heal",
@@ -33,21 +69,21 @@ CliqueDB3 = {
 },
 },
 {
-["spell"] = "Greater Healing Wave",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
-},
-{
 ["spell"] = "Healing Wave",
 ["key"] = "SHIFT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136052,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Surge",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
 ["type"] = "spell",
 },
 {
@@ -69,15 +105,6 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["spell"] = "Healing Surge",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
-["type"] = "spell",
-},
-{
 ["spell"] = "Unleash Elements",
 ["key"] = "CTRL-BUTTON3",
 ["sets"] = {
@@ -88,6 +115,44 @@ CliqueDB3 = {
 },
 },
 },
+["Alslahunt - Venoxis"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Exonuklease - Venoxis"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
 ["Alslalock - Venoxis"] = {
 ["bindings"] = {
 {
@@ -95,6 +160,25 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Alsla - Venoxis"] = {
+["bindings"] = {
+{
+["type"] = "target",
+["sets"] = {
+["default"] = true,
+},
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },

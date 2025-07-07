@@ -1,77 +1,57 @@
 
 PlaterDB = {
 ["captured_spells"] = {
-[20615] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Green Warrior",
-["npcID"] = 32321,
-},
-[23767] = {
-["source"] = "Sayge",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 14822,
-},
-[23768] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Sayge",
-["npcID"] = 14822,
-},
-[22572] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Gordok Brute",
-["npcID"] = 11441,
-},
-[22888] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Overlord Runthak",
-["npcID"] = 173758,
-},
-[126119] = {
-["source"] = "Black Ox Statue",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 61146,
-},
-[59008] = {
+[107018] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Deathwing",
+["encounterID"] = 1299,
 ["isChanneled"] = false,
-["source"] = "Sinewy Wolf",
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 31233,
+["npcID"] = 56173,
 },
-[14032] = {
-["source"] = "Gold Priest",
+[108601] = {
+["encounterName"] = "Madness of Deathwing",
 ["type"] = "DEBUFF",
+["source"] = "Deathwing",
+["encounterID"] = 1299,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32325,
+["npcID"] = 56173,
 },
-[11639] = {
-["source"] = "Unknown",
+[106400] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Mutated Corruption",
+["encounterID"] = 1299,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56471,
+},
+[105841] = {
+["encounterName"] = "Madness of Deathwing",
 ["type"] = "DEBUFF",
+["source"] = "Regenerative Blood",
+["encounterID"] = 1299,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 16315,
+["npcID"] = 56263,
+},
+[19366] = {
+["event"] = "SPELL_AURA_APPLIED",
+["type"] = "DEBUFF",
+["source"] = "Core Hound",
+["npcID"] = 11673,
+},
+[106794] = {
+["encounterName"] = "Madness of Deathwing",
+["type"] = "DEBUFF",
+["source"] = "Elementium Fragment",
+["encounterID"] = 1299,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 56724,
 },
 [58514] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
 ["source"] = "Orgrimmar Grunt",
-["npcID"] = 3296,
-},
-[34702] = {
-["source"] = "Time Watcher",
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 19918,
-},
-[61353] = {
-["isChanneled"] = false,
-["source"] = "Garl Grimgrizzle",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 32710,
+["npcID"] = 3296,
 },
 [80610] = {
 ["source"] = "Razgar",
@@ -79,23 +59,113 @@ PlaterDB = {
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 43239,
 },
+[108649] = {
+["encounterName"] = "Madness of Deathwing",
+["type"] = "DEBUFF",
+["source"] = "Deathwing",
+["encounterID"] = 1299,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 56173,
+},
 [24604] = {
+["type"] = "BUFF",
 ["source"] = "Unknown",
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 30164,
+},
+[105444] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Blistering Tentacle",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56188,
+},
+[106834] = {
+["encounterName"] = "Madness of Deathwing",
+["type"] = "BUFF",
+["source"] = "Deathwing",
+["encounterID"] = 1299,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 57962,
+},
+[80638] = {
+["isChanneled"] = false,
+["source"] = "Scalding Rock Elemental",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 40229,
+},
+[105401] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Wing Tentacle",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56168,
+},
+[106791] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Elementium Fragment",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56724,
+},
+[105445] = {
+["encounterName"] = "Madness of Deathwing",
+["type"] = "DEBUFF",
+["source"] = "Blistering Tentacle",
+["encounterID"] = 1299,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 56188,
+},
+[35760] = {
+["source"] = "Greater Bogstrok",
+["type"] = "DEBUFF",
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 17817,
+},
+[106548] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Wing Tentacle",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56168,
+},
+[108446] = {
+["source"] = "Arakthun",
 ["type"] = "BUFF",
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 3824,
+["npcID"] = 17252,
 },
-[23600] = {
-["source"] = "Gold Warrior",
+[22888] = {
+["source"] = "Overlord Runthak",
+["type"] = "BUFF",
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 173758,
+},
+[58519] = {
+["source"] = "Orgrimmar Grunt",
 ["type"] = "DEBUFF",
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32322,
+["npcID"] = 3296,
 },
-[32736] = {
-["source"] = "Gold Warrior",
+[135299] = {
+["encounterName"] = "Madness of Deathwing",
 ["type"] = "DEBUFF",
+["source"] = "Congealing Blood",
+["encounterID"] = 1299,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32322,
+["npcID"] = 57798,
+},
+[106444] = {
+["encounterName"] = "Madness of Deathwing",
+["type"] = "DEBUFF",
+["source"] = "Mutated Corruption",
+["encounterID"] = 1299,
+["event"] = "SPELL_AURA_APPLIED",
+["npcID"] = 56471,
 },
 [5320] = {
 ["source"] = "Sergra Darkthorn",
@@ -103,131 +173,55 @@ PlaterDB = {
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 3338,
 },
-[103582] = {
-["source"] = "Darkmoon Faire Mystic Mage",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 55382,
-},
-[82548] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Sauranok the Mystic",
-["npcID"] = 44120,
-},
-[19134] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "DEBUFF",
-["source"] = "Gold Warrior",
-["npcID"] = 32322,
-},
-[65629] = {
-["source"] = "Captured Razormane",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 34523,
-},
-[32919] = {
-["isChanneled"] = false,
-["source"] = "Sinewy Wolf",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 31233,
-},
-[45525] = {
-["source"] = "Warsong Hold Mage",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 25420,
-},
-[13323] = {
-["source"] = "Gold Mage",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32341,
-},
-[36589] = {
-["isChanneled"] = false,
-["source"] = "Sinewy Wolf",
-["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 31233,
-},
-[108446] = {
-["source"] = "Jhaashon",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 417,
-},
-[13704] = {
-["source"] = "Gold Priest",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32325,
-},
-[120676] = {
-["event"] = "SPELL_AURA_APPLIED",
-["type"] = "BUFF",
-["source"] = "Stormlash Totem",
-["npcID"] = 62002,
-},
-[19366] = {
-["source"] = "Core Hound",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 11673,
-},
-[65753] = {
-["source"] = "Tonga's Eyes",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 34615,
-},
-[96847] = {
-["source"] = "Toy Cart",
-["type"] = "BUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 52812,
-},
-[44415] = {
-["source"] = "Green Priest",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32343,
-},
 [119523] = {
 ["source"] = "Healing Stream Totem",
 ["type"] = "BUFF",
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 3527,
 },
-[24450] = {
-["isChanneled"] = false,
-["source"] = "Katze",
+[105651] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Deathwing",
+["encounterID"] = 1299,
+["isChanneled"] = true,
 ["event"] = "SPELL_CAST_SUCCESS",
-["npcID"] = 42718,
+["npcID"] = 56173,
+},
+[107029] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Mutated Corruption",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56471,
 },
 [1604] = {
-["source"] = "Gold Warrior",
+["source"] = "Scarshield Raider",
 ["type"] = "DEBUFF",
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32322,
+["npcID"] = 9258,
 },
-[81262] = {
-["source"] = "Wild Mushroom",
+[110628] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Elementium Bolt",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 56262,
+},
+[126119] = {
+["source"] = "Black Ox Statue",
 ["type"] = "BUFF",
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 47649,
+["npcID"] = 61146,
 },
-[29544] = {
-["event"] = "SPELL_AURA_APPLIED",
+[106730] = {
+["encounterName"] = "Madness of Deathwing",
 ["type"] = "DEBUFF",
-["source"] = "Gold Warrior",
-["npcID"] = 32322,
-},
-[9128] = {
-["source"] = "Gold Warrior",
-["type"] = "BUFF",
+["source"] = "Elementium Terror",
+["encounterID"] = 1299,
 ["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32322,
+["npcID"] = 56710,
 },
 [79833] = {
 ["source"] = "Hyjal Protector",
@@ -235,23 +229,27 @@ PlaterDB = {
 ["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 52216,
 },
-[9080] = {
-["source"] = "Green Warrior",
-["type"] = "DEBUFF",
-["event"] = "SPELL_AURA_APPLIED",
-["npcID"] = 32321,
+[108813] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Corrupting Parasite",
+["encounterID"] = 1299,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 57479,
 },
 [35361] = {
-["isChanneled"] = false,
-["event"] = "SPELL_CAST_SUCCESS",
 ["source"] = "Grove Walker",
+["type"] = "BUFF",
+["event"] = "SPELL_AURA_APPLIED",
 ["npcID"] = 31228,
 },
-[82531] = {
+[105723] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Elementium Bolt",
+["encounterID"] = 1299,
 ["isChanneled"] = false,
 ["event"] = "SPELL_CAST_SUCCESS",
-["source"] = "Sauranok the Mystic",
-["npcID"] = 44120,
+["npcID"] = 56262,
 },
 },
 ["profileKeys"] = {
@@ -275,13 +273,370 @@ PlaterDB = {
 ["Kwasimojo - Venoxis"] = "MerfinUI (2160) v7.4",
 },
 ["captured_casts"] = {
+[75813] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Naz'jar Tempest Witch",
+["npcID"] = 40634,
+},
+[109396] = {
+["encounterName"] = "Warlord Zon'ozz",
+["source"] = "Claw of Go'rath",
+["encounterID"] = 1294,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 57890,
+},
+[107018] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Deathwing",
+["npcID"] = 56173,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1299,
+},
+[76026] = {
+["encounterName"] = "Commander Ulthok",
+["source"] = "Commander Ulthok",
+["npcID"] = 40765,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1044,
+},
+[107597] = {
+["source"] = "Earthen Destroyer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 57158,
+},
+[108046] = {
+["encounterName"] = "Warmaster Blackhorn",
+["source"] = "Warmaster Blackhorn",
+["npcID"] = 56427,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1298,
+},
+[105845] = {
+["encounterName"] = "Spine of Deathwing",
+["source"] = "Hideous Amalgamation",
+["npcID"] = 53890,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1291,
+},
+[110137] = {
+["encounterName"] = "Warmaster Blackhorn",
+["source"] = "Warmaster Blackhorn",
+["npcID"] = 56427,
+["isChanneled"] = false,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1298,
+},
+[106388] = {
+["encounterName"] = "Ultraxion",
+["source"] = "Ultraxion",
+["encounterID"] = 1297,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 55294,
+},
+[110212] = {
+["encounterName"] = "Warmaster Blackhorn",
+["source"] = "Goriona",
+["npcID"] = 56781,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1298,
+},
+[109334] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Twilight Frost Evoker",
+["npcID"] = 57807,
+},
+[109333] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Lieutenant Shara",
+["npcID"] = 57821,
+},
+[105289] = {
+["encounterName"] = "Hagara",
+["source"] = "Hagara the Stormbinder",
+["npcID"] = 55689,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1296,
+},
+[109443] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Stormbinder Adept",
+["npcID"] = 57823,
+},
+[107675] = {
+["isChanneled"] = true,
+["source"] = "Earthen Destroyer",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 57158,
+},
+[76047] = {
+["encounterName"] = "Commander Ulthok",
+["source"] = "Commander Ulthok",
+["npcID"] = 40765,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1044,
+},
+[106523] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Deathwing",
+["npcID"] = 56173,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1299,
+},
+[107850] = {
+["encounterName"] = "Hagara",
+["source"] = "Hagara the Stormbinder",
+["npcID"] = 55689,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1296,
+},
+[83914] = {
+["encounterName"] = "Ozumat",
+["source"] = "Vicious Mindlasher",
+["npcID"] = 44715,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1047,
+},
+[109305] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Lieutenant Shara",
+["npcID"] = 57821,
+},
+[106791] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Elementium Fragment",
+["npcID"] = 56724,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1299,
+},
+[83926] = {
+["encounterName"] = "Ozumat",
+["source"] = "Vicious Mindlasher",
+["npcID"] = 44715,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1047,
+},
+[75992] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Naz'jar Tempest Witch",
+["npcID"] = 40634,
+},
+[76815] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Naz'jar Spiritmender",
+["npcID"] = 41096,
+},
+[107852] = {
+["source"] = "Earthen Soldier",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 57159,
+},
+[76634] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Tainted Sentry",
+["npcID"] = 40925,
+},
+[76008] = {
+["encounterName"] = "Lady Naz'jar",
+["source"] = "Lady Naz'jar",
+["npcID"] = 40586,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1045,
+},
+[107029] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Mutated Corruption",
+["encounterID"] = 1299,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 56471,
+},
+[109423] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Twilight Frost Evoker",
+["npcID"] = 57807,
+},
+[109541] = {
+["encounterName"] = "Hagara",
+["source"] = "Hagara the Stormbinder",
+["npcID"] = 55689,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1296,
+},
+[105409] = {
+["encounterName"] = "Hagara",
+["source"] = "Hagara the Stormbinder",
+["npcID"] = 55689,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1296,
+},
+[109360] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Twilight Frost Evoker",
+["npcID"] = 57807,
+},
+[76790] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Naz'jar Invader",
+["npcID"] = 39616,
+},
+[107851] = {
+["encounterName"] = "Hagara",
+["source"] = "Hagara the Stormbinder",
+["npcID"] = 55689,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1296,
+},
+[107801] = {
+["source"] = "Ancient Water Lord",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 57160,
+},
+[110214] = {
+["encounterName"] = "Warmaster Blackhorn",
+["source"] = "Goriona",
+["npcID"] = 56781,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1298,
+},
 [116] = {
 ["npcID"] = 188027,
+},
+[109379] = {
+["encounterName"] = "Spine of Deathwing",
+["source"] = "Corruption",
+["npcID"] = 53891,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1291,
+},
+[107682] = {
+["source"] = "Earthen Destroyer",
+["event"] = "SPELL_CAST_START",
+["npcID"] = 57158,
+},
+[104347] = {
+["encounterName"] = "Warlord Zon'ozz",
+["source"] = "Eye of Go'rath",
+["npcID"] = 55416,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1294,
+},
+[109391] = {
+["encounterName"] = "Warlord Zon'ozz",
+["source"] = "Eye of Go'rath",
+["encounterID"] = 1294,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 57875,
+},
+[106371] = {
+["encounterName"] = "Ultraxion",
+["source"] = "Ultraxion",
+["npcID"] = 55294,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1297,
+},
+[103414] = {
+["encounterName"] = "Morchok",
+["source"] = "Morchok",
+["encounterID"] = 1292,
+["event"] = "SPELL_CAST_START",
+["npcID"] = 55265,
 },
 [61353] = {
 ["source"] = "Garl Grimgrizzle",
 ["event"] = "SPELL_CAST_START",
 ["npcID"] = 32710,
+},
+[105848] = {
+["encounterName"] = "Spine of Deathwing",
+["source"] = "Burning Tendons",
+["npcID"] = 56575,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1291,
+},
+[109348] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Stormborn Myrmidon",
+["npcID"] = 57817,
+},
+[107588] = {
+["encounterName"] = "Warmaster Blackhorn",
+["source"] = "Goriona",
+["npcID"] = 56781,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1298,
+},
+[105490] = {
+["encounterName"] = "Spine of Deathwing",
+["source"] = "Corruption",
+["npcID"] = 53891,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1291,
+},
+[75907] = {
+["encounterName"] = "Lady Naz'jar",
+["source"] = "Naz'jar Honor Guard",
+["npcID"] = 40633,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1045,
+},
+[76100] = {
+["encounterName"] = "Commander Ulthok",
+["source"] = "Commander Ulthok",
+["npcID"] = 40765,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1044,
+},
+[105651] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Deathwing",
+["npcID"] = 56173,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1299,
+},
+[107797] = {
+["isChanneled"] = true,
+["source"] = "Ancient Water Lord",
+["event"] = "SPELL_CAST_SUCCESS",
+["npcID"] = 57160,
+},
+[83672] = {
+["encounterName"] = "Ozumat",
+["source"] = "Ozumat",
+["npcID"] = 44566,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1047,
+},
+[108813] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Corrupting Parasite",
+["npcID"] = 57479,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1299,
+},
+[76813] = {
+["event"] = "SPELL_CAST_START",
+["source"] = "Naz'jar Spiritmender",
+["npcID"] = 41096,
+},
+[75683] = {
+["encounterName"] = "Lady Naz'jar",
+["source"] = "Lady Naz'jar",
+["npcID"] = 40586,
+["event"] = "SPELL_CAST_START",
+["encounterID"] = 1045,
+},
+[106400] = {
+["encounterName"] = "Madness of Deathwing",
+["source"] = "Mutated Corruption",
+["npcID"] = 56471,
+["isChanneled"] = true,
+["event"] = "SPELL_CAST_SUCCESS",
+["encounterID"] = 1299,
 },
 },
 ["performance_units"] = {
@@ -295,6 +650,16 @@ PlaterDB = {
 [220626] = true,
 },
 ["InterruptableSpells"] = {
+[2139] = true,
+[108044] = true,
+[47528] = true,
+[97547] = true,
+[116705] = true,
+[96231] = true,
+[57994] = true,
+[6552] = true,
+[1766] = true,
+[32747] = true,
 },
 ["profiles"] = {
 ["Default"] = {
@@ -11209,1621 +11574,143 @@ true,
 },
 },
 ["npc_cache"] = {
-[211290] = {
-"Elaena Emberlanz",
-"Priory of the Sacred Flame",
-},
-[190403] = {
-"Glacial Proto-Dragon",
-"Halls of Infusion",
-},
-[81820] = {
-"Everbloom Mender",
-"The Everbloom",
-},
-[16156] = {
-"Dark Touched Warrior",
-"Naxxramas",
-},
-[207969] = {
-"Horde Raider",
-"Dawn of the Infinite",
-},
-[16164] = {
-"Shade of Naxxramas",
-"Naxxramas",
-},
-[225982] = {
-"Cleave T.D.",
-"Khaz Algar (Surface)",
-},
-[190340] = {
-"Refti Defender",
-"Halls of Infusion",
-},
 [190404] = {
 "Subterranean Proto-Dragon",
 "Halls of Infusion",
-},
-[34475] = {
-"Шокул",
-"Испытание крестоносца",
-},
-[207459] = {
-"Fungal Rotcaster",
-"Mycomancer Cavern",
-},
-[59546] = {
-"The Talking Fish",
-"Temple of the Jade Serpent",
-"enUS",
-},
-[186125] = {
-"Tricktotem",
-"Brackenhide Hollow",
-},
-[76104] = {
-"Monstrous Corpse Spider",
-"Shadowmoon Burial Grounds",
-},
-[190405] = {
-"Infuser Sariya",
-"Halls of Infusion",
-},
-[130909] = {
-"Fetid Maggot",
-"Zandalar",
-},
-[172265] = {
-"Remnant of Fury",
-"Sanguine Depths",
-},
-[224962] = {
-"Cursedforge Mender",
-"The Stonevault",
-"enUS",
-},
-[216339] = {
-"Sureki Unnaturaler",
-"City of Threads",
-"enUS",
-},
-[190342] = {
-"Containment Apparatus",
-"Halls of Infusion",
-},
-[95842] = {
-"Valarjar Thundercaller",
-"Halls of Valor",
-},
-[164920] = {
-"Drust Soulcleaver",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[135474] = {
-"Thistle Acolyte",
-"Waycrest Manor",
-},
-[228540] = {
-"Nightfall Shadowmage",
-"The Dawnbreaker",
-"enUS",
-},
-[186191] = {
-"Decay Speaker",
-"Brackenhide Hollow",
-},
-[213338] = {
-"Forgebound Mender",
-"The Stonevault",
-"enUS",
-},
-[190407] = {
-"Aqua Rager",
-"Halls of Infusion",
-},
-[164921] = {
-"Drust Harvester",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[44600] = {
-"Halfus Wyrmbreaker",
-"The Bastion of Twilight",
-"enUS",
-},
-[98813] = {
-"Bloodscent Felhound",
-"Black Rook Hold",
-},
-[208165] = {
-"Alliance Knight",
-"Dawn of the Infinite",
-},
-[168627] = {
-"Plaguebinder",
-"Plaguefall",
-},
-[216342] = {
-"Skittering Assistant",
-"City of Threads",
-"enUS",
-},
-[206697] = {
-"Devout Priest",
-"Priory of the Sacred Flame",
-},
-[204206] = {
-"Horde Farseer",
-"Dawn of the Infinite",
-},
-[113537] = {
-"Emberhusk Dominator",
-"Neltharion's Lair",
-},
-[184022] = {
-"Stonevault Geomancer",
-"Uldaman: Legacy of Tyr",
-},
-[126919] = {
-"Irontide Stormcaller",
-"Freehold",
-},
-[225605] = {
-"Nightfall Darkcaster",
-"The Dawnbreaker",
-"enUS",
-},
-[129602] = {
-"Irontide Enforcer",
-"Freehold",
-},
-[75979] = {
-"Exhumed Spirit",
-"Shadowmoon Burial Grounds",
-},
-[129600] = {
-"Bilge Rat Brinescale",
-"Freehold",
-},
-[220815] = {
-"Blazing Fiend",
-"Darkflame Cleft",
-},
-[218324] = {
-"Nakt",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[16408] = {
-"Phantom Valet",
-"Karazhan",
-},
-[138281] = {
-"Faceless Corruptor",
-"The Underrot",
-},
-[102232] = {
-"Rockbound Trapper",
-"Neltharion's Lair",
-},
-[164414] = {
-"Reanimated Mage",
-"The Necrotic Wake",
-"enUS",
-},
-[196671] = {
-"Arcane Ravager",
-"Algeth'ar Academy",
-},
-[168942] = {
-"Death Speaker",
-"De Other Side",
-},
-[219983] = {
-"Eye of the Queen",
-"City of Threads",
-"enUS",
-},
-[213913] = {
-"Kobold Flametender",
-"Darkflame Cleft",
-},
-[205158] = {
-"Spurlok, Timesworn Sentinel",
-"Dawn of the Infinite",
-},
-[213343] = {
-"Forge Loader",
-"The Stonevault",
-"enUS",
-},
-[216338] = {
-"Hulking Bloodguard",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[34461] = {
-"Тирий Клинок Сумерек",
-"Испытание крестоносца",
-},
-[133685] = {
-"Befouled Spirit",
-"The Underrot",
 },
 [196798] = {
 "Corrupted Manafiend",
 "Algeth'ar Academy",
 },
-[187602] = {
-"Qalashi Scaleripper",
-"10.0 Dragon Isles",
-},
-[187155] = {
-"Rune Seal Keeper",
-"The Azure Vault",
-},
-[213216] = {
-"Speaker Dorlita",
-"The Stonevault",
-"enUS",
-},
-[195842] = {
-"Ukhel Corruptor",
-"The Nokhud Offensive",
-},
-[228539] = {
-"Nightfall Darkcaster",
-"The Dawnbreaker",
-"enUS",
-},
-[168058] = {
-"Infused Quill-feather",
-"Sanguine Depths",
-},
-[163458] = {
-"Forsworn Castigator",
-"Spires of Ascension",
-},
-[207468] = {
-"Gnarled Reviver",
-"Mycomancer Cavern",
-},
-[105715] = {
-"Watchful Inquisitor",
-"Court of Stars",
-},
-[213217] = {
-"Speaker Brokk",
-"The Stonevault",
-"enUS",
-},
-[81985] = {
-"Everbloom Cultivator",
-"The Everbloom",
-},
-[199037] = {
-"Primalist Shocktrooper",
-"Halls of Infusion",
-},
-[189265] = {
-"Qalashi Bonetender",
-"Neltharus",
-},
-[131587] = {
-"Bewitched Captain",
-"Waycrest Manor",
-},
-[163459] = {
-"Forsworn Mender",
-"Spires of Ascension",
-},
-[165824] = {
-"Nar'zudah",
-"The Necrotic Wake",
-"enUS",
-},
-[205363] = {
-"Time-Lost Waveshaper",
-"Dawn of the Infinite",
-},
-[206064] = {
-"Coalesced Moment",
-"Dawn of the Infinite",
-},
-[41440] = {
-"Aberration",
-"Blackwing Descent",
-"enUS",
-},
-[17694] = {
-"Shadowmoon Darkcaster",
-"Hellfire Citadel: The Shattered Halls",
-},
-[16021] = {
-"Living Monstrosity",
-"Naxxramas",
-},
-[164929] = {
-"Tirnenn Villager",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[197697] = {
-"Flamegullet",
-"Ruby Life Pools",
-},
-[16704] = {
-"Shattered Hand Sharpshooter",
-"Hellfire Citadel: The Shattered Halls",
-},
-[224271] = {
-"Twilight Warlock",
-"Grim Batol",
-"enUS",
-},
-[206065] = {
-"Interval",
-"Dawn of the Infinite",
-},
-[189266] = {
-"Qalashi Trainee",
-"Neltharus",
-},
-[44650] = {
-"Storm Rider",
-"The Bastion of Twilight",
-"enUS",
-},
-[168443] = {
-"Zolramus Necromancer",
-"The Necrotic Wake",
-},
-[212453] = {
-"Ghastly Voidsoul",
-"The Stonevault",
-"enUS",
-},
-[197698] = {
-"Thunderhead",
-"Ruby Life Pools",
-},
-[162040] = {
-"Grand Overseer",
-"Sanguine Depths",
-},
-[84989] = {
-"Infested Icecaller",
-"The Everbloom",
-},
-[206066] = {
-"Timestream Leech",
-"Dawn of the Infinite",
-},
-[192333] = {
-"Alpha Eagle",
-"Algeth'ar Academy",
-},
-[104247] = {
-"Duskwatch Arcanist",
-"Court of Stars",
-},
-[200126] = {
-"Fallen Waterspeaker",
-"Temple of the Jade Serpent",
-},
-[196102] = {
-"Conjured Lasher",
-"The Azure Vault",
-},
-[168572] = {
-"Fungi Stormer",
-"Plaguefall",
-},
-[98243] = {
-"Soul-Torn Champion",
-"Black Rook Hold",
-},
-[98275] = {
-"Risen Archer",
-"Black Rook Hold",
-},
-[187160] = {
-"Crystal Fury",
-"The Azure Vault",
-},
-[45912] = {
-"Wild Vortex",
-"The Vortex Pinnacle",
-},
-[34686] = {
-"Тотем исцеляющего потока",
-"Испытание крестоносца",
-},
-[173044] = {
-"Stitching Assistant",
-"The Necrotic Wake",
-"enUS",
-},
-[187033] = {
-"Stinkbreath",
-"Brackenhide Hollow",
-},
-[16385] = {
-"Lightning Totem",
-"Naxxramas",
-},
-[204918] = {
-"Iridikron's Creation",
-"Dawn of the Infinite",
-},
-[212775] = {
-"Faceless Seer",
+[213806] = {
+"Splotch",
 "Throne of the Tides",
-},
-[194315] = {
-"Stormcaller Solongo",
-"The Nokhud Offensive",
-},
-[168318] = {
-"Forsworn Goliath",
-"Spires of Ascension",
-},
-[128455] = {
-"T'lonja",
-"Atal'Dazar",
-},
-[170490] = {
-"Atal'ai High Priest",
-"De Other Side",
-},
-[214673] = {
-"Flavor Scientist",
-"Cinderbrew Meadery",
-},
-[104278] = {
-"Felbound Enforcer",
-"Court of Stars",
-},
-[34463] = {
-"Шаабад",
-"Испытание крестоносца",
-},
-[84990] = {
-"Addled Arcanomancer",
-"The Everbloom",
-},
-[194316] = {
-"Stormcaller Zarii",
-"The Nokhud Offensive",
-},
-[166275] = {
-"Mistveil Shaper",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[174197] = {
-"Battlefield Ritualist",
-"Theater of Pain",
-},
-[207198] = {
-"Cursed Thunderer",
-"The Rookery",
-},
-[47238] = {
-"Whipping Wind",
-"The Vortex Pinnacle",
-},
-[181861] = {
-"Magmatusk",
-"Neltharus",
-},
-[137830] = {
-"Pallid Gorger",
-"Waycrest Manor",
-},
-[220314] = {
-"Bogpiper",
-"Mycomancer Cavern",
-},
-[194317] = {
-"Stormcaller Boroo",
-"The Nokhud Offensive",
-},
-[223253] = {
-"Bloodstained Webmage",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[129788] = {
-"Irontide Bonesaw",
-"Freehold",
-},
-[134024] = {
-"Devouring Maggot",
-"Waycrest Manor",
-},
-[216293] = {
-"Trilling Attendant",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[137405] = {
-"Gripping Terror",
-"Siege of Boralus",
-"enUS",
-},
-[164552] = {
-"Rotmarrow Slime",
-"Plaguefall",
-},
-[194895] = {
-"Unstable Squall",
-"The Nokhud Offensive",
-},
-[128969] = {
-"Ashvane Commander",
-"Siege of Boralus",
-"enUS",
-},
-[190294] = {
-"Nokhud Stormcaster",
-"The Nokhud Offensive",
-},
-[41841] = {
-"Prime Subject",
-"Blackwing Descent",
-"enUS",
-},
-[196043] = {
-"Primalist Infuser",
-"Halls of Infusion",
-},
-[189464] = {
-"Qalashi Irontorch",
-"Neltharus",
-},
-[199748] = {
-"Timeline Marauder",
-"Dawn of the Infinite",
-},
-[44652] = {
-"Slate Dragon",
-"The Bastion of Twilight",
-"enUS",
-},
-[206074] = {
-"Pendule",
-"Dawn of the Infinite",
-},
-[34496] = {
-"Эйдис Погибель Тьмы",
-"Испытание крестоносца",
-},
-[194894] = {
-"Primalist Stormspeaker",
-"The Nokhud Offensive",
-},
-[53211] = {
-"Искра Риолита",
-"Огненные Просторы",
-},
-[196044] = {
-"Unruly Textbook",
-"Algeth'ar Academy",
-},
-[214762] = {
-"Nightfall Commander",
-"The Dawnbreaker",
-"enUS",
-},
-[40484] = {
-"Erudax",
-"Grim Batol",
-"enUS",
-},
-[122969] = {
-"Zanchuli Witch-Doctor",
-"Atal'Dazar",
-},
-[189340] = {
-"Chargath, Bane of Scales",
-"Neltharus",
-},
-[27963] = {
-"Dark Rune Theurgist",
-"Halls of Stone",
-},
-[27971] = {
-"Unrelenting Construct",
-"Halls of Stone",
-},
-[167876] = {
-"Inquisitor Sigar",
-"Halls of Atonement",
-},
-[196045] = {
-"Corrupted Manafiend",
-"Algeth'ar Academy",
-},
-[167493] = {
-"Venomous Sniper",
-"Plaguefall",
-},
-[134284] = {
-"Fallen Deathspeaker",
-"The Underrot",
-},
-[41139] = {
-"Naz'jar Spiritmender",
-"Throne of the Tides",
-"enUS",
-},
-[205152] = {
-"Lerai, Timesworn Maiden",
-"Dawn of the Infinite",
-},
-[214761] = {
-"Nightfall Ritualist",
-"The Dawnbreaker",
-"enUS",
-},
-[221979] = {
-"Void Bound Howler",
-"The Stonevault",
-"enUS",
-},
-[205691] = {
-"Iridikron's Creation",
-"Dawn of the Infinite",
-},
-[90997] = {
-"Mightstone Breaker",
-"Neltharion's Lair",
-},
-[92612] = {
-"Mightstone Breaker",
-"Neltharion's Lair",
-},
-[189531] = {
-"Decayed Elder",
-"Brackenhide Hollow",
-},
-[167111] = {
-"Spinemaw Staghorn",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[199368] = {
-"Hardened Crystal",
-"The Azure Vault",
-},
-[192789] = {
-"Nokhud Longbow",
-"The Nokhud Offensive",
-},
-[206140] = {
-"Coalesced Time",
-"Dawn of the Infinite",
-},
-[190362] = {
-"Dazzling Dragonfly",
-"Halls of Infusion",
-},
-[213932] = {
-"Sureki Militant",
-"The Dawnbreaker",
-"enUS",
-},
-[99366] = {
-"Taintheart Summoner",
-"Darkheart Thicket",
-},
-[34465] = {
-"Веланаа",
-"Испытание крестоносца",
-},
-[169893] = {
-"Nefarious Darkspeaker",
-"Theater of Pain",
-},
-[133835] = {
-"Feral Bloodswarmer",
-"The Underrot",
-},
-[186658] = {
-"Stonevault Geomancer",
-"Uldaman: Legacy of Tyr",
-},
-[31229] = {
-"Ancient Watcher",
-"Northrend",
-},
-[135241] = {
-"Bilge Rat Pillager",
-"Siege of Boralus",
-"enUS",
-},
-[90998] = {
-"Blightshard Shaper",
-"Neltharion's Lair",
-},
-[53244] = {
-"Поджигатель-новобранец",
-"Огненные Просторы",
-},
-[133836] = {
-"Reanimated Guardian",
-"The Underrot",
-},
-[170690] = {
-"Diseased Horror",
-"Theater of Pain",
-},
-[98280] = {
-"Risen Arcanist",
-"Black Rook Hold",
-},
-[42897] = {
-"Poison Bomb",
-"Blackwing Descent",
-"enUS",
-},
-[170882] = {
-"Bone Magus",
-"Theater of Pain",
-},
-[5925] = {
-"Тотем заземления",
-"Испытание крестоносца",
-},
-[213934] = {
-"Nightfall Tactician",
-"The Dawnbreaker",
-"enUS",
-},
-[201223] = {
-"Infinite Twilight Magus",
-"Dawn of the Infinite",
-},
-[49811] = {
-"Vile Swill",
-"Blackwing Descent",
-"enUS",
-},
-[91000] = {
-"Vileshard Hulk",
-"Neltharion's Lair",
-},
-[42178] = {
-"Magmatron",
-"Blackwing Descent",
-"enUS",
-},
-[135049] = {
-"Dreadwing Raven",
-"Waycrest Manor",
-},
-[47161] = {
-"Twilight Brute",
-"The Bastion of Twilight",
-"enUS",
-},
-[220003] = {
-"Eye of the Queen",
-"City of Threads",
-},
-[44797] = {
-"Time Warden",
-"The Bastion of Twilight",
-"enUS",
-},
-[224219] = {
-"Twilight Earthcaller",
-"Grim Batol",
-"enUS",
-},
-[220195] = {
-"Sureki Silkbinder",
-"City of Threads",
-"enUS",
-},
-[193462] = {
-"Batak",
-"The Nokhud Offensive",
-},
-[98792] = {
-"Wyrmtongue Scavenger",
-"Black Rook Hold",
-},
-[16594] = {
-"Shadowmoon Acolyte",
-"Hellfire Citadel: The Shattered Halls",
-},
-[208698] = {
-"Infinite Riftmage",
-"Dawn of the Infinite",
-},
-[44645] = {
-"Nether Scion",
-"The Bastion of Twilight",
-"enUS",
-},
-[212403] = {
-"Cursedheart Invader",
-"The Stonevault",
-"enUS",
-},
-[196115] = {
-"Arcane Tender",
-"The Azure Vault",
-},
-[220196] = {
-"Herald of Ansurek",
-"City of Threads",
-"enUS",
-},
-[188067] = {
-"Flashfrost Chillweaver",
-"Ruby Life Pools",
-},
-[163157] = {
-"Amarth",
-"The Necrotic Wake",
-"enUS",
-},
-[133007] = {
-"Unbound Abomination",
-"The Underrot",
-},
-[216364] = {
-"Blood Overseer",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[193944] = {
-"Qalashi Lavamancer",
-"Neltharus",
-},
-[213937] = {
-"Rasha'nan",
-"The Dawnbreaker",
-"enUS",
-},
-[224732] = {
-"Covert Webmancer",
-"City of Threads",
-"enUS",
-},
-[220197] = {
-"Royal Swarmguard",
-"City of Threads",
-"enUS",
-},
-[136549] = {
-"Ashvane Cannoneer",
-"Siege of Boralus",
-"enUS",
-},
-[165137] = {
-"Zolramus Gatekeeper",
-"The Necrotic Wake",
-"enUS",
-},
-[197905] = {
-"Spellbound Scepter",
-"Algeth'ar Academy",
-},
-[135240] = {
-"Soul Essence",
-"UNKNOWN",
-},
-[190368] = {
-"Flamecaller Aymi",
-"Halls of Infusion",
-},
-[200137] = {
-"Depraved Mistweaver",
-"Temple of the Jade Serpent",
-},
-[34466] = {
-"Антар Очистительный Горн",
-"Испытание крестоносца",
-},
-[214066] = {
-"Cursedforge Stoneshaper",
-"The Stonevault",
-"enUS",
-},
-[224249] = {
-"Twilight Lavabender",
-"Grim Batol",
-"enUS",
-},
-[42179] = {
-"Electron",
-"Blackwing Descent",
-"enUS",
-},
-[184301] = {
-"Cavern Seeker",
-"Uldaman: Legacy of Tyr",
-},
-[40167] = {
-"Twilight Beguiler",
-"Grim Batol",
-"enUS",
-},
-[208193] = {
-"Paladin of the Silver Hand",
-"Dawn of the Infinite",
-},
-[91001] = {
-"Tarspitter Lurker",
-"Neltharion's Lair",
-},
-[100531] = {
-"Bloodtainted Fury",
-"Darkheart Thicket",
-},
-[97197] = {
-"Valarjar Purifier",
-"Halls of Valor",
-},
-[42802] = {
-"Drakonid Slayer",
-"Blackwing Descent",
-"enUS",
-},
-[193373] = {
-"Nokhud Thunderfist",
-"The Nokhud Offensive",
-},
-[240320] = {
-"Acidic Globule",
-"The Stonecore",
-"enUS",
-},
-[195927] = {
-"Soulharvester Galtmaa",
-"The Nokhud Offensive",
-},
-[186220] = {
-"Brackenhide Shaper",
-"Brackenhide Hollow",
-},
-[195930] = {
-"Soulharvester Mandakh",
-"The Nokhud Offensive",
-},
-[122971] = {
-"Dazar'ai Juggernaut",
-"Atal'Dazar",
-},
-[174210] = {
-"Blighted Sludge-Spewer",
-"Theater of Pain",
-},
-[165076] = {
-"Gluttonous Tick",
-"Sanguine Depths",
-},
-[163503] = {
-"Etherdiver",
-"Spires of Ascension",
-},
-[240321] = {
-"Dark Globule",
-"The Stonecore",
-"enUS",
-},
-[195928] = {
-"Soulharvester Duuren",
-"The Nokhud Offensive",
-},
-[207939] = {
-"Baron Braunpyke",
-"Priory of the Sacred Flame",
-},
-[223844] = {
-"Covert Webmancer",
-"City of Threads",
-"enUS",
-},
-[123227] = {
-"Keystone Vendor",
-"Kalimdor",
-},
-[171656] = {
-"Venomous Sniper Captain",
-"Plaguefall",
-},
-[131545] = {
-"Lady Waycrest",
-"Waycrest Manor",
-},
-[210109] = {
-"Earth Infused Golem",
-"Khaz Algar",
-"enUS",
-},
-[240322] = {
-"Cobalt Globule",
-"The Stonecore",
-"enUS",
-},
-[195929] = {
-"Soulharvester Tumen",
-"The Nokhud Offensive",
-},
-[210812] = {
-"Royal Wicklighter",
-"Darkflame Cleft",
-},
-[213942] = {
-"Sludge",
-"Throne of the Tides",
-},
-[122972] = {
-"Dazar'ai Augur",
-"Atal'Dazar",
-},
-[16507] = {
-"Shattered Hand Sentry",
-"Hellfire Citadel: The Shattered Halls",
-},
-[164567] = {
-"Ingra Maloch",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[42180] = {
-"Toxitron",
-"Blackwing Descent",
-"enUS",
-},
-[192800] = {
-"Nokhud Lancemaster",
-"The Nokhud Offensive",
-},
-[212793] = {
-"Void Ascendant",
-"The Rookery",
-},
-[190373] = {
-"Primalist Galesinger",
-"Halls of Infusion",
-},
-[113998] = {
-"Mightstone Breaker",
-"Neltharion's Lair",
-},
-[102788] = {
-"Felspite Dominator",
-"Black Rook Hold",
-},
-[205384] = {
-"Infinite Chronoweaver",
-"Dawn of the Infinite",
-},
-[131864] = {
-"Gorak Tul",
-"Waycrest Manor",
-},
-[128434] = {
-"Feasting Skyscreamer",
-"Atal'Dazar",
-},
-[240324] = {
-"Glowing Globule",
-"The Stonecore",
-"enUS",
-},
-[43873] = {
-"Altairus",
-"The Vortex Pinnacle",
-},
-[45922] = {
-"Empyrean Assassin",
-"The Vortex Pinnacle",
-},
-[196548] = {
-"Ancient Branch",
-"Algeth'ar Academy",
-},
-[122973] = {
-"Dazar'ai Confessor",
-"Atal'Dazar",
-},
-[207940] = {
-"Prioress Murrpray",
-"Priory of the Sacred Flame",
-},
-[135365] = {
-"Matron Alma",
-"Waycrest Manor",
-},
-[211089] = {
-"Anub'ikkaj",
-"The Dawnbreaker",
-"enUS",
-},
-[240325] = {
-"Shadowed Globule",
-"The Stonecore",
-"enUS",
-},
-[190345] = {
-"Primalist Geomancer",
-"Halls of Infusion",
-},
-[129370] = {
-"Irontide Waveshaper",
-"Siege of Boralus",
-"enUS",
-},
-[53231] = {
-"Лавовый отпрыск",
-"Огненные Просторы",
-},
-[220141] = {
-"Royal Jelly Purveyor",
-"Cinderbrew Meadery",
-},
-[168594] = {
-"Chamber Sentinel",
-"Sanguine Depths",
-},
-[192788] = {
-"Qalashi Thaumaturge",
-"Neltharus",
-},
-[214264] = {
-"Cursedforge Honor Guard",
-"The Stonevault",
-"enUS",
-},
-[167956] = {
-"Dark Acolyte",
-"Sanguine Depths",
-},
-[211263] = {
-"Deathscreamer Iken'tak",
-"The Dawnbreaker",
-"enUS",
-},
-[129553] = {
-"Dinomancer Kish'o",
-"Atal'Dazar",
-},
-[101991] = {
-"Nightmare Dweller",
-"Darkheart Thicket",
-},
-[34468] = {
-"Нуззл Чудодей",
-"Испытание крестоносца",
-},
-[165529] = {
-"Depraved Collector",
-"Halls of Atonement",
-},
-[219984] = {
-"Xeph'itik",
-"City of Threads",
-"enUS",
-},
-[59555] = {
-"Haunting Sha",
-"Temple of the Jade Serpent",
-"enUS",
-},
-[131436] = {
-"Chosen Blood Matron",
-"The Underrot",
-},
-[195696] = {
-"Primalist Thunderbeast",
-"The Nokhud Offensive",
-},
-[190377] = {
-"Primalist Icecaller",
-"Halls of Infusion",
-},
-[131819] = {
-"Coven Diviner",
-"Waycrest Manor",
-},
-[220158] = {
-"Under-Lord Vik'tis",
-"The Dread Pit",
 },
 [28580] = {
 "Hardened Steel Skycaller",
 "Halls of Lightning",
 "enUS",
 },
-[133912] = {
-"Bloodsworn Defiler",
-"The Underrot",
+[196671] = {
+"Arcane Ravager",
+"Algeth'ar Academy",
 },
-[40943] = {
-"Gilgoblin Aquamage",
-"Throne of the Tides",
-"enUS",
-},
-[186226] = {
-"Fetid Rotsinger",
-"Brackenhide Hollow",
-},
-[191847] = {
-"Nokhud Plainstomper",
-"The Nokhud Offensive",
-},
-[210818] = {
-"Lowly Moleherd",
-"Darkflame Cleft",
-},
-[221102] = {
-"Elder Shadeweaver",
-"City of Threads",
-"enUS",
-},
-[186339] = {
-"Teera",
-"The Nokhud Offensive",
-},
-[184132] = {
-"Earthen Warder",
-"Uldaman: Legacy of Tyr",
-},
-[102287] = {
-"Emberhusk Dominator",
-"Neltharion's Lair",
-},
-[47151] = {
-"Wind Breaker",
-"The Bastion of Twilight",
-"enUS",
-},
-[53695] = {
-"Косоморд",
-"Огненные Просторы",
-},
-[169875] = {
-"Shackled Soul",
-"Theater of Pain",
-},
-[105704] = {
-"Arcane Manifestation",
-"Court of Stars",
-},
-[91006] = {
-"Rockback Gnasher",
-"Neltharion's Lair",
-},
-[34469] = {
-"Меладор Дальний Гонец",
+[34686] = {
+"Тотем исцеляющего потока",
 "Испытание крестоносца",
 },
-[208456] = {
-"Shuffling Horror",
-"Darkflame Cleft",
-},
-[41096] = {
-"Naz'jar Spiritmender",
-"Throne of the Tides",
+[216364] = {
+"Blood Overseer",
+"Ara-Kara, City of Echoes",
 "enUS",
 },
-[168418] = {
-"Forsworn Inquisitor",
-"Spires of Ascension",
-},
-[42166] = {
-"Arcanotron",
-"Blackwing Descent",
+[56265] = {
+"Forgotten One",
+"Dragon Soul",
 "enUS",
 },
-[166299] = {
-"Mistveil Tender",
+[195265] = {
+"Stormcaller Arynga",
+"The Nokhud Offensive",
+},
+[57384] = {
+"Cobalt Globule",
+"Dragon Soul",
+"enUS",
+},
+[173655] = {
+"Mistveil Matriarch",
 "Mists of Tirna Scithe",
 "enUS",
+},
+[173016] = {
+"Corpse Collector",
+"The Necrotic Wake",
+"enUS",
+},
+[129602] = {
+"Irontide Enforcer",
+"Freehold",
+},
+[229537] = {
+"Void Emissary",
+"The Necrotic Wake",
+},
+[200126] = {
+"Fallen Waterspeaker",
+"Temple of the Jade Serpent",
+},
+[208438] = {
+"Infinite Saboteur",
+"Dawn of the Infinite",
+},
+[212786] = {
+"Voidrider",
+"The Rookery",
+},
+[213937] = {
+"Rasha'nan",
+"The Dawnbreaker",
+"enUS",
+},
+[16704] = {
+"Shattered Hand Sharpshooter",
+"Hellfire Citadel: The Shattered Halls",
+},
+[34463] = {
+"Шаабад",
+"Испытание крестоносца",
 },
 [40633] = {
 "Naz'jar Honor Guard",
 "Throne of the Tides",
 "enUS",
 },
-[196576] = {
-"Spellbound Scepter",
+[197698] = {
+"Thunderhead",
+"Ruby Life Pools",
+},
+[131587] = {
+"Bewitched Captain",
+"Waycrest Manor",
+},
+[196548] = {
+"Ancient Branch",
 "Algeth'ar Academy",
 },
-[186420] = {
-"Earthen Weaver",
-"Uldaman: Legacy of Tyr",
+[218671] = {
+"Venture Co. Pyromaniac",
+"Cinderbrew Meadery",
 },
-[207946] = {
-"Captain Dailcry",
-"Priory of the Sacred Flame",
-},
-[217208] = {
-"Zekvir",
-"Mycomancer Cavern",
-},
-[212673] = {
-"Naz'jar Ravager",
-"Throne of the Tides",
-},
-[229537] = {
-"Void Emissary",
-"The Necrotic Wake",
-},
-[186229] = {
-"Wilted Oak",
+[186191] = {
+"Decay Speaker",
 "Brackenhide Hollow",
 },
-[190381] = {
-"Rotburst Totem",
-"Brackenhide Hollow",
-},
-[186741] = {
-"Arcane Elemental",
-"The Azure Vault",
-},
-[49416] = {
-"Blazing Bone Construct",
-"Blackwing Descent",
-"enUS",
-},
-[167963] = {
-"Headless Client",
-"De Other Side",
-},
-[37695] = {
-"Вурдалак-приспешник",
-"Цитадель Ледяной Короны",
-},
-[34134] = {
-"Winter Revenant",
-"Ulduar",
-},
-[95766] = {
-"Crazed Razorbeak",
-"Darkheart Thicket",
-},
-[45919] = {
-"Young Storm Dragon",
-"The Vortex Pinnacle",
-},
-[198047] = {
-"Tempest Channeler",
-"Ruby Life Pools",
-},
-[34198] = {
-"Iron Mender",
-"Ulduar",
-},
-[53121] = {
-"Клеймящий поджигатель",
-"Огненные Просторы",
-},
-[205337] = {
-"Infinite Timebender",
+[206140] = {
+"Coalesced Time",
 "Dawn of the Infinite",
 },
-[185528] = {
-"Trickclaw Mystic",
-"Brackenhide Hollow",
+[98275] = {
+"Risen Archer",
+"Black Rook Hold",
 },
-[168992] = {
-"Risen Cultist",
-"De Other Side",
-},
-[195876] = {
-"Desecrated Ohuna",
-"The Nokhud Offensive",
-},
-[166302] = {
-"Corpse Harvester",
-"The Necrotic Wake",
+[221102] = {
+"Elder Shadeweaver",
+"City of Threads",
 "enUS",
-},
-[95834] = {
-"Valarjar Mystic",
-"Halls of Valor",
-},
-[165919] = {
-"Skeletal Marauder",
-"The Necrotic Wake",
-"enUS",
-},
-[45928] = {
-"Executor of the Caliph",
-"The Vortex Pinnacle",
-},
-[211341] = {
-"Manifested Shadow",
-"The Dawnbreaker",
-"enUS",
-},
-[185529] = {
-"Bracken Warscourge",
-"Brackenhide Hollow",
-},
-[214209] = {
-"Naz'jar Tempest Witch",
-"Throne of the Tides",
-},
-[195877] = {
-"Risen Mystic",
-"The Nokhud Offensive",
-},
-[197985] = {
-"Flame Channeler",
-"Ruby Life Pools",
-},
-[131492] = {
-"Devout Blood Priest",
-"The Underrot",
-},
-[217531] = {
-"Ixin",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[34470] = {
-"Саамул",
-"Испытание крестоносца",
-},
-[195878] = {
-"Ukhel Beastcaller",
-"The Nokhud Offensive",
 },
 [40634] = {
 "Naz'jar Tempest Witch",
 "Throne of the Tides",
 "enUS",
 },
-[163621] = {
-"Goregrind",
-"The Necrotic Wake",
-"enUS",
-},
-[189235] = {
-"Overseer Lahar",
-"Neltharus",
-},
-[196202] = {
-"Spectral Invoker",
-"Algeth'ar Academy",
-},
-[96664] = {
-"Valarjar Runecarver",
-"Halls of Valor",
-},
-[167965] = {
-"Lubricator",
-"De Other Side",
-},
-[98706] = {
-"Commander Shemdah'sohn",
-"Black Rook Hold",
-},
-[131812] = {
-"Heartsbane Soulcharmer",
-"Waycrest Manor",
-},
-[131666] = {
-"Coven Thornshaper",
-"Waycrest Manor",
-},
 [28581] = {
 "Stormforged Tactician",
 "Halls of Lightning",
 "enUS",
 },
-[217533] = {
-"Atik",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[220599] = {
-"Bloodstained Webmage",
-"Ara-Kara, City of Echoes",
-"enUS",
-},
-[213892] = {
-"Nightfall Shadowmage",
-"The Dawnbreaker",
-"enUS",
-},
-[131685] = {
-"Runic Disciple",
-"Waycrest Manor",
-},
-[224240] = {
-"Twilight Flamerender",
-"Grim Batol",
-"enUS",
-},
-[100527] = {
-"Dreadfire Imp",
-"Darkheart Thicket",
-},
-[163618] = {
-"Zolramus Necromancer",
-"The Necrotic Wake",
-"enUS",
-},
-[171799] = {
-"Depths Warden",
-"Sanguine Depths",
-},
-[167967] = {
-"Sentient Oil",
-"De Other Side",
-},
-[207186] = {
-"Unruly Stormrook",
-"The Rookery",
-},
-[213893] = {
-"Nightfall Darkcaster",
-"The Dawnbreaker",
-"enUS",
-},
-[53745] = {
-"Насосавшийся крови паучонок",
-"Огненные Просторы",
-},
-[129367] = {
-"Bilge Rat Tempest",
-"Siege of Boralus",
-"enUS",
-},
-[189470] = {
-"Lava Flare",
-"Neltharus",
-},
-[174802] = {
-"Venomous Sniper",
-"Plaguefall",
-},
-[222964] = {
-"Flavor Scientist",
-"Cinderbrew Meadery",
-},
-[95769] = {
-"Mindshattered Screecher",
-"Darkheart Thicket",
-},
-[213806] = {
-"Splotch",
-"Throne of the Tides",
-},
-[45930] = {
-"Minister of Air",
-"The Vortex Pinnacle",
-},
-[187897] = {
-"Defier Draghar",
-"Ruby Life Pools",
-},
-[34471] = {
-"Бельнор Светоносный",
-"Испытание крестоносца",
-},
-[197535] = {
-"High Channeler Ryvati",
-"Ruby Life Pools",
-},
-[160495] = {
-"Maniacal Soulbinder",
-"Theater of Pain",
-},
-[206351] = {
-"Alliance Conjuror",
+[199748] = {
+"Timeline Marauder",
 "Dawn of the Infinite",
 },
 [165222] = {
@@ -12831,173 +11718,1021 @@ true,
 "The Necrotic Wake",
 "enUS",
 },
-[76446] = {
-"Shadowmoon Dominator",
-"Shadowmoon Burial Grounds",
+[16385] = {
+"Lightning Totem",
+"Naxxramas",
 },
-[84957] = {
-"Putrid Pyromancer",
-"The Everbloom",
-},
-[165414] = {
-"Depraved Obliterator",
-"Halls of Atonement",
-},
-[75713] = {
-"Shadowmoon Bone-Mender",
-"Shadowmoon Burial Grounds",
-},
-[220730] = {
-"Royal Venomshell",
-"City of Threads",
+[55308] = {
+"Warlord Zon'ozz",
+"Dragon Soul",
 "enUS",
 },
-[104295] = {
-"Blazing Imp",
-"Court of Stars",
-},
-[168886] = {
-"Virulax Blightweaver",
-"Plaguefall",
-},
-[184130] = {
-"Earthen Custodian",
-"Uldaman: Legacy of Tyr",
-},
-[223541] = {
-"Stolen Loader",
-"Kriegval's Rest",
-},
-[44404] = {
-"Naz'jar Tempest Witch",
-"Throne of the Tides",
+[57386] = {
+"Crimson Globule",
+"Dragon Soul",
 "enUS",
 },
-[163882] = {
-"Decaying Flesh Giant",
-"Plaguefall",
-},
-[173655] = {
-"Mistveil Matriarch",
-"Mists of Tirna Scithe",
-"enUS",
-},
-[131817] = {
-"Cragmaw the Infested",
-"The Underrot",
-},
-[173016] = {
-"Corpse Collector",
-"The Necrotic Wake",
-"enUS",
-},
-[185656] = {
-"Filth Caller",
-"Brackenhide Hollow",
-},
-[45935] = {
-"Temple Adept",
-"The Vortex Pinnacle",
-},
-[219454] = {
-"Crazed Abomination",
-"The Underkeep",
-},
-[193457] = {
-"Balara",
-"The Nokhud Offensive",
-},
-[144071] = {
-"Irontide Waveshaper",
-"Siege of Boralus",
-"enUS",
-},
-[199717] = {
-"Nokhud Defender",
-"The Nokhud Offensive",
-},
-[203857] = {
-"Horde Warlock",
+[199749] = {
+"Timestream Anomaly",
 "Dawn of the Infinite",
 },
-[211087] = {
-"Speaker Shadowcrown",
-"The Dawnbreaker",
-"enUS",
-},
-[214421] = {
-"Corrupted Thunderer",
-"The Rookery",
-},
-[95771] = {
-"Dreadsoul Ruiner",
-"Darkheart Thicket",
-},
-[75459] = {
-"Plagued Bat",
-"Shadowmoon Burial Grounds",
-},
-[218671] = {
-"Venture Co. Pyromaniac",
-"Cinderbrew Meadery",
-},
-[225204] = {
-"Zekvir",
-"Zekvir's Lair",
-},
-[34472] = {
-"Ириэт Шаг Сквозь Тень",
-"Испытание крестоносца",
-},
-[32955] = {
-"Вспыхивающая звезда",
-"Ульдуар",
-},
-[212412] = {
-"Sootsnout",
-"Darkflame Cleft",
-},
-[184580] = {
-"Olaf",
-"Uldaman: Legacy of Tyr",
-},
-[216326] = {
-"Ascended Neophyte",
-"City of Threads",
-"enUS",
-},
-[164804] = {
-"Droman Oulfarran",
-"Mists of Tirna Scithe",
+[56427] = {
+"Warmaster Blackhorn",
+"Dragon Soul",
 "enUS",
 },
 [168420] = {
 "Forsworn Champion",
 "Spires of Ascension",
 },
-[120651] = {
-"Explosives",
-"Court of Stars",
+[212793] = {
+"Void Ascendant",
+"The Rookery",
 },
-[37666] = {
-"Омраченный тактик",
-"Цитадель Ледяной Короны",
+[187602] = {
+"Qalashi Scaleripper",
+"10.0 Dragon Isles",
+},
+[184022] = {
+"Stonevault Geomancer",
+"Uldaman: Legacy of Tyr",
+},
+[189265] = {
+"Qalashi Bonetender",
+"Neltharus",
+},
+[210109] = {
+"Earth Infused Golem",
+"Khaz Algar",
+"enUS",
+},
+[34465] = {
+"Веланаа",
+"Испытание крестоносца",
+},
+[196043] = {
+"Primalist Infuser",
+"Halls of Infusion",
+},
+[184023] = {
+"Vicious Basilisk",
+"Uldaman: Legacy of Tyr",
+},
+[134024] = {
+"Devouring Maggot",
+"Waycrest Manor",
+},
+[212412] = {
+"Sootsnout",
+"Darkflame Cleft",
+},
+[40923] = {
+"Unstable Corruption",
+"Throne of the Tides",
+"enUS",
+},
+[83892] = {
+"Life Warden Gola",
+"The Everbloom",
+},
+[57387] = {
+"Glowing Globule",
+"Dragon Soul",
+"enUS",
+},
+[208193] = {
+"Paladin of the Silver Hand",
+"Dawn of the Infinite",
+},
+[200137] = {
+"Depraved Mistweaver",
+"Temple of the Jade Serpent",
+},
+[135049] = {
+"Dreadwing Raven",
+"Waycrest Manor",
+},
+[42362] = {
+"Drakonid Drudge",
+"Blackwing Descent",
+"enUS",
+},
+[211263] = {
+"Deathscreamer Iken'tak",
+"The Dawnbreaker",
+"enUS",
+},
+[83893] = {
+"Earthshaper Telu",
+"The Everbloom",
+},
+[128969] = {
+"Ashvane Commander",
+"Siege of Boralus",
+"enUS",
+},
+[99366] = {
+"Taintheart Summoner",
+"Darkheart Thicket",
+},
+[207939] = {
+"Baron Braunpyke",
+"Priory of the Sacred Flame",
+},
+[34466] = {
+"Антар Очистительный Горн",
+"Испытание крестоносца",
+},
+[220599] = {
+"Bloodstained Webmage",
+"Ara-Kara, City of Echoes",
+"enUS",
 },
 [28582] = {
 "Stormforged Mender",
 "Halls of Lightning",
 "enUS",
 },
+[134284] = {
+"Fallen Deathspeaker",
+"The Underrot",
+},
+[223541] = {
+"Stolen Loader",
+"Kriegval's Rest",
+},
+[217531] = {
+"Ixin",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[98280] = {
+"Risen Arcanist",
+"Black Rook Hold",
+},
+[225204] = {
+"Zekvir",
+"Zekvir's Lair",
+},
+[205384] = {
+"Infinite Chronoweaver",
+"Dawn of the Infinite",
+},
+[212673] = {
+"Naz'jar Ravager",
+"Throne of the Tides",
+},
+[133007] = {
+"Unbound Abomination",
+"The Underrot",
+},
+[16594] = {
+"Shadowmoon Acolyte",
+"Hellfire Citadel: The Shattered Halls",
+},
+[217533] = {
+"Atik",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[220730] = {
+"Royal Venomshell",
+"City of Threads",
+"enUS",
+},
+[165872] = {
+"Flesh Crafter",
+"The Necrotic Wake",
+"enUS",
+},
+[214209] = {
+"Naz'jar Tempest Witch",
+"Throne of the Tides",
+},
+[34467] = {
+"Алисса Лунопард",
+"Испытание крестоносца",
+},
+[168942] = {
+"Death Speaker",
+"De Other Side",
+},
+[45912] = {
+"Wild Vortex",
+"The Vortex Pinnacle",
+},
+[208456] = {
+"Shuffling Horror",
+"Darkflame Cleft",
+},
+[189531] = {
+"Decayed Elder",
+"Brackenhide Hollow",
+},
+[219454] = {
+"Crazed Abomination",
+"The Underkeep",
+},
+[207946] = {
+"Captain Dailcry",
+"Priory of the Sacred Flame",
+},
+[162039] = {
+"Wicked Oppressor",
+"Sanguine Depths",
+},
+[57773] = {
+"Kohcrom",
+"Dragon Soul",
+"enUS",
+},
+[75713] = {
+"Shadowmoon Bone-Mender",
+"Shadowmoon Burial Grounds",
+},
+[56846] = {
+"Arm Tentacle",
+"Dragon Soul",
+"enUS",
+},
+[162040] = {
+"Grand Overseer",
+"Sanguine Depths",
+},
+[34468] = {
+"Нуззл Чудодей",
+"Испытание крестоносца",
+},
+[181861] = {
+"Magmatusk",
+"Neltharus",
+},
+[195928] = {
+"Soulharvester Duuren",
+"The Nokhud Offensive",
+},
+[97197] = {
+"Valarjar Purifier",
+"Halls of Valor",
+},
+[55312] = {
+"Yor'sahj the Unsleeping",
+"Dragon Soul",
+"enUS",
+},
+[203857] = {
+"Horde Warlock",
+"Dawn of the Infinite",
+},
+[195929] = {
+"Soulharvester Tumen",
+"The Nokhud Offensive",
+},
+[221760] = {
+"Risen Mage",
+"Priory of the Sacred Flame",
+},
+[131864] = {
+"Gorak Tul",
+"Waycrest Manor",
+},
+[186339] = {
+"Teera",
+"The Nokhud Offensive",
+},
+[223423] = {
+"Careless Hopgoblin",
+"Cinderbrew Meadery",
+},
+[195930] = {
+"Soulharvester Mandakh",
+"The Nokhud Offensive",
+},
+[104295] = {
+"Blazing Imp",
+"Court of Stars",
+},
+[193373] = {
+"Nokhud Thunderfist",
+"The Nokhud Offensive",
+},
+[228539] = {
+"Nightfall Darkcaster",
+"The Dawnbreaker",
+"enUS",
+},
+[34469] = {
+"Меладор Дальний Гонец",
+"Испытание крестоносца",
+},
+[39616] = {
+"Naz'jar Invader",
+"Throne of the Tides",
+"enUS",
+},
+[133912] = {
+"Bloodsworn Defiler",
+"The Underrot",
+},
+[37666] = {
+"Омраченный тактик",
+"Цитадель Ледяной Короны",
+},
 [37698] = {
 "Шаркающий ужас",
 "Цитадель Ледяной Короны",
+},
+[228540] = {
+"Nightfall Shadowmage",
+"The Dawnbreaker",
+"enUS",
+},
+[90997] = {
+"Mightstone Breaker",
+"Neltharion's Lair",
+},
+[47161] = {
+"Twilight Brute",
+"The Bastion of Twilight",
+"enUS",
+},
+[207186] = {
+"Unruly Stormrook",
+"The Rookery",
+},
+[173044] = {
+"Stitching Assistant",
+"The Necrotic Wake",
+"enUS",
+},
+[214348] = {
+"Undersea Abomination",
+"Tak-Rethan Abyss",
+},
+[90998] = {
+"Blightshard Shaper",
+"Neltharion's Lair",
+},
+[224962] = {
+"Cursedforge Mender",
+"The Stonevault",
+"enUS",
+},
+[56848] = {
+"Twilight Elite Slayer",
+"Dragon Soul",
+"enUS",
+},
+[168058] = {
+"Infused Quill-feather",
+"Sanguine Depths",
+},
+[34470] = {
+"Саамул",
+"Испытание крестоносца",
+},
+[129553] = {
+"Dinomancer Kish'o",
+"Atal'Dazar",
+},
+[174197] = {
+"Battlefield Ritualist",
+"Theater of Pain",
+},
+[214350] = {
+"Turned Speaker",
+"The Stonevault",
+"enUS",
+},
+[168443] = {
+"Zolramus Necromancer",
+"The Necrotic Wake",
+},
+[84989] = {
+"Infested Icecaller",
+"The Everbloom",
+},
+[196576] = {
+"Spellbound Scepter",
+"Algeth'ar Academy",
+},
+[170490] = {
+"Atal'ai High Priest",
+"De Other Side",
+},
+[168572] = {
+"Fungi Stormer",
+"Plaguefall",
+},
+[184301] = {
+"Cavern Seeker",
+"Uldaman: Legacy of Tyr",
+},
+[225605] = {
+"Nightfall Darkcaster",
+"The Dawnbreaker",
+"enUS",
+},
+[91000] = {
+"Vileshard Hulk",
+"Neltharion's Lair",
+},
+[186220] = {
+"Brackenhide Shaper",
+"Brackenhide Hollow",
+},
+[81985] = {
+"Everbloom Cultivator",
+"The Everbloom",
+},
+[122969] = {
+"Zanchuli Witch-Doctor",
+"Atal'Dazar",
+},
+[100527] = {
+"Dreadfire Imp",
+"Darkheart Thicket",
+},
+[34471] = {
+"Бельнор Светоносный",
+"Испытание крестоносца",
+},
+[163459] = {
+"Forsworn Mender",
+"Spires of Ascension",
+},
+[44797] = {
+"Time Warden",
+"The Bastion of Twilight",
+"enUS",
+},
+[104300] = {
+"Shadow Mistress",
+"Court of Stars",
+},
+[131492] = {
+"Devout Blood Priest",
+"The Underrot",
+},
+[76104] = {
+"Monstrous Corpse Spider",
+"Shadowmoon Burial Grounds",
+},
+[210264] = {
+"Bee Wrangler",
+"Cinderbrew Meadery",
+},
+[219983] = {
+"Eye of the Queen",
+"City of Threads",
+"enUS",
+},
+[122971] = {
+"Dazar'ai Juggernaut",
+"Atal'Dazar",
+},
+[34472] = {
+"Ириэт Шаг Сквозь Тень",
+"Испытание крестоносца",
+},
+[168578] = {
+"Fungalmancer",
+"Plaguefall",
+},
+[219984] = {
+"Xeph'itik",
+"City of Threads",
+"enUS",
+},
+[162057] = {
+"Chamber Sentinel",
+"Sanguine Depths",
+},
+[211289] = {
+"Taener Duelmal",
+"Priory of the Sacred Flame",
+},
+[207453] = {
+"Fungal Rotspreader",
+"Mycomancer Cavern",
+},
+[186226] = {
+"Fetid Rotsinger",
+"Brackenhide Hollow",
+},
+[122972] = {
+"Dazar'ai Augur",
+"Atal'Dazar",
+},
+[205152] = {
+"Lerai, Timesworn Maiden",
+"Dawn of the Infinite",
+},
+[170882] = {
+"Bone Magus",
+"Theater of Pain",
+},
+[218324] = {
+"Nakt",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[207199] = {
+"Cursed Rooktender",
+"The Rookery",
+},
+[196202] = {
+"Spectral Invoker",
+"Algeth'ar Academy",
+},
+[122973] = {
+"Dazar'ai Confessor",
+"Atal'Dazar",
+},
+[100531] = {
+"Bloodtainted Fury",
+"Darkheart Thicket",
+},
+[34473] = {
+"Бриенна Приход Ночи",
+"Испытание крестоносца",
+},
+[207456] = {
+"Fungal Speartender",
+"Mycomancer Cavern",
+},
+[240320] = {
+"Acidic Globule",
+"The Stonecore",
+"enUS",
+},
+[186229] = {
+"Wilted Oak",
+"Brackenhide Hollow",
+},
+[186741] = {
+"Arcane Elemental",
+"The Azure Vault",
+},
+[240321] = {
+"Dark Globule",
+"The Stonecore",
+"enUS",
+},
+[174210] = {
+"Blighted Sludge-Spewer",
+"Theater of Pain",
+},
+[100532] = {
+"Bloodtainted Burster",
+"Darkheart Thicket",
+},
+[207202] = {
+"Void Fragment",
+"The Rookery",
+},
+[42178] = {
+"Magmatron",
+"Blackwing Descent",
+"enUS",
+},
+[240322] = {
+"Cobalt Globule",
+"The Stonecore",
+"enUS",
+},
+[56724] = {
+"Elementium Fragment",
+"Dragon Soul",
+"enUS",
+},
+[91006] = {
+"Rockback Gnasher",
+"Neltharion's Lair",
+},
+[240323] = {
+"Crimson Globule",
+"Halls of Origination",
+"enUS",
+},
+[40484] = {
+"Erudax",
+"Grim Batol",
+"enUS",
+},
+[205158] = {
+"Spurlok, Timesworn Sentinel",
+"Dawn of the Infinite",
+},
+[240324] = {
+"Glowing Globule",
+"The Stonecore",
+"enUS",
+},
+[45919] = {
+"Young Storm Dragon",
+"The Vortex Pinnacle",
+},
+[213343] = {
+"Forge Loader",
+"The Stonevault",
+"enUS",
+},
+[171656] = {
+"Venomous Sniper Captain",
+"Plaguefall",
+},
+[16406] = {
+"Phantom Attendant",
+"Karazhan",
+},
+[138281] = {
+"Faceless Corruptor",
+"The Underrot",
+},
+[213216] = {
+"Speaker Dorlita",
+"The Stonevault",
+"enUS",
+},
+[16486] = {
+"Web Wrap",
+"Naxxramas",
+},
+[187897] = {
+"Defier Draghar",
+"Ruby Life Pools",
+},
+[129370] = {
+"Irontide Waveshaper",
+"Siege of Boralus",
+"enUS",
+},
+[213217] = {
+"Speaker Brokk",
+"The Stonevault",
+"enUS",
+},
+[55862] = {
+"Acidic Globule",
+"Dragon Soul",
+"enUS",
+},
+[27963] = {
+"Dark Rune Theurgist",
+"Halls of Stone",
+},
+[165137] = {
+"Zolramus Gatekeeper",
+"The Necrotic Wake",
+"enUS",
+},
+[34475] = {
+"Шокул",
+"Испытание крестоносца",
+},
+[206697] = {
+"Devout Priest",
+"Priory of the Sacred Flame",
+},
+[57333] = {
+"Acidic Globule",
+"Dragon Soul",
+"enUS",
+},
+[206698] = {
+"Fanatical Mage",
+"Priory of the Sacred Flame",
+},
+[53369] = {
+"Новообращенный друид-огнеястреб",
+"Огненные Просторы",
+},
+[105715] = {
+"Watchful Inquisitor",
+"Court of Stars",
+},
+[42180] = {
+"Toxitron",
+"Blackwing Descent",
+"enUS",
+},
+[57749] = {
+"Faceless Corruptor",
+"Dragon Soul",
+"enUS",
+},
+[57877] = {
+"Flail of Go'rath",
+"Dragon Soul",
+"enUS",
+},
+[224219] = {
+"Twilight Earthcaller",
+"Grim Batol",
+"enUS",
+},
+[191739] = {
+"Scalebane Lieutenant",
+"The Azure Vault",
+},
+[168594] = {
+"Chamber Sentinel",
+"Sanguine Depths",
+},
+[224732] = {
+"Covert Webmancer",
+"City of Threads",
+"enUS",
+},
+[16407] = {
+"Spectral Servant",
+"Karazhan",
+},
+[167956] = {
+"Dark Acolyte",
+"Sanguine Depths",
+},
+[184580] = {
+"Olaf",
+"Uldaman: Legacy of Tyr",
+},
+[56471] = {
+"Mutated Corruption",
+"Dragon Soul",
+"enUS",
+},
+[129374] = {
+"Scrimshaw Enforcer",
+"Siege of Boralus",
+"enUS",
+},
+[190207] = {
+"Primalist Cinderweaver",
+"Ruby Life Pools",
+},
+[169875] = {
+"Shackled Soul",
+"Theater of Pain",
 },
 [184581] = {
 "Baelog",
 "Uldaman: Legacy of Tyr",
 },
-[212389] = {
-"Cursedheart Invader",
+[104247] = {
+"Duskwatch Arcanist",
+"Court of Stars",
+},
+[130909] = {
+"Fetid Maggot",
+"Zandalar",
+},
+[186116] = {
+"Gutshot",
+"Brackenhide Hollow",
+},
+[220003] = {
+"Eye of the Queen",
+"City of Threads",
+},
+[55864] = {
+"Glowing Globule",
+"Dragon Soul",
+"enUS",
+},
+[206065] = {
+"Interval",
+"Dawn of the Infinite",
+},
+[165529] = {
+"Depraved Collector",
+"Halls of Atonement",
+},
+[214761] = {
+"Nightfall Ritualist",
+"The Dawnbreaker",
+"enUS",
+},
+[98813] = {
+"Bloodscent Felhound",
+"Black Rook Hold",
+},
+[45922] = {
+"Empyrean Assassin",
+"The Vortex Pinnacle",
+},
+[206066] = {
+"Timestream Leech",
+"Dawn of the Infinite",
+},
+[53211] = {
+"Искра Риолита",
+"Огненные Просторы",
+},
+[214762] = {
+"Nightfall Commander",
+"The Dawnbreaker",
+"enUS",
+},
+[186246] = {
+"Fleshripper Vulture",
+"Brackenhide Hollow",
+},
+[16156] = {
+"Dark Touched Warrior",
+"Naxxramas",
+},
+[16164] = {
+"Shade of Naxxramas",
+"Naxxramas",
+},
+[55417] = {
+"Flail of Go'rath",
+"Dragon Soul",
+"enUS",
+},
+[92612] = {
+"Mightstone Breaker",
+"Neltharion's Lair",
+},
+[166299] = {
+"Mistveil Tender",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[190340] = {
+"Refti Defender",
+"Halls of Infusion",
+},
+[55865] = {
+"Crimson Globule",
+"Dragon Soul",
+"enUS",
+},
+[204918] = {
+"Iridikron's Creation",
+"Dawn of the Infinite",
+},
+[40584] = {
+"Naz'jar Invader",
+"Throne of the Tides",
+"enUS",
+},
+[223844] = {
+"Covert Webmancer",
+"City of Threads",
+"enUS",
+},
+[171799] = {
+"Depths Warden",
+"Sanguine Depths",
+},
+[167963] = {
+"Headless Client",
+"De Other Side",
+},
+[199037] = {
+"Primalist Shocktrooper",
+"Halls of Infusion",
+},
+[54203] = {
+"Порождение Всепожирающего Пламени",
+"Огненные Просторы",
+},
+[53244] = {
+"Поджигатель-новобранец",
+"Огненные Просторы",
+},
+[190342] = {
+"Containment Apparatus",
+"Halls of Infusion",
+},
+[41096] = {
+"Naz'jar Spiritmender",
+"Throne of the Tides",
+"enUS",
+},
+[166302] = {
+"Corpse Harvester",
+"The Necrotic Wake",
+"enUS",
+},
+[167965] = {
+"Lubricator",
+"De Other Side",
+},
+[195842] = {
+"Ukhel Corruptor",
+"The Nokhud Offensive",
+},
+[163618] = {
+"Zolramus Necromancer",
+"The Necrotic Wake",
+"enUS",
+},
+[55866] = {
+"Cobalt Globule",
+"Dragon Soul",
+"enUS",
+},
+[44645] = {
+"Nether Scion",
+"The Bastion of Twilight",
+"enUS",
+},
+[186125] = {
+"Tricktotem",
+"Brackenhide Hollow",
+},
+[190345] = {
+"Primalist Geomancer",
+"Halls of Infusion",
+},
+[167967] = {
+"Sentient Oil",
+"De Other Side",
+},
+[137405] = {
+"Gripping Terror",
+"Siege of Boralus",
+"enUS",
+},
+[206074] = {
+"Pendule",
+"Dawn of the Infinite",
+},
+[56250] = {
+"Twilight Assaulter",
+"Dragon Soul",
+"enUS",
+},
+[205691] = {
+"Iridikron's Creation",
+"Dawn of the Infinite",
+},
+[220141] = {
+"Royal Jelly Purveyor",
+"Cinderbrew Meadery",
+},
+[163621] = {
+"Goregrind",
+"The Necrotic Wake",
+"enUS",
+},
+[168992] = {
+"Risen Cultist",
+"De Other Side",
+},
+[45477] = {
+"Gust Soldier",
+"The Vortex Pinnacle",
+},
+[196102] = {
+"Conjured Lasher",
+"The Azure Vault",
+},
+[57817] = {
+"Stormborn Myrmidon",
+"Dragon Soul",
+"enUS",
+},
+[98243] = {
+"Soul-Torn Champion",
+"Black Rook Hold",
+},
+[190348] = {
+"Primalist Ravager",
+"Halls of Infusion",
+},
+[55867] = {
+"Dark Globule",
+"Dragon Soul",
+"enUS",
+},
+[56922] = {
+"Twilight Infiltrator",
+"Dragon Soul",
+"enUS",
+},
+[40586] = {
+"Lady Naz'jar",
+"Throne of the Tides",
+"enUS",
+},
+[165414] = {
+"Depraved Obliterator",
+"Halls of Atonement",
+},
+[194315] = {
+"Stormcaller Solongo",
+"The Nokhud Offensive",
+},
+[135365] = {
+"Matron Alma",
+"Waycrest Manor",
+},
+[214264] = {
+"Cursedforge Honor Guard",
 "The Stonevault",
 "enUS",
 },
@@ -13005,313 +12740,1367 @@ true,
 "Zolramus Sorcerer",
 "The Necrotic Wake",
 },
-[52581] = {
-"Пеплопряд-трутень",
-"Огненные Просторы",
-},
-[170572] = {
-"Atal'ai Hoodoo Hexxer",
-"De Other Side",
-},
-[138187] = {
-"Grotesque Horror",
-"The Underrot",
-},
-[131821] = {
-"Faceless Maiden",
-"Waycrest Manor",
-},
-[240323] = {
-"Crimson Globule",
-"Halls of Origination",
-"enUS",
-},
-[34467] = {
-"Алисса Лунопард",
-"Испытание крестоносца",
-},
-[16406] = {
-"Phantom Attendant",
-"Karazhan",
-},
-[214348] = {
-"Undersea Abomination",
-"Tak-Rethan Abyss",
-},
-[223776] = {
-"Blazing Fiend",
-"Darkflame Cleft",
-},
-[104300] = {
-"Shadow Mistress",
-"Court of Stars",
-},
-[83892] = {
-"Life Warden Gola",
-"The Everbloom",
-},
-[138465] = {
-"Ashvane Cannoneer",
-"Siege of Boralus",
-"enUS",
-},
-[54203] = {
-"Порождение Всепожирающего Пламени",
-"Огненные Просторы",
-},
-[186116] = {
-"Gutshot",
-"Brackenhide Hollow",
-},
-[223994] = {
-"Nightfall Shadowmage",
-"The Dawnbreaker",
-"enUS",
-},
-[205151] = {
-"Tyr's Vanguard",
-"Dawn of the Infinite",
-},
-[16486] = {
-"Web Wrap",
-"Naxxramas",
-},
-[138338] = {
-"Reanimated Guardian",
-"The Underrot",
-},
-[34473] = {
-"Бриенна Приход Ночи",
-"Испытание крестоносца",
-},
-[100532] = {
-"Bloodtainted Burster",
-"Darkheart Thicket",
-},
-[212786] = {
-"Voidrider",
-"The Rookery",
-},
-[59552] = {
-"The Crybaby Hozen",
-"Temple of the Jade Serpent",
-"enUS",
-},
-[189247] = {
-"Tamed Phoenix",
-"Neltharus",
-},
-[214350] = {
-"Turned Speaker",
-"The Stonevault",
-"enUS",
-},
-[205727] = {
-"Time-Lost Rocketeer",
-"Dawn of the Infinite",
-},
-[100485] = {
-"Soul-torn Vanguard",
-"Black Rook Hold",
-},
-[83893] = {
-"Earthshaper Telu",
-"The Everbloom",
-},
-[221760] = {
-"Risen Mage",
-"Priory of the Sacred Flame",
-},
-[191164] = {
-"Arcane Tender",
-"The Azure Vault",
-},
-[191739] = {
-"Scalebane Lieutenant",
-"The Azure Vault",
-},
-[130011] = {
-"Irontide Buccaneer",
-"Freehold",
-},
-[186246] = {
-"Fleshripper Vulture",
-"Brackenhide Hollow",
-},
-[42362] = {
-"Drakonid Drudge",
-"Blackwing Descent",
-"enUS",
-},
-[208438] = {
-"Infinite Saboteur",
-"Dawn of the Infinite",
-},
-[210966] = {
-"Sureki Webmage",
-"The Dawnbreaker",
-"enUS",
-},
-[207453] = {
-"Fungal Rotspreader",
-"Mycomancer Cavern",
-},
-[98521] = {
-"Lord Etheldrin Ravencrest",
-"Black Rook Hold",
-},
-[190207] = {
-"Primalist Cinderweaver",
-"Ruby Life Pools",
-},
-[199749] = {
-"Timestream Anomaly",
-"Dawn of the Infinite",
-},
-[210264] = {
-"Bee Wrangler",
-"Cinderbrew Meadery",
-},
-[104270] = {
-"Guardian Construct",
-"Court of Stars",
-},
-[163891] = {
-"Rotmarrow Slime",
-"Plaguefall",
-},
-[168578] = {
-"Fungalmancer",
-"Plaguefall",
-},
-[133870] = {
-"Diseased Lasher",
-"The Underrot",
-},
-[162039] = {
-"Wicked Oppressor",
-"Sanguine Depths",
-},
-[223423] = {
-"Careless Hopgoblin",
-"Cinderbrew Meadery",
-},
-[49740] = {
-"Obnoxious Fiend",
-"Blackwing Descent",
-"enUS",
-},
-[207199] = {
-"Cursed Rooktender",
-"The Rookery",
-},
-[165872] = {
-"Flesh Crafter",
-"The Necrotic Wake",
-"enUS",
-},
 [193293] = {
 "Qalashi Warden",
 "Neltharus",
 },
-[31228] = {
-"Grove Walker",
-"Northrend",
+[210812] = {
+"Royal Wicklighter",
+"Darkflame Cleft",
 },
-[162057] = {
-"Chamber Sentinel",
-"Sanguine Depths",
+[163882] = {
+"Decaying Flesh Giant",
+"Plaguefall",
+},
+[56923] = {
+"Twilight Sapper",
+"Dragon Soul",
+"enUS",
+},
+[194317] = {
+"Stormcaller Boroo",
+"The Nokhud Offensive",
+},
+[169893] = {
+"Nefarious Darkspeaker",
+"Theater of Pain",
+},
+[224240] = {
+"Twilight Flamerender",
+"Grim Batol",
+"enUS",
+},
+[56188] = {
+"Blistering Tentacle",
+"Dragon Soul",
+"enUS",
+},
+[201223] = {
+"Infinite Twilight Magus",
+"Dawn of the Infinite",
+},
+[135240] = {
+"Soul Essence",
+"UNKNOWN",
+},
+[217208] = {
+"Zekvir",
+"Mycomancer Cavern",
 },
 [59545] = {
 "The Golden Beetle",
 "Temple of the Jade Serpent",
 "enUS",
 },
+[135241] = {
+"Bilge Rat Pillager",
+"Siege of Boralus",
+"enUS",
+},
+[56700] = {
+"Bound Lightning Elemental",
+"Dragon Soul",
+"enUS",
+},
+[53695] = {
+"Косоморд",
+"Огненные Просторы",
+},
+[133835] = {
+"Feral Bloodswarmer",
+"The Underrot",
+},
+[222964] = {
+"Flavor Scientist",
+"Cinderbrew Meadery",
+},
+[100485] = {
+"Soul-torn Vanguard",
+"Black Rook Hold",
+},
+[163503] = {
+"Etherdiver",
+"Spires of Ascension",
+},
+[187160] = {
+"Crystal Fury",
+"The Azure Vault",
+},
+[187033] = {
+"Stinkbreath",
+"Brackenhide Hollow",
+},
+[55294] = {
+"Ultraxion",
+"Dragon Soul",
+"enUS",
+},
+[210818] = {
+"Lowly Moleherd",
+"Darkflame Cleft",
+},
+[192788] = {
+"Qalashi Thaumaturge",
+"Neltharus",
+},
+[59546] = {
+"The Talking Fish",
+"Temple of the Jade Serpent",
+"enUS",
+},
+[102788] = {
+"Felspite Dominator",
+"Black Rook Hold",
+},
+[189464] = {
+"Qalashi Irontorch",
+"Neltharus",
+},
+[76446] = {
+"Shadowmoon Dominator",
+"Shadowmoon Burial Grounds",
+},
+[192789] = {
+"Nokhud Longbow",
+"The Nokhud Offensive",
+},
+[138187] = {
+"Grotesque Horror",
+"The Underrot",
+},
+[45672] = {
+"Naz'jar Soldier",
+"Throne of the Tides",
+"enUS",
+},
+[197905] = {
+"Spellbound Scepter",
+"Algeth'ar Academy",
+},
+[131666] = {
+"Coven Thornshaper",
+"Waycrest Manor",
+},
+[44841] = {
+"Blight Beast",
+"Throne of the Tides",
+"enUS",
+},
+[163891] = {
+"Rotmarrow Slime",
+"Plaguefall",
+},
+[45928] = {
+"Executor of the Caliph",
+"The Vortex Pinnacle",
+},
+[53121] = {
+"Клеймящий поджигатель",
+"Огненные Просторы",
+},
+[31228] = {
+"Grove Walker",
+"Northrend",
+},
+[190362] = {
+"Dazzling Dragonfly",
+"Halls of Infusion",
+},
+[224249] = {
+"Twilight Lavabender",
+"Grim Batol",
+"enUS",
+},
+[223994] = {
+"Nightfall Shadowmage",
+"The Dawnbreaker",
+"enUS",
+},
+[213892] = {
+"Nightfall Shadowmage",
+"The Dawnbreaker",
+"enUS",
+},
+[220158] = {
+"Under-Lord Vik'tis",
+"The Dread Pit",
+},
 [163126] = {
 "Brittlebone Mage",
 "The Necrotic Wake",
 "enUS",
 },
-[53896] = {
-"Новообращенный друид-огнеястреб",
-"Огненные Просторы",
-},
-[53369] = {
-"Новообращенный друид-огнеястреб",
-"Огненные Просторы",
-},
-[190401] = {
-"Gusting Proto-Dragon",
-"Halls of Infusion",
+[193944] = {
+"Qalashi Lavamancer",
+"Neltharus",
 },
 [81819] = {
 "Everbloom Naturalist",
 "The Everbloom",
 },
-[129374] = {
-"Scrimshaw Enforcer",
-"Siege of Boralus",
+[213893] = {
+"Nightfall Darkcaster",
+"The Dawnbreaker",
 "enUS",
 },
-[207456] = {
-"Fungal Speartender",
-"Mycomancer Cavern",
-},
-[98370] = {
-"Ghostly Councilor",
-"Black Rook Hold",
-},
-[195265] = {
-"Stormcaller Arynga",
-"The Nokhud Offensive",
-},
-[220423] = {
-"Retired Lord Vul'azak",
-"City of Threads",
+[44650] = {
+"Storm Rider",
+"The Bastion of Twilight",
 "enUS",
 },
-[211289] = {
-"Taener Duelmal",
-"Priory of the Sacred Flame",
+[53889] = {
+"Corrupted Blood",
+"Dragon Soul",
+"enUS",
 },
-[190348] = {
-"Primalist Ravager",
-"Halls of Infusion",
-},
-[207202] = {
-"Void Fragment",
-"The Rookery",
-},
-[211228] = {
-"Blazing Fiend",
-"Darkflame Cleft",
-},
-[45477] = {
-"Gust Soldier",
-"The Vortex Pinnacle",
-},
-[184023] = {
-"Vicious Basilisk",
-"Uldaman: Legacy of Tyr",
+[189470] = {
+"Lava Flare",
+"Neltharus",
 },
 [163128] = {
 "Zolramus Sorcerer",
 "The Necrotic Wake",
 "enUS",
 },
-[16407] = {
-"Spectral Servant",
+[168627] = {
+"Plaguebinder",
+"Plaguefall",
+},
+[186658] = {
+"Stonevault Geomancer",
+"Uldaman: Legacy of Tyr",
+},
+[206351] = {
+"Alliance Conjuror",
+"Dawn of the Infinite",
+},
+[56575] = {
+"Burning Tendons",
+"Dragon Soul",
+"enUS",
+},
+[164920] = {
+"Drust Soulcleaver",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[216326] = {
+"Ascended Neophyte",
+"City of Threads",
+"enUS",
+},
+[131545] = {
+"Lady Waycrest",
+"Waycrest Manor",
+},
+[190368] = {
+"Flamecaller Aymi",
+"Halls of Infusion",
+},
+[164921] = {
+"Drust Harvester",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[53890] = {
+"Hideous Amalgamation",
+"Dragon Soul",
+"enUS",
+},
+[44715] = {
+"Vicious Mindlasher",
+"Throne of the Tides",
+"enUS",
+},
+[188067] = {
+"Flashfrost Chillweaver",
+"Ruby Life Pools",
+},
+[168886] = {
+"Virulax Blightweaver",
+"Plaguefall",
+},
+[45930] = {
+"Minister of Air",
+"The Vortex Pinnacle",
+},
+[211341] = {
+"Manifested Shadow",
+"The Dawnbreaker",
+"enUS",
+},
+[40943] = {
+"Gilgoblin Aquamage",
+"Throne of the Tides",
+"enUS",
+},
+[192800] = {
+"Nokhud Lancemaster",
+"The Nokhud Offensive",
+},
+[34134] = {
+"Winter Revenant",
+"Ulduar",
+},
+[211087] = {
+"Speaker Shadowcrown",
+"The Dawnbreaker",
+"enUS",
+},
+[34198] = {
+"Iron Mender",
+"Ulduar",
+},
+[57823] = {
+"Stormbinder Adept",
+"Dragon Soul",
+"enUS",
+},
+[44652] = {
+"Slate Dragon",
+"The Bastion of Twilight",
+"enUS",
+},
+[220423] = {
+"Retired Lord Vul'azak",
+"City of Threads",
+"enUS",
+},
+[164414] = {
+"Reanimated Mage",
+"The Necrotic Wake",
+"enUS",
+},
+[128434] = {
+"Feasting Skyscreamer",
+"Atal'Dazar",
+},
+[190373] = {
+"Primalist Galesinger",
+"Halls of Infusion",
+},
+[211089] = {
+"Anub'ikkaj",
+"The Dawnbreaker",
+"enUS",
+},
+[113537] = {
+"Emberhusk Dominator",
+"Neltharion's Lair",
+},
+[84957] = {
+"Putrid Pyromancer",
+"The Everbloom",
+},
+[197535] = {
+"High Channeler Ryvati",
+"Ruby Life Pools",
+},
+[198047] = {
+"Tempest Channeler",
+"Ruby Life Pools",
+},
+[49416] = {
+"Blazing Bone Construct",
+"Blackwing Descent",
+"enUS",
+},
+[52581] = {
+"Пеплопряд-трутень",
+"Огненные Просторы",
+},
+[205337] = {
+"Infinite Timebender",
+"Dawn of the Infinite",
+},
+[165824] = {
+"Nar'zudah",
+"The Necrotic Wake",
+"enUS",
+},
+[164929] = {
+"Tirnenn Villager",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[57962] = {
+"Deathwing",
+"Dragon Soul",
+"enUS",
+},
+[57160] = {
+"Ancient Water Lord",
+"Dragon Soul",
+"enUS",
+},
+[55863] = {
+"Shadowed Globule",
+"Dragon Soul",
+"enUS",
+},
+[214673] = {
+"Flavor Scientist",
+"Cinderbrew Meadery",
+},
+[160495] = {
+"Maniacal Soulbinder",
+"Theater of Pain",
+},
+[190377] = {
+"Primalist Icecaller",
+"Halls of Infusion",
+},
+[57746] = {
+"Faceless Destroyer",
+"Dragon Soul",
+"enUS",
+},
+[56162] = {
+"Corruption",
+"Dragon Soul",
+"enUS",
+},
+[195876] = {
+"Desecrated Ohuna",
+"The Nokhud Offensive",
+},
+[211290] = {
+"Elaena Emberlanz",
+"Priory of the Sacred Flame",
+},
+[81820] = {
+"Everbloom Mender",
+"The Everbloom",
+},
+[190403] = {
+"Glacial Proto-Dragon",
+"Halls of Infusion",
+},
+[40765] = {
+"Commander Ulthok",
+"Throne of the Tides",
+"enUS",
+},
+[40577] = {
+"Naz'jar Sentinel",
+"Throne of the Tides",
+"enUS",
+},
+[210966] = {
+"Sureki Webmage",
+"The Dawnbreaker",
+"enUS",
+},
+[40579] = {
+"Deep Murloc Hunter",
+"Throne of the Tides",
+"enUS",
+},
+[195877] = {
+"Risen Mystic",
+"The Nokhud Offensive",
+},
+[190405] = {
+"Infuser Sariya",
+"Halls of Infusion",
+},
+[41440] = {
+"Aberration",
+"Blackwing Descent",
+"enUS",
+},
+[131812] = {
+"Heartsbane Soulcharmer",
+"Waycrest Manor",
+},
+[172265] = {
+"Remnant of Fury",
+"Sanguine Depths",
+},
+[164804] = {
+"Droman Oulfarran",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[5925] = {
+"Тотем заземления",
+"Испытание крестоносца",
+},
+[195878] = {
+"Ukhel Beastcaller",
+"The Nokhud Offensive",
+},
+[216338] = {
+"Hulking Bloodguard",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[213338] = {
+"Forgebound Mender",
+"The Stonevault",
+"enUS",
+},
+[131685] = {
+"Runic Disciple",
+"Waycrest Manor",
+},
+[102287] = {
+"Emberhusk Dominator",
+"Neltharion's Lair",
+},
+[207198] = {
+"Cursed Thunderer",
+"The Rookery",
+},
+[44600] = {
+"Halfus Wyrmbreaker",
+"The Bastion of Twilight",
+"enUS",
+},
+[45620] = {
+"Naz'jar Soldier",
+"Throne of the Tides",
+"enUS",
+},
+[57388] = {
+"Shadowed Globule",
+"Dragon Soul",
+"enUS",
+},
+[216339] = {
+"Sureki Unnaturaler",
+"City of Threads",
+"enUS",
+},
+[214421] = {
+"Corrupted Thunderer",
+"The Rookery",
+},
+[56854] = {
+"Twilight Elite Dreadblade",
+"Dragon Soul",
+"enUS",
+},
+[220815] = {
+"Blazing Fiend",
+"Darkflame Cleft",
+},
+[57159] = {
+"Earthen Soldier",
+"Dragon Soul",
+"enUS",
+},
+[95766] = {
+"Crazed Razorbeak",
+"Darkheart Thicket",
+},
+[133836] = {
+"Reanimated Guardian",
+"The Underrot",
+},
+[41841] = {
+"Prime Subject",
+"Blackwing Descent",
+"enUS",
+},
+[56251] = {
+"Twilight Assaulter",
+"Dragon Soul",
+"enUS",
+},
+[55265] = {
+"Morchok",
+"Dragon Soul",
+"enUS",
+},
+[104270] = {
+"Guardian Construct",
+"Court of Stars",
+},
+[113998] = {
+"Mightstone Breaker",
+"Neltharion's Lair",
+},
+[207969] = {
+"Horde Raider",
+"Dawn of the Infinite",
+},
+[205727] = {
+"Time-Lost Rocketeer",
+"Dawn of the Infinite",
+},
+[199717] = {
+"Nokhud Defender",
+"The Nokhud Offensive",
+},
+[138465] = {
+"Ashvane Cannoneer",
+"Siege of Boralus",
+"enUS",
+},
+[75979] = {
+"Exhumed Spirit",
+"Shadowmoon Burial Grounds",
+},
+[59552] = {
+"The Crybaby Hozen",
+"Temple of the Jade Serpent",
+"enUS",
+},
+[167493] = {
+"Venomous Sniper",
+"Plaguefall",
+},
+[170690] = {
+"Diseased Horror",
+"Theater of Pain",
+},
+[196115] = {
+"Arcane Tender",
+"The Azure Vault",
+},
+[16408] = {
+"Phantom Valet",
 "Karazhan",
 },
-[206698] = {
-"Fanatical Mage",
+[138338] = {
+"Reanimated Guardian",
+"The Underrot",
+},
+[55418] = {
+"Claw of Go'rath",
+"Dragon Soul",
+"enUS",
+},
+[216342] = {
+"Skittering Assistant",
+"City of Threads",
+"enUS",
+},
+[187155] = {
+"Rune Seal Keeper",
+"The Azure Vault",
+},
+[207468] = {
+"Gnarled Reviver",
+"Mycomancer Cavern",
+},
+[131817] = {
+"Cragmaw the Infested",
+"The Underrot",
+},
+[213913] = {
+"Kobold Flametender",
+"Darkflame Cleft",
+},
+[57890] = {
+"Claw of Go'rath",
+"Dragon Soul",
+"enUS",
+},
+[186420] = {
+"Earthen Weaver",
+"Uldaman: Legacy of Tyr",
+},
+[167111] = {
+"Spinemaw Staghorn",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[211228] = {
+"Blazing Fiend",
+"Darkflame Cleft",
+},
+[205151] = {
+"Tyr's Vanguard",
+"Dawn of the Infinite",
+},
+[206064] = {
+"Coalesced Moment",
+"Dawn of the Infinite",
+},
+[75459] = {
+"Plagued Bat",
+"Shadowmoon Burial Grounds",
+},
+[195927] = {
+"Soulharvester Galtmaa",
+"The Nokhud Offensive",
+},
+[16021] = {
+"Living Monstrosity",
+"Naxxramas",
+},
+[197697] = {
+"Flamegullet",
+"Ruby Life Pools",
+},
+[224271] = {
+"Twilight Warlock",
+"Grim Batol",
+"enUS",
+},
+[42897] = {
+"Poison Bomb",
+"Blackwing Descent",
+"enUS",
+},
+[189266] = {
+"Qalashi Trainee",
+"Neltharus",
+},
+[212453] = {
+"Ghastly Voidsoul",
+"The Stonevault",
+"enUS",
+},
+[131819] = {
+"Coven Diviner",
+"Waycrest Manor",
+},
+[189235] = {
+"Overseer Lahar",
+"Neltharus",
+},
+[191847] = {
+"Nokhud Plainstomper",
+"The Nokhud Offensive",
+},
+[192333] = {
+"Alpha Eagle",
+"Algeth'ar Academy",
+},
+[167876] = {
+"Inquisitor Sigar",
+"Halls of Atonement",
+},
+[131436] = {
+"Chosen Blood Matron",
+"The Underrot",
+},
+[32955] = {
+"Вспыхивающая звезда",
+"Ульдуар",
+},
+[137830] = {
+"Pallid Gorger",
+"Waycrest Manor",
+},
+[96664] = {
+"Valarjar Runecarver",
+"Halls of Valor",
+},
+[168318] = {
+"Forsworn Goliath",
+"Spires of Ascension",
+},
+[95769] = {
+"Mindshattered Screecher",
+"Darkheart Thicket",
+},
+[189247] = {
+"Tamed Phoenix",
+"Neltharus",
+},
+[185528] = {
+"Trickclaw Mystic",
+"Brackenhide Hollow",
+},
+[185656] = {
+"Filth Caller",
+"Brackenhide Hollow",
+},
+[128455] = {
+"T'lonja",
+"Atal'Dazar",
+},
+[102232] = {
+"Rockbound Trapper",
+"Neltharion's Lair",
+},
+[131821] = {
+"Faceless Maiden",
+"Waycrest Manor",
+},
+[57751] = {
+"Ruin Tentacle",
+"Dragon Soul",
+"enUS",
+},
+[193457] = {
+"Balara",
+"The Nokhud Offensive",
+},
+[195696] = {
+"Primalist Thunderbeast",
+"The Nokhud Offensive",
+},
+[185529] = {
+"Bracken Warscourge",
+"Brackenhide Hollow",
+},
+[43873] = {
+"Altairus",
+"The Vortex Pinnacle",
+},
+[123227] = {
+"Keystone Vendor",
+"Kalimdor",
+},
+[44752] = {
+"Faceless Sapper",
+"Throne of the Tides",
+"enUS",
+},
+[207940] = {
+"Prioress Murrpray",
 "Priory of the Sacred Flame",
+},
+[95834] = {
+"Valarjar Mystic",
+"Halls of Valor",
+},
+[42802] = {
+"Drakonid Slayer",
+"Blackwing Descent",
+"enUS",
+},
+[223253] = {
+"Bloodstained Webmage",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[45935] = {
+"Temple Adept",
+"The Vortex Pinnacle",
+},
+[144071] = {
+"Irontide Waveshaper",
+"Siege of Boralus",
+"enUS",
+},
+[42179] = {
+"Electron",
+"Blackwing Descent",
+"enUS",
+},
+[168418] = {
+"Forsworn Inquisitor",
+"Spires of Ascension",
+},
+[166275] = {
+"Mistveil Shaper",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[34496] = {
+"Эйдис Погибель Тьмы",
+"Испытание крестоносца",
+},
+[55334] = {
+"Void of the Unmaking",
+"Dragon Soul",
+"enUS",
+},
+[194894] = {
+"Primalist Stormspeaker",
+"The Nokhud Offensive",
+},
+[196044] = {
+"Unruly Textbook",
+"Algeth'ar Academy",
+},
+[208165] = {
+"Alliance Knight",
+"Dawn of the Infinite",
+},
+[98370] = {
+"Ghostly Councilor",
+"Black Rook Hold",
+},
+[189340] = {
+"Chargath, Bane of Scales",
+"Neltharus",
+},
+[133870] = {
+"Diseased Lasher",
+"The Underrot",
+},
+[98792] = {
+"Wyrmtongue Scavenger",
+"Black Rook Hold",
+},
+[95771] = {
+"Dreadsoul Ruiner",
+"Darkheart Thicket",
+},
+[129788] = {
+"Irontide Bonesaw",
+"Freehold",
+},
+[220314] = {
+"Bogpiper",
+"Mycomancer Cavern",
+},
+[194895] = {
+"Unstable Squall",
+"The Nokhud Offensive",
+},
+[213934] = {
+"Nightfall Tactician",
+"The Dawnbreaker",
+"enUS",
+},
+[216293] = {
+"Trilling Attendant",
+"Ara-Kara, City of Echoes",
+"enUS",
+},
+[190381] = {
+"Rotburst Totem",
+"Brackenhide Hollow",
+},
+[53231] = {
+"Лавовый отпрыск",
+"Огненные Просторы",
+},
+[47238] = {
+"Whipping Wind",
+"The Vortex Pinnacle",
+},
+[49740] = {
+"Obnoxious Fiend",
+"Blackwing Descent",
+"enUS",
+},
+[27971] = {
+"Unrelenting Construct",
+"Halls of Stone",
+},
+[53896] = {
+"Новообращенный друид-огнеястреб",
+"Огненные Просторы",
+},
+[41139] = {
+"Naz'jar Spiritmender",
+"Throne of the Tides",
+"enUS",
+},
+[170572] = {
+"Atal'ai Hoodoo Hexxer",
+"De Other Side",
+},
+[212389] = {
+"Cursedheart Invader",
+"The Stonevault",
+"enUS",
+},
+[199368] = {
+"Hardened Crystal",
+"The Azure Vault",
+},
+[193462] = {
+"Batak",
+"The Nokhud Offensive",
+},
+[104278] = {
+"Felbound Enforcer",
+"Court of Stars",
+},
+[129367] = {
+"Bilge Rat Tempest",
+"Siege of Boralus",
+"enUS",
+},
+[136549] = {
+"Ashvane Cannoneer",
+"Siege of Boralus",
+"enUS",
+},
+[49811] = {
+"Vile Swill",
+"Blackwing Descent",
+"enUS",
+},
+[56262] = {
+"Elementium Bolt",
+"Dragon Soul",
+"enUS",
+},
+[194316] = {
+"Stormcaller Zarii",
+"The Nokhud Offensive",
+},
+[221979] = {
+"Void Bound Howler",
+"The Stonevault",
+"enUS",
+},
+[47151] = {
+"Wind Breaker",
+"The Bastion of Twilight",
+"enUS",
+},
+[84990] = {
+"Addled Arcanomancer",
+"The Everbloom",
+},
+[31229] = {
+"Ancient Watcher",
+"Northrend",
+},
+[163157] = {
+"Amarth",
+"The Necrotic Wake",
+"enUS",
+},
+[59555] = {
+"Haunting Sha",
+"Temple of the Jade Serpent",
+"enUS",
+},
+[213942] = {
+"Sludge",
+"Throne of the Tides",
+},
+[98521] = {
+"Lord Etheldrin Ravencrest",
+"Black Rook Hold",
+},
+[164552] = {
+"Rotmarrow Slime",
+"Plaguefall",
+},
+[208698] = {
+"Infinite Riftmage",
+"Dawn of the Infinite",
+},
+[212403] = {
+"Cursedheart Invader",
+"The Stonevault",
+"enUS",
+},
+[165076] = {
+"Gluttonous Tick",
+"Sanguine Depths",
+},
+[56710] = {
+"Elementium Terror",
+"Dragon Soul",
+"enUS",
+},
+[204206] = {
+"Horde Farseer",
+"Dawn of the Infinite",
+},
+[214066] = {
+"Cursedforge Stoneshaper",
+"The Stonevault",
+"enUS",
+},
+[190294] = {
+"Nokhud Stormcaster",
+"The Nokhud Offensive",
+},
+[184130] = {
+"Earthen Custodian",
+"Uldaman: Legacy of Tyr",
+},
+[91001] = {
+"Tarspitter Lurker",
+"Neltharion's Lair",
+},
+[40167] = {
+"Twilight Beguiler",
+"Grim Batol",
+"enUS",
+},
+[44658] = {
+"Deep Murloc Invader",
+"Throne of the Tides",
+"enUS",
+},
+[163458] = {
+"Forsworn Castigator",
+"Spires of Ascension",
+},
+[16507] = {
+"Shattered Hand Sentry",
+"Hellfire Citadel: The Shattered Halls",
+},
+[101991] = {
+"Nightmare Dweller",
+"Darkheart Thicket",
+},
+[191164] = {
+"Arcane Tender",
+"The Azure Vault",
+},
+[212775] = {
+"Faceless Seer",
+"Throne of the Tides",
+},
+[133685] = {
+"Befouled Spirit",
+"The Underrot",
+},
+[57158] = {
+"Earthen Destroyer",
+"Dragon Soul",
+"enUS",
+},
+[56167] = {
+"Arm Tentacle",
+"Dragon Soul",
+"enUS",
+},
+[240325] = {
+"Shadowed Globule",
+"The Stonecore",
+"enUS",
+},
+[56231] = {
+"Mana Void",
+"Dragon Soul",
+"enUS",
+},
+[56263] = {
+"Regenerative Blood",
+"Dragon Soul",
+"enUS",
+},
+[164567] = {
+"Ingra Maloch",
+"Mists of Tirna Scithe",
+"enUS",
+},
+[184132] = {
+"Earthen Warder",
+"Uldaman: Legacy of Tyr",
+},
+[57382] = {
+"Dark Globule",
+"Dragon Soul",
+"enUS",
+},
+[105704] = {
+"Arcane Manifestation",
+"Court of Stars",
+},
+[190407] = {
+"Aqua Rager",
+"Halls of Infusion",
+},
+[37695] = {
+"Вурдалак-приспешник",
+"Цитадель Ледяной Короны",
+},
+[165919] = {
+"Skeletal Marauder",
+"The Necrotic Wake",
+"enUS",
+},
+[95842] = {
+"Valarjar Thundercaller",
+"Halls of Valor",
+},
+[98706] = {
+"Commander Shemdah'sohn",
+"Black Rook Hold",
+},
+[197985] = {
+"Flame Channeler",
+"Ruby Life Pools",
+},
+[53745] = {
+"Насосавшийся крови паучонок",
+"Огненные Просторы",
+},
+[53891] = {
+"Corruption",
+"Dragon Soul",
+"enUS",
+},
+[207459] = {
+"Fungal Rotcaster",
+"Mycomancer Cavern",
+},
+[225982] = {
+"Cleave T.D.",
+"Khaz Algar (Surface)",
+},
+[57807] = {
+"Twilight Frost Evoker",
+"Dragon Soul",
+"enUS",
+},
+[57798] = {
+"Congealing Blood",
+"Dragon Soul",
+"enUS",
+},
+[120651] = {
+"Explosives",
+"Court of Stars",
+},
+[17694] = {
+"Shadowmoon Darkcaster",
+"Hellfire Citadel: The Shattered Halls",
+},
+[56249] = {
+"Twilight Assaulter",
+"Dragon Soul",
+"enUS",
+},
+[220195] = {
+"Sureki Silkbinder",
+"City of Threads",
+"enUS",
+},
+[57875] = {
+"Eye of Go'rath",
+"Dragon Soul",
+"enUS",
+},
+[34461] = {
+"Тирий Клинок Сумерек",
+"Испытание крестоносца",
+},
+[55416] = {
+"Eye of Go'rath",
+"Dragon Soul",
+"enUS",
+},
+[223776] = {
+"Blazing Fiend",
+"Darkflame Cleft",
+},
+[57819] = {
+"Corrupted Fragment",
+"Dragon Soul",
+"enUS",
+},
+[57821] = {
+"Lieutenant Shara",
+"Dragon Soul",
+"enUS",
+},
+[190401] = {
+"Gusting Proto-Dragon",
+"Halls of Infusion",
+},
+[220196] = {
+"Herald of Ansurek",
+"City of Threads",
+"enUS",
+},
+[56168] = {
+"Wing Tentacle",
+"Dragon Soul",
+"enUS",
+},
+[56781] = {
+"Goriona",
+"Dragon Soul",
+"enUS",
+},
+[56855] = {
+"Twilight Assault Drake",
+"Dragon Soul",
+"enUS",
+},
+[205363] = {
+"Time-Lost Waveshaper",
+"Dawn of the Infinite",
+},
+[56587] = {
+"Twilight Assault Drake",
+"Dragon Soul",
+"enUS",
+},
+[39960] = {
+"Deep Murloc Drudge",
+"Throne of the Tides",
+"enUS",
+},
+[56161] = {
+"Corruption",
+"Dragon Soul",
+"enUS",
+},
+[220197] = {
+"Royal Swarmguard",
+"City of Threads",
+"enUS",
+},
+[135474] = {
+"Thistle Acolyte",
+"Waycrest Manor",
+},
+[57479] = {
+"Corrupting Parasite",
+"Dragon Soul",
+"enUS",
+},
+[42166] = {
+"Arcanotron",
+"Blackwing Descent",
+"enUS",
+},
+[126919] = {
+"Irontide Stormcaller",
+"Freehold",
+},
+[174802] = {
+"Venomous Sniper",
+"Plaguefall",
+},
+[196045] = {
+"Corrupted Manafiend",
+"Algeth'ar Academy",
+},
+[213932] = {
+"Sureki Militant",
+"The Dawnbreaker",
+"enUS",
+},
+[129600] = {
+"Bilge Rat Brinescale",
+"Freehold",
+},
+[44404] = {
+"Naz'jar Tempest Witch",
+"Throne of the Tides",
+"enUS",
+},
+[55689] = {
+"Hagara the Stormbinder",
+"Dragon Soul",
+"enUS",
+},
+[40935] = {
+"Gilgoblin Hunter",
+"Throne of the Tides",
+"enUS",
+},
+[40925] = {
+"Tainted Sentry",
+"Throne of the Tides",
+"enUS",
+},
+[44648] = {
+"Unyielding Behemoth",
+"Throne of the Tides",
+"enUS",
+},
+[130011] = {
+"Irontide Buccaneer",
+"Freehold",
 },
 },
 ["indicator_anchor"] = {
 ["x"] = -5,
 },
-["health_selection_overlay_alpha"] = 1,
 ["aura_stack_shadow_color"] = {
 nil,
 nil,
@@ -13325,6 +14114,7 @@ nil,
 ["plater_resources_align"] = "horizontal",
 ["aura_height2"] = 30,
 ["aura_show_crowdcontrol"] = true,
+["extra_icon_timer_outline"] = "OUTLINE",
 ["class_colors"] = {
 ["DEATHKNIGHT"] = {
 ["colorStr"] = "ffc31d3a",
@@ -13364,7 +14154,7 @@ nil,
 ["y"] = 2,
 ["side"] = 1,
 },
-["aura_alpha"] = 0.8499999642372131,
+["cast_statusbar_texture"] = "Merfin Main Texture",
 ["auto_toggle_friendly"] = {
 ["cities"] = false,
 ["world"] = false,
@@ -13448,7 +14238,7 @@ nil,
 ["nameplateShowDebuffsOnFriendly"] = "0",
 ["nameplateLargerScale"] = "1.1",
 },
-["login_counter"] = 4193,
+["login_counter"] = 4244,
 ["click_space_friendly"] = {
 128,
 1,
@@ -13740,6 +14530,12 @@ nil,
 },
 },
 ["indicator_scale"] = 2,
+["border_color"] = {
+nil,
+nil,
+nil,
+0.6500000059604645,
+},
 ["castbar_icon_size"] = "same as castbar plus healthbar",
 ["npc_colors"] = {
 [211290] = {
@@ -17617,6 +18413,7 @@ false,
 },
 },
 ["auras_per_row_auto"] = false,
+["aura_alpha"] = 0.8499999642372131,
 ["extra_icon_caster_outline"] = "OUTLINE",
 ["auras_per_row_amount2"] = 2,
 ["disable_omnicc_on_auras"] = true,
@@ -17718,7 +18515,7 @@ nil,
 ["x"] = 0,
 ["side"] = 8,
 },
-["ui_parent_target_strata"] = "MEDIUM",
+["plater_resources_personal_bar"] = false,
 ["hover_highlight_alpha"] = 0.1499999910593033,
 ["indicator_raidmark_scale"] = 1.480000019073486,
 ["blizzard_nameplate_font_size"] = 20,
@@ -17726,24 +18523,17 @@ nil,
 ["focus_texture"] = "Merfin Main Texture",
 ["patch_version"] = 39,
 ["range_check_in_range_or_target_alpha"] = 1,
-["border_color"] = {
-nil,
-nil,
-nil,
-0.6500000059604645,
-},
+["aura_grow_direction"] = 1,
 ["number_region_first_run"] = true,
+["health_selection_overlay_alpha"] = 1,
 ["bossmod_cooldown_text_size"] = 15,
 ["cast_statusbar_fadeout_time"] = 0.4999999701976776,
 ["plater_resources_scale"] = 0.8,
-["extra_icon_timer_outline"] = "OUTLINE",
+["pet_width_scale"] = 0.949999988079071,
 ["castbar_target_anchor"] = {
 ["x"] = -2.5,
 ["side"] = 11,
 },
-["plater_resources_show"] = false,
-["castbar_target_font"] = "Merfin Font 1",
-["pet_width_scale"] = 0.949999988079071,
 ["script_auto_imported"] = {
 ["Cast - Important by Color [P]"] = 2,
 ["Relics 9.2 M Dungeons"] = 2,
@@ -17799,6 +18589,7 @@ nil,
 ["Cast - Tank Interrupt"] = 12,
 ["Fixate On You"] = 12,
 },
+["castbar_target_font"] = "Merfin Font 1",
 ["dps"] = {
 ["colors"] = {
 ["aggro"] = {
@@ -17808,11 +18599,10 @@ nil,
 },
 },
 },
-["cast_statusbar_texture"] = "Merfin Main Texture",
-["aura_grow_direction"] = 1,
+["plater_resources_show"] = false,
 ["indicator_rare"] = false,
 ["range_check_alpha_friendlies"] = 0.6499999761581421,
-["plater_resources_personal_bar"] = false,
+["ui_parent_target_strata"] = "MEDIUM",
 },
 },
 }
@@ -17822,25 +18612,25 @@ PlaterLanguage = {
 }
 PlaterLogs = {
 ["_general_logs"] = {
-"2025-07-03 00:46:31 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-03 00:37:33 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-03 00:14:14 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-02 23:49:47 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-02 23:42:29 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-02 23:40:56 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Endonuclease",
-"2025-07-02 23:40:25 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Endonuclease",
-"2025-07-02 23:40:07 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Endonuclease",
-"2025-07-02 23:39:50 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:38:49 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:38:12 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:35:35 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:35:11 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:34:29 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:34:03 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
-"2025-07-02 23:28:10 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-02 23:23:56 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
-"2025-07-02 23:22:57 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalock",
-"2025-07-02 23:22:28 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalock",
+"2025-07-06 23:56:54 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalock",
+"2025-07-06 23:56:31 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalock",
+"2025-07-06 23:46:43 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
+"2025-07-06 23:46:19 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
+"2025-07-06 22:21:44 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 22:21:19 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 21:38:21 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 21:37:01 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 21:24:26 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 21:03:43 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 01:21:12 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 00:42:53 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 00:42:02 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alsla",
+"2025-07-06 00:41:00 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslahunt",
+"2025-07-06 00:40:43 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslahunt",
+"2025-07-06 00:16:22 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 00:13:27 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Alslalu",
+"2025-07-06 00:10:01 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
+"2025-07-06 00:09:29 | INIT | Plater-v610-Mists | Framework v611 | 5.5.0 | enUS | Exonuklease",
 },
 ["_error_logs"] = {
 },

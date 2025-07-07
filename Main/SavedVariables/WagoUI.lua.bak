@@ -4,6 +4,9 @@ WagoUIDB = {
 ["debug"] = false,
 ["anchorTo"] = "CENTER",
 ["anchorFrom"] = "CENTER",
+["WagoUIFrame"] = {
+["scale"] = 1,
+},
 ["classColoredCharacters"] = {
 },
 ["minimap"] = {

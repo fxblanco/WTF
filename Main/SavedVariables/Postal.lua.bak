@@ -28,6 +28,11 @@ Postal3DB = {
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalu|Venoxis|Horde",
+},
+},
 },
 ["Alsía - Venoxis"] = {
 },

@@ -1,8 +1,256 @@
 
 ReforgeLiteDB = {
+["char"] = {
+["Alslalu - Venoxis"] = {
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 768,
+["preset"] = 2,
+},
+},
+},
+{
+["stat"] = 7,
+["points"] = {
+{
+["value"] = 768,
+["preset"] = 5,
+},
+},
+},
+},
+["weights"] = {
+nil,
+nil,
+nil,
+149,
+66,
+84,
+130,
+121,
+},
+["method"] = {
+["items"] = {
+{
+["dst"] = 6,
+["src"] = 4,
+["reforge"] = 26,
+["amount"] = 120,
+},
+{
+["dst"] = 8,
+["src"] = 4,
+["reforge"] = 28,
+["amount"] = 70,
+},
+{
+["dst"] = 8,
+["src"] = 4,
+["reforge"] = 28,
+["amount"] = 106,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 64,
+},
+{
+["dst"] = 7,
+["src"] = 4,
+["reforge"] = 27,
+["amount"] = 131,
+},
+{
+["dst"] = 6,
+["src"] = 4,
+["reforge"] = 26,
+["amount"] = 75,
+},
+{
+["dst"] = 6,
+["src"] = 7,
+["reforge"] = 48,
+["amount"] = 112,
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 82,
+},
+{
+["dst"] = 8,
+["src"] = 4,
+["reforge"] = 28,
+["amount"] = 109,
+},
+{
+["dst"] = 7,
+["src"] = 6,
+["reforge"] = 41,
+["amount"] = 86,
+},
+{
+["dst"] = 7,
+["src"] = 6,
+["reforge"] = 41,
+["amount"] = 73,
+},
+{
+["dst"] = 7,
+["src"] = 6,
+["reforge"] = 41,
+["amount"] = 72,
+},
+{
+["dst"] = 8,
+["src"] = 6,
+["reforge"] = 42,
+["amount"] = 183,
+},
+{
+},
+{
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 55,
+},
+},
+["stats"] = {
+174,
+0,
+0,
+920,
+806,
+1492,
+768,
+3435,
+},
+},
+},
+["Exonuklease - Venoxis"] = {
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 1536,
+["preset"] = 3,
+},
+},
+},
+},
+["weights"] = {
+nil,
+nil,
+nil,
+150,
+50,
+120,
+nil,
+100,
+},
+["method"] = {
+["items"] = {
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 112,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["reforge"] = 33,
+["amount"] = 84,
+},
+{
+["dst"] = 6,
+["src"] = 8,
+["reforge"] = 55,
+["amount"] = 69,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["reforge"] = 53,
+["amount"] = 73,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 95,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 98,
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["reforge"] = 53,
+["amount"] = 132,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 99,
+},
+{
+},
+{
+["dst"] = 4,
+["src"] = 8,
+["reforge"] = 53,
+["amount"] = 75,
+},
+{
+},
+{
+},
+{
+},
+{
+},
+},
+["stats"] = {
+203,
+0,
+0,
+1538,
+771,
+3111,
+0,
+1174,
+},
+},
+},
+},
 ["profileKeys"] = {
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alsla - Venoxis"] = "Alsla - Venoxis",
+},
+["global"] = {
+["windowY"] = 993.1110229492188,
+["windowX"] = 1142.97705078125,
 },
 }

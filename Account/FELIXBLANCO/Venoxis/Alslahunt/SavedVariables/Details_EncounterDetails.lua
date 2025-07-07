@@ -958,15 +958,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Rune Weapon",
 },
-[106730] = {
-["school"] = 32,
+[1604] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Terror",
+["source"] = "Corrupted Blood",
 },
 [103176] = {
 ["school"] = 1,
@@ -977,13 +975,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[106523] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Deathwing",
-},
 [105248] = {
 ["school"] = 4,
 ["type"] = "BUFF",
@@ -992,6 +983,13 @@ EncounterDetailsDB = {
 ["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "Corrupted Blood",
+},
+[106523] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Deathwing",
 },
 [106794] = {
 ["school"] = 1,
@@ -1042,13 +1040,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[1604] = {
-["school"] = 1,
+[106730] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Corrupted Blood",
+["source"] = "Elementium Terror",
 },
 [103846] = {
 ["school"] = 1,

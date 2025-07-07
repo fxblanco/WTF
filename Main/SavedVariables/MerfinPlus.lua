@@ -15,6 +15,11 @@ MerfinPlusSaved = {
 ["Default"] = {
 },
 ["MerfinUI (7.4)"] = {
+["bar3"] = "Merfin Main Texture",
+["pullTotalTime"] = 20,
+["pullSenderName"] = "Ostblockolga",
+["pullExpTime"] = 1751836571,
+["pullStartTime"] = 1751836551,
 },
 },
 }

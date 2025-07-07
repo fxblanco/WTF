@@ -329,6 +329,13 @@ nil,
 },
 },
 },
+["blizzardFCT"] = {
+["floatingCombatTextCombatLogPeriodicSpells"] = true,
+["floatingCombatTextCombatDamage"] = true,
+["floatingCombatTextCombatDamageAllAutos"] = true,
+["floatingCombatTextPetMeleeDamage"] = true,
+["floatingCombatTextPetSpellDamage"] = true,
+},
 },
 ["MerfinUI (Healer) (2160) v7.4"] = {
 ["SpellColors"] = {
@@ -550,8 +557,8 @@ nil,
 ["outgoing"] = {
 ["enableOutAbsorbs"] = false,
 ["fontShadowOffsetX"] = 1,
-["Y"] = -500,
 ["insertText"] = "top",
+["Y"] = -500,
 ["Width"] = 167,
 ["enableFontShadow"] = false,
 ["font"] = "Merfin Font 1",

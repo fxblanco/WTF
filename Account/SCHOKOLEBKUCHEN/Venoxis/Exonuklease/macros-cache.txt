@@ -1,84 +1,122 @@
-VER 3 010000000100001A "1" "134400"
+VER 3 0100000001000022 "AFF_1" "134400"
+#showtooltip
+/cast [mod:ctrl] Soulburn; [mod:shift] Soulburn; Life Tap
+END
+VER 3 0100000001000018 "AFF_Agony" "136139"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Agony
+END
+VER 3 0100000001000021 "AFF_Aoe" "134400"
+#showtooltip
+/cast [mod:shift,@cursor] Rain of Fire; [nomod] Seed of Corruption
+/cast [mod:ctrl] Howl of Terror
+END
+VER 3 0100000001000020 "AFF_CD" "134400"
+#showtooltip
+/cast Dark Soul: Misery
+/cast Bloody Fury
+END
+VER 3 0100000001000003 "AFF_corr" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Corruption
+/use 10
+END
+VER 3 010000000100000B "AFF_drain" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Drain Soul
+END
+VER 3 0100000001000025 "AFF_haunt" "134400"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Haunt
+END
+VER 3 0100000001000023 "AFF_SB" "134400"
+#showtooltip Soulburn
+/cast Blood Fury
+/cast Dark Soul: Misery
+/cast Soulburn
+END
+VER 3 0100000001000024 "AFF_ss" "134400"
+#showtooltip Soul Swap
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Soul Swap
+END
+VER 3 010000000100001C "AFF_ua" "134400"
+#showtooltip
+/cast [mod:crtl,@focus,harm,nodead] [mod:shift,@mouseover,harm,nodead] [] Unstable Affliction
+END
+VER 3 010000000100001D "PET_Kick" "134400"
+#showtooltip
+/cast [@mouseover,exists][] Spell Lock
+END
+VER 3 010000000100001E "PET_Purge" "134400"
+#showtooltip
+/cast [@mouseover,exists][] Devour Magic
+END
+VER 3 010000000100001A "WL_1" "134400"
 #showtooltip
 /cast [mod:ctrl] Soulburn; [mod:shift] Demon Leap; Life Tap
 END
-VER 3 0100000001000018 "agoniy" "136139"
-#showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Agony
-END
-VER 3 0100000001000008 "brunst" "134400"
-#showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Immolate
-END
-VER 3 0100000001000011 "circle" "134400"
+VER 3 0100000001000011 "WL_circle" "134400"
 #showtooltip
 /cast [mod:ctrl;@mouseover,exists]Spell Lock; [mod:shift] Demonic Circle: Summon; Demonic Circle: Teleport
 END
-VER 3 0100000001000003 "corruption" "134400"
-#showtooltip
-/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Corruption
+VER 3 0100000001000027 "WL_dg" "134400"
+#showtooltip Summon Doomguard
+/cast Summon Doomguard
 END
-VER 3 010000000100001E "dm" "134400"
+VER 3 0100000001000012 "WL_Elements" "134400"
 #showtooltip
-/cast Devour Magic
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Curse of the Elements
 END
-VER 3 0100000001000005 "doom" "134400"
+VER 3 010000000100000E "WL_G" "134400"
+#showtooltip
+/cast [mod:ctrl] Mortal Coil; [mod:shift] Fear; [mod:alt] Howl of Terror; Fel Flame
+END
+VER 3 0100000001000028 "WL_infernal" "134400"
+#showtooltip
+/cast [@cursor] Summon Infernal
+END
+VER 3 0100000001000006 "WL_Main" "134400"
+#showtooltip Shadow Bolt
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Shadow Bolt
+/cast Shadow Bite
+END
+VER 3 0100000001000026 "WL_shatter" "134400"
+#showtooltip
+/cast [mod:ctrl] Death Coil; [mod:shift] Soul Link; [mod:alt] Howl of Terror; Soulshatter
+END
+VER 3 0100000001000008 "z_brunst" "134400"
+#showtooltip
+/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Immolate
+END
+VER 3 0100000001000005 "z_doom" "134400"
 #showtooltip Bane of Doom
 /use 10
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Doom
 END
-VER 3 010000000100000B "drain" "134400"
-#showtooltip
-/cast [mod:shift]Drain Life; [@mouseover,exists][] Drain Soul
-END
-VER 3 0100000001000012 "elemts" "134400"
-#showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Curse of the Elements
-END
-VER 3 010000000100000F "f" "134400"
+VER 3 010000000100000F "z_f" "134400"
 #showtooltip
 /cast [mod:shift] Immolation Aura; [nomod] Shadowflame
 /cast [mod:ctrl, pet:felguard] Felstorm;
 /use 10
 END
-VER 3 010000000100001B "ff" "134400"
+VER 3 010000000100001B "z_ff" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Fel Flame
 END
-VER 3 010000000100000E "g" "134400"
-#showtooltip
-/cast [mod:ctrl] Death Coil; [mod:shift] Fear; [mod:alt] Howl of Terror; Fel Flame
-END
-VER 3 0100000001000017 "guldan" "134400"
+VER 3 0100000001000017 "z_guldan" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Hand of Gul'dan
 END
-VER 3 010000000100001D "kick" "134400"
-/cast [@mouseover,exists][] Spell Lock
-END
-VER 3 0100000001000019 "leap" "134400"
+VER 3 0100000001000019 "z_leap" "134400"
 #showtooltip
 /cast Demon Leap
 /cast Immolation Aura (Demon)
 END
-VER 3 010000000100001F "lock" "134400"
-#showtooltip
-/cast Spell Lock
-END
-VER 3 0100000001000006 "sb" "134400"
-#showtooltip Shadow Bolt
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Shadow Bolt
-/cast Shadow Bite
-END
-VER 3 0100000001000009 "sf" "134400"
+VER 3 0100000001000009 "z_sf" "134400"
 #showtooltip
 /cast [mod:shift]Drain Life; [@mouseover,exists][] Soul Fire
 END
-VER 3 010000000100001C "ua" "134400"
-#showtooltip
-/cast [mod:crtl,@focus,harm,nodead] [mod:shift,@mouseover,harm,nodead] [] Unstable Affliction
-END
-VER 3 0100000001000016 "verb" "134400"
+VER 3 0100000001000016 "z_verb" "134400"
 #showtooltip
 /cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Incinerate
 END

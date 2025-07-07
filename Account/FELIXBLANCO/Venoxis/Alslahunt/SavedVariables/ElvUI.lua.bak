@@ -5,6 +5,7 @@ ElvCharacterDB = {
 "/raid Wer juwe hier ? :D",
 "/raid Moment wegen ring",
 "/macro",
+"/elvui",
 },
 ["ChatHistoryLog"] = {
 {
