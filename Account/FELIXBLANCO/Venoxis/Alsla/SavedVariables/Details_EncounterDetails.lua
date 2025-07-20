@@ -812,13 +812,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Fragment",
 },
-[109102] = {
-["school"] = 1,
+[54424] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_HEAL"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Congealing Blood",
+["source"] = "Greephom",
 },
 [107588] = {
 ["school"] = 1,
@@ -1014,12 +1014,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Shadowed Globule",
 },
-[109247] = {
-["school"] = 1,
+[88082] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Twilight Sapper",
+["source"] = "Mirror Image",
 },
 [105312] = {
 ["school"] = 1,
@@ -1236,12 +1236,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Void of the Unmaking",
 },
-[88082] = {
-["school"] = 4,
+[109247] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Mirror Image",
+["source"] = "Twilight Sapper",
 },
 [48210] = {
 ["school"] = 32,
@@ -1340,13 +1340,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Bolt",
 },
-[54424] = {
-["school"] = 32,
-["type"] = "BUFF",
+[109102] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
 },
-["source"] = "Greephom",
+["source"] = "Congealing Blood",
 },
 [3600] = {
 ["school"] = 8,

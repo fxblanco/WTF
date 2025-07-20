@@ -1,15 +1,3 @@
-VER 3 0100000001000214 "c_cd" "134400"
-#showtooltip
-/cast [mod:shift] Nature's Swiftness; Mana Tide Totem
-END
-VER 3 0100000001000205 "cleanse" "INV_Misc_QuestionMark"
-#showtooltip Cleanse Spirit
-/cast [nomod, @mouseover, help, nodead] Cleanse Spirit
-END
-VER 3 0100000001000206 "e_cd" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @player] Healing Rain; [nomod, @cursor] Healing Rain
-END
 VER 3 0100000001000207 "e_eles" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Earth Elemental Totem; Fire Elemental Totem
@@ -32,32 +20,41 @@ VER 3 0100000001000218 "ENH_SS" "134400"
 /use 13
 /cast Stormstrike
 END
-VER 3 0100000001000208 "focuskick" "INV_Misc_QuestionMark"
+VER 3 010000000100021A "ENH_sync" "134400"
+#showtooltip Albino Snake
+/run WeakAuras.ScanEvents("snek")
+END
+VER 3 0100000001000206 "RESTO_rain" "134400"
+#showtooltip
+/cast [mod:shift, @player] Healing Rain; [nomod, @cursor] Healing Rain
+END
+VER 3 010000000100020F "s_bindingTotem" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Grounding Totem; Earthbind Totem
+END
+VER 3 0100000001000210 "SHA_cd" "134400"
+#showtooltip
+/cast Elemental Mastery
+/cast Blood Fury
+/use 13
+/use 14
+END
+VER 3 0100000001000205 "SHA_cleanse" "134400"
+#showtooltip Cleanse Spirit
+/cast [nomod, @mouseover, help, nodead] Cleanse Spirit
+END
+VER 3 0100000001000208 "SHA_focus" "134400"
 #showtooltip
 /focus Arcanotron
 /stopcasting
 /cast [@focus] Wind Shear
 /cast Wind Shear
 END
-VER 3 0100000001000209 "h_shield" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover, help, nodead][mod:alt] Earth Shield;Water Shield
-END
-VER 3 010000000100020F "s_bindingTotem" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Grounding Totem; Earthbind Totem
-END
 VER 3 010000000100020A "SHAM_FS-Nova" "134400"
 #showtooltip
 /cast [mod:shift] Fire Nova; Flame Shock
 /use [@Cursor] Saronite Bomb
 /use 10
-END
-VER 3 0100000001000210 "snap_sp" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Elemental Mastery
-/use 13
-/use 14
 END
 VER 3 0100000001000217 "TP" "134400"
 #showtooltip

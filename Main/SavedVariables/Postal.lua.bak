@@ -1,5 +1,20 @@
 
 Postal3DB = {
+["global"] = {
+["BlackBook"] = {
+["alts"] = {
+"Alsia|Venoxis|Horde|85|PALADIN",
+"Alslahunt|Venoxis|Horde|85|HUNTER",
+"Alslalock|Venoxis|Horde|85|WARLOCK",
+"Alslalu|Venoxis|Horde|85|SHAMAN",
+"Alsla|Venoxis|Horde|85|DEATHKNIGHT",
+"Alsía|Venoxis|Horde|85|PALADIN",
+"Endonuclease|Venoxis|Horde|85|ROGUE",
+"Exonuklease|Venoxis|Horde|85|WARLOCK",
+"Kwasimojo|Venoxis|Horde|85|PRIEST",
+},
+},
+},
 ["profileKeys"] = {
 ["Alsla - Venoxis"] = "Alsla - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
@@ -11,21 +26,6 @@ Postal3DB = {
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
-["global"] = {
-["BlackBook"] = {
-["alts"] = {
-"Alsia|Venoxis|Horde|85|PALADIN",
-"Alslahunt|Venoxis|Horde|85|HUNTER",
-"Alslalock|Venoxis|Horde|80|WARLOCK",
-"Alslalu|Venoxis|Horde|85|SHAMAN",
-"Alsla|Venoxis|Horde|85|DEATHKNIGHT",
-"Alsía|Venoxis|Horde|85|PALADIN",
-"Endonuclease|Venoxis|Horde|85|ROGUE",
-"Exonuklease|Venoxis|Horde|85|WARLOCK",
-"Kwasimojo|Venoxis|Horde|85|PRIEST",
-},
-},
-},
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
 ["BlackBook"] = {
@@ -35,20 +35,58 @@ Postal3DB = {
 },
 },
 ["Alsía - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalock|Venoxis|Horde",
+"Graveofjenna-Venoxis|Venoxis|Horde",
+"Alsla|Venoxis|Horde",
+"Alslalu|Venoxis|Horde",
+"Alslahunt|Venoxis|Horde",
+"Quynsh|Venoxis|Horde",
+},
+},
 },
 ["Exonuklease - Venoxis"] = {
 },
 ["Alslalu - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalock|Venoxis|Horde",
+},
+},
 },
 ["Alslahunt - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalu|Venoxis|Horde",
+"Alslalock|Venoxis|Horde",
+},
+},
 },
 ["Alslalock - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Graveofjenna|Venoxis|Horde",
+},
+},
 },
 ["Endonuclease - Venoxis"] = {
 },
 ["Alsia - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalu|Venoxis|Horde",
+"Alslalock|Venoxis|Horde",
+"Alsía|Venoxis|Horde",
+},
+},
 },
 ["Kwasimojo - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalock|Venoxis|Horde",
+},
+},
 },
 },
 }

@@ -37,24 +37,15 @@ VER 3 0000000000000030 "HUNTER_Spine" "134400"
 /use [@boss2,exists] Black Arrow
 /petattack [@boss2,exists]
 END
-VER 3 0000000000000027 "Infernal" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@cursor] Summon Infernal
-END
-VER 3 0000000000000029 "pet_att" "134400"
-/petattack
-/petattack [mod:shift,@mouseover, harm, exists]
-END
-VER 3 000000000000001A "pet_attack" "134400"
+VER 3 000000000000001A "PET_attack" "134400"
 /petattack [nomod]
 /petattack [mod:shift, @mouseover,harm][]
 END
-VER 3 0000000000000018 "petfoll" "134400"
+VER 3 0000000000000018 "PET_follow" "134400"
 /petfollow
 END
 VER 3 000000000000002B "RXPTargeting" "132150"
-/targetexact Hovel Shadowcaster
-/targetexact Hovel Brute
+/targetexact Baleflame
 /targetlasttarget [dead]
 END
 VER 3 000000000000002D "Spine" "134400"
@@ -66,13 +57,6 @@ VER 3 000000000000002D "Spine" "134400"
 /use [@boss2,exists] 10
 /use [@boss2,exists] Immolate
 /petattack [@boss2,exists]
-END
-VER 3 000000000000002F "Summon" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [nopet:felguard] Summon Felguard 
-/cast [pet:felguard] Demon Soul 
-/cast [pet:felguard] Soulburn 
-/cast [pet:felguard] Summon Felhunter
 END
 VER 3 000000000000001E "tar2" "134400"
 /tar boss2

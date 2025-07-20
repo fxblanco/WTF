@@ -2,8 +2,6 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/g Mastery Gear für hexer",
-"/g koooom",
 "/g mag balast",
 "/g <3",
 "/g mage*",
@@ -21,6 +19,8 @@ ElvCharacterDB = {
 "/pull 80",
 "/cw Geheimchar-Venoxis Lass uns später kurz drüber qutschen wenn du zeit hast :) so semi sag ich mal",
 "/pull 55",
+"/elvui",
+"/xct",
 "/merfinui install",
 },
 ["ChatHistoryLog"] = {

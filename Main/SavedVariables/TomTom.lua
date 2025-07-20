@@ -6,22 +6,37 @@ TomTomDB = {
 ["Exonuklease - Venoxis"] = "MerfinUI v7.4",
 ["Alslalu - Venoxis"] = "MerfinUI v7.4",
 ["Alslahunt - Venoxis"] = "MerfinUI v7.4",
-["Alslalock - Venoxis"] = "MerfinUI v7.4",
+["Alslalock - Venoxis"] = "MerfinUI v7.48",
 ["Endonuclease - Venoxis"] = "MerfinUI v7.4",
-["Alsia - Venoxis"] = "MerfinUI v7.4",
+["Alsia - Venoxis"] = "MerfinUI v7.48",
 ["Kwasimojo - Venoxis"] = "MerfinUI v7.4",
 },
 ["profiles"] = {
-["Default"] = {
+["MerfinUI v7.48"] = {
 ["block"] = {
+["fontsize"] = 17,
 ["position"] = {
-"CENTER",
+"TOP",
 nil,
-"CENTER",
+"TOP",
 0,
--100,
+-70,
+},
+["enable"] = false,
+["height"] = 40,
+["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
 },
 },
+},
+["Default"] = {
 ["arrow"] = {
 ["position"] = {
 "CENTER",
@@ -29,6 +44,15 @@ nil,
 "CENTER",
 0,
 0,
+},
+},
+["block"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+-100,
 },
 },
 },

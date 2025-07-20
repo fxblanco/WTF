@@ -17,9 +17,6 @@ ProjectAzilrokaDB = {
 ["Enable"] = false,
 ["Size"] = 1,
 },
-["AuraReminder"] = {
-["Enable"] = false,
-},
 ["EnhancedFriendsList"] = {
 ["InfoFontSize"] = 14,
 ["Enable"] = false,
@@ -42,18 +39,24 @@ ProjectAzilrokaDB = {
 ["stAddonManager"] = {
 ["Enable"] = false,
 },
-["SquareMinimapButtons"] = {
-["ButtonSpacing"] = -1,
-["ReverseDirection"] = true,
-["MoveMail"] = false,
-["Backdrop"] = false,
-["BarMouseOver"] = true,
+["AuraReminder"] = {
+["Enable"] = false,
 },
 ["FasterLoot"] = {
 ["Enable"] = false,
 },
 ["Cooldown"] = {
 ["Enable"] = false,
+},
+["SquareMinimapButtons"] = {
+["ButtonSpacing"] = -1,
+["ReverseDirection"] = true,
+["IconSize"] = 25,
+["Backdrop"] = false,
+["MoveMail"] = false,
+["Shadows"] = false,
+["BarMouseOver"] = true,
+["ButtonsPerRow"] = 3,
 },
 },
 },

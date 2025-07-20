@@ -986,12 +986,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Flail of Go'rath",
 },
-[109247] = {
-["school"] = 1,
+[88082] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Twilight Sapper",
+["source"] = "Mirror Image",
 },
 [104896] = {
 ["school"] = 1,
@@ -1002,12 +1002,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Shadowed Globule",
 },
-[88082] = {
-["school"] = 4,
+[109247] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Mirror Image",
+["source"] = "Twilight Sapper",
 },
 [98021] = {
 ["school"] = 8,
@@ -1158,15 +1158,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[106730] = {
-["school"] = 32,
+[1604] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Terror",
+["source"] = "Warmaster Blackhorn",
 },
 [103176] = {
 ["school"] = 1,
@@ -1201,13 +1199,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Fragment",
 },
-[1604] = {
-["school"] = 1,
+[106730] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Warmaster Blackhorn",
+["source"] = "Elementium Terror",
 },
 [105563] = {
 ["school"] = 4,

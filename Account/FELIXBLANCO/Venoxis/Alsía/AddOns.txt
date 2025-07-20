@@ -87,7 +87,7 @@ Postal: enabled
 ProjectAzilroka: enabled
 Questie: disabled
 ReforgeLite: enabled
-RXPGuides: enabled
+RXPGuides: disabled
 RXP Leveling: enabled
 SharedMedia: enabled
 SimpleAddonManager: enabled

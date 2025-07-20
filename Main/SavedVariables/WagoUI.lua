@@ -3,28 +3,28 @@ WagoUIDB = {
 ["introEnabled"] = false,
 ["debug"] = false,
 ["anchorTo"] = "CENTER",
-["classColoredCharacters"] = {
-},
+["anchorFrom"] = "CENTER",
 ["WagoUIFrame"] = {
 ["scale"] = 1,
 },
-["anchorFrom"] = "CENTER",
+["classColoredCharacters"] = {
+},
 ["minimap"] = {
 ["compartmentHide"] = false,
 ["hide"] = false,
 },
-["introState"] = {
-["currentPage"] = "WelcomePage",
+["introImportState"] = {
 },
 ["config"] = {
 },
-["introImportState"] = {
+["latestSeenReleasenotes"] = {
 },
 ["autoStart"] = false,
 ["xoffset"] = 0,
 ["importedProfiles"] = {
 },
-["latestSeenReleasenotes"] = {
+["introState"] = {
+["currentPage"] = "WelcomePage",
 },
 ["yoffset"] = 0,
 }

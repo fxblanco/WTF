@@ -59,9 +59,9 @@ VER 3 01000000010004B2 "p_purge" "INV_Misc_QuestionMark"
 /stopcasting
 /cast [mod:shift, @mouseover, help, nodead] Purify;[@mouseover, help, nodead] Cleanse; Cleanse
 END
-VER 3 01000000010004B3 "p_spot1" "INV_Misc_QuestionMark"
+VER 3 01000000010004C2 "PAL_taunt" "134400"
 #showtooltip
-/cast [mod:shift, @mouseover, nodead] Hand of Reckoning; Hand of Reckoning
+/cast [mod:shift, @mouseover, nodead] Reckoning; Reckoning
 END
 VER 3 01000000010004B4 "plea_cancel" "INV_Misc_QuestionMark"
 #showtooltip
@@ -69,10 +69,6 @@ VER 3 01000000010004B4 "plea_cancel" "INV_Misc_QuestionMark"
 /use 10
 /use 14
 /cancelaura Divine Plea
-END
-VER 3 01000000010004B5 "q" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift, @mouseover] Hand of Protection; Judgement
 END
 VER 3 01000000010004B6 "r" "INV_Misc_QuestionMark"
 #showtooltip
@@ -101,6 +97,10 @@ VER 3 01000000010004BB "RET_CD" "INV_Misc_QuestionMark"
 /use 13
 /use 14
 END
+VER 3 01000000010004C1 "RET_e" "134400"
+#showtooltip
+/cast [mod:shift, @mouseover] Hand of Sacrifice; Crusader Strike
+END
 VER 3 01000000010004BC "RET_f" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Divine Storm; Exorcism
@@ -113,6 +113,10 @@ VER 3 01000000010004BD "RET_PrefightGura" "INV_Misc_QuestionMark"
 /use 14
 /cast Guardian of Ancient Kings
 /equipset Ret
+END
+VER 3 01000000010004B5 "RET_q" "134400"
+#showtooltip
+/cast [mod:shift, @mouseover] Hand of Protection; Judgment
 END
 VER 3 01000000010004BE "te" "INV_Misc_QuestionMark"
 #showtooltip
