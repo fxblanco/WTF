@@ -2232,14 +2232,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Corla, Herald of Twilight",
 },
-[106376] = {
-["school"] = 34,
-["type"] = "BUFF",
+[103821] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Ultraxion",
+["source"] = "Morchok",
 },
 [105573] = {
 ["school"] = 8,
@@ -2527,15 +2528,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Altairus",
 },
-[103821] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[106376] = {
+["school"] = 34,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Ultraxion",
 },
 [75846] = {
 ["school"] = 4,

@@ -42,12 +42,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = true,
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = false,
 ["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
+["sameSizeAsMain"] = false,
 ["powerSize"] = 0,
 ["size"] = {
 75,
@@ -795,7 +795,7 @@ false,
 12,
 12,
 },
-["orientation"] = "right-to-left",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -804,9 +804,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "none",
+["orientation"] = "right-to-left",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["iconStyle"] = "none",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -1190,6 +1190,10 @@ false,
 ["castBy"] = "me",
 },
 {
+["enabled"] = true,
+["type"] = "icon",
+["frameLevel"] = 5,
+["auraType"] = "debuff",
 ["glowOptions"] = {
 "None",
 {
@@ -1199,10 +1203,6 @@ false,
 1,
 },
 },
-["type"] = "icon",
-["frameLevel"] = 5,
-["auraType"] = "debuff",
-["enabled"] = true,
 ["auras"] = {
 94794,
 },
@@ -1265,10 +1265,10 @@ false,
 ["units"] = {
 },
 ["enabled"] = false,
+["hidePlaceholder"] = false,
 ["sameSizeAsMain"] = true,
 ["position"] = {
 },
-["hidePlaceholder"] = false,
 ["orientation"] = "vertical",
 ["anchor"] = "TOPLEFT",
 ["powerSize"] = 2,
@@ -1380,12 +1380,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = false,
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
+["sameSizeAsMain"] = true,
 ["powerSize"] = 2,
 ["size"] = {
 66,
@@ -1470,10 +1470,10 @@ false,
 ["units"] = {
 },
 ["enabled"] = false,
+["sameSizeAsMain"] = true,
 ["hidePlaceholder"] = false,
 ["position"] = {
 },
-["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
 ["orientation"] = "vertical",
 ["powerSize"] = 2,
@@ -2216,7 +2216,7 @@ false,
 12,
 12,
 },
-["orientation"] = "right-to-left",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -2225,9 +2225,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "none",
+["orientation"] = "right-to-left",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["iconStyle"] = "none",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -2611,6 +2611,10 @@ false,
 ["castBy"] = "me",
 },
 {
+["enabled"] = true,
+["type"] = "icon",
+["frameLevel"] = 5,
+["auraType"] = "debuff",
 ["glowOptions"] = {
 "None",
 {
@@ -2620,10 +2624,6 @@ false,
 1,
 },
 },
-["type"] = "icon",
-["frameLevel"] = 5,
-["auraType"] = "debuff",
-["enabled"] = true,
 ["auras"] = {
 94794,
 },
@@ -2684,12 +2684,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = true,
-["sameSizeAsMain"] = true,
-["orientation"] = "vertical",
-["partyDetached"] = false,
-["anchor"] = "TOPLEFT",
 ["position"] = {
 },
+["orientation"] = "vertical",
+["sameSizeAsMain"] = true,
+["anchor"] = "TOPLEFT",
+["partyDetached"] = false,
 ["powerSize"] = 2,
 ["size"] = {
 66,
@@ -3437,7 +3437,7 @@ false,
 12,
 12,
 },
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -3446,9 +3446,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "blizzard",
+["indicatorName"] = "dispels",
 ["highlightType"] = "gradient-half",
-["orientation"] = "right-to-left",
+["iconStyle"] = "blizzard",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -3770,10 +3770,10 @@ false,
 ["units"] = {
 },
 ["enabled"] = false,
+["hidePlaceholder"] = false,
 ["position"] = {
 },
 ["sameSizeAsMain"] = true,
-["hidePlaceholder"] = false,
 ["orientation"] = "vertical",
 ["anchor"] = "TOPLEFT",
 ["powerSize"] = 2,
@@ -4589,7 +4589,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["iconStyle"] = "none",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -4598,9 +4598,9 @@ false,
 0,
 4,
 },
-["orientation"] = "right-to-left",
+["iconStyle"] = "none",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["size"] = {
 12,
 12,
@@ -4980,6 +4980,10 @@ false,
 ["num"] = 3,
 },
 {
+["enabled"] = true,
+["type"] = "icon",
+["frameLevel"] = 5,
+["auraType"] = "debuff",
 ["glowOptions"] = {
 "None",
 {
@@ -4989,10 +4993,6 @@ false,
 1,
 },
 },
-["type"] = "icon",
-["frameLevel"] = 5,
-["auraType"] = "debuff",
-["enabled"] = true,
 ["auras"] = {
 94794,
 },
@@ -5087,8 +5087,8 @@ false,
 ["spacingX"] = 3,
 ["units"] = {
 },
-["sameSizeAsMain"] = true,
 ["enabled"] = false,
+["sameSizeAsMain"] = true,
 ["orientation"] = "vertical",
 ["hidePlaceholder"] = false,
 ["anchor"] = "TOPLEFT",
@@ -5168,12 +5168,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["powerSize"] = 0,
 ["partyEnabled"] = true,
-["sameSizeAsMain"] = false,
-["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
-["orientation"] = "vertical",
 ["position"] = {
 },
+["anchor"] = "TOPLEFT",
+["sameSizeAsMain"] = false,
+["orientation"] = "vertical",
+["partyDetached"] = false,
 ["raidEnabled"] = false,
 ["size"] = {
 75,
@@ -5947,7 +5947,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["iconStyle"] = "none",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -5956,9 +5956,9 @@ false,
 0,
 4,
 },
-["orientation"] = "right-to-left",
+["iconStyle"] = "none",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["size"] = {
 12,
 12,
@@ -6338,6 +6338,10 @@ false,
 ["castBy"] = "me",
 },
 {
+["enabled"] = true,
+["type"] = "icon",
+["frameLevel"] = 5,
+["auraType"] = "debuff",
 ["glowOptions"] = {
 "None",
 {
@@ -6347,10 +6351,6 @@ false,
 1,
 },
 },
-["type"] = "icon",
-["frameLevel"] = 5,
-["auraType"] = "debuff",
-["enabled"] = true,
 ["auras"] = {
 94794,
 },
@@ -6448,9 +6448,9 @@ false,
 ["spacingX"] = 3,
 ["units"] = {
 },
+["enabled"] = false,
 ["position"] = {
 },
-["enabled"] = false,
 ["anchor"] = "TOPLEFT",
 ["hidePlaceholder"] = false,
 ["orientation"] = "vertical",
@@ -6472,12 +6472,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["powerSize"] = 2,
 ["partyEnabled"] = false,
-["sameSizeAsMain"] = true,
-["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
-["orientation"] = "vertical",
 ["position"] = {
 },
+["anchor"] = "TOPLEFT",
+["sameSizeAsMain"] = true,
+["orientation"] = "vertical",
+["partyDetached"] = false,
 ["raidEnabled"] = false,
 ["size"] = {
 66,
@@ -7231,7 +7231,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -7240,9 +7240,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "blizzard",
+["indicatorName"] = "dispels",
 ["highlightType"] = "gradient-half",
-["orientation"] = "right-to-left",
+["iconStyle"] = "blizzard",
 ["size"] = {
 12,
 12,
@@ -7622,6 +7622,10 @@ false,
 ["castBy"] = "me",
 },
 {
+["enabled"] = true,
+["type"] = "icon",
+["frameLevel"] = 5,
+["auraType"] = "debuff",
 ["glowOptions"] = {
 "None",
 {
@@ -7631,10 +7635,6 @@ false,
 1,
 },
 },
-["type"] = "icon",
-["frameLevel"] = 5,
-["auraType"] = "debuff",
-["enabled"] = true,
 ["auras"] = {
 94794,
 },
@@ -7729,8 +7729,8 @@ true,
 ["spacingX"] = 3,
 ["units"] = {
 },
-["sameSizeAsMain"] = true,
 ["enabled"] = false,
+["sameSizeAsMain"] = true,
 ["orientation"] = "vertical",
 ["hidePlaceholder"] = false,
 ["anchor"] = "TOPLEFT",
@@ -7810,12 +7810,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["powerSize"] = 2,
 ["partyEnabled"] = false,
-["partyDetached"] = false,
+["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = true,
 ["raidEnabled"] = false,
 ["size"] = {
 66,
@@ -7848,12 +7848,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = false,
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
+["sameSizeAsMain"] = true,
 ["powerSize"] = 2,
 ["size"] = {
 66,
@@ -7938,10 +7938,10 @@ false,
 ["units"] = {
 },
 ["enabled"] = false,
+["hidePlaceholder"] = false,
 ["position"] = {
 },
 ["sameSizeAsMain"] = true,
-["hidePlaceholder"] = false,
 ["anchor"] = "TOPLEFT",
 ["orientation"] = "vertical",
 ["powerSize"] = 2,
@@ -8684,7 +8684,7 @@ false,
 12,
 12,
 },
-["orientation"] = "right-to-left",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -8693,9 +8693,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "none",
+["orientation"] = "right-to-left",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["iconStyle"] = "none",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -9079,6 +9079,10 @@ false,
 ["num"] = 3,
 },
 {
+["enabled"] = true,
+["type"] = "icon",
+["frameLevel"] = 5,
+["auraType"] = "debuff",
 ["glowOptions"] = {
 "None",
 {
@@ -9088,10 +9092,6 @@ false,
 1,
 },
 },
-["type"] = "icon",
-["frameLevel"] = 5,
-["auraType"] = "debuff",
-["enabled"] = true,
 ["auras"] = {
 94794,
 },
@@ -9147,13 +9147,15 @@ false,
 },
 ["customTextures"] = {
 },
-["indicatorPreview"] = {
-["scale"] = 2,
-["showAll"] = true,
+["aoeHealings"] = {
+["disabled"] = {
+},
+["custom"] = {
+},
 },
 ["clickCastings"] = {
 ["HUNTER"] = {
-[1448] = {
+["common"] = {
 {
 "type1",
 "target",
@@ -9180,7 +9182,7 @@ false,
 "togglemenu",
 },
 },
-["common"] = {
+[1448] = {
 {
 "type1",
 "target",
@@ -9378,7 +9380,7 @@ false,
 [63] = "disabled",
 [1449] = "disabled",
 },
-[1449] = {
+[62] = {
 {
 "type1",
 "target",
@@ -9398,7 +9400,8 @@ false,
 "togglemenu",
 },
 },
-[62] = {
+["useCommon"] = true,
+[1449] = {
 {
 "type1",
 "target",
@@ -9408,7 +9411,6 @@ false,
 "togglemenu",
 },
 },
-["useCommon"] = true,
 [63] = {
 {
 "type1",
@@ -9421,94 +9423,8 @@ false,
 },
 ["smartResurrection"] = "disabled",
 },
-["DEATHKNIGHT"] = {
-[252] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-61999,
-},
-},
-["alwaysTargeting"] = {
-[252] = "disabled",
-["common"] = "disabled",
-[251] = "disabled",
-[250] = "disabled",
-[1455] = "disabled",
-},
-[1455] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-61999,
-},
-},
-["common"] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-61999,
-},
-},
-[250] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-61999,
-},
-},
-["useCommon"] = true,
-[251] = {
-{
-"type1",
-"target",
-},
-{
-"type2",
-"togglemenu",
-},
-{
-"type-altR",
-"spell",
-61999,
-},
-},
-["smartResurrection"] = "disabled",
-},
 ["PALADIN"] = {
-["common"] = {
+[70] = {
 {
 "type1",
 "target",
@@ -9545,7 +9461,7 @@ false,
 7328,
 },
 },
-[70] = {
+["common"] = {
 {
 "type1",
 "target",
@@ -9593,98 +9509,102 @@ false,
 },
 ["smartResurrection"] = "disabled",
 },
+["DEATHKNIGHT"] = {
+[252] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+61999,
+},
+},
+["alwaysTargeting"] = {
+[252] = "disabled",
+["common"] = "disabled",
+[251] = "disabled",
+[250] = "disabled",
+[1455] = "disabled",
+},
+["common"] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+61999,
+},
+},
+[1455] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+61999,
+},
+},
+[250] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+61999,
+},
+},
+["useCommon"] = true,
+[251] = {
+{
+"type1",
+"target",
+},
+{
+"type2",
+"togglemenu",
+},
+{
+"type-altR",
+"spell",
+61999,
+},
+},
+["smartResurrection"] = "disabled",
+},
 },
 ["debuffBlacklist"] = {
 8326,
 },
+["changelogsViewed"] = "r258-release",
+["indicatorPreview"] = {
+["scale"] = 2,
+["showAll"] = true,
+},
 ["dispelBlacklist"] = {
-},
-["snippets"] = {
-[0] = {
-["autorun"] = true,
-["code"] = "-- snippets can be found at https://github.com/enderneko/Cell/tree/master/.snippets\n-- use \"/run CellDB['snippets'][0]=nil ReloadUI()\" to reset this snippet\n\n-- cooldown style for icon/block indicators (\"VERTICAL\", \"CLOCK\")\nCELL_COOLDOWN_STYLE = \"CLOCK\"\n\n-- fade out unit button if hp percent > (number: 0-1)\nCELL_FADE_OUT_HEALTH_PERCENT = nil\n\n-- add summon icons to Status Icon indicator (boolean, retail only)\nCELL_SUMMON_ICONS_ENABLED = false\n\n-- use separate width and height for custom indicator icons (boolean)\nCELL_RECTANGULAR_CUSTOM_INDICATOR_ICONS = false\n\n-- Use nicknames from Details! Damage Meter (boolean, NickTag-1.0 library)\nCELL_NICKTAG_ENABLED = false\n\n-- remove raid setup details from the tooltip of the Raid button (boolean)\nCELL_TOOLTIP_REMOVE_RAID_SETUP_DETAILS = false\n\n-- border thickness: unit button and icon (number)\nCELL_BORDER_SIZE = 1\n\n-- unit button border color ({r, g, b, a}, number: 0-1)\nCELL_BORDER_COLOR = {0, 0, 0, 1}\n\n-- show raid pet owner name (\"VEHICLE\", \"NAME\", nil)\nCELL_SHOW_GROUP_PET_OWNER_NAME = nil\n\n-- use LibHealComm (boolean, non-retail)\nCELL_USE_LIBHEALCOMM = false",
-},
-},
-["spellRequest"] = {
-["enabled"] = false,
-["timeout"] = 10,
-["checkIfExists"] = true,
-["spells"] = {
-{
-["glowOptions"] = {
-"pixel",
-{
-{
-1,
-1,
-0,
-1,
-},
-0,
-0,
-9,
-0.25,
-8,
-2,
-},
-},
-["type"] = "icon",
-["spellId"] = 10060,
-["isBuiltIn"] = true,
-["buffId"] = 10060,
-["keywords"] = "Power Infusion",
-["icon"] = 135939,
-["iconColor"] = {
-1,
-1,
-0,
-1,
-},
-},
-{
-["glowOptions"] = {
-"pixel",
-{
-{
-0,
-1,
-1,
-1,
-},
-0,
-0,
-9,
-0.25,
-8,
-2,
-},
-},
-["type"] = "icon",
-["spellId"] = 29166,
-["isBuiltIn"] = true,
-["buffId"] = 29166,
-["keywords"] = "Innervate",
-["icon"] = 136048,
-["iconColor"] = {
-0,
-1,
-1,
-1,
-},
-},
-},
-["sharedIconOptions"] = {
-"beat",
-27,
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-0,
-0,
-},
-["knownSpellsOnly"] = true,
-["responseType"] = "me",
-["replyCooldown"] = true,
-["freeCooldownOnly"] = true,
 },
 ["tools"] = {
 ["battleResTimer"] = {
@@ -9723,13 +9643,93 @@ false,
 },
 },
 },
-["aoeHealings"] = {
-["disabled"] = {
+["snippets"] = {
+[0] = {
+["autorun"] = true,
+["code"] = "-- snippets can be found at https://github.com/enderneko/Cell/tree/master/.snippets\n-- use \"/run CellDB['snippets'][0]=nil ReloadUI()\" to reset this snippet\n\n-- cooldown style for icon/block indicators (\"VERTICAL\", \"CLOCK\")\nCELL_COOLDOWN_STYLE = \"CLOCK\"\n\n-- fade out unit button if hp percent > (number: 0-1)\nCELL_FADE_OUT_HEALTH_PERCENT = nil\n\n-- add summon icons to Status Icon indicator (boolean, retail only)\nCELL_SUMMON_ICONS_ENABLED = false\n\n-- use separate width and height for custom indicator icons (boolean)\nCELL_RECTANGULAR_CUSTOM_INDICATOR_ICONS = false\n\n-- Use nicknames from Details! Damage Meter (boolean, NickTag-1.0 library)\nCELL_NICKTAG_ENABLED = false\n\n-- remove raid setup details from the tooltip of the Raid button (boolean)\nCELL_TOOLTIP_REMOVE_RAID_SETUP_DETAILS = false\n\n-- border thickness: unit button and icon (number)\nCELL_BORDER_SIZE = 1\n\n-- unit button border color ({r, g, b, a}, number: 0-1)\nCELL_BORDER_COLOR = {0, 0, 0, 1}\n\n-- show raid pet owner name (\"VEHICLE\", \"NAME\", nil)\nCELL_SHOW_GROUP_PET_OWNER_NAME = nil\n\n-- use LibHealComm (boolean, non-retail)\nCELL_USE_LIBHEALCOMM = false",
 },
-["custom"] = {
+},
+["spellRequest"] = {
+["enabled"] = false,
+["timeout"] = 10,
+["checkIfExists"] = true,
+["spells"] = {
+{
+["glowOptions"] = {
+"pixel",
+{
+{
+1,
+1,
+0,
+1,
+},
+0,
+0,
+9,
+0.25,
+8,
+2,
 },
 },
-["changelogsViewed"] = "r258-release",
+["type"] = "icon",
+["spellId"] = 10060,
+["isBuiltIn"] = true,
+["iconColor"] = {
+1,
+1,
+0,
+1,
+},
+["buffId"] = 10060,
+["icon"] = 135939,
+["keywords"] = "Power Infusion",
+},
+{
+["glowOptions"] = {
+"pixel",
+{
+{
+0,
+1,
+1,
+1,
+},
+0,
+0,
+9,
+0.25,
+8,
+2,
+},
+},
+["type"] = "icon",
+["spellId"] = 29166,
+["isBuiltIn"] = true,
+["iconColor"] = {
+0,
+1,
+1,
+1,
+},
+["buffId"] = 29166,
+["icon"] = 136048,
+["keywords"] = "Innervate",
+},
+},
+["sharedIconOptions"] = {
+"beat",
+27,
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+0,
+0,
+},
+["knownSpellsOnly"] = true,
+["responseType"] = "me",
+["replyCooldown"] = true,
+["freeCooldownOnly"] = true,
+},
 ["actions"] = {
 {
 6262,
@@ -9784,9 +9784,9 @@ false,
 },
 ["MAGE"] = {
 },
-["DEATHKNIGHT"] = {
-},
 ["PALADIN"] = {
+},
+["DEATHKNIGHT"] = {
 },
 },
 ["targetedSpellsGlow"] = {
@@ -9801,1101 +9801,6 @@ false,
 0.25,
 8,
 2,
-},
-["optionsFramePosition"] = {
-"TOPLEFT",
-445,
--273,
-},
-["dispelRequest"] = {
-["enabled"] = false,
-["debuffs"] = {
-},
-["timeout"] = 10,
-["responseType"] = "all",
-["glowOptions"] = {
-"shine",
-{
-{
-1,
-0,
-0.4,
-1,
-},
-0,
-0,
-9,
-0.5,
-2,
-},
-},
-["textOptions"] = {
-"A",
-{
-1,
-1,
-1,
-1,
-},
-32,
-"TOPLEFT",
-"TOPLEFT",
--1,
-5,
-},
-["type"] = "text",
-["dispellableByMe"] = true,
-},
-["debuffTypeColor"] = {
-[""] = {
-["r"] = 0.8,
-["g"] = 0,
-["b"] = 0,
-},
-["Disease"] = {
-["r"] = 0.6,
-["g"] = 0.4,
-["b"] = 0,
-},
-["Bleed"] = {
-["b"] = 0.6,
-["g"] = 0.2,
-["r"] = 1,
-},
-["Curse"] = {
-["r"] = 0.6,
-["g"] = 0,
-["b"] = 1,
-},
-["Poison"] = {
-["r"] = 0,
-["g"] = 0.6,
-["b"] = 0,
-},
-["Magic"] = {
-["r"] = 0.2,
-["g"] = 0.6,
-["b"] = 1,
-},
-["none"] = {
-["r"] = 0.8,
-["g"] = 0,
-["b"] = 0,
-},
-},
-["externals"] = {
-["disabled"] = {
-},
-["custom"] = {
-},
-},
-["defensives"] = {
-["disabled"] = {
-},
-["custom"] = {
-},
-},
-["flavor"] = "mists",
-["raidDebuffs"] = {
-[316] = {
-["general"] = {
-[110963] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[130857] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[324] = {
-["general"] = {
-[119354] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[131655] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[121114] = {
-["order"] = 9,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[119840] = {
-["order"] = 8,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[121116] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[120938] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[122259] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[121421] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[122246] = {
-["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[317] = {
-[726] = {
-[132226] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[117949] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[132222] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[679] = {
-[116322] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[130774] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116281] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116301] = {
-["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116304] = {
-["order"] = 8,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116199] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[130395] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[125206] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-["general"] = {
-[121245] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116606] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116990] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[118566] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[677] = {
-[116525] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116550] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116778] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116829] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[117485] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[687] = {
-[117708] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[118303] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[118048] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[118135] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[682] = {
-[122151] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116161] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116278] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[689] = {
-[116784] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116417] = {
-["glowOptions"] = {
-{
-0.95,
-0.95,
-0.32,
-1,
-},
-9,
-0.25,
-8,
-2,
-},
-["trackByID"] = false,
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["glowType"] = "None",
-},
-[131788] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[131792] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[131790] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[116942] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[63] = {
-["general"] = {
-[103628] = {
-["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[64] = {
-["general"] = {
-[103628] = {
-["order"] = 16,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[66] = {
-["general"] = {
-[103628] = {
-["order"] = 16,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[68] = {
-["general"] = {
-[88314] = {
-["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[88175] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[103628] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[70] = {
-["general"] = {
-[103628] = {
-["order"] = 13,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[73963] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[303] = {
-["general"] = {
-[115436] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[115419] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[311] = {
-["general"] = {
-[113690] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[113855] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[128164] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114011] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[128232] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[113436] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[312] = {
-["general"] = {
-[126115] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[113022] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[106929] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[131241] = {
-["order"] = 8,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[112999] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[115509] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[113020] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[115630] = {
-["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[320] = {
-[742] = {
-[122752] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[122777] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[123011] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[709] = {
-[125786] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[129147] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[120629] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[119086] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[119985] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-[683] = {
-[125760] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[111850] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[117353] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[729] = {
-[123121] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-["general"] = {
-[125760] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[125758] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[130115] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[313] = {
-["general"] = {
-[106653] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[110125] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114803] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[110099] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[321] = {
-["general"] = {
-[121185] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[118903] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[120562] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[246] = {
-["general"] = {
-[114873] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-[111594] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[111801] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114479] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[111813] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114493] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114860] = {
-["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[65] = {
-["general"] = {
-[103628] = {
-["order"] = 13,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[67] = {
-["general"] = {
-[103628] = {
-["order"] = 10,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[69] = {
-["general"] = {
-[103628] = {
-["order"] = 8,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-[119] = {
-[82139] = {
-["order"] = 0,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[71] = {
-["general"] = {
-[103628] = {
-["order"] = 20,
-["condition"] = {
-"None",
-},
-["trackByID"] = true,
-},
-},
-},
-[330] = {
-["general"] = {
-[123175] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[123017] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[737] = {
-[125502] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[121949] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[741] = {
-[121881] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[122064] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[713] = {
-[122835] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[743] = {
-[123707] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[123788] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[124849] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[124777] = {
-["order"] = 6,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[125390] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[124863] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[745] = {
-[122740] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[122761] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[744] = {
-[123474] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[123017] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
-[302] = {
-["general"] = {
-[106648] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114548] = {
-["order"] = 5,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114381] = {
-["order"] = 4,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[106546] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[106851] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-},
 },
 ["appearance"] = {
 ["optionsFontSizeOffset"] = 0,
@@ -11073,6 +9978,1431 @@ false,
 0.2,
 },
 },
+},
+["dispelRequest"] = {
+["enabled"] = false,
+["debuffs"] = {
+},
+["timeout"] = 10,
+["responseType"] = "all",
+["glowOptions"] = {
+"shine",
+{
+{
+1,
+0,
+0.4,
+1,
+},
+0,
+0,
+9,
+0.5,
+2,
+},
+},
+["textOptions"] = {
+"A",
+{
+1,
+1,
+1,
+1,
+},
+32,
+"TOPLEFT",
+"TOPLEFT",
+-1,
+5,
+},
+["type"] = "text",
+["dispellableByMe"] = true,
+},
+["debuffTypeColor"] = {
+[""] = {
+["r"] = 0.8,
+["g"] = 0,
+["b"] = 0,
+},
+["Disease"] = {
+["r"] = 0.6,
+["g"] = 0.4,
+["b"] = 0,
+},
+["Bleed"] = {
+["b"] = 0.6,
+["g"] = 0.2,
+["r"] = 1,
+},
+["Curse"] = {
+["r"] = 0.6,
+["g"] = 0,
+["b"] = 1,
+},
+["Poison"] = {
+["r"] = 0,
+["g"] = 0.6,
+["b"] = 0,
+},
+["Magic"] = {
+["r"] = 0.2,
+["g"] = 0.6,
+["b"] = 1,
+},
+["none"] = {
+["r"] = 0.8,
+["g"] = 0,
+["b"] = 0,
+},
+},
+["externals"] = {
+["disabled"] = {
+},
+["custom"] = {
+},
+},
+["defensives"] = {
+["disabled"] = {
+},
+["custom"] = {
+},
+},
+["flavor"] = "mists",
+["raidDebuffs"] = {
+[316] = {
+["general"] = {
+[110963] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[130857] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[688] = {
+[115291] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[115309] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[115297] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[324] = {
+[693] = {
+[119941] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[727] = {
+[121442] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[121447] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[738] = {
+[120778] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[119354] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[131655] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[121114] = {
+["order"] = 9,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[119840] = {
+["order"] = 8,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[121116] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[120938] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[122259] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[121421] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[122246] = {
+["order"] = 7,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[317] = {
+[726] = {
+[132226] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[117949] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[132222] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[679] = {
+[116322] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[130774] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116281] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[125206] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[130395] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116199] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116304] = {
+["order"] = 8,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116301] = {
+["order"] = 7,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[121245] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[118566] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116990] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116606] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[682] = {
+[122151] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116161] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116278] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[687] = {
+[117708] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[118303] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[118135] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[118048] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[689] = {
+[116784] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116417] = {
+["glowOptions"] = {
+{
+0.95,
+0.95,
+0.32,
+1,
+},
+9,
+0.25,
+8,
+2,
+},
+["trackByID"] = false,
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["glowType"] = "None",
+},
+[131788] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116942] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[131790] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[131792] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[677] = {
+[116525] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116550] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116778] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[116829] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[117485] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[63] = {
+["general"] = {
+[103628] = {
+["order"] = 7,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[64] = {
+["general"] = {
+[103628] = {
+["order"] = 16,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[66] = {
+["general"] = {
+[103628] = {
+["order"] = 16,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[68] = {
+["general"] = {
+[88314] = {
+["order"] = 7,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[88175] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[103628] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[70] = {
+["general"] = {
+[103628] = {
+["order"] = 13,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[73963] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[303] = {
+[649] = {
+[111600] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[111723] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[115436] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[115419] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[676] = {
+[107122] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[675] = {
+[106933] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[655] = {
+[107268] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[311] = {
+[656] = {
+[113653] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[660] = {
+[114056] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114004] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[113690] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[113855] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[128164] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114011] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[128232] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[113436] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[654] = {
+[112955] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[312] = {
+[686] = {
+[107087] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[107200] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[126115] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[113022] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[106929] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[131241] = {
+["order"] = 8,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[112999] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[115509] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[115630] = {
+["order"] = 7,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[113020] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[657] = {
+[118961] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[673] = {
+[107140] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[685] = {
+[106827] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[127576] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[130701] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[106872] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[320] = {
+[742] = {
+[122752] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[122777] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123011] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[709] = {
+[125786] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[129147] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[120629] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[119086] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[119985] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+[683] = {
+[125760] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[111850] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[117353] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[729] = {
+[123121] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[125760] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[125758] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[130115] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[313] = {
+[335] = {
+[106113] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[658] = {
+[118540] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[107110] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[106823] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[106841] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[106653] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[110125] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114803] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[110099] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[321] = {
+[698] = {
+[119684] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[708] = {
+[119946] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[120160] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123655] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+["general"] = {
+[121185] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[118903] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[120562] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[690] = {
+[118963] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[246] = {
+[663] = {
+[114038] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[665] = {
+},
+["general"] = {
+[114873] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+[111594] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[111801] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114479] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[111813] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114860] = {
+["order"] = 7,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114493] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[666] = {
+[115350] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[111585] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+[659] = {
+[111631] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[111610] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[684] = {
+[113141] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[65] = {
+["general"] = {
+[103628] = {
+["order"] = 13,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[67] = {
+["general"] = {
+[103628] = {
+["order"] = 10,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[69] = {
+["general"] = {
+[103628] = {
+["order"] = 8,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+[119] = {
+[82139] = {
+["order"] = 0,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[71] = {
+["general"] = {
+[103628] = {
+["order"] = 20,
+["condition"] = {
+"None",
+},
+["trackByID"] = true,
+},
+},
+},
+[302] = {
+["general"] = {
+[106648] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114548] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114381] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[106546] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[106851] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+[330] = {
+["general"] = {
+[123175] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123017] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[737] = {
+[125502] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[121949] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[713] = {
+[122835] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[741] = {
+[121881] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[122064] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[743] = {
+[123707] = {
+["order"] = 5,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123788] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[124849] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[124777] = {
+["order"] = 6,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[125390] = {
+["order"] = 4,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[124863] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[745] = {
+[122740] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[122761] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[744] = {
+[123474] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123017] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+},
+},
+["optionsFramePosition"] = {
+"TOPRIGHT",
+-353,
+-226,
 },
 ["bigDebuffs"] = {
 },

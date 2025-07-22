@@ -6,6 +6,13 @@ X: 0
 Y: 0
 W: 365
 H: 239
+Frame: WorldMapFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 0
+Y: 0
+W: 610
+H: 438
 Frame: DevToolFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,10 +27,3 @@ X: 0
 Y: 0
 W: 150
 H: 170
-Frame: WorldMapFrame
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 0
-Y: 0
-W: 610
-H: 438

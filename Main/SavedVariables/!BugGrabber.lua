@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 150,
+["session"] = 164,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -106,14 +106,6 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1200: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1188>",
 ["session"] = 77,
 ["counter"] = 8,
-},
-{
-["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'ElvUI' tried to call the protected function 'CastGlyph()'.",
-["time"] = "2025/07/05 22:07:49",
-["locals"] = "self = GlyphFrameScrollFrameButton5 {\n disabledBG = Texture {\n }\n showingTooltip = true\n glyphID = 911\n IsSkinned = true\n backdrop = Frame {\n }\n glyphIndex = 5\n name = GlyphFrameScrollFrameButton5Name {\n }\n selectedTex = Texture {\n }\n tooltipName = \"Eternal Resolve\"\n typeName = GlyphFrameScrollFrameButton5TypeName {\n }\n icon = GlyphFrameScrollFrameButton5Icon {\n }\n}\nbutton = \"LeftButton\"\ndown = false\n",
-["stack"] = "[*Blizzard_GlyphUI.xml:51_OnClick]:1: in function <[string \"*Blizzard_GlyphUI.xml:51_OnClick\"]:1>",
-["session"] = 82,
-["counter"] = 5,
 },
 {
 ["message"] = "Lua error in aura 'ElvUI Cast Bar: Target': Condition Custom Test\nWeakAuras Version: 5.19.12-23-ga5b37d3\nAura Version: 1.0.19\nStack trace:\n[string \"return function()\"]:2: attempt to index global 'MUI' (a nil value)",
@@ -554,6 +546,22 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0-41/AceGUI-3.0.lua]:300: in function 'Fire'\n[Interface/AddOns/ElvUI_Libraries/Core/Ace3-ElvUI/AceGUIWidget-DropDown-ElvUI.lua]:33: in function <...ries/Core/Ace3-ElvUI/AceGUIWidget-DropDown-ElvUI.lua:31>",
 ["session"] = 150,
 ["counter"] = 73,
+},
+{
+["message"] = "[ADDON_ACTION_FORBIDDEN] AddOn 'ElvUI' tried to call the protected function 'CastGlyph()'.",
+["time"] = "2025/07/05 22:07:49",
+["locals"] = "self = GlyphFrameScrollFrameButton5 {\n disabledBG = Texture {\n }\n showingTooltip = true\n glyphID = 911\n IsSkinned = true\n backdrop = Frame {\n }\n glyphIndex = 5\n name = GlyphFrameScrollFrameButton5Name {\n }\n selectedTex = Texture {\n }\n tooltipName = \"Eternal Resolve\"\n typeName = GlyphFrameScrollFrameButton5TypeName {\n }\n icon = GlyphFrameScrollFrameButton5Icon {\n }\n}\nbutton = \"LeftButton\"\ndown = false\n",
+["stack"] = "[*Blizzard_GlyphUI.xml:51_OnClick]:1: in function <[string \"*Blizzard_GlyphUI.xml:51_OnClick\"]:1>",
+["session"] = 156,
+["counter"] = 6,
+},
+{
+["message"] = "Lua error in aura '[DP] [SB] Trash': Trigger 1\nWeakAuras Version: 5.19.12-43-gfb9b56d\nAura Version: 1.3.10\nStack trace:\n[string \"return function() local tonumber, strsplit,...\"]:72: bad argument #2 to 'stformat' (string expected, got nil)",
+["time"] = "2025/07/22 01:41:55",
+["locals"] = "frame = Frame {\n unitFrames = <table> {\n }\n}\nevent = \"COMBAT_LOG_EVENT_UNFILTERED\"\narg1 = nil\narg2 = nil\nPrivate = <table> {\n TextureBase = <table> {\n }\n frame_strata_types = <table> {\n }\n combat_event_type = <table> {\n }\n regions = <table> {\n }\n frameLevels = <table> {\n }\n form_types = <table> {\n }\n tooltip_count = <table> {\n }\n SmoothStatusBarMixin = <table> {\n }\n pet_spec_types = <table> {\n }\n regionOptions = <table> {\n }\n author_option_classes = <table> {\n }\n grid_types = <table> {\n }\n creature_family_types = <table> {\n }\n absorb_modes = <table> {\n }\n pad_types = <table> {\n }\n miss_types = <table> {\n }\n faction_group = <table> {\n }\n talent_types = <table> {\n }\n money_precision_types = <table> {\n }\n spec_types_all = <table> {\n }\n creature_type_types = <table> {\n }\n player_target_events = <table> {\n }\n subRegionTypes = <table> {\n }\n array_entry_name_types = <table> {\n }\n combatlog_spell_school_types = <table> {\n }\n blend_types = <table> {\n }\n specs_sorted = <table> {\n }\n custom_trigger_types = <table> {\n }\n group_types = <table> {\n }\n subRegionOptions = <table> {\n }\n text_rotate_types = <table> {\n }\n spec_types = <table> {\n }\n anim_ease_types = <table> {\n }\n item_slot_types = <table> {\n }\n multiUnitUnits = <table> {\n }\n anim_color_types = <table> {\n }\n loaded = <table> {\n }\n sound_channel_types = <table> {\n }\n event_prototypes = <table> {\n }\n classification_types = <table> {\n }\n unit_types_bufftrigger_2 = <table> {\n }\n glyph_sorted = <table> {\n }\n StopMotionBase = <table> {\n }\n TocToExpansion = <table> {\n }\n noreset_swing_spells = <table> {\n }\n bufftrigger_progress_behavior_types = <table> {\n }\n mouseFrame = WeakAurasAttachToMouseFrame {\n }\n db = <table> {\n }\n DiscordListK = <table> {\n }\n author_option_media_controls = <table> {\n }\n chat_message_types = <table> {\n }\n DiscordListCJ = <table> {\n }\n precision_types = <table> {\n }\n big_number_types_with_disable = <table> {\n }\n item_weapon_types = <table> {\n }\n LinearProgressTextureBase = <table> {\n }\n DiscordList = <table> {\n }\n barmodels = <table> {\n }\n grow_types = <table> {\n }\n eclipse_direction_types = <table> {\n }\n frames = <table> {\n }\n trigger_modes = <table> {\n }\n TextureCoords = <table> {\n }\n category_event_prototype = <table> {\n }\n FrameTick = <table> {\n }\n anchor_mode = <table> {\n }\n character_types = <table> {\n }\n orientation_types = <table> {\n }\n difficulty_info = <table> {\n }\n aura_types = <table> {\n }\n icon_side_types = <table> {\n }\n align_types = <table> {\n }\n main_spell_schools = <table> {\n }\n talentInfo = <table> {\n }\n include_pets_types = <table> {\n }\n Features = <table> {\n }\n AuraEnvironmentWrappedSystem = <table> {\n }\n actual_unit_types_cast = <table> {\n }\n check_types = <table> {\n }\n anim_presets = <table> {\n }\n anim_scale_types = <table> {\n }\n encounter_event_type = <table> {\n }\n glyph_types = <table> {\n }\n group_aura_name_info_types = <table> {\n }\n unit_color_types = <table> {\n }\n weapon_types = <table> {\n }\n actual_unit_types = <table> {\n }\n environmental_types = <table> {\n }\n orientation_with_circle_types = <table> {\n }\n soft_target_cvars = <table> {\n }\n debuff_class_types = <table> {\n }\n AuraWarnings = <table> {\n }\n allstatesMetatable = <table> {\n }\n string_operator_types = <table> {\n }\n mythic_plus_affixes = <table> {\n }\n group_hybrid_sort_types = <table> {\n }\n reset_swing_spells = <table> {\n }\n actual_unit_types_with_specific = <table> {\n }\n combatlog_flags_check_reaction = <table> {\n }\n group_limit_types = <table> {\n }\n texture_wrap_types = <table> {\n }\n role_types = <table> {\n }\n reset_ranged_swing_spells = <table> {\n }\n regionTypes = <table> {\n }\n function_strings = <table> {\n }\n regionPrototype = <table> {\n }\n font_flags = <table> {\n }\n bufftrigger_2_per_unit_mode = <table> {\n }\n cast_types = <table> {\n }\n tick_placement_modes = <table> {\n }\n equality_operator_types = <table> {\n }\n inverse_point_types = <table> {\n }\n maxTimerDuration = 604800\n CircularProgressTextureBase = <table> {\n }\n swing_types = <table> {\n }\n sound_file_types = <table> {\n }\n LibSpecWrapper = <table> {\n }\n subevent_actual_prefix_types = <table> {\n }\n chat_message_leade",
+["stack"] = "[Interface/AddOns/WeakAuras/GenericTrigger.lua]:1198: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:1188>",
+["session"] = 158,
+["counter"] = 5,
 },
 },
 }

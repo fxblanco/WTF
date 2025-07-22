@@ -17,12 +17,15 @@ ProjectAzilrokaDB = {
 ["Enable"] = false,
 ["Size"] = 1,
 },
-["EnhancedFriendsList"] = {
-["InfoFontSize"] = 14,
-["Enable"] = false,
-["DiffLevel"] = false,
-["NameFontSize"] = 14,
-["Texture"] = "Merfin Main Texture",
+["SquareMinimapButtons"] = {
+["ButtonSpacing"] = -1,
+["ReverseDirection"] = true,
+["IconSize"] = 25,
+["Backdrop"] = false,
+["MoveMail"] = false,
+["Shadows"] = false,
+["BarMouseOver"] = true,
+["ButtonsPerRow"] = 3,
 },
 ["DragonOverlay"] = {
 ["Enable"] = false,
@@ -42,21 +45,18 @@ ProjectAzilrokaDB = {
 ["AuraReminder"] = {
 ["Enable"] = false,
 },
-["FasterLoot"] = {
-["Enable"] = false,
-},
 ["Cooldown"] = {
 ["Enable"] = false,
 },
-["SquareMinimapButtons"] = {
-["ButtonSpacing"] = -1,
-["ReverseDirection"] = true,
-["IconSize"] = 25,
-["Backdrop"] = false,
-["MoveMail"] = false,
-["Shadows"] = false,
-["BarMouseOver"] = true,
-["ButtonsPerRow"] = 3,
+["FasterLoot"] = {
+["Enable"] = false,
+},
+["EnhancedFriendsList"] = {
+["InfoFontSize"] = 14,
+["Enable"] = false,
+["DiffLevel"] = false,
+["NameFontSize"] = 14,
+["Texture"] = "Merfin Main Texture",
 },
 },
 },

@@ -4,7 +4,7 @@ TomTomDB = {
 ["Alsla - Venoxis"] = "MerfinUI v7.4",
 ["Alsía - Venoxis"] = "MerfinUI v7.4",
 ["Exonuklease - Venoxis"] = "MerfinUI v7.4",
-["Alslalu - Venoxis"] = "MerfinUI v7.4",
+["Alslalu - Venoxis"] = "MerfinUI v7.49",
 ["Alslahunt - Venoxis"] = "MerfinUI v7.4",
 ["Alslalock - Venoxis"] = "MerfinUI v7.48",
 ["Endonuclease - Venoxis"] = "MerfinUI v7.4",
@@ -13,6 +13,15 @@ TomTomDB = {
 },
 ["profiles"] = {
 ["MerfinUI v7.48"] = {
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
+},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -25,35 +34,6 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
-},
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
-},
-["Default"] = {
-["arrow"] = {
-["position"] = {
-"CENTER",
-nil,
-"CENTER",
-0,
-0,
-},
-},
-["block"] = {
-["position"] = {
-"CENTER",
-nil,
-"CENTER",
-0,
--100,
-},
 },
 },
 ["MerfinUI v7.4"] = {
@@ -78,6 +58,50 @@ nil,
 -70,
 },
 ["height"] = 40,
+},
+},
+["Default"] = {
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+0,
+},
+},
+["block"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+-100,
+},
+},
+},
+["MerfinUI v7.49"] = {
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
+},
+["block"] = {
+["fontsize"] = 17,
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-70,
+},
+["enable"] = false,
+["height"] = 40,
+["width"] = 130,
 },
 },
 },

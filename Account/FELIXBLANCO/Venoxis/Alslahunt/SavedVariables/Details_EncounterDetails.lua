@@ -1,21 +1,21 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[153] = {
+[160] = {
 },
 [144] = {
 },
 [162] = {
 },
-[138] = {
+[166] = {
 },
 [149] = {
 },
-[160] = {
+[153] = {
 },
 [164] = {
 },
-[166] = {
+[138] = {
 },
 },
 ["encounter_spells"] = {
@@ -904,16 +904,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Bolt",
 },
-[107558] = {
-["school"] = 32,
+[135299] = {
+["school"] = 16,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Twilight Elite Dreadblade",
+["source"] = "Congealing Blood",
 },
 [103494] = {
 ["school"] = 1,
@@ -967,15 +964,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Yor'sahj the Unsleeping",
 },
-[106730] = {
-["school"] = 32,
+[1604] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Terror",
+["source"] = "Corrupted Blood",
 },
 [48210] = {
 ["school"] = 32,
@@ -993,14 +988,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crimson Globule",
 },
-[103176] = {
-["school"] = 1,
-["type"] = "BUFF",
+[104451] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Hagara the Stormbinder",
 },
 [105248] = {
 ["school"] = 4,
@@ -1011,22 +1006,24 @@ EncounterDetailsDB = {
 },
 ["source"] = "Corrupted Blood",
 },
-[1604] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Corrupted Blood",
-},
-[104451] = {
-["school"] = 16,
+[106730] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Elementium Terror",
+},
+[103176] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
 },
 [81262] = {
 ["school"] = 8,
@@ -1134,13 +1131,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mutated Corruption",
 },
-[135299] = {
-["school"] = 16,
+[107558] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Congealing Blood",
+["source"] = "Twilight Elite Dreadblade",
 },
 [107850] = {
 ["school"] = 1,

@@ -29,9 +29,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec2_profileKey"] = "Alslalu - Venoxis",
-["downclick"] = false,
 ["spec3_profileKey"] = "Alslalu - Venoxis",
 ["specswap"] = false,
 },
@@ -58,15 +58,6 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["spell"] = "Greater Healing Wave",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136043,
-["type"] = "spell",
-},
-{
 ["spell"] = "Chain Heal",
 ["key"] = "BUTTON1",
 ["sets"] = {
@@ -83,21 +74,21 @@ CliqueDB3 = {
 },
 },
 {
+["spell"] = "Greater Healing Wave",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136043,
+["type"] = "spell",
+},
+{
 ["spell"] = "Healing Wave",
 ["key"] = "SHIFT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136052,
-["type"] = "spell",
-},
-{
-["spell"] = "Healing Surge",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 136044,
 ["type"] = "spell",
 },
 {
@@ -116,6 +107,15 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 252995,
+["type"] = "spell",
+},
+{
+["spell"] = "Healing Surge",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 136044,
 ["type"] = "spell",
 },
 {

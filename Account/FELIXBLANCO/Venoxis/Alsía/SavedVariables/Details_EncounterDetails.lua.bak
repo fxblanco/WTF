@@ -2,175 +2,50 @@
 EncounterDetailsDB = {
 ["chartData"] = {
 [416] = {
-["Raid Damage Done"] = {
-17645,
-0,
-["max_value"] = 17645,
-["__time"] = 1752708279,
-},
 },
 [417] = {
-["Raid Damage Done"] = {
-27556,
-0,
-["max_value"] = 27556,
-["__time"] = 1752708308,
-},
 },
 [418] = {
-["Raid Damage Done"] = {
-46911,
-["max_value"] = 46911,
-["__time"] = 1752708313,
-},
 },
 [419] = {
-["Raid Damage Done"] = {
-19170,
-0,
-["max_value"] = 19170,
-["__time"] = 1752708319,
-},
 },
 [420] = {
-["Raid Damage Done"] = {
-35407,
-["max_value"] = 35407,
-["__time"] = 1752708325,
-},
 },
 [421] = {
-["Raid Damage Done"] = {
-23287,
-["max_value"] = 23287,
-["__time"] = 1752708331,
-},
 },
 [422] = {
-["Raid Damage Done"] = {
-31717,
-["max_value"] = 31717,
-["__time"] = 1752708339,
-},
 },
 [423] = {
-["Raid Damage Done"] = {
-41359,
-["max_value"] = 41359,
-["__time"] = 1752708346,
-},
 },
 [424] = {
-["Raid Damage Done"] = {
-37801,
-["max_value"] = 37801,
-["__time"] = 1752708350,
-},
 },
 [425] = {
-["Raid Damage Done"] = {
-18410,
-0,
-18075,
-0,
-0,
-0,
-32937,
-["max_value"] = 32937,
-["__time"] = 1752708375,
-},
 },
 [426] = {
-["Raid Damage Done"] = {
-18993,
-20615,
-["max_value"] = 20615,
-["__time"] = 1752708379,
-},
 },
 [427] = {
-["Raid Damage Done"] = {
-39763,
-0,
-0,
-["max_value"] = 39763,
-["__time"] = 1752708386,
-},
 },
 [428] = {
-["Raid Damage Done"] = {
-29252,
-21666,
-["max_value"] = 29252,
-["__time"] = 1752708394,
-},
 },
 [429] = {
-["Raid Damage Done"] = {
-39000,
-["max_value"] = 39000,
-["__time"] = 1752708398,
-},
 },
 [430] = {
-["Raid Damage Done"] = {
-27678,
-["max_value"] = 27678,
-["__time"] = 1752708406,
-},
 },
 [431] = {
-["Raid Damage Done"] = {
-["__time"] = 1752708411,
-},
 },
 [432] = {
-["Raid Damage Done"] = {
-30999,
-["max_value"] = 30999,
-["__time"] = 1752708415,
-},
 },
 [433] = {
-["Raid Damage Done"] = {
-36622,
-["max_value"] = 36622,
-["__time"] = 1752708420,
-},
 },
 [434] = {
-["Raid Damage Done"] = {
-26930,
-["max_value"] = 26930,
-["__time"] = 1752708643,
-},
 },
 [435] = {
-["Raid Damage Done"] = {
-35591,
-0,
-["max_value"] = 35591,
-["__time"] = 1752708647,
-},
 },
 [436] = {
-["Raid Damage Done"] = {
-19274,
-["max_value"] = 19274,
-["__time"] = 1752708651,
-},
 },
 [437] = {
-["Raid Damage Done"] = {
-37340,
-["max_value"] = 37340,
-["__time"] = 1752708657,
-},
 },
 [438] = {
-["Raid Damage Done"] = {
-["__time"] = 1752708660,
-},
 },
 [383] = {
 },
@@ -187,86 +62,24 @@ EncounterDetailsDB = {
 [405] = {
 },
 [406] = {
-["Raid Damage Done"] = {
-26600,
-0,
-3077,
-17030,
-["max_value"] = 26600,
-["__time"] = 1752708063,
-},
 },
 [407] = {
-["Raid Damage Done"] = {
-28468,
-["max_value"] = 28468,
-["__time"] = 1752708074,
-},
 },
 [408] = {
-["Raid Damage Done"] = {
-19449,
-0,
-0,
-["max_value"] = 19449,
-["__time"] = 1752708082,
-},
 },
 [409] = {
-["Raid Damage Done"] = {
-47309,
-["max_value"] = 47309,
-["__time"] = 1752708088,
-},
 },
 [410] = {
-["Raid Damage Done"] = {
-21140,
-0,
-39609,
-["max_value"] = 39609,
-["__time"] = 1752708101,
-},
 },
 [411] = {
-["Raid Damage Done"] = {
-18363,
-["max_value"] = 18363,
-["__time"] = 1752708133,
-},
 },
 [412] = {
-["Raid Damage Done"] = {
-45623,
-["max_value"] = 45623,
-["__time"] = 1752708137,
-},
 },
 [413] = {
-["Raid Damage Done"] = {
-32919,
-0,
-83041,
-["max_value"] = 83041,
-["__time"] = 1752708142,
-},
 },
 [414] = {
-["Raid Damage Done"] = {
-28981,
-17340,
-["max_value"] = 28981,
-["__time"] = 1752708206,
-},
 },
 [415] = {
-["Raid Damage Done"] = {
-14077,
-19991,
-0,
-["max_value"] = 19991,
-["__time"] = 1752708275,
-},
 },
 },
 ["encounter_spells"] = {
@@ -2399,15 +2212,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ascendant Lord Obsidius",
 },
-[106376] = {
-["school"] = 34,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ultraxion",
-},
 [103821] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
@@ -2417,6 +2221,15 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Morchok",
+},
+[106376] = {
+["school"] = 34,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ultraxion",
 },
 [88308] = {
 ["school"] = 16,

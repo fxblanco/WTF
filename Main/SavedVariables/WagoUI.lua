@@ -13,11 +13,11 @@ WagoUIDB = {
 ["compartmentHide"] = false,
 ["hide"] = false,
 },
-["introImportState"] = {
+["latestSeenReleasenotes"] = {
 },
 ["config"] = {
 },
-["latestSeenReleasenotes"] = {
+["introImportState"] = {
 },
 ["autoStart"] = false,
 ["xoffset"] = 0,
