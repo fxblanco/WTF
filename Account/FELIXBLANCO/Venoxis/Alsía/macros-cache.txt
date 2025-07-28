@@ -28,18 +28,18 @@ END
 VER 3 01000000010004AC "cancel_fury" "135768"
 /cancelaura Righteous Fury
 END
-VER 3 01000000010004AE "cd" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Divine Favor; [nomod] Avenging Wrath
-/use 10
-/use [mod:shift] 13
-END
 VER 3 01000000010004AD "cd" "INV_Misc_QuestionMark"
 #showtooltip
 /cast Guardian of Ancient Kings
 /use 10
 /use 13
 /use 14
+END
+VER 3 01000000010004AE "cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Divine Favor; [nomod] Avenging Wrath
+/use 10
+/use [mod:shift] 13
 END
 VER 3 01000000010004AF "DF" "INV_Misc_QuestionMark"
 #showtooltip

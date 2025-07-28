@@ -17,7 +17,7 @@ END
 VER 3 0100000001000218 "ENH_SS" "134400"
 #showtooltip Stormstrike
 /use 10
-/use 13
+/stopcasting
 /cast Stormstrike
 END
 VER 3 010000000100021A "ENH_sync" "134400"
@@ -36,6 +36,8 @@ VER 3 0100000001000210 "SHA_cd" "134400"
 #showtooltip
 /cast Elemental Mastery
 /cast Blood Fury
+/cast Lifeblood
+/use 10
 /use 13
 /use 14
 END

@@ -45,7 +45,7 @@ VER 3 0000000000000018 "PET_follow" "134400"
 /petfollow
 END
 VER 3 000000000000002B "RXPTargeting" "132150"
-/targetexact Baleflame
+/targetexact Master Angler Ju Lien
 /targetlasttarget [dead]
 END
 VER 3 000000000000002D "Spine" "134400"
@@ -60,4 +60,8 @@ VER 3 000000000000002D "Spine" "134400"
 END
 VER 3 000000000000001E "tar2" "134400"
 /tar boss2
+END
+VER 3 0000000000000031 "z_Mill" "134400"
+/cast Milling
+/use Green Tea Leaf
 END

@@ -85,9 +85,9 @@ OPie: enabled
 Plater: enabled
 Postal: enabled
 ProjectAzilroka: enabled
-Questie: disabled
+Questie: enabled
 ReforgeLite: enabled
-RXPGuides: disabled
+RXPGuides: enabled
 RXP Leveling: enabled
 SharedMedia: enabled
 SimpleAddonManager: enabled

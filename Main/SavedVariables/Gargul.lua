@@ -1,21 +1,13 @@
 
 GargulDB = {
-["TMB"] = {
-},
 ["BoostedRolls"] = {
+},
+["TMB"] = {
 },
 ["LoadDetails"] = {
 ["7.6.34"] = 1752613916,
-["lastLoadedOn"] = 1753146290,
+["lastLoadedOn"] = 1753737879,
 ["7.6.33"] = 1751485309,
-},
-["LootPriority"] = {
-},
-["GDKP"] = {
-["Queue"] = {
-},
-},
-["AwardHistory"] = {
 },
 ["Settings"] = {
 ["autoOpenCommandHelp"] = true,
@@ -167,16 +159,16 @@ GargulDB = {
 ["Gargul"] = {
 ["BidderQueue"] = {
 ["Window"] = {
+["Position"] = {
+["offsetX"] = 0,
+["offsetY"] = -4.376783181214705e-05,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+},
 ["Dimensions"] = {
 ["height"] = 169.9998626708984,
 ["scale"] = 1,
 ["width"] = 149.9998931884766,
-},
-["Position"] = {
-["point"] = "CENTER",
-["offsetY"] = -4.376783181214705e-05,
-["offsetX"] = 0,
-["relativePoint"] = "CENTER",
 },
 },
 },
@@ -343,11 +335,19 @@ false,
 ["hideInfoOfPeopleNotInGroup"] = true,
 },
 },
+["GDKP"] = {
+["Queue"] = {
+},
+},
+["PlusOnes"] = {
+},
+["LootPriority"] = {
+},
 ["SoftRes"] = {
 },
 ["RecentlyAwardedItems"] = {
 },
-["PlusOnes"] = {
+["AwardHistory"] = {
 },
 ["MinimapButton"] = {
 },

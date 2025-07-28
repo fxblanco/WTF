@@ -33,11 +33,11 @@ EncounterDetailsDB = {
 },
 [393] = {
 },
-[333] = {
-},
-[325] = {
+[306] = {
 },
 [270] = {
+},
+[333] = {
 },
 [397] = {
 },
@@ -45,39 +45,39 @@ EncounterDetailsDB = {
 },
 [399] = {
 },
-[310] = {
+[330] = {
 },
 [275] = {
 },
-[349] = {
+[286] = {
 },
-[278] = {
+[336] = {
 },
 [341] = {
 },
 [404] = {
 },
-[273] = {
-},
-[408] = {
+[265] = {
 },
 [282] = {
 },
-[265] = {
+[408] = {
+},
+[273] = {
 },
 [284] = {
 },
-[336] = {
+[278] = {
 },
-[286] = {
+[349] = {
 },
-[330] = {
+[310] = {
 },
 [414] = {
 },
 [289] = {
 },
-[306] = {
+[325] = {
 },
 },
 ["encounter_spells"] = {
@@ -721,8 +721,8 @@ EncounterDetailsDB = {
 [98021] = {
 ["school"] = 8,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
 ["SPELL_HEAL"] = true,
+["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Spirit Link Totem",
 },
@@ -1335,11 +1335,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "High Priestess Azil",
 },
-[83454] = {
-["school"] = 1,
+[51963] = {
+["school"] = 8,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
+["source"] = "Ebon Gargoyle",
 },
 [104448] = {
 ["school"] = 16,
@@ -1349,12 +1350,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[99842] = {
+[97282] = {
 ["school"] = 4,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Spear of Shannox",
+["source"] = "Lord Rhyolith",
 },
 [99913] = {
 ["school"] = 8,
@@ -1372,11 +1374,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Young Storm Dragon",
 },
-[98498] = {
-["school"] = 4,
+[82506] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
+["source"] = "High Prophet Barim",
 },
 [98476] = {
 ["school"] = 1,
@@ -1402,15 +1407,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Frenzied Crocolisk",
 },
-[100024] = {
+[82139] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Voracious Hatchling",
+["source"] = "High Prophet Barim",
 },
 [86340] = {
 ["school"] = 8,
@@ -1444,14 +1446,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Alysrazor",
 },
-[98175] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Magma Trap",
-},
 [99275] = {
 ["school"] = 5,
 ["type"] = "BUFF",
@@ -1461,7 +1455,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Molten Boulder",
 },
-[98953] = {
+[104896] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Shadowed Globule",
+},
+[99235] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
@@ -1495,22 +1498,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathwing",
 },
-[99353] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Baleroc",
-},
-[99832] = {
-["school"] = 1,
+[107018] = {
+["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Riplimb",
+["source"] = "Deathwing",
+},
+[81947] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "High Prophet Barim",
 },
 [53646] = {
 ["school"] = 1,
@@ -1520,13 +1523,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Thooferil",
 },
-[100167] = {
-["school"] = 1,
-["type"] = "BUFF",
+[98952] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Rageface",
+["source"] = "Ragnaros",
 },
 [99052] = {
 ["school"] = 4,
@@ -1552,14 +1555,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Corrupted Blood",
 },
-[100604] = {
+[98443] = {
 ["school"] = 4,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Ragnaros",
+["source"] = "Majordomo Staghelm",
 },
 [105312] = {
 ["school"] = 1,
@@ -1607,23 +1609,24 @@ EncounterDetailsDB = {
 },
 ["source"] = "Servant of Siamat",
 },
-[78835] = {
-["school"] = 64,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ozruk",
-},
-[1227589] = {
+[103968] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Cobalt Globule",
+["source"] = "Crimson Globule",
+},
+[98535] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Majordomo Staghelm",
 },
 [99947] = {
 ["school"] = 1,
@@ -1665,13 +1668,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ragnaros",
 },
-[105723] = {
-["school"] = 4,
+[100415] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Elementium Bolt",
+["source"] = "Rageface",
 },
 [109337] = {
 ["school"] = 16,
@@ -1689,19 +1692,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ragnaros",
 },
-[79249] = {
-["school"] = 32,
+[101111] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Riplimb",
+},
+[105465] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-},
-[98237] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Ragnaros",
+["source"] = "Hagara the Stormbinder",
 },
 [16827] = {
 ["school"] = 1,
@@ -1743,15 +1749,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hideous Amalgamation",
 },
-[92426] = {
-["school"] = 64,
+[99907] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Ozruk",
 },
 [99948] = {
 ["school"] = 1,
@@ -1767,16 +1771,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hideous Amalgamation",
 },
-[107567] = {
+[99308] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Twilight Elite Slayer",
+["source"] = "Voracious Hatchling",
 },
 [99369] = {
 ["school"] = 4,
@@ -1795,11 +1798,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Glowing Globule",
 },
-[99224] = {
-["school"] = 4,
+[106378] = {
+["school"] = 34,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
+["source"] = "Ultraxion",
 },
 [82255] = {
 ["school"] = 1,
@@ -1810,11 +1816,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Harbinger of Darkness",
 },
-[99278] = {
+[84982] = {
 ["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
+["source"] = "Siamat",
 },
 [105314] = {
 ["school"] = 16,
@@ -1825,13 +1833,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ice Wave",
 },
-[105027] = {
-["school"] = 1,
-["type"] = "BUFF",
+[105369] = {
+["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Yor'sahj the Unsleeping",
+["source"] = "Crystal Conductor",
 },
 [106400] = {
 ["school"] = 1,
@@ -1852,12 +1861,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Corborus",
 },
-[110137] = {
+[99937] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Warmaster Blackhorn",
+["source"] = "Shannox",
 },
 [107518] = {
 ["school"] = 4,
@@ -1876,14 +1886,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ozruk",
 },
-[103494] = {
+[110137] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Resonating Crystal",
+["source"] = "Warmaster Blackhorn",
 },
 [100460] = {
 ["school"] = 4,
@@ -1935,24 +1943,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Corrupted Blood",
 },
-[78903] = {
-["school"] = 1,
+[106401] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Ozruk",
+["source"] = "Goriona",
 },
-[98928] = {
-["school"] = 4,
-["type"] = "DEBUFF",
+[97235] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Lava Wave",
+["source"] = "Majordomo Staghelm",
 },
 [82320] = {
 ["school"] = 1,
@@ -1970,27 +1974,31 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[106401] = {
-["school"] = 32,
+[78807] = {
+["school"] = 1,
 ["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Goriona",
+["source"] = "Ozruk",
 },
-[97235] = {
+[104900] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Majordomo Staghelm",
+["source"] = "Cobalt Globule",
 },
-[99990] = {
+[87726] = {
 ["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Engorged Broodling",
+["source"] = "Grounding Field",
 },
 [109563] = {
 ["school"] = 8,
@@ -2022,13 +2030,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "General Husam",
 },
-[100129] = {
+[100359] = {
 ["school"] = 1,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Rageface",
+["source"] = "Voracious Hatchling",
 },
 [83151] = {
 ["school"] = 8,
@@ -2045,13 +2053,14 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 },
-[102111] = {
+[107029] = {
 ["school"] = 1,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Herald of the Burning End",
+["source"] = "Mutated Corruption",
 },
 [103176] = {
 ["school"] = 1,
@@ -2062,12 +2071,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[103527] = {
-["school"] = 32,
+[99461] = {
+["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Void of the Unmaking",
 },
 [99362] = {
 ["school"] = 1,
@@ -2094,12 +2103,17 @@ EncounterDetailsDB = {
 },
 ["source"] = "Magma Trap",
 },
-[79340] = {
-["school"] = 32,
+[101223] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "High Priestess Azil",
+["source"] = "Blazing Talon Initiate",
 },
 [104901] = {
 ["school"] = 1,
@@ -2119,13 +2133,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Blistering Tentacle",
 },
-[99287] = {
-["school"] = 4,
+[83446] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Living Meteor",
+["source"] = "Minion of Siamat",
 },
 [104451] = {
 ["school"] = 16,
@@ -2180,22 +2193,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Plump Lava Worm",
 },
-[100761] = {
-["school"] = 1,
+[83051] = {
+["school"] = 8,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Herald of the Burning End",
+["source"] = "Cloud Burst",
 },
-[98584] = {
+[99606] = {
 ["school"] = 4,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Burning Orb",
+["source"] = "Alysrazor",
 },
 [105285] = {
 ["school"] = 1,
@@ -2205,12 +2216,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ice Lance",
 },
-[98552] = {
-["school"] = 4,
+[69425] = {
+["school"] = 16,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Lord Rhyolith",
+["source"] = "Collapsing Icicle",
 },
 [106371] = {
 ["school"] = 34,
@@ -2220,21 +2231,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[99389] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Voracious Hatchling",
-},
-[99359] = {
-["school"] = 1,
+[100628] = {
+["school"] = 4,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Voracious Hatchling",
+["source"] = "Ragnaros",
+},
+[99844] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Alysrazor",
 },
 [105445] = {
 ["school"] = 4,
@@ -2245,27 +2257,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Blistering Tentacle",
 },
-[107595] = {
-["school"] = 1,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Twilight Elite Dreadblade",
-},
-[83094] = {
+[92122] = {
 ["school"] = 8,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Siamat",
 },
-[99984] = {
+[103534] = {
 ["school"] = 1,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Fire Scorpion",
+["source"] = "Resonating Crystal",
+},
+[105408] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Arm Tentacle",
 },
 [83089] = {
 ["school"] = 8,
@@ -2283,12 +2296,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Majordomo Staghelm",
 },
-[99601] = {
-["school"] = 1,
+[108799] = {
+["school"] = 32,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Kar the Everburning",
+["source"] = "Void of the Unmaking",
 },
 [91872] = {
 ["school"] = 8,
@@ -2299,42 +2314,38 @@ EncounterDetailsDB = {
 },
 ["source"] = "Servant of Siamat",
 },
-[99350] = {
+[105482] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Crystal Conductor",
+},
+[99601] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Kar the Everburning",
+},
+[103846] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Baleroc",
+["source"] = "Kohcrom",
 },
-[108799] = {
-["school"] = 32,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Void of the Unmaking",
-},
-[78859] = {
-["school"] = 64,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Ozruk",
-},
-[98264] = {
+[83445] = {
 ["school"] = 4,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Volcano",
+["source"] = "General Husam",
 },
 [98164] = {
 ["school"] = 4,
@@ -2352,13 +2363,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[105573] = {
-["school"] = 8,
+[103687] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Maw of Shu'ma",
+["source"] = "Morchok",
 },
 [97238] = {
 ["school"] = 1,
@@ -2368,15 +2381,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Majordomo Staghelm",
 },
-[103821] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[106376] = {
+["school"] = 34,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Ultraxion",
 },
 [103434] = {
 ["school"] = 32,
@@ -2388,14 +2400,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Warlord Zon'ozz",
 },
-[103785] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[100495] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Kohcrom",
+["source"] = "Spear of Shannox",
 },
 [87622] = {
 ["school"] = 8,
@@ -2415,14 +2426,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "High Priestess Azil",
 },
-[106791] = {
-["school"] = 1,
+[82263] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Fragment",
+["source"] = "Soul Fragment",
 },
 [34655] = {
 ["school"] = 8,
@@ -2438,20 +2447,24 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twilight Sapper",
 },
-[100974] = {
+[105490] = {
 ["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Unleashed Flame",
-},
-[100656] = {
-["school"] = 1,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Rageface",
+["source"] = "Corruption",
+},
+[98255] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Volcano",
 },
 [25228] = {
 ["school"] = 32,
@@ -2461,20 +2474,19 @@ EncounterDetailsDB = {
 },
 ["source"] = "Khuumyn",
 },
-[99875] = {
+[100650] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Liquid Obsidian",
+["source"] = "Lord Rhyolith",
 },
-[97234] = {
-["school"] = 4,
+[103178] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Volcano",
+["source"] = "Morchok",
 },
 [59638] = {
 ["school"] = 16,
@@ -2525,36 +2537,38 @@ EncounterDetailsDB = {
 },
 ["source"] = "Blazing Talon Initiate",
 },
-[78939] = {
+[50461] = {
 ["school"] = 32,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Anti-Magic Zone",
+},
+[88308] = {
+["school"] = 16,
+["token"] = {
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ozruk",
-},
-[98493] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Lord Rhyolith",
-},
-[99695] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Flamewaker Sentinel",
-},
-[87532] = {
-["school"] = 32,
-["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Shadowy Apparition",
+["source"] = "Altairus",
+},
+[99934] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Cinderweb Drone",
+},
+[98263] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ragnaros",
 },
 [105671] = {
 ["school"] = 32,
@@ -2591,29 +2605,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[89105] = {
-["school"] = 8,
+[79351] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
 },
-["source"] = "Lurking Tempest",
+["source"] = "High Priestess Azil",
 },
-[106375] = {
-["school"] = 32,
+[98710] = {
+["school"] = 4,
 ["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Ragnaros",
+},
+[105033] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Ultraxion",
-},
-[103851] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Morchok",
+["source"] = "Yor'sahj the Unsleeping",
 },
 [99252] = {
 ["school"] = 4,
@@ -2647,32 +2660,32 @@ EncounterDetailsDB = {
 },
 ["source"] = "Beth'tilac",
 },
-[98646] = {
-["school"] = 1,
-["type"] = "BUFF",
+[105289] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Fragment of Rhyolith",
+["source"] = "Hagara the Stormbinder",
 },
-[105033] = {
+[107588] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Goriona",
+},
+[99333] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Yor'sahj the Unsleeping",
-},
-[105409] = {
-["school"] = 8,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Hagara the Stormbinder",
+["source"] = "Beth'tilac",
 },
 [98837] = {
 ["school"] = 1,
@@ -2713,80 +2726,79 @@ EncounterDetailsDB = {
 },
 ["source"] = "Augh",
 },
-[99333] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Beth'tilac",
-},
-[105289] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[105409] = {
+["school"] = 8,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[107588] = {
+[98646] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Fragment of Rhyolith",
+},
+[103851] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
+},
+[106375] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ultraxion",
+},
+[89105] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Lurking Tempest",
+},
+[87532] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Shadowy Apparition",
+},
+[99695] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Flamewaker Sentinel",
+},
+[98493] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Goriona",
+["source"] = "Lord Rhyolith",
 },
-[98710] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Ragnaros",
-},
-[79351] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_START"] = true,
-},
-["source"] = "High Priestess Azil",
-},
-[98263] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Ragnaros",
-},
-[99934] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Cinderweb Drone",
-},
-[88308] = {
-["school"] = 16,
-["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Altairus",
-},
-[50461] = {
+[78939] = {
 ["school"] = 32,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Anti-Magic Zone",
+["source"] = "Ozruk",
 },
 [107589] = {
 ["school"] = 32,
@@ -2803,38 +2815,35 @@ EncounterDetailsDB = {
 },
 ["source"] = "Beth'tilac",
 },
-[103178] = {
-["school"] = 1,
+[97234] = {
+["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Volcano",
 },
-[100650] = {
+[99875] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Lord Rhyolith",
+["source"] = "Liquid Obsidian",
 },
-[98255] = {
-["school"] = 4,
+[100656] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Volcano",
+["source"] = "Rageface",
 },
-[105490] = {
+[100974] = {
 ["school"] = 4,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Corruption",
+["source"] = "Unleashed Flame",
 },
 [99605] = {
 ["school"] = 4,
@@ -2843,12 +2852,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Alysrazor",
 },
-[82263] = {
-["school"] = 32,
+[106791] = {
+["school"] = 1,
 ["token"] = {
+["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Soul Fragment",
+["source"] = "Elementium Fragment",
 },
 [98136] = {
 ["school"] = 4,
@@ -2857,58 +2868,60 @@ EncounterDetailsDB = {
 },
 ["source"] = "Lord Rhyolith",
 },
-[100495] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Spear of Shannox",
-},
-[106376] = {
-["school"] = 34,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ultraxion",
-},
-[103687] = {
-["school"] = 1,
+[103785] = {
+["school"] = 8,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_DAMAGE"] = true,
+},
+["source"] = "Kohcrom",
+},
+[103821] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Morchok",
 },
-[83445] = {
+[105573] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Maw of Shu'ma",
+},
+[98264] = {
 ["school"] = 4,
+["type"] = "BUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Volcano",
+},
+[78859] = {
+["school"] = 64,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Ozruk",
+},
+[99350] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
-},
-["source"] = "General Husam",
-},
-[103846] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Kohcrom",
-},
-[105482] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Crystal Conductor",
+["source"] = "Baleroc",
 },
 [107558] = {
 ["school"] = 32,
@@ -2921,67 +2934,67 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twilight Elite Dreadblade",
 },
-[105408] = {
-["school"] = 4,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Arm Tentacle",
-},
-[103534] = {
+[99984] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Resonating Crystal",
-},
-[92122] = {
-["school"] = 8,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-},
-[99844] = {
-["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Alysrazor",
-},
-[100628] = {
-["school"] = 4,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Ragnaros",
+["source"] = "Fire Scorpion",
 },
-[69425] = {
-["school"] = 16,
+[83094] = {
+["school"] = 8,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Collapsing Icicle",
+["source"] = "Siamat",
 },
-[99606] = {
+[107595] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Twilight Elite Dreadblade",
+},
+[99359] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Voracious Hatchling",
+},
+[99389] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Voracious Hatchling",
+},
+[98552] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Alysrazor",
+["source"] = "Lord Rhyolith",
 },
-[83051] = {
-["school"] = 8,
+[98584] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Burning Orb",
+},
+[100761] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Cloud Burst",
+["source"] = "Herald of the Burning End",
 },
 [109379] = {
 ["school"] = 1,
@@ -3016,24 +3029,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Living Meteor",
 },
-[83446] = {
-["school"] = 8,
-["token"] = {
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Minion of Siamat",
-},
-[101223] = {
+[99287] = {
 ["school"] = 4,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Blazing Talon Initiate",
+["source"] = "Living Meteor",
+},
+[79340] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "High Priestess Azil",
 },
 [99351] = {
 ["school"] = 4,
@@ -3042,48 +3051,47 @@ EncounterDetailsDB = {
 },
 ["source"] = "Baleroc",
 },
-[99461] = {
-["school"] = 4,
+[103527] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Void of the Unmaking",
+},
+[102111] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Herald of the Burning End",
+},
+[100129] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
+["source"] = "Rageface",
 },
-[107029] = {
-["school"] = 1,
+[99990] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Mutated Corruption",
+["source"] = "Engorged Broodling",
 },
-[100359] = {
-["school"] = 1,
+[98928] = {
+["school"] = 4,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Voracious Hatchling",
+["source"] = "Lava Wave",
 },
-[87726] = {
-["school"] = 8,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Grounding Field",
-},
-[104900] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Cobalt Globule",
-},
-[78807] = {
+[78903] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
@@ -3110,39 +3118,34 @@ EncounterDetailsDB = {
 },
 ["source"] = "Skyfall Star",
 },
-[99937] = {
+[105027] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Shannox",
-},
-[105369] = {
-["school"] = 8,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-},
-["source"] = "Crystal Conductor",
-},
-[84982] = {
-["school"] = 8,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Siamat",
+["source"] = "Yor'sahj the Unsleeping",
 },
-[106378] = {
-["school"] = 34,
+[103494] = {
+["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Ultraxion",
+["source"] = "Resonating Crystal",
+},
+[99278] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
+[99224] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
 },
 [99256] = {
 ["school"] = 32,
@@ -3160,15 +3163,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Harbinger of Darkness",
 },
-[99308] = {
+[107567] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Voracious Hatchling",
+["source"] = "Twilight Elite Slayer",
 },
 [99352] = {
 ["school"] = 1,
@@ -3180,13 +3184,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Baleroc",
 },
-[99907] = {
-["school"] = 4,
+[92426] = {
+["school"] = 64,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
+["source"] = "Ozruk",
 },
 [17253] = {
 ["school"] = 1,
@@ -3203,30 +3209,27 @@ EncounterDetailsDB = {
 },
 ["source"] = "Resonating Crystal",
 },
-[105465] = {
-["school"] = 8,
-["type"] = "DEBUFF",
+[98237] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Ragnaros",
 },
-[101111] = {
-["school"] = 1,
-["type"] = "BUFF",
+[79249] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Riplimb",
 },
-[100415] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[105723] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Rageface",
+["source"] = "Elementium Bolt",
 },
 [106730] = {
 ["school"] = 32,
@@ -3253,24 +3256,23 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Fragment",
 },
-[98535] = {
-["school"] = 4,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Majordomo Staghelm",
-},
-[103968] = {
+[1227589] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Crimson Globule",
+["source"] = "Cobalt Globule",
+},
+[78835] = {
+["school"] = 64,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ozruk",
 },
 [108934] = {
 ["school"] = 1,
@@ -3281,38 +3283,39 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[98443] = {
+[100604] = {
 ["school"] = 4,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Majordomo Staghelm",
-},
-[98952] = {
-["school"] = 4,
-["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
 ["source"] = "Ragnaros",
 },
-[81947] = {
+[100167] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "High Prophet Barim",
+["source"] = "Rageface",
 },
-[107018] = {
-["school"] = 4,
+[99832] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Deathwing",
+["source"] = "Riplimb",
+},
+[99353] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Baleroc",
 },
 [82522] = {
 ["school"] = 1,
@@ -3321,7 +3324,7 @@ EncounterDetailsDB = {
 },
 ["source"] = "High Prophet Barim",
 },
-[99235] = {
+[98953] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
@@ -3329,14 +3332,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ragnaros",
 },
-[104896] = {
-["school"] = 1,
-["type"] = "BUFF",
+[98175] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Shadowed Globule",
+["source"] = "Magma Trap",
 },
 [110212] = {
 ["school"] = 32,
@@ -3347,12 +3349,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Goriona",
 },
-[82139] = {
+[100024] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "High Prophet Barim",
+["source"] = "Voracious Hatchling",
 },
 [88814] = {
 ["school"] = 2,
@@ -3363,29 +3368,24 @@ EncounterDetailsDB = {
 },
 ["source"] = "High Prophet Barim",
 },
-[82506] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "High Prophet Barim",
-},
-[97282] = {
+[98498] = {
 ["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Lord Rhyolith",
-},
-[51963] = {
-["school"] = 8,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Ebon Gargoyle",
+},
+[99842] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Spear of Shannox",
+},
+[83454] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
 },
 },
 ["emotes"] = {

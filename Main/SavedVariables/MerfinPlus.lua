@@ -12,18 +12,19 @@ MerfinPlusSaved = {
 ["Kwasimojo - Venoxis"] = "MerfinUI (7.4)",
 },
 ["profiles"] = {
+["MerfinUI (7.48)"] = {
+["bar3"] = "Merfin Main Texture",
+},
 ["MerfinUI (7.4)"] = {
 ["bar3"] = "Merfin Main Texture",
 ["breakSenderName"] = "Mandau",
 ["pullTotalTime"] = 20,
 ["pullSenderName"] = "Mandau",
 },
-["MerfinUI (7.48)"] = {
-["bar3"] = "Merfin Main Texture",
-},
 ["Default"] = {
 },
 ["MerfinUI (7.49)"] = {
+["bar3"] = "Merfin Main Texture",
 },
 },
 }
