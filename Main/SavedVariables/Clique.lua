@@ -30,10 +30,10 @@ CliqueDB3 = {
 ["statusBarFix"] = false,
 },
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alslalu - Venoxis",
-["downclick"] = false,
-["specswap"] = false,
 ["spec3_profileKey"] = "Alslalu - Venoxis",
+["downclick"] = false,
+["spec2_profileKey"] = "Alslalu - Venoxis",
+["specswap"] = false,
 },
 },
 ["profileKeys"] = {

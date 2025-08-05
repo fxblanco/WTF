@@ -20,15 +20,12 @@ ProjectAzilrokaDB = {
 ["AuraReminder"] = {
 ["Enable"] = false,
 },
-["SquareMinimapButtons"] = {
-["ButtonSpacing"] = -1,
-["ReverseDirection"] = true,
-["MoveMail"] = false,
-["Backdrop"] = false,
-["IconSize"] = 25,
-["Shadows"] = false,
-["BarMouseOver"] = true,
-["ButtonsPerRow"] = 3,
+["EnhancedFriendsList"] = {
+["InfoFontSize"] = 14,
+["Enable"] = false,
+["DiffLevel"] = false,
+["NameFontSize"] = 14,
+["Texture"] = "Merfin Main Texture",
 },
 ["DragonOverlay"] = {
 ["Enable"] = false,
@@ -45,17 +42,20 @@ ProjectAzilrokaDB = {
 ["stAddonManager"] = {
 ["Enable"] = false,
 },
-["EnhancedFriendsList"] = {
-["InfoFontSize"] = 14,
-["Enable"] = false,
-["DiffLevel"] = false,
-["NameFontSize"] = 14,
-["Texture"] = "Merfin Main Texture",
-},
-["Cooldown"] = {
-["Enable"] = false,
+["SquareMinimapButtons"] = {
+["ButtonSpacing"] = -1,
+["ReverseDirection"] = true,
+["MoveMail"] = false,
+["Backdrop"] = false,
+["IconSize"] = 25,
+["Shadows"] = false,
+["BarMouseOver"] = true,
+["ButtonsPerRow"] = 3,
 },
 ["FasterLoot"] = {
+["Enable"] = false,
+},
+["Cooldown"] = {
 ["Enable"] = false,
 },
 },

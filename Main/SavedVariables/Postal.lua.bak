@@ -16,7 +16,7 @@ Postal3DB = {
 ["alts"] = {
 "Alsia|Venoxis|Horde|85|PALADIN",
 "Alslahunt|Venoxis|Horde|85|HUNTER",
-"Alslalock|Venoxis|Horde|86|WARLOCK",
+"Alslalock|Venoxis|Horde|90|WARLOCK",
 "Alslalu|Venoxis|Horde|90|SHAMAN",
 "Alsla|Venoxis|Horde|85|DEATHKNIGHT",
 "Alsía|Venoxis|Horde|85|PALADIN",
@@ -37,12 +37,15 @@ Postal3DB = {
 ["Alsía - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Alslalu|Venoxis|Horde",
+"Taschte|Venoxis|Horde",
+"Taschte-Venoxis|Venoxis|Horde",
+"Vextria-Venoxis|Venoxis|Horde",
 "Alslalock|Venoxis|Horde",
 "Alslahunt|Venoxis|Horde",
 "Alsia|Venoxis|Horde",
 "Graveofjenna-Venoxis|Venoxis|Horde",
 "Alsla|Venoxis|Horde",
-"Alslalu|Venoxis|Horde",
 "Quynsh|Venoxis|Horde",
 },
 },
@@ -52,9 +55,10 @@ Postal3DB = {
 ["Alslalu - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
-"Alslalock|Venoxis|Horde",
 "Alsía|Venoxis|Horde",
+"Alslalock|Venoxis|Horde",
 "Ostblockolga|Venoxis|Horde",
+"Vextria|Venoxis|Horde",
 "Ostblockolga-Venoxis|Venoxis|Horde",
 "Alslahunt|Venoxis|Horde",
 "Alsia|Venoxis|Horde",

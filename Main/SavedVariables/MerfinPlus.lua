@@ -25,6 +25,10 @@ MerfinPlusSaved = {
 },
 ["MerfinUI (7.49)"] = {
 ["bar3"] = "Merfin Main Texture",
+["breakSenderName"] = "Andydotje",
+["pullTotalTime"] = 15,
+["pullSenderName"] = "Andydotje",
+["breakTotalTime"] = 180,
 },
 },
 }

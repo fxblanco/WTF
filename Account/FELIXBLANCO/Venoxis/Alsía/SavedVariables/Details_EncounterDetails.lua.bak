@@ -779,8 +779,8 @@ EncounterDetailsDB = {
 [98021] = {
 ["school"] = 8,
 ["token"] = {
-["SPELL_HEAL"] = true,
 ["SPELL_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
 },
 ["source"] = "Spirit Link Totem",
 },
@@ -1772,13 +1772,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Grounding Field",
 },
-[105027] = {
+[1226408] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Yor'sahj the Unsleeping",
+["source"] = "Asaad",
 },
 [109247] = {
 ["school"] = 1,
@@ -1795,11 +1795,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twilight Element Warden",
 },
-[93485] = {
-["school"] = 4,
+[75347] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
+["source"] = "Quake",
 },
 [25228] = {
 ["school"] = 32,
@@ -1809,21 +1810,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Bruumyn",
 },
-[90962] = {
+[88481] = {
 ["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Defias Shadowguard",
+["source"] = "Foe Reaper 5000",
 },
-[90960] = {
+[110137] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Defias Shadowguard",
+["source"] = "Warmaster Blackhorn",
 },
 [59638] = {
 ["school"] = 16,
@@ -1841,12 +1843,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Glubtok",
 },
-[105904] = {
+[90925] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
+["source"] = "Defias Enforcer",
 },
 [102381] = {
 ["school"] = 64,
@@ -1901,12 +1905,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Grounding Field",
 },
-[105408] = {
-["school"] = 4,
+[76508] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Arm Tentacle",
+["source"] = "Crazed Mage",
 },
 [105671] = {
 ["school"] = 32,
@@ -1915,14 +1923,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Forgotten One",
 },
-[90928] = {
+[103968] = {
 ["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Defias Enforcer",
+["source"] = "Glowing Globule",
 },
-[90560] = {
+[89263] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
@@ -1950,23 +1960,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "\"Captain\" Cookie",
 },
-[88521] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Foe Reaper 5000",
-},
-[90602] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "\"Captain\" Cookie",
-},
 [103851] = {
 ["school"] = 1,
 ["type"] = "BUFF",
@@ -1976,6 +1969,25 @@ EncounterDetailsDB = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
 ["source"] = "Morchok",
+},
+[75272] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Rom'ogg Bonecrusher",
+},
+[88521] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Foe Reaper 5000",
 },
 [105416] = {
 ["school"] = 32,
@@ -2040,25 +2052,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Karsh Steelbender",
 },
-[88836] = {
+[1227589] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Admiral Ripsnarl",
+["source"] = "Cobalt Globule",
 },
-[92007] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[76677] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Vapor",
+["source"] = "Twilight Element Warden",
 },
 [88839] = {
 ["school"] = 1,
@@ -2068,13 +2077,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Admiral Ripsnarl",
 },
-[88974] = {
+[105033] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Sticky Bomb",
+["source"] = "Yor'sahj the Unsleeping",
 },
 [105289] = {
 ["school"] = 16,
@@ -2119,11 +2128,16 @@ EncounterDetailsDB = {
 },
 ["source"] = "Shadowy Apparition",
 },
-[90096] = {
-["school"] = 4,
+[107567] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 },
+["source"] = "Twilight Elite Slayer",
 },
 [96283] = {
 ["school"] = 4,
@@ -2133,12 +2147,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Vanessa VanCleef",
 },
-[88129] = {
-["school"] = 4,
+[108045] = {
+["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Glubtok",
+["source"] = "Warmaster Blackhorn",
 },
 [107589] = {
 ["school"] = 32,
@@ -2164,14 +2178,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ogre Bodyguard",
 },
-[89739] = {
+[103536] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
+["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "\"Captain\" Cookie",
+["source"] = "Resonating Crystal",
 },
 [87874] = {
 ["school"] = 4,
@@ -2186,14 +2199,13 @@ EncounterDetailsDB = {
 ["SPELL_DAMAGE"] = true,
 },
 },
-[91830] = {
+[76274] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
+["type"] = "BUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Molten Slag",
+["source"] = "Ascendant Lord Obsidius",
 },
 [106791] = {
 ["school"] = 1,
@@ -2212,15 +2224,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ascendant Lord Obsidius",
 },
-[103821] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[75610] = {
+["school"] = 32,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Morchok",
+["source"] = "Corla, Herald of Twilight",
 },
 [106376] = {
 ["school"] = 34,
@@ -2231,24 +2241,20 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[88308] = {
-["school"] = 16,
+[105573] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Altairus",
+["source"] = "Maw of Shu'ma",
 },
-[105409] = {
+[89105] = {
 ["school"] = 8,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Lurking Tempest",
 },
 [1604] = {
 ["school"] = 1,
@@ -2278,14 +2284,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twilight Elite Dreadblade",
 },
-[105316] = {
-["school"] = 16,
+[106199] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Ice Lance",
+["source"] = "Hideous Amalgamation",
 },
 [103534] = {
 ["school"] = 1,
@@ -2304,15 +2310,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mining Powder",
 },
-[76185] = {
+[75539] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
 },
-["source"] = "Ascendant Lord Obsidius",
+["source"] = "Rom'ogg Bonecrusher",
 },
 [88300] = {
 ["school"] = 1,
@@ -2329,15 +2333,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Collapsing Icicle",
 },
-[108589] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[76680] = {
+["school"] = 8,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Murozond",
+["source"] = "Twilight Element Warden",
 },
 [90951] = {
 ["school"] = 1,
@@ -2371,31 +2373,28 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[87854] = {
-["school"] = 64,
+[75590] = {
+["school"] = 32,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Twilight Sadist",
+},
+[106401] = {
+["school"] = 32,
+["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Skyfall Star",
+["source"] = "Goriona",
 },
-[105490] = {
-["school"] = 4,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Corruption",
-},
-[88490] = {
+[106369] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Foe Reaper 5000",
+["source"] = "Ultraxion",
 },
 [76032] = {
 ["school"] = 4,
@@ -2413,14 +2412,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Twilight Zealot",
 },
-[108044] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Warmaster Blackhorn",
-},
 [105369] = {
 ["school"] = 8,
 ["type"] = "DEBUFF",
@@ -2429,6 +2420,14 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Crystal Conductor",
+},
+[108044] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Warmaster Blackhorn",
 },
 [87726] = {
 ["school"] = 8,
@@ -2445,53 +2444,60 @@ EncounterDetailsDB = {
 },
 ["source"] = "Rom'ogg Bonecrusher",
 },
-[106369] = {
+[88490] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Ultraxion",
-},
-[106401] = {
-["school"] = 32,
-["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Goriona",
+["source"] = "Foe Reaper 5000",
 },
-[75590] = {
-["school"] = 32,
-["type"] = "BUFF",
+[105490] = {
+["school"] = 4,
+["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Twilight Sadist",
+["source"] = "Corruption",
 },
-[76680] = {
-["school"] = 8,
+[87854] = {
+["school"] = 64,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Twilight Element Warden",
+["source"] = "Skyfall Star",
 },
-[75539] = {
-["school"] = 1,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
-},
-["source"] = "Rom'ogg Bonecrusher",
-},
-[106199] = {
+[108589] = {
 ["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Hideous Amalgamation",
+["source"] = "Murozond",
+},
+[76185] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ascendant Lord Obsidius",
+},
+[105316] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ice Lance",
 },
 [106378] = {
 ["school"] = 34,
@@ -2502,28 +2508,34 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ultraxion",
 },
-[89105] = {
+[105409] = {
 ["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[88308] = {
+["school"] = 16,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
-},
-["source"] = "Lurking Tempest",
-},
-[105573] = {
-["school"] = 8,
-["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Maw of Shu'ma",
+["source"] = "Altairus",
 },
-[75610] = {
-["school"] = 32,
+[103821] = {
+["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_CAST_START"] = true,
 },
-["source"] = "Corla, Herald of Twilight",
+["source"] = "Morchok",
 },
 [75846] = {
 ["school"] = 4,
@@ -2533,13 +2545,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Karsh Steelbender",
 },
-[76274] = {
+[91830] = {
 ["school"] = 1,
-["type"] = "BUFF",
+["type"] = "DEBUFF",
 ["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Ascendant Lord Obsidius",
+["source"] = "Molten Slag",
 },
 [17253] = {
 ["school"] = 1,
@@ -2548,13 +2561,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Wolf",
 },
-[103536] = {
+[89739] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Resonating Crystal",
+["source"] = "\"Captain\" Cookie",
 },
 [91815] = {
 ["school"] = 4,
@@ -2565,23 +2579,18 @@ EncounterDetailsDB = {
 },
 ["source"] = "Molten Slag",
 },
-[108045] = {
-["school"] = 1,
+[88129] = {
+["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Warmaster Blackhorn",
+["source"] = "Glubtok",
 },
-[107567] = {
-["school"] = 1,
-["type"] = "DEBUFF",
+[90096] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
 },
-["source"] = "Twilight Elite Slayer",
 },
 [106730] = {
 ["school"] = 32,
@@ -2593,13 +2602,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Terror",
 },
-[105033] = {
+[88974] = {
 ["school"] = 4,
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Yor'sahj the Unsleeping",
+["source"] = "Sticky Bomb",
 },
 [106794] = {
 ["school"] = 1,
@@ -2609,22 +2618,25 @@ EncounterDetailsDB = {
 },
 ["source"] = "Elementium Fragment",
 },
-[76677] = {
-["school"] = 4,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Twilight Element Warden",
-},
-[1227589] = {
-["school"] = 1,
-["type"] = "BUFF",
+[92007] = {
+["school"] = 16,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Cobalt Globule",
+["source"] = "Vapor",
+},
+[88836] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Admiral Ripsnarl",
 },
 [108934] = {
 ["school"] = 1,
@@ -2644,16 +2656,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Vanessa VanCleef",
 },
-[75272] = {
+[90602] = {
 ["school"] = 1,
-["type"] = "DEBUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_START"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Rom'ogg Bonecrusher",
+["source"] = "\"Captain\" Cookie",
 },
 [109541] = {
 ["school"] = 1,
@@ -2670,7 +2680,7 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathwing",
 },
-[89263] = {
+[90560] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_CAST_START"] = true,
@@ -2679,25 +2689,19 @@ EncounterDetailsDB = {
 },
 ["source"] = "\"Captain\" Cookie",
 },
-[103968] = {
+[90928] = {
 ["school"] = 1,
-["type"] = "BUFF",
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
 ["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Glowing Globule",
+["source"] = "Defias Enforcer",
 },
-[76508] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[105408] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Crazed Mage",
+["source"] = "Arm Tentacle",
 },
 [110212] = {
 ["school"] = 32,
@@ -2708,46 +2712,42 @@ EncounterDetailsDB = {
 },
 ["source"] = "Goriona",
 },
-[90925] = {
+[105904] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Defias Enforcer",
 },
-[110137] = {
+[90960] = {
 ["school"] = 1,
+["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Warmaster Blackhorn",
-},
-[88481] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_START"] = true,
-["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Foe Reaper 5000",
+["source"] = "Defias Shadowguard",
 },
-[75347] = {
+[90962] = {
 ["school"] = 1,
 ["token"] = {
 ["SPELL_DAMAGE"] = true,
 },
-["source"] = "Quake",
+["source"] = "Defias Shadowguard",
 },
-[1226408] = {
+[93485] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
+[105027] = {
 ["school"] = 1,
 ["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 },
-["source"] = "Asaad",
+["source"] = "Yor'sahj the Unsleeping",
 },
 },
 ["emotes"] = {

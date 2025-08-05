@@ -1,21 +1,21 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[166] = {
+[138] = {
 },
 [144] = {
 },
 [162] = {
 },
-[138] = {
+[166] = {
 },
 [149] = {
 },
-[153] = {
+[160] = {
 },
 [164] = {
 },
-[160] = {
+[153] = {
 },
 },
 ["encounter_spells"] = {
@@ -897,14 +897,6 @@ EncounterDetailsDB = {
 },
 ["source"] = "Hagara the Stormbinder",
 },
-[135299] = {
-["school"] = 16,
-["type"] = "DEBUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-},
-["source"] = "Congealing Blood",
-},
 [107558] = {
 ["school"] = 32,
 ["type"] = "DEBUFF",
@@ -915,6 +907,14 @@ EncounterDetailsDB = {
 ["SPELL_PERIODIC_DAMAGE"] = true,
 },
 ["source"] = "Twilight Elite Dreadblade",
+},
+[135299] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Congealing Blood",
 },
 [103494] = {
 ["school"] = 1,
@@ -1008,24 +1008,22 @@ EncounterDetailsDB = {
 },
 ["source"] = "Deathwing",
 },
-[106730] = {
-["school"] = 32,
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[104451] = {
+["school"] = 16,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
 ["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Terror",
-},
-[103176] = {
-["school"] = 1,
-["type"] = "BUFF",
-["token"] = {
-["SPELL_AURA_APPLIED"] = true,
-["SPELL_CAST_SUCCESS"] = true,
-},
-["source"] = "Morchok",
+["source"] = "Hagara the Stormbinder",
 },
 [81262] = {
 ["school"] = 8,
@@ -1077,14 +1075,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Void of the Unmaking",
 },
-[104451] = {
-["school"] = 16,
-["type"] = "DEBUFF",
+[103176] = {
+["school"] = 1,
+["type"] = "BUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Hagara the Stormbinder",
+["source"] = "Morchok",
 },
 [48210] = {
 ["school"] = 32,
@@ -1093,13 +1091,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[1604] = {
-["school"] = 1,
+[106730] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Corrupted Blood",
+["source"] = "Elementium Terror",
 },
 [103846] = {
 ["school"] = 1,

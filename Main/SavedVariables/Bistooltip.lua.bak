@@ -6,15 +6,17 @@ BisTooltipDB = {
 ["Alsía - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
+["Alsla - Venoxis"] = "Default",
 ["Endonuclease - Venoxis"] = "Default",
 ["Alsia - Venoxis"] = "Default",
 },
 ["char"] = {
 ["Alslalu - Venoxis"] = {
 ["class_index"] = 9,
-["data_source"] = "wh",
 ["version"] = 9,
-["spec_index"] = 3,
+["spec_index"] = 2,
+["data_source"] = "wh",
+["phase_index"] = 2,
 },
 ["Alslahunt - Venoxis"] = {
 ["data_source"] = "wh",
@@ -29,6 +31,10 @@ BisTooltipDB = {
 ["data_source"] = "wh",
 },
 ["Alslalock - Venoxis"] = {
+["data_source"] = "wh",
+["version"] = 9,
+},
+["Alsla - Venoxis"] = {
 ["version"] = 9,
 ["data_source"] = "wh",
 },

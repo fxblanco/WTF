@@ -45,14 +45,14 @@ Details_TinyThreat: enabled
 Details_Vanguard: enabled
 DevTool: enabled
 Drift: enabled
-ElvUI_CataArmory: enabled
+ElvUI_CataArmory: disabled
 ElvUI: enabled
 ElvUI_Libraries: enabled
 ElvUI_MerfinUI: enabled
 ElvUI_Options: enabled
 ErrorFilter: enabled
 FojjiCore: enabled
-Gargul: enabled
+Gargul: disabled
 GDKPd: disabled
 Gladdy: disabled
 Grid2: enabled
@@ -87,7 +87,7 @@ Postal: enabled
 ProjectAzilroka: enabled
 Questie: enabled
 ReforgeLite: enabled
-RXPGuides: enabled
+RXPGuides: disabled
 RXP Leveling: enabled
 SharedMedia: enabled
 SimpleAddonManager: enabled
@@ -127,3 +127,4 @@ ElvUI_WrathArmory: disabled
 WeakAurasCompanion: enabled
 OPie_Classic: disabled
 Blizzard_CombatText: enabled
+BattlegroundTargets: disabled

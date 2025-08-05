@@ -2025,6 +2025,14 @@ EncounterDetailsDB = {
 },
 ["source"] = "Ice Lance",
 },
+[76612] = {
+["school"] = 64,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Twilight Zealot",
+},
 [75590] = {
 ["school"] = 32,
 ["type"] = "BUFF",
@@ -2033,14 +2041,6 @@ EncounterDetailsDB = {
 ["SPELL_AURA_APPLIED"] = true,
 },
 ["source"] = "Twilight Sadist",
-},
-[76612] = {
-["school"] = 64,
-["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
-["SPELL_DAMAGE"] = true,
-},
-["source"] = "Twilight Zealot",
 },
 [107558] = {
 ["school"] = 32,
