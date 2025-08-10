@@ -9,9 +9,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec3_profileKey"] = "Alslalock - Venoxis",
 ["specswap"] = false,
 ["spec2_profileKey"] = "Alslalock - Venoxis",
+["spec3_profileKey"] = "Alslalock - Venoxis",
 },
 ["Alslahunt - Venoxis"] = {
 ["spec1_profileKey"] = "Alslahunt - Venoxis",

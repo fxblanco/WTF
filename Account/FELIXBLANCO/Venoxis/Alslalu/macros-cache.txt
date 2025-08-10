@@ -44,6 +44,16 @@ VER 3 010000000100021E "SHA_6" "134400"
 #showtooltip
 /cast [mod:ctrl] Ancestral Swiftness; [mod:shift] Call of the Elements ; Healing Tide Totem
 END
+VER 3 0100000001000220 "SHA_ascend" "134400"
+#showtooltip
+/cast Ascendance
+/cast Elemental Mastery
+/cast Blood Fury
+/cast Lifeblood
+/use 10
+/use 13
+/use 14
+END
 VER 3 0100000001000210 "SHA_cd" "134400"
 #showtooltip
 /cast Elemental Mastery
@@ -64,6 +74,14 @@ VER 3 0100000001000208 "SHA_focus" "134400"
 /cast [@focus] Wind Shear
 /cast Wind Shear
 END
+VER 3 010000000100021F "SHA_fury" "134400"
+#showtooltip
+/cast Blood Fury
+/cast Lifeblood
+/use 10
+/use 13
+/use 14
+END
 VER 3 010000000100021B "SHA_totem" "134400"
 #showtooltip
 /cast [mod:ctrl] Tremor Totem; [mod:shift] Earthbind Totem ; Capacitor Totem
@@ -76,5 +94,5 @@ VER 3 010000000100020A "SHAM_FS-Nova" "134400"
 END
 VER 3 0100000001000217 "TP" "134400"
 #showtooltip
-/cast [@cursor] Totemic Projection
+/cast [mod:shift] Totemic Recall; [@cursor] Totemic Projection
 END

@@ -9,18 +9,18 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
+["spec3_profileKey"] = "Alslalock - Venoxis",
 ["spec2_profileKey"] = "Alslalock - Venoxis",
 ["specswap"] = false,
-["spec3_profileKey"] = "Alslalock - Venoxis",
 },
 ["Alslahunt - Venoxis"] = {
 ["spec1_profileKey"] = "Alslahunt - Venoxis",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Alslahunt - Venoxis",
-["downclick"] = false,
 ["specswap"] = false,
 ["spec2_profileKey"] = "Alslahunt - Venoxis",
 },
@@ -29,9 +29,9 @@ CliqueDB3 = {
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Alslalu - Venoxis",
+["downclick"] = false,
 ["specswap"] = false,
 ["spec2_profileKey"] = "Alslalu - Venoxis",
 },
@@ -125,13 +125,6 @@ CliqueDB3 = {
 ["unit"] = "mouseover",
 },
 {
-["type"] = "menu",
-["key"] = "ALT-BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-{
 ["spell"] = "Greater Healing Wave",
 ["key"] = "BUTTON2",
 ["sets"] = {
@@ -150,21 +143,19 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["type"] = "menu",
+["key"] = "ALT-BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+{
 ["spell"] = "Healing Wave",
 ["key"] = "SHIFT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
 ["icon"] = 136052,
-["type"] = "spell",
-},
-{
-["spell"] = "Riptide",
-["key"] = "BUTTON3",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 252995,
 ["type"] = "spell",
 },
 {
@@ -183,6 +174,15 @@ CliqueDB3 = {
 ["default"] = true,
 },
 ["icon"] = 136089,
+["type"] = "spell",
+},
+{
+["spell"] = "Riptide",
+["key"] = "BUTTON3",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 252995,
 ["type"] = "spell",
 },
 {

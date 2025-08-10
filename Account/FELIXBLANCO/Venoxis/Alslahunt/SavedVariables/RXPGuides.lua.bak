@@ -637,12 +637,12 @@ RXPCComms = {
 ["Alslahunt - Venoxis"] = {
 ["players"] = {
 ["Armorgeddon"] = {
-["level"] = 85,
+["class"] = "DEATHKNIGHT",
 ["lastSeen"] = 253555.974,
 ["xpPercentage"] = 0,
-["class"] = "DEATHKNIGHT",
-["timePlayed"] = 0,
 ["isRxp"] = true,
+["timePlayed"] = 0,
+["level"] = 85,
 },
 },
 },

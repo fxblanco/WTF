@@ -19,7 +19,7 @@ AtlasLootClassic_Options: enabled
 AtlasLootClassic_PvP: enabled
 Auctionator: enabled
 AutoCombatLogger: enabled
-Baganator: disabled
+Baganator: enabled
 BigDebuffs: disabled
 BigWigs: enabled
 BigWigs_Cataclysm: enabled
@@ -85,7 +85,7 @@ OPie: enabled
 Plater: enabled
 Postal: enabled
 ProjectAzilroka: enabled
-Questie: enabled
+Questie: disabled
 ReforgeLite: enabled
 RXPGuides: disabled
 RXP Leveling: enabled
@@ -128,3 +128,5 @@ WeakAurasCompanion: enabled
 OPie_Classic: disabled
 Blizzard_CombatText: enabled
 BattlegroundTargets: disabled
+ElvUI_RatioMinimapAuras: disabled
+RCLootCouncil_Classic: disabled

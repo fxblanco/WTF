@@ -13,6 +13,13 @@ X: 0
 Y: 0
 W: 610
 H: 438
+Frame: RARESCANNER_BUTTON
+FrameLevel: 200
+Anchor: BOTTOM
+X: 0
+Y: 128
+W: 200
+H: 50
 Frame: DevToolFrame
 FrameLevel: 1
 Anchor: CENTER

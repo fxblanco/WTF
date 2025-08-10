@@ -2,6 +2,118 @@
 ReforgeLiteDB = {
 ["char"] = {
 ["Alslalu - Venoxis"] = {
+["method"] = {
+["items"] = {
+{
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 185,
+},
+{
+["dst"] = 8,
+["src"] = 6,
+["amount"] = 214,
+["reforge"] = 42,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 143,
+},
+{
+["dst"] = 7,
+["src"] = 5,
+["reforge"] = 34,
+["amount"] = 205,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 143,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["amount"] = 164,
+["reforge"] = 32,
+},
+{
+["dst"] = 4,
+["src"] = 6,
+["amount"] = 183,
+["reforge"] = 39,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["reforge"] = 35,
+["amount"] = 289,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["amount"] = 262,
+["reforge"] = 35,
+},
+{
+["dst"] = 8,
+["src"] = 6,
+["amount"] = 164,
+["reforge"] = 42,
+},
+{
+["dst"] = 8,
+["src"] = 4,
+["reforge"] = 28,
+["amount"] = 101,
+},
+{
+["dst"] = 8,
+["src"] = 5,
+["amount"] = 338,
+["reforge"] = 35,
+},
+{
+},
+{
+["dst"] = 6,
+["src"] = 5,
+["amount"] = 124,
+["reforge"] = 33,
+},
+{
+["dst"] = 4,
+["src"] = 5,
+["reforge"] = 32,
+["amount"] = 124,
+},
+},
+["stats"] = {
+251,
+0,
+0,
+2552,
+3298,
+1972,
+2224,
+7990,
+},
+},
+["weights"] = {
+nil,
+nil,
+nil,
+149,
+66,
+84,
+130,
+121,
+},
 ["caps"] = {
 {
 ["stat"] = 4,
@@ -22,120 +134,38 @@ ReforgeLiteDB = {
 },
 },
 },
+},
+["Alslahunt - Venoxis"] = {
+["caps"] = {
+{
+["stat"] = 4,
+["points"] = {
+{
+["value"] = 768,
+["preset"] = 2,
+},
+},
+},
+{
+["stat"] = 7,
+["points"] = {
+{
+["value"] = 666,
+["preset"] = 5,
+},
+},
+},
+},
 ["weights"] = {
 nil,
 nil,
 nil,
-149,
-66,
-84,
-130,
-121,
+59,
+33,
+25,
+57,
+21,
 },
-["method"] = {
-["items"] = {
-{
-},
-{
-["dst"] = 8,
-["src"] = 5,
-["amount"] = 185,
-["reforge"] = 35,
-},
-{
-["dst"] = 8,
-["src"] = 6,
-["amount"] = 214,
-["reforge"] = 42,
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["amount"] = 143,
-["reforge"] = 32,
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["amount"] = 205,
-["reforge"] = 32,
-},
-{
-["dst"] = 8,
-["src"] = 5,
-["amount"] = 143,
-["reforge"] = 35,
-},
-{
-["dst"] = 4,
-["src"] = 5,
-["amount"] = 164,
-["reforge"] = 32,
-},
-{
-["dst"] = 7,
-["src"] = 6,
-["amount"] = 183,
-["reforge"] = 41,
-},
-{
-["dst"] = 8,
-["src"] = 5,
-["amount"] = 289,
-["reforge"] = 35,
-},
-{
-["dst"] = 8,
-["src"] = 7,
-["amount"] = 199,
-["reforge"] = 49,
-},
-{
-["dst"] = 8,
-["src"] = 6,
-["amount"] = 164,
-["reforge"] = 42,
-},
-{
-["dst"] = 8,
-["src"] = 6,
-["amount"] = 152,
-["reforge"] = 42,
-},
-{
-["dst"] = 8,
-["src"] = 5,
-["amount"] = 338,
-["reforge"] = 35,
-},
-{
-},
-{
-["dst"] = 7,
-["src"] = 6,
-["amount"] = 104,
-["reforge"] = 41,
-},
-{
-["dst"] = 7,
-["src"] = 6,
-["amount"] = 104,
-["reforge"] = 41,
-},
-},
-["stats"] = {
-251,
-0,
-0,
-2551,
-3188,
-2010,
-2211,
-7860,
-},
-},
-},
-["Alslahunt - Venoxis"] = {
 ["method"] = {
 ["items"] = {
 {
@@ -232,36 +262,6 @@ nil,
 1360,
 666,
 892,
-},
-},
-["weights"] = {
-nil,
-nil,
-nil,
-59,
-33,
-25,
-57,
-21,
-},
-["caps"] = {
-{
-["stat"] = 4,
-["points"] = {
-{
-["value"] = 768,
-["preset"] = 2,
-},
-},
-},
-{
-["stat"] = 7,
-["points"] = {
-{
-["value"] = 666,
-["preset"] = 5,
-},
-},
 },
 },
 },

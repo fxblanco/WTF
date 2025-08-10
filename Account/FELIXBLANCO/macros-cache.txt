@@ -45,7 +45,7 @@ VER 3 0000000000000018 "PET_follow" "134400"
 /petfollow
 END
 VER 3 000000000000002B "RXPTargeting" "132150"
-/targetexact Leven Dawnblade
+/targetexact Kaz'tik the Manipulator
 /targetlasttarget [dead]
 END
 VER 3 000000000000002D "Spine" "134400"

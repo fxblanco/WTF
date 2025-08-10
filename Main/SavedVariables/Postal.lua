@@ -37,12 +37,12 @@ Postal3DB = {
 ["Alsía - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Alslalock|Venoxis|Horde",
+"Alslahunt|Venoxis|Horde",
 "Alslalu|Venoxis|Horde",
 "Taschte|Venoxis|Horde",
 "Taschte-Venoxis|Venoxis|Horde",
 "Vextria-Venoxis|Venoxis|Horde",
-"Alslalock|Venoxis|Horde",
-"Alslahunt|Venoxis|Horde",
 "Alsia|Venoxis|Horde",
 "Graveofjenna-Venoxis|Venoxis|Horde",
 "Alsla|Venoxis|Horde",
@@ -55,9 +55,9 @@ Postal3DB = {
 ["Alslalu - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
-"Alsía|Venoxis|Horde",
 "Alslalock|Venoxis|Horde",
 "Ostblockolga|Venoxis|Horde",
+"Alsía|Venoxis|Horde",
 "Vextria|Venoxis|Horde",
 "Ostblockolga-Venoxis|Venoxis|Horde",
 "Alslahunt|Venoxis|Horde",
@@ -77,6 +77,7 @@ Postal3DB = {
 ["Alslalock - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Alslalu|Venoxis|Horde",
 "Graveofjenna|Venoxis|Horde",
 },
 },

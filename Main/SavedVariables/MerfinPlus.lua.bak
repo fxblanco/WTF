@@ -4,7 +4,7 @@ MerfinPlusSaved = {
 ["Alsla - Venoxis"] = "MerfinUI (7.4)",
 ["Alsía - Venoxis"] = "MerfinUI (7.4)",
 ["Exonuklease - Venoxis"] = "MerfinUI (7.4)",
-["Alslalu - Venoxis"] = "MerfinUI (7.49)",
+["Alslalu - Venoxis"] = "MerfinUI (7.5)",
 ["Alslahunt - Venoxis"] = "MerfinUI (7.4)",
 ["Alslalock - Venoxis"] = "MerfinUI (7.48)",
 ["Endonuclease - Venoxis"] = "MerfinUI (7.4)",
@@ -18,17 +18,21 @@ MerfinPlusSaved = {
 ["pullTotalTime"] = 20,
 ["pullSenderName"] = "Mandau",
 },
-["MerfinUI (7.48)"] = {
-["bar3"] = "Merfin Main Texture",
-},
 ["Default"] = {
 },
 ["MerfinUI (7.49)"] = {
 ["bar3"] = "Merfin Main Texture",
 ["breakTotalTime"] = 180,
 ["breakSenderName"] = "Andydotje",
-["pullTotalTime"] = 15,
-["pullSenderName"] = "Andydotje",
+["pullTotalTime"] = 10,
+["pullSenderName"] = "Xmø",
+},
+["MerfinUI (7.48)"] = {
+["bar3"] = "Merfin Main Texture",
+["pullTotalTime"] = 10,
+["pullSenderName"] = "Seos",
+},
+["MerfinUI (7.5)"] = {
 },
 },
 }

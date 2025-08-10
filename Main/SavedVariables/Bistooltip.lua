@@ -13,7 +13,7 @@ BisTooltipDB = {
 ["char"] = {
 ["Alslalu - Venoxis"] = {
 ["class_index"] = 9,
-["spec_index"] = 3,
+["spec_index"] = 2,
 ["phase_index"] = 2,
 ["data_source"] = "wh",
 ["version"] = 9,
@@ -23,14 +23,18 @@ BisTooltipDB = {
 ["version"] = 9,
 },
 ["Alsía - Venoxis"] = {
-["data_source"] = "wh",
+["class_index"] = 10,
 ["version"] = 9,
+["spec_index"] = 3,
+["data_source"] = "wh",
+["phase_index"] = 2,
 },
 ["Exonuklease - Venoxis"] = {
 ["version"] = 9,
 ["data_source"] = "wh",
 },
 ["Alslalock - Venoxis"] = {
+["class_index"] = 10,
 ["data_source"] = "wh",
 ["version"] = 9,
 },
