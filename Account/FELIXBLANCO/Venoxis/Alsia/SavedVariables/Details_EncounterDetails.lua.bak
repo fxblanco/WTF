@@ -1005,12 +1005,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Shadowed Globule",
 },
-[109247] = {
-["school"] = 1,
+[88082] = {
+["school"] = 4,
 ["token"] = {
-["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Twilight Sapper",
+["source"] = "Mirror Image",
 },
 [98021] = {
 ["school"] = 8,
@@ -1146,13 +1146,15 @@ EncounterDetailsDB = {
 },
 ["source"] = "Crimson Globule",
 },
-[1604] = {
-["school"] = 1,
+[106730] = {
+["school"] = 32,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
 },
-["source"] = "Warmaster Blackhorn",
+["source"] = "Elementium Terror",
 },
 [103176] = {
 ["school"] = 1,
@@ -1163,15 +1165,13 @@ EncounterDetailsDB = {
 },
 ["source"] = "Morchok",
 },
-[106730] = {
-["school"] = 32,
+[1604] = {
+["school"] = 1,
 ["type"] = "DEBUFF",
 ["token"] = {
 ["SPELL_AURA_APPLIED"] = true,
-["SPELL_PERIODIC_DAMAGE"] = true,
-["SPELL_DAMAGE"] = true,
 },
-["source"] = "Elementium Terror",
+["source"] = "Warmaster Blackhorn",
 },
 [104451] = {
 ["school"] = 16,
@@ -1287,12 +1287,12 @@ EncounterDetailsDB = {
 },
 ["source"] = "Mutated Corruption",
 },
-[88082] = {
-["school"] = 4,
+[109247] = {
+["school"] = 1,
 ["token"] = {
-["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
 },
-["source"] = "Mirror Image",
+["source"] = "Twilight Sapper",
 },
 [109396] = {
 ["school"] = 32,

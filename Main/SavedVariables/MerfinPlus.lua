@@ -22,17 +22,21 @@ MerfinPlusSaved = {
 },
 ["MerfinUI (7.49)"] = {
 ["bar3"] = "Merfin Main Texture",
-["pullSenderName"] = "Xmø",
+["pullTotalTime"] = 10,
 ["breakSenderName"] = "Andydotje",
 ["breakTotalTime"] = 180,
-["pullTotalTime"] = 10,
+["pullSenderName"] = "Xmø",
 },
 ["MerfinUI (7.48)"] = {
 ["bar3"] = "Merfin Main Texture",
-["pullTotalTime"] = 10,
-["pullSenderName"] = "Seos",
+["pullTotalTime"] = 30,
+["pullSenderName"] = "Jellypal",
 },
 ["MerfinUI (7.5)"] = {
+["pullSenderName"] = "Andydotje",
+["breakSenderName"] = "Ostblockolga",
+["pullTotalTime"] = 10,
+["breakTotalTime"] = 300,
 },
 },
 }

@@ -13,9 +13,9 @@ AddOnSkinsDB = {
 },
 ["profiles"] = {
 ["Default"] = {
+["RareScanner"] = false,
 ["Auctionator"] = false,
 ["ColorPickerPlus"] = false,
-["RareScanner"] = false,
 ["WowLua"] = false,
 ["Clique"] = false,
 },
@@ -23,8 +23,8 @@ AddOnSkinsDB = {
 }
 AddOnSkinsDS = {
 [4.73] = {
-["WowLua"] = true,
 ["Clique"] = true,
+["WowLua"] = true,
 ["Auctionator"] = true,
 ["RareScanner"] = true,
 },

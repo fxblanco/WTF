@@ -99,7 +99,7 @@ BattlegroundTargets_Options = {
 ["EnableBracket"] = {
 [40] = false,
 [10] = true,
-[15] = false,
+[15] = true,
 },
 ["ButtonHeight"] = {
 [40] = 16,
@@ -214,15 +214,21 @@ BattlegroundTargets_Options = {
 },
 ["MinimapButton"] = false,
 ["FramePosition"] = {
+["EnemyMainFrame10"] = {
+["y"] = 80.83282470703125,
+["x"] = 245.8324584960938,
+["point"] = "CENTER",
+["s"] = 1,
+},
 ["OptionsFrame"] = {
 ["y"] = 57.16696166992188,
 ["x"] = -309.833984375,
 ["point"] = "BOTTOMRIGHT",
 ["s"] = 1,
 },
-["EnemyMainFrame10"] = {
-["y"] = 80.83282470703125,
-["x"] = 245.8324584960938,
+["EnemyMainFrame15"] = {
+["y"] = 150.8336791992188,
+["x"] = 255.1654663085938,
 ["point"] = "CENTER",
 ["s"] = 1,
 },

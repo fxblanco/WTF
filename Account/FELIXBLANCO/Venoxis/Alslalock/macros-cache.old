@@ -43,13 +43,34 @@ VER 3 010000000100001F "AFF_ua" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:crtl,@focus,harm,nodead] [mod:shift,@mouseover,harm,nodead] [] Unstable Affliction
 END
+VER 3 0100000001000031 "DEST_aoe" "134400"
+#showtooltip
+/cast [mod:shift] Shadowfury; [nomod,@cursor] Rain of Fire; [nomod] Seed of Corruption
+/cast [mod:ctrl] Howl of Terror
+END
+VER 3 0100000001000032 "DEST_cb" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Chaos Bolt
+END
+VER 3 0100000001000033 "DEST_conflag" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Conflagrate
+END
+VER 3 0100000001000035 "DEST_havoc" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Havoc
+END
+VER 3 0100000001000034 "DEST_shadowb" "134400"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Shadowburn
+END
 VER 3 0100000001000020 "PET_Kick" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,exists][] Spell Lock
 END
 VER 3 0100000001000021 "PET_Purge" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [@mouseover,exists][] Devour Magic
+/cast [@mousover] Mesmerize
 END
 VER 3 0100000001000022 "WL_1" "INV_Misc_QuestionMark"
 #showtooltip
@@ -80,39 +101,7 @@ VER 3 0100000001000028 "WL_shatter" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] Death Coil; [mod:shift] Soul Link; [mod:alt] Howl of Terror; Soulshatter
 END
-VER 3 0100000001000029 "z_brunst" "INV_Misc_QuestionMark"
+VER 3 0100000001000036 "WL_t" "134400"
 #showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Immolate
-END
-VER 3 010000000100002A "z_doom" "INV_Misc_QuestionMark"
-#showtooltip Bane of Doom
-/use 10
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Bane of Doom
-END
-VER 3 010000000100002B "z_f" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Immolation Aura; [nomod] Shadowflame
-/cast [mod:ctrl, pet:felguard] Felstorm;
-/use 10
-END
-VER 3 010000000100002C "z_ff" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Fel Flame
-END
-VER 3 010000000100002D "z_guldan" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Hand of Gul'dan
-END
-VER 3 010000000100002E "z_leap" "INV_Misc_QuestionMark"
-#showtooltip
-/cast Demon Leap
-/cast Immolation Aura (Demon)
-END
-VER 3 010000000100002F "z_sf" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift]Drain Life; [@mouseover,exists][] Soul Fire
-END
-VER 3 0100000001000030 "z_verb" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:ctrl,@focus,exists] [mod:shift,@mouseover,harm,nodead] [] Incinerate
+/cast [mod:ctrl] Mortal Coil; [mod:shift] Howl of Terror; [mod:alt] Howl of Terror; Blood Horror
 END

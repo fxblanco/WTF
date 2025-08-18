@@ -13,10 +13,9 @@ BisTooltipDB = {
 ["char"] = {
 ["Alslalu - Venoxis"] = {
 ["class_index"] = 9,
-["spec_index"] = 2,
-["phase_index"] = 2,
-["data_source"] = "wh",
 ["version"] = 9,
+["data_source"] = "wh",
+["spec_index"] = 3,
 },
 ["Alslahunt - Venoxis"] = {
 ["data_source"] = "wh",
@@ -35,6 +34,8 @@ BisTooltipDB = {
 },
 ["Alslalock - Venoxis"] = {
 ["class_index"] = 10,
+["spec_index"] = 3,
+["phase_index"] = 2,
 ["data_source"] = "wh",
 ["version"] = 9,
 },

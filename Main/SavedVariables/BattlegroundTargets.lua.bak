@@ -226,6 +226,12 @@ BattlegroundTargets_Options = {
 ["point"] = "CENTER",
 ["s"] = 1,
 },
+["EnemyMainFrame15"] = {
+["y"] = 150.8336791992188,
+["x"] = 255.1654663085938,
+["point"] = "CENTER",
+["s"] = 1,
+},
 },
 ["version"] = 27,
 ["TransliterationToggle"] = false,
@@ -330,7 +336,7 @@ BattlegroundTargets_Options = {
 ["EnableBracket"] = {
 [40] = false,
 [10] = true,
-[15] = false,
+[15] = true,
 },
 ["ButtonHeight"] = {
 [40] = 16,

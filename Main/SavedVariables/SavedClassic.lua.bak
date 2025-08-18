@@ -1,0 +1,482 @@
+
+SavedClassicDB = {
+["global"] = {
+["version"] = "5.5.1.6",
+["maxQty"] = {
+[390] = 12000,
+[396] = 6400,
+[697] = 12,
+},
+},
+["profileKeys"] = {
+["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+},
+["realm"] = {
+["Venoxis"] = {
+["Alslalu"] = {
+["coloredName"] = "|cff0070deAlslalu|r",
+["zone"] = "Vale of Eternal Blossoms",
+["info2_1"] = "   [color/ffffff][currency:VP] [currency:JP] [currency:conquest] [currency:honor] [currency:Elder] [currency:Lesser] [currency:Ironpaw] [currency:August][color]",
+["info2"] = true,
+["info2_2"] = "",
+["lastUpdate"] = 1755546397,
+["level"] = 90,
+["restXP"] = 0,
+["heroics"] = {
+},
+["info4"] = true,
+["tradeSkills"] = {
+},
+["elapsedTime"] = "",
+["info4oneline"] = true,
+["expCurrent"] = 0,
+["currencyCount"] = {
+{
+["quantity"] = 10605,
+},
+{
+["quantity"] = 71,
+},
+{
+["quantity"] = 12,
+},
+[0] = {
+["quantity"] = 106057112,
+},
+[396] = {
+["totalEarned"] = 6400,
+["quantity"] = 900,
+},
+[777] = {
+["quantity"] = 0,
+},
+[738] = {
+["quantity"] = 541,
+},
+[515] = {
+["quantity"] = 13,
+},
+[697] = {
+["totalEarned"] = 12,
+["quantity"] = 2,
+},
+[3350] = {
+["quantity"] = 37,
+},
+[776] = {
+["quantity"] = 0,
+},
+[390] = {
+["totalEarned"] = 12000,
+["quantity"] = 1500,
+},
+[1901] = {
+["quantity"] = 1571,
+},
+[752] = {
+["quantity"] = 0,
+},
+[789] = {
+["quantity"] = 0,
+},
+[402] = {
+["quantity"] = 1,
+},
+[395] = {
+["quantity"] = 715,
+},
+},
+["name"] = "Alslalu",
+["worldboss"] = {
+[32099] = {
+["name"] = "S",
+["reset"] = 1755662399,
+},
+[32098] = {
+["name"] = "G",
+["reset"] = 1755662399,
+},
+},
+["info1_2"] = "\n[currency:gold/ffee99]",
+["raids"] = {
+{
+["extended"] = "",
+["name"] = "Mogu'shan Vaults",
+["reset"] = 1755663294,
+["id"] = 223862288,
+["progress"] = 6,
+["difficultyName"] = "10 Player (Heroic)",
+["numBoss"] = 6,
+},
+},
+["info3oneline"] = true,
+["itemCount"] = {
+},
+["info1"] = true,
+["played_total"] = 2429294,
+["gearEquippedLevel"] = 486,
+["dqResetReal"] = 1755575999,
+["gearAvgLevel"] = 487,
+["dqComplete"] = 26,
+["dqReset"] = "8 |4Hr:Hr; 25 |4Min:Min;",
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["expPercent"] = 0,
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["tsstr"] = "",
+["info3_2"] = "[time]",
+["expRest"] = 0,
+["restPercent"] = 0,
+["info3"] = true,
+["info4_2"] = "[time/ffff99]",
+["played_level"] = 270114,
+["subzone"] = "The Golden Pagoda",
+["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["default"] = false,
+["expMax"] = 93465000,
+},
+["Alslahunt"] = {
+["coloredName"] = "|cffabd473Alslahunt|r",
+["zone"] = "Orgrimmar",
+["info2_1"] = "   [color/cc66ff][expCur]/[expMax] ([exp%]%)[color] [color/66ccff]+[expRest] ([expRest%]%)[color]",
+["info2"] = true,
+["info2_2"] = "[color/ffffff][currency:JP] [color]",
+["level"] = 85,
+["restXP"] = 19500000,
+["tradeSkills"] = {
+[112996] = {
+["ends"] = 1755554473.797,
+},
+},
+["elapsedTime"] = "21 |4Hr:Hr; 32 |4Min:Min;",
+["info4oneline"] = true,
+["expCurrent"] = 76340,
+["default"] = false,
+["info1_2"] = "\n[currency:gold/ffee99]",
+["itemCount"] = {
+},
+["info1"] = true,
+["info3oneline"] = true,
+["subzone"] = "Valley of Honor",
+["dqResetReal"] = 1755489599,
+["gearAvgLevel"] = 403,
+["dqComplete"] = 0,
+["dqReset"] = "8 |4Hr:Hr; 25 |4Min:Min;",
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["gearEquippedLevel"] = 402,
+["played_total"] = 603289,
+["played_level"] = 526827,
+["worldboss"] = {
+},
+["currencyCount"] = {
+{
+["quantity"] = 49,
+},
+{
+["quantity"] = 83,
+},
+{
+["quantity"] = 57,
+},
+[0] = {
+["quantity"] = 498357,
+},
+[396] = {
+["totalEarned"] = 0,
+["quantity"] = 0,
+},
+[777] = {
+["quantity"] = 0,
+},
+[738] = {
+["quantity"] = 0,
+},
+[515] = {
+["quantity"] = 9,
+},
+[697] = {
+["quantity"] = 0,
+},
+[3350] = {
+["quantity"] = 0,
+},
+[776] = {
+["quantity"] = 0,
+},
+[390] = {
+["quantity"] = 0,
+},
+[1901] = {
+["quantity"] = 223,
+},
+[752] = {
+["quantity"] = 0,
+},
+[789] = {
+["quantity"] = 0,
+},
+[402] = {
+["quantity"] = 0,
+},
+[395] = {
+["quantity"] = 1100,
+},
+},
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["tsstr"] = "|T632822:14:14|t02:26",
+["heroics"] = {
+},
+["info3_2"] = "[time]",
+["restPercent"] = 150,
+["name"] = "Alslahunt",
+["info4_2"] = "[time/ffff99]",
+["expRest"] = 19500000,
+["info4"] = true,
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["info3"] = true,
+["lastUpdate"] = 1755468138,
+["raids"] = {
+},
+["expPercent"] = 0,
+["expMax"] = 13000000,
+},
+["Alslalock"] = {
+["coloredName"] = "|cff8787edAlslalock|r",
+["zone"] = "Dread Wastes",
+["info2_1"] = "   [color/ffffff][currency:VP] [currency:JP] [currency:conquest] [currency:honor] [currency:Elder] [currency:Lesser] [currency:Ironpaw] [currency:August][color]",
+["info2"] = true,
+["info2_2"] = "",
+["level"] = 90,
+["restXP"] = 13875171,
+["tradeSkills"] = {
+},
+["elapsedTime"] = "23 |4Hr:Hr; 45 |4Min:Min;",
+["info4oneline"] = true,
+["expCurrent"] = 0,
+["default"] = false,
+["currencyCount"] = {
+{
+["quantity"] = 41736,
+},
+{
+["quantity"] = 49,
+},
+{
+["quantity"] = 13,
+},
+[0] = {
+["quantity"] = 417364913,
+},
+[396] = {
+["totalEarned"] = 6275,
+["quantity"] = 2025,
+},
+[777] = {
+["quantity"] = 0,
+},
+[738] = {
+["quantity"] = 69,
+},
+[515] = {
+["quantity"] = 100,
+},
+[697] = {
+["totalEarned"] = 6,
+["quantity"] = 0,
+},
+[3350] = {
+["quantity"] = 0,
+},
+[776] = {
+["quantity"] = 0,
+},
+[390] = {
+["totalEarned"] = 12000,
+["quantity"] = 500,
+},
+[1901] = {
+["quantity"] = 383,
+},
+[752] = {
+["quantity"] = 0,
+},
+[395] = {
+["quantity"] = 4000,
+},
+[402] = {
+["quantity"] = 1,
+},
+[789] = {
+["quantity"] = 0,
+},
+},
+["itemCount"] = {
+},
+["info1"] = true,
+["worldboss"] = {
+[32099] = {
+["name"] = "S",
+["reset"] = 1755662399,
+},
+[32098] = {
+["name"] = "G",
+["reset"] = 1755662399,
+},
+},
+["subzone"] = "Klaxxi'vess",
+["dqResetReal"] = 1755489599,
+["gearAvgLevel"] = 482,
+["dqComplete"] = 0,
+["dqReset"] = "8 |4Hr:Hr; 25 |4Min:Min;",
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["lastUpdate"] = 1755460152,
+["expMax"] = 93465000,
+["info3"] = true,
+["info3_2"] = "[time]",
+["info1_2"] = "\n[currency:gold/ffee99]",
+["raids"] = {
+{
+["reset"] = 1755663534,
+["extended"] = "",
+["name"] = "Mogu'shan Vaults",
+["id"] = 223712327,
+["progress"] = 6,
+["difficultyName"] = "25 Player (Heroic)",
+["numBoss"] = 6,
+},
+},
+["tsstr"] = "",
+["expPercent"] = 0,
+["name"] = "Alslalock",
+["restPercent"] = 14,
+["played_level"] = 94672,
+["expRest"] = 0,
+["info4_2"] = "[time/ffff99]",
+["info3oneline"] = true,
+["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["gearEquippedLevel"] = 482,
+["heroics"] = {
+},
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["info4"] = true,
+["played_total"] = 254974,
+},
+["Alsía"] = {
+["coloredName"] = "|cfff58cbaAlsía|r",
+["zone"] = "Orgrimmar",
+["info2_1"] = "   [color/cc66ff][expCur]/[expMax] ([exp%]%)[color] [color/66ccff]+[expRest] ([expRest%]%)[color]",
+["info2"] = true,
+["info2_2"] = "[color/ffffff][currency:JP] [color]",
+["level"] = 85,
+["restXP"] = 19500000,
+["tradeSkills"] = {
+[112996] = {
+["ends"] = 1755554428,
+},
+},
+["elapsedTime"] = "21 |4Hr:Hr; 32 |4Min:Min;",
+["info4oneline"] = true,
+["expCurrent"] = 83985,
+["default"] = false,
+["info1_2"] = "\n[currency:gold/ffee99]",
+["itemCount"] = {
+},
+["info1"] = true,
+["info4"] = true,
+["gearEquippedLevel"] = 405,
+["dqResetReal"] = 1755489599,
+["gearAvgLevel"] = 410,
+["dqComplete"] = 0,
+["dqReset"] = "8 |4Hr:Hr; 25 |4Min:Min;",
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["info3oneline"] = true,
+["played_total"] = 1001166,
+["expPercent"] = 0,
+["currencyCount"] = {
+{
+["quantity"] = 23044,
+},
+{
+["quantity"] = 59,
+},
+{
+["quantity"] = 18,
+},
+[0] = {
+["quantity"] = 230445918,
+},
+[396] = {
+["totalEarned"] = 0,
+["quantity"] = 0,
+},
+[777] = {
+["quantity"] = 0,
+},
+[738] = {
+["quantity"] = 0,
+},
+[515] = {
+["quantity"] = 9,
+},
+[697] = {
+["quantity"] = 0,
+},
+[3350] = {
+["quantity"] = 0,
+},
+[776] = {
+["quantity"] = 0,
+},
+[390] = {
+["totalEarned"] = 0,
+["quantity"] = 0,
+},
+[1901] = {
+["quantity"] = 6611,
+},
+[752] = {
+["quantity"] = 0,
+},
+[789] = {
+["quantity"] = 0,
+},
+[402] = {
+["quantity"] = 0,
+},
+[395] = {
+["quantity"] = 4000,
+},
+},
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["raids"] = {
+},
+["tsstr"] = "|T632822:14:14|t02:26",
+["name"] = "Alsía",
+["info3_2"] = "[time]",
+["restPercent"] = 150,
+["info4_2"] = "[time/ffff99]",
+["expRest"] = 19500000,
+["info3"] = true,
+["lastUpdate"] = 1755468090,
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["played_level"] = 554540,
+["subzone"] = "Valley of Honor",
+["worldboss"] = {
+},
+["heroics"] = {
+},
+["expMax"] = 13000000,
+},
+},
+},
+}

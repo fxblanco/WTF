@@ -45,12 +45,20 @@ VER 3 010000000100001F "AFF_ua" "INV_Misc_QuestionMark"
 END
 VER 3 0100000001000031 "DEST_aoe" "134400"
 #showtooltip
-/cast [mod:shift,@cursor] Rain of Fire; [nomod,@cursor] Rain of Fire; [nomod] Seed of Corruption
+/cast [mod:shift] Shadowfury; [nomod,@cursor] Rain of Fire; [nomod] Seed of Corruption
 /cast [mod:ctrl] Howl of Terror
 END
 VER 3 0100000001000032 "DEST_cb" "134400"
 #showtooltip
 /cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Chaos Bolt
+END
+VER 3 0100000001000037 "DEST_cd" "134400"
+#showtooltip
+/cast Dark Soul: Instability
+/cast Blood Fury
+/use 10
+/use 13
+/use 14
 END
 VER 3 0100000001000033 "DEST_conflag" "134400"
 #showtooltip
@@ -70,7 +78,7 @@ VER 3 0100000001000020 "PET_Kick" "INV_Misc_QuestionMark"
 END
 VER 3 0100000001000021 "PET_Purge" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [@mouseover,exists][] Devour Magic
+/cast [@mousover] Mesmerize
 END
 VER 3 0100000001000022 "WL_1" "INV_Misc_QuestionMark"
 #showtooltip
@@ -100,4 +108,8 @@ END
 VER 3 0100000001000028 "WL_shatter" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] Death Coil; [mod:shift] Soul Link; [mod:alt] Howl of Terror; Soulshatter
+END
+VER 3 0100000001000036 "WL_t" "134400"
+#showtooltip
+/cast [mod:ctrl] Mortal Coil; [mod:shift] Howl of Terror; [mod:alt] Howl of Terror; Blood Horror
 END

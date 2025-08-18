@@ -1,0 +1,44 @@
+
+BattleGroundEnemiesDB = {
+["profileKeys"] = {
+["Alslalock - Venoxis"] = "Default",
+["Alslahunt - Venoxis"] = "Default",
+["Alsía - Venoxis"] = "Default",
+["Alslalu - Venoxis"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["Allies"] = {
+["Enabled"] = false,
+},
+["lastReadVersion"] = "11.2.0.5",
+["Enemies"] = {
+["playerCountConfigs"] = {
+nil,
+{
+["BarVerticalSpacing"] = 10,
+["BarHeight"] = 30,
+["BarWidth"] = 138,
+["Position_Y"] = 548.8000286221504,
+["Position_X"] = 806.3112399690726,
+},
+{
+["ButtonModules"] = {
+["Racial"] = {
+["Height"] = false,
+},
+["Trinket"] = {
+["Height"] = false,
+},
+},
+},
+},
+},
+["dbVersion"] = 2,
+["Text"] = {
+["Font"] = "Expressway",
+["EnableShadow"] = true,
+},
+},
+},
+}

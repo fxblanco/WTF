@@ -11,4 +11,8 @@ ColorPickerAdvancedDB = {
 ["Alsia - Venoxis"] = "Default",
 ["Kwasimojo - Venoxis"] = "Default",
 },
+["profiles"] = {
+["Default"] = {
+},
+},
 }

@@ -19,6 +19,7 @@ END
 VER 3 0000000000000012 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift] 15; [mod:ctrl] 6; 6
+/use 13
 END
 VER 3 0000000000000013 "g_hände" "132959"
 /use 10
@@ -45,7 +46,7 @@ VER 3 0000000000000018 "PET_follow" "134400"
 /petfollow
 END
 VER 3 000000000000002B "RXPTargeting" "132150"
-/targetexact Kaz'tik the Manipulator
+/targetexact Kil'ruk the Wind-Reaver
 /targetlasttarget [dead]
 END
 VER 3 000000000000002D "Spine" "134400"

@@ -13,6 +13,15 @@ TomTomDB = {
 },
 ["profiles"] = {
 ["Default"] = {
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+0,
+},
+},
 ["block"] = {
 ["position"] = {
 "CENTER",
@@ -22,26 +31,8 @@ nil,
 -100,
 },
 },
-["arrow"] = {
-["position"] = {
-"CENTER",
-nil,
-"CENTER",
-0,
-0,
-},
-},
 },
 ["MerfinUI v7.4"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -54,6 +45,15 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.48"] = {
@@ -105,15 +105,6 @@ nil,
 },
 },
 ["MerfinUI v7.49"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -126,6 +117,15 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 },

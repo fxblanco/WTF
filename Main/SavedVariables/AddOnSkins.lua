@@ -23,8 +23,8 @@ AddOnSkinsDB = {
 }
 AddOnSkinsDS = {
 [4.73] = {
-["Clique"] = true,
 ["WowLua"] = true,
+["Clique"] = true,
 ["Auctionator"] = true,
 ["RareScanner"] = true,
 },
