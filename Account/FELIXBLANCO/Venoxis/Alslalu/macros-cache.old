@@ -1,6 +1,6 @@
 VER 3 0100000001000207 "e_eles" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [mod:shift] Earth Elemental Totem; Fire Elemental Totem
+/cast [mod:ctrl] Windwalk Totem; [mod:shift] Earth Elemental Totem; Fire Elemental Totem
 END
 VER 3 0100000001000219 "ENH_4" "134400"
 #showtooltip
@@ -20,7 +20,7 @@ VER 3 0100000001000216 "ENH_G" "134400"
 END
 VER 3 0100000001000215 "ENH_lb" "134400"
 #showtooltip
-/cast [mod:shift] Chain Lightning; Lightning Bolt
+/cast [mod:ctrl] Healing Stream Totem;  [mod:shift] Chain Lightning; Lightning Bolt
 END
 VER 3 0100000001000218 "ENH_SS" "134400"
 #showtooltip Stormstrike
@@ -31,6 +31,17 @@ END
 VER 3 010000000100021A "ENH_sync" "134400"
 #showtooltip Albino Snake
 /run WeakAuras.ScanEvents("snek")
+END
+VER 3 0100000001000223 "FROG" "134400"
+#showtooltip
+/stopcasting
+/cast [mod:shift, @mouseover] Hex; [@focus] Hex
+/cast Hex
+END
+VER 3 0100000001000221 "HEAL_G" "134400"
+#showtooltip
+/cast [mod:ctrl] Purge; [mod:shift] Mana Tide Totem ; Healing Stream Totem
+/use 10
 END
 VER 3 0100000001000206 "RESTO_rain" "134400"
 #showtooltip
@@ -69,9 +80,9 @@ VER 3 0100000001000205 "SHA_cleanse" "134400"
 END
 VER 3 0100000001000208 "SHA_focus" "134400"
 #showtooltip
-/focus Arcanotron
+/focus Elder Asani
 /stopcasting
-/cast [@focus] Wind Shear
+/cast [mod:shift, @mouseover] Wind Shear; [@focus] Wind Shear
 /cast Wind Shear
 END
 VER 3 010000000100021F "SHA_fury" "134400"
@@ -81,6 +92,16 @@ VER 3 010000000100021F "SHA_fury" "134400"
 /use 10
 /use 13
 /use 14
+END
+VER 3 0100000001000222 "SHA_HealBaaam" "134400"
+#showtooltip Healing Surge
+/tar Tsulong
+/use Potion of the Jade Serpent
+/cast Lifebloom
+/cast Ascendance
+/cast Elemental Mastery
+/use 10
+/cast Healing Surge
 END
 VER 3 010000000100021B "SHA_totem" "134400"
 #showtooltip

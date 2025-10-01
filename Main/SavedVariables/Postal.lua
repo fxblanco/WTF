@@ -4,9 +4,14 @@ Postal3DB = {
 ["BlackBook"] = {
 ["alts"] = {
 "Alsia|Venoxis|Horde|85|PALADIN",
+"Alslablue|Everlook|Horde|90|SHAMAN",
+"Alslablue|Venoxis|Horde|90|SHAMAN",
 "Alslahunt|Venoxis|Horde|85|HUNTER",
+"Alslalock|Everlook|Horde|90|WARLOCK",
 "Alslalock|Venoxis|Horde|90|WARLOCK",
+"Alslalu|Everlook|Horde|90|SHAMAN",
 "Alslalu|Venoxis|Horde|90|SHAMAN",
+"Alsla|Everlook|Horde|85|DEATHKNIGHT",
 "Alsla|Venoxis|Horde|85|DEATHKNIGHT",
 "Alsía|Venoxis|Horde|85|PALADIN",
 "Endonuclease|Venoxis|Horde|85|ROGUE",
@@ -19,11 +24,16 @@ Postal3DB = {
 ["Alsla - Venoxis"] = "Alsla - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alslalock - Everlook"] = "Alslalock - Everlook",
+["Alsla - Everlook"] = "Alsla - Everlook",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alslablue - Everlook"] = "Alslablue - Everlook",
+["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alslalu - Everlook"] = "Alslalu - Everlook",
+["Alslablue - Venoxis"] = "Alslablue - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
 ["profiles"] = {
@@ -37,9 +47,11 @@ Postal3DB = {
 ["Alsía - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
-"Alslalock|Venoxis|Horde",
 "Alslahunt|Venoxis|Horde",
 "Alslalu|Venoxis|Horde",
+"Alslablue|Venoxis|Horde",
+"Xmæ|Venoxis|Horde",
+"Alslalock|Venoxis|Horde",
 "Taschte|Venoxis|Horde",
 "Taschte-Venoxis|Venoxis|Horde",
 "Vextria-Venoxis|Venoxis|Horde",
@@ -52,12 +64,18 @@ Postal3DB = {
 },
 ["Exonuklease - Venoxis"] = {
 },
+["Alslalock - Everlook"] = {
+},
+["Alsla - Everlook"] = {
+},
+["Endonuclease - Venoxis"] = {
+},
 ["Alslalu - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
+"Alsía|Venoxis|Horde",
 "Alslalock|Venoxis|Horde",
 "Ostblockolga|Venoxis|Horde",
-"Alsía|Venoxis|Horde",
 "Vextria|Venoxis|Horde",
 "Ostblockolga-Venoxis|Venoxis|Horde",
 "Alslahunt|Venoxis|Horde",
@@ -65,31 +83,43 @@ Postal3DB = {
 },
 },
 },
-["Alslahunt - Venoxis"] = {
-["BlackBook"] = {
-["recent"] = {
-"Alsía|Venoxis|Horde",
-"Alslalu|Venoxis|Horde",
-"Alslalock|Venoxis|Horde",
-},
-},
-},
-["Alslalock - Venoxis"] = {
-["BlackBook"] = {
-["recent"] = {
-"Alslalu|Venoxis|Horde",
-"Graveofjenna|Venoxis|Horde",
-},
-},
-},
-["Endonuclease - Venoxis"] = {
-},
 ["Alsia - Venoxis"] = {
 ["BlackBook"] = {
 ["recent"] = {
 "Alslalu|Venoxis|Horde",
 "Alslalock|Venoxis|Horde",
 "Alsía|Venoxis|Horde",
+},
+},
+},
+["Alslablue - Everlook"] = {
+},
+["Alslalock - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalu|Venoxis|Horde",
+"Alslablue|Venoxis|Horde",
+"Graveofjenna|Venoxis|Horde",
+},
+},
+},
+["Alslalu - Everlook"] = {
+},
+["Alslablue - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alslalu|Venoxis|Horde",
+"Alsía|Venoxis|Horde",
+},
+},
+},
+["Alslahunt - Venoxis"] = {
+["BlackBook"] = {
+["recent"] = {
+"Alsía|Venoxis|Horde",
+"Alslablue|Venoxis|Horde",
+"Alslalu|Venoxis|Horde",
+"Alslalock|Venoxis|Horde",
 },
 },
 },

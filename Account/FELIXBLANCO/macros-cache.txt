@@ -7,14 +7,33 @@ VER 3 0000000000000011 "_Focus" "132097"
 /targetlasttarget
 /targetlasttarget [noexists]
 END
+VER 3 0000000000000035 "_LGreen" "134400"
+/wm 2
+END
+VER 3 0000000000000034 "_Lila" "134400"
+/wm 3
+END
+VER 3 0000000000000036 "_LOrange" "134400"
+/wm 6
+END
 VER 3 0000000000000021 "_Spine-amalg" "134400"
 /tar Hideous Amal
+END
+VER 3 0000000000000033 "_tar-light" "134400"
+/tar the light
 END
 VER 3 0000000000000019 "_WM-Green" "134400"
 /wm [@cursor] 2
 END
 VER 3 000000000000001B "BTN" "134400"
 /click ExtraActionButton1
+END
+VER 3 0000000000000032 "BTN_2" "134400"
+/stopcasting
+/stopattack
+/tar mouseover
+/click ExtraActionButton1
+/targetlasttarget
 END
 VER 3 0000000000000012 "g_boots" "INV_Misc_QuestionMark"
 #showtooltip
@@ -46,7 +65,7 @@ VER 3 0000000000000018 "PET_follow" "134400"
 /petfollow
 END
 VER 3 000000000000002B "RXPTargeting" "132150"
-/targetexact Kil'ruk the Wind-Reaver
+/targetexact Korven the Prime
 /targetlasttarget [dead]
 END
 VER 3 000000000000002D "Spine" "134400"
@@ -60,9 +79,16 @@ VER 3 000000000000002D "Spine" "134400"
 /petattack [@boss2,exists]
 END
 VER 3 000000000000001E "tar2" "134400"
-/tar boss2
+/tar Tsulong
+/cast Healing Surge
+END
+VER 3 0000000000000037 "tar_" "134400"
+/target [@Bloodypone-target]
 END
 VER 3 0000000000000031 "z_Mill" "134400"
 /cast Milling
 /use Green Tea Leaf
+/use Silkweed
+/use Snow Lily
+/use Fool's Cap
 END

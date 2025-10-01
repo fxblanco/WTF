@@ -1,0 +1,1989 @@
+
+EncounterDetailsDB = {
+["chartData"] = {
+[131] = {
+},
+[135] = {
+},
+[118] = {
+},
+[95] = {
+},
+[97] = {
+},
+[99] = {
+},
+[140] = {
+},
+[105] = {
+},
+[78] = {
+},
+[156] = {
+},
+[160] = {
+},
+[115] = {
+},
+[129] = {
+},
+[88] = {
+},
+[92] = {
+},
+[123] = {
+},
+[125] = {
+},
+[127] = {
+},
+[110] = {
+},
+[83] = {
+},
+[142] = {
+},
+[73] = {
+},
+[146] = {
+},
+[150] = {
+},
+[154] = {
+},
+[158] = {
+},
+[133] = {
+},
+},
+["encounter_spells"] = {
+[105409] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[103178] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Kohcrom",
+},
+[109075] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Ultraxion",
+},
+[105027] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Yor'sahj the Unsleeping",
+},
+[105314] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ice Wave",
+},
+[103545] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Resonating Crystal",
+},
+[99226] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Fiery Imp",
+},
+[105904] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+},
+[104900] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Cobalt Globule",
+},
+[105171] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Yor'sahj the Unsleeping",
+},
+[3606] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Searing Totem",
+},
+[103434] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Warlord Zon'ozz",
+},
+[105490] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Corruption",
+},
+[53646] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Ebon Imp",
+},
+[24604] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Wolf",
+},
+[103785] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Kohcrom",
+},
+[105841] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Regenerative Blood",
+},
+[104901] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Glowing Globule",
+},
+[105937] = {
+["school"] = 1,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Deathwing",
+},
+[17253] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "HodnKobold",
+},
+[105539] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Mana Void",
+},
+[107595] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Twilight Elite Dreadblade",
+},
+[105316] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ice Lance",
+},
+[108934] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[69425] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Collapsing Icicle",
+},
+[105651] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Deathwing",
+},
+[105444] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Blistering Tentacle",
+},
+[108042] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[105285] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Ice Lance",
+},
+[16827] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Raptor",
+},
+[106369] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ultraxion",
+},
+[106385] = {
+["school"] = 1,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Mutated Corruption",
+},
+[106401] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Goriona",
+},
+[104377] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Eye of Go'rath",
+},
+[105445] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Blistering Tentacle",
+},
+[109541] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[108043] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[108601] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Deathwing",
+},
+[105573] = {
+["school"] = 8,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Maw of Shu'ma",
+},
+[108649] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Deathwing",
+},
+[87532] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Shadowy Apparition",
+},
+[108044] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[108076] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+},
+[77747] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Searing Totem",
+},
+[103534] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Resonating Crystal",
+},
+[105845] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[103821] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
+},
+[104347] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Eye of Go'rath",
+},
+[107439] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Twilight Assault Drake",
+},
+[105925] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Ultraxion",
+},
+[109017] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
+},
+[105479] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Corruption",
+},
+[108045] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[105256] = {
+["school"] = 16,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[107567] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Twilight Elite Slayer",
+},
+[105033] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Yor'sahj the Unsleeping",
+},
+[106834] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Deathwing",
+},
+[105846] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[106372] = {
+["school"] = 34,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ultraxion",
+},
+[105671] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Forgotten One",
+},
+[108046] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[57984] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Greater Fire Elemental",
+},
+[106548] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Arm Tentacle",
+},
+[105289] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[106835] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Deathwing",
+},
+[103536] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Resonating Crystal",
+},
+[105847] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Burning Tendons",
+},
+[105369] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Crystal Conductor",
+},
+[105401] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Arm Tentacle",
+},
+[105465] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[106836] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Void of the Unmaking",
+},
+[105848] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Burning Tendons",
+},
+[106199] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[105482] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Crystal Conductor",
+},
+[103968] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Cobalt Globule",
+},
+[105530] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+},
+[106375] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ultraxion",
+},
+[106200] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[110312] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[109563] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[106264] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[110137] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Warmaster Blackhorn",
+},
+[105563] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Spawner",
+},
+[105834] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[106376] = {
+["school"] = 34,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ultraxion",
+},
+[104894] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Dark Globule",
+},
+[13376] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Greater Fire Elemental",
+},
+[110297] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Flail of Go'rath",
+},
+[104448] = {
+["school"] = 16,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[54049] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Zhaafum",
+},
+[25228] = {
+["school"] = 32,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Greephom",
+},
+[106791] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Elementium Fragment",
+},
+[54424] = {
+["school"] = 32,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Greephom",
+},
+[107588] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Goriona",
+},
+[106371] = {
+["school"] = 34,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Ultraxion",
+},
+[105416] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Yor'sahj the Unsleeping",
+},
+[52586] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Tentacle of the Old Ones",
+},
+[106377] = {
+["school"] = 34,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ultraxion",
+},
+[103851] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
+},
+[105723] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Elementium Bolt",
+},
+[107851] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[107850] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[99062] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Mirror Image",
+},
+[104898] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Acidic Globule",
+},
+[107501] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Twilight Assault Drake",
+},
+[105219] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[108051] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Goriona",
+},
+[109379] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Corruption",
+},
+[55095] = {
+["school"] = 16,
+["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Rune Weapon",
+},
+[107589] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Goriona",
+},
+[55078] = {
+["school"] = 32,
+["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Rune Weapon",
+},
+[103541] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Resonating Crystal",
+},
+[104322] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
+},
+["source"] = "Warlord Zon'ozz",
+},
+[106378] = {
+["school"] = 34,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Ultraxion",
+},
+[109199] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Flail of Go'rath",
+},
+[59638] = {
+["school"] = 16,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Mirror Image",
+},
+[104896] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Shadowed Globule",
+},
+[88082] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Mirror Image",
+},
+[105312] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Frozen Binding Crystal",
+},
+[103414] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Morchok",
+},
+[110214] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Goriona",
+},
+[81280] = {
+["school"] = 32,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Bloodworm",
+},
+[34655] = {
+["school"] = 8,
+["token"] = {
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Venomous Snake",
+},
+[107558] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Twilight Elite Dreadblade",
+},
+[103494] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Resonating Crystal",
+},
+[106523] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Deathwing",
+},
+[105311] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Frozen Binding Crystal",
+},
+[85692] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Doomguard",
+},
+[50461] = {
+["school"] = 32,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Anti-Magic Zone",
+},
+[104849] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Yor'sahj the Unsleeping",
+},
+[104451] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[106730] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_PERIODIC_DAMAGE"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Elementium Terror",
+},
+[104897] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Crimson Globule",
+},
+[109325] = {
+["school"] = 16,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Hagara the Stormbinder",
+},
+[100403] = {
+["school"] = 8,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Moonwell",
+},
+[1604] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[103176] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
+},
+[104031] = {
+["school"] = 32,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Void of the Unmaking",
+},
+[105248] = {
+["school"] = 4,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Corrupted Blood",
+},
+[106794] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Elementium Fragment",
+},
+[106005] = {
+["school"] = 4,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Hideous Amalgamation",
+},
+[110212] = {
+["school"] = 32,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Goriona",
+},
+[103527] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Void of the Unmaking",
+},
+[109247] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Twilight Sapper",
+},
+[48210] = {
+["school"] = 32,
+["token"] = {
+["SPELL_HEAL"] = true,
+},
+["source"] = "Morchok",
+},
+[104543] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Warlord Zon'ozz",
+},
+[103846] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Morchok",
+},
+[98021] = {
+["school"] = 8,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+["SPELL_HEAL"] = true,
+},
+["source"] = "Spirit Link Totem",
+},
+[105408] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Arm Tentacle",
+},
+[106444] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Mutated Corruption",
+},
+[106400] = {
+["school"] = 1,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Mutated Corruption",
+},
+[108813] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_START"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Corrupting Parasite",
+},
+[103327] = {
+["school"] = 32,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Ultraxion",
+},
+[107018] = {
+["school"] = 4,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_CAST_START"] = true,
+},
+["source"] = "Deathwing",
+},
+[110628] = {
+["school"] = 1,
+["type"] = "BUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+["SPELL_CAST_SUCCESS"] = true,
+},
+["source"] = "Elementium Bolt",
+},
+[110632] = {
+["school"] = 4,
+["token"] = {
+["SPELL_DAMAGE"] = true,
+},
+["source"] = "Elementium Bolt",
+},
+[109102] = {
+["school"] = 1,
+["token"] = {
+["SPELL_CAST_SUCCESS"] = true,
+["SPELL_HEAL"] = true,
+},
+["source"] = "Congealing Blood",
+},
+[3600] = {
+["school"] = 8,
+["type"] = "DEBUFF",
+["token"] = {
+["SPELL_AURA_APPLIED"] = true,
+},
+["source"] = "Earthbind Totem",
+},
+},
+["emotes"] = {
+{
+{
+5.052000000025146,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
+"Deathwing",
+1,
+},
+{
+15.0350000000326,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF04FC32|Hspell:107018|h[Ysera]|h|r!",
+"Deathwing",
+1,
+},
+{
+15.0350000000326,
+"I will bring you closer to the Emerald Dream. Seek safety there when the fight becomes too intense.",
+"Ysera",
+7,
+},
+{
+17.57700000004843,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+45.30300000007264,
+"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
+"Deathwing",
+1,
+},
+{
+45.30300000007264,
+"Your armor means nothing, your faith even less.",
+"Deathwing",
+7,
+},
+{
+60.08900000003632,
+"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
+"Deathwing",
+1,
+},
+{
+69.35499999998137,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+113.0899999999674,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
+"Deathwing",
+1,
+},
+{
+123.1230000000214,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFFFF0000|Hspell:107018|h[Alexstrasza]|h|r!",
+"Deathwing",
+1,
+},
+{
+123.1230000000214,
+"I will cleanse whatever corruption I can; my fire will not harm you.",
+"Alexstrasza",
+7,
+},
+{
+170.1790000000037,
+"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
+"Deathwing",
+1,
+},
+{
+170.1790000000037,
+"The sea will swallow your smoldering remains.",
+"Deathwing",
+7,
+},
+{
+174.6119999999646,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+186.3640000000596,
+"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
+"Deathwing",
+1,
+},
+{
+202.189000000013,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+241.8179999999702,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
+"Deathwing",
+1,
+},
+{
+251.8159999999916,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFFFFFF00|Hspell:107018|h[Nozdormu]|h|r!",
+"Deathwing",
+1,
+},
+{
+251.8159999999916,
+"I will slow the Destroyer's attacks when I can.",
+"Nozdormu",
+7,
+},
+{
+299.6550000000279,
+"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
+"Deathwing",
+1,
+},
+{
+299.6550000000279,
+"The sea will swallow your smoldering remains.",
+"Deathwing",
+7,
+},
+{
+305.7050000000745,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+315.8220000000438,
+"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
+"Deathwing",
+1,
+},
+{
+339.6920000000391,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Arm Tentacle",
+1,
+},
+{
+375.6620000000112,
+"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
+"Deathwing",
+1,
+},
+{
+375.6620000000112,
+"Hurry, heroes. In mere moments Deathwing's Cataclysm will complete what he begun and end the world. Join me in the attack, now!",
+"Nozdormu",
+7,
+},
+{
+384.9790000000503,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s begins to cast |cFFFF0000|Hspell:107018|h[Assault Aspect]|h|r!",
+"Deathwing",
+1,
+},
+{
+395.0119999999879,
+"|TInterface\\Icons\\ability_deathwing_assualtaspects.blp:20|t%s assaults |cFF5858FA|Hspell:107018|h[Kalecgos]|h|r!",
+"Deathwing",
+1,
+},
+{
+395.0119999999879,
+"I will charge you with arcane energy to blast your foes.",
+"Kalecgos",
+7,
+},
+{
+442.0629999999655,
+"|TInterface\\Icons\\spell_fire_meteorstorm.blp:20|t%s begins to cast |cFFFF0000|Hspell:105651|h[Elementium Bolt]|h|r!",
+"Deathwing",
+1,
+},
+{
+442.0629999999655,
+"Your armor means nothing, your faith even less.",
+"Deathwing",
+7,
+},
+{
+456.2160000000149,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+458.2390000000596,
+"|TInterface\\Icons\\spell_fire_moltenblood.blp:20|t%s begins to |cFFFF0000|Hspell:105863|h[Hemorrhage]|h|r!",
+"Deathwing",
+1,
+},
+{
+495.1049999999814,
+"|TInterface\\Icons\\ability_warrior_bloodnova.blp:20|tThe %s is injured and sprouts |cFFFE9A2EBlistering Tentacles|r!",
+"Wing Tentacle",
+1,
+},
+{
+518.1480000000447,
+"|TInterface\\Icons\\ability_deathwing_cataclysm.blp:20|t%s begins to cast |cFFFF0000|Hspell:106523|h[Cataclysm]|h|r! Stop Him!",
+"Deathwing",
+1,
+},
+{
+518.1480000000447,
+"The Destroyer is gathering all his might for a blow that will split the world. Attack him, now! We must stop the final Cataclysm!",
+"Kalecgos",
+7,
+},
+{
+525.8030000000726,
+"I AM DEATHWING, THE DESTROYER, THE END OF ALL THINGS, INEVITABLE, INDOMITABLE; I AM THE CATACLYSM!",
+"Deathwing",
+7,
+},
+{
+525.8030000000726,
+"|TInterface\\Icons\\inv_stave_2h_deathwingraiddw_d_01.blp:20|t%s falls forward, get to |cFF04FC32Ysera's|r platform!",
+"Deathwing",
+1,
+},
+{
+540.8379999999888,
+"Such rage I have never seen...",
+"Ysera",
+7,
+},
+{
+557.3889999999665,
+"Don't give up! We are counting on you to push Deathwing back.",
+"Thrall",
+7,
+},
+{
+559.8630000000121,
+"",
+"Alexstrasza",
+1,
+},
+{
+591.39300000004,
+"",
+"Alexstrasza",
+1,
+},
+{
+611.4280000000726,
+"",
+"Alexstrasza",
+1,
+},
+["boss"] = "Madness of Deathwing",
+},
+{
+{
+1.266000000061467,
+"The plates! He's coming apart! Tear up the plates and we've got a shot at bringing him down!",
+"Sky Captain Swayze",
+7,
+},
+{
+12.7160000000149,
+"Don't worry about me. Stop the Destroyer! Enshu-falah-nah, dorini.",
+"Sky Captain Swayze",
+7,
+},
+{
+15.3190000000177,
+"%s feels players on his left side.\r\nHe's about to roll left!",
+"Deathwing",
+1,
+},
+{
+20.32200000004377,
+"%s rolls left!",
+"Deathwing",
+1,
+},
+{
+35.40100000007078,
+"Your efforts are insignificant. I carry you to your deaths.",
+"Deathwing",
+7,
+},
+{
+39.35100000002421,
+"%s feels players on his right side.\r\nHe's about to roll right!",
+"Deathwing",
+1,
+},
+{
+41.31700000003912,
+"%s levels out.",
+"Deathwing",
+1,
+},
+{
+74.25300000002608,
+"Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
+"Deathwing",
+7,
+},
+{
+105.8390000000363,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+113.1060000000289,
+"Your efforts are insignificant. I carry you to your deaths.",
+"Deathwing",
+7,
+},
+{
+144.3100000000559,
+"%s feels players on his right side.\r\nHe's about to roll right!",
+"Deathwing",
+1,
+},
+{
+149.3270000000484,
+"%s rolls right!",
+"Deathwing",
+1,
+},
+{
+165.2930000000633,
+"%s feels players on his left side.\r\nHe's about to roll left!",
+"Deathwing",
+1,
+},
+{
+166.3260000000009,
+"%s levels out.",
+"Deathwing",
+1,
+},
+{
+172.3040000000037,
+"%s feels players on his left side.\r\nHe's about to roll left!",
+"Deathwing",
+1,
+},
+{
+173.310999999987,
+"%s levels out.",
+"Deathwing",
+1,
+},
+{
+189.2449999999953,
+"Ha! I had not realized you fools were still there.",
+"Deathwing",
+7,
+},
+{
+211.8470000000671,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+216.314000000013,
+"%s feels players on his left side.\r\nHe's about to roll left!",
+"Deathwing",
+1,
+},
+{
+218.314000000013,
+"%s levels out.",
+"Deathwing",
+1,
+},
+{
+229.6480000000447,
+"Your efforts are insignificant. I carry you to your deaths.",
+"Deathwing",
+7,
+},
+{
+253.3180000000866,
+"%s feels players on his right side.\r\nHe's about to roll right!",
+"Deathwing",
+1,
+},
+{
+258.3180000000866,
+"%s rolls right!",
+"Deathwing",
+1,
+},
+{
+270.1500000000233,
+"Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
+"Deathwing",
+7,
+},
+{
+302.5530000000726,
+"Cling while you can, \"heroes.\" You and your world are doomed.",
+"Deathwing",
+7,
+},
+{
+335.2900000000373,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+338.1390000000829,
+"You are less than dust, fit only to be brushed from my back.",
+"Deathwing",
+7,
+},
+{
+346.3070000000298,
+"%s feels players on his right side.\r\nHe's about to roll right!",
+"Deathwing",
+1,
+},
+{
+348.3230000000913,
+"%s levels out.",
+"Deathwing",
+1,
+},
+{
+357.3070000000298,
+"%s feels players on his right side.\r\nHe's about to roll right!",
+"Deathwing",
+1,
+},
+{
+358.3090000000084,
+"%s levels out.",
+"Deathwing",
+1,
+},
+{
+375.3420000000624,
+"Your tenacity is admirable, but pointless. You ride into the jaws of the apocalypse.",
+"Deathwing",
+7,
+},
+{
+408.4450000000652,
+"|TInterface\\Icons\\inv_gizmo_supersappercharge.blp:20|t%s is casting |c0087CEFA|Hspell:105845|h[Nuclear Blast]|h|r!",
+"Hideous Amalgamation",
+1,
+},
+{
+415.7610000000568,
+"Your efforts are insignificant. I carry you to your deaths.",
+"Deathwing",
+7,
+},
+["boss"] = "Spine of Deathwing",
+},
+{
+{
+2.317000000039116,
+"You won't get near the Master. Dragonriders, attack!",
+"Warmaster Blackhorn",
+7,
+},
+{
+10.40200000000186,
+"All hands to battle stations; get those monsters away from the ship!",
+"Sky Captain Swayze",
+7,
+},
+{
+28.85400000005029,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+28.85400000005029,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+38.8410000000149,
+"|Tinterface\\icons\\spell_fire_twilightrainoffire.blp:0|t%s fires a |cFF9900CC|Hspell:110153|h[Broadside]|h|r at the Skyfire!",
+"Goriona",
+1,
+},
+{
+42.32000000006519,
+"|Tinterface\\icons\\spell_fire_ragnaros_lavabolt.blp:0|tStructural damage to the Skyfire triggers a sudden |cFFFF0000|Hspell:110095|h[Deck Fire]|h|r!",
+"The Skyfire",
+1,
+},
+{
+51.28800000005867,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+63.87199999997392,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+63.87199999997392,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+91.3080000000773,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+98.69599999999627,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+98.69599999999627,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+106.2920000000158,
+"|Tinterface\\icons\\spell_fire_ragnaros_lavabolt.blp:0|tStructural damage to the Skyfire triggers a sudden |cFFFF0000|Hspell:110095|h[Deck Fire]|h|r!",
+"The Skyfire",
+1,
+},
+{
+108.8420000000624,
+"|Tinterface\\icons\\spell_fire_twilightrainoffire.blp:0|t%s fires a |cFF9900CC|Hspell:110153|h[Broadside]|h|r at the Skyfire!",
+"Goriona",
+1,
+},
+{
+131.329000000027,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+133.8449999999721,
+"Goriona! Give them hell!",
+"Warmaster Blackhorn",
+7,
+},
+{
+133.8449999999721,
+"|TInterface\\Icons\\spell_fire_twilightflamebreath.blp:20|t%s prepares to unleash a |cFF9900CC|Hspell:106401|h[Twilight Onslaught]|h|r!",
+"Goriona",
+1,
+},
+{
+150.295999999973,
+"|Tinterface\\icons\\spell_fire_ragnaros_lavabolt.blp:0|tStructural damage to the Skyfire triggers a sudden |cFFFF0000|Hspell:110095|h[Deck Fire]|h|r!",
+"The Skyfire",
+1,
+},
+{
+156.1790000000037,
+"Concentrate everything on the armored drake!",
+"Sky Captain Swayze",
+7,
+},
+{
+170.5470000000205,
+"Looks like I'm doing this myself. Good!",
+"Warmaster Blackhorn",
+7,
+},
+{
+171.3470000000671,
+"A drake swoops down to drop a Twilight Sapper onto the deck!",
+"Twilight Infiltrator",
+1,
+},
+{
+184.9550000000745,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+{
+210.954000000027,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+{
+235.219000000041,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+{
+247.3530000000028,
+"%s screeches in pain and retreats into the swirling clouds.",
+"Goriona",
+1,
+},
+{
+258.2280000000028,
+"How's THIS?",
+"Warmaster Blackhorn",
+7,
+},
+["boss"] = "Warmaster Blackhorn",
+},
+},
+}

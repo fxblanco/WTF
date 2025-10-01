@@ -1,0 +1,27 @@
+
+GDKPd_DB = {
+["profileKeys"] = {
+["Alslablue - Everlook"] = "Alslablue - Everlook",
+["Alsla - Everlook"] = "Alsla - Everlook",
+},
+["global"] = {
+["shownPopupAddonMsg4_2"] = true,
+},
+["profiles"] = {
+["Alslablue - Everlook"] = {
+},
+["Alsla - Everlook"] = {
+},
+},
+}
+GDKPd_PotData = {
+["playerBalance"] = {
+},
+["history"] = {
+},
+["potAmount"] = 0,
+["curPotHistory"] = {
+},
+}
+GDKPd_BalanceData = {
+}

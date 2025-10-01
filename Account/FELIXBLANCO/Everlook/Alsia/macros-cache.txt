@@ -1,0 +1,114 @@
+VER 3 01000000010004C3 "1button_prot" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Shield
+/cancelaura Divine Shield
+END
+VER 3 01000000010004C4 "2" "INV_Misc_QuestionMark"
+/startattack
+/use [@mouseover,help][]Word of Glory
+/startattack
+END
+VER 3 01000000010004D2 "3" "461859"
+#showtooltip
+/startattack
+/use Light of Dawn
+/startattack
+END
+VER 3 01000000010004C5 "bc" "INV_Misc_QuestionMark"
+#showtooltip Beacon of Light
+/stopcasting
+/cast [@mouseover, help, nodead] Beacon of Light
+END
+VER 3 01000000010004C6 "cancel_fury" "135768"
+/cancelaura Righteous Fury
+END
+VER 3 01000000010004D4 "cd" "134400"
+#showtooltip
+/cast Guardian of Ancient Kings
+/use 10
+/use 13
+/use 14
+END
+VER 3 01000000010004C7 "cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Divine Favor; [nomod] Avenging Wrath
+/use 10
+/use [mod:shift] 13
+END
+VER 3 01000000010004D5 "DF" "134400"
+#showtooltip
+/cast Divine Favor
+/use 14
+END
+VER 3 01000000010004C8 "e" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover] Hand of Sacrifice; Crusader Strike
+END
+VER 3 01000000010004C9 "exc" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Exorcism
+END
+VER 3 01000000010004CB "p_purge" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast [mod:shift, @mouseover, help, nodead] Purify;[@mouseover, help, nodead] Cleanse; Cleanse
+END
+VER 3 01000000010004CC "p_spot1" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, nodead] Hand of Reckoning; Hand of Reckoning
+END
+VER 3 01000000010004CD "plea_cancel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Divine Plea
+/use 10
+/use 14
+/cancelaura Divine Plea
+END
+VER 3 01000000010004CE "q" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover] Hand of Protection; Judgement
+END
+VER 3 01000000010004CF "r" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, nodead] Holy Shock; Hammer of Wrath
+END
+VER 3 01000000010004D0 "r_aoe" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Holy Wrath; Consecration
+END
+VER 3 01000000010004D1 "r_stun" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Arcane Torrent(Racial); [mod:ctrl] Repentance; Hammer of Justice
+END
+VER 3 01000000010004D6 "RET_3" "134400"
+#showtooltip
+/cast [mod:shift] Inquisition; [mod:ctrl] Repentance; Templar's Verdict
+END
+VER 3 01000000010004D7 "RET_<" "134400"
+#showtooltip
+/cast [mod:shift] Seal of Righteousness; Seal of Truth
+END
+VER 3 01000000010004D8 "RET_CD" "134400"
+#showtooltip
+/cast [mod:shift] Zealotry; [nomod] Avenging Wrath
+/use 10
+/use 13
+/use 14
+END
+VER 3 01000000010004DA "RET_f" "134400"
+#showtooltip
+/cast [mod:shift] Divine Storm; Exorcism
+END
+VER 3 01000000010004D9 "RET_PrefightGura" "134400"
+#showtooltip Guardian of Ancient Kings
+/use Golemblood Potion
+/use 10
+/use 13
+/use 14
+/cast Guardian of Ancient Kings
+/equipset Ret
+END
+VER 3 01000000010004D3 "te" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [mod:ctrl,@focus,exists] [] Turn Evil
+END

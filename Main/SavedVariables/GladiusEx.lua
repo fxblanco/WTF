@@ -1,0 +1,88 @@
+
+GladiusExDB = {
+["namespaces"] = {
+["arena"] = {
+["profiles"] = {
+["Default"] = {
+["modules"] = {
+["Clicks"] = false,
+},
+["y"] = {
+["anchor_arena"] = 394.5333809891235,
+["arena3"] = 401.7922012702038,
+["arena2"] = 486.0216301912296,
+["arena1"] = 570.2510591122555,
+},
+["x"] = {
+["anchor_arena"] = 915.6662286050414,
+["arena3"] = 1134.854376674906,
+["arena2"] = 1134.854376674906,
+["arena1"] = 1134.854376674906,
+},
+["frameScale"] = 0.75,
+["barWidth"] = 112,
+},
+},
+},
+["party"] = {
+["profiles"] = {
+["Default"] = {
+["y"] = {
+["anchor_party"] = 438.2666998156783,
+["player"] = 538.1666971692321,
+["party1"] = 458.0666992911574,
+["party2"] = 377.9667288789024,
+},
+["x"] = {
+["anchor_party"] = 221.7110857404314,
+["player"] = 297.3111524022643,
+["party1"] = 297.3111524022643,
+["party2"] = 297.3111524022643,
+},
+},
+},
+},
+["Clicks"] = {
+["profiles"] = {
+["Default"] = {
+["clickAttributes"] = {
+["shift-Left"] = {
+["button"] = "1",
+["macro"] = "Healing Surge",
+["action"] = "target",
+["modifier"] = "shift-",
+},
+["Right"] = {
+["macro"] = "|cff71d5ff|Hspell:51886:0|h[Cleanse Spirit]|h|r",
+["action"] = "spell",
+},
+["Left"] = {
+["macro"] = "|cff71d5ff|Hspell:8004:0|h[Healing Surge]|h|r",
+["action"] = "spell",
+},
+["shift-Right"] = {
+["button"] = "2",
+["macro"] = "",
+["action"] = "target",
+["modifier"] = "shift-",
+},
+},
+},
+},
+},
+},
+["profileKeys"] = {
+["Alslalu - Venoxis"] = "Default",
+["Alslablue - Everlook"] = "Default",
+["Alslalu - Everlook"] = "Default",
+["Alslablue - Venoxis"] = "Default",
+["Alsla - Everlook"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["globalFont"] = "Merfin Raid Font",
+["globalBarTexture"] = "MerfinMainDark",
+["locked"] = true,
+},
+},
+}

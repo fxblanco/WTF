@@ -8,8 +8,8 @@ HealerSlayerDB = {
 ["hide"] = false,
 },
 ["halo"] = true,
-["haloAlpha"] = 0.35,
 ["strict"] = true,
 ["mode"] = 1,
+["haloAlpha"] = 0.35,
 ["markerSize"] = 28,
 }

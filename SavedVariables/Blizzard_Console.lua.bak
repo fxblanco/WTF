@@ -1,6 +1,7 @@
 
 Blizzard_Console_SavedVars = {
 ["version"] = 3,
+["height"] = 300,
 ["messageHistory"] = {
 {
 "Invalid object in quest",
@@ -363,307 +364,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
+"Time played:",
 0,
 },
 {
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
+"Total: 31d 13h 59m 5s",
 0,
 },
 {
-"Invalid object in quest",
+"Level: 6d 14h 12m 45s",
 0,
 },
 {
@@ -675,15 +384,15 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Invalid object in quest",
+"Time played:",
 0,
 },
 {
-"Invalid object in quest",
+"Total: 31d 13h 59m 5s",
 0,
 },
 {
-"Invalid object in quest",
+"Level: 6d 14h 12m 45s",
 0,
 },
 {
@@ -775,87 +484,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Total: 28d 3h 50m 30s",
+"Total: 31d 13h 59m 28s",
 0,
 },
 {
-"Level: 3d 4h 4m 10s",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
+"Level: 6d 14h 13m 8s",
 0,
 },
 {
@@ -875,11 +508,11 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Total: 28d 3h 50m 58s",
+"Total: 31d 13h 59m 30s",
 0,
 },
 {
-"Level: 3d 4h 4m 38s",
+"Level: 6d 14h 13m 10s",
 0,
 },
 {
@@ -908,3030 +541,6 @@ Blizzard_Console_SavedVars = {
 },
 {
 "Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 28d 4h 3m 15s",
-0,
-},
-{
-"Level: 3d 4h 16m 55s",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 28d 4h 3m 17s",
-0,
-},
-{
-"Level: 3d 4h 16m 57s",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 28d 4h 3m 27s",
-0,
-},
-{
-"Level: 3d 4h 17m 7s",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 28d 4h 3m 28s",
-0,
-},
-{
-"Level: 3d 4h 17m 8s",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 28d 4h 7m 10s",
-0,
-},
-{
-"Level: 3d 4h 20m 50s",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Invalid object in quest",
-0,
-},
-{
-"Time played:",
-0,
-},
-{
-"Total: 28d 4h 7m 12s",
-0,
-},
-{
-"Level: 3d 4h 20m 52s",
 0,
 },
 {
@@ -3995,11 +604,1915 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
-"Screen invalid. Changing from=\"none\" to=\"charselect\"",
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
 0,
 },
 {
-"Switching to screen=\"CharacterSelect\"",
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 0m 11s",
+0,
+},
+{
+"Level: 6d 14h 13m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 0m 11s",
+0,
+},
+{
+"Level: 6d 14h 13m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 0m 12s",
+0,
+},
+{
+"Level: 6d 14h 13m 52s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 0m 12s",
+0,
+},
+{
+"Level: 6d 14h 13m 52s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 0m 12s",
+0,
+},
+{
+"Level: 6d 14h 13m 52s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 0m 12s",
+0,
+},
+{
+"Level: 6d 14h 13m 52s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 29s",
+0,
+},
+{
+"Level: 6d 14h 23m 9s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 32s",
+0,
+},
+{
+"Level: 6d 14h 23m 12s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
 0,
 },
 {
@@ -4019,47 +2532,71 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
 "Proficiency in item class 4 set to 0x0000000021",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000004000",
+"Proficiency in item class 2 set to 0x0000004010",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000084000",
+"Proficiency in item class 4 set to 0x0000000025",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000023",
+"Proficiency in item class 2 set to 0x0000006010",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000084080",
+"Proficiency in item class 4 set to 0x0000000065",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x0000084480",
+"Proficiency in item class 2 set to 0x0000006030",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x000008c480",
+"Proficiency in item class 4 set to 0x0000000067",
 0,
 },
 {
-"Proficiency in item class 2 set to 0x000008c480",
+"Proficiency in item class 2 set to 0x0000006031",
 0,
 },
 {
-"Proficiency in item class 4 set to 0x0000000023",
+"Proficiency in item class 2 set to 0x0000006431",
 0,
 },
 {
-"Weather changed to 1, intensity 0.000000\n",
+"Proficiency in item class 2 set to 0x0000006433",
 0,
 },
 {
-"Time set to 8/18/2025 (Mon) 23:09",
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 10/1/2025 (Wed) 23:40",
 0,
 },
 {
@@ -4067,6 +2604,1082 @@ Blizzard_Console_SavedVars = {
 0,
 },
 {
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 33s",
+0,
+},
+{
+"Level: 1d 17h 0m 8s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 41s",
+0,
+},
+{
+"Level: 1d 17h 0m 16s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 41s",
+0,
+},
+{
+"Level: 1d 17h 0m 16s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 45s",
+0,
+},
+{
+"Level: 1d 17h 0m 20s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 45s",
+0,
+},
+{
+"Level: 1d 17h 0m 20s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 45s",
+0,
+},
+{
+"Level: 1d 17h 0m 20s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 54m 45s",
+0,
+},
+{
+"Level: 1d 17h 0m 20s",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 17s",
+0,
+},
+{
+"Level: 1d 17h 2m 52s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 17s",
+0,
+},
+{
+"Level: 1d 17h 2m 52s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 22s",
+0,
+},
+{
+"Level: 1d 17h 2m 57s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 22s",
+0,
+},
+{
+"Level: 1d 17h 2m 57s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 22s",
+0,
+},
+{
+"Level: 1d 17h 2m 57s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 22s",
+0,
+},
+{
+"Level: 1d 17h 2m 57s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 22s",
+0,
+},
+{
+"Level: 1d 17h 2m 57s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 12h 57m 31s",
+0,
+},
+{
+"Level: 1d 17h 3m 6s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 0m 1s",
+0,
+},
+{
+"Level: 1d 17h 5m 36s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 0m 2s",
+0,
+},
+{
+"Level: 1d 17h 5m 37s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 0m 2s",
+0,
+},
+{
+"Level: 1d 17h 5m 37s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 0m 10s",
+0,
+},
+{
+"Level: 1d 17h 5m 45s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 0m 14s",
+0,
+},
+{
+"Level: 1d 17h 5m 49s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 2m 49s",
+0,
+},
+{
+"Level: 1d 17h 8m 24s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 2m 50s",
+0,
+},
+{
+"Level: 1d 17h 8m 25s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 2m 50s",
+0,
+},
+{
+"Level: 1d 17h 8m 25s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 2m 57s",
+0,
+},
+{
+"Level: 1d 17h 8m 32s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 3m 9s",
+0,
+},
+{
+"Level: 1d 17h 8m 44s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 4m 33s",
+0,
+},
+{
+"Level: 1d 17h 10m 8s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 4m 35s",
+0,
+},
+{
+"Level: 1d 17h 10m 10s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 4m 35s",
+0,
+},
+{
+"Level: 1d 17h 10m 10s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 4m 39s",
+0,
+},
+{
+"Level: 1d 17h 10m 14s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 4m 40s",
+0,
+},
+{
+"Level: 1d 17h 10m 15s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 4m 41s",
+0,
+},
+{
+"Level: 1d 17h 10m 16s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 5m 44s",
+0,
+},
+{
+"Level: 1d 17h 11m 19s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 5m 45s",
+0,
+},
+{
+"Level: 1d 17h 11m 20s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 5m 45s",
+0,
+},
+{
+"Level: 1d 17h 11m 20s",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 18s",
+0,
+},
+{
+"Level: 1d 17h 11m 53s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 18s",
+0,
+},
+{
+"Level: 1d 17h 11m 53s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 23s",
+0,
+},
+{
+"Level: 1d 17h 11m 58s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 23s",
+0,
+},
+{
+"Level: 1d 17h 11m 58s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 23s",
+0,
+},
+{
+"Level: 1d 17h 11m 58s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 23s",
+0,
+},
+{
+"Level: 1d 17h 11m 58s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 6m 23s",
+0,
+},
+{
+"Level: 1d 17h 11m 58s",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 13s",
+0,
+},
+{
+"Level: 1d 17h 15m 48s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 13s",
+0,
+},
+{
+"Level: 1d 17h 15m 48s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 16s",
+0,
+},
+{
+"Level: 1d 17h 15m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 16s",
+0,
+},
+{
+"Level: 1d 17h 15m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 16s",
+0,
+},
+{
+"Level: 1d 17h 15m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 16s",
+0,
+},
+{
+"Level: 1d 17h 15m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 10m 16s",
+0,
+},
+{
+"Level: 1d 17h 15m 51s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 11m 14s",
+0,
+},
+{
+"Level: 1d 17h 16m 49s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 14m 29s",
+0,
+},
+{
+"Level: 1d 17h 20m 4s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 14m 30s",
+0,
+},
+{
+"Level: 1d 17h 20m 5s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 14m 30s",
+0,
+},
+{
+"Level: 1d 17h 20m 5s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 14m 30s",
+0,
+},
+{
+"Level: 1d 17h 20m 5s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 15m 39s",
+0,
+},
+{
+"Level: 1d 17h 21m 14s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 17m 31s",
+0,
+},
+{
+"Level: 1d 17h 23m 6s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 17m 32s",
+0,
+},
+{
+"Level: 1d 17h 23m 7s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 17m 32s",
+0,
+},
+{
+"Level: 1d 17h 23m 7s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 18m 17s",
+0,
+},
+{
+"Level: 1d 17h 23m 52s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 18m 47s",
+0,
+},
+{
+"Level: 1d 17h 24m 22s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 19m 9s",
+0,
+},
+{
+"Level: 1d 17h 24m 44s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 20m 48s",
+0,
+},
+{
+"Level: 1d 17h 26m 23s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 20m 49s",
+0,
+},
+{
+"Level: 1d 17h 26m 24s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 20m 49s",
+0,
+},
+{
+"Level: 1d 17h 26m 24s",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 29s",
+0,
+},
+{
+"Level: 1d 17h 27m 4s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 29s",
+0,
+},
+{
+"Level: 1d 17h 27m 4s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 33s",
+0,
+},
+{
+"Level: 1d 17h 27m 8s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 33s",
+0,
+},
+{
+"Level: 1d 17h 27m 8s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 33s",
+0,
+},
+{
+"Level: 1d 17h 27m 8s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 33s",
+0,
+},
+{
+"Level: 1d 17h 27m 8s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 2d 13h 21m 33s",
+0,
+},
+{
+"Level: 1d 17h 27m 8s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000025",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000065",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006030",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006d",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006031",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006431",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 10/2/2025 (Thu) 0:16",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 48s",
+0,
+},
+{
+"Level: 6d 14h 23m 28s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 56s",
+0,
+},
+{
+"Level: 6d 14h 23m 36s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 56s",
+0,
+},
+{
+"Level: 6d 14h 23m 36s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 57s",
+0,
+},
+{
+"Level: 6d 14h 23m 37s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 57s",
+0,
+},
+{
+"Level: 6d 14h 23m 37s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 57s",
+0,
+},
+{
+"Level: 6d 14h 23m 37s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 9m 57s",
+0,
+},
+{
+"Level: 6d 14h 23m 37s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
 "Invalid object in quest",
 0,
 },
@@ -4078,10 +3691,421 @@ Blizzard_Console_SavedVars = {
 "Invalid object in quest",
 0,
 },
+{
+"Invalid object in quest",
+0,
 },
-["height"] = 300,
-["fontHeight"] = 14,
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 10m 9s",
+0,
+},
+{
+"Level: 6d 14h 23m 49s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 10m 11s",
+0,
+},
+{
+"Level: 6d 14h 23m 51s",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Invalid object in quest",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 10m 12s",
+0,
+},
+{
+"Level: 6d 14h 23m 52s",
+0,
+},
+{
+"Time played:",
+0,
+},
+{
+"Total: 31d 14h 10m 14s",
+0,
+},
+{
+"Level: 6d 14h 23m 54s",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Skill 810 increased from 103 to 104",
+0,
+},
+{
+"Skill 810 increased from 104 to 105",
+0,
+},
+{
+"Skill 810 increased from 105 to 106",
+0,
+},
+{
+"Skill 810 increased from 106 to 107",
+0,
+},
+{
+"Skill 810 increased from 107 to 108",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"-------------------------------------------------- Previous Session --------------------------------------------------",
+0,
+},
+{
+"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000000010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000021",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000004010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000025",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006010",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000065",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006030",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x0000000067",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006031",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006431",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x0000006433",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Proficiency in item class 2 set to 0x000000e433",
+0,
+},
+{
+"Proficiency in item class 4 set to 0x000000006f",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+{
+"Time set to 10/2/2025 (Thu) 0:57",
+0,
+},
+{
+"Gamespeed set from 0.017 to 0.017",
+0,
+},
+{
+"World transfer pending...",
+0,
+},
+{
+"Got new connection 3",
+0,
+},
+{
+"Weather changed to 0, intensity 0.000000\n",
+0,
+},
+},
 ["isShown"] = false,
+["fontHeight"] = 14,
 ["commandHistory"] = {
 },
 }

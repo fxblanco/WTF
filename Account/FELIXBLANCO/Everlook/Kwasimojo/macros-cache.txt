@@ -1,0 +1,71 @@
+VER 3 010000000100008B "bann" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Dispel Magic; [mod:ctrl, @mouseover, help, nodead] Cure Disease; Mass Dispel
+END
+VER 3 010000000100009E "barrier" "134400"
+#showtooltip Power Word: Barrier
+/cast [@cursor] Power Word: Barrier
+END
+VER 3 010000000100008C "cd" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast Berserking(Racial)
+/use 10
+/use 13
+/use 14
+END
+VER 3 010000000100008D "d_q" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Flash Heal;Mind Blast
+END
+VER 3 0100000001000096 "decurse" "134400"
+#showtooltip Cure Disease
+/cast [@mouseover, help, nodead] Cure Disease
+END
+VER 3 01000000010000A0 "disp" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead] Dispel Magic
+END
+VER 3 0100000001000090 "fient" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Shadowfiend
+/petaggressive
+/petattack
+/use Gewürzte Mammutleckereien
+/cast Kriechende Schatten
+END
+VER 3 0100000001000091 "hymn" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Hymn of Hope; Divine Hymn
+END
+VER 3 010000000100009F "leap" "134400"
+#showtooltip Leap of Faith
+/cast [@mouseover, help, nodead] Leap of Faith
+END
+VER 3 0100000001000092 "mc" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Mind Soothe; Mind Control
+END
+VER 3 0100000001000093 "pi" "INV_Misc_QuestionMark"
+#showtooltip Power Infusion
+/cast [@mouseover, help, nodead] Power Infusion
+END
+VER 3 010000000100009D "ps" "134400"
+#showtooltip
+/cast [@mouseover, help, nodead] Pain Supression
+END
+VER 3 0100000001000094 "s_2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Devouring Plague
+END
+VER 3 0100000001000095 "s_3" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift,@mouseover,harm,nodead] [] Shadow Word: Pain
+END
+VER 3 0100000001000098 "s_f" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead] Prayer of Healing; Mind Sear
+END
+VER 3 0100000001000099 "s_g" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @mouseover, help, nodead]Fear Ward; Psychic Scream
+END

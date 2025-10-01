@@ -1,0 +1,118 @@
+VER 3 0100000000000001 "e_eles" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Earth Elemental Totem; Fire Elemental Totem
+END
+VER 3 0100000000000015 "e_eles" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Windwalk Totem; [mod:shift] Earth Elemental Totem; Fire Elemental Totem
+END
+VER 3 0100000000000002 "ENH_4" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Fire Nova; Earth Shock
+END
+VER 3 0100000000000003 "ENH_5" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Purge; [mod:shift, @cursor] Healing Rain  ; Frost Shock
+END
+VER 3 0100000000000004 "ENH_eb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Ancestral Guidance; [mod:shift] Shamanistic Rage ; Elemental Blast
+END
+VER 3 0100000000000005 "ENH_G" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Purge; [mod:shift] Magma Totem  ; Searing Totem
+END
+VER 3 0100000000000016 "ENH_lb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Healing Stream Totem;  [mod:shift] Chain Lightning; Lightning Bolt
+END
+VER 3 0100000000000006 "ENH_lb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Chain Lightning; Lightning Bolt
+END
+VER 3 0100000000000007 "ENH_SS" "INV_Misc_QuestionMark"
+#showtooltip Stormstrike
+/use 10
+/stopcasting
+/cast Stormstrike
+END
+VER 3 0100000000000008 "ENH_sync" "INV_Misc_QuestionMark"
+#showtooltip Albino Snake
+/run WeakAuras.ScanEvents("snek")
+END
+VER 3 0100000000000009 "HEAL_G" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Purge; [mod:shift] Mana Tide Totem ; Healing Stream Totem
+/use 10
+END
+VER 3 010000000000000A "RESTO_rain" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift, @player] Healing Rain; [nomod, @cursor] Healing Rain
+END
+VER 3 010000000000000B "s_bindingTotem" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Grounding Totem; Earthbind Totem
+END
+VER 3 010000000000000C "SHA_6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Ancestral Swiftness; [mod:shift] Call of the Elements ; Healing Tide Totem
+END
+VER 3 010000000000000D "SHA_ascend" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Ascendance
+/cast Elemental Mastery
+/cast Blood Fury
+/cast Lifeblood
+/use 10
+/use 13
+/use 14
+END
+VER 3 010000000000000E "SHA_cd" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Elemental Mastery
+/cast Blood Fury
+/cast Lifeblood
+/use 10
+/use 13
+/use 14
+END
+VER 3 010000000000000F "SHA_cleanse" "INV_Misc_QuestionMark"
+#showtooltip Cleanse Spirit
+/cast [nomod, @mouseover, help, nodead] Cleanse Spirit
+END
+VER 3 0100000000000010 "SHA_focus" "INV_Misc_QuestionMark"
+#showtooltip
+/focus Arcanotron
+/stopcasting
+/cast [@focus] Wind Shear
+/cast Wind Shear
+END
+VER 3 0100000000000017 "SHA_focus" "INV_Misc_QuestionMark"
+#showtooltip
+/focus Elder Asani
+/stopcasting
+/cast [@focus] Wind Shear
+/cast Wind Shear
+END
+VER 3 0100000000000011 "SHA_fury" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Blood Fury
+/cast Lifeblood
+/use 10
+/use 13
+/use 14
+END
+VER 3 0100000000000012 "SHA_totem" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Tremor Totem; [mod:shift] Earthbind Totem ; Capacitor Totem
+END
+VER 3 0100000000000013 "SHAM_FS-Nova" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Fire Nova; Flame Shock
+/use [@Cursor] Saronite Bomb
+/use 10
+END
+VER 3 0100000000000014 "TP" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Totemic Recall; [@cursor] Totemic Projection
+END

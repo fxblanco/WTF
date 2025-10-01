@@ -4,24 +4,44 @@ TomTomDB = {
 ["Alsla - Venoxis"] = "MerfinUI v7.4",
 ["Alsía - Venoxis"] = "MerfinUI v7.4",
 ["Exonuklease - Venoxis"] = "MerfinUI v7.4",
+["Alslalock - Everlook"] = "MerfinUI v7.52",
+["Kwasimojo - Venoxis"] = "MerfinUI v7.4",
+["Alsia - Venoxis"] = "MerfinUI v7.48",
 ["Alslalu - Venoxis"] = "MerfinUI v7.5",
 ["Alslahunt - Venoxis"] = "MerfinUI v7.4",
+["Alslablue - Everlook"] = "Default",
+["Alslalu - Everlook"] = "MerfinUI v7.52",
 ["Alslalock - Venoxis"] = "MerfinUI v7.48",
+["Alslablue - Venoxis"] = "Default",
 ["Endonuclease - Venoxis"] = "MerfinUI v7.4",
-["Alsia - Venoxis"] = "MerfinUI v7.48",
-["Kwasimojo - Venoxis"] = "MerfinUI v7.4",
+["Alsla - Everlook"] = "Default",
 },
 ["profiles"] = {
-["Default"] = {
+["MerfinUI v7.52"] = {
 ["block"] = {
+["fontsize"] = 17,
 ["position"] = {
-"CENTER",
+"TOP",
 nil,
-"CENTER",
+"TOP",
 0,
--100,
+-70,
+},
+["enable"] = false,
+["height"] = 40,
+["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
 },
 },
+},
+["Default"] = {
 ["arrow"] = {
 ["position"] = {
 "CENTER",
@@ -29,19 +49,19 @@ nil,
 "CENTER",
 0,
 0,
+},
+},
+["block"] = {
+["position"] = {
+"RIGHT",
+nil,
+"RIGHT",
+-420.6671447753906,
+93.33309936523438,
 },
 },
 },
 ["MerfinUI v7.4"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -54,18 +74,18 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.48"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -78,21 +98,19 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.5"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
-["enable"] = false,
-["width"] = 130,
 ["fontsize"] = 17,
 ["position"] = {
 "TOP",
@@ -101,7 +119,18 @@ nil,
 0,
 -70,
 },
+["enable"] = false,
 ["height"] = 40,
+["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.49"] = {
@@ -136,12 +165,17 @@ TomTomWaypointsM = {
 ["Alsla - Venoxis"] = "Alsla - Venoxis",
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
+["Alslalock - Everlook"] = "Alslalock - Everlook",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alslablue - Everlook"] = "Alslablue - Everlook",
+["Alslalu - Everlook"] = "Alslalu - Everlook",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alslablue - Venoxis"] = "Alslablue - Venoxis",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
-["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alsla - Everlook"] = "Alsla - Everlook",
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
@@ -150,17 +184,27 @@ TomTomWaypointsM = {
 },
 ["Exonuklease - Venoxis"] = {
 },
+["Alslalock - Everlook"] = {
+},
+["Kwasimojo - Venoxis"] = {
+},
+["Alsia - Venoxis"] = {
+},
 ["Alslalu - Venoxis"] = {
 },
 ["Alslahunt - Venoxis"] = {
 },
+["Alslablue - Everlook"] = {
+},
+["Alslalu - Everlook"] = {
+},
 ["Alslalock - Venoxis"] = {
+},
+["Alslablue - Venoxis"] = {
 },
 ["Endonuclease - Venoxis"] = {
 },
-["Alsia - Venoxis"] = {
-},
-["Kwasimojo - Venoxis"] = {
+["Alsla - Everlook"] = {
 },
 },
 }
