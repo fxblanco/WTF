@@ -10,9 +10,9 @@ BisTooltipDB = {
 ["Alsia - Venoxis"] = "Default",
 ["Alslablue - Everlook"] = "Default",
 ["Alsía - Venoxis"] = "Default",
-["Alslalu - Everlook"] = "Default",
-["Alslablue - Venoxis"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
+["Alslablue - Venoxis"] = "Default",
+["Alslalu - Everlook"] = "Default",
 ["Alsla - Everlook"] = "Default",
 },
 ["char"] = {
@@ -57,18 +57,18 @@ BisTooltipDB = {
 },
 ["Alslablue - Everlook"] = {
 ["class_index"] = 9,
-["version"] = 9,
 ["spec_index"] = 2,
 ["bis_list_window"] = {
-["y"] = 0,
+["y"] = 4.376783181214705e-05,
 ["x"] = 0,
 ["point"] = "CENTER",
 ["relativePoint"] = "CENTER",
 ["height"] = 500.0000915527344,
 ["width"] = 450,
 },
-["data_source"] = "wh",
 ["phase_index"] = 2,
+["data_source"] = "wh",
+["version"] = 9,
 },
 ["Alsía - Venoxis"] = {
 ["class_index"] = 10,
@@ -77,20 +77,11 @@ BisTooltipDB = {
 ["data_source"] = "wh",
 ["phase_index"] = 2,
 },
-["Alslalu - Everlook"] = {
-["class_index"] = 9,
-["spec_index"] = 2,
-["bis_list_window"] = {
-["y"] = 16.66666030883789,
-["x"] = 311.3333129882813,
-["point"] = "CENTER",
-["relativePoint"] = "CENTER",
-["height"] = 500.0000915527344,
-["width"] = 450,
-},
-["phase_index"] = 2,
+["Alslalock - Venoxis"] = {
+["class_index"] = 10,
 ["data_source"] = "wh",
 ["version"] = 9,
+["phase_index"] = 2,
 },
 ["Alslablue - Venoxis"] = {
 ["class_index"] = 9,
@@ -107,10 +98,19 @@ BisTooltipDB = {
 ["width"] = 450,
 },
 },
-["Alslalock - Venoxis"] = {
-["class_index"] = 10,
-["data_source"] = "wh",
+["Alslalu - Everlook"] = {
+["class_index"] = 9,
 ["version"] = 9,
+["spec_index"] = 2,
+["bis_list_window"] = {
+["y"] = 16.66666030883789,
+["x"] = 311.3333129882813,
+["point"] = "CENTER",
+["relativePoint"] = "CENTER",
+["height"] = 500.0000915527344,
+["width"] = 450,
+},
+["data_source"] = "wh",
 ["phase_index"] = 2,
 },
 ["Alsla - Everlook"] = {

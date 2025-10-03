@@ -9,8 +9,8 @@ BisTooltipDB = {
 ["Alslalu - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Alslablue - Everlook"] = "Default",
-["Alslalock - Venoxis"] = "Default",
 ["Alslalu - Everlook"] = "Default",
+["Alslalock - Venoxis"] = "Default",
 ["Alslablue - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Alsla - Everlook"] = "Default",
@@ -59,7 +59,7 @@ BisTooltipDB = {
 ["class_index"] = 9,
 ["spec_index"] = 2,
 ["bis_list_window"] = {
-["y"] = 0,
+["y"] = 4.376783181214705e-05,
 ["x"] = 0,
 ["point"] = "CENTER",
 ["relativePoint"] = "CENTER",
@@ -69,12 +69,6 @@ BisTooltipDB = {
 ["phase_index"] = 2,
 ["data_source"] = "wh",
 ["version"] = 9,
-},
-["Alslalock - Venoxis"] = {
-["class_index"] = 10,
-["version"] = 9,
-["data_source"] = "wh",
-["phase_index"] = 2,
 },
 ["Alslalu - Everlook"] = {
 ["class_index"] = 9,
@@ -90,6 +84,12 @@ BisTooltipDB = {
 ["height"] = 500.0000915527344,
 ["width"] = 450,
 },
+},
+["Alslalock - Venoxis"] = {
+["class_index"] = 10,
+["version"] = 9,
+["data_source"] = "wh",
+["phase_index"] = 2,
 },
 ["Alslablue - Venoxis"] = {
 ["class_index"] = 9,

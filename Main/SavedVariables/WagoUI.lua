@@ -18,13 +18,13 @@ WagoUIDB = {
 },
 ["config"] = {
 },
-["introImportState"] = {
+["latestSeenReleasenotes"] = {
 },
 ["autoStart"] = false,
 ["xoffset"] = 0,
 ["importedProfiles"] = {
 },
-["latestSeenReleasenotes"] = {
+["introImportState"] = {
 },
 ["yoffset"] = 0,
 }

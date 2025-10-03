@@ -34,7 +34,7 @@ ElvUI: enabled
 ElvUI_Options: enabled
 ErrorMonster: enabled
 FojjiCore: enabled
-Gargul: disabled
+Gargul: enabled
 HonziLoot: disabled
 idTip: enabled
 Leatrix_Plus: enabled

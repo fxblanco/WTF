@@ -24,6 +24,17 @@ CliqueDB3 = {
 ["specswap"] = false,
 ["spec3_profileKey"] = "Alslahunt - Venoxis",
 },
+["Alslablue - Everlook"] = {
+["spec1_profileKey"] = "Alslablue - Everlook",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["fastooc"] = false,
+["spec3_profileKey"] = "Alslablue - Everlook",
+["downclick"] = false,
+["spec2_profileKey"] = "Alslablue - Everlook",
+["specswap"] = false,
+},
 ["Alslalu - Everlook"] = {
 ["spec1_profileKey"] = "Alslalu - Everlook",
 ["blizzframes"] = {
@@ -55,12 +66,12 @@ CliqueDB3 = {
 ["Alsla - Everlook"] = "Alsla - Everlook",
 ["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
 ["Alslalu - Everlook"] = "Alslalu - Everlook",
 ["Alslablue - Venoxis"] = "Alslablue - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
 },
 ["profiles"] = {
@@ -217,12 +228,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["type"] = "menu",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "menu",
-["icon"] = 132212,
 ["key"] = "ALT-BUTTON2",
+["icon"] = 132212,
 },
 {
 ["spell"] = "Earth Shield",
@@ -271,13 +282,13 @@ CliqueDB3 = {
 },
 },
 },
-["Alslahunt - Venoxis"] = {
+["Alsia - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -287,15 +298,6 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["spell"] = "Misdirection",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 132180,
-["type"] = "spell",
 },
 },
 },
@@ -393,13 +395,13 @@ CliqueDB3 = {
 },
 },
 },
-["Alsia - Venoxis"] = {
+["Alslahunt - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -409,6 +411,15 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["spell"] = "Misdirection",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 132180,
+["type"] = "spell",
 },
 },
 },

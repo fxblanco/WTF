@@ -27,15 +27,15 @@ WagoUICreatorDB = {
 },
 ["SexyMap"] = {
 },
-["OmniCD"] = {
+["ElvUI Private Profile"] = {
 },
-["ElvUI Account Settings"] = {
+["BigWigs"] = {
 },
 ["WarpDeplete"] = {
 },
 ["ShadowedUnitFrames"] = {
 },
-["ElvUI Private Profile"] = {
+["OmniCD"] = {
 },
 ["WeakAuras"] = {
 },
@@ -45,13 +45,13 @@ WagoUICreatorDB = {
 },
 ["ElvUI Aura Filters"] = {
 },
-["ElvUI Style Filters"] = {
+["TipTac Reborn"] = {
 },
-["BigWigs"] = {
+["ElvUI Account Settings"] = {
 },
 ["Details"] = {
 },
-["TipTac Reborn"] = {
+["ElvUI Style Filters"] = {
 },
 ["Bartender4"] = {
 },
@@ -103,15 +103,15 @@ WagoUICreatorDB = {
 },
 ["SexyMap"] = {
 },
-["OmniCD"] = {
+["ElvUI Private Profile"] = {
 },
-["ElvUI Account Settings"] = {
+["BigWigs"] = {
 },
 ["WarpDeplete"] = {
 },
 ["ShadowedUnitFrames"] = {
 },
-["ElvUI Private Profile"] = {
+["OmniCD"] = {
 },
 ["WeakAuras"] = {
 },
@@ -121,13 +121,13 @@ WagoUICreatorDB = {
 },
 ["ElvUI Aura Filters"] = {
 },
-["ElvUI Style Filters"] = {
+["TipTac Reborn"] = {
 },
-["BigWigs"] = {
+["ElvUI Account Settings"] = {
 },
 ["Details"] = {
 },
-["TipTac Reborn"] = {
+["ElvUI Style Filters"] = {
 },
 ["Bartender4"] = {
 },

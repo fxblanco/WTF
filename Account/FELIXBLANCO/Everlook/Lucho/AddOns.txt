@@ -52,7 +52,7 @@ ElvUI_MerfinUI: enabled
 ElvUI_Options: enabled
 ErrorFilter: enabled
 FojjiCore: enabled
-Gargul: disabled
+Gargul: enabled
 GDKPd: disabled
 Gladdy: disabled
 Grid2: enabled

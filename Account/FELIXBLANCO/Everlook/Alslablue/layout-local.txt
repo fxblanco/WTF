@@ -41,10 +41,10 @@ X: 0
 Y: 0
 W: 750
 H: 500
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: 408
-Y: 0
-W: 933
-H: 803
+Frame: Gargul.BidderQueue.Window
+FrameLevel: 100
+Anchor: RIGHT
+X: -60
+Y: -120
+W: 181
+H: 242

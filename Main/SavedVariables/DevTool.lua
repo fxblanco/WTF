@@ -6,9 +6,9 @@ DevToolDatabase = {
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Alslalock - Everlook"] = "Alslalock - Everlook",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
 ["Alslalu - Everlook"] = "Alslalu - Everlook",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
@@ -27,11 +27,11 @@ DevToolDatabase = {
 },
 ["Kwasimojo - Venoxis"] = {
 },
-["Alsia - Venoxis"] = {
+["Alslahunt - Venoxis"] = {
 },
 ["Alslalu - Venoxis"] = {
 },
-["Alslahunt - Venoxis"] = {
+["Alsia - Venoxis"] = {
 },
 ["Alslablue - Everlook"] = {
 },

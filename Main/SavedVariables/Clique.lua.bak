@@ -2,16 +2,16 @@
 CliqueDB = nil
 CliqueDB3 = {
 ["char"] = {
-["Alslalock - Venoxis"] = {
-["spec1_profileKey"] = "Alslalock - Venoxis",
+["Alslalu - Venoxis"] = {
+["spec1_profileKey"] = "Alslalu - Venoxis",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec3_profileKey"] = "Alslalock - Venoxis",
-["spec2_profileKey"] = "Alslalock - Venoxis",
+["spec3_profileKey"] = "Alslalu - Venoxis",
 ["specswap"] = false,
+["spec2_profileKey"] = "Alslalu - Venoxis",
 },
 ["Alslahunt - Venoxis"] = {
 ["spec1_profileKey"] = "Alslahunt - Venoxis",
@@ -24,27 +24,38 @@ CliqueDB3 = {
 ["specswap"] = false,
 ["spec2_profileKey"] = "Alslahunt - Venoxis",
 },
-["Alslalu - Venoxis"] = {
-["spec1_profileKey"] = "Alslalu - Venoxis",
+["Alslablue - Everlook"] = {
+["spec1_profileKey"] = "Alslablue - Everlook",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
-["spec3_profileKey"] = "Alslalu - Venoxis",
+["spec3_profileKey"] = "Alslablue - Everlook",
+["downclick"] = false,
 ["specswap"] = false,
-["spec2_profileKey"] = "Alslalu - Venoxis",
+["spec2_profileKey"] = "Alslablue - Everlook",
 },
 ["Alslalu - Everlook"] = {
 ["spec1_profileKey"] = "Alslalu - Everlook",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Alslalu - Everlook",
-["downclick"] = false,
 ["specswap"] = false,
 ["spec2_profileKey"] = "Alslalu - Everlook",
+},
+["Alslalock - Venoxis"] = {
+["spec1_profileKey"] = "Alslalock - Venoxis",
+["blizzframes"] = {
+["statusBarFix"] = false,
+},
+["downclick"] = false,
+["fastooc"] = false,
+["spec3_profileKey"] = "Alslalock - Venoxis",
+["spec2_profileKey"] = "Alslalock - Venoxis",
+["specswap"] = false,
 },
 },
 ["profileKeys"] = {
@@ -53,9 +64,9 @@ CliqueDB3 = {
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Alslalock - Everlook"] = "Alslalock - Everlook",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
 ["Alslalu - Everlook"] = "Alslalu - Everlook",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
@@ -168,13 +179,13 @@ CliqueDB3 = {
 },
 },
 },
-["Alslahunt - Venoxis"] = {
+["Alsia - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -184,15 +195,6 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
-},
-{
-["spell"] = "Misdirection",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 132180,
-["type"] = "spell",
 },
 },
 },
@@ -226,12 +228,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
-["icon"] = 132212,
-["type"] = "menu",
 ["key"] = "ALT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
+["icon"] = 132212,
+["type"] = "menu",
 },
 {
 ["spell"] = "Earth Shield",
@@ -280,13 +282,13 @@ CliqueDB3 = {
 },
 },
 },
-["Alsia - Venoxis"] = {
+["Alslahunt - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -296,6 +298,15 @@ CliqueDB3 = {
 ["sets"] = {
 ["default"] = true,
 },
+},
+{
+["spell"] = "Misdirection",
+["key"] = "SHIFT-BUTTON1",
+["sets"] = {
+["default"] = true,
+},
+["icon"] = 132180,
+["type"] = "spell",
 },
 },
 },

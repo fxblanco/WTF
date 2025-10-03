@@ -267,13 +267,14 @@ BAGANATOR_CONFIG = {
 28.00033760070801,
 },
 ["icon_text_font_size"] = 13,
-["bag_view_width"] = 12,
 ["sort_ignore_slots_count_2"] = 0,
+["bag_view_width"] = 12,
 ["disabled_skins"] = {
 },
 ["setting_anchors"] = false,
 ["bag_empty_space_at_top"] = false,
 ["bag_view_type"] = "category",
+["debug_keywords"] = false,
 ["recent_characters_main_view"] = {
 "Alslalu-Everlook",
 "Alslablue-Everlook",
@@ -286,7 +287,6 @@ BAGANATOR_CONFIG = {
 "Alsia-Venoxis",
 "Alsla-Everlook",
 },
-["debug_keywords"] = false,
 ["category_migration"] = 5,
 ["auto_sort_on_open"] = false,
 ["skins"] = {

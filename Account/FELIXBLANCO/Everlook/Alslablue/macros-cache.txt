@@ -1,10 +1,10 @@
-VER 3 0100000000000015 "e_eles" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:ctrl] Windwalk Totem; [mod:shift] Earth Elemental Totem; Fire Elemental Totem
-END
 VER 3 0100000000000001 "e_eles" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:shift] Earth Elemental Totem; Fire Elemental Totem
+END
+VER 3 0100000000000015 "e_eles" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Windwalk Totem; [mod:shift] Earth Elemental Totem; Fire Elemental Totem
 END
 VER 3 0100000000000002 "ENH_4" "INV_Misc_QuestionMark"
 #showtooltip
@@ -22,13 +22,13 @@ VER 3 0100000000000005 "ENH_G" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] Purge; [mod:shift] Magma Totem  ; Searing Totem
 END
-VER 3 0100000000000006 "ENH_lb" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [mod:shift] Chain Lightning; Lightning Bolt
-END
 VER 3 0100000000000016 "ENH_lb" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [mod:ctrl] Healing Stream Totem;  [mod:shift] Chain Lightning; Lightning Bolt
+END
+VER 3 0100000000000006 "ENH_lb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Chain Lightning; Lightning Bolt
 END
 VER 3 0100000000000007 "ENH_SS" "INV_Misc_QuestionMark"
 #showtooltip Stormstrike
