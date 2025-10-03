@@ -57,7 +57,10 @@ BisTooltipDB = {
 },
 ["Alslablue - Everlook"] = {
 ["class_index"] = 9,
+["version"] = 9,
 ["spec_index"] = 2,
+["phase_index"] = 2,
+["data_source"] = "wh",
 ["bis_list_window"] = {
 ["y"] = 4.376783181214705e-05,
 ["x"] = 0,
@@ -66,16 +69,10 @@ BisTooltipDB = {
 ["height"] = 500.0000915527344,
 ["width"] = 450,
 },
-["phase_index"] = 2,
-["data_source"] = "wh",
-["version"] = 9,
 },
 ["Alslalu - Everlook"] = {
 ["class_index"] = 9,
-["version"] = 9,
 ["spec_index"] = 2,
-["phase_index"] = 2,
-["data_source"] = "wh",
 ["bis_list_window"] = {
 ["y"] = 16.66666030883789,
 ["x"] = 311.3333129882813,
@@ -84,6 +81,9 @@ BisTooltipDB = {
 ["height"] = 500.0000915527344,
 ["width"] = 450,
 },
+["phase_index"] = 2,
+["data_source"] = "wh",
+["version"] = 9,
 },
 ["Alslalock - Venoxis"] = {
 ["class_index"] = 10,

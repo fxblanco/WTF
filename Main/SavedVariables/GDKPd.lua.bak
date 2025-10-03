@@ -1,11 +1,11 @@
 
 GDKPd_DB = {
+["global"] = {
+["shownPopupAddonMsg4_2"] = true,
+},
 ["profileKeys"] = {
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
 ["Alsla - Everlook"] = "Alsla - Everlook",
-},
-["global"] = {
-["shownPopupAddonMsg4_2"] = true,
 },
 ["profiles"] = {
 ["Alslablue - Everlook"] = {

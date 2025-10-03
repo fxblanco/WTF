@@ -18,20 +18,16 @@ VMRT = {
 ["ScaleBack"] = 0,
 ["Text1"] = "",
 ["PersonalHeight"] = 200,
-["enabled"] = true,
+["DefName"] = "HOF4",
 ["Outline"] = true,
 ["Scale"] = 100,
 ["LastUpdateName"] = "Bonkjovi-Venoxis",
 ["FontName"] = "Interface\\Addons\\MerfinPlus\\Media\\font\\SFUIDisplayCondensed-Semibold.otf",
-["Top"] = 1164,
-["LastUpdateTime"] = 1757448425,
-["Profiles"] = {
-["Now"] = "default",
-["List"] = {
-},
-},
 ["BlackLastUpdateName"] = {
 },
+["LastUpdateTime"] = 1757448425,
+["Width"] = 449.9999084472656,
+["Top"] = 1164,
 ["Black"] = {
 "",
 "",
@@ -39,11 +35,15 @@ VMRT = {
 },
 ["BlackLastUpdateTime"] = {
 },
-["Width"] = 449.9999084472656,
+["Profiles"] = {
+["Now"] = "default",
+["List"] = {
+},
+},
 ["Height"] = 400,
 ["Strata"] = "BACKGROUND",
 ["OptionsFormatting"] = true,
-["DefName"] = "HOF4",
+["enabled"] = true,
 },
 ["ProfileKeys"] = {
 ["Exonuklease-Venoxis"] = "default",
@@ -334,21 +334,21 @@ VMRT = {
 [1058] = "|Hitem:87164::::::::90::263::::::::|",
 [977] = "|Hitem:86960::::::::90::263::::::::|",
 [850] = "|Hitem:89251::::::::90::264::::::::|",
-[111] = "|Hitem:89936::::::::90::267::::::::|",
+[442] = "|Hitem:86971::::::::90::264::::::::|",
 [115] = "|Hitem:87061::::::::90::267::::::::|",
 [946] = "|Hitem:87167::::::::90::263::::::::|",
 [723] = "|Hitem:89948::::::::90::267::::::::|",
 [755] = "|Hitem:87171::::::::90::267::::::::|",
 [267] = "|Hitem:86963::::::::90::267::::::::|",
 [1001] = "|Hitem:86981::::::::90::263::::::::|",
-[411] = "|Hitem:87020::::::::90::263::::::::|",
+[13] = "|Hitem:87027::::::::90::263::::::::|",
 [315] = "|Hitem:89917::::::::90::267::::::::|",
 [660] = "|Hitem:89251::::::::90::263::::::::|",
 [692] = "|Hitem:87170::::::::90::263::::::::|",
 [979] = "|Hitem:86955::::::::90::263::::::::|",
 [756] = "|Hitem:89263::::::::90::267::::::::|",
 [1062] = "|Hitem:87163::::::::90::263::::::::|",
-[13] = "|Hitem:87027::::::::90::263::::::::|",
+[411] = "|Hitem:87020::::::::90::263::::::::|",
 [1128] = "|Hitem:89257::::::::90::263::::::::|",
 [629] = "|Hitem:86981::::::::90::263::::::::|",
 [230] = "|Hitem:87015::::::::90::263::::::::|",
@@ -364,34 +364,34 @@ VMRT = {
 [404] = "|Hitem:89835::::::::90::267::::::::|",
 [907] = "|Hitem:90510::::::::90::263::::::::|",
 [1066] = "|Hitem:87158::::::::90::263::::::::|",
-[492] = "|Hitem:86948::::::::90::267::::::::|",
-[27] = "|Hitem:89937::::::::90::263::::::::|",
 [848] = "|Hitem:86988::::::::90::264::::::::|",
+[27] = "|Hitem:89937::::::::90::263::::::::|",
+[727] = "|Hitem:87164::::::::90::267::::::::|",
 [663] = "|Hitem:89251::::::::90::263::::::::|",
 [476] = "|Hitem:89936::::::::90::267::::::::|",
-[727] = "|Hitem:87164::::::::90::267::::::::|",
+[492] = "|Hitem:86948::::::::90::267::::::::|",
 [508] = "|Hitem:86955::::::::90::267::::::::|",
 [536] = "|Hitem:86975::::::::90::267::::::::|",
 [36] = "|Hitem:87071::::::::90::263::::::::|",
 [38] = "|Hitem:87076::::::::90::263::::::::|",
 [632] = "|Hitem:89254::::::::90::263::::::::|",
-[445] = "|Hitem:86971::::::::90::263::::::::|",
+[223] = "|Hitem:87076::::::::90::267::::::::|",
 [951] = "|Hitem:87167::::::::90::263::::::::|",
 [1033] = "|Hitem:89258::::::::90::263::::::::|",
-[1015] = "|Hitem:90508::::::::90::263::::::::|",
-[199] = "|Hitem:87040::::::::90::267::::::::|",
+[381] = "|Hitem:89257::::::::90::267::::::::|",
+[1070] = "|Hitem:89263::::::::90::263::::::::|",
 [569] = "|Hitem:86227::::::::90::267::::::::|",
 [856] = "|Hitem:86988::::::::90::264::::::::|",
-[223] = "|Hitem:87076::::::::90::267::::::::|",
+[445] = "|Hitem:86971::::::::90::263::::::::|",
 [920] = "|Hitem:90513::::::::90::263::::::::|",
 [713] = "|Hitem:90513::::::::90::267::::::::|",
 [729] = "|Hitem:87164::::::::90::267::::::::|",
 [284] = "|Hitem:86953::::::::90::263::::::::|",
 [805] = "|Hitem:85340::::::::90::263::::::::|",
-[120] = "|Hitem:87057::::::::90::267::::::::|",
+[954] = "|Hitem:89260::::::::90::263::::::::|",
 [76] = "|Hitem:87035::::::::90::267::::::::|",
-[128] = "|Hitem:87076::::::::90::267::::::::|",
-[1073] = "|Hitem:89263::::::::90::263::::::::|",
+[510] = "|Hitem:86956::::::::90::267::::::::|",
+[84] = "|Hitem:87038::::::::90::267::::::::|",
 [1137] = "|Hitem:89252::::::::90::263::::::::|",
 [964] = "|Hitem:87174::::::::90::263::::::::|",
 [700] = "|Hitem:86386::::::::90::263::::::::|",
@@ -399,15 +399,15 @@ VMRT = {
 [826] = "|Hitem:86943::::::::90::263::::::::|",
 [108] = "|Hitem:87049::::::::90::267::::::::|",
 [890] = "|Hitem:87066::::::::90::263::::::::|",
-[922] = "|Hitem:90506::::::::90::263::::::::|",
-[954] = "|Hitem:89260::::::::90::263::::::::|",
+[462] = "|Hitem:87015::::::::90::267::::::::|",
+[120] = "|Hitem:87057::::::::90::267::::::::|",
 [731] = "|Hitem:87183::::::::90::267::::::::|",
-[510] = "|Hitem:86956::::::::90::267::::::::|",
+[128] = "|Hitem:87076::::::::90::267::::::::|",
 [987] = "|Hitem:89923::::::::90::263::::::::|",
 [572] = "|Hitem:86227::::::::90::267::::::::|",
 [859] = "|Hitem:90512::::::::90::264::::::::|",
 [636] = "|Hitem:86986::::::::90::263::::::::|",
-[335] = "|Hitem:86960::::::::90::267::::::::|",
+[168] = "|Hitem:87061::::::::90::263::::::::|",
 [351] = "|Hitem:86970::::::::90::267::::::::|",
 [367] = "|Hitem:89257::::::::90::267::::::::|",
 [764] = "|Hitem:87170::::::::90::267::::::::|",
@@ -443,24 +443,24 @@ VMRT = {
 [644] = "|Hitem:86990::::::::90::263::::::::|",
 [736] = "|Hitem:89945::::::::90::267::::::::|",
 [193] = "|Hitem:89934::::::::90::267::::::::|",
-[834] = "|Hitem:86965::::::::90::263::::::::|",
+[579] = "|Hitem:87169::::::::90::264::::::::|",
 [1150] = "|Hitem:86988::::::::90::263::::::::|",
-[418] = "|Hitem:87056::::::::90::263::::::::|",
+[834] = "|Hitem:86965::::::::90::263::::::::|",
 [1087] = "|Hitem:89258::::::::90::263::::::::|",
 [673] = "|Hitem:87167::::::::90::263::::::::|",
 [97] = "|Hitem:87045::::::::90::267::::::::|",
-[929] = "|Hitem:87158::::::::90::263::::::::|",
+[1089] = "|Hitem:87174::::::::90::263::::::::|",
 [769] = "|Hitem:90506::::::::90::264::::::::|",
 [801] = "|Hitem:86978::::::::90::263::::::::|",
 [354] = "|Hitem:86967::::::::90::267::::::::|",
 [865] = "|Hitem:89947::::::::90::264::::::::|",
-[322] = "|Hitem:86960::::::::90::267::::::::|",
-[1089] = "|Hitem:87174::::::::90::263::::::::|",
-[961] = "|Hitem:89260::::::::90::263::::::::|",
 [897] = "|Hitem:87076::::::::90::264::::::::|",
+[929] = "|Hitem:87158::::::::90::263::::::::|",
+[961] = "|Hitem:89260::::::::90::263::::::::|",
+[322] = "|Hitem:86960::::::::90::267::::::::|",
 [1026] = "|Hitem:87172::::::::90::263::::::::|",
 [802] = "|Hitem:85295::::::::90::267::::::::|",
-[579] = "|Hitem:87169::::::::90::264::::::::|",
+[418] = "|Hitem:87056::::::::90::263::::::::|",
 [434] = "|Hitem:86949::::::::90::263::::::::|",
 [413] = "|Hitem:89933::::::::90::263::::::::|",
 [160] = "|Hitem:87032::::::::90::263::::::::|",
@@ -481,14 +481,14 @@ VMRT = {
 [226] = "|Hitem:87073::::::::90::267::::::::|",
 [234] = "|Hitem:87032::::::::90::263::::::::|",
 [483] = "|Hitem:87068::::::::90::267::::::::|",
-[168] = "|Hitem:87061::::::::90::263::::::::|",
-[462] = "|Hitem:87015::::::::90::267::::::::|",
+[335] = "|Hitem:86960::::::::90::267::::::::|",
+[922] = "|Hitem:90506::::::::90::263::::::::|",
 [1096] = "|Hitem:87175::::::::90::263::::::::|",
-[84] = "|Hitem:87038::::::::90::267::::::::|",
+[1073] = "|Hitem:89263::::::::90::263::::::::|",
 [377] = "|Hitem:86975::::::::90::267::::::::|",
 [646] = "|Hitem:86988::::::::90::263::::::::|",
-[1070] = "|Hitem:89263::::::::90::263::::::::|",
-[381] = "|Hitem:89257::::::::90::267::::::::|",
+[199] = "|Hitem:87040::::::::90::267::::::::|",
+[1015] = "|Hitem:90508::::::::90::263::::::::|",
 [997] = "|Hitem:86982::::::::90::263::::::::|",
 [617] = "|Hitem:86977::::::::90::263::::::::|",
 [806] = "|Hitem:85287::::::::90::263::::::::|",
@@ -497,7 +497,7 @@ VMRT = {
 [1035] = "|Hitem:89951::::::::90::263::::::::|",
 [816] = "|Hitem:87044::::::::90::263::::::::|",
 [966] = "|Hitem:89260::::::::90::263::::::::|",
-[442] = "|Hitem:86971::::::::90::264::::::::|",
+[111] = "|Hitem:89936::::::::90::267::::::::|",
 },
 ["list"] = {
 "4125145Ogflikz1754937248",
@@ -1656,300 +1656,18 @@ VMRT = {
 "9132181Akagin1759447210",
 },
 },
-["Reminder"] = {
-["FontSize"] = 50,
-["disabled"] = {
-},
-["lastArchiveCheck"] = 1759519640,
-["HistoryBlacklist"] = {
-},
-["locked"] = {
-},
-["ttsVoiceRate"] = 0,
-["HistoryEnabled"] = true,
-["ttsVoiceVolume"] = 75,
-["DataProfiles"] = {
-["Default"] = {
-},
-},
-["lockedSounds"] = {
-},
-["pre_v43"] = {
-},
-["Glow"] = {
-["PixelGlow"] = {
-["thickness"] = 3,
-["count"] = 8,
-["frequency"] = 0.25,
-["xOffset"] = 0,
-["length"] = 20,
-["border"] = true,
-["yOffset"] = 0,
-},
-["type"] = "Action Button Glow",
-["AutoCastGlow"] = {
-["count"] = 10,
-["scale"] = 1.5,
-["frequency"] = 0.25,
-["xOffset"] = 0,
-["yOffset"] = 0,
-},
-["ActionButtonGlow"] = {
-["frequency"] = 0.125,
-},
-["ProcGlow"] = {
-["xOffset"] = 0,
-["duration"] = 1,
-["startAnim"] = true,
-["yOffset"] = 0,
-},
-["Color"] = "ffff0000",
-},
-["data"] = {
-},
-["SyncPlayers"] = {
-},
-["DataProfileKeys"] = {
-},
-["FontSizeBig"] = 75,
-["snippets"] = {
-},
-["defEnabled"] = {
-},
-["removed"] = {
-},
-["disableSounds"] = {
-},
-["lastEncounterID"] = 1501,
-["v29"] = true,
-["TimelineFilter"] = {
-},
-["ttsVoice"] = 1,
-["v32"] = true,
-["OutlineType"] = "OUTLINE",
-["DataProfile"] = "Default",
-["Version"] = 57.8,
-["FontSizeSmall"] = 25,
-["HistoryMaxPulls"] = 2,
-["enabled"] = true,
-["ForcedDataProfile"] = "Default",
-["FrameStrata"] = "HIGH",
-},
-["RaidCheck"] = {
-["ReadyCheckFrameOnlyRL"] = true,
-["WeaponEnch"] = {
-},
-["ReadyCheckFrame"] = true,
-["ReadyCheckTop"] = 1086.154541015625,
-["ReadyCheckLeft"] = 1840.942016601563,
-["FlaskExp"] = 1,
-["ReadyCheckFrameTimerFade"] = 4,
-},
-["WhoPulled"] = {
-},
-["Attendance"] = {
-["data"] = {
-},
-["alts"] = {
-},
-},
 ["Inspect"] = {
 ["Soulbinds"] = {
 },
 },
-["InspectViewer"] = {
-["ColorizeLowIlvl685"] = false,
-["ColorizeNoEnch"] = true,
-["ColorizeNoGems"] = true,
-["ColorizeLowIlvl"] = true,
-["ColorizeNoTopEnchGems"] = false,
-["ColorizeNoValorUpgrade"] = false,
-},
-["NoteChecker"] = {
-["NoteBackups"] = {
-},
-},
-["WASync"] = {
-},
-["RaidLockouts"] = {
-["DoNotShowOnMythic"] = true,
-},
-["Timers"] = {
-["specTimes"] = {
-[62] = 10,
-[1467] = 10,
-[63] = 10,
-[250] = 10,
-[251] = 10,
-[64] = 10,
-[1468] = 10,
-[253] = 10,
-[65] = 10,
-[255] = 10,
-[66] = 10,
-[257] = 10,
-[258] = 10,
-[259] = 10,
-[260] = 10,
-[261] = 25,
-[262] = 16,
-[263] = 10,
-[264] = 10,
-[265] = 22,
-[266] = 10,
-[267] = 10,
-[268] = 10,
-[269] = 10,
-[270] = 10,
-[70] = 10,
-[102] = 10,
-[71] = 10,
-[103] = 10,
-[72] = 10,
-[104] = 10,
-[1473] = 10,
-[73] = 10,
-[581] = 10,
-[105] = 10,
-[577] = 10,
-[256] = 10,
-[254] = 10,
-[252] = 10,
-},
-["Type"] = 2,
-["Strata"] = "HIGH",
-["timeToKillAnalyze"] = 15,
-},
-["Reminder2"] = {
-["generalSound3"] = "Interface\\Addons\\MRT\\media\\Sounds\\swordecho.ogg",
-["FontSize"] = 50,
-["data"] = {
-{
-},
-{
-},
-{
-},
-{
-},
-{
-},
-{
-},
-{
-},
-{
-},
-{
-},
-[0] = {
-},
-},
-["SyncPlayers"] = {
-},
-["generalSound4"] = "Interface\\AddOns\\MRT\\media\\Sounds\\Applause.ogg",
-["generalSound1"] = "Interface\\AddOns\\MRT\\media\\Sounds\\CatMeow2.ogg",
-["generalSound5"] = "Interface\\AddOns\\MRT\\media\\Sounds\\BikeHorn.ogg",
-["zoneNames"] = {
-},
-["HistoryEnabled"] = true,
-["options"] = {
-},
-["v21"] = true,
-["v55"] = true,
-["TLHistory"] = {
-},
-["FontOutline"] = true,
-["Profile"] = 1,
-["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
-["profilesinfo"] = {
-},
-["v38"] = true,
-["HistoryFrameShown"] = true,
-["removed"] = {
-},
-["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
-},
-["Addon"] = {
-["Timer"] = 0.1,
-["PreVersion"] = 5220,
-["Version"] = 5220,
-["Scale"] = 1,
-},
-["Interrupts"] = {
-["Profile"] = 1,
-["Disabled"] = {
-},
-["Data"] = {
-{
-},
-{
-},
-{
-},
-[0] = {
-},
-},
-},
-["BossWatcher"] = {
-["optionsDamageGraph"] = true,
-["fightsNum"] = 2,
-["optionsPositionsDist"] = true,
-["optionsHealingGraph"] = true,
-["trackingDamageSpells"] = {
-},
-},
-["Profiles"] = {
-},
-["Profile"] = "default",
-["LootLink"] = {
-},
-["RaidGroups"] = {
-["SplitParts"] = 2,
-["upd4550"] = true,
-["profiles"] = {
-},
-["KeepPosInGroup"] = true,
-["SplitGroups"] = {
-true,
-true,
-true,
-true,
-},
-},
-["InviteTool"] = {
-["Words"] = "инв inv byd штм 123",
-["InvByChat"] = true,
-["RaidDiff"] = 16,
-["PromoteRank"] = 2,
-["Ranks"] = {
-true,
-},
-["LootThreshold"] = 2,
-["MasterLooters"] = "",
-["LootMethod"] = "group",
-["PromoteNames"] = "",
-["OnlyGuild"] = true,
-["Rank"] = 1,
-},
-["Logging"] = {
-},
-["MarksBar"] = {
-["pulltimer"] = 10,
-["pulltimer_right"] = 10,
-["Show"] = {
-true,
-true,
-true,
-true,
-true,
-},
-["Strata"] = "HIGH",
-},
-["VisNote"] = {
-["data"] = {
-},
-["sync_data"] = {
+["RaidCheck"] = {
+["ReadyCheckFrameOnlyRL"] = true,
+["ReadyCheckTop"] = 1086.154541015625,
+["ReadyCheckFrame"] = true,
+["ReadyCheckFrameTimerFade"] = 4,
+["ReadyCheckLeft"] = 1840.942016601563,
+["FlaskExp"] = 1,
+["WeaponEnch"] = {
 },
 },
 ["ExCD2"] = {
@@ -1957,12 +1675,13 @@ true,
 ["gnGUIDs"] = {
 ["Shalitasx"] = 265,
 ["Domokun-Everlook"] = 105,
+["Alslalu"] = 263,
 ["Atrocide"] = 261,
-["Meodipt"] = 63,
 ["Kidneyløl"] = 261,
+["Ôachkázl-Everlook"] = 270,
 ["Nephyss"] = 250,
 ["Akagin"] = 266,
-["Xerlodruid"] = 102,
+["Ntdotê"] = 268,
 ["Benx"] = 255,
 ["Luubiimonk"] = 269,
 ["Michorc"] = 262,
@@ -1981,9 +1700,9 @@ true,
 ["Traithor"] = 71,
 ["Palavik"] = 65,
 ["Mbeezyqt"] = 255,
+["Xerlodruid"] = 102,
 ["Deathcapîtal"] = 252,
-["Ntdotê"] = 268,
-["Ôachkázl-Everlook"] = 270,
+["Meodipt"] = 63,
 },
 ["NoRaid"] = true,
 ["CDECol"] = {
@@ -2163,5 +1882,287 @@ true,
 },
 ["OptFav"] = {
 },
+},
+["Attendance"] = {
+["data"] = {
+},
+["alts"] = {
+},
+},
+["Reminder"] = {
+["FontSize"] = 50,
+["disabled"] = {
+},
+["lastArchiveCheck"] = 1759520319,
+["HistoryBlacklist"] = {
+},
+["locked"] = {
+},
+["ttsVoiceRate"] = 0,
+["HistoryEnabled"] = true,
+["ttsVoiceVolume"] = 75,
+["DataProfiles"] = {
+["Default"] = {
+},
+},
+["lockedSounds"] = {
+},
+["pre_v43"] = {
+},
+["Glow"] = {
+["PixelGlow"] = {
+["thickness"] = 3,
+["count"] = 8,
+["frequency"] = 0.25,
+["xOffset"] = 0,
+["length"] = 20,
+["border"] = true,
+["yOffset"] = 0,
+},
+["type"] = "Action Button Glow",
+["AutoCastGlow"] = {
+["count"] = 10,
+["scale"] = 1.5,
+["frequency"] = 0.25,
+["xOffset"] = 0,
+["yOffset"] = 0,
+},
+["ActionButtonGlow"] = {
+["frequency"] = 0.125,
+},
+["ProcGlow"] = {
+["xOffset"] = 0,
+["duration"] = 1,
+["startAnim"] = true,
+["yOffset"] = 0,
+},
+["Color"] = "ffff0000",
+},
+["data"] = {
+},
+["SyncPlayers"] = {
+},
+["DataProfileKeys"] = {
+},
+["FontSizeBig"] = 75,
+["snippets"] = {
+},
+["defEnabled"] = {
+},
+["removed"] = {
+},
+["disableSounds"] = {
+},
+["lastEncounterID"] = 1501,
+["v29"] = true,
+["TimelineFilter"] = {
+},
+["ttsVoice"] = 1,
+["v32"] = true,
+["OutlineType"] = "OUTLINE",
+["DataProfile"] = "Default",
+["Version"] = 57.8,
+["FontSizeSmall"] = 25,
+["HistoryMaxPulls"] = 2,
+["enabled"] = true,
+["ForcedDataProfile"] = "Default",
+["FrameStrata"] = "HIGH",
+},
+["InspectViewer"] = {
+["ColorizeLowIlvl685"] = false,
+["ColorizeNoEnch"] = true,
+["ColorizeNoGems"] = true,
+["ColorizeLowIlvl"] = true,
+["ColorizeNoTopEnchGems"] = false,
+["ColorizeNoValorUpgrade"] = false,
+},
+["NoteChecker"] = {
+["NoteBackups"] = {
+},
+},
+["WASync"] = {
+},
+["RaidLockouts"] = {
+["DoNotShowOnMythic"] = true,
+},
+["Timers"] = {
+["specTimes"] = {
+[62] = 10,
+[1467] = 10,
+[63] = 10,
+[250] = 10,
+[251] = 10,
+[64] = 10,
+[1468] = 10,
+[253] = 10,
+[65] = 10,
+[255] = 10,
+[66] = 10,
+[257] = 10,
+[258] = 10,
+[259] = 10,
+[260] = 10,
+[261] = 25,
+[262] = 16,
+[263] = 10,
+[264] = 10,
+[265] = 22,
+[266] = 10,
+[267] = 10,
+[268] = 10,
+[269] = 10,
+[270] = 10,
+[70] = 10,
+[102] = 10,
+[71] = 10,
+[103] = 10,
+[72] = 10,
+[104] = 10,
+[1473] = 10,
+[73] = 10,
+[581] = 10,
+[105] = 10,
+[577] = 10,
+[256] = 10,
+[254] = 10,
+[252] = 10,
+},
+["Type"] = 2,
+["Strata"] = "HIGH",
+["timeToKillAnalyze"] = 15,
+},
+["Reminder2"] = {
+["generalSound3"] = "Interface\\Addons\\MRT\\media\\Sounds\\swordecho.ogg",
+["FontSize"] = 50,
+["data"] = {
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+},
+[0] = {
+},
+},
+["SyncPlayers"] = {
+},
+["generalSound4"] = "Interface\\AddOns\\MRT\\media\\Sounds\\Applause.ogg",
+["generalSound1"] = "Interface\\AddOns\\MRT\\media\\Sounds\\CatMeow2.ogg",
+["generalSound5"] = "Interface\\AddOns\\MRT\\media\\Sounds\\BikeHorn.ogg",
+["zoneNames"] = {
+},
+["HistoryEnabled"] = true,
+["options"] = {
+},
+["v21"] = true,
+["v55"] = true,
+["FontOutline"] = true,
+["TLHistory"] = {
+},
+["Profile"] = 1,
+["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
+["profilesinfo"] = {
+},
+["v38"] = true,
+["HistoryFrameShown"] = true,
+["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
+["removed"] = {
+},
+},
+["Addon"] = {
+["Timer"] = 0.1,
+["PreVersion"] = 5220,
+["Version"] = 5220,
+["Scale"] = 1,
+},
+["Interrupts"] = {
+["Profile"] = 1,
+["Disabled"] = {
+},
+["Data"] = {
+{
+},
+{
+},
+{
+},
+[0] = {
+},
+},
+},
+["BossWatcher"] = {
+["optionsDamageGraph"] = true,
+["fightsNum"] = 2,
+["optionsPositionsDist"] = true,
+["optionsHealingGraph"] = true,
+["trackingDamageSpells"] = {
+},
+},
+["Profiles"] = {
+},
+["Profile"] = "default",
+["LootLink"] = {
+},
+["RaidGroups"] = {
+["SplitParts"] = 2,
+["upd4550"] = true,
+["profiles"] = {
+},
+["KeepPosInGroup"] = true,
+["SplitGroups"] = {
+true,
+true,
+true,
+true,
+},
+},
+["InviteTool"] = {
+["Words"] = "инв inv byd штм 123",
+["InvByChat"] = true,
+["RaidDiff"] = 16,
+["PromoteRank"] = 2,
+["Ranks"] = {
+true,
+},
+["LootThreshold"] = 2,
+["MasterLooters"] = "",
+["LootMethod"] = "group",
+["PromoteNames"] = "",
+["OnlyGuild"] = true,
+["Rank"] = 1,
+},
+["Logging"] = {
+},
+["MarksBar"] = {
+["pulltimer"] = 10,
+["pulltimer_right"] = 10,
+["Show"] = {
+true,
+true,
+true,
+true,
+true,
+},
+["Strata"] = "HIGH",
+},
+["VisNote"] = {
+["data"] = {
+},
+["sync_data"] = {
+},
+},
+["WhoPulled"] = {
 },
 }

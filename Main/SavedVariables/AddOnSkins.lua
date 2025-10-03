@@ -5,16 +5,16 @@ AddOnSkinsDB = {
 ["Alsía - Venoxis"] = "Default",
 ["Exonuklease - Venoxis"] = "Default",
 ["Alslalock - Everlook"] = "Default",
-["Alsla - Everlook"] = "Default",
-["Endonuclease - Venoxis"] = "Default",
+["Kwasimojo - Venoxis"] = "Default",
+["Alsia - Venoxis"] = "Default",
 ["Alslalu - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Alslablue - Everlook"] = "Default",
-["Alslalock - Venoxis"] = "Default",
 ["Alslalu - Everlook"] = "Default",
+["Alslalock - Venoxis"] = "Default",
 ["Alslablue - Venoxis"] = "Default",
-["Alsia - Venoxis"] = "Default",
-["Kwasimojo - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "Default",
+["Alsla - Everlook"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -28,8 +28,8 @@ AddOnSkinsDB = {
 }
 AddOnSkinsDS = {
 [4.73] = {
-["Clique"] = true,
 ["WowLua"] = true,
+["Clique"] = true,
 ["Auctionator"] = true,
 ["RareScanner"] = true,
 },

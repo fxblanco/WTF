@@ -1,6 +1,6 @@
 
 BugGrabberDB = {
-["session"] = 578,
+["session"] = 582,
 ["lastSanitation"] = 3,
 ["errors"] = {
 {
@@ -1708,14 +1708,6 @@ BugGrabberDB = {
 ["counter"] = 88,
 },
 {
-["message"] = "Lua error in Aura '[Merfin] Healers Mana [Bar]': Trigger 1\nWeakAuras Version: 5.20.4\nStack trace:\n[string \"return function(states, e, ...)\"]:37: Usage: UnitIsDeadOrGhost(\"unit\")",
-["time"] = "2025/09/18 23:30:48",
-["locals"] = "keystate = \"down\"\n",
-["stack"] = "[TOGGLEGAMEMENU]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
-["session"] = 566,
-["counter"] = 25,
-},
-{
 ["message"] = "[string \"return function() aura_env.SetBorderClassCo...\"]:37: attempt to index local 'shoppingTab' (a nil value)",
 ["time"] = "2025/08/26 20:49:47",
 ["locals"] = "s = CH: Flask Agility {\n}\nb = \"LeftButton\"\nshoppingTab = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index local 'shoppingTab' (a nil value)\"\nitemName = \"Flask of Spring Blossoms\"\n",
@@ -1834,6 +1826,22 @@ BugGrabberDB = {
 ["stack"] = "[Interface/AddOns/Cell/RaidFrames/UnitButton_Mists.lua]:1498: in function <...nterface/AddOns/Cell/RaidFrames/UnitButton_Mists.lua:1487>\n[Interface/AddOns/Cell/RaidFrames/UnitButton_Mists.lua]:1621: in function <...nterface/AddOns/Cell/RaidFrames/UnitButton_Mists.lua:1566>\n[Interface/AddOns/Cell/RaidFrames/UnitButton_Mists.lua]:448: in function <...nterface/AddOns/Cell/RaidFrames/UnitButton_Mists.lua:435>",
 ["session"] = 577,
 ["counter"] = 14417,
+},
+{
+["message"] = "Lua error in Aura '[Merfin] Healers Mana [Bar]': Trigger 1\nWeakAuras Version: 5.20.4\nStack trace:\n[string \"return function(states, e, ...)\"]:37: Usage: UnitIsDeadOrGhost(\"unit\")",
+["time"] = "2025/09/18 23:30:48",
+["locals"] = "keystate = \"down\"\n",
+["stack"] = "[TOGGLEGAMEMENU]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>",
+["session"] = 580,
+["counter"] = 26,
+},
+{
+["message"] = "[string \"return function() local frame = CreateFrame...\"]:212: attempt to index field 'player' (a nil value)",
+["time"] = "2025/10/04 00:36:24",
+["locals"] = "self = <table> {\n callbacks = <table> {\n }\n}\nunit = \"Player-4440-065284C4\"\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'player' (a nil value)\"\n",
+["stack"] = "[return function() local frame = CreateFrame(\"Frame\")]:212: in function 'getUnit'\n[return function() local frame = CreateFrame(\"Frame\")]:345: in function '?'\n[return function() local frame = CreateFrame(\"Frame\")]:763: in function <[string \"return function() local frame = CreateFrame...\"]:761>",
+["session"] = 582,
+["counter"] = 154,
 },
 },
 }

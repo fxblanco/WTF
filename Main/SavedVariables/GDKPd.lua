@@ -1,13 +1,22 @@
 
 GDKPd_DB = {
-["global"] = {
-["shownPopupAddonMsg4_2"] = true,
-},
 ["profileKeys"] = {
+["Alslalu - Everlook"] = "Alslalu - Everlook",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
 ["Alsla - Everlook"] = "Alsla - Everlook",
 },
+["global"] = {
+["shownPopupAddonMsg4_2"] = true,
+},
 ["profiles"] = {
+["Alslalu - Everlook"] = {
+["point"] = {
+["y"] = 3.333357810974121,
+["relative"] = "RIGHT",
+["point"] = "RIGHT",
+["x"] = -406.667236328125,
+},
+},
 ["Alslablue - Everlook"] = {
 },
 ["Alsla - Everlook"] = {

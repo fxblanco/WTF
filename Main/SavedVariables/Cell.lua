@@ -43,12 +43,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = true,
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = false,
 ["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
+["sameSizeAsMain"] = false,
 ["powerSize"] = 0,
 ["size"] = {
 75,
@@ -796,7 +796,7 @@ false,
 12,
 12,
 },
-["orientation"] = "right-to-left",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -805,9 +805,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "none",
+["orientation"] = "right-to-left",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["iconStyle"] = "none",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -1382,12 +1382,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = false,
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
+["sameSizeAsMain"] = true,
 ["powerSize"] = 2,
 ["size"] = {
 66,
@@ -2218,7 +2218,7 @@ false,
 12,
 12,
 },
-["orientation"] = "right-to-left",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -2227,9 +2227,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "none",
+["orientation"] = "right-to-left",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["iconStyle"] = "none",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -2687,12 +2687,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = true,
-["sameSizeAsMain"] = true,
-["orientation"] = "vertical",
-["partyDetached"] = false,
-["anchor"] = "TOPLEFT",
 ["position"] = {
 },
+["orientation"] = "vertical",
+["sameSizeAsMain"] = true,
+["anchor"] = "TOPLEFT",
+["partyDetached"] = false,
 ["powerSize"] = 2,
 ["size"] = {
 66,
@@ -3440,7 +3440,7 @@ false,
 12,
 12,
 },
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -3449,9 +3449,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "blizzard",
+["indicatorName"] = "dispels",
 ["highlightType"] = "gradient-half",
-["orientation"] = "right-to-left",
+["iconStyle"] = "blizzard",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -4592,7 +4592,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["iconStyle"] = "none",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -4601,9 +4601,9 @@ false,
 0,
 4,
 },
-["orientation"] = "right-to-left",
+["iconStyle"] = "none",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["size"] = {
 12,
 12,
@@ -5172,12 +5172,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["powerSize"] = 0,
 ["partyEnabled"] = true,
-["sameSizeAsMain"] = false,
-["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
-["orientation"] = "vertical",
 ["position"] = {
 },
+["anchor"] = "TOPLEFT",
+["sameSizeAsMain"] = false,
+["orientation"] = "vertical",
+["partyDetached"] = false,
 ["raidEnabled"] = false,
 ["size"] = {
 75,
@@ -5951,7 +5951,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["iconStyle"] = "none",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -5960,9 +5960,9 @@ false,
 0,
 4,
 },
-["orientation"] = "right-to-left",
+["iconStyle"] = "none",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["size"] = {
 12,
 12,
@@ -6477,12 +6477,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["powerSize"] = 2,
 ["partyEnabled"] = false,
-["sameSizeAsMain"] = true,
-["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
-["orientation"] = "vertical",
 ["position"] = {
 },
+["anchor"] = "TOPLEFT",
+["sameSizeAsMain"] = true,
+["orientation"] = "vertical",
+["partyDetached"] = false,
 ["raidEnabled"] = false,
 ["size"] = {
 66,
@@ -7236,7 +7236,7 @@ false,
 ["Magic"] = true,
 ["Poison"] = true,
 },
-["indicatorName"] = "dispels",
+["orientation"] = "right-to-left",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -7245,9 +7245,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "blizzard",
+["indicatorName"] = "dispels",
 ["highlightType"] = "gradient-half",
-["orientation"] = "right-to-left",
+["iconStyle"] = "blizzard",
 ["size"] = {
 12,
 12,
@@ -7816,12 +7816,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["powerSize"] = 2,
 ["partyEnabled"] = false,
-["partyDetached"] = false,
+["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = true,
 ["raidEnabled"] = false,
 ["size"] = {
 66,
@@ -7854,12 +7854,12 @@ false,
 ["sameArrangementAsMain"] = true,
 ["raidEnabled"] = false,
 ["partyEnabled"] = false,
+["partyDetached"] = false,
+["orientation"] = "vertical",
 ["position"] = {
 },
-["orientation"] = "vertical",
-["sameSizeAsMain"] = true,
 ["anchor"] = "TOPLEFT",
-["partyDetached"] = false,
+["sameSizeAsMain"] = true,
 ["powerSize"] = 2,
 ["size"] = {
 66,
@@ -8690,7 +8690,7 @@ false,
 12,
 12,
 },
-["orientation"] = "right-to-left",
+["indicatorName"] = "dispels",
 ["name"] = "Dispels",
 ["position"] = {
 "BOTTOMRIGHT",
@@ -8699,9 +8699,9 @@ false,
 0,
 4,
 },
-["iconStyle"] = "none",
+["orientation"] = "right-to-left",
 ["highlightType"] = "gradient-half",
-["indicatorName"] = "dispels",
+["iconStyle"] = "none",
 ["filters"] = {
 ["dispellableByMe"] = true,
 ["Disease"] = true,
@@ -9154,10 +9154,10 @@ false,
 },
 ["customTextures"] = {
 },
-["snippets"] = {
-[0] = {
-["autorun"] = true,
-["code"] = "-- snippets can be found at https://github.com/enderneko/Cell/tree/master/.snippets\n-- use \"/run CellDB['snippets'][0]=nil ReloadUI()\" to reset this snippet\n\n-- cooldown style for icon/block indicators (\"VERTICAL\", \"CLOCK\")\nCELL_COOLDOWN_STYLE = \"CLOCK\"\n\n-- fade out unit button if hp percent > (number: 0-1)\nCELL_FADE_OUT_HEALTH_PERCENT = nil\n\n-- add summon icons to Status Icon indicator (boolean, retail only)\nCELL_SUMMON_ICONS_ENABLED = false\n\n-- use separate width and height for custom indicator icons (boolean)\nCELL_RECTANGULAR_CUSTOM_INDICATOR_ICONS = false\n\n-- Use nicknames from Details! Damage Meter (boolean, NickTag-1.0 library)\nCELL_NICKTAG_ENABLED = false\n\n-- remove raid setup details from the tooltip of the Raid button (boolean)\nCELL_TOOLTIP_REMOVE_RAID_SETUP_DETAILS = false\n\n-- border thickness: unit button and icon (number)\nCELL_BORDER_SIZE = 1\n\n-- unit button border color ({r, g, b, a}, number: 0-1)\nCELL_BORDER_COLOR = {0, 0, 0, 1}\n\n-- show raid pet owner name (\"VEHICLE\", \"NAME\", nil)\nCELL_SHOW_GROUP_PET_OWNER_NAME = nil\n\n-- use LibHealComm (boolean, non-retail)\nCELL_USE_LIBHEALCOMM = false",
+["aoeHealings"] = {
+["disabled"] = {
+},
+["custom"] = {
 },
 },
 ["clickCastings"] = {
@@ -9179,7 +9179,7 @@ false,
 [63] = "disabled",
 [1449] = "disabled",
 },
-[1449] = {
+[62] = {
 {
 "type1",
 "target",
@@ -9199,7 +9199,8 @@ false,
 "togglemenu",
 },
 },
-[62] = {
+["useCommon"] = true,
+[1449] = {
 {
 "type1",
 "target",
@@ -9209,7 +9210,6 @@ false,
 "togglemenu",
 },
 },
-["useCommon"] = true,
 [63] = {
 {
 "type1",
@@ -9459,94 +9459,13 @@ false,
 ["debuffBlacklist"] = {
 8326,
 },
-["spellRequest"] = {
-["enabled"] = false,
-["timeout"] = 10,
-["checkIfExists"] = true,
-["spells"] = {
-{
-["glowOptions"] = {
-"pixel",
-{
-{
-1,
-1,
-0,
-1,
-},
-0,
-0,
-9,
-0.25,
-8,
-2,
-},
-},
-["type"] = "icon",
-["spellId"] = 10060,
-["isBuiltIn"] = true,
-["buffId"] = 10060,
-["keywords"] = "Power Infusion",
-["icon"] = 135939,
-["iconColor"] = {
-1,
-1,
-0,
-1,
-},
-},
-{
-["glowOptions"] = {
-"pixel",
-{
-{
-0,
-1,
-1,
-1,
-},
-0,
-0,
-9,
-0.25,
-8,
-2,
-},
-},
-["type"] = "icon",
-["spellId"] = 29166,
-["isBuiltIn"] = true,
-["buffId"] = 29166,
-["keywords"] = "Innervate",
-["icon"] = 136048,
-["iconColor"] = {
-0,
-1,
-1,
-1,
-},
-},
-},
-["sharedIconOptions"] = {
-"beat",
-27,
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-0,
-0,
-},
-["knownSpellsOnly"] = true,
-["responseType"] = "me",
-["replyCooldown"] = true,
-["freeCooldownOnly"] = true,
-},
-["aoeHealings"] = {
-["disabled"] = {
-},
-["custom"] = {
-},
-},
 ["changelogsViewed"] = "r263-beta",
+["indicatorPreview"] = {
+["scale"] = 2,
+["showAll"] = true,
+},
+["dispelBlacklist"] = {
+},
 ["tools"] = {
 ["battleResTimer"] = {
 true,
@@ -9584,11 +9503,92 @@ false,
 },
 },
 },
-["indicatorPreview"] = {
-["scale"] = 2,
-["showAll"] = true,
+["snippets"] = {
+[0] = {
+["autorun"] = true,
+["code"] = "-- snippets can be found at https://github.com/enderneko/Cell/tree/master/.snippets\n-- use \"/run CellDB['snippets'][0]=nil ReloadUI()\" to reset this snippet\n\n-- cooldown style for icon/block indicators (\"VERTICAL\", \"CLOCK\")\nCELL_COOLDOWN_STYLE = \"CLOCK\"\n\n-- fade out unit button if hp percent > (number: 0-1)\nCELL_FADE_OUT_HEALTH_PERCENT = nil\n\n-- add summon icons to Status Icon indicator (boolean, retail only)\nCELL_SUMMON_ICONS_ENABLED = false\n\n-- use separate width and height for custom indicator icons (boolean)\nCELL_RECTANGULAR_CUSTOM_INDICATOR_ICONS = false\n\n-- Use nicknames from Details! Damage Meter (boolean, NickTag-1.0 library)\nCELL_NICKTAG_ENABLED = false\n\n-- remove raid setup details from the tooltip of the Raid button (boolean)\nCELL_TOOLTIP_REMOVE_RAID_SETUP_DETAILS = false\n\n-- border thickness: unit button and icon (number)\nCELL_BORDER_SIZE = 1\n\n-- unit button border color ({r, g, b, a}, number: 0-1)\nCELL_BORDER_COLOR = {0, 0, 0, 1}\n\n-- show raid pet owner name (\"VEHICLE\", \"NAME\", nil)\nCELL_SHOW_GROUP_PET_OWNER_NAME = nil\n\n-- use LibHealComm (boolean, non-retail)\nCELL_USE_LIBHEALCOMM = false",
 },
-["dispelBlacklist"] = {
+},
+["spellRequest"] = {
+["enabled"] = false,
+["timeout"] = 10,
+["checkIfExists"] = true,
+["spells"] = {
+{
+["glowOptions"] = {
+"pixel",
+{
+{
+1,
+1,
+0,
+1,
+},
+0,
+0,
+9,
+0.25,
+8,
+2,
+},
+},
+["type"] = "icon",
+["spellId"] = 10060,
+["isBuiltIn"] = true,
+["iconColor"] = {
+1,
+1,
+0,
+1,
+},
+["buffId"] = 10060,
+["icon"] = 135939,
+["keywords"] = "Power Infusion",
+},
+{
+["glowOptions"] = {
+"pixel",
+{
+{
+0,
+1,
+1,
+1,
+},
+0,
+0,
+9,
+0.25,
+8,
+2,
+},
+},
+["type"] = "icon",
+["spellId"] = 29166,
+["isBuiltIn"] = true,
+["iconColor"] = {
+0,
+1,
+1,
+1,
+},
+["buffId"] = 29166,
+["icon"] = 136048,
+["keywords"] = "Innervate",
+},
+},
+["sharedIconOptions"] = {
+"beat",
+27,
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+0,
+0,
+},
+["knownSpellsOnly"] = true,
+["responseType"] = "me",
+["replyCooldown"] = true,
+["freeCooldownOnly"] = true,
 },
 ["bigDebuffs"] = {
 },
@@ -9948,8 +9948,8 @@ false,
 },
 },
 [324] = {
-[738] = {
-[120778] = {
+[693] = {
+[119941] = {
 ["order"] = 1,
 ["condition"] = {
 "None",
@@ -9967,6 +9967,15 @@ false,
 },
 [121447] = {
 ["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
+[738] = {
+[120778] = {
+["order"] = 1,
 ["condition"] = {
 "None",
 },
@@ -10032,15 +10041,6 @@ false,
 },
 [122246] = {
 ["order"] = 7,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[693] = {
-[119941] = {
-["order"] = 1,
 ["condition"] = {
 "None",
 },
@@ -10455,6 +10455,22 @@ false,
 ["trackByID"] = false,
 },
 },
+[660] = {
+[114056] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[114004] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
 ["general"] = {
 [113690] = {
 ["order"] = 3,
@@ -10502,22 +10518,6 @@ false,
 [654] = {
 [112955] = {
 ["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[660] = {
-[114056] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[114004] = {
-["order"] = 2,
 ["condition"] = {
 "None",
 },
@@ -10847,6 +10847,29 @@ false,
 ["trackByID"] = false,
 },
 },
+[708] = {
+[119946] = {
+["order"] = 3,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[120160] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123655] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
 ["general"] = {
 [121185] = {
 ["order"] = 3,
@@ -10872,29 +10895,6 @@ false,
 },
 [690] = {
 [118963] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[708] = {
-[119946] = {
-["order"] = 3,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[120160] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[123655] = {
 ["order"] = 1,
 ["condition"] = {
 "None",
@@ -11101,6 +11101,22 @@ false,
 },
 },
 [330] = {
+["general"] = {
+[123175] = {
+["order"] = 1,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+[123017] = {
+["order"] = 2,
+["condition"] = {
+"None",
+},
+["trackByID"] = false,
+},
+},
 [737] = {
 [125502] = {
 ["order"] = 1,
@@ -11110,22 +11126,6 @@ false,
 ["trackByID"] = false,
 },
 [121949] = {
-["order"] = 2,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-},
-[744] = {
-[123474] = {
-["order"] = 1,
-["condition"] = {
-"None",
-},
-["trackByID"] = false,
-},
-[123017] = {
 ["order"] = 2,
 ["condition"] = {
 "None",
@@ -11218,8 +11218,8 @@ false,
 ["trackByID"] = false,
 },
 },
-["general"] = {
-[123175] = {
+[744] = {
+[123474] = {
 ["order"] = 1,
 ["condition"] = {
 "None",

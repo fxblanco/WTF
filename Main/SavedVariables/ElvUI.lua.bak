@@ -963,8 +963,13 @@ ElvDB = {
 ["pvp"] = {
 ["text_format"] = "",
 },
-["classbar"] = {
+["power"] = {
+["detachFromFrame"] = true,
+["text_format"] = "",
+["powerPrediction"] = true,
 ["enable"] = false,
+["EnergyManaRegen"] = true,
+["height"] = 8,
 },
 ["aurabar"] = {
 ["enable"] = false,
@@ -999,15 +1004,10 @@ ElvDB = {
 ["text_format"] = "",
 },
 ["colorOverride"] = "FORCE_OFF",
-["power"] = {
-["detachFromFrame"] = true,
-["text_format"] = "",
-["powerPrediction"] = true,
-["enable"] = false,
-["EnergyManaRegen"] = true,
-["height"] = 8,
-},
 ["partyIndicator"] = {
+["enable"] = false,
+},
+["classbar"] = {
 ["enable"] = false,
 },
 },
@@ -1407,7 +1407,6 @@ ElvDB = {
 },
 },
 ["datatexts"] = {
-["fontSize"] = 14,
 ["battlePanel"] = {
 ["CustomPanel_Left"] = {
 "",
@@ -1418,6 +1417,7 @@ ElvDB = {
 "",
 },
 },
+["font"] = "Merfin Font 1",
 ["panels"] = {
 ["CustomPanel_Left"] = {
 "System",
@@ -1447,7 +1447,7 @@ nil,
 ["battleground"] = false,
 },
 },
-["font"] = "Merfin Font 1",
+["fontSize"] = 14,
 },
 ["actionbar"] = {
 ["bar3"] = {
@@ -1590,10 +1590,10 @@ nil,
 ["buttonSpacing"] = 1,
 ["backdropSpacing"] = 0,
 ["enabled"] = true,
-["useIcons"] = false,
-["alpha"] = 0.85,
 ["buttonSize"] = 19,
+["alpha"] = 0.85,
 ["buttons"] = 12,
+["useIcons"] = false,
 ["mouseover"] = true,
 },
 ["bar2"] = {
@@ -1951,6 +1951,7 @@ nil,
 },
 ["dbConverted"] = 14,
 ["datatexts"] = {
+["fontSize"] = 14,
 ["battlePanel"] = {
 ["CustomPanel_Right"] = {
 "",
@@ -1961,7 +1962,6 @@ nil,
 "",
 },
 },
-["font"] = "Merfin Font 1",
 ["panels"] = {
 ["CustomPanel_Left"] = {
 "System",
@@ -1991,7 +1991,7 @@ nil,
 ["enable"] = false,
 },
 },
-["fontSize"] = 14,
+["font"] = "Merfin Font 1",
 },
 ["actionbar"] = {
 ["bar3"] = {
@@ -2001,10 +2001,10 @@ nil,
 ["hotkeyFont"] = "Merfin Font 1",
 ["buttons"] = 12,
 ["countFont"] = "Merfin Font 1",
-["buttonsPerRow"] = 12,
+["macroTextYOffset"] = 2,
 ["buttonSize"] = 36,
 ["macroFont"] = "Merfin Font 1",
-["macroTextYOffset"] = 2,
+["hotkeyFontSize"] = 12,
 ["mouseover"] = true,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
@@ -2012,7 +2012,7 @@ nil,
 ["hotkeyFontOutline"] = "OUTLINE",
 ["alpha"] = 0.85,
 ["macrotext"] = true,
-["hotkeyFontSize"] = 12,
+["buttonsPerRow"] = 12,
 ["visibility"] = "",
 ["buttonSpacing"] = -1,
 },
@@ -2111,16 +2111,16 @@ nil,
 ["mouseover"] = true,
 ["buttonSize"] = 36,
 ["macroFont"] = "Merfin Font 1",
-["showGrid"] = false,
+["paging"] = {
+["WARLOCK"] = "",
+},
 ["alpha"] = 0.85,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
 ["macroTextYOffset"] = 2,
-["paging"] = {
-["WARLOCK"] = "",
-},
-["hotkeyFontOutline"] = "OUTLINE",
 ["macrotext"] = true,
+["hotkeyFontOutline"] = "OUTLINE",
+["showGrid"] = false,
 ["hotkeyFontSize"] = 12,
 ["visibility"] = "",
 ["buttonSpacing"] = -1,
@@ -2136,10 +2136,10 @@ nil,
 ["hotkeyFont"] = "Merfin Font 1",
 ["buttons"] = 12,
 ["countFont"] = "Merfin Font 1",
-["buttonsPerRow"] = 12,
+["macroTextYOffset"] = 2,
 ["buttonSize"] = 36,
 ["macroFont"] = "Merfin Font 1",
-["macroTextYOffset"] = 2,
+["hotkeyFontSize"] = 12,
 ["mouseover"] = true,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
@@ -2147,7 +2147,7 @@ nil,
 ["hotkeyFontOutline"] = "OUTLINE",
 ["alpha"] = 0.85,
 ["macrotext"] = true,
-["hotkeyFontSize"] = 12,
+["buttonsPerRow"] = 12,
 ["visibility"] = "",
 ["buttonSpacing"] = -1,
 },
@@ -2214,8 +2214,8 @@ nil,
 ["countFont"] = "Merfin Font 1",
 ["point"] = "TOPLEFT",
 ["buttonSize"] = 36,
+["mouseover"] = true,
 ["buttonSpacing"] = -1,
-["backdrop"] = false,
 ["countFontOutline"] = "OUTLINE",
 ["alpha"] = 0.85,
 ["hotkeyFontSize"] = 12,
@@ -2224,7 +2224,7 @@ nil,
 ["showGrid"] = false,
 ["buttonsPerRow"] = 10,
 ["hotkeyFont"] = "Merfin Font 1",
-["mouseover"] = true,
+["backdrop"] = false,
 },
 ["bar4"] = {
 ["countFontSize"] = 12,
@@ -2646,17 +2646,17 @@ nil,
 },
 ["orientation"] = "LEFT",
 ["width"] = 130,
+["name"] = {
+["text_format"] = "",
+},
+["customName"] = "Raid-25",
 ["health"] = {
 ["yOffset"] = 0,
 ["text_format"] = "",
 ["position"] = "LEFT",
 },
-["customName"] = "Raid-25",
 ["fader"] = {
 ["smooth"] = 0.1,
-},
-["name"] = {
-["text_format"] = "",
 },
 ["height"] = 65,
 ["verticalSpacing"] = -1,
@@ -3373,10 +3373,11 @@ nil,
 ["text_format"] = "",
 ["height"] = 7,
 },
-["health"] = {
-["text_format"] = "",
+["fader"] = {
+["enable"] = false,
+["range"] = false,
 },
-["name"] = {
+["health"] = {
 ["text_format"] = "",
 },
 ["colorOverride"] = "FORCE_OFF",
@@ -3393,9 +3394,8 @@ nil,
 ["perrow"] = 6,
 ["keepSizeRatio"] = false,
 },
-["fader"] = {
-["enable"] = false,
-["range"] = false,
+["name"] = {
+["text_format"] = "",
 },
 ["raidicon"] = {
 ["attachTo"] = "CENTER",
@@ -3606,7 +3606,7 @@ nil,
 ["Alslablue"] = 1009586951,
 ["Alsla"] = 34773978,
 ["Alslalock"] = 9907473,
-["Alslalu"] = 44148119,
+["Alslalu"] = 44444969,
 },
 ["Venoxis"] = {
 ["Alsia"] = 8024269,
@@ -3734,12 +3734,6 @@ nil,
 ["Currencies"] = {
 ["tooltipData"] = {
 {
-nil,
-nil,
-nil,
-true,
-},
-[12] = {
 nil,
 nil,
 nil,
@@ -3947,14 +3941,14 @@ ElvPrivateDB = {
 },
 },
 ["Alslablue - Everlook"] = {
+["nameplates"] = {
+["enable"] = false,
+},
 ["bags"] = {
 ["enable"] = false,
 },
 ["MUI"] = {
 ["install_version"] = "7.52",
-},
-["nameplates"] = {
-["enable"] = false,
 },
 ["install_complete"] = 13.97,
 },
@@ -3986,14 +3980,14 @@ ElvPrivateDB = {
 ["install_complete"] = 2.42,
 },
 ["Alslalu - Everlook"] = {
-["nameplates"] = {
-["enable"] = false,
-},
 ["bags"] = {
 ["enable"] = false,
 },
 ["MUI"] = {
 ["install_version"] = "7.52",
+},
+["nameplates"] = {
+["enable"] = false,
 },
 ["install_complete"] = 14,
 },

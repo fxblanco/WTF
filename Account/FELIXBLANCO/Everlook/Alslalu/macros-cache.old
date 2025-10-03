@@ -22,6 +22,10 @@ VER 3 0100000001000215 "ENH_lb" "134400"
 #showtooltip
 /cast [mod:ctrl] Healing Stream Totem;  [mod:shift] Chain Lightning; Lightning Bolt
 END
+VER 3 0100000001000224 "ENH_Q" "134400"
+#showtooltip
+/cast [mod:shift; @mouseover] Healing Surge; Lava Lash
+END
 VER 3 0100000001000218 "ENH_SS" "134400"
 #showtooltip Stormstrike
 /use 10

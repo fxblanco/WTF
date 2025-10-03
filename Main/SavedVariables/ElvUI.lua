@@ -713,8 +713,8 @@ ElvDB = {
 ["enable"] = false,
 ["anchorPoint"] = "TOPRIGHT",
 },
-["classbar"] = {
-["enable"] = false,
+["CombatIcon"] = {
+["size"] = 23,
 },
 ["threatStyle"] = "NONE",
 ["customTexts"] = {
@@ -771,13 +771,8 @@ ElvDB = {
 ["pvp"] = {
 ["text_format"] = "",
 },
-["power"] = {
-["detachFromFrame"] = true,
-["text_format"] = "",
-["powerPrediction"] = true,
+["partyIndicator"] = {
 ["enable"] = false,
-["EnergyManaRegen"] = true,
-["height"] = 8,
 },
 ["aurabar"] = {
 ["enable"] = false,
@@ -814,11 +809,16 @@ ElvDB = {
 ["raidRoleIcons"] = {
 ["enable"] = false,
 },
-["partyIndicator"] = {
+["classbar"] = {
 ["enable"] = false,
 },
-["CombatIcon"] = {
-["size"] = 23,
+["power"] = {
+["detachFromFrame"] = true,
+["text_format"] = "",
+["powerPrediction"] = true,
+["enable"] = false,
+["EnergyManaRegen"] = true,
+["height"] = 8,
 },
 },
 ["raid1"] = {
@@ -1403,17 +1403,8 @@ ElvDB = {
 },
 },
 ["datatexts"] = {
-["battlePanel"] = {
-["CustomPanel_Left"] = {
-"",
-"",
-},
-["CustomPanel_Right"] = {
-"",
-"",
-},
-},
 ["font"] = "Merfin Font 1",
+["fontSize"] = 14,
 ["panels"] = {
 ["CustomPanel_Left"] = {
 "System",
@@ -1443,7 +1434,16 @@ nil,
 ["enable"] = false,
 },
 },
-["fontSize"] = 14,
+["battlePanel"] = {
+["CustomPanel_Left"] = {
+"",
+"",
+},
+["CustomPanel_Right"] = {
+"",
+"",
+},
+},
 },
 ["actionbar"] = {
 ["bar3"] = {
@@ -1605,10 +1605,10 @@ nil,
 ["buttonSpacing"] = 1,
 ["backdropSpacing"] = 0,
 ["enabled"] = true,
-["buttonSize"] = 19,
-["mouseover"] = true,
 ["buttons"] = 12,
+["mouseover"] = true,
 ["useIcons"] = false,
+["buttonSize"] = 19,
 ["alpha"] = 0.85,
 },
 ["bar2"] = {
@@ -1951,17 +1951,8 @@ nil,
 },
 ["dbConverted"] = 14,
 ["datatexts"] = {
+["font"] = "Merfin Font 1",
 ["fontSize"] = 14,
-["battlePanel"] = {
-["CustomPanel_Left"] = {
-"",
-"",
-},
-["CustomPanel_Right"] = {
-"",
-"",
-},
-},
 ["panels"] = {
 ["CustomPanel_Left"] = {
 "System",
@@ -1991,7 +1982,16 @@ nil,
 ["battleground"] = false,
 },
 },
-["font"] = "Merfin Font 1",
+["battlePanel"] = {
+["CustomPanel_Left"] = {
+"",
+"",
+},
+["CustomPanel_Right"] = {
+"",
+"",
+},
+},
 },
 ["actionbar"] = {
 ["bar3"] = {
@@ -2001,10 +2001,10 @@ nil,
 ["hotkeyFont"] = "Merfin Font 1",
 ["buttonSpacing"] = -1,
 ["countFont"] = "Merfin Font 1",
-["macroTextYOffset"] = 2,
+["hotkeyFontSize"] = 12,
 ["buttons"] = 12,
 ["macroFont"] = "Merfin Font 1",
-["hotkeyFontSize"] = 12,
+["buttonsPerRow"] = 12,
 ["mouseover"] = true,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
@@ -2012,7 +2012,7 @@ nil,
 ["alpha"] = 0.85,
 ["hotkeyFontOutline"] = "OUTLINE",
 ["showGrid"] = false,
-["buttonsPerRow"] = 12,
+["macroTextYOffset"] = 2,
 ["visibility"] = "",
 ["buttonSize"] = 36,
 },
@@ -2111,16 +2111,16 @@ nil,
 ["buttonSpacing"] = -1,
 ["buttonSize"] = 36,
 ["macroFont"] = "Merfin Font 1",
-["paging"] = {
-["WARLOCK"] = "",
-},
+["macrotext"] = true,
 ["mouseover"] = true,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
 ["hotkeyFontSize"] = 12,
-["macrotext"] = true,
-["hotkeyFontOutline"] = "OUTLINE",
 ["showGrid"] = false,
+["hotkeyFontOutline"] = "OUTLINE",
+["paging"] = {
+["WARLOCK"] = "",
+},
 ["macroTextYOffset"] = 2,
 ["visibility"] = "",
 ["alpha"] = 0.85,
@@ -2136,10 +2136,10 @@ nil,
 ["hotkeyFont"] = "Merfin Font 1",
 ["buttonSpacing"] = -1,
 ["countFont"] = "Merfin Font 1",
-["macroTextYOffset"] = 2,
+["hotkeyFontSize"] = 12,
 ["buttons"] = 12,
 ["macroFont"] = "Merfin Font 1",
-["hotkeyFontSize"] = 12,
+["buttonsPerRow"] = 12,
 ["mouseover"] = true,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
@@ -2147,7 +2147,7 @@ nil,
 ["alpha"] = 0.85,
 ["hotkeyFontOutline"] = "OUTLINE",
 ["showGrid"] = false,
-["buttonsPerRow"] = 12,
+["macroTextYOffset"] = 2,
 ["visibility"] = "",
 ["buttonSize"] = 36,
 },
@@ -2156,8 +2156,8 @@ nil,
 ["countFont"] = "Merfin Font 1",
 ["point"] = "TOPLEFT",
 ["buttonSize"] = 36,
+["backdrop"] = false,
 ["mouseover"] = true,
-["buttonSpacing"] = -1,
 ["countFontOutline"] = "OUTLINE",
 ["hotkeyFont"] = "Merfin Font 1",
 ["buttonsPerRow"] = 10,
@@ -2166,7 +2166,7 @@ nil,
 ["showGrid"] = false,
 ["hotkeyFontSize"] = 12,
 ["alpha"] = 0.85,
-["backdrop"] = false,
+["buttonSpacing"] = -1,
 },
 ["macroTextPosition"] = "BOTTOMLEFT",
 ["font"] = "Merfin Font 1",
@@ -2634,17 +2634,17 @@ nil,
 },
 ["height"] = 65,
 ["width"] = 130,
+["fader"] = {
+["smooth"] = 0.1,
+},
+["customName"] = "Raid-25",
 ["name"] = {
 ["text_format"] = "",
 },
-["customName"] = "Raid-25",
 ["health"] = {
 ["position"] = "LEFT",
 ["text_format"] = "",
 ["yOffset"] = 0,
-},
-["fader"] = {
-["smooth"] = 0.1,
 },
 ["orientation"] = "LEFT",
 ["buffs"] = {
@@ -2828,12 +2828,12 @@ nil,
 ["text_format"] = "",
 ["height"] = 7,
 },
+["name"] = {
+["text_format"] = "",
+},
 ["fader"] = {
 ["enable"] = false,
 ["range"] = false,
-},
-["health"] = {
-["text_format"] = "",
 },
 ["colorOverride"] = "FORCE_OFF",
 ["height"] = 51,
@@ -2849,7 +2849,7 @@ nil,
 ["countFont"] = "Merfin Font 1",
 ["keepSizeRatio"] = false,
 },
-["name"] = {
+["health"] = {
 ["text_format"] = "",
 },
 ["raidicon"] = {
@@ -3606,7 +3606,7 @@ nil,
 ["Alslablue"] = 1009586951,
 ["Alsla"] = 34773978,
 ["Alslalock"] = 9907473,
-["Alslalu"] = 44148119,
+["Alslalu"] = 44283749,
 },
 ["Venoxis"] = {
 ["Alsia"] = 8024269,
@@ -3673,12 +3673,6 @@ nil,
 ["Currencies"] = {
 ["tooltipData"] = {
 {
-nil,
-nil,
-nil,
-true,
-},
-[12] = {
 nil,
 nil,
 nil,
@@ -3968,28 +3962,28 @@ ElvPrivateDB = {
 ["install_complete"] = 2.42,
 },
 ["Alslablue - Everlook"] = {
-["bags"] = {
+["nameplates"] = {
 ["enable"] = false,
 },
-["MUI"] = {
-["install_version"] = "7.52",
-},
-["nameplates"] = {
+["bags"] = {
 ["enable"] = false,
 },
 ["install_complete"] = 13.97,
-},
-["Alslalu - Everlook"] = {
-["nameplates"] = {
-["enable"] = false,
-},
-["bags"] = {
-["enable"] = false,
-},
-["install_complete"] = 14,
 ["MUI"] = {
 ["install_version"] = "7.52",
 },
+},
+["Alslalu - Everlook"] = {
+["bags"] = {
+["enable"] = false,
+},
+["MUI"] = {
+["install_version"] = "7.52",
+},
+["nameplates"] = {
+["enable"] = false,
+},
+["install_complete"] = 14,
 },
 ["Alslalock - Venoxis"] = {
 ["general"] = {

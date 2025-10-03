@@ -5,16 +5,16 @@ TomTomDB = {
 ["Alsía - Venoxis"] = "MerfinUI v7.4",
 ["Exonuklease - Venoxis"] = "MerfinUI v7.4",
 ["Alslalock - Everlook"] = "MerfinUI v7.52",
-["Alsla - Everlook"] = "Default",
-["Endonuclease - Venoxis"] = "MerfinUI v7.4",
-["Alslalu - Venoxis"] = "MerfinUI v7.5",
-["Alsia - Venoxis"] = "MerfinUI v7.48",
-["Alslablue - Everlook"] = "Default",
-["Alslalock - Venoxis"] = "MerfinUI v7.48",
-["Alslalu - Everlook"] = "MerfinUI v7.52",
-["Alslablue - Venoxis"] = "Default",
-["Alslahunt - Venoxis"] = "MerfinUI v7.4",
 ["Kwasimojo - Venoxis"] = "MerfinUI v7.4",
+["Alsia - Venoxis"] = "MerfinUI v7.48",
+["Alslalu - Venoxis"] = "MerfinUI v7.5",
+["Alslahunt - Venoxis"] = "MerfinUI v7.4",
+["Alslablue - Everlook"] = "Default",
+["Alslalu - Everlook"] = "MerfinUI v7.52",
+["Alslalock - Venoxis"] = "MerfinUI v7.48",
+["Alslablue - Venoxis"] = "Default",
+["Endonuclease - Venoxis"] = "MerfinUI v7.4",
+["Alsla - Everlook"] = "Default",
 },
 ["profiles"] = {
 ["MerfinUI v7.52"] = {
@@ -42,6 +42,15 @@ nil,
 },
 },
 ["Default"] = {
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+0,
+},
+},
 ["block"] = {
 ["position"] = {
 "RIGHT",
@@ -51,26 +60,8 @@ nil,
 93.33309936523438,
 },
 },
-["arrow"] = {
-["position"] = {
-"CENTER",
-nil,
-"CENTER",
-0,
-0,
-},
-},
 },
 ["MerfinUI v7.4"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -83,18 +74,18 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.48"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -107,18 +98,18 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.5"] = {
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
-},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -131,9 +122,27 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
+},
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
 },
 },
 ["MerfinUI v7.49"] = {
+["arrow"] = {
+["position"] = {
+"TOP",
+nil,
+"TOP",
+0,
+-350,
+},
+},
 ["block"] = {
 ["fontsize"] = 17,
 ["position"] = {
@@ -146,15 +155,6 @@ nil,
 ["enable"] = false,
 ["height"] = 40,
 ["width"] = 130,
-},
-["arrow"] = {
-["position"] = {
-"TOP",
-nil,
-"TOP",
-0,
--350,
-},
 },
 },
 },
@@ -166,16 +166,16 @@ TomTomWaypointsM = {
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Alslalock - Everlook"] = "Alslalock - Everlook",
-["Alsla - Everlook"] = "Alsla - Everlook",
-["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
-["Alslalu - Venoxis"] = "Alslalu - Venoxis",
-["Alsia - Venoxis"] = "Alsia - Venoxis",
-["Alslablue - Everlook"] = "Alslablue - Everlook",
-["Alslalock - Venoxis"] = "Alslalock - Venoxis",
-["Alslalu - Everlook"] = "Alslalu - Everlook",
-["Alslablue - Venoxis"] = "Alslablue - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alsia - Venoxis"] = "Alsia - Venoxis",
+["Alslalu - Venoxis"] = "Alslalu - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alslablue - Everlook"] = "Alslablue - Everlook",
+["Alslalu - Everlook"] = "Alslalu - Everlook",
+["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alslablue - Venoxis"] = "Alslablue - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Alsla - Everlook"] = "Alsla - Everlook",
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
@@ -186,25 +186,25 @@ TomTomWaypointsM = {
 },
 ["Alslalock - Everlook"] = {
 },
-["Alsla - Everlook"] = {
-},
-["Endonuclease - Venoxis"] = {
-},
-["Alslalu - Venoxis"] = {
+["Kwasimojo - Venoxis"] = {
 },
 ["Alsia - Venoxis"] = {
 },
-["Alslablue - Everlook"] = {
-},
-["Alslalock - Venoxis"] = {
-},
-["Alslalu - Everlook"] = {
-},
-["Alslablue - Venoxis"] = {
+["Alslalu - Venoxis"] = {
 },
 ["Alslahunt - Venoxis"] = {
 },
-["Kwasimojo - Venoxis"] = {
+["Alslablue - Everlook"] = {
+},
+["Alslalu - Everlook"] = {
+},
+["Alslalock - Venoxis"] = {
+},
+["Alslablue - Venoxis"] = {
+},
+["Endonuclease - Venoxis"] = {
+},
+["Alsla - Everlook"] = {
 },
 },
 }

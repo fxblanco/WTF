@@ -1,24 +1,24 @@
 
 SavedClassicDB = {
+["global"] = {
+["version"] = "5.5.1.6",
+["maxQty"] = {
+[390] = 40000,
+[396] = 17600,
+[697] = 33,
+},
+},
 ["profileKeys"] = {
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Alslalock - Everlook"] = "Alslalock - Everlook",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
-["Alslalock - Venoxis"] = "Alslalock - Venoxis",
 ["Alslalu - Everlook"] = "Alslalu - Everlook",
+["Alslalock - Venoxis"] = "Alslalock - Venoxis",
 ["Alslablue - Venoxis"] = "Alslablue - Venoxis",
 ["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Alsla - Everlook"] = "Alsla - Everlook",
-},
-["global"] = {
-["version"] = "5.5.1.6",
-["maxQty"] = {
-[390] = 40000,
-[697] = 33,
-[396] = 17600,
-},
 },
 ["realm"] = {
 ["Everlook"] = {
@@ -40,36 +40,11 @@ SavedClassicDB = {
 ["itemCount"] = {
 },
 ["info3_2"] = "[time]",
-["expMax"] = 93465000,
+["played_total"] = 220893,
 ["lastUpdate"] = 1759356974,
 ["dqResetReal"] = 1759377599,
 ["gearAvgLevel"] = 501,
 ["dqComplete"] = 7,
-["name"] = "Alslablue",
-["frameShow"] = false,
-["dqMax"] = 0,
-["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["heroics"] = {
-},
-["gearEquippedLevel"] = 501,
-["info3"] = true,
-["played_level"] = 149228,
-["info4_2"] = "[time/ffff99]",
-["raids"] = {
-},
-["tsstr"] = "",
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["expPercent"] = 0,
-["restPercent"] = 45,
-["info1"] = true,
-["expRest"] = 0,
-["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
-["subzone"] = "Niuzao Temple",
-["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["worldboss"] = {
-},
-["info1_2"] = "\n[currency:gold/ffee99]",
-["default"] = false,
 ["currencyCount"] = {
 {
 ["quantity"] = 49910,
@@ -116,17 +91,42 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 1120,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 1,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 1120,
 },
 },
-["played_total"] = 220893,
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["default"] = false,
+["info1_2"] = "\n[currency:gold/ffee99]",
+["info3"] = true,
+["worldboss"] = {
+},
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["raids"] = {
+},
+["tsstr"] = "",
+["subzone"] = "Niuzao Temple",
+["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
+["restPercent"] = 45,
+["expRest"] = 0,
+["info4_2"] = "[time/ffff99]",
+["info1"] = true,
+["expPercent"] = 0,
+["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["played_level"] = 149228,
+["gearEquippedLevel"] = 501,
+["heroics"] = {
+},
+["name"] = "Alslablue",
+["expMax"] = 93465000,
 },
 ["Alsla"] = {
 ["coloredName"] = "|cffc41f3bAlsla|r",
@@ -146,16 +146,34 @@ SavedClassicDB = {
 ["itemCount"] = {
 },
 ["info1"] = true,
-["played_total"] = 1791819,
+["expMax"] = 13000000,
 ["subzone"] = "Valley of Strength",
 ["dqResetReal"] = 1758772799,
 ["gearAvgLevel"] = 407,
 ["dqComplete"] = 0,
-["worldboss"] = {
-},
+["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
 ["frameShow"] = false,
 ["dqMax"] = 0,
 ["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["lastUpdate"] = 1758755275,
+["info4"] = true,
+["played_level"] = 884477,
+["expPercent"] = 0,
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["raids"] = {
+},
+["tsstr"] = "",
+["info3"] = true,
+["info3_2"] = "[time]",
+["restPercent"] = 150,
+["info4_2"] = "[time/ffff99]",
+["expRest"] = 13652628,
+["name"] = "Alsla",
+["info3oneline"] = true,
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["heroics"] = {
+},
+["gearEquippedLevel"] = 407,
 ["currencyCount"] = {
 {
 ["quantity"] = 3477,
@@ -201,37 +219,19 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 4000,
 },
 [402] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 4000,
+[789] = {
+["quantity"] = 0,
 },
 },
-["gearEquippedLevel"] = 407,
-["played_level"] = 884477,
-["heroics"] = {
+["worldboss"] = {
 },
-["raids"] = {
-},
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["tsstr"] = "",
-["info3oneline"] = true,
-["name"] = "Alsla",
-["restPercent"] = 150,
-["expRest"] = 13652628,
-["info4_2"] = "[time/ffff99]",
-["info3_2"] = "[time]",
-["info3"] = true,
-["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["expPercent"] = 0,
-["info4"] = true,
-["lastUpdate"] = 1758755275,
-["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
-["expMax"] = 13000000,
+["played_total"] = 1791819,
 },
 ["Alslalock"] = {
 ["coloredName"] = "|cff8787edAlslalock|r",
@@ -293,51 +293,51 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 2290,
 },
 [402] = {
 ["quantity"] = 1,
 },
-[395] = {
-["quantity"] = 2290,
+[789] = {
+["quantity"] = 0,
 },
 },
 ["itemCount"] = {
 },
 ["info1"] = true,
-["played_total"] = 379337,
+["expMax"] = 93465000,
 ["subzone"] = "Silken Fields",
 ["dqResetReal"] = 1758945599,
 ["gearAvgLevel"] = 490,
 ["dqComplete"] = 0,
-["heroics"] = {
-},
+["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
 ["frameShow"] = false,
 ["dqMax"] = 0,
 ["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["worldboss"] = {
-},
-["gearEquippedLevel"] = 490,
+["lastUpdate"] = 1758921867,
+["info4"] = true,
 ["played_level"] = 219035,
-["expPercent"] = 0,
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["info1_2"] = "\n[currency:gold/ffee99]",
 ["raids"] = {
 },
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
 ["tsstr"] = "",
-["info3oneline"] = true,
-["name"] = "Alslalock",
-["restPercent"] = 45,
-["info4_2"] = "[time/ffff99]",
-["expRest"] = 0,
-["info3_2"] = "[time]",
 ["info3"] = true,
+["info3_2"] = "[time]",
+["restPercent"] = 45,
+["expRest"] = 0,
+["info4_2"] = "[time/ffff99]",
+["name"] = "Alslalock",
+["info3oneline"] = true,
 ["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["info1_2"] = "\n[currency:gold/ffee99]",
-["info4"] = true,
-["lastUpdate"] = 1758921867,
-["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
-["expMax"] = 93465000,
+["expPercent"] = 0,
+["gearEquippedLevel"] = 490,
+["worldboss"] = {
+},
+["heroics"] = {
+},
+["played_total"] = 379337,
 },
 ["Alslalu"] = {
 ["coloredName"] = "|cff0070deAlslalu|r",
@@ -345,11 +345,10 @@ SavedClassicDB = {
 ["info2_1"] = "   [color/ffffff][currency:VP] [currency:JP] [currency:conquest] [currency:honor] [currency:Elder] [currency:Lesser] [currency:Ironpaw] [currency:August][color]",
 ["info2"] = true,
 ["info2_2"] = "",
-["info1"] = true,
+["info3oneline"] = true,
 ["level"] = 90,
-["worldboss"] = {
-},
-["played_level"] = 570234,
+["gearEquippedLevel"] = 507,
+["info3_2"] = "[time]",
 ["restXP"] = 0,
 ["tradeSkills"] = {
 },
@@ -357,22 +356,49 @@ SavedClassicDB = {
 ["info4oneline"] = true,
 ["expCurrent"] = 0,
 ["name"] = "Alslalu",
-["info4"] = true,
-["gearEquippedLevel"] = 482,
+["expRest"] = 0,
+["raids"] = {
+},
 ["info1_2"] = "\n[currency:gold/ffee99]",
+["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
+["info4"] = true,
+["itemCount"] = {
+},
+["info1"] = true,
+["played_total"] = 2742450,
+["subzone"] = "Hall of the Crescent Moon",
+["dqResetReal"] = 1759550399,
+["gearAvgLevel"] = 507,
+["dqComplete"] = 1,
+["worldboss"] = {
+},
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["played_level"] = 583270,
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["tsstr"] = "",
+["info3"] = true,
+["expPercent"] = 0,
+["restPercent"] = 0,
+["heroics"] = {
+},
+["info4_2"] = "[time/ffff99]",
 ["default"] = false,
+["lastUpdate"] = 1759531063,
+["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
 ["currencyCount"] = {
 {
-["quantity"] = 4620,
+["quantity"] = 4428,
 },
 {
-["quantity"] = 30,
+["quantity"] = 37,
 },
 {
-["quantity"] = 19,
+["quantity"] = 49,
 },
 [0] = {
-["quantity"] = 46203019,
+["quantity"] = 44283749,
 },
 [396] = {
 ["totalEarned"] = 16000,
@@ -398,52 +424,26 @@ SavedClassicDB = {
 ["quantity"] = 0,
 },
 [390] = {
-["totalEarned"] = 17875,
-["quantity"] = 375,
+["totalEarned"] = 18750,
+["quantity"] = 1250,
 },
 [1901] = {
-["quantity"] = 2285,
+["quantity"] = 3190,
 },
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 657,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 1,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 657,
 },
 },
-["itemCount"] = {
-},
-["info3_2"] = "[time]",
 ["expMax"] = 93465000,
-["subzone"] = "The Golden Terrace",
-["dqResetReal"] = 1759377599,
-["gearAvgLevel"] = 506,
-["dqComplete"] = 0,
-["info3oneline"] = true,
-["frameShow"] = false,
-["dqMax"] = 0,
-["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["info3"] = true,
-["raids"] = {
-},
-["tsstr"] = "",
-["heroics"] = {
-},
-["expPercent"] = 0,
-["restPercent"] = 0,
-["info4_2"] = "[time/ffff99]",
-["expRest"] = 0,
-["lastUpdate"] = 1759357042,
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["dqReset"] = "5 |4Hr:Hr; 51 |4Min:Min;",
-["played_total"] = 2729414,
 },
 },
 ["Venoxis"] = {
@@ -474,43 +474,15 @@ SavedClassicDB = {
 ["itemCount"] = {
 },
 ["info1"] = true,
-["expMax"] = 93465000,
+["played_total"] = 198700,
 ["subzone"] = "Hall of the Crescent Moon",
 ["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
 ["gearAvgLevel"] = 495,
 ["dqComplete"] = 1,
-["info3oneline"] = true,
+["name"] = "Alslablue",
 ["frameShow"] = false,
 ["dqMax"] = 0,
 ["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["lastUpdate"] = 1758752106,
-["dqResetReal"] = 1758772799,
-["expPercent"] = 0,
-["gearEquippedLevel"] = 495,
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["raids"] = {
-{
-["numBoss"] = 6,
-["extended"] = "",
-["difficultyName"] = "25 Player (Heroic)",
-["id"] = 226340305,
-["progress"] = 6,
-["name"] = "Mogu'shan Vaults",
-["reset"] = 1759291473,
-},
-},
-["tsstr"] = "",
-["info3"] = true,
-["heroics"] = {
-},
-["restPercent"] = 0,
-["info4_2"] = "[time/ffff99]",
-["expRest"] = 0,
-["played_level"] = 127035,
-["default"] = false,
-["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["level"] = 90,
-["info3_2"] = "[time]",
 ["currencyCount"] = {
 {
 ["quantity"] = 53260,
@@ -557,18 +529,46 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 480,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 1,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 480,
 },
 },
-["name"] = "Alslablue",
-["played_total"] = 198700,
+["info3_2"] = "[time]",
+["expPercent"] = 0,
+["level"] = 90,
+["raids"] = {
+{
+["reset"] = 1759291473,
+["extended"] = "",
+["name"] = "Mogu'shan Vaults",
+["id"] = 226340305,
+["progress"] = 6,
+["difficultyName"] = "25 Player (Heroic)",
+["numBoss"] = 6,
+},
+},
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["tsstr"] = "",
+["default"] = false,
+["played_level"] = 127035,
+["restPercent"] = 0,
+["expRest"] = 0,
+["info4_2"] = "[time/ffff99]",
+["heroics"] = {
+},
+["info3"] = true,
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["gearEquippedLevel"] = 495,
+["dqResetReal"] = 1758772799,
+["lastUpdate"] = 1758752106,
+["info3oneline"] = true,
+["expMax"] = 93465000,
 },
 ["Alslalock"] = {
 ["coloredName"] = "|cff8787edAlslalock|r",
@@ -589,35 +589,11 @@ SavedClassicDB = {
 ["itemCount"] = {
 },
 ["info3_2"] = "[time]",
-["played_total"] = 379153,
+["expMax"] = 93465000,
 ["lastUpdate"] = 1758832262,
 ["dqResetReal"] = 1758859199,
 ["gearAvgLevel"] = 490,
 ["dqComplete"] = 0,
-["info1_2"] = "\n[currency:gold/ffee99]",
-["frameShow"] = false,
-["dqMax"] = 0,
-["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["subzone"] = "Silken Fields",
-["info1"] = true,
-["info3"] = true,
-["default"] = false,
-["raids"] = {
-},
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["tsstr"] = "",
-["info4"] = true,
-["played_level"] = 218851,
-["restPercent"] = 30,
-["info4_2"] = "[time/ffff99]",
-["expRest"] = 0,
-["level"] = 90,
-["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
-["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["expPercent"] = 0,
-["heroics"] = {
-},
-["gearEquippedLevel"] = 490,
 ["currencyCount"] = {
 {
 ["quantity"] = 990,
@@ -664,17 +640,41 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 2290,
 },
 [402] = {
 ["quantity"] = 1,
 },
-[395] = {
-["quantity"] = 2290,
+[789] = {
+["quantity"] = 0,
 },
 },
-["expMax"] = 93465000,
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["gearEquippedLevel"] = 490,
+["heroics"] = {
+},
+["info3"] = true,
+["expPercent"] = 0,
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["raids"] = {
+},
+["tsstr"] = "",
+["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
+["level"] = 90,
+["restPercent"] = 30,
+["expRest"] = 0,
+["info4_2"] = "[time/ffff99]",
+["played_level"] = 218851,
+["info4"] = true,
+["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["default"] = false,
+["info1"] = true,
+["subzone"] = "Silken Fields",
+["info1_2"] = "\n[currency:gold/ffee99]",
+["played_total"] = 379153,
 },
 ["Alslalu"] = {
 ["coloredName"] = "|cff0070deAlslalu|r",
@@ -694,62 +694,11 @@ SavedClassicDB = {
 ["itemCount"] = {
 },
 ["info1"] = true,
-["expMax"] = 93465000,
+["played_total"] = 2692421,
 ["subzone"] = "Hall of the Crescent Moon",
 ["dqResetReal"] = 1758686399,
 ["gearAvgLevel"] = 499,
 ["dqComplete"] = 0,
-["default"] = false,
-["frameShow"] = false,
-["dqMax"] = 0,
-["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["name"] = "Alslalu",
-["heroics"] = {
-},
-["expPercent"] = 0,
-["info3_2"] = "[time]",
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["raids"] = {
-{
-["reset"] = 1758686742,
-["extended"] = "",
-["name"] = "Heart of Fear",
-["id"] = 226160317,
-["progress"] = 6,
-["difficultyName"] = "10 Player (Heroic)",
-["numBoss"] = 6,
-},
-{
-["reset"] = 1758686742,
-["extended"] = "",
-["name"] = "Terrace of Endless Spring",
-["id"] = 226221134,
-["progress"] = 4,
-["difficultyName"] = "10 Player (Heroic)",
-["numBoss"] = 4,
-},
-},
-["tsstr"] = "",
-["gearEquippedLevel"] = 499,
-["info1_2"] = "\n[currency:gold/ffee99]",
-["restPercent"] = 14,
-["info4_2"] = "[time/ffff99]",
-["expRest"] = 0,
-["lastUpdate"] = 1758666193,
-["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
-["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["played_level"] = 533241,
-["info3"] = true,
-["worldboss"] = {
-[32099] = {
-["name"] = "S",
-["reset"] = 1758686399,
-},
-[32098] = {
-["name"] = "G",
-["reset"] = 1758686399,
-},
-},
 ["currencyCount"] = {
 {
 ["quantity"] = 3286,
@@ -796,17 +745,68 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 4000,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 1,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 4000,
 },
 },
-["played_total"] = 2692421,
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["worldboss"] = {
+[32099] = {
+["name"] = "S",
+["reset"] = 1758686399,
+},
+[32098] = {
+["name"] = "G",
+["reset"] = 1758686399,
+},
+},
+["expPercent"] = 0,
+["info3"] = true,
+["played_level"] = 533241,
+["raids"] = {
+{
+["numBoss"] = 6,
+["extended"] = "",
+["difficultyName"] = "10 Player (Heroic)",
+["id"] = 226160317,
+["progress"] = 6,
+["name"] = "Heart of Fear",
+["reset"] = 1758686742,
+},
+{
+["numBoss"] = 4,
+["extended"] = "",
+["difficultyName"] = "10 Player (Heroic)",
+["id"] = 226221134,
+["progress"] = 4,
+["name"] = "Terrace of Endless Spring",
+["reset"] = 1758686742,
+},
+},
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["tsstr"] = "",
+["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
+["lastUpdate"] = 1758666193,
+["restPercent"] = 14,
+["expRest"] = 0,
+["info4_2"] = "[time/ffff99]",
+["info1_2"] = "\n[currency:gold/ffee99]",
+["gearEquippedLevel"] = 499,
+["info1_1"] = "\n[color/00ff00]■[color] [[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["info3_2"] = "[time]",
+["heroics"] = {
+},
+["name"] = "Alslalu",
+["default"] = false,
+["expMax"] = 93465000,
 },
 ["Alsia"] = {
 ["coloredName"] = "|cfff58cbaAlsia|r",
@@ -831,24 +831,10 @@ SavedClassicDB = {
 ["frameShow"] = false,
 ["dqMax"] = 0,
 ["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["expMax"] = 13000000,
+["played_total"] = 5074384,
 ["played_level"] = 803337,
-["expPercent"] = 0,
-["raids"] = {
+["worldboss"] = {
 },
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["lastUpdate"] = 1758754905,
-["info3"] = true,
-["info3_2"] = "[time]",
-["info4"] = true,
-["expRest"] = 19500000,
-["info4_2"] = "[time/ffff99]",
-["name"] = "Alsia",
-["info3oneline"] = true,
-["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["heroics"] = {
-},
-["gearEquippedLevel"] = 407,
 ["currencyCount"] = {
 {
 ["quantity"] = 802,
@@ -893,19 +879,33 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 4000,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 0,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 4000,
 },
 },
-["worldboss"] = {
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["gearEquippedLevel"] = 407,
+["heroics"] = {
 },
-["played_total"] = 5074384,
+["info3_2"] = "[time]",
+["info3oneline"] = true,
+["name"] = "Alsia",
+["info4_2"] = "[time/ffff99]",
+["expRest"] = 19500000,
+["info4"] = true,
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["info3"] = true,
+["lastUpdate"] = 1758754905,
+["raids"] = {
+},
+["expPercent"] = 0,
+["expMax"] = 13000000,
 },
 ["Alslahunt"] = {
 ["coloredName"] = "|cffabd473Alslahunt|r",
@@ -926,11 +926,35 @@ SavedClassicDB = {
 ["itemCount"] = {
 },
 ["info3_2"] = "[time]",
-["expMax"] = 13000000,
+["played_total"] = 605988,
 ["lastUpdate"] = 1758487143,
 ["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
 ["gearAvgLevel"] = 403,
 ["dqComplete"] = 0,
+["gearEquippedLevel"] = 402,
+["frameShow"] = false,
+["dqMax"] = 0,
+["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
+["subzone"] = "Valley of Honor",
+["dqResetReal"] = 1758513599,
+["expPercent"] = 0,
+["heroics"] = {
+},
+["info3"] = true,
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["tsstr"] = "",
+["level"] = 85,
+["raids"] = {
+},
+["restPercent"] = 150,
+["info4_2"] = "[time/ffff99]",
+["expRest"] = 19500000,
+["played_level"] = 529526,
+["info1_2"] = "\n[currency:gold/ffee99]",
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["info4"] = true,
+["info1"] = true,
+["default"] = false,
 ["currencyCount"] = {
 {
 ["quantity"] = 29,
@@ -975,41 +999,17 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 1100,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 0,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 1100,
 },
 },
-["frameShow"] = false,
-["dqMax"] = 0,
-["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["default"] = false,
-["info1"] = true,
-["expPercent"] = 0,
-["info4"] = true,
-["info3"] = true,
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["tsstr"] = "",
-["info1_2"] = "\n[currency:gold/ffee99]",
-["played_level"] = 529526,
-["restPercent"] = 150,
-["expRest"] = 19500000,
-["info4_2"] = "[time/ffff99]",
-["raids"] = {
-},
-["level"] = 85,
-["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["heroics"] = {
-},
-["dqResetReal"] = 1758513599,
-["subzone"] = "Valley of Honor",
-["gearEquippedLevel"] = 402,
-["played_total"] = 605988,
+["expMax"] = 13000000,
 },
 ["Alsía"] = {
 ["coloredName"] = "|cfff58cbaAlsía|r",
@@ -1071,50 +1071,50 @@ SavedClassicDB = {
 [752] = {
 ["quantity"] = 0,
 },
-[395] = {
-["quantity"] = 4000,
+[789] = {
+["quantity"] = 0,
 },
 [402] = {
 ["quantity"] = 0,
 },
-[789] = {
-["quantity"] = 0,
+[395] = {
+["quantity"] = 4000,
 },
 },
 ["itemCount"] = {
 },
 ["info3_2"] = "[time]",
-["expMax"] = 13000000,
+["played_total"] = 1011243,
 ["subzone"] = "Valley of Strength",
 ["dqResetReal"] = 1758772799,
 ["gearAvgLevel"] = 410,
 ["dqComplete"] = 0,
-["info4"] = true,
+["level"] = 85,
 ["frameShow"] = false,
 ["dqMax"] = 0,
 ["info4_1"] = "   [color/ffff99][instName] ([difficulty]) [progress]/[bosses][/color]",
-["info1_2"] = "\n[currency:gold/ffee99]",
-["info1"] = true,
-["played_level"] = 564617,
-["default"] = false,
-["raids"] = {
-},
-["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
-["tsstr"] = "",
-["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
-["info3oneline"] = true,
-["restPercent"] = 150,
-["expRest"] = 19500000,
-["info4_2"] = "[time/ffff99]",
-["lastUpdate"] = 1758754484,
-["info3"] = true,
-["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
-["expPercent"] = 0,
+["gearEquippedLevel"] = 405,
 ["heroics"] = {
 },
-["gearEquippedLevel"] = 405,
-["level"] = 85,
-["played_total"] = 1011243,
+["played_level"] = 564617,
+["expPercent"] = 0,
+["info3_1"] = "   [instName] ([difficulty]) [progress]/[bosses]",
+["raids"] = {
+},
+["tsstr"] = "",
+["info3"] = true,
+["lastUpdate"] = 1758754484,
+["restPercent"] = 150,
+["info4_2"] = "[time/ffff99]",
+["expRest"] = 19500000,
+["info3oneline"] = true,
+["dqReset"] = "5 |4Hr:Hr; 46 |4Min:Min;",
+["info1_1"] = "\n[color/00ff00]■[color] [[level/ffffff]:[name]] [ilvl] [color/ffffff]([zone]: [subzone])[color]",
+["default"] = false,
+["info1"] = true,
+["info1_2"] = "\n[currency:gold/ffee99]",
+["info4"] = true,
+["expMax"] = 13000000,
 },
 },
 },

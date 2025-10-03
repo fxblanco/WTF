@@ -7,19 +7,20 @@ GladiusExDB = {
 ["modules"] = {
 ["Clicks"] = false,
 },
+["margin"] = 29,
 ["y"] = {
-["anchor_arena"] = 394.5333809891235,
-["arena2"] = 486.0216301912296,
-["arena3"] = 401.7922012702038,
-["arena1"] = 570.2510591122555,
+["anchor_arena"] = 275.7778518979012,
+["arena2"] = 293.0578731266905,
+["arena3"] = 208.8178767530371,
+["arena1"] = 377.2978255550333,
 },
 ["x"] = {
-["anchor_arena"] = 915.6662286050414,
-["arena2"] = 1134.854376674906,
-["arena3"] = 1134.854376674906,
-["arena1"] = 1134.854376674906,
+["anchor_arena"] = 970.0672433969885,
+["arena2"] = 1016.147329303967,
+["arena3"] = 1016.147329303967,
+["arena1"] = 1016.147329303967,
 },
-["frameScale"] = 0.75,
+["frameScale"] = 0.8,
 ["barWidth"] = 112,
 },
 },
@@ -27,17 +28,34 @@ GladiusExDB = {
 ["party"] = {
 ["profiles"] = {
 ["Default"] = {
+["margin"] = 14,
 ["y"] = {
-["anchor_party"] = 438.2666998156783,
-["player"] = 538.1666971692321,
-["party2"] = 377.9667288789024,
-["party1"] = 458.0666992911574,
+["anchor_party"] = 302.799911281536,
+["player"] = 388.1199295813531,
+["party2"] = 248.4399136216143,
+["party1"] = 318.2799325878114,
 },
 ["x"] = {
-["anchor_party"] = 221.7110857404314,
-["player"] = 297.3111524022643,
-["party2"] = 297.3111524022643,
-["party1"] = 297.3111524022643,
+["anchor_party"] = 185.8001360446815,
+["player"] = 245.5601993901109,
+["party2"] = 245.5601993901109,
+["party1"] = 245.5601993901109,
+},
+["frameScale"] = 0.8,
+},
+},
+},
+["party_Clicks"] = {
+["profiles"] = {
+["Default"] = {
+["clickAttributes"] = {
+["Left"] = {
+["macro"] = "Healing Surge",
+["action"] = "spell",
+},
+["Right"] = {
+["macro"] = "Cleanse Spirit",
+},
 },
 },
 },
@@ -81,8 +99,9 @@ GladiusExDB = {
 ["profiles"] = {
 ["Default"] = {
 ["globalFont"] = "Merfin Raid Font",
-["globalBarTexture"] = "MerfinMainDark",
-["locked"] = true,
+["globalBarTexture"] = "Solid",
+["globalFontSize"] = 9,
+["hideSelf"] = true,
 },
 },
 }

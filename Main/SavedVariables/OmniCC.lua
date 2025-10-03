@@ -71,7 +71,6 @@ OmniCCDB = {
 ["minutes"] = {
 },
 },
-["enableText"] = false,
 },
 },
 },

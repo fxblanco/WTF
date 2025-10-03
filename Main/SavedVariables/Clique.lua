@@ -9,9 +9,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alslalu - Venoxis",
-["specswap"] = false,
 ["spec3_profileKey"] = "Alslalu - Venoxis",
+["specswap"] = false,
+["spec2_profileKey"] = "Alslalu - Venoxis",
 },
 ["Alslahunt - Venoxis"] = {
 ["spec1_profileKey"] = "Alslahunt - Venoxis",
@@ -20,31 +20,31 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alslahunt - Venoxis",
-["specswap"] = false,
 ["spec3_profileKey"] = "Alslahunt - Venoxis",
+["specswap"] = false,
+["spec2_profileKey"] = "Alslahunt - Venoxis",
 },
 ["Alslablue - Everlook"] = {
 ["spec1_profileKey"] = "Alslablue - Everlook",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
+["downclick"] = false,
 ["fastooc"] = false,
 ["spec3_profileKey"] = "Alslablue - Everlook",
-["downclick"] = false,
-["spec2_profileKey"] = "Alslablue - Everlook",
 ["specswap"] = false,
+["spec2_profileKey"] = "Alslablue - Everlook",
 },
 ["Alslalu - Everlook"] = {
 ["spec1_profileKey"] = "Alslalu - Everlook",
 ["blizzframes"] = {
 ["statusBarFix"] = false,
 },
-["downclick"] = false,
 ["fastooc"] = false,
-["spec2_profileKey"] = "Alslalu - Everlook",
-["specswap"] = false,
 ["spec3_profileKey"] = "Alslalu - Everlook",
+["downclick"] = false,
+["specswap"] = false,
+["spec2_profileKey"] = "Alslalu - Everlook",
 },
 ["Alslalock - Venoxis"] = {
 ["spec1_profileKey"] = "Alslalock - Venoxis",
@@ -53,9 +53,9 @@ CliqueDB3 = {
 },
 ["downclick"] = false,
 ["fastooc"] = false,
-["specswap"] = false,
-["spec2_profileKey"] = "Alslalock - Venoxis",
 ["spec3_profileKey"] = "Alslalock - Venoxis",
+["spec2_profileKey"] = "Alslalock - Venoxis",
+["specswap"] = false,
 },
 },
 ["profileKeys"] = {
@@ -63,25 +63,25 @@ CliqueDB3 = {
 ["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Alslalock - Everlook"] = "Alslalock - Everlook",
-["Alsla - Everlook"] = "Alsla - Everlook",
-["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
-["Alslalock - Venoxis"] = "Alslalock - Venoxis",
 ["Alslalu - Everlook"] = "Alslalu - Everlook",
+["Alslalock - Venoxis"] = "Alslalock - Venoxis",
 ["Alslablue - Venoxis"] = "Alslablue - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
-["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Alsla - Everlook"] = "Alsla - Everlook",
 },
 ["profiles"] = {
 ["Alsla - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -97,10 +97,10 @@ CliqueDB3 = {
 ["Alsía - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -125,10 +125,10 @@ CliqueDB3 = {
 ["Exonuklease - Venoxis"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -144,6 +144,25 @@ CliqueDB3 = {
 ["Alslalock - Everlook"] = {
 ["bindings"] = {
 {
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Kwasimojo - Venoxis"] = {
+["bindings"] = {
+{
 ["type"] = "target",
 ["sets"] = {
 ["default"] = true,
@@ -160,7 +179,7 @@ CliqueDB3 = {
 },
 },
 },
-["Alsla - Everlook"] = {
+["Alslahunt - Venoxis"] = {
 ["bindings"] = {
 {
 ["sets"] = {
@@ -177,24 +196,14 @@ CliqueDB3 = {
 ["default"] = true,
 },
 },
-},
-},
-["Endonuclease - Venoxis"] = {
-["bindings"] = {
 {
+["spell"] = "Misdirection",
+["key"] = "SHIFT-BUTTON1",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
+["icon"] = 132180,
+["type"] = "spell",
 },
 },
 },
@@ -228,12 +237,12 @@ CliqueDB3 = {
 ["type"] = "spell",
 },
 {
+["icon"] = 132212,
 ["type"] = "menu",
+["key"] = "ALT-BUTTON2",
 ["sets"] = {
 ["default"] = true,
 },
-["key"] = "ALT-BUTTON2",
-["icon"] = 132212,
 },
 {
 ["spell"] = "Earth Shield",
@@ -285,10 +294,10 @@ CliqueDB3 = {
 ["Alsia - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -304,10 +313,29 @@ CliqueDB3 = {
 ["Alslablue - Everlook"] = {
 ["bindings"] = {
 {
-["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
+["type"] = "target",
+["key"] = "BUTTON1",
+["unit"] = "mouseover",
+},
+{
+["type"] = "menu",
+["key"] = "BUTTON2",
+["sets"] = {
+["default"] = true,
+},
+},
+},
+},
+["Alslalu - Everlook"] = {
+["bindings"] = {
+{
+["sets"] = {
+["default"] = true,
+},
+["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -323,10 +351,10 @@ CliqueDB3 = {
 ["Alslalock - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -348,32 +376,13 @@ CliqueDB3 = {
 },
 },
 },
-["Alslalu - Everlook"] = {
-["bindings"] = {
-{
-["type"] = "target",
-["sets"] = {
-["default"] = true,
-},
-["key"] = "BUTTON1",
-["unit"] = "mouseover",
-},
-{
-["type"] = "menu",
-["key"] = "BUTTON2",
-["sets"] = {
-["default"] = true,
-},
-},
-},
-},
 ["Alslablue - Venoxis"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
@@ -395,7 +404,7 @@ CliqueDB3 = {
 },
 },
 },
-["Alslahunt - Venoxis"] = {
+["Endonuclease - Venoxis"] = {
 ["bindings"] = {
 {
 ["type"] = "target",
@@ -412,24 +421,15 @@ CliqueDB3 = {
 ["default"] = true,
 },
 },
-{
-["spell"] = "Misdirection",
-["key"] = "SHIFT-BUTTON1",
-["sets"] = {
-["default"] = true,
-},
-["icon"] = 132180,
-["type"] = "spell",
 },
 },
-},
-["Kwasimojo - Venoxis"] = {
+["Alsla - Everlook"] = {
 ["bindings"] = {
 {
+["type"] = "target",
 ["sets"] = {
 ["default"] = true,
 },
-["type"] = "target",
 ["key"] = "BUTTON1",
 ["unit"] = "mouseover",
 },
