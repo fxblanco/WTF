@@ -68,6 +68,16 @@ VER 3 000000000000002B "RXPTargeting" "132150"
 /targetexact Korven the Prime
 /targetlasttarget [dead]
 END
+VER 3 0000000000000038 "SHA_HealBaaam" "INV_Misc_QuestionMark"
+#showtooltip Healing Surge
+/tar Tsulong
+/use Potion of the Jade Serpent
+/cast Lifebloom
+/cast Ascendance
+/cast Elemental Mastery
+/use 10
+/cast Healing Surge
+END
 VER 3 000000000000002D "Spine" "134400"
 /target boss2
 /use [@boss2,exists] Metamorphosis

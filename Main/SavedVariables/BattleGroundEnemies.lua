@@ -4,6 +4,7 @@ BattleGroundEnemiesDB = {
 ["Alslalu - Venoxis"] = "Default",
 ["Alslahunt - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
+["Alslalu - Ook Ook"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
 ["Alslalu - Everlook"] = "Default",
 ["Alslablue - Everlook"] = "Default",

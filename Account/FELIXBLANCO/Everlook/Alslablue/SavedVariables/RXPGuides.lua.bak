@@ -1268,7 +1268,7 @@ true,
 [75] = true,
 [46] = true,
 [62] = true,
-[5] = true,
+[76] = true,
 [10] = true,
 [93] = true,
 [16] = true,
@@ -1293,7 +1293,7 @@ true,
 [103] = true,
 [4] = true,
 [91] = true,
-[76] = true,
+[5] = true,
 [67] = true,
 },
 ["currentStepId"] = 2961575429,
@@ -1564,7 +1564,7 @@ RXPCTrackingData = {
 ["levels"] = {
 [90] = {
 ["groupExperience"] = 0,
-["deaths"] = 0,
+["deaths"] = 4,
 ["mobs"] = {
 },
 ["timestamp"] = {
@@ -1669,6 +1669,16 @@ RXPCComms = {
 },
 ["profiles"] = {
 ["Alslablue - Everlook"] = {
+["players"] = {
+["Alslablue"] = {
+["isRxp"] = true,
+["lastSeen"] = 9165.856,
+["xpPercentage"] = 0,
+["level"] = 90,
+["timePlayed"] = 0,
+["class"] = "SHAMAN",
+},
+},
 },
 ["Alslablue - Venoxis"] = {
 ["announcements"] = {
@@ -1687,36 +1697,36 @@ RXPCComms = {
 },
 ["players"] = {
 ["Sinthâ"] = {
-["class"] = "DEATHKNIGHT",
+["level"] = 90,
 ["lastSeen"] = 12014.674,
 ["xpPercentage"] = 0,
-["isRxp"] = true,
+["class"] = "DEATHKNIGHT",
 ["timePlayed"] = 0,
-["level"] = 90,
+["isRxp"] = true,
 },
 ["Sinthw"] = {
-["class"] = "WARRIOR",
+["level"] = 90,
 ["lastSeen"] = 12231.74,
 ["xpPercentage"] = 0,
-["isRxp"] = true,
+["class"] = "WARRIOR",
 ["timePlayed"] = 0,
-["level"] = 90,
+["isRxp"] = true,
 },
 ["Monkreached"] = {
-["class"] = "MONK",
+["level"] = 90,
 ["lastSeen"] = 12231.974,
 ["xpPercentage"] = 0,
-["isRxp"] = true,
+["class"] = "MONK",
 ["timePlayed"] = 0,
-["level"] = 90,
+["isRxp"] = true,
 },
 ["Kriscu"] = {
-["level"] = 88,
+["isRxp"] = true,
 ["lastSeen"] = 341199.69,
 ["xpPercentage"] = 23,
-["class"] = "SHAMAN",
+["level"] = 88,
 ["timePlayed"] = 0,
-["isRxp"] = true,
+["class"] = "SHAMAN",
 },
 },
 },

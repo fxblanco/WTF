@@ -6,8 +6,9 @@ OmniCCDB = {
 },
 ["profileKeys"] = {
 ["Alslalu - Venoxis"] = "Default",
-["Alslalu - Everlook"] = "Default",
 ["Alslablue - Everlook"] = "Default",
+["Alslalu - Everlook"] = "Default",
+["Alslalu - Ook Ook"] = "Default",
 ["Alsla - Everlook"] = "Default",
 },
 ["profiles"] = {

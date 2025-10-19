@@ -24,7 +24,7 @@ VER 3 0100000001000215 "ENH_lb" "134400"
 END
 VER 3 0100000001000224 "ENH_Q" "134400"
 #showtooltip
-/cast [mod:shift; @mouseover] Healing Surge; Lava Lash
+/cast [mod:shift,@mouseover,exists,nodead] Healing Surge; Lava Lash
 END
 VER 3 0100000001000218 "ENH_SS" "134400"
 #showtooltip Stormstrike
@@ -39,8 +39,7 @@ END
 VER 3 0100000001000223 "FROG" "134400"
 #showtooltip
 /stopcasting
-/cast [mod:shift, @mouseover] Hex; [@focus] Hex
-/cast Hex
+/cast [mod:shift, @mouseover] Hex;  [mod:ctrl, @focus] Hex; Hex
 END
 VER 3 0100000001000221 "HEAL_G" "134400"
 #showtooltip

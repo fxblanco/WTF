@@ -34,6 +34,13 @@ X: 0
 Y: 128
 W: 200
 H: 50
+Frame: SimpleAddonManager
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 21
+W: 470
+H: 400
 Frame: DevToolFrame
 FrameLevel: 1
 Anchor: CENTER

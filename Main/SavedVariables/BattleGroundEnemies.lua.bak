@@ -5,8 +5,9 @@ BattleGroundEnemiesDB = {
 ["Alslahunt - Venoxis"] = "Default",
 ["Alsía - Venoxis"] = "Default",
 ["Alslalock - Venoxis"] = "Default",
-["Alslalu - Everlook"] = "Default",
+["Alslalu - Ook Ook"] = "Default",
 ["Alslablue - Everlook"] = "Default",
+["Alslalu - Everlook"] = "Default",
 ["Alsla - Everlook"] = "Default",
 },
 ["profiles"] = {
@@ -21,10 +22,10 @@ BattleGroundEnemiesDB = {
 nil,
 {
 ["BarVerticalSpacing"] = 10,
-["BarHeight"] = 30,
-["Position_X"] = 806.3112399690726,
-["Position_Y"] = 548.8000286221504,
-["BarWidth"] = 138,
+["BarHeight"] = 25,
+["Position_X"] = 1148.710772792212,
+["Position_Y"] = 529.2445355403543,
+["BarWidth"] = 117,
 },
 {
 ["ButtonModules"] = {

@@ -1,33 +1,30 @@
 
 DevToolDatabase = {
 ["profileKeys"] = {
-["Alsla - Venoxis"] = "Alsla - Venoxis",
-["Alsía - Venoxis"] = "Alsía - Venoxis",
+["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
 ["Exonuklease - Venoxis"] = "Exonuklease - Venoxis",
 ["Alslalock - Everlook"] = "Alslalock - Everlook",
-["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
-["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
 ["Alslalu - Venoxis"] = "Alslalu - Venoxis",
 ["Alsia - Venoxis"] = "Alsia - Venoxis",
 ["Alslablue - Everlook"] = "Alslablue - Everlook",
-["Alslalu - Everlook"] = "Alslalu - Everlook",
+["Kwasimojo - Venoxis"] = "Kwasimojo - Venoxis",
+["Alsla - Venoxis"] = "Alsla - Venoxis",
+["Alslablue - Ook Ook"] = "Alslablue - Ook Ook",
+["Alslahunt - Venoxis"] = "Alslahunt - Venoxis",
+["Alslalu - Ook Ook"] = "Alslalu - Ook Ook",
 ["Alslalock - Venoxis"] = "Alslalock - Venoxis",
+["Alslalock - Ook Ook"] = "Alslalock - Ook Ook",
+["Alslalu - Everlook"] = "Alslalu - Everlook",
 ["Alslablue - Venoxis"] = "Alslablue - Venoxis",
-["Endonuclease - Venoxis"] = "Endonuclease - Venoxis",
+["Alsía - Venoxis"] = "Alsía - Venoxis",
 ["Alsla - Everlook"] = "Alsla - Everlook",
 },
 ["profiles"] = {
-["Alsla - Venoxis"] = {
-},
-["Alsía - Venoxis"] = {
+["Endonuclease - Venoxis"] = {
 },
 ["Exonuklease - Venoxis"] = {
 },
 ["Alslalock - Everlook"] = {
-},
-["Kwasimojo - Venoxis"] = {
-},
-["Alslahunt - Venoxis"] = {
 },
 ["Alslalu - Venoxis"] = {
 },
@@ -35,13 +32,25 @@ DevToolDatabase = {
 },
 ["Alslablue - Everlook"] = {
 },
-["Alslalu - Everlook"] = {
+["Kwasimojo - Venoxis"] = {
+},
+["Alsla - Venoxis"] = {
+},
+["Alslablue - Ook Ook"] = {
+},
+["Alslahunt - Venoxis"] = {
+},
+["Alslalu - Ook Ook"] = {
 },
 ["Alslalock - Venoxis"] = {
 },
+["Alslalock - Ook Ook"] = {
+},
+["Alslalu - Everlook"] = {
+},
 ["Alslablue - Venoxis"] = {
 },
-["Endonuclease - Venoxis"] = {
+["Alsía - Venoxis"] = {
 },
 ["Alsla - Everlook"] = {
 },
